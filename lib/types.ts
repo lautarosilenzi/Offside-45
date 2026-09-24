@@ -4,15 +4,48 @@ export type Team = {
   shortName: string;
   primary: string;
   secondary: string;
+  // Clubes que ya no existen o no juegan más al fútbol en AFA.
+  historic?: boolean;
+  fullName?: string;
 };
 
 export type Source = "rsssf" | "wikipedia-es" | "wikipedia-en";
+
+// "league": suma en la tabla del torneo. "playoff": desempate o final. "cup": copa nacional.
+export type Phase = "league" | "playoff" | "cup";
+
+export type TableRow = {
+  teamId: string;
+  played: number;
+  won: number;
+  drawn: number;
+  lost: number;
+  goalsFor: number;
+  goalsAgainst: number;
+  points: number;
+};
+
+export type Season = {
+  year: number;
+  title: string;
+  championIds: string[];
+  summary: string;
+  pointsPerWin: number;
+  sources: { label: string; url: string }[];
+  notes: string[];
+  // Equipos inscriptos que no jugaron ningún partido.
+  withdrawn?: string[];
+  // Tabla tal como la publica la fuente, para verificar contra la calculada.
+  publishedTable: TableRow[];
+  matches: Match[];
+};
 
 export type Match = {
   id: string;
   date: string; // ISO yyyy-mm-dd
   competition: string;
   stage?: string;
+  phase?: Phase;
   venue: string;
   homeId: string;
   awayId: string;

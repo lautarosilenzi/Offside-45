@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { CLASICOS, getTeam } from "@/lib/teams";
 import { computeStats, getHeadToHead, isCounted } from "@/lib/matches";
+import { SEASONS } from "@/lib/seasons";
 import TeamSelect from "./TeamSelect";
 import StatsCard from "./StatsCard";
 import MatchCard from "./MatchCard";
@@ -75,8 +76,9 @@ export default function HeadToHead() {
         <>
           <StatsCard a={a} b={b} stats={stats} />
           <p className="-mt-4 rounded-xl bg-brand-50 px-4 py-3 text-xs leading-relaxed text-brand-700">
-            Historial verificado de la <strong>era amateur (hasta 1930)</strong>: liga y copas nacionales oficiales,
-            cruzando RSSSF y Wikipedia. El profesionalismo se está cargando.
+            Temporadas completas cargadas: <strong>{SEASONS.map((s) => s.year).join(", ")}</strong>. Además están
+            verificados los clásicos River–Boca, Racing–Independiente y San Lorenzo–Huracán hasta 1930. Todo cruzando
+            RSSSF y Wikipedia; el resto de los años se va cargando temporada por temporada.
             {annulledCount > 0 &&
               ` ${annulledCount === 1 ? "Hay 1 partido" : `Hay ${annulledCount} partidos`} de torneos anulados que se muestran pero no suman.`}
           </p>

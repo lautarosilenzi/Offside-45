@@ -1,8 +1,17 @@
 import type { HeadToHeadStats, Match } from "./types";
 import { AMATEUR_MATCHES } from "./data/amateur";
+import { LOADED_YEARS, SEASON_MATCHES } from "./seasons";
 
-// Solo partidos verificados. Más adelante esto pasa a una tabla en Supabase.
-export const MATCHES: Match[] = [...AMATEUR_MATCHES];
+const yearOf = (m: Match) => Number(m.date.slice(0, 4));
+
+// Las temporadas completas (lib/data/seasons) reemplazan a los clásicos sueltos de ese año.
+// Más adelante esto pasa a una tabla en Supabase.
+export const MATCHES: Match[] = [
+  ...SEASON_MATCHES,
+  ...AMATEUR_MATCHES.filter((m) => !LOADED_YEARS.has(yearOf(m))),
+];
+
+export const TEAM_IDS_WITH_MATCHES = new Set(MATCHES.flatMap((m) => [m.homeId, m.awayId]));
 
 export const isCounted = (m: Match) => m.status !== "annulled";
 

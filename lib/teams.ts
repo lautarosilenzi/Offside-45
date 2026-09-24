@@ -22,7 +22,30 @@ export const TEAMS: Team[] = [
   { id: "platense", name: "Platense", shortName: "PLA", primary: "#5B3A29", secondary: "#FFFFFF" },
 ];
 
-export const getTeam = (id: string) => TEAMS.find((t) => t.id === id);
+// Clubes que jugaron en Primera y ya no existen (o dejaron el fútbol de AFA).
+// Colores neutros: no inventamos colores que no están documentados.
+const historic = (id: string, name: string, shortName: string, fullName: string): Team => ({
+  id,
+  name,
+  shortName,
+  fullName,
+  primary: "#64748B",
+  secondary: "#E2E8F0",
+  historic: true,
+});
+
+export const HISTORIC_TEAMS: Team[] = [
+  historic("saint-andrews", "Saint Andrew's", "STA", "Saint Andrew's Athletic Club"),
+  historic("caledonians", "Caledonians", "CAL", "Caledonians Club"),
+  historic("ba-rosario-railway", "BA & Rosario Railway", "BAR", "Buenos Aires & Rosario Railway Athletic Club"),
+  historic("buenos-aires-fc", "Buenos Aires FC", "BAF", "Buenos Aires Football Club"),
+  historic("belgrano-fc", "Belgrano FC", "BFC", "Belgrano Football Club (1891)"),
+  historic("hurlingham", "Hurlingham FC", "HGM", "Hurlingham Football Club"),
+];
+
+const ALL_TEAMS = [...TEAMS, ...HISTORIC_TEAMS];
+
+export const getTeam = (id: string) => ALL_TEAMS.find((t) => t.id === id);
 
 export const CLASICOS: { label: string; a: string; b: string }[] = [
   { label: "Superclásico", a: "river", b: "boca" },
