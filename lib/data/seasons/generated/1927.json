@@ -1,0 +1,8534 @@
+{
+ "slug": "1927",
+ "year": 1927,
+ "title": "Campeonato 1927",
+ "tournament": "Copa Campeonato 1927",
+ "organizer": "Asociación Amateurs Argentina de Football (fusión de las dos ligas)",
+ "championIds": [
+  "sanlorenzo"
+ ],
+ "summary": "Primer torneo de la liga reunificada, con 34 equipos a una rueda. Boca terminó su campaña primero al 31 de diciembre, pero San Lorenzo tenía seis partidos pendientes: ganó los cinco últimos y fue campeón por un punto, con el 3-1 a Barracas Central del 12 de febrero de 1928.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1927",
+   "url": "https://www.rsssf.org/tablesa/arg27.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1927 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1927_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a una rueda entre 34 equipos, 2 puntos por victoria. Terminó en febrero de 1928."
+  },
+  {
+   "kind": "puntos",
+   "text": "Talleres (RdE) le ganó 2-1 a Banfield en la primera fecha, pero después perdió los puntos y además le descontaron 2."
+  },
+  {
+   "kind": "descalificacion",
+   "text": "Defensores de Belgrano y Tigre empataron el puesto 30 y jugaron un desempate en abril de 1928 (1-1 y 1-0 para Defensores); no suma en la tabla."
+  },
+  {
+   "kind": "identidad",
+   "text": "Se armó con los 26 equipos de la Asociación Amateurs de 1926, siete de la Asociación Argentina (Argentino de Quilmes, Argentinos Juniors, Boca Juniors, Chacarita Juniors, Huracán, Porteño y San Fernando) y Sportivo Barracas, reincorporado."
+  },
+  {
+   "kind": "dato",
+   "text": "No hubo descensos: el reglamento protegía a los clubes que habían jugado el campeonato de 1919."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "talleres-re",
+   "points": -2,
+   "reason": "Sanción: además de perder por escritorio el partido con Banfield."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "sanlorenzo",
+   "played": 33,
+   "won": 26,
+   "drawn": 5,
+   "lost": 2,
+   "goalsFor": 86,
+   "goalsAgainst": 26,
+   "points": 57
+  },
+  {
+   "teamId": "boca",
+   "played": 33,
+   "won": 25,
+   "drawn": 6,
+   "lost": 2,
+   "goalsFor": 79,
+   "goalsAgainst": 22,
+   "points": 56
+  },
+  {
+   "teamId": "lanus",
+   "played": 33,
+   "won": 22,
+   "drawn": 6,
+   "lost": 5,
+   "goalsFor": 52,
+   "goalsAgainst": 25,
+   "points": 50
+  },
+  {
+   "teamId": "ferro",
+   "played": 33,
+   "won": 19,
+   "drawn": 9,
+   "lost": 5,
+   "goalsFor": 58,
+   "goalsAgainst": 36,
+   "points": 47
+  },
+  {
+   "teamId": "huracan",
+   "played": 33,
+   "won": 18,
+   "drawn": 8,
+   "lost": 7,
+   "goalsFor": 58,
+   "goalsAgainst": 28,
+   "points": 44
+  },
+  {
+   "teamId": "independiente",
+   "played": 33,
+   "won": 20,
+   "drawn": 4,
+   "lost": 9,
+   "goalsFor": 65,
+   "goalsAgainst": 39,
+   "points": 44
+  },
+  {
+   "teamId": "racing",
+   "played": 33,
+   "won": 18,
+   "drawn": 5,
+   "lost": 10,
+   "goalsFor": 66,
+   "goalsAgainst": 42,
+   "points": 41
+  },
+  {
+   "teamId": "sportivo-barracas",
+   "played": 33,
+   "won": 17,
+   "drawn": 7,
+   "lost": 9,
+   "goalsFor": 56,
+   "goalsAgainst": 39,
+   "points": 41
+  },
+  {
+   "teamId": "sportivo-palermo",
+   "played": 33,
+   "won": 17,
+   "drawn": 7,
+   "lost": 9,
+   "goalsFor": 50,
+   "goalsAgainst": 34,
+   "points": 41
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 33,
+   "won": 15,
+   "drawn": 10,
+   "lost": 8,
+   "goalsFor": 69,
+   "goalsAgainst": 46,
+   "points": 40
+  },
+  {
+   "teamId": "river",
+   "played": 33,
+   "won": 17,
+   "drawn": 6,
+   "lost": 10,
+   "goalsFor": 53,
+   "goalsAgainst": 35,
+   "points": 40
+  },
+  {
+   "teamId": "quilmes",
+   "played": 33,
+   "won": 16,
+   "drawn": 7,
+   "lost": 10,
+   "goalsFor": 62,
+   "goalsAgainst": 48,
+   "points": 39
+  },
+  {
+   "teamId": "argentino-quilmes",
+   "played": 33,
+   "won": 14,
+   "drawn": 8,
+   "lost": 11,
+   "goalsFor": 55,
+   "goalsAgainst": 45,
+   "points": 36
+  },
+  {
+   "teamId": "platense",
+   "played": 33,
+   "won": 14,
+   "drawn": 8,
+   "lost": 11,
+   "goalsFor": 40,
+   "goalsAgainst": 46,
+   "points": 36
+  },
+  {
+   "teamId": "chacarita",
+   "played": 33,
+   "won": 11,
+   "drawn": 13,
+   "lost": 9,
+   "goalsFor": 57,
+   "goalsAgainst": 48,
+   "points": 35
+  },
+  {
+   "teamId": "san-fernando",
+   "played": 33,
+   "won": 12,
+   "drawn": 11,
+   "lost": 10,
+   "goalsFor": 55,
+   "goalsAgainst": 48,
+   "points": 35
+  },
+  {
+   "teamId": "argentinos",
+   "played": 33,
+   "won": 11,
+   "drawn": 10,
+   "lost": 12,
+   "goalsFor": 38,
+   "goalsAgainst": 40,
+   "points": 32
+  },
+  {
+   "teamId": "banfield",
+   "played": 33,
+   "won": 13,
+   "drawn": 6,
+   "lost": 14,
+   "goalsFor": 45,
+   "goalsAgainst": 49,
+   "points": 32
+  },
+  {
+   "teamId": "barracas-central",
+   "played": 33,
+   "won": 11,
+   "drawn": 9,
+   "lost": 13,
+   "goalsFor": 54,
+   "goalsAgainst": 56,
+   "points": 31
+  },
+  {
+   "teamId": "sportivo-buenos-aires",
+   "played": 33,
+   "won": 13,
+   "drawn": 5,
+   "lost": 15,
+   "goalsFor": 46,
+   "goalsAgainst": 50,
+   "points": 31
+  },
+  {
+   "teamId": "almagro",
+   "played": 33,
+   "won": 11,
+   "drawn": 8,
+   "lost": 14,
+   "goalsFor": 38,
+   "goalsAgainst": 34,
+   "points": 30
+  },
+  {
+   "teamId": "talleres-re",
+   "played": 33,
+   "won": 10,
+   "drawn": 9,
+   "lost": 14,
+   "goalsFor": 32,
+   "goalsAgainst": 38,
+   "points": 27
+  },
+  {
+   "teamId": "liberal-argentino",
+   "played": 33,
+   "won": 9,
+   "drawn": 9,
+   "lost": 15,
+   "goalsFor": 40,
+   "goalsAgainst": 47,
+   "points": 27
+  },
+  {
+   "teamId": "velez",
+   "played": 33,
+   "won": 11,
+   "drawn": 5,
+   "lost": 17,
+   "goalsFor": 42,
+   "goalsAgainst": 62,
+   "points": 27
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 33,
+   "won": 8,
+   "drawn": 9,
+   "lost": 16,
+   "goalsFor": 40,
+   "goalsAgainst": 57,
+   "points": 25
+  },
+  {
+   "teamId": "argentino-del-sud",
+   "played": 33,
+   "won": 9,
+   "drawn": 6,
+   "lost": 18,
+   "goalsFor": 42,
+   "goalsAgainst": 67,
+   "points": 24
+  },
+  {
+   "teamId": "estudiantil-porteno",
+   "played": 33,
+   "won": 9,
+   "drawn": 5,
+   "lost": 19,
+   "goalsFor": 43,
+   "goalsAgainst": 62,
+   "points": 23
+  },
+  {
+   "teamId": "atlanta",
+   "played": 33,
+   "won": 8,
+   "drawn": 6,
+   "lost": 19,
+   "goalsFor": 31,
+   "goalsAgainst": 51,
+   "points": 22
+  },
+  {
+   "teamId": "excursionistas",
+   "played": 33,
+   "won": 8,
+   "drawn": 6,
+   "lost": 19,
+   "goalsFor": 41,
+   "goalsAgainst": 72,
+   "points": 22
+  },
+  {
+   "teamId": "defensores-belgrano",
+   "played": 33,
+   "won": 8,
+   "drawn": 5,
+   "lost": 20,
+   "goalsFor": 30,
+   "goalsAgainst": 51,
+   "points": 21
+  },
+  {
+   "teamId": "tigre",
+   "played": 33,
+   "won": 9,
+   "drawn": 3,
+   "lost": 21,
+   "goalsFor": 35,
+   "goalsAgainst": 76,
+   "points": 21
+  },
+  {
+   "teamId": "san-isidro",
+   "played": 33,
+   "won": 6,
+   "drawn": 8,
+   "lost": 19,
+   "goalsFor": 39,
+   "goalsAgainst": 80,
+   "points": 20
+  },
+  {
+   "teamId": "estudiantes-ba",
+   "played": 33,
+   "won": 5,
+   "drawn": 9,
+   "lost": 19,
+   "goalsFor": 22,
+   "goalsAgainst": 51,
+   "points": 19
+  },
+  {
+   "teamId": "porteno",
+   "played": 33,
+   "won": 1,
+   "drawn": 2,
+   "lost": 30,
+   "goalsFor": 24,
+   "goalsAgainst": 93,
+   "points": 4
+  }
+ ],
+ "knownTableDiffs": {
+  "keys": [
+   "banfield:goalsFor",
+   "talleres-re:goalsAgainst"
+  ],
+  "explanation": "Banfield–Talleres (1-2) se le dio por escritorio a Banfield. La tabla publicada descuenta el gol de Banfield pero no los dos de Talleres, así que difiere en un gol con la suma de los resultados. Se deja el resultado de la cancha."
+ },
+ "matches": [
+  {
+   "id": "1927-001",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-002",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-003",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-004",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-005",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "banfield",
+   "note": "La liga le dio los puntos a Banfield."
+  },
+  {
+   "id": "1927-006",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Dock Sud",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-007",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-008",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-009",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "barracas-central",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-010",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Giglio."
+  },
+  {
+   "id": "1927-011",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "excursionistas",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-012",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Echeverría."
+  },
+  {
+   "id": "1927-013",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-014",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-015",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-016",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-017",
+   "date": "1927-03-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-018",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-019",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-020",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-021",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-022",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-023",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-024",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Spósito (2)."
+  },
+  {
+   "id": "1927-025",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-026",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-027",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-028",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-029",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "liberal-argentino",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Banfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-030",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-031",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "san-isidro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-032",
+   "date": "1927-03-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-033",
+   "date": "1927-12-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-034",
+   "date": "1927-12-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Rivero, Vitali, Fernández."
+  },
+  {
+   "id": "1927-035",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-036",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-037",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 45 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1927-038",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-039",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-040",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-041",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Dock Sud",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-042",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "barracas-central",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-043",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-044",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "san-fernando",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-045",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Fleitas Solich / Chiesa."
+  },
+  {
+   "id": "1927-046",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "excursionistas",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-047",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Vitali."
+  },
+  {
+   "id": "1927-048",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-049",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-050",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-051",
+   "date": "1927-04-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-052",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-053",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Terminó a los 82 minutos; se dio por bueno el resultado."
+  },
+  {
+   "id": "1927-054",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-055",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pertini (2), Uriarte (2), Lattari / Lagarde."
+  },
+  {
+   "id": "1927-056",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-057",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Maidana (3) / Quadrio."
+  },
+  {
+   "id": "1927-058",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-059",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-060",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-061",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-062",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-063",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "liberal-argentino",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-064",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-065",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-066",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-067",
+   "date": "1927-04-10",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-068",
+   "date": "1927-04-14",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-069",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-070",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-071",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-072",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-073",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-074",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-075",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "barracas-central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-076",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-077",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-078",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-079",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "san-fernando",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-080",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Evaristo, Izaguirre / Loizo, Chiesa."
+  },
+  {
+   "id": "1927-081",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "excursionistas",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-082",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pardiñas, Lattari, Fernández."
+  },
+  {
+   "id": "1927-083",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-084",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-085",
+   "date": "1927-04-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-086",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-087",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-088",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-089",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Acosta."
+  },
+  {
+   "id": "1927-090",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-091",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Onzari, Bartolucci."
+  },
+  {
+   "id": "1927-092",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-093",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-094",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-095",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-096",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-097",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "liberal-argentino",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-098",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-099",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-100",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-101",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-102",
+   "date": "1927-04-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-103",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-104",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-105",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-106",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-107",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-108",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-109",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-110",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-111",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-112",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-113",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "estudiantes",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-114",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "san-fernando",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-115",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Oliva / Loizo, Spósito (2), Chiesa, Onzari."
+  },
+  {
+   "id": "1927-116",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "excursionistas",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-117",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "velez",
+   "note": "No se jugó: los puntos fueron para Vélez Sarsfield. Almagro no se presentó."
+  },
+  {
+   "id": "1927-118",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-119",
+   "date": "1927-05-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-120",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-121",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-122",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Rey, Perinetti."
+  },
+  {
+   "id": "1927-124",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Onzari / E.Monti, Carricaberry."
+  },
+  {
+   "id": "1927-125",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "porteno",
+   "homeGoals": 7,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-126",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-127",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 85 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1927-128",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Dock Sud",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-129",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "banfield",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Terminó a los 77 minutos; se dio por bueno el resultado."
+  },
+  {
+   "id": "1927-130",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "liberal-argentino",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-132",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-133",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-134",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-135",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-136",
+   "date": "1927-05-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-137",
+   "date": "1927-12-25",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Empezó el 8/5 y se suspendió con 0-1; se completó en esta fecha."
+  },
+  {
+   "id": "1927-138",
+   "date": "1927-12-25",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Empezó el 8/5 y se suspendió con 0-0; se completó en esta fecha."
+  },
+  {
+   "id": "1927-139",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-140",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-141",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-142",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-143",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-144",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-145",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-146",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 85 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1927-147",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-148",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-149",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-150",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-151",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "san-fernando",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-152",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Benítez / Onzari."
+  },
+  {
+   "id": "1927-153",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "excursionistas",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-154",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pertini."
+  },
+  {
+   "id": "1927-155",
+   "date": "1927-05-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-156",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-157",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Sampayo / Maseda."
+  },
+  {
+   "id": "1927-158",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-159",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-160",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-161",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-162",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "porteno",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-163",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Dock Sud",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-164",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-165",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "liberal-argentino",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-166",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-167",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "san-isidro",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-168",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "tigre",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-169",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-170",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-171",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-172",
+   "date": "1927-05-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "talleres-re",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-173",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-174",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-175",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "lanus",
+   "note": "Suspendido a los 86 minutos. La liga le dio los puntos a Lanús."
+  },
+  {
+   "id": "1927-176",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "barracas-central",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-177",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-178",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-179",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-180",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-181",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-182",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-183",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-184",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "atlanta",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-185",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-186",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "san-fernando",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-187",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-188",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "excursionistas",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-189",
+   "date": "1927-05-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-190",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Recanatini, Ciancio."
+  },
+  {
+   "id": "1927-191",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-192",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Loizo."
+  },
+  {
+   "id": "1927-193",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-194",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-195",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-196",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-197",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-198",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-199",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "tigre",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-200",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-201",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-202",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-203",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-204",
+   "date": "1927-06-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-205",
+   "date": "1927-06-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "san-isidro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-206",
+   "date": "1928-01-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Estudiantil Porteño",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-207",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-208",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-209",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-210",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-211",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Terminó a los 84 minutos; se dio por bueno el resultado."
+  },
+  {
+   "id": "1927-212",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-213",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-214",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-215",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-216",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "liberal-argentino",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-217",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-218",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-219",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-220",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-221",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "san-fernando",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-222",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-223",
+   "date": "1927-06-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "excursionistas",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Vitali, Ciancio (2) / Secchi (2)."
+  },
+  {
+   "id": "1927-224",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-225",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Onzari, Maidana."
+  },
+  {
+   "id": "1927-226",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-227",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 6,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-228",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-229",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-230",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-231",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-232",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-233",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-234",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-235",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-236",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-237",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-238",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-239",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-240",
+   "date": "1927-06-19",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-241",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-242",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-243",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-244",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-245",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-246",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-247",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-248",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-249",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "porteno",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-250",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-251",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "liberal-argentino",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-252",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-253",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-254",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-255",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-256",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "san-fernando",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-257",
+   "date": "1927-06-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-258",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Spósito, Settis."
+  },
+  {
+   "id": "1927-259",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "excursionistas",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-260",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "almagro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Aspiroz (2), Scopelli (2) / Ciancio."
+  },
+  {
+   "id": "1927-261",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-262",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de El Porvenir",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-263",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-264",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-265",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-266",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-267",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-268",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-269",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-270",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-271",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "talleres-re",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-272",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentinos",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-273",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-274",
+   "date": "1927-07-03",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-275",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "barracas-central",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-276",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-277",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-278",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-279",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-280",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-281",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-282",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "porteno",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-283",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-284",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "san-isidro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-285",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-286",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "liberal-argentino",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-287",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-288",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-289",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ciancio, Sampayo."
+  },
+  {
+   "id": "1927-290",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-291",
+   "date": "1927-07-17",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "san-fernando",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-292",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "san-fernando",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-293",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "excursionistas",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 77 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1927-294",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Longo / Recanatini, Ciancio."
+  },
+  {
+   "id": "1927-295",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-296",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-297",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-298",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-299",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-300",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-301",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-302",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "talleres-re",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-303",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-304",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-305",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-306",
+   "date": "1927-07-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "barracas-central",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-307",
+   "date": "1928-01-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-308",
+   "date": "1928-02-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-309",
+   "date": "1927-07-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-311",
+   "date": "1927-07-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-312",
+   "date": "1927-07-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-313",
+   "date": "1927-07-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "porteno",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-314",
+   "date": "1927-07-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-315",
+   "date": "1927-07-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-316",
+   "date": "1927-07-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "tigre",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-317",
+   "date": "1927-07-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-318",
+   "date": "1927-07-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-319",
+   "date": "1927-07-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "liberal-argentino",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-320",
+   "date": "1927-07-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "banfield",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ciancio, Sampayo (2), Vitali / Clérice."
+  },
+  {
+   "id": "1927-321",
+   "date": "1927-07-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 6,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-322",
+   "date": "1927-07-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-323",
+   "date": "1927-07-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-324",
+   "date": "1927-12-11",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-325",
+   "date": "1928-01-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Aguilar Pinedo, Bissio (2) / A.Vázquez."
+  },
+  {
+   "id": "1927-326",
+   "date": "1928-01-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Empezó el 31/7 y se suspendió con 1-0; se completó en esta fecha."
+  },
+  {
+   "id": "1927-327",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-328",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "san-fernando",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-329",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-330",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "excursionistas",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Temperley",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-331",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "almagro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Battilana, Aguinaga, Debatte / Recanatini."
+  },
+  {
+   "id": "1927-332",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-333",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-334",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-335",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-336",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-337",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-338",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-339",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-340",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-341",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-342",
+   "date": "1927-08-07",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "barracas-central",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-343",
+   "date": "1928-01-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-344",
+   "date": "1927-08-14",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-345",
+   "date": "1927-08-14",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-346",
+   "date": "1927-08-14",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-347",
+   "date": "1927-08-14",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-348",
+   "date": "1927-08-14",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "porteno",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-349",
+   "date": "1927-08-14",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-350",
+   "date": "1927-08-14",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "tigre",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Terminó a los 79 minutos; se dio por bueno el resultado."
+  },
+  {
+   "id": "1927-351",
+   "date": "1927-08-14",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-352",
+   "date": "1927-08-14",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Uriarte / Spraggón."
+  },
+  {
+   "id": "1927-353",
+   "date": "1927-08-14",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "liberal-argentino",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-354",
+   "date": "1927-08-14",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Spósito, Settis."
+  },
+  {
+   "id": "1927-355",
+   "date": "1927-08-14",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-356",
+   "date": "1927-08-14",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-357",
+   "date": "1927-12-11",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-358",
+   "date": "1927-12-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-359",
+   "date": "1927-12-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-360",
+   "date": "1927-12-25",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-361",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-362",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-363",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "san-fernando",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-364",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Gaztelú / Spósito, Onzari (2)."
+  },
+  {
+   "id": "1927-365",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "excursionistas",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-366",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Zúñiga / Ciancio."
+  },
+  {
+   "id": "1927-367",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-368",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-369",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-370",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-371",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-372",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-373",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-374",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-375",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-376",
+   "date": "1927-08-21",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "tigre",
+   "note": "No se jugó: los puntos fueron para Tigre. River Plate no se presentó."
+  },
+  {
+   "id": "1927-377",
+   "date": "1927-12-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-378",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-379",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-380",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-381",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-382",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "porteno",
+   "homeGoals": 6,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-383",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-384",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-385",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-386",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-387",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-388",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Sampayo / Poletti, Cinat."
+  },
+  {
+   "id": "1927-389",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-390",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Stábile / Pardal."
+  },
+  {
+   "id": "1927-391",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "liberal-argentino",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-392",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-393",
+   "date": "1927-09-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-394",
+   "date": "1927-12-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-395",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-396",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-397",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "san-fernando",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-398",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-399",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "excursionistas",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-400",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Morgada / Pertini."
+  },
+  {
+   "id": "1927-401",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-402",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-403",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-404",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-405",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-406",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 7,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-407",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-408",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-409",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-410",
+   "date": "1927-09-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "banfield",
+   "note": "No se jugó: los puntos fueron para Banfield. Atlanta no se presentó."
+  },
+  {
+   "id": "1927-411",
+   "date": "1928-01-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-412",
+   "date": "1927-09-25",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-413",
+   "date": "1927-12-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-414",
+   "date": "1927-12-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-415",
+   "date": "1927-12-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-416",
+   "date": "1927-12-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-417",
+   "date": "1927-12-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-418",
+   "date": "1927-12-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-419",
+   "date": "1927-12-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-420",
+   "date": "1927-12-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bartolucci, Stábile."
+  },
+  {
+   "id": "1927-421",
+   "date": "1927-12-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-422",
+   "date": "1927-12-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Dock Sud",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-423",
+   "date": "1927-12-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "estudiantil-porteno",
+   "note": "No se jugó: los puntos fueron para Estudiantil Porteño. Porteño no se presentó."
+  },
+  {
+   "id": "1927-424",
+   "date": "1927-12-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "talleres-re",
+   "note": "No se jugó: los puntos fueron para Talleres (RdE). Argentina de Quilmes no se presentó."
+  },
+  {
+   "id": "1927-425",
+   "date": "1927-12-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "liberal-argentino",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-426",
+   "date": "1927-12-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-427",
+   "date": "1928-01-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pertini / Gaslini."
+  },
+  {
+   "id": "1927-428",
+   "date": "1928-02-12",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: R.Estevarena 57 / D.García 27, P.de Sarrasqueta 41, E.Monti 84."
+  },
+  {
+   "id": "1927-429",
+   "date": "1927-10-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Muiño / Clerice (2)."
+  },
+  {
+   "id": "1927-430",
+   "date": "1927-10-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Raggio, Battilana."
+  },
+  {
+   "id": "1927-431",
+   "date": "1927-10-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pardal, Oliver."
+  },
+  {
+   "id": "1927-432",
+   "date": "1927-10-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Annunziatta / Irurieta, Scopelli."
+  },
+  {
+   "id": "1927-433",
+   "date": "1927-10-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "san-fernando",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Poletti / M.Torres (2), O.Castro, M.García."
+  },
+  {
+   "id": "1927-434",
+   "date": "1927-10-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "excursionistas",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Stagnaro, Cesarini / Galeano."
+  },
+  {
+   "id": "1927-435",
+   "date": "1927-10-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Abella, C.González / Vivaldo, Meraldi."
+  },
+  {
+   "id": "1927-436",
+   "date": "1927-10-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Barrios, J.Alvarez / O.Suárez."
+  },
+  {
+   "id": "1927-437",
+   "date": "1927-10-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Tubio / Gainzarain."
+  },
+  {
+   "id": "1927-438",
+   "date": "1927-10-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Minalla / A.Lorenzo (2)."
+  },
+  {
+   "id": "1927-439",
+   "date": "1927-10-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: J.García, A.Oliva / M.López, Chiarella, Lalín."
+  },
+  {
+   "id": "1927-440",
+   "date": "1927-10-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Craviotto."
+  },
+  {
+   "id": "1927-441",
+   "date": "1927-10-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-442",
+   "date": "1927-10-16",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "lanus",
+   "note": "No se jugó: los puntos fueron para Lanús. Almagro no se presentó."
+  },
+  {
+   "id": "1927-443",
+   "date": "1927-12-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-444",
+   "date": "1927-12-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-445",
+   "date": "1927-12-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 72 minutos. No se completó; quedó el resultado del momento de la suspensión. Goles: Spósito (2), Stábile, Onzari."
+  },
+  {
+   "id": "1927-446",
+   "date": "1927-10-23",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Landolfi, Forniche."
+  },
+  {
+   "id": "1927-447",
+   "date": "1927-10-23",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Sandoval, Mandili / Gadea."
+  },
+  {
+   "id": "1927-448",
+   "date": "1927-10-23",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "porteno",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Tarasconi (3)."
+  },
+  {
+   "id": "1927-449",
+   "date": "1927-10-23",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pedevilla, Brameri / Dellasala, Saldías."
+  },
+  {
+   "id": "1927-450",
+   "date": "1927-10-23",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Seijas (2), A.Lorenzo / Tabar, Barañano."
+  },
+  {
+   "id": "1927-451",
+   "date": "1927-10-23",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ganduglia, Alfieri / Tasín."
+  },
+  {
+   "id": "1927-452",
+   "date": "1927-10-23",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Goicochea, Penoni og."
+  },
+  {
+   "id": "1927-453",
+   "date": "1927-10-23",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Lobianco / Locaso."
+  },
+  {
+   "id": "1927-454",
+   "date": "1927-10-23",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Otero / Saruppo, López Imizcoz."
+  },
+  {
+   "id": "1927-455",
+   "date": "1927-10-23",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Spósito, Chiesa (2) / Salatino."
+  },
+  {
+   "id": "1927-456",
+   "date": "1927-10-23",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Echeverría (2) / Morgada."
+  },
+  {
+   "id": "1927-457",
+   "date": "1927-10-23",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "tigre",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Irurieta, Scopelli, Lauri, Rivas."
+  },
+  {
+   "id": "1927-458",
+   "date": "1927-10-23",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Boca Alumni",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bao (2) / Pardal (2)."
+  },
+  {
+   "id": "1927-459",
+   "date": "1927-10-23",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "liberal-argentino",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Presta."
+  },
+  {
+   "id": "1927-460",
+   "date": "1927-12-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-461",
+   "date": "1927-12-24",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-462",
+   "date": "1927-12-25",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "talleres-re",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Vitali (2)."
+  },
+  {
+   "id": "1927-463",
+   "date": "1927-10-30",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "liberal-argentino",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Muiño, J.Cruz / Battillana."
+  },
+  {
+   "id": "1927-464",
+   "date": "1927-10-30",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Botta, Cracco / Péndola."
+  },
+  {
+   "id": "1927-465",
+   "date": "1927-10-30",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Zúñiga, Russo / Ferraris, Boyer og, Longo, Pardal."
+  },
+  {
+   "id": "1927-466",
+   "date": "1927-10-30",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Poletti (2), J.C.Haedo / Iglesias."
+  },
+  {
+   "id": "1927-467",
+   "date": "1927-10-30",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "san-fernando",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Cesarini / Echeverría."
+  },
+  {
+   "id": "1927-468",
+   "date": "1927-10-30",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: P.Salvia, Spadaro / Onzari."
+  },
+  {
+   "id": "1927-469",
+   "date": "1927-10-30",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Giachetti / Ciancio."
+  },
+  {
+   "id": "1927-470",
+   "date": "1927-10-30",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Taboada, Peniche."
+  },
+  {
+   "id": "1927-471",
+   "date": "1927-10-30",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: C.González / Gainzarain, Vigliola."
+  },
+  {
+   "id": "1927-472",
+   "date": "1927-10-30",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "barracas-central",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Tasín, Cilento (2) / Estevarena, Lorenzo."
+  },
+  {
+   "id": "1927-473",
+   "date": "1927-10-30",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Cerrudo, Tabar (2) / F.Martínez."
+  },
+  {
+   "id": "1927-474",
+   "date": "1927-10-30",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Dellasala og."
+  },
+  {
+   "id": "1927-475",
+   "date": "1927-10-30",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: J.Gómez / A.Vázquez, Mandile."
+  },
+  {
+   "id": "1927-476",
+   "date": "1927-10-30",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-477",
+   "date": "1927-12-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Terminó a los 84 minutos; se dio por bueno el resultado."
+  },
+  {
+   "id": "1927-478",
+   "date": "1927-12-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "excursionistas",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-479",
+   "date": "1927-12-31",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Maglio / Bissio, Tarasconi."
+  },
+  {
+   "id": "1927-480",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-481",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Terminó a los 75 minutos; se dio por bueno el resultado."
+  },
+  {
+   "id": "1927-482",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-483",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-484",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-485",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Simonetti (2) / Vitali."
+  },
+  {
+   "id": "1927-486",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-487",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "talleres-re",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Stábile, Chiesa (2)."
+  },
+  {
+   "id": "1927-488",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-489",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-490",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-491",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Boca Alumni",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-492",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "san-isidro",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-493",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-494",
+   "date": "1927-11-06",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "porteno",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-495",
+   "date": "1927-12-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 7,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-496",
+   "date": "1928-01-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-497",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-498",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "liberal-argentino",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-499",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "banfield",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-500",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-501",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-502",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-503",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-504",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "excursionistas",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-505",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Alfieri, Gainzaraín."
+  },
+  {
+   "id": "1927-506",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-507",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-508",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-509",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-510",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-511",
+   "date": "1927-11-13",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-512",
+   "date": "1928-01-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-513",
+   "date": "1928-01-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "san-fernando",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-514",
+   "date": "1927-11-20",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "excursionistas",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Terminó a los 80 minutos; se dio por bueno el resultado."
+  },
+  {
+   "id": "1927-515",
+   "date": "1927-12-11",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-516",
+   "date": "1927-12-11",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-517",
+   "date": "1927-12-11",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-518",
+   "date": "1927-12-11",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "barracas-central",
+   "note": "No se jugó: los puntos fueron para Barracas Central. Almagro no se presentó."
+  },
+  {
+   "id": "1927-519",
+   "date": "1927-12-11",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Spósito, Chiesa, Irrazábal."
+  },
+  {
+   "id": "1927-520",
+   "date": "1927-12-11",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-521",
+   "date": "1927-12-11",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "lanus",
+   "note": "No se jugó: los puntos fueron para Lanús. Atlanta no se presentó."
+  },
+  {
+   "id": "1927-522",
+   "date": "1927-12-11",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de El Porvenir",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-523",
+   "date": "1927-12-11",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-524",
+   "date": "1927-12-11",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-525",
+   "date": "1927-12-11",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "sportivo-barracas",
+   "note": "No se jugó: los puntos fueron para Sportivo Barracas. Porteño no se presentó."
+  },
+  {
+   "id": "1927-526",
+   "date": "1927-12-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-527",
+   "date": "1927-12-25",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 70 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1927-528",
+   "date": "1928-01-01",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Orsi (2), Seoane."
+  },
+  {
+   "id": "1927-529",
+   "date": "1928-01-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "talleres-re",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-530",
+   "date": "1928-01-22",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-531",
+   "date": "1927-11-26",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-532",
+   "date": "1927-11-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "san-isidro",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-533",
+   "date": "1927-11-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "liberal-argentino",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-534",
+   "date": "1927-11-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-535",
+   "date": "1927-11-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "talleres-re",
+   "note": "No se jugó: los puntos fueron para Talleres (RdE). Atlanta no se presentó."
+  },
+  {
+   "id": "1927-536",
+   "date": "1927-11-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-537",
+   "date": "1927-11-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "san-fernando",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-538",
+   "date": "1927-11-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Gainzarain / Loizo, Spósito, Chiesa."
+  },
+  {
+   "id": "1927-539",
+   "date": "1927-11-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "estudiantil-porteno",
+   "note": "No se jugó: los puntos fueron para Estudiantil Porteño. Almagro no se presentó."
+  },
+  {
+   "id": "1927-540",
+   "date": "1927-11-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-541",
+   "date": "1927-11-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-542",
+   "date": "1927-11-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-543",
+   "date": "1927-11-27",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "sanlorenzo",
+   "note": "No se jugó: los puntos fueron para San Lorenzo. Porteño no se presentó."
+  },
+  {
+   "id": "1927-544",
+   "date": "1927-12-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-545",
+   "date": "1927-12-18",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "barracas-central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-546",
+   "date": "1927-12-25",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Terminó a los 68 minutos; se dio por bueno el resultado."
+  },
+  {
+   "id": "1927-547",
+   "date": "1928-01-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-548",
+   "date": "1927-12-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-549",
+   "date": "1927-12-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-550",
+   "date": "1927-12-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-551",
+   "date": "1927-12-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-552",
+   "date": "1927-12-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: R.Cherro."
+  },
+  {
+   "id": "1927-554",
+   "date": "1927-12-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Spósito, Chiesa, Maidana."
+  },
+  {
+   "id": "1927-555",
+   "date": "1927-12-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-556",
+   "date": "1927-12-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-557",
+   "date": "1927-12-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-558",
+   "date": "1927-12-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-559",
+   "date": "1927-12-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-560",
+   "date": "1927-12-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-561",
+   "date": "1927-12-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "argentinos",
+   "note": "No se jugó: los puntos fueron para Argentinos Juniors. Atlanta no se presentó."
+  },
+  {
+   "id": "1927-562",
+   "date": "1928-01-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "talleres-re",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-563",
+   "date": "1928-01-15",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "almagro",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Lalín (2), Seoane, Ravaschino."
+  },
+  {
+   "id": "1927-564",
+   "date": "1928-01-29",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-565",
+   "date": "1928-02-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "excursionistas",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1927-566",
+   "date": "1928-04-05",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Desempate por el puesto 30",
+   "phase": "playoff",
+   "homeId": "defensores-belgrano",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Caldas / Poletti."
+  },
+  {
+   "id": "1927-567",
+   "date": "1928-04-08",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Desempate por el puesto 30",
+   "phase": "playoff",
+   "homeId": "defensores-belgrano",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Caldas."
+  },
+  {
+   "id": "1927-553",
+   "date": "1927-12-04",
+   "competition": "Asociación Amateurs Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "excursionistas",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido con 1-1; la fuente indica que se completó el Feb 5, 1928. Se suspendió a los 84 minutos con 1-1. RSSSF indica que se completó el 5 de febrero de 1928, pero no publica el resultado y la tabla final no lo cuenta. No suma.",
+   "status": "annulled"
+  }
+ ]
+}

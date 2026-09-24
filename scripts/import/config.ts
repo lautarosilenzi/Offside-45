@@ -9,7 +9,9 @@ export type TournamentConfig = {
   file: string;
   // Sección de la página (por título) o índice. Por defecto, la primera con partidos.
   section?: RegExp | number;
-  tableIndex?: number;
+  // Tabla publicada a usar; con varias (zonas) se concatenan y groupNames les pone nombre.
+  tableIndex?: number | number[];
+  groupNames?: string[];
   wiki?: string;
   competition: string;
   title: string;
@@ -46,6 +48,7 @@ const AAF = "Asociación Argentina de Football";
 const FAF = "Federación Argentina de Football";
 const fafWiki = (y: number) => `Campeonato de Primera División ${y} de la FAF (Argentina)`;
 const AAM = "Asociación Amateurs de Football";
+const AAAF = "Asociación Amateurs Argentina de Football";
 const aamWiki = (y: number) => `Campeonato de Primera División ${y} de la AAmF (Argentina)`;
 const rr1 = (teams: number, extra = "") =>
   ({ kind: "formato", text: `Todos contra todos a una rueda entre ${teams} equipos, 2 puntos por victoria.${extra}` }) as const;
@@ -804,4 +807,115 @@ export const TOURNAMENTS: TournamentConfig[] = [
     summary: "Independiente ganó su segundo título. Con 26 equipos fue, hasta ese momento, el torneo de Primera con más participantes. Fue el último torneo de la Asociación Amateurs antes de la fusión de 1927.",
     notes: [CISMA2, rr1(26)],
   }),
+
+  // ───────── Asociación Amateurs Argentina de Football: liga reunificada (1927–1930) ─────────
+  {
+    slug: "1927",
+    year: 1927,
+    file: "arg27.html",
+    section: /Primera División 1927/,
+    wiki: wikiTitle(1927),
+    competition: AAAF,
+    organizer: `${AAAF} (fusión de las dos ligas)`,
+    title: "Campeonato 1927",
+    tournament: "Copa Campeonato 1927",
+    championIds: ["sanlorenzo"],
+    summary:
+      "Primer torneo de la liga reunificada, con 34 equipos a una rueda. Boca terminó su campaña primero al 31 de diciembre, pero San Lorenzo tenía seis partidos pendientes: ganó los cinco últimos y fue campeón por un punto, con el 3-1 a Barracas Central del 12 de febrero de 1928.",
+    playoffFrom: { date: "1928-03-01", stage: "Desempate por el puesto 30" },
+    pointAdjustments: [{ teamId: "talleres-re", points: -2, reason: "Sanción: además de perder por escritorio el partido con Banfield." }],
+    overrides: {
+      "1927-12-04 excursionistas estudiantil-porteno": {
+        status: "annulled",
+        note: "Se suspendió a los 84 minutos con 1-1. RSSSF indica que se completó el 5 de febrero de 1928, pero no publica el resultado y la tabla final no lo cuenta. No suma.",
+      },
+    },
+    knownTableDiffs: {
+      keys: ["banfield:goalsFor", "talleres-re:goalsAgainst"],
+      explanation:
+        "Banfield–Talleres (1-2) se le dio por escritorio a Banfield. La tabla publicada descuenta el gol de Banfield pero no los dos de Talleres, así que difiere en un gol con la suma de los resultados. Se deja el resultado de la cancha.",
+    },
+    notes: [
+      rr1(34, " Terminó en febrero de 1928."),
+      { kind: "puntos", text: "Talleres (RdE) le ganó 2-1 a Banfield en la primera fecha, pero después perdió los puntos y además le descontaron 2." },
+      { kind: "descalificacion", text: "Defensores de Belgrano y Tigre empataron el puesto 30 y jugaron un desempate en abril de 1928 (1-1 y 1-0 para Defensores); no suma en la tabla." },
+      { kind: "identidad", text: "Se armó con los 26 equipos de la Asociación Amateurs de 1926, siete de la Asociación Argentina (Argentino de Quilmes, Argentinos Juniors, Boca Juniors, Chacarita Juniors, Huracán, Porteño y San Fernando) y Sportivo Barracas, reincorporado." },
+      { kind: "dato", text: "No hubo descensos: el reglamento protegía a los clubes que habían jugado el campeonato de 1919." },
+    ],
+  },
+  {
+    slug: "1928",
+    year: 1928,
+    file: "arg28.html",
+    section: /Asociación Amateurs Argentina/,
+    wiki: wikiTitle(1928),
+    competition: AAAF,
+    organizer: AAAF,
+    title: "Campeonato 1928",
+    tournament: "Copa Campeonato 1928",
+    championIds: ["huracan"],
+    summary:
+      "Huracán ganó su cuarto título. Con 36 equipos fue, junto con el de 1930, el torneo de Primera con más participantes de la historia; empezó en abril de 1928 y terminó en julio de 1929. Ese año Boca le ganó 6-0 a River, la mayor goleada del Superclásico.",
+    notes: [
+      rr1(36, " Terminó en julio de 1929."),
+      { kind: "descalificacion", text: "Descendieron Porteño y Liberal Argentino. Defensores de Belgrano se salvó por la regla que protegía a los clubes del campeonato de 1919." },
+    ],
+  },
+  {
+    slug: "1929",
+    year: 1929,
+    file: "arg29.html",
+    section: /Argentina 1929/,
+    tableIndex: [0, 1],
+    groupNames: ["Zona Impar", "Zona Par"],
+    wiki: wikiTitle(1929),
+    competition: AAAF,
+    organizer: AAAF,
+    title: "Campeonato 1929",
+    tournament: "Campeonato Estímulo 1929 (homologado como Campeonato de Primera División)",
+    championIds: ["gimnasia"],
+    overrides: {
+      "1930-02-09 boca gimnasia": { venue: "Cancha de River Plate" },
+      "1929-09-15 san-fernando tigre": {
+        status: "official",
+        note: "Se suspendió a los 43 minutos con 1-1. La liga amonestó a Tigre pero nunca definió el resultado, así que quedó el 1-1 (así figura en la tabla).",
+      },
+    },
+    summary:
+      "Como el torneo de 1928 se estiró hasta mediados de 1929, ese año se jugó un campeonato especial a una rueda, en dos zonas (Impar y Par). Gimnasia y Esgrima La Plata ganó la Zona Impar y la final, y consiguió su primer y único título de Primera. En la Zona Par, Boca y San Lorenzo empataron el primer puesto y necesitaron tres desempates.",
+    notes: [
+      { kind: "formato", text: "Dos zonas a una rueda (Impar, 18 equipos; Par, 17), 2 puntos por victoria. Los ganadores jugaron la final y los segundos, el tercer puesto. No hubo descensos." },
+      { kind: "puntos", text: "En la Zona Par, Boca y San Lorenzo terminaron igualados y jugaron tres desempates para definir el finalista. Los desempates, el tercer puesto y la final no suman en las tablas de las zonas." },
+      { kind: "identidad", text: "Fue el único torneo del año y se homologó como el Campeonato de Primera División 1929." },
+      { kind: "dato", text: "No hubo Superclásico ni Clásico de Avellaneda: River y Racing jugaron en la Zona Impar, y Boca e Independiente en la Par." },
+      {
+        kind: "retiro",
+        text: "Fue un torneo caótico. En diciembre la liga permitió abandonar el concurso, con la regla de que un equipo que no se presentaba perdía todos los puntos que le quedaban. Se retiraron o dejaron de presentarse, entre otros, Platense, Huracán, Argentino de Quilmes, Sportivo Buenos Aires, San Fernando, Atlanta, Excursionistas, Ferro Carril Oeste, Estudiantes de La Plata, Banfield, San Isidro, Defensores de Belgrano, Quilmes y Argentino de Banfield.",
+      },
+      {
+        kind: "walkover",
+        text: "Muchos partidos se definieron por escritorio y algunos se les dieron por perdidos a los dos equipos. RSSSF detalla las resoluciones de la liga y los casos dudosos; se usa la resolución final de cada uno.",
+      },
+      { kind: "descalificacion", text: "Sportivo Barracas y Platense fueron suspendidos un mes por incidentes, y perdieron los puntos de los partidos que les quedaban." },
+    ],
+  },
+  {
+    slug: "1930",
+    year: 1930,
+    file: "arg30.html",
+    section: /Asociación Amateurs Argentina/,
+    wiki: wikiTitle(1930),
+    competition: AAAF,
+    organizer: AAAF,
+    title: "Campeonato 1930",
+    tournament: "Copa Campeonato 1930",
+    championIds: ["boca"],
+    summary:
+      "Boca Juniors ganó su sexto título en el último campeonato de la era amateur. Hubo una pausa entre junio y agosto por el Mundial de Uruguay, y terminó en abril de 1931. Ese año 18 clubes se separaron y fundaron la Liga Argentina de Football, que en 1931 organizó el primer torneo profesional.",
+    notes: [
+      rr1(36, " Hubo una pausa por el Mundial de 1930 y terminó en abril de 1931."),
+      { kind: "descalificacion", text: "Descendieron Honor y Patria y Argentino del Sud; San Isidro abandonó." },
+      { kind: "dato", text: "Último campeonato de la era amateur: en 1931 empezó el profesionalismo con la Liga Argentina de Football." },
+    ],
+  },
 ];

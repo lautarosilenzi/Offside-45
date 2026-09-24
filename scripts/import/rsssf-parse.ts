@@ -100,6 +100,8 @@ export function parseSeason(source: string): RawSection[] {
   let table: RawTableRow[] | null = null;
   let date = "";
   let round: string | undefined;
+  // Una vez que empieza una sección que no son partidos del torneo (discrepancias, la B), se ignora hasta el próximo título.
+  let ignoring = false;
 
   lines.forEach((raw, i) => {
     const line = raw.replace(/\s+$/, "");
@@ -115,6 +117,7 @@ export function parseSeason(source: string): RawSection[] {
       table = null;
       round = undefined;
       date = "";
+      ignoring = false;
       return;
     }
     const t = line.match(TABLE_RE);
@@ -176,14 +179,27 @@ export function parseSeason(source: string): RawSection[] {
       return;
     }
     // Subtítulos cortos de fase: "Playoff", "Second playoff", "Championship Final", "Group A"...
+    // Secciones que no son partidos del torneo: discrepancias con resultados alternativos, o la tabla de la B.
+    if (/^(Discrepancies:?|PRIMERA DIVISION B|Second level|2nd level)$/i.test(trimmed)) {
+      ignoring = true;
+      cur.text.push(trimmed);
+      return;
+    }
     // Listas de partidos que no fueron oficiales ("Originally official matches but played friendly:").
     if (/friendl/i.test(trimmed) && trimmed.endsWith(":") && trimmed.length < 80) {
       round = "friendly";
       cur.text.push(trimmed);
       return;
     }
-    const stage = trimmed.match(/^([A-Za-z ]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season)[A-Za-z ]*):?\s*(?:\[(.+)\])?\s*:?$/i);
-    if (stage && trimmed.length < 60 && !/table|standings|position/i.test(trimmed)) {
+    // Fechas escritas "9th Feb, 1930 at River Plate".
+    const ord = trimmed.match(/^(\d{1,2})(?:st|nd|rd|th)?\s+([A-Z][a-z]{2})[a-z]*,?\s+(\d{4})\b/);
+    if (ord) {
+      date = `${ord[2]} ${ord[1]}, ${ord[3]}`;
+      cur.text.push(trimmed);
+      return;
+    }
+    const stage = trimmed.match(/^([A-Za-z ]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place)[A-Za-z ]*):?\s*(?:\[(.+)\])?\s*:?$/i);
+    if (stage && trimmed.length < 60 && !/table|standings|positions\b/i.test(trimmed)) {
       round = stage[1].trim();
       if (stage[2]) date = stage[2].trim();
       cur.text.push(trimmed);
@@ -203,7 +219,7 @@ export function parseSeason(source: string): RawSection[] {
     if (m && !/^(No\.|Table|Note|Round)/i.test(m[1])) {
       const { away, note } = splitAway(m[3]);
       if (away && !/^\d/.test(away)) {
-        cur.matches.push({ line: i, date, round, home: m[1].trim(), away, score: m[2].replace(/\s/g, ""), note });
+        cur.matches.push({ line: i, date, round: ignoring ? "friendly" : round, home: m[1].trim(), away, score: m[2].replace(/\s/g, ""), note });
         return;
       }
     }

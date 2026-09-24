@@ -13,17 +13,19 @@ import { compareWithWikipedia } from "./wiki";
 const OUT = join(process.cwd(), "lib", "data", "seasons", "generated");
 
 const MONTHS: Record<string, number> = {
-  jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, oct: 10, nov: 11, dec: 12,
+  jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, set: 9, oct: 10, nov: 11, dec: 12,
 };
 
 // "May 3, Sun" / "Jan 23, 1927 Sun" / "August 01, 1920" → ISO. Los meses que "vuelven atrás" pasan al año siguiente.
 function parseDate(raw: string, year: number, prevMonth: number): { iso: string; month: number } | null {
-  const m = raw.match(/([A-Za-z]{3})[a-z]*\.?\s*(\d{1,2})(?:,?\s*(\d{4}))?/);
+  const m = raw.match(/([A-Za-z]{3})[a-z]*\.?\s*(\d{1,2})\b/);
   if (!m) return null;
   const month = MONTHS[m[1].toLowerCase()];
   if (!month) return null;
-  let y = m[3] ? Number(m[3]) : year;
-  if (!m[3] && prevMonth >= 9 && month <= 3) y = year + 1;
+  // El año puede venir en cualquier parte: "Jan 23, 1927 Sun" o "Apr 5, Sun 1931".
+  const explicit = raw.match(/\b(18|19)\d{2}\b/);
+  let y = explicit ? Number(explicit[0]) : year;
+  if (!explicit && prevMonth >= 9 && month <= 3) y = year + 1;
   return { iso: `${y}-${String(month).padStart(2, "0")}-${String(Number(m[2])).padStart(2, "0")}`, month };
 }
 
@@ -117,6 +119,23 @@ export function translateNote(
       out.text.push(`A ${club ? club.as ?? club.name : m[1]} le descontaron ${m[2]} puntos.`);
     }
     else if (/^second half played friendly$/i.test(p)) out.text.push("El segundo tiempo se jugó como amistoso; vale el resultado del primero.");
+    else if (/^played again$/i.test(p)) continue;
+    else if ((m = p.match(/^(.+?) (?:forfeited|wihtdrew|withdrawn)$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`${club ? club.as ?? club.name : m[1]} no se presentó.`);
+    } else if ((m = p.match(/^(.+?) was suspended$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`${club ? club.as ?? club.name : m[1]} estaba suspendido por la liga.`);
+    } else if ((m = p.match(/^(.+?) abandoned in (\d+)'?$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`${club ? club.as ?? club.name : m[1]} abandonó la cancha a los ${m[2]} minutos.`);
+    } else if ((m = p.match(/^abandoned in (\d+)'?$/i))) out.text.push(`Suspendido a los ${m[1]} minutos.`);
+    else if ((m = p.match(/^abandoned in (\d+)'?, not defined$/i))) {
+      out.text.push(`Suspendido a los ${m[1]} minutos y nunca se definió: no suma.`);
+      out.annulled = true;
+    } else if (/^incidents, see notes$/i.test(p)) out.text.push("Hubo incidentes (ver notas de la temporada).");
+    else if ((m = p.match(/^(?:[A-Z][a-z]{2} \d{1,2} )?abandoned at (\d+)-(\d+) in (\d+)'?$/i)))
+      out.text.push(`Suspendido a los ${m[3]} minutos con ${m[1]}-${m[2]}.`);
     else if ((m = p.match(/^(.+?) lost points$/i))) {
       const club = resolveName(m[1], year);
       out.lostPointsBy = club?.id;
@@ -159,6 +178,8 @@ function stageOf(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
   if (/(2nd|second) half season/i.test(r)) return { stage: "Segunda rueda", phase: "league" };
   if (/group ([a-z]) winner playoff/i.test(r)) return { stage: `Desempate del Grupo ${r.match(/group ([a-z])/i)![1].toUpperCase()}`, phase: "playoff" };
   if (/championship final/i.test(r)) return { stage: "Final", phase: "playoff" };
+  if (/third position|third place/i.test(r)) return { stage: "Tercer puesto", phase: "playoff" };
+  if (/first playoff/i.test(r)) return { stage: "Primer desempate", phase: "playoff" };
   if (/third playoff/i.test(r)) return { stage: "Tercer desempate", phase: "playoff" };
   if (/second playoff/i.test(r)) return { stage: "Segundo desempate", phase: "playoff" };
   if (/playoff|play-off|replay/i.test(r)) return { stage: "Desempate", phase: "playoff" };
@@ -170,8 +191,13 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   const problems: string[] = [];
   const warnings: string[] = [];
   const sections = parseSeason(await fetchPage(cfg.file));
+  // Por título: entre las secciones que coinciden, la que tiene más partidos (a veces el título se repite).
   const section: RawSection | undefined =
-    typeof cfg.section === "number" ? sections[cfg.section] : sections.find((s) => (cfg.section as RegExp | undefined)?.test(s.heading) ?? s.matches.length > 0);
+    typeof cfg.section === "number"
+      ? sections[cfg.section]
+      : sections
+          .filter((s) => (cfg.section as RegExp | undefined)?.test(s.heading) ?? s.matches.length > 0)
+          .sort((a, b) => b.matches.length - a.matches.length)[0];
   if (!section) throw new Error(`${cfg.slug}: no encontré la sección`);
 
   const matches: Match[] = [];
@@ -185,7 +211,8 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   for (const raw of section.matches) {
     if (cfg.skip?.(raw) || raw.round === "friendly") continue;
     // Frases de las notas que el parser confundió con partidos ("NB: The abandoned River Plate 1:3 ...").
-    const prose = (s: string) => /^NB\b|[:;]|\(\d+m\)|\bis not included\b|, and,/i.test(s) || s.length > 45;
+    const prose = (s: string) =>
+      /^NB\b|^\.|^Then\b|[:;]|\(\d+m\)|\bis not included\b|, and,|\blater\b|\bstanding\b|\bor$|\.$/i.test(s) || s.length > 45;
     if (prose(raw.home) || prose(raw.away)) continue;
     const home = resolveName(raw.home, cfg.year);
     const away = resolveName(raw.away, cfg.year);
@@ -226,6 +253,13 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     // "awd  [awarded wp:lp]": resultado dado por la liga.
     const awd = raw.note.match(/\b(wp|lp)\s*[:\-]\s*(lp|wp)\b/i);
     if (/^(awd|wo|n\/p)$/.test(s) && awd) s = `${awd[1]}:${awd[2]}`.toLowerCase();
+    // "awd  [abandoned at 1-0 in 54'; Tigre lost points]": suspendido y resuelto por escritorio; queda el resultado parcial.
+    const abdAwd = raw.note.match(/abandoned at (\d+)\s*[-:]\s*(\d+) in (\d+)'?/i);
+    if (s === "awd" && abdAwd && note.lostPointsBy) {
+      s = `${abdAwd[1]}:${abdAwd[2]}`;
+      note.text = note.text.filter((t) => !/^Suspendido/.test(t));
+      note.text.unshift(`Suspendido a los ${abdAwd[3]} minutos con ${abdAwd[1]}-${abdAwd[2]}; la liga resolvió el partido por escritorio.`);
+    }
     // "void  [1-0 annulled]": se jugó y después se anuló.
     const voided = raw.note.match(/(\d+)\s*[:\-]\s*(\d+)\]?\s*\[?,?\s*annulled/i);
     if (/^(void|ann)$/.test(s) && voided) {
@@ -345,16 +379,22 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   const unusedOverrides = Object.keys(cfg.overrides ?? {}).filter((k) => !usedOverrides.has(k));
   if (unusedOverrides.length) problems.push(`Correcciones que no encontraron su partido: ${unusedOverrides.join(", ")}`);
 
-  const rawTable = section.tables[cfg.tableIndex ?? 0] ?? [];
+  const tableIdx = Array.isArray(cfg.tableIndex) ? cfg.tableIndex : [cfg.tableIndex ?? 0];
   const publishedTable: TableRow[] = [];
-  for (const r of rawTable) {
-    const t = resolveName(r.name, cfg.year);
-    if (!t) {
-      problems.push(`Tabla: nombre sin identificar "${r.name}"`);
-      continue;
+  const groups: { name: string; teamIds: string[] }[] = [];
+  tableIdx.forEach((ti, gi) => {
+    const ids: string[] = [];
+    for (const r of section.tables[ti] ?? []) {
+      const t = resolveName(r.name.replace(/^\.\s*/, ""), cfg.year);
+      if (!t) {
+        problems.push(`Tabla: nombre sin identificar "${r.name}"`);
+        continue;
+      }
+      ids.push(t.id);
+      publishedTable.push({ teamId: t.id, played: r.played, won: r.won, drawn: r.drawn, lost: r.lost, goalsFor: r.goalsFor, goalsAgainst: r.goalsAgainst, points: r.points });
     }
-    publishedTable.push({ teamId: t.id, played: r.played, won: r.won, drawn: r.drawn, lost: r.lost, goalsFor: r.goalsFor, goalsAgainst: r.goalsAgainst, points: r.points });
-  }
+    if (cfg.groupNames?.[gi]) groups.push({ name: cfg.groupNames[gi], teamIds: ids });
+  });
 
   const season: Season = {
     slug: cfg.slug,
@@ -372,6 +412,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     ...(cfg.pointAdjustments && { pointAdjustments: cfg.pointAdjustments }),
     publishedTable: cfg.publishedTable ?? publishedTable,
     ...(cfg.tableIncludesPlayoffs && { tableIncludesPlayoffs: true }),
+    ...(groups.length && { groups }),
     ...(cfg.tableNote && { tableNote: cfg.tableNote }),
     ...(cfg.knownTableDiffs && { knownTableDiffs: cfg.knownTableDiffs }),
     matches,

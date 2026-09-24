@@ -24,6 +24,10 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
 
   const table = computeTable(season);
   const problems = verifySeason(season);
+  // Torneos por zonas: una tabla por zona.
+  const blocks: { name?: string; rows: typeof table }[] = season.groups
+    ? season.groups.map((g) => ({ name: g.name, rows: table.filter((r) => g.teamIds.includes(r.teamId)) }))
+    : [{ rows: table }];
   const matches = [...season.matches].sort((a, b) => a.date.localeCompare(b.date));
   const idx = SEASONS.indexOf(season);
   const prev = SEASONS[idx - 1];
@@ -77,7 +81,13 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
                   : "Verificada contra la fuente"}
             </span>
           </div>
-          <div className="panel overflow-x-auto">
+          {blocks.map((block, bi) => (
+          <div key={block.name ?? "tabla"} className={`panel overflow-x-auto ${bi > 0 ? "mt-4" : ""}`}>
+            {block.name && (
+              <div className="border-b border-navy-100 bg-navy-50 px-4 py-2 font-display text-sm font-bold uppercase tracking-wider text-navy-700">
+                {block.name}
+              </div>
+            )}
             <table className="w-full min-w-[560px] text-sm">
               <thead>
                 <tr className="bg-navy-900 font-display text-xs uppercase tracking-wider text-navy-200">
@@ -92,7 +102,7 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
                 </tr>
               </thead>
               <tbody className="divide-y divide-navy-100">
-                {table.map((r, i) => {
+                {block.rows.map((r, i) => {
                   const team = getTeam(r.teamId);
                   const champion = season.championIds.includes(r.teamId);
                   const eraName = seasonNameOf(season, r.teamId);
@@ -123,7 +133,7 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
                     </tr>
                   );
                 })}
-                {season.withdrawn?.map((id) => (
+                {bi === blocks.length - 1 && season.withdrawn?.map((id) => (
                   <tr key={id} className="text-navy-400">
                     <td className="px-4 py-2.5">–</td>
                     <td className="px-2 py-2.5" colSpan={9}>
@@ -133,7 +143,7 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
                 ))}
               </tbody>
             </table>
-            {problems.length > 0 && (
+            {bi === blocks.length - 1 && problems.length > 0 && (
               <ul className="border-t border-red-200 bg-red-50 px-4 py-3 text-xs text-red-700">
                 {problems.map((p) => (
                   <li key={p}>{p}</li>
@@ -141,6 +151,7 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
               </ul>
             )}
           </div>
+          ))}
           {season.knownTableDiffs && (
             <p className="mt-2 border-l-2 border-amber-400 bg-amber-50 px-3 py-2 text-xs leading-relaxed text-amber-900">
               {season.knownTableDiffs.explanation}

@@ -61,6 +61,8 @@ export type Season = {
   publishedTable: TableRow[];
   // La tabla publicada suma también desempates y finales (ej. 1906: tabla combinada de grupos y final).
   tableIncludesPlayoffs?: boolean;
+  // Torneos por zonas (ej. 1929): la tabla se muestra separada por zona.
+  groups?: { name: string; teamIds: string[] }[];
   // Aclaración sobre la tabla (ej. "Tabla combinada no oficial").
   tableNote?: string;
   // Diferencias revisadas entre la tabla calculada y la publicada que no se pueden resolver con las fuentes

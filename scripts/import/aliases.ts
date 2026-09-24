@@ -60,7 +60,15 @@ const ALIASES: Alias[] = [
   { id: "sportivo-barracas", names: ["Sportivo Barracas", "Club Sportivo Barracas", "Club Sportivo Barracas Bolívar"] },
   {
     id: "gimnasia",
-    names: ["Gimnasia y Esgrima LP", "Gimnasia y Esgrima La Plata", "Gimnasia y Esgrima (LP)", "Gimansia y Esgrima LP", "Gimnsasia y Esgrima LP", "Club de Gimnasia y Esgrima La Plata"],
+    names: [
+      "Gimnasia y Esgrima LP",
+      "Gimnasia y Esgrima La Plata",
+      "Gimnasia y Esgrima (LP)",
+      "Gimnasia y Esgrima(LP)",
+      "Gimansia y Esgrima LP",
+      "Gimnsasia y Esgrima LP",
+      "Club de Gimnasia y Esgrima La Plata",
+    ],
   },
   { id: "central", names: ["Rosario Central", "Club Atlético Rosario Central"] },
   // Segundo cisma (1919–1926).
@@ -101,6 +109,7 @@ const ALIASES: Alias[] = [
   { id: "sportivo-balcarce", names: ["Sportivo Balcarce", "Club Sportivo Balcarce"] },
   { id: "talleres-re", names: ["Talleres RE", "Talleres (RdE)", "Club Atlético Talleres (Remedios de Escalada)"] },
   { id: "estudiantes-ba", names: ["Estudiantes (C)"] },
+  { id: "honor-y-patria", names: ["Honor y Patria"] },
   { id: "newells", names: ["Newell's Old Boys", "Newells Old Boys", "Club Atlético Newell's Old Boys"] },
   { id: "remedios-escalada", names: ["Remedios de Escalada"] },
   { id: "reformer", names: ["Reformer", "Reformer AC", "Reformer Athletic Club"] },

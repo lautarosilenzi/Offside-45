@@ -81,6 +81,8 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["sportivo-balcarce", "Sportivo Balcarce", "SBL", "Club Sportivo Balcarce"],
   ["talleres-re", "Talleres (RdE)", "TRE", "Club Atlético Talleres (Remedios de Escalada)"],
   ["platense-retiro", "Platense (Retiro)", "PLR", "Platense (Retiro), después Universal; escindido del Club Atlético Platense"],
+  // 1930
+  ["honor-y-patria", "Honor y Patria", "HYP", "Club Honor y Patria"],
 ];
 
 export const HISTORIC_CLUBS: Team[] = OTHER_CLUBS.map(([id, name, shortName, fullName]) => ({
