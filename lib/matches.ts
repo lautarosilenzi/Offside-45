@@ -1,5 +1,6 @@
 import type { HeadToHeadStats, Match } from "./types";
 import { AMATEUR_MATCHES } from "./data/amateur";
+import { winnerOf } from "./result";
 import { LOADED_YEARS, SEASON_MATCHES } from "./seasons";
 
 const yearOf = (m: Match) => Number(m.date.slice(0, 4));
@@ -21,21 +22,17 @@ export function getHeadToHead(a: string, b: string): Match[] {
   ).sort((x, y) => y.date.localeCompare(x.date));
 }
 
-// Ganador oficial del partido: respeta los puntos dados por escritorio.
-export function winnerOf(m: Match): string | null {
-  if (m.awardedTo) return m.awardedTo;
-  if (m.homeGoals > m.awayGoals) return m.homeId;
-  if (m.awayGoals > m.homeGoals) return m.awayId;
-  return null;
-}
+export { winnerOf };
 
 export function computeStats(matches: Match[], a: string): HeadToHeadStats {
   const counted = matches.filter(isCounted);
   const stats: HeadToHeadStats = { played: counted.length, winsA: 0, winsB: 0, draws: 0, goalsA: 0, goalsB: 0 };
   for (const m of counted) {
     const aIsHome = m.homeId === a;
-    stats.goalsA += aIsHome ? m.homeGoals : m.awayGoals;
-    stats.goalsB += aIsHome ? m.awayGoals : m.homeGoals;
+    if (!m.scoreUnknown) {
+      stats.goalsA += aIsHome ? m.homeGoals : m.awayGoals;
+      stats.goalsB += aIsHome ? m.awayGoals : m.homeGoals;
+    }
     const w = winnerOf(m);
     if (w === null) stats.draws++;
     else if (w === a) stats.winsA++;

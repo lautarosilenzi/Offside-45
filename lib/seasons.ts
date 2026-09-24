@@ -1,5 +1,6 @@
 import type { Match, Season, TableRow } from "./types";
 import { SEASONS } from "./data/seasons";
+import { winnerOf } from "./result";
 
 export { SEASONS };
 
@@ -35,12 +36,14 @@ export function computeTable(season: Season): TableRow[] {
     const away = row(m.awayId);
     home.played++;
     away.played++;
-    home.goalsFor += m.homeGoals;
-    home.goalsAgainst += m.awayGoals;
-    away.goalsFor += m.awayGoals;
-    away.goalsAgainst += m.homeGoals;
+    if (!m.scoreUnknown) {
+      home.goalsFor += m.homeGoals;
+      home.goalsAgainst += m.awayGoals;
+      away.goalsFor += m.awayGoals;
+      away.goalsAgainst += m.homeGoals;
+    }
 
-    const winner = m.awardedTo ?? (m.homeGoals > m.awayGoals ? m.homeId : m.awayGoals > m.homeGoals ? m.awayId : null);
+    const winner = winnerOf(m);
     if (winner === null) {
       home.drawn++;
       away.drawn++;

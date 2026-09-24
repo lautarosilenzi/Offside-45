@@ -52,6 +52,8 @@ export default function MatchCard({ match }: { match: Match }) {
         <div className="whitespace-nowrap rounded-xl bg-slate-900 px-3 py-1.5 text-lg font-extrabold tabular-nums text-white">
           {walkover ? (
             "W.O."
+          ) : match.scoreUnknown ? (
+            <span className="text-slate-400">? - ?</span>
           ) : (
             <>
               {match.homeGoals} <span className="text-slate-400">-</span> {match.awayGoals}
@@ -64,8 +66,14 @@ export default function MatchCard({ match }: { match: Match }) {
         </div>
       </div>
 
-      {(annulled || awarded) && (
+      {(annulled || awarded || match.scoreUnknown) && (
         <div className="mt-3 flex flex-wrap gap-2">
+          {match.scoreUnknown && (
+            <span className="rounded-full bg-slate-100 px-2.5 py-0.5 text-[11px] font-semibold text-slate-700 ring-1 ring-slate-200">
+              Resultado no registrado ·{" "}
+              {winner ? `ganó ${match.homeId === winner ? (match.homeAs ?? home.name) : (match.awayAs ?? away.name)}` : "empate"}
+            </span>
+          )}
           {annulled && (
             <span className="rounded-full bg-amber-50 px-2.5 py-0.5 text-[11px] font-semibold text-amber-700 ring-1 ring-amber-200">
               Anulado · no suma
