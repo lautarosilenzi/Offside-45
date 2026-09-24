@@ -6,7 +6,7 @@ import { computeStats, getHeadToHead, isCounted } from "@/lib/matches";
 import { SEASONS } from "@/lib/seasons";
 import TeamSelect from "./TeamSelect";
 import StatsCard from "./StatsCard";
-import MatchCard from "./MatchCard";
+import MatchList from "./MatchList";
 
 export default function HeadToHead() {
   const [teamA, setTeamA] = useState("river");
@@ -24,15 +24,16 @@ export default function HeadToHead() {
   };
 
   return (
-    <div className="space-y-8">
-      <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
+    <div className="space-y-6">
+      <section className="panel p-4 sm:p-5">
         <div className="flex flex-col items-stretch gap-3 sm:flex-row sm:items-end">
           <TeamSelect label="Equipo 1" value={teamA} exclude={teamB} onChange={setTeamA} />
           <button
             type="button"
             onClick={swap}
             aria-label="Invertir equipos"
-            className="mx-auto flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-slate-200 bg-white text-brand-500 shadow-sm transition hover:bg-brand-50 focus:outline-none focus:ring-4 focus:ring-brand-100 sm:mb-0.5"
+            title="Invertir equipos"
+            className="mx-auto flex h-[46px] w-[46px] shrink-0 items-center justify-center rounded-sm border border-navy-200 bg-navy-50 text-navy-700 transition hover:border-brand-500 hover:text-brand-500"
           >
             <svg viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5 rotate-90 sm:rotate-0" aria-hidden>
               <path d="M13.2 3.3a1 1 0 0 1 1.4 0l3 3a1 1 0 0 1 0 1.4l-3 3a1 1 0 1 1-1.4-1.4L14.5 8H4a1 1 0 0 1 0-2h10.5l-1.3-1.3a1 1 0 0 1 0-1.4zM6.8 9.3a1 1 0 0 1 0 1.4L5.5 12H16a1 1 0 1 1 0 2H5.5l1.3 1.3a1 1 0 1 1-1.4 1.4l-3-3a1 1 0 0 1 0-1.4l3-3a1 1 0 0 1 1.4 0z" />
@@ -41,7 +42,10 @@ export default function HeadToHead() {
           <TeamSelect label="Equipo 2" value={teamB} exclude={teamA} onChange={setTeamB} />
         </div>
 
-        <div className="mt-5 flex flex-wrap gap-2">
+        <div className="mt-4 flex flex-wrap items-center gap-2 border-t border-navy-100 pt-4">
+          <span className="mr-1 font-display text-xs font-semibold uppercase tracking-[0.15em] text-navy-400">
+            Clásicos
+          </span>
           {CLASICOS.map((c) => {
             const active = (teamA === c.a && teamB === c.b) || (teamA === c.b && teamB === c.a);
             return (
@@ -52,10 +56,10 @@ export default function HeadToHead() {
                   setTeamA(c.a);
                   setTeamB(c.b);
                 }}
-                className={`rounded-full px-3.5 py-1.5 text-xs font-semibold transition ${
+                className={`rounded-sm border px-3 py-1 text-sm font-semibold transition ${
                   active
-                    ? "bg-brand-500 text-white shadow-sm"
-                    : "bg-slate-100 text-slate-600 hover:bg-brand-50 hover:text-brand-600"
+                    ? "border-navy-900 bg-navy-900 text-white"
+                    : "border-navy-200 bg-white text-navy-700 hover:border-navy-400"
                 }`}
               >
                 {c.label}
@@ -66,31 +70,25 @@ export default function HeadToHead() {
       </section>
 
       {matches.length === 0 ? (
-        <div className="rounded-2xl border border-dashed border-slate-300 bg-white px-6 py-14 text-center">
-          <p className="text-lg font-semibold text-slate-700">Sin partidos registrados</p>
-          <p className="mt-1 text-sm text-slate-500">
+        <div className="panel px-6 py-14 text-center">
+          <p className="font-display text-xl font-bold uppercase tracking-wide text-navy-800">Sin partidos registrados</p>
+          <p className="mt-1 text-sm text-navy-500">
             Todavía no hay datos entre {a.name} y {b.name}. Probá con uno de los clásicos.
           </p>
         </div>
       ) : (
         <>
           <StatsCard a={a} b={b} stats={stats} />
-          <p className="-mt-4 rounded-xl bg-brand-50 px-4 py-3 text-xs leading-relaxed text-brand-700">
-            Temporadas completas cargadas: <strong>{SEASONS.map((s) => s.year).join(", ")}</strong>. Además están
-            verificados los clásicos River–Boca, Racing–Independiente y San Lorenzo–Huracán hasta 1930. Todo cruzando
-            RSSSF y Wikipedia; el resto de los años se va cargando temporada por temporada.
+          <p className="border-l-2 border-brand-500 bg-white px-4 py-3 text-sm leading-relaxed text-navy-600">
+            Temporadas completas: <strong className="text-navy-900">{SEASONS.map((s) => s.year).join(", ")}</strong>.
+            Además están verificados los clásicos River–Boca, Racing–Independiente y San Lorenzo–Huracán hasta 1930. El
+            resto se carga temporada por temporada, cruzando RSSSF y Wikipedia.
             {annulledCount > 0 &&
-              ` ${annulledCount === 1 ? "Hay 1 partido" : `Hay ${annulledCount} partidos`} de torneos anulados que se muestran pero no suman.`}
+              ` ${annulledCount === 1 ? "Hay 1 partido" : `Hay ${annulledCount} partidos`} anulado${annulledCount === 1 ? "" : "s"} que se muestra${annulledCount === 1 ? "" : "n"} pero no suma${annulledCount === 1 ? "" : "n"}.`}
           </p>
           <section>
-            <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-slate-500">
-              Partidos ({matches.length})
-            </h2>
-            <div className="grid gap-4 md:grid-cols-2">
-              {matches.map((m) => (
-                <MatchCard key={m.id} match={m} />
-              ))}
-            </div>
+            <h2 className="section-title mb-3">Partidos ({matches.length})</h2>
+            <MatchList matches={matches} />
           </section>
         </>
       )}

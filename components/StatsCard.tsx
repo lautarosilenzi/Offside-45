@@ -1,65 +1,70 @@
 import type { HeadToHeadStats, Team } from "@/lib/types";
-import TeamBadge from "./TeamBadge";
+import Crest from "./Crest";
 
 export default function StatsCard({ a, b, stats }: { a: Team; b: Team; stats: HeadToHeadStats }) {
   const pct = (n: number) => (stats.played ? (n / stats.played) * 100 : 0);
 
   return (
-    <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-      <div className="bg-gradient-to-br from-brand-500 to-brand-700 px-5 py-6 text-white sm:px-8">
-        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4">
-          <div className="flex min-w-0 flex-col items-center gap-2 text-center">
-            <TeamBadge team={a} size="lg" />
-            <span className="w-full truncate text-sm font-semibold sm:text-base">{a.name}</span>
+    <section className="overflow-hidden rounded-md bg-navy-900 text-white">
+      <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4 px-4 py-6 sm:px-8">
+        <TeamHead team={a} />
+        <div className="text-center">
+          <div className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-navy-300">
+            {stats.played} {stats.played === 1 ? "partido oficial" : "partidos oficiales"}
           </div>
-          <div className="text-center">
-            <div className="text-4xl font-extrabold tabular-nums sm:text-5xl">
-              {stats.winsA}
-              <span className="mx-2 text-white/40">·</span>
-              {stats.draws}
-              <span className="mx-2 text-white/40">·</span>
-              {stats.winsB}
-            </div>
-            <div className="mt-1 text-[11px] uppercase tracking-widest text-white/70">
-              G · E · G — {stats.played} {stats.played === 1 ? "partido oficial" : "partidos oficiales"}
-            </div>
-          </div>
-          <div className="flex min-w-0 flex-col items-center gap-2 text-center">
-            <TeamBadge team={b} size="lg" />
-            <span className="w-full truncate text-sm font-semibold sm:text-base">{b.name}</span>
+          <div className="mt-2 grid grid-cols-3 gap-2 sm:gap-4">
+            <Big value={stats.winsA} label={`Gana ${a.shortName}`} />
+            <Big value={stats.draws} label="Empates" muted />
+            <Big value={stats.winsB} label={`Gana ${b.shortName}`} />
           </div>
         </div>
+        <TeamHead team={b} />
       </div>
 
-      <div className="space-y-5 px-5 py-6 sm:px-8">
-        <div>
-          <div className="mb-2 flex justify-between text-xs font-medium text-slate-500">
-            <span>Victorias {a.shortName}</span>
-            <span>Empates</span>
-            <span>Victorias {b.shortName}</span>
-          </div>
-          <div className="flex h-3 overflow-hidden rounded-full bg-slate-100">
-            <div className="bg-brand-500 transition-all" style={{ width: `${pct(stats.winsA)}%` }} />
-            <div className="bg-slate-300 transition-all" style={{ width: `${pct(stats.draws)}%` }} />
-            <div className="bg-brand-200 transition-all" style={{ width: `${pct(stats.winsB)}%` }} />
-          </div>
-        </div>
-
-        <dl className="grid grid-cols-3 gap-3 text-center">
-          <Stat label={`Goles ${a.shortName}`} value={stats.goalsA} />
-          <Stat label="Goles totales" value={stats.goalsA + stats.goalsB} muted />
-          <Stat label={`Goles ${b.shortName}`} value={stats.goalsB} />
-        </dl>
+      <div className="flex h-1.5">
+        <div className="bg-brand-400" style={{ width: `${pct(stats.winsA)}%` }} />
+        <div className="bg-navy-500" style={{ width: `${pct(stats.draws)}%` }} />
+        <div className="bg-white" style={{ width: `${pct(stats.winsB)}%` }} />
       </div>
+
+      <dl className="grid grid-cols-3 divide-x divide-navy-700 bg-navy-950 text-center">
+        <Goals label={`Goles ${a.shortName}`} value={stats.goalsA} />
+        <Goals label="Goles totales" value={stats.goalsA + stats.goalsB} />
+        <Goals label={`Goles ${b.shortName}`} value={stats.goalsB} />
+      </dl>
     </section>
   );
 }
 
-function Stat({ label, value, muted }: { label: string; value: number; muted?: boolean }) {
+function TeamHead({ team }: { team: Team }) {
   return (
-    <div className={`flex flex-col-reverse rounded-xl px-3 py-4 ${muted ? "bg-slate-50" : "bg-brand-50"}`}>
-      <dt className="mt-1 text-[11px] font-medium uppercase tracking-wider text-slate-500">{label}</dt>
-      <dd className={`text-2xl font-bold tabular-nums ${muted ? "text-slate-700" : "text-brand-600"}`}>{value}</dd>
+    <div className="flex min-w-0 flex-col items-center gap-2 text-center">
+      <div className="flex h-[88px] items-center justify-center">
+        <Crest team={team} size="xl" />
+      </div>
+      <span className="w-full truncate font-display text-lg font-bold uppercase tracking-wide sm:text-xl">
+        {team.name}
+      </span>
+    </div>
+  );
+}
+
+function Big({ value, label, muted }: { value: number; label: string; muted?: boolean }) {
+  return (
+    <div>
+      <div className={`font-display text-4xl font-bold tabular-nums leading-none sm:text-6xl ${muted ? "text-navy-300" : ""}`}>
+        {value}
+      </div>
+      <div className="mt-1 text-[10px] font-semibold uppercase tracking-wider text-navy-300 sm:text-[11px]">{label}</div>
+    </div>
+  );
+}
+
+function Goals({ label, value }: { label: string; value: number }) {
+  return (
+    <div className="flex flex-col-reverse px-2 py-3">
+      <dt className="text-[10px] font-semibold uppercase tracking-wider text-navy-400 sm:text-[11px]">{label}</dt>
+      <dd className="font-display text-2xl font-bold tabular-nums">{value}</dd>
     </div>
   );
 }

@@ -3,5 +3,20 @@
 @tailwind utilities;
 
 body {
-  @apply bg-slate-50 text-slate-900 antialiased;
+  @apply bg-[#eef1f5] text-navy-900 antialiased;
+}
+
+@layer components {
+  /* Panel blanco con borde fino: la unidad básica de la interfaz. */
+  .panel {
+    @apply rounded-md border border-navy-100 bg-white;
+  }
+  /* Título de sección: condensado, en mayúsculas, con barra de acento. */
+  .section-title {
+    @apply flex items-center gap-2.5 font-display text-lg font-bold uppercase tracking-wide text-navy-900;
+  }
+  .section-title::before {
+    content: "";
+    @apply block h-4 w-1 bg-brand-500;
+  }
 }
