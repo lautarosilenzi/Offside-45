@@ -10,6 +10,15 @@ export const LOADED_YEARS = new Set(SEASONS.map((s) => s.year));
 // Todos los partidos de las temporadas cargadas.
 export const SEASON_MATCHES: Match[] = SEASONS.flatMap((s) => s.matches);
 
+// Nombre con el que el club jugó esa temporada, si era distinto al actual.
+export function seasonNameOf(season: Season, teamId: string): string | undefined {
+  for (const m of season.matches) {
+    if (m.homeId === teamId && m.homeAs) return m.homeAs;
+    if (m.awayId === teamId && m.awayAs) return m.awayAs;
+  }
+  return undefined;
+}
+
 // Recalcula la tabla a partir de los partidos de liga de la temporada.
 export function computeTable(season: Season): TableRow[] {
   const rows = new Map<string, TableRow>();

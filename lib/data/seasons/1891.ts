@@ -35,6 +35,8 @@ const m = (
 export const SEASON_1891: Season = {
   year: 1891,
   title: "Campeonato 1891",
+  tournament: "Campeonato de la Argentine Association Football League",
+  organizer: "Argentine Association Football League (1891)",
   championIds: ["saint-andrews", "caledonians"],
   summary:
     "Primer campeonato de fútbol de la Argentina (y de Sudamérica), organizado por la primera Argentine Association Football League. Saint Andrew's y Caledonians terminaron igualados en puntos y los dos fueron declarados campeones; después jugaron un desempate por las medallas que ganó Saint Andrew's.",
@@ -44,9 +46,14 @@ export const SEASON_1891: Season = {
     { label: "Wikipedia – Campeonato 1891", url: "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1891_(Argentina)" },
   ],
   notes: [
-    "Hurlingham FC se inscribió pero se retiró antes de jugar.",
-    "Belgrano FC (1891) no tiene relación con el Belgrano Athletic ni con el Belgrano de Córdoba.",
-    "Diferencias con Wikipedia: da Saint Andrew's 7-0 Belgrano FC, pero con ese resultado Saint Andrew's tendría 25 goles a favor y ambas fuentes publican 23; el resultado correcto es 5-0. Wikipedia también da otras fechas para tres partidos (ver cada partido); se usan las de RSSSF, que cita a los diarios The Standard y Buenos Aires Herald.",
+    { kind: "formato", text: "Todos contra todos a dos ruedas, 5 equipos, 2 puntos por victoria." },
+    { kind: "puntos", text: "Saint Andrew's y Caledonians empataron en 13 puntos y los dos fueron declarados campeones. El desempate del 13/9 fue solo por las medallas." },
+    { kind: "retiro", text: "Hurlingham FC se inscribió pero se retiró antes de jugar." },
+    { kind: "identidad", text: "Belgrano FC (1891) no tiene relación con el Belgrano Athletic ni con el Belgrano de Córdoba." },
+    {
+      kind: "fuentes",
+      text: "Wikipedia da Saint Andrew's 7-0 Belgrano FC, pero con ese resultado Saint Andrew's tendría 25 goles a favor y ambas fuentes publican 23; el resultado correcto es 5-0. Wikipedia también da otras fechas para tres partidos (ver cada partido); se usan las de RSSSF, que cita a los diarios The Standard y Buenos Aires Herald.",
+    },
   ],
   withdrawn: ["hurlingham"],
   publishedTable: [

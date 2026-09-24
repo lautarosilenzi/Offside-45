@@ -1,6 +1,6 @@
 import type { Team } from "./types";
 
-// Equipos de Primera División (Liga Profesional Argentina)
+// Clubes que existen hoy.
 export const TEAMS: Team[] = [
   { id: "river", name: "River Plate", shortName: "RIV", primary: "#E30613", secondary: "#FFFFFF" },
   { id: "boca", name: "Boca Juniors", shortName: "BOC", primary: "#0B3B8C", secondary: "#FDB913" },
@@ -20,6 +20,7 @@ export const TEAMS: Team[] = [
   { id: "argentinos", name: "Argentinos Juniors", shortName: "ARG", primary: "#D5001C", secondary: "#FFFFFF" },
   { id: "tigre", name: "Tigre", shortName: "TIG", primary: "#0B2A5B", secondary: "#D5001C" },
   { id: "platense", name: "Platense", shortName: "PLA", primary: "#5B3A29", secondary: "#FFFFFF" },
+  { id: "quilmes", name: "Quilmes", shortName: "QUI", primary: "#FFFFFF", secondary: "#0B2A5B" },
 ];
 
 // Clubes que jugaron en Primera y ya no existen (o dejaron el fútbol de AFA).
@@ -41,6 +42,9 @@ export const HISTORIC_TEAMS: Team[] = [
   historic("buenos-aires-fc", "Buenos Aires FC", "BAF", "Buenos Aires Football Club"),
   historic("belgrano-fc", "Belgrano FC", "BFC", "Belgrano Football Club (1891)"),
   historic("hurlingham", "Hurlingham FC", "HGM", "Hurlingham Football Club"),
+  historic("lomas-athletic", "Lomas Athletic", "LOM", "Lomas Athletic Club"),
+  historic("flores-athletic", "Flores Athletic", "FLO", "Flores Athletic Club"),
+  historic("alumni", "Alumni", "ALU", "Alumni Athletic Club (antes English High School)"),
 ];
 
 const ALL_TEAMS = [...TEAMS, ...HISTORIC_TEAMS];

@@ -25,14 +25,30 @@ export type TableRow = {
   points: number;
 };
 
+export type NoteKind =
+  | "formato"
+  | "descalificacion"
+  | "retiro"
+  | "anulado"
+  | "walkover"
+  | "puntos"
+  | "fuentes"
+  | "identidad"
+  | "dato";
+
+export type SeasonNote = { kind: NoteKind; text: string };
+
 export type Season = {
   year: number;
   title: string;
+  // Nombre oficial del torneo y quién lo organizó.
+  tournament: string;
+  organizer: string;
   championIds: string[];
   summary: string;
   pointsPerWin: number;
   sources: { label: string; url: string }[];
-  notes: string[];
+  notes: SeasonNote[];
   // Equipos inscriptos que no jugaron ningún partido.
   withdrawn?: string[];
   // Tabla tal como la publica la fuente, para verificar contra la calculada.
@@ -46,11 +62,16 @@ export type Match = {
   competition: string;
   stage?: string;
   phase?: Phase;
-  venue: string;
+  venue?: string;
   homeId: string;
   awayId: string;
+  // Nombre con el que jugó ese día, si era distinto al actual (ej. English High School → Alumni).
+  homeAs?: string;
+  awayAs?: string;
   homeGoals: number;
   awayGoals: number;
+  // No se jugó: los puntos se dieron por no presentación (ver awardedTo).
+  walkover?: boolean;
   // "annulled": se jugó pero el torneo fue anulado; se muestra pero no suma en las estadísticas.
   status?: "official" | "annulled";
   // Cuando el resultado de la cancha no fue el que quedó oficialmente (puntos quitados, etc.).

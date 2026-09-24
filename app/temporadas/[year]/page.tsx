@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import MatchCard from "@/components/MatchCard";
 import SiteHeader from "@/components/SiteHeader";
 import TeamBadge from "@/components/TeamBadge";
-import { SEASONS, computeTable, getSeason, verifySeason } from "@/lib/seasons";
+import SeasonNotes from "@/components/SeasonNotes";
+import { SEASONS, computeTable, getSeason, seasonNameOf, verifySeason } from "@/lib/seasons";
 import { getTeam } from "@/lib/teams";
 
 export const dynamicParams = false;
@@ -39,12 +40,20 @@ export default function SeasonPage({ params }: { params: { year: string } }) {
           <h1 className="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">
             {season.title}
           </h1>
-          <p className="mt-3 leading-relaxed text-slate-600">{season.summary}</p>
+          <dl className="mt-4 grid gap-3 sm:grid-cols-3">
+            <Fact label="Torneo" value={season.tournament} />
+            <Fact label="Organizó" value={season.organizer} />
+            <Fact
+              label={season.championIds.length > 1 ? "Campeones" : "Campeón"}
+              value={season.championIds.map((id) => getTeam(id)?.name ?? id).join(" y ")}
+            />
+          </dl>
+          <p className="mt-4 leading-relaxed text-slate-600">{season.summary}</p>
         </div>
 
         <section className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
           <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 px-5 py-4">
-            <h2 className="font-bold">Tabla de posiciones</h2>
+            <h2 className="font-bold">Tabla final de posiciones</h2>
             {problems.length === 0 ? (
               <span className="rounded-full bg-emerald-50 px-2.5 py-1 text-[11px] font-semibold text-emerald-700">
                 Calculada con los partidos y coincide con la fuente
@@ -72,13 +81,19 @@ export default function SeasonPage({ params }: { params: { year: string } }) {
                 {table.map((r, i) => {
                   const team = getTeam(r.teamId);
                   const champion = season.championIds.includes(r.teamId);
+                  const eraName = seasonNameOf(season, r.teamId);
                   return (
                     <tr key={r.teamId} className="border-t border-slate-100">
                       <td className="px-4 py-2.5 tabular-nums text-slate-500">{i + 1}</td>
                       <td className="px-2 py-2.5">
                         <div className="flex items-center gap-2.5">
                           {team && <TeamBadge team={team} size="sm" />}
-                          <span className={champion ? "font-bold" : "font-medium"}>{team?.name ?? r.teamId}</span>
+                          <span className={champion ? "font-bold" : "font-medium"}>
+                            {eraName ?? team?.name ?? r.teamId}
+                            {eraName && team && (
+                              <span className="ml-1.5 text-xs font-normal text-slate-400">(hoy {team.name})</span>
+                            )}
+                          </span>
                           {champion && (
                             <span className="rounded bg-brand-500 px-1.5 py-0.5 text-[10px] font-bold uppercase text-white">
                               Campeón
@@ -120,12 +135,8 @@ export default function SeasonPage({ params }: { params: { year: string } }) {
 
         {season.notes.length > 0 && (
           <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-            <h2 className="mb-3 font-bold">Notas</h2>
-            <ul className="list-disc space-y-2 pl-5 text-sm leading-relaxed text-slate-600">
-              {season.notes.map((n) => (
-                <li key={n}>{n}</li>
-              ))}
-            </ul>
+            <h2 className="mb-4 font-bold">Datos a tener en cuenta</h2>
+            <SeasonNotes notes={season.notes} />
           </section>
         )}
 
@@ -169,5 +180,14 @@ export default function SeasonPage({ params }: { params: { year: string } }) {
         </nav>
       </main>
     </>
+  );
+}
+
+function Fact({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="rounded-xl border border-slate-200 bg-white px-4 py-3">
+      <dt className="text-[11px] font-semibold uppercase tracking-wider text-slate-500">{label}</dt>
+      <dd className="mt-1 text-sm font-semibold leading-snug text-slate-800">{value}</dd>
+    </div>
   );
 }
