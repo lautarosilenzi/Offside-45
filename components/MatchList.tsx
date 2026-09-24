@@ -53,6 +53,7 @@ function MatchRow({ match }: { match: Match }) {
 
   const tags: { label: string; tone: "amber" | "slate" }[] = [];
   if (annulled) tags.push({ label: "Anulado · no suma", tone: "amber" });
+  if (match.bothLost) tags.push({ label: "No se jugó · perdido por ambos", tone: "amber" });
   if (match.walkover && awarded) tags.push({ label: `No se jugó · puntos para ${awarded.name}`, tone: "amber" });
   else if (awarded) tags.push({ label: `Ganado por escritorio: ${awarded.name}`, tone: "slate" });
   if (match.scoreUnknown) {

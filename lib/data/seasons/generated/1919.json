@@ -1,0 +1,1424 @@
+{
+ "slug": "1919",
+ "year": 1919,
+ "league": "AAF",
+ "title": "Campeonato 1919 · Asociación Argentina",
+ "tournament": "Copa Campeonato 1919 (Asociación Argentina de Football)",
+ "organizer": "Asociación Argentina de Football (entidad oficial)",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Un año caótico. El torneo empezó con 19 equipos, pero en septiembre 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs; la primera etapa se anuló. Los seis que quedaron jugaron un torneo de emergencia que la liga dio por terminado en enero de 1920 con partidos sin jugar. Boca Juniors lo ganó con ocho victorias en ocho partidos: su primer título.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1919",
+   "url": "https://www.rsssf.org/tablesa/arg19.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1919 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1919_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "identidad",
+   "text": "Entre 1919 y 1926 hubo dos ligas de Primera en paralelo: la Asociación Argentina de Football (oficial) y la Asociación Amateurs de Football (disidente). Las dos se consideran hoy parte de la historia de la Primera División."
+  },
+  {
+   "kind": "formato",
+   "text": "Torneo de emergencia a una rueda entre 6 equipos, 2 puntos por victoria. El 20 de enero de 1920 la liga lo dio por terminado sin completar el fixture, con las posiciones de ese momento."
+  },
+  {
+   "kind": "anulado",
+   "text": "La primera etapa (marzo a agosto, 19 equipos) se anuló. Sus partidos se muestran pero no suman: entre ellos el Boca 0-0 River del 27 de julio."
+  },
+  {
+   "kind": "descalificacion",
+   "text": "El 9 de septiembre se desafilió a Independiente, Racing, River, Platense, Tigre y Estudiantil Porteño; el 19 se expulsó a San Isidro, Gimnasia y Esgrima La Plata, San Lorenzo, Defensores de Belgrano, Sportivo Barracas, Atlanta y Estudiantes (BA)."
+  },
+  {
+   "kind": "identidad",
+   "text": "A mitad de año Columbian se fusionó con el Club Almagro y pasó a jugar como Sportivo de Almagro, antecesor del actual Club Almagro. En este torneo se lo cuenta como un solo equipo."
+  },
+  {
+   "kind": "walkover",
+   "text": "Dos partidos del torneo de emergencia se suspendieron y la liga dio por buenos los resultados del momento (Eureka 0-0 Estudiantes de La Plata y Eureka 0-2 Boca)."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "boca",
+   "played": 8,
+   "won": 8,
+   "drawn": 0,
+   "lost": 0,
+   "goalsFor": 29,
+   "goalsAgainst": 5,
+   "points": 16
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 8,
+   "won": 3,
+   "drawn": 1,
+   "lost": 4,
+   "goalsFor": 10,
+   "goalsAgainst": 7,
+   "points": 7
+  },
+  {
+   "teamId": "huracan",
+   "played": 5,
+   "won": 2,
+   "drawn": 0,
+   "lost": 3,
+   "goalsFor": 3,
+   "goalsAgainst": 11,
+   "points": 4
+  },
+  {
+   "teamId": "eureka",
+   "played": 5,
+   "won": 1,
+   "drawn": 1,
+   "lost": 3,
+   "goalsFor": 5,
+   "goalsAgainst": 8,
+   "points": 3
+  },
+  {
+   "teamId": "almagro",
+   "played": 4,
+   "won": 1,
+   "drawn": 1,
+   "lost": 2,
+   "goalsFor": 3,
+   "goalsAgainst": 8,
+   "points": 3
+  },
+  {
+   "teamId": "porteno",
+   "played": 6,
+   "won": 1,
+   "drawn": 1,
+   "lost": 4,
+   "goalsFor": 5,
+   "goalsAgainst": 16,
+   "points": 3
+  }
+ ],
+ "matches": [
+  {
+   "id": "1919-001",
+   "date": "1919-03-16",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-002",
+   "date": "1919-03-16",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-003",
+   "date": "1919-03-16",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-004",
+   "date": "1919-03-16",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "eureka",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-005",
+   "date": "1919-03-16",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-006",
+   "date": "1919-03-16",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-007",
+   "date": "1919-03-16",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "san-isidro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-008",
+   "date": "1919-03-16",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-010",
+   "date": "1919-03-23",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-011",
+   "date": "1919-03-23",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-012",
+   "date": "1919-03-23",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-013",
+   "date": "1919-03-23",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-014",
+   "date": "1919-08-17",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-019",
+   "date": "1919-03-30",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-020",
+   "date": "1919-03-30",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-021",
+   "date": "1919-03-30",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-022",
+   "date": "1919-03-30",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "eureka",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-023",
+   "date": "1919-03-30",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-024",
+   "date": "1919-03-30",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-025",
+   "date": "1919-03-30",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "almagro",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-026",
+   "date": "1919-08-17",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-028",
+   "date": "1919-06-29",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-029",
+   "date": "1919-06-29",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-030",
+   "date": "1919-06-29",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "eureka",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-031",
+   "date": "1919-06-29",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "san-isidro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-032",
+   "date": "1919-06-29",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-036",
+   "date": "1919-06-22",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-037",
+   "date": "1919-06-22",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-038",
+   "date": "1919-06-22",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-039",
+   "date": "1919-06-22",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-040",
+   "date": "1919-06-22",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "eureka",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-041",
+   "date": "1919-06-22",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-042",
+   "date": "1919-06-22",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-043",
+   "date": "1919-06-22",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-044",
+   "date": "1919-06-22",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-045",
+   "date": "1919-07-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-046",
+   "date": "1919-07-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "eureka",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-047",
+   "date": "1919-07-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-048",
+   "date": "1919-07-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-049",
+   "date": "1919-07-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-050",
+   "date": "1919-07-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Suspendido a los 75 minutos con 1-2 y no se completó: no suma. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-051",
+   "date": "1919-07-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-052",
+   "date": "1919-07-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-053",
+   "date": "1919-07-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-054",
+   "date": "1919-07-27",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-055",
+   "date": "1919-07-27",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-056",
+   "date": "1919-07-27",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-057",
+   "date": "1919-07-27",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "eureka",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-058",
+   "date": "1919-07-27",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-059",
+   "date": "1919-07-27",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Terminó a los 77 minutos; se dio por bueno el resultado. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-063",
+   "date": "1919-08-24",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-064",
+   "date": "1919-08-24",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-065",
+   "date": "1919-08-24",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-066",
+   "date": "1919-08-24",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-067",
+   "date": "1919-08-24",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-072",
+   "date": "1919-08-31",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-073",
+   "date": "1919-08-31",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-074",
+   "date": "1919-08-31",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-075",
+   "date": "1919-08-31",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-076",
+   "date": "1919-08-31",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-077",
+   "date": "1919-08-31",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "eureka",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-078",
+   "date": "1919-08-31",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-079",
+   "date": "1919-08-31",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-080",
+   "date": "1919-08-31",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-081",
+   "date": "1919-07-27",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs."
+  },
+  {
+   "id": "1919-091",
+   "date": "1919-09-28",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "porteno",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1919-092",
+   "date": "1919-09-28",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1919-093",
+   "date": "1919-09-28",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "eureka",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1919-094",
+   "date": "1919-10-05",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "eureka",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 89 minutos, con 0-0."
+  },
+  {
+   "id": "1919-095",
+   "date": "1919-10-05",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1919-096",
+   "date": "1919-10-05",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1919-097",
+   "date": "1919-10-26",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "eureka",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1919-098",
+   "date": "1919-10-26",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1919-099",
+   "date": "1919-10-26",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1919-100",
+   "date": "1919-11-23",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1919-103",
+   "date": "1919-11-30",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "porteno",
+   "note": "No se jugó: los puntos fueron para Porteño. Se jugó como amistoso (0-0); los puntos se definieron por escritorio."
+  },
+  {
+   "id": "1919-104",
+   "date": "1920-01-04",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "almagro",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1919-106",
+   "date": "1919-12-14",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1919-107",
+   "date": "1920-01-04",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1919-109",
+   "date": "1919-11-16",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "eureka",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1919-110",
+   "date": "1919-12-21",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1919-112",
+   "date": "1919-11-30",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "eureka",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido en el entretiempo; la liga dio por bueno el resultado (Jan 20)."
+  },
+  {
+   "id": "1919-118",
+   "date": "1919-12-21",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

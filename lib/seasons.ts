@@ -47,6 +47,11 @@ export function computeTable(season: Season): TableRow[] {
       away.goalsAgainst += m.homeGoals;
     }
 
+    if (m.bothLost) {
+      home.lost++;
+      away.lost++;
+      continue;
+    }
     const winner = winnerOf(m);
     if (winner === null) {
       home.drawn++;

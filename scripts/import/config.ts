@@ -32,6 +32,10 @@ export type TournamentConfig = {
   wikiErrata?: Record<string, string>;
   // Nombres que en este torneo corresponden a otro club que en el resto del año (nombre → id).
   aliases?: Record<string, string>;
+  // Partidos anteriores a esta fecha que quedaron anulados (ej. 1919: primera etapa anulada).
+  annulBefore?: { date: string; note: string };
+  // Equipos desafiliados durante el torneo: todos sus partidos quedan anulados.
+  annulTeams?: { id: string; note: string }[];
   extraMatches?: Partial<Match>[];
 };
 
@@ -39,6 +43,40 @@ const AAFL = "Argentine Association Football League";
 const AAF = "Asociación Argentina de Football";
 const FAF = "Federación Argentina de Football";
 const fafWiki = (y: number) => `Campeonato de Primera División ${y} de la FAF (Argentina)`;
+const AAM = "Asociación Amateurs de Football";
+const aamWiki = (y: number) => `Campeonato de Primera División ${y} de la AAmF (Argentina)`;
+const rr1 = (teams: number, extra = "") =>
+  ({ kind: "formato", text: `Todos contra todos a una rueda entre ${teams} equipos, 2 puntos por victoria.${extra}` }) as const;
+
+// Segundo cisma (1919–1926): la Asociación Argentina (oficial) y la Asociación Amateurs (disidente) en paralelo.
+const aaf2 = (year: number, file: string, section: RegExp, rest: Omit<TournamentConfig, "slug" | "year" | "file" | "section" | "wiki" | "competition" | "organizer" | "title" | "league">): TournamentConfig => ({
+  slug: String(year),
+  year,
+  league: "AAF",
+  file,
+  section,
+  wiki: wikiTitle(year),
+  competition: AAF,
+  organizer: `${AAF} (entidad oficial)`,
+  title: `Campeonato ${year} · Asociación Argentina`,
+  ...rest,
+});
+const aam = (year: number, file: string, section: RegExp, rest: Omit<TournamentConfig, "slug" | "year" | "file" | "section" | "wiki" | "competition" | "organizer" | "title" | "league">): TournamentConfig => ({
+  slug: `${year}-aam`,
+  year,
+  league: "AAm",
+  file,
+  section,
+  wiki: aamWiki(year),
+  competition: AAM,
+  organizer: `${AAM} (entidad disidente, no reconocida entonces por la FIFA)`,
+  title: `Campeonato ${year} · Asociación Amateurs`,
+  ...rest,
+});
+const CISMA2 = {
+  kind: "identidad",
+  text: "Entre 1919 y 1926 hubo dos ligas de Primera en paralelo: la Asociación Argentina de Football (oficial) y la Asociación Amateurs de Football (disidente). Las dos se consideran hoy parte de la historia de la Primera División.",
+} as const;
 const AFA_1903 = "Argentine Football Association";
 const wikiTitle = (y: number) => `Campeonato de Primera División ${y} (Argentina)`;
 const rr2 = (teams: number, extra = "") =>
@@ -511,4 +549,190 @@ export const TOURNAMENTS: TournamentConfig[] = [
     summary: "Racing ganó su sexto título seguido, invicto; lo aseguró en la fecha 16 con un 4-1 a Platense de visitante.",
     notes: [{ kind: "formato", text: "Todos contra todos a una rueda entre 20 equipos, 2 puntos por victoria." }],
   },
+
+  // ───────── Segundo cisma (1919–1926) ─────────
+  aaf2(1919, "arg19.html", /Asociación Argentina/, {
+    tournament: "Copa Campeonato 1919 (Asociación Argentina de Football)",
+    championIds: ["boca"],
+    aliases: { Columbian: "almagro", "Sportivo de Almagro": "almagro", "Spotivo de Almagro": "almagro" },
+    annulBefore: {
+      date: "1919-09-28",
+      note: "Primera etapa del torneo, anulada cuando 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs.",
+    },
+    summary:
+      "Un año caótico. El torneo empezó con 19 equipos, pero en septiembre 13 clubes fueron desafiliados o expulsados y formaron la Asociación Amateurs; la primera etapa se anuló. Los seis que quedaron jugaron un torneo de emergencia que la liga dio por terminado en enero de 1920 con partidos sin jugar. Boca Juniors lo ganó con ocho victorias en ocho partidos: su primer título.",
+    notes: [
+      CISMA2,
+      { kind: "formato", text: "Torneo de emergencia a una rueda entre 6 equipos, 2 puntos por victoria. El 20 de enero de 1920 la liga lo dio por terminado sin completar el fixture, con las posiciones de ese momento." },
+      {
+        kind: "anulado",
+        text: "La primera etapa (marzo a agosto, 19 equipos) se anuló. Sus partidos se muestran pero no suman: entre ellos el Boca 0-0 River del 27 de julio.",
+      },
+      {
+        kind: "descalificacion",
+        text: "El 9 de septiembre se desafilió a Independiente, Racing, River, Platense, Tigre y Estudiantil Porteño; el 19 se expulsó a San Isidro, Gimnasia y Esgrima La Plata, San Lorenzo, Defensores de Belgrano, Sportivo Barracas, Atlanta y Estudiantes (BA).",
+      },
+      {
+        kind: "identidad",
+        text: "A mitad de año Columbian se fusionó con el Club Almagro y pasó a jugar como Sportivo de Almagro, antecesor del actual Club Almagro. En este torneo se lo cuenta como un solo equipo.",
+      },
+      { kind: "walkover", text: "Dos partidos del torneo de emergencia se suspendieron y la liga dio por buenos los resultados del momento (Eureka 0-0 Estudiantes de La Plata y Eureka 0-2 Boca)." },
+    ],
+  }),
+  aam(1919, "arg19.html", /Asociación Amateurs/, {
+    tournament: "Campeonato 1919 de la Asociación Amateurs de Football",
+    championIds: ["racing"],
+    summary:
+      "Primer torneo de la Asociación Amateurs, formada por los 13 clubes que dejaron la Asociación Argentina más Vélez Sarsfield. Racing ganó los 13 partidos y consiguió su séptimo título seguido, el cierre del heptacampeonato; lo aseguró con un 2-1 a Tigre.",
+    overrides: {
+      "1919-11-30 platense san-isidro": {
+        homeGoals: 0,
+        awayGoals: 0,
+        walkover: true,
+        awardedTo: "platense",
+        note: "Se suspendió a los 20 minutos con 1-0 para Platense; San Isidro no se presentó a jugar los 70 minutos restantes (14/12) y los puntos fueron para Platense. Las tablas publicadas no cuentan el gol.",
+      },
+    },
+    notes: [
+      CISMA2,
+      rr1(14, " Se jugó entre el 28 de septiembre y el 6 de enero de 1920."),
+      { kind: "identidad", text: "Debutó Vélez Sarsfield, que se sumó después de jugadas las dos primeras fechas y las recuperó más tarde." },
+      { kind: "walkover", text: "Varios partidos suspendidos no se completaron porque uno de los equipos no se presentó a jugar los minutos restantes; se dieron por ganados al rival." },
+      { kind: "anulado", text: "Cinco partidos suspendidos se anularon y se volvieron a jugar (entre ellos River–Independiente y River–Gimnasia y Esgrima La Plata); vale el resultado de la revancha." },
+      { kind: "fuentes", text: "La tabla de Wikipedia difiere en un partido entre Vélez Sarsfield y Atlanta; se sigue la de RSSSF, que cierra con los resultados." },
+    ],
+  }),
+  aaf2(1920, "arg20.html", /Asociación Argentina/, {
+    tournament: "Copa Campeonato 1920 (Asociación Argentina de Football)",
+    championIds: ["boca"],
+    summary:
+      "Boca Juniors ganó su segundo título seguido. Empezaron 13 equipos, pero durante el torneo Lanús, Sportivo Almagro y Palermo se fueron: los dos primeros pasaron a la Asociación Amateurs.",
+    notes: [
+      CISMA2,
+      { kind: "formato", text: "Todos contra todos a dos ruedas, 2 puntos por victoria. Empezaron 13 equipos." },
+      {
+        kind: "retiro",
+        text: "Lanús y Sportivo Almagro se desafiliaron a mitad de año para pasar a la Asociación Amateurs, y Palermo también se fue. Sus partidos pendientes se definieron por escritorio; los que tenían entre ellos se les dieron por perdidos a los dos.",
+      },
+    ],
+  }),
+  aam(1920, "arg20.html", /Asociación Amateur/, {
+    tournament: "Campeonato 1920 de la Asociación Amateurs de Football",
+    championIds: ["river"],
+    summary:
+      "River Plate ganó su único título de la era amateur y cortó la racha de siete campeonatos seguidos de Racing. Empezaron 17 equipos y a mitad de año se sumaron Lanús y Sportivo Almagro, que llegaron de la Asociación Argentina y jugaron solo la segunda mitad.",
+    notes: [CISMA2, { kind: "formato", text: "Todos contra todos a dos ruedas, 2 puntos por victoria. 17 equipos al principio y 19 al final; no hubo descensos." }],
+  }),
+  aaf2(1921, "arg21.html", /Copa Campeonato 1921/, {
+    tournament: "Copa Campeonato 1921 (Asociación Argentina de Football)",
+    championIds: ["huracan"],
+    summary: "Huracán ganó su primer título.",
+    notes: [CISMA2, rr2(10)],
+  }),
+  aam(1921, "arg21.html", /^Primera División$/, {
+    tournament: "Campeonato 1921 de la Asociación Amateurs de Football",
+    championIds: ["racing"],
+    summary: "Racing ganó su octavo título, con el 87 % de los puntos en juego. General Mitre fue desafiliado durante la temporada y se anularon sus partidos.",
+    annulTeams: [{ id: "general-mitre", note: "General Mitre fue desafiliado durante el torneo y se anularon todos sus partidos." }],
+    // RSSSF lista dos veces el Independiente–Quilmes del 11/12: un 3-0 y el W.O. por retiro de Quilmes; la tabla cuenta el W.O.
+    skip: (m) => m.home === "Independiente" && m.away === "Quilmes" && m.score === "3-0" && /^Dec 11/.test(m.date),
+    overrides: {
+      "1921-12-11 independiente quilmes": {
+        note: "RSSSF registra un 3-0 y, para el mismo partido, que Quilmes se retiró. La tabla publicada lo cuenta como ganado por Independiente sin goles.",
+      },
+    },
+    knownTableDiffs: {
+      keys: ["atlanta:goalsAgainst", "ferro:goalsFor"],
+      explanation:
+        "La tabla publicada (RSSSF) le da a Ferro Carril Oeste un gol más a favor y a Atlanta uno más en contra que los resultados. Cerraría si el Atlanta 2-0 Ferro hubiera sido 2-1, pero ninguna fuente lo confirma, así que se deja el resultado registrado.",
+    },
+    notes: [CISMA2, rr2(20), { kind: "descalificacion", text: "General Mitre fue desafiliado durante la temporada; todos sus partidos se anularon y no figura en la tabla." }],
+  }),
+  aaf2(1922, "arg22.html", /Copa Campeonato 1922/, {
+    tournament: "Copa Campeonato 1922 (Asociación Argentina de Football)",
+    championIds: ["huracan"],
+    summary: "Huracán ganó su segundo título seguido.",
+    overrides: {
+      "1923-01-14 del-plata progresista": {
+        homeGoals: 1,
+        awayGoals: 0,
+        walkover: false,
+        awardedTo: "del-plata",
+        note: "Se suspendió el 8 de octubre a los 79 minutos con 1-0 para Del Plata; Progresista no se presentó a completarlo el 14 de enero de 1923 y los puntos fueron para Del Plata. La tabla cuenta el 1-0.",
+      },
+    },
+    notes: [CISMA2, rr1(17)],
+  }),
+  aam(1922, "arg22.html", /^Primera División$/, {
+    tournament: "Campeonato 1922 de la Asociación Amateurs de Football",
+    championIds: ["independiente"],
+    summary:
+      "Independiente ganó su primer título. El torneo empezó en abril de 1922 y, con una pausa entre enero y marzo, terminó recién en julio de 1923. Palermo descendió y se pasó a la Asociación Argentina.",
+    overrides: {
+      "1922-12-24 sanlorenzo river": {
+        homeGoals: 1,
+        awayGoals: 1,
+        note: "Se suspendió a los 42 minutos con 0-1 y se completó el 13 de mayo de 1923. RSSSF no publica el resultado final; las tablas publicadas (RSSSF y Wikipedia) solo cierran si terminó 1-1, que es el que se carga.",
+      },
+    },
+    notes: [
+      CISMA2,
+      rr2(21),
+      {
+        kind: "fuentes",
+        text: "San Lorenzo–River (suspendido con 0-1 y completado en 1923) figura sin resultado final en RSSSF; se carga 1-1, el único resultado con el que cierran las tablas publicadas.",
+      },
+    ],
+  }),
+  aaf2(1923, "arg23.html", /Asociación Argentina/, {
+    tournament: "Copa Campeonato 1923 (Asociación Argentina de Football)",
+    championIds: ["boca"],
+    summary:
+      "Boca Juniors fue campeón tras vencer a Huracán en un desempate que se jugó entre marzo y abril de 1924, con el torneo siguiente ya empezado. La liga dio por terminado el campeonato sin completar el fixture y mandó a jugar el desempate a los dos que compartían la punta. Estudiantes de La Plata y Sportivo Palermo se retiraron a mitad de año, sin que se anularan sus partidos.",
+    notes: [CISMA2, { kind: "formato", text: "Previsto a dos ruedas entre 23 equipos (46 fechas); la liga lo dio por terminado antes de completarlo." }],
+  }),
+  aam(1923, "arg23.html", /Asociación Amateur/, {
+    tournament: "Campeonato 1923 de la Asociación Amateurs de Football",
+    championIds: ["sanlorenzo"],
+    summary: "San Lorenzo ganó su primer título.",
+    notes: [CISMA2, rr1(21, " Se jugó entre julio de 1923 y enero de 1924.")],
+  }),
+  aaf2(1924, "arg24.html", /Copa Campeonato 1924/, {
+    tournament: "Copa Campeonato 1924 (Asociación Argentina de Football)",
+    championIds: ["boca"],
+    summary: "Boca Juniors fue campeón invicto por segunda vez seguida, aunque jugó dos partidos menos que Temperley, el segundo: otra vez el fixture no se completó.",
+    notes: [CISMA2, rr1(22, " El fixture no se completó.")],
+  }),
+  aam(1924, "arg24.html", /Primera División 1924/, {
+    tournament: "Campeonato 1924 de la Asociación Amateurs de Football",
+    championIds: ["sanlorenzo"],
+    summary: "San Lorenzo ganó su segundo título seguido.",
+    notes: [CISMA2, rr1(24)],
+  }),
+  aaf2(1925, "arg25.html", /Copa ?Campeonato 1925/, {
+    tournament: "Copa Campeonato 1925 (Asociación Argentina de Football)",
+    championIds: ["huracan"],
+    summary:
+      "Huracán ganó su tercer título al vencer en un desempate a Nueva Chicago, con el que había compartido la punta; el partido se jugó recién el 22 de agosto de 1926. Boca Juniors jugó solo siete partidos y se fue de gira por Europa; al volver, la liga le dio el título honorífico de \"Campeón de Honor 1925\".",
+    notes: [CISMA2, rr1(21, " No se jugaron todos los partidos programados.")],
+  }),
+  aam(1925, "arg25.html", /Primera División 1925/, {
+    tournament: "Campeonato 1925 de la Asociación Amateurs de Football",
+    championIds: ["racing"],
+    summary: "Racing ganó su noveno título, con el 81 % de los puntos.",
+    notes: [CISMA2, rr1(25)],
+  }),
+  aaf2(1926, "arg26.html", /Copa Campeonato 1926/, {
+    tournament: "Copa Campeonato 1926 (Asociación Argentina de Football)",
+    championIds: ["boca"],
+    summary:
+      "Boca Juniors ganó su quinto título, invicto. A mitad del torneo seis de los 24 clubes perdieron la afiliación y se pasaron a la Asociación Amateurs, y sus partidos se anularon. Fue el último torneo de la Asociación Argentina: en 1927 las dos ligas se fusionaron.",
+    notes: [CISMA2, { kind: "formato", text: "Todos contra todos a una rueda, 2 puntos por victoria. Empezaron 24 equipos y terminaron 18." }],
+  }),
+  aam(1926, "arg26.html", /Primera División 1926/, {
+    tournament: "Campeonato 1926 de la Asociación Amateurs de Football",
+    championIds: ["independiente"],
+    summary: "Independiente ganó su segundo título. Con 26 equipos fue, hasta ese momento, el torneo de Primera con más participantes. Fue el último torneo de la Asociación Amateurs antes de la fusión de 1927.",
+    notes: [CISMA2, rr1(26)],
+  }),
 ];

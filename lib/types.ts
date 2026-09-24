@@ -85,6 +85,8 @@ export type Match = {
   awayGoals: number;
   // No se jugó: los puntos se dieron por no presentación (ver awardedTo).
   walkover?: boolean;
+  // No se jugó y la liga se lo dio por perdido a los dos equipos (ninguno suma puntos).
+  bothLost?: boolean;
   // Se jugó pero el resultado no quedó registrado; solo se sabe quién ganó (winnerId, o empate si falta).
   // Los goles de estos partidos no suman en ninguna estadística.
   scoreUnknown?: boolean;

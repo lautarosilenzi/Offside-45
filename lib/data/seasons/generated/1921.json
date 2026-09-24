@@ -1,0 +1,1597 @@
+{
+ "slug": "1921",
+ "year": 1921,
+ "league": "AAF",
+ "title": "Campeonato 1921 · Asociación Argentina",
+ "tournament": "Copa Campeonato 1921 (Asociación Argentina de Football)",
+ "organizer": "Asociación Argentina de Football (entidad oficial)",
+ "championIds": [
+  "huracan"
+ ],
+ "summary": "Huracán ganó su primer título.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1921",
+   "url": "https://www.rsssf.org/tablesa/arg21.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1921 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1921_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "identidad",
+   "text": "Entre 1919 y 1926 hubo dos ligas de Primera en paralelo: la Asociación Argentina de Football (oficial) y la Asociación Amateurs de Football (disidente). Las dos se consideran hoy parte de la historia de la Primera División."
+  },
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a dos ruedas entre 10 equipos, 2 puntos por victoria."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "huracan",
+   "played": 18,
+   "won": 14,
+   "drawn": 3,
+   "lost": 1,
+   "goalsFor": 54,
+   "goalsAgainst": 15,
+   "points": 31
+  },
+  {
+   "teamId": "del-plata",
+   "played": 18,
+   "won": 13,
+   "drawn": 3,
+   "lost": 2,
+   "goalsFor": 29,
+   "goalsAgainst": 11,
+   "points": 29
+  },
+  {
+   "teamId": "boca",
+   "played": 18,
+   "won": 10,
+   "drawn": 5,
+   "lost": 3,
+   "goalsFor": 30,
+   "goalsAgainst": 17,
+   "points": 25
+  },
+  {
+   "teamId": "nueva-chicago",
+   "played": 18,
+   "won": 6,
+   "drawn": 7,
+   "lost": 5,
+   "goalsFor": 14,
+   "goalsAgainst": 13,
+   "points": 19
+  },
+  {
+   "teamId": "el-porvenir",
+   "played": 18,
+   "won": 6,
+   "drawn": 7,
+   "lost": 5,
+   "goalsFor": 17,
+   "goalsAgainst": 22,
+   "points": 19
+  },
+  {
+   "teamId": "colegiales",
+   "played": 18,
+   "won": 4,
+   "drawn": 7,
+   "lost": 7,
+   "goalsFor": 17,
+   "goalsAgainst": 23,
+   "points": 15
+  },
+  {
+   "teamId": "sportivo-barracas",
+   "played": 18,
+   "won": 5,
+   "drawn": 4,
+   "lost": 9,
+   "goalsFor": 22,
+   "goalsAgainst": 31,
+   "points": 14
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 18,
+   "won": 5,
+   "drawn": 3,
+   "lost": 10,
+   "goalsFor": 18,
+   "goalsAgainst": 35,
+   "points": 13
+  },
+  {
+   "teamId": "sportivo-palermo",
+   "played": 18,
+   "won": 3,
+   "drawn": 4,
+   "lost": 11,
+   "goalsFor": 14,
+   "goalsAgainst": 29,
+   "points": 10
+  },
+  {
+   "teamId": "porteno",
+   "played": 18,
+   "won": 0,
+   "drawn": 5,
+   "lost": 13,
+   "goalsFor": 10,
+   "goalsAgainst": 29,
+   "points": 5
+  }
+ ],
+ "matches": [
+  {
+   "id": "1921-002",
+   "date": "1921-04-10",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Progresista",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-003",
+   "date": "1921-04-10",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "del-plata",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-004",
+   "date": "1921-04-17",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Brenna, Ginevra, Chiesa (2)."
+  },
+  {
+   "id": "1921-005",
+   "date": "1921-04-17",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "estudiantes",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-006",
+   "date": "1921-04-17",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "el-porvenir",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-007",
+   "date": "1921-04-17",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-008",
+   "date": "1921-04-24",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Sportivo Avellaneda",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-009",
+   "date": "1921-04-24",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Branna, Dannaher (2)."
+  },
+  {
+   "id": "1921-010",
+   "date": "1921-04-24",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-011",
+   "date": "1921-04-24",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-012",
+   "date": "1921-04-24",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "del-plata",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-013",
+   "date": "1921-05-08",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Dannaher / Cánepa."
+  },
+  {
+   "id": "1921-014",
+   "date": "1921-05-08",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Mércoli / Vecchia."
+  },
+  {
+   "id": "1921-015",
+   "date": "1921-05-08",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-016",
+   "date": "1921-05-08",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Avellaneda",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-017",
+   "date": "1921-05-15",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-018",
+   "date": "1921-05-15",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-019",
+   "date": "1921-05-15",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Vecchia."
+  },
+  {
+   "id": "1921-020",
+   "date": "1921-05-15",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ragoni, Marini / Di Lorenzo, Dannaher (2)."
+  },
+  {
+   "id": "1921-021",
+   "date": "1921-05-15",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "el-porvenir",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-022",
+   "date": "1921-05-22",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bozzo, Mange."
+  },
+  {
+   "id": "1921-023",
+   "date": "1921-05-22",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "sportivo-palermo",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-024",
+   "date": "1921-05-22",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-025",
+   "date": "1921-05-22",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "del-plata",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Everton (Gerli)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-026",
+   "date": "1921-05-22",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-027",
+   "date": "1921-05-29",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Masse, Candal / Pisa."
+  },
+  {
+   "id": "1921-028",
+   "date": "1921-05-29",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bertagni / Dannaher."
+  },
+  {
+   "id": "1921-029",
+   "date": "1921-05-29",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-030",
+   "date": "1921-05-29",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-031",
+   "date": "1921-05-29",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-032",
+   "date": "1921-06-05",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-033",
+   "date": "1921-06-05",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-034",
+   "date": "1921-06-05",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-035",
+   "date": "1921-06-05",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pisa, Ferreyra / Dannaher (2)."
+  },
+  {
+   "id": "1921-037",
+   "date": "1921-06-12",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 7,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-038",
+   "date": "1921-06-12",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pisa."
+  },
+  {
+   "id": "1921-039",
+   "date": "1921-06-12",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "nueva-chicago",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-040",
+   "date": "1921-06-12",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-041",
+   "date": "1921-06-12",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "el-porvenir",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-042",
+   "date": "1921-06-26",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "del-plata",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-043",
+   "date": "1921-06-26",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: P.García, Pratto og / Dannaher, Chiesa (2)."
+  },
+  {
+   "id": "1921-044",
+   "date": "1921-06-26",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-045",
+   "date": "1921-06-26",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Sacarello / Pisa, Elli."
+  },
+  {
+   "id": "1921-046",
+   "date": "1921-07-03",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "del-plata",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-047",
+   "date": "1921-07-03",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "boca",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ruggiero / Calomino, Cortella, Bozzo, Mange, Brichetto."
+  },
+  {
+   "id": "1921-048",
+   "date": "1921-07-03",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "el-porvenir",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-049",
+   "date": "1921-07-03",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-050",
+   "date": "1921-07-03",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "porteno",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Dannaher, Chiesa, Pratto, Laguna(2) / Vivaldo."
+  },
+  {
+   "id": "1921-051",
+   "date": "1921-07-10",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "del-plata",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-052",
+   "date": "1921-07-10",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-053",
+   "date": "1921-07-10",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "el-porvenir",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-054",
+   "date": "1921-07-17",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "el-porvenir",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Dannaher (3), Chiesa (3) / Strittmatter."
+  },
+  {
+   "id": "1921-055",
+   "date": "1921-07-17",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Del Plata",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-056",
+   "date": "1921-07-17",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-057",
+   "date": "1921-07-17",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-058",
+   "date": "1921-07-17",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "1921-059",
+   "date": "1921-07-31",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-060",
+   "date": "1921-07-31",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-061",
+   "date": "1921-07-31",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Chavín (2) / Deibe."
+  },
+  {
+   "id": "1921-062",
+   "date": "1921-07-31",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bozzo, Mange, Ballaratti og, Pisa / Ballaratti, Calandra."
+  },
+  {
+   "id": "1921-063",
+   "date": "1921-08-07",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "huracan",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Dannaher (2), Chiesa."
+  },
+  {
+   "id": "1921-064",
+   "date": "1921-08-07",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bruzzone."
+  },
+  {
+   "id": "1921-065",
+   "date": "1921-08-07",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Calandra, García / Masse."
+  },
+  {
+   "id": "1921-066",
+   "date": "1921-08-07",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bozzo."
+  },
+  {
+   "id": "1921-067",
+   "date": "1921-08-07",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Everton (Gerli)",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "el-porvenir",
+   "note": "Suspendido a los 65 minutos. La liga le dio los puntos a El Porvenir."
+  },
+  {
+   "id": "1921-068",
+   "date": "1921-08-14",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "sportivo-barracas",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Landoni."
+  },
+  {
+   "id": "1921-069",
+   "date": "1921-08-14",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Dannaher (2), Laguna (2)."
+  },
+  {
+   "id": "1921-070",
+   "date": "1921-08-14",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: J.García / Bertolini, Pisa."
+  },
+  {
+   "id": "1921-071",
+   "date": "1921-08-21",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Goles: Falcioni, Presta (p) / Pozo."
+  },
+  {
+   "id": "1921-072",
+   "date": "1921-09-04",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pisa, Calomino / Galindez."
+  },
+  {
+   "id": "1921-073",
+   "date": "1921-09-04",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Montenegro / Dannaher, Laguna."
+  },
+  {
+   "id": "1921-074",
+   "date": "1921-09-04",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "El partido original (3/4) se suspendió con 0-0 y se volvió a jugar en esta fecha."
+  },
+  {
+   "id": "1921-075",
+   "date": "1921-09-04",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-076",
+   "date": "1921-09-04",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Urquiza",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "1921-077",
+   "date": "1921-11-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-078",
+   "date": "1921-11-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Porteño",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "1921-079",
+   "date": "1921-11-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Everton (Gerli)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-080",
+   "date": "1921-11-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bozzo (3)."
+  },
+  {
+   "id": "1921-081",
+   "date": "1921-11-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Terminó a los 84 minutos; se dio por bueno el resultado."
+  },
+  {
+   "id": "1921-082",
+   "date": "1921-11-13",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "estudiantes",
+   "note": "No se jugó: los puntos fueron para Estudiantes (LP). Sportivo del Norte no se presentó."
+  },
+  {
+   "id": "1921-083",
+   "date": "1921-11-27",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Galíndez / Dannaher (2), Chiesa."
+  },
+  {
+   "id": "1921-084",
+   "date": "1921-11-27",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-085",
+   "date": "1921-12-04",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "1921-086",
+   "date": "1921-12-04",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "del-plata",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Dannaher, Onzari, Laguna."
+  },
+  {
+   "id": "1921-087",
+   "date": "1921-12-04",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "el-porvenir",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bozzo, Fabiano / Strittmatter, Cerrotti."
+  },
+  {
+   "id": "1921-088",
+   "date": "1921-12-04",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "nueva-chicago",
+   "note": "No se jugó: los puntos fueron para Nueva Chicago. Sportivo del Norte no se presentó."
+  },
+  {
+   "id": "1921-089",
+   "date": "1921-12-11",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 77 minutos. No se completó; quedó el resultado del momento de la suspensión. Goles: Bozzo / A.Lopez, Varela."
+  },
+  {
+   "id": "1921-090",
+   "date": "1921-12-11",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1921-091",
+   "date": "1921-12-11",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "1921-092",
+   "date": "1921-12-11",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "el-porvenir",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 45 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1921-093",
+   "date": "1921-12-16",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "porteno",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "colegiales",
+   "note": "No se jugó: los puntos fueron para Sportivo del Norte. Porteño no se presentó."
+  },
+  {
+   "id": "1921-094",
+   "date": "1921-12-18",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Goles: Onzari, Dannaher, Chiesa, Laguna."
+  },
+  {
+   "id": "1921-095",
+   "date": "1921-12-18",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "del-plata",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Uslenghi (p) / Ragone, Rivet (2)."
+  },
+  {
+   "id": "1921-096",
+   "date": "1921-12-18",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "el-porvenir",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "el-porvenir",
+   "note": "No se jugó: los puntos fueron para El Porvenir."
+  },
+  {
+   "id": "1921-097",
+   "date": "1921-12-25",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Clarke / Villagra, Maglio."
+  },
+  {
+   "id": "1921-098",
+   "date": "1921-12-25",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "del-plata",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Empezó el 5/6 y se suspendió con 1-1; se completó en esta fecha. Goles: Cartagénova."
+  },
+  {
+   "id": "1921-099",
+   "date": "1922-01-08",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: G.Dannaher 44, 71."
+  }
+ ]
+}

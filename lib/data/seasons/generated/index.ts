@@ -25,5 +25,13 @@ import S_1915 from "./1915.json";
 import S_1916 from "./1916.json";
 import S_1917 from "./1917.json";
 import S_1918 from "./1918.json";
+import S_1919_aam from "./1919-aam.json";
+import S_1919 from "./1919.json";
+import S_1920_aam from "./1920-aam.json";
+import S_1920 from "./1920.json";
+import S_1921_aam from "./1921-aam.json";
+import S_1921 from "./1921.json";
+import S_1922_aam from "./1922-aam.json";
+import S_1922 from "./1922.json";
 
-export const GENERATED_SEASONS = [S_1897, S_1898, S_1899, S_1900, S_1901, S_1902, S_1903, S_1904, S_1905, S_1906, S_1907, S_1908, S_1909, S_1910, S_1911, S_1912_faf, S_1912, S_1913_faf, S_1913, S_1914_faf, S_1914, S_1915, S_1916, S_1917, S_1918] as Season[];
+export const GENERATED_SEASONS = [S_1897, S_1898, S_1899, S_1900, S_1901, S_1902, S_1903, S_1904, S_1905, S_1906, S_1907, S_1908, S_1909, S_1910, S_1911, S_1912_faf, S_1912, S_1913_faf, S_1913, S_1914_faf, S_1914, S_1915, S_1916, S_1917, S_1918, S_1919_aam, S_1919, S_1920_aam, S_1920, S_1921_aam, S_1921, S_1922_aam, S_1922] as Season[];

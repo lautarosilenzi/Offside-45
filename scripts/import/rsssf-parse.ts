@@ -59,13 +59,13 @@ const MONTH = "(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|Februa
 const DATE_RE = new RegExp(String.raw`^\s*\[\s*(${MONTH}[a-z]*\.?\s*\d{1,2}[^\]]*)\]\s*(.*)$`, "i");
 const DATE_PLAIN_RE = new RegExp(String.raw`^\s*(${MONTH}\s+\d{1,2}(?:,\s*\d{4})?)\s*:?\s*$`, "i");
 const ROUND_RE = /^\s*((?:Round|Fecha|Matchday)\s*\d+[^\[]*?)\s*:?\s*(?:\[(.+)\])?\s*:?\s*$/i;
-const SCORE = String.raw`(\d+\s*[:\-]\s*\d+|wp\s*[:\-]\s*lp|lp\s*[:\-]\s*wp|w\s*[:\-]\s*l|l\s*[:\-]\s*w|d\s*[:\-]\s*d|wo|ann|void|abd|n/p|awd|:|-)`;
+const SCORE = String.raw`(\d+\s*[:\-]\s*\d+|wp\s*[:\-]\s*lp|lp\s*[:\-]\s*wp|lp\s*[:\-]\s*lp|w\s*[:\-]\s*l|l\s*[:\-]\s*w|d\s*[:\-]\s*d|wo|ann|void|abd|n/p|awd|:|-)`;
 const MATCH_RE = new RegExp(
   String.raw`^\s*(\S.*?)(?:\t+|\s{2,}|\s(?=\d+\s*[:\-]\s*\d)|\s(?=(?:wp|lp)\s*[:\-]\s*(?:wp|lp)\s))\s*${SCORE}(?:\t+|\s+)(\S.*?)\s*$`,
   "i",
 );
 const TABLE_RE =
-  /^\s*(\d+)\s*\.\s*(.+?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(?:(?:\d+\s+){6})?(~?\s*\d+)\s*[:\-]?\s+(~?\s*\d+)\s+(\d+)(.*)$/;
+  /^\s*(\d+)\s*(?:\.\s*|\s{2,})(.+?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(?:(?:\d+\s+){6})?(~?\s*\d+)\s*[:\-]?\s+(~?\s*\d+)\s+(\d+)(.*)$/;
 
 // Separa "Equipo  [nota]" o "Equipo      nota libre" en nombre y nota.
 function splitAway(rest: string): { away: string; note: string } {
@@ -106,7 +106,9 @@ export function parseSeason(source: string): RawSection[] {
       table = null;
       return;
     }
-    if (headings.has(trimmed.replace(/\s+/g, " ")) && !/^About this document$/i.test(trimmed)) {
+    // Algunas páginas (1920, 1923) marcan cada liga con una línea en negrita en lugar de un título.
+    const leagueLine = /^(Asociaci[oó]n (Argentina|Amateurs?)( Argentina)? de Football|Federaci[oó]n Argentina de Football)$/i.test(trimmed);
+    if ((headings.has(trimmed.replace(/\s+/g, " ")) || leagueLine) && !/^About this document$/i.test(trimmed)) {
       cur = { heading: trimmed.replace(/\s+/g, " "), tables: [], matches: [], text: [] };
       sections.push(cur);
       table = null;
