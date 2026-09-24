@@ -1,0 +1,523 @@
+{
+ "slug": "1904",
+ "year": 1904,
+ "title": "Campeonato 1904",
+ "tournament": "Copa Campeonato 1904",
+ "organizer": "Argentine Football Association",
+ "championIds": [
+  "belgrano-athletic"
+ ],
+ "summary": "Belgrano Athletic cortó la racha de Alumni y ganó su segundo título. Debutó Estudiantes, el actual Estudiantes de Buenos Aires.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1904",
+   "url": "https://www.rsssf.org/tablesa/arg1904.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1904 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1904_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a dos ruedas entre 6 equipos, 2 puntos por victoria."
+  },
+  {
+   "kind": "identidad",
+   "text": "Estudiantes (BA) es el Club Atlético Estudiantes, hoy con sede en Caseros; no tiene relación con Estudiantes de La Plata."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "belgrano-athletic",
+   "played": 10,
+   "won": 9,
+   "drawn": 1,
+   "lost": 0,
+   "goalsFor": 30,
+   "goalsAgainst": 9,
+   "points": 19
+  },
+  {
+   "teamId": "alumni",
+   "played": 10,
+   "won": 5,
+   "drawn": 3,
+   "lost": 2,
+   "goalsFor": 18,
+   "goalsAgainst": 9,
+   "points": 13
+  },
+  {
+   "teamId": "lomas-athletic",
+   "played": 10,
+   "won": 5,
+   "drawn": 1,
+   "lost": 4,
+   "goalsFor": 9,
+   "goalsAgainst": 10,
+   "points": 11
+  },
+  {
+   "teamId": "barracas-athletic",
+   "played": 10,
+   "won": 5,
+   "drawn": 0,
+   "lost": 5,
+   "goalsFor": 13,
+   "goalsAgainst": 16,
+   "points": 10
+  },
+  {
+   "teamId": "estudiantes-ba",
+   "played": 10,
+   "won": 2,
+   "drawn": 1,
+   "lost": 7,
+   "goalsFor": 12,
+   "goalsAgainst": 27,
+   "points": 5
+  },
+  {
+   "teamId": "quilmes",
+   "played": 10,
+   "won": 1,
+   "drawn": 0,
+   "lost": 9,
+   "goalsFor": 8,
+   "goalsAgainst": 19,
+   "points": 2
+  }
+ ],
+ "matches": [
+  {
+   "id": "1904-001",
+   "date": "1904-05-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Palermo (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-002",
+   "date": "1904-05-12",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "barracas-athletic",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Club Atlético de Flores (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-003",
+   "date": "1904-05-12",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Belgrano (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-004",
+   "date": "1904-05-12",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Lomas de Zamora (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-005",
+   "date": "1904-05-15",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Lomas de Zamora (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-006",
+   "date": "1904-05-22",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Banfield (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-007",
+   "date": "1904-05-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "lomas-athletic",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Banfield (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-008",
+   "date": "1904-05-29",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "barracas-athletic",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Belgrano (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-009",
+   "date": "1904-06-02",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "venue": "Belgrano (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-010",
+   "date": "1904-06-02",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "barracas-athletic",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "venue": "Quilmes (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-011",
+   "date": "1904-06-05",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "barracas-athletic",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Palermo (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-012",
+   "date": "1904-06-12",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "alumni",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Belgrano (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-013",
+   "date": "1904-06-12",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "lomas-athletic",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Palermo (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-014",
+   "date": "1904-06-19",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Palermo (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-015",
+   "date": "1904-06-19",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Lomas de Zamora (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-016",
+   "date": "1904-06-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Banfield (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-017",
+   "date": "1904-06-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "lomas-athletic",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Belgrano (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-018",
+   "date": "1904-06-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Quilmes (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-019",
+   "date": "1904-07-17",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "alumni",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Lomas de Zamora (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-020",
+   "date": "1904-07-31",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Belgrano Athletic",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-021",
+   "date": "1904-08-07",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "venue": "Cancha de Banfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-022",
+   "date": "1904-08-07",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Quilmes",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Rioboó 5m, Forrester 9m, 85m, Ratcliff 32m."
+  },
+  {
+   "id": "1904-023",
+   "date": "1904-08-21",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Club Atlético de Flores",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-024",
+   "date": "1904-08-21",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "lomas-athletic",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Quilmes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-025",
+   "date": "1904-08-28",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "alumni",
+   "note": "No se jugó: los puntos fueron para Alumni. No se jugó. Resuelto por la liga."
+  },
+  {
+   "id": "1904-026",
+   "date": "1904-08-28",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "barracas-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "lomas-athletic",
+   "note": "No se jugó: los puntos fueron para Lomas Athletic. No se jugó. Resuelto por la liga."
+  },
+  {
+   "id": "1904-027",
+   "date": "1904-08-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "lomas-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Lomas Athletic",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-028",
+   "date": "1904-09-11",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Palermo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-029",
+   "date": "1904-09-18",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Quilmes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1904-030",
+   "date": "1904-09-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "barracas-athletic",
+   "note": "No se jugó: los puntos fueron para Barracas Athletic. No se jugó. Resuelto por la liga."
+  }
+ ]
+}

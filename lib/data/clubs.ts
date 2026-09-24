@@ -24,6 +24,15 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["palermo-athletic", "Palermo Athletic", "PAL", "Palermo Athletic Club"],
   ["united-banks", "United Banks", "UNB", "United Banks"],
   ["barracas-athletic", "Barracas Athletic", "BRA", "Barracas Athletic Club"],
+  // 1904–
+  ["estudiantes-ba", "Estudiantes (BA)", "EBA", "Club Atlético Estudiantes (Estudiantes de Buenos Aires)"],
+  ["reformer", "Reformer", "REF", "Reformer Athletic Club (Campana)"],
+  ["san-martin-athletic", "San Martín Athletic", "SMA", "San Martín Athletic Club"],
+  ["san-isidro", "San Isidro", "CAS", "Club Atlético San Isidro"],
+  ["argentino-quilmes", "Argentino de Quilmes", "AQU", "Club Atlético Argentino de Quilmes"],
+  ["porteno", "Porteño", "POR", "Club Atlético Porteño"],
+  ["nacional-floresta", "Nacional (Floresta)", "NAC", "Club Atlético Nacional (Floresta)"],
+  ["gimnasia-ba", "Gimnasia y Esgrima (BA)", "GEB", "Club de Gimnasia y Esgrima de Buenos Aires"],
 ];
 
 export const HISTORIC_CLUBS: Team[] = OTHER_CLUBS.map(([id, name, shortName, fullName]) => ({

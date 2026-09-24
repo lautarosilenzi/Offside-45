@@ -4,7 +4,7 @@
 import { mkdirSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type { Match, Season, TableRow } from "../../lib/types";
-import { computeTable, verifySeason } from "../../lib/seasons";
+import { computeTable, rawTableDiffs, verifySeason } from "../../lib/seasons";
 import { resolveName } from "./aliases";
 import { TOURNAMENTS, type TournamentConfig } from "./config";
 import { fetchPage, parseSeason, type RawMatch, type RawSection } from "./rsssf-parse";
@@ -28,11 +28,21 @@ function parseDate(raw: string, year: number, prevMonth: number): { iso: string;
 }
 
 // Traduce las notas habituales de RSSSF. Lo que no se reconoce queda citado en inglés para revisión.
-export function translateNote(note: string, year: number): { venue?: string; text: string[]; annulled: boolean; unknown: string[] } {
-  const out = { venue: undefined as string | undefined, text: [] as string[], annulled: false, unknown: [] as string[] };
+export function translateNote(
+  note: string,
+  year: number,
+): { venue?: string; text: string[]; annulled: boolean; unknown: string[]; continuedOn?: string; suspended?: boolean } {
+  const out = {
+    venue: undefined as string | undefined,
+    text: [] as string[],
+    annulled: false,
+    unknown: [] as string[],
+    continuedOn: undefined as string | undefined,
+    suspended: false,
+  };
   const parts = note
     .replace(/^\[|\]$/g, "")
-    .split(/\]\s*\[|;\s*|,\s*(?=(?:aet|lasted|at|annulled|abandoned|suspended|played)\b)/i)
+    .split(/\]\s*\[|;\s*|,\s*(?=(?:aet|lasted|at|annulled|abandoned|suspended|played|awarded|n\/p)\b)/i)
     .map((p) => p.replace(/[\[\]]/g, "").trim())
     .filter(Boolean);
   for (const p of parts) {
@@ -46,9 +56,20 @@ export function translateNote(note: string, year: number): { venue?: string; tex
       out.text.push(m[2] ? `Duró ${m[1]} minutos más ${m[2]} de alargue.` : `Duró ${m[1]} minutos.`);
     else if (/^annulled$/i.test(p)) out.annulled = true;
     else if ((m = p.match(/^(?:suspended|abandoned) at (\d+)'?(?:m)?$/i))) out.text.push(`Suspendido a los ${m[1]} minutos.`);
-    else if ((m = p.match(/^continued on (.+)$/i))) out.text.push(`Se completó el ${m[1]}.`);
+    else if ((m = p.match(/^continued (?:on )?(.+)$/i))) out.continuedOn = m[1];
+    else if (/^suspended$/i.test(p)) out.suspended = true;
+    else if ((m = p.match(/^(.+?) withdrew(?:, see .+)?$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`${club ? club.as ?? club.name : m[1]} no se presentó.`);
+    } else if (/^annulled, see .+$/i.test(p)) out.annulled = true;
+    else if (/^see .+$/i.test(p)) continue;
     else if (/^awarded(?: (?:wp|lp)\s*[:\-]\s*(?:wp|lp))?$/i.test(p)) out.text.push("Resuelto por la liga.");
-    else if (/^not played$/i.test(p)) out.text.push("No se jugó.");
+    else if (/^(not played|n\/p)$/i.test(p)) out.text.push("No se jugó.");
+    else if (/^awarded by W\.?O\.?$/i.test(p)) continue;
+    else if ((m = p.match(/^(?:abandoned|suspended) at (\d+)\s*[:\-]\s*(\d+) in (\d+)'?m?$/i)))
+      out.text.push(`Suspendido a los ${m[3]} minutos, con ${m[1]}-${m[2]}.`);
+    else if (resolveName(p, year)) out.venue = `Cancha de ${resolveName(p, year)!.as ?? resolveName(p, year)!.name}`;
+    else if (/^[A-ZÁÉÍÓÚ][\wáéíóúñ.'-]*(?: (?:de |del |la )?[A-ZÁÉÍÓÚ][\wáéíóúñ.'-]*){0,3}$/.test(p)) out.venue = p;
     else if (/^(neutral|neutral ground)$/i.test(p)) out.text.push("Cancha neutral.");
     else if ((m = p.match(/^([A-ZÁÉÍÓÚa-záéíóúñ .'-]+), ([BC])$/))) out.venue = `${m[1]} (${m[2] === "C" ? "Capital" : "Bs. As."})`;
     else out.unknown.push(p);
@@ -60,6 +81,8 @@ function stageOf(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
   const r = raw.round ?? "";
   const n = r.match(/(?:Round|Fecha|Matchday)\s*(\d+)/i);
   if (n) return { stage: `Fecha ${n[1]}`, phase: "league" };
+  const grp = r.match(/group\s+([a-z])\b/i);
+  if (grp && !/playoff|final|winner/i.test(r)) return { stage: `Grupo ${grp[1].toUpperCase()}`, phase: "league" };
   if (/third playoff/i.test(r)) return { stage: "Tercer desempate", phase: "playoff" };
   if (/second playoff/i.test(r)) return { stage: "Segundo desempate", phase: "playoff" };
   if (/playoff|play-off|replay/i.test(r)) return { stage: "Desempate", phase: "playoff" };
@@ -79,6 +102,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   let prevMonth = 0;
   let n = 0;
   const unknownNames = new Set<string>();
+  const suspendedParts: { m: Match; continuedOn: string }[] = [];
 
   for (const raw of section.matches) {
     const ov = cfg.overrides?.[raw.line];
@@ -96,7 +120,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     }
     prevMonth = d.month;
     const note = translateNote(raw.note, cfg.year);
-    if (note.unknown.length) warnings.push(`L${raw.line} ${raw.home}-${raw.away}: nota sin traducir: ${note.unknown.join(" | ")}`);
+    if (note.unknown.length && !ov?.note) warnings.push(`L${raw.line} ${raw.home}-${raw.away}: nota sin traducir: ${note.unknown.join(" | ")}`);
 
     const { stage, phase } = stageOf(raw);
     const m: Match = {
@@ -117,15 +141,16 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     let s = raw.score.toLowerCase();
     // "awd  [awarded wp:lp]": resultado dado por la liga.
     const awd = raw.note.match(/\b(wp|lp)\s*[:\-]\s*(lp|wp)\b/i);
-    if (/^(awd|wo)$/.test(s) && awd) s = `${awd[1]}:${awd[2]}`.toLowerCase();
+    if (/^(awd|wo|n\/p)$/.test(s) && awd) s = `${awd[1]}:${awd[2]}`.toLowerCase();
     // "void  [1-0 annulled]": se jugó y después se anuló.
-    const voided = raw.note.match(/(\d+)\s*[:\-]\s*(\d+),?\s*annulled/i);
+    const voided = raw.note.match(/(\d+)\s*[:\-]\s*(\d+)\]?\s*\[?,?\s*annulled/i);
     if (/^(void|ann)$/.test(s) && voided) {
       s = `${voided[1]}:${voided[2]}`;
       note.annulled = true;
       note.unknown = note.unknown.filter((u) => !/annulled/i.test(u));
     }
     // Fechas aproximadas: "[>Jul 3]" o "[Jun 29 < TBD < Aug 30]".
+    if (/\?/.test(raw.date)) note.text.push("Fecha dudosa en la fuente.");
     if (/^[<>]|TBD/i.test(raw.date)) note.text.push(`Fecha aproximada (la fuente indica "${raw.date.replace(/TBD/i, "sin fecha")}").`);
     let g: RegExpMatchArray | null;
     if ((g = s.match(/^(\d+)[:\-](\d+)$/))) {
@@ -152,7 +177,26 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     if (note.text.length) m.note = note.text.join(" ");
     if (raw.scorers) m.note = [m.note, `Goles: ${raw.scorers.replace(/;\s*/, " / ")}.`].filter(Boolean).join(" ");
     if (ov) Object.assign(m, ov);
+    // Suspendido y completado otro día: RSSSF lo lista dos veces; vale la segunda aparición.
+    if (note.continuedOn) {
+      suspendedParts.push({ m, continuedOn: note.continuedOn });
+      continue;
+    }
     matches.push(m);
+  }
+  for (const { m: part, continuedOn } of suspendedParts) {
+    const rest = matches.find((x) => x.homeId === part.homeId && x.awayId === part.awayId && x.date > part.date);
+    const partial = `${part.homeGoals}-${part.awayGoals}`;
+    if (rest) {
+      rest.note = [`Empezó el ${part.date.split("-").reverse().slice(0, 2).join("/")} y se suspendió con ${partial}; se completó en esta fecha.`, rest.note]
+        .filter(Boolean)
+        .join(" ");
+    } else {
+      // Sin continuación en la lista: queda el resultado parcial y se avisa.
+      warnings.push(`${part.homeId}-${part.awayId} ${part.date}: suspendido (continuado ${continuedOn}) sin continuación en la lista; queda ${partial}`);
+      part.note = [`Suspendido con ${partial}; la fuente indica que se completó el ${continuedOn}.`, part.note].filter(Boolean).join(" ");
+      matches.push(part);
+    }
   }
   for (const extra of cfg.extraMatches ?? []) matches.push({ sources: ["rsssf"], competition: cfg.competition, ...extra } as Match);
 
@@ -184,6 +228,9 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     ...(cfg.withdrawn && { withdrawn: cfg.withdrawn }),
     ...(cfg.pointAdjustments && { pointAdjustments: cfg.pointAdjustments }),
     publishedTable: cfg.publishedTable ?? publishedTable,
+    ...(cfg.tableIncludesPlayoffs && { tableIncludesPlayoffs: true }),
+    ...(cfg.tableNote && { tableNote: cfg.tableNote }),
+    ...(cfg.knownTableDiffs && { knownTableDiffs: cfg.knownTableDiffs }),
     matches,
   };
 
@@ -201,6 +248,9 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   }
 
   problems.push(...verifySeason(season).map((p) => `Tabla: ${p}`));
+  const raw = rawTableDiffs(season).map((p) => p.split(" ")[0].replace(/:$/, "") + ":" + p.split(" ")[1]);
+  const stale = (cfg.knownTableDiffs?.keys ?? []).filter((k) => !raw.includes(k));
+  if (stale.length) problems.push(`Diferencias explicadas que ya no aparecen (revisar config): ${stale.join(", ")}`);
   return { season, problems, warnings };
 }
 

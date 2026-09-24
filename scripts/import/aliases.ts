@@ -19,7 +19,27 @@ const ALIASES: Alias[] = [
   { id: "alumni", names: ["English High School AC", "English High School Athletic Club", "English High School"], as: "English High School", to: 1900 },
   { id: "alumni", names: ["Alumni", "Alumni FT", "Alumni Football Team", "Alumni AC", "Alumni Athletic Club"], from: 1901 },
   { id: "quilmes", names: ["Quilmes", "Quilmes AC", "Quilmes Athletic Club"], from: 1900 },
-  { id: "barracas-athletic", names: ["Barracas Athletic", "Barracas Athletic Club", "Barracas AC"] },
+  { id: "barracas-athletic", names: ["Barracas Athletic", "Barracas Athletic Club", "Barracas AC", "Barracas"], to: 1910 },
+  {
+    id: "belgrano-athletic-b",
+    names: ["Belgrano Extra", "Belgrano AC Extra", "Belgrano Athletic Club Extra", "CA Belgrano Extra"],
+    as: "Belgrano Extra",
+  },
+  // Estudiantes de Buenos Aires (Club Atlético Estudiantes, hoy en Caseros). Wikipedia: "Estudiantes (BA)".
+  {
+    id: "estudiantes-ba",
+    names: ["Club de Estudiantes", "Estudiantes", "CA Estudiantes", "Club Atlético Estudiantes", "Atlético Estudiantes", "Estudiantes (BA)", "Estudiantes BA"],
+    to: 1911,
+  },
+  { id: "reformer", names: ["Reformer", "Reformer AC", "Reformer Athletic Club"] },
+  { id: "san-martin-athletic", names: ["San Martín Athletic", "San Martín Athletic Club", "San Martín AC", "San Martín"], to: 1912 },
+  { id: "san-isidro", names: ["San Isidro", "CA San Isidro", "Club Atlético de San Isidro", "Club Atlético San Isidro"] },
+  { id: "argentino-quilmes", names: ["Argentino de Quilmes", "CA Argentino de Quilmes", "Club Atlético Argentino de Quilmes"] },
+  { id: "porteno", names: ["Porteño", "CA Porteño", "Club Atlético Porteño"] },
+  { id: "nacional-floresta", names: ["Nacional"], to: 1912 },
+  { id: "gimnasia-ba", names: ["Gimnasia y Esgrima BA", "Gimnasia y Esgrima BUE", "Gimnasia y Esgrima (BA)", "Gimnasia y Esgrima de Buenos Aires", "Club de Gimnasia y Esgrima"] },
+  { id: "river", names: ["River Plate", "CA River Plate", "Club Atlético River Plate", "River"] },
+  { id: "racing", names: ["Racing Club", "Racing FC", "Racing Football Club", "Racing"] },
 ];
 
 const norm = (s: string) =>

@@ -34,7 +34,8 @@ export function computeTable(season: Season): TableRow[] {
   };
 
   for (const m of season.matches) {
-    if (m.phase !== "league" || m.status === "annulled") continue;
+    if (m.status === "annulled") continue;
+    if (m.phase !== "league" && !(season.tableIncludesPlayoffs && m.phase === "playoff")) continue;
     const home = row(m.homeId);
     const away = row(m.awayId);
     home.played++;
@@ -76,7 +77,13 @@ export function computeTable(season: Season): TableRow[] {
 const ROW_KEYS = ["played", "won", "drawn", "lost", "goalsFor", "goalsAgainst", "points"] as const;
 
 // Diferencias entre la tabla calculada y la publicada por la fuente. Vacío = verificada.
+// Las diferencias ya revisadas (knownTableDiffs) no cuentan como error.
 export function verifySeason(season: Season): string[] {
+  const known = new Set(season.knownTableDiffs?.keys ?? []);
+  return rawTableDiffs(season).filter((p) => !known.has(p.split(" ")[0].replace(/:$/, "") + ":" + p.split(" ")[1]));
+}
+
+export function rawTableDiffs(season: Season): string[] {
   const computed = new Map(computeTable(season).map((r) => [r.teamId, r]));
   const problems: string[] = [];
   for (const pub of season.publishedTable) {

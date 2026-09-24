@@ -1,0 +1,903 @@
+{
+ "slug": "1906",
+ "year": 1906,
+ "title": "Campeonato 1906",
+ "tournament": "Copa Campeonato 1906",
+ "organizer": "Argentine Football Association",
+ "championIds": [
+  "alumni"
+ ],
+ "summary": "Por primera vez el campeonato se jugó en dos grupos: Lomas Athletic ganó el Grupo A y Alumni el Grupo B. En la final, jugada el 7 de octubre en la cancha de Porteño, Alumni goleó 4-0 y fue campeón. Debutaron San Martín Athletic, San Isidro, Argentino de Quilmes y el segundo equipo de Belgrano Athletic.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1906",
+   "url": "https://www.rsssf.org/tablesa/arg1906.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1906 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1906_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Dos grupos (A, de 6 equipos, y B, de 5) a dos ruedas; los ganadores jugaron una final a partido único. 2 puntos por victoria."
+  },
+  {
+   "kind": "puntos",
+   "text": "Final (7/10, cancha de Porteño): Alumni 4-0 Lomas Athletic, con goles de Lett, Eliseo Brown (2) y uno en contra de Campbell."
+  },
+  {
+   "kind": "puntos",
+   "text": "A Barracas Athletic le descontaron 2 puntos por incluir a un jugador no habilitado ante San Isidro."
+  },
+  {
+   "kind": "identidad",
+   "text": "\"Belgrano Extra\" era el segundo equipo del Belgrano Athletic Club."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "barracas-athletic",
+   "points": -2,
+   "reason": "Por incluir a un jugador no habilitado ante San Isidro (resolución del 4 de septiembre)."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "alumni",
+   "played": 9,
+   "won": 8,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 32,
+   "goalsAgainst": 6,
+   "points": 16
+  },
+  {
+   "teamId": "lomas-athletic",
+   "played": 11,
+   "won": 7,
+   "drawn": 1,
+   "lost": 3,
+   "goalsFor": 23,
+   "goalsAgainst": 18,
+   "points": 15
+  },
+  {
+   "teamId": "quilmes",
+   "played": 8,
+   "won": 6,
+   "drawn": 0,
+   "lost": 2,
+   "goalsFor": 26,
+   "goalsAgainst": 13,
+   "points": 12
+  },
+  {
+   "teamId": "san-martin-athletic",
+   "played": 10,
+   "won": 5,
+   "drawn": 2,
+   "lost": 3,
+   "goalsFor": 17,
+   "goalsAgainst": 9,
+   "points": 12
+  },
+  {
+   "teamId": "estudiantes-ba",
+   "played": 10,
+   "won": 6,
+   "drawn": 0,
+   "lost": 4,
+   "goalsFor": 22,
+   "goalsAgainst": 19,
+   "points": 12
+  },
+  {
+   "teamId": "belgrano-athletic",
+   "played": 8,
+   "won": 5,
+   "drawn": 0,
+   "lost": 3,
+   "goalsFor": 23,
+   "goalsAgainst": 15,
+   "points": 10
+  },
+  {
+   "teamId": "san-isidro",
+   "played": 10,
+   "won": 5,
+   "drawn": 0,
+   "lost": 5,
+   "goalsFor": 23,
+   "goalsAgainst": 22,
+   "points": 10
+  },
+  {
+   "teamId": "reformer",
+   "played": 10,
+   "won": 4,
+   "drawn": 0,
+   "lost": 6,
+   "goalsFor": 30,
+   "goalsAgainst": 22,
+   "points": 8
+  },
+  {
+   "teamId": "argentino-quilmes",
+   "played": 8,
+   "won": 1,
+   "drawn": 0,
+   "lost": 7,
+   "goalsFor": 5,
+   "goalsAgainst": 19,
+   "points": 2
+  },
+  {
+   "teamId": "belgrano-athletic-b",
+   "played": 8,
+   "won": 1,
+   "drawn": 0,
+   "lost": 7,
+   "goalsFor": 9,
+   "goalsAgainst": 38,
+   "points": 2
+  },
+  {
+   "teamId": "barracas-athletic",
+   "played": 10,
+   "won": 1,
+   "drawn": 1,
+   "lost": 8,
+   "goalsFor": 8,
+   "goalsAgainst": 37,
+   "points": 1
+  }
+ ],
+ "tableIncludesPlayoffs": true,
+ "tableNote": "Tabla combinada no oficial de RSSSF: suma los dos grupos y la final.",
+ "matches": [
+  {
+   "id": "1906-001",
+   "date": "1906-04-29",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-002",
+   "date": "1906-04-29",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "lomas-athletic",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-003",
+   "date": "1906-05-06",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "reformer",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-004",
+   "date": "1906-05-06",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-005",
+   "date": "1906-05-06",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "san-martin-athletic",
+   "awayId": "san-isidro",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-006",
+   "date": "1906-05-20",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "lomas-athletic",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-007",
+   "date": "1906-05-24",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "lomas-athletic",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-008",
+   "date": "1906-05-24",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "reformer",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-009",
+   "date": "1906-05-24",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "san-martin-athletic",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-010",
+   "date": "1906-05-25",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "san-martin-athletic",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-011",
+   "date": "1906-06-17",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Estudiantes (BA)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-012",
+   "date": "1906-06-17",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "san-martin-athletic",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-013",
+   "date": "1906-07-01",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "El 4 de septiembre le descontaron 2 puntos a Barracas Athletic por incluir a un jugador no habilitado en este partido."
+  },
+  {
+   "id": "1906-014",
+   "date": "1906-07-01",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "san-martin-athletic",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "El acta se firmó con 2-1, aunque varios medios informaron 2-2. San Martín y el árbitro quisieron corregirla, pero la liga no lo aceptó y el 3 de octubre confirmó el 2-1: se anuló el gol de Minvielle."
+  },
+  {
+   "id": "1906-015",
+   "date": "1906-07-01",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "reformer",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-016",
+   "date": "1906-07-29",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "barracas-athletic",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Duró 75 minutos."
+  },
+  {
+   "id": "1906-017",
+   "date": "1906-08-05",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-018",
+   "date": "1906-08-12",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "barracas-athletic",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-019",
+   "date": "1906-08-15",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "reformer",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-020",
+   "date": "1906-08-15",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "san-martin-athletic",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-021",
+   "date": "1906-08-19",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "san-isidro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-022",
+   "date": "1906-08-26",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "lomas-athletic",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-023",
+   "date": "1906-08-26",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "barracas-athletic",
+   "homeGoals": 11,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-024",
+   "date": "1906-08-30",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "san-martin-athletic",
+   "awayId": "reformer",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-025",
+   "date": "1906-09-02",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-026",
+   "date": "1906-09-02",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "san-martin-athletic",
+   "awayId": "barracas-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-027",
+   "date": "1906-09-08",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-028",
+   "date": "1906-09-16",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "barracas-athletic",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-029",
+   "date": "1906-09-16",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "san-martin-athletic",
+   "awayId": "lomas-athletic",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-030",
+   "date": "1906-09-23",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo A",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "san-martin-athletic",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-031",
+   "date": "1906-05-06",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-032",
+   "date": "1906-05-06",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "belgrano-athletic-b",
+   "awayId": "quilmes",
+   "homeAs": "Belgrano Extra",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Belgrano AC}",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-033",
+   "date": "1906-05-20",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-034",
+   "date": "1906-05-20",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "belgrano-athletic-b",
+   "awayId": "alumni",
+   "homeAs": "Belgrano Extra",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "venue": "Cancha de Belgrano Athletic",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-035",
+   "date": "1906-05-24",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-036",
+   "date": "1906-05-25",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "belgrano-athletic-b",
+   "awayId": "belgrano-athletic",
+   "homeAs": "Belgrano Extra",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Belgrano Athletic",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-037",
+   "date": "1906-05-25",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-038",
+   "date": "1906-06-17",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "belgrano-athletic-b",
+   "awayAs": "Belgrano Extra",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-039",
+   "date": "1906-06-17",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-040",
+   "date": "1906-07-01",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "belgrano-athletic-b",
+   "awayAs": "Belgrano Extra",
+   "homeGoals": 9,
+   "awayGoals": 0,
+   "venue": "Cancha de Sociedad Sportiva Argentina",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Duró 60 minutos."
+  },
+  {
+   "id": "1906-041",
+   "date": "1906-08-12",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-042",
+   "date": "1906-08-19",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "belgrano-athletic-b",
+   "awayAs": "Belgrano Extra",
+   "homeGoals": 6,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-043",
+   "date": "1906-08-26",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-044",
+   "date": "1906-09-02",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-045",
+   "date": "1906-09-02",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "alumni",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-046",
+   "date": "1906-09-08",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Sociedad Sportiva Argentina",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-047",
+   "date": "1906-09-08",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "belgrano-athletic-b",
+   "awayAs": "Belgrano Extra",
+   "homeGoals": 8,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-048",
+   "date": "1906-09-09",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "belgrano-athletic-b",
+   "awayId": "argentino-quilmes",
+   "homeAs": "Belgrano Extra",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Belgrano Athletic",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-049",
+   "date": "1906-09-23",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Sociedad Sportiva Argentina",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1906-050",
+   "date": "1906-09-30",
+   "competition": "Argentine Football Association",
+   "stage": "Grupo B",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Sociedad Sportiva Argentina",
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "alumni",
+   "note": "No se jugó: los puntos fueron para Alumni."
+  },
+  {
+   "id": "1906-051",
+   "date": "1906-10-07",
+   "competition": "Argentine Football Association",
+   "stage": "Final",
+   "phase": "playoff",
+   "homeId": "alumni",
+   "awayId": "lomas-athletic",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Porteño",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Lett 24m, Eliseo Brown 35m, 43m, Campbell og 80m."
+  }
+ ]
+}

@@ -1,0 +1,528 @@
+{
+ "slug": "1903",
+ "year": 1903,
+ "title": "Campeonato 1903",
+ "tournament": "Copa Campeonato 1903",
+ "organizer": "Argentine Football Association",
+ "championIds": [
+  "alumni"
+ ],
+ "summary": "Primer torneo con la liga ya rebautizada Argentine Football Association. Alumni ganó su cuarto título seguido (quinto contando el de English High School): nueve victorias en diez partidos y apenas cuatro goles en contra. Flores Athletic perdió todos sus partidos y fue desafiliado al final.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1903",
+   "url": "https://www.rsssf.org/tablesa/arg1903.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1903 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1903_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a dos ruedas entre 6 equipos, 2 puntos por victoria."
+  },
+  {
+   "kind": "descalificacion",
+   "text": "Al terminar el torneo Flores Athletic fue desafiliado; lo reemplazó Estudiantes (BA) en 1904."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Wikipedia no publica los resultados de este torneo. Su tabla le da a Alumni un gol más a favor (40) y a Lomas Athletic uno más en contra (17) que RSSSF, así que probablemente difieren en uno de los dos Alumni–Lomas (2-0 y 4-2 según RSSSF). Se usan los resultados de RSSSF, que cierran con su tabla."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "alumni",
+   "played": 10,
+   "won": 9,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 39,
+   "goalsAgainst": 4,
+   "points": 18
+  },
+  {
+   "teamId": "belgrano-athletic",
+   "played": 10,
+   "won": 7,
+   "drawn": 1,
+   "lost": 2,
+   "goalsFor": 21,
+   "goalsAgainst": 11,
+   "points": 15
+  },
+  {
+   "teamId": "barracas-athletic",
+   "played": 10,
+   "won": 5,
+   "drawn": 1,
+   "lost": 4,
+   "goalsFor": 22,
+   "goalsAgainst": 13,
+   "points": 11
+  },
+  {
+   "teamId": "lomas-athletic",
+   "played": 10,
+   "won": 2,
+   "drawn": 4,
+   "lost": 4,
+   "goalsFor": 17,
+   "goalsAgainst": 16,
+   "points": 8
+  },
+  {
+   "teamId": "quilmes",
+   "played": 10,
+   "won": 3,
+   "drawn": 2,
+   "lost": 5,
+   "goalsFor": 14,
+   "goalsAgainst": 22,
+   "points": 8
+  },
+  {
+   "teamId": "flores-athletic",
+   "played": 10,
+   "won": 0,
+   "drawn": 0,
+   "lost": 10,
+   "goalsFor": 2,
+   "goalsAgainst": 49,
+   "points": 0
+  }
+ ],
+ "matches": [
+  {
+   "id": "1903-001",
+   "date": "1903-04-26",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "flores-athletic",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "venue": "Quilmes (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-002",
+   "date": "1903-05-03",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "flores-athletic",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "venue": "Caballito (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-003",
+   "date": "1903-05-10",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Caballito (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-004",
+   "date": "1903-05-10",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "lomas-athletic",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Belgrano (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-005",
+   "date": "1903-05-17",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "barracas-athletic",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Quilmes (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-006",
+   "date": "1903-05-21",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Lomas de Zamora (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-007",
+   "date": "1903-05-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "barracas-athletic",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Caballito (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-008",
+   "date": "1903-05-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "flores-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "quilmes",
+   "note": "No se jugó: los puntos fueron para Quilmes. Resuelto por la liga."
+  },
+  {
+   "id": "1903-009",
+   "date": "1903-05-25",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "lomas-athletic",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Lomas de Zamora (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-010",
+   "date": "1903-05-31",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Belgrano (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-011",
+   "date": "1903-05-31",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "barracas-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Lomas de Zamora (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-012",
+   "date": "1903-06-07",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Lanús (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-013",
+   "date": "1903-06-07",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "flores-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "lomas-athletic",
+   "note": "No se jugó: los puntos fueron para Lomas Athletic. Resuelto por la liga."
+  },
+  {
+   "id": "1903-014",
+   "date": "1903-06-11",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "flores-athletic",
+   "awayId": "barracas-athletic",
+   "homeGoals": 0,
+   "awayGoals": 12,
+   "venue": "Caballito (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-015",
+   "date": "1903-06-11",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Quilmes (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-016",
+   "date": "1903-06-14",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "flores-athletic",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "belgrano-athletic",
+   "note": "No se jugó: los puntos fueron para Belgrano Athletic. Resuelto por la liga."
+  },
+  {
+   "id": "1903-017",
+   "date": "1903-06-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Belgrano (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-018",
+   "date": "1903-06-29",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "flores-athletic",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "venue": "Belgrano (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-019",
+   "date": "1903-06-29",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "alumni",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Lomas de Zamora (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-020",
+   "date": "1903-07-05",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Lanús (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-021",
+   "date": "1903-07-05",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Lomas de Zamora (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-022",
+   "date": "1903-07-05",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "flores-athletic",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 10,
+   "venue": "Caballito (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-023",
+   "date": "1903-07-12",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "lomas-athletic",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Lanús (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-024",
+   "date": "1903-07-12",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Quilmes (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-025",
+   "date": "1903-07-19",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Lanús (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-026",
+   "date": "1903-07-19",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "lomas-athletic",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Quilmes (Bs. As.)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-027",
+   "date": "1903-07-26",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Belgrano (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-028",
+   "date": "1903-07-26",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "flores-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "barracas-athletic",
+   "note": "No se jugó: los puntos fueron para Barracas Athletic. Resuelto por la liga."
+  },
+  {
+   "id": "1903-029",
+   "date": "1903-08-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "barracas-athletic",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Belgrano (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1903-030",
+   "date": "1903-08-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "flores-athletic",
+   "awayId": "lomas-athletic",
+   "homeGoals": 1,
+   "awayGoals": 10,
+   "venue": "Caballito (Capital)",
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

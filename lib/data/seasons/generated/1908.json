@@ -1,0 +1,1400 @@
+{
+ "slug": "1908",
+ "year": 1908,
+ "title": "Campeonato 1908",
+ "tournament": "Copa Campeonato 1908",
+ "organizer": "Argentine Football Association",
+ "championIds": [
+  "belgrano-athletic"
+ ],
+ "summary": "Belgrano Athletic fue campeón por tercera vez. El recién ascendido Nacional fue desafiliado después de jugar dos partidos por no tener una cancha en condiciones, y San Martín Athletic bajó a Segunda.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1908",
+   "url": "https://www.rsssf.org/tablesa/arg1908.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1908 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1908_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a dos ruedas, 2 puntos por victoria. Empezaron 11 equipos y terminaron 10."
+  },
+  {
+   "kind": "descalificacion",
+   "text": "Nacional fue desafiliado después de jugar dos partidos (ganó 3-1 a Reformer y 3-0 a Lomas); esos resultados se anularon."
+  },
+  {
+   "kind": "puntos",
+   "text": "San Martín Athletic y Estudiantes perdieron cada uno un partido por escritorio (con Porteño y con Belgrano Athletic) y además se les descontaron 2 puntos."
+  },
+  {
+   "kind": "walkover",
+   "text": "Hubo varios partidos no jugados porque uno de los equipos no se presentó (Reformer, San Martín Athletic, Lomas Athletic, Estudiantes y Quilmes); se dieron por ganados al rival."
+  },
+  {
+   "kind": "fuentes",
+   "text": "La tabla de Wikipedia no cuenta los goles de los dos partidos definidos por escritorio (San Martín 3-2 Porteño y Estudiantes 2-2 Belgrano); RSSSF sí los cuenta. Se sigue a RSSSF: los puntos y posiciones son iguales en ambas."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "san-martin-athletic",
+   "points": -2,
+   "reason": "Sanción: además de perder el partido con Porteño por escritorio."
+  },
+  {
+   "teamId": "estudiantes-ba",
+   "points": -2,
+   "reason": "Sanción: además de perder el partido con Belgrano Athletic por escritorio."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "belgrano-athletic",
+   "played": 18,
+   "won": 15,
+   "drawn": 1,
+   "lost": 2,
+   "goalsFor": 51,
+   "goalsAgainst": 22,
+   "points": 31
+  },
+  {
+   "teamId": "alumni",
+   "played": 18,
+   "won": 13,
+   "drawn": 1,
+   "lost": 4,
+   "goalsFor": 74,
+   "goalsAgainst": 18,
+   "points": 27
+  },
+  {
+   "teamId": "argentino-quilmes",
+   "played": 18,
+   "won": 12,
+   "drawn": 1,
+   "lost": 5,
+   "goalsFor": 44,
+   "goalsAgainst": 26,
+   "points": 25
+  },
+  {
+   "teamId": "san-isidro",
+   "played": 18,
+   "won": 11,
+   "drawn": 1,
+   "lost": 6,
+   "goalsFor": 36,
+   "goalsAgainst": 26,
+   "points": 23
+  },
+  {
+   "teamId": "estudiantes-ba",
+   "played": 18,
+   "won": 11,
+   "drawn": 2,
+   "lost": 5,
+   "goalsFor": 39,
+   "goalsAgainst": 22,
+   "points": 22
+  },
+  {
+   "teamId": "quilmes",
+   "played": 18,
+   "won": 8,
+   "drawn": 1,
+   "lost": 9,
+   "goalsFor": 46,
+   "goalsAgainst": 54,
+   "points": 17
+  },
+  {
+   "teamId": "porteno",
+   "played": 18,
+   "won": 6,
+   "drawn": 1,
+   "lost": 11,
+   "goalsFor": 25,
+   "goalsAgainst": 44,
+   "points": 13
+  },
+  {
+   "teamId": "reformer",
+   "played": 18,
+   "won": 3,
+   "drawn": 2,
+   "lost": 13,
+   "goalsFor": 10,
+   "goalsAgainst": 57,
+   "points": 8
+  },
+  {
+   "teamId": "lomas-athletic",
+   "played": 18,
+   "won": 3,
+   "drawn": 1,
+   "lost": 14,
+   "goalsFor": 19,
+   "goalsAgainst": 50,
+   "points": 7
+  },
+  {
+   "teamId": "san-martin-athletic",
+   "played": 18,
+   "won": 2,
+   "drawn": 1,
+   "lost": 15,
+   "goalsFor": 19,
+   "goalsAgainst": 44,
+   "points": 3
+  }
+ ],
+ "matches": [
+  {
+   "id": "1908-001",
+   "date": "1908-04-26",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "reformer",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-002",
+   "date": "1908-05-03",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "san-martin-athletic",
+   "homeGoals": 8,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-003",
+   "date": "1908-05-03",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "porteno",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-004",
+   "date": "1908-05-03",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "lomas-athletic",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-005",
+   "date": "1908-05-03",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-006",
+   "date": "1908-05-10",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-007",
+   "date": "1908-05-10",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "lomas-athletic",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-008",
+   "date": "1908-05-10",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "nacional-floresta",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "1908-009",
+   "date": "1908-05-10",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-martin-athletic",
+   "awayId": "porteno",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "porteno",
+   "note": "San Martín Athletic ganó 3-2 en la cancha, pero después la liga le dio el partido a Porteño y le descontó 2 puntos a San Martín."
+  },
+  {
+   "id": "1908-010",
+   "date": "1908-05-10",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-011",
+   "date": "1908-05-17",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "san-martin-athletic",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-012",
+   "date": "1908-05-17",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-013",
+   "date": "1908-05-17",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-014",
+   "date": "1908-05-17",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "nacional-floresta",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "1908-015",
+   "date": "1908-05-17",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-016",
+   "date": "1908-05-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "alumni",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-017",
+   "date": "1908-05-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-018",
+   "date": "1908-05-25",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-019",
+   "date": "1908-05-25",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "san-martin-athletic",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-020",
+   "date": "1908-05-31",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-021",
+   "date": "1908-05-31",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-martin-athletic",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-022",
+   "date": "1908-05-31",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "lomas-athletic",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-023",
+   "date": "1908-05-31",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-024",
+   "date": "1908-06-07",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "porteno",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-025",
+   "date": "1908-06-07",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "quilmes",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-026",
+   "date": "1908-06-07",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-027",
+   "date": "1908-06-07",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "reformer",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-028",
+   "date": "1908-06-18",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "alumni",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-029",
+   "date": "1908-06-18",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "san-martin-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "san-isidro",
+   "note": "No se jugó: los puntos fueron para San Isidro. San Martín Athletic no se presentó."
+  },
+  {
+   "id": "1908-030",
+   "date": "1908-06-18",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-031",
+   "date": "1908-06-21",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "reformer",
+   "homeGoals": 12,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-032",
+   "date": "1908-06-21",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-033",
+   "date": "1908-06-21",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-martin-athletic",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-034",
+   "date": "1908-06-21",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "lomas-athletic",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-035",
+   "date": "1908-06-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "alumni",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-036",
+   "date": "1908-06-28",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "reformer",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "belgrano-athletic",
+   "note": "No se jugó: los puntos fueron para Belgrano Athletic. Refomer no se presentó."
+  },
+  {
+   "id": "1908-037",
+   "date": "1908-06-29",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-martin-athletic",
+   "awayId": "reformer",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-038",
+   "date": "1908-07-05",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-martin-athletic",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-039",
+   "date": "1908-07-05",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "reformer",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-040",
+   "date": "1908-07-05",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-041",
+   "date": "1908-07-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-042",
+   "date": "1908-07-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-043",
+   "date": "1908-07-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "san-martin-athletic",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-044",
+   "date": "1908-07-12",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-martin-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-045",
+   "date": "1908-07-19",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-martin-athletic",
+   "awayId": "alumni",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-046",
+   "date": "1908-07-19",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-047",
+   "date": "1908-07-19",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-048",
+   "date": "1908-07-26",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "reformer",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "reformer",
+   "note": "No se jugó: los puntos fueron para Reformer. Estudiantes (BA) no se presentó."
+  },
+  {
+   "id": "1908-049",
+   "date": "1908-08-02",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-martin-athletic",
+   "awayId": "lomas-athletic",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-050",
+   "date": "1908-08-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "reformer",
+   "homeGoals": 8,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-051",
+   "date": "1908-08-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-052",
+   "date": "1908-08-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "san-martin-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "estudiantes-ba",
+   "note": "No se jugó: los puntos fueron para Estudiantes (BA). San Martín Athletic no se presentó."
+  },
+  {
+   "id": "1908-053",
+   "date": "1908-08-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-054",
+   "date": "1908-08-16",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "san-martin-athletic",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-055",
+   "date": "1908-08-16",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-056",
+   "date": "1908-08-23",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-057",
+   "date": "1908-08-23",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "belgrano-athletic",
+   "note": "La liga le dio después el partido a Belgrano Athletic y le descontó 2 puntos a Estudiantes."
+  },
+  {
+   "id": "1908-058",
+   "date": "1908-08-23",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "lomas-athletic",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-059",
+   "date": "1908-08-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "san-martin-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "porteno",
+   "note": "No se jugó: los puntos fueron para Porteño. San Martín Athletic no se presentó."
+  },
+  {
+   "id": "1908-060",
+   "date": "1908-08-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "quilmes",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "venue": "Cancha de Quilmes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-061",
+   "date": "1908-08-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "reformer",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-062",
+   "date": "1908-08-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-063",
+   "date": "1908-08-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "lomas-athletic",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-064",
+   "date": "1908-09-06",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-065",
+   "date": "1908-09-06",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "porteno",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-066",
+   "date": "1908-09-08",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 7,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-067",
+   "date": "1908-09-08",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-068",
+   "date": "1908-09-08",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-martin-athletic",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-069",
+   "date": "1908-09-20",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-070",
+   "date": "1908-09-20",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-071",
+   "date": "1908-09-20",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "san-martin-athletic",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-072",
+   "date": "1908-09-27",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "reformer",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "san-isidro",
+   "note": "No se jugó: los puntos fueron para San Isidro. Reformer no se presentó."
+  },
+  {
+   "id": "1908-073",
+   "date": "1908-09-27",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-074",
+   "date": "1908-09-27",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-075",
+   "date": "1908-09-27",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-076",
+   "date": "1908-10-04",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-077",
+   "date": "1908-10-04",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "lomas-athletic",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-078",
+   "date": "1908-10-11",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "alumni",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-079",
+   "date": "1908-10-11",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-080",
+   "date": "1908-10-11",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-081",
+   "date": "1908-10-11",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "argentino-quilmes",
+   "note": "No se jugó: los puntos fueron para Argentino de Quilmes. Lomas Athletic no se presentó."
+  },
+  {
+   "id": "1908-082",
+   "date": "1908-10-18",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "san-isidro",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "venue": "Cancha de San Isidro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-083",
+   "date": "1908-10-18",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-084",
+   "date": "1908-10-18",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "estudiantes-ba",
+   "note": "No se jugó: los puntos fueron para Estudiantes (BA). Quilmes no se presentó."
+  },
+  {
+   "id": "1908-085",
+   "date": "1908-10-25",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-086",
+   "date": "1908-10-25",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "quilmes",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-087",
+   "date": "1908-10-25",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "lomas-athletic",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-088",
+   "date": "1908-11-01",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "alumni",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-089",
+   "date": "1908-11-01",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-090",
+   "date": "1908-11-08",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "san-isidro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1908-091",
+   "date": "1908-11-08",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "estudiantes-ba",
+   "note": "No se jugó: los puntos fueron para Estudiantes (BA). Lomas Athletic no se presentó."
+  },
+  {
+   "id": "1908-092",
+   "date": "1908-11-11",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "san-isidro",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

@@ -59,6 +59,13 @@ export type Season = {
   pointAdjustments?: { teamId: string; points: number; reason: string }[];
   // Tabla tal como la publica la fuente, para verificar contra la calculada.
   publishedTable: TableRow[];
+  // La tabla publicada suma también desempates y finales (ej. 1906: tabla combinada de grupos y final).
+  tableIncludesPlayoffs?: boolean;
+  // Aclaración sobre la tabla (ej. "Tabla combinada no oficial").
+  tableNote?: string;
+  // Diferencias revisadas entre la tabla calculada y la publicada que no se pueden resolver con las fuentes
+  // (ej. un gol de diferencia en la suma de la tabla). Claves "equipo:campo".
+  knownTableDiffs?: { keys: string[]; explanation: string };
   matches: Match[];
 };
 

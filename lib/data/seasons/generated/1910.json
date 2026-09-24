@@ -1,0 +1,1069 @@
+{
+ "slug": "1910",
+ "year": 1910,
+ "title": "Campeonato 1910",
+ "tournament": "Copa Campeonato 1910",
+ "organizer": "Argentine Football Association",
+ "championIds": [
+  "alumni"
+ ],
+ "summary": "Alumni ganó su noveno título. Argentino de Quilmes terminó último y descendió; en su lugar ascendió Racing Club.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1910",
+   "url": "https://www.rsssf.org/tablesa/arg10.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1910 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1910_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a dos ruedas entre 9 equipos, 2 puntos por victoria."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "alumni",
+   "played": 16,
+   "won": 10,
+   "drawn": 5,
+   "lost": 1,
+   "goalsFor": 42,
+   "goalsAgainst": 13,
+   "points": 25
+  },
+  {
+   "teamId": "porteno",
+   "played": 16,
+   "won": 8,
+   "drawn": 5,
+   "lost": 3,
+   "goalsFor": 33,
+   "goalsAgainst": 25,
+   "points": 21
+  },
+  {
+   "teamId": "belgrano-athletic",
+   "played": 16,
+   "won": 8,
+   "drawn": 3,
+   "lost": 5,
+   "goalsFor": 42,
+   "goalsAgainst": 24,
+   "points": 19
+  },
+  {
+   "teamId": "estudiantes-ba",
+   "played": 16,
+   "won": 8,
+   "drawn": 3,
+   "lost": 5,
+   "goalsFor": 33,
+   "goalsAgainst": 29,
+   "points": 19
+  },
+  {
+   "teamId": "san-isidro",
+   "played": 16,
+   "won": 6,
+   "drawn": 6,
+   "lost": 4,
+   "goalsFor": 30,
+   "goalsAgainst": 27,
+   "points": 18
+  },
+  {
+   "teamId": "gimnasia-ba",
+   "played": 16,
+   "won": 5,
+   "drawn": 5,
+   "lost": 6,
+   "goalsFor": 29,
+   "goalsAgainst": 25,
+   "points": 15
+  },
+  {
+   "teamId": "river",
+   "played": 16,
+   "won": 4,
+   "drawn": 4,
+   "lost": 8,
+   "goalsFor": 27,
+   "goalsAgainst": 37,
+   "points": 12
+  },
+  {
+   "teamId": "quilmes",
+   "played": 16,
+   "won": 2,
+   "drawn": 4,
+   "lost": 10,
+   "goalsFor": 24,
+   "goalsAgainst": 52,
+   "points": 8
+  },
+  {
+   "teamId": "argentino-quilmes",
+   "played": 16,
+   "won": 2,
+   "drawn": 3,
+   "lost": 11,
+   "goalsFor": 21,
+   "goalsAgainst": 49,
+   "points": 7
+  }
+ ],
+ "knownTableDiffs": {
+  "keys": [
+   "estudiantes-ba:goalsFor",
+   "estudiantes-ba:goalsAgainst",
+   "quilmes:goalsFor",
+   "quilmes:goalsAgainst"
+  ],
+  "explanation": "La tabla publicada (RSSSF y Wikipedia) tiene un gol más a favor y uno más en contra para Estudiantes y para Quilmes que la suma de los resultados. Coincide con que uno de sus dos partidos entre sí (3-3 y 3-0 según RSSSF) haya tenido un gol más por lado, pero no hay fuente para saber cuál, así que se dejan los resultados tal como figuran."
+ },
+ "matches": [
+  {
+   "id": "1910-001",
+   "date": "1910-04-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "san-isidro",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-002",
+   "date": "1910-04-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 0,
+   "awayGoals": 7,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-003",
+   "date": "1910-05-01",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-004",
+   "date": "1910-05-01",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-005",
+   "date": "1910-05-01",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-006",
+   "date": "1910-05-22",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-007",
+   "date": "1910-06-19",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-008",
+   "date": "1910-06-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-009",
+   "date": "1910-06-26",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-010",
+   "date": "1910-06-26",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-011",
+   "date": "1910-06-26",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-012",
+   "date": "1910-06-29",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-013",
+   "date": "1910-06-29",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 7,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-014",
+   "date": "1910-07-03",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-015",
+   "date": "1910-07-03",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-016",
+   "date": "1910-07-03",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "porteno",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-017",
+   "date": "1910-07-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "porteno",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-018",
+   "date": "1910-07-10",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-019",
+   "date": "1910-07-10",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-020",
+   "date": "1910-07-10",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-021",
+   "date": "1910-07-17",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-022",
+   "date": "1910-07-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-023",
+   "date": "1910-07-31",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-024",
+   "date": "1910-07-31",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-025",
+   "date": "1910-07-31",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-026",
+   "date": "1910-07-31",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-029",
+   "date": "1910-08-07",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "san-isidro",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-030",
+   "date": "1910-08-14",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-031",
+   "date": "1910-08-15",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-032",
+   "date": "1910-08-21",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "river",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-033",
+   "date": "1910-08-21",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-034",
+   "date": "1910-08-21",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-035",
+   "date": "1910-08-21",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Empezó el 07/08 y se suspendió con 0-0; se completó en esta fecha."
+  },
+  {
+   "id": "1910-036",
+   "date": "1910-08-28",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-037",
+   "date": "1910-08-28",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-038",
+   "date": "1910-08-28",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-039",
+   "date": "1910-08-28",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-040",
+   "date": "1910-08-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-041",
+   "date": "1910-08-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "alumni",
+   "homeGoals": 1,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-042",
+   "date": "1910-08-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-043",
+   "date": "1910-08-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-044",
+   "date": "1910-09-04",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-045",
+   "date": "1910-09-04",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-046",
+   "date": "1910-09-04",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-047",
+   "date": "1910-09-08",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-048",
+   "date": "1910-09-18",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 1,
+   "awayGoals": 7,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-049",
+   "date": "1910-09-25",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-050",
+   "date": "1910-10-02",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-051",
+   "date": "1910-10-02",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-052",
+   "date": "1910-10-02",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-053",
+   "date": "1910-10-02",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-054",
+   "date": "1910-10-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-055",
+   "date": "1910-10-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "alumni",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-056",
+   "date": "1910-10-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-057",
+   "date": "1910-10-16",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-058",
+   "date": "1910-10-16",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-059",
+   "date": "1910-10-16",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-060",
+   "date": "1910-10-16",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "river",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-061",
+   "date": "1910-10-23",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-062",
+   "date": "1910-10-23",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-063",
+   "date": "1910-10-23",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "alumni",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-064",
+   "date": "1910-10-23",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "river",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Empezó el 07/08 y se suspendió con 2-0; se completó en esta fecha."
+  },
+  {
+   "id": "1910-065",
+   "date": "1910-10-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "alumni",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-066",
+   "date": "1910-10-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-067",
+   "date": "1910-10-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-068",
+   "date": "1910-11-01",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-069",
+   "date": "1910-11-01",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-070",
+   "date": "1910-11-01",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "san-isidro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-071",
+   "date": "1910-11-06",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "alumni",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-072",
+   "date": "1910-11-11",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-073",
+   "date": "1910-11-13",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1910-074",
+   "date": "1910-12-08",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

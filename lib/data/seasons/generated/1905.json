@@ -1,0 +1,688 @@
+{
+ "slug": "1905",
+ "year": 1905,
+ "title": "Campeonato 1905",
+ "tournament": "Copa Campeonato 1905",
+ "organizer": "Argentine Football Association",
+ "championIds": [
+  "alumni"
+ ],
+ "summary": "Alumni recuperó el título, el quinto de su historia (sexto contando el de English High School). Debutó Reformer, de Campana.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1905",
+   "url": "https://www.rsssf.org/tablesa/arg1905.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1905 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1905_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a dos ruedas entre 7 equipos, 2 puntos por victoria."
+  },
+  {
+   "kind": "walkover",
+   "text": "Belgrano Athletic–Quilmes (28 de mayo) se suspendió a los 85 minutos con 3-0 para Belgrano; la liga después le dio el partido a Quilmes. Barracas Athletic–Lomas Athletic también se resolvió por escritorio, a favor de Lomas."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "alumni",
+   "played": 12,
+   "won": 10,
+   "drawn": 1,
+   "lost": 1,
+   "goalsFor": 43,
+   "goalsAgainst": 8,
+   "points": 21
+  },
+  {
+   "teamId": "belgrano-athletic",
+   "played": 12,
+   "won": 9,
+   "drawn": 0,
+   "lost": 3,
+   "goalsFor": 31,
+   "goalsAgainst": 12,
+   "points": 18
+  },
+  {
+   "teamId": "estudiantes-ba",
+   "played": 12,
+   "won": 8,
+   "drawn": 1,
+   "lost": 3,
+   "goalsFor": 36,
+   "goalsAgainst": 18,
+   "points": 17
+  },
+  {
+   "teamId": "quilmes",
+   "played": 12,
+   "won": 6,
+   "drawn": 0,
+   "lost": 6,
+   "goalsFor": 32,
+   "goalsAgainst": 15,
+   "points": 12
+  },
+  {
+   "teamId": "reformer",
+   "played": 12,
+   "won": 3,
+   "drawn": 1,
+   "lost": 8,
+   "goalsFor": 20,
+   "goalsAgainst": 60,
+   "points": 7
+  },
+  {
+   "teamId": "lomas-athletic",
+   "played": 12,
+   "won": 3,
+   "drawn": 1,
+   "lost": 8,
+   "goalsFor": 12,
+   "goalsAgainst": 41,
+   "points": 7
+  },
+  {
+   "teamId": "barracas-athletic",
+   "played": 12,
+   "won": 1,
+   "drawn": 0,
+   "lost": 11,
+   "goalsFor": 8,
+   "goalsAgainst": 28,
+   "points": 2
+  }
+ ],
+ "matches": [
+  {
+   "id": "1905-001",
+   "date": "1905-05-07",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "lomas-athletic",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-002",
+   "date": "1905-05-07",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "reformer",
+   "homeGoals": 12,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-003",
+   "date": "1905-05-14",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-004",
+   "date": "1905-05-14",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "barracas-athletic",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-005",
+   "date": "1905-05-14",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "alumni",
+   "homeGoals": 1,
+   "awayGoals": 7,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-006",
+   "date": "1905-05-21",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "reformer",
+   "homeGoals": 14,
+   "awayGoals": 0,
+   "venue": "Cancha de Sociedad Sportiva Argentina",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-007",
+   "date": "1905-05-21",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-008",
+   "date": "1905-05-25",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "barracas-athletic",
+   "homeGoals": 7,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-009",
+   "date": "1905-05-25",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-010",
+   "date": "1905-05-25",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-012",
+   "date": "1905-05-28",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "barracas-athletic",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-013",
+   "date": "1905-05-28",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 8,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-014",
+   "date": "1905-06-01",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-015",
+   "date": "1905-06-01",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "reformer",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-016",
+   "date": "1905-06-01",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "barracas-athletic",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-017",
+   "date": "1905-06-11",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "reformer",
+   "homeGoals": 1,
+   "awayGoals": 12,
+   "venue": "Cancha de Sportiva or Porteños",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-018",
+   "date": "1905-06-11",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-019",
+   "date": "1905-06-11",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "lomas-athletic",
+   "homeGoals": 8,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-020",
+   "date": "1905-06-18",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "reformer",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-021",
+   "date": "1905-06-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-022",
+   "date": "1905-06-28",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "quilmes",
+   "note": "No se jugó: los puntos fueron para Quilmes. Resuelto por la liga. Fecha dudosa en la fuente."
+  },
+  {
+   "id": "1905-023",
+   "date": "1905-07-09",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 2,
+   "awayGoals": 8,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-024",
+   "date": "1905-07-16",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-025",
+   "date": "1905-07-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "lomas-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "lomas-athletic",
+   "note": "No se jugó: los puntos fueron para Lomas Athletic. Resuelto por la liga."
+  },
+  {
+   "id": "1905-026",
+   "date": "1905-07-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-027",
+   "date": "1905-07-30",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-028",
+   "date": "1905-08-06",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "venue": "Cancha de Estudiantes (BA)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-029",
+   "date": "1905-08-06",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "quilmes",
+   "note": "No se jugó: los puntos fueron para Quilmes. Resuelto por la liga."
+  },
+  {
+   "id": "1905-030",
+   "date": "1905-08-06",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "reformer",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-031",
+   "date": "1905-08-13",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "lomas-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-032",
+   "date": "1905-09-03",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "barracas-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "alumni",
+   "note": "No se jugó: los puntos fueron para Alumni. Resuelto por la liga."
+  },
+  {
+   "id": "1905-033",
+   "date": "1905-09-03",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "lomas-athletic",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-034",
+   "date": "1905-09-06",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "alumni",
+   "note": "No se jugó: los puntos fueron para Alumni. Resuelto por la liga. Fecha dudosa en la fuente."
+  },
+  {
+   "id": "1905-035",
+   "date": "1905-09-06",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "estudiantes-ba",
+   "note": "No se jugó: los puntos fueron para Estudiantes (BA). Resuelto por la liga. Fecha dudosa en la fuente."
+  },
+  {
+   "id": "1905-036",
+   "date": "1905-09-06",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "barracas-athletic",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "belgrano-athletic",
+   "note": "No se jugó: los puntos fueron para Belgrano Athletic. Resuelto por la liga. Fecha dudosa en la fuente."
+  },
+  {
+   "id": "1905-037",
+   "date": "1905-09-06",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "barracas-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "reformer",
+   "note": "No se jugó: los puntos fueron para Reformer. Resuelto por la liga. Fecha dudosa en la fuente."
+  },
+  {
+   "id": "1905-038",
+   "date": "1905-09-08",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "lomas-athletic",
+   "homeGoals": 11,
+   "awayGoals": 1,
+   "venue": "Cancha de Sociedad Sportiva Argentina",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-039",
+   "date": "1905-09-08",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-040",
+   "date": "1905-09-17",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Estudiantes (BA)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Weiss 40 / González 27."
+  },
+  {
+   "id": "1905-041",
+   "date": "1905-09-17",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "lomas-athletic",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1905-042",
+   "date": "1905-09-17",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "reformer",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "reformer",
+   "note": "No se jugó: los puntos fueron para Reformer. Resuelto por la liga."
+  },
+  {
+   "id": "1905-043",
+   "date": "1905-09-24",
+   "competition": "Argentine Football Association",
+   "phase": "league",
+   "homeId": "alumni",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "alumni",
+   "note": "No se jugó: los puntos fueron para Alumni. Resuelto por la liga."
+  }
+ ]
+}

@@ -70,7 +70,11 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
               }`}
             >
               <span className={`h-1.5 w-1.5 rounded-full ${problems.length === 0 ? "bg-emerald-500" : "bg-red-500"}`} />
-              {problems.length === 0 ? "Verificada contra la fuente" : "No coincide con la fuente"}
+              {problems.length > 0
+                ? "No coincide con la fuente"
+                : season.knownTableDiffs
+                  ? "Verificada, con una diferencia explicada"
+                  : "Verificada contra la fuente"}
             </span>
           </div>
           <div className="panel overflow-x-auto">
@@ -137,9 +141,16 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
               </ul>
             )}
           </div>
+          {season.knownTableDiffs && (
+            <p className="mt-2 border-l-2 border-amber-400 bg-amber-50 px-3 py-2 text-xs leading-relaxed text-amber-900">
+              {season.knownTableDiffs.explanation}
+            </p>
+          )}
           <p className="mt-2 text-xs text-navy-500">
+            {season.tableNote ? `${season.tableNote} ` : ""}
             {season.pointsPerWin} puntos por victoria. La tabla se calcula con los partidos de abajo y se compara con la
-            publicada por la fuente; los desempates no suman.
+            publicada por la fuente{season.tableIncludesPlayoffs ? "." : "; los desempates no suman."}
+            {season.pointAdjustments?.map((a) => ` ${getTeam(a.teamId)?.name ?? a.teamId}: ${a.points} puntos (${a.reason})`).join("")}
           </p>
         </section>
 

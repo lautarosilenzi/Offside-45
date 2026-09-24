@@ -114,7 +114,9 @@ export function parseSeason(html: string): RawSection[] {
         // Las líneas separadoras cortan la tabla: si la posición sigue a la última fila, es la misma tabla.
         const last = cur.tables[cur.tables.length - 1];
         const pos = Number(t[1]);
-        if (last && (last[last.length - 1].pos + 1 === pos || last[last.length - 1].pos === pos)) table = last;
+        // Puestos compartidos ("1., 1., 3.") dejan huecos en la numeración.
+        const lastPos = last?.[last.length - 1].pos ?? -1;
+        if (last && pos >= lastPos && pos <= lastPos + last.length) table = last;
         else {
           table = [];
           cur.tables.push(table);
@@ -142,7 +144,7 @@ export function parseSeason(html: string): RawSection[] {
       return;
     }
     // Subtítulos cortos de fase: "Playoff", "Second playoff", "Championship Final", "Group A"...
-    const stage = trimmed.match(/^([A-Za-z ]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season)[A-Za-z ]*):?\s*(?:\[(.+)\])?$/i);
+    const stage = trimmed.match(/^([A-Za-z ]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season)[A-Za-z ]*):?\s*(?:\[(.+)\])?\s*:?$/i);
     if (stage && trimmed.length < 60 && !/table|standings|position/i.test(trimmed)) {
       round = stage[1].trim();
       if (stage[2]) date = stage[2].trim();
