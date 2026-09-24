@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { CLASICOS, getTeam } from "@/lib/teams";
-import { computeStats, getHeadToHead } from "@/lib/matches";
+import { computeStats, getHeadToHead, isCounted } from "@/lib/matches";
 import TeamSelect from "./TeamSelect";
 import StatsCard from "./StatsCard";
 import MatchCard from "./MatchCard";
@@ -15,6 +15,7 @@ export default function HeadToHead() {
   const b = getTeam(teamB)!;
   const matches = useMemo(() => getHeadToHead(teamA, teamB), [teamA, teamB]);
   const stats = useMemo(() => computeStats(matches, teamA), [matches, teamA]);
+  const annulledCount = matches.length - matches.filter(isCounted).length;
 
   const swap = () => {
     setTeamA(teamB);
@@ -73,6 +74,12 @@ export default function HeadToHead() {
       ) : (
         <>
           <StatsCard a={a} b={b} stats={stats} />
+          <p className="-mt-4 rounded-xl bg-brand-50 px-4 py-3 text-xs leading-relaxed text-brand-700">
+            Historial verificado de la <strong>era amateur (hasta 1930)</strong>: liga y copas nacionales oficiales,
+            cruzando RSSSF y Wikipedia. El profesionalismo se está cargando.
+            {annulledCount > 0 &&
+              ` ${annulledCount === 1 ? "Hay 1 partido" : `Hay ${annulledCount} partidos`} de torneos anulados que se muestran pero no suman.`}
+          </p>
           <section>
             <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-slate-500">
               Partidos ({matches.length})

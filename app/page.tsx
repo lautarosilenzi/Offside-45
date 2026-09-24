@@ -28,7 +28,7 @@ export default function Home() {
       </main>
 
       <footer className="mx-auto max-w-4xl px-4 pb-10 text-center text-xs text-slate-400 sm:px-6">
-        Datos de ejemplo con fines de demostración · Offside 45
+        Datos: RSSSF (rsssf.org) y Wikipedia · Offside 45
       </footer>
     </>
   );

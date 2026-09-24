@@ -21,7 +21,7 @@ export default function StatsCard({ a, b, stats }: { a: Team; b: Team; stats: He
               {stats.winsB}
             </div>
             <div className="mt-1 text-[11px] uppercase tracking-widest text-white/70">
-              G · E · G — {stats.played} {stats.played === 1 ? "partido" : "partidos"}
+              G · E · G — {stats.played} {stats.played === 1 ? "partido oficial" : "partidos oficiales"}
             </div>
           </div>
           <div className="flex min-w-0 flex-col items-center gap-2 text-center">

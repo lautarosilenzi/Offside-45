@@ -1,6 +1,13 @@
 import { getTeam } from "@/lib/teams";
-import type { Match } from "@/lib/types";
+import { winnerOf } from "@/lib/matches";
+import type { Match, Source } from "@/lib/types";
 import TeamBadge from "./TeamBadge";
+
+const SOURCE_LABELS: Record<Source, string> = {
+  rsssf: "RSSSF",
+  "wikipedia-es": "Wikipedia ES",
+  "wikipedia-en": "Wikipedia EN",
+};
 
 const dateFmt = new Intl.DateTimeFormat("es-AR", {
   day: "2-digit",
@@ -14,11 +21,18 @@ export default function MatchCard({ match }: { match: Match }) {
   const away = getTeam(match.awayId);
   if (!home || !away) return null;
 
-  const homeWon = match.homeGoals > match.awayGoals;
-  const awayWon = match.awayGoals > match.homeGoals;
+  const winner = winnerOf(match);
+  const homeWon = winner === home.id;
+  const awayWon = winner === away.id;
+  const annulled = match.status === "annulled";
+  const awarded = match.awardedTo ? getTeam(match.awardedTo) : undefined;
 
   return (
-    <article className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md sm:p-5">
+    <article
+      className={`rounded-2xl border bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md sm:p-5 ${
+        annulled ? "border-dashed border-amber-300 opacity-80" : "border-slate-200"
+      }`}
+    >
       <header className="mb-4 flex flex-wrap items-center justify-between gap-2 text-xs">
         <span className="rounded-full bg-brand-50 px-2.5 py-1 font-semibold text-brand-600">
           {match.competition}
@@ -47,9 +61,26 @@ export default function MatchCard({ match }: { match: Match }) {
         </div>
       </div>
 
-      <footer className="mt-4 flex items-center justify-between gap-2 text-xs text-slate-500">
+      {(annulled || awarded) && (
+        <div className="mt-3 flex flex-wrap gap-2">
+          {annulled && (
+            <span className="rounded-full bg-amber-50 px-2.5 py-0.5 text-[11px] font-semibold text-amber-700 ring-1 ring-amber-200">
+              Torneo anulado · no suma
+            </span>
+          )}
+          {awarded && (
+            <span className="rounded-full bg-slate-100 px-2.5 py-0.5 text-[11px] font-semibold text-slate-700 ring-1 ring-slate-200">
+              Ganado por escritorio: {awarded.name}
+            </span>
+          )}
+        </div>
+      )}
+
+      {match.note && <p className="mt-3 text-xs leading-relaxed text-slate-600">{match.note}</p>}
+
+      <footer className="mt-4 flex flex-wrap items-center justify-between gap-2 border-t border-slate-100 pt-3 text-[11px] text-slate-500">
         <span>{match.venue}</span>
-        {match.note && <span className="italic">{match.note}</span>}
+        <span>Fuentes: {match.sources.map((s) => SOURCE_LABELS[s]).join(" · ")}</span>
       </footer>
     </article>
   );
