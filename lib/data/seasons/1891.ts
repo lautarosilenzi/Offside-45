@@ -33,6 +33,7 @@ const m = (
 });
 
 export const SEASON_1891: Season = {
+  slug: "1891",
   year: 1891,
   title: "Campeonato 1891",
   tournament: "Campeonato de la Argentine Association Football League",

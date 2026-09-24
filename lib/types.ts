@@ -39,8 +39,12 @@ export type NoteKind =
 export type SeasonNote = { kind: NoteKind; text: string };
 
 export type Season = {
+  // Identificador en la URL: el año, o año + liga cuando hubo dos campeonatos (ej. "1919-aam").
+  slug: string;
   year: number;
   title: string;
+  // Nombre corto de la liga cuando ese año hubo más de una (ej. "AAF", "AAm").
+  league?: string;
   // Nombre oficial del torneo y quién lo organizó.
   tournament: string;
   organizer: string;
@@ -49,8 +53,10 @@ export type Season = {
   pointsPerWin: number;
   sources: { label: string; url: string }[];
   notes: SeasonNote[];
-  // Equipos inscriptos que no jugaron ningún partido.
+  // Equipos inscriptos que se retiraron o fueron excluidos y no figuran en la tabla.
   withdrawn?: string[];
+  // Puntos quitados (o dados) por la liga fuera de los partidos.
+  pointAdjustments?: { teamId: string; points: number; reason: string }[];
   // Tabla tal como la publica la fuente, para verificar contra la calculada.
   publishedTable: TableRow[];
   matches: Match[];

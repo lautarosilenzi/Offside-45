@@ -4,9 +4,12 @@ import { winnerOf } from "./result";
 
 export { SEASONS };
 
-export const getSeason = (year: number) => SEASONS.find((s) => s.year === year);
+export const getSeason = (slug: string) => SEASONS.find((s) => s.slug === slug);
 
 export const LOADED_YEARS = new Set(SEASONS.map((s) => s.year));
+
+// Nombre para mostrar: "1919" o "1919 · AAm" cuando ese año hubo dos ligas.
+export const seasonLabel = (s: Season) => (s.league ? `${s.year} · ${s.league}` : String(s.year));
 
 // Todos los partidos de las temporadas cargadas.
 export const SEASON_MATCHES: Match[] = SEASONS.flatMap((s) => s.matches);
@@ -57,8 +60,13 @@ export function computeTable(season: Season): TableRow[] {
     }
   }
 
+  for (const adj of season.pointAdjustments ?? []) row(adj.teamId).points += adj.points;
+
+  // Orden oficial: el de la tabla publicada (resuelve desempates por partido extra o promedio de gol).
+  const official = new Map(season.publishedTable.map((r, i) => [r.teamId, i]));
   return [...rows.values()].sort(
     (a, b) =>
+      (official.get(a.teamId) ?? 999) - (official.get(b.teamId) ?? 999) ||
       b.points - a.points ||
       b.goalsFor - b.goalsAgainst - (a.goalsFor - a.goalsAgainst) ||
       b.goalsFor - a.goalsFor,

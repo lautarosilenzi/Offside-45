@@ -35,6 +35,7 @@ const unknown = (date: string, homeId: string, awayId: string, winnerId: string)
 const EN_LOMAS = { venue: "Cancha de Lomas Athletic", note: "Saint Andrew's fue local en la cancha de Lomas Athletic." };
 
 export const SEASON_1894: Season = {
+  slug: "1894",
   year: 1894,
   title: "Campeonato 1894",
   tournament: "Championship Cup de la Argentine Association Football League",

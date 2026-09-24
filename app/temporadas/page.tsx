@@ -4,7 +4,7 @@ import Crest from "@/components/Crest";
 import PageHero from "@/components/PageHero";
 import { NoteTag } from "@/components/SeasonNotes";
 import { YEARS_WITHOUT_TOURNAMENT } from "@/lib/data/seasons";
-import { SEASONS, computeTable, seasonNameOf, verifySeason } from "@/lib/seasons";
+import { SEASONS, computeTable, seasonLabel, seasonNameOf, verifySeason } from "@/lib/seasons";
 import { getTeam } from "@/lib/teams";
 import type { NoteKind, Season } from "@/lib/types";
 
@@ -49,7 +49,7 @@ export default function SeasonsPage() {
                 <p className="px-4 py-3 text-sm leading-relaxed text-navy-500">{e.reason}</p>
               </div>
             ) : (
-              <SeasonCard key={e.year} season={e.season} />
+              <SeasonCard key={e.season.slug} season={e.season} />
             ),
           )}
         </div>
@@ -75,11 +75,11 @@ function SeasonCard({ season }: { season: Season }) {
 
   return (
     <Link
-      href={`/temporadas/${season.year}`}
+      href={`/temporadas/${season.slug}`}
       className="group flex flex-col overflow-hidden rounded-md border border-navy-100 bg-white transition hover:border-navy-300 hover:shadow-[0_2px_12px_rgba(12,24,48,0.08)]"
     >
       <div className="flex items-center justify-between bg-navy-900 px-4 py-2.5 text-white">
-        <span className="font-display text-2xl font-bold">{season.year}</span>
+        <span className="font-display text-2xl font-bold">{seasonLabel(season)}</span>
         <span
           className={`flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider ${
             ok ? "text-emerald-300" : "text-red-300"

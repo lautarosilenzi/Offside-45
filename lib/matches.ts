@@ -5,11 +5,12 @@ import { LOADED_YEARS, SEASON_MATCHES } from "./seasons";
 
 const yearOf = (m: Match) => Number(m.date.slice(0, 4));
 
-// Las temporadas completas (lib/data/seasons) reemplazan a los clásicos sueltos de ese año.
+// Las temporadas completas (lib/data/seasons) reemplazan a los partidos de liga sueltos de ese año.
+// Los de copa se mantienen hasta que se carguen las copas nacionales.
 // Más adelante esto pasa a una tabla en Supabase.
 export const MATCHES: Match[] = [
   ...SEASON_MATCHES,
-  ...AMATEUR_MATCHES.filter((m) => !LOADED_YEARS.has(yearOf(m))),
+  ...AMATEUR_MATCHES.filter((m) => !(LOADED_YEARS.has(yearOf(m)) && m.competition === "Primera División")),
 ];
 
 export const TEAM_IDS_WITH_MATCHES = new Set(MATCHES.flatMap((m) => [m.homeId, m.awayId]));

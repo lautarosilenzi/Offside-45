@@ -1,6 +1,7 @@
+import { HISTORIC_CLUBS } from "./data/clubs";
 import type { Team } from "./types";
 
-// Clubes que existen hoy.
+// Clubes de la Primera División actual (más Quilmes, uno de los fundadores de la liga).
 export const TEAMS: Team[] = [
   { id: "river", name: "River Plate", shortName: "RIV", primary: "#E30613", secondary: "#FFFFFF" },
   { id: "boca", name: "Boca Juniors", shortName: "BOC", primary: "#0B3B8C", secondary: "#FDB913" },
@@ -23,34 +24,8 @@ export const TEAMS: Team[] = [
   { id: "quilmes", name: "Quilmes", shortName: "QUI", primary: "#FFFFFF", secondary: "#0B2A5B" },
 ];
 
-// Clubes que jugaron en Primera y ya no existen (o dejaron el fútbol de AFA).
-// Colores neutros: no inventamos colores que no están documentados.
-const historic = (id: string, name: string, shortName: string, fullName: string): Team => ({
-  id,
-  name,
-  shortName,
-  fullName,
-  primary: "#64748B",
-  secondary: "#E2E8F0",
-  historic: true,
-});
-
-export const HISTORIC_TEAMS: Team[] = [
-  historic("saint-andrews", "Saint Andrew's", "STA", "Saint Andrew's Athletic Club"),
-  historic("caledonians", "Caledonians", "CAL", "Caledonians Club"),
-  historic("ba-rosario-railway", "BA & Rosario Railway", "BAR", "Buenos Aires & Rosario Railway Athletic Club"),
-  historic("buenos-aires-fc", "Buenos Aires FC", "BAF", "Buenos Aires Football Club"),
-  historic("belgrano-fc", "Belgrano FC", "BFC", "Belgrano Football Club (1891)"),
-  historic("hurlingham", "Hurlingham FC", "HGM", "Hurlingham Football Club"),
-  historic("lomas-athletic", "Lomas Athletic", "LOM", "Lomas Athletic Club"),
-  historic("flores-athletic", "Flores Athletic", "FLO", "Flores Athletic Club"),
-  historic("alumni", "Alumni", "ALU", "Alumni Athletic Club (antes English High School)"),
-  historic("rosario-athletic", "Rosario Athletic", "RAT", "Rosario Athletic Club (hoy Club Atlético del Rosario)"),
-  historic("lobos-athletic", "Lobos Athletic", "LOB", "Lobos Athletic Club"),
-  historic("retiro-athletic", "Retiro Athletic", "RET", "Retiro Athletic Club"),
-  historic("lomas-academy", "Lomas Academy", "LAC", "Lomas Academy (segundo equipo del Lomas Athletic Club)"),
-  historic("belgrano-athletic", "Belgrano Athletic", "BEA", "Belgrano Athletic Club"),
-];
+// Clubes que no están hoy en Primera (desaparecidos o de otras categorías).
+export const HISTORIC_TEAMS: Team[] = HISTORIC_CLUBS;
 
 const ALL_TEAMS = [...TEAMS, ...HISTORIC_TEAMS];
 

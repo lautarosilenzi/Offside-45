@@ -26,6 +26,7 @@ const m = (
 });
 
 export const SEASON_1896: Season = {
+  slug: "1896",
   year: 1896,
   title: "Campeonato 1896",
   tournament: "Championship Cup de la Argentine Association Football League",

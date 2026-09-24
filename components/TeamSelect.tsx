@@ -30,7 +30,7 @@ export default function TeamSelect({ label, value, exclude, onChange }: Props) {
           onChange={(e) => onChange(e.target.value)}
           className="w-full appearance-none rounded-sm border border-navy-200 bg-white py-2.5 pl-11 pr-10 text-base font-semibold text-navy-900 outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
         >
-          <optgroup label="Clubes actuales">
+          <optgroup label="Primera División actual">
             {CURRENT.map((t) => (
               <option key={t.id} value={t.id} disabled={t.id === exclude}>
                 {t.name}
@@ -38,7 +38,7 @@ export default function TeamSelect({ label, value, exclude, onChange }: Props) {
             ))}
           </optgroup>
           {HISTORIC.length > 0 && (
-            <optgroup label="Clubes históricos">
+            <optgroup label="Otros clubes (históricos y de otras categorías)">
               {HISTORIC.map((t) => (
                 <option key={t.id} value={t.id} disabled={t.id === exclude}>
                   {t.name}

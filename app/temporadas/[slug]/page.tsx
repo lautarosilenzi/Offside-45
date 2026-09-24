@@ -5,21 +5,21 @@ import Crest from "@/components/Crest";
 import MatchList from "@/components/MatchList";
 import PageHero from "@/components/PageHero";
 import SeasonNotes from "@/components/SeasonNotes";
-import { SEASONS, computeTable, getSeason, seasonNameOf, verifySeason } from "@/lib/seasons";
+import { SEASONS, computeTable, getSeason, seasonLabel, seasonNameOf, verifySeason } from "@/lib/seasons";
 import { getTeam } from "@/lib/teams";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return SEASONS.map((s) => ({ year: String(s.year) }));
+  return SEASONS.map((s) => ({ slug: s.slug }));
 }
 
-export function generateMetadata({ params }: { params: { year: string } }): Metadata {
-  return { title: `Temporada ${params.year} · Offside 45` };
+export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
+  return { title: `Temporada ${params.slug.replace("-", " ").toUpperCase()} · Offside 45` };
 }
 
-export default function SeasonPage({ params }: { params: { year: string } }) {
-  const season = getSeason(Number(params.year));
+export default function SeasonPage({ params }: { params: { slug: string } }) {
+  const season = getSeason(params.slug);
   if (!season) notFound();
 
   const table = computeTable(season);
@@ -38,7 +38,7 @@ export default function SeasonPage({ params }: { params: { year: string } }) {
             ← Temporadas
           </Link>
         }
-        title={`Temporada ${season.year}`}
+        title={`Temporada ${seasonLabel(season)}`}
       >
         <p>{season.summary}</p>
       </PageHero>
@@ -172,17 +172,17 @@ export default function SeasonPage({ params }: { params: { year: string } }) {
 
         <nav className="grid grid-cols-2 gap-4">
           {prev ? (
-            <Link href={`/temporadas/${prev.year}`} className="panel px-4 py-3 transition hover:border-navy-300">
+            <Link href={`/temporadas/${prev.slug}`} className="panel px-4 py-3 transition hover:border-navy-300">
               <div className="text-xs uppercase tracking-wider text-navy-400">Anterior</div>
-              <div className="font-display text-2xl font-bold text-navy-900">← {prev.year}</div>
+              <div className="font-display text-2xl font-bold text-navy-900">← {seasonLabel(prev)}</div>
             </Link>
           ) : (
             <span />
           )}
           {next && (
-            <Link href={`/temporadas/${next.year}`} className="panel px-4 py-3 text-right transition hover:border-navy-300">
+            <Link href={`/temporadas/${next.slug}`} className="panel px-4 py-3 text-right transition hover:border-navy-300">
               <div className="text-xs uppercase tracking-wider text-navy-400">Siguiente</div>
-              <div className="font-display text-2xl font-bold text-navy-900">{next.year} →</div>
+              <div className="font-display text-2xl font-bold text-navy-900">{seasonLabel(next)} →</div>
             </Link>
           )}
         </nav>

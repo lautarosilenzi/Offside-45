@@ -35,6 +35,7 @@ const unknown = (date: string, homeId: string, awayId: string, winnerId?: string
   });
 
 export const SEASON_1895: Season = {
+  slug: "1895",
   year: 1895,
   title: "Campeonato 1895",
   tournament: "Championship Cup de la Argentine Association Football League",

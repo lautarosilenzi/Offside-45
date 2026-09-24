@@ -31,6 +31,7 @@ const m = (
 });
 
 export const SEASON_1893: Season = {
+  slug: "1893",
   year: 1893,
   title: "Campeonato 1893",
   tournament: "Championship Cup de la Argentine Association Football League",
