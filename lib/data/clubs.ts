@@ -33,6 +33,21 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["porteno", "Porteño", "POR", "Club Atlético Porteño"],
   ["nacional-floresta", "Nacional (Floresta)", "NAC", "Club Atlético Nacional (Floresta)"],
   ["gimnasia-ba", "Gimnasia y Esgrima (BA)", "GEB", "Club de Gimnasia y Esgrima de Buenos Aires"],
+  // 1912–
+  ["atlanta", "Atlanta", "ATL", "Club Atlético Atlanta"],
+  ["kimberley", "Kimberley", "KIM", "Kimberley Athletic Club"],
+  ["sportiva-argentina", "Sportiva Argentina", "SSA", "Sociedad Sportiva Argentina"],
+  // 1913–
+  ["estudiantil-porteno", "Estudiantil Porteño", "EPO", "Club Atlético Estudiantil Porteño"],
+  ["comercio", "Comercio", "COM", "Comercio Foot Ball Club"],
+  ["ferro", "Ferro Carril Oeste", "FER", "Club Ferro Carril Oeste"],
+  ["ferrocarril-sud", "Ferrocarril Sud", "FCS", "Club Atlético del Ferrocarril Sud (Gran Sud)"],
+  ["olivos", "Olivos", "OLI", "Club Atlético Olivos"],
+  ["riachuelo", "Riachuelo", "RIA", "Club Atlético Riachuelo"],
+  ["columbian", "Columbian", "COL", "Club Columbian (antes Hispano Argentino)"],
+  // 1914–
+  ["floresta", "Floresta", "FLR", "Club Sportivo Floresta"],
+  ["remedios-escalada", "Remedios de Escalada", "RDE", "Remedios de Escalada (Lanús)"],
 ];
 
 export const HISTORIC_CLUBS: Team[] = OTHER_CLUBS.map(([id, name, shortName, fullName]) => ({

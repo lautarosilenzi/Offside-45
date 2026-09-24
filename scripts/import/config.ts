@@ -25,15 +25,20 @@ export type TournamentConfig = {
   tableIncludesPlayoffs?: boolean;
   tableNote?: string;
   knownTableDiffs?: { keys: string[]; explanation: string };
-  // Por número de línea de la página: "skip" o campos a pisar.
-  overrides?: Record<number, "skip" | Partial<Match>>;
+  // Correcciones puntuales, por partido ("AAAA-MM-DD local visitante"): "skip" o campos a pisar.
+  overrides?: Record<string, "skip" | Partial<Match>>;
   skip?: (m: RawMatch) => boolean;
   // Diferencias con Wikipedia ya revisadas (texto del problema → explicación). Se explican en las notas.
   wikiErrata?: Record<string, string>;
+  // Nombres que en este torneo corresponden a otro club que en el resto del año (nombre → id).
+  aliases?: Record<string, string>;
   extraMatches?: Partial<Match>[];
 };
 
 const AAFL = "Argentine Association Football League";
+const AAF = "Asociación Argentina de Football";
+const FAF = "Federación Argentina de Football";
+const fafWiki = (y: number) => `Campeonato de Primera División ${y} de la FAF (Argentina)`;
 const AFA_1903 = "Argentine Football Association";
 const wikiTitle = (y: number) => `Campeonato de Primera División ${y} (Argentina)`;
 const rr2 = (teams: number, extra = "") =>
@@ -206,8 +211,8 @@ export const TOURNAMENTS: TournamentConfig[] = [
     skip: (m) => /uruguay|argentin(e|a)\b|argentine fa/i.test(`${m.home} ${m.away}`) && !/quilmes/i.test(`${m.home} ${m.away}`),
     pointAdjustments: [{ teamId: "barracas-athletic", points: -2, reason: "Por incluir a un jugador no habilitado ante San Isidro (resolución del 4 de septiembre)." }],
     overrides: {
-      68: { note: "El 4 de septiembre le descontaron 2 puntos a Barracas Athletic por incluir a un jugador no habilitado en este partido." },
-      70: {
+      "1906-07-01 barracas-athletic san-isidro": { note: "El 4 de septiembre le descontaron 2 puntos a Barracas Athletic por incluir a un jugador no habilitado en este partido." },
+      "1906-07-01 estudiantes-ba san-martin-athletic": {
         note: "El acta se firmó con 2-1, aunque varios medios informaron 2-2. San Martín y el árbitro quisieron corregirla, pero la liga no lo aceptó y el 3 de octubre confirmó el 2-1: se anuló el gol de Minvielle.",
       },
     },
@@ -242,8 +247,8 @@ export const TOURNAMENTS: TournamentConfig[] = [
       { teamId: "estudiantes-ba", points: -2, reason: "Sanción: además de perder el partido con Belgrano Athletic por escritorio." },
     ],
     overrides: {
-      112: { awardedTo: "porteno", note: "San Martín Athletic ganó 3-2 en la cancha, pero después la liga le dio el partido a Porteño y le descontó 2 puntos a San Martín." },
-      331: { awardedTo: "belgrano-athletic", note: "La liga le dio después el partido a Belgrano Athletic y le descontó 2 puntos a Estudiantes." },
+      "1908-05-10 san-martin-athletic porteno": { awardedTo: "porteno", note: "San Martín Athletic ganó 3-2 en la cancha, pero después la liga le dio el partido a Porteño y le descontó 2 puntos a San Martín." },
+      "1908-08-23 estudiantes-ba belgrano-athletic": { awardedTo: "belgrano-athletic", note: "La liga le dio después el partido a Belgrano Athletic y le descontó 2 puntos a Estudiantes." },
     },
     notes: [
       { kind: "formato", text: "Todos contra todos a dos ruedas, 2 puntos por victoria. Empezaron 11 equipos y terminaron 10." },
@@ -293,4 +298,146 @@ export const TOURNAMENTS: TournamentConfig[] = [
       "Último título de Alumni, el décimo de su historia, tras ganarle un desempate a Porteño. Debutó Racing Club. Fue el último torneo con el nombre en inglés de la liga, en medio de la \"fuga\" de clubes que al año siguiente derivó en el primer cisma.",
     notes: [rr2(9), { kind: "puntos", text: "Alumni y Porteño terminaron igualados en el primer puesto y jugaron un desempate." }],
   }),
+
+  // ───────── Primer cisma: Asociación Argentina (AAF, oficial) y Federación Argentina (FAF, disidente) ─────────
+  {
+    slug: "1912",
+    year: 1912,
+    league: "AAF",
+    file: "arg12.html",
+    section: /Asociación Argentina/,
+    wiki: wikiTitle(1912),
+    competition: AAF,
+    organizer: `${AAF} (la entidad oficial, que ese año castellanizó su nombre)`,
+    title: "Campeonato 1912 · Asociación Argentina",
+    tournament: "Copa Campeonato 1912 (Asociación Argentina de Football)",
+    championIds: ["quilmes"],
+    summary:
+      "Quilmes ganó su primer título y, junto con el de Porteño en la Federación, marcó el fin de la hegemonía de los clubes \"ingleses\". Empezaron diez equipos pero terminaron seis: Alumni no se presentó a sus tres primeros partidos y fue desafiliado, y Estudiantes de La Plata, Gimnasia y Esgrima de Buenos Aires y Porteño se fueron a la disidente Federación Argentina de Football.",
+    notes: [
+      { kind: "formato", text: "Todos contra todos a dos ruedas, 2 puntos por victoria. Empezaron 10 equipos y terminaron 6." },
+      { kind: "descalificacion", text: "Alumni no se presentó a sus tres primeros partidos y fue desafiliado; nunca volvió a jugar. Los partidos que le dieron por perdidos se anularon." },
+      {
+        kind: "anulado",
+        text: "El 17 de julio, al desafiliarse Estudiantes de La Plata, Gimnasia y Esgrima de Buenos Aires y Porteño para pasar a la Federación, la Asociación anuló todos los partidos que habían jugado.",
+      },
+      { kind: "dato", text: "Estudiantes (BA)–San Isidro no se jugó: los dos capitanes decidieron no jugar, y el partido figura como no disputado (por eso esos dos equipos tienen 9 partidos)." },
+    ],
+  },
+  {
+    slug: "1912-faf",
+    year: 1912,
+    league: "FAF",
+    file: "arg12.html",
+    section: /Federación Argentina/,
+    wiki: fafWiki(1912),
+    competition: FAF,
+    organizer: `${FAF} (entidad disidente, no reconocida entonces por la FIFA)`,
+    title: "Campeonato 1912 · Federación Argentina",
+    tournament: "Campeonato de Primera División 1912 de la Federación Argentina de Football",
+    championIds: ["porteno"],
+    summary:
+      "Primer torneo de la Federación Argentina de Football, que se jugó en paralelo al de la Asociación. Porteño y Independiente terminaron igualados; el desempate se interrumpió a los 87 minutos porque Independiente abandonó la cancha tras tres expulsiones, y no se presentó a la revancha. Porteño fue campeón por primera vez.",
+    notes: [
+      { kind: "formato", text: "Todos contra todos a dos ruedas entre 8 equipos, 2 puntos por victoria." },
+      {
+        kind: "puntos",
+        text: "Según el reglamento, Independiente era campeón por diferencia de gol, pero como en la última fecha había goleado 5-0 a un Argentino de Quilmes con un equipo diezmado, ofreció jugar un desempate. Ese partido se terminó a los 87 minutos cuando los jugadores de Independiente se retiraron reclamando un gol, después de tres expulsiones. Independiente no se presentó a la revancha del día siguiente y Porteño quedó campeón.",
+      },
+      { kind: "identidad", text: "La Federación se formó con clubes que dejaron la Asociación (Porteño, Estudiantes de La Plata y Gimnasia y Esgrima de Buenos Aires) y equipos promovidos de la división Intermedia." },
+    ],
+  },
+  {
+    slug: "1913",
+    year: 1913,
+    league: "AAF",
+    file: "arg13.html",
+    section: /Asociación Argentina/,
+    wiki: wikiTitle(1913),
+    competition: AAF,
+    organizer: AAF,
+    title: "Campeonato 1913 · Asociación Argentina",
+    tournament: "Copa Campeonato 1913 (Asociación Argentina de Football)",
+    championIds: ["racing"],
+    summary:
+      "Racing ganó su primer título, el comienzo de sus siete campeonatos seguidos, al vencer 2-0 a San Isidro en la final. Como la Asociación sumó muchos equipos nuevos (llegó a 15) y no alcanzaba el tiempo para dos ruedas completas, a mitad de año reorganizó el torneo en grupos. Ese año debutaron Boca Juniors, Platense, Ferro Carril Oeste y Estudiantil Porteño, y se jugó el primer Superclásico oficial (Boca 1-2 River, 24 de agosto).",
+    tableIncludesPlayoffs: true,
+    tableNote: "Tabla combinada no oficial de RSSSF: suma todas las fases, desempate y final.",
+    notes: [
+      {
+        kind: "formato",
+        text: "Estaba previsto a dos ruedas entre 15 equipos, pero por falta de tiempo el 8 de octubre la Asociación lo reorganizó: se mantuvieron los puntos de la primera rueda, los 11 primeros se dividieron en los grupos A y B (con partidos de vuelta solo dentro del grupo) y los últimos cuatro jugaron el Grupo C para evitar el descenso. Los ganadores de los grupos A y B jugaron la final.",
+      },
+      { kind: "puntos", text: "Racing y River empataron el Grupo A y jugaron un desempate (Racing 3-0). En la final, Racing le ganó 2-0 a San Isidro." },
+      { kind: "anulado", text: "Comercio–Banfield (1-1, 5 de octubre) se anuló por la reorganización del torneo." },
+      { kind: "retiro", text: "Belgrano Athletic se retiró del torneo en octubre; sus partidos restantes se dieron por perdidos." },
+      { kind: "descalificacion", text: "Olivos y Riachuelo descendieron desde el Grupo C." },
+    ],
+  },
+  {
+    slug: "1913-faf",
+    year: 1913,
+    league: "FAF",
+    file: "arg13.html",
+    section: /Federación Argentina/,
+    tableIndex: 1,
+    wiki: fafWiki(1913),
+    competition: FAF,
+    organizer: `${FAF} (entidad disidente)`,
+    title: "Campeonato 1913 · Federación Argentina",
+    tournament: "Campeonato de Primera División 1913 de la Federación Argentina de Football",
+    championIds: ["estudiantes"],
+    aliases: { "CA Estudiantes": "estudiantes", "Club Atlético Estudiantes": "estudiantes", Estudiantes: "estudiantes" },
+    overrides: {
+      "1913-07-27 kimberley porteno": {
+        status: "official",
+        venue: "Cancha de Kimberley",
+        note: "El primer partido (en cancha de Argentino de Quilmes) se suspendió a los 75 minutos con 0-0 y se anuló. Este 3-1 es el de la revancha, jugada el 15 de agosto.",
+      },
+      "1913-09-21 sportiva-argentina kimberley": { note: "No se jugó oficialmente: Sportiva Argentina perdió los puntos y el partido se jugó como amistoso (0-4, 60 minutos)." },
+    },
+    summary: "Estudiantes de La Plata ganó su primer título en el segundo torneo de la Federación, con tres puntos de ventaja sobre Gimnasia y Esgrima de Buenos Aires. Debutó Tigre.",
+    notes: [
+      { kind: "formato", text: "Todos contra todos a dos ruedas entre 10 equipos, 2 puntos por victoria." },
+      { kind: "identidad", text: "Hispano Argentino figura en Wikipedia como antecesor del Club Columbian." },
+      { kind: "descalificacion", text: "Sociedad Sportiva Argentina terminó último sin ganar un partido y descendió." },
+      { kind: "fuentes", text: "La tabla de Wikipedia le da a Estudiantes un gol más a favor (64) y a Sportiva Argentina uno más en contra (52): difieren en uno de sus dos partidos. Se usan los resultados de RSSSF, que cierran con su tabla." },
+    ],
+  },
+  {
+    slug: "1914",
+    year: 1914,
+    league: "AAF",
+    file: "arg14.html",
+    section: /Copa Campeonato 1914/,
+    wiki: wikiTitle(1914),
+    competition: AAF,
+    organizer: AAF,
+    title: "Campeonato 1914 · Asociación Argentina",
+    tournament: "Copa Campeonato 1914 (Asociación Argentina de Football)",
+    championIds: ["racing"],
+    summary: "Racing ganó su segundo título seguido con 11 victorias y un empate en 12 partidos. Debutó Huracán. Fue el último torneo del primer cisma: en 1915 las dos ligas se unificaron.",
+    notes: [{ kind: "formato", text: "Todos contra todos a una rueda entre 13 equipos, 2 puntos por victoria." }],
+  },
+  {
+    slug: "1914-faf",
+    year: 1914,
+    league: "FAF",
+    file: "arg14.html",
+    section: /Primera División 1914/,
+    wiki: fafWiki(1914),
+    competition: FAF,
+    organizer: `${FAF} (entidad disidente)`,
+    title: "Campeonato 1914 · Federación Argentina",
+    tournament: "Campeonato de Primera División 1914 de la Federación Argentina de Football",
+    championIds: ["porteno"],
+    aliases: { Estudiantes: "estudiantes" },
+    summary:
+      "Porteño ganó su segundo título, invicto, en el último torneo de la Federación. Empezaron diez equipos y terminaron ocho: Tigre fue expulsado y Argentino de Quilmes perdió la afiliación, y se anularon sus partidos.",
+    withdrawn: ["tigre", "argentino-quilmes"],
+    notes: [
+      { kind: "formato", text: "Todos contra todos a dos ruedas, 2 puntos por victoria. Empezaron 10 equipos y terminaron 8." },
+      { kind: "descalificacion", text: "Tigre fue expulsado después de jugar 14 partidos y Argentino de Quilmes perdió la afiliación después de 7; todos sus partidos se anularon." },
+    ],
+  },
 ];

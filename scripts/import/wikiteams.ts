@@ -4,7 +4,7 @@ import { fetchWiki } from "./wiki";
 
 (async () => {
   for (const y of process.argv.slice(2)) {
-    const t = (await fetchWiki(`Campeonato de Primera División ${y} (Argentina)`)) ?? "";
+    const t = (await fetchWiki(/^\d+$/.test(y) ? `Campeonato de Primera División ${y} (Argentina)` : y)) ?? "";
     const links = new Map<string, string>();
     for (const m of t.matchAll(/\[\[([^\]|#]+)(?:\|([^\]]+))?\]\]/g)) {
       const article = m[1].trim();

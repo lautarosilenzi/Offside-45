@@ -5,7 +5,7 @@ import { mkdirSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type { Match, Season, TableRow } from "../../lib/types";
 import { computeTable, rawTableDiffs, verifySeason } from "../../lib/seasons";
-import { resolveName } from "./aliases";
+import { resolveName, setLocalAliases } from "./aliases";
 import { TOURNAMENTS, type TournamentConfig } from "./config";
 import { fetchPage, parseSeason, type RawMatch, type RawSection } from "./rsssf-parse";
 import { compareWithWikipedia } from "./wiki";
@@ -31,7 +31,7 @@ function parseDate(raw: string, year: number, prevMonth: number): { iso: string;
 export function translateNote(
   note: string,
   year: number,
-): { venue?: string; text: string[]; annulled: boolean; unknown: string[]; continuedOn?: string; suspended?: boolean } {
+): { venue?: string; text: string[]; annulled: boolean; unknown: string[]; continuedOn?: string; suspended?: boolean; replayed?: boolean } {
   const out = {
     venue: undefined as string | undefined,
     text: [] as string[],
@@ -39,6 +39,7 @@ export function translateNote(
     unknown: [] as string[],
     continuedOn: undefined as string | undefined,
     suspended: false,
+    replayed: false,
   };
   const parts = note
     .replace(/^\[|\]$/g, "")
@@ -57,8 +58,16 @@ export function translateNote(
     else if (/^annulled$/i.test(p)) out.annulled = true;
     else if ((m = p.match(/^(?:suspended|abandoned) at (\d+)'?(?:m)?$/i))) out.text.push(`Suspendido a los ${m[1]} minutos.`);
     else if ((m = p.match(/^continued (?:on )?(.+)$/i))) out.continuedOn = m[1];
+    else if ((m = p.match(/^(?:played again|replayed) (?:on )?(.+)$/i))) {
+      out.continuedOn = m[1];
+      out.replayed = true;
+    } else if ((m = p.match(/^suspended in (\d+)'?$/i))) out.text.push(`Suspendido a los ${m[1]} minutos.`);
     else if (/^suspended$/i.test(p)) out.suspended = true;
-    else if ((m = p.match(/^(.+?) withdrew(?:, see .+)?$/i))) {
+    else if ((m = p.match(/^(.+?) withdrew and the match was annulled$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`${club ? club.as ?? club.name : m[1]} se retiró del torneo.`);
+      out.annulled = true;
+    } else if ((m = p.match(/^(.+?) withdrew(?:, see [^,]+)?$/i))) {
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} no se presentó.`);
     } else if (/^annulled, see .+$/i.test(p)) out.annulled = true;
@@ -72,6 +81,29 @@ export function translateNote(
     else if (/^[A-ZÁÉÍÓÚ][\wáéíóúñ.'-]*(?: (?:de |del |la )?[A-ZÁÉÍÓÚ][\wáéíóúñ.'-]*){0,3}$/.test(p)) out.venue = p;
     else if (/^(neutral|neutral ground)$/i.test(p)) out.text.push("Cancha neutral.");
     else if ((m = p.match(/^([A-ZÁÉÍÓÚa-záéíóúñ .'-]+), ([BC])$/))) out.venue = `${m[1]} (${m[2] === "C" ? "Capital" : "Bs. As."})`;
+    else if ((m = p.match(/^(.+), ([^,]+), ([BC])$/))) {
+      // "Racing, Avellaneda, B": cancha de un club y localidad.
+      const club = resolveName(m[1].replace(/^FC Oeste$/, "Ferro Carril Oeste"), year);
+      out.venue = `Cancha de ${club ? club.as ?? club.name : m[1]} (${m[2]})`;
+    } else if ((m = p.match(/^(.+?) reported (\d+)\s*:\s*(\d+)$/i))) out.text.push(`${m[1]} publicó ${m[2]}-${m[3]}.`);
+    else if ((m = p.match(/^(.+?) (?:did not show up|dont show up|don't show up)$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`${club ? club.as ?? club.name : m[1]} no se presentó.`);
+    } else if ((m = p.match(/^(.+?) (?:withdrew championship|withdrew from the championship)$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`${club ? club.as ?? club.name : m[1]} se había retirado del torneo.`);
+    } else if ((m = p.match(/^(.+?) gave up points(?: on (.+?))?\.?$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`${club ? club.as ?? club.name : m[1]} cedió los puntos.`);
+    } else if ((m = p.match(/^awarded on (.+)$/i))) out.text.push(`Resuelto por la liga (${m[1]}).`);
+    else if ((m = p.match(/^originally (\d+)\s*:\s*(\d+)$/i))) out.text.push(`En la cancha había terminado ${m[1]}-${m[2]}.`);
+    else if ((m = p.match(/^(?:played )?friendly (\d+)\s*:\s*(\d+)$/i))) out.text.push(`Se jugó como amistoso (${m[1]}-${m[2]}); los puntos se definieron por escritorio.`);
+    else if ((m = p.match(/^(.+?) forfeited the match$/i))) out.text.push(`${m[1].replace(/^SS /, "Sportiva ")} perdió los puntos.`);
+    else if ((m = p.match(/^abandoned (\d+)\s*:\s*(\d+) (\d+)m$/i))) out.text.push(`El primer partido se suspendió a los ${m[3]} minutos con ${m[1]}-${m[2]} y se anuló; este es el resultado del partido jugado de nuevo.`);
+    else if ((m = p.match(/^replayed on (.+)$/i))) out.text.push(`Se volvió a jugar el ${m[1]}.`);
+    else if ((m = p.match(/^abandoned at (\d+)m? HT, score stood$/i))) out.text.push(`Suspendido en el entretiempo; la liga dio por bueno el resultado.`);
+    else if ((m = p.match(/^(?:abandoned|suspended) at (\d+)\s*:\s*(\d+) in (\d+)m?, remaining (\d+) on (.+)$/i)))
+      out.text.push(`Suspendido a los ${m[3]} minutos con ${m[1]}-${m[2]}; los ${m[4]} minutos restantes se jugaron el ${m[5]}.`);
     else out.unknown.push(p);
   }
   return out;
@@ -83,6 +115,10 @@ function stageOf(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
   if (n) return { stage: `Fecha ${n[1]}`, phase: "league" };
   const grp = r.match(/group\s+([a-z])\b/i);
   if (grp && !/playoff|final|winner/i.test(r)) return { stage: `Grupo ${grp[1].toUpperCase()}`, phase: "league" };
+  if (/(1st|first) half season/i.test(r)) return { stage: "Primera rueda", phase: "league" };
+  if (/(2nd|second) half season/i.test(r)) return { stage: "Segunda rueda", phase: "league" };
+  if (/group ([a-z]) winner playoff/i.test(r)) return { stage: `Desempate del Grupo ${r.match(/group ([a-z])/i)![1].toUpperCase()}`, phase: "playoff" };
+  if (/championship final/i.test(r)) return { stage: "Final", phase: "playoff" };
   if (/third playoff/i.test(r)) return { stage: "Tercer desempate", phase: "playoff" };
   if (/second playoff/i.test(r)) return { stage: "Segundo desempate", phase: "playoff" };
   if (/playoff|play-off|replay/i.test(r)) return { stage: "Desempate", phase: "playoff" };
@@ -102,11 +138,11 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   let prevMonth = 0;
   let n = 0;
   const unknownNames = new Set<string>();
-  const suspendedParts: { m: Match; continuedOn: string }[] = [];
+  const suspendedParts: { m: Match; continuedOn: string; replayed?: boolean }[] = [];
+  const usedOverrides = new Set<string>();
 
   for (const raw of section.matches) {
-    const ov = cfg.overrides?.[raw.line];
-    if (ov === "skip" || cfg.skip?.(raw)) continue;
+    if (cfg.skip?.(raw) || raw.round === "friendly") continue;
     const home = resolveName(raw.home, cfg.year);
     const away = resolveName(raw.away, cfg.year);
     if (!home) unknownNames.add(raw.home);
@@ -119,6 +155,10 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       continue;
     }
     prevMonth = d.month;
+    const ovKey = `${d.iso} ${home.id} ${away.id}`;
+    const ov = cfg.overrides?.[ovKey];
+    if (ov) usedOverrides.add(ovKey);
+    if (ov === "skip") continue;
     const note = translateNote(raw.note, cfg.year);
     if (note.unknown.length && !ov?.note) warnings.push(`L${raw.line} ${raw.home}-${raw.away}: nota sin traducir: ${note.unknown.join(" | ")}`);
 
@@ -165,8 +205,29 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       if (s[0] === "w") m.winnerId = home.id;
       if (s[0] === "l") m.winnerId = away.id;
       note.text.unshift("Resultado no registrado en los diarios de la época; solo se sabe cómo terminó.");
+    } else if (s === "abd" && (g = raw.note.match(/(?:abandoned|abd) at (\d+)\s*[:\-]\s*(\d+)(?: in (\d+))?/i))) {
+      // Suspendido: si la liga dio por bueno el resultado ("score stood") cuenta; si no, se muestra pero no suma.
+      m.homeGoals = +g[1];
+      m.awayGoals = +g[2];
+      const stood = /score (?:indirectly )?stood/i.test(raw.note);
+      note.unknown = note.unknown.filter((u) => !/abandoned|abd at|score stood|show up/i.test(u));
+      note.text = note.text.filter((t) => !/^Suspendido/.test(t));
+      if (stood) note.text.unshift(`Suspendido${g[3] ? ` a los ${g[3]} minutos` : ""} con ${g[1]}-${g[2]}; la liga dio por bueno ese resultado.`);
+      else {
+        m.status = "annulled";
+        note.text.unshift(`Suspendido${g[3] ? ` a los ${g[3]} minutos` : ""} con ${g[1]}-${g[2]} y no se completó: no suma.`);
+      }
+    } else if (/^(ann|void)$/.test(s)) {
+      // "ann" sin resultado: anula el partido de ese cruce que ya figuraba antes en la lista.
+      const prev = [...matches].reverse().find((x) => x.homeId === home.id && x.awayId === away.id && x.status !== "annulled");
+      if (prev) {
+        prev.status = "annulled";
+        const when = `${Number(d.iso.slice(8))}/${Number(d.iso.slice(5, 7))}`;
+        prev.note = [`Anulado el ${when}: no suma en la tabla.`, prev.note].filter(Boolean).join(" ");
+      } else warnings.push(`L${raw.line} ${raw.home}-${raw.away}: "${raw.score}" sin partido previo que anular`);
+      continue;
     } else {
-      // "ann", "void", "abd", ":"… no es un partido con resultado: lo decide la configuración.
+      // "abd", ":", "n/p"… no es un partido con resultado: lo decide la configuración.
       warnings.push(`L${raw.line} ${raw.home}-${raw.away}: sin resultado ("${raw.score}") ${raw.note} → omitido`);
       continue;
     }
@@ -179,16 +240,20 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     if (ov) Object.assign(m, ov);
     // Suspendido y completado otro día: RSSSF lo lista dos veces; vale la segunda aparición.
     if (note.continuedOn) {
-      suspendedParts.push({ m, continuedOn: note.continuedOn });
+      suspendedParts.push({ m, continuedOn: note.continuedOn, replayed: note.replayed });
       continue;
     }
     matches.push(m);
   }
-  for (const { m: part, continuedOn } of suspendedParts) {
+  for (const { m: part, continuedOn, replayed } of suspendedParts) {
     const rest = matches.find((x) => x.homeId === part.homeId && x.awayId === part.awayId && x.date > part.date);
     const partial = `${part.homeGoals}-${part.awayGoals}`;
+    const day = part.date.split("-").reverse().slice(0, 2).map(Number).join("/");
     if (rest) {
-      rest.note = [`Empezó el ${part.date.split("-").reverse().slice(0, 2).join("/")} y se suspendió con ${partial}; se completó en esta fecha.`, rest.note]
+      const what = replayed
+        ? `El partido original (${day}) se suspendió con ${partial} y se volvió a jugar en esta fecha.`
+        : `Empezó el ${day} y se suspendió con ${partial}; se completó en esta fecha.`;
+      rest.note = [what, rest.note]
         .filter(Boolean)
         .join(" ");
     } else {
@@ -201,6 +266,8 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   for (const extra of cfg.extraMatches ?? []) matches.push({ sources: ["rsssf"], competition: cfg.competition, ...extra } as Match);
 
   if (unknownNames.size) problems.push(`Nombres sin identificar: ${[...unknownNames].join(", ")}`);
+  const unusedOverrides = Object.keys(cfg.overrides ?? {}).filter((k) => !usedOverrides.has(k));
+  if (unusedOverrides.length) problems.push(`Correcciones que no encontraron su partido: ${unusedOverrides.join(", ")}`);
 
   const rawTable = section.tables[cfg.tableIndex ?? 0] ?? [];
   const publishedTable: TableRow[] = [];
@@ -277,7 +344,9 @@ async function main() {
   mkdirSync(OUT, { recursive: true });
   let failed = 0;
   for (const cfg of list) {
+    setLocalAliases(cfg.aliases);
     const { season, problems, warnings } = await buildTournament(cfg);
+    setLocalAliases(undefined);
     const table = computeTable(season);
     console.log(`\n=== ${cfg.slug}: ${season.matches.length} partidos, ${table.length} equipos`);
     for (const w of warnings) console.log(`  · ${w}`);

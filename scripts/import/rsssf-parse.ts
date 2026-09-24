@@ -75,7 +75,12 @@ function splitAway(rest: string): { away: string; note: string } {
   return { away: parts[0].trim(), note: parts.slice(1).join(" ").trim() };
 }
 
-export function parseSeason(html: string): RawSection[] {
+export function parseSeason(source: string): RawSection[] {
+  // Los títulos de sección a veces ocupan varias líneas: se aplanan a una sola.
+  const html = source.replace(
+    /<h([2-4])([^>]*)>([\s\S]*?)<\/h\1>/gi,
+    (_, n, attrs, c) => `\n<h${n}${attrs}>${c.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim()}</h${n}>\n`,
+  );
   // Aseguramos saltos de línea en encabezados y bloques, y sacamos solo etiquetas reales.
   const text = decode(
     html
@@ -105,6 +110,8 @@ export function parseSeason(html: string): RawSection[] {
       cur = { heading: trimmed.replace(/\s+/g, " "), tables: [], matches: [], text: [] };
       sections.push(cur);
       table = null;
+      round = undefined;
+      date = "";
       return;
     }
     const t = line.match(TABLE_RE);
@@ -144,6 +151,12 @@ export function parseSeason(html: string): RawSection[] {
       return;
     }
     // Subtítulos cortos de fase: "Playoff", "Second playoff", "Championship Final", "Group A"...
+    // Listas de partidos que no fueron oficiales ("Originally official matches but played friendly:").
+    if (/friendl/i.test(trimmed) && trimmed.endsWith(":") && trimmed.length < 80) {
+      round = "friendly";
+      cur.text.push(trimmed);
+      return;
+    }
     const stage = trimmed.match(/^([A-Za-z ]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season)[A-Za-z ]*):?\s*(?:\[(.+)\])?\s*:?$/i);
     if (stage && trimmed.length < 60 && !/table|standings|position/i.test(trimmed)) {
       round = stage[1].trim();

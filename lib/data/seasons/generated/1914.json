@@ -1,0 +1,1308 @@
+{
+ "slug": "1914",
+ "year": 1914,
+ "league": "AAF",
+ "title": "Campeonato 1914 · Asociación Argentina",
+ "tournament": "Copa Campeonato 1914 (Asociación Argentina de Football)",
+ "organizer": "Asociación Argentina de Football",
+ "championIds": [
+  "racing"
+ ],
+ "summary": "Racing ganó su segundo título seguido con 11 victorias y un empate en 12 partidos. Debutó Huracán. Fue el último torneo del primer cisma: en 1915 las dos ligas se unificaron.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1914",
+   "url": "https://www.rsssf.org/tablesa/arg14.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1914 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1914_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a una rueda entre 13 equipos, 2 puntos por victoria."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "racing",
+   "played": 12,
+   "won": 11,
+   "drawn": 1,
+   "lost": 0,
+   "goalsFor": 42,
+   "goalsAgainst": 7,
+   "points": 23
+  },
+  {
+   "teamId": "estudiantes-ba",
+   "played": 12,
+   "won": 10,
+   "drawn": 1,
+   "lost": 1,
+   "goalsFor": 34,
+   "goalsAgainst": 12,
+   "points": 21
+  },
+  {
+   "teamId": "boca",
+   "played": 12,
+   "won": 5,
+   "drawn": 5,
+   "lost": 2,
+   "goalsFor": 19,
+   "goalsAgainst": 11,
+   "points": 15
+  },
+  {
+   "teamId": "banfield",
+   "played": 12,
+   "won": 7,
+   "drawn": 1,
+   "lost": 4,
+   "goalsFor": 16,
+   "goalsAgainst": 17,
+   "points": 15
+  },
+  {
+   "teamId": "river",
+   "played": 12,
+   "won": 6,
+   "drawn": 2,
+   "lost": 4,
+   "goalsFor": 15,
+   "goalsAgainst": 12,
+   "points": 14
+  },
+  {
+   "teamId": "huracan",
+   "played": 12,
+   "won": 4,
+   "drawn": 3,
+   "lost": 5,
+   "goalsFor": 25,
+   "goalsAgainst": 22,
+   "points": 11
+  },
+  {
+   "teamId": "platense",
+   "played": 12,
+   "won": 4,
+   "drawn": 2,
+   "lost": 6,
+   "goalsFor": 14,
+   "goalsAgainst": 17,
+   "points": 10
+  },
+  {
+   "teamId": "san-isidro",
+   "played": 12,
+   "won": 2,
+   "drawn": 6,
+   "lost": 4,
+   "goalsFor": 10,
+   "goalsAgainst": 16,
+   "points": 10
+  },
+  {
+   "teamId": "estudiantil-porteno",
+   "played": 12,
+   "won": 3,
+   "drawn": 4,
+   "lost": 5,
+   "goalsFor": 14,
+   "goalsAgainst": 23,
+   "points": 10
+  },
+  {
+   "teamId": "quilmes",
+   "played": 12,
+   "won": 4,
+   "drawn": 2,
+   "lost": 6,
+   "goalsFor": 14,
+   "goalsAgainst": 24,
+   "points": 10
+  },
+  {
+   "teamId": "belgrano-athletic",
+   "played": 12,
+   "won": 1,
+   "drawn": 6,
+   "lost": 5,
+   "goalsFor": 14,
+   "goalsAgainst": 20,
+   "points": 8
+  },
+  {
+   "teamId": "ferro",
+   "played": 12,
+   "won": 2,
+   "drawn": 2,
+   "lost": 8,
+   "goalsFor": 17,
+   "goalsAgainst": 30,
+   "points": 6
+  },
+  {
+   "teamId": "comercio",
+   "played": 12,
+   "won": 0,
+   "drawn": 3,
+   "lost": 9,
+   "goalsFor": 13,
+   "goalsAgainst": 36,
+   "points": 3
+  }
+ ],
+ "matches": [
+  {
+   "id": "1914-001",
+   "date": "1914-03-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-002",
+   "date": "1914-03-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-003",
+   "date": "1914-03-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "ferrocarril-sud",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "1914-004",
+   "date": "1914-03-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-005",
+   "date": "1914-04-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Martín, Lanata, Isola."
+  },
+  {
+   "id": "1914-006",
+   "date": "1914-04-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferrocarril-sud",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Goles: López / Bertolini (2), Abbatángelo, Taggino."
+  },
+  {
+   "id": "1914-007",
+   "date": "1914-04-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 10,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-008",
+   "date": "1914-04-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-009",
+   "date": "1914-04-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "ferro",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-010",
+   "date": "1914-04-12",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-011",
+   "date": "1914-04-12",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pieretti / P.Martínez."
+  },
+  {
+   "id": "1914-012",
+   "date": "1914-04-12",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Betular, Ohaco, J.Perinetti, Marcovecchio / Santos."
+  },
+  {
+   "id": "1914-013",
+   "date": "1914-04-12",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-014",
+   "date": "1914-04-12",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "ferrocarril-sud",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "1914-015",
+   "date": "1914-04-12",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "comercio",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-016",
+   "date": "1914-05-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-017",
+   "date": "1914-05-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-018",
+   "date": "1914-05-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferrocarril-sud",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "1914-019",
+   "date": "1914-05-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "huracan",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-020",
+   "date": "1914-05-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-021",
+   "date": "1914-05-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-022",
+   "date": "1914-05-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-023",
+   "date": "1914-05-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Deandreis / Abbatángelo, J.Garibaldi, Taggino."
+  },
+  {
+   "id": "1914-024",
+   "date": "1914-05-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-025",
+   "date": "1914-05-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Penney."
+  },
+  {
+   "id": "1914-026",
+   "date": "1914-05-21",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-027",
+   "date": "1914-05-21",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Marcovecchio (3), Ohaco (2)."
+  },
+  {
+   "id": "1914-028",
+   "date": "1914-05-21",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferrocarril-sud",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "1914-030",
+   "date": "1914-05-24",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-031",
+   "date": "1914-05-24",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-032",
+   "date": "1914-05-24",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-033",
+   "date": "1914-05-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-034",
+   "date": "1914-05-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-035",
+   "date": "1914-06-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-036",
+   "date": "1914-06-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferrocarril-sud",
+   "awayId": "comercio",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "1914-037",
+   "date": "1914-06-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-038",
+   "date": "1914-06-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "quilmes",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Cotero (2), Abbatángelo (2), Lamelas, Pieralini, Taggino."
+  },
+  {
+   "id": "1914-039",
+   "date": "1914-06-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-040",
+   "date": "1914-06-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-041",
+   "date": "1914-07-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: E.Garibaldi (2), F.Garibaldi."
+  },
+  {
+   "id": "1914-042",
+   "date": "1914-07-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "ferrocarril-sud",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "1914-043",
+   "date": "1914-07-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "comercio",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-044",
+   "date": "1914-07-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "platense",
+   "homeGoals": 7,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-045",
+   "date": "1914-07-26",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-046",
+   "date": "1914-07-26",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-047",
+   "date": "1914-08-02",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bertolini / Querido."
+  },
+  {
+   "id": "1914-048",
+   "date": "1914-08-02",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-049",
+   "date": "1914-08-02",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-050",
+   "date": "1914-08-02",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-051",
+   "date": "1914-08-02",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ohaco (2), J.Perinetti."
+  },
+  {
+   "id": "1914-052",
+   "date": "1914-08-02",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-054",
+   "date": "1914-08-09",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-055",
+   "date": "1914-08-09",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "El partido original (21/5) se suspendió con 0-0 y se volvió a jugar en esta fecha. Goles: Laguna / Bertolini, Abbatángelo."
+  },
+  {
+   "id": "1914-056",
+   "date": "1914-08-09",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "comercio",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-057",
+   "date": "1914-08-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-058",
+   "date": "1914-08-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ohaco (4), Canaveri."
+  },
+  {
+   "id": "1914-059",
+   "date": "1914-08-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-060",
+   "date": "1914-08-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-061",
+   "date": "1914-08-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-062",
+   "date": "1914-08-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-063",
+   "date": "1914-08-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-064",
+   "date": "1914-08-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-065",
+   "date": "1914-08-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "comercio",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-066",
+   "date": "1914-09-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: J.Perinetti (2)."
+  },
+  {
+   "id": "1914-067",
+   "date": "1914-09-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-068",
+   "date": "1914-09-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Vignoles / J.Garibaldi."
+  },
+  {
+   "id": "1914-069",
+   "date": "1914-09-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "san-isidro",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-070",
+   "date": "1914-09-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-071",
+   "date": "1914-09-20",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-072",
+   "date": "1914-09-20",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-073",
+   "date": "1914-09-20",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-074",
+   "date": "1914-10-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-075",
+   "date": "1914-10-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-076",
+   "date": "1914-10-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Marini."
+  },
+  {
+   "id": "1914-077",
+   "date": "1914-10-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-078",
+   "date": "1914-10-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ohaco (2), Hospital."
+  },
+  {
+   "id": "1914-079",
+   "date": "1914-10-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-080",
+   "date": "1914-10-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "comercio",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-081",
+   "date": "1914-10-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-082",
+   "date": "1914-10-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "El partido original (9/8) se suspendió con 0-0 y se volvió a jugar en esta fecha. Goles: Ohaco, Curutchague."
+  },
+  {
+   "id": "1914-083",
+   "date": "1914-10-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-084",
+   "date": "1914-10-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "comercio",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: F.Taggino."
+  },
+  {
+   "id": "1914-085",
+   "date": "1914-10-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-086",
+   "date": "1914-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 6,
+   "venue": "Cancha de Estudiantes (BA)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1914-087",
+   "date": "1914-11-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

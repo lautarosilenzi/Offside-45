@@ -1,0 +1,1021 @@
+{
+ "slug": "1912-faf",
+ "year": 1912,
+ "league": "FAF",
+ "title": "Campeonato 1912 · Federación Argentina",
+ "tournament": "Campeonato de Primera División 1912 de la Federación Argentina de Football",
+ "organizer": "Federación Argentina de Football (entidad disidente, no reconocida entonces por la FIFA)",
+ "championIds": [
+  "porteno"
+ ],
+ "summary": "Primer torneo de la Federación Argentina de Football, que se jugó en paralelo al de la Asociación. Porteño y Independiente terminaron igualados; el desempate se interrumpió a los 87 minutos porque Independiente abandonó la cancha tras tres expulsiones, y no se presentó a la revancha. Porteño fue campeón por primera vez.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1912",
+   "url": "https://www.rsssf.org/tablesa/arg12.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1912 de la FAF (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1912_de_la_FAF_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a dos ruedas entre 8 equipos, 2 puntos por victoria."
+  },
+  {
+   "kind": "puntos",
+   "text": "Según el reglamento, Independiente era campeón por diferencia de gol, pero como en la última fecha había goleado 5-0 a un Argentino de Quilmes con un equipo diezmado, ofreció jugar un desempate. Ese partido se terminó a los 87 minutos cuando los jugadores de Independiente se retiraron reclamando un gol, después de tres expulsiones. Independiente no se presentó a la revancha del día siguiente y Porteño quedó campeón."
+  },
+  {
+   "kind": "identidad",
+   "text": "La Federación se formó con clubes que dejaron la Asociación (Porteño, Estudiantes de La Plata y Gimnasia y Esgrima de Buenos Aires) y equipos promovidos de la división Intermedia."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "independiente",
+   "played": 14,
+   "won": 9,
+   "drawn": 2,
+   "lost": 3,
+   "goalsFor": 33,
+   "goalsAgainst": 12,
+   "points": 20
+  },
+  {
+   "teamId": "porteno",
+   "played": 14,
+   "won": 8,
+   "drawn": 4,
+   "lost": 2,
+   "goalsFor": 24,
+   "goalsAgainst": 10,
+   "points": 20
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 14,
+   "won": 8,
+   "drawn": 3,
+   "lost": 3,
+   "goalsFor": 23,
+   "goalsAgainst": 14,
+   "points": 19
+  },
+  {
+   "teamId": "gimnasia-ba",
+   "played": 14,
+   "won": 7,
+   "drawn": 4,
+   "lost": 3,
+   "goalsFor": 26,
+   "goalsAgainst": 18,
+   "points": 18
+  },
+  {
+   "teamId": "argentino-quilmes",
+   "played": 14,
+   "won": 7,
+   "drawn": 3,
+   "lost": 4,
+   "goalsFor": 34,
+   "goalsAgainst": 27,
+   "points": 17
+  },
+  {
+   "teamId": "atlanta",
+   "played": 14,
+   "won": 6,
+   "drawn": 0,
+   "lost": 8,
+   "goalsFor": 24,
+   "goalsAgainst": 28,
+   "points": 12
+  },
+  {
+   "teamId": "kimberley",
+   "played": 14,
+   "won": 2,
+   "drawn": 2,
+   "lost": 10,
+   "goalsFor": 17,
+   "goalsAgainst": 48,
+   "points": 6
+  },
+  {
+   "teamId": "sportiva-argentina",
+   "played": 14,
+   "won": 0,
+   "drawn": 0,
+   "lost": 14,
+   "goalsFor": 6,
+   "goalsAgainst": 30,
+   "points": 0
+  }
+ ],
+ "matches": [
+  {
+   "id": "1912-faf-001",
+   "date": "1912-07-14",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-002",
+   "date": "1912-07-14",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-003",
+   "date": "1912-07-14",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "kimberley",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-004",
+   "date": "1912-07-21",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-005",
+   "date": "1912-07-21",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-006",
+   "date": "1912-07-21",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-007",
+   "date": "1912-07-21",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Argentino de Quilmes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-008",
+   "date": "1912-07-28",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Estudiantes (LP)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-009",
+   "date": "1912-07-28",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-010",
+   "date": "1912-07-28",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-011",
+   "date": "1912-07-28",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "kimberley",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1912-faf-012",
+   "date": "1912-08-04",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1912-faf-013",
+   "date": "1912-08-04",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1912-faf-014",
+   "date": "1912-08-04",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 6,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-015",
+   "date": "1912-08-04",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-016",
+   "date": "1912-08-15",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-017",
+   "date": "1912-08-15",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-018",
+   "date": "1912-08-15",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "venue": "Cancha de Sportiva Argentina",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1912-faf-019",
+   "date": "1912-08-15",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "kimberley",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-020",
+   "date": "1912-08-18",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-021",
+   "date": "1912-08-18",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-022",
+   "date": "1912-08-25",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-023",
+   "date": "1912-08-25",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportiva Argentina",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-024",
+   "date": "1912-08-25",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-025",
+   "date": "1912-08-25",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-026",
+   "date": "1912-08-30",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-027",
+   "date": "1912-08-30",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-028",
+   "date": "1912-08-30",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 7,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-029",
+   "date": "1912-08-30",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "porteno",
+   "note": "No se jugó: los puntos fueron para Porteño. Sportiva Argentina no se presentó."
+  },
+  {
+   "id": "1912-faf-030",
+   "date": "1912-09-29",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-031",
+   "date": "1912-09-29",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-032",
+   "date": "1912-09-29",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportiva Argentina",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-033",
+   "date": "1912-09-29",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "kimberley",
+   "homeGoals": 7,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1912-faf-034",
+   "date": "1912-10-06",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-035",
+   "date": "1912-10-06",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-036",
+   "date": "1912-10-06",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-037",
+   "date": "1912-10-13",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "kimberley",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-038",
+   "date": "1912-10-13",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-039",
+   "date": "1912-10-13",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "argentino-quilmes",
+   "note": "No se jugó: los puntos fueron para Argentino de Quilmes. Sportiva Argentina no se presentó."
+  },
+  {
+   "id": "1912-faf-040",
+   "date": "1912-10-20",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "kimberley",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-041",
+   "date": "1912-10-27",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-042",
+   "date": "1912-10-27",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-043",
+   "date": "1912-10-27",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-044",
+   "date": "1912-11-01",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-045",
+   "date": "1912-11-01",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-046",
+   "date": "1912-11-01",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "kimberley",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "kimberley",
+   "note": "No se jugó: los puntos fueron para Kimberley. Sportiva Argentina no se presentó."
+  },
+  {
+   "id": "1912-faf-047",
+   "date": "1912-11-01",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-048",
+   "date": "1912-11-01",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "independiente",
+   "note": "No se jugó: los puntos fueron para Independiente."
+  },
+  {
+   "id": "1912-faf-049",
+   "date": "1912-11-01",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "gimnasia-ba",
+   "note": "No se jugó: los puntos fueron para Gimnasia y Esgrima (BA)."
+  },
+  {
+   "id": "1912-faf-050",
+   "date": "1912-11-01",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "porteno",
+   "note": "No se jugó: los puntos fueron para Porteño."
+  },
+  {
+   "id": "1912-faf-051",
+   "date": "1912-11-03",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "gimnasia-ba",
+   "note": "No se jugó: los puntos fueron para Gimnasia y Esgrima (BA)."
+  },
+  {
+   "id": "1912-faf-052",
+   "date": "1912-11-10",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-053",
+   "date": "1912-11-17",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-054",
+   "date": "1912-11-17",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-055",
+   "date": "1912-12-01",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-056",
+   "date": "1912-12-08",
+   "competition": "Federación Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1912-faf-057",
+   "date": "1912-12-22",
+   "competition": "Federación Argentina de Football",
+   "stage": "Desempate",
+   "phase": "playoff",
+   "homeId": "porteno",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Suspendido a los 87 minutos con 1-1 y no se completó: no suma. Goles: P. Rithner / Lloveras."
+  },
+  {
+   "id": "1912-faf-058",
+   "date": "1912-12-23",
+   "competition": "Federación Argentina de Football",
+   "stage": "Desempate",
+   "phase": "playoff",
+   "homeId": "porteno",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "porteno",
+   "note": "No se jugó: los puntos fueron para Porteño. Resuelto por la liga."
+  }
+ ]
+}

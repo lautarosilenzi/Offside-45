@@ -1,0 +1,1362 @@
+{
+ "slug": "1913-faf",
+ "year": 1913,
+ "league": "FAF",
+ "title": "Campeonato 1913 · Federación Argentina",
+ "tournament": "Campeonato de Primera División 1913 de la Federación Argentina de Football",
+ "organizer": "Federación Argentina de Football (entidad disidente)",
+ "championIds": [
+  "estudiantes"
+ ],
+ "summary": "Estudiantes de La Plata ganó su primer título en el segundo torneo de la Federación, con tres puntos de ventaja sobre Gimnasia y Esgrima de Buenos Aires. Debutó Tigre.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1913",
+   "url": "https://www.rsssf.org/tablesa/arg13.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1913 de la FAF (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1913_de_la_FAF_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a dos ruedas entre 10 equipos, 2 puntos por victoria."
+  },
+  {
+   "kind": "identidad",
+   "text": "Hispano Argentino figura en Wikipedia como antecesor del Club Columbian."
+  },
+  {
+   "kind": "descalificacion",
+   "text": "Sociedad Sportiva Argentina terminó último sin ganar un partido y descendió."
+  },
+  {
+   "kind": "fuentes",
+   "text": "La tabla de Wikipedia le da a Estudiantes un gol más a favor (64) y a Sportiva Argentina uno más en contra (52): difieren en uno de sus dos partidos. Se usan los resultados de RSSSF, que cierran con su tabla."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "estudiantes",
+   "played": 18,
+   "won": 14,
+   "drawn": 3,
+   "lost": 1,
+   "goalsFor": 63,
+   "goalsAgainst": 16,
+   "points": 31
+  },
+  {
+   "teamId": "gimnasia-ba",
+   "played": 18,
+   "won": 11,
+   "drawn": 6,
+   "lost": 1,
+   "goalsFor": 46,
+   "goalsAgainst": 19,
+   "points": 28
+  },
+  {
+   "teamId": "argentino-quilmes",
+   "played": 18,
+   "won": 12,
+   "drawn": 3,
+   "lost": 3,
+   "goalsFor": 38,
+   "goalsAgainst": 21,
+   "points": 27
+  },
+  {
+   "teamId": "kimberley",
+   "played": 18,
+   "won": 9,
+   "drawn": 3,
+   "lost": 6,
+   "goalsFor": 34,
+   "goalsAgainst": 31,
+   "points": 21
+  },
+  {
+   "teamId": "independiente",
+   "played": 18,
+   "won": 7,
+   "drawn": 5,
+   "lost": 6,
+   "goalsFor": 39,
+   "goalsAgainst": 33,
+   "points": 19
+  },
+  {
+   "teamId": "columbian",
+   "played": 18,
+   "won": 8,
+   "drawn": 1,
+   "lost": 9,
+   "goalsFor": 21,
+   "goalsAgainst": 40,
+   "points": 17
+  },
+  {
+   "teamId": "tigre",
+   "played": 18,
+   "won": 6,
+   "drawn": 3,
+   "lost": 9,
+   "goalsFor": 23,
+   "goalsAgainst": 38,
+   "points": 15
+  },
+  {
+   "teamId": "porteno",
+   "played": 18,
+   "won": 4,
+   "drawn": 4,
+   "lost": 10,
+   "goalsFor": 26,
+   "goalsAgainst": 32,
+   "points": 12
+  },
+  {
+   "teamId": "atlanta",
+   "played": 18,
+   "won": 3,
+   "drawn": 2,
+   "lost": 13,
+   "goalsFor": 33,
+   "goalsAgainst": 57,
+   "points": 8
+  },
+  {
+   "teamId": "sportiva-argentina",
+   "played": 18,
+   "won": 0,
+   "drawn": 2,
+   "lost": 16,
+   "goalsFor": 15,
+   "goalsAgainst": 51,
+   "points": 2
+  }
+ ],
+ "matches": [
+  {
+   "id": "1913-faf-001",
+   "date": "1913-05-01",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "kimberley",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-002",
+   "date": "1913-05-01",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-003",
+   "date": "1913-05-01",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Independiente (Avellaneda)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-004",
+   "date": "1913-05-01",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-005",
+   "date": "1913-05-01",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-006",
+   "date": "1913-05-11",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "kimberley",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-007",
+   "date": "1913-05-11",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-008",
+   "date": "1913-05-11",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Gimnasia y Esgrima (Palermo)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-009",
+   "date": "1913-05-11",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "gimnasia-ba",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-010",
+   "date": "1913-05-11",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-011",
+   "date": "1913-05-18",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-012",
+   "date": "1913-05-18",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-013",
+   "date": "1913-05-18",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-014",
+   "date": "1913-05-18",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "venue": "Cancha de Sportiva Argentina (Pabellón de las Rosas)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-015",
+   "date": "1913-05-18",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "kimberley",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-016",
+   "date": "1913-06-15",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "atlanta",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-017",
+   "date": "1913-06-15",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "porteno",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-018",
+   "date": "1913-06-22",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-019",
+   "date": "1913-06-22",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "kimberley",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-020",
+   "date": "1913-06-22",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-021",
+   "date": "1913-06-29",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-022",
+   "date": "1913-06-29",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-023",
+   "date": "1913-06-29",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-024",
+   "date": "1913-06-29",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-025",
+   "date": "1913-07-06",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "kimberley",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-026",
+   "date": "1913-07-20",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "kimberley",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-027",
+   "date": "1913-07-20",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-028",
+   "date": "1913-07-20",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Gimnasia y Esgrima (Palermo)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-029",
+   "date": "1913-07-20",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-030",
+   "date": "1913-07-20",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-031",
+   "date": "1913-07-27",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-032",
+   "date": "1913-07-27",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-033",
+   "date": "1913-07-27",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-034",
+   "date": "1913-07-27",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "tigre",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-035",
+   "date": "1913-07-27",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "porteno",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Kimberley",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "official",
+   "note": "El primer partido (en cancha de Argentino de Quilmes) se suspendió a los 75 minutos con 0-0 y se anuló. Este 3-1 es el de la revancha, jugada el 15 de agosto."
+  },
+  {
+   "id": "1913-faf-036",
+   "date": "1913-08-03",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "porteno",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-037",
+   "date": "1913-08-03",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-038",
+   "date": "1913-08-03",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "argentino-quilmes",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-039",
+   "date": "1913-08-03",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-040",
+   "date": "1913-08-03",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-041",
+   "date": "1913-08-10",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-042",
+   "date": "1913-08-15",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-043",
+   "date": "1913-08-15",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-044",
+   "date": "1913-08-15",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "sportiva-argentina",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-045",
+   "date": "1913-09-07",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Gimnasia y Esgrima (Palermo)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-046",
+   "date": "1913-09-07",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atlanta",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-047",
+   "date": "1913-09-07",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-048",
+   "date": "1913-09-07",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-049",
+   "date": "1913-09-21",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "independiente",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-050",
+   "date": "1913-09-21",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-051",
+   "date": "1913-09-21",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-052",
+   "date": "1913-09-21",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "kimberley",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "kimberley",
+   "note": "No se jugó oficialmente: Sportiva Argentina perdió los puntos y el partido se jugó como amistoso (0-4, 60 minutos)."
+  },
+  {
+   "id": "1913-faf-053",
+   "date": "1913-10-05",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-054",
+   "date": "1913-10-05",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-055",
+   "date": "1913-10-05",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-056",
+   "date": "1913-10-05",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-057",
+   "date": "1913-10-05",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-058",
+   "date": "1913-10-12",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-059",
+   "date": "1913-10-12",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-060",
+   "date": "1913-10-12",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-061",
+   "date": "1913-10-12",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "kimberley",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-062",
+   "date": "1913-10-19",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "tigre",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-063",
+   "date": "1913-10-19",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta (Parque Chacabuco)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-064",
+   "date": "1913-10-19",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-065",
+   "date": "1913-10-26",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "independiente",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-066",
+   "date": "1913-10-26",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Argentino (Quilmes)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-067",
+   "date": "1913-10-26",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-068",
+   "date": "1913-10-26",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-069",
+   "date": "1913-11-01",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "tigre",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-070",
+   "date": "1913-11-02",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Gimnasia y Esgrima (Palermo)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-071",
+   "date": "1913-11-02",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "estudiantes",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-072",
+   "date": "1913-11-02",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-073",
+   "date": "1913-11-02",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 8,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-074",
+   "date": "1913-11-09",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-075",
+   "date": "1913-11-09",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "sportiva-argentina",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "argentino-quilmes",
+   "note": "No se jugó: los puntos fueron para Argentino de Quilmes. Sportiva Argentina cedió los puntos."
+  },
+  {
+   "id": "1913-faf-076",
+   "date": "1913-11-09",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "kimberley",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentino (Quilmes)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-077",
+   "date": "1913-11-09",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-078",
+   "date": "1913-11-09",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "independiente",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-079",
+   "date": "1913-11-11",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-080",
+   "date": "1913-11-11",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Argentino (Quilmes)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-081",
+   "date": "1913-11-19",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "porteno",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-082",
+   "date": "1913-11-23",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-083",
+   "date": "1913-11-23",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Gimnasia y Esgrima (Palermo)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-084",
+   "date": "1913-11-30",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-085",
+   "date": "1913-11-30",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 75 minutos con 2-0; los 15 minutos restantes se jugaron el Dec 21.."
+  },
+  {
+   "id": "1913-faf-086",
+   "date": "1913-11-30",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "venue": "Cancha de abandoned at 3:2 in 75m at Kimberley, remaining 15 on Jan 1 at Gimnasia y Esgrima (Palermo)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-087",
+   "date": "1913-11-30",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-088",
+   "date": "1913-12-07",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "atlanta",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta, Parque Chacabuco, C",
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "columbian",
+   "note": "No se jugó: los puntos fueron para Hispano Argentino. Se jugó como amistoso (1-3); los puntos se definieron por escritorio. Resuelto por la liga (Dec 10)."
+  },
+  {
+   "id": "1913-faf-089",
+   "date": "1913-12-14",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1913-faf-090",
+   "date": "1913-12-21",
+   "competition": "Federación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportiva-argentina",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "columbian",
+   "note": "No se jugó: los puntos fueron para Hispano Argentino. Sociedad Sportiva no se presentó."
+  }
+ ]
+}
