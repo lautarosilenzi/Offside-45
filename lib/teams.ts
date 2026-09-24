@@ -48,6 +48,7 @@ export const HISTORIC_TEAMS: Team[] = [
   historic("rosario-athletic", "Rosario Athletic", "RAT", "Rosario Athletic Club (hoy Club Atlético del Rosario)"),
   historic("lobos-athletic", "Lobos Athletic", "LOB", "Lobos Athletic Club"),
   historic("retiro-athletic", "Retiro Athletic", "RET", "Retiro Athletic Club"),
+  historic("lomas-academy", "Lomas Academy", "LAC", "Lomas Academy (segundo equipo del Lomas Athletic Club)"),
 ];
 
 const ALL_TEAMS = [...TEAMS, ...HISTORIC_TEAMS];
