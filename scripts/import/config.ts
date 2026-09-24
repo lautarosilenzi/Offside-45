@@ -34,6 +34,8 @@ export type TournamentConfig = {
   aliases?: Record<string, string>;
   // Partidos anteriores a esta fecha que quedaron anulados (ej. 1919: primera etapa anulada).
   annulBefore?: { date: string; note: string };
+  // Partidos desde esta fecha que son desempate por el título (no suman en la tabla).
+  playoffFrom?: { date: string; stage: string };
   // Equipos desafiliados durante el torneo: todos sus partidos quedan anulados.
   annulTeams?: { id: string; note: string }[];
   extraMatches?: Partial<Match>[];
@@ -689,7 +691,21 @@ export const TOURNAMENTS: TournamentConfig[] = [
     championIds: ["boca"],
     summary:
       "Boca Juniors fue campeón tras vencer a Huracán en un desempate que se jugó entre marzo y abril de 1924, con el torneo siguiente ya empezado. La liga dio por terminado el campeonato sin completar el fixture y mandó a jugar el desempate a los dos que compartían la punta. Estudiantes de La Plata y Sportivo Palermo se retiraron a mitad de año, sin que se anularan sus partidos.",
-    notes: [CISMA2, { kind: "formato", text: "Previsto a dos ruedas entre 23 equipos (46 fechas); la liga lo dio por terminado antes de completarlo." }],
+    playoffFrom: { date: "1924-01-01", stage: "Desempate por el título" },
+    knownTableDiffs: {
+      keys: ["boca-alumni:drawn", "boca-alumni:lost", "boca-alumni:goalsFor", "boca-alumni:goalsAgainst", "boca-alumni:points"],
+      explanation:
+        "La tabla publicada le da a Boca Alumni un empate más, una derrota menos y un gol más a favor y en contra que la suma de sus resultados. Ninguno de sus rivales tiene la diferencia que correspondería, así que la inconsistencia está en la propia tabla; se dejan los resultados tal como figuran.",
+    },
+    notes: [
+      CISMA2,
+      { kind: "formato", text: "Previsto a dos ruedas entre 23 equipos (46 fechas); a fin de año solo se habían jugado dos tercios de los partidos y la liga lo dio por terminado." },
+      {
+        kind: "puntos",
+        text: "Boca y Huracán terminaron igualados en 51 puntos y jugaron una serie de desempate: Boca 3-0, Huracán 2-0, 0-0 con alargue y finalmente Boca 2-0 en el alargue (27 de abril de 1924), con dos goles de Garassino.",
+      },
+      { kind: "retiro", text: "Estudiantes de La Plata y Sportivo Palermo se retiraron a mitad de año para pasar a la Asociación Amateurs; sus partidos jugados se mantuvieron." },
+    ],
   }),
   aam(1923, "arg23.html", /Asociación Amateur/, {
     tournament: "Campeonato 1923 de la Asociación Amateurs de Football",
@@ -701,20 +717,64 @@ export const TOURNAMENTS: TournamentConfig[] = [
     tournament: "Copa Campeonato 1924 (Asociación Argentina de Football)",
     championIds: ["boca"],
     summary: "Boca Juniors fue campeón invicto por segunda vez seguida, aunque jugó dos partidos menos que Temperley, el segundo: otra vez el fixture no se completó.",
-    notes: [CISMA2, rr1(22, " El fixture no se completó.")],
+    aliases: { Platense: "platense-retiro" },
+    knownTableDiffs: {
+      keys: ["sportivo-barracas:goalsAgainst", "progresista:goalsFor"],
+      explanation:
+        "La tabla publicada le da a Progresista dos goles más a favor y a Sportivo Barracas uno más en contra que la suma de los resultados de RSSSF. No hay fuente para saber qué partidos difieren; se dejan los resultados tal como figuran.",
+    },
+    notes: [
+      CISMA2,
+      rr1(22, " El fixture no se completó."),
+      { kind: "identidad", text: "El \"Platense\" de la Asociación Argentina es el Platense (Retiro), escindido del Platense que jugaba en la Asociación Amateurs." },
+    ],
   }),
   aam(1924, "arg24.html", /Primera División 1924/, {
     tournament: "Campeonato 1924 de la Asociación Amateurs de Football",
     championIds: ["sanlorenzo"],
     summary: "San Lorenzo ganó su segundo título seguido.",
-    notes: [CISMA2, rr1(24)],
+    playoffFrom: { date: "1925-01-01", stage: "Desempate por el descenso" },
+    pointAdjustments: [{ teamId: "argentino-del-sud", points: -2, reason: "Sanción en el partido con Estudiantil Porteño (suspendido a los 70 minutos)." }],
+    knownTableDiffs: {
+      keys: ["atlanta:goalsFor", "ferro:goalsAgainst"],
+      explanation:
+        "La tabla publicada le da a Atlanta un gol más a favor y a Ferro Carril Oeste uno más en contra que la suma de los resultados; probablemente difieren en uno de sus partidos entre sí, pero no hay fuente que lo confirme.",
+    },
+    notes: [
+      CISMA2,
+      rr1(24),
+      {
+        kind: "puntos",
+        text: "Argentino del Sud–Estudiantil Porteño se suspendió a los 70 minutos con 1-1; los puntos fueron para Estudiantil Porteño y a Argentino del Sud le descontaron 2 puntos.",
+      },
+      {
+        kind: "descalificacion",
+        text: "Argentino del Sud, Quilmes y Ferro Carril Oeste empataron en el anteúltimo puesto y jugaron un desempate por el descenso en enero y febrero de 1925 (no suma en la tabla). Terminó último Quilmes, pero se salvó porque la liga cambió el reglamento; Estudiantes (BA), último en la tabla, también se salvó por el mismo motivo.",
+      },
+    ],
   }),
   aaf2(1925, "arg25.html", /Copa ?Campeonato 1925/, {
     tournament: "Copa Campeonato 1925 (Asociación Argentina de Football)",
     championIds: ["huracan"],
     summary:
       "Huracán ganó su tercer título al vencer en un desempate a Nueva Chicago, con el que había compartido la punta; el partido se jugó recién el 22 de agosto de 1926. Boca Juniors jugó solo siete partidos y se fue de gira por Europa; al volver, la liga le dio el título honorífico de \"Campeón de Honor 1925\".",
-    notes: [CISMA2, rr1(21, " No se jugaron todos los partidos programados.")],
+    // Villa Urquiza se fusionó con General San Martín, que ocupó su lugar; el Platense de esta liga es el de Retiro (luego Universal).
+    aliases: { Urquiza: "general-san-martin", "Villa Urquiza": "general-san-martin", Platense: "platense-retiro" },
+    overrides: {
+      "1925-06-07 sportivo-barracas boca-alumni": {
+        status: "annulled",
+        note: "Se suspendió a los 65 minutos con 0-0 y quedó \"indefinido\": la liga no homologó el resultado. No suma.",
+      },
+    },
+    notes: [
+      CISMA2,
+      rr1(23, " No se jugaron todos los partidos programados."),
+      {
+        kind: "identidad",
+        text: "Villa Urquiza se fusionó con General San Martín, que ocupó su lugar en el torneo: en esta temporada se los cuenta como un solo equipo. El \"Platense\" de la Asociación Argentina es el Platense (Retiro), que ese año pasó a llamarse Universal.",
+      },
+      { kind: "anulado", text: "Sportivo Barracas–Boca Alumni se suspendió a los 65 minutos y quedó sin definir; no suma." },
+    ],
   }),
   aam(1925, "arg25.html", /Primera División 1925/, {
     tournament: "Campeonato 1925 de la Asociación Amateurs de Football",
@@ -727,7 +787,16 @@ export const TOURNAMENTS: TournamentConfig[] = [
     championIds: ["boca"],
     summary:
       "Boca Juniors ganó su quinto título, invicto. A mitad del torneo seis de los 24 clubes perdieron la afiliación y se pasaron a la Asociación Amateurs, y sus partidos se anularon. Fue el último torneo de la Asociación Argentina: en 1927 las dos ligas se fusionaron.",
-    notes: [CISMA2, { kind: "formato", text: "Todos contra todos a una rueda, 2 puntos por victoria. Empezaron 24 equipos y terminaron 18." }],
+    knownTableDiffs: {
+      keys: ["general-san-martin:points", "argentinos:goalsFor", "alvear:goalsAgainst"],
+      explanation:
+        "La tabla publicada le da a General San Martín 2 puntos menos de los que suman sus resultados (probablemente una sanción que RSSSF no detalla), y a Argentinos Juniors un gol más a favor y a Alvear uno más en contra (su partido se suspendió con 1-0 y se definió por escritorio). Se dejan los resultados tal como figuran.",
+    },
+    notes: [
+      CISMA2,
+      { kind: "formato", text: "Todos contra todos a una rueda, 2 puntos por victoria. Empezaron 24 equipos y terminaron 18." },
+      { kind: "descalificacion", text: "Seis clubes perdieron la afiliación en medio del torneo y pasaron a la Asociación Amateurs; sus partidos se anularon." },
+    ],
   }),
   aam(1926, "arg26.html", /Primera División 1926/, {
     tournament: "Campeonato 1926 de la Asociación Amateurs de Football",

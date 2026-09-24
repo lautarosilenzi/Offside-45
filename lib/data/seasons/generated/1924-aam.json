@@ -1,0 +1,4470 @@
+{
+ "slug": "1924-aam",
+ "year": 1924,
+ "league": "AAm",
+ "title": "Campeonato 1924 · Asociación Amateurs",
+ "tournament": "Campeonato 1924 de la Asociación Amateurs de Football",
+ "organizer": "Asociación Amateurs de Football (entidad disidente, no reconocida entonces por la FIFA)",
+ "championIds": [
+  "sanlorenzo"
+ ],
+ "summary": "San Lorenzo ganó su segundo título seguido.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1924",
+   "url": "https://www.rsssf.org/tablesa/arg24.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1924 de la AAmF (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1924_de_la_AAmF_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "identidad",
+   "text": "Entre 1919 y 1926 hubo dos ligas de Primera en paralelo: la Asociación Argentina de Football (oficial) y la Asociación Amateurs de Football (disidente). Las dos se consideran hoy parte de la historia de la Primera División."
+  },
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a una rueda entre 24 equipos, 2 puntos por victoria."
+  },
+  {
+   "kind": "puntos",
+   "text": "Argentino del Sud–Estudiantil Porteño se suspendió a los 70 minutos con 1-1; los puntos fueron para Estudiantil Porteño y a Argentino del Sud le descontaron 2 puntos."
+  },
+  {
+   "kind": "descalificacion",
+   "text": "Argentino del Sud, Quilmes y Ferro Carril Oeste empataron en el anteúltimo puesto y jugaron un desempate por el descenso en enero y febrero de 1925 (no suma en la tabla). Terminó último Quilmes, pero se salvó porque la liga cambió el reglamento; Estudiantes (BA), último en la tabla, también se salvó por el mismo motivo."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "argentino-del-sud",
+   "points": -2,
+   "reason": "Sanción en el partido con Estudiantil Porteño (suspendido a los 70 minutos)."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "sanlorenzo",
+   "played": 23,
+   "won": 18,
+   "drawn": 3,
+   "lost": 2,
+   "goalsFor": 48,
+   "goalsAgainst": 15,
+   "points": 39
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 23,
+   "won": 15,
+   "drawn": 7,
+   "lost": 1,
+   "goalsFor": 39,
+   "goalsAgainst": 9,
+   "points": 37
+  },
+  {
+   "teamId": "independiente",
+   "played": 23,
+   "won": 16,
+   "drawn": 4,
+   "lost": 3,
+   "goalsFor": 48,
+   "goalsAgainst": 10,
+   "points": 36
+  },
+  {
+   "teamId": "platense",
+   "played": 23,
+   "won": 14,
+   "drawn": 8,
+   "lost": 1,
+   "goalsFor": 30,
+   "goalsAgainst": 6,
+   "points": 36
+  },
+  {
+   "teamId": "river",
+   "played": 23,
+   "won": 13,
+   "drawn": 5,
+   "lost": 5,
+   "goalsFor": 30,
+   "goalsAgainst": 20,
+   "points": 31
+  },
+  {
+   "teamId": "racing",
+   "played": 23,
+   "won": 14,
+   "drawn": 2,
+   "lost": 7,
+   "goalsFor": 39,
+   "goalsAgainst": 16,
+   "points": 30
+  },
+  {
+   "teamId": "tigre",
+   "played": 23,
+   "won": 11,
+   "drawn": 7,
+   "lost": 5,
+   "goalsFor": 27,
+   "goalsAgainst": 19,
+   "points": 29
+  },
+  {
+   "teamId": "sportivo-buenos-aires",
+   "played": 23,
+   "won": 10,
+   "drawn": 8,
+   "lost": 5,
+   "goalsFor": 36,
+   "goalsAgainst": 28,
+   "points": 28
+  },
+  {
+   "teamId": "san-isidro",
+   "played": 23,
+   "won": 11,
+   "drawn": 5,
+   "lost": 7,
+   "goalsFor": 37,
+   "goalsAgainst": 29,
+   "points": 27
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 23,
+   "won": 10,
+   "drawn": 6,
+   "lost": 7,
+   "goalsFor": 38,
+   "goalsAgainst": 25,
+   "points": 26
+  },
+  {
+   "teamId": "defensores-belgrano",
+   "played": 23,
+   "won": 8,
+   "drawn": 9,
+   "lost": 6,
+   "goalsFor": 32,
+   "goalsAgainst": 26,
+   "points": 25
+  },
+  {
+   "teamId": "banfield",
+   "played": 23,
+   "won": 8,
+   "drawn": 7,
+   "lost": 8,
+   "goalsFor": 27,
+   "goalsAgainst": 28,
+   "points": 23
+  },
+  {
+   "teamId": "atlanta",
+   "played": 23,
+   "won": 7,
+   "drawn": 6,
+   "lost": 10,
+   "goalsFor": 24,
+   "goalsAgainst": 28,
+   "points": 20
+  },
+  {
+   "teamId": "sportivo-palermo",
+   "played": 23,
+   "won": 7,
+   "drawn": 5,
+   "lost": 11,
+   "goalsFor": 26,
+   "goalsAgainst": 43,
+   "points": 19
+  },
+  {
+   "teamId": "barracas-central",
+   "played": 23,
+   "won": 6,
+   "drawn": 6,
+   "lost": 11,
+   "goalsFor": 21,
+   "goalsAgainst": 30,
+   "points": 18
+  },
+  {
+   "teamId": "lanus",
+   "played": 23,
+   "won": 6,
+   "drawn": 6,
+   "lost": 11,
+   "goalsFor": 18,
+   "goalsAgainst": 36,
+   "points": 18
+  },
+  {
+   "teamId": "velez",
+   "played": 23,
+   "won": 6,
+   "drawn": 5,
+   "lost": 12,
+   "goalsFor": 26,
+   "goalsAgainst": 35,
+   "points": 17
+  },
+  {
+   "teamId": "almagro",
+   "played": 23,
+   "won": 6,
+   "drawn": 5,
+   "lost": 12,
+   "goalsFor": 17,
+   "goalsAgainst": 30,
+   "points": 17
+  },
+  {
+   "teamId": "estudiantil-porteno",
+   "played": 23,
+   "won": 4,
+   "drawn": 7,
+   "lost": 12,
+   "goalsFor": 17,
+   "goalsAgainst": 38,
+   "points": 15
+  },
+  {
+   "teamId": "liberal-argentino",
+   "played": 23,
+   "won": 4,
+   "drawn": 5,
+   "lost": 14,
+   "goalsFor": 17,
+   "goalsAgainst": 31,
+   "points": 13
+  },
+  {
+   "teamId": "argentino-del-sud",
+   "played": 23,
+   "won": 6,
+   "drawn": 2,
+   "lost": 15,
+   "goalsFor": 25,
+   "goalsAgainst": 37,
+   "points": 12
+  },
+  {
+   "teamId": "quilmes",
+   "played": 23,
+   "won": 3,
+   "drawn": 6,
+   "lost": 14,
+   "goalsFor": 20,
+   "goalsAgainst": 40,
+   "points": 12
+  },
+  {
+   "teamId": "ferro",
+   "played": 23,
+   "won": 4,
+   "drawn": 4,
+   "lost": 15,
+   "goalsFor": 16,
+   "goalsAgainst": 43,
+   "points": 12
+  },
+  {
+   "teamId": "estudiantes-ba",
+   "played": 23,
+   "won": 3,
+   "drawn": 4,
+   "lost": 16,
+   "goalsFor": 16,
+   "goalsAgainst": 52,
+   "points": 10
+  }
+ ],
+ "knownTableDiffs": {
+  "keys": [
+   "atlanta:goalsFor",
+   "ferro:goalsAgainst"
+  ],
+  "explanation": "La tabla publicada le da a Atlanta un gol más a favor y a Ferro Carril Oeste uno más en contra que la suma de los resultados; probablemente difieren en uno de sus partidos entre sí, pero no hay fuente que lo confirme."
+ },
+ "matches": [
+  {
+   "id": "1924-aam-001",
+   "date": "1924-04-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Lattari."
+  },
+  {
+   "id": "1924-aam-002",
+   "date": "1924-04-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Canavery."
+  },
+  {
+   "id": "1924-aam-003",
+   "date": "1924-04-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 84 minutos. No se completó; quedó el resultado del momento de la suspensión. Goles: Bonifacio, Carrera / Ochoa."
+  },
+  {
+   "id": "1924-aam-004",
+   "date": "1924-04-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Antraygues / Duarte."
+  },
+  {
+   "id": "1924-aam-005",
+   "date": "1924-04-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "sportivo-palermo",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: M.Fernández / Izaguirre, Evaristo."
+  },
+  {
+   "id": "1924-aam-006",
+   "date": "1924-04-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Caliche / Tazín."
+  },
+  {
+   "id": "1924-aam-007",
+   "date": "1924-04-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-008",
+   "date": "1924-04-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "san-isidro",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Lucarelli (2), Tomaselli / Ibarguren (3)."
+  },
+  {
+   "id": "1924-aam-009",
+   "date": "1924-04-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "liberal-argentino",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Martelotti."
+  },
+  {
+   "id": "1924-aam-010",
+   "date": "1924-04-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bacchi, Caldera."
+  },
+  {
+   "id": "1924-aam-011",
+   "date": "1924-04-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Isurrieta, A.Fernández (2), Calandra, Bellomo, Rellano / Soro."
+  },
+  {
+   "id": "1924-aam-012",
+   "date": "1924-04-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Acosta, Danieli, Maglio."
+  },
+  {
+   "id": "1924-aam-013",
+   "date": "1924-04-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Monti, Carricaberry (2), Maglio (2) / Matozzi."
+  },
+  {
+   "id": "1924-aam-014",
+   "date": "1924-04-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pambrín."
+  },
+  {
+   "id": "1924-aam-015",
+   "date": "1924-04-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: S.Alvarez / Echeverría."
+  },
+  {
+   "id": "1924-aam-016",
+   "date": "1924-04-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-017",
+   "date": "1924-04-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Médici, del Cerro, Lupo."
+  },
+  {
+   "id": "1924-aam-018",
+   "date": "1924-04-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Batilana."
+  },
+  {
+   "id": "1924-aam-019",
+   "date": "1924-04-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Clarke (2) / Bourdieu, Bonifacio (2)."
+  },
+  {
+   "id": "1924-aam-020",
+   "date": "1924-04-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Estudiantes (LP)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Felices, Caldera (2), Curell."
+  },
+  {
+   "id": "1924-aam-021",
+   "date": "1924-04-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Estudiantes (BA)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Novellino, Zumelzú, Obarrin."
+  },
+  {
+   "id": "1924-aam-022",
+   "date": "1924-04-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Prinzo og, Barrera."
+  },
+  {
+   "id": "1924-aam-023",
+   "date": "1924-04-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Rey, Ochoa (2), Lalauretta / Dannaher."
+  },
+  {
+   "id": "1924-aam-024",
+   "date": "1924-04-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Barceló."
+  },
+  {
+   "id": "1924-aam-025",
+   "date": "1924-04-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Péndola, Lucarelli / Monti, Valente."
+  },
+  {
+   "id": "1924-aam-026",
+   "date": "1924-04-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "barracas-central",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-027",
+   "date": "1924-04-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Alvarez / Morgada."
+  },
+  {
+   "id": "1924-aam-028",
+   "date": "1924-04-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "liberal-argentino",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-029",
+   "date": "1924-04-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Raggi."
+  },
+  {
+   "id": "1924-aam-030",
+   "date": "1924-04-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Irurieta, A.Fernández, Croce."
+  },
+  {
+   "id": "1924-aam-031",
+   "date": "1924-04-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 75 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1924-aam-032",
+   "date": "1924-04-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-033",
+   "date": "1924-04-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bourdieu (2)."
+  },
+  {
+   "id": "1924-aam-034",
+   "date": "1924-11-02",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-035",
+   "date": "1924-04-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-036",
+   "date": "1924-04-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Lalaurette / Irurieta, Fernández."
+  },
+  {
+   "id": "1924-aam-037",
+   "date": "1924-04-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Monti, Danieli, Maglio, Valente."
+  },
+  {
+   "id": "1924-aam-038",
+   "date": "1924-04-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Canaveri (2)."
+  },
+  {
+   "id": "1924-aam-039",
+   "date": "1924-04-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Caldera (2), Rimassa."
+  },
+  {
+   "id": "1924-aam-040",
+   "date": "1924-04-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Gainzarain, Lattari / Casso."
+  },
+  {
+   "id": "1924-aam-041",
+   "date": "1924-04-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-042",
+   "date": "1924-04-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-043",
+   "date": "1924-04-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-044",
+   "date": "1924-04-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pardal, Cracco, Ferrari."
+  },
+  {
+   "id": "1924-aam-045",
+   "date": "1924-04-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-046",
+   "date": "1924-04-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-047",
+   "date": "1924-05-04",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bonifacio."
+  },
+  {
+   "id": "1924-aam-048",
+   "date": "1924-05-04",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Eiros / Rinazza, Curell."
+  },
+  {
+   "id": "1924-aam-049",
+   "date": "1924-05-04",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Duarte (2)."
+  },
+  {
+   "id": "1924-aam-050",
+   "date": "1924-05-04",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "liberal-argentino",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Rivero, Calvo, Mancini."
+  },
+  {
+   "id": "1924-aam-051",
+   "date": "1924-05-04",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Dannaher / Cemaschi, Zumelzú, Annunziata."
+  },
+  {
+   "id": "1924-aam-052",
+   "date": "1924-05-04",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Tarulla, Sobrino / Valente (2), Maglio, Acosta (2)."
+  },
+  {
+   "id": "1924-aam-053",
+   "date": "1924-05-04",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "racing",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: C.Adet."
+  },
+  {
+   "id": "1924-aam-054",
+   "date": "1924-05-04",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Seijas."
+  },
+  {
+   "id": "1924-aam-055",
+   "date": "1924-05-04",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Gianella, J.Martínez / Vega, Marcote."
+  },
+  {
+   "id": "1924-aam-056",
+   "date": "1924-05-04",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-057",
+   "date": "1924-05-04",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-058",
+   "date": "1924-05-04",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "independiente",
+   "note": "Suspendido a los 74 minutos. La liga le dio los puntos a Independiente. Goles: Ravaschino / Brameri."
+  },
+  {
+   "id": "1924-aam-059",
+   "date": "1924-05-11",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-060",
+   "date": "1924-05-11",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Valente (2), Carricaberry]."
+  },
+  {
+   "id": "1924-aam-061",
+   "date": "1924-05-11",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Spraggón, Gondar (2), Perinetti / Sobrino, Dellasala."
+  },
+  {
+   "id": "1924-aam-062",
+   "date": "1924-05-11",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-063",
+   "date": "1924-05-11",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-064",
+   "date": "1924-05-11",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Morgada, Bacchi."
+  },
+  {
+   "id": "1924-aam-065",
+   "date": "1924-05-11",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Chiarella, Ravaschino, Orsi."
+  },
+  {
+   "id": "1924-aam-066",
+   "date": "1924-05-11",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-067",
+   "date": "1924-05-11",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Soro / Tomaselli, Péndola."
+  },
+  {
+   "id": "1924-aam-068",
+   "date": "1924-05-11",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Fallatti (2), Gainzarain."
+  },
+  {
+   "id": "1924-aam-069",
+   "date": "1924-05-11",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-070",
+   "date": "1924-05-11",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-071",
+   "date": "1924-05-18",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-072",
+   "date": "1924-05-18",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Danielli, Valente."
+  },
+  {
+   "id": "1924-aam-073",
+   "date": "1924-05-18",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Perducca, Orsi 2(1p), Chiarella."
+  },
+  {
+   "id": "1924-aam-074",
+   "date": "1924-05-18",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-075",
+   "date": "1924-05-18",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Fabro, Villagra / Rimassa (2)."
+  },
+  {
+   "id": "1924-aam-076",
+   "date": "1924-05-18",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-077",
+   "date": "1924-05-18",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Raggi."
+  },
+  {
+   "id": "1924-aam-078",
+   "date": "1924-05-18",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-079",
+   "date": "1924-05-18",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "argentino-del-sud",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Uriarte."
+  },
+  {
+   "id": "1924-aam-080",
+   "date": "1924-05-18",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-081",
+   "date": "1924-05-18",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-082",
+   "date": "1924-05-18",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "liberal-argentino",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-083",
+   "date": "1924-05-25",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Carricaberry, L.Acosta, Danielli / Penoni."
+  },
+  {
+   "id": "1924-aam-084",
+   "date": "1924-05-25",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-085",
+   "date": "1924-05-25",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-086",
+   "date": "1924-05-25",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Brameri."
+  },
+  {
+   "id": "1924-aam-087",
+   "date": "1924-05-25",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Cracco / Ravaschino."
+  },
+  {
+   "id": "1924-aam-088",
+   "date": "1924-05-25",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ibarguren / Saruppo."
+  },
+  {
+   "id": "1924-aam-089",
+   "date": "1924-05-25",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Licciardi / Badino."
+  },
+  {
+   "id": "1924-aam-090",
+   "date": "1924-11-02",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-091",
+   "date": "1924-06-01",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Lalín, Ravaschino (3)."
+  },
+  {
+   "id": "1924-aam-092",
+   "date": "1924-06-01",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "barracas-central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-093",
+   "date": "1924-06-01",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "liberal-argentino",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-094",
+   "date": "1924-06-01",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Caldas (2), Aguilar Pinedo / Maggio."
+  },
+  {
+   "id": "1924-aam-095",
+   "date": "1924-06-01",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-096",
+   "date": "1924-06-01",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-097",
+   "date": "1924-06-01",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "river",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: M.Fernández, Goicochea / Lattari (2)."
+  },
+  {
+   "id": "1924-aam-098",
+   "date": "1924-06-01",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-099",
+   "date": "1924-06-01",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-100",
+   "date": "1924-06-01",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-101",
+   "date": "1924-06-08",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Monti."
+  },
+  {
+   "id": "1924-aam-102",
+   "date": "1924-06-08",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-103",
+   "date": "1924-06-08",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Estudiantes (BA)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-104",
+   "date": "1924-06-08",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Felices, Morgada."
+  },
+  {
+   "id": "1924-aam-105",
+   "date": "1924-06-08",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-106",
+   "date": "1924-06-08",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-107",
+   "date": "1924-06-08",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-108",
+   "date": "1924-06-08",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Seregui (3), Ochoa."
+  },
+  {
+   "id": "1924-aam-109",
+   "date": "1924-06-08",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Quintaz, Filiberti, Brameri / Calvo."
+  },
+  {
+   "id": "1924-aam-110",
+   "date": "1924-06-08",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Giúdice / Gianella."
+  },
+  {
+   "id": "1924-aam-111",
+   "date": "1924-06-08",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 87 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1924-aam-112",
+   "date": "1924-06-15",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Maglio."
+  },
+  {
+   "id": "1924-aam-113",
+   "date": "1924-06-15",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Orsi / Zúñiga."
+  },
+  {
+   "id": "1924-aam-114",
+   "date": "1924-06-15",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Irurieta / Iturrería."
+  },
+  {
+   "id": "1924-aam-115",
+   "date": "1924-06-15",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-116",
+   "date": "1924-06-15",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-117",
+   "date": "1924-06-15",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-118",
+   "date": "1924-06-15",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-119",
+   "date": "1924-06-15",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Goin / Ochoa, Spraggón."
+  },
+  {
+   "id": "1924-aam-120",
+   "date": "1924-06-15",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Brameri (2), Filiberti."
+  },
+  {
+   "id": "1924-aam-121",
+   "date": "1924-06-15",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Botta / C.García."
+  },
+  {
+   "id": "1924-aam-122",
+   "date": "1924-06-15",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "atlanta",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Vitale / Borio."
+  },
+  {
+   "id": "1924-aam-123",
+   "date": "1924-06-15",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "liberal-argentino",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-124",
+   "date": "1924-06-22",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-125",
+   "date": "1924-06-22",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-126",
+   "date": "1924-06-22",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-127",
+   "date": "1924-06-22",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-128",
+   "date": "1924-06-22",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-129",
+   "date": "1924-06-22",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Brisotti (2)."
+  },
+  {
+   "id": "1924-aam-130",
+   "date": "1924-06-22",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Licciardi."
+  },
+  {
+   "id": "1924-aam-131",
+   "date": "1924-06-22",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-132",
+   "date": "1924-06-22",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-133",
+   "date": "1924-06-22",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-134",
+   "date": "1924-06-22",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "estudiantil-porteno",
+   "note": "Suspendido a los 70 minutos. La liga le dio los puntos a Estudiantil Porteño. A Argentino del Sud le descontaron 2 puntos. Goles: Filiberti / Catelli."
+  },
+  {
+   "id": "1924-aam-135",
+   "date": "1924-06-29",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Spraggón, Seregui."
+  },
+  {
+   "id": "1924-aam-136",
+   "date": "1924-06-29",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-137",
+   "date": "1924-06-29",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: G.González."
+  },
+  {
+   "id": "1924-aam-138",
+   "date": "1924-06-29",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-139",
+   "date": "1924-06-29",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "barracas-central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-140",
+   "date": "1924-06-29",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-141",
+   "date": "1924-06-29",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-142",
+   "date": "1924-06-29",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Martelotti, Presta / Caldas, Aguilar Pinedo."
+  },
+  {
+   "id": "1924-aam-143",
+   "date": "1924-06-29",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-144",
+   "date": "1924-06-29",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "independiente",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ravaschino, Bozzo."
+  },
+  {
+   "id": "1924-aam-145",
+   "date": "1924-06-29",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-146",
+   "date": "1924-06-29",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: L.Acosta (2), Carricaberry, Valente."
+  },
+  {
+   "id": "1924-aam-147",
+   "date": "1924-07-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: López / Zoroza, Curell."
+  },
+  {
+   "id": "1924-aam-148",
+   "date": "1924-07-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-149",
+   "date": "1924-07-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-150",
+   "date": "1924-07-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-151",
+   "date": "1924-07-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Orsi, Lalín, Sacarello og."
+  },
+  {
+   "id": "1924-aam-152",
+   "date": "1924-07-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "liberal-argentino",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-153",
+   "date": "1924-07-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Sportivo Almagro",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Brameri (2) / Lynch, Fabbiano, Polimeni."
+  },
+  {
+   "id": "1924-aam-154",
+   "date": "1924-07-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-155",
+   "date": "1924-07-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-156",
+   "date": "1924-07-06",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "ferro",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-157",
+   "date": "1924-07-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-158",
+   "date": "1924-07-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-159",
+   "date": "1924-07-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-160",
+   "date": "1924-07-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-161",
+   "date": "1924-07-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-162",
+   "date": "1924-07-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-163",
+   "date": "1924-07-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "defensores-belgrano",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-164",
+   "date": "1924-07-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Fernández."
+  },
+  {
+   "id": "1924-aam-165",
+   "date": "1924-07-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: López, Ravaschino."
+  },
+  {
+   "id": "1924-aam-166",
+   "date": "1924-07-13",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-168",
+   "date": "1924-07-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Orsi (2), Chiarella (2) / Cherro."
+  },
+  {
+   "id": "1924-aam-169",
+   "date": "1924-07-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Sportivo Almagro",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Soro / Comaschi, Zumelzú."
+  },
+  {
+   "id": "1924-aam-170",
+   "date": "1924-07-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Seijas / Simmons, Gainzarain, Rey, Lattari."
+  },
+  {
+   "id": "1924-aam-171",
+   "date": "1924-07-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Magrini, Tassa (2) / Perinetti."
+  },
+  {
+   "id": "1924-aam-172",
+   "date": "1924-07-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "liberal-argentino",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-173",
+   "date": "1924-07-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ramón."
+  },
+  {
+   "id": "1924-aam-174",
+   "date": "1924-07-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-175",
+   "date": "1924-07-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Cazaubón, Arroyo / Raggi (3)."
+  },
+  {
+   "id": "1924-aam-176",
+   "date": "1924-07-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-177",
+   "date": "1924-07-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-178",
+   "date": "1924-07-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-179",
+   "date": "1924-07-20",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 55 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1924-aam-180",
+   "date": "1924-07-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Carricaberry."
+  },
+  {
+   "id": "1924-aam-181",
+   "date": "1924-07-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: G.González."
+  },
+  {
+   "id": "1924-aam-182",
+   "date": "1924-07-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-183",
+   "date": "1924-07-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "barracas-central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Caldera (2)."
+  },
+  {
+   "id": "1924-aam-184",
+   "date": "1924-07-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Orsi, Ravaschino."
+  },
+  {
+   "id": "1924-aam-185",
+   "date": "1924-07-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-186",
+   "date": "1924-07-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-187",
+   "date": "1924-07-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "velez",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-188",
+   "date": "1924-07-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-189",
+   "date": "1924-07-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-190",
+   "date": "1924-07-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-191",
+   "date": "1924-07-27",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-192",
+   "date": "1924-08-03",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: De Souza, Monti / Polimeni."
+  },
+  {
+   "id": "1924-aam-193",
+   "date": "1924-08-03",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bissio."
+  },
+  {
+   "id": "1924-aam-194",
+   "date": "1924-08-03",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Tazza / Iribarren, Licciardi."
+  },
+  {
+   "id": "1924-aam-195",
+   "date": "1924-08-03",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Orsi (2), Ravaschino."
+  },
+  {
+   "id": "1924-aam-196",
+   "date": "1924-08-03",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-197",
+   "date": "1924-08-03",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Sportivo Almagro",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Mouré / Bachi (2), Morgada."
+  },
+  {
+   "id": "1924-aam-198",
+   "date": "1924-08-03",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-199",
+   "date": "1924-08-03",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-200",
+   "date": "1924-08-03",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "liberal-argentino",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-201",
+   "date": "1924-08-03",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-202",
+   "date": "1924-08-03",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-203",
+   "date": "1924-08-03",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Sobrino (2), Pan, Urdangaray."
+  },
+  {
+   "id": "1924-aam-204",
+   "date": "1924-08-17",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-205",
+   "date": "1924-08-17",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Uriarte."
+  },
+  {
+   "id": "1924-aam-206",
+   "date": "1924-08-17",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-207",
+   "date": "1924-08-17",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bissio Trevino / Zoroza."
+  },
+  {
+   "id": "1924-aam-208",
+   "date": "1924-08-17",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Sportivo Almagro",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bao / Médici, Rolandi."
+  },
+  {
+   "id": "1924-aam-209",
+   "date": "1924-08-17",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-210",
+   "date": "1924-08-17",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-211",
+   "date": "1924-08-17",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-212",
+   "date": "1924-08-17",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-213",
+   "date": "1924-08-17",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-214",
+   "date": "1924-08-17",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Perinetti, Saldías, Rey."
+  },
+  {
+   "id": "1924-aam-215",
+   "date": "1924-08-24",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Zoroza."
+  },
+  {
+   "id": "1924-aam-216",
+   "date": "1924-08-24",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Monti."
+  },
+  {
+   "id": "1924-aam-217",
+   "date": "1924-08-24",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "san-isidro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-218",
+   "date": "1924-08-24",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Cracco, Duarte, Bissio."
+  },
+  {
+   "id": "1924-aam-219",
+   "date": "1924-08-24",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "liberal-argentino",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: G.González."
+  },
+  {
+   "id": "1924-aam-220",
+   "date": "1924-08-24",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-221",
+   "date": "1924-08-24",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-222",
+   "date": "1924-08-24",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-223",
+   "date": "1924-08-24",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Manna (2), Sandoval / Adamoli."
+  },
+  {
+   "id": "1924-aam-224",
+   "date": "1924-08-24",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Terminó a los 85 minutos; se dio por bueno el resultado. Goles: López, Canaveri, Ravaschino, Orsi (3), Pérez."
+  },
+  {
+   "id": "1924-aam-225",
+   "date": "1924-08-24",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "sportivo-buenos-aires",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-226",
+   "date": "1924-11-16",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-227",
+   "date": "1924-09-07",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Medone, Fallatti."
+  },
+  {
+   "id": "1924-aam-228",
+   "date": "1924-09-07",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Seregui, Ronzoni (3), Perinetti."
+  },
+  {
+   "id": "1924-aam-229",
+   "date": "1924-09-07",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Latorre Lelong / Ravaschino (2)."
+  },
+  {
+   "id": "1924-aam-230",
+   "date": "1924-09-07",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-231",
+   "date": "1924-09-07",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Felices, Rimassa, Morgada (2)."
+  },
+  {
+   "id": "1924-aam-232",
+   "date": "1924-09-07",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-233",
+   "date": "1924-09-07",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "barracas-central",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Sportivo Almagro",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bao, Ferrari og, Brameri / García, Passi."
+  },
+  {
+   "id": "1924-aam-234",
+   "date": "1924-09-07",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-235",
+   "date": "1924-09-07",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-236",
+   "date": "1924-09-07",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Presta, Raggi, Sacarello."
+  },
+  {
+   "id": "1924-aam-237",
+   "date": "1924-09-07",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Maglio, Danielli, Del Corro og / Spaccarotella."
+  },
+  {
+   "id": "1924-aam-238",
+   "date": "1924-09-07",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-239",
+   "date": "1924-09-14",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "banfield",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Carricaberry, Maglio, Danielli, Picallo / Tazza, Magrini, Vega."
+  },
+  {
+   "id": "1924-aam-240",
+   "date": "1924-09-14",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Morgada, Iturrería, Rimassa."
+  },
+  {
+   "id": "1924-aam-241",
+   "date": "1924-09-14",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Seregui."
+  },
+  {
+   "id": "1924-aam-242",
+   "date": "1924-09-14",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "liberal-argentino",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Liberal Argentino",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-243",
+   "date": "1924-09-14",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Lalín, Ravaschino, Boigues og."
+  },
+  {
+   "id": "1924-aam-244",
+   "date": "1924-09-14",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-245",
+   "date": "1924-09-14",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-247",
+   "date": "1924-11-16",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Guzmán, Lucarelli, Tomaselli / Presta, Arias."
+  },
+  {
+   "id": "1924-aam-248",
+   "date": "1924-09-21",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "argentino-del-sud",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Sánchez / Carricaberry (2)."
+  },
+  {
+   "id": "1924-aam-249",
+   "date": "1924-09-21",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Perinetti."
+  },
+  {
+   "id": "1924-aam-250",
+   "date": "1924-09-21",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Medone."
+  },
+  {
+   "id": "1924-aam-251",
+   "date": "1924-09-21",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-252",
+   "date": "1924-09-21",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-253",
+   "date": "1924-09-21",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-254",
+   "date": "1924-09-21",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-255",
+   "date": "1924-09-21",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-256",
+   "date": "1924-10-19",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-257",
+   "date": "1924-10-19",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "quilmes",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-258",
+   "date": "1924-10-19",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-259",
+   "date": "1924-10-19",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Presta (2) / Santoro, Carreras."
+  },
+  {
+   "id": "1924-aam-260",
+   "date": "1924-10-19",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-261",
+   "date": "1924-10-19",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Spraggón, Ronzoni."
+  },
+  {
+   "id": "1924-aam-262",
+   "date": "1924-10-19",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 82 minutos. No se completó; quedó el resultado del momento de la suspensión. Goles: Fallatti, Licciardi (2)."
+  },
+  {
+   "id": "1924-aam-263",
+   "date": "1924-10-19",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-264",
+   "date": "1924-10-19",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "banfield",
+   "note": "No se jugó: los puntos fueron para Banfield. Argentino del Sud no se presentó."
+  },
+  {
+   "id": "1924-aam-265",
+   "date": "1924-11-02",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Choperena, Rey, Fallatti."
+  },
+  {
+   "id": "1924-aam-266",
+   "date": "1924-10-26",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Lalín, Orsi."
+  },
+  {
+   "id": "1924-aam-267",
+   "date": "1924-10-26",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Maglio."
+  },
+  {
+   "id": "1924-aam-268",
+   "date": "1924-10-26",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ochoa."
+  },
+  {
+   "id": "1924-aam-269",
+   "date": "1924-10-26",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Raggi."
+  },
+  {
+   "id": "1924-aam-270",
+   "date": "1924-10-26",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Morgada, Iturrería."
+  },
+  {
+   "id": "1924-aam-271",
+   "date": "1924-10-26",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Empezó el 14/9 y se suspendió con 0-0; se completó en esta fecha."
+  },
+  {
+   "id": "1924-aam-272",
+   "date": "1924-10-26",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "liberal-argentino",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-273",
+   "date": "1924-10-26",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-274",
+   "date": "1924-11-09",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pasquale / Ravaschino."
+  },
+  {
+   "id": "1924-aam-275",
+   "date": "1924-11-09",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "barracas-central",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Carri og, Seregni, Spraggón, Perinetti / Carrón."
+  },
+  {
+   "id": "1924-aam-276",
+   "date": "1924-11-09",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Empezó el 13/7 y se suspendió con 0-0; se completó en esta fecha."
+  },
+  {
+   "id": "1924-aam-277",
+   "date": "1924-11-09",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-278",
+   "date": "1924-11-09",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Dagliolo."
+  },
+  {
+   "id": "1924-aam-279",
+   "date": "1925-01-11",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Desempate por el descenso",
+   "phase": "playoff",
+   "homeId": "argentino-del-sud",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-280",
+   "date": "1925-01-18",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Desempate por el descenso",
+   "phase": "playoff",
+   "homeId": "quilmes",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Estudiantes de Bernal",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-281",
+   "date": "1925-01-25",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Desempate por el descenso",
+   "phase": "playoff",
+   "homeId": "ferro",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Liniers SC",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: J.Gaslini / E.Brameri."
+  },
+  {
+   "id": "1924-aam-282",
+   "date": "1925-02-01",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Desempate por el descenso",
+   "phase": "playoff",
+   "homeId": "quilmes",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: L.Sandoval / J.Bao."
+  },
+  {
+   "id": "1924-aam-283",
+   "date": "1925-02-08",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Desempate por el descenso",
+   "phase": "playoff",
+   "homeId": "ferro",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Liniers SC",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1924-aam-284",
+   "date": "1925-02-15",
+   "competition": "Asociación Amateurs de Football",
+   "stage": "Desempate por el descenso",
+   "phase": "playoff",
+   "homeId": "argentino-del-sud",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "argentino-del-sud",
+   "note": "No se jugó: los puntos fueron para Argentino del Sud."
+  }
+ ]
+}

@@ -55,6 +55,9 @@ export function translateNote(
   };
   const parts = note
     .replace(/^\[|\]$/g, "")
+    // "not continued, Banfield won points" → dos partes; "on Aug 19, Sportsman won points" → sin la fecha.
+    .replace(/,\s*([^,\]]+ (?:won|lost) (?:the )?points)/gi, "; $1")
+    .replace(/\bon [A-Z][a-z]{2} \d{1,2}(?:, \d{4})?,\s*(?=[^,\]]+ (?:won|lost) (?:the )?points)/g, "")
     .split(/\]\s*\[|;\s*|,\s*(?=(?:aet|lasted|at|annulled|abandoned|suspended|played|awarded|n\/p)\b)/i)
     .map((p) => p.replace(/[\[\]]/g, "").trim())
     .filter(Boolean);
@@ -109,6 +112,10 @@ export function translateNote(
       out.wonPointsBy = club?.id;
       out.text.push(`La liga le dio los puntos a ${club ? club.as ?? club.name : m[1]}.`);
     } else if (/^not continued$/i.test(p)) out.text.push("No se completó; quedó el resultado del momento de la suspensión.");
+    else if ((m = p.match(/^(.+?) deducted (\d+) points?$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`A ${club ? club.as ?? club.name : m[1]} le descontaron ${m[2]} puntos.`);
+    }
     else if (/^second half played friendly$/i.test(p)) out.text.push("El segundo tiempo se jugó como amistoso; vale el resultado del primero.");
     else if ((m = p.match(/^(.+?) lost points$/i))) {
       const club = resolveName(m[1], year);
@@ -275,6 +282,10 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       warnings.push(`L${raw.line} ${raw.home}-${raw.away}: sin resultado ("${raw.score}") ${raw.note} → omitido`);
       continue;
     }
+    if (cfg.playoffFrom && m.date >= cfg.playoffFrom.date) {
+      m.phase = "playoff";
+      m.stage = cfg.playoffFrom.stage;
+    }
     if (note.lostPointsBy) m.awardedTo = note.lostPointsBy === home.id ? away.id : home.id;
     if (note.wonPointsBy) m.awardedTo = note.wonPointsBy;
     if (cfg.annulTeams?.some((t) => t.id === home.id || t.id === away.id)) {
@@ -291,7 +302,13 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       note.text.unshift("Anulado: no suma en la tabla.");
     }
     if (note.text.length) m.note = note.text.join(" ");
-    if (raw.scorers) m.note = [m.note, `Goles: ${raw.scorers.replace(/;\s*/, " / ")}.`].filter(Boolean).join(" ");
+    // La línea entre corchetes debajo del partido suele ser de goleadores, pero a veces es una aclaración.
+    if (raw.scorers && /^(played at|at |suspended|abandoned|finished|\d+-\d+ continued|reprogrammed|.* forfeited$)/i.test(raw.scorers)) {
+      const extra = translateNote(raw.scorers.replace(/^played at/i, "at"), cfg.year);
+      if (extra.venue) m.venue = extra.venue;
+      const txt = [...extra.text, ...extra.unknown.map((u) => (/forfeited$/i.test(u) ? `${u.replace(/ forfeited$/i, "")} no se presentó.` : u))];
+      if (txt.length) m.note = [m.note, ...txt].filter(Boolean).join(" ");
+    } else if (raw.scorers) m.note = [m.note, `Goles: ${raw.scorers.replace(/;\s*/, " / ")}.`].filter(Boolean).join(" ");
     if (ov) Object.assign(m, ov);
     // Suspendido y completado otro día: RSSSF lo lista dos veces; vale la segunda aparición.
     if (note.continuedOn) {

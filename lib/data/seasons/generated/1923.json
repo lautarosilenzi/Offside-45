@@ -1,0 +1,4618 @@
+{
+ "slug": "1923",
+ "year": 1923,
+ "league": "AAF",
+ "title": "Campeonato 1923 · Asociación Argentina",
+ "tournament": "Copa Campeonato 1923 (Asociación Argentina de Football)",
+ "organizer": "Asociación Argentina de Football (entidad oficial)",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca Juniors fue campeón tras vencer a Huracán en un desempate que se jugó entre marzo y abril de 1924, con el torneo siguiente ya empezado. La liga dio por terminado el campeonato sin completar el fixture y mandó a jugar el desempate a los dos que compartían la punta. Estudiantes de La Plata y Sportivo Palermo se retiraron a mitad de año, sin que se anularan sus partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1923",
+   "url": "https://www.rsssf.org/tablesa/arg23.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1923 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1923_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "identidad",
+   "text": "Entre 1919 y 1926 hubo dos ligas de Primera en paralelo: la Asociación Argentina de Football (oficial) y la Asociación Amateurs de Football (disidente). Las dos se consideran hoy parte de la historia de la Primera División."
+  },
+  {
+   "kind": "formato",
+   "text": "Previsto a dos ruedas entre 23 equipos (46 fechas); a fin de año solo se habían jugado dos tercios de los partidos y la liga lo dio por terminado."
+  },
+  {
+   "kind": "puntos",
+   "text": "Boca y Huracán terminaron igualados en 51 puntos y jugaron una serie de desempate: Boca 3-0, Huracán 2-0, 0-0 con alargue y finalmente Boca 2-0 en el alargue (27 de abril de 1924), con dos goles de Garassino."
+  },
+  {
+   "kind": "retiro",
+   "text": "Estudiantes de La Plata y Sportivo Palermo se retiraron a mitad de año para pasar a la Asociación Amateurs; sus partidos jugados se mantuvieron."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "boca",
+   "played": 30,
+   "won": 24,
+   "drawn": 3,
+   "lost": 3,
+   "goalsFor": 87,
+   "goalsAgainst": 19,
+   "points": 51
+  },
+  {
+   "teamId": "huracan",
+   "played": 29,
+   "won": 23,
+   "drawn": 5,
+   "lost": 1,
+   "goalsFor": 71,
+   "goalsAgainst": 20,
+   "points": 51
+  },
+  {
+   "teamId": "sportivo-barracas",
+   "played": 28,
+   "won": 18,
+   "drawn": 4,
+   "lost": 6,
+   "goalsFor": 60,
+   "goalsAgainst": 28,
+   "points": 40
+  },
+  {
+   "teamId": "sportivo-dock-sud",
+   "played": 28,
+   "won": 13,
+   "drawn": 11,
+   "lost": 4,
+   "goalsFor": 35,
+   "goalsAgainst": 21,
+   "points": 37
+  },
+  {
+   "teamId": "palermo",
+   "played": 25,
+   "won": 14,
+   "drawn": 5,
+   "lost": 6,
+   "goalsFor": 33,
+   "goalsAgainst": 26,
+   "points": 33
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 22,
+   "won": 14,
+   "drawn": 4,
+   "lost": 4,
+   "goalsFor": 44,
+   "goalsAgainst": 18,
+   "points": 32
+  },
+  {
+   "teamId": "nueva-chicago",
+   "played": 27,
+   "won": 13,
+   "drawn": 6,
+   "lost": 8,
+   "goalsFor": 36,
+   "goalsAgainst": 39,
+   "points": 32
+  },
+  {
+   "teamId": "argentinos",
+   "played": 28,
+   "won": 10,
+   "drawn": 9,
+   "lost": 9,
+   "goalsFor": 30,
+   "goalsAgainst": 25,
+   "points": 29
+  },
+  {
+   "teamId": "del-plata",
+   "played": 29,
+   "won": 10,
+   "drawn": 9,
+   "lost": 10,
+   "goalsFor": 34,
+   "goalsAgainst": 35,
+   "points": 29
+  },
+  {
+   "teamId": "all-boys",
+   "played": 32,
+   "won": 10,
+   "drawn": 8,
+   "lost": 14,
+   "goalsFor": 31,
+   "goalsAgainst": 41,
+   "points": 28
+  },
+  {
+   "teamId": "temperley",
+   "played": 30,
+   "won": 11,
+   "drawn": 5,
+   "lost": 14,
+   "goalsFor": 36,
+   "goalsAgainst": 40,
+   "points": 27
+  },
+  {
+   "teamId": "progresista",
+   "played": 30,
+   "won": 10,
+   "drawn": 7,
+   "lost": 13,
+   "goalsFor": 44,
+   "goalsAgainst": 50,
+   "points": 27
+  },
+  {
+   "teamId": "el-porvenir",
+   "played": 33,
+   "won": 8,
+   "drawn": 11,
+   "lost": 14,
+   "goalsFor": 26,
+   "goalsAgainst": 44,
+   "points": 27
+  },
+  {
+   "teamId": "argentino-quilmes",
+   "played": 27,
+   "won": 11,
+   "drawn": 4,
+   "lost": 12,
+   "goalsFor": 27,
+   "goalsAgainst": 33,
+   "points": 26
+  },
+  {
+   "teamId": "platense-retiro",
+   "played": 28,
+   "won": 8,
+   "drawn": 10,
+   "lost": 10,
+   "goalsFor": 23,
+   "goalsAgainst": 30,
+   "points": 26
+  },
+  {
+   "teamId": "sportivo-palermo",
+   "played": 18,
+   "won": 9,
+   "drawn": 6,
+   "lost": 3,
+   "goalsFor": 27,
+   "goalsAgainst": 17,
+   "points": 24
+  },
+  {
+   "teamId": "san-fernando",
+   "played": 29,
+   "won": 8,
+   "drawn": 7,
+   "lost": 14,
+   "goalsFor": 32,
+   "goalsAgainst": 45,
+   "points": 23
+  },
+  {
+   "teamId": "alvear",
+   "played": 30,
+   "won": 9,
+   "drawn": 5,
+   "lost": 16,
+   "goalsFor": 37,
+   "goalsAgainst": 56,
+   "points": 23
+  },
+  {
+   "teamId": "colegiales",
+   "played": 30,
+   "won": 6,
+   "drawn": 8,
+   "lost": 16,
+   "goalsFor": 30,
+   "goalsAgainst": 50,
+   "points": 20
+  },
+  {
+   "teamId": "argentino-banfield",
+   "played": 28,
+   "won": 6,
+   "drawn": 6,
+   "lost": 16,
+   "goalsFor": 37,
+   "goalsAgainst": 61,
+   "points": 18
+  },
+  {
+   "teamId": "boca-alumni",
+   "played": 31,
+   "won": 6,
+   "drawn": 6,
+   "lost": 19,
+   "goalsFor": 32,
+   "goalsAgainst": 63,
+   "points": 18
+  },
+  {
+   "teamId": "villa-urquiza",
+   "played": 31,
+   "won": 4,
+   "drawn": 8,
+   "lost": 19,
+   "goalsFor": 17,
+   "goalsAgainst": 41,
+   "points": 16
+  },
+  {
+   "teamId": "porteno",
+   "played": 27,
+   "won": 3,
+   "drawn": 8,
+   "lost": 16,
+   "goalsFor": 26,
+   "goalsAgainst": 53,
+   "points": 14
+  }
+ ],
+ "knownTableDiffs": {
+  "keys": [
+   "boca-alumni:drawn",
+   "boca-alumni:lost",
+   "boca-alumni:goalsFor",
+   "boca-alumni:goalsAgainst",
+   "boca-alumni:points"
+  ],
+  "explanation": "La tabla publicada le da a Boca Alumni un empate más, una derrota menos y un gol más a favor y en contra que la suma de sus resultados. Ninguno de sus rivales tiene la diferencia que correspondería, así que la inconsistencia está en la propia tabla; se dejan los resultados tal como figuran."
+ },
+ "matches": [
+  {
+   "id": "1923-001",
+   "date": "1923-03-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "temperley",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-002",
+   "date": "1923-03-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-003",
+   "date": "1923-03-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca-alumni",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-004",
+   "date": "1923-03-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 6,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-005",
+   "date": "1923-03-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-006",
+   "date": "1923-03-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "progresista",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-007",
+   "date": "1923-03-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "porteno",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-008",
+   "date": "1923-03-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense-retiro",
+   "awayId": "del-plata",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-009",
+   "date": "1923-03-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "alvear",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-010",
+   "date": "1923-03-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "villa-urquiza",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-011",
+   "date": "1923-03-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-012",
+   "date": "1923-03-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-013",
+   "date": "1923-03-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "del-plata",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-014",
+   "date": "1923-03-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "argentino-banfield",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-015",
+   "date": "1923-03-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "platense-retiro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-016",
+   "date": "1923-03-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-017",
+   "date": "1923-03-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-018",
+   "date": "1923-03-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "alvear",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-019",
+   "date": "1923-03-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "boca-alumni",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-020",
+   "date": "1923-03-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "villa-urquiza",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-021",
+   "date": "1923-03-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "progresista",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-022",
+   "date": "1923-03-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "platense-retiro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-023",
+   "date": "1923-03-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-024",
+   "date": "1923-03-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca-alumni",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-025",
+   "date": "1923-03-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "temperley",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-026",
+   "date": "1923-03-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-027",
+   "date": "1923-03-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "alvear",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-028",
+   "date": "1923-03-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-029",
+   "date": "1923-03-26",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "nueva-chicago",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-030",
+   "date": "1923-03-26",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "san-fernando",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-031",
+   "date": "1923-03-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "del-plata",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-032",
+   "date": "1923-03-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "platense-retiro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-033",
+   "date": "1923-03-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca-alumni",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-034",
+   "date": "1923-03-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "el-porvenir",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-035",
+   "date": "1923-03-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "argentino-banfield",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-036",
+   "date": "1923-03-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "porteno",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-037",
+   "date": "1923-03-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-038",
+   "date": "1923-03-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "alvear",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-039",
+   "date": "1923-04-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "argentino-banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-040",
+   "date": "1923-04-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-041",
+   "date": "1923-04-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-042",
+   "date": "1923-04-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-043",
+   "date": "1923-04-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-044",
+   "date": "1923-04-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-045",
+   "date": "1923-04-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca-alumni",
+   "awayId": "temperley",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-046",
+   "date": "1923-04-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-047",
+   "date": "1923-04-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "nueva-chicago",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-048",
+   "date": "1923-04-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-049",
+   "date": "1923-04-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-050",
+   "date": "1923-04-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "el-porvenir",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-051",
+   "date": "1923-04-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "san-fernando",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-052",
+   "date": "1923-04-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "platense-retiro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-053",
+   "date": "1923-04-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "alvear",
+   "awayId": "argentino-banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-054",
+   "date": "1923-04-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "platense-retiro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-055",
+   "date": "1923-04-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca-alumni",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-056",
+   "date": "1923-04-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "progresista",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-057",
+   "date": "1923-04-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "argentinos",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-058",
+   "date": "1923-04-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "san-fernando",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-059",
+   "date": "1923-04-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "all-boys",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-060",
+   "date": "1923-04-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-061",
+   "date": "1923-04-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "del-plata",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-062",
+   "date": "1923-04-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-063",
+   "date": "1923-04-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "alvear",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-064",
+   "date": "1923-04-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca-alumni",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-065",
+   "date": "1923-04-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "argentino-banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-066",
+   "date": "1923-04-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-067",
+   "date": "1923-04-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-068",
+   "date": "1923-04-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-069",
+   "date": "1923-04-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "platense-retiro",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-070",
+   "date": "1923-04-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "el-porvenir",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-071",
+   "date": "1923-04-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-072",
+   "date": "1923-04-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "villa-urquiza",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-073",
+   "date": "1923-04-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-074",
+   "date": "1923-04-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "temperley",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-075",
+   "date": "1923-04-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-076",
+   "date": "1923-04-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "boca-alumni",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-077",
+   "date": "1923-04-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "progresista",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-078",
+   "date": "1923-04-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "del-plata",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-079",
+   "date": "1923-04-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "alvear",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-080",
+   "date": "1923-04-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "platense-retiro",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-081",
+   "date": "1923-05-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-082",
+   "date": "1923-05-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-083",
+   "date": "1923-05-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca-alumni",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-084",
+   "date": "1923-05-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "el-porvenir",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-085",
+   "date": "1923-05-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-086",
+   "date": "1923-05-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense-retiro",
+   "awayId": "san-fernando",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-087",
+   "date": "1923-05-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "del-plata",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-088",
+   "date": "1923-05-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-089",
+   "date": "1923-05-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-090",
+   "date": "1923-05-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-091",
+   "date": "1923-05-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "alvear",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-092",
+   "date": "1923-05-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "villa-urquiza",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-093",
+   "date": "1923-05-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-094",
+   "date": "1923-05-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca-alumni",
+   "awayId": "del-plata",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-095",
+   "date": "1923-05-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-096",
+   "date": "1923-05-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "progresista",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-097",
+   "date": "1923-05-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense-retiro",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-098",
+   "date": "1923-05-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "temperley",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-099",
+   "date": "1923-05-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-100",
+   "date": "1923-05-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "suspended at 1-0 in 60' due to crowd trouble, continued on June 29"
+  },
+  {
+   "id": "1923-101",
+   "date": "1923-05-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "alvear",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-102",
+   "date": "1923-05-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-103",
+   "date": "1923-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "alvear",
+   "awayId": "progresista",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-104",
+   "date": "1923-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-105",
+   "date": "1923-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "argentino-banfield",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-106",
+   "date": "1923-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-107",
+   "date": "1923-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-108",
+   "date": "1923-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-109",
+   "date": "1923-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense-retiro",
+   "awayId": "boca-alumni",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-110",
+   "date": "1923-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "del-plata",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-111",
+   "date": "1923-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "villa-urquiza",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-112",
+   "date": "1923-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "sportivo-dock-sud",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-113",
+   "date": "1923-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "temperley",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-114",
+   "date": "1923-05-27",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-115",
+   "date": "1923-05-27",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "temperley",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-116",
+   "date": "1923-05-27",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "san-fernando",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-117",
+   "date": "1923-05-27",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-118",
+   "date": "1923-05-27",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "alvear",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-119",
+   "date": "1923-05-27",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-120",
+   "date": "1923-05-27",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-121",
+   "date": "1923-05-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-122",
+   "date": "1923-05-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-123",
+   "date": "1923-05-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-124",
+   "date": "1923-05-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "alvear",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-125",
+   "date": "1923-05-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense-retiro",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-126",
+   "date": "1923-05-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "palermo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-127",
+   "date": "1923-05-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-128",
+   "date": "1923-05-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "el-porvenir",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-129",
+   "date": "1923-05-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-130",
+   "date": "1923-05-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-131",
+   "date": "1923-06-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca-alumni",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "sportivo-dock-sud",
+   "note": "No se jugó: los puntos fueron para Dock Sud. Boca Alumni no se presentó."
+  },
+  {
+   "id": "1923-132",
+   "date": "1923-06-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "progresista",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-133",
+   "date": "1923-06-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "alvear",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-134",
+   "date": "1923-06-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-135",
+   "date": "1923-06-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "palermo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-136",
+   "date": "1923-06-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense-retiro",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-137",
+   "date": "1923-06-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "villa-urquiza",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-138",
+   "date": "1923-06-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-139",
+   "date": "1923-06-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "argentino-banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-140",
+   "date": "1923-06-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-141",
+   "date": "1923-06-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "villa-urquiza",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-142",
+   "date": "1923-06-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-143",
+   "date": "1923-06-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "temperley",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-144",
+   "date": "1923-06-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca-alumni",
+   "awayId": "alvear",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-145",
+   "date": "1923-06-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "el-porvenir",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-146",
+   "date": "1923-06-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-147",
+   "date": "1923-06-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "platense-retiro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-148",
+   "date": "1923-06-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "argentino-banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-149",
+   "date": "1923-06-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-150",
+   "date": "1923-06-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-151",
+   "date": "1923-06-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "del-plata",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-152",
+   "date": "1923-06-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "san-fernando",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-153",
+   "date": "1923-06-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca-alumni",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-154",
+   "date": "1923-06-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-155",
+   "date": "1923-06-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "alvear",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-156",
+   "date": "1923-06-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-157",
+   "date": "1923-06-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-158",
+   "date": "1923-06-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-159",
+   "date": "1923-06-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "platense-retiro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-160",
+   "date": "1923-06-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "villa-urquiza",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-161",
+   "date": "1923-06-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-palermo",
+   "awayId": "progresista",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-162",
+   "date": "1923-06-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-163",
+   "date": "1923-07-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "argentino-banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-164",
+   "date": "1923-07-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "alvear",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-165",
+   "date": "1923-07-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-166",
+   "date": "1923-07-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "el-porvenir",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-167",
+   "date": "1923-07-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "platense-retiro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-168",
+   "date": "1923-07-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-169",
+   "date": "1923-07-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "del-plata",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-170",
+   "date": "1923-07-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-171",
+   "date": "1923-07-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "boca-alumni",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-172",
+   "date": "1923-07-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "palermo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-173",
+   "date": "1923-07-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-174",
+   "date": "1923-07-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "el-porvenir",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-175",
+   "date": "1923-07-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "boca-alumni",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-176",
+   "date": "1923-07-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "temperley",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-177",
+   "date": "1923-07-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "villa-urquiza",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-178",
+   "date": "1923-07-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "progresista",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-179",
+   "date": "1923-07-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-180",
+   "date": "1923-07-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-181",
+   "date": "1923-07-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "nueva-chicago",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-182",
+   "date": "1923-07-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-183",
+   "date": "1923-07-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "alvear",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-184",
+   "date": "1923-07-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "san-fernando",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-185",
+   "date": "1923-07-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense-retiro",
+   "awayId": "progresista",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-186",
+   "date": "1923-07-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "boca-alumni",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-187",
+   "date": "1923-07-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-188",
+   "date": "1923-07-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-189",
+   "date": "1923-07-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-190",
+   "date": "1923-08-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "argentino-banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-191",
+   "date": "1923-08-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-192",
+   "date": "1923-08-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "el-porvenir",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-193",
+   "date": "1923-08-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-194",
+   "date": "1923-08-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense-retiro",
+   "awayId": "alvear",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-195",
+   "date": "1923-08-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-196",
+   "date": "1923-08-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "boca-alumni",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-197",
+   "date": "1923-08-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-198",
+   "date": "1923-08-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-199",
+   "date": "1923-08-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "palermo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-200",
+   "date": "1923-08-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "del-plata",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-201",
+   "date": "1923-08-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "del-plata",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-202",
+   "date": "1923-08-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-203",
+   "date": "1923-08-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "boca-alumni",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-204",
+   "date": "1923-08-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-205",
+   "date": "1923-08-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "alvear",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-206",
+   "date": "1923-08-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense-retiro",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-207",
+   "date": "1923-08-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-208",
+   "date": "1923-08-15",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-209",
+   "date": "1923-09-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-210",
+   "date": "1923-09-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-211",
+   "date": "1923-09-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "alvear",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-212",
+   "date": "1923-09-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-213",
+   "date": "1923-09-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "boca-alumni",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-214",
+   "date": "1923-09-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "progresista",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-215",
+   "date": "1923-09-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "platense-retiro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-216",
+   "date": "1923-09-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "temperley",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-217",
+   "date": "1923-09-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "villa-urquiza",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-218",
+   "date": "1923-09-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-219",
+   "date": "1923-09-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "alvear",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-220",
+   "date": "1923-09-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-221",
+   "date": "1923-09-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "platense-retiro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-222",
+   "date": "1923-09-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-223",
+   "date": "1923-09-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-224",
+   "date": "1923-09-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "san-fernando",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-225",
+   "date": "1923-09-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-226",
+   "date": "1923-09-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "temperley",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-227",
+   "date": "1923-09-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-228",
+   "date": "1923-09-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "alvear",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-229",
+   "date": "1923-09-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca-alumni",
+   "awayId": "palermo",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-230",
+   "date": "1923-09-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "villa-urquiza",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-231",
+   "date": "1923-10-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "alvear",
+   "awayId": "boca-alumni",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-232",
+   "date": "1923-10-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-233",
+   "date": "1923-10-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "palermo",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-234",
+   "date": "1923-10-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "villa-urquiza",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "villa-urquiza",
+   "note": "No se jugó: los puntos fueron para Villa Urquiza. Estudiantes LP no se presentó."
+  },
+  {
+   "id": "1923-235",
+   "date": "1923-10-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-236",
+   "date": "1923-10-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "all-boys",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-237",
+   "date": "1923-10-14",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-238",
+   "date": "1923-10-14",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "palermo",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-239",
+   "date": "1923-10-14",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-240",
+   "date": "1923-10-14",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-241",
+   "date": "1923-10-14",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "temperley",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-242",
+   "date": "1923-10-14",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-244",
+   "date": "1923-10-21",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "boca-alumni",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-245",
+   "date": "1923-10-21",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "alvear",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-246",
+   "date": "1923-10-21",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-247",
+   "date": "1923-10-21",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-248",
+   "date": "1923-10-21",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "progresista",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-249",
+   "date": "1923-10-21",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-250",
+   "date": "1923-10-21",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-251",
+   "date": "1923-10-28",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-252",
+   "date": "1923-10-28",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "argentino-banfield",
+   "homeGoals": 4,
+   "awayGoals": 7,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-253",
+   "date": "1923-10-28",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "el-porvenir",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-254",
+   "date": "1923-10-28",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "platense-retiro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-255",
+   "date": "1923-10-28",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-256",
+   "date": "1923-10-28",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-257",
+   "date": "1923-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-258",
+   "date": "1923-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "alvear",
+   "awayId": "del-plata",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-259",
+   "date": "1923-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "el-porvenir",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-260",
+   "date": "1923-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "san-fernando",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-261",
+   "date": "1923-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "temperley",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-262",
+   "date": "1923-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "nueva-chicago",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-263",
+   "date": "1923-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "platense-retiro",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-264",
+   "date": "1923-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: replay of the match of October 14."
+  },
+  {
+   "id": "1923-265",
+   "date": "1923-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "boca-alumni",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-266",
+   "date": "1923-11-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "alvear",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-267",
+   "date": "1923-11-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "boca-alumni",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-268",
+   "date": "1923-11-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "villa-urquiza",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-269",
+   "date": "1923-11-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "progresista",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-270",
+   "date": "1923-11-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-271",
+   "date": "1923-11-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "argentino-banfield",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-272",
+   "date": "1923-11-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense-retiro",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-273",
+   "date": "1923-11-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-274",
+   "date": "1923-11-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-275",
+   "date": "1923-11-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "el-porvenir",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-276",
+   "date": "1923-11-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "alvear",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-277",
+   "date": "1923-11-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-278",
+   "date": "1923-11-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca-alumni",
+   "awayId": "progresista",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-279",
+   "date": "1923-11-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "villa-urquiza",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-280",
+   "date": "1923-11-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-281",
+   "date": "1923-11-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense-retiro",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-282",
+   "date": "1923-11-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-283",
+   "date": "1923-11-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "el-porvenir",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-284",
+   "date": "1923-11-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "del-plata",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-285",
+   "date": "1923-11-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "villa-urquiza",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-286",
+   "date": "1923-11-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "el-porvenir",
+   "awayId": "san-fernando",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-287",
+   "date": "1923-11-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "boca-alumni",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "palermo",
+   "note": "No se jugó: los puntos fueron para Palermo."
+  },
+  {
+   "id": "1923-288",
+   "date": "1923-11-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-289",
+   "date": "1923-11-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-290",
+   "date": "1923-11-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-291",
+   "date": "1923-11-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "alvear",
+   "awayId": "platense-retiro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-292",
+   "date": "1923-11-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "el-porvenir",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-293",
+   "date": "1923-11-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-294",
+   "date": "1923-11-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-295",
+   "date": "1923-11-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "boca-alumni",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-296",
+   "date": "1923-11-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "san-fernando",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-297",
+   "date": "1923-12-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "alvear",
+   "awayId": "el-porvenir",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-298",
+   "date": "1923-12-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "boca-alumni",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-299",
+   "date": "1923-12-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "san-fernando",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-300",
+   "date": "1923-12-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-301",
+   "date": "1923-12-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "palermo",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-302",
+   "date": "1923-12-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-303",
+   "date": "1923-12-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sportivo-barracas",
+   "awayId": "del-plata",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "sportivo-barracas",
+   "note": "No se jugó: los puntos fueron para Sportivo Barracas."
+  },
+  {
+   "id": "1923-304",
+   "date": "1923-12-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "argentinos",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-305",
+   "date": "1923-12-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "argentino-banfield",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 70 minutos."
+  },
+  {
+   "id": "1923-306",
+   "date": "1923-12-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-307",
+   "date": "1923-12-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "progresista",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-308",
+   "date": "1923-12-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-309",
+   "date": "1923-12-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-310",
+   "date": "1923-12-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca-alumni",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 9,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-311",
+   "date": "1923-12-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "del-plata",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-312",
+   "date": "1923-12-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-313",
+   "date": "1923-12-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense-retiro",
+   "awayId": "villa-urquiza",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-314",
+   "date": "1923-12-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-fernando",
+   "awayId": "palermo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-315",
+   "date": "1923-12-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "huracan",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-316",
+   "date": "1923-12-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "el-porvenir",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-317",
+   "date": "1923-12-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-318",
+   "date": "1923-12-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "alvear",
+   "awayId": "san-fernando",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-319",
+   "date": "1923-12-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-banfield",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-320",
+   "date": "1923-12-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "del-plata",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-321",
+   "date": "1923-12-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "temperley",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-322",
+   "date": "1923-12-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense-retiro",
+   "awayId": "el-porvenir",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-323",
+   "date": "1923-12-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-324",
+   "date": "1923-12-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "progresista",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-325",
+   "date": "1923-12-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "colegiales",
+   "awayId": "boca-alumni",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-326",
+   "date": "1923-12-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "villa-urquiza",
+   "awayId": "palermo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1923-327",
+   "date": "1924-03-16",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Desempate por el título",
+   "phase": "playoff",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "venue": "Cancha de Sportivo Barracas"
+  },
+  {
+   "id": "1923-328",
+   "date": "1924-03-30",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Desempate por el título",
+   "phase": "playoff",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "venue": "Cancha de Sportivo Barracas"
+  },
+  {
+   "id": "1923-329",
+   "date": "1924-04-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Desempate por el título",
+   "phase": "playoff",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "venue": "Cancha de GEBA",
+   "note": "0-0 continued after extra time"
+  },
+  {
+   "id": "1923-330",
+   "date": "1924-04-27",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Desempate por el título",
+   "phase": "playoff",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "venue": "Cancha de Sportivo Barracas, in extra time as regular time ended 0-0"
+  }
+ ]
+}

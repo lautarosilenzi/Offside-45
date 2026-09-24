@@ -8,7 +8,15 @@ import type { TournamentConfig } from "./config";
 
 const CACHE = join(process.cwd(), ".cache", "wiki");
 
+// Algunas páginas escriben las tablas con sangría ("  |- ", "    ||1.º||"): se normaliza.
+const unindent = (t: string) => t.replace(/^[ \t]+(?=[|!{])/gm, "");
+
 export async function fetchWiki(title: string): Promise<string | null> {
+  const raw = await fetchWikiRaw(title);
+  return raw === null ? null : unindent(raw);
+}
+
+async function fetchWikiRaw(title: string): Promise<string | null> {
   mkdirSync(CACHE, { recursive: true });
   const path = join(CACHE, `${title.replace(/[^\w()-]+/g, "_")}.txt`);
   if (!existsSync(path)) {

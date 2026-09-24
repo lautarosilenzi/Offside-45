@@ -85,7 +85,9 @@ export function parseSeason(source: string): RawSection[] {
   const text = decode(
     html
       .replace(/<br\s*\/?>/gi, "\n")
-      .replace(/<\/?(h[1-6]|p|pre|table|tr|div)[^>]*>/gi, "\n")
+      .replace(/<\/?(h[1-6]|p|table|tr|div)[^>]*>/gi, "\n")
+      // <pre> no agrega saltos: algunas páginas (1925) abren un <pre> por cada fila de la tabla.
+      .replace(/<\/?pre[^>]*>/gi, "")
       .replace(/<(h[1-6])[^>]*>/gi, "\n"),
   );
   const headings = new Set(
@@ -102,10 +104,9 @@ export function parseSeason(source: string): RawSection[] {
   lines.forEach((raw, i) => {
     const line = raw.replace(/\s+$/, "");
     const trimmed = line.trim();
-    if (!trimmed) {
-      table = null;
-      return;
-    }
+    // Los renglones vacíos no cortan la tabla (algunas páginas dejan uno entre cada fila);
+    // la corta cualquier otra línea que no sea fila, separador o encabezado.
+    if (!trimmed || trimmed === "&nbsp;") return;
     // Algunas páginas (1920, 1923) marcan cada liga con una línea en negrita en lugar de un título.
     const leagueLine = /^(Asociaci[oó]n (Argentina|Amateurs?)( Argentina)? de Football|Federaci[oó]n Argentina de Football)$/i.test(trimmed);
     if ((headings.has(trimmed.replace(/\s+/g, " ")) || leagueLine) && !/^About this document$/i.test(trimmed)) {
@@ -167,6 +168,7 @@ export function parseSeason(source: string): RawSection[] {
       });
       return;
     }
+    if (!/^[-\s=]+$/.test(trimmed) && !/^(No\.?\s*Team|#\.|Table:?)/i.test(trimmed)) table = null;
     const r = trimmed.match(ROUND_RE);
     if (r) {
       round = r[1].trim();

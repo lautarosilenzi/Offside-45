@@ -90,7 +90,8 @@ const ALIASES: Alias[] = [
   { id: "argentino-banfield", names: ["Argentino de Banfield", "Club Argentino de Banfield"] },
   { id: "argentino-del-sud", names: ["Argentino del Sud", "Argentinos del Sud", "Club Argentino del Sud", "Club Atlético Argentino del Sud"] },
   { id: "temperley", names: ["Temperley", "Club Atlético Temperley"] },
-  { id: "villa-urquiza", names: ["Villa Urquiza", "Club Villa Urquiza"] },
+  // Wikipedia 1924: "Urquiza" es el Club Villa Urquiza.
+  { id: "villa-urquiza", names: ["Villa Urquiza", "Club Villa Urquiza", "Urquiza"] },
   { id: "all-boys", names: ["All Boys", "Club Atlético All Boys"] },
   { id: "liberal-argentino", names: ["Liberal Argentino", "Club Liberal Argentino"] },
   { id: "sportsman", names: ["Sportsman", "Club Atlético Sportsman"] },
