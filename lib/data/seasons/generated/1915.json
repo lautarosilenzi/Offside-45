@@ -1,0 +1,4305 @@
+{
+ "slug": "1915",
+ "year": 1915,
+ "title": "Campeonato 1915",
+ "tournament": "Copa Campeonato 1915",
+ "organizer": "Asociación Argentina de Football (con la Federación ya reincorporada)",
+ "championIds": [
+  "racing"
+ ],
+ "summary": "Primer torneo tras la reunificación con la Federación: 25 equipos a una rueda. San Isidro terminó primero, pero Racing, que tenía partidos pendientes, lo alcanzó; en el desempate jugado en cancha de Independiente ganó Racing 1-0 y consiguió su tercer título seguido, invicto. Debutó San Lorenzo.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1915",
+   "url": "https://www.rsssf.org/tablesa/arg15.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1915 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1915_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a una rueda entre 25 equipos, 2 puntos por victoria. El empate en el primer puesto se resolvió con un desempate."
+  },
+  {
+   "kind": "puntos",
+   "text": "Racing y San Isidro terminaron igualados. Desempate en la cancha de Independiente: Racing 1-0."
+  },
+  {
+   "kind": "puntos",
+   "text": "Racing había perdido 2-1 con Independiente, pero se le dieron los puntos por la mala inclusión de Victorio Cappelletti en Independiente."
+  },
+  {
+   "kind": "descalificacion",
+   "text": "Descendieron Kimberley, Defensores de Belgrano, Comercio y Floresta."
+  },
+  {
+   "kind": "puntos",
+   "text": "Banfield también perdió por escritorio los puntos de dos partidos (con Porteño y con San Isidro)."
+  },
+  {
+   "kind": "fuentes",
+   "text": "La tabla de Wikipedia no cuenta los goles de los partidos definidos por escritorio y difiere en los goles de siete equipos; los puntos y las posiciones coinciden. Se usan los resultados de RSSSF, que cierran con su tabla."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "racing",
+   "played": 24,
+   "won": 22,
+   "drawn": 2,
+   "lost": 0,
+   "goalsFor": 96,
+   "goalsAgainst": 7,
+   "points": 46
+  },
+  {
+   "teamId": "san-isidro",
+   "played": 24,
+   "won": 22,
+   "drawn": 2,
+   "lost": 0,
+   "goalsFor": 73,
+   "goalsAgainst": 13,
+   "points": 46
+  },
+  {
+   "teamId": "river",
+   "played": 24,
+   "won": 16,
+   "drawn": 6,
+   "lost": 2,
+   "goalsFor": 58,
+   "goalsAgainst": 17,
+   "points": 38
+  },
+  {
+   "teamId": "porteno",
+   "played": 24,
+   "won": 17,
+   "drawn": 2,
+   "lost": 5,
+   "goalsFor": 58,
+   "goalsAgainst": 28,
+   "points": 36
+  },
+  {
+   "teamId": "platense",
+   "played": 24,
+   "won": 14,
+   "drawn": 4,
+   "lost": 6,
+   "goalsFor": 43,
+   "goalsAgainst": 26,
+   "points": 32
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 24,
+   "won": 13,
+   "drawn": 6,
+   "lost": 5,
+   "goalsFor": 45,
+   "goalsAgainst": 29,
+   "points": 32
+  },
+  {
+   "teamId": "huracan",
+   "played": 24,
+   "won": 11,
+   "drawn": 6,
+   "lost": 7,
+   "goalsFor": 40,
+   "goalsAgainst": 26,
+   "points": 28
+  },
+  {
+   "teamId": "independiente",
+   "played": 24,
+   "won": 11,
+   "drawn": 5,
+   "lost": 8,
+   "goalsFor": 42,
+   "goalsAgainst": 23,
+   "points": 27
+  },
+  {
+   "teamId": "estudiantes-ba",
+   "played": 24,
+   "won": 12,
+   "drawn": 3,
+   "lost": 9,
+   "goalsFor": 38,
+   "goalsAgainst": 33,
+   "points": 27
+  },
+  {
+   "teamId": "ferro",
+   "played": 24,
+   "won": 8,
+   "drawn": 8,
+   "lost": 8,
+   "goalsFor": 38,
+   "goalsAgainst": 32,
+   "points": 24
+  },
+  {
+   "teamId": "argentino-quilmes",
+   "played": 24,
+   "won": 11,
+   "drawn": 2,
+   "lost": 11,
+   "goalsFor": 32,
+   "goalsAgainst": 43,
+   "points": 24
+  },
+  {
+   "teamId": "gimnasia-ba",
+   "played": 24,
+   "won": 9,
+   "drawn": 5,
+   "lost": 10,
+   "goalsFor": 39,
+   "goalsAgainst": 43,
+   "points": 23
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 24,
+   "won": 10,
+   "drawn": 3,
+   "lost": 11,
+   "goalsFor": 38,
+   "goalsAgainst": 46,
+   "points": 23
+  },
+  {
+   "teamId": "boca",
+   "played": 24,
+   "won": 8,
+   "drawn": 6,
+   "lost": 10,
+   "goalsFor": 32,
+   "goalsAgainst": 38,
+   "points": 22
+  },
+  {
+   "teamId": "banfield",
+   "played": 24,
+   "won": 9,
+   "drawn": 3,
+   "lost": 12,
+   "goalsFor": 36,
+   "goalsAgainst": 46,
+   "points": 21
+  },
+  {
+   "teamId": "quilmes",
+   "played": 24,
+   "won": 7,
+   "drawn": 7,
+   "lost": 10,
+   "goalsFor": 19,
+   "goalsAgainst": 26,
+   "points": 21
+  },
+  {
+   "teamId": "columbian",
+   "played": 24,
+   "won": 8,
+   "drawn": 4,
+   "lost": 12,
+   "goalsFor": 39,
+   "goalsAgainst": 50,
+   "points": 20
+  },
+  {
+   "teamId": "tigre",
+   "played": 24,
+   "won": 8,
+   "drawn": 4,
+   "lost": 12,
+   "goalsFor": 21,
+   "goalsAgainst": 40,
+   "points": 20
+  },
+  {
+   "teamId": "estudiantil-porteno",
+   "played": 24,
+   "won": 9,
+   "drawn": 1,
+   "lost": 14,
+   "goalsFor": 34,
+   "goalsAgainst": 54,
+   "points": 19
+  },
+  {
+   "teamId": "belgrano-athletic",
+   "played": 24,
+   "won": 8,
+   "drawn": 2,
+   "lost": 14,
+   "goalsFor": 32,
+   "goalsAgainst": 47,
+   "points": 18
+  },
+  {
+   "teamId": "atlanta",
+   "played": 24,
+   "won": 7,
+   "drawn": 1,
+   "lost": 16,
+   "goalsFor": 18,
+   "goalsAgainst": 53,
+   "points": 15
+  },
+  {
+   "teamId": "kimberley",
+   "played": 24,
+   "won": 5,
+   "drawn": 4,
+   "lost": 15,
+   "goalsFor": 23,
+   "goalsAgainst": 45,
+   "points": 14
+  },
+  {
+   "teamId": "defensores-belgrano",
+   "played": 24,
+   "won": 4,
+   "drawn": 4,
+   "lost": 16,
+   "goalsFor": 26,
+   "goalsAgainst": 57,
+   "points": 12
+  },
+  {
+   "teamId": "comercio",
+   "played": 24,
+   "won": 2,
+   "drawn": 3,
+   "lost": 19,
+   "goalsFor": 20,
+   "goalsAgainst": 73,
+   "points": 7
+  },
+  {
+   "teamId": "floresta",
+   "played": 24,
+   "won": 1,
+   "drawn": 3,
+   "lost": 20,
+   "goalsFor": 15,
+   "goalsAgainst": 60,
+   "points": 5
+  }
+ ],
+ "matches": [
+  {
+   "id": "1915-001",
+   "date": "1915-04-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-002",
+   "date": "1915-04-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-003",
+   "date": "1915-04-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-004",
+   "date": "1915-04-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 7,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-005",
+   "date": "1915-04-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sanlorenzo",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-006",
+   "date": "1915-04-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-007",
+   "date": "1915-04-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-008",
+   "date": "1915-04-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "kimberley",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-009",
+   "date": "1915-04-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-010",
+   "date": "1915-04-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-011",
+   "date": "1915-04-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "comercio",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-012",
+   "date": "1915-04-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-013",
+   "date": "1915-04-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-014",
+   "date": "1915-04-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-015",
+   "date": "1915-04-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-016",
+   "date": "1915-04-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-017",
+   "date": "1915-04-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-018",
+   "date": "1915-04-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-019",
+   "date": "1915-04-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-020",
+   "date": "1915-04-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-021",
+   "date": "1915-04-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 1,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-022",
+   "date": "1915-04-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-023",
+   "date": "1915-04-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "kimberley",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-024",
+   "date": "1915-04-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-026",
+   "date": "1915-04-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-027",
+   "date": "1915-04-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-028",
+   "date": "1915-04-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Quilmes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-029",
+   "date": "1915-04-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "kimberley",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-030",
+   "date": "1915-04-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-031",
+   "date": "1915-04-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-032",
+   "date": "1915-04-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-033",
+   "date": "1915-04-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-034",
+   "date": "1915-04-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-035",
+   "date": "1915-04-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-036",
+   "date": "1915-04-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Tigre",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-037",
+   "date": "1915-05-09",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-038",
+   "date": "1915-05-09",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-039",
+   "date": "1915-05-09",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-040",
+   "date": "1915-05-09",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-041",
+   "date": "1915-05-09",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Estudiantes (BA)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-042",
+   "date": "1915-05-09",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "comercio",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-043",
+   "date": "1915-05-09",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-044",
+   "date": "1915-05-09",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-045",
+   "date": "1915-05-09",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-046",
+   "date": "1915-05-09",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "banfield",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-047",
+   "date": "1915-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-048",
+   "date": "1915-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-049",
+   "date": "1915-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Quilmes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-050",
+   "date": "1915-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-051",
+   "date": "1915-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-052",
+   "date": "1915-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-053",
+   "date": "1915-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "kimberley",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Kimberley",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-054",
+   "date": "1915-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 7,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-055",
+   "date": "1915-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "floresta",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-056",
+   "date": "1915-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "defensores-belgrano",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-057",
+   "date": "1915-05-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-058",
+   "date": "1915-05-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-059",
+   "date": "1915-05-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-060",
+   "date": "1915-05-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-061",
+   "date": "1915-05-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-062",
+   "date": "1915-05-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "comercio",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-063",
+   "date": "1915-05-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-064",
+   "date": "1915-05-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-065",
+   "date": "1915-05-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-066",
+   "date": "1915-05-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-067",
+   "date": "1915-05-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "kimberley",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de All Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-068",
+   "date": "1915-05-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-069",
+   "date": "1915-05-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "floresta",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-070",
+   "date": "1915-05-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-071",
+   "date": "1915-05-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-072",
+   "date": "1915-05-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-073",
+   "date": "1915-05-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 6,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-074",
+   "date": "1915-05-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-075",
+   "date": "1915-05-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "banfield",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-076",
+   "date": "1915-05-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "floresta",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-077",
+   "date": "1915-05-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "kimberley",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-078",
+   "date": "1915-05-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-079",
+   "date": "1915-05-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-080",
+   "date": "1915-05-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-081",
+   "date": "1915-05-23",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-082",
+   "date": "1915-05-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "floresta",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-083",
+   "date": "1915-05-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de All Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-084",
+   "date": "1915-06-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-085",
+   "date": "1915-06-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-086",
+   "date": "1915-06-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-087",
+   "date": "1915-06-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-088",
+   "date": "1915-06-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "estudiantil-porteno",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-089",
+   "date": "1915-06-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-090",
+   "date": "1915-06-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-091",
+   "date": "1915-06-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "floresta",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-092",
+   "date": "1915-06-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-093",
+   "date": "1915-06-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-094",
+   "date": "1915-06-06",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-095",
+   "date": "1915-06-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "floresta",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-096",
+   "date": "1915-06-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-097",
+   "date": "1915-06-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-098",
+   "date": "1915-06-13",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-099",
+   "date": "1915-06-20",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-100",
+   "date": "1915-06-20",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-101",
+   "date": "1915-06-20",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-102",
+   "date": "1915-06-20",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Belgrano Athletic",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-103",
+   "date": "1915-06-20",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-104",
+   "date": "1915-06-20",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "comercio",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-105",
+   "date": "1915-06-20",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-106",
+   "date": "1915-06-20",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "estudiantes",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-107",
+   "date": "1915-06-20",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-108",
+   "date": "1915-06-20",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "floresta",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-109",
+   "date": "1915-06-20",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-110",
+   "date": "1915-06-27",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "floresta",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de All Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-111",
+   "date": "1915-06-27",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-112",
+   "date": "1915-06-27",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-113",
+   "date": "1915-06-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "floresta",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de All Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-114",
+   "date": "1915-06-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-115",
+   "date": "1915-06-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "tigre",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-116",
+   "date": "1915-06-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-117",
+   "date": "1915-06-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-118",
+   "date": "1915-06-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-119",
+   "date": "1915-06-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-120",
+   "date": "1915-06-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-121",
+   "date": "1915-06-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-122",
+   "date": "1915-06-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-123",
+   "date": "1915-06-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-124",
+   "date": "1915-07-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-125",
+   "date": "1915-07-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-126",
+   "date": "1915-07-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-127",
+   "date": "1915-07-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-128",
+   "date": "1915-07-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-129",
+   "date": "1915-07-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "racing",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 0,
+   "awayGoals": 7,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-130",
+   "date": "1915-07-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-131",
+   "date": "1915-07-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Unión Excursionistas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-132",
+   "date": "1915-07-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-133",
+   "date": "1915-07-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "floresta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-134",
+   "date": "1915-07-04",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-135",
+   "date": "1915-07-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-136",
+   "date": "1915-07-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "floresta",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-137",
+   "date": "1915-07-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-138",
+   "date": "1915-07-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "comercio",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-139",
+   "date": "1915-07-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-140",
+   "date": "1915-07-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-141",
+   "date": "1915-07-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-142",
+   "date": "1915-07-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "platense",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-143",
+   "date": "1915-07-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-144",
+   "date": "1915-07-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-145",
+   "date": "1915-07-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "floresta",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-146",
+   "date": "1915-07-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-147",
+   "date": "1915-07-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-148",
+   "date": "1915-07-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-149",
+   "date": "1915-07-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-150",
+   "date": "1915-07-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-151",
+   "date": "1915-07-18",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-152",
+   "date": "1915-07-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-153",
+   "date": "1915-07-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "comercio",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-154",
+   "date": "1915-07-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-155",
+   "date": "1915-07-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "estudiantes-ba",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-156",
+   "date": "1915-07-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "floresta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-157",
+   "date": "1915-07-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-158",
+   "date": "1915-07-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-159",
+   "date": "1915-07-25",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-160",
+   "date": "1915-08-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-161",
+   "date": "1915-08-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-162",
+   "date": "1915-08-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-163",
+   "date": "1915-08-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-164",
+   "date": "1915-08-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-165",
+   "date": "1915-08-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-166",
+   "date": "1915-08-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-167",
+   "date": "1915-08-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "kimberley",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-168",
+   "date": "1915-08-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-169",
+   "date": "1915-08-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "huracan",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-170",
+   "date": "1915-08-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-171",
+   "date": "1915-08-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "floresta",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Unión Excursionistas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-172",
+   "date": "1915-08-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-173",
+   "date": "1915-08-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-174",
+   "date": "1915-08-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-175",
+   "date": "1915-08-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-176",
+   "date": "1915-08-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "floresta",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-177",
+   "date": "1915-08-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-178",
+   "date": "1915-08-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-179",
+   "date": "1915-08-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-180",
+   "date": "1915-08-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-181",
+   "date": "1915-08-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-182",
+   "date": "1915-08-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-183",
+   "date": "1915-08-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "ferro",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-184",
+   "date": "1915-08-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-185",
+   "date": "1915-08-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-186",
+   "date": "1915-08-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-187",
+   "date": "1915-08-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "floresta",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-188",
+   "date": "1915-08-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-189",
+   "date": "1915-08-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-190",
+   "date": "1915-08-22",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-191",
+   "date": "1915-08-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "independiente",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-192",
+   "date": "1915-08-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "kimberley",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-193",
+   "date": "1915-08-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-194",
+   "date": "1915-08-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-195",
+   "date": "1915-08-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-196",
+   "date": "1915-08-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-197",
+   "date": "1915-08-29",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "gimnasia-ba",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-198",
+   "date": "1915-08-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-199",
+   "date": "1915-08-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-200",
+   "date": "1915-08-30",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-201",
+   "date": "1915-09-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "kimberley",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-202",
+   "date": "1915-09-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "comercio",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-203",
+   "date": "1915-09-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "ferro",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-204",
+   "date": "1915-09-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-205",
+   "date": "1915-09-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-206",
+   "date": "1915-09-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-207",
+   "date": "1915-09-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-208",
+   "date": "1915-09-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "belgrano-athletic",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-209",
+   "date": "1915-09-12",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-210",
+   "date": "1915-09-12",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-211",
+   "date": "1915-09-12",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-212",
+   "date": "1915-09-12",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "comercio",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-213",
+   "date": "1915-09-12",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "floresta",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-214",
+   "date": "1915-09-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-215",
+   "date": "1915-09-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-216",
+   "date": "1915-09-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-217",
+   "date": "1915-09-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "sanlorenzo",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-218",
+   "date": "1915-09-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-219",
+   "date": "1915-09-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-220",
+   "date": "1915-09-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-221",
+   "date": "1915-09-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-222",
+   "date": "1915-09-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-223",
+   "date": "1915-09-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "comercio",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-224",
+   "date": "1915-09-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "floresta",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-225",
+   "date": "1915-09-26",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "kimberley",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-226",
+   "date": "1915-09-26",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-227",
+   "date": "1915-09-26",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-228",
+   "date": "1915-09-26",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-229",
+   "date": "1915-09-26",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-230",
+   "date": "1915-09-26",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-231",
+   "date": "1915-10-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-232",
+   "date": "1915-10-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-233",
+   "date": "1915-10-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-234",
+   "date": "1915-10-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-235",
+   "date": "1915-10-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-236",
+   "date": "1915-10-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-237",
+   "date": "1915-10-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "kimberley",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-238",
+   "date": "1915-10-03",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "floresta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-239",
+   "date": "1915-10-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-240",
+   "date": "1915-10-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "san-isidro",
+   "awayId": "boca",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-241",
+   "date": "1915-10-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-242",
+   "date": "1915-10-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "river",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-243",
+   "date": "1915-10-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "porteno",
+   "note": "La liga le quitó los puntos a Banfield y se los dio al rival."
+  },
+  {
+   "id": "1915-244",
+   "date": "1915-10-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-245",
+   "date": "1915-10-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-246",
+   "date": "1915-10-10",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "floresta",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-247",
+   "date": "1915-10-16",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "sanlorenzo",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-248",
+   "date": "1915-10-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-249",
+   "date": "1915-10-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-250",
+   "date": "1915-10-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "tigre",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-251",
+   "date": "1915-10-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-252",
+   "date": "1915-10-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-253",
+   "date": "1915-10-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "floresta",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-254",
+   "date": "1915-10-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-255",
+   "date": "1915-10-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "defensores-belgrano",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-256",
+   "date": "1915-10-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-257",
+   "date": "1915-10-17",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "comercio",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "estudiantil-porteno",
+   "note": "No se jugó: los puntos fueron para Estudiantil Porteño."
+  },
+  {
+   "id": "1915-258",
+   "date": "1915-10-24",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-259",
+   "date": "1915-10-24",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "columbian",
+   "awayId": "san-isidro",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-260",
+   "date": "1915-10-24",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-261",
+   "date": "1915-10-24",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "floresta",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-262",
+   "date": "1915-10-24",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-263",
+   "date": "1915-10-24",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-264",
+   "date": "1915-10-24",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-265",
+   "date": "1915-10-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-266",
+   "date": "1915-10-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "san-isidro",
+   "note": "La liga le quitó los puntos a Banfield y se los dio al rival."
+  },
+  {
+   "id": "1915-267",
+   "date": "1915-10-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-268",
+   "date": "1915-10-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-269",
+   "date": "1915-10-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-270",
+   "date": "1915-10-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-271",
+   "date": "1915-10-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-272",
+   "date": "1915-10-31",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "comercio",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "argentino-quilmes",
+   "note": "No se jugó: los puntos fueron para Argentino de Quilmes."
+  },
+  {
+   "id": "1915-273",
+   "date": "1915-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "kimberley",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-274",
+   "date": "1915-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-275",
+   "date": "1915-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Argentino de Quilmes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-276",
+   "date": "1915-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "floresta",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-277",
+   "date": "1915-11-01",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "El partido original (18/4) se suspendió con 0-4 y se volvió a jugar en esta fecha."
+  },
+  {
+   "id": "1915-278",
+   "date": "1915-11-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-279",
+   "date": "1915-11-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-280",
+   "date": "1915-11-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "gimnasia-ba",
+   "awayId": "comercio",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-281",
+   "date": "1915-11-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "tigre",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-282",
+   "date": "1915-11-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-283",
+   "date": "1915-11-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-284",
+   "date": "1915-11-07",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-285",
+   "date": "1915-11-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-286",
+   "date": "1915-11-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-287",
+   "date": "1915-11-11",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "huracan",
+   "note": "No se jugó: los puntos fueron para Huracán."
+  },
+  {
+   "id": "1915-288",
+   "date": "1915-11-14",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "porteno",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-289",
+   "date": "1915-11-14",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "tigre",
+   "note": "No se jugó: los puntos fueron para Tigre."
+  },
+  {
+   "id": "1915-290",
+   "date": "1915-11-21",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-291",
+   "date": "1915-11-21",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "porteno",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-292",
+   "date": "1915-11-28",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-293",
+   "date": "1915-11-28",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantil-porteno",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-294",
+   "date": "1915-11-28",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-295",
+   "date": "1915-11-28",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "comercio",
+   "awayId": "floresta",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "comercio",
+   "note": "No se jugó: los puntos fueron para Comercio."
+  },
+  {
+   "id": "1915-296",
+   "date": "1915-12-05",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "argentino-quilmes",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 8,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-297",
+   "date": "1915-12-08",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-298",
+   "date": "1915-12-12",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "racing",
+   "note": "La liga le quitó los puntos a Independiente y se los dio al rival."
+  },
+  {
+   "id": "1915-299",
+   "date": "1915-12-19",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "kimberley",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-300",
+   "date": "1915-12-26",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "platense",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-301",
+   "date": "1916-01-02",
+   "competition": "Asociación Argentina de Football",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1915-302",
+   "date": "1915-01-06",
+   "competition": "Asociación Argentina de Football",
+   "stage": "Desempate",
+   "phase": "playoff",
+   "homeId": "racing",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: A.Marcovecchio 6."
+  }
+ ]
+}

@@ -48,6 +48,9 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   // 1914–
   ["floresta", "Floresta", "FLR", "Club Sportivo Floresta"],
   ["remedios-escalada", "Remedios de Escalada", "RDE", "Remedios de Escalada (Lanús)"],
+  // 1915–
+  ["defensores-belgrano", "Defensores de Belgrano", "DDB", "Club Atlético Defensores de Belgrano"],
+  ["sportivo-barracas", "Sportivo Barracas", "SBA", "Club Sportivo Barracas"],
 ];
 
 export const HISTORIC_CLUBS: Team[] = OTHER_CLUBS.map(([id, name, shortName, fullName]) => ({

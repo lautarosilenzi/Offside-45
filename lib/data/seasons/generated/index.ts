@@ -21,5 +21,9 @@ import S_1913_faf from "./1913-faf.json";
 import S_1913 from "./1913.json";
 import S_1914_faf from "./1914-faf.json";
 import S_1914 from "./1914.json";
+import S_1915 from "./1915.json";
+import S_1916 from "./1916.json";
+import S_1917 from "./1917.json";
+import S_1918 from "./1918.json";
 
-export const GENERATED_SEASONS = [S_1897, S_1898, S_1899, S_1900, S_1901, S_1902, S_1903, S_1904, S_1905, S_1906, S_1907, S_1908, S_1909, S_1910, S_1911, S_1912_faf, S_1912, S_1913_faf, S_1913, S_1914_faf, S_1914] as Season[];
+export const GENERATED_SEASONS = [S_1897, S_1898, S_1899, S_1900, S_1901, S_1902, S_1903, S_1904, S_1905, S_1906, S_1907, S_1908, S_1909, S_1910, S_1911, S_1912_faf, S_1912, S_1913_faf, S_1913, S_1914_faf, S_1914, S_1915, S_1916, S_1917, S_1918] as Season[];

@@ -144,6 +144,27 @@ export function parseSeason(source: string): RawSection[] {
       });
       return;
     }
+    // Filas de equipos empatados en puesto: sin número adelante ("    San Isidro   24 22 2 0 73 13 46").
+    const tie = table
+      ? line.match(/^\s{2,}([A-Za-zÀ-ÿ'"().&\- ]+?)\s{2,}(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(~?\s*\d+)\s*[:\-]?\s+(~?\s*\d+)\s+(\d+)(.*)$/)
+      : null;
+    if (tie && table) {
+      const t0 = table as RawTableRow[];
+      t0.push({
+        pos: t0[t0.length - 1].pos,
+        name: tie[1].trim(),
+        played: +tie[2],
+        won: +tie[3],
+        drawn: +tie[4],
+        lost: +tie[5],
+        goalsFor: Number(tie[6].replace(/[~\s]/g, "")),
+        goalsAgainst: Number(tie[7].replace(/[~\s]/g, "")),
+        points: +tie[8],
+        approx: /~/.test(tie[6] + tie[7]),
+        tail: tie[9].trim(),
+      });
+      return;
+    }
     const r = trimmed.match(ROUND_RE);
     if (r) {
       round = r[1].trim();

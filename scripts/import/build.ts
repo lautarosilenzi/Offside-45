@@ -31,7 +31,16 @@ function parseDate(raw: string, year: number, prevMonth: number): { iso: string;
 export function translateNote(
   note: string,
   year: number,
-): { venue?: string; text: string[]; annulled: boolean; unknown: string[]; continuedOn?: string; suspended?: boolean; replayed?: boolean } {
+): {
+  venue?: string;
+  text: string[];
+  annulled: boolean;
+  unknown: string[];
+  continuedOn?: string;
+  suspended?: boolean;
+  replayed?: boolean;
+  lostPointsBy?: string;
+} {
   const out = {
     venue: undefined as string | undefined,
     text: [] as string[],
@@ -40,6 +49,7 @@ export function translateNote(
     continuedOn: undefined as string | undefined,
     suspended: false,
     replayed: false,
+    lostPointsBy: undefined as string | undefined,
   };
   const parts = note
     .replace(/^\[|\]$/g, "")
@@ -92,7 +102,12 @@ export function translateNote(
     } else if ((m = p.match(/^(.+?) (?:withdrew championship|withdrew from the championship)$/i))) {
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} se había retirado del torneo.`);
-    } else if ((m = p.match(/^(.+?) gave up points(?: on (.+?))?\.?$/i))) {
+    } else if ((m = p.match(/^(.+?) lost points$/i))) {
+      const club = resolveName(m[1], year);
+      out.lostPointsBy = club?.id;
+      out.text.push(`La liga le quitó los puntos a ${club ? club.as ?? club.name : m[1]} y se los dio al rival.`);
+    } else if (/^annul+ed$/i.test(p)) out.annulled = true;
+    else if ((m = p.match(/^(.+?) gave up points(?: on (.+?))?\.?$/i))) {
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} cedió los puntos.`);
     } else if ((m = p.match(/^awarded on (.+)$/i))) out.text.push(`Resuelto por la liga (${m[1]}).`);
@@ -231,6 +246,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       warnings.push(`L${raw.line} ${raw.home}-${raw.away}: sin resultado ("${raw.score}") ${raw.note} → omitido`);
       continue;
     }
+    if (note.lostPointsBy) m.awardedTo = note.lostPointsBy === home.id ? away.id : home.id;
     if (note.annulled) {
       m.status = "annulled";
       note.text.unshift("Anulado: no suma en la tabla.");
