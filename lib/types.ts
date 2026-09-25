@@ -97,6 +97,9 @@ export type Match = {
   // Los goles de estos partidos no suman en ninguna estadística.
   scoreUnknown?: boolean;
   winnerId?: string;
+  // Se jugó, pero la liga lo resolvió por escritorio (awardedTo): se muestra el resultado de la cancha
+  // y sus goles no suman, como en las tablas de la época.
+  goalsVoid?: boolean;
   // "annulled": se jugó pero el torneo fue anulado; se muestra pero no suma en las estadísticas.
   status?: "official" | "annulled";
   // Cuando el resultado de la cancha no fue el que quedó oficialmente (puntos quitados, etc.).

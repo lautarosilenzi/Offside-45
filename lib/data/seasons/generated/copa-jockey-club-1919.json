@@ -1,0 +1,908 @@
+{
+ "slug": "copa-jockey-club-1919",
+ "kind": "cup",
+ "runnerUpIds": [
+  "central"
+ ],
+ "year": 1919,
+ "title": "Copa Jockey Club 1919",
+ "tournament": "Copa de Competencia Jockey Club",
+ "organizer": "Asociación Argentina de Football",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca Juniors ganó la Copa de Competencia Jockey Club: en la final le ganó 1-0 a Rosario Central. Participaron 47 equipos y se jugaron 54 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Jockey Club 1919",
+   "url": "https://www.rsssf.org/tablesa/arg-joc19.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Competencia Jockey Club 1919",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Competencia_Jockey_Club_1919"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Eliminación directa a un partido. Si había empate se jugaba alargue y, si seguía igual, un desempate en otra fecha."
+  },
+  {
+   "kind": "fuentes",
+   "text": "La fuente no da el día de algunos partidos: figuran con el año solo, sin fecha inventada."
+  },
+  {
+   "kind": "identidad",
+   "text": "La copa estaba abierta a equipos de Intermedia y de Segunda División, además de los de Primera."
+  },
+  {
+   "kind": "formato",
+   "text": "La Liga Rosarina clasificaba dos equipos a las semifinales."
+  },
+  {
+   "kind": "fuentes",
+   "text": "RSSSF no tiene el resultado de 12 partidos de la primera ronda (solo quién pasó). Cuando Wikipedia da el resultado con el mismo ganador, se completa y se aclara en el partido; el resto queda como \"resultado no registrado\"."
+  },
+  {
+   "kind": "fuentes",
+   "text": "RSSSF y Wikipedia no coinciden en algunos cruces: donde RSSSF pone a Balcarce, Wikipedia pone a Boca Alumni; donde RSSSF pone a Alumni (Olivos) contra Nueva Chicago, Wikipedia pone a Alvear; Wikipedia agrega un 1-1 entre Atlanta y Vélez antes del 0-3 y da a Almagro ganándole 1-0 a Eureka en cuartos, cuando para RSSSF ganó Eureka (que después jugó la semifinal). Se sigue a RSSSF."
+  },
+  {
+   "kind": "dato",
+   "text": "En cuartos de final, Racing, Defensores de Belgrano, Independiente y Vélez Sarsfield se fueron a la Asociación Amateurs y la copa se reprogramó con un cuadro nuevo: por eso algunos equipos eliminados antes volvieron a jugar."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-jockey-club-1919-001",
+   "date": "1919",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Sesentaicuatroavos de final",
+   "phase": "cup",
+   "homeId": "ca-alumni",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "scoreUnknown": true,
+   "winnerId": "nueva-chicago",
+   "note": "Resultado no registrado en los diarios de la época; solo se sabe cómo terminó."
+  },
+  {
+   "id": "copa-jockey-club-1919-002",
+   "date": "1919-05-29",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Sesentaicuatroavos de final",
+   "phase": "cup",
+   "homeId": "argentino-quilmes",
+   "awayId": "germinal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "scoreUnknown": true,
+   "winnerId": "argentino-quilmes",
+   "note": "RSSSF no registra la fecha; el dato es de Wikipedia. Resultado no registrado en los diarios de la época; solo se sabe cómo terminó."
+  },
+  {
+   "id": "copa-jockey-club-1919-003",
+   "date": "1919-05-29",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Sesentaicuatroavos de final",
+   "phase": "cup",
+   "homeId": "argentinos",
+   "awayId": "san-telmo",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha ni el resultado; los datos son de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-004",
+   "date": "1919",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Sesentaicuatroavos de final",
+   "phase": "cup",
+   "homeId": "balcarce",
+   "awayId": "barracas-juniors",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "scoreUnknown": true,
+   "winnerId": "balcarce",
+   "note": "Resultado no registrado en los diarios de la época; solo se sabe cómo terminó."
+  },
+  {
+   "id": "copa-jockey-club-1919-005",
+   "date": "1919-05-29",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Sesentaicuatroavos de final",
+   "phase": "cup",
+   "homeId": "barracas-central",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha ni el resultado; los datos son de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-006",
+   "date": "1919-05-29",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Sesentaicuatroavos de final",
+   "phase": "cup",
+   "homeId": "palermo",
+   "awayId": "del-plata",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha ni el resultado; los datos son de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-007",
+   "date": "1919",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Sesentaicuatroavos de final",
+   "phase": "cup",
+   "homeId": "quilmes",
+   "awayId": "sportsman",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-008",
+   "date": "1919-05-29",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Sesentaicuatroavos de final",
+   "phase": "cup",
+   "homeId": "sportsman",
+   "awayId": "progresista",
+   "homeAs": "Sportivo Avellaneda",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "scoreUnknown": true,
+   "winnerId": "sportsman",
+   "note": "RSSSF no registra la fecha; el dato es de Wikipedia. Resultado no registrado en los diarios de la época; solo se sabe cómo terminó."
+  },
+  {
+   "id": "copa-jockey-club-1919-009",
+   "date": "1919-05-29",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Sesentaicuatroavos de final",
+   "phase": "cup",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha ni el resultado; los datos son de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-010",
+   "date": "1919-05-29",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Sesentaicuatroavos de final",
+   "phase": "cup",
+   "homeId": "colegiales",
+   "awayId": "lanus",
+   "homeAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha ni el resultado; los datos son de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-011",
+   "date": "1919-05-29",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Sesentaicuatroavos de final",
+   "phase": "cup",
+   "homeId": "velez",
+   "awayId": "excursionistas",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "scoreUnknown": true,
+   "winnerId": "velez",
+   "note": "RSSSF no registra la fecha; el dato es de Wikipedia. Resultado no registrado en los diarios de la época; solo se sabe cómo terminó."
+  },
+  {
+   "id": "copa-jockey-club-1919-012",
+   "date": "1919-05-29",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Sesentaicuatroavos de final",
+   "phase": "cup",
+   "homeId": "villa-real",
+   "awayId": "pineyro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha ni el resultado; los datos son de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-013",
+   "date": "1919",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Sesentaicuatroavos de final",
+   "phase": "cup",
+   "homeId": "wilde",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "scoreUnknown": true,
+   "winnerId": "gimnasia-ba",
+   "note": "Resultado no registrado en los diarios de la época; solo se sabe cómo terminó."
+  },
+  {
+   "id": "copa-jockey-club-1919-014",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "atlanta",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-015",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "defensores-belgrano",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-016",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "balcarce",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-017",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "estudiantil-porteno",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-018",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "eureka",
+   "awayId": "san-isidro",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-019",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-020",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "palermo",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-021",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-022",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "platense",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-023",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-024",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "sportsman",
+   "awayAs": "Sportivo Avellaneda",
+   "homeGoals": 9,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-025",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "villa-real",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-026",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-027",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "sportivo-barracas",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-028",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "sportivo-palermo",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-029",
+   "date": "1919-07-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "tigre",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-030",
+   "date": "1919-07-27",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final (desempate)",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha; el dato es de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-031",
+   "date": "1919-07-27",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Treintaidosavos de final (desempate)",
+   "phase": "cup",
+   "homeId": "sportivo-barracas",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha; el dato es de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-032",
+   "date": "1919-08-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "atlanta",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-033",
+   "date": "1919-08-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "defensores-belgrano",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-034",
+   "date": "1919-08-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "eureka",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "awardedTo": "boca",
+   "goalsVoid": true,
+   "note": "Se jugó y terminó 2-1, pero la liga le dio el partido a Boca Juniors."
+  },
+  {
+   "id": "copa-jockey-club-1919-035",
+   "date": "1919-08-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-036",
+   "date": "1919-08-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-037",
+   "date": "1919-08-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-038",
+   "date": "1919-08-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-039",
+   "date": "1919-08-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "sportivo-barracas",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-040",
+   "date": "1919-08-17",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-041",
+   "date": "1919-08-17",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "defensores-belgrano",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-042",
+   "date": "1919-08-17",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-043",
+   "date": "1919-08-17",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "tigre",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-046",
+   "date": "1919-11-09",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha; el dato es de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-047",
+   "date": "1919-11-09",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "almagro",
+   "awayId": "huracan",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha; el dato es de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-048",
+   "date": "1919-11-16",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Octavos de final (desempate)",
+   "phase": "cup",
+   "homeId": "almagro",
+   "awayId": "huracan",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha; el dato es de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-049",
+   "date": "1919-11-23",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Octavos de final (desempate)",
+   "phase": "cup",
+   "homeId": "almagro",
+   "awayId": "huracan",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha; el dato es de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-050",
+   "date": "1919-11-30",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Octavos de final (desempate)",
+   "phase": "cup",
+   "homeId": "almagro",
+   "awayId": "huracan",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha; el dato es de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-051",
+   "date": "1919-12-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Octavos de final (desempate)",
+   "phase": "cup",
+   "homeId": "almagro",
+   "awayId": "huracan",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-052",
+   "date": "1919-11-16",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "porteno",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha; el dato es de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-053",
+   "date": "1919",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "eureka",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-054",
+   "date": "1919-12-28",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "belgrano-rosario",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "RSSSF no registra la fecha; el dato es de Wikipedia."
+  },
+  {
+   "id": "copa-jockey-club-1919-055",
+   "date": "1919",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "eureka",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1919-056",
+   "date": "1919",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue."
+  }
+ ]
+}

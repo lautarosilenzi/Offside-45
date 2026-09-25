@@ -33,7 +33,7 @@ export function computeStats(matches: Match[], a: string): HeadToHeadStats {
   const stats: HeadToHeadStats = { played: counted.length, winsA: 0, winsB: 0, draws: 0, goalsA: 0, goalsB: 0 };
   for (const m of counted) {
     const aIsHome = m.homeId === a;
-    if (!m.scoreUnknown) {
+    if (!m.scoreUnknown && !m.goalsVoid) {
       stats.goalsA += aIsHome ? m.homeGoals : m.awayGoals;
       stats.goalsB += aIsHome ? m.awayGoals : m.homeGoals;
     }

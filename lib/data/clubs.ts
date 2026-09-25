@@ -99,6 +99,26 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["nacional-uy", "Nacional (Uruguay)", "NAU", "Club Nacional de Football (Montevideo)"],
   ["deutscher-uy", "Deutscher FK (Uruguay)", "DFK", "Deutscher Fussball Klub (Montevideo)"],
   ["wanderers-uy", "Montevideo Wanderers (Uruguay)", "MWA", "Montevideo Wanderers Football Club"],
+  // Clubes de ascenso (Intermedia y Segunda) que jugaron la Copa de Competencia Jockey Club, abierta a varias divisiones.
+  // Identidades según los enlaces de las páginas de Wikipedia de cada edición; las no confirmadas lo aclaran.
+  ["ca-alumni", "Alumni (Olivos)", "ALO", "Club Atlético Alumni (sin relación con el Alumni campeón de 1900–1911)"],
+  ["san-telmo", "San Telmo", "STE", "Club Atlético San Telmo"],
+  ["victoria", "Victoria", "VIC", "Club Social y Atlético Victoria"],
+  ["everton", "Everton (Gerli)", "EVE", "Club Deportivo Everton (Gerli)"],
+  ["general-belgrano", "General Belgrano", "GBE", "Asociación Deportiva General Belgrano"],
+  ["burzaco", "Burzaco", "BUR", "Club Atlético Burzaco"],
+  ["germinal", "Germinal", "GER", "Club Germinal"],
+  ["barracas-juniors", "Barracas Juniors", "BJU", "Club Atlético Barracas Juniors"],
+  ["central-argentino", "Central Argentino", "CAR", "Club Atlético Central Argentino (San Martín)"],
+  ["sportivo-alsina", "Sportivo Alsina", "SAL", "Club Sportivo Alsina (antes El Aeroplano)"],
+  ["adrogue", "Adrogué", "ADR", "Club Atlético Adrogué"],
+  ["liniers", "Liniers", "LIN", "Liniers Sport Club"],
+  ["lugano", "Lugano", "LUG", "Club Atlético Lugano (antes Compañía General Buenos Aires)"],
+  ["sportivo-coghlan", "Sportivo Coghlan", "SCO", "Club Sportivo Coghlan"],
+  ["wilde", "Wilde", "WIL", "Wilde (club de Wilde; la fuente no da el nombre completo)"],
+  ["villa-real", "Villa Real", "VRE", "Villa Real (la fuente no da el nombre completo)"],
+  ["pineyro", "Piñeyro", "PIN", "Piñeyro (la fuente no da el nombre completo)"],
+  ["balcarce", "Balcarce", "BAL", "Balcarce (1919; la fuente no confirma si es el Sportivo Balcarce)"],
 ];
 
 export const HISTORIC_CLUBS: Team[] = OTHER_CLUBS.map(([id, name, shortName, fullName]) => ({

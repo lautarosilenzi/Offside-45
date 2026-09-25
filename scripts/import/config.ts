@@ -20,6 +20,13 @@ export type TournamentConfig = {
   // Equipos eliminados que vuelven a jugar (cuadro rearmado en 1920, o un caso sin explicar en la fuente). Sin `teams`, vale para todos.
   // La explicación se agrega a las notas de la temporada.
   reentry?: { teams?: string[]; note: string };
+  // Completar con Wikipedia días y goles que RSSSF no registra (ver fillFromWikipedia).
+  wikiFill?: boolean;
+  // Filas de la tabla publicada identificadas por su puesto (cuando dos clubes figuran con el mismo nombre).
+  tableAliases?: Record<number, string>;
+  // Fases con otro nombre en esta edición (expresión regular sobre la fase de RSSSF → fase a mostrar).
+  // Ej. 1907–1912: la "Argentine semi-final" de la Tie Cup es la final de la fase argentina (Copa Jockey Club).
+  stageMap?: Record<string, string>;
   // Inscriptos que no llegaron a jugar (club → explicación, que va a las notas).
   listedWithoutMatches?: Record<string, string>;
   year: number;

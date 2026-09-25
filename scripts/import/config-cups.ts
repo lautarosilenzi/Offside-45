@@ -65,7 +65,151 @@ const tieCup = (year: number, rest: TieRest): TournamentConfig => ({
   ...rest,
 });
 
+// Copa de Competencia Jockey Club. 1907–1912: fase argentina de la Tie Cup (su ganador jugaba la final con el uruguayo).
+// Desde 1913, copa nacional propia de la Asociación Argentina, abierta también a equipos de Intermedia y Segunda.
+const JOCKEY_ARG = {
+  kind: "formato",
+  text: "Fase argentina de la Cup Tie Competition: el ganador jugaba después la final internacional contra el campeón uruguayo, que no forma parte de esta copa.",
+} as const;
+const JOCKEY_ASCENSO = {
+  kind: "identidad",
+  text: "La copa estaba abierta a equipos de Intermedia y de Segunda División, además de los de Primera.",
+} as const;
+const JOCKEY_TABLA = {
+  kind: "fuentes",
+  text: "La tabla resumen es la que publica RSSSF con todos los partidos de la copa (sin los goles de los partidos resueltos por escritorio); la calculada con los partidos coincide.",
+} as const;
+type JockeyRest = Partial<TournamentConfig> & Pick<TournamentConfig, "championIds" | "runnerUpIds">;
+const jockey = (year: number, rest: JockeyRest): TournamentConfig => ({
+  slug: `copa-jockey-club-${year}`,
+  kind: "cup",
+  year,
+  file: `arg-joc${String(year).slice(2)}.html`,
+  wiki: `Copa de Competencia Jockey Club ${year}`,
+  competition: "Copa de Competencia Jockey Club",
+  title: `Copa Jockey Club ${year}`,
+  tournament: year <= 1912 ? "Copa de Competencia Jockey Club (fase argentina de la Cup Tie Competition)" : "Copa de Competencia Jockey Club",
+  organizer: year <= 1911 ? AFA_1903 : AAF,
+  summary: "",
+  notes: year <= 1912 ? [ELIMINACION, JOCKEY_ARG] : [ELIMINACION],
+  ...(year <= 1912 && { stageMap: { "^argentine semi-?final": "Final" } }),
+  ...rest,
+});
+
 export const CUP_TOURNAMENTS: TournamentConfig[] = [
+  jockey(1907, {
+    championIds: ["alumni"],
+    runnerUpIds: ["belgrano-athletic"],
+    wikiErrata: {
+      "RSSSF quilmes 2-2 belgrano-athletic":
+        "Wikipedia da 2-1 para Quilmes, pero entonces no habría habido desempate: RSSSF registra el 2-2 y el desempate que ganó Belgrano 4-1 una semana después.",
+    },
+  }),
+  jockey(1908, { championIds: ["alumni"], runnerUpIds: ["argentino-quilmes"], aliases: { "CA Argentino": "gimnasia-rosario" } }),
+  jockey(1909, { championIds: ["alumni"], runnerUpIds: ["newells"], aliases: { "CA Argentino": "gimnasia-rosario" } }),
+  jockey(1910, {
+    championIds: ["estudiantes-ba"],
+    runnerUpIds: ["gimnasia-ba"],
+    aliases: { "CA Argentino": "gimnasia-rosario", "Cd Gimnasia y Esgrima (B. Aires)": "gimnasia-ba", "Cd Gimnasia y Esgrima": "gimnasia-ba" },
+  }),
+  jockey(1911, {
+    championIds: ["san-isidro"],
+    runnerUpIds: ["estudiantes-ba"],
+    aliases: { "CA Argentino": "gimnasia-rosario", "Cd Gimnasia y Esgrima": "gimnasia-ba" },
+  }),
+  jockey(1912, {
+    championIds: ["san-isidro"],
+    runnerUpIds: ["quilmes"],
+    aliases: { "CA Argentino": "gimnasia-rosario", "Cd Gimnasia y Esgrima": "gimnasia-ba" },
+  }),
+  jockey(1913, {
+    championIds: ["san-isidro"],
+    runnerUpIds: ["racing"],
+    aliases: { "CA Argentino": "gimnasia-rosario", "CAdSan Isidro": "san-isidro" },
+  }),
+  jockey(1914, { championIds: ["river"], runnerUpIds: ["racing"], tableIndex: 0, notes: [ELIMINACION, JOCKEY_TABLA] }),
+  jockey(1915, {
+    championIds: ["porteno"],
+    runnerUpIds: ["racing"],
+    tableIndex: 0,
+    notes: [ELIMINACION, ROSARIO, JOCKEY_TABLA],
+    aliases: { "CA Belgrano": "belgrano-rosario", "Club Atlético Belgrano": "belgrano-rosario", "Club Estudiantes": "estudiantes" },
+  }),
+  jockey(1916, {
+    championIds: ["central"],
+    runnerUpIds: ["independiente"],
+    tableIndex: 0,
+    notes: [
+      ELIMINACION,
+      ROSARIO,
+      JOCKEY_TABLA,
+      { kind: "identidad", text: "Jugaron dos Gimnasia y Esgrima (el de Buenos Aires y el de La Plata) y dos Estudiantes (el de Buenos Aires y el de La Plata)." },
+    ],
+    aliases: { "CA Belgrano": "belgrano-rosario", "Club Atlético Belgrano": "belgrano-rosario", "Club Estudiantes": "estudiantes" },
+    // En la tabla figuran dos "Club de Gimnasia y Esgrima": el 10.º es el de Buenos Aires (le ganó a Platense) y el 16.º el de La Plata.
+    tableAliases: { 10: "gimnasia-ba", 16: "gimnasia" },
+  }),
+  jockey(1917, {
+    championIds: ["independiente"],
+    runnerUpIds: ["estudiantes"],
+    tableIndex: 0,
+    notes: [
+      ELIMINACION,
+      ROSARIO,
+      JOCKEY_TABLA,
+      {
+        kind: "dato",
+        text: "Rosario: Tiro Federal–Rosario Central se suspendió con 2-0 a los 45 minutos, se continuó el 28/10 y se volvió a suspender con 2-1 a los 68; se ordenó jugarlo de nuevo, Tiro Federal no aceptó y el partido se le dio a Rosario Central. Los dos partidos suspendidos se muestran pero no suman.",
+      },
+    ],
+    aliases: { "CA Belgrano": "belgrano-rosario", "Club Atlético Belgrano": "belgrano-rosario", "Club Estudiantes": "estudiantes" },
+  }),
+  jockey(1918, {
+    championIds: ["porteno"],
+    runnerUpIds: ["river"],
+    tableIndex: 0,
+    notes: [ELIMINACION, ROSARIO, JOCKEY_ASCENSO, JOCKEY_TABLA],
+    aliases: {
+      "CA Belgrano": "belgrano-rosario",
+      "Club Atlético Belgrano": "belgrano-rosario",
+      "Club Estudiantes": "estudiantes",
+      "CA Alumni": "ca-alumni",
+      "Club Atlético Alumni": "ca-alumni",
+    },
+  }),
+  jockey(1919, {
+    championIds: ["boca"],
+    runnerUpIds: ["central"],
+    wikiFill: true,
+    notes: [
+      ELIMINACION,
+      SIN_FECHA,
+      JOCKEY_ASCENSO,
+      { kind: "formato", text: "La Liga Rosarina clasificaba dos equipos a las semifinales." },
+      {
+        kind: "fuentes",
+        text: "RSSSF no tiene el resultado de 12 partidos de la primera ronda (solo quién pasó). Cuando Wikipedia da el resultado con el mismo ganador, se completa y se aclara en el partido; el resto queda como \"resultado no registrado\".",
+      },
+      {
+        kind: "fuentes",
+        text: "RSSSF y Wikipedia no coinciden en algunos cruces: donde RSSSF pone a Balcarce, Wikipedia pone a Boca Alumni; donde RSSSF pone a Alumni (Olivos) contra Nueva Chicago, Wikipedia pone a Alvear; Wikipedia agrega un 1-1 entre Atlanta y Vélez antes del 0-3 y da a Almagro ganándole 1-0 a Eureka en cuartos, cuando para RSSSF ganó Eureka (que después jugó la semifinal). Se sigue a RSSSF.",
+      },
+    ],
+    reentry: {
+      note: "En cuartos de final, Racing, Defensores de Belgrano, Independiente y Vélez Sarsfield se fueron a la Asociación Amateurs y la copa se reprogramó con un cuadro nuevo: por eso algunos equipos eliminados antes volvieron a jugar.",
+    },
+  }),
+  jockey(1921, {
+    championIds: ["sportivo-barracas"],
+    runnerUpIds: ["nueva-chicago"],
+    notes: [
+      ELIMINACION,
+      JOCKEY_ASCENSO,
+      { kind: "fuentes", text: "La final se jugó el 3 de diciembre de 1922. RSSSF menciona un Central Córdoba (Rosario) 1-3 Nueva Chicago sin saber si fue de esta copa o un amistoso: no se incluye." },
+    ],
+    overrides: { "1922-12-03 central-cordoba-rosario nueva-chicago": "skip" },
+  }),
+  jockey(1925, { championIds: ["boca"], runnerUpIds: ["argentinos"], notes: [ELIMINACION, SIN_FECHA, JOCKEY_ASCENSO] }),
   tieCup(1900, { championIds: ["belgrano-athletic"], runnerUpIds: ["rosario-athletic"] }),
   tieCup(1901, { championIds: ["alumni"], runnerUpIds: ["rosario-athletic"] }),
   tieCup(1902, {

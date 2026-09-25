@@ -112,6 +112,67 @@ export function wikiStandings(text: string): { team: string; values: Record<stri
   return out;
 }
 
+const MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+
+// "29 de mayo de 1919" → "1919-05-29".
+function isoFromSpanish(s: string): string | null {
+  const m = s.match(/(\d{1,2}) de ([a-záéíóú]+) de (\d{4})/i);
+  const month = m ? MESES.indexOf(m[2].toLowerCase()) + 1 : 0;
+  return m && month ? `${m[3]}-${String(month).padStart(2, "0")}-${m[1].padStart(2, "0")}` : null;
+}
+
+// Completa con Wikipedia lo que RSSSF no tiene: el día de un partido fechado solo con el año, o los goles de uno
+// con "resultado no registrado". Solo cuando los dos listados de ese cruce tienen la misma cantidad de partidos
+// (se emparejan en orden) y, para los goles, cuando Wikipedia da el mismo ganador que RSSSF.
+function fillFromWikipedia(cfg: TournamentConfig, season: Season, rows: WikiRow[]): string[] {
+  const out: string[] = [];
+  const key = (a: string, b: string) => [a, b].sort().join(" ");
+  const wikiByPair = new Map<string, { r: WikiRow; home: string }[]>();
+  for (const r of rows) {
+    const h = resolveName(r.home, cfg.year);
+    const a = resolveName(r.away, cfg.year);
+    if (!h || !a) continue;
+    const k = key(h.id, a.id);
+    wikiByPair.set(k, [...(wikiByPair.get(k) ?? []), { r, home: h.id }]);
+  }
+  const ordered = [...season.matches].sort((a, b) => a.id.localeCompare(b.id));
+  const pairs = new Set(ordered.map((m) => key(m.homeId, m.awayId)));
+  for (const k of pairs) {
+    const ours = ordered.filter((m) => key(m.homeId, m.awayId) === k);
+    const theirs = wikiByPair.get(k) ?? [];
+    if (!theirs.length || theirs.length !== ours.length) continue;
+    ours.forEach((m, i) => {
+      const { r, home } = theirs[i];
+      const flip = home !== m.homeId;
+      const hg = flip ? r.ag : r.hg;
+      const ag = flip ? r.hg : r.ag;
+      const iso = r.date ? isoFromSpanish(r.date) : null;
+      const filled: string[] = [];
+      if (m.date.length === 4 && iso?.startsWith(String(cfg.year).slice(0, 3))) {
+        m.date = iso;
+        filled.push("la fecha");
+      }
+      if (m.scoreUnknown && hg !== null && ag !== null) {
+        const w = hg > ag ? m.homeId : ag > hg ? m.awayId : undefined;
+        if (w === m.winnerId) {
+          m.homeGoals = hg;
+          m.awayGoals = ag;
+          delete m.scoreUnknown;
+          delete m.winnerId;
+          m.note = m.note?.replace("Resultado no registrado en los diarios de la época; solo se sabe cómo terminó.", "").trim() || undefined;
+          filled.push("el resultado");
+        } else out.push(`Wikipedia da ${hg}-${ag} para ${m.homeId}-${m.awayId} pero RSSSF da otro ganador: no se completa`);
+      }
+      if (filled.length) {
+        m.note = [`RSSSF no registra ${filled.join(" ni ")}; ${filled.length > 1 ? "los datos son" : "el dato es"} de Wikipedia.`, m.note].filter(Boolean).join(" ");
+        if (!m.sources.includes("wikipedia-es")) m.sources.push("wikipedia-es");
+        out.push(`Completado con Wikipedia (${filled.join(" y ")}): ${m.homeId}-${m.awayId} ${m.date} ${m.homeGoals}-${m.awayGoals}`);
+      }
+    });
+  }
+  return out;
+}
+
 export async function compareWithWikipedia(cfg: TournamentConfig, season: Season) {
   const warnings: string[] = [];
   const problems: string[] = [];
@@ -170,6 +231,8 @@ export async function compareWithWikipedia(cfg: TournamentConfig, season: Season
     else if (c.scoreUnknown || c.walkover) warnings.push(`Wikipedia da resultado donde RSSSF no lo tiene: ${msg}`);
     else problems.push(`Resultado distinto: ${msg}`);
   }
+  if (cfg.wikiFill) warnings.push(...fillFromWikipedia(cfg, season, rows));
+
   // Tabla de posiciones de Wikipedia contra la calculada con los partidos (control independiente del de RSSSF).
   const computed = new Map(computeTable(season).map((r) => [r.teamId, r]));
   const standings = wikiStandings(text).find((t) => t.length >= Math.min(3, computed.size));

@@ -124,6 +124,7 @@ const ALIASES: Alias[] = [
   // Copas nacionales: equipos de La Plata con el nombre completo, y de Rosario y Santa Fe.
   { id: "estudiantes", names: ["Estudiantes (La Plata)"] },
   { id: "gimnasia", names: ["Gimnasia y Esgrima (La Plata)"] },
+  { id: "gimnasia-ba", names: ["Gimnasia y Esgrima (Buenos Aires)", "Gimnasia y Esgrima (B. Aires)"] },
   { id: "ferro", names: ["Ferro Carril Oeste de BA", "FCO"] },
   { id: "columbian", names: ["Columbian FC", "Columbian Football Club", "Columbian Footbal Club"] },
   { id: "sportivo-barracas", names: ["CS Barracas"] },
@@ -152,6 +153,36 @@ const ALIASES: Alias[] = [
   { id: "nacional-uy", names: ["Club Nacional de Football", "Nacional (Montevideo)"] },
   { id: "deutscher-uy", names: ["Deutscher FK", "Deustcher FK", "Deutscher", "Deustcher"] },
   { id: "wanderers-uy", names: ["Montevideo Wanderers", "Montevideo Wanderers FC", "Montevideo Wanderers Football Club", "Wanderers"] },
+  // Copa Jockey Club: clubes de ascenso. "CA Alumni" / "Alumni (O)" se resuelven con alias locales (Alumni a secas es el campeón de 1900–1911).
+  { id: "ca-alumni", names: ["Alumni (O)", "Alumni (Olivos)"] },
+  { id: "san-telmo", names: ["San Telmo", "San Telmo FC", "Club Atlético San Telmo"] },
+  { id: "victoria", names: ["Victoria", "CSyA Victoria", "Club Social y Atlético Victoria"] },
+  { id: "everton", names: ["Everton", "CD Everton", "Club Deportivo Everton"] },
+  { id: "general-belgrano", names: ["General Belgrano", "AD General Belgrano", "Asociación Deportiva General Belgrano"] },
+  { id: "burzaco", names: ["Burzaco", "Club de Burzaco", "Club Atlético Burzaco"] },
+  { id: "germinal", names: ["Germinal", "CA Germinal", "Club Atlético Germinal", "Club Germinal"] },
+  { id: "barracas-juniors", names: ["Barracas Juniors", "Club Atlético Barracas Juniors"] },
+  { id: "central-argentino", names: ["Central Argentino", "Club Atlético Central Argentino"] },
+  { id: "sportivo-alsina", names: ["El Aeroplano"], as: "El Aeroplano" },
+  { id: "adrogue", names: ["Adrogué", "Club Atlético Adrogué"] },
+  { id: "liniers", names: ["Liniers", "Liniers Sport Club"] },
+  { id: "lugano", names: ["Compañía General Buenos Aires", "Companía General Buenos Aires", "CGBA"], as: "Compañía General Buenos Aires" },
+  { id: "sportivo-coghlan", names: ["Sportivo Coghlan", "Club Sportivo Coghlan", "Coghlan"] },
+  { id: "wilde", names: ["Wilde"] },
+  { id: "villa-real", names: ["Villa Real"] },
+  { id: "pineyro", names: ["Piñeyro"] },
+  { id: "balcarce", names: ["Balcarce"], to: 1919 },
+  // Wikipedia (Jockey Club 1919, Intermedia 1919): "Sportivo Avellaneda" es el actual Sportsman.
+  { id: "sportsman", names: ["Sportivo Avellaneda", "Sp. Avellaneda"], as: "Sportivo Avellaneda", to: 1920 },
+  { id: "excursionistas", names: ["Unión Excursionistas", "Club Unión Excursionistas"] },
+  { id: "all-boys", names: ["All Boys AC", "All Boys Athletic Club"] },
+  { id: "ferro", names: ["Ferrocarril Oeste", "Ferrocarril Oeste de Buenos Aires", "Ferro Carril Oeste de Buenos Aires"] },
+  { id: "el-porvenir", names: ["El Porvernir"] },
+  { id: "banfield", names: ["Banfied"] },
+  { id: "porteno", names: ["Porteño AC"] },
+  { id: "defensores-belgrano", names: ["Defensores de Belgrano FBC", "Defensores de Belgrano Foot-Ball Club"] },
+  { id: "rosario-athletic", names: ["Club Atlético del Rosario"] },
+  { id: "san-telmo", names: ["San Telmo Football Club"] },
 ];
 
 const norm = (s: string) =>
@@ -176,7 +207,10 @@ export function resolveName(raw: string, year: number, exact = false): { id: str
   const direct = resolveExact(raw, year);
   if (direct || exact) return direct;
   // Las páginas de copas anteponen la forma jurídica ("CA Boca Juniors", "CAd San Isidro", "Cd Gimnasia...").
-  const stripped = raw.replace(/^(CAd|CA|Cd|CS|CSD|SC|AA|AC|Club Atlético de|Club Atlético|Club de|Club)\s+/, "");
+  const stripped = raw.replace(
+    /^(CAd|CA del|CA de|CA|Cd|CSyD|CSyA|CSD|CS|CD|AD|SC|AA|AC|Club Atlético del|Club Atlético de|Club Atlético|Club Social y Deportivo|Club Deportivo|Asociación Atlética|Club de|Club)\s+/,
+    "",
+  );
   return stripped !== raw ? resolveExact(stripped, year) : null;
 }
 

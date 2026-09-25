@@ -68,7 +68,7 @@ export function computeTable(season: Season): TableRow[] {
     const away = row(m.awayId);
     home.played++;
     away.played++;
-    if (!m.scoreUnknown) {
+    if (!m.scoreUnknown && !m.goalsVoid) {
       home.goalsFor += m.homeGoals;
       home.goalsAgainst += m.awayGoals;
       away.goalsFor += m.awayGoals;

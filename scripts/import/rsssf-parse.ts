@@ -65,7 +65,7 @@ const MONTH = "(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|Februa
 const DATE_RE = new RegExp(String.raw`^\s*\[\s*(${MONTH}[a-z]*\.?\s*\d{1,2}[^\]]*)\]\s*(.*)$`, "i");
 const DATE_PLAIN_RE = new RegExp(String.raw`^\s*(${MONTH}\s+\d{1,2}(?:,\s*\d{4})?)\s*:?\s*$`, "i");
 const ROUND_RE = /^\s*((?:Round|Fecha|Matchday)\s*\d+[^\[]*?)\s*:?\s*(?:\[(.+)\])?\s*:?\s*$/i;
-const SCORE = String.raw`(\d+\s*[:\-]\s*\d+|wp\s*[:\-]\s*lp|lp\s*[:\-]\s*wp|lp\s*[:\-]\s*lp|w\s*[:\-]\s*l|l\s*[:\-]\s*w|d\s*[:\-]\s*d|wo|ann|void|abd|n/p|awd|:|-)`;
+const SCORE = String.raw`(\d+\s*[:\-]\s*\d+|wp\s*[:\-]\s*lp|lp\s*[:\-]\s*wp|lp\s*[:\-]\s*lp|w\s*[:\-]\s*l|l\s*[:\-]\s*w|d\s*[:\-]\s*d|wo|ann|anu|void|abandoned|abd|n/p|awd|:|-)`;
 const MATCH_RE = new RegExp(
   String.raw`^\s*(\S.*?)(?:\t+|\s{2,}|\s(?=\d+\s*[:\-]\s*\d)|\s(?=(?:wp|lp)\s*[:\-]\s*(?:wp|lp)\s))\s*${SCORE}(?:\t+|\s+)(\S.*?)\s*$`,
   "i",
@@ -74,12 +74,20 @@ const TABLE_RE =
   /^\s*(\d+)\s*(?:\.\s*|\s{2,})(.+?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(?:(?:\d+\s+){6})?(~?\s*\d+)\s*[:\-]?\s+(~?\s*\d+)\s+(\d+)(.*)$/;
 
 // Separa "Equipo  [nota]" o "Equipo      nota libre" en nombre y nota.
-function splitAway(rest: string): { away: string; note: string } {
+function splitAway(rest: string): { away: string; note: string; awarded?: string } {
+  // Copas: "Eureka  2-1 lp-wp Boca Juniors" (se jugó y la liga lo dio vuelta) o "Boca Juniors 1-0 aet Rosario Central".
+  const pre = rest.match(/^(wp\s*[-:]\s*lp|lp\s*[-:]\s*wp|aet|asdet)\s+(.*)$/i);
+  if (pre) {
+    const inner = splitAway(pre[2]);
+    return /p/i.test(pre[1])
+      ? { ...inner, awarded: pre[1].replace(/\s/g, "").replace("-", ":").toLowerCase() }
+      : { ...inner, note: [pre[1], inner.note].filter(Boolean).join(", ") };
+  }
   const bracket = rest.match(/^(.*?)\s*(\[.*)$/);
   if (bracket) return { away: bracket[1].trim(), note: bracket[2].trim() };
   const parts = rest.split(/\t+|\s{2,}/);
   // Copas viejas: "Argentino de Quilmes at Sportiva (19 Aug)" con un solo espacio antes de la nota.
-  const inline = parts[0].match(/^(.*?)\s+(at\s.+|\(\d{1,2}\s+[A-Z][a-z]{2}\))$/);
+  const inline = parts[0].match(/^(.*?)\s+(at\s.+|in\s(?:Rosario|Montevideo|La Plata)|\(\d{1,2}\s+[A-Z][a-z]{2}\))$/);
   if (inline) return { away: inline[1].trim(), note: [inline[2], ...parts.slice(1)].join(" ").trim() };
   return { away: parts[0].trim(), note: parts.slice(1).join(" ").trim() };
 }
@@ -225,9 +233,11 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
       return;
     }
     // Copas: la región del cuadro ("Buenos Aires rounds", "Rosarios rounds", "National rounds").
+    // Algunas páginas escriben las fases entre puntos: ". 1/64 Final." o ". Playoff.".
+    const head = trimmed.replace(/^\.\s*/, "").replace(/\.$/, "");
     const regionMatch =
-      trimmed.match(/^(Buenos Aires|Porteños?|Rosarios?|Montevideo|National|Interior|Provincias?|La Plata)(?:'s?)?\s*(?:rounds?|zone)?:?$/i) ??
-      trimmed.match(/^(Final Phase):?$/i);
+      head.match(/^(Buenos Aires|Porteños?|Rosarios?|Montevideo|National|Interior|Provincias?|La Plata)(?:'s?)?\s*(?:rounds?|zone)?:?$/i) ??
+      head.match(/^(Final Phase|Ruedas finales - Final rounds):?$/i);
     if (regionMatch) {
       region = regionMatch[1];
       if (opts.cup) date = "";
@@ -235,10 +245,10 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
       cur.text.push(trimmed);
       return;
     }
-    const stage = trimmed.match(
-      /^([0-9/A-Za-z' -]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place|round|semi-?finals?|quarter-?finals?)[A-Za-z' -]*):?\s*(?:\[(.+)\]|(\d{1,2}\s+[A-Z][a-z]{2}))?\s*:?$/i,
+    const stage = head.match(
+      /^([0-9/A-Za-zÀ-ÿ' -]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place|round|semi-?finals?|quarter-?finals?)[A-Za-zÀ-ÿ' -]*):?\s*(?:\[(.+)\]|(\d{1,2}\s+[A-Z][a-z]{2}))?\s*:?$/i,
     );
-    if (stage && trimmed.length < 60 && !/table|standings|positions\b/i.test(trimmed)) {
+    if (stage && head.length < 60 && !/table|standings|positions\b/i.test(head)) {
       round = stage[1].trim();
       const sd = stage[2] ?? (stage[3] && dayFirst(stage[3]));
       // Una fecha puesta en el título de una fase vale solo para esa fase.
@@ -266,7 +276,7 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     }
     const m = trimmed.match(MATCH_RE);
     if (m && !/^(No\.|Table|Note|Round)/i.test(m[1])) {
-      const { away, note } = splitAway(m[3]);
+      const { away, note, awarded } = splitAway(m[3]);
       if (away && !/^\d/.test(away)) {
         // Fecha propia del partido en la nota: "at Rosario  (27 May)".
         const own = note.match(/\((\d{1,2})\s+([A-Z][a-z]{2})\)/);
@@ -278,8 +288,11 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
           edition,
           home: m[1].trim(),
           away,
-          score: m[2].replace(/\s/g, ""),
-          note: own ? note.replace(own[0], "").replace(/\s+/g, " ").trim() : note,
+          // "2-1 lp-wp": queda como resultado por escritorio con el de la cancha en la nota ("originally 2:1").
+          score: awarded ?? m[2].replace(/\s/g, ""),
+          note: [awarded ? `originally ${m[2].replace(/\s/g, "").replace("-", ":")}` : "", own ? note.replace(own[0], "").replace(/\s+/g, " ").trim() : note]
+            .filter(Boolean)
+            .join(", "),
         });
         return;
       }

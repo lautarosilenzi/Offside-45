@@ -84,7 +84,7 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
         {showTable && (
         <section>
           <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
-            <h2 className="section-title">Tabla final de posiciones</h2>
+            <h2 className="section-title">{isCup ? "Tabla resumen de la copa" : "Tabla final de posiciones"}</h2>
             <span
               className={`flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider ${
                 problems.length === 0 ? "text-emerald-700" : "text-red-700"
@@ -176,8 +176,9 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
           )}
           <p className="mt-2 text-xs text-navy-500">
             {season.tableNote ? `${season.tableNote} ` : ""}
-            {season.pointsPerWin} puntos por victoria. La tabla se calcula con los partidos de abajo y se compara con la
-            publicada por la fuente{season.tableIncludesPlayoffs ? "." : "; los desempates no suman."}
+            {isCup
+              ? "Suma todos los partidos de la copa, ordenados según hasta dónde llegó cada equipo (no es una tabla oficial). Se calcula con los partidos de abajo y se compara con la que publica RSSSF."
+              : `${season.pointsPerWin} puntos por victoria. La tabla se calcula con los partidos de abajo y se compara con la publicada por la fuente${season.tableIncludesPlayoffs ? "." : "; los desempates no suman."}`}
             {season.pointAdjustments?.map((a) => ` ${getTeam(a.teamId)?.name ?? a.teamId}: ${a.points} puntos (${a.reason})`).join("")}
           </p>
         </section>

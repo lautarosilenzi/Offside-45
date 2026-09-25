@@ -587,7 +587,7 @@
    "awayId": "banfield",
    "homeGoals": 1,
    "awayGoals": 1,
-   "venue": "Cancha de Estudiantes (BA) (Palermo)",
+   "venue": "Estudiantes (Palermo)",
    "sources": [
     "rsssf"
    ]
@@ -705,9 +705,9 @@
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "boca",
-   "note": "No se jugó: los puntos fueron para Boca Juniors. No se jugó. Resuelto por la liga (May 21)."
+   "walkover": true,
+   "note": "No se jugó: los puntos fueron para Boca Juniors. No se jugó. Resuelto por la liga (21/5)."
   },
   {
    "id": "1913-037",
@@ -776,7 +776,7 @@
    "awayId": "belgrano-athletic",
    "homeGoals": 3,
    "awayGoals": 2,
-   "venue": "Cancha de Estudiantes (BA) (Palermo)",
+   "venue": "Estudiantes (Palermo)",
    "sources": [
     "rsssf"
    ]
@@ -1142,10 +1142,11 @@
    "awayId": "ferrocarril-sud",
    "homeGoals": 6,
    "awayGoals": 0,
-   "venue": "Cancha de La Prensa reported 4:0, River Plate (Dársena Sud)",
+   "venue": "Cancha de River Plate (Dársena Sud)",
    "sources": [
     "rsssf"
-   ]
+   ],
+   "note": "La Prensa publicó 4-0."
   },
   {
    "id": "1913-068",
@@ -1579,7 +1580,7 @@
    "awayId": "racing",
    "homeGoals": 1,
    "awayGoals": 0,
-   "venue": "Cancha de Estudiantes (BA) (Palermo)",
+   "venue": "Estudiantes (Palermo)",
    "sources": [
     "rsssf"
    ]
@@ -1683,8 +1684,8 @@
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "racing",
+   "walkover": true,
    "note": "No se jugó: los puntos fueron para Racing Club. Ferrocarril Sud no se presentó."
   },
   {
@@ -1711,13 +1712,13 @@
    "awayId": "belgrano-athletic",
    "homeGoals": 0,
    "awayGoals": 0,
-   "venue": "Cancha de Belgrano gave up points on Oct 10, FC Oeste (Caballito)",
+   "venue": "Cancha de Ferro Carril Oeste (Caballito)",
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "river",
-   "note": "No se jugó: los puntos fueron para River Plate."
+   "walkover": true,
+   "note": "No se jugó: los puntos fueron para River Plate. Belgrano Athletic cedió los puntos."
   },
   {
    "id": "1913-108",
@@ -1732,8 +1733,8 @@
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "platense",
+   "walkover": true,
    "note": "No se jugó: los puntos fueron para Platense. Belgrano Athletic se había retirado del torneo."
   },
   {
@@ -1749,8 +1750,8 @@
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "racing",
+   "walkover": true,
    "note": "No se jugó: los puntos fueron para Racing Club."
   },
   {
@@ -1766,8 +1767,8 @@
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "banfield",
+   "walkover": true,
    "note": "No se jugó: los puntos fueron para Banfield."
   },
   {
@@ -1852,7 +1853,7 @@
    "awayId": "river",
    "homeGoals": 3,
    "awayGoals": 0,
-   "venue": "Cancha de Estudiantes (BA) (Palermo)",
+   "venue": "Estudiantes (Palermo)",
    "sources": [
     "rsssf",
     "wikipedia-es"
@@ -1868,7 +1869,7 @@
    "awayId": "estudiantil-porteno",
    "homeGoals": 4,
    "awayGoals": 2,
-   "venue": "Cancha de Estudiantes (BA) (Palermo)",
+   "venue": "Estudiantes (Palermo)",
    "sources": [
     "rsssf"
    ]
@@ -1883,13 +1884,13 @@
    "awayId": "quilmes",
    "homeGoals": 0,
    "awayGoals": 0,
-   "venue": "Cancha de Quilmes gave up points on Oct 17, Estudiantes (Palermo)",
+   "venue": "Estudiantes (Palermo)",
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "boca",
-   "note": "No se jugó: los puntos fueron para Boca Juniors."
+   "walkover": true,
+   "note": "No se jugó: los puntos fueron para Boca Juniors. Quilmes cedió los puntos."
   },
   {
    "id": "1913-119",
@@ -1918,8 +1919,8 @@
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "estudiantil-porteno",
+   "walkover": true,
    "note": "No se jugó: los puntos fueron para Estudiantil Porteño. Quilmes se había retirado del torneo."
   },
   {
@@ -1935,8 +1936,8 @@
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "san-isidro",
+   "walkover": true,
    "note": "No se jugó: los puntos fueron para San Isidro."
   },
   {
@@ -1952,8 +1953,8 @@
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "estudiantes-ba",
+   "walkover": true,
    "note": "No se jugó: los puntos fueron para Estudiantes (BA)."
   },
   {
@@ -1969,8 +1970,8 @@
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "comercio",
+   "walkover": true,
    "note": "No se jugó: los puntos fueron para Comercio."
   },
   {
@@ -1998,7 +1999,7 @@
    "awayId": "estudiantes-ba",
    "homeGoals": 5,
    "awayGoals": 2,
-   "venue": "Cancha de Estudiantes (BA) (Palermo)",
+   "venue": "Estudiantes (Palermo)",
    "sources": [
     "rsssf"
    ]
@@ -2045,8 +2046,8 @@
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "comercio",
+   "walkover": true,
    "note": "No se jugó: los puntos fueron para Comercio. Estudiantil Porteño cedió los puntos."
   },
   {
@@ -2074,7 +2075,7 @@
    "awayId": "estudiantes-ba",
    "homeGoals": 1,
    "awayGoals": 1,
-   "venue": "Cancha de Estudiantes (BA) (Palermo)",
+   "venue": "Estudiantes (Palermo)",
    "sources": [
     "rsssf"
    ]
@@ -2089,13 +2090,13 @@
    "awayId": "estudiantes-ba",
    "homeGoals": 0,
    "awayGoals": 0,
-   "venue": "Cancha de Estudiantes did not show up, Riachuelo (Barracas)",
+   "venue": "Cancha de Riachuelo (Barracas)",
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "boca",
-   "note": "No se jugó: los puntos fueron para Boca Juniors."
+   "walkover": true,
+   "note": "No se jugó: los puntos fueron para Boca Juniors. Estudiantes (BA) no se presentó."
   },
   {
    "id": "1913-132",
@@ -2133,14 +2134,14 @@
    "phase": "league",
    "homeId": "olivos",
    "awayId": "ferrocarril-sud",
-   "homeGoals": 0,
-   "awayGoals": 0,
+   "homeGoals": 5,
+   "awayGoals": 1,
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "ferrocarril-sud",
-   "note": "No se jugó: los puntos fueron para Ferrocarril Sud. En la cancha había terminado 5-1. Resuelto por la liga (Feb 5)."
+   "goalsVoid": true,
+   "note": "Se jugó y terminó 5-1, pero la liga le dio los puntos a Ferrocarril Sud. Resuelto por la liga (5/2)."
   },
   {
    "id": "1913-135",
@@ -2184,8 +2185,8 @@
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "ferrocarril-sud",
+   "walkover": true,
    "note": "No se jugó: los puntos fueron para Ferrocarril Sud. Ferro Carril Oeste cedió los puntos."
   },
   {

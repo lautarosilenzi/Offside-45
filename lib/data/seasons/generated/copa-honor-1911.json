@@ -79,14 +79,15 @@
    "phase": "cup",
    "homeId": "racing",
    "awayId": "river",
-   "homeGoals": 0,
-   "awayGoals": 0,
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Racing (Avellaneda)",
    "sources": [
     "rsssf"
    ],
-   "walkover": true,
    "awardedTo": "racing",
-   "note": "No se jugó: los puntos fueron para Racing Club. Suspendido a los 35 minutos, con 1-1. Resuelto por la liga (Jul 11, Racing, Avellaneda)."
+   "goalsVoid": true,
+   "note": "Se suspendió a los 35 minutos con 1-1, pero la liga le dio el partido a Racing Club. Resuelto por la liga (11/7)."
   },
   {
    "id": "copa-honor-1911-004",
@@ -108,7 +109,7 @@
    "id": "copa-honor-1911-005",
    "date": "1911-07-16",
    "competition": "Copa de Honor",
-   "stage": "Desempate",
+   "stage": "Ronda preliminar (desempate)",
    "phase": "cup",
    "homeId": "tiro-federal-rosario",
    "awayId": "gimnasia-ba",

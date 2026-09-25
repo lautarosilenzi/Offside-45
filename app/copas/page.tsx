@@ -12,6 +12,8 @@ export const metadata: Metadata = { title: "Copas nacionales · Offside 45" };
 const ABOUT: Record<string, string> = {
   "Copa Chevallier Boutell":
     "Copa de Competencia Chevallier Boutell (Tie Cup). Cuadros de Buenos Aires, Rosario y Montevideo; la AFA reconoce como copa nacional las ediciones 1900–1906.",
+  "Copa Jockey Club":
+    "Copa de Competencia Jockey Club. Hasta 1912 fue la fase argentina de la Tie Cup; desde 1913, copa nacional abierta también a equipos de Intermedia y Segunda.",
   "Copa de Honor":
     "Copa de Honor Municipalidad de Buenos Aires. Eliminación directa entre los equipos de Primera; desde 1913, con un cuadro de Buenos Aires y otro de Rosario.",
 };
@@ -49,7 +51,7 @@ export default function CupsPage() {
           </section>
         ))}
         <p className="text-sm text-navy-400">
-          Se siguen cargando, verificadas: Copa de Competencia Jockey Club, Copa Ibarguren, Copa de Competencia La Nación,
+          Se siguen cargando, verificadas: Copa Ibarguren, Copa de Competencia La Nación,
           Copa de Competencia de la Asociación Amateurs, Copa Estímulo y el resto de las copas de la era amateur.
         </p>
       </main>

@@ -1,0 +1,410 @@
+{
+ "slug": "copa-jockey-club-1914",
+ "kind": "cup",
+ "runnerUpIds": [
+  "racing"
+ ],
+ "year": 1914,
+ "title": "Copa Jockey Club 1914",
+ "tournament": "Copa de Competencia Jockey Club",
+ "organizer": "Asociación Argentina de Football",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River Plate ganó la Copa de Competencia Jockey Club: en la final le ganó 2-1 a Racing Club. Participaron 14 equipos y se jugaron 14 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Jockey Club 1914",
+   "url": "https://www.rsssf.org/tablesa/arg-joc14.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Competencia Jockey Club 1914",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Competencia_Jockey_Club_1914"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Eliminación directa a un partido. Si había empate se jugaba alargue y, si seguía igual, un desempate en otra fecha."
+  },
+  {
+   "kind": "fuentes",
+   "text": "La tabla resumen es la que publica RSSSF con todos los partidos de la copa (sin los goles de los partidos resueltos por escritorio); la calculada con los partidos coincide."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "river",
+   "played": 5,
+   "won": 4,
+   "drawn": 1,
+   "lost": 0,
+   "goalsFor": 12,
+   "goalsAgainst": 5,
+   "points": 9
+  },
+  {
+   "teamId": "racing",
+   "played": 4,
+   "won": 3,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 8,
+   "goalsAgainst": 3,
+   "points": 6
+  },
+  {
+   "teamId": "estudiantes-ba",
+   "played": 3,
+   "won": 2,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 5,
+   "goalsAgainst": 3,
+   "points": 4
+  },
+  {
+   "teamId": "ferro",
+   "played": 2,
+   "won": 1,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 2,
+   "goalsAgainst": 2,
+   "points": 2
+  },
+  {
+   "teamId": "san-isidro",
+   "played": 3,
+   "won": 1,
+   "drawn": 1,
+   "lost": 1,
+   "goalsFor": 4,
+   "goalsAgainst": 3,
+   "points": 3
+  },
+  {
+   "teamId": "estudiantil-porteno",
+   "played": 2,
+   "won": 1,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 1,
+   "goalsAgainst": 2,
+   "points": 2
+  },
+  {
+   "teamId": "boca",
+   "played": 2,
+   "won": 1,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 2,
+   "goalsAgainst": 5,
+   "points": 2
+  },
+  {
+   "teamId": "quilmes",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 0,
+   "goalsAgainst": 1,
+   "points": 0
+  },
+  {
+   "teamId": "platense",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 1,
+   "goalsAgainst": 2,
+   "points": 0
+  },
+  {
+   "teamId": "banfield",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 1,
+   "goalsAgainst": 2,
+   "points": 0
+  },
+  {
+   "teamId": "ferrocarril-sud",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 1,
+   "goalsAgainst": 3,
+   "points": 0
+  },
+  {
+   "teamId": "belgrano-athletic",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 1,
+   "goalsAgainst": 5,
+   "points": 0
+  },
+  {
+   "teamId": "comercio",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 0,
+   "goalsAgainst": 0,
+   "points": 0
+  },
+  {
+   "teamId": "huracan",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 0,
+   "goalsAgainst": 2,
+   "points": 0
+  }
+ ],
+ "matches": [
+  {
+   "id": "copa-jockey-club-1914-001",
+   "date": "1914-05-10",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Buenos Aires · Ronda preliminar",
+   "phase": "cup",
+   "homeId": "belgrano-athletic",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "venue": "Cancha de Belgrano Athletic (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1914-002",
+   "date": "1914-05-10",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Buenos Aires · Ronda preliminar",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Banfield (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1914-003",
+   "date": "1914-05-10",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Buenos Aires · Ronda preliminar",
+   "phase": "cup",
+   "homeId": "comercio",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "awarded onComercio (Núñez)",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "estudiantil-porteno",
+   "goalsVoid": true,
+   "note": "Se jugó y terminó 2-1, pero la liga le dio el partido a Estudiantil Porteño."
+  },
+  {
+   "id": "copa-jockey-club-1914-004",
+   "date": "1914-05-10",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Buenos Aires · Ronda preliminar",
+   "phase": "cup",
+   "homeId": "san-isidro",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de San Isidro (San Isidro)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1914-005",
+   "date": "1914-05-10",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Buenos Aires · Ronda preliminar",
+   "phase": "cup",
+   "homeId": "ferrocarril-sud",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferrocarril Sud (Talleres)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1914-006",
+   "date": "1914-05-10",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Buenos Aires · Ronda preliminar",
+   "phase": "cup",
+   "homeId": "platense",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Platense (Núñez)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1914-007",
+   "date": "1914-07-26",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Buenos Aires · Primera ronda",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Boca Juniors (Wilde)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1914-008",
+   "date": "1914-07-26",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Buenos Aires · Primera ronda",
+   "phase": "cup",
+   "homeId": "estudiantil-porteno",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Estudiantil Porteño (Ituzaingó)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1914-009",
+   "date": "1914-07-26",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Buenos Aires · Primera ronda",
+   "phase": "cup",
+   "homeId": "ferro",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste (Caballito)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "copa-jockey-club-1914-010",
+   "date": "1914-07-26",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Buenos Aires · Primera ronda",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Estudiantes (Palermo)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "copa-jockey-club-1914-011",
+   "date": "1914-08-09",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Buenos Aires · Primera ronda (desempate)",
+   "phase": "cup",
+   "homeId": "san-isidro",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de San Isidro (San Isidro)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1914-012",
+   "date": "1914-09-20",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Buenos Aires · Semifinal",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Belgrano Athletic (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Cancha neutral."
+  },
+  {
+   "id": "copa-jockey-club-1914-013",
+   "date": "1914-10-04",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Buenos Aires · Semifinal",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Estudiantes (Palermo)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Cancha neutral."
+  },
+  {
+   "id": "copa-jockey-club-1914-014",
+   "date": "1914-11-01",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Racing Club (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}
