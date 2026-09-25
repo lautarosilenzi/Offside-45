@@ -1153,4 +1153,76 @@ export const TOURNAMENTS: TournamentConfig[] = [
     summary: "Sportivo Dock Sud ganó el campeonato de la liga amateur oficial, a una rueda y con 20 equipos, un punto delante de Nueva Chicago.",
     notes: [rr1(20), PRO2],
   },
+  {
+    slug: "1934",
+    year: 1934,
+    league: "LAF",
+    file: "arg34.html",
+    wiki: wikiTitle(1934),
+    competition: LAF,
+    organizer: `${LAF} (profesional)`,
+    title: "Campeonato 1934 · Liga Argentina (profesional)",
+    tournament: "Campeonato 1934 de la Liga Argentina de Football",
+    championIds: ["boca"],
+    // Gimnasia–Estudiantes (10/6): RSSSF lo lista dos veces (suspendido y resuelto). Queda uno: el resuelto, con el
+    // 0-1 del momento de la suspensión, que la tabla oficial cuenta aunque los puntos fueron para Gimnasia.
+    skip: (m) => m.score === "abd" && m.home.startsWith("Gimnasia") && m.away.startsWith("Estudiantes"),
+    overrides: {
+      "1934-06-10 gimnasia estudiantes": {
+        homeGoals: 0,
+        awayGoals: 1,
+        walkover: undefined,
+        note: "Se suspendió a los 15 minutos con 0-1 para Estudiantes y la liga le dio los puntos a Gimnasia. La tabla oficial cuenta el gol de Estudiantes.",
+      },
+    },
+    // En la tabla, la fusión Atlanta-Argentinos figura como "Argentinos Juniors".
+    tableAliases: { 14: "atlanta-argentinos" },
+    aliases: {
+      Estudiantes: "estudiantes",
+      "Gimnasia (LP)": "gimnasia",
+      // Desde la fecha 26 la fusión figura como "Argentinos Juniors"; la tabla la cuenta como un solo equipo.
+      "Argentinos Juniors": "atlanta-argentinos|Argentinos Juniors",
+      // Error de tipeo en RSSSF (fecha 25): esa fecha Boca jugó con Ferro; el rival de Gimnasia fue Platense.
+      "PlatenseBoca Juniors": "platense",
+    },
+    summary:
+      "Boca Juniors ganó el campeonato con 14 equipos a tres ruedas, un punto delante de Independiente. Fue el último año de las dos ligas en paralelo: en 1935 la liga profesional y la asociación oficial se unieron en la AFA.",
+    notes: [
+      { kind: "formato", text: "Todos contra todos a tres ruedas entre 14 equipos, 2 puntos por victoria." },
+      PRO2,
+      { kind: "identidad", text: "La liga se achicó a 14 equipos: Talleres (RdE) y Lanús jugaron fusionados como Unión Talleres-Lanús, y Atlanta y Argentinos Juniors como Atlanta-Argentinos Juniors. Sus partidos figuran con esos nombres y no se suman al historial de cada club por separado." },
+      { kind: "descalificacion", text: "Unión Talleres-Lanús se disolvió al terminar la temporada." },
+      { kind: "identidad", text: "Desde la fecha 26 la fusión Atlanta-Argentinos figura como Argentinos Juniors; RSSSF cuenta toda la campaña como un solo equipo y así se muestra." },
+    ],
+  },
+  {
+    slug: "1934-amateur",
+    year: 1934,
+    league: "Amateur",
+    file: "arg34a.html",
+    wiki: "Campeonato de Primera División 1934 de la AFA (Argentina)",
+    competition: "Asociación Argentina de Football",
+    organizer: "Asociación Argentina de Football, entidad oficial afiliada a la FIFA (liga amateur)",
+    title: "Campeonato 1934 · Liga amateur (oficial)",
+    tournament: "Campeonato 1934 de la Asociación Argentina de Football",
+    championIds: ["estudiantil-porteno"],
+    awardedGoalsVoid: true,
+    knownTableDiffs: {
+      keys: [
+        "nueva-chicago:won",
+        "nueva-chicago:drawn",
+        "nueva-chicago:goalsFor",
+        "nueva-chicago:points",
+        "palermo:drawn",
+        "palermo:lost",
+        "palermo:goalsAgainst",
+        "palermo:points",
+      ],
+      explanation:
+        "La tabla oficial le da a Nueva Chicago un triunfo sobre Palermo, pero RSSSF registra un 1-1 con un goleador de cada lado (Pinedo; Roverano). Se deja el 1-1.",
+    },
+    summary:
+      "Estudiantil Porteño ganó su segundo título de la liga amateur oficial, tres puntos delante de Banfield. Fue el último campeonato amateur de Primera: en 1935 las dos ligas se unieron.",
+    notes: [rr1(23), PRO2],
+  },
 ];

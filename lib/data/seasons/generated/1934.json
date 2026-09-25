@@ -1,0 +1,4113 @@
+{
+ "slug": "1934",
+ "year": 1934,
+ "league": "LAF",
+ "title": "Campeonato 1934 · Liga Argentina (profesional)",
+ "tournament": "Campeonato 1934 de la Liga Argentina de Football",
+ "organizer": "Liga Argentina de Football (profesional)",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca Juniors ganó el campeonato con 14 equipos a tres ruedas, un punto delante de Independiente. Fue el último año de las dos ligas en paralelo: en 1935 la liga profesional y la asociación oficial se unieron en la AFA.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1934",
+   "url": "https://www.rsssf.org/tablesa/arg34.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1934 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1934_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a tres ruedas entre 14 equipos, 2 puntos por victoria."
+  },
+  {
+   "kind": "identidad",
+   "text": "Entre 1931 y 1934 hubo dos ligas de Primera: la Liga Argentina de Football (profesional, disidente) y la de la asociación oficial (amateur). La AFA cuenta a los campeones de las dos."
+  },
+  {
+   "kind": "identidad",
+   "text": "La liga se achicó a 14 equipos: Talleres (RdE) y Lanús jugaron fusionados como Unión Talleres-Lanús, y Atlanta y Argentinos Juniors como Atlanta-Argentinos Juniors. Sus partidos figuran con esos nombres y no se suman al historial de cada club por separado."
+  },
+  {
+   "kind": "descalificacion",
+   "text": "Unión Talleres-Lanús se disolvió al terminar la temporada."
+  },
+  {
+   "kind": "identidad",
+   "text": "Desde la fecha 26 la fusión Atlanta-Argentinos figura como Argentinos Juniors; RSSSF cuenta toda la campaña como un solo equipo y así se muestra."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "boca",
+   "played": 39,
+   "won": 23,
+   "drawn": 9,
+   "lost": 7,
+   "goalsFor": 101,
+   "goalsAgainst": 62,
+   "points": 55
+  },
+  {
+   "teamId": "independiente",
+   "played": 39,
+   "won": 23,
+   "drawn": 8,
+   "lost": 8,
+   "goalsFor": 73,
+   "goalsAgainst": 41,
+   "points": 54
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 39,
+   "won": 22,
+   "drawn": 7,
+   "lost": 10,
+   "goalsFor": 84,
+   "goalsAgainst": 63,
+   "points": 51
+  },
+  {
+   "teamId": "river",
+   "played": 39,
+   "won": 23,
+   "drawn": 4,
+   "lost": 12,
+   "goalsFor": 91,
+   "goalsAgainst": 44,
+   "points": 50
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 39,
+   "won": 17,
+   "drawn": 10,
+   "lost": 12,
+   "goalsFor": 70,
+   "goalsAgainst": 56,
+   "points": 44
+  },
+  {
+   "teamId": "racing",
+   "played": 39,
+   "won": 18,
+   "drawn": 7,
+   "lost": 14,
+   "goalsFor": 83,
+   "goalsAgainst": 64,
+   "points": 43
+  },
+  {
+   "teamId": "platense",
+   "played": 39,
+   "won": 16,
+   "drawn": 11,
+   "lost": 12,
+   "goalsFor": 70,
+   "goalsAgainst": 74,
+   "points": 43
+  },
+  {
+   "teamId": "velez",
+   "played": 39,
+   "won": 16,
+   "drawn": 9,
+   "lost": 14,
+   "goalsFor": 80,
+   "goalsAgainst": 70,
+   "points": 41
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 39,
+   "won": 14,
+   "drawn": 10,
+   "lost": 15,
+   "goalsFor": 82,
+   "goalsAgainst": 86,
+   "points": 38
+  },
+  {
+   "teamId": "huracan",
+   "played": 39,
+   "won": 14,
+   "drawn": 9,
+   "lost": 16,
+   "goalsFor": 59,
+   "goalsAgainst": 67,
+   "points": 37
+  },
+  {
+   "teamId": "chacarita",
+   "played": 39,
+   "won": 13,
+   "drawn": 8,
+   "lost": 18,
+   "goalsFor": 63,
+   "goalsAgainst": 74,
+   "points": 34
+  },
+  {
+   "teamId": "union-talleres-lanus",
+   "played": 39,
+   "won": 8,
+   "drawn": 11,
+   "lost": 20,
+   "goalsFor": 50,
+   "goalsAgainst": 81,
+   "points": 27
+  },
+  {
+   "teamId": "ferro",
+   "played": 39,
+   "won": 6,
+   "drawn": 8,
+   "lost": 25,
+   "goalsFor": 51,
+   "goalsAgainst": 100,
+   "points": 20
+  },
+  {
+   "teamId": "atlanta-argentinos",
+   "played": 39,
+   "won": 2,
+   "drawn": 5,
+   "lost": 32,
+   "goalsFor": 38,
+   "goalsAgainst": 113,
+   "points": 9
+  }
+ ],
+ "matches": [
+  {
+   "id": "1934-001",
+   "date": "1934-03-18",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "ferro",
+   "homeGoals": 8,
+   "awayGoals": 2,
+   "venue": "Cancha de Estudiantes (LP)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-002",
+   "date": "1934-03-18",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-003",
+   "date": "1934-03-18",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-004",
+   "date": "1934-03-18",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-005",
+   "date": "1934-03-18",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-006",
+   "date": "1934-03-18",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "venue": "Cancha de Talleres (Remedios de Escalada)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-007",
+   "date": "1934-03-18",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-008",
+   "date": "1934-03-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-009",
+   "date": "1934-03-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-010",
+   "date": "1934-03-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "atlanta-argentinos",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-011",
+   "date": "1934-04-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-012",
+   "date": "1934-04-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-013",
+   "date": "1934-04-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-014",
+   "date": "1934-04-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-015",
+   "date": "1934-04-08",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-016",
+   "date": "1934-04-08",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-017",
+   "date": "1934-04-08",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-018",
+   "date": "1934-04-08",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-019",
+   "date": "1934-04-08",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-020",
+   "date": "1934-04-08",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-021",
+   "date": "1934-04-08",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-022",
+   "date": "1934-04-15",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-023",
+   "date": "1934-04-15",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-024",
+   "date": "1934-04-15",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-025",
+   "date": "1934-04-15",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-026",
+   "date": "1934-04-15",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-027",
+   "date": "1934-04-15",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-028",
+   "date": "1934-04-15",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "atlanta-argentinos",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Talleres (Remedios de Escalada)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-029",
+   "date": "1934-04-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-030",
+   "date": "1934-04-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-031",
+   "date": "1934-04-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-032",
+   "date": "1934-04-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-033",
+   "date": "1934-04-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "atlanta-argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-034",
+   "date": "1934-04-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-035",
+   "date": "1934-04-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-036",
+   "date": "1934-04-29",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-037",
+   "date": "1934-04-29",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-038",
+   "date": "1934-04-29",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-039",
+   "date": "1934-04-29",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-040",
+   "date": "1934-04-29",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-041",
+   "date": "1934-04-29",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-042",
+   "date": "1934-04-29",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-043",
+   "date": "1934-05-06",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-044",
+   "date": "1934-05-06",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-045",
+   "date": "1934-05-06",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-046",
+   "date": "1934-05-06",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "atlanta-argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-047",
+   "date": "1934-05-06",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-048",
+   "date": "1934-05-06",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-049",
+   "date": "1934-05-06",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-050",
+   "date": "1934-05-13",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-051",
+   "date": "1934-05-13",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-052",
+   "date": "1934-05-13",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-053",
+   "date": "1934-05-13",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-054",
+   "date": "1934-05-13",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-055",
+   "date": "1934-05-13",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Talleres (Remedios de Escalada)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-056",
+   "date": "1934-05-13",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-057",
+   "date": "1934-05-20",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-058",
+   "date": "1934-05-20",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "atlanta-argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-059",
+   "date": "1934-05-20",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-060",
+   "date": "1934-05-20",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-061",
+   "date": "1934-05-20",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-062",
+   "date": "1934-05-20",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-063",
+   "date": "1934-05-20",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-064",
+   "date": "1934-05-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-065",
+   "date": "1934-05-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-066",
+   "date": "1934-05-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-067",
+   "date": "1934-05-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-068",
+   "date": "1934-05-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 8,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-069",
+   "date": "1934-05-27",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-070",
+   "date": "1934-05-27",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-071",
+   "date": "1934-06-10",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-072",
+   "date": "1934-06-10",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Suspendido a los 83 minutos con 1-2 y no se completó: no suma."
+  },
+  {
+   "id": "1934-073",
+   "date": "1934-06-10",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-074",
+   "date": "1934-06-10",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-075",
+   "date": "1934-06-10",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-076",
+   "date": "1934-06-10",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-077",
+   "date": "1934-06-10",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "gimnasia",
+   "note": "Se suspendió a los 15 minutos con 0-1 para Estudiantes y la liga le dio los puntos a Gimnasia. La tabla oficial cuenta el gol de Estudiantes."
+  },
+  {
+   "id": "1934-078",
+   "date": "1934-06-10",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Resuelto por la liga."
+  },
+  {
+   "id": "1934-079",
+   "date": "1934-06-17",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-080",
+   "date": "1934-06-17",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "ferro",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-081",
+   "date": "1934-06-17",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-082",
+   "date": "1934-06-17",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atlanta-argentinos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-083",
+   "date": "1934-06-17",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-084",
+   "date": "1934-06-17",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-085",
+   "date": "1934-06-17",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-086",
+   "date": "1934-06-24",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-087",
+   "date": "1934-06-24",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-088",
+   "date": "1934-06-24",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-089",
+   "date": "1934-06-24",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-090",
+   "date": "1934-06-24",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-091",
+   "date": "1934-06-24",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 6,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-092",
+   "date": "1934-06-24",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Talleres (Remedios de Escalada)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-093",
+   "date": "1934-07-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-094",
+   "date": "1934-07-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "atlanta-argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-095",
+   "date": "1934-07-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-096",
+   "date": "1934-07-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-097",
+   "date": "1934-07-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-098",
+   "date": "1934-07-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-099",
+   "date": "1934-07-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-100",
+   "date": "1934-07-08",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-101",
+   "date": "1934-07-08",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-102",
+   "date": "1934-07-08",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-103",
+   "date": "1934-07-08",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-104",
+   "date": "1934-07-08",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-105",
+   "date": "1934-07-08",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-106",
+   "date": "1934-07-08",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-107",
+   "date": "1934-07-15",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-108",
+   "date": "1934-07-15",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-109",
+   "date": "1934-07-15",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "atlanta-argentinos",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-110",
+   "date": "1934-07-15",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-111",
+   "date": "1934-07-15",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-112",
+   "date": "1934-07-15",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-113",
+   "date": "1934-07-15",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "huracan",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-114",
+   "date": "1934-07-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-115",
+   "date": "1934-07-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-116",
+   "date": "1934-07-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-117",
+   "date": "1934-07-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-118",
+   "date": "1934-07-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-119",
+   "date": "1934-07-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-120",
+   "date": "1934-07-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-121",
+   "date": "1934-07-29",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-122",
+   "date": "1934-07-29",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-123",
+   "date": "1934-07-29",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-124",
+   "date": "1934-07-29",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-125",
+   "date": "1934-07-29",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-126",
+   "date": "1934-07-29",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-127",
+   "date": "1934-07-29",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Talleres (Remedios de Escalada)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-128",
+   "date": "1934-08-05",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-129",
+   "date": "1934-08-05",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-130",
+   "date": "1934-08-05",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atlanta-argentinos",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-131",
+   "date": "1934-08-05",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-132",
+   "date": "1934-08-05",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-133",
+   "date": "1934-08-05",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-134",
+   "date": "1934-08-05",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-135",
+   "date": "1934-08-12",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-136",
+   "date": "1934-08-12",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-137",
+   "date": "1934-08-12",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-138",
+   "date": "1934-08-12",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-139",
+   "date": "1934-08-12",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-140",
+   "date": "1934-08-12",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-141",
+   "date": "1934-08-12",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-142",
+   "date": "1934-08-19",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-143",
+   "date": "1934-08-19",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-144",
+   "date": "1934-08-19",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-145",
+   "date": "1934-08-19",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-146",
+   "date": "1934-08-19",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-147",
+   "date": "1934-08-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "velez",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-148",
+   "date": "1934-08-22",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "atlanta-argentinos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-149",
+   "date": "1934-08-26",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-150",
+   "date": "1934-08-26",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-151",
+   "date": "1934-08-26",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-152",
+   "date": "1934-08-26",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-153",
+   "date": "1934-08-26",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-154",
+   "date": "1934-08-26",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Talleres (Remedios de Escalada)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-155",
+   "date": "1934-08-26",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-156",
+   "date": "1934-09-02",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-157",
+   "date": "1934-09-02",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-158",
+   "date": "1934-09-02",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-159",
+   "date": "1934-09-02",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-160",
+   "date": "1934-09-02",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "atlanta-argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-161",
+   "date": "1934-09-02",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-162",
+   "date": "1934-09-02",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-163",
+   "date": "1934-09-09",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-164",
+   "date": "1934-09-09",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-165",
+   "date": "1934-09-09",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-166",
+   "date": "1934-09-09",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-167",
+   "date": "1934-09-09",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-168",
+   "date": "1934-09-09",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-169",
+   "date": "1934-09-09",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "atlanta-argentinos",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-170",
+   "date": "1934-09-16",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-171",
+   "date": "1934-09-16",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Estudiantes (LP)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-172",
+   "date": "1934-09-16",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-173",
+   "date": "1934-09-16",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-174",
+   "date": "1934-09-16",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-175",
+   "date": "1934-09-16",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-176",
+   "date": "1934-09-16",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-177",
+   "date": "1934-09-23",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "atlanta-argentinos",
+   "awayAs": "Argentinos Juniors",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-178",
+   "date": "1934-09-23",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-179",
+   "date": "1934-09-23",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-180",
+   "date": "1934-09-23",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-181",
+   "date": "1934-09-23",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-182",
+   "date": "1934-09-23",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-183",
+   "date": "1934-09-23",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-184",
+   "date": "1934-09-30",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-185",
+   "date": "1934-09-30",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-186",
+   "date": "1934-09-30",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "atlanta-argentinos",
+   "awayAs": "Argentinos Juniors",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Estudiantes (LP)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-187",
+   "date": "1934-09-30",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "platense",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-188",
+   "date": "1934-09-30",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-189",
+   "date": "1934-09-30",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-190",
+   "date": "1934-09-30",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Talleres (Remedios de Escalada)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-191",
+   "date": "1934-10-07",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "sanlorenzo",
+   "homeAs": "Argentinos Juniors",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-192",
+   "date": "1934-10-07",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-193",
+   "date": "1934-10-07",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-194",
+   "date": "1934-10-07",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-195",
+   "date": "1934-10-07",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-196",
+   "date": "1934-10-07",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-197",
+   "date": "1934-10-14",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "chacarita",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-198",
+   "date": "1934-10-21",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-199",
+   "date": "1934-10-21",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 6,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-200",
+   "date": "1934-10-21",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-201",
+   "date": "1934-10-21",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-202",
+   "date": "1934-10-21",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-203",
+   "date": "1934-10-21",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-204",
+   "date": "1934-10-21",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "atlanta-argentinos",
+   "awayAs": "Argentinos Juniors",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-205",
+   "date": "1934-10-28",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "ferro",
+   "homeAs": "Argentinos Juniors",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-206",
+   "date": "1934-10-28",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-207",
+   "date": "1934-10-28",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-208",
+   "date": "1934-10-28",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-209",
+   "date": "1934-10-28",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-210",
+   "date": "1934-10-28",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-211",
+   "date": "1934-10-28",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-212",
+   "date": "1934-11-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-213",
+   "date": "1934-11-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-214",
+   "date": "1934-11-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-215",
+   "date": "1934-11-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "atlanta-argentinos",
+   "awayAs": "Argentinos Juniors",
+   "homeGoals": 7,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-216",
+   "date": "1934-11-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-217",
+   "date": "1934-11-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-218",
+   "date": "1934-11-01",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Talleres (Remedios de Escalada)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-219",
+   "date": "1934-11-04",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "chacarita",
+   "homeAs": "Argentinos Juniors",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-220",
+   "date": "1934-11-04",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-221",
+   "date": "1934-11-04",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-222",
+   "date": "1934-11-04",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-223",
+   "date": "1934-11-04",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-224",
+   "date": "1934-11-04",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-225",
+   "date": "1934-11-04",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "ferro",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-226",
+   "date": "1934-11-11",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "atlanta-argentinos",
+   "awayAs": "Argentinos Juniors",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-227",
+   "date": "1934-11-11",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-228",
+   "date": "1934-11-11",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-229",
+   "date": "1934-11-11",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-230",
+   "date": "1934-11-11",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-231",
+   "date": "1934-11-11",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-232",
+   "date": "1934-11-11",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-233",
+   "date": "1934-11-18",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "platense",
+   "homeAs": "Argentinos Juniors",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-234",
+   "date": "1934-11-18",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-235",
+   "date": "1934-11-18",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-236",
+   "date": "1934-11-18",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-237",
+   "date": "1934-11-18",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "chacarita",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-238",
+   "date": "1934-11-18",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-239",
+   "date": "1934-11-18",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-240",
+   "date": "1934-11-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-241",
+   "date": "1934-11-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-242",
+   "date": "1934-11-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-243",
+   "date": "1934-11-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-244",
+   "date": "1934-11-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atlanta-argentinos",
+   "awayAs": "Argentinos Juniors",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-245",
+   "date": "1934-11-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-246",
+   "date": "1934-11-25",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-247",
+   "date": "1934-12-02",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Suspendido a los 53 minutos con 2-2 y no se completó: no suma."
+  },
+  {
+   "id": "1934-248",
+   "date": "1934-12-02",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-249",
+   "date": "1934-12-02",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-250",
+   "date": "1934-12-02",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "atlanta-argentinos",
+   "awayAs": "Argentinos Juniors",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-251",
+   "date": "1934-12-02",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-252",
+   "date": "1934-12-02",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Talleres (Remedios de Escalada)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-253",
+   "date": "1934-12-02",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-254",
+   "date": "1934-12-05",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-255",
+   "date": "1934-12-09",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "independiente",
+   "homeAs": "Argentinos Juniors",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-256",
+   "date": "1934-12-09",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-257",
+   "date": "1934-12-09",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-258",
+   "date": "1934-12-09",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "velez",
+   "homeGoals": 7,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-259",
+   "date": "1934-12-09",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-260",
+   "date": "1934-12-09",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-261",
+   "date": "1934-12-09",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-262",
+   "date": "1934-12-16",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "platense",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Cherro 30, Varallo 47, 53, 73, Zatelli 60 / Pérez 66."
+  },
+  {
+   "id": "1934-263",
+   "date": "1934-12-16",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-264",
+   "date": "1934-12-16",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-265",
+   "date": "1934-12-16",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "union-talleres-lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-266",
+   "date": "1934-12-16",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-267",
+   "date": "1934-12-16",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-268",
+   "date": "1934-12-16",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "atlanta-argentinos",
+   "awayAs": "Argentinos Juniors",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-269",
+   "date": "1934-12-23",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "atlanta-argentinos",
+   "awayId": "estudiantes",
+   "homeAs": "Argentinos Juniors",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-270",
+   "date": "1934-12-23",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-271",
+   "date": "1934-12-23",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-272",
+   "date": "1934-12-23",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-273",
+   "date": "1934-12-23",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-274",
+   "date": "1934-12-23",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1934-275",
+   "date": "1934-12-23",
+   "competition": "Liga Argentina de Football",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "union-talleres-lanus",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

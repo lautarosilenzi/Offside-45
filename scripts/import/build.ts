@@ -192,7 +192,7 @@ export function translateNote(
     } else if (/^incidents, see notes$/i.test(p)) out.text.push("Hubo incidentes (ver notas de la temporada).");
     else if ((m = p.match(/^(?:[A-Z][a-z]{2} \d{1,2} )?abandoned at (\d+)-(\d+) in (\d+)'?$/i)))
       out.text.push(`Suspendido a los ${m[3]} minutos con ${m[1]}-${m[2]}.`);
-    else if ((m = p.match(/^(.+?) lost points$/i))) {
+    else if ((m = p.match(/^(.+?) lost (?:the )?points$/i))) {
       const club = resolveName(m[1], year);
       out.lostPointsBy = club?.id;
       out.text.push(`La liga le quitó los puntos a ${club ? club.as ?? club.name : m[1]} y se los dio al rival.`);

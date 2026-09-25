@@ -138,7 +138,11 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["lanus-united", "Lanús United", "LUN", "Lanús United"],
   ["sportivo-suizo", "Sportivo Suizo", "SSU", "Sportivo Suizo"],
   ["universitarios", "Universitarios", "UNI", "Universitarios (1914; la fuente no da el nombre completo)"],
+  // Liga profesional 1934: dos equipos formados por fusiones que duraron solo esa temporada.
+  ["union-talleres-lanus", "Unión Talleres-Lanús", "UTL", "Unión Talleres-Lanús (fusión de Talleres de Remedios de Escalada y Lanús, solo en 1934)"],
+  ["atlanta-argentinos", "Atlanta-Argentinos Juniors", "AAJ", "Atlanta-Argentinos Juniors (fusión de Atlanta y Argentinos Juniors, solo en 1934)"],
   // Liga amateur 1932–1934.
+  ["ramsar", "Ramsar Sport Club", "RAM", "Ramsar Sport Club"],
   ["argentino-temperley", "Argentino de Temperley", "ATE", "Argentino de Temperley (en 1932 absorbió a Argentino de Banfield)"],
   // Copa Jockey Club 1931 (liga amateur): equipos de la Primera B y de Ferrocarriles del Estado.
   ["gimnasia-lanus", "Gimnasia y Esgrima (Lanús)", "GLA", "Gimnasia y Esgrima de Lanús"],
