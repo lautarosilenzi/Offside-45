@@ -22,6 +22,10 @@ export type TournamentConfig = {
   // Equipos eliminados que vuelven a jugar (cuadro rearmado en 1920, o un caso sin explicar en la fuente). Sin `teams`, vale para todos.
   // La explicación se agrega a las notas de la temporada.
   reentry?: { teams?: string[]; note: string };
+  // Copas con grupos que en realidad son cuadros de eliminación (Copa de la República): el control de eliminados corre igual.
+  knockoutGroups?: boolean;
+  // El índice de copas de RSSSF da otro resultado de la final y hay pruebas de que el error es del índice (motivo).
+  indexErrata?: string;
   // Copas por grupos: tabla de la página (índice) que corresponde a cada grupo (expresión regular sobre la fase).
   // knownDiffs: diferencias ya revisadas por club, con la explicación.
   groupTables?: { table: number; stage: string; knownDiffs?: Record<string, string> }[];
@@ -107,13 +111,17 @@ const afaPro = (year: number, rest: Omit<TournamentConfig, "slug" | "year" | "fi
   organizer: AFA_PRO,
   title: `Campeonato ${year}`,
   tournament: `Copa Campeonato ${year}`,
-  tableFile: "arghist-pro1930s.html",
-  tableSection: new RegExp(`^Copa Campeonato ${year}\\.?$`),
+  // Tablas finales por década: 1931–1940 las titula "Copa Campeonato AAAA", 1941–1950 "Primera División AAAA".
+  // Cada documento cubre de 1 a 10 (1941–1950 está en el de los años 40).
+  tableFile: `arghist-pro${Math.floor((year - 1) / 10)}0s.html`,
+  tableSection: year <= 1940 ? new RegExp(`^Copa Campeonato ${year}\\.?$`) : new RegExp(`^Primera División ${year}\\.?$`),
   // En 1935–1940 el único Talleres de Primera es el de Remedios de Escalada.
   aliases: {
     Estudiantes: "estudiantes",
     "Gimnasia (LP)": "gimnasia",
     "Gimnasia y Esgrima": "gimnasia",
+    // Desde 1935 el único Gimnasia de Primera es el de La Plata (en las tablas figura "Club de Gimnasia y Esgrima").
+    "Club de Gimnasia y Esgrima": "gimnasia",
     Talleres: "talleres-re",
     "CA Talleres": "talleres-re",
   },
@@ -1360,5 +1368,81 @@ export const TOURNAMENTS: TournamentConfig[] = [
     championIds: ["boca"],
     summary: "Boca Juniors ganó el campeonato, el año en que inauguró la Bombonera (25 de mayo de 1940).",
     notes: [rr2(18), TABLA_DECADA],
+  }),
+
+  // ───────── 1941–1950 ─────────
+  afaPro(1941, {
+    championIds: ["river"],
+    summary: "River Plate campeón: el comienzo de la época de «La Máquina».",
+    pointAdjustments: [{ teamId: "banfield", points: -16, reason: "suspensión de 60 días por soborno: 2 puntos menos por cada uno de sus 8 partidos en ese lapso" }],
+    notes: [
+      rr2(16),
+      TABLA_DECADA,
+      { kind: "puntos", text: "Banfield fue suspendido 60 días por un caso de soborno en la fecha 10: jugó los partidos de ese período pero se le descontaron 2 puntos en cada uno (16 en total)." },
+      { kind: "descalificacion", text: "Descendió Rosario Central." },
+    ],
+  }),
+  afaPro(1942, { championIds: ["river"], summary: "River Plate bicampeón.", notes: [rr2(16), TABLA_DECADA] }),
+  afaPro(1943, { championIds: ["boca"], summary: "Boca Juniors campeón.", notes: [rr2(16), TABLA_DECADA] }),
+  afaPro(1944, {
+    championIds: ["boca"],
+    summary: "Boca Juniors bicampeón.",
+    wikiErrata: { "RSSSF boca 5-0 ferro": "Wikipedia da 5-1; la tabla final (goles de Boca y de Ferro) cierra con el 5-0 de RSSSF." },
+    notes: [rr2(16), TABLA_DECADA],
+  }),
+  afaPro(1945, { championIds: ["river"], summary: "River Plate campeón.", notes: [rr2(16), TABLA_DECADA] }),
+  afaPro(1946, { championIds: ["sanlorenzo"], summary: "San Lorenzo campeón.", notes: [rr2(16), TABLA_DECADA] }),
+  afaPro(1947, { championIds: ["river"], summary: "River Plate campeón, con Alfredo Di Stéfano como goleador del torneo.", notes: [rr2(16), TABLA_DECADA] }),
+  afaPro(1948, {
+    championIds: ["independiente"],
+    summary: "Independiente campeón, en un año marcado por la huelga de futbolistas del final de la temporada.",
+    pointAdjustments: [
+      { teamId: "racing", points: -4, reason: "no se presentó ante Banfield (16/12) ni ante San Lorenzo (22/12): perdió ambos partidos y se le descontaron 2 puntos más en cada uno" },
+    ],
+    notes: [
+      rr2(16),
+      TABLA_DECADA,
+      { kind: "puntos", text: "Durante la huelga de futbolistas de fin de año Racing no se presentó a dos partidos: los perdió y además se le descontaron 2 puntos por cada uno." },
+    ],
+  }),
+  afaPro(1949, {
+    championIds: ["racing"],
+    summary: "Racing Club campeón: el primero de sus tres títulos seguidos.",
+    overrides: {
+      "1949-12-14 platense river": { stage: "Desempate por el segundo puesto", note: "Ida, en la cancha de San Lorenzo (neutral). No suma en la tabla." },
+      "1949-12-26 river platense": { stage: "Desempate por el segundo puesto", note: "Vuelta, en la cancha de San Lorenzo (neutral): River Plate subcampeón. No suma en la tabla." },
+      "1949-12-18 huracan lanus": { stage: "Desempate por el descenso", note: "Ida. No suma en la tabla." },
+      "1949-12-24 lanus huracan": { stage: "Desempate por el descenso", note: "Vuelta. No suma en la tabla." },
+      "1950-01-08 huracan lanus": { stage: "Desempate por el descenso", note: "Tercer partido. Terminó 3-3 en los 90 minutos y no se jugó el alargue; la AFA lo anuló el 12/1/1950 y se jugó de nuevo." },
+      "1949-02-16 lanus huracan": {
+        date: "1950-02-16",
+        stage: "Desempate por el descenso",
+        note: "Tercer partido, jugado de nuevo tras la anulación del 3-3. Suspendido a los 80 minutos con 2-3; la AFA dio por bueno el resultado el 23/2/1950. Descendió Lanús.",
+      },
+    },
+    notes: [
+      rr2(18),
+      TABLA_DECADA,
+      { kind: "puntos", text: "River Plate y Platense empataron el segundo puesto y Huracán y Lanús el penúltimo: se jugaron desempates, que no suman en la tabla. River fue subcampeón y Lanús descendió." },
+    ],
+  }),
+  afaPro(1950, {
+    championIds: ["racing"],
+    summary: "Racing Club bicampeón.",
+    overrides: {
+      "1950-12-03 boca independiente": { stage: "Desempate por el segundo puesto", note: "Ida, en la cancha de River Plate. No suma en la tabla." },
+      "1950-12-08 independiente boca": { stage: "Desempate por el segundo puesto", note: "Vuelta, en la cancha de Racing Club. No suma en la tabla." },
+      "1950-12-10 boca independiente": {
+        stage: "Desempate por el segundo puesto",
+        note: "Tercer partido, en la cancha de Racing Club. Boca Juniors quedó segundo por promedio de gol en la tabla acumulada (torneo más desempates). No suma en la tabla.",
+      },
+      "1950-12-03 tigre huracan": { stage: "Desempate por el descenso", note: "Ida, en la cancha de Independiente. No suma en la tabla." },
+      "1950-12-10 huracan tigre": { stage: "Desempate por el descenso", note: "Vuelta, en la cancha de River Plate: descendió Tigre. No suma en la tabla." },
+    },
+    notes: [
+      rr2(18),
+      TABLA_DECADA,
+      { kind: "puntos", text: "Boca e Independiente empataron el segundo puesto (un triunfo cada uno y un empate en los desempates): Boca fue subcampeón por promedio de gol. Huracán le ganó los dos partidos a Tigre, que descendió junto con Rosario Central." },
+    ],
   }),
 ];

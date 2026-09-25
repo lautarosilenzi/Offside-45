@@ -1,0 +1,3610 @@
+{
+ "slug": "1941",
+ "year": 1941,
+ "title": "Campeonato 1941",
+ "tournament": "Copa Campeonato 1941",
+ "organizer": "Asociación del Football Argentino",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River Plate campeón: el comienzo de la época de «La Máquina».",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1941",
+   "url": "https://www.rsssf.org/tablesa/arg41.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1941 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1941_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a dos ruedas entre 16 equipos, 2 puntos por victoria."
+  },
+  {
+   "kind": "fuentes",
+   "text": "La tabla con la que se verifican los partidos es la del documento de tablas finales de RSSSF por década, un archivo distinto a la página de partidos de la temporada."
+  },
+  {
+   "kind": "puntos",
+   "text": "Banfield fue suspendido 60 días por un caso de soborno en la fecha 10: jugó los partidos de ese período pero se le descontaron 2 puntos en cada uno (16 en total)."
+  },
+  {
+   "kind": "descalificacion",
+   "text": "Descendió Rosario Central."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "banfield",
+   "points": -16,
+   "reason": "suspensión de 60 días por soborno: 2 puntos menos por cada uno de sus 8 partidos en ese lapso"
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "river",
+   "played": 30,
+   "won": 19,
+   "drawn": 6,
+   "lost": 5,
+   "goalsFor": 75,
+   "goalsAgainst": 35,
+   "points": 44
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 30,
+   "won": 17,
+   "drawn": 6,
+   "lost": 7,
+   "goalsFor": 67,
+   "goalsAgainst": 46,
+   "points": 40
+  },
+  {
+   "teamId": "newells",
+   "played": 30,
+   "won": 17,
+   "drawn": 4,
+   "lost": 9,
+   "goalsFor": 78,
+   "goalsAgainst": 50,
+   "points": 38
+  },
+  {
+   "teamId": "boca",
+   "played": 30,
+   "won": 16,
+   "drawn": 4,
+   "lost": 10,
+   "goalsFor": 61,
+   "goalsAgainst": 52,
+   "points": 36
+  },
+  {
+   "teamId": "independiente",
+   "played": 30,
+   "won": 15,
+   "drawn": 4,
+   "lost": 11,
+   "goalsFor": 67,
+   "goalsAgainst": 53,
+   "points": 34
+  },
+  {
+   "teamId": "huracan",
+   "played": 30,
+   "won": 14,
+   "drawn": 6,
+   "lost": 10,
+   "goalsFor": 57,
+   "goalsAgainst": 48,
+   "points": 34
+  },
+  {
+   "teamId": "racing",
+   "played": 30,
+   "won": 15,
+   "drawn": 3,
+   "lost": 12,
+   "goalsFor": 64,
+   "goalsAgainst": 54,
+   "points": 33
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 30,
+   "won": 13,
+   "drawn": 6,
+   "lost": 11,
+   "goalsFor": 77,
+   "goalsAgainst": 64,
+   "points": 32
+  },
+  {
+   "teamId": "ferro",
+   "played": 30,
+   "won": 13,
+   "drawn": 4,
+   "lost": 13,
+   "goalsFor": 44,
+   "goalsAgainst": 54,
+   "points": 30
+  },
+  {
+   "teamId": "tigre",
+   "played": 30,
+   "won": 9,
+   "drawn": 9,
+   "lost": 12,
+   "goalsFor": 47,
+   "goalsAgainst": 54,
+   "points": 27
+  },
+  {
+   "teamId": "atlanta",
+   "played": 30,
+   "won": 8,
+   "drawn": 10,
+   "lost": 12,
+   "goalsFor": 59,
+   "goalsAgainst": 73,
+   "points": 26
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 30,
+   "won": 8,
+   "drawn": 4,
+   "lost": 18,
+   "goalsFor": 50,
+   "goalsAgainst": 73,
+   "points": 20
+  },
+  {
+   "teamId": "platense",
+   "played": 30,
+   "won": 6,
+   "drawn": 7,
+   "lost": 17,
+   "goalsFor": 49,
+   "goalsAgainst": 68,
+   "points": 19
+  },
+  {
+   "teamId": "lanus",
+   "played": 30,
+   "won": 6,
+   "drawn": 6,
+   "lost": 18,
+   "goalsFor": 59,
+   "goalsAgainst": 95,
+   "points": 18
+  },
+  {
+   "teamId": "banfield",
+   "played": 30,
+   "won": 15,
+   "drawn": 3,
+   "lost": 12,
+   "goalsFor": 67,
+   "goalsAgainst": 68,
+   "points": 17
+  },
+  {
+   "teamId": "central",
+   "played": 30,
+   "won": 6,
+   "drawn": 4,
+   "lost": 20,
+   "goalsFor": 42,
+   "goalsAgainst": 76,
+   "points": 16
+  }
+ ],
+ "matches": [
+  {
+   "id": "1941-001",
+   "date": "1941-03-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-002",
+   "date": "1941-03-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-003",
+   "date": "1941-03-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-004",
+   "date": "1941-03-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-005",
+   "date": "1941-03-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-006",
+   "date": "1941-03-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-007",
+   "date": "1941-03-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-008",
+   "date": "1941-03-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-009",
+   "date": "1941-04-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "atlanta",
+   "homeGoals": 7,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-010",
+   "date": "1941-04-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-011",
+   "date": "1941-04-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-012",
+   "date": "1941-04-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-013",
+   "date": "1941-04-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-014",
+   "date": "1941-04-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-015",
+   "date": "1941-04-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-016",
+   "date": "1941-04-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-017",
+   "date": "1941-04-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "estudiantes",
+   "homeGoals": 6,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-018",
+   "date": "1941-04-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-019",
+   "date": "1941-04-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-020",
+   "date": "1941-04-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-021",
+   "date": "1941-04-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-022",
+   "date": "1941-04-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-023",
+   "date": "1941-04-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-024",
+   "date": "1941-04-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-025",
+   "date": "1941-04-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-026",
+   "date": "1941-04-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-027",
+   "date": "1941-04-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-028",
+   "date": "1941-04-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-029",
+   "date": "1941-04-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 7,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-030",
+   "date": "1941-04-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-031",
+   "date": "1941-04-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-032",
+   "date": "1941-04-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "huracan",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-033",
+   "date": "1941-04-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-034",
+   "date": "1941-04-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-035",
+   "date": "1941-04-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-036",
+   "date": "1941-04-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-037",
+   "date": "1941-04-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "atlanta",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-038",
+   "date": "1941-04-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-039",
+   "date": "1941-04-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-040",
+   "date": "1941-04-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-041",
+   "date": "1941-05-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-042",
+   "date": "1941-05-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-043",
+   "date": "1941-05-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "banfield",
+   "homeGoals": 7,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-044",
+   "date": "1941-05-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-045",
+   "date": "1941-05-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-046",
+   "date": "1941-05-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-047",
+   "date": "1941-05-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-048",
+   "date": "1941-05-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-049",
+   "date": "1941-05-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-050",
+   "date": "1941-05-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-051",
+   "date": "1941-05-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-052",
+   "date": "1941-05-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-053",
+   "date": "1941-05-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-054",
+   "date": "1941-05-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-055",
+   "date": "1941-05-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-056",
+   "date": "1941-05-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-057",
+   "date": "1941-05-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-058",
+   "date": "1941-05-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-059",
+   "date": "1941-05-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-060",
+   "date": "1941-05-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-061",
+   "date": "1941-05-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-062",
+   "date": "1941-05-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-063",
+   "date": "1941-05-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-064",
+   "date": "1941-05-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-065",
+   "date": "1941-05-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-066",
+   "date": "1941-05-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "racing",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-067",
+   "date": "1941-05-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-068",
+   "date": "1941-05-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-069",
+   "date": "1941-05-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-070",
+   "date": "1941-05-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-071",
+   "date": "1941-05-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-072",
+   "date": "1941-05-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-073",
+   "date": "1941-06-01",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-074",
+   "date": "1941-06-01",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-075",
+   "date": "1941-06-01",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-076",
+   "date": "1941-06-01",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-077",
+   "date": "1941-06-01",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-078",
+   "date": "1941-06-01",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-079",
+   "date": "1941-06-01",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-080",
+   "date": "1941-06-01",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-081",
+   "date": "1941-06-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-082",
+   "date": "1941-06-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-083",
+   "date": "1941-06-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-084",
+   "date": "1941-06-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-085",
+   "date": "1941-06-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-086",
+   "date": "1941-06-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-087",
+   "date": "1941-06-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-088",
+   "date": "1941-06-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-089",
+   "date": "1941-06-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "central",
+   "homeGoals": 9,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-090",
+   "date": "1941-06-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-091",
+   "date": "1941-06-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-092",
+   "date": "1941-06-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-093",
+   "date": "1941-06-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-094",
+   "date": "1941-06-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-095",
+   "date": "1941-06-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-096",
+   "date": "1941-06-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-097",
+   "date": "1941-06-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-098",
+   "date": "1941-06-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-099",
+   "date": "1941-06-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-100",
+   "date": "1941-06-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-101",
+   "date": "1941-06-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-102",
+   "date": "1941-06-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-103",
+   "date": "1941-06-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-104",
+   "date": "1941-06-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-105",
+   "date": "1941-06-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-106",
+   "date": "1941-06-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-107",
+   "date": "1941-06-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-108",
+   "date": "1941-06-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-109",
+   "date": "1941-06-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-110",
+   "date": "1941-06-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-111",
+   "date": "1941-06-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "tigre",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-112",
+   "date": "1941-06-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-113",
+   "date": "1941-07-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-114",
+   "date": "1941-07-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-115",
+   "date": "1941-07-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-116",
+   "date": "1941-07-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-117",
+   "date": "1941-07-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-118",
+   "date": "1941-07-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "A Banfield le descontaron 2 puntos (sanción)."
+  },
+  {
+   "id": "1941-119",
+   "date": "1941-07-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-120",
+   "date": "1941-07-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-121",
+   "date": "1941-07-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-122",
+   "date": "1941-07-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-123",
+   "date": "1941-07-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-124",
+   "date": "1941-07-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "A Banfield le descontaron 2 puntos (sanción)."
+  },
+  {
+   "id": "1941-125",
+   "date": "1941-07-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-126",
+   "date": "1941-07-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-127",
+   "date": "1941-07-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-128",
+   "date": "1941-07-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-129",
+   "date": "1941-07-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-130",
+   "date": "1941-07-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste (BUE)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-131",
+   "date": "1941-07-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "ferro",
+   "homeGoals": 7,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-132",
+   "date": "1941-07-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-133",
+   "date": "1941-07-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-134",
+   "date": "1941-07-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-135",
+   "date": "1941-07-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-136",
+   "date": "1941-07-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-137",
+   "date": "1941-08-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-138",
+   "date": "1941-08-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-139",
+   "date": "1941-08-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-140",
+   "date": "1941-08-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-141",
+   "date": "1941-08-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-142",
+   "date": "1941-08-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-143",
+   "date": "1941-08-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-144",
+   "date": "1941-08-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "A Banfield le descontaron 2 puntos (sanción)."
+  },
+  {
+   "id": "1941-145",
+   "date": "1941-08-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-146",
+   "date": "1941-08-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-147",
+   "date": "1941-08-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-148",
+   "date": "1941-08-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-149",
+   "date": "1941-08-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-150",
+   "date": "1941-08-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-151",
+   "date": "1941-08-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-152",
+   "date": "1941-08-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-153",
+   "date": "1941-08-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-154",
+   "date": "1941-08-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "A Banfield le descontaron 2 puntos (sanción)."
+  },
+  {
+   "id": "1941-155",
+   "date": "1941-08-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-156",
+   "date": "1941-08-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-157",
+   "date": "1941-08-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-158",
+   "date": "1941-08-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-159",
+   "date": "1941-08-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-160",
+   "date": "1941-08-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-161",
+   "date": "1941-08-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-162",
+   "date": "1941-08-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-163",
+   "date": "1941-08-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-164",
+   "date": "1941-08-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-165",
+   "date": "1941-08-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-166",
+   "date": "1941-08-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-167",
+   "date": "1941-08-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-168",
+   "date": "1941-08-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-169",
+   "date": "1941-08-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-170",
+   "date": "1941-08-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-171",
+   "date": "1941-08-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-172",
+   "date": "1941-08-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "tigre",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-173",
+   "date": "1941-08-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-174",
+   "date": "1941-08-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-175",
+   "date": "1941-08-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-176",
+   "date": "1941-08-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-177",
+   "date": "1941-09-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-178",
+   "date": "1941-09-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-179",
+   "date": "1941-09-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-180",
+   "date": "1941-09-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-181",
+   "date": "1941-09-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "lanus",
+   "homeGoals": 7,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-182",
+   "date": "1941-09-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-183",
+   "date": "1941-09-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-184",
+   "date": "1941-09-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "racing",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-185",
+   "date": "1941-09-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-186",
+   "date": "1941-09-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-187",
+   "date": "1941-09-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-188",
+   "date": "1941-09-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-189",
+   "date": "1941-09-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-190",
+   "date": "1941-09-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-191",
+   "date": "1941-09-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-192",
+   "date": "1941-09-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-193",
+   "date": "1941-09-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-194",
+   "date": "1941-09-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-195",
+   "date": "1941-09-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-196",
+   "date": "1941-09-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-197",
+   "date": "1941-09-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-198",
+   "date": "1941-09-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-199",
+   "date": "1941-09-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Suspendido a los 70 minutos con 1-0 y no se completó: no suma."
+  },
+  {
+   "id": "1941-200",
+   "date": "1941-09-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-201",
+   "date": "1941-10-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-202",
+   "date": "1941-09-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-203",
+   "date": "1941-09-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-204",
+   "date": "1941-09-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-205",
+   "date": "1941-09-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-206",
+   "date": "1941-09-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-207",
+   "date": "1941-09-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "gimnasia",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-208",
+   "date": "1941-09-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-209",
+   "date": "1941-09-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-210",
+   "date": "1941-10-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-211",
+   "date": "1941-10-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-212",
+   "date": "1941-10-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-213",
+   "date": "1941-10-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-214",
+   "date": "1941-10-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-215",
+   "date": "1941-10-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-216",
+   "date": "1941-10-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-217",
+   "date": "1941-10-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-218",
+   "date": "1941-10-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-219",
+   "date": "1941-10-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-220",
+   "date": "1941-10-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-221",
+   "date": "1941-10-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "lanus",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-222",
+   "date": "1941-10-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-223",
+   "date": "1941-10-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-224",
+   "date": "1941-10-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-225",
+   "date": "1941-10-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-226",
+   "date": "1941-10-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-227",
+   "date": "1941-10-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-228",
+   "date": "1941-10-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-229",
+   "date": "1941-10-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-230",
+   "date": "1941-10-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-231",
+   "date": "1941-10-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-232",
+   "date": "1941-10-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-233",
+   "date": "1941-10-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-234",
+   "date": "1941-10-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-235",
+   "date": "1941-10-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-236",
+   "date": "1941-10-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-237",
+   "date": "1941-10-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Laferrara 38 / Moreno 16, Rodríguez (o.g.) 37, Muñoz 77."
+  },
+  {
+   "id": "1941-238",
+   "date": "1941-10-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-239",
+   "date": "1941-10-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-240",
+   "date": "1941-10-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1941-241",
+   "date": "1941-11-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "lanus",
+   "homeGoals": 9,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

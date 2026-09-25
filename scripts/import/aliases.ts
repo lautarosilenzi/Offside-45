@@ -18,7 +18,7 @@ const ALIASES: Alias[] = [
   { id: "united-banks", names: ["United Banks"] },
   { id: "alumni", names: ["English High School AC", "English High School Athletic Club", "English High School"], as: "English High School", to: 1900 },
   { id: "alumni", names: ["Alumni", "Alumni FT", "Alumni Football Team", "Alumni AC", "Alumni Athletic Club"], from: 1901 },
-  { id: "quilmes", names: ["Quilmes", "Quilmes AC", "Quilmes Athletic Club"], from: 1900 },
+  { id: "quilmes", names: ["Quilmes", "Quilmes AC", "Quilmes Athletic Club", "Quilmes Atlético Club"], from: 1900 },
   { id: "barracas-athletic", names: ["Barracas Athletic", "Barracas Athletic Club", "Barracas AC", "Barracas"], to: 1910 },
   {
     id: "belgrano-athletic-b",

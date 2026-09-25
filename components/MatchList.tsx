@@ -83,6 +83,8 @@ function MatchRow({ match, linkSeason, showStage }: { match: Match; linkSeason: 
   if (match.walkover && awarded)
     tags.push({ label: match.phase === "cup" ? `No se jugó · pasó ${awarded.name}` : `No se jugó · puntos para ${awarded.name}`, tone: "amber" });
   else if (awarded) tags.push({ label: `Ganado por escritorio: ${awarded.name}`, tone: "slate" });
+  const advanced = match.advancedId ? getTeam(match.advancedId) : undefined;
+  if (advanced) tags.push({ label: `Empate · pasó ${match.advancedId === home.id ? homeName : match.advancedId === away.id ? awayName : advanced.name}`, tone: "slate" });
   if (match.scoreUnknown) {
     const w = winner === home.id ? homeName : winner === away.id ? awayName : null;
     tags.push({ label: `Resultado no registrado · ${w ? `ganó ${w}` : "empate"}`, tone: "slate" });

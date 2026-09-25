@@ -1,0 +1,127 @@
+{
+ "slug": "copa-escobar-1949",
+ "kind": "cup",
+ "runnerUpIds": [
+  "racing"
+ ],
+ "year": 1949,
+ "title": "Copa Escobar 1949",
+ "tournament": "Copa Adrián C. Escobar",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "newells"
+ ],
+ "summary": "Newell's Old Boys ganó la Copa Escobar: 2-2 con Racing en la final y 4-2 en córners.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Escobar 1949",
+   "url": "https://www.rsssf.org/tablesa/arg-esc49.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "La jugaban los siete primeros del campeonato, casi siempre en uno o dos días y en una misma cancha, con partidos de 40 minutos. Los empates se definían por córners (y si seguían iguales, por sorteo). El campeón de liga entraba directo en semifinales."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1949-001",
+   "date": "1949-12-09",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "note": "Público: 10.000."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1949-002",
+   "date": "1949-12-09",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "advancedId": "river",
+   "note": "Pasó por córners (8-1)."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1949-003",
+   "date": "1949-12-09",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "velez",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1949-004",
+   "date": "1949-12-10",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Independiente",
+   "note": "Público: 40.000."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1949-005",
+   "date": "1949-12-10",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Independiente"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1949-006",
+   "date": "1949-12-10",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "newells",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Independiente",
+   "advancedId": "newells",
+   "note": "Pasó por córners (4-2). Con alargue."
+  }
+ ]
+}

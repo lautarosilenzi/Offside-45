@@ -1,0 +1,55 @@
+{
+ "slug": "copa-ibarguren-1950",
+ "kind": "cup",
+ "runnerUpIds": [
+  "racing"
+ ],
+ "year": 1950,
+ "title": "Copa Ibarguren 1950",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "liga-mendocina"
+ ],
+ "summary": "La selección de la Liga Mendocina le ganó 3-2 a Racing Club en Mendoza: la única vez que una selección de liga se quedó con la Copa Ibarguren sola.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1950",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1950",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1950"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "El campeón de la AFA contra la selección ganadora del Campeonato Argentino (Copa Presidente Hipólito Yrigoyen)."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó el 17 de diciembre de 1950, en la cancha de Gimnasia y Esgrima de Mendoza."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1950-001",
+   "date": "1950-12-17",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "liga-mendocina",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Gimnasia y Esgrima (Mendoza)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Higinio García 16 og, Godoy 58 pen, 80 / Bravo 25, Salvini 90."
+  }
+ ]
+}

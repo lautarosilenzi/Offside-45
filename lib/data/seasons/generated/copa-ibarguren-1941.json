@@ -1,0 +1,55 @@
+{
+ "slug": "copa-ibarguren-1941",
+ "kind": "cup",
+ "runnerUpIds": [
+  "newells"
+ ],
+ "year": 1941,
+ "title": "Copa Ibarguren 1941",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación del Fútbol Argentino y Liga Rosarina de Fútbol",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River Plate le ganó 3-0 a Newell's Old Boys, campeón rosarino, en la cancha de Ferro.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1941",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1941",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1941"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la AFA y el de la Liga Rosarina. Fue la última edición con el campeón rosarino como rival."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó el 22 de marzo de 1942."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1941-001",
+   "date": "1942-03-22",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pedernera 5, Labruna 16 pen, D'Alessandro 33."
+  }
+ ]
+}

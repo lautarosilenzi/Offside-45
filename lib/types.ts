@@ -104,6 +104,8 @@ export type Match = {
   status?: "official" | "annulled";
   // Cuando el resultado de la cancha no fue el que quedó oficialmente (puntos quitados, etc.).
   awardedTo?: string;
+  // Copas: empate que se definió por córners, sorteo o penales; quién pasó (para la estadística sigue siendo empate).
+  advancedId?: string;
   note?: string;
   sources: Source[];
 };

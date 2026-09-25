@@ -1,0 +1,63 @@
+{
+ "slug": "copa-ibarguren-1944",
+ "kind": "cup",
+ "runnerUpIds": [
+  "seleccion-tucuman"
+ ],
+ "year": 1944,
+ "title": "Copa Ibarguren 1944",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca Juniors le ganó 6-0 en Tucumán a la selección tucumana, ganadora del Campeonato Argentino. Se jugó recién en marzo de 1947.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1944",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1944",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1944"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "El campeón de la AFA contra la selección ganadora del Campeonato Argentino (Copa Presidente Hipólito Yrigoyen)."
+  },
+  {
+   "kind": "identidad",
+   "text": "La selección tucumana era un combinado de la Federación Tucumana de Fútbol y la Asociación Cultural de Fútbol."
+  },
+  {
+   "kind": "dato",
+   "text": "No hubo Copa Ibarguren en 1943 ni entre 1945 y 1949."
+  },
+  {
+   "kind": "fuentes",
+   "text": "El índice de copas de RSSSF da 3-0; la página del partido (con los seis goleadores) y Wikipedia dan 6-0."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Ibarguren",
+   "id": "copa-ibarguren-1944-001",
+   "date": "1947-03-23",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "seleccion-tucuman",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 6,
+   "venue": "Cancha de Atlético Tucumán",
+   "note": "Goles: Sarlanga 13', Ricagni 32', 46', 50', Sosa 55', Corcuera 64'. Árbitro: Eduardo Forte."
+  }
+ ]
+}

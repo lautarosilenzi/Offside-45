@@ -1,0 +1,55 @@
+{
+ "slug": "copa-ibarguren-1942",
+ "kind": "cup",
+ "runnerUpIds": [
+  "liga-cordobesa"
+ ],
+ "year": 1942,
+ "title": "Copa Ibarguren 1942",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River Plate goleó 7-0 a la selección de la Liga Cordobesa, ganadora del Campeonato Argentino de selecciones.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1942",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1942",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1942"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Desde 1942 el rival del campeón de la AFA fue la selección ganadora del Campeonato Argentino (Copa Presidente Hipólito Yrigoyen)."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó el 4 de abril de 1943, en la cancha de San Lorenzo."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1942-001",
+   "date": "1943-04-04",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "liga-cordobesa",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Deambrossi 8, 68, Lustau 57, 75, Labruna 73, Pedernera 85, Moreno 89."
+  }
+ ]
+}

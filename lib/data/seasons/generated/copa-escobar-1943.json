@@ -1,0 +1,129 @@
+{
+ "slug": "copa-escobar-1943",
+ "kind": "cup",
+ "runnerUpIds": [
+  "platense"
+ ],
+ "year": 1943,
+ "title": "Copa Escobar 1943",
+ "tournament": "Copa Adrián C. Escobar",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "huracan"
+ ],
+ "summary": "Huracán bicampeón de la Copa Escobar: 0-0 con Platense en la final y 4-1 en córners.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Escobar 1943",
+   "url": "https://www.rsssf.org/tablesa/arg-esc43.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "La jugaban los siete primeros del campeonato, casi siempre en uno o dos días y en una misma cancha, con partidos de 40 minutos. Los empates se definían por córners (y si seguían iguales, por sorteo). El campeón de liga entraba directo en semifinales."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1943-001",
+   "date": "1943-12-08",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate (Monumental)"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1943-002",
+   "date": "1943-12-08",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "platense",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate (Monumental)"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1943-003",
+   "date": "1943-12-08",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de River Plate (Monumental)",
+   "advancedId": "independiente",
+   "note": "Pasó por córners (4-2)."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1943-004",
+   "date": "1943-12-11",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo (Gasómetro)",
+   "advancedId": "huracan",
+   "note": "Empataron también en córners (3-3): Huracán pasó por sorteo."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1943-005",
+   "date": "1943-12-11",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "platense",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo (Gasómetro)",
+   "advancedId": "platense",
+   "note": "Pasó por córners (7-3)."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1943-006",
+   "date": "1943-12-11",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo (Gasómetro)",
+   "advancedId": "huracan",
+   "note": "Pasó por córners (4-1). Huracán campeón."
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "slug": "copa-escobar-1944",
+ "kind": "cup",
+ "runnerUpIds": [
+  "sanlorenzo"
+ ],
+ "year": 1944,
+ "title": "Copa Escobar 1944",
+ "tournament": "Copa Adrián C. Escobar",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "estudiantes"
+ ],
+ "summary": "Estudiantes de La Plata ganó la Copa Escobar: 1-0 a San Lorenzo en la final.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Escobar 1944",
+   "url": "https://www.rsssf.org/tablesa/arg-esc44.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "La jugaban los siete primeros del campeonato, casi siempre en uno o dos días y en una misma cancha, con partidos de 40 minutos. Los empates se definían por córners (y si seguían iguales, por sorteo). El campeón de liga entraba directo en semifinales."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1944-001",
+   "date": "1944-11-30",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo (Gasómetro)"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1944-002",
+   "date": "1944-11-30",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo (Gasómetro)"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1944-003",
+   "date": "1944-11-30",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo (Gasómetro)",
+   "advancedId": "estudiantes",
+   "note": "Pasó por córners (4-3)."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1944-004",
+   "date": "1944-12-02",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo (Gasómetro)"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1944-005",
+   "date": "1944-12-02",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo (Gasómetro)"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1944-006",
+   "date": "1944-12-02",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo (Gasómetro)"
+  }
+ ]
+}

@@ -293,7 +293,7 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
       return;
     }
     const stage = head.match(
-      /^([0-9/A-Za-zÀ-ÿ'. -]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place|round|semi-?finals?|quarter-?finals?)[A-Za-zÀ-ÿ' -]*):?\s*(?:\[(.+)\]|(\d{1,2}\s+[A-Z][a-z]{2}(?:\s+\d{4})?)|([A-Z][a-z]{2}\s+\d{1,2}(?:,\s*\d{4})?))?\s*:?$/i,
+      /^([0-9/A-Za-zÀ-ÿ'. -]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place|round|semi-?finals?|quarter-?finals?|\bleg\b)[A-Za-zÀ-ÿ' -]*):?\s*(?:\[(.+)\]|(\d{1,2}\s+[A-Z][a-z]{2}(?:\s+\d{4})?)|([A-Z][a-z]{2}\s+\d{1,2}(?:,\s*\d{4})?))?\s*:?$/i,
     );
     if (stage && head.length < 60 && !/table|standings|positions\b/i.test(head)) {
       round = stage[1].trim();

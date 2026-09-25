@@ -1,5 +1,6 @@
 // Copas nacionales de la era amateur (lista oficial de la AFA). Cada edición se importa como una temporada de tipo "cup".
 import type { TournamentConfig } from "./config";
+import { CUP_TOURNAMENTS_40S } from "./config-cups-40s";
 
 const AFA_1903 = "Argentine Football Association";
 const AAF = "Asociación Argentina de Football";
@@ -555,7 +556,7 @@ export const CUP_TOURNAMENTS: TournamentConfig[] = [
     runnerUpIds: ["sanlorenzo"],
     summary: "",
     overrides: {
-      "1939-12-08 river racing": { note: "Partido de 20 minutos. River pasó por córners (3-2)." },
+      "1939-12-08 river racing": { advancedId: "river", note: "Partido de 20 minutos. River pasó por córners (3-2)." },
       "1939-12-08 independiente sanlorenzo": { note: "Partido de 30 minutos, empatado también en córners (1-1): se jugó un desempate." },
     },
     notes: [
@@ -891,6 +892,68 @@ export const CUP_TOURNAMENTS: TournamentConfig[] = [
       SIN_FECHA,
       { kind: "descalificacion", text: "Lanús se desafilió de la Asociación Argentina antes de su semifinal con Tiro Federal (que no se jugó) y la copa se reprogramó con un cuadro nuevo. Boca, ya clasificado a la final, esperó al ganador." },
       { kind: "identidad", text: "Sportivo Palermo es la fusión de Eureka con el viejo Sportivo Palermo." },
+    ],
+  }),
+  ...CUP_TOURNAMENTS_40S,
+  ibarguren(1941, {
+    championIds: ["river"],
+    runnerUpIds: ["newells"],
+    organizer: "Asociación del Fútbol Argentino y Liga Rosarina de Fútbol",
+    summary: "River Plate le ganó 3-0 a Newell's Old Boys, campeón rosarino, en la cancha de Ferro.",
+    notes: [
+      { kind: "formato", text: "Final a partido único entre el campeón de la AFA y el de la Liga Rosarina. Fue la última edición con el campeón rosarino como rival." },
+      { kind: "dato", text: "Se jugó el 22 de marzo de 1942." },
+    ],
+  }),
+  ibarguren(1942, {
+    championIds: ["river"],
+    runnerUpIds: ["liga-cordobesa"],
+    organizer: "Asociación del Fútbol Argentino",
+    aliases: { "Liga Cordobesa (COR)": "liga-cordobesa" },
+    summary: "River Plate goleó 7-0 a la selección de la Liga Cordobesa, ganadora del Campeonato Argentino de selecciones.",
+    notes: [
+      { kind: "formato", text: "Desde 1942 el rival del campeón de la AFA fue la selección ganadora del Campeonato Argentino (Copa Presidente Hipólito Yrigoyen)." },
+      { kind: "dato", text: "Se jugó el 4 de abril de 1943, en la cancha de San Lorenzo." },
+    ],
+  }),
+  ibarguren(1944, {
+    championIds: ["boca"],
+    runnerUpIds: ["seleccion-tucuman"],
+    indexErrata: "la página del partido da 6-0 con los seis goleadores, y Wikipedia también da 6-0.",
+    organizer: "Asociación del Fútbol Argentino",
+    // El nombre del equipo tucumano ocupa tres líneas en la página: el partido se carga a mano con los datos de RSSSF.
+    skip: () => true,
+    extraMatches: [
+      {
+        id: "copa-ibarguren-1944-001",
+        date: "1947-03-23",
+        stage: "Final",
+        phase: "cup",
+        homeId: "seleccion-tucuman",
+        awayId: "boca",
+        homeGoals: 0,
+        awayGoals: 6,
+        venue: "Cancha de Atlético Tucumán",
+        note: "Goles: Sarlanga 13', Ricagni 32', 46', 50', Sosa 55', Corcuera 64'. Árbitro: Eduardo Forte.",
+      },
+    ],
+    summary: "Boca Juniors le ganó 6-0 en Tucumán a la selección tucumana, ganadora del Campeonato Argentino. Se jugó recién en marzo de 1947.",
+    notes: [
+      { kind: "formato", text: "El campeón de la AFA contra la selección ganadora del Campeonato Argentino (Copa Presidente Hipólito Yrigoyen)." },
+      { kind: "identidad", text: "La selección tucumana era un combinado de la Federación Tucumana de Fútbol y la Asociación Cultural de Fútbol." },
+      { kind: "dato", text: "No hubo Copa Ibarguren en 1943 ni entre 1945 y 1949." },
+      { kind: "fuentes", text: "El índice de copas de RSSSF da 3-0; la página del partido (con los seis goleadores) y Wikipedia dan 6-0." },
+    ],
+  }),
+  ibarguren(1950, {
+    championIds: ["liga-mendocina"],
+    runnerUpIds: ["racing"],
+    organizer: "Asociación del Fútbol Argentino",
+    aliases: { "Liga Mendocina (MDZ)": "liga-mendocina" },
+    summary: "La selección de la Liga Mendocina le ganó 3-2 a Racing Club en Mendoza: la única vez que una selección de liga se quedó con la Copa Ibarguren sola.",
+    notes: [
+      { kind: "formato", text: "El campeón de la AFA contra la selección ganadora del Campeonato Argentino (Copa Presidente Hipólito Yrigoyen)." },
+      { kind: "dato", text: "Se jugó el 17 de diciembre de 1950, en la cancha de Gimnasia y Esgrima de Mendoza." },
     ],
   }),
 ];

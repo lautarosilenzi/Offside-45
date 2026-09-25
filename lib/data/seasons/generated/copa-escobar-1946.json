@@ -1,0 +1,81 @@
+{
+ "slug": "copa-escobar-1946",
+ "kind": "cup",
+ "year": 1946,
+ "title": "Copa Escobar 1946",
+ "tournament": "Copa Adrián C. Escobar",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "La Copa Escobar 1946 se empezó a jugar en marzo de 1947 y quedó suspendida después de los cuartos de final: no tuvo campeón.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Escobar 1946",
+   "url": "https://www.rsssf.org/tablesa/arg-esc46.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "La jugaban los siete primeros del campeonato, casi siempre en uno o dos días y en una misma cancha, con partidos de 40 minutos. Los empates se definían por córners (y si seguían iguales, por sorteo). El campeón de liga entraba directo en semifinales."
+  },
+  {
+   "kind": "dato",
+   "text": "Solo se jugaron los cuartos de final (29 de marzo de 1947, en la cancha de San Lorenzo); San Lorenzo, libre, no llegó a jugar. La copa se abandonó."
+  },
+  {
+   "kind": "retiro",
+   "text": "libre en cuartos de final; la copa se abandonó antes de las semifinales"
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1946-001",
+   "date": "1947-03-29",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de San Lorenzo"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1946-002",
+   "date": "1947-03-29",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1946-003",
+   "date": "1947-03-29",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de San Lorenzo",
+   "advancedId": "estudiantes",
+   "note": "Pasó por córners (2-0)."
+  }
+ ]
+}

@@ -16,6 +16,8 @@ const OUT = join(process.cwd(), "lib", "data", "seasons", "generated");
 
 const MONTHS: Record<string, number> = {
   jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, set: 9, oct: 10, nov: 11, dec: 12,
+  // Algunas páginas (1944) usan meses en castellano.
+  ene: 1, abr: 4, ago: 8, dic: 12,
 };
 
 // "May 3, Sun" / "Jan 23, 1927 Sun" / "August 01, 1920" → ISO. Los meses que "vuelven atrás" pasan al año siguiente.
@@ -65,6 +67,7 @@ export function translateNote(
   };
   const parts = note
     .replace(/^\[|\]$/g, "")
+    .replace(/\babandonded\b/gi, "abandoned") // errata de la fuente (1950)
     .replace(/\baet( \d+m?)?,\s*/gi, "aet$1; ")
     .replace(/\bwalk ?over,\s*/gi, "walkover; ")
     // "0:4 annulled, Sportivo Balcarce" y "Estudiantes (C) (aet)": el dato y la cancha por separado.
@@ -208,6 +211,10 @@ export function translateNote(
     else if (/^replayed$/i.test(p)) out.text.push("Partido jugado de nuevo (el primero se anuló).");
     else if (/^to be replayed$/i.test(p)) out.text.push("Se ordenó volver a jugarlo.");
     else if ((m = p.match(/^(\d+) minutes remaining$/i))) out.text.push(`Faltaban ${m[1]} minutos.`);
+    else if ((m = p.match(/^(.+?) (\d+) points? deducted\)?$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`A ${club ? club.as ?? club.name : m[1]} le descontaron ${m[2]} puntos (sanción).`);
+    }
     else if ((m = p.match(/^(.+?) suspended for a month on (.+)$/i))) {
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} fue suspendido por un mes el ${esDate(m[2])}.`);
@@ -268,6 +275,10 @@ export function translateNote(
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} se desafilió el ${esDate(m[2])} y perdió el partido.`);
     }
+    else if ((m = p.match(/^ended at (\d+)\s*:\s*(\d+) in 90m, extra time not played$/i)))
+      out.text.push(`Terminó ${m[1]}-${m[2]} en los 90 minutos y no se jugó el alargue.`);
+    // 1949: "Lanús, 4 de Junio" (ciudad y nombre del estadio).
+    else if ((m = p.match(/^([^,]+), (\d{1,2} de [A-ZÁÉÍÓÚ][a-záéíóú]+)$/))) out.venue = `Estadio ${m[2]} (${m[1]})`;
     else if (/^walk ?over$/i.test(p)) out.text.push("El rival no se presentó.");
     else if ((m = p.match(/^(not played|n\/p), (.+)$/i))) out.text.push("No se jugó.");
     // Copas: "Racing, Avellaneda" o "GEBA, Palermo" (cancha y lugar, tal como lo da la fuente).
@@ -338,7 +349,8 @@ function stageOf(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
   if (/first playoff/i.test(r)) return { stage: "Primer desempate", phase: "playoff" };
   if (/third playoff/i.test(r)) return { stage: "Tercer desempate", phase: "playoff" };
   if (/second playoff/i.test(r)) return { stage: "Segundo desempate", phase: "playoff" };
-  if (/playoff|play-off|replay/i.test(r)) return { stage: "Desempate", phase: "playoff" };
+  // En una liga, los partidos de ida y vuelta ("First leg [Dec 3]") son desempates (1950).
+  if (/playoff|play-off|replay|\bleg\b/i.test(r)) return { stage: "Desempate", phase: "playoff" };
   if (/final/i.test(r)) return { stage: "Final", phase: "playoff" };
   return { stage: r || undefined, phase: "league" };
 }
@@ -472,7 +484,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       ...(away.as && { awayAs: away.as }),
       homeGoals: 0,
       awayGoals: 0,
-      ...(note.venue && { venue: note.venue }),
+      ...(note.venue && { venue: note.venue.replace(/[,;\s]+$/, "") }),
       sources: ["rsssf"],
     };
     let s = raw.score.toLowerCase();
@@ -488,7 +500,10 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     }
     // "void  [1-0 annulled]": se jugó y después se anuló.
     // También "abandoned at 2:2 in 87m, annulled on May 10": se suspendió y se anuló (se jugó de nuevo).
-    const voided = raw.note.match(/(\d+)\s*[:\-]\s*(\d+)(?: in \d+m?)?\]?\s*\[?,?\s*(?:an+ul+ed|to be replayed)/i);
+    // Y "ended at 3:3 in 90m, extra time not played, annulled on Jan 12" (1949): el resultado y la anulación en la misma nota.
+    const voided =
+      raw.note.match(/(\d+)\s*[:\-]\s*(\d+)(?: in \d+m?)?\]?\s*\[?,?\s*(?:an+ul+ed|to be replayed)/i) ??
+      raw.note.match(/ended at (\d+)\s*:\s*(\d+)[^\]\[]*?an+ul+ed/i);
     if (/^(void|ann|anu)$/.test(s) && voided) {
       s = `${voided[1]}:${voided[2]}`;
       note.annulled = true;
@@ -825,7 +840,7 @@ function verifyCup(season: Season, cfg: TournamentConfig): { problems: string[];
   } else if (!final && cfg.noFinal) warnings.push("Copa: sin final (explicado en las notas)");
   else if (!final) problems.push("Copa: no encontré la final");
   else {
-    const w = final.awardedTo ?? (final.homeGoals > final.awayGoals ? final.homeId : final.awayGoals > final.homeGoals ? final.awayId : null);
+    const w = final.awardedTo ?? final.advancedId ?? (final.homeGoals > final.awayGoals ? final.homeId : final.awayGoals > final.homeGoals ? final.awayId : null);
     const loser = w === final.homeId ? final.awayId : final.homeId;
     if (w !== season.championIds[0]) problems.push(`Copa: la final la ganó ${w ?? "nadie (empate)"}, pero el campeón configurado es ${season.championIds[0]}`);
     if (cfg.runnerUpIds && loser !== cfg.runnerUpIds[0]) problems.push(`Copa: el finalista es ${loser}, no ${cfg.runnerUpIds[0]}`);
@@ -836,6 +851,7 @@ function verifyCup(season: Season, cfg: TournamentConfig): { problems: string[];
       // Una final que se jugó y se resolvió por escritorio puede figurar en el índice como wp:lp.
       const awardedOk = final.awardedTo && idx.scores.includes("wp:lp");
       if (!idx.scores.length) warnings.push(`Copa: el índice de RSSSF da el campeón sin resultado (${idx.raw})`);
+      else if (!awardedOk && !idx.scores.some((s) => s === sc || s === scRev) && cfg.indexErrata) warnings.push(`Copa: el índice de RSSSF da ${idx.raw}; se mantiene ${sc}: ${cfg.indexErrata}`);
       else if (!awardedOk && !idx.scores.some((s) => s === sc || s === scRev)) problems.push(`Copa: el índice de RSSSF da la final ${idx.raw}, y la página ${sc}`);
       else warnings.push(`Copa: final confirmada por el índice de RSSSF (${idx.raw})`);
     } else warnings.push("Copa: esta edición no figura en el índice de RSSSF");
@@ -849,8 +865,8 @@ function verifyCup(season: Season, cfg: TournamentConfig): { problems: string[];
         const allowed = cfg.reentry && (!cfg.reentry.teams || cfg.reentry.teams.includes(id));
         if (out && !allowed && !/desempate/i.test(m.stage ?? "")) problems.push(`Copa: ${id} quedó eliminado en ${out} y vuelve a jugar (${m.date}, ${m.stage ?? "sin fase"})`);
       }
-      const w = m.awardedTo ?? (m.homeGoals > m.awayGoals ? m.homeId : m.awayGoals > m.homeGoals ? m.awayId : null);
-      if (w && !m.bothLost && !/Grupo|Zona|Ronda final/.test(m.stage ?? "")) eliminated.set(w === m.homeId ? m.awayId : m.homeId, `${m.date} ${m.homeId}-${m.awayId}`);
+      const w = m.awardedTo ?? m.advancedId ?? (m.homeGoals > m.awayGoals ? m.homeId : m.awayGoals > m.homeGoals ? m.awayId : null);
+      if (w && !m.bothLost && (cfg.knockoutGroups || !/Grupo|Zona|Ronda final/.test(m.stage ?? ""))) eliminated.set(w === m.homeId ? m.awayId : m.homeId, `${m.date} ${m.homeId}-${m.awayId}`);
     }
   }
   return { problems, warnings };

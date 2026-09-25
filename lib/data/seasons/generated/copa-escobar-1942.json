@@ -1,0 +1,126 @@
+{
+ "slug": "copa-escobar-1942",
+ "kind": "cup",
+ "runnerUpIds": [
+  "river"
+ ],
+ "year": 1942,
+ "title": "Copa Escobar 1942",
+ "tournament": "Copa Adrián C. Escobar",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "huracan"
+ ],
+ "summary": "Huracán ganó la Copa Escobar: 2-0 a River Plate en la final.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Escobar 1942",
+   "url": "https://www.rsssf.org/tablesa/arg-esc42.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "La jugaban los siete primeros del campeonato, casi siempre en uno o dos días y en una misma cancha, con partidos de 40 minutos. Los empates se definían por córners (y si seguían iguales, por sorteo). El campeón de liga entraba directo en semifinales."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1942-001",
+   "date": "1942-11-26",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1942-002",
+   "date": "1942-11-26",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1942-003",
+   "date": "1942-11-26",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo",
+   "advancedId": "huracan",
+   "note": "Pasó por córners (4-2)."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1942-004",
+   "date": "1942-12-01",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "advancedId": "river",
+   "note": "Pasó por córners (3-2)."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1942-005",
+   "date": "1942-12-01",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de River Plate",
+   "note": "Con alargue."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1942-006",
+   "date": "1942-12-01",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de River Plate"
+  }
+ ]
+}

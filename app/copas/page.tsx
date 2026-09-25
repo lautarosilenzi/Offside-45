@@ -19,7 +19,7 @@ const ABOUT: Record<string, string> = {
   "Copa La Nación":
     "Copa de Competencia «La Nación» de la Federación Argentina de Football, la liga disidente de 1912–1914. Abierta a equipos de Primera y de Segunda.",
   "Copa Ibarguren":
-    "Copa Dr. Carlos Ibarguren: el campeón argentino contra el campeón de la Liga Rosarina (en 1913 también participó el de Santa Fe).",
+    "Copa Dr. Carlos Ibarguren: el campeón argentino contra el campeón de la Liga Rosarina (en 1913 también participó el de Santa Fe). Desde 1942, contra la selección de liga ganadora del Campeonato Argentino.",
   "Copa de Competencia de la Asociación Amateurs":
     "Copa de la Asociación Amateurs de Football, la liga disidente de 1919–1926. Desde 1924 con fase de grupos.",
   "Copa Estímulo": "Copa de la Asociación Argentina de Football, por zonas o grupos y con clubes de Primera de ese momento.",
@@ -29,7 +29,11 @@ const ABOUT: Record<string, string> = {
     "Copa de Honor «Adrián Beccar Varela» de la liga profesional. En 1933 se sumaron clubes de Rosario, Santa Fe, Córdoba y Uruguay.",
   "Copa de Oro": "Final de 1936 entre los ganadores de la Copa de Honor y de la Copa Campeonato. La AFA la cuenta como título de Primera.",
   "Copa Escobar":
-    "Copa Adrián C. Escobar, entre los mejores del campeonato, jugada en un día con partidos cortos y empates definidos por córners.",
+    "Copa Adrián C. Escobar, entre los siete primeros del campeonato, jugada en uno o dos días con partidos cortos y empates definidos por córners.",
+  "Copa Británica":
+    "Copa de Competencia Británica «Jorge VI», donada por el embajador británico. Eliminación directa entre los equipos de Primera; la de 1948 quedó sin terminar.",
+  "Copa de la República":
+    "Campeonato de la República: el primer torneo con clubes de todo el país. Los equipos del interior jugaban por zonas y los ganadores cruzaban con equipos de Primera.",
   "Campeonato Porteño": "Partido entre los campeones de 1926 de la Asociación Argentina y de la Asociación Amateurs, antes de la unificación. Quedó sin definir.",
 };
 
@@ -66,7 +70,7 @@ export default function CupsPage() {
           </section>
         ))}
         <p className="text-sm text-navy-400">
-          Están todas las copas nacionales de Primera que reconoce la AFA hasta 1940. Las siguientes se cargan junto con sus
+          Están todas las copas nacionales de Primera que reconoce la AFA hasta 1950. Las siguientes se cargan junto con sus
           temporadas.
         </p>
       </main>

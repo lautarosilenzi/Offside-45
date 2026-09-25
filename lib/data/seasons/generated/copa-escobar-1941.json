@@ -1,0 +1,119 @@
+{
+ "slug": "copa-escobar-1941",
+ "kind": "cup",
+ "runnerUpIds": [
+  "huracan"
+ ],
+ "year": 1941,
+ "title": "Copa Escobar 1941",
+ "tournament": "Copa Adrián C. Escobar",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River Plate, campeón de liga, ganó la Copa Escobar: 1-0 a Huracán en la final.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Escobar 1941",
+   "url": "https://www.rsssf.org/tablesa/arg-esc41.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "La jugaban los siete primeros del campeonato, casi siempre en uno o dos días y en una misma cancha, con partidos de 40 minutos. Los empates se definían por córners (y si seguían iguales, por sorteo). El campeón de liga entraba directo en semifinales."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1941-001",
+   "date": "1941-11-01",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1941-002",
+   "date": "1941-11-01",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1941-003",
+   "date": "1941-11-01",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "newells",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1941-004",
+   "date": "1941-11-02",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1941-005",
+   "date": "1941-11-02",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de River Plate"
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Escobar",
+   "id": "copa-escobar-1941-006",
+   "date": "1941-11-02",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0
+  }
+ ]
+}

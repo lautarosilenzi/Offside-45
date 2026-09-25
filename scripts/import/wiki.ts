@@ -54,7 +54,8 @@ export function wikiRows(text: string): WikiRow[] {
       const sc = cells[i].match(/^(\d+|PG|PP|PE|\?)\s*[-–:]\s*(\d+|PG|PP|PE|\?)$/);
       if (!sc) continue;
       const num = (x: string) => (/^\d+$/.test(x) ? Number(x) : null);
-      rows.push({ home: cells[i - 1], away: cells[i + 1], hg: num(sc[1]), ag: num(sc[2]), raw: cells.join(" | ") });
+      const date = cells.find((c) => /^\d{1,2} de [a-záéíóú]+/i.test(c));
+      rows.push({ home: cells[i - 1], away: cells[i + 1], hg: num(sc[1]), ag: num(sc[2]), raw: cells.join(" | "), date });
     }
   }
   // Copas: plantillas {{Partido |local = … |resultado = 2:0 |visita = … |fecha = …}}.
@@ -109,6 +110,29 @@ export function wikiStandings(text: string): { team: string; values: Record<stri
     }
     if (parsed.length) out.push(parsed);
   }
+  // Plantilla {{Tabla de posiciones equipo|pv=2|g=..|e=..|p=..|gf=..|gc=..|desc=..|eq=[[...]]}} (desde ~1948):
+  // los puntos se calculan con pv por victoria, 1 por empate y menos los descontados.
+  const tpl = [...text.matchAll(/\{\{Tabla de posiciones equipo\|([^\n]*)\}\}/gi)].map((m) => {
+    const f: Record<string, string> = {};
+    for (const part of m[1].replace(/<ref[^>]*>.*?<\/ref>/g, "").split(/\|(?![^[]*\]\])/)) {
+      const kv = part.match(/^\s*(\w+)\s*=\s*(.*?)\s*$/);
+      if (kv) f[kv[1]] = kv[2];
+    }
+    const n = (k: string) => Number(f[k] ?? 0);
+    return {
+      team: clean(f.eq ?? ""),
+      values: {
+        played: n("g") + n("e") + n("p"),
+        won: n("g"),
+        drawn: n("e"),
+        lost: n("p"),
+        goalsFor: n("gf"),
+        goalsAgainst: n("gc"),
+        points: n("g") * Number(f.pv ?? 2) + n("e") - n("desc"),
+      },
+    };
+  });
+  if (tpl.length) out.push(tpl);
   return out;
 }
 
@@ -196,6 +220,13 @@ export async function compareWithWikipedia(cfg: TournamentConfig, season: Season
         r = { ...r, home: r.away, away: r.home, hg: r.ag, ag: r.hg };
         [h, a] = [a, h];
       }
+    }
+    // Desempates en cancha neutral: si Wikipedia da el día y ese día RSSSF tiene el cruce al revés, se da vuelta la fila.
+    const md = (r.date ?? "").match(/(\d{1,2}) de ([a-záéíóú]+)/i);
+    const mdKey = md && MESES.indexOf(md[2].toLowerCase()) >= 0 ? `-${String(MESES.indexOf(md[2].toLowerCase()) + 1).padStart(2, "0")}-${md[1].padStart(2, "0")}` : null;
+    if (h && a && mdKey && season.matches.some((m) => m.homeId === a!.id && m.awayId === h!.id && m.date.endsWith(mdKey))) {
+      r = { ...r, home: r.away, away: r.home, hg: r.ag, ag: r.hg };
+      [h, a] = [a, h];
     }
     if (!h || !a) {
       if (!h) unknown.add(r.home);
