@@ -25,6 +25,8 @@ export type RawMatch = {
   region?: string;
   // Páginas con varias ediciones (Copa Ibarguren): "Season 1913".
   edition?: string;
+  // Copas por grupos (Asociación Amateurs 1924): "Group A" con sus fechas ("Round 1"...).
+  group?: string;
   home: string;
   away: string;
   score: string; // "3:1", "wp:lp", "ann", "d:d", ...
@@ -114,7 +116,11 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
   const headings = new Set(
     [...html.matchAll(/<h[2-4][^>]*>([\s\S]*?)<\/h[2-4]>/gi)].map((m) => decode(m[1].replace(/<[^>]*>/g, "")).replace(/\s+/g, " ").trim()),
   );
-  const lines = text.replace(/<\/?[a-zA-Z!][^>]*>/g, "").split(/\r?\n/);
+  const lines = text
+    .replace(/<\/?[a-zA-Z!][^>]*>/g, "")
+    // Títulos cortados en dos renglones (Asociación Amateurs 1926): "Group\nA", "First\nRound:".
+    .replace(/^(\s*)(Group|Zona|First|Second|Third|Final)[ \t]*\r?\n[ \t]*([A-Z]|Norte|Sur|Round:?|Phase:?)[ \t]*$/gm, "$1$2 $3")
+    .split(/\r?\n/);
 
   const sections: RawSection[] = [];
   let cur: RawSection = { heading: "", tables: [], matches: [], text: [] };
@@ -126,6 +132,7 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
   let region: string | undefined;
   let edition: string | undefined;
   let dateFromStage = false;
+  let group: string | undefined;
 
   lines.forEach((raw, i) => {
     const line = raw.replace(/\s+$/, "");
@@ -201,6 +208,19 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     if (r) {
       round = r[1].trim();
       if (r[2]) date = r[2].trim();
+      // En las copas una fecha sin día propio no hereda el de la anterior.
+      else if (opts.cup) date = "";
+      return;
+    }
+    // Copas: "Group A" abre un grupo con fechas propias; cualquier otra fase lo cierra.
+    // También "Group "B":" (1925) y "Playoff Group "B":" (desempate dentro del grupo).
+    // Y las zonas de la Copa Estímulo 1920 ("Zona Norte").
+    const grp = opts.cup ? trimmed.replace(/^\.\s*/, "").match(/^(Playoff\s+)?(?:Group\s+"?([A-Z])"?|Zona\s+(Norte|Sur)):?$/i) : null;
+    if (grp) {
+      group = grp[2] ? `Grupo ${grp[2].toUpperCase()}` : `Zona ${grp[3]}`;
+      round = grp[1] ? "Playoff" : undefined;
+      date = "";
+      cur.text.push(trimmed);
       return;
     }
     // Subtítulos cortos de fase: "Playoff", "Second playoff", "Championship Final", "Group A"...
@@ -246,11 +266,12 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
       return;
     }
     const stage = head.match(
-      /^([0-9/A-Za-zÀ-ÿ' -]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place|round|semi-?finals?|quarter-?finals?)[A-Za-zÀ-ÿ' -]*):?\s*(?:\[(.+)\]|(\d{1,2}\s+[A-Z][a-z]{2}))?\s*:?$/i,
+      /^([0-9/A-Za-zÀ-ÿ' -]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place|round|semi-?finals?|quarter-?finals?)[A-Za-zÀ-ÿ' -]*):?\s*(?:\[(.+)\]|(\d{1,2}\s+[A-Z][a-z]{2})|([A-Z][a-z]{2}\s+\d{1,2}(?:,\s*\d{4})?))?\s*:?$/i,
     );
     if (stage && head.length < 60 && !/table|standings|positions\b/i.test(head)) {
       round = stage[1].trim();
-      const sd = stage[2] ?? (stage[3] && dayFirst(stage[3]));
+      group = undefined;
+      const sd = stage[2] ?? (stage[3] && dayFirst(stage[3])) ?? stage[4];
       // Una fecha puesta en el título de una fase vale solo para esa fase.
       if (sd) date = sd.trim();
       else if (dateFromStage || opts.cup) date = "";
@@ -284,6 +305,7 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
           line: i,
           date: own ? `${own[2]} ${own[1]}` : date,
           round: ignoring ? "friendly" : round,
+          ...(group && { group }),
           region,
           edition,
           home: m[1].trim(),

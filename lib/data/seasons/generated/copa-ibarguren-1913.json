@@ -1,0 +1,68 @@
+{
+ "slug": "copa-ibarguren-1913",
+ "kind": "cup",
+ "runnerUpIds": [
+  "newells"
+ ],
+ "year": 1913,
+ "title": "Copa Ibarguren 1913",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación Argentina de Football y Liga Rosarina de Football",
+ "championIds": [
+  "racing"
+ ],
+ "summary": "Racing Club ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 3-1 a Newell's Old Boys. Participaron 3 equipos y se jugaron 2 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1913",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1913",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1913"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "En 1913 también participó el campeón de Santa Fe: Newell's le ganó a Colón y jugó la final contra Racing. Se jugó en 1914."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1913-001",
+   "date": "1914-03-29",
+   "competition": "Copa Ibarguren",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "newells",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 8,
+   "awayGoals": 0,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-ibarguren-1913-002",
+   "date": "1914-04-05",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Hospital 15, Marcovecchio 25, 88 / M. P. González 35 pen."
+  }
+ ]
+}

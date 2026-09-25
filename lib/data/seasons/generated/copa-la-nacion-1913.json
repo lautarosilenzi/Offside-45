@@ -1,0 +1,411 @@
+{
+ "slug": "copa-la-nacion-1913",
+ "kind": "cup",
+ "runnerUpIds": [
+  "argentino-quilmes"
+ ],
+ "year": 1913,
+ "title": "Copa La Nación 1913",
+ "tournament": "Copa de Competencia «La Nación» (Concurso por Eliminación)",
+ "organizer": "Federación Argentina de Football",
+ "championIds": [
+  "central"
+ ],
+ "summary": "Rosario Central ganó la Copa de Competencia «La Nación» (Concurso por Eliminación): en la final le ganó 3-2 a Argentino de Quilmes. Participaron 23 equipos y se jugaron 24 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa La Nación 1913",
+   "url": "https://www.rsssf.org/tablesa/arg-eli13.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Competencia «La Nación» 1913",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Competencia_%C2%ABLa_Naci%C3%B3n%C2%BB_1913"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Eliminación directa a un partido, organizada por la Federación Argentina de Football (la liga disidente de 1912–1914) y abierta a equipos de Primera y de Segunda."
+  },
+  {
+   "kind": "formato",
+   "text": "La Federación Rosarina clasificaba dos equipos a las semifinales; Tiro Federal le ganó a Sparta en un partido que organizó la Federación Rosarina."
+  },
+  {
+   "kind": "identidad",
+   "text": "Lanús Athletic figura con el mismo nombre que el club de 1897–1899; la fuente no confirma que sea el mismo."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-la-nacion-1913-001",
+   "date": "1913",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "argentino-avellaneda",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-002",
+   "date": "1913",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "argentino-nunez",
+   "awayId": "floresta",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-003",
+   "date": "1913",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "general-belgrano",
+   "awayId": "martinez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-004",
+   "date": "1913",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "honor-y-patria",
+   "awayId": "instituto-americano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "awardedTo": "honor-y-patria",
+   "goalsVoid": true,
+   "note": "Se jugó y terminó 1-1, pero la liga le dio el partido a Honor y Patria."
+  },
+  {
+   "id": "copa-la-nacion-1913-005",
+   "date": "1913-06-15",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "argentino-quilmes",
+   "awayId": "juventud-tigre",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-006",
+   "date": "1913-06-15",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "floresta",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-007",
+   "date": "1913-06-15",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "gimnasia-ba",
+   "awayId": "lanus-athletic",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-008",
+   "date": "1913-06-15",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "columbian",
+   "awayId": "atlanta",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-009",
+   "date": "1913-06-15",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "honor-y-patria",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "copa-la-nacion-1913-010",
+   "date": "1913-06-15",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "awayAs": "Argentinos de Vélez Sarsfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-011",
+   "date": "1913-06-15",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "kimberley",
+   "awayId": "porteno",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-012",
+   "date": "1913-06-15",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "sportiva-argentina",
+   "awayId": "general-belgrano",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-013",
+   "date": "1913",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final (desempate)",
+   "phase": "cup",
+   "homeId": "gimnasia-ba",
+   "awayId": "lanus-athletic",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-014",
+   "date": "1913",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final (desempate)",
+   "phase": "cup",
+   "homeId": "honor-y-patria",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-015",
+   "date": "1913-07-06",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "argentinos",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-016",
+   "date": "1913-07-06",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "gimnasia-ba",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-017",
+   "date": "1913-07-06",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "velez",
+   "awayAs": "Argentinos de Vélez Sarsfield",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-018",
+   "date": "1913-07-06",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "sportiva-argentina",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-019",
+   "date": "1913-08-10",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "argentino-quilmes",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-020",
+   "date": "1913-08-10",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-021",
+   "date": "1913-09-07",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "sparta-rosario",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-022",
+   "date": "1913-09-14",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Rosario Central",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-023",
+   "date": "1913-09-21",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1913-024",
+   "date": "1913-10-26",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "argentino-quilmes",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}

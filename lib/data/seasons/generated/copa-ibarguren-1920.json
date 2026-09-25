@@ -1,0 +1,72 @@
+{
+ "slug": "copa-ibarguren-1920",
+ "kind": "cup",
+ "runnerUpIds": [
+  "boca"
+ ],
+ "year": 1920,
+ "title": "Copa Ibarguren 1920",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación Argentina de Football y Liga Rosarina de Football",
+ "championIds": [
+  "tiro-federal-rosario"
+ ],
+ "summary": "Tiro Federal (Rosario) ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 4-0 a Boca Juniors. Participaron 2 equipos y se jugaron 2 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1920",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1920",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1920"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la Asociación Argentina de Football y el de la Liga Rosarina; si empataban, desempate."
+  },
+  {
+   "kind": "anulado",
+   "text": "Boca le ganó 2-1 a Tiro Federal el 29/6/1921, pero la Liga Rosarina reclamó porque tres jugadores de Boca habían jugado ese año en otros clubes (uno de ellos en Vélez, de la Asociación Amateurs). Primero se dio por bueno el resultado; después Boca y la Liga Rosarina acordaron jugarlo de nuevo, y Tiro Federal ganó 4-0 el 5/2/1922."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1920-001",
+   "date": "1921-06-29",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla. Goles: Calomino 5, Galíndez 52 / Waelkens 11."
+  },
+  {
+   "id": "copa-ibarguren-1920-002",
+   "date": "1922-02-05",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Waelkens 5, Podestá 10, 17, J. E. Cochrane 75 pen."
+  }
+ ]
+}

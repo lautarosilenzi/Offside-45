@@ -1,0 +1,56 @@
+{
+ "slug": "copa-ibarguren-1917",
+ "kind": "cup",
+ "runnerUpIds": [
+  "central"
+ ],
+ "year": 1917,
+ "title": "Copa Ibarguren 1917",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación Argentina de Football y Liga Rosarina de Football",
+ "championIds": [
+  "racing"
+ ],
+ "summary": "Racing Club ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 3-2 a Rosario Central. Participaron 2 equipos y se jugaron 1 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1917",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1917",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1917"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la Asociación Argentina de Football y el de la Liga Rosarina; si empataban, desempate."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó en enero de 1918."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1917-001",
+   "date": "1918-01-13",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Gimnasia y Esgrima (Buenos Aires)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: J. N. Perinetti 2, Marcovecchio 42, N. Perinetti 63 / Blanco 15 pen, Clarke 85."
+  }
+ ]
+}

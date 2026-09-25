@@ -96,7 +96,314 @@ const jockey = (year: number, rest: JockeyRest): TournamentConfig => ({
   ...rest,
 });
 
+// Copa de Competencia «La Nación» (Concurso por Eliminación) de la Federación Argentina de Football, 1913–1914.
+const LA_NACION = {
+  kind: "formato",
+  text: "Eliminación directa a un partido, organizada por la Federación Argentina de Football (la liga disidente de 1912–1914) y abierta a equipos de Primera y de Segunda.",
+} as const;
+type NacionRest = Partial<TournamentConfig> & Pick<TournamentConfig, "championIds" | "runnerUpIds">;
+const laNacion = (year: number, rest: NacionRest): TournamentConfig => ({
+  slug: `copa-la-nacion-${year}`,
+  kind: "cup",
+  year,
+  file: `arg-eli${String(year).slice(2)}.html`,
+  wiki: `Copa de Competencia «La Nación» ${year}`,
+  competition: "Copa de Competencia La Nación",
+  title: `Copa La Nación ${year}`,
+  tournament: "Copa de Competencia «La Nación» (Concurso por Eliminación)",
+  organizer: "Federación Argentina de Football",
+  summary: "",
+  notes: [LA_NACION],
+  ...rest,
+});
+
+// Copa Dr. Carlos Ibarguren (Campeonato Argentino): el campeón de la Asociación Argentina contra el de la Liga Rosarina.
+// Todas las ediciones están en una sola página de RSSSF, separadas por "Season YYYY".
+const IBARGUREN = {
+  kind: "formato",
+  text: "Final a partido único entre el campeón de la Asociación Argentina de Football y el de la Liga Rosarina; si empataban, desempate.",
+} as const;
+type IbargurenRest = Partial<TournamentConfig> & Pick<TournamentConfig, "championIds" | "runnerUpIds">;
+const ibarguren = (year: number, rest: IbargurenRest): TournamentConfig => ({
+  slug: `copa-ibarguren-${year}`,
+  kind: "cup",
+  year,
+  file: "argibargurencuphist.html",
+  edition: String(year),
+  wiki: `Copa Ibarguren ${year}`,
+  competition: "Copa Ibarguren",
+  title: `Copa Ibarguren ${year}`,
+  tournament: "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+  organizer: "Asociación Argentina de Football y Liga Rosarina de Football",
+  summary: "",
+  notes: [IBARGUREN],
+  // La página no nombra la fase: cada edición es una final (más el desempate, si lo hubo).
+  stageMap: { "^$": "Final" },
+  ...rest,
+});
+
+// Copa de Competencia de la Asociación Amateurs de Football (la liga disidente de 1919–1926).
+const AAM_CUP = "Asociación Amateurs de Football";
+type AamRest = Partial<TournamentConfig> & Pick<TournamentConfig, "championIds" | "runnerUpIds" | "notes">;
+const aamCup = (year: number, rest: AamRest): TournamentConfig => ({
+  slug: `copa-competencia-aam-${year}`,
+  kind: "cup",
+  year,
+  file: `arg-jocaa${String(year).slice(2)}.html`,
+  competition: "Copa de Competencia (Asociación Amateurs)",
+  title: `Copa de Competencia de la Asociación Amateurs ${year}`,
+  tournament: "Copa de Competencia de la Asociación Amateurs de Football",
+  organizer: `${AAM_CUP} (entidad disidente)`,
+  summary: "",
+  ...rest,
+});
+const GRUPOS_AAM = (grupos: string, pasan: string) =>
+  ({
+    kind: "formato",
+    text: `Primera fase en ${grupos}, todos contra todos; ${pasan}. Después, eliminación directa.`,
+  }) as const;
+const TABLAS_GRUPOS = {
+  kind: "fuentes",
+  text: "La tabla de cada grupo, recalculada con sus partidos, coincide con la que publica RSSSF (los partidos resueltos por escritorio suman los puntos sin goles).",
+} as const;
+
+// Copa Estímulo de la Asociación Argentina de Football (1920 y 1926) y Campeonato Porteño 1926.
+type EstimuloRest = Partial<TournamentConfig> & Pick<TournamentConfig, "championIds" | "notes">;
+const estimulo = (year: number, rest: EstimuloRest): TournamentConfig => ({
+  slug: `copa-estimulo-${year}`,
+  kind: "cup",
+  year,
+  file: `arg-estim${String(year).slice(2)}.html`,
+  competition: "Copa Estímulo",
+  title: `Copa Estímulo ${year}`,
+  tournament: "Copa Estímulo de la Asociación Argentina de Football",
+  organizer: AAF,
+  summary: "",
+  ...rest,
+});
+
 export const CUP_TOURNAMENTS: TournamentConfig[] = [
+  estimulo(1920, {
+    allSections: true,
+    championIds: ["huracan"],
+    noFinal: true,
+    summary:
+      "Huracán ganó la Copa Estímulo 1920, que se jugó en dos zonas todos contra todos: ganó la Zona Norte invicto. La final contra Banfield, ganador de la Zona Sur, no se jugó y la copa se le adjudicó a Huracán.",
+    notes: [
+      { kind: "formato", text: "Dos zonas (Norte y Sur), todos contra todos a una rueda; los ganadores debían jugar la final." },
+      { kind: "dato", text: "La final entre Huracán y Banfield no se jugó; la copa se le adjudicó a Huracán (la lista de la AFA no registra subcampeón)." },
+      TABLAS_GRUPOS,
+    ],
+    groupTables: [
+      { table: 0, stage: "^Zona Norte" },
+      { table: 1, stage: "^Zona Sur" },
+    ],
+  }),
+  estimulo(1926, {
+    allSections: true,
+    championIds: ["boca"],
+    runnerUpIds: ["sportivo-balcarce"],
+    notes: [
+      { kind: "formato", text: "Cuatro grupos todos contra todos a una rueda; los ganadores jugaron semifinales y final." },
+      TABLAS_GRUPOS,
+    ],
+    groupTables: [
+      {
+        table: 0,
+        stage: "^Grupo A",
+        knownDiffs: {
+          chacarita: "La tabla de RSSSF implica un 3-1 de Chacarita sobre Argentinos; la lista de partidos dice 2-1 y se deja así.",
+          argentinos: "El mismo partido con Chacarita: 2-1 en la lista, 3-1 según la tabla.",
+        },
+      },
+      { table: 1, stage: "^Grupo B" },
+      { table: 2, stage: "^Grupo C" },
+      { table: 3, stage: "^Grupo D" },
+    ],
+  }),
+  {
+    slug: "campeonato-porteno-1926",
+    kind: "cup",
+    year: 1926,
+    file: "arg-porteno26.html",
+    competition: "Campeonato Porteño",
+    title: "Campeonato Porteño 1926",
+    tournament: "Campeonato Porteño (campeón de la Asociación Argentina contra el de la Asociación Amateurs)",
+    organizer: "Asociación Argentina de Football y Asociación Amateurs de Football",
+    championIds: [],
+    abandoned: true,
+    summary:
+      "Boca Juniors (campeón de la Asociación Argentina) e Independiente (campeón de la Asociación Amateurs) jugaron en 1927 para definir el Campeonato Porteño de 1926. El primer partido se suspendió, el segundo terminó 0-0 y el desempate nunca se jugó: quedó sin campeón.",
+    notes: [
+      { kind: "formato", text: "Partido entre los campeones 1926 de las dos asociaciones, antes de la unificación de 1927." },
+      { kind: "dato", text: "La AFA lo registra como incompleto." },
+    ],
+    overrides: {
+      "1927-02-20 boca independiente": {
+        status: "annulled",
+        note: "Suspendido a los 48 minutos por invasión de la cancha; se jugó de nuevo el 3/3/1927. No suma.",
+      },
+      "1927-03-03 boca independiente": { note: "El desempate nunca se jugó." },
+    },
+  },
+  aamCup(1920, {
+    championIds: ["central"],
+    runnerUpIds: ["almagro"],
+    notes: [
+      ELIMINACION,
+      SIN_FECHA,
+      { kind: "identidad", text: "Nacional (Rosario) y Rosario Central jugaban en la Liga Amateurs de Football de Rosario. Algunas fuentes ponen por error a Nacional de Montevideo en lugar de Nacional de Rosario." },
+    ],
+  }),
+  aamCup(1924, {
+    championIds: ["independiente"],
+    runnerUpIds: ["almagro"],
+    tableIndex: 0,
+    notes: [
+      GRUPOS_AAM("cuatro grupos de seis equipos a dos ruedas", "el primero de cada grupo pasaba a las semifinales"),
+      JOCKEY_TABLA,
+      TABLAS_GRUPOS,
+      { kind: "dato", text: "Semifinal: Racing e Independiente empataron tres veces 0-0 y Racing se retiró antes del cuarto partido. La final necesitó tres partidos (1-1, 0-0 y 1-0). Se terminó en 1925." },
+    ],
+    aliases: {
+      "CA Estudiantes": "estudiantes",
+      "Club Atlético Estudiantes": "estudiantes",
+      "Club de Gimnasia y Esgrima": "gimnasia",
+      "CS de Almagro": "almagro|Sportivo Almagro",
+      "CS Palermo": "sportivo-palermo",
+      "CS Buenos Aires": "sportivo-buenos-aires",
+      // Como cancha: en 1924 el único Gimnasia de la Asociación Amateurs era el de La Plata.
+      "Gimnasia y Esgrima": "gimnasia",
+    },
+    overrides: {
+      "1924-06-19 sportivo-palermo racing": {
+        note: "Se suspendió a los 80 minutos con 0-0. La Asociación le dio el partido a Racing el 24/12, aunque antes se había ordenado jugarlo de nuevo el 11/1.",
+      },
+    },
+    groupTables: [
+      { table: 1, stage: "^Grupo A" },
+      { table: 2, stage: "^Grupo B" },
+      { table: 3, stage: "^Grupo C" },
+      { table: 4, stage: "^Grupo D" },
+    ],
+  }),
+  aamCup(1925, {
+    championIds: ["independiente"],
+    runnerUpIds: ["sportivo-palermo"],
+    notes: [
+      GRUPOS_AAM("cinco grupos, a una rueda", "el primero de cada grupo (con desempate si había igualdad) pasaba a la ronda final"),
+      TABLAS_GRUPOS,
+      { kind: "retiro", text: "Estudiantes de La Plata no se presentó en el grupo C." },
+      { kind: "dato", text: "La ronda final se jugó en 1926; la fuente no da el día de la final." },
+    ],
+    overrides: {
+      "1925 independiente sportivo-palermo": { date: "1926" },
+      "1925-12-06 barracas-central independiente": {
+        homeGoals: 0,
+        awayGoals: 3,
+        note: "RSSSF lo lista 3-0 para Barracas Central, pero su propia tabla del grupo (Independiente invicto, 11 goles a favor y ninguno en contra, primero sin desempate) solo cierra con 3-0 para Independiente: se corrige.",
+      },
+    },
+    groupTables: [
+      { table: 0, stage: "^Grupo A$" },
+      { table: 1, stage: "^Grupo B$" },
+      { table: 2, stage: "^Grupo B \\(desempate\\)$" },
+      {
+        table: 3,
+        stage: "^Grupo C$",
+        knownDiffs: {
+          tigre: "La tabla de RSSSF da 8-5 en goles y la lista de partidos 6-3: la tabla implica un 4-4 con Ferro donde la lista dice 2-2. Se deja el 2-2.",
+          ferro: "La tabla de RSSSF da 6-8 y la lista 4-6 (el mismo partido con Tigre).",
+        },
+      },
+      { table: 4, stage: "^Grupo D$" },
+      {
+        table: 5,
+        stage: "^Grupo E$",
+        knownDiffs: {
+          almagro: "La tabla de RSSSF le da 6 goles a favor y la lista de partidos suma 7.",
+          quilmes: "La tabla de RSSSF le da 7 goles a favor y la lista de partidos suma 6.",
+        },
+      },
+      { table: 6, stage: "^Grupo E \\(desempate\\)$" },
+    ],
+  }),
+  aamCup(1926, {
+    championIds: ["independiente"],
+    runnerUpIds: ["lanus"],
+    allSections: true,
+    stageMap: { "^Replay Second Round": "Segunda ronda (desempate)" },
+    notes: [GRUPOS_AAM("cinco grupos, a una rueda", "el primero de cada grupo (con desempate si había igualdad) pasaba a la segunda ronda"), TABLAS_GRUPOS],
+    groupTables: [
+      { table: 0, stage: "^Grupo A$" },
+      { table: 1, stage: "^Grupo B$" },
+      { table: 2, stage: "^Grupo C$" },
+      {
+        table: 3,
+        stage: "^Grupo D$",
+        knownDiffs: { "san-isidro": "La tabla de RSSSF le da 4 goles a favor; sus partidos de la lista suman 6 (3, 0, 1 y 2)." },
+      },
+      {
+        table: 4,
+        stage: "^Grupo E$",
+        knownDiffs: {
+          "sportivo-palermo":
+            "La fila de Sportivo Palermo en la tabla de RSSSF no incluye su derrota 1-5 con San Lorenzo, que sí está en la fila de San Lorenzo y en la lista de partidos.",
+        },
+      },
+    ],
+  }),
+  ibarguren(1913, {
+    championIds: ["racing"],
+    runnerUpIds: ["newells"],
+    notes: [{ kind: "formato", text: "En 1913 también participó el campeón de Santa Fe: Newell's le ganó a Colón y jugó la final contra Racing. Se jugó en 1914." }],
+    overrides: { "1914-03-29 newells colon-santa-fe": { stage: "Semifinal" } },
+  }),
+  ibarguren(1914, { championIds: ["racing"], runnerUpIds: ["central"] }),
+  ibarguren(1915, { championIds: ["central"], runnerUpIds: ["racing"], notes: [IBARGUREN, { kind: "dato", text: "Se jugó en 1916." }] }),
+  ibarguren(1916, { championIds: ["racing"], runnerUpIds: ["central"] }),
+  ibarguren(1917, { championIds: ["racing"], runnerUpIds: ["central"], notes: [IBARGUREN, { kind: "dato", text: "Se jugó en enero de 1918." }] }),
+  ibarguren(1918, { championIds: ["racing"], runnerUpIds: ["newells"] }),
+  ibarguren(1919, { championIds: ["boca"], runnerUpIds: ["central"], notes: [IBARGUREN, { kind: "dato", text: "Se jugó en febrero de 1920." }] }),
+  ibarguren(1920, {
+    championIds: ["tiro-federal-rosario"],
+    runnerUpIds: ["boca"],
+    notes: [
+      IBARGUREN,
+      {
+        kind: "anulado",
+        text: "Boca le ganó 2-1 a Tiro Federal el 29/6/1921, pero la Liga Rosarina reclamó porque tres jugadores de Boca habían jugado ese año en otros clubes (uno de ellos en Vélez, de la Asociación Amateurs). Primero se dio por bueno el resultado; después Boca y la Liga Rosarina acordaron jugarlo de nuevo, y Tiro Federal ganó 4-0 el 5/2/1922.",
+      },
+    ],
+  }),
+  ibarguren(1921, { championIds: ["newells"], runnerUpIds: ["huracan"], notes: [IBARGUREN, { kind: "dato", text: "Se jugó en enero de 1922." }] }),
+  ibarguren(1922, { championIds: ["huracan"], runnerUpIds: ["newells"], notes: [IBARGUREN, { kind: "dato", text: "Se jugó en 1923." }] }),
+  ibarguren(1923, { championIds: ["boca"], runnerUpIds: ["central"], notes: [IBARGUREN, { kind: "dato", text: "Se jugó en junio de 1924." }] }),
+  ibarguren(1924, {
+    championIds: ["boca"],
+    runnerUpIds: ["belgrano-rosario"],
+    aliases: { Belgrano: "belgrano-rosario" },
+    notes: [IBARGUREN, { kind: "dato", text: "Se jugó en mayo de 1926." }],
+  }),
+  ibarguren(1925, { championIds: ["huracan"], runnerUpIds: ["tiro-federal-rosario"], notes: [IBARGUREN, { kind: "dato", text: "Se jugó en septiembre de 1926." }] }),
+  laNacion(1913, {
+    championIds: ["central"],
+    runnerUpIds: ["argentino-quilmes"],
+    notes: [
+      LA_NACION,
+      { kind: "formato", text: "La Federación Rosarina clasificaba dos equipos a las semifinales; Tiro Federal le ganó a Sparta en un partido que organizó la Federación Rosarina." },
+      { kind: "identidad", text: "Lanús Athletic figura con el mismo nombre que el club de 1897–1899; la fuente no confirma que sea el mismo." },
+    ],
+    aliases: { "Lanús Athletic": "lanus-athletic" },
+  }),
+  laNacion(1914, {
+    championIds: ["independiente"],
+    runnerUpIds: ["argentino-quilmes"],
+    notes: [
+      LA_NACION,
+      { kind: "retiro", text: "La final no se jugó: Argentino de Quilmes dejó la Federación el 26 de septiembre para pasarse a la Asociación Argentina, y la Federación le dio la copa a Independiente." },
+    ],
+  }),
   jockey(1907, {
     championIds: ["alumni"],
     runnerUpIds: ["belgrano-athletic"],
@@ -105,29 +412,41 @@ export const CUP_TOURNAMENTS: TournamentConfig[] = [
         "Wikipedia da 2-1 para Quilmes, pero entonces no habría habido desempate: RSSSF registra el 2-2 y el desempate que ganó Belgrano 4-1 una semana después.",
     },
   }),
-  jockey(1908, { championIds: ["alumni"], runnerUpIds: ["argentino-quilmes"], aliases: { "CA Argentino": "gimnasia-rosario" } }),
-  jockey(1909, { championIds: ["alumni"], runnerUpIds: ["newells"], aliases: { "CA Argentino": "gimnasia-rosario" } }),
+  jockey(1908, { championIds: ["alumni"], runnerUpIds: ["argentino-quilmes"], aliases: { "CA Argentino": "gimnasia-rosario|Argentino (Rosario)" } }),
+  jockey(1909, { championIds: ["alumni"], runnerUpIds: ["newells"], aliases: { "CA Argentino": "gimnasia-rosario|Argentino (Rosario)" } }),
   jockey(1910, {
     championIds: ["estudiantes-ba"],
     runnerUpIds: ["gimnasia-ba"],
-    aliases: { "CA Argentino": "gimnasia-rosario", "Cd Gimnasia y Esgrima (B. Aires)": "gimnasia-ba", "Cd Gimnasia y Esgrima": "gimnasia-ba" },
+    aliases: { "CA Argentino": "gimnasia-rosario|Argentino (Rosario)", "Cd Gimnasia y Esgrima (B. Aires)": "gimnasia-ba", "Cd Gimnasia y Esgrima": "gimnasia-ba" },
   }),
   jockey(1911, {
     championIds: ["san-isidro"],
     runnerUpIds: ["estudiantes-ba"],
-    aliases: { "CA Argentino": "gimnasia-rosario", "Cd Gimnasia y Esgrima": "gimnasia-ba" },
+    aliases: { "CA Argentino": "gimnasia-rosario|Argentino (Rosario)", "Cd Gimnasia y Esgrima": "gimnasia-ba" },
   }),
   jockey(1912, {
     championIds: ["san-isidro"],
     runnerUpIds: ["quilmes"],
-    aliases: { "CA Argentino": "gimnasia-rosario", "Cd Gimnasia y Esgrima": "gimnasia-ba" },
+    aliases: { "CA Argentino": "gimnasia-rosario|Argentino (Rosario)", "Cd Gimnasia y Esgrima": "gimnasia-ba" },
   }),
   jockey(1913, {
     championIds: ["san-isidro"],
     runnerUpIds: ["racing"],
-    aliases: { "CA Argentino": "gimnasia-rosario", "CAdSan Isidro": "san-isidro" },
+    aliases: { "CA Argentino": "gimnasia-rosario|Argentino (Rosario)", "CAdSan Isidro": "san-isidro" },
   }),
-  jockey(1914, { championIds: ["river"], runnerUpIds: ["racing"], tableIndex: 0, notes: [ELIMINACION, JOCKEY_TABLA] }),
+  jockey(1914, {
+    championIds: ["river"],
+    runnerUpIds: ["racing"],
+    tableIndex: 0,
+    notes: [
+      ELIMINACION,
+      JOCKEY_TABLA,
+      {
+        kind: "fuentes",
+        text: "La lista de copas de la AFA (según Wikipedia) da a Newell's como finalista: River le ganó 4-0, pero RSSSF ubica ese partido en la Cup Tie Competition (la final internacional). La final de la copa, según RSSSF y su índice de copas, fue River 2-1 Racing.",
+      },
+    ],
+  }),
   jockey(1915, {
     championIds: ["porteno"],
     runnerUpIds: ["racing"],
@@ -266,13 +585,13 @@ export const CUP_TOURNAMENTS: TournamentConfig[] = [
     championIds: ["newells"],
     runnerUpIds: ["porteno"],
     notes: [ELIMINACION, CUSENIER, { kind: "fuentes", text: "La copa se le reasignó en 1916 al ganador de la serie argentina de la Copa de Honor Cusenier." }],
-    aliases: { "CA Argentino": "gimnasia-rosario", "CA Estudiantes": "estudiantes-ba", "Cd Gimnasia y Esgrima": "gimnasia-ba" },
+    aliases: { "CA Argentino": "gimnasia-rosario|Argentino (Rosario)", "CA Estudiantes": "estudiantes-ba", "Cd Gimnasia y Esgrima": "gimnasia-ba" },
   }),
   honor(1912, {
     championIds: ["racing"],
     runnerUpIds: ["newells"],
     notes: [ELIMINACION, SIN_FECHA, CUSENIER, { kind: "fuentes", text: "La copa se le reasignó en 1916 al ganador de la serie argentina de la Copa de Honor Cusenier." }],
-    aliases: { "CA Argentino": "gimnasia-rosario", "CA Estudiantes": "estudiantes-ba" },
+    aliases: { "CA Argentino": "gimnasia-rosario|Argentino (Rosario)", "CA Estudiantes": "estudiantes-ba" },
     overrides: { "1912 racing newells": { stage: "Final" } },
     listedWithoutMatches: {
       "tiro-federal-rosario": "El partido preliminar entre Tiro Federal y Belgrano Athletic no se jugó: Tiro Federal había dejado la liga y Belgrano se retiró de la copa.",
@@ -283,7 +602,7 @@ export const CUP_TOURNAMENTS: TournamentConfig[] = [
     championIds: ["racing"],
     runnerUpIds: ["estudiantes-ba"],
     notes: [ELIMINACION, CUSENIER, { kind: "fuentes", text: "La copa se le reasignó en 1916 al ganador de la serie argentina de la Copa de Honor Cusenier." }],
-    aliases: { "CA Argentino": "gimnasia-rosario", "CA Estudiantes": "estudiantes-ba", "CA Unión": "union-santa-fe" },
+    aliases: { "CA Argentino": "gimnasia-rosario|Argentino (Rosario)", "CA Estudiantes": "estudiantes-ba", "CA Unión": "union-santa-fe" },
   }),
   honor(1915, {
     championIds: ["racing"],
@@ -305,7 +624,7 @@ export const CUP_TOURNAMENTS: TournamentConfig[] = [
       "Club de Gimnasia y Esgrima": "gimnasia-ba",
       "Cd Gimnasia y Esgrima (La Plata)": "gimnasia",
       "CA Belgrano": "belgrano-rosario",
-      "CA Nacional": "argentino-rosario",
+      "CA Nacional": "argentino-rosario|Nacional (Rosario)",
     },
   }),
   honor(1917, {
@@ -317,7 +636,7 @@ export const CUP_TOURNAMENTS: TournamentConfig[] = [
       "Club de Gimnasia y Esgrima": "gimnasia-ba",
       "Cd Gimnasia y Esgrima (La Plata)": "gimnasia",
       "CA Belgrano": "belgrano-rosario",
-      "CA Nacional": "argentino-rosario",
+      "CA Nacional": "argentino-rosario|Nacional (Rosario)",
     },
   }),
   honor(1918, {

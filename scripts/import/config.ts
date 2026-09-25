@@ -17,9 +17,14 @@ export type TournamentConfig = {
   excludeTeams?: string[];
   // Copa suspendida antes de la final (sin campeón): se cargan los partidos jugados y no se busca la final.
   abandoned?: boolean;
+  // Copa con campeón pero sin final jugada (Copa Estímulo 1920): no se busca la final.
+  noFinal?: boolean;
   // Equipos eliminados que vuelven a jugar (cuadro rearmado en 1920, o un caso sin explicar en la fuente). Sin `teams`, vale para todos.
   // La explicación se agrega a las notas de la temporada.
   reentry?: { teams?: string[]; note: string };
+  // Copas por grupos: tabla de la página (índice) que corresponde a cada grupo (expresión regular sobre la fase).
+  // knownDiffs: diferencias ya revisadas por club, con la explicación.
+  groupTables?: { table: number; stage: string; knownDiffs?: Record<string, string> }[];
   // Completar con Wikipedia días y goles que RSSSF no registra (ver fillFromWikipedia).
   wikiFill?: boolean;
   // Filas de la tabla publicada identificadas por su puesto (cuando dos clubes figuran con el mismo nombre).

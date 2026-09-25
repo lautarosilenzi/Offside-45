@@ -93,6 +93,7 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["argentino-rosario", "Argentino de Rosario", "ARO", "Club Atlético Argentino de Rosario (hasta 1934, Club Atlético Nacional)"],
   ["rosario-puerto-belgrano", "Rosario Puerto Belgrano", "RPB", "Club Atlético Rosario Puerto Belgrano"],
   ["union-santa-fe", "Unión (Santa Fe)", "USF", "Club Atlético Unión (Santa Fe)"],
+  ["colon-santa-fe", "Colón (Santa Fe)", "COS", "Club Atlético Colón (Santa Fe)"],
   // Clubes uruguayos que jugaron la Copa Chevallier Boutell (1900–1906), reconocida por la AFA como copa nacional.
   ["albion-uy", "Albion (Uruguay)", "ALB", "Albion Football Club (Montevideo)"],
   ["curcc-uy", "CURCC (Uruguay)", "CUR", "Central Uruguay Railway Cricket Club (Montevideo)"],
@@ -119,6 +120,19 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["villa-real", "Villa Real", "VRE", "Villa Real (la fuente no da el nombre completo)"],
   ["pineyro", "Piñeyro", "PIN", "Piñeyro (la fuente no da el nombre completo)"],
   ["balcarce", "Balcarce", "BAL", "Balcarce (1919; la fuente no confirma si es el Sportivo Balcarce)"],
+  // Copa La Nación (Federación Argentina, 1913–1914): también abierta a equipos de ascenso.
+  ["argentino-avellaneda", "Argentino (Avellaneda)", "AAV", "Club Atlético Argentino (Avellaneda)"],
+  ["argentino-nunez", "Argentino (Núñez)", "ANU", "Club Atlético Argentino (Núñez)"],
+  ["instituto-americano", "Instituto Americano", "IAM", "Instituto Americano de Adrogué"],
+  ["juventud-tigre", "Juventud del Tigre", "JTI", "Juventud del Tigre (RSSSF lo distingue del CA Tigre, que jugaba la liga de la Federación; Wikipedia lo enlaza con el CA Tigre)"],
+  ["martinez", "Martínez", "MAR", "Martínez (la fuente no da el nombre completo)"],
+  ["atlas", "Atlas", "ATS", "Atlas (1914; la fuente no da el nombre completo)"],
+  ["carapachay", "Carapachay", "CPY", "Carapachay (la fuente no da el nombre completo)"],
+  ["federal", "Federal", "FED", "Federal (1914; la fuente no da el nombre completo)"],
+  ["gimnasia-banfield", "Gimnasia y Esgrima (Banfield)", "GBF", "Gimnasia y Esgrima de Banfield"],
+  ["lanus-united", "Lanús United", "LUN", "Lanús United"],
+  ["sportivo-suizo", "Sportivo Suizo", "SSU", "Sportivo Suizo"],
+  ["universitarios", "Universitarios", "UNI", "Universitarios (1914; la fuente no da el nombre completo)"],
 ];
 
 export const HISTORIC_CLUBS: Team[] = OTHER_CLUBS.map(([id, name, shortName, fullName]) => ({

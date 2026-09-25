@@ -235,7 +235,8 @@ export async function compareWithWikipedia(cfg: TournamentConfig, season: Season
 
   // Tabla de posiciones de Wikipedia contra la calculada con los partidos (control independiente del de RSSSF).
   const computed = new Map(computeTable(season).map((r) => [r.teamId, r]));
-  const standings = wikiStandings(text).find((t) => t.length >= Math.min(3, computed.size));
+  // Las copas no tienen tabla en Wikipedia (lo que aparece suele ser la tabla de la liga de ese año).
+  const standings = cfg.kind === "cup" ? undefined : wikiStandings(text).find((t) => t.length >= Math.min(3, computed.size));
   if (standings) {
     let ok = 0;
     for (const row of standings) {

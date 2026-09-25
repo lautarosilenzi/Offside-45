@@ -1,0 +1,390 @@
+{
+ "slug": "copa-estimulo-1920",
+ "kind": "cup",
+ "year": 1920,
+ "title": "Copa Estímulo 1920",
+ "tournament": "Copa Estímulo de la Asociación Argentina de Football",
+ "organizer": "Asociación Argentina de Football",
+ "championIds": [
+  "huracan"
+ ],
+ "summary": "Huracán ganó la Copa Estímulo 1920, que se jugó en dos zonas todos contra todos: ganó la Zona Norte invicto. La final contra Banfield, ganador de la Zona Sur, no se jugó y la copa se le adjudicó a Huracán.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Estímulo 1920",
+   "url": "https://www.rsssf.org/tablesa/arg-estim20.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Dos zonas (Norte y Sur), todos contra todos a una rueda; los ganadores debían jugar la final."
+  },
+  {
+   "kind": "dato",
+   "text": "La final entre Huracán y Banfield no se jugó; la copa se le adjudicó a Huracán (la lista de la AFA no registra subcampeón)."
+  },
+  {
+   "kind": "fuentes",
+   "text": "La tabla de cada grupo, recalculada con sus partidos, coincide con la que publica RSSSF (los partidos resueltos por escritorio suman los puntos sin goles)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-estimulo-1920-001",
+   "date": "1920-08-15",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Norte · Fecha 1",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "palermo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-002",
+   "date": "1920-08-15",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Norte · Fecha 1",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-003",
+   "date": "1920-08-15",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Norte · Fecha 1",
+   "phase": "cup",
+   "homeId": "sportivo-palermo",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-004",
+   "date": "1920-08-22",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Norte · Fecha 2",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-005",
+   "date": "1920-08-22",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Norte · Fecha 2",
+   "phase": "cup",
+   "homeId": "nueva-chicago",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-006",
+   "date": "1920-08-22",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Norte · Fecha 2",
+   "phase": "cup",
+   "homeId": "palermo",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-007",
+   "date": "1920-09-05",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Norte · Fecha 3",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-008",
+   "date": "1920-09-05",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Norte · Fecha 3",
+   "phase": "cup",
+   "homeId": "sportivo-palermo",
+   "awayId": "palermo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "sportivo-palermo",
+   "walkover": true,
+   "note": "No se jugó: pasó Sportivo Palermo. Palermo no se presentó."
+  },
+  {
+   "id": "copa-estimulo-1920-009",
+   "date": "1920-09-12",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Norte · Fecha 4",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-010",
+   "date": "1920-09-12",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Norte · Fecha 4",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-011",
+   "date": "1920-09-12",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Norte · Fecha 4",
+   "phase": "cup",
+   "homeId": "palermo",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-012",
+   "date": "1920-09-19",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Norte · Fecha 5",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-013",
+   "date": "1920-09-19",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Norte · Fecha 5",
+   "phase": "cup",
+   "homeId": "nueva-chicago",
+   "awayId": "colegiales",
+   "awayAs": "Sportivo del Norte",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-014",
+   "date": "1920-09-26",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Norte · Fecha 6",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "palermo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Villa Urquiza",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-015",
+   "date": "1920-08-15",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Sur · Fecha 1",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-016",
+   "date": "1920-08-15",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Sur · Fecha 1",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-017",
+   "date": "1920-08-22",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Sur · Fecha 2",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-018",
+   "date": "1920-08-22",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Sur · Fecha 2",
+   "phase": "cup",
+   "homeId": "del-plata",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-019",
+   "date": "1920-09-05",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Sur · Fecha 3",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-020",
+   "date": "1920-09-05",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Sur · Fecha 3",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-021",
+   "date": "1920-09-12",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Sur · Fecha 4",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "del-plata",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 60 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "copa-estimulo-1920-022",
+   "date": "1920-09-12",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Sur · Fecha 4",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-023",
+   "date": "1920-09-19",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Sur · Fecha 5",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-estimulo-1920-024",
+   "date": "1920-09-26",
+   "competition": "Copa Estímulo",
+   "stage": "Zona Sur · Fecha 6",
+   "phase": "cup",
+   "homeId": "sportivo-barracas",
+   "awayId": "del-plata",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

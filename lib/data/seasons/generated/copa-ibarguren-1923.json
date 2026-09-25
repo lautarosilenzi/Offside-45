@@ -1,0 +1,55 @@
+{
+ "slug": "copa-ibarguren-1923",
+ "kind": "cup",
+ "runnerUpIds": [
+  "central"
+ ],
+ "year": 1923,
+ "title": "Copa Ibarguren 1923",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación Argentina de Football y Liga Rosarina de Football",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca Juniors ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 1-0 a Rosario Central. Participaron 2 equipos y se jugaron 1 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1923",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1923",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1923"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la Asociación Argentina de Football y el de la Liga Rosarina; si empataban, desempate."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó en junio de 1924."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1923-001",
+   "date": "1924-06-08",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue. Goles: Pertini 116."
+  }
+ ]
+}

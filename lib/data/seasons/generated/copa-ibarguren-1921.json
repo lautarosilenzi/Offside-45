@@ -1,0 +1,55 @@
+{
+ "slug": "copa-ibarguren-1921",
+ "kind": "cup",
+ "runnerUpIds": [
+  "huracan"
+ ],
+ "year": 1921,
+ "title": "Copa Ibarguren 1921",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación Argentina de Football y Liga Rosarina de Football",
+ "championIds": [
+  "newells"
+ ],
+ "summary": "Newell's Old Boys ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 3-0 a Huracán. Participaron 2 equipos y se jugaron 1 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1921",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1921",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1921"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la Asociación Argentina de Football y el de la Liga Rosarina; si empataban, desempate."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó en enero de 1922."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1921-001",
+   "date": "1922-01-29",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Badalini 25, 31, Julio Libonatti 44."
+  }
+ ]
+}

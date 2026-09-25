@@ -16,6 +16,14 @@ const ABOUT: Record<string, string> = {
     "Copa de Competencia Jockey Club. Hasta 1912 fue la fase argentina de la Tie Cup; desde 1913, copa nacional abierta también a equipos de Intermedia y Segunda.",
   "Copa de Honor":
     "Copa de Honor Municipalidad de Buenos Aires. Eliminación directa entre los equipos de Primera; desde 1913, con un cuadro de Buenos Aires y otro de Rosario.",
+  "Copa La Nación":
+    "Copa de Competencia «La Nación» de la Federación Argentina de Football, la liga disidente de 1912–1914. Abierta a equipos de Primera y de Segunda.",
+  "Copa Ibarguren":
+    "Copa Dr. Carlos Ibarguren: el campeón argentino contra el campeón de la Liga Rosarina (en 1913 también participó el de Santa Fe).",
+  "Copa de Competencia de la Asociación Amateurs":
+    "Copa de la Asociación Amateurs de Football, la liga disidente de 1919–1926. Desde 1924 con fase de grupos.",
+  "Copa Estímulo": "Copa de la Asociación Argentina de Football, por zonas o grupos y con clubes de Primera de ese momento.",
+  "Campeonato Porteño": "Partido entre los campeones de 1926 de la Asociación Argentina y de la Asociación Amateurs, antes de la unificación. Quedó sin definir.",
 };
 
 export default function CupsPage() {
@@ -51,8 +59,8 @@ export default function CupsPage() {
           </section>
         ))}
         <p className="text-sm text-navy-400">
-          Se siguen cargando, verificadas: Copa Ibarguren, Copa de Competencia La Nación,
-          Copa de Competencia de la Asociación Amateurs, Copa Estímulo y el resto de las copas de la era amateur.
+          Están todas las copas nacionales de la era amateur hasta 1926 que reconoce la AFA. Las de 1931 y 1933 (Copa Jockey
+          Club de la liga amateur) y las de la era profesional se cargan junto con esas temporadas.
         </p>
       </main>
     </>

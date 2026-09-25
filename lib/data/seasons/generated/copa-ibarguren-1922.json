@@ -1,0 +1,71 @@
+{
+ "slug": "copa-ibarguren-1922",
+ "kind": "cup",
+ "runnerUpIds": [
+  "newells"
+ ],
+ "year": 1922,
+ "title": "Copa Ibarguren 1922",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación Argentina de Football y Liga Rosarina de Football",
+ "championIds": [
+  "huracan"
+ ],
+ "summary": "Huracán ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 1-0 a Newell's Old Boys. Participaron 2 equipos y se jugaron 2 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1922",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1922",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1922"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la Asociación Argentina de Football y el de la Liga Rosarina; si empataban, desempate."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó en 1923."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1922-001",
+   "date": "1923-03-04",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Chiessa 84 / Loyarte 25."
+  },
+  {
+   "id": "copa-ibarguren-1922-002",
+   "date": "1923-04-22",
+   "competition": "Copa Ibarguren",
+   "stage": "Final (desempate)",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Chiessa 40."
+  }
+ ]
+}

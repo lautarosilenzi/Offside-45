@@ -1,0 +1,50 @@
+{
+ "slug": "copa-ibarguren-1914",
+ "kind": "cup",
+ "runnerUpIds": [
+  "central"
+ ],
+ "year": 1914,
+ "title": "Copa Ibarguren 1914",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación Argentina de Football y Liga Rosarina de Football",
+ "championIds": [
+  "racing"
+ ],
+ "summary": "Racing Club ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 1-0 a Rosario Central. Participaron 2 equipos y se jugaron 1 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1914",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1914",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1914"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la Asociación Argentina de Football y el de la Liga Rosarina; si empataban, desempate."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1914-001",
+   "date": "1914-12-06",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Estudiantes (BA)",
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

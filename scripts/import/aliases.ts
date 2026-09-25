@@ -123,9 +123,10 @@ const ALIASES: Alias[] = [
   { id: "racing", names: ["Racing Club", "Racing FC", "Racing Football Club", "Racing"] },
   // Copas nacionales: equipos de La Plata con el nombre completo, y de Rosario y Santa Fe.
   { id: "estudiantes", names: ["Estudiantes (La Plata)"] },
-  { id: "gimnasia", names: ["Gimnasia y Esgrima (La Plata)"] },
+  { id: "gimnasia", names: ["Gimnasia y Esgrima (La Plata)", "Gimnasia y Esgrima LPG", "Gimnasia y Esgrima de La Plata"] },
+  { id: "estudiantes-ba", names: ["Estudiantes (Bs.As.)"] },
   { id: "gimnasia-ba", names: ["Gimnasia y Esgrima (Buenos Aires)", "Gimnasia y Esgrima (B. Aires)"] },
-  { id: "ferro", names: ["Ferro Carril Oeste de BA", "FCO"] },
+  { id: "ferro", names: ["Ferro Carril Oeste de BA", "FCO", "Ferro Carril Oeste (BUE)"] },
   { id: "columbian", names: ["Columbian FC", "Columbian Football Club", "Columbian Footbal Club"] },
   { id: "sportivo-barracas", names: ["CS Barracas"] },
   // Solo aparecen como canchas: "GEBA, Palermo", "CASI, San Isidro".
@@ -147,6 +148,7 @@ const ALIASES: Alias[] = [
   { id: "argentino-rosario", names: ["Nacional", "Nacional (Rosario)", "Nacional (R)"], as: "Nacional (Rosario)", from: 1913, to: 1933 },
   { id: "rosario-puerto-belgrano", names: ["Rosario a Puerto Belgrano", "Rosario Puerto Belgrano"] },
   { id: "union-santa-fe", names: ["Unión", "Unión (Santa Fe)", "Unión Santa Fe"] },
+  { id: "colon-santa-fe", names: ["Colón", "Colón (Santa Fe)", "Club Atlético Colón"] },
   // Uruguayos (Copa Chevallier Boutell). "Nacional" a secas se resuelve con un alias local.
   { id: "albion-uy", names: ["Albion FC", "Albion", "Albion Football Club"] },
   { id: "curcc-uy", names: ["CURCC", "Central Uruguay Railway Cricket Club"] },
@@ -180,6 +182,24 @@ const ALIASES: Alias[] = [
   { id: "el-porvenir", names: ["El Porvernir"] },
   { id: "banfield", names: ["Banfied"] },
   { id: "porteno", names: ["Porteño AC"] },
+  // Copa La Nación 1913–1914. Wikipedia: "Argentino de Vélez Sarsfield" es el actual Vélez.
+  { id: "velez", names: ["Argentinos de Vélez Sarsfield", "Argentino de Vélez Sarsfield", "Argentinos de Vélez de Sarfield"], as: "Argentinos de Vélez Sarsfield", to: 1914 },
+  { id: "argentino-avellaneda", names: ["Argentino de Avellaneda"] },
+  { id: "argentino-nunez", names: ["Argentino de Núñez"] },
+  { id: "instituto-americano", names: ["Instituto Americano"] },
+  { id: "juventud-tigre", names: ["Juventud del Tigre"] },
+  { id: "martinez", names: ["Martínez"] },
+  { id: "atlas", names: ["Atlas"] },
+  { id: "carapachay", names: ["Carapachay"] },
+  { id: "federal", names: ["Federal"] },
+  { id: "gimnasia-banfield", names: ["Gimnasia y Esgrima (B)"] },
+  { id: "lanus-united", names: ["Lanús United"] },
+  { id: "sportivo-suizo", names: ["Sportivo Suizo"] },
+  { id: "universitarios", names: ["Universitarios"] },
+  { id: "general-belgrano", names: ["General Belgrano LP", "General Belgrano (LP)"] },
+  { id: "honor-y-patria", names: ["Honor y Patria (BA)"] },
+  { id: "kimberley", names: ["Kimberley (BA)"] },
+  { id: "sportiva-argentina", names: ["Sociedad Sportiva Argentino"] },
   { id: "defensores-belgrano", names: ["Defensores de Belgrano FBC", "Defensores de Belgrano Foot-Ball Club"] },
   { id: "rosario-athletic", names: ["Club Atlético del Rosario"] },
   { id: "san-telmo", names: ["San Telmo Football Club"] },
@@ -217,9 +237,11 @@ export function resolveName(raw: string, year: number, exact = false): { id: str
 function resolveExact(raw: string, year: number): { id: string; name: string; as?: string } | null {
   const n = norm(raw);
   if (local[n]) {
-    const team = getTeam(local[n]);
-    if (!team) throw new Error(`Alias local apunta a un club que no existe: ${local[n]}`);
-    return { id: team.id, name: team.name };
+    // "id" o "id|Nombre de época" (ej. "almagro|Sportivo Almagro").
+    const [id, as] = local[n].split("|");
+    const team = getTeam(id);
+    if (!team) throw new Error(`Alias local apunta a un club que no existe: ${id}`);
+    return { id: team.id, name: team.name, ...(as && as !== team.name && { as }) };
   }
   const hit = ALIASES.find(
     (a) => (a.from === undefined || year >= a.from) && (a.to === undefined || year <= a.to) && a.names.some((x) => norm(x) === n),

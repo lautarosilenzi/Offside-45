@@ -1,0 +1,71 @@
+{
+ "slug": "copa-ibarguren-1915",
+ "kind": "cup",
+ "runnerUpIds": [
+  "racing"
+ ],
+ "year": 1915,
+ "title": "Copa Ibarguren 1915",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación Argentina de Football y Liga Rosarina de Football",
+ "championIds": [
+  "central"
+ ],
+ "summary": "Rosario Central ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 3-1 a Racing Club. Participaron 2 equipos y se jugaron 2 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1915",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1915",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1915"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la Asociación Argentina de Football y el de la Liga Rosarina; si empataban, desempate."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó en 1916."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1915-001",
+   "date": "1916-03-26",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "copa-ibarguren-1915-002",
+   "date": "1916-04-30",
+   "competition": "Copa Ibarguren",
+   "stage": "Final (desempate)",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Gimnasia y Esgrima (Buenos Aires)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue. Goles: Vivaldi 15 / Laiolo 11, 96, Woodward 119."
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "copa-ibarguren-1916",
+ "kind": "cup",
+ "runnerUpIds": [
+  "central"
+ ],
+ "year": 1916,
+ "title": "Copa Ibarguren 1916",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación Argentina de Football y Liga Rosarina de Football",
+ "championIds": [
+  "racing"
+ ],
+ "summary": "Racing Club ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 6-0 a Rosario Central. Participaron 2 equipos y se jugaron 1 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1916",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1916",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1916"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la Asociación Argentina de Football y el de la Liga Rosarina; si empataban, desempate."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1916-001",
+   "date": "1916-12-30",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Hospital 30, Marcovecchio 32, Vivaldi 38, 75, Canaveri 83, Olazar 88."
+  }
+ ]
+}

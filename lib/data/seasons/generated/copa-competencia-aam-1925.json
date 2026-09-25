@@ -1,0 +1,819 @@
+{
+ "slug": "copa-competencia-aam-1925",
+ "kind": "cup",
+ "runnerUpIds": [
+  "sportivo-palermo"
+ ],
+ "year": 1925,
+ "title": "Copa de Competencia de la Asociación Amateurs 1925",
+ "tournament": "Copa de Competencia de la Asociación Amateurs de Football",
+ "organizer": "Asociación Amateurs de Football (entidad disidente)",
+ "championIds": [
+  "independiente"
+ ],
+ "summary": "Independiente ganó la Copa de Competencia de la Asociación Amateurs de Football: en la final le ganó 2-0 a Sportivo Palermo. Participaron 24 equipos y se jugaron 53 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa de Competencia de la Asociación Amateurs 1925",
+   "url": "https://www.rsssf.org/tablesa/arg-jocaa25.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Primera fase en cinco grupos, a una rueda, todos contra todos; el primero de cada grupo (con desempate si había igualdad) pasaba a la ronda final. Después, eliminación directa."
+  },
+  {
+   "kind": "fuentes",
+   "text": "La tabla de cada grupo, recalculada con sus partidos, coincide con la que publica RSSSF (los partidos resueltos por escritorio suman los puntos sin goles)."
+  },
+  {
+   "kind": "retiro",
+   "text": "Estudiantes de La Plata no se presentó en el grupo C."
+  },
+  {
+   "kind": "dato",
+   "text": "La ronda final se jugó en 1926; la fuente no da el día de la final."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-competencia-aam-1925-001",
+   "date": "1925-10-25",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo A",
+   "phase": "cup",
+   "homeId": "platense",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-002",
+   "date": "1925-11-01",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo A",
+   "phase": "cup",
+   "homeId": "argentino-del-sud",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-003",
+   "date": "1925-11-08",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo A",
+   "phase": "cup",
+   "homeId": "san-isidro",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-004",
+   "date": "1925-11-15",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo A",
+   "phase": "cup",
+   "homeId": "gimnasia",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-005",
+   "date": "1925-11-22",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo A",
+   "phase": "cup",
+   "homeId": "lanus",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-006",
+   "date": "1925-11-22",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo A",
+   "phase": "cup",
+   "homeId": "platense",
+   "awayId": "san-isidro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-007",
+   "date": "1925-12-08",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo A",
+   "phase": "cup",
+   "homeId": "lanus",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-008",
+   "date": "1925-12-08",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo A",
+   "phase": "cup",
+   "homeId": "san-isidro",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "argentino-del-sud",
+   "walkover": true,
+   "note": "No se jugó: pasó Argentino del Sud. Resuelto por la liga."
+  },
+  {
+   "id": "copa-competencia-aam-1925-009",
+   "date": "1925-12-13",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo A",
+   "phase": "cup",
+   "homeId": "argentino-del-sud",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-010",
+   "date": "1925-12-13",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo A",
+   "phase": "cup",
+   "homeId": "gimnasia",
+   "awayId": "san-isidro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "gimnasia",
+   "walkover": true,
+   "note": "No se jugó: pasó Gimnasia (LP). Resuelto por la liga."
+  },
+  {
+   "id": "copa-competencia-aam-1925-011",
+   "date": "1925-10-25",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo B",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-012",
+   "date": "1925-11-01",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo B",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "atlanta",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-013",
+   "date": "1925-11-01",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo B",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-014",
+   "date": "1925-11-08",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo B",
+   "phase": "cup",
+   "homeId": "atlanta",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-015",
+   "date": "1925-11-08",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo B",
+   "phase": "cup",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-016",
+   "date": "1925-11-15",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo B",
+   "phase": "cup",
+   "homeId": "estudiantes-ba",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "racing",
+   "walkover": true,
+   "note": "No se jugó: pasó Racing Club. Resuelto por la liga."
+  },
+  {
+   "id": "copa-competencia-aam-1925-017",
+   "date": "1925-11-15",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo B",
+   "phase": "cup",
+   "homeId": "velez",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-018",
+   "date": "1925-11-22",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo B",
+   "phase": "cup",
+   "homeId": "atlanta",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-019",
+   "date": "1925-12-08",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo B",
+   "phase": "cup",
+   "homeId": "estudiantes-ba",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-020",
+   "date": "1925-12-08",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo B",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-021",
+   "date": "1925-12-13",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo B (desempate)",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-022",
+   "date": "1925-12-20",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo B (desempate)",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-023",
+   "date": "1925-11-08",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo C",
+   "phase": "cup",
+   "homeId": "ferro",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-024",
+   "date": "1925-11-08",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo C",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-025",
+   "date": "1925-11-15",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo C",
+   "phase": "cup",
+   "homeId": "ferro",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-026",
+   "date": "1925-11-15",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo C",
+   "phase": "cup",
+   "homeId": "tigre",
+   "awayId": "banfield",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-027",
+   "date": "1925-11-29",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo C",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "banfield",
+   "walkover": true,
+   "note": "No se jugó: pasó Banfield. Resuelto por la liga."
+  },
+  {
+   "id": "copa-competencia-aam-1925-028",
+   "date": "1925-11-29",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo C",
+   "phase": "cup",
+   "homeId": "sportivo-palermo",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 45 minutos."
+  },
+  {
+   "id": "copa-competencia-aam-1925-029",
+   "date": "1925-11-01",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo D",
+   "phase": "cup",
+   "homeId": "estudiantil-porteno",
+   "awayId": "excursionistas",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-030",
+   "date": "1925-11-08",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo D",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-031",
+   "date": "1925-11-08",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo D",
+   "phase": "cup",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "excursionistas",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-032",
+   "date": "1925-11-15",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo D",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-033",
+   "date": "1925-11-22",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo D",
+   "phase": "cup",
+   "homeId": "excursionistas",
+   "awayId": "barracas-central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido y no se completó; quedó el resultado del momento."
+  },
+  {
+   "id": "copa-competencia-aam-1925-034",
+   "date": "1925-11-29",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo D",
+   "phase": "cup",
+   "homeId": "excursionistas",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-035",
+   "date": "1925-12-06",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo D",
+   "phase": "cup",
+   "homeId": "barracas-central",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "RSSSF lo lista 3-0 para Barracas Central, pero su propia tabla del grupo (Independiente invicto, 11 goles a favor y ninguno en contra, primero sin desempate) solo cierra con 3-0 para Independiente: se corrige."
+  },
+  {
+   "id": "copa-competencia-aam-1925-036",
+   "date": "1925-12-06",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo D",
+   "phase": "cup",
+   "homeId": "barracas-central",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "barracas-central",
+   "walkover": true,
+   "note": "No se jugó: pasó Barracas Central. Resuelto por la liga."
+  },
+  {
+   "id": "copa-competencia-aam-1925-037",
+   "date": "1925-12-06",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo D",
+   "phase": "cup",
+   "homeId": "estudiantil-porteno",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "estudiantil-porteno",
+   "walkover": true,
+   "note": "No se jugó: pasó Estudiantil Porteño. Resuelto por la liga."
+  },
+  {
+   "id": "copa-competencia-aam-1925-038",
+   "date": "1925-12-06",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo D",
+   "phase": "cup",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "sportivo-buenos-aires",
+   "walkover": true,
+   "note": "No se jugó: pasó Sportivo Buenos Aires. Resuelto por la liga."
+  },
+  {
+   "id": "copa-competencia-aam-1925-039",
+   "date": "1925-10-25",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo E",
+   "phase": "cup",
+   "homeId": "almagro",
+   "awayId": "defensores-belgrano",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-040",
+   "date": "1925-11-01",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo E",
+   "phase": "cup",
+   "homeId": "defensores-belgrano",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-041",
+   "date": "1925-11-08",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo E",
+   "phase": "cup",
+   "homeId": "quilmes",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-042",
+   "date": "1925-11-08",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo E",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-043",
+   "date": "1925-11-15",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo E",
+   "phase": "cup",
+   "homeId": "defensores-belgrano",
+   "awayId": "liberal-argentino",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-044",
+   "date": "1925-11-15",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo E",
+   "phase": "cup",
+   "homeId": "almagro",
+   "awayId": "quilmes",
+   "homeAs": "Sportivo Almagro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-045",
+   "date": "1925-11-29",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo E",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "liberal-argentino",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-046",
+   "date": "1925-12-06",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo E",
+   "phase": "cup",
+   "homeId": "liberal-argentino",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-047",
+   "date": "1925-12-08",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo E",
+   "phase": "cup",
+   "homeId": "quilmes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-048",
+   "date": "1925-12-13",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo E",
+   "phase": "cup",
+   "homeId": "liberal-argentino",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-049",
+   "date": "1925-12-20",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Grupo E (desempate)",
+   "phase": "cup",
+   "homeId": "quilmes",
+   "awayId": "almagro",
+   "awayAs": "Sportivo Almagro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-050",
+   "date": "1926-03-14",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-051",
+   "date": "1926-03-14",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-052",
+   "date": "1926-03-21",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-competencia-aam-1925-053",
+   "date": "1926",
+   "competition": "Copa de Competencia (Asociación Amateurs)",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

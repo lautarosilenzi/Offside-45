@@ -1,0 +1,55 @@
+{
+ "slug": "copa-ibarguren-1925",
+ "kind": "cup",
+ "runnerUpIds": [
+  "tiro-federal-rosario"
+ ],
+ "year": 1925,
+ "title": "Copa Ibarguren 1925",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación Argentina de Football y Liga Rosarina de Football",
+ "championIds": [
+  "huracan"
+ ],
+ "summary": "Huracán ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 2-1 a Tiro Federal (Rosario). Participaron 2 equipos y se jugaron 1 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1925",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1925",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1925"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la Asociación Argentina de Football y el de la Liga Rosarina; si empataban, desempate."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó en septiembre de 1926."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1925-001",
+   "date": "1926-09-19",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Stábile 8, Pratto 30 / López 60."
+  }
+ ]
+}

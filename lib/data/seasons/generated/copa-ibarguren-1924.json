@@ -1,0 +1,55 @@
+{
+ "slug": "copa-ibarguren-1924",
+ "kind": "cup",
+ "runnerUpIds": [
+  "belgrano-rosario"
+ ],
+ "year": 1924,
+ "title": "Copa Ibarguren 1924",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación Argentina de Football y Liga Rosarina de Football",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca Juniors ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 3-2 a Belgrano (Rosario). Participaron 2 equipos y se jugaron 1 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1924",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1924",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1924"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la Asociación Argentina de Football y el de la Liga Rosarina; si empataban, desempate."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó en mayo de 1926."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1924-001",
+   "date": "1926-05-13",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "belgrano-rosario",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue. Suspendido a los 91 minutos. La liga dio por bueno el resultado. Goles: Tazza 52, 91, Cerro 58 / Bearzotti 16, 30."
+  }
+ ]
+}

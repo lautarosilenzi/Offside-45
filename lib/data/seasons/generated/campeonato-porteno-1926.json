@@ -1,0 +1,61 @@
+{
+ "slug": "campeonato-porteno-1926",
+ "kind": "cup",
+ "year": 1926,
+ "title": "Campeonato Porteño 1926",
+ "tournament": "Campeonato Porteño (campeón de la Asociación Argentina contra el de la Asociación Amateurs)",
+ "organizer": "Asociación Argentina de Football y Asociación Amateurs de Football",
+ "championIds": [],
+ "summary": "Boca Juniors (campeón de la Asociación Argentina) e Independiente (campeón de la Asociación Amateurs) jugaron en 1927 para definir el Campeonato Porteño de 1926. El primer partido se suspendió, el segundo terminó 0-0 y el desempate nunca se jugó: quedó sin campeón.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Campeonato Porteño 1926",
+   "url": "https://www.rsssf.org/tablesa/arg-porteno26.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido entre los campeones 1926 de las dos asociaciones, antes de la unificación de 1927."
+  },
+  {
+   "kind": "dato",
+   "text": "La AFA lo registra como incompleto."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "campeonato-porteno-1926-001",
+   "date": "1927-02-20",
+   "competition": "Campeonato Porteño",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Suspendido a los 48 minutos por invasión de la cancha; se jugó de nuevo el 3/3/1927. No suma."
+  },
+  {
+   "id": "campeonato-porteno-1926-002",
+   "date": "1927-03-03",
+   "competition": "Campeonato Porteño",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "El desempate nunca se jugó."
+  }
+ ]
+}

@@ -1,0 +1,469 @@
+{
+ "slug": "copa-la-nacion-1914",
+ "kind": "cup",
+ "runnerUpIds": [
+  "argentino-quilmes"
+ ],
+ "year": 1914,
+ "title": "Copa La Nación 1914",
+ "tournament": "Copa de Competencia «La Nación» (Concurso por Eliminación)",
+ "organizer": "Federación Argentina de Football",
+ "championIds": [
+  "independiente"
+ ],
+ "summary": "Independiente ganó la Copa de Competencia «La Nación» (Concurso por Eliminación): en la final le ganó por no presentación del rival a Argentino de Quilmes. Participaron 26 equipos y se jugaron 28 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa La Nación 1914",
+   "url": "https://www.rsssf.org/tablesa/arg-eli14.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Competencia «La Nación» 1914",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Competencia_%C2%ABLa_Naci%C3%B3n%C2%BB_1914"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Eliminación directa a un partido, organizada por la Federación Argentina de Football (la liga disidente de 1912–1914) y abierta a equipos de Primera y de Segunda."
+  },
+  {
+   "kind": "retiro",
+   "text": "La final no se jugó: Argentino de Quilmes dejó la Federación el 26 de septiembre para pasarse a la Asociación Argentina, y la Federación le dio la copa a Independiente."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-la-nacion-1914-001",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "argentino-avellaneda",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-002",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Treintaidosavos de final",
+   "phase": "cup",
+   "homeId": "carapachay",
+   "awayId": "sportivo-suizo",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-003",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "all-boys",
+   "awayId": "atlas",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "copa-la-nacion-1914-004",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "ca-alumni",
+   "awayId": "argentino-nunez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "ca-alumni",
+   "walkover": true,
+   "note": "No se jugó: pasó Alumni (Olivos)."
+  },
+  {
+   "id": "copa-la-nacion-1914-005",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "argentino-quilmes",
+   "awayId": "argentino-avellaneda",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-006",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "burzaco",
+   "awayId": "federal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "burzaco",
+   "walkover": true,
+   "note": "No se jugó: pasó Burzaco."
+  },
+  {
+   "id": "copa-la-nacion-1914-007",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "general-belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-008",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "floresta",
+   "awayId": "carapachay",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "copa-la-nacion-1914-009",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "gimnasia-banfield",
+   "awayId": "universitarios",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-010",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "argentinos",
+   "homeGoals": 8,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-011",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final (desempate)",
+   "phase": "cup",
+   "homeId": "all-boys",
+   "awayId": "atlas",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-012",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Dieciseisavos de final (desempate)",
+   "phase": "cup",
+   "homeId": "floresta",
+   "awayId": "carapachay",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-013",
+   "date": "1914-05-03",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "atlanta",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-014",
+   "date": "1914-05-03",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "gimnasia-ba",
+   "awayId": "burzaco",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-015",
+   "date": "1914-05-03",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "columbian",
+   "awayId": "velez",
+   "homeAs": "Hispano Argentino",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-016",
+   "date": "1914-05-03",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "lanus-united",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-017",
+   "date": "1914-05-03",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "juventud-tigre",
+   "awayId": "gimnasia-banfield",
+   "homeGoals": 9,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-018",
+   "date": "1914-05-03",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "kimberley",
+   "awayId": "ca-alumni",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-019",
+   "date": "1914-05-10",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "argentino-quilmes",
+   "awayId": "general-belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-020",
+   "date": "1914-05-10",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "carapachay",
+   "awayId": "porteno",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-021",
+   "date": "1914-05-10",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "all-boys",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-022",
+   "date": "1914-05-10",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "kimberley",
+   "awayId": "columbian",
+   "awayAs": "Hispano Argentino",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-023",
+   "date": "1914-05-10",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "juventud-tigre",
+   "awayId": "burzaco",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-024",
+   "date": "1914-05-10",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-025",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Cuartos de final (desempate)",
+   "phase": "cup",
+   "homeId": "all-boys",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-026",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "burzaco",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Kimberley",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-027",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "kimberley",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-la-nacion-1914-028",
+   "date": "1914",
+   "competition": "Copa de Competencia La Nación",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "independiente",
+   "walkover": true,
+   "note": "No se jugó: pasó Independiente."
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "copa-ibarguren-1918",
+ "kind": "cup",
+ "runnerUpIds": [
+  "newells"
+ ],
+ "year": 1918,
+ "title": "Copa Ibarguren 1918",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación Argentina de Football y Liga Rosarina de Football",
+ "championIds": [
+  "racing"
+ ],
+ "summary": "Racing Club ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 4-0 a Newell's Old Boys. Participaron 2 equipos y se jugaron 1 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1918",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1918",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1918"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la Asociación Argentina de Football y el de la Liga Rosarina; si empataban, desempate."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1918-001",
+   "date": "1918-11-24",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Gimnasia y Esgrima (Buenos Aires)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Vivaldo 19, N. Perinetti 28, 73, Zavaleta 66."
+  }
+ ]
+}
