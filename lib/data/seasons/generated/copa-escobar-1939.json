@@ -1,0 +1,138 @@
+{
+ "slug": "copa-escobar-1939",
+ "kind": "cup",
+ "runnerUpIds": [
+  "sanlorenzo"
+ ],
+ "year": 1939,
+ "title": "Copa Escobar 1939",
+ "tournament": "Copa Adrián C. Escobar",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "independiente"
+ ],
+ "summary": "Independiente ganó la Copa Adrián C. Escobar: en la final le ganó 2-0 a San Lorenzo. Participaron 7 equipos y se jugaron 7 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Escobar 1939",
+   "url": "https://www.rsssf.org/tablesa/arg-esc39.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "La jugaron los siete primeros del campeonato, en un solo día y en la cancha de River: partidos de 20 minutos (30 la final) y los empates se definían por córners. Independiente, campeón, entró directo en semifinales. La final empatada se desempató en 1940."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-escobar-1939-001",
+   "date": "1939-12-08",
+   "competition": "Copa Escobar",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-escobar-1939-002",
+   "date": "1939-12-08",
+   "competition": "Copa Escobar",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-escobar-1939-003",
+   "date": "1939-12-08",
+   "competition": "Copa Escobar",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate,",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Partido de 20 minutos. River pasó por córners (3-2)."
+  },
+  {
+   "id": "copa-escobar-1939-004",
+   "date": "1939-12-08",
+   "competition": "Copa Escobar",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-escobar-1939-005",
+   "date": "1939-12-08",
+   "competition": "Copa Escobar",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-escobar-1939-006",
+   "date": "1939-12-08",
+   "competition": "Copa Escobar",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate,",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Partido de 30 minutos, empatado también en córners (1-1): se jugó un desempate."
+  },
+  {
+   "id": "copa-escobar-1939-007",
+   "date": "1940-08-15",
+   "competition": "Copa Escobar",
+   "stage": "Final (desempate)",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

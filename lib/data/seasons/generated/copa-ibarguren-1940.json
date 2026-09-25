@@ -1,0 +1,55 @@
+{
+ "slug": "copa-ibarguren-1940",
+ "kind": "cup",
+ "runnerUpIds": [
+  "central"
+ ],
+ "year": 1940,
+ "title": "Copa Ibarguren 1940",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación del Football Argentino y Liga Rosarina de Football",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca Juniors ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 5-1 a Rosario Central. Participaron 2 equipos y se jugaron 1 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1940",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1940",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1940"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la AFA y el de la Liga Rosarina."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó a comienzos del año siguiente."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1940-001",
+   "date": "1941-01-04",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Carniglia 23, Gelpi 38, Marante 48 pen, Sarlanga 82, Rosell 87 / Hayes 75 pen."
+  }
+ ]
+}

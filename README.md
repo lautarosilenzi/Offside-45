@@ -23,7 +23,8 @@ Abrir http://localhost:3000.
 Cargados y verificados:
 
 - **Todos los campeonatos de Primera de la era amateur (1891–1930)**, incluidas las ligas paralelas de los dos cismas (1912–1914 y 1919–1926). Unos 10.000 partidos.
-- **Todas las copas nacionales amateur que reconoce la AFA hasta 1926**, con todos los clubes que las jugaron (también los de Rosario, Santa Fe, ascenso y los uruguayos invitados): Chevallier Boutell, Copa de Honor, Jockey Club, La Nación, Ibarguren, Copa de la Asociación Amateurs, Estímulo y Campeonato Porteño. 58 ediciones y 1.128 partidos.
+- **1931–1940**: la liga profesional y, hasta 1934, la liga amateur oficial en paralelo (la AFA cuenta los campeones de las dos); en 1936, la Copa de Honor, la Copa Campeonato y la Copa de Oro.
+- **Todas las copas nacionales de Primera que reconoce la AFA hasta 1940**, con todos los clubes que las jugaron (también los de Rosario, Santa Fe, ascenso y los uruguayos invitados): Chevallier Boutell, Copa de Honor, Jockey Club, La Nación, Ibarguren, Copa de la Asociación Amateurs, Estímulo y Campeonato Porteño. 58 ediciones y 1.128 partidos.
 
 - `lib/data/seasons/1891.ts` … `1896.ts`: escritas a mano.
 - `lib/data/seasons/generated/*.json`: generadas desde [RSSSF](https://www.rsssf.org/tablesa/arghist.html) con el importador.
@@ -50,7 +51,7 @@ Criterios:
 - Si una copa vieja no da el día de un partido, figura con el año solo: nunca se inventa una fecha. Cuando Wikipedia completa lo que falta (fecha o goles) y coincide con RSSSF en el ganador, se usa y se aclara en el partido.
 - Los amistosos no se incluyen.
 
-Próximo paso: el profesionalismo (1931 en adelante), con las ligas amateur de 1931–1934 y sus copas, y después pasar los datos a Supabase.
+Próximo paso: 1941 en adelante, y después pasar los datos a Supabase.
 
 ## Deploy en Vercel
 

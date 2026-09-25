@@ -208,6 +208,10 @@ export function translateNote(
     else if (/^replayed$/i.test(p)) out.text.push("Partido jugado de nuevo (el primero se anuló).");
     else if (/^to be replayed$/i.test(p)) out.text.push("Se ordenó volver a jugarlo.");
     else if ((m = p.match(/^(\d+) minutes remaining$/i))) out.text.push(`Faltaban ${m[1]} minutos.`);
+    else if ((m = p.match(/^(.+?) suspended for a month on (.+)$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`${club ? club.as ?? club.name : m[1]} fue suspendido por un mes el ${esDate(m[2])}.`);
+    }
     // "FE forfeited on 4 Sep": iniciales del club que no se presentó (el walkover ya lo dice).
     else if (/^[A-Z]{1,3} forfeited on .+$/.test(p)) continue;
     else if ((m = p.match(/^(.+?) withdrew at (\d+)'?$/i))) {
@@ -642,6 +646,13 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   if (unusedOverrides.length) problems.push(`Correcciones que no encontraron su partido: ${unusedOverrides.join(", ")}`);
 
   // En las copas la tabla resumen es opcional: solo se usa si la configuración la indica (algunas páginas traen tablas históricas).
+  // Temporadas cuya página no trae la tabla (1935): se toma del documento de tablas finales de RSSSF, que es otro archivo.
+  let tables = section.tables;
+  if (cfg.tableFile) {
+    const tsec = parseSeason(await fetchPage(cfg.tableFile)).find((s) => cfg.tableSection!.test(s.heading));
+    if (!tsec) problems.push(`Tabla: no encontré la sección ${cfg.tableSection} en ${cfg.tableFile}`);
+    tables = tsec?.tables ?? [];
+  }
   const tableIdx = Array.isArray(cfg.tableIndex)
     ? cfg.tableIndex
     : cfg.kind === "cup" && cfg.tableIndex === undefined
@@ -651,7 +662,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   const groups: { name: string; teamIds: string[] }[] = [];
   tableIdx.forEach((ti, gi) => {
     const ids: string[] = [];
-    for (const r of section.tables[ti] ?? []) {
+    for (const r of tables[ti] ?? []) {
       // Nombres repetidos en la tabla (dos "Club de Gimnasia y Esgrima" en 1916): se identifican por el puesto.
       const byPos = cfg.tableAliases?.[r.pos];
       const t = byPos ? { id: byPos } : resolveName(r.name.replace(/^\.\s*/, ""), cfg.year);

@@ -1,0 +1,55 @@
+{
+ "slug": "copa-ibarguren-1938",
+ "kind": "cup",
+ "runnerUpIds": [
+  "central"
+ ],
+ "year": 1938,
+ "title": "Copa Ibarguren 1938",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación del Football Argentino y Liga Rosarina de Football",
+ "championIds": [
+  "independiente"
+ ],
+ "summary": "Independiente ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 5-3 a Rosario Central. Participaron 2 equipos y se jugaron 1 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1938",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1938",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1938"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la AFA y el de la Liga Rosarina."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó a comienzos del año siguiente."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1938-001",
+   "date": "1939-02-04",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "central",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: De la Mata 21, 47, 50, Erico 23, 45 / Laporta 9, D'Alessandro 36, 48."
+  }
+ ]
+}

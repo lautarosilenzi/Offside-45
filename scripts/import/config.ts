@@ -31,6 +31,9 @@ export type TournamentConfig = {
   tableAliases?: Record<number, string>;
   // La tabla oficial no cuenta los goles de los partidos que la liga le dio por escritorio a uno de los dos.
   awardedGoalsVoid?: boolean;
+  // Tabla publicada en otro documento de RSSSF (las tablas finales por década) cuando la página de la temporada no la trae.
+  tableFile?: string;
+  tableSection?: RegExp;
   // Títulos de fase que no lo son (1931 amateur: "Playoff:" encabeza la tabla del desempate y no los partidos que siguen).
   ignoreRounds?: RegExp;
   // Fases con otro nombre en esta edición (expresión regular sobre la fase de RSSSF → fase a mostrar).
@@ -85,6 +88,37 @@ const FAF = "Federación Argentina de Football";
 const fafWiki = (y: number) => `Campeonato de Primera División ${y} de la FAF (Argentina)`;
 const AAM = "Asociación Amateurs de Football";
 const AAAF = "Asociación Amateurs Argentina de Football";
+// 1935 en adelante: la AFA (Asociación del Football Argentino) unificada y profesional.
+const AFA_PRO = "Asociación del Football Argentino";
+const AFA_UNIFICADA = {
+  kind: "identidad",
+  text: "En noviembre de 1934 la liga profesional y la asociación oficial se unieron en la Asociación del Football Argentino (AFA). Desde 1935 hay una sola Primera División, profesional.",
+} as const;
+const TABLA_DECADA = {
+  kind: "fuentes",
+  text: "La tabla con la que se verifican los partidos es la del documento de tablas finales de RSSSF por década, un archivo distinto a la página de partidos de la temporada.",
+} as const;
+const afaPro = (year: number, rest: Omit<TournamentConfig, "slug" | "year" | "file" | "wiki" | "competition" | "organizer" | "title" | "tournament"> & { tournament?: string; title?: string }): TournamentConfig => ({
+  slug: String(year),
+  year,
+  file: `arg${String(year).slice(2)}.html`,
+  wiki: wikiTitle(year),
+  competition: AFA_PRO,
+  organizer: AFA_PRO,
+  title: `Campeonato ${year}`,
+  tournament: `Copa Campeonato ${year}`,
+  tableFile: "arghist-pro1930s.html",
+  tableSection: new RegExp(`^Copa Campeonato ${year}\\.?$`),
+  // En 1935–1940 el único Talleres de Primera es el de Remedios de Escalada.
+  aliases: {
+    Estudiantes: "estudiantes",
+    "Gimnasia (LP)": "gimnasia",
+    "Gimnasia y Esgrima": "gimnasia",
+    Talleres: "talleres-re",
+    "CA Talleres": "talleres-re",
+  },
+  ...rest,
+});
 // 1931–1934: dos ligas de Primera en paralelo.
 const LAF = "Liga Argentina de Football";
 const PRO2 = {
@@ -979,7 +1013,7 @@ export const TOURNAMENTS: TournamentConfig[] = [
     },
     extraMatches: [
       {
-        id: "1931-310",
+        id: "1931-extra-1",
         date: "1932-01-07",
         phase: "league",
         homeId: "lanus",
@@ -1225,4 +1259,106 @@ export const TOURNAMENTS: TournamentConfig[] = [
       "Estudiantil Porteño ganó su segundo título de la liga amateur oficial, tres puntos delante de Banfield. Fue el último campeonato amateur de Primera: en 1935 las dos ligas se unieron.",
     notes: [rr1(23), PRO2],
   },
+
+  // ───────── 1935–1940: Asociación del Football Argentino (AFA), liga profesional unificada ─────────
+  afaPro(1935, {
+    championIds: ["boca"],
+    summary: "Primer campeonato de la AFA unificada. Boca Juniors fue bicampeón, tres puntos delante de Independiente.",
+    notes: [rr2(18), AFA_UNIFICADA, TABLA_DECADA],
+  }),
+  {
+    slug: "1936-honor",
+    year: 1936,
+    league: "Copa de Honor",
+    file: "arg-hon36.html",
+    wiki: "Copa de Honor 1936 (Argentina)",
+    competition: AFA_PRO,
+    organizer: AFA_PRO,
+    title: "Copa de Honor 1936",
+    tournament: "Copa de Honor Municipalidad de Buenos Aires 1936 (primera mitad del año)",
+    championIds: ["sanlorenzo"],
+    overrides: {
+      // La tabla oficial cuenta los goles del 1-1 aunque los puntos fueron para Independiente.
+      "1936-07-05 independiente racing": { goalsVoid: undefined },
+    },
+    aliases: {
+      Estudiantes: "estudiantes",
+      "Gimnasia y Esgrima": "gimnasia",
+      "Club de Gimnasia y Esgrima": "gimnasia",
+      Talleres: "talleres-re",
+      "Club Atlético Talleres": "talleres-re",
+    },
+    summary:
+      "La temporada 1936 se dividió en dos torneos a una rueda. San Lorenzo ganó el primero, la Copa de Honor, tres puntos delante de Huracán. Después perdió la Copa de Oro con River, ganador del segundo torneo.",
+    notes: [
+      rr1(18),
+      {
+        kind: "identidad",
+        text: "En 2013 la AFA reconoció la Copa de Honor 1936 como campeonato de Primera División, igual que la Copa Campeonato y la Copa de Oro de ese año.",
+      },
+    ],
+  },
+  afaPro(1936, {
+    championIds: ["river"],
+    title: "Campeonato 1936 (Copa Campeonato)",
+    tournament: "Copa Campeonato 1936 (segunda mitad del año)",
+    tableSection: /^Copa Campeonato 1936$/,
+    summary:
+      "River Plate ganó la Copa Campeonato, el segundo torneo del año, y después la Copa de Oro contra San Lorenzo (4-2), ganador de la Copa de Honor.",
+    notes: [
+      rr1(18),
+      AFA_UNIFICADA,
+      TABLA_DECADA,
+      { kind: "identidad", text: "La Copa Campeonato era el trofeo tradicional del campeón de liga. La AFA también reconoce como títulos de 1936 la Copa de Honor (San Lorenzo) y la Copa de Oro (River)." },
+    ],
+  }),
+  afaPro(1937, {
+    championIds: ["river"],
+    summary: "River Plate fue campeón con 58 puntos y 106 goles, seis puntos delante de Independiente.",
+    overrides: {
+      "1939-02-11 river boca": {
+        phase: "playoff",
+        stage: "Desempate por el primer puesto de la primera rueda",
+        note: "Desempate entre los dos primeros de la primera rueda. RSSSF lo fecha el 11/2/1939; no encontramos otra fuente para la fecha. No suma en la tabla.",
+      },
+    },
+    notes: [
+      rr2(18),
+      TABLA_DECADA,
+      { kind: "puntos", text: "River y Boca terminaron igualados la primera rueda y jugaron un desempate (River 5-3). No suma en la tabla." },
+    ],
+  }),
+  afaPro(1938, {
+    championIds: ["independiente"],
+    summary: "Independiente ganó su primer título profesional, con Arsenio Erico como goleador del campeonato.",
+    notes: [rr2(17), TABLA_DECADA],
+  }),
+  afaPro(1939, {
+    championIds: ["independiente"],
+    section: /^Championship Cup/,
+    summary: "Independiente fue bicampeón, seis puntos delante de River Plate y Huracán. El descenso de Argentino de Quilmes, con 4 puntos, es la peor campaña de la era profesional.",
+    overrides: {
+      "1939-12-10 huracan independiente": {
+        phase: "playoff",
+        stage: "Desempate por el primer puesto de la primera rueda",
+        note: "Desempate entre los ganadores de la primera rueda. No suma en la tabla.",
+      },
+      "1941-11-09 river huracan": {
+        phase: "playoff",
+        stage: "Desempate por el segundo puesto",
+        note: "Primer partido del desempate por el segundo puesto, jugado en 1941; el segundo nunca se jugó. No suma en la tabla.",
+      },
+    },
+    notes: [
+      rr2(18),
+      TABLA_DECADA,
+      { kind: "puntos", text: "Huracán le ganó 2-1 a Independiente el desempate de la primera rueda. River y Huracán terminaron igualados en el segundo puesto: el desempate empezó en 1941 (3-3) y el segundo partido nunca se jugó. Los desempates no suman." },
+      { kind: "descalificacion", text: "Descendió Argentino de Quilmes." },
+    ],
+  }),
+  afaPro(1940, {
+    championIds: ["boca"],
+    summary: "Boca Juniors ganó el campeonato, el año en que inauguró la Bombonera (25 de mayo de 1940).",
+    notes: [rr2(18), TABLA_DECADA],
+  }),
 ];

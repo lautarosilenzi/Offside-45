@@ -1,0 +1,55 @@
+{
+ "slug": "copa-ibarguren-1937",
+ "kind": "cup",
+ "runnerUpIds": [
+  "central"
+ ],
+ "year": 1937,
+ "title": "Copa Ibarguren 1937",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación del Football Argentino y Liga Rosarina de Football",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River Plate ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 5-0 a Rosario Central. Participaron 2 equipos y se jugaron 1 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1937",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1937",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1937"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la AFA y el de la Liga Rosarina."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó a comienzos del año siguiente."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1937-001",
+   "date": "1938-01-08",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ferreyra 50, 70, 73, Pedernera 77, Moreno 80."
+  }
+ ]
+}

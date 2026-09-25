@@ -187,6 +187,39 @@ const LAF_CUP = "Liga Argentina de Football (profesional)";
 
 export const CUP_TOURNAMENTS: TournamentConfig[] = [
   {
+    slug: "copa-de-oro-1936",
+    kind: "cup",
+    year: 1936,
+    file: "arg-oro36.html",
+    competition: "Copa de Oro",
+    title: "Copa de Oro 1936",
+    tournament: "Copa de Oro (ganadores de la Copa de Honor y de la Copa Campeonato)",
+    organizer: "Asociación del Football Argentino",
+    championIds: ["river"],
+    runnerUpIds: ["sanlorenzo"],
+    // La página cuenta el partido en prosa: se carga a mano con los datos de RSSSF.
+    skip: () => true,
+    extraMatches: [
+      {
+        id: "copa-de-oro-1936-001",
+        date: "1936-12-20",
+        stage: "Final",
+        phase: "cup",
+        homeId: "river",
+        awayId: "sanlorenzo",
+        homeGoals: 4,
+        awayGoals: 2,
+        venue: "Cancha de Independiente (Avellaneda)",
+        note: "Goles: Cesarini (2), B. Ferreyra y Pedernera; Pantó y Cavadini (otras fuentes: Canteli).",
+      },
+    ],
+    summary: "River Plate le ganó 4-2 a San Lorenzo la Copa de Oro, entre los ganadores de los dos torneos de 1936.",
+    notes: [
+      { kind: "formato", text: "Final a un partido entre el ganador de la Copa de Honor (San Lorenzo) y el de la Copa Campeonato (River)." },
+      { kind: "identidad", text: "En 2013 la AFA la reconoció como campeonato de Primera División." },
+    ],
+  },
+  {
     slug: "copa-competencia-laf-1932",
     allSections: true,
     kind: "cup",
@@ -490,6 +523,48 @@ export const CUP_TOURNAMENTS: TournamentConfig[] = [
     aliases: { Belgrano: "belgrano-rosario" },
     notes: [IBARGUREN, { kind: "dato", text: "Se jugó en mayo de 1926." }],
   }),
+  ...(
+    [
+      [1937, "river", "central"],
+      [1938, "independiente", "central"],
+      [1939, "independiente", "central-cordoba-rosario"],
+      [1940, "boca", "central"],
+    ] as const
+  ).map(([year, champ, runner]) =>
+    ibarguren(year, {
+      championIds: [champ],
+      runnerUpIds: [runner],
+      organizer: "Asociación del Football Argentino y Liga Rosarina de Football",
+      aliases: { Belgrano: "belgrano-rosario", "Central Córdoba": "central-cordoba-rosario" },
+      notes: [
+        { kind: "formato", text: "Final a partido único entre el campeón de la AFA y el de la Liga Rosarina." },
+        { kind: "dato", text: "Se jugó a comienzos del año siguiente." },
+      ],
+    }),
+  ),
+  {
+    slug: "copa-escobar-1939",
+    kind: "cup",
+    year: 1939,
+    file: "arg-esc39.html",
+    competition: "Copa Escobar",
+    title: "Copa Escobar 1939",
+    tournament: "Copa Adrián C. Escobar",
+    organizer: "Asociación del Fútbol Argentino",
+    championIds: ["independiente"],
+    runnerUpIds: ["sanlorenzo"],
+    summary: "",
+    overrides: {
+      "1939-12-08 river racing": { note: "Partido de 20 minutos. River pasó por córners (3-2)." },
+      "1939-12-08 independiente sanlorenzo": { note: "Partido de 30 minutos, empatado también en córners (1-1): se jugó un desempate." },
+    },
+    notes: [
+      {
+        kind: "formato",
+        text: "La jugaron los siete primeros del campeonato, en un solo día y en la cancha de River: partidos de 20 minutos (30 la final) y los empates se definían por córners. Independiente, campeón, entró directo en semifinales. La final empatada se desempató en 1940.",
+      },
+    ],
+  },
   ibarguren(1925, { championIds: ["huracan"], runnerUpIds: ["tiro-federal-rosario"], notes: [IBARGUREN, { kind: "dato", text: "Se jugó en septiembre de 1926." }] }),
   laNacion(1913, {
     championIds: ["central"],

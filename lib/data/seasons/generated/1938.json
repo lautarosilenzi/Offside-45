@@ -1,0 +1,4059 @@
+{
+ "slug": "1938",
+ "year": 1938,
+ "title": "Campeonato 1938",
+ "tournament": "Copa Campeonato 1938",
+ "organizer": "Asociación del Football Argentino",
+ "championIds": [
+  "independiente"
+ ],
+ "summary": "Independiente ganó su primer título profesional, con Arsenio Erico como goleador del campeonato.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1938",
+   "url": "https://www.rsssf.org/tablesa/arg38.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1938 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1938_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a dos ruedas entre 17 equipos, 2 puntos por victoria."
+  },
+  {
+   "kind": "fuentes",
+   "text": "La tabla con la que se verifican los partidos es la del documento de tablas finales de RSSSF por década, un archivo distinto a la página de partidos de la temporada."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "independiente",
+   "played": 32,
+   "won": 25,
+   "drawn": 3,
+   "lost": 4,
+   "goalsFor": 115,
+   "goalsAgainst": 37,
+   "points": 53
+  },
+  {
+   "teamId": "river",
+   "played": 32,
+   "won": 23,
+   "drawn": 5,
+   "lost": 4,
+   "goalsFor": 105,
+   "goalsAgainst": 49,
+   "points": 51
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 32,
+   "won": 18,
+   "drawn": 7,
+   "lost": 7,
+   "goalsFor": 87,
+   "goalsAgainst": 67,
+   "points": 43
+  },
+  {
+   "teamId": "racing",
+   "played": 32,
+   "won": 16,
+   "drawn": 7,
+   "lost": 9,
+   "goalsFor": 102,
+   "goalsAgainst": 63,
+   "points": 39
+  },
+  {
+   "teamId": "boca",
+   "played": 32,
+   "won": 13,
+   "drawn": 9,
+   "lost": 10,
+   "goalsFor": 66,
+   "goalsAgainst": 53,
+   "points": 35
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 32,
+   "won": 15,
+   "drawn": 5,
+   "lost": 12,
+   "goalsFor": 83,
+   "goalsAgainst": 69,
+   "points": 35
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 32,
+   "won": 16,
+   "drawn": 3,
+   "lost": 13,
+   "goalsFor": 70,
+   "goalsAgainst": 77,
+   "points": 35
+  },
+  {
+   "teamId": "huracan",
+   "played": 32,
+   "won": 14,
+   "drawn": 3,
+   "lost": 15,
+   "goalsFor": 85,
+   "goalsAgainst": 89,
+   "points": 31
+  },
+  {
+   "teamId": "atlanta",
+   "played": 32,
+   "won": 12,
+   "drawn": 4,
+   "lost": 16,
+   "goalsFor": 61,
+   "goalsAgainst": 70,
+   "points": 28
+  },
+  {
+   "teamId": "velez",
+   "played": 32,
+   "won": 11,
+   "drawn": 5,
+   "lost": 16,
+   "goalsFor": 78,
+   "goalsAgainst": 85,
+   "points": 27
+  },
+  {
+   "teamId": "platense",
+   "played": 32,
+   "won": 10,
+   "drawn": 6,
+   "lost": 16,
+   "goalsFor": 84,
+   "goalsAgainst": 100,
+   "points": 26
+  },
+  {
+   "teamId": "ferro",
+   "played": 32,
+   "won": 9,
+   "drawn": 8,
+   "lost": 15,
+   "goalsFor": 68,
+   "goalsAgainst": 89,
+   "points": 26
+  },
+  {
+   "teamId": "tigre",
+   "played": 32,
+   "won": 11,
+   "drawn": 4,
+   "lost": 17,
+   "goalsFor": 71,
+   "goalsAgainst": 102,
+   "points": 26
+  },
+  {
+   "teamId": "lanus",
+   "played": 32,
+   "won": 8,
+   "drawn": 9,
+   "lost": 15,
+   "goalsFor": 75,
+   "goalsAgainst": 95,
+   "points": 25
+  },
+  {
+   "teamId": "chacarita",
+   "played": 32,
+   "won": 10,
+   "drawn": 5,
+   "lost": 17,
+   "goalsFor": 66,
+   "goalsAgainst": 92,
+   "points": 25
+  },
+  {
+   "teamId": "almagro",
+   "played": 32,
+   "won": 8,
+   "drawn": 5,
+   "lost": 19,
+   "goalsFor": 63,
+   "goalsAgainst": 94,
+   "points": 21
+  },
+  {
+   "teamId": "talleres-re",
+   "played": 32,
+   "won": 6,
+   "drawn": 6,
+   "lost": 20,
+   "goalsFor": 55,
+   "goalsAgainst": 103,
+   "points": 18
+  }
+ ],
+ "matches": [
+  {
+   "id": "1938-001",
+   "date": "1938-04-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-002",
+   "date": "1938-04-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-003",
+   "date": "1938-04-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-004",
+   "date": "1938-04-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-005",
+   "date": "1938-04-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "tigre",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-006",
+   "date": "1938-04-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "chacarita",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-007",
+   "date": "1938-04-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-008",
+   "date": "1938-04-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 7,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-009",
+   "date": "1938-04-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-010",
+   "date": "1938-04-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-011",
+   "date": "1938-04-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Gimnasia (LP)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-012",
+   "date": "1938-04-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-013",
+   "date": "1938-04-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-014",
+   "date": "1938-04-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-015",
+   "date": "1938-04-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-016",
+   "date": "1938-04-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "talleres-re",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-017",
+   "date": "1938-04-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-018",
+   "date": "1938-04-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-019",
+   "date": "1938-04-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "estudiantes",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-020",
+   "date": "1938-04-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-021",
+   "date": "1938-04-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-022",
+   "date": "1938-04-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-023",
+   "date": "1938-04-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-024",
+   "date": "1938-04-24",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-025",
+   "date": "1938-05-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "talleres-re",
+   "homeGoals": 7,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-026",
+   "date": "1938-05-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-027",
+   "date": "1938-05-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "almagro",
+   "homeGoals": 9,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-028",
+   "date": "1938-05-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-029",
+   "date": "1938-05-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "gimnasia",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-030",
+   "date": "1938-05-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-031",
+   "date": "1938-05-08",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "huracan",
+   "homeGoals": 7,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-032",
+   "date": "1938-05-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 8,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-033",
+   "date": "1938-05-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-034",
+   "date": "1938-05-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-035",
+   "date": "1938-05-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-036",
+   "date": "1938-05-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-037",
+   "date": "1938-05-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "chacarita",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-038",
+   "date": "1938-05-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-039",
+   "date": "1938-05-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-040",
+   "date": "1938-05-15",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-041",
+   "date": "1938-05-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-042",
+   "date": "1938-05-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-043",
+   "date": "1938-05-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "talleres-re",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-044",
+   "date": "1938-05-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "ferro",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-045",
+   "date": "1938-05-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Cancha de Talleres (RdE)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-046",
+   "date": "1938-05-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "racing",
+   "homeGoals": 5,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-047",
+   "date": "1938-05-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-048",
+   "date": "1938-05-22",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-049",
+   "date": "1938-05-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-050",
+   "date": "1938-05-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-051",
+   "date": "1938-05-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-052",
+   "date": "1938-05-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-053",
+   "date": "1938-05-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-054",
+   "date": "1938-05-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-055",
+   "date": "1938-05-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-056",
+   "date": "1938-05-29",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-057",
+   "date": "1938-06-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-058",
+   "date": "1938-06-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "chacarita",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-059",
+   "date": "1938-06-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-060",
+   "date": "1938-06-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-061",
+   "date": "1938-06-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-062",
+   "date": "1938-06-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-063",
+   "date": "1938-06-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-064",
+   "date": "1938-06-05",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "talleres-re",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-065",
+   "date": "1938-06-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "platense",
+   "homeGoals": 6,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-066",
+   "date": "1938-06-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-067",
+   "date": "1938-06-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Estudiantes (LP)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-068",
+   "date": "1938-06-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-069",
+   "date": "1938-06-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-070",
+   "date": "1938-06-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-071",
+   "date": "1938-06-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-072",
+   "date": "1938-06-12",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-073",
+   "date": "1938-06-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-074",
+   "date": "1938-06-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-075",
+   "date": "1938-06-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "chacarita",
+   "homeGoals": 7,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-076",
+   "date": "1938-06-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-077",
+   "date": "1938-06-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-078",
+   "date": "1938-06-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-079",
+   "date": "1938-06-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "talleres-re",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-080",
+   "date": "1938-06-19",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-081",
+   "date": "1938-06-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-082",
+   "date": "1938-06-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-083",
+   "date": "1938-06-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-084",
+   "date": "1938-06-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-085",
+   "date": "1938-06-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-086",
+   "date": "1938-06-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-087",
+   "date": "1938-06-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "almagro",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-088",
+   "date": "1938-06-26",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "tigre",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-089",
+   "date": "1938-07-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-090",
+   "date": "1938-07-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "talleres-re",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-091",
+   "date": "1938-07-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-092",
+   "date": "1938-07-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-093",
+   "date": "1938-07-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 7,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-094",
+   "date": "1938-07-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-095",
+   "date": "1938-07-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-096",
+   "date": "1938-07-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-097",
+   "date": "1938-07-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-098",
+   "date": "1938-07-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-099",
+   "date": "1938-07-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-100",
+   "date": "1938-07-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "almagro",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-101",
+   "date": "1938-07-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-102",
+   "date": "1938-07-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-103",
+   "date": "1938-07-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-104",
+   "date": "1938-07-17",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-105",
+   "date": "1938-07-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "velez",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-106",
+   "date": "1938-07-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-107",
+   "date": "1938-07-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-108",
+   "date": "1938-07-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-109",
+   "date": "1938-07-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-110",
+   "date": "1938-07-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-111",
+   "date": "1938-07-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-112",
+   "date": "1938-07-31",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-113",
+   "date": "1938-08-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-114",
+   "date": "1938-08-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-115",
+   "date": "1938-08-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "tigre",
+   "homeGoals": 6,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-116",
+   "date": "1938-08-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-117",
+   "date": "1938-08-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-118",
+   "date": "1938-08-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-119",
+   "date": "1938-08-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-120",
+   "date": "1938-08-07",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-121",
+   "date": "1938-08-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-122",
+   "date": "1938-08-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "chacarita",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-123",
+   "date": "1938-08-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "velez",
+   "homeGoals": 5,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-124",
+   "date": "1938-08-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-125",
+   "date": "1938-08-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-126",
+   "date": "1938-08-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-127",
+   "date": "1938-08-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-128",
+   "date": "1938-08-14",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-129",
+   "date": "1938-08-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-130",
+   "date": "1938-08-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-131",
+   "date": "1938-08-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-132",
+   "date": "1938-08-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-133",
+   "date": "1938-08-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-134",
+   "date": "1938-08-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "talleres-re",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-135",
+   "date": "1938-08-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-136",
+   "date": "1938-08-21",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "almagro",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-137",
+   "date": "1938-08-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-138",
+   "date": "1938-08-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-139",
+   "date": "1938-08-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-140",
+   "date": "1938-08-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-141",
+   "date": "1938-08-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-142",
+   "date": "1938-08-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-143",
+   "date": "1938-08-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-144",
+   "date": "1938-08-28",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-145",
+   "date": "1938-09-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "lanus",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-146",
+   "date": "1938-09-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-147",
+   "date": "1938-09-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-148",
+   "date": "1938-09-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-149",
+   "date": "1938-09-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-150",
+   "date": "1938-09-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-151",
+   "date": "1938-09-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-152",
+   "date": "1938-09-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-153",
+   "date": "1938-09-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-154",
+   "date": "1938-09-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "talleres-re",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-155",
+   "date": "1938-09-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-156",
+   "date": "1938-09-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-157",
+   "date": "1938-09-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-158",
+   "date": "1938-09-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-159",
+   "date": "1938-09-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-160",
+   "date": "1938-09-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-161",
+   "date": "1938-09-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-162",
+   "date": "1938-09-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "tigre",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-163",
+   "date": "1938-09-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-164",
+   "date": "1938-09-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "platense",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-165",
+   "date": "1938-09-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "velez",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-166",
+   "date": "1938-09-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "chacarita",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-167",
+   "date": "1938-09-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-168",
+   "date": "1938-09-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-169",
+   "date": "1938-09-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-170",
+   "date": "1938-09-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-171",
+   "date": "1938-09-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-172",
+   "date": "1938-09-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-173",
+   "date": "1938-09-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-174",
+   "date": "1938-09-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "talleres-re",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-175",
+   "date": "1938-09-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "almagro",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-176",
+   "date": "1938-09-25",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-177",
+   "date": "1938-10-02",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-178",
+   "date": "1938-10-02",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-179",
+   "date": "1938-10-02",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "lanus",
+   "homeGoals": 7,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-180",
+   "date": "1938-10-02",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-181",
+   "date": "1938-10-02",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "platense",
+   "homeGoals": 8,
+   "awayGoals": 2,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-182",
+   "date": "1938-10-02",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "tigre",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-183",
+   "date": "1938-10-02",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-184",
+   "date": "1938-10-02",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "chacarita",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-185",
+   "date": "1938-10-09",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-186",
+   "date": "1938-10-09",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-187",
+   "date": "1938-10-09",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 8,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-188",
+   "date": "1938-10-09",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-189",
+   "date": "1938-10-09",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "talleres-re",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-190",
+   "date": "1938-10-09",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-191",
+   "date": "1938-10-09",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-192",
+   "date": "1938-10-09",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-193",
+   "date": "1938-10-16",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-194",
+   "date": "1938-10-16",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-195",
+   "date": "1938-10-16",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-196",
+   "date": "1938-10-16",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-197",
+   "date": "1938-10-16",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 8,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-198",
+   "date": "1938-10-16",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 5,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-199",
+   "date": "1938-10-16",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "tigre",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-200",
+   "date": "1938-10-16",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-201",
+   "date": "1938-10-23",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-202",
+   "date": "1938-10-23",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-203",
+   "date": "1938-10-23",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-204",
+   "date": "1938-10-23",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "talleres-re",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-205",
+   "date": "1938-10-23",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "huracan",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-206",
+   "date": "1938-10-23",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "chacarita",
+   "homeGoals": 7,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-207",
+   "date": "1938-10-23",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-208",
+   "date": "1938-10-23",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-209",
+   "date": "1938-10-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "platense",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-210",
+   "date": "1938-10-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-211",
+   "date": "1938-10-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "almagro",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-212",
+   "date": "1938-10-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "tigre",
+   "homeGoals": 9,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-213",
+   "date": "1938-10-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-214",
+   "date": "1938-10-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "atlanta",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-215",
+   "date": "1938-10-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-216",
+   "date": "1938-10-30",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-217",
+   "date": "1938-11-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "talleres-re",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-218",
+   "date": "1938-11-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-219",
+   "date": "1938-11-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-220",
+   "date": "1938-11-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-221",
+   "date": "1938-11-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-222",
+   "date": "1938-11-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-223",
+   "date": "1938-11-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-224",
+   "date": "1938-11-06",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "velez",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-225",
+   "date": "1938-11-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-226",
+   "date": "1938-11-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "tigre",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-227",
+   "date": "1938-11-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "ferro",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-228",
+   "date": "1938-11-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-229",
+   "date": "1938-11-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-230",
+   "date": "1938-11-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "almagro",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-231",
+   "date": "1938-11-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "atlanta",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-232",
+   "date": "1938-11-13",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-233",
+   "date": "1938-11-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-234",
+   "date": "1938-11-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-235",
+   "date": "1938-11-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "talleres-re",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-236",
+   "date": "1938-11-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "chacarita",
+   "homeGoals": 9,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-237",
+   "date": "1938-11-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "platense",
+   "homeGoals": 7,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-238",
+   "date": "1938-11-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-239",
+   "date": "1938-11-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-240",
+   "date": "1938-11-20",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-241",
+   "date": "1938-11-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-242",
+   "date": "1938-11-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-243",
+   "date": "1938-11-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-244",
+   "date": "1938-11-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atlanta",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-245",
+   "date": "1938-11-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "tigre",
+   "homeGoals": 6,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-246",
+   "date": "1938-11-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "ferro",
+   "homeGoals": 7,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-247",
+   "date": "1938-11-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-248",
+   "date": "1938-11-27",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "almagro",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-249",
+   "date": "1938-12-03",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-250",
+   "date": "1938-12-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-251",
+   "date": "1938-12-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "velez",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-252",
+   "date": "1938-12-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-253",
+   "date": "1938-12-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "talleres-re",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-254",
+   "date": "1938-12-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "platense",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-255",
+   "date": "1938-12-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-256",
+   "date": "1938-12-04",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-257",
+   "date": "1938-12-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "almagro",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-258",
+   "date": "1938-12-10",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-259",
+   "date": "1938-12-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-260",
+   "date": "1938-12-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-261",
+   "date": "1938-12-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-262",
+   "date": "1938-12-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "tigre",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-263",
+   "date": "1938-12-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-264",
+   "date": "1938-12-11",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-265",
+   "date": "1938-12-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-266",
+   "date": "1938-12-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-267",
+   "date": "1938-12-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-268",
+   "date": "1938-12-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "huracan",
+   "homeGoals": 7,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-269",
+   "date": "1938-12-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "lanus",
+   "homeGoals": 8,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-270",
+   "date": "1938-12-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-271",
+   "date": "1938-12-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1938-272",
+   "date": "1938-12-18",
+   "competition": "Asociación del Football Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

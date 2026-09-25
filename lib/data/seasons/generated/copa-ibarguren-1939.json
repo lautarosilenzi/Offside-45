@@ -1,0 +1,55 @@
+{
+ "slug": "copa-ibarguren-1939",
+ "kind": "cup",
+ "runnerUpIds": [
+  "central-cordoba-rosario"
+ ],
+ "year": 1939,
+ "title": "Copa Ibarguren 1939",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación del Football Argentino y Liga Rosarina de Football",
+ "championIds": [
+  "independiente"
+ ],
+ "summary": "Independiente ganó la Copa Dr. Carlos Ibarguren (Campeonato Argentino): en la final le ganó 5-0 a Central Córdoba (Rosario). Participaron 2 equipos y se jugaron 1 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1939",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1939",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1939"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a partido único entre el campeón de la AFA y el de la Liga Rosarina."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó a comienzos del año siguiente."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1939-001",
+   "date": "1940-03-31",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Sastre 9, De la Mata 51, Leguizamón 66, Erico 72, 86."
+  }
+ ]
+}

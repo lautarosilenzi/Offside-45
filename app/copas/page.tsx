@@ -27,6 +27,9 @@ const ABOUT: Record<string, string> = {
     "Copa de la Liga Argentina de Football, la primera liga profesional (1932–1933). En 1933, con doble eliminación en las primeras rondas.",
   "Copa Beccar Varela":
     "Copa de Honor «Adrián Beccar Varela» de la liga profesional. En 1933 se sumaron clubes de Rosario, Santa Fe, Córdoba y Uruguay.",
+  "Copa de Oro": "Final de 1936 entre los ganadores de la Copa de Honor y de la Copa Campeonato. La AFA la cuenta como título de Primera.",
+  "Copa Escobar":
+    "Copa Adrián C. Escobar, entre los mejores del campeonato, jugada en un día con partidos cortos y empates definidos por córners.",
   "Campeonato Porteño": "Partido entre los campeones de 1926 de la Asociación Argentina y de la Asociación Amateurs, antes de la unificación. Quedó sin definir.",
 };
 
@@ -63,7 +66,8 @@ export default function CupsPage() {
           </section>
         ))}
         <p className="text-sm text-navy-400">
-          Están todas las copas nacionales que reconoce la AFA hasta 1933. Las siguientes se cargan junto con sus temporadas.
+          Están todas las copas nacionales de Primera que reconoce la AFA hasta 1940. Las siguientes se cargan junto con sus
+          temporadas.
         </p>
       </main>
     </>

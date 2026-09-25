@@ -69,7 +69,8 @@ const DATE_PLAIN_RE = new RegExp(String.raw`^\s*(${MONTH}\s+\d{1,2}(?:,\s*\d{4})
 const ROUND_RE = /^\s*((?:Round|Fecha|Matchday)\s*\d+[^\[]*?)\s*:?\s*(?:\[(.+)\])?\s*:?\s*$/i;
 const SCORE = String.raw`(\d+\s*[:\-]\s*\d+|wp\s*[:\-]\s*lp|lp\s*[:\-]\s*wp|lp\s*[:\-]\s*lp|w\s*[:\-]\s*l|l\s*[:\-]\s*w|d\s*[:\-]\s*d|wo|ann|anu|void|abandoned|abd|n/p|awd|:|-)`;
 const MATCH_RE = new RegExp(
-  String.raw`^\s*(\S.*?)(?:\t+|\s{2,}|\s(?=\d+\s*[:\-]\s*\d)|\s(?=(?:wp|lp)\s*[:\-]\s*(?:wp|lp)\s))\s*${SCORE}(?:\t+|\s+)(\S.*?)\s*$`,
+  // "Ferro Carril Oeste (BA)2-1 Racing Club" (1936): el resultado pegado al paréntesis del local.
+  String.raw`^\s*(\S.*?)(?:\t+|\s{2,}|\s(?=\d+\s*[:\-]\s*\d)|(?<=\))(?=\d+\s*[:\-]\s*\d)|\s(?=(?:wp|lp)\s*[:\-]\s*(?:wp|lp)\s))\s*${SCORE}(?:\t+|\s+)(\S.*?)\s*$`,
   "i",
 );
 const TABLE_RE =
@@ -307,10 +308,17 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
       cur.text.push(trimmed);
       return;
     }
+    // "17.3.1935" (1935): día, mes y año con puntos.
+    const dotted = trimmed.match(/^(\d{1,2})\.(\d{1,2})\.(\d{4})$/);
+    if (dotted) {
+      const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+      date = `${MON[Number(dotted[2]) - 1]} ${Number(dotted[1])}, ${dotted[3]}`;
+      return;
+    }
     // "[17 Jul, Sun]": día antes del mes.
-    const dm = trimmed.match(/^\[\s*(\d{1,2})\s+([A-Z][a-z]{2})[a-z]*,?[^\]]*\]$/);
+    const dm = trimmed.match(/^\[\s*(\d{1,2})\s+([A-Z][a-z]{2})[a-z]*,?[^\]\d]*(\d{4})?[^\]]*\]$/);
     if (dm) {
-      date = `${dm[2]} ${dm[1]}`;
+      date = `${dm[2]} ${dm[1]}${dm[3] ? `, ${dm[3]}` : ""}`;
       return;
     }
     const d = trimmed.match(DATE_RE) ?? trimmed.match(DATE_PLAIN_RE);
@@ -327,6 +335,8 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     const marked = trimmed.match(/^(.*?\S)(\s+)(\d+-\d+|w-l|l-w)([+*&])(\s+.*)$/);
     let normalized = marked ? `${marked[1]}${marked[2]}${marked[4] === "+" ? "ann" : marked[3]}${marked[5]}` : trimmed;
     // "Buenos Aires (Monumental):  Racing Club 5-0 Tigre" (Beccar Varela 1932): el lugar va antes del partido.
+    // "Independiente  wp 1:1 lp Racing Club [abandoned at 1:1…]" (1936): resuelto por escritorio con el parcial en la nota.
+    normalized = normalized.replace(/\s(wp|lp)\s+\d+\s*:\s*\d+\s+(wp|lp)\s/, " $1:$2 ");
     const place = normalized.match(/^([A-ZÁÉÍÓÚ][^:\d]{2,40}):\s+(\S.*\s\d+-\d+\s.*)$/);
     if (place) normalized = `${place[2]}  [at ${place[1]}]`;
     const annulledScore = marked?.[4] === "+" ? marked[3].replace("-", ":") : undefined;
