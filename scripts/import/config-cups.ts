@@ -518,6 +518,44 @@ export const CUP_TOURNAMENTS: TournamentConfig[] = [
       note: "En cuartos de final, Racing, Defensores de Belgrano, Independiente y Vélez Sarsfield se fueron a la Asociación Amateurs y la copa se reprogramó con un cuadro nuevo: por eso algunos equipos eliminados antes volvieron a jugar.",
     },
   }),
+  jockey(1931, {
+    allSections: true,
+    championIds: ["sportivo-balcarce"],
+    runnerUpIds: ["almagro"],
+    organizer: "Asociación Argentina de Football (Amateurs y Profesionales), liga amateur oficial",
+    aliases: { Retiro: "retiro-1931" },
+    overrides: {
+      "1931-11-11 defensores-belgrano sportivo-acassuso": {
+        homeGoals: 1,
+        awayGoals: 1,
+        scoreUnknown: undefined,
+        winnerId: undefined,
+        awardedTo: "defensores-belgrano",
+        note: "Se suspendió en el entretiempo con 1-1; el 16/12 la asociación le dio los puntos a Defensores de Belgrano.",
+      },
+    },
+    notes: [
+      GRUPOS_AAM("seis grupos (Norte 1 y 2, Sur 1, 2 y 3, y Oeste)", "los primeros pasaban a la ronda final"),
+      TABLAS_GRUPOS,
+      {
+        kind: "identidad",
+        text: "La jugaron equipos de la Primera amateur, de la Primera B y Ferrocarriles del Estado. Sportivo Balcarce, de la B, fue el campeón. Los clubes que se fueron a la liga profesional no participaron.",
+      },
+      {
+        kind: "retiro",
+        text: "Porteño, Retiro, San Isidro y Argentino del Sud dejaron la asociación y Honor y Patria fue expulsado: los partidos de los primeros tres se anularon.",
+      },
+      { kind: "dato", text: "La final (1-1, suspendida a los 80 minutos) se repitió: Sportivo Balcarce ganó 4-1 y Almagro abandonó la cancha a los 72 minutos. Terminó en 1932." },
+    ],
+    groupTables: [
+      { table: 0, stage: "^Grupo Norte 1" },
+      { table: 1, stage: "^Grupo Norte 2 · " },
+      { table: 2, stage: "^Grupo Sur 1 · " },
+      { table: 3, stage: "^Grupo Sur 2" },
+      { table: 4, stage: "^Grupo Sur 3" },
+      { table: 5, stage: "^Grupo Oeste" },
+    ],
+  }),
   jockey(1921, {
     championIds: ["sportivo-barracas"],
     runnerUpIds: ["nueva-chicago"],

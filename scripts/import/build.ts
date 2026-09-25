@@ -67,6 +67,9 @@ export function translateNote(
     .replace(/^\[|\]$/g, "")
     .replace(/\baet( \d+m?)?,\s*/gi, "aet$1; ")
     .replace(/\bwalk ?over,\s*/gi, "walkover; ")
+    // "0:4 annulled, Sportivo Balcarce" y "Estudiantes (C) (aet)": el dato y la cancha por separado.
+    .replace(/(\d+:\d+ annulled),(?!\s*replayed)\s*/gi, "$1; ")
+    .replace(/\s+\((aet|[A-Z][^()]* withdrew at [^()]*|[A-Z]{1,3} forfeited on [^()]*)\)/g, "; $1")
     // Jockey Club 1914–1918: "neutral, originally 1:0, awarded on 23 Apr, 150m, abandoned at HT, 3:0 in Annual Report, <cancha>".
     .replace(/(?<=^|[,;]\s*)(neutral|originally \d+:\d+|awarded (?:on )?(?:\d{1,2} [A-Z][a-z]{2}|[A-Z][a-z]{2} ?\d{1,2})|lasted \d+m?|\d+m|abandoned at HT|abandoned at \d+:\d+ in \d+m|\d+:\d+ in Annual Report)\s*,\s*/g, "$1; ")
     // "abandoned at 52m, score stood on Dec 26, Independiente, Avellaneda": cada dato por separado, y la cancha al final.
@@ -81,6 +84,8 @@ export function translateNote(
     )
     // Sin corchetes ni el punto final ("San Isidro was suspended."); "W.O." conserva sus puntos.
     .map((p) => p.replace(/[\[\]]/g, "").trim().replace(/(?<!\b[A-Z])\.$/, ""))
+    // "(aet)", "(Almagro withdrew at 72')": observaciones entre paréntesis.
+    .map((p) => p.replace(/^\((.*)\)$/, "$1"))
     .filter(Boolean);
   for (const p of parts) {
     let m: RegExpMatchArray | null;
@@ -202,6 +207,12 @@ export function translateNote(
     else if ((m = p.match(/^in (Rosario|Montevideo|La Plata)$/i))) out.venue = m[1];
     else if (/^replayed$/i.test(p)) out.text.push("Partido jugado de nuevo (el primero se anuló).");
     else if (/^to be replayed$/i.test(p)) out.text.push("Se ordenó volver a jugarlo.");
+    // "FE forfeited on 4 Sep": iniciales del club que no se presentó (el walkover ya lo dice).
+    else if (/^[A-Z]{1,3} forfeited on .+$/.test(p)) continue;
+    else if ((m = p.match(/^(.+?) withdrew at (\d+)'?$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`${club ? club.as ?? club.name : m[1]} abandonó la cancha a los ${m[2]} minutos.`);
+    }
     else if (/^the match was void$/i.test(p)) {
       out.annulled = true;
       out.text.push("El partido se anuló y se jugó de nuevo.");
@@ -217,6 +228,8 @@ export function translateNote(
     else if (/^abandoned, not continued$/i.test(p)) out.text.push("Suspendido y no se completó; quedó el resultado del momento.");
     // "2:0 in 45m" (parcial de un partido suspendido): lo usa el resultado "abandoned".
     else if (/^\d+:\d+ in \d+m?$/.test(p)) continue;
+    // "[2:2, annulled]": el resultado lo usan las reglas de partidos anulados.
+    else if (/^\d+\s*:\s*\d+$/.test(p)) continue;
     else if ((m = p.match(/^continue on (.+)$/i))) out.text.push(`Se continuó el ${esDate(m[1])}.`);
     else if ((m = p.match(/^(.+?) disagreed with the decision to play back the game\.?$/i))) {
       const club = resolveName(m[1], year);
@@ -339,9 +352,18 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       text: sections.flatMap((s) => s.text),
       // Si la sección es un grupo o una zona ("Group A", "Zona Norte"), sus partidos llevan ese grupo.
       matches: sections.flatMap((s) => {
-        const g = s.heading.match(/^Group\s+"?([A-Z])"?$|^Zona\s+(Norte|Sur)$/i);
-        const group = g ? (g[1] ? `Grupo ${g[1].toUpperCase()}` : `Zona ${g[2]}`) : undefined;
-        return s.matches.map((m) => ({ ...m, round: m.round ?? (group ? undefined : s.heading), ...(group && !m.group && { group }) }));
+        const g = s.heading.match(/^Group\s+"?([A-Z])"?$|^Zona\s+(Norte|Sur)$|^Group\s+(North|South|East|West)(?:\s+(\d))?$/i);
+        const POINTS: Record<string, string> = { north: "Norte", south: "Sur", east: "Este", west: "Oeste" };
+        const group = !g
+          ? undefined
+          : g[1]
+            ? `Grupo ${g[1].toUpperCase()}`
+            : g[2]
+              ? `Zona ${g[2]}`
+              : `Grupo ${POINTS[g[3].toLowerCase()]}${g[4] ? ` ${g[4]}` : ""}`;
+        // En las ligas el título de la sección no es una fase.
+        const round = cfg.kind === "cup" && !group ? s.heading : undefined;
+        return s.matches.map((m) => ({ ...m, round: m.round ?? round, ...(group && !m.group && { group }) }));
       }),
     };
   }
@@ -362,10 +384,24 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     if (cfg.edition && raw.edition !== cfg.edition) continue;
     // Frases de las notas que el parser confundió con partidos ("NB: The abandoned River Plate 1:3 ...").
     const prose = (s: string) =>
-      /^NB\b|^\.|^Then\b|[:;]|\(\d+m\)|\bis not included\b|, and,|\blater\b|\bstanding\b|\bor$|\.$/i.test(s) || s.length > 45;
-    if (prose(raw.home) || prose(raw.away)) continue;
+      /^NB\b|^\.|^\(|^\[|^\d+'|^Then\b|[:;]|\(\d+m\)|\bis not included\b|, and,|\blater\b|\bstanding\b|\bor$|\.$/i.test(s);
+    // El visitante puede traer la cancha y una observación pegadas (se separan más abajo): admite nombres más largos.
+    if (prose(raw.home) || raw.home.length > 45 || (prose(raw.away) && !/\([A-Z]{1,3} forfeited on [^)]*\)$/.test(raw.away)) || raw.away.length > 80) continue;
     const home = resolveName(raw.home, cfg.year);
-    const away = resolveName(raw.away, cfg.year);
+    let away = resolveName(raw.away, cfg.year);
+    // "Ferrocarriles del Estado Colegiales": la cancha va a un solo espacio del visitante. Se prueba el nombre más
+    // largo que sea un club y el resto pasa a la nota.
+    if (!away) {
+      const words = raw.away.split(" ");
+      for (let n = words.length - 1; n > 0 && !away; n--) {
+        const hit = resolveName(words.slice(0, n).join(" "), cfg.year);
+        if (hit) {
+          away = hit;
+          raw.note = [words.slice(n).join(" "), raw.note].filter(Boolean).join(", ");
+          raw.away = words.slice(0, n).join(" ");
+        }
+      }
+    }
     if (!home) unknownNames.add(raw.home);
     if (!away) unknownNames.add(raw.away);
     if (!home || !away) continue;
@@ -404,6 +440,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     const note = translateNote(raw.note, cfg.year);
     if (note.unknown.length && !ov?.note) warnings.push(`L${raw.line} ${raw.home}-${raw.away}: nota sin traducir: ${note.unknown.join(" | ")}`);
 
+    if (cfg.ignoreRounds?.test(raw.round ?? "")) raw.round = undefined;
     const mapped = Object.entries(cfg.stageMap ?? {}).find(([re]) => new RegExp(re, "i").test(raw.round ?? ""))?.[1];
     const { stage, phase } = cfg.kind === "cup" ? { stage: mapped ?? cupStageOf(raw), phase: "cup" as const } : stageOf(raw);
     const m: Match = {
@@ -576,7 +613,9 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   if (cfg.kind === "cup") {
     let base: string | undefined;
     for (const m of [...matches].sort((a, b) => a.id.localeCompare(b.id))) {
-      if (m.stage && /(^|· )Desempate$/.test(m.stage)) {
+      const inGroup = m.stage?.match(/^((?:Grupo|Zona) [^·]+?) · Desempate$/);
+      if (inGroup) m.stage = `${inGroup[1]} (desempate)`;
+      else if (m.stage && /(^|· )Desempate$/.test(m.stage)) {
         if (base) m.stage = `${base} (desempate)`;
       } else if (m.stage && !/\(desempate\)$/.test(m.stage)) base = m.stage;
     }
@@ -703,7 +742,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
 // Lista "Participating teams:" de las páginas de copa: "Alumni Football Team      Buenos Aires".
 // Los nombres completos ambiguos ("Club Atlético Argentino", de Rosario) se identifican con la ciudad.
 function participantsOf(text: string[], year: number): { ids: Set<string>; unknown: string[] } | null {
-  const start = text.findIndex((l) => /^\.?\s*(Participating teams|Teams)[:.]?$/i.test(l));
+  const start = text.findIndex((l) => /^\.?\s*(Participating (?:teams|clubs)|Teams)[:.]?$/i.test(l));
   if (start < 0) return null;
   const ids = new Set<string>();
   const unknown: string[] = [];

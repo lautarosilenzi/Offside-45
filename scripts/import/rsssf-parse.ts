@@ -73,7 +73,7 @@ const MATCH_RE = new RegExp(
   "i",
 );
 const TABLE_RE =
-  /^\s*(\d+)\s*(?:\.\s*|\s{2,})(.+?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(?:(?:\d+\s+){6})?(~?\s*\d+)\s*[:\-]?\s+(~?\s*\d+)\s+(\d+)(.*)$/;
+  /^\s*(\d+)\s*(?:\.\s*|\s{2,})(.+?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(?:(?:\d+\s+){6})?(~?\s*\d+)\s*(?:[:\-]\s*|\s+)(~?\s*\d+)\s+(\d+)(.*)$/;
 
 // Separa "Equipo  [nota]" o "Equipo      nota libre" en nombre y nota.
 function splitAway(rest: string): { away: string; note: string; awarded?: string } {
@@ -95,7 +95,7 @@ function splitAway(rest: string): { away: string; note: string; awarded?: string
 }
 
 // "9 Sep" → "Sep 9" (formato que entiende el importador).
-const dayFirst = (s: string) => s.replace(/^(\d{1,2})\s+([A-Z][a-z]{2})[a-z]*$/, "$2 $1");
+const dayFirst = (s: string) => s.replace(/^(\d{1,2})\s+([A-Z][a-z]{2})[a-z]*(?:\s+(\d{4}))?$/, (_, d, m, y) => `${m} ${d}${y ? `, ${y}` : ""}`);
 
 // `cup`: en las copas una fase o región sin fecha propia no hereda la de la anterior (queda sin fecha).
 export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSection[] {
@@ -184,7 +184,7 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     }
     // Filas de equipos empatados en puesto: sin número adelante ("    San Isidro   24 22 2 0 73 13 46").
     const tie = table
-      ? line.match(/^\s{2,}([A-Za-zÀ-ÿ'"().&\- ]+?)\s{2,}(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(~?\s*\d+)\s*[:\-]?\s+(~?\s*\d+)\s+(\d+)(.*)$/)
+      ? line.match(/^\s{2,}([A-Za-zÀ-ÿ'"().&\- ]+?)\s{2,}(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(~?\s*\d+)\s*(?:[:\-]\s*|\s+)(~?\s*\d+)\s+(\d+)(.*)$/)
       : null;
     if (tie && table) {
       const t0 = table as RawTableRow[];
@@ -207,6 +207,13 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     const r = trimmed.match(ROUND_RE);
     if (r) {
       round = r[1].trim();
+      // "Round 1: 31 May." / "Round 7: 3 Jan 1932." (Copa Jockey Club 1931).
+      const rd = round.match(/^(.*?\d+):\s*(\d{1,2})\s+([A-Z][a-z]{2})[a-z]*(?:\s+(\d{4}))?\.?$/);
+      if (rd) {
+        round = rd[1];
+        date = `${rd[3]} ${rd[2]}${rd[4] ? `, ${rd[4]}` : ""}`;
+        return;
+      }
       if (r[2]) date = r[2].trim();
       // En las copas una fecha sin día propio no hereda el de la anterior.
       else if (opts.cup) date = "";
@@ -215,9 +222,17 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     // Copas: "Group A" abre un grupo con fechas propias; cualquier otra fase lo cierra.
     // También "Group "B":" (1925) y "Playoff Group "B":" (desempate dentro del grupo).
     // Y las zonas de la Copa Estímulo 1920 ("Zona Norte").
-    const grp = opts.cup ? trimmed.replace(/^\.\s*/, "").match(/^(Playoff\s+)?(?:Group\s+"?([A-Z])"?|Zona\s+(Norte|Sur)):?$/i) : null;
+    // Y los grupos con nombre de la Copa Jockey Club 1931 ("Group North 1", "Group West").
+    const grp = opts.cup
+      ? trimmed.replace(/^\.\s*/, "").match(/^(Playoff\s+)?(?:Group\s+"?([A-Z])"?|Zona\s+(Norte|Sur)|Group\s+(North|South|East|West)(?:\s+(\d))?):?$/i)
+      : null;
     if (grp) {
-      group = grp[2] ? `Grupo ${grp[2].toUpperCase()}` : `Zona ${grp[3]}`;
+      const POINTS: Record<string, string> = { north: "Norte", south: "Sur", east: "Este", west: "Oeste" };
+      group = grp[2]
+        ? `Grupo ${grp[2].toUpperCase()}`
+        : grp[3]
+          ? `Zona ${grp[3]}`
+          : `Grupo ${POINTS[grp[4].toLowerCase()]}${grp[5] ? ` ${grp[5]}` : ""}`;
       round = grp[1] ? "Playoff" : undefined;
       date = "";
       cur.text.push(trimmed);
@@ -266,11 +281,12 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
       return;
     }
     const stage = head.match(
-      /^([0-9/A-Za-zÀ-ÿ' -]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place|round|semi-?finals?|quarter-?finals?)[A-Za-zÀ-ÿ' -]*):?\s*(?:\[(.+)\]|(\d{1,2}\s+[A-Z][a-z]{2})|([A-Z][a-z]{2}\s+\d{1,2}(?:,\s*\d{4})?))?\s*:?$/i,
+      /^([0-9/A-Za-zÀ-ÿ' -]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place|round|semi-?finals?|quarter-?finals?)[A-Za-zÀ-ÿ' -]*):?\s*(?:\[(.+)\]|(\d{1,2}\s+[A-Z][a-z]{2}(?:\s+\d{4})?)|([A-Z][a-z]{2}\s+\d{1,2}(?:,\s*\d{4})?))?\s*:?$/i,
     );
     if (stage && head.length < 60 && !/table|standings|positions\b/i.test(head)) {
       round = stage[1].trim();
-      group = undefined;
+      // Un desempate dentro de un grupo sigue siendo del grupo ("Group North 2" … "Playoff:").
+      if (!(group && /^playoff/i.test(round))) group = undefined;
       const sd = stage[2] ?? (stage[3] && dayFirst(stage[3])) ?? stage[4];
       // Una fecha puesta en el título de una fase vale solo para esa fase.
       if (sd) date = sd.trim();
@@ -295,15 +311,19 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
       cur.matches[cur.matches.length - 1].scorers = trimmed.slice(1, -1);
       return;
     }
-    const m = trimmed.match(MATCH_RE);
+    // Marcas pegadas al resultado (Copa Jockey Club 1931): "0-4+" anulado; "2-1*", "3-0&" remiten a una nota al pie.
+    const marked = trimmed.match(/^(.*?\S)(\s+)(\d+-\d+|w-l|l-w)([+*&])(\s+.*)$/);
+    const normalized = marked ? `${marked[1]}${marked[2]}${marked[4] === "+" ? "ann" : marked[3]}${marked[5]}` : trimmed;
+    const annulledScore = marked?.[4] === "+" ? marked[3].replace("-", ":") : undefined;
+    const m = normalized.match(MATCH_RE);
     if (m && !/^(No\.|Table|Note|Round)/i.test(m[1])) {
       const { away, note, awarded } = splitAway(m[3]);
       if (away && !/^\d/.test(away)) {
         // Fecha propia del partido en la nota: "at Rosario  (27 May)".
-        const own = note.match(/\((\d{1,2})\s+([A-Z][a-z]{2})\)/);
+        const own = note.match(/\((\d{1,2})\s+([A-Z][a-z]{2})(?:\s+(\d{4}))?\)/);
         cur.matches.push({
           line: i,
-          date: own ? `${own[2]} ${own[1]}` : date,
+          date: own ? `${own[2]} ${own[1]}${own[3] ? `, ${own[3]}` : ""}` : date,
           round: ignoring ? "friendly" : round,
           ...(group && { group }),
           region,
@@ -312,7 +332,11 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
           away,
           // "2-1 lp-wp": queda como resultado por escritorio con el de la cancha en la nota ("originally 2:1").
           score: awarded ?? m[2].replace(/\s/g, ""),
-          note: [awarded ? `originally ${m[2].replace(/\s/g, "").replace("-", ":")}` : "", own ? note.replace(own[0], "").replace(/\s+/g, " ").trim() : note]
+          note: [
+            awarded ? `originally ${m[2].replace(/\s/g, "").replace("-", ":")}` : "",
+            annulledScore ? `${annulledScore} annulled` : "",
+            own ? note.replace(own[0], "").replace(/\s+/g, " ").trim() : note,
+          ]
             .filter(Boolean)
             .join(", "),
         });

@@ -133,6 +133,16 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["lanus-united", "Lanús United", "LUN", "Lanús United"],
   ["sportivo-suizo", "Sportivo Suizo", "SSU", "Sportivo Suizo"],
   ["universitarios", "Universitarios", "UNI", "Universitarios (1914; la fuente no da el nombre completo)"],
+  // Copa Jockey Club 1931 (liga amateur): equipos de la Primera B y de Ferrocarriles del Estado.
+  ["gimnasia-lanus", "Gimnasia y Esgrima (Lanús)", "GLA", "Gimnasia y Esgrima de Lanús"],
+  ["gutenberg", "Gutenberg (La Plata)", "GUT", "Club Gutenberg (La Plata)"],
+  ["nacional-adrogue", "Nacional (Adrogué)", "NAD", "Nacional de Adrogué"],
+  ["la-paternal", "La Paternal", "LPA", "La Paternal (la fuente no da el nombre completo)"],
+  ["retiro-1931", "Retiro", "RTR", "Retiro (1931; la fuente no da el nombre completo)"],
+  ["sportivo-acassuso", "Sportivo Acassuso", "SAC", "Sportivo Acassuso (San Isidro)"],
+  ["union-caseros", "Unión (Caseros)", "UCA", "Club Atlético Unión (Caseros)"],
+  ["alvear-caseros", "Alvear de Caseros", "ACA", "Alvear de Caseros (en 1931 se llamó un tiempo Atlético Caseros)"],
+  ["ferrocarriles-estado", "Ferrocarriles del Estado", "FDE", "Ferrocarriles del Estado (club de los ferrocarriles estatales, fuera de la pirámide)"],
 ];
 
 export const HISTORIC_CLUBS: Team[] = OTHER_CLUBS.map(([id, name, shortName, fullName]) => ({

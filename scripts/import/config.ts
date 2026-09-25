@@ -29,6 +29,8 @@ export type TournamentConfig = {
   wikiFill?: boolean;
   // Filas de la tabla publicada identificadas por su puesto (cuando dos clubes figuran con el mismo nombre).
   tableAliases?: Record<number, string>;
+  // Títulos de fase que no lo son (1931 amateur: "Playoff:" encabeza la tabla del desempate y no los partidos que siguen).
+  ignoreRounds?: RegExp;
   // Fases con otro nombre en esta edición (expresión regular sobre la fase de RSSSF → fase a mostrar).
   // Ej. 1907–1912: la "Argentine semi-final" de la Tie Cup es la final de la fase argentina (Copa Jockey Club).
   stageMap?: Record<string, string>;
@@ -81,6 +83,12 @@ const FAF = "Federación Argentina de Football";
 const fafWiki = (y: number) => `Campeonato de Primera División ${y} de la FAF (Argentina)`;
 const AAM = "Asociación Amateurs de Football";
 const AAAF = "Asociación Amateurs Argentina de Football";
+// 1931–1934: dos ligas de Primera en paralelo.
+const LAF = "Liga Argentina de Football";
+const PRO2 = {
+  kind: "identidad",
+  text: "Entre 1931 y 1934 hubo dos ligas de Primera: la Liga Argentina de Football (profesional, disidente) y la de la asociación oficial (amateur). La AFA cuenta a los campeones de las dos.",
+} as const;
 const aamWiki = (y: number) => `Campeonato de Primera División ${y} de la AAmF (Argentina)`;
 const rr1 = (teams: number, extra = "") =>
   ({ kind: "formato", text: `Todos contra todos a una rueda entre ${teams} equipos, 2 puntos por victoria.${extra}` }) as const;
@@ -948,6 +956,91 @@ export const TOURNAMENTS: TournamentConfig[] = [
       rr1(36, " Hubo una pausa por el Mundial de 1930 y terminó en abril de 1931."),
       { kind: "descalificacion", text: "Descendieron Honor y Patria y Argentino del Sud; San Isidro abandonó." },
       { kind: "dato", text: "Último campeonato de la era amateur: en 1931 empezó el profesionalismo con la Liga Argentina de Football." },
+    ],
+  },
+
+  // ───────── 1931–1934: la Liga Argentina de Football (profesional) y la liga amateur oficial, en paralelo ─────────
+  {
+    slug: "1931",
+    year: 1931,
+    league: "LAF",
+    file: "arg31.html",
+    wiki: wikiTitle(1931),
+    competition: LAF,
+    organizer: `${LAF} (profesional)`,
+    title: "Campeonato 1931 · Liga Argentina (profesional)",
+    tournament: "Campeonato 1931 de la Liga Argentina de Football",
+    championIds: ["boca"],
+    aliases: { Estudiantes: "estudiantes", "Gimnasia (LP)": "gimnasia" },
+    wikiErrata: {
+      "RSSSF lanus 1-0 talleres-re": "Wikipedia da 0-1, pero la tabla oficial (10 victorias de Lanús) solo cierra con el 1-0 que da RSSSF.",
+    },
+    extraMatches: [
+      {
+        id: "1931-310",
+        date: "1932-01-07",
+        phase: "league",
+        homeId: "lanus",
+        awayId: "platense",
+        homeGoals: 1,
+        awayGoals: 1,
+        goalsVoid: true,
+        awardedTo: "lanus",
+        note: "Se suspendió a los 49 minutos con 1-1 y Platense se retiró: la liga le dio el partido a Lanús. Los goles no se cuentan en la tabla oficial (memoria anual).",
+      },
+    ],
+    summary:
+      "Primer campeonato profesional. Los 18 clubes más convocantes dejaron la asociación oficial en mayo y fundaron la Liga Argentina de Football. Boca Juniors fue el primer campeón profesional, cinco puntos arriba de San Lorenzo.",
+    notes: [
+      rr2(18),
+      PRO2,
+      { kind: "identidad", text: "La Liga Argentina no estaba reconocida por la FIFA; hoy la AFA cuenta sus campeonatos como de Primera División, igual que los de la liga amateur oficial de esos años." },
+    ],
+  },
+  {
+    slug: "1931-amateur",
+    year: 1931,
+    league: "Amateur",
+    file: "arg31a.html",
+    allSections: true,
+    tableIndex: 1,
+    ignoreRounds: /^Playoff/,
+    // Tres partidos suspendidos cuyo resultado la asociación dio por bueno después: RSSSF los lista dos veces
+    // (el día del partido y el de la resolución). Queda uno solo, con la fecha en que se jugó.
+    overrides: {
+      "1931-09-13 barracas-central sportivo-buenos-aires": "skip",
+      "1931-12-23 barracas-central sportivo-buenos-aires": {
+        date: "1931-09-13",
+        note: "Se suspendió con 1-4; el 23/12 la asociación dio por bueno ese resultado.",
+      },
+      "1931-10-04 excursionistas el-porvenir": "skip",
+      "1931-11-04 excursionistas el-porvenir": {
+        date: "1931-10-04",
+        note: "Se suspendió a los 75 minutos con 3-1; el 4/11 la asociación dio por bueno ese resultado.",
+      },
+      "1931-11-01 argentino-quilmes estudiantes-ba": "skip",
+      "1931-11-04 argentino-quilmes estudiantes-ba": {
+        date: "1931-11-01",
+        note: "Se suspendió a los 30 minutos con 4-2; el 4/11 la asociación dio por bueno ese resultado.",
+      },
+    },
+    wiki: "Campeonato de Primera División 1931 de la AFAP (Argentina)",
+    competition: "Asociación Argentina de Football (Amateurs y Profesionales)",
+    organizer: "Asociación Argentina de Football (Amateurs y Profesionales), entidad oficial afiliada a la FIFA",
+    title: "Campeonato 1931 · Liga amateur (oficial)",
+    tournament: "Copa Campeonato 1931 de la Asociación Argentina de Football (Amateurs y Profesionales)",
+    championIds: ["estudiantil-porteno"],
+    playoffFrom: { date: "1931-12-27", stage: "Desempate por el título" },
+    summary:
+      "El campeonato de la asociación oficial empezó en mayo con 34 equipos, pero se anuló después de la primera fecha, cuando 18 clubes se fueron a la Liga Argentina profesional. Se volvió a empezar con 16 equipos: Estudiantil Porteño y Almagro terminaron igualados y Estudiantil Porteño ganó el desempate 3-1.",
+    notes: [
+      rr1(16, " El empate en el primer puesto se resolvió con un desempate."),
+      PRO2,
+      { kind: "anulado", text: "El torneo original, con 34 equipos, se anuló después de la primera fecha (10 de mayo) por la salida de los clubes que fundaron la liga profesional. Esos partidos se muestran pero no suman." },
+      { kind: "retiro", text: "San Isidro fue promovido, pero sus partidos se anularon." },
+      { kind: "identidad", text: "Sportivo Buenos Aires se fusionó con Social y Deportivo Buenos Aires y pasó a llamarse Social y Sportivo Buenos Aires. Argentino de Lomas es el Club Argentino de Banfield." },
+      { kind: "puntos", text: "Desempate por el título: Estudiantil Porteño 3-1 Almagro (27 de diciembre). No suma en la tabla." },
+      { kind: "descalificacion", text: "Descendió San Fernando." },
     ],
   },
 ];

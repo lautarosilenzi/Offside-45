@@ -1,0 +1,1885 @@
+{
+ "slug": "copa-jockey-club-1931",
+ "kind": "cup",
+ "runnerUpIds": [
+  "almagro"
+ ],
+ "year": 1931,
+ "title": "Copa Jockey Club 1931",
+ "tournament": "Copa de Competencia Jockey Club",
+ "organizer": "Asociación Argentina de Football (Amateurs y Profesionales), liga amateur oficial",
+ "championIds": [
+  "sportivo-balcarce"
+ ],
+ "summary": "Sportivo Balcarce ganó la Copa de Competencia Jockey Club: en la final le ganó 4-1 a Almagro. Participaron 40 equipos y se jugaron 116 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Jockey Club 1931",
+   "url": "https://www.rsssf.org/tablesa/arg-joc31.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Competencia Jockey Club 1931",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Competencia_Jockey_Club_1931"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Primera fase en seis grupos (Norte 1 y 2, Sur 1, 2 y 3, y Oeste), todos contra todos; los primeros pasaban a la ronda final. Después, eliminación directa."
+  },
+  {
+   "kind": "fuentes",
+   "text": "La tabla de cada grupo, recalculada con sus partidos, coincide con la que publica RSSSF (los partidos resueltos por escritorio suman los puntos sin goles)."
+  },
+  {
+   "kind": "identidad",
+   "text": "La jugaron equipos de la Primera amateur, de la Primera B y Ferrocarriles del Estado. Sportivo Balcarce, de la B, fue el campeón. Los clubes que se fueron a la liga profesional no participaron."
+  },
+  {
+   "kind": "retiro",
+   "text": "Porteño, Retiro, San Isidro y Argentino del Sud dejaron la asociación y Honor y Patria fue expulsado: los partidos de los primeros tres se anularon."
+  },
+  {
+   "kind": "dato",
+   "text": "La final (1-1, suspendida a los 80 minutos) se repitió: Sportivo Balcarce ganó 4-1 y Almagro abandonó la cancha a los 72 minutos. Terminó en 1932."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-jockey-club-1931-001",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 1",
+   "phase": "cup",
+   "homeId": "colegiales",
+   "awayId": "union-caseros",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Defensores de Belgrano",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-002",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 1",
+   "phase": "cup",
+   "homeId": "retiro-1931",
+   "awayId": "sportivo-acassuso",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Sportivo Balcarce",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "copa-jockey-club-1931-003",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 1",
+   "phase": "cup",
+   "homeId": "san-fernando",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 0,
+   "awayGoals": 8,
+   "venue": "Cancha de Sportivo Palermo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-004",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 2",
+   "phase": "cup",
+   "homeId": "defensores-belgrano",
+   "awayId": "colegiales",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Excursionistas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-005",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 2",
+   "phase": "cup",
+   "homeId": "sportivo-acassuso",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de San Fernando",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "copa-jockey-club-1931-006",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 2",
+   "phase": "cup",
+   "homeId": "union-caseros",
+   "awayId": "retiro-1931",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Porteño",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "copa-jockey-club-1931-007",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 3",
+   "phase": "cup",
+   "homeId": "colegiales",
+   "awayId": "san-fernando",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Sportivo Palermo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-008",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 3",
+   "phase": "cup",
+   "homeId": "retiro-1931",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Excursionistas",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "copa-jockey-club-1931-009",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 3",
+   "phase": "cup",
+   "homeId": "san-isidro",
+   "awayId": "union-caseros",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de San Isidro",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "copa-jockey-club-1931-012",
+   "date": "1931-09-05",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 4",
+   "phase": "cup",
+   "homeId": "union-caseros",
+   "awayId": "sportivo-acassuso",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de General San Martín",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-013",
+   "date": "1931-11-11",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 5",
+   "phase": "cup",
+   "homeId": "defensores-belgrano",
+   "awayId": "sportivo-acassuso",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Excursionistas",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Se suspendió en el entretiempo con 1-1; el 16/12 la asociación le dio los puntos a Defensores de Belgrano.",
+   "awardedTo": "defensores-belgrano"
+  },
+  {
+   "id": "copa-jockey-club-1931-017",
+   "date": "1931-12-27",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 6",
+   "phase": "cup",
+   "homeId": "defensores-belgrano",
+   "awayId": "union-caseros",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Liberal Argentino",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "union-caseros",
+   "walkover": true,
+   "note": "No se jugó: pasó Unión (Caseros)."
+  },
+  {
+   "id": "copa-jockey-club-1931-018",
+   "date": "1931-12-27",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 6",
+   "phase": "cup",
+   "homeId": "san-fernando",
+   "awayId": "sportivo-acassuso",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de General San Martín",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "sportivo-acassuso",
+   "walkover": true,
+   "note": "No se jugó: pasó Sportivo Acassuso."
+  },
+  {
+   "id": "copa-jockey-club-1931-019",
+   "date": "1932-01-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 7",
+   "phase": "cup",
+   "homeId": "colegiales",
+   "awayId": "sportivo-acassuso",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Defensores de Belgrano",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "colegiales",
+   "walkover": true,
+   "note": "No se jugó: pasó Colegiales."
+  },
+  {
+   "id": "copa-jockey-club-1931-021",
+   "date": "1932-01-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 1 · Fecha 7",
+   "phase": "cup",
+   "homeId": "union-caseros",
+   "awayId": "san-fernando",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "san-fernando",
+   "walkover": true,
+   "note": "No se jugó: pasó San Fernando."
+  },
+  {
+   "id": "copa-jockey-club-1931-022",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 1",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "general-san-martin",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Cancha de Alvear de Caseros",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "copa-jockey-club-1931-023",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 1",
+   "phase": "cup",
+   "homeId": "sportivo-balcarce",
+   "awayId": "alvear-caseros",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Cancha de Excursionistas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-024",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 1",
+   "phase": "cup",
+   "homeId": "sportivo-palermo",
+   "awayId": "excursionistas",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Colegiales",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-025",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 2",
+   "phase": "cup",
+   "homeId": "alvear-caseros",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Defensores de Belgrano",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-026",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 2",
+   "phase": "cup",
+   "homeId": "excursionistas",
+   "awayId": "porteno",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportivo Palermo",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "copa-jockey-club-1931-027",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 2",
+   "phase": "cup",
+   "homeId": "general-san-martin",
+   "awayId": "ferrocarriles-estado",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Colegiales",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-028",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 3",
+   "phase": "cup",
+   "homeId": "ferrocarriles-estado",
+   "awayId": "excursionistas",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-029",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 3",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "alvear-caseros",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Unión (Caseros)",
+   "sources": [
+    "rsssf"
+   ],
+   "status": "annulled",
+   "note": "Anulado: no suma en la tabla."
+  },
+  {
+   "id": "copa-jockey-club-1931-030",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 3",
+   "phase": "cup",
+   "homeId": "sportivo-palermo",
+   "awayId": "sportivo-balcarce",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Defensores de Belgrano",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-031",
+   "date": "1931-09-05",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 4",
+   "phase": "cup",
+   "homeId": "alvear-caseros",
+   "awayId": "ferrocarriles-estado",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportivo Palermo",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "alvear-caseros",
+   "walkover": true,
+   "note": "No se jugó: pasó Alvear de Caseros."
+  },
+  {
+   "id": "copa-jockey-club-1931-032",
+   "date": "1931-09-05",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 4",
+   "phase": "cup",
+   "homeId": "excursionistas",
+   "awayId": "general-san-martin",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Defensores de Belgrano",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-034",
+   "date": "1931-11-11",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 5",
+   "phase": "cup",
+   "homeId": "ferrocarriles-estado",
+   "awayId": "sportivo-balcarce",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Palermo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-035",
+   "date": "1931-11-11",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 5",
+   "phase": "cup",
+   "homeId": "general-san-martin",
+   "awayId": "alvear-caseros",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Liberal Argentino",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-037",
+   "date": "1931-12-16",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 6",
+   "phase": "cup",
+   "homeId": "alvear-caseros",
+   "awayId": "excursionistas",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "excursionistas",
+   "walkover": true,
+   "note": "No se jugó: pasó Excursionistas."
+  },
+  {
+   "id": "copa-jockey-club-1931-038",
+   "date": "1932-01-09",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 6",
+   "phase": "cup",
+   "homeId": "sportivo-balcarce",
+   "awayId": "general-san-martin",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Defensores de Belgrano",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-039",
+   "date": "1931-12-27",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 6",
+   "phase": "cup",
+   "homeId": "sportivo-palermo",
+   "awayId": "ferrocarriles-estado",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "sportivo-palermo",
+   "walkover": true,
+   "note": "No se jugó: pasó Sportivo Palermo."
+  },
+  {
+   "id": "copa-jockey-club-1931-040",
+   "date": "1932-01-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 7",
+   "phase": "cup",
+   "homeId": "excursionistas",
+   "awayId": "sportivo-balcarce",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "sportivo-balcarce",
+   "walkover": true,
+   "note": "No se jugó: pasó Sportivo Balcarce."
+  },
+  {
+   "id": "copa-jockey-club-1931-042",
+   "date": "1932-01-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 · Fecha 7",
+   "phase": "cup",
+   "homeId": "general-san-martin",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportivo Balcarce",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "general-san-martin",
+   "walkover": true,
+   "note": "No se jugó: pasó General San Martín."
+  },
+  {
+   "id": "copa-jockey-club-1931-043",
+   "date": "1931",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Norte 2 (desempate)",
+   "phase": "cup",
+   "homeId": "sportivo-balcarce",
+   "awayId": "sportivo-palermo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "sportivo-balcarce",
+   "walkover": true,
+   "note": "No se jugó: pasó Sportivo Balcarce."
+  },
+  {
+   "id": "copa-jockey-club-1931-044",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 1",
+   "phase": "cup",
+   "homeId": "barracas-central",
+   "awayId": "sportsman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-045",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 1",
+   "phase": "cup",
+   "homeId": "sportivo-barracas",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Barracas Central",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-046",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 1",
+   "phase": "cup",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "venue": "Cancha de Progresista",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-047",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 2",
+   "phase": "cup",
+   "homeId": "argentino-del-sud",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportsman",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-048",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 2",
+   "phase": "cup",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-049",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 2",
+   "phase": "cup",
+   "homeId": "sportsman",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Barracas Central",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-050",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 3",
+   "phase": "cup",
+   "homeId": "argentino-del-sud",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de San Telmo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-051",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 3",
+   "phase": "cup",
+   "homeId": "barracas-central",
+   "awayId": "sportivo-barracas",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportsman",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-052",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 3",
+   "phase": "cup",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "sportsman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de El Porvenir",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-053",
+   "date": "1931-09-05",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 4",
+   "phase": "cup",
+   "homeId": "sportivo-barracas",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Barracas Central",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "sportivo-barracas",
+   "walkover": true,
+   "note": "No se jugó: pasó Sportivo Barracas."
+  },
+  {
+   "id": "copa-jockey-club-1931-054",
+   "date": "1931-09-05",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 4",
+   "phase": "cup",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-055",
+   "date": "1931-07-15",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 4",
+   "phase": "cup",
+   "homeId": "sportsman",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "sportsman",
+   "walkover": true,
+   "note": "No se jugó: pasó Sportsman."
+  },
+  {
+   "id": "copa-jockey-club-1931-056",
+   "date": "1931-07-15",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 5",
+   "phase": "cup",
+   "homeId": "sportivo-barracas",
+   "awayId": "argentino-del-sud",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "sportivo-barracas",
+   "walkover": true,
+   "note": "No se jugó: pasó Sportivo Barracas."
+  },
+  {
+   "id": "copa-jockey-club-1931-057",
+   "date": "1931-11-11",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 5",
+   "phase": "cup",
+   "homeId": "sportivo-buenos-aires",
+   "awayId": "sportsman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Barracas Central",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-058",
+   "date": "1931-11-11",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 · Fecha 5",
+   "phase": "cup",
+   "homeId": "sportivo-dock-sud",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "barracas-central",
+   "walkover": true,
+   "note": "No se jugó: pasó Barracas Central."
+  },
+  {
+   "id": "copa-jockey-club-1931-059",
+   "date": "1931-12-13",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 1 (desempate)",
+   "phase": "cup",
+   "homeId": "barracas-central",
+   "awayId": "sportivo-buenos-aires",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-060",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 1",
+   "phase": "cup",
+   "homeId": "el-porvenir",
+   "awayId": "san-telmo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Dock Sud",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-061",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 1",
+   "phase": "cup",
+   "homeId": "gimnasia-lanus",
+   "awayId": "nacional-adrogue",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de El Porvenir",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-062",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 1",
+   "phase": "cup",
+   "homeId": "progresista",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Temperley",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-063",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 2",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "el-porvenir",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Argentino de Banfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-064",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 2",
+   "phase": "cup",
+   "homeId": "nacional-adrogue",
+   "awayId": "progresista",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Banfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-065",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 2",
+   "phase": "cup",
+   "homeId": "san-telmo",
+   "awayId": "gimnasia-lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de El Porvenir",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-066",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 3",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "nacional-adrogue",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Argentino de Banfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-067",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 3",
+   "phase": "cup",
+   "homeId": "el-porvenir",
+   "awayId": "gimnasia-lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Barracas Central",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-068",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 3",
+   "phase": "cup",
+   "homeId": "progresista",
+   "awayId": "san-telmo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Dock Sud",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-069",
+   "date": "1931-09-05",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 4",
+   "phase": "cup",
+   "homeId": "gimnasia-lanus",
+   "awayId": "progresista",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de El Porvenir",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-070",
+   "date": "1931-09-05",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 4",
+   "phase": "cup",
+   "homeId": "nacional-adrogue",
+   "awayId": "el-porvenir",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "venue": "Cancha de Gimnasia y Esgrima (Lanús)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-071",
+   "date": "1931-09-05",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 4",
+   "phase": "cup",
+   "homeId": "san-telmo",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Argentino de Lomas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-072",
+   "date": "1931-11-11",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 5",
+   "phase": "cup",
+   "homeId": "gimnasia-lanus",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentino de Lomas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-073",
+   "date": "1931-11-11",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 5",
+   "phase": "cup",
+   "homeId": "nacional-adrogue",
+   "awayId": "san-telmo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "san-telmo",
+   "walkover": true,
+   "note": "No se jugó: pasó San Telmo."
+  },
+  {
+   "id": "copa-jockey-club-1931-074",
+   "date": "1931-11-11",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 2 · Fecha 5",
+   "phase": "cup",
+   "homeId": "progresista",
+   "awayId": "el-porvenir",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Gimnasia y Esgrima (Lanús)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-075",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 1",
+   "phase": "cup",
+   "homeId": "argentino-quilmes",
+   "awayId": "temperley",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Banfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-076",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 1",
+   "phase": "cup",
+   "homeId": "boca-alumni",
+   "awayId": "gutenberg",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Honor y Patria",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-077",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 1",
+   "phase": "cup",
+   "homeId": "honor-y-patria",
+   "awayId": "argentino-banfield",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Nacional (Rosario)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-078",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 2",
+   "phase": "cup",
+   "homeId": "argentino-banfield",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Dock Sud",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-079",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 2",
+   "phase": "cup",
+   "homeId": "gutenberg",
+   "awayId": "honor-y-patria",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentino de Quilmes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-080",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 2",
+   "phase": "cup",
+   "homeId": "temperley",
+   "awayId": "boca-alumni",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de San Telmo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-081",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 3",
+   "phase": "cup",
+   "homeId": "argentino-banfield",
+   "awayId": "gutenberg",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Temperley",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-082",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 3",
+   "phase": "cup",
+   "homeId": "argentino-quilmes",
+   "awayId": "boca-alumni",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Honor y Patria",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-083",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 3",
+   "phase": "cup",
+   "homeId": "honor-y-patria",
+   "awayId": "temperley",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Sportivo Barracas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-084",
+   "date": "1931-07-08",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 4",
+   "phase": "cup",
+   "homeId": "boca-alumni",
+   "awayId": "honor-y-patria",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "boca-alumni",
+   "walkover": true,
+   "note": "No se jugó: pasó Boca Alumni."
+  },
+  {
+   "id": "copa-jockey-club-1931-085",
+   "date": "1931-09-05",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 4",
+   "phase": "cup",
+   "homeId": "gutenberg",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Temperley",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-086",
+   "date": "1931-09-05",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 4",
+   "phase": "cup",
+   "homeId": "temperley",
+   "awayId": "argentino-banfield",
+   "awayAs": "Argentino de Lomas",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Banfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-087",
+   "date": "1931-11-11",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 5",
+   "phase": "cup",
+   "homeId": "boca-alumni",
+   "awayId": "argentino-banfield",
+   "awayAs": "Argentino de Lomas",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Temperley",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-088",
+   "date": "1931-11-11",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 5",
+   "phase": "cup",
+   "homeId": "gutenberg",
+   "awayId": "temperley",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Banfield",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "temperley",
+   "walkover": true,
+   "note": "No se jugó: pasó Temperley."
+  },
+  {
+   "id": "copa-jockey-club-1931-089",
+   "date": "1931-07-08",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Sur 3 · Fecha 5",
+   "phase": "cup",
+   "homeId": "honor-y-patria",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "argentino-quilmes",
+   "walkover": true,
+   "note": "No se jugó: pasó Argentino de Quilmes."
+  },
+  {
+   "id": "copa-jockey-club-1931-090",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 1",
+   "phase": "cup",
+   "homeId": "almagro",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Estudiantes (BA)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-091",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 1",
+   "phase": "cup",
+   "homeId": "estudiantes-ba",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Estudiantil Porteño",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-092",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 1",
+   "phase": "cup",
+   "homeId": "la-paternal",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-093",
+   "date": "1931-05-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 1",
+   "phase": "cup",
+   "homeId": "liberal-argentino",
+   "awayId": "palermo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Porteño",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-094",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 2",
+   "phase": "cup",
+   "homeId": "all-boys",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Liberal Argentino",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-095",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 2",
+   "phase": "cup",
+   "homeId": "liberal-argentino",
+   "awayId": "la-paternal",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Cancha de Social y Sportivo Buenos Aires",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-096",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 2",
+   "phase": "cup",
+   "homeId": "nueva-chicago",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-097",
+   "date": "1931-06-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 2",
+   "phase": "cup",
+   "homeId": "palermo",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Estudiantil Porteño",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-098",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 3",
+   "phase": "cup",
+   "homeId": "almagro",
+   "awayId": "liberal-argentino",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Colegiales",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-099",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 3",
+   "phase": "cup",
+   "homeId": "estudiantes-ba",
+   "awayId": "palermo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Liberal Argentino",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-100",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 3",
+   "phase": "cup",
+   "homeId": "estudiantil-porteno",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Estudiantil Porteño",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-101",
+   "date": "1931-06-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 3",
+   "phase": "cup",
+   "homeId": "la-paternal",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Social y Sportivo Buenos Aires",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-102",
+   "date": "1931-09-05",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 4",
+   "phase": "cup",
+   "homeId": "all-boys",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Estudiantil Porteño",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-103",
+   "date": "1932-01-09",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 4",
+   "phase": "cup",
+   "homeId": "almagro",
+   "awayId": "la-paternal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Social y Sportivo Buenos Aires",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-104",
+   "date": "1931-09-05",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 4",
+   "phase": "cup",
+   "homeId": "liberal-argentino",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-105",
+   "date": "1931-09-05",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 4",
+   "phase": "cup",
+   "homeId": "palermo",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de All Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-106",
+   "date": "1931-11-11",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 5",
+   "phase": "cup",
+   "homeId": "estudiantes-ba",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de All Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-107",
+   "date": "1931-11-11",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 5",
+   "phase": "cup",
+   "homeId": "estudiantil-porteno",
+   "awayId": "liberal-argentino",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-108",
+   "date": "1931-11-11",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 5",
+   "phase": "cup",
+   "homeId": "la-paternal",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "la-paternal",
+   "walkover": true,
+   "note": "No se jugó: pasó La Paternal."
+  },
+  {
+   "id": "copa-jockey-club-1931-109",
+   "date": "1931-11-11",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 5",
+   "phase": "cup",
+   "homeId": "nueva-chicago",
+   "awayId": "palermo",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Colegiales",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-110",
+   "date": "1932-01-17",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 6",
+   "phase": "cup",
+   "homeId": "almagro",
+   "awayId": "estudiantil-porteno",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportivo Palermo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-111",
+   "date": "1931-12-27",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 6",
+   "phase": "cup",
+   "homeId": "estudiantes-ba",
+   "awayId": "la-paternal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "la-paternal",
+   "walkover": true,
+   "note": "No se jugó: pasó La Paternal."
+  },
+  {
+   "id": "copa-jockey-club-1931-112",
+   "date": "1931-12-27",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 6",
+   "phase": "cup",
+   "homeId": "liberal-argentino",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Estudiantil Porteño",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "nueva-chicago",
+   "walkover": true,
+   "note": "No se jugó: pasó Nueva Chicago."
+  },
+  {
+   "id": "copa-jockey-club-1931-113",
+   "date": "1931-12-27",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 6",
+   "phase": "cup",
+   "homeId": "palermo",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "palermo",
+   "walkover": true,
+   "note": "No se jugó: pasó Palermo."
+  },
+  {
+   "id": "copa-jockey-club-1931-114",
+   "date": "1932-01-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 7",
+   "phase": "cup",
+   "homeId": "all-boys",
+   "awayId": "liberal-argentino",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "liberal-argentino",
+   "walkover": true,
+   "note": "No se jugó: pasó Liberal Argentino."
+  },
+  {
+   "id": "copa-jockey-club-1931-115",
+   "date": "1932-01-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 7",
+   "phase": "cup",
+   "homeId": "nueva-chicago",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de All Boys",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "almagro",
+   "walkover": true,
+   "note": "No se jugó: pasó Almagro."
+  },
+  {
+   "id": "copa-jockey-club-1931-116",
+   "date": "1932-01-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 7",
+   "phase": "cup",
+   "homeId": "estudiantil-porteno",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Social y Sportivo Buenos Aires",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "estudiantil-porteno",
+   "walkover": true,
+   "note": "No se jugó: pasó Estudiantil Porteño."
+  },
+  {
+   "id": "copa-jockey-club-1931-117",
+   "date": "1932-01-03",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Grupo Oeste · Fecha 7",
+   "phase": "cup",
+   "homeId": "la-paternal",
+   "awayId": "palermo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Estudiantes (BA)",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "la-paternal",
+   "walkover": true,
+   "note": "No se jugó: pasó La Paternal."
+  },
+  {
+   "id": "copa-jockey-club-1931-118",
+   "date": "1932-01-24",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "barracas-central",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de El Porvenir",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-119",
+   "date": "1932-01-24",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "sportivo-balcarce",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportivo Palermo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-120",
+   "date": "1932-01-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "sportivo-balcarce",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "sportivo-balcarce",
+   "walkover": true,
+   "note": "No se jugó: pasó Sportivo Balcarce."
+  },
+  {
+   "id": "copa-jockey-club-1931-121",
+   "date": "1932-01-31",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "barracas-central",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Estudiantes (BA)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "copa-jockey-club-1931-122",
+   "date": "1932-02-07",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Semifinal (desempate)",
+   "phase": "cup",
+   "homeId": "almagro",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de All Boys",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "copa-jockey-club-1931-123",
+   "date": "1932-02-14",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Semifinal (desempate)",
+   "phase": "cup",
+   "homeId": "barracas-central",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de All Boys",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-124",
+   "date": "1932-02-28",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "almagro",
+   "awayId": "sportivo-balcarce",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de All Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-jockey-club-1931-125",
+   "date": "1932-03-06",
+   "competition": "Copa de Competencia Jockey Club",
+   "stage": "Final (desempate)",
+   "phase": "cup",
+   "homeId": "almagro",
+   "awayId": "sportivo-balcarce",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Excursionistas",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Almagro abandonó la cancha a los 72 minutos."
+  }
+ ]
+}
