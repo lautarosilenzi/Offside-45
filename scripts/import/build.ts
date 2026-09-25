@@ -204,7 +204,7 @@ export function translateNote(
     else if ((m = p.match(/^(\d+)m$/))) out.text.push(`Duró ${m[1]} minutos.`);
     else if (/^abandoned at HT$/i.test(p)) out.text.push("Suspendido en el entretiempo.");
     else if ((m = p.match(/^(\d+):(\d+) in Annual Report$/i))) out.text.push(`La memoria anual de la asociación lo registra ${m[1]}-${m[2]}.`);
-    else if ((m = p.match(/^in (Rosario|Montevideo|La Plata)$/i))) out.venue = m[1];
+    else if ((m = p.match(/^in (Rosario|Montevideo|La Plata|Avellaneda|Córdoba|Santa Fe|Caseros)$/i))) out.venue = m[1];
     else if (/^replayed$/i.test(p)) out.text.push("Partido jugado de nuevo (el primero se anuló).");
     else if (/^to be replayed$/i.test(p)) out.text.push("Se ordenó volver a jugarlo.");
     else if ((m = p.match(/^(\d+) minutes remaining$/i))) out.text.push(`Faltaban ${m[1]} minutos.`);
@@ -279,8 +279,10 @@ function cupStageOf(raw: RawMatch): string | undefined {
   const r = (raw.round ?? "").replace(/:$/, "").replace(/\./g, "").trim();
   // Copas por grupos: "Grupo A · Fecha 3".
   if (raw.group) {
-    const n = r.match(/^Round\s*(\d+)/i) ?? r.match(/^(\d+)(?:st|nd|rd|th) round/i);
-    return `${raw.group}${n ? ` · Fecha ${n[1]}` : /playoff/i.test(r) ? " · Desempate" : ""}`;
+    // Jockey Club 1933: "Round 1.3" es la fecha 3 del grupo y "Round 2.1 (Playoff)", un desempate.
+    if (/playoff/i.test(r)) return `${raw.group} · Desempate`;
+    const n = r.match(/^Round\s*1\.(\d+)/i) ?? r.match(/^Round\s*(\d+)/i) ?? r.match(/^(\d+)(?:st|nd|rd|th) round/i);
+    return `${raw.group}${n ? ` · Fecha ${n[1]}` : ""}`;
   }
   const table: [RegExp, string][] = [
     [/preliminary/i, "Ronda preliminar"],
@@ -310,7 +312,9 @@ function cupStageOf(raw: RawMatch): string | undefined {
   }
   if (!stage && r) stage = r;
   // "Final Phase" (Tie Cup): semifinales y final entre los ganadores de cada región; no lleva prefijo.
-  if (/^(Final Phase|Ruedas finales)/i.test(raw.region ?? "")) return stage;
+  if (/^(Final Phase|Ruedas finales|Final Round)/i.test(raw.region ?? "")) return stage;
+  // La ronda de consuelo lleva siempre el prefijo, también su final (no es la final de la copa).
+  if (raw.region === "Consuelo Round") return `Ronda Consuelo · ${stage ?? ""}`.replace(/ · $/, "");
   const region = raw.region?.replace(/^Porteños?$/i, "Buenos Aires").replace(/^Rosarios?$/i, "Rosario").replace(/^National$/i, "Fase nacional");
   if (region && stage && stage !== "Final" && !/nacional/i.test(stage)) return `${region} · ${stage}`;
   return stage ?? region;
@@ -818,8 +822,10 @@ function verifyCup(season: Season, cfg: TournamentConfig): { problems: string[];
     if (idx) {
       const sc = final.walkover ? "wp:lp" : `${final.homeGoals}:${final.awayGoals}`;
       const scRev = final.walkover ? "wp:lp" : `${final.awayGoals}:${final.homeGoals}`;
+      // Una final que se jugó y se resolvió por escritorio puede figurar en el índice como wp:lp.
+      const awardedOk = final.awardedTo && idx.scores.includes("wp:lp");
       if (!idx.scores.length) warnings.push(`Copa: el índice de RSSSF da el campeón sin resultado (${idx.raw})`);
-      else if (!idx.scores.some((s) => s === sc || s === scRev)) problems.push(`Copa: el índice de RSSSF da la final ${idx.raw}, y la página ${sc}`);
+      else if (!awardedOk && !idx.scores.some((s) => s === sc || s === scRev)) problems.push(`Copa: el índice de RSSSF da la final ${idx.raw}, y la página ${sc}`);
       else warnings.push(`Copa: final confirmada por el índice de RSSSF (${idx.raw})`);
     } else warnings.push("Copa: esta edición no figura en el índice de RSSSF");
   }

@@ -100,6 +100,11 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["nacional-uy", "Nacional (Uruguay)", "NAU", "Club Nacional de Football (Montevideo)"],
   ["deutscher-uy", "Deutscher FK (Uruguay)", "DFK", "Deutscher Fussball Klub (Montevideo)"],
   ["wanderers-uy", "Montevideo Wanderers (Uruguay)", "MWA", "Montevideo Wanderers Football Club"],
+  // Copa Beccar Varela 1933: clubes uruguayos y de las ligas de Santa Fe.
+  ["penarol-uy", "Peñarol (Uruguay)", "PEÑ", "Club Atlético Peñarol (Montevideo)"],
+  ["defensor-uy", "Defensor (Uruguay)", "DEF", "Club Atlético Defensor (Montevideo)"],
+  ["sud-america-uy", "Sud América (Uruguay)", "SUD", "Institución Atlética Sud América (Montevideo)"],
+  ["gimnasia-santa-fe", "Gimnasia y Esgrima (Santa Fe)", "GSF", "Club de Gimnasia y Esgrima de Santa Fe"],
   // Clubes de ascenso (Intermedia y Segunda) que jugaron la Copa de Competencia Jockey Club, abierta a varias divisiones.
   // Identidades según los enlaces de las páginas de Wikipedia de cada edición; las no confirmadas lo aclaran.
   ["ca-alumni", "Alumni (Olivos)", "ALO", "Club Atlético Alumni (sin relación con el Alumni campeón de 1900–1911)"],

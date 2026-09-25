@@ -23,6 +23,10 @@ const ABOUT: Record<string, string> = {
   "Copa de Competencia de la Asociación Amateurs":
     "Copa de la Asociación Amateurs de Football, la liga disidente de 1919–1926. Desde 1924 con fase de grupos.",
   "Copa Estímulo": "Copa de la Asociación Argentina de Football, por zonas o grupos y con clubes de Primera de ese momento.",
+  "Copa de Competencia de la Liga Argentina":
+    "Copa de la Liga Argentina de Football, la primera liga profesional (1932–1933). En 1933, con doble eliminación en las primeras rondas.",
+  "Copa Beccar Varela":
+    "Copa de Honor «Adrián Beccar Varela» de la liga profesional. En 1933 se sumaron clubes de Rosario, Santa Fe, Córdoba y Uruguay.",
   "Campeonato Porteño": "Partido entre los campeones de 1926 de la Asociación Argentina y de la Asociación Amateurs, antes de la unificación. Quedó sin definir.",
 };
 
@@ -59,8 +63,7 @@ export default function CupsPage() {
           </section>
         ))}
         <p className="text-sm text-navy-400">
-          Están todas las copas nacionales de la era amateur hasta 1926 que reconoce la AFA. Las de 1931 y 1933 (Copa Jockey
-          Club de la liga amateur) y las de la era profesional se cargan junto con esas temporadas.
+          Están todas las copas nacionales que reconoce la AFA hasta 1933. Las siguientes se cargan junto con sus temporadas.
         </p>
       </main>
     </>

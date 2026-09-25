@@ -226,6 +226,15 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     const grp = opts.cup
       ? trimmed.replace(/^\.\s*/, "").match(/^(Playoff\s+)?(?:Group\s+"?([A-Z])"?|Zona\s+(Norte|Sur)|Group\s+(North|South|East|West)(?:\s+(\d))?)[:.]?$/i)
       : null;
+    // Grupos con el nombre de una liga (Beccar Varela 1933): Group "Liga Rosarina de Football" - Torneo Selección...:
+    const named = opts.cup ? trimmed.match(/^Group\s+"([^"]+)"(?:\s*-.*)?:?$/) : null;
+    if (named) {
+      group = `Grupo ${named[1].replace(/ de Football$/, "")}`;
+      round = undefined;
+      date = "";
+      cur.text.push(trimmed);
+      return;
+    }
     if (grp) {
       const POINTS: Record<string, string> = { north: "Norte", south: "Sur", east: "Este", west: "Oeste" };
       group = grp[2]
@@ -272,7 +281,9 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     const head = trimmed.replace(/^\.\s*/, "").replace(/\.$/, "");
     const regionMatch =
       head.match(/^(Buenos Aires|Porteños?|Rosarios?|Montevideo|National|Interior|Provincias?|La Plata)(?:'s?)?\s*(?:rounds?|zone)?:?$/i) ??
-      head.match(/^(Final Phase|Ruedas finales - Final rounds):?$/i);
+      head.match(/^(Final Phase|Ruedas finales - Final rounds):?$/i) ??
+      // Beccar Varela 1933: la ronda de consuelo y la ronda final son cuadros aparte.
+      head.match(/^(Consuelo Round|Final Round):$/);
     if (regionMatch) {
       region = regionMatch[1];
       if (opts.cup) date = "";
