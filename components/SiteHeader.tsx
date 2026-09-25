@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 const NAV = [
   { href: "/", label: "Historial" },
   { href: "/temporadas", label: "Temporadas" },
+  { href: "/copas", label: "Copas" },
 ];
 
 export default function SiteHeader() {

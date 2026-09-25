@@ -5,7 +5,7 @@ import Crest from "@/components/Crest";
 import MatchList from "@/components/MatchList";
 import PageHero from "@/components/PageHero";
 import SeasonNotes from "@/components/SeasonNotes";
-import { SEASONS, computeTable, getSeason, seasonLabel, seasonNameOf, verifySeason } from "@/lib/seasons";
+import { SEASONS, computeTable, getSeason, seasonLabel, seasonNameOf, seasonTitle, siblingsOf, sourceOrder, verifySeason } from "@/lib/seasons";
 import { getTeam } from "@/lib/teams";
 
 export const dynamicParams = false;
@@ -15,7 +15,8 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  return { title: `Temporada ${params.slug.replace("-", " ").toUpperCase()} · Offside 45` };
+  const season = getSeason(params.slug);
+  return { title: `${season ? seasonTitle(season) : params.slug} · Offside 45` };
 }
 
 export default function SeasonPage({ params }: { params: { slug: string } }) {
@@ -28,21 +29,24 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
   const blocks: { name?: string; rows: typeof table }[] = season.groups
     ? season.groups.map((g) => ({ name: g.name, rows: table.filter((r) => g.teamIds.includes(r.teamId)) }))
     : [{ rows: table }];
-  const matches = [...season.matches].sort((a, b) => a.date.localeCompare(b.date));
-  const idx = SEASONS.indexOf(season);
-  const prev = SEASONS[idx - 1];
-  const next = SEASONS[idx + 1];
+  const isCup = season.kind === "cup";
+  // Las copas no tienen tabla de liga (salvo que la fuente publique una tabla resumen).
+  const showTable = !isCup || season.publishedTable.length > 0;
+  const matches = [...season.matches].sort(isCup ? sourceOrder : (a, b) => a.date.localeCompare(b.date));
+  const { prev, next } = siblingsOf(season);
+  const navLabel = (s: typeof season) => (isCup ? String(s.year) : seasonLabel(s));
   const champions = season.championIds.map((id) => getTeam(id)).filter((t) => t !== undefined);
+  const runnersUp = (season.runnerUpIds ?? []).map((id) => getTeam(id)).filter((t) => t !== undefined);
 
   return (
     <>
       <PageHero
         eyebrow={
-          <Link href="/temporadas" className="hover:text-white">
-            ← Temporadas
+          <Link href={isCup ? "/copas" : "/temporadas"} className="hover:text-white">
+            {isCup ? "← Copas nacionales" : "← Temporadas"}
           </Link>
         }
-        title={`Temporada ${seasonLabel(season)}`}
+        title={seasonTitle(season)}
       >
         <p>{season.summary}</p>
       </PageHero>
@@ -52,19 +56,32 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
           <Fact label="Torneo">{season.tournament}</Fact>
           <Fact label="Organizó">{season.organizer}</Fact>
           <Fact label={champions.length > 1 ? "Campeones" : "Campeón"}>
+            {champions.length === 0 && <span className="text-navy-500">Sin campeón</span>}
             <span className="flex flex-wrap items-center gap-x-4 gap-y-2">
               {champions.map((t) => (
                 <span key={t.id} className="flex items-center gap-2">
                   <Crest team={t} size="sm" />
-                  <span className="font-display text-lg font-bold uppercase tracking-wide">{t.name}</span>
+                  <span className="font-display text-lg font-bold uppercase tracking-wide">{seasonNameOf(season, t.id) ?? t.name}</span>
                 </span>
               ))}
             </span>
+            {runnersUp.length > 0 && (
+              <span className="mt-1.5 flex items-center gap-1.5 text-xs font-medium text-navy-500">
+                Finalista:
+                {runnersUp.map((t) => (
+                  <span key={t.id} className="flex items-center gap-1.5 font-semibold text-navy-700">
+                    <Crest team={t} size="xs" />
+                    {seasonNameOf(season, t.id) ?? t.name}
+                  </span>
+                ))}
+              </span>
+            )}
           </Fact>
         </dl>
       </div>
 
       <main className="mx-auto max-w-5xl space-y-8 px-4 py-8 sm:px-6">
+        {showTable && (
         <section>
           <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
             <h2 className="section-title">Tabla final de posiciones</h2>
@@ -164,6 +181,7 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
             {season.pointAdjustments?.map((a) => ` ${getTeam(a.teamId)?.name ?? a.teamId}: ${a.points} puntos (${a.reason})`).join("")}
           </p>
         </section>
+        )}
 
         {season.notes.length > 0 && (
           <section>
@@ -176,7 +194,13 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
 
         <section>
           <h2 className="section-title mb-3">Partidos ({matches.length})</h2>
-          <MatchList matches={matches} groupByYear={false} />
+          {isCup && (
+            <p className="mb-3 text-sm text-navy-500">
+              Todos los partidos de la copa, por fase y en el orden de la fuente. La final se controla contra el índice de
+              copas de RSSSF, y se verifica que ningún equipo eliminado vuelva a jugar.
+            </p>
+          )}
+          <MatchList matches={matches} groupBy={isCup ? "stage" : "none"} linkSeason={false} />
         </section>
 
         <section>
@@ -196,7 +220,7 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
           {prev ? (
             <Link href={`/temporadas/${prev.slug}`} className="panel px-4 py-3 transition hover:border-navy-300">
               <div className="text-xs uppercase tracking-wider text-navy-400">Anterior</div>
-              <div className="font-display text-2xl font-bold text-navy-900">← {seasonLabel(prev)}</div>
+              <div className="font-display text-2xl font-bold text-navy-900">← {navLabel(prev)}</div>
             </Link>
           ) : (
             <span />
@@ -204,7 +228,7 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
           {next && (
             <Link href={`/temporadas/${next.slug}`} className="panel px-4 py-3 text-right transition hover:border-navy-300">
               <div className="text-xs uppercase tracking-wider text-navy-400">Siguiente</div>
-              <div className="font-display text-2xl font-bold text-navy-900">{seasonLabel(next)} →</div>
+              <div className="font-display text-2xl font-bold text-navy-900">{navLabel(next)} →</div>
             </Link>
           )}
         </nav>

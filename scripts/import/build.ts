@@ -1,12 +1,14 @@
 // Importa temporadas de RSSSF, las verifica y escribe lib/data/seasons/generated/<slug>.json.
 //   npx tsx scripts/import/build.ts 1897 1898   (o sin argumentos para todas las configuradas)
 // Frena con error si la tabla calculada no coincide con la publicada o si hay nombres sin identificar.
-import { mkdirSync, readdirSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type { Match, Season, TableRow } from "../../lib/types";
 import { computeTable, rawTableDiffs, verifySeason } from "../../lib/seasons";
+import { getTeam } from "../../lib/teams";
 import { resolveName, setLocalAliases } from "./aliases";
 import { TOURNAMENTS, type TournamentConfig } from "./config";
+import { CUP_TOURNAMENTS } from "./config-cups";
 import { fetchPage, parseSeason, type RawMatch, type RawSection } from "./rsssf-parse";
 import { compareWithWikipedia } from "./wiki";
 
@@ -28,6 +30,9 @@ function parseDate(raw: string, year: number, prevMonth: number): { iso: string;
   if (!explicit && prevMonth >= 9 && month <= 3) y = year + 1;
   return { iso: `${y}-${String(month).padStart(2, "0")}-${String(Number(m[2])).padStart(2, "0")}`, month };
 }
+
+// "Dec 26" → "26/12".
+const esDate = (s: string) => s.replace(/^([A-Za-z]{3})[a-z]*\.? (\d{1,2})$/, (x, mo: string, d: string) => (MONTHS[mo.toLowerCase()] ? `${Number(d)}/${MONTHS[mo.toLowerCase()]}` : x));
 
 // Traduce las notas habituales de RSSSF. Lo que no se reconoce queda citado en inglés para revisión.
 export function translateNote(
@@ -57,18 +62,45 @@ export function translateNote(
   };
   const parts = note
     .replace(/^\[|\]$/g, "")
+    .replace(/\baet( \d+)?,\s*/gi, "aet$1; ")
+    .replace(/\bwalk ?over,\s*/gi, "walkover; ")
+    // "abandoned at 52m, score stood on Dec 26, Independiente, Avellaneda": cada dato por separado, y la cancha al final.
+    .replace(/\b(abandoned at \d+m?|abd at \d+:\d+ in \d+m?|score stood on [A-Z][a-z]{2} \d{1,2}|disen?r+olled on [A-Z][a-z]{2} \d{1,2}),\s*/gi, "$1; ")
     // "not continued, Banfield won points" → dos partes; "on Aug 19, Sportsman won points" → sin la fecha.
     .replace(/,\s*([^,\]]+ (?:won|lost) (?:the )?points)/gi, "; $1")
     .replace(/\bon [A-Z][a-z]{2} \d{1,2}(?:, \d{4})?,\s*(?=[^,\]]+ (?:won|lost) (?:the )?points)/g, "")
-    .split(/\]\s*\[|;\s*|,\s*(?=(?:aet|lasted|at|annulled|abandoned|suspended|played|awarded|n\/p)\b)/i)
+    // "HT, score stood" va junto (lo traduce una sola regla); "see Jul 17", "remaining 49 on…" e "in extra time…" van aparte.
+    .split(/\]\s*\[|;\s*|,\s*(?=(?:aet|asdet|lasted|at|annulled|abandoned|suspended|played|awarded|n\/p|see|remaining|in extra time)\b)|(?<!HT),\s*(?=score stood\b)/i)
     .map((p) => p.replace(/[\[\]]/g, "").trim())
     .filter(Boolean);
   for (const p of parts) {
     let m: RegExpMatchArray | null;
-    if ((m = p.match(/^at (.+)$/i))) {
+    // Partidos suspendidos que se completaron otro día: "remaining 15 on Dec 21", "remaining 24m on Jan 6 but Vélez not showed up".
+    if ((m = p.match(/^remaining (\d+)m? on ([A-Z][a-z]{2} \d{1,2})(?: but (.+?) not showed up)?(?: at (.+?))?(?:, [BC])?\.?$/))) {
+      const club = m[3] ? resolveName(m[3], year) : null;
+      out.text.push(
+        m[3]
+          ? `Para jugar los ${m[1]} minutos restantes (${esDate(m[2])}) ${club ? club.as ?? club.name : m[3]} no se presentó, y quedó el resultado.`
+          : `Los ${m[1]} minutos restantes se jugaron el ${esDate(m[2])}${m[4] ? ` (${m[4]})` : ""}.`,
+      );
+    } else if ((m = p.match(/^abandoned at (\d+):(\d+) in (\d+)m? at (.+)$/i))) {
+      const club = resolveName(m[4], year);
+      out.text.push(`Suspendido a los ${m[3]} minutos, con ${m[1]}-${m[2]} (en cancha de ${club ? club.as ?? club.name : m[4]}).`);
+    } else if (/^incidents$/i.test(p)) out.text.push("Hubo incidentes (ver notas de la temporada).");
+    else if ((m = p.match(/^at ([^,]+), ([^,]+)$/i))) {
+      // Tie Cup: "at Lomas AC, Lomas de Zamora" (cancha de un club y lugar) o "at Plaza Jewell, Rosario".
+      const club = resolveName(m[1], year, true);
+      const name = club ? `Cancha de ${club.as ?? club.name}` : m[1];
+      // "Cancha de Albion (Uruguay), Paso del Molino" en lugar de dos paréntesis seguidos.
+      out.venue = name.includes("(") ? `${name}, ${m[2]}` : `${name} (${m[2]})`;
+    } else if ((m = p.match(/^at (.+)$/i))) {
       const club = resolveName(m[1].replace(/\s*\(.*\)$/, ""), year);
-      out.venue = club ? `Cancha de ${club.as ?? club.name}` : `Cancha de ${m[1]}`;
+      // "at Rosario", "at Campana" (y "at Palermo" antes de que existiera el club): la ciudad o el barrio.
+      if (club) out.venue = `Cancha de ${club.as ?? club.name}`;
+      else out.venue = /^(Rosario|Campana|Palermo)$/.test(m[1]) ? m[1] : `Cancha de ${m[1]}`;
     } else if (/^aet$/i.test(p)) out.text.push("Con alargue.");
+    else if (/^asdet$/i.test(p)) out.text.push("Con alargue y gol de oro.");
+    else if (/^abandoned$/i.test(p)) out.text.push("Suspendido.");
     else if (/^\d+\s*[:\-]\s*\d+,?\s*annulled$/i.test(p)) out.annulled = true;
     else if ((m = p.match(/^(?:aet, )?lasted (\d+)m?(?:\s*\+\s*(\d+)m?)?$/i)))
       out.text.push(m[2] ? `Duró ${m[1]} minutos más ${m[2]} de alargue.` : `Duró ${m[1]} minutos.`);
@@ -94,7 +126,7 @@ export function translateNote(
     else if (/^awarded by W\.?O\.?$/i.test(p)) continue;
     else if ((m = p.match(/^(?:abandoned|suspended) at (\d+)\s*[:\-]\s*(\d+) in (\d+)'?m?$/i)))
       out.text.push(`Suspendido a los ${m[3]} minutos, con ${m[1]}-${m[2]}.`);
-    else if (resolveName(p, year)) out.venue = `Cancha de ${resolveName(p, year)!.as ?? resolveName(p, year)!.name}`;
+    else if (resolveName(p, year, true)) out.venue = `Cancha de ${resolveName(p, year, true)!.as ?? resolveName(p, year, true)!.name}`;
     else if (/^[A-ZÁÉÍÓÚ][\wáéíóúñ.'-]*(?: (?:de |del |la )?[A-ZÁÉÍÓÚ][\wáéíóúñ.'-]*){0,3}$/.test(p)) out.venue = p;
     else if (/^(neutral|neutral ground)$/i.test(p)) out.text.push("Cancha neutral.");
     else if ((m = p.match(/^([A-ZÁÉÍÓÚa-záéíóúñ .'-]+), ([BC])$/))) out.venue = `${m[1]} (${m[2] === "C" ? "Capital" : "Bs. As."})`;
@@ -129,7 +161,7 @@ export function translateNote(
     } else if ((m = p.match(/^(.+?) abandoned in (\d+)'?$/i))) {
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} abandonó la cancha a los ${m[2]} minutos.`);
-    } else if ((m = p.match(/^abandoned in (\d+)'?$/i))) out.text.push(`Suspendido a los ${m[1]} minutos.`);
+    } else if ((m = p.match(/^abandoned in (\d+)'?m?(?: HT)?$/i))) out.text.push(`Suspendido a los ${m[1]} minutos.`);
     else if ((m = p.match(/^abandoned in (\d+)'?, not defined$/i))) {
       out.text.push(`Suspendido a los ${m[1]} minutos y nunca se definió: no suma.`);
       out.annulled = true;
@@ -163,9 +195,58 @@ export function translateNote(
       out.text.push(`Un primer partido (${m[1]}-${m[2]}) se anuló; este es el que se jugó de nuevo el ${m[3]}.`);
     else if ((m = p.match(/^(?:abandoned|suspended) at (\d+)\s*:\s*(\d+) in (\d+)m?, remaining (\d+) on (.+)$/i)))
       out.text.push(`Suspendido a los ${m[3]} minutos con ${m[1]}-${m[2]}; los ${m[4]} minutos restantes se jugaron el ${m[5]}.`);
+    // Copas: "aet 135" (alargue largo hasta el gol de oro), "walk over", "Racing, Avellaneda".
+    else if ((m = p.match(/^aet (\d+)m?$/i))) out.text.push(`Con alargue; duró ${m[1]} minutos.`);
+    else if ((m = p.match(/^in extra time as regular time ended (\d+)-(\d+)$/i)))
+      out.text.push(`Se definió en el alargue: los 90 minutos terminaron ${m[1]}-${m[2]}.`);
+    else if ((m = p.match(/^abd at (\d+):(\d+) in (\d+)m?$/i))) out.text.push(`Suspendido a los ${m[3]} minutos, con ${m[1]}-${m[2]}.`);
+    else if ((m = p.match(/^score stood(?: on (.+))?$/i))) out.text.push(`La liga dio por bueno el resultado${m[1] ? ` (${esDate(m[1])})` : ""}.`);
+    else if ((m = p.match(/^(.+?) disen?r+olled on (.+)$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`${club ? club.as ?? club.name : m[1]} se desafilió el ${esDate(m[2])} y perdió el partido.`);
+    }
+    else if (/^walk ?over$/i.test(p)) out.text.push("El rival no se presentó.");
+    else if ((m = p.match(/^(not played|n\/p), (.+)$/i))) out.text.push("No se jugó.");
+    // Copas: "Racing, Avellaneda" o "GEBA, Palermo" (cancha y lugar, tal como lo da la fuente).
+    else if ((m = p.match(/^([^,]+), ([A-ZÁÉÍÓÚ][^,]+?)\)*$/)) && !/\d/.test(p)) out.venue = `${m[1]} (${m[2]})`;
     else out.unknown.push(p);
   }
   return out;
+}
+
+// Fases de copa en español, con la región del cuadro cuando la hay ("Rosario · Primera ronda").
+function cupStageOf(raw: RawMatch): string | undefined {
+  const r = (raw.round ?? "").replace(/:$/, "").trim();
+  const table: [RegExp, string][] = [
+    [/preliminary/i, "Ronda preliminar"],
+    [/1\/16/, "Dieciseisavos de final"],
+    [/1\/8|eighth/i, "Octavos de final"],
+    [/first round|round 1\b|1st round/i, "Primera ronda"],
+    [/second round|round 2\b|2nd round/i, "Segunda ronda"],
+    [/third round|round 3\b|3rd round/i, "Tercera ronda"],
+    [/fourth round|round 4\b/i, "Cuarta ronda"],
+    [/quarter/i, "Cuartos de final"],
+    [/semi/i, "Semifinal"],
+    [/third (place|position)/i, "Tercer puesto"],
+    [/final/i, "Final"],
+    [/replay|playoff|play-off/i, "Desempate"],
+    [/group\s+([a-z])\b/i, "Grupo $1"],
+    [/zona? (norte|sur)/i, "Zona $1"],
+  ];
+  let stage: string | undefined;
+  for (const [re, label] of table) {
+    const m = r.match(re);
+    if (m) {
+      stage = label.replace("$1", (m[1] ?? "").replace(/^./, (c) => c.toUpperCase()));
+      break;
+    }
+  }
+  if (!stage && r) stage = r;
+  // "Final Phase" (Tie Cup): semifinales y final entre los ganadores de cada región; no lleva prefijo.
+  if (/^Final Phase$/i.test(raw.region ?? "")) return stage;
+  const region = raw.region?.replace(/^Porteños?$/i, "Buenos Aires").replace(/^Rosarios?$/i, "Rosario").replace(/^National$/i, "Fase nacional");
+  if (region && stage && stage !== "Final" && !/nacional/i.test(stage)) return `${region} · ${stage}`;
+  return stage ?? region;
 }
 
 function stageOf(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
@@ -190,14 +271,23 @@ function stageOf(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
 export async function buildTournament(cfg: TournamentConfig): Promise<{ season: Season; problems: string[]; warnings: string[] }> {
   const problems: string[] = [];
   const warnings: string[] = [];
-  const sections = parseSeason(await fetchPage(cfg.file));
+  const sections = parseSeason(await fetchPage(cfg.file), { cup: cfg.kind === "cup" });
   // Por título: entre las secciones que coinciden, la que tiene más partidos (a veces el título se repite).
-  const section: RawSection | undefined =
+  let section: RawSection | undefined =
     typeof cfg.section === "number"
       ? sections[cfg.section]
       : sections
           .filter((s) => (cfg.section as RegExp | undefined)?.test(s.heading) ?? s.matches.length > 0)
           .sort((a, b) => b.matches.length - a.matches.length)[0];
+  // Copas con cada zona en su propia sección: se juntan; la sección da la fase si el partido no la tiene.
+  if (cfg.allSections) {
+    section = {
+      heading: sections.map((s) => s.heading).join(" / "),
+      tables: sections.flatMap((s) => s.tables),
+      text: sections.flatMap((s) => s.text),
+      matches: sections.flatMap((s) => s.matches.map((m) => ({ ...m, round: m.round ?? s.heading }))),
+    };
+  }
   if (!section) throw new Error(`${cfg.slug}: no encontré la sección`);
 
   const matches: Match[] = [];
@@ -210,6 +300,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
 
   for (const raw of section.matches) {
     if (cfg.skip?.(raw) || raw.round === "friendly") continue;
+    if (cfg.edition && raw.edition && raw.edition !== cfg.edition) continue;
     // Frases de las notas que el parser confundió con partidos ("NB: The abandoned River Plate 1:3 ...").
     const prose = (s: string) =>
       /^NB\b|^\.|^Then\b|[:;]|\(\d+m\)|\bis not included\b|, and,|\blater\b|\bstanding\b|\bor$|\.$/i.test(s) || s.length > 45;
@@ -220,12 +311,14 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     if (!away) unknownNames.add(raw.away);
     if (!home || !away) continue;
 
-    const d = parseDate(raw.date, cfg.year, prevMonth);
+    // Copas viejas sin fecha de partido: queda el año solo (se muestra "fecha sin datos"), nunca una fecha inventada.
+    const d = !raw.date.trim() && cfg.kind === "cup" ? { iso: String(cfg.year), month: prevMonth } : parseDate(raw.date, cfg.year, prevMonth);
     if (!d) {
       problems.push(`L${raw.line}: fecha ilegible "${raw.date}" (${raw.home} - ${raw.away})`);
       continue;
     }
     prevMonth = d.month;
+    if (cfg.excludeTeams?.some((t) => t === home.id || t === away.id)) continue;
     const ovKey = `${d.iso} ${home.id} ${away.id}`;
     const ov = cfg.overrides?.[ovKey];
     if (ov) usedOverrides.add(ovKey);
@@ -233,7 +326,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     const note = translateNote(raw.note, cfg.year);
     if (note.unknown.length && !ov?.note) warnings.push(`L${raw.line} ${raw.home}-${raw.away}: nota sin traducir: ${note.unknown.join(" | ")}`);
 
-    const { stage, phase } = stageOf(raw);
+    const { stage, phase } = cfg.kind === "cup" ? { stage: cupStageOf(raw), phase: "cup" as const } : stageOf(raw);
     const m: Match = {
       id: `${cfg.slug}-${String(++n).padStart(3, "0")}`,
       date: d.iso,
@@ -373,6 +466,10 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     }
   }
   for (const extra of cfg.extraMatches ?? []) matches.push({ sources: ["rsssf"], competition: cfg.competition, ...extra } as Match);
+  if (cfg.finalIsLast) {
+    const last = [...matches].filter((m) => m.status !== "annulled").sort((a, b) => a.date.localeCompare(b.date)).pop();
+    if (last) last.stage = "Final";
+  }
 
   if (unknownNames.size) problems.push(`Nombres sin identificar: ${[...unknownNames].join(", ")}`);
   if (notPlayed) warnings.push(`${notPlayed} partidos del fixture figuran como no jugados`);
@@ -398,16 +495,22 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
 
   const season: Season = {
     slug: cfg.slug,
+    ...(cfg.kind && { kind: cfg.kind }),
+    ...(cfg.runnerUpIds && { runnerUpIds: cfg.runnerUpIds }),
     year: cfg.year,
     ...(cfg.league && { league: cfg.league }),
     title: cfg.title,
     tournament: cfg.tournament,
     organizer: cfg.organizer,
     championIds: cfg.championIds,
-    summary: cfg.summary,
+    summary: cfg.summary || cupSummary(cfg, matches),
     pointsPerWin: cfg.pointsPerWin ?? 2,
-    sources: [{ label: `RSSSF – Argentina ${cfg.year}`, url: `https://www.rsssf.org/tablesa/${cfg.file}` }, ...(cfg.wiki ? [{ label: `Wikipedia – ${cfg.wiki}`, url: `https://es.wikipedia.org/wiki/${encodeURIComponent(cfg.wiki.replace(/ /g, "_"))}` }] : [])],
-    notes: cfg.notes,
+    sources: [{ label: cfg.kind === "cup" ? `RSSSF – ${cfg.title}` : `RSSSF – Argentina ${cfg.year}`, url: cfg.sourceUrl ?? `https://www.rsssf.org/tablesa/${cfg.file}` }, ...(cfg.wiki ? [{ label: `Wikipedia – ${cfg.wiki}`, url: `https://es.wikipedia.org/wiki/${encodeURIComponent(cfg.wiki.replace(/ /g, "_"))}` }] : [])],
+    notes: [
+      ...cfg.notes,
+      ...(cfg.reentry ? [{ kind: "dato" as const, text: cfg.reentry.note }] : []),
+      ...Object.values(cfg.listedWithoutMatches ?? {}).map((text) => ({ kind: "retiro" as const, text })),
+    ],
     ...(cfg.withdrawn && { withdrawn: cfg.withdrawn }),
     ...(cfg.pointAdjustments && { pointAdjustments: cfg.pointAdjustments }),
     publishedTable: cfg.publishedTable ?? publishedTable,
@@ -432,11 +535,131 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   }
 
   problems.push(...verifySeason(season).map((p) => `Tabla: ${p}`));
+  if (cfg.kind === "cup") {
+    const cup = verifyCup(season, cfg);
+    problems.push(...cup.problems);
+    warnings.push(...cup.warnings);
+    // Completitud: la lista de participantes de la página contra los equipos que tienen partidos.
+    const listed = participantsOf(section.text, cfg.year);
+    if (listed) {
+      const played = new Set(season.matches.flatMap((m) => [m.homeId, m.awayId]));
+      for (const id of listed.ids)
+        if (!played.has(id) && !cfg.listedWithoutMatches?.[id]) problems.push(`Participantes: ${id} figura en la lista y no tiene partidos`);
+      for (const id of played) if (!listed.ids.has(id)) warnings.push(`Participantes: ${id} tiene partidos y no figura en la lista`);
+      if (listed.unknown.length) warnings.push(`Participantes: nombres sin identificar en la lista: ${listed.unknown.join(", ")}`);
+      warnings.push(`Participantes: ${listed.ids.size} en la lista, ${played.size} con partidos`);
+    }
+  }
   const raw = rawTableDiffs(season).map((p) => p.split(" ")[0].replace(/:$/, "") + ":" + p.split(" ")[1]);
   const stale = (cfg.knownTableDiffs?.keys ?? []).filter((k) => !raw.includes(k));
   if (stale.length) problems.push(`Diferencias explicadas que ya no aparecen (revisar config): ${stale.join(", ")}`);
   return { season, problems, warnings };
 }
+
+// Lista "Participating teams:" de las páginas de copa: "Alumni Football Team      Buenos Aires".
+// Los nombres completos ambiguos ("Club Atlético Argentino", de Rosario) se identifican con la ciudad.
+function participantsOf(text: string[], year: number): { ids: Set<string>; unknown: string[] } | null {
+  const start = text.findIndex((l) => /^(Participating teams|Teams):?$/i.test(l));
+  if (start < 0) return null;
+  const ids = new Set<string>();
+  const unknown: string[] = [];
+  for (const line of text.slice(start + 1)) {
+    if (/^Club\s{2,}(Venue|City)/i.test(line)) continue;
+    if (/:$|rounds?$|^(Preliminary|First|1\/\d+|Quarter|Semi|Final|Playoff)\b|^Note/i.test(line)) break;
+    const cols = line.split(/\s{2,}/);
+    // A veces la ciudad va separada por un solo espacio ("Club Atlético Rosario Central Rosario"): se prueban prefijos.
+    const words = cols[0].split(" ");
+    const city = cols.slice(1).join(" ") || cols[0];
+    const cityHint = /Rosario/.test(city) ? " (Rosario)" : /La Plata/.test(city) ? " (La Plata)" : "";
+    let hit: ReturnType<typeof resolveName> = null;
+    for (let n = words.length; n > 0 && !hit; n--) {
+      const name = words.slice(0, n).join(" ");
+      hit = resolveName(name + cityHint, year) ?? resolveName(name, year) ?? resolveName(name.replace(/^Club Atl[eé]t?ico /, ""), year);
+    }
+    if (hit) ids.add(hit.id);
+    else unknown.push(line);
+  }
+  return { ids, unknown };
+}
+
+// Resumen de una copa a partir de su final, cuando la configuración no trae uno propio.
+function cupSummary(cfg: TournamentConfig, matches: Match[]): string {
+  const name = (id: string) => {
+    const r = resolveName(id, cfg.year);
+    return r?.name ?? id;
+  };
+  const final = matches.filter((m) => /^Final\b/.test(m.stage ?? "") && m.status !== "annulled").sort((a, b) => a.id.localeCompare(b.id)).pop();
+  const champ = cfg.championIds.map((id) => getTeam(id)?.name ?? name(id)).join(" y ");
+  if (!final) return `${champ} ganó la ${cfg.tournament}.`;
+  const rival = final.homeId === cfg.championIds[0] ? final.awayId : final.homeId;
+  const score = final.walkover
+    ? "por no presentación del rival"
+    : final.homeId === cfg.championIds[0]
+      ? `${final.homeGoals}-${final.awayGoals}`
+      : `${final.awayGoals}-${final.homeGoals}`;
+  const teams = new Set(matches.flatMap((m) => [m.homeId, m.awayId])).size;
+  return `${champ} ganó la ${cfg.tournament}: en la final le ganó ${score} a ${getTeam(rival)?.name ?? rival}. Participaron ${teams} equipos y se jugaron ${matches.length} partidos.`;
+}
+
+// Controles propios de las copas (no tienen tabla de liga):
+// 1. El ganador de la final es el campeón configurado, y el finalista el subcampeón.
+// 2. La final coincide con el índice de copas de RSSSF (argcuphist.html), un documento distinto a la página de la edición.
+// 3. En las rondas de eliminación, un equipo que perdió no vuelve a jugar después (salvo desempates y fases de grupos).
+function verifyCup(season: Season, cfg: TournamentConfig): { problems: string[]; warnings: string[] } {
+  const problems: string[] = [];
+  const warnings: string[] = [];
+  const counted = season.matches.filter((m) => m.status !== "annulled");
+  const finals = counted.filter((m) => /^Final\b/.test(m.stage ?? "")).sort((a, b) => a.id.localeCompare(b.id));
+  const final = finals[finals.length - 1];
+  if (cfg.abandoned) {
+    if (final) problems.push("Copa: está marcada como suspendida pero tiene final");
+  } else if (!final) problems.push("Copa: no encontré la final");
+  else {
+    const w = final.awardedTo ?? (final.homeGoals > final.awayGoals ? final.homeId : final.awayGoals > final.homeGoals ? final.awayId : null);
+    const loser = w === final.homeId ? final.awayId : final.homeId;
+    if (w !== season.championIds[0]) problems.push(`Copa: la final la ganó ${w ?? "nadie (empate)"}, pero el campeón configurado es ${season.championIds[0]}`);
+    if (cfg.runnerUpIds && loser !== cfg.runnerUpIds[0]) problems.push(`Copa: el finalista es ${loser}, no ${cfg.runnerUpIds[0]}`);
+    const idx = CUP_INDEX.get(`${cfg.file}|${cfg.year}`);
+    if (idx) {
+      const sc = final.walkover ? "wp:lp" : `${final.homeGoals}:${final.awayGoals}`;
+      const scRev = final.walkover ? "wp:lp" : `${final.awayGoals}:${final.homeGoals}`;
+      if (!idx.scores.some((s) => s === sc || s === scRev)) problems.push(`Copa: el índice de RSSSF da la final ${idx.raw}, y la página ${sc}`);
+      else warnings.push(`Copa: final confirmada por el índice de RSSSF (${idx.raw})`);
+    } else warnings.push("Copa: esta edición no figura en el índice de RSSSF");
+  }
+  if (!season.groups?.length && !season.publishedTable.length) {
+    // En el orden de la fuente (cronológico, y el único disponible cuando falta la fecha).
+    const eliminated = new Map<string, string>();
+    for (const m of [...counted].sort((a, b) => a.id.localeCompare(b.id))) {
+      for (const id of [m.homeId, m.awayId]) {
+        const out = eliminated.get(id);
+        const allowed = cfg.reentry && (!cfg.reentry.teams || cfg.reentry.teams.includes(id));
+        if (out && !allowed && !/Desempate/.test(m.stage ?? "")) problems.push(`Copa: ${id} quedó eliminado en ${out} y vuelve a jugar (${m.date}, ${m.stage ?? "sin fase"})`);
+      }
+      const w = m.awardedTo ?? (m.homeGoals > m.awayGoals ? m.homeId : m.awayGoals > m.homeGoals ? m.awayId : null);
+      if (w && !m.bothLost && !/Grupo|Zona/.test(m.stage ?? "")) eliminated.set(w === m.homeId ? m.awayId : m.homeId, `${m.date} ${m.homeId}-${m.awayId}`);
+    }
+  }
+  return { problems, warnings };
+}
+
+// Índice de copas de RSSSF: "archivo|año" → resultado(s) de la final (una página puede tener varias ediciones).
+const CUP_INDEX = (() => {
+  const map = new Map<string, { raw: string; scores: string[] }>();
+  try {
+    const buf = readFileSync(join(process.cwd(), ".cache", "rsssf", "argcuphist.html"));
+    const html = buf.toString("utf8").includes("�") ? buf.toString("latin1") : buf.toString("utf8");
+    for (const m of html.matchAll(/<a href="(?:[^"#]*\/)?([^"#/]+\.html)[^"]*">(\d{4})<\/a>([^\n]*)/gi)) {
+      const line = m[3].replace(/<[^>]*>/g, "").replace(/&[a-z]+;/g, "x");
+      const scores = [...line.matchAll(/\b(\d+:\d+|wp:lp)\b/g)].map((x) => x[1]);
+      const key = `${m[1]}|${m[2]}`;
+      if (!map.has(key)) map.set(key, { raw: line.replace(/\s+/g, " ").trim(), scores });
+    }
+  } catch {
+    /* sin índice en caché: el control se saltea */
+  }
+  return map;
+})();
 
 // Índice de las temporadas generadas, importadas como JSON.
 function writeIndex() {
@@ -457,7 +680,10 @@ function writeIndex() {
 
 async function main() {
   const wanted = process.argv.slice(2);
-  const list = TOURNAMENTS.filter((t) => !wanted.length || wanted.some((w) => t.slug === w || String(t.year) === w));
+  // "copas" importa todas las copas; "copa-honor" todas las ediciones de esa copa.
+  const list = [...TOURNAMENTS, ...CUP_TOURNAMENTS].filter(
+    (t) => !wanted.length || wanted.some((w) => t.slug === w || String(t.year) === w || (w === "copas" && t.kind === "cup") || t.slug.startsWith(`${w}-`)),
+  );
   mkdirSync(OUT, { recursive: true });
   let failed = 0;
   for (const cfg of list) {

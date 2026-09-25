@@ -21,6 +21,10 @@ export type RawMatch = {
   line: number;
   date: string; // tal cual la fuente, ej. "May 3, Sun"
   round?: string;
+  // Copas: región del cuadro (Buenos Aires, Rosario, fase nacional).
+  region?: string;
+  // Páginas con varias ediciones (Copa Ibarguren): "Season 1913".
+  edition?: string;
   home: string;
   away: string;
   score: string; // "3:1", "wp:lp", "ann", "d:d", ...
@@ -49,6 +53,8 @@ export async function fetchPage(file: string): Promise<string> {
 const decode = (s: string) =>
   s
     .replace(/&nbsp;/g, " ")
+    // Apóstrofo de Windows-1252 (0x92) leído como latin1, y el tipográfico: "Buenos Aires’ rounds".
+    .replace(/[\u0092’]/g, "'")
     .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
@@ -72,10 +78,17 @@ function splitAway(rest: string): { away: string; note: string } {
   const bracket = rest.match(/^(.*?)\s*(\[.*)$/);
   if (bracket) return { away: bracket[1].trim(), note: bracket[2].trim() };
   const parts = rest.split(/\t+|\s{2,}/);
+  // Copas viejas: "Argentino de Quilmes at Sportiva (19 Aug)" con un solo espacio antes de la nota.
+  const inline = parts[0].match(/^(.*?)\s+(at\s.+|\(\d{1,2}\s+[A-Z][a-z]{2}\))$/);
+  if (inline) return { away: inline[1].trim(), note: [inline[2], ...parts.slice(1)].join(" ").trim() };
   return { away: parts[0].trim(), note: parts.slice(1).join(" ").trim() };
 }
 
-export function parseSeason(source: string): RawSection[] {
+// "9 Sep" → "Sep 9" (formato que entiende el importador).
+const dayFirst = (s: string) => s.replace(/^(\d{1,2})\s+([A-Z][a-z]{2})[a-z]*$/, "$2 $1");
+
+// `cup`: en las copas una fase o región sin fecha propia no hereda la de la anterior (queda sin fecha).
+export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSection[] {
   // Los títulos de sección a veces ocupan varias líneas: se aplanan a una sola.
   const html = source.replace(
     /<h([2-4])([^>]*)>([\s\S]*?)<\/h\1>/gi,
@@ -102,6 +115,9 @@ export function parseSeason(source: string): RawSection[] {
   let round: string | undefined;
   // Una vez que empieza una sección que no son partidos del torneo (discrepancias, la B), se ignora hasta el próximo título.
   let ignoring = false;
+  let region: string | undefined;
+  let edition: string | undefined;
+  let dateFromStage = false;
 
   lines.forEach((raw, i) => {
     const line = raw.replace(/\s+$/, "");
@@ -118,6 +134,7 @@ export function parseSeason(source: string): RawSection[] {
       round = undefined;
       date = "";
       ignoring = false;
+      region = undefined;
       return;
     }
     const t = line.match(TABLE_RE);
@@ -198,11 +215,43 @@ export function parseSeason(source: string): RawSection[] {
       cur.text.push(trimmed);
       return;
     }
-    const stage = trimmed.match(/^([A-Za-z ]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place)[A-Za-z ]*):?\s*(?:\[(.+)\])?\s*:?$/i);
+    // Páginas con varias ediciones: "Season 1913:" o "Season 1914 [Dec 6]:".
+    const ed = trimmed.match(/^Season (\d{4})\s*(?:\[(.+)\])?:?$/i);
+    if (ed) {
+      edition = ed[1];
+      round = undefined;
+      if (ed[2]) date = ed[2];
+      cur.text.push(trimmed);
+      return;
+    }
+    // Copas: la región del cuadro ("Buenos Aires rounds", "Rosarios rounds", "National rounds").
+    const regionMatch =
+      trimmed.match(/^(Buenos Aires|Porteños?|Rosarios?|Montevideo|National|Interior|Provincias?|La Plata)(?:'s?)?\s*(?:rounds?|zone)?:?$/i) ??
+      trimmed.match(/^(Final Phase):?$/i);
+    if (regionMatch) {
+      region = regionMatch[1];
+      if (opts.cup) date = "";
+      round = undefined;
+      cur.text.push(trimmed);
+      return;
+    }
+    const stage = trimmed.match(
+      /^([0-9/A-Za-z' -]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place|round|semi-?finals?|quarter-?finals?)[A-Za-z' -]*):?\s*(?:\[(.+)\]|(\d{1,2}\s+[A-Z][a-z]{2}))?\s*:?$/i,
+    );
     if (stage && trimmed.length < 60 && !/table|standings|positions\b/i.test(trimmed)) {
       round = stage[1].trim();
-      if (stage[2]) date = stage[2].trim();
+      const sd = stage[2] ?? (stage[3] && dayFirst(stage[3]));
+      // Una fecha puesta en el título de una fase vale solo para esa fase.
+      if (sd) date = sd.trim();
+      else if (dateFromStage || opts.cup) date = "";
+      dateFromStage = !!sd;
       cur.text.push(trimmed);
+      return;
+    }
+    // "[17 Jul, Sun]": día antes del mes.
+    const dm = trimmed.match(/^\[\s*(\d{1,2})\s+([A-Z][a-z]{2})[a-z]*,?[^\]]*\]$/);
+    if (dm) {
+      date = `${dm[2]} ${dm[1]}`;
       return;
     }
     const d = trimmed.match(DATE_RE) ?? trimmed.match(DATE_PLAIN_RE);
@@ -219,7 +268,19 @@ export function parseSeason(source: string): RawSection[] {
     if (m && !/^(No\.|Table|Note|Round)/i.test(m[1])) {
       const { away, note } = splitAway(m[3]);
       if (away && !/^\d/.test(away)) {
-        cur.matches.push({ line: i, date, round: ignoring ? "friendly" : round, home: m[1].trim(), away, score: m[2].replace(/\s/g, ""), note });
+        // Fecha propia del partido en la nota: "at Rosario  (27 May)".
+        const own = note.match(/\((\d{1,2})\s+([A-Z][a-z]{2})\)/);
+        cur.matches.push({
+          line: i,
+          date: own ? `${own[2]} ${own[1]}` : date,
+          round: ignoring ? "friendly" : round,
+          region,
+          edition,
+          home: m[1].trim(),
+          away,
+          score: m[2].replace(/\s/g, ""),
+          note: own ? note.replace(own[0], "").replace(/\s+/g, " ").trim() : note,
+        });
         return;
       }
     }

@@ -6,13 +6,39 @@ export { SEASONS };
 
 export const getSeason = (slug: string) => SEASONS.find((s) => s.slug === slug);
 
-export const LOADED_YEARS = new Set(SEASONS.map((s) => s.year));
+export const LOADED_YEARS = new Set(SEASONS.filter((s) => s.kind !== "cup").map((s) => s.year));
+export const LEAGUE_SEASONS = SEASONS.filter((s) => s.kind !== "cup");
+export const CUP_SEASONS = SEASONS.filter((s) => s.kind === "cup");
 
 // Nombre para mostrar: "1919" o "1919 · AAm" cuando ese año hubo dos ligas.
 export const seasonLabel = (s: Season) => (s.league ? `${s.year} · ${s.league}` : String(s.year));
 
+// Título de la página: "Temporada 1919 · AAm" para las ligas, "Copa de Honor 1917" para las copas.
+export const seasonTitle = (s: Season) => (s.kind === "cup" ? s.title : `Temporada ${seasonLabel(s)}`);
+
+// Nombre de la copa sin el año: "Copa de Honor 1917" → "Copa de Honor".
+export const cupName = (s: Season) => s.title.replace(/\s+\d{4}$/, "");
+
+// Copas agrupadas por competición, en el orden en que aparecen, con sus ediciones de la más vieja a la más nueva.
+export const CUP_COMPETITIONS: { name: string; editions: Season[] }[] = [...new Set(CUP_SEASONS.map(cupName))].map(
+  (name) => ({ name, editions: CUP_SEASONS.filter((s) => cupName(s) === name).sort((a, b) => a.year - b.year) }),
+);
+
+// Anterior y siguiente dentro de la misma serie: las ligas entre sí y cada copa con sus propias ediciones.
+export function siblingsOf(season: Season): { prev?: Season; next?: Season } {
+  const list = season.kind === "cup" ? CUP_COMPETITIONS.find((c) => c.name === cupName(season))!.editions : LEAGUE_SEASONS;
+  const i = list.indexOf(season);
+  return { prev: list[i - 1], next: list[i + 1] };
+}
+
+// Partidos de copa en el orden de la fuente (cronológico; es el único orden posible cuando falta el día).
+export const sourceOrder = (a: Match, b: Match) => a.id.localeCompare(b.id);
+
 // Todos los partidos de las temporadas cargadas.
 export const SEASON_MATCHES: Match[] = SEASONS.flatMap((s) => s.matches);
+
+// Temporada de cada partido, para enlazarla desde el historial.
+export const SEASON_OF_MATCH = new Map<string, Season>(SEASONS.flatMap((s) => s.matches.map((m) => [m.id, s] as const)));
 
 // Nombre con el que el club jugó esa temporada, si era distinto al actual.
 export function seasonNameOf(season: Season, teamId: string): string | undefined {
@@ -35,7 +61,9 @@ export function computeTable(season: Season): TableRow[] {
 
   for (const m of season.matches) {
     if (m.status === "annulled") continue;
-    if (m.phase !== "league" && !(season.tableIncludesPlayoffs && m.phase === "playoff")) continue;
+    // En las copas, la tabla resumen suma todos los partidos (grupos, rondas y final).
+    const counts = season.kind === "cup" || m.phase === "league" || (season.tableIncludesPlayoffs && m.phase === "playoff");
+    if (!counts) continue;
     const home = row(m.homeId);
     const away = row(m.awayId);
     home.played++;
@@ -89,6 +117,8 @@ export function verifySeason(season: Season): string[] {
 }
 
 export function rawTableDiffs(season: Season): string[] {
+  // Copas sin tabla resumen publicada: no hay contra qué comparar (se controlan con verifyCup en el importador).
+  if (season.kind === "cup" && !season.publishedTable.length) return [];
   const computed = new Map(computeTable(season).map((r) => [r.teamId, r]));
   const problems: string[] = [];
   for (const pub of season.publishedTable) {

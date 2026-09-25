@@ -4,7 +4,7 @@ import Crest from "@/components/Crest";
 import PageHero from "@/components/PageHero";
 import { NoteTag } from "@/components/SeasonNotes";
 import { YEARS_WITHOUT_TOURNAMENT } from "@/lib/data/seasons";
-import { SEASONS, computeTable, seasonLabel, seasonNameOf, verifySeason } from "@/lib/seasons";
+import { LEAGUE_SEASONS as SEASONS, computeTable, seasonLabel, seasonNameOf, verifySeason } from "@/lib/seasons";
 import { getTeam } from "@/lib/teams";
 import type { NoteKind, Season } from "@/lib/types";
 

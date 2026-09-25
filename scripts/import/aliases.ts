@@ -121,6 +121,37 @@ const ALIASES: Alias[] = [
   { id: "gimnasia-ba", names: ["Gimnasia y Esgrima BA", "Gimnasia y Esgrima BUE", "Gimnasia y Esgrima (BA)", "Gimnasia y Esgrima de Buenos Aires", "Club de Gimnasia y Esgrima"] },
   { id: "river", names: ["River Plate", "CA River Plate", "Club Atlético River Plate", "River"] },
   { id: "racing", names: ["Racing Club", "Racing FC", "Racing Football Club", "Racing"] },
+  // Copas nacionales: equipos de La Plata con el nombre completo, y de Rosario y Santa Fe.
+  { id: "estudiantes", names: ["Estudiantes (La Plata)"] },
+  { id: "gimnasia", names: ["Gimnasia y Esgrima (La Plata)"] },
+  { id: "ferro", names: ["Ferro Carril Oeste de BA", "FCO"] },
+  { id: "columbian", names: ["Columbian FC", "Columbian Football Club", "Columbian Footbal Club"] },
+  { id: "sportivo-barracas", names: ["CS Barracas"] },
+  // Solo aparecen como canchas: "GEBA, Palermo", "CASI, San Isidro".
+  { id: "gimnasia-ba", names: ["GEBA"] },
+  { id: "san-isidro", names: ["CASI", "CAd San Isidro"] },
+  { id: "rosario-athletic", names: ["Rosario AC", "Rosario Athletic", "Rosario Athletic Club"] },
+  // "Argentino (R)" es el Club Atlético Argentino de Rosario, que en 1914 pasó a llamarse Gimnasia y Esgrima de Rosario.
+  { id: "gimnasia-rosario", names: ["Argentino (R)", "Argentino (Rosario)"], as: "Argentino (Rosario)", to: 1914 },
+  {
+    id: "gimnasia-rosario",
+    names: ["Gimnasia y Esgrima Rosario", "Gimnasia y Esgrima dR", "Gimnasia y Esgrima de Rosario", "Gimnasia y Esgrima (R)", "Club Gimnasia y Esgrima dR", "Club Gimnasia y Esgrima Rosario"],
+  },
+  { id: "provincial-rosario", names: ["Provincial", "Provincial (Rosario)"] },
+  { id: "tiro-federal-rosario", names: ["Tiro Federal", "Tiro Federal Argentino", "Tiro Fedreral Argentino", "Tiro Federal (Rosario)"] },
+  { id: "belgrano-rosario", names: ["Belgrano (Rosario)", "Belgrano de Rosario", "Belgrano (R)"] },
+  { id: "central-cordoba-rosario", names: ["Central Córdoba", "Central Córdoba (Rosario)", "Central Córdoba (R)"] },
+  { id: "sparta-rosario", names: ["Sparta", "Sparta (Rosario)"] },
+  // El actual Argentino de Rosario se llamó Club Atlético Nacional hasta 1934.
+  { id: "argentino-rosario", names: ["Nacional", "Nacional (Rosario)", "Nacional (R)"], as: "Nacional (Rosario)", from: 1913, to: 1933 },
+  { id: "rosario-puerto-belgrano", names: ["Rosario a Puerto Belgrano", "Rosario Puerto Belgrano"] },
+  { id: "union-santa-fe", names: ["Unión", "Unión (Santa Fe)", "Unión Santa Fe"] },
+  // Uruguayos (Copa Chevallier Boutell). "Nacional" a secas se resuelve con un alias local.
+  { id: "albion-uy", names: ["Albion FC", "Albion", "Albion Football Club"] },
+  { id: "curcc-uy", names: ["CURCC", "Central Uruguay Railway Cricket Club"] },
+  { id: "nacional-uy", names: ["Club Nacional de Football", "Nacional (Montevideo)"] },
+  { id: "deutscher-uy", names: ["Deutscher FK", "Deustcher FK", "Deutscher", "Deustcher"] },
+  { id: "wanderers-uy", names: ["Montevideo Wanderers", "Montevideo Wanderers FC", "Montevideo Wanderers Football Club", "Wanderers"] },
 ];
 
 const norm = (s: string) =>
@@ -128,6 +159,8 @@ const norm = (s: string) =>
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
     .replace(/[“”]/g, '"')
+    // Apóstrofos de Windows-1252 (0x92) y tipográficos: "Newell’s".
+    .replace(/[\u0092’`´]/g, "'")
     .replace(/\s+/g, " ")
     .trim()
     .toLowerCase();
@@ -138,7 +171,16 @@ export function setLocalAliases(aliases: Record<string, string> | undefined) {
   local = Object.fromEntries(Object.entries(aliases ?? {}).map(([k, v]) => [norm(k), v]));
 }
 
-export function resolveName(raw: string, year: number): { id: string; name: string; as?: string } | null {
+// `exact`: sin sacar la forma jurídica (las canchas: "Club Atlético de Flores" no es Flores Athletic).
+export function resolveName(raw: string, year: number, exact = false): { id: string; name: string; as?: string } | null {
+  const direct = resolveExact(raw, year);
+  if (direct || exact) return direct;
+  // Las páginas de copas anteponen la forma jurídica ("CA Boca Juniors", "CAd San Isidro", "Cd Gimnasia...").
+  const stripped = raw.replace(/^(CAd|CA|Cd|CS|CSD|SC|AA|AC|Club Atlético de|Club Atlético|Club de|Club)\s+/, "");
+  return stripped !== raw ? resolveExact(stripped, year) : null;
+}
+
+function resolveExact(raw: string, year: number): { id: string; name: string; as?: string } | null {
   const n = norm(raw);
   if (local[n]) {
     const team = getTeam(local[n]);

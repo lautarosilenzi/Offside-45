@@ -1,0 +1,228 @@
+{
+ "slug": "copa-honor-1911",
+ "kind": "cup",
+ "runnerUpIds": [
+  "porteno"
+ ],
+ "year": 1911,
+ "title": "Copa de Honor 1911",
+ "tournament": "Copa de Honor Municipalidad de Buenos Aires",
+ "organizer": "Argentine Football Association",
+ "championIds": [
+  "newells"
+ ],
+ "summary": "Newell's Old Boys ganó la Copa de Honor Municipalidad de Buenos Aires: en la final le ganó 3-2 a Porteño. Participaron 12 equipos y se jugaron 12 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa de Honor 1911",
+   "url": "https://www.rsssf.org/tablesa/arg-hon11.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Honor MCBA 1911",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Honor_MCBA_1911"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Eliminación directa a un partido. Si había empate se jugaba alargue y, si seguía igual, un desempate en otra fecha."
+  },
+  {
+   "kind": "formato",
+   "text": "El ganador jugaba después la Copa de Honor Cusenier contra el campeón de la Copa de Honor uruguaya. Esa final internacional no forma parte de esta copa."
+  },
+  {
+   "kind": "fuentes",
+   "text": "La copa se le reasignó en 1916 al ganador de la serie argentina de la Copa de Honor Cusenier."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-honor-1911-001",
+   "date": "1911-06-29",
+   "competition": "Copa de Honor",
+   "stage": "Ronda preliminar",
+   "phase": "cup",
+   "homeId": "belgrano-athletic",
+   "awayId": "provincial-rosario",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Belgrano Athletic",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "copa-honor-1911-002",
+   "date": "1911-06-29",
+   "competition": "Copa de Honor",
+   "stage": "Ronda preliminar",
+   "phase": "cup",
+   "homeId": "gimnasia-ba",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "GEBA (Palermo)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "copa-honor-1911-003",
+   "date": "1911-06-29",
+   "competition": "Copa de Honor",
+   "stage": "Ronda preliminar",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "walkover": true,
+   "awardedTo": "racing",
+   "note": "No se jugó: los puntos fueron para Racing Club. Suspendido a los 35 minutos, con 1-1. Resuelto por la liga (Jul 11, Racing, Avellaneda)."
+  },
+  {
+   "id": "copa-honor-1911-004",
+   "date": "1911-06-29",
+   "competition": "Copa de Honor",
+   "stage": "Ronda preliminar",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "venue": "Rosario",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "copa-honor-1911-005",
+   "date": "1911-07-16",
+   "competition": "Copa de Honor",
+   "stage": "Desempate",
+   "phase": "cup",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "CA Argentino (Rosario)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-honor-1911-006",
+   "date": "1911-07-30",
+   "competition": "Copa de Honor",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "provincial-rosario",
+   "awayId": "porteno",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "venue": "Newell's Old Boys (Rosario)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-honor-1911-007",
+   "date": "1911-07-30",
+   "competition": "Copa de Honor",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "venue": "Racing (Avellaneda)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-honor-1911-008",
+   "date": "1911-07-30",
+   "competition": "Copa de Honor",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Plaza Jewell (Rosario)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-honor-1911-009",
+   "date": "1911-07-30",
+   "competition": "Copa de Honor",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "san-isidro",
+   "awayId": "gimnasia-rosario",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "CASI (San Isidro)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-honor-1911-010",
+   "date": "1911-09-08",
+   "competition": "Copa de Honor",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "newells",
+   "awayId": "san-isidro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Newell's Old Boys (Parque Independencia)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-honor-1911-011",
+   "date": "1911-09-08",
+   "competition": "Copa de Honor",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "gimnasia-ba",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Independiente (Avellaneda)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-honor-1911-012",
+   "date": "1911-09-24",
+   "competition": "Copa de Honor",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "porteno",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "River Plate (Dársena Sud)",
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

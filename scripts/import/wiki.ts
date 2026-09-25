@@ -38,7 +38,7 @@ const clean = (s: string) =>
     .replace(/^[^|]*\|(?=[^|]*$)/, "")
     .trim();
 
-export type WikiRow = { home: string; away: string; hg: number | null; ag: number | null; raw: string };
+export type WikiRow = { home: string; away: string; hg: number | null; ag: number | null; raw: string; date?: string };
 
 // Filas de tablas de partidos: "Local | 3 - 1 | Visitante".
 export function wikiRows(text: string): WikiRow[] {
@@ -56,6 +56,15 @@ export function wikiRows(text: string): WikiRow[] {
       const num = (x: string) => (/^\d+$/.test(x) ? Number(x) : null);
       rows.push({ home: cells[i - 1], away: cells[i + 1], hg: num(sc[1]), ag: num(sc[2]), raw: cells.join(" | ") });
     }
+  }
+  // Copas: plantillas {{Partido |local = … |resultado = 2:0 |visita = … |fecha = …}}.
+  for (const t of text.matchAll(/\{\{\s*Partido\b([\s\S]*?)\n\}\}/gi)) {
+    const field = (k: string) => clean(t[1].match(new RegExp(String.raw`\|\s*${k}\s*=([^\n]*)`, "i"))?.[1] ?? "");
+    const sc = field("resultado").match(/(\d+)\s*[-–:]\s*(\d+)/);
+    const home = field("local").replace(/^\|/, "").trim();
+    const away = field("visita").replace(/^\|/, "").trim();
+    if (!home || !away) continue;
+    rows.push({ home, away, hg: sc ? Number(sc[1]) : null, ag: sc ? Number(sc[2]) : null, date: field("fecha") || undefined, raw: `${home} ${field("resultado")} ${away} (${field("fecha")})` });
   }
   return rows;
 }
@@ -116,15 +125,25 @@ export async function compareWithWikipedia(cfg: TournamentConfig, season: Season
   const unknown = new Set<string>();
   const confirmed = new Set<string>();
   const pending: { r: WikiRow; ids: [string, string] }[] = [];
-  for (const r of rows) {
-    const h = resolveName(r.home, cfg.year);
-    const a = resolveName(r.away, cfg.year);
+  for (const r0 of rows) {
+    let r = r0;
+    let h = resolveName(r.home, cfg.year);
+    let a = resolveName(r.away, cfg.year);
+    // En las copas Wikipedia a veces invierte local y visitante: se da vuelta la fila si así coincide.
+    if (cfg.kind === "cup" && h && a && !season.matches.some((m) => m.homeId === h!.id && m.awayId === a!.id)) {
+      if (season.matches.some((m) => m.homeId === a!.id && m.awayId === h!.id)) {
+        r = { ...r, home: r.away, away: r.home, hg: r.ag, ag: r.hg };
+        [h, a] = [a, h];
+      }
+    }
     if (!h || !a) {
       if (!h) unknown.add(r.home);
       if (!a) unknown.add(r.away);
       continue;
     }
     const candidates = season.matches.filter((m) => m.homeId === h.id && m.awayId === a.id);
+    for (const m of candidates)
+      if (r.date && /\d/.test(r.date) && m.date.length < 10) warnings.push(`Wikipedia da fecha "${r.date}" para ${m.homeId}-${m.awayId}, sin fecha completa en RSSSF (${m.date})`);
     if (!candidates.length) {
       warnings.push(`Wikipedia tiene ${r.home} ${r.hg ?? "?"}-${r.ag ?? "?"} ${r.away}, que no está en RSSSF`);
       continue;

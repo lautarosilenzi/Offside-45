@@ -1,0 +1,156 @@
+{
+ "slug": "copa-honor-1905",
+ "kind": "cup",
+ "runnerUpIds": [
+  "quilmes"
+ ],
+ "year": 1905,
+ "title": "Copa de Honor 1905",
+ "tournament": "Copa de Honor Municipalidad de Buenos Aires",
+ "organizer": "Argentine Football Association",
+ "championIds": [
+  "alumni"
+ ],
+ "summary": "Alumni ganó la Copa de Honor Municipalidad de Buenos Aires: en la final le ganó 1-0 a Quilmes. Participaron 8 equipos y se jugaron 7 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa de Honor 1905",
+   "url": "https://www.rsssf.org/tablesa/arg-hon05.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Honor MCBA 1905",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Honor_MCBA_1905"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Eliminación directa a un partido. Si había empate se jugaba alargue y, si seguía igual, un desempate en otra fecha."
+  },
+  {
+   "kind": "fuentes",
+   "text": "En 1905 no se entregó el trofeo; se le asignó a Alumni después."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-honor-1905-001",
+   "date": "1905-07-23",
+   "competition": "Copa de Honor",
+   "stage": "Ronda preliminar",
+   "phase": "cup",
+   "homeId": "belgrano-athletic",
+   "awayId": "barracas-athletic",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportiva",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "walkover": true,
+   "awardedTo": "belgrano-athletic",
+   "note": "No se jugó: los puntos fueron para Belgrano Athletic. El rival no se presentó."
+  },
+  {
+   "id": "copa-honor-1905-002",
+   "date": "1905-07-23",
+   "competition": "Copa de Honor",
+   "stage": "Ronda preliminar",
+   "phase": "cup",
+   "homeId": "estudiantes-ba",
+   "awayId": "alumni",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Palermo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-honor-1905-003",
+   "date": "1905-07-23",
+   "competition": "Copa de Honor",
+   "stage": "Ronda preliminar",
+   "phase": "cup",
+   "homeId": "quilmes",
+   "awayId": "lomas-athletic",
+   "homeGoals": 9,
+   "awayGoals": 0,
+   "venue": "Cancha de Quilmes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-honor-1905-004",
+   "date": "1905-07-23",
+   "competition": "Copa de Honor",
+   "stage": "Ronda preliminar",
+   "phase": "cup",
+   "homeId": "reformer",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 9,
+   "venue": "Campana",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-honor-1905-005",
+   "date": "1905-08-20",
+   "competition": "Copa de Honor",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "alumni",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Palermo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-honor-1905-006",
+   "date": "1905-08-20",
+   "competition": "Copa de Honor",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "quilmes",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Quilmes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "copa-honor-1905-007",
+   "date": "1905-08-30",
+   "competition": "Copa de Honor",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "alumni",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Sportiva",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue."
+  }
+ ]
+}

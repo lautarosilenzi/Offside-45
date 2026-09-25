@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { winnerOf } from "@/lib/matches";
+import { SEASON_OF_MATCH } from "@/lib/seasons";
 import { getTeam } from "@/lib/teams";
 import type { Match, Source } from "@/lib/types";
 import Crest from "./Crest";
@@ -11,26 +13,38 @@ const SOURCE_LABELS: Record<Source, string> = {
 
 const dayFmt = new Intl.DateTimeFormat("es-AR", { day: "2-digit", month: "short", timeZone: "UTC" });
 
-// Lista de partidos agrupada por año, en formato de marcador.
-export default function MatchList({ matches, groupByYear = true }: { matches: Match[]; groupByYear?: boolean }) {
-  const groups = new Map<string, Match[]>();
+// Lista de partidos en formato de marcador, agrupada por año (historial), por fase (copas) o sin agrupar.
+// En el historial cada partido enlaza a su temporada o copa.
+export default function MatchList({
+  matches,
+  groupBy = "year",
+  linkSeason = groupBy === "year",
+}: {
+  matches: Match[];
+  groupBy?: "year" | "stage" | "none";
+  linkSeason?: boolean;
+}) {
+  // Grupos consecutivos: en una copa la misma fase puede volver a aparecer más adelante (ej. un desempate por ronda).
+  const groups: { key: string; list: Match[] }[] = [];
   for (const m of matches) {
-    const key = groupByYear ? m.date.slice(0, 4) : "";
-    groups.set(key, [...(groups.get(key) ?? []), m]);
+    const key = groupBy === "year" ? m.date.slice(0, 4) : groupBy === "stage" ? (m.stage ?? "Partidos") : "";
+    const last = groups[groups.length - 1];
+    if (last?.key === key) last.list.push(m);
+    else groups.push({ key, list: [m] });
   }
 
   return (
     <div className="panel overflow-hidden">
-      {[...groups.entries()].map(([year, list]) => (
-        <div key={year}>
-          {groupByYear && (
+      {groups.map(({ key, list }, gi) => (
+        <div key={`${gi}-${key}`}>
+          {groupBy !== "none" && (
             <div className="border-b border-navy-100 bg-navy-50 px-4 py-1.5 font-display text-sm font-bold uppercase tracking-wider text-navy-600">
-              {year}
+              {key}
             </div>
           )}
           <ul className="divide-y divide-navy-100">
             {list.map((m) => (
-              <MatchRow key={m.id} match={m} />
+              <MatchRow key={m.id} match={m} linkSeason={linkSeason} showStage={groupBy !== "stage"} />
             ))}
           </ul>
         </div>
@@ -39,7 +53,7 @@ export default function MatchList({ matches, groupByYear = true }: { matches: Ma
   );
 }
 
-function MatchRow({ match }: { match: Match }) {
+function MatchRow({ match, linkSeason, showStage }: { match: Match; linkSeason: boolean; showStage: boolean }) {
   const home = getTeam(match.homeId);
   const away = getTeam(match.awayId);
   if (!home || !away) return null;
@@ -49,12 +63,25 @@ function MatchRow({ match }: { match: Match }) {
   const awarded = match.awardedTo ? getTeam(match.awardedTo) : undefined;
   const homeName = match.homeAs ?? home.name;
   const awayName = match.awayAs ?? away.name;
-  const date = new Date(match.date);
+  // Algunas copas viejas no tienen el día del partido: solo el año.
+  const dayKnown = match.date.length === 10;
+  const season = linkSeason ? SEASON_OF_MATCH.get(match.id) : undefined;
+  const head = season
+    ? season.kind === "cup"
+      ? season.title
+      : `Campeonato ${season.year}${season.league ? ` · ${season.league}` : ""}`
+    : linkSeason
+      ? match.competition
+      : null;
+  const context = [head, showStage ? match.stage : null]
+    .filter(Boolean)
+    .join(" · ");
 
   const tags: { label: string; tone: "amber" | "slate" }[] = [];
   if (annulled) tags.push({ label: "Anulado · no suma", tone: "amber" });
   if (match.bothLost) tags.push({ label: "No se jugó · perdido por ambos", tone: "amber" });
-  if (match.walkover && awarded) tags.push({ label: `No se jugó · puntos para ${awarded.name}`, tone: "amber" });
+  if (match.walkover && awarded)
+    tags.push({ label: match.phase === "cup" ? `No se jugó · pasó ${awarded.name}` : `No se jugó · puntos para ${awarded.name}`, tone: "amber" });
   else if (awarded) tags.push({ label: `Ganado por escritorio: ${awarded.name}`, tone: "slate" });
   if (match.scoreUnknown) {
     const w = winner === home.id ? homeName : winner === away.id ? awayName : null;
@@ -66,11 +93,19 @@ function MatchRow({ match }: { match: Match }) {
       <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-x-2 gap-y-2 sm:gap-x-3 sm:grid-cols-[7.5rem_1fr_auto_1fr]">
         <div className="col-span-3 flex items-baseline gap-2 text-xs text-navy-500 sm:col-span-1 sm:block">
           <time dateTime={match.date} className="font-display text-sm font-semibold uppercase text-navy-800">
-            {dayFmt.format(date).replace(".", "")} {match.date.slice(0, 4)}
+            {dayKnown ? dayFmt.format(new Date(match.date)).replace(".", "") : "Sin fecha"} {match.date.slice(0, 4)}
           </time>
-          <div className="truncate sm:mt-0.5" title={match.competition}>
-            {match.stage ?? match.competition}
-          </div>
+          {season ? (
+            <Link href={`/temporadas/${season.slug}`} className="line-clamp-2 hover:text-brand-500 hover:underline sm:mt-0.5" title={match.competition}>
+              {context}
+            </Link>
+          ) : (
+            context && (
+              <div className="line-clamp-2 sm:mt-0.5" title={match.competition}>
+                {context}
+              </div>
+            )
+          )}
         </div>
 
         <TeamSide name={homeName} today={match.homeAs ? home.name : undefined} team={home} won={winner === home.id} align="right" />

@@ -1,0 +1,161 @@
+{
+ "slug": "copa-honor-1912",
+ "kind": "cup",
+ "runnerUpIds": [
+  "newells"
+ ],
+ "year": 1912,
+ "title": "Copa de Honor 1912",
+ "tournament": "Copa de Honor Municipalidad de Buenos Aires",
+ "organizer": "Asociación Argentina de Football",
+ "championIds": [
+  "racing"
+ ],
+ "summary": "Racing Club ganó la Copa de Honor Municipalidad de Buenos Aires: en la final le ganó 3-0 a Newell's Old Boys. Participaron 8 equipos y se jugaron 7 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa de Honor 1912",
+   "url": "https://www.rsssf.org/tablesa/arg-hon12.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Honor MCBA 1912",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Honor_MCBA_1912"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Eliminación directa a un partido. Si había empate se jugaba alargue y, si seguía igual, un desempate en otra fecha."
+  },
+  {
+   "kind": "fuentes",
+   "text": "La fuente no da el día de algunos partidos: figuran con el año solo, sin fecha inventada."
+  },
+  {
+   "kind": "formato",
+   "text": "El ganador jugaba después la Copa de Honor Cusenier contra el campeón de la Copa de Honor uruguaya. Esa final internacional no forma parte de esta copa."
+  },
+  {
+   "kind": "fuentes",
+   "text": "La copa se le reasignó en 1916 al ganador de la serie argentina de la Copa de Honor Cusenier."
+  },
+  {
+   "kind": "retiro",
+   "text": "El partido preliminar entre Tiro Federal y Belgrano Athletic no se jugó: Tiro Federal había dejado la liga y Belgrano se retiró de la copa."
+  },
+  {
+   "kind": "retiro",
+   "text": "Belgrano Athletic se retiró de la copa sin jugar."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-honor-1912-001",
+   "date": "1912-10-20",
+   "competition": "Copa de Honor",
+   "stage": "Ronda preliminar",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "River Plate (Dársena Sur)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-honor-1912-002",
+   "date": "1912-10-20",
+   "competition": "Copa de Honor",
+   "stage": "Ronda preliminar",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "venue": "Rosario Central (Rosario)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "copa-honor-1912-003",
+   "date": "1912-11-01",
+   "competition": "Copa de Honor",
+   "stage": "Ronda preliminar",
+   "phase": "cup",
+   "homeId": "estudiantes-ba",
+   "awayId": "san-isidro",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Estudiantes (Palermo)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-honor-1912-004",
+   "date": "1912-11-10",
+   "competition": "Copa de Honor",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "gimnasia-rosario",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 7,
+   "venue": "Argentino (Rosario)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-honor-1912-005",
+   "date": "1912-11-10",
+   "competition": "Copa de Honor",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "Racing (Avellaneda)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-honor-1912-006",
+   "date": "1912-11-17",
+   "competition": "Copa de Honor",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "provincial-rosario",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 6,
+   "venue": "Argentino (Rosario)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-honor-1912-007",
+   "date": "1912",
+   "competition": "Copa de Honor",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Racing (Avellaneda)",
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

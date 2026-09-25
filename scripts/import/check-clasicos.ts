@@ -3,7 +3,8 @@ import { AMATEUR_MATCHES } from "../../lib/data/amateur";
 import { SEASON_MATCHES } from "../../lib/seasons";
 
 let ok = 0;
-for (const m of AMATEUR_MATCHES.filter((x) => x.competition === "Primera División")) {
+// Ligas y, desde que se importan, también las copas: se busca el mismo partido en cualquier temporada cargada.
+for (const m of AMATEUR_MATCHES) {
   const same = SEASON_MATCHES.filter(
     (s) => ((s.homeId === m.homeId && s.awayId === m.awayId) || (s.homeId === m.awayId && s.awayId === m.homeId)) && s.date.slice(0, 4) === m.date.slice(0, 4),
   );

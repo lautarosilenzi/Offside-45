@@ -83,6 +83,22 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["platense-retiro", "Platense (Retiro)", "PLR", "Platense (Retiro), después Universal; escindido del Club Atlético Platense"],
   // 1930
   ["honor-y-patria", "Honor y Patria", "HYP", "Club Honor y Patria"],
+  // Copas nacionales (1905–1925): clubes de Rosario y Santa Fe que jugaron la Copa de Honor, la de Competencia y la Ibarguren.
+  ["gimnasia-rosario", "Gimnasia y Esgrima (Rosario)", "GER", "Club Gimnasia y Esgrima de Rosario (hasta 1914, Club Atlético Argentino)"],
+  ["provincial-rosario", "Provincial (Rosario)", "PRV", "Club Atlético Provincial (Rosario)"],
+  ["tiro-federal-rosario", "Tiro Federal (Rosario)", "TFR", "Club Atlético Tiro Federal Argentino (Rosario)"],
+  ["belgrano-rosario", "Belgrano (Rosario)", "BER", "Club Atlético Belgrano (Rosario)"],
+  ["central-cordoba-rosario", "Central Córdoba (Rosario)", "CCR", "Club Atlético Central Córdoba (Rosario)"],
+  ["sparta-rosario", "Sparta (Rosario)", "SPR", "Club Atlético Sparta (Rosario)"],
+  ["argentino-rosario", "Argentino de Rosario", "ARO", "Club Atlético Argentino de Rosario (hasta 1934, Club Atlético Nacional)"],
+  ["rosario-puerto-belgrano", "Rosario Puerto Belgrano", "RPB", "Club Atlético Rosario Puerto Belgrano"],
+  ["union-santa-fe", "Unión (Santa Fe)", "USF", "Club Atlético Unión (Santa Fe)"],
+  // Clubes uruguayos que jugaron la Copa Chevallier Boutell (1900–1906), reconocida por la AFA como copa nacional.
+  ["albion-uy", "Albion (Uruguay)", "ALB", "Albion Football Club (Montevideo)"],
+  ["curcc-uy", "CURCC (Uruguay)", "CUR", "Central Uruguay Railway Cricket Club (Montevideo)"],
+  ["nacional-uy", "Nacional (Uruguay)", "NAU", "Club Nacional de Football (Montevideo)"],
+  ["deutscher-uy", "Deutscher FK (Uruguay)", "DFK", "Deutscher Fussball Klub (Montevideo)"],
+  ["wanderers-uy", "Montevideo Wanderers (Uruguay)", "MWA", "Montevideo Wanderers Football Club"],
 ];
 
 export const HISTORIC_CLUBS: Team[] = OTHER_CLUBS.map(([id, name, shortName, fullName]) => ({

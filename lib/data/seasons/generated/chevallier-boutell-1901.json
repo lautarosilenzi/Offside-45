@@ -1,0 +1,127 @@
+{
+ "slug": "chevallier-boutell-1901",
+ "kind": "cup",
+ "runnerUpIds": [
+  "rosario-athletic"
+ ],
+ "year": 1901,
+ "title": "Copa Chevallier Boutell 1901",
+ "tournament": "Copa de Competencia Chevallier Boutell (Cup Tie Competition)",
+ "organizer": "Argentine Association Football League",
+ "championIds": [
+  "alumni"
+ ],
+ "summary": "Alumni ganó la Copa de Competencia Chevallier Boutell (Cup Tie Competition): en la final le ganó 2-1 a Rosario Athletic. Participaron 7 equipos y se jugaron 6 partidos.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Chevallier Boutell 1901",
+   "url": "https://www.rsssf.org/sacups/argurucuptie.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Dos semifinalistas salían del cuadro de Buenos Aires, uno de Rosario y uno de Montevideo (los uruguayos jugaban como invitados). Las semifinales se jugaban en Rosario y en Montevideo, y la final siempre en Buenos Aires."
+  },
+  {
+   "kind": "identidad",
+   "text": "La AFA reconoce como copa nacional de Primera las ediciones 1900–1906. Desde 1907 la fase argentina pasó a ser la Copa de Competencia Jockey Club y la final se volvió internacional."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "chevallier-boutell-1901-001",
+   "date": "1901-06-09",
+   "competition": "Copa Chevallier Boutell",
+   "stage": "Buenos Aires",
+   "phase": "cup",
+   "homeId": "belgrano-athletic",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Lomas Athletic (Lomas de Zamora)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "chevallier-boutell-1901-002",
+   "date": "1901-06-29",
+   "competition": "Copa Chevallier Boutell",
+   "stage": "Buenos Aires",
+   "phase": "cup",
+   "homeId": "alumni",
+   "awayId": "lomas-athletic",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Quilmes (Quilmes)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "chevallier-boutell-1901-003",
+   "date": "1901-06-30",
+   "competition": "Copa Chevallier Boutell",
+   "stage": "Montevideo",
+   "phase": "cup",
+   "homeId": "curcc-uy",
+   "awayId": "albion-uy",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Deutscher FK (Uruguay), Parque Central",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "chevallier-boutell-1901-004",
+   "date": "1901-07-18",
+   "competition": "Copa Chevallier Boutell",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "curcc-uy",
+   "awayId": "alumni",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Parque Central (Montevideo)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "chevallier-boutell-1901-005",
+   "date": "1901-08-11",
+   "competition": "Copa Chevallier Boutell",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "rosario-athletic",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "venue": "Plaza Jewell (Rosario)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "chevallier-boutell-1901-006",
+   "date": "1901-08-25",
+   "competition": "Copa Chevallier Boutell",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "alumni",
+   "awayId": "rosario-athletic",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Lomas Athletic (Lomas de Zamora)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue."
+  }
+ ]
+}

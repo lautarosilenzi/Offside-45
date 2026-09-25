@@ -4,9 +4,29 @@ import type { RawMatch } from "./rsssf-parse";
 
 export type TournamentConfig = {
   slug: string;
+  // Copa nacional: fases de eliminación, sin tabla de liga (salvo la tabla resumen que publique RSSSF).
+  kind?: "cup";
+  // Copas cuyas zonas vienen en secciones separadas de la página: se juntan todas.
+  allSections?: boolean;
+  runnerUpIds?: string[];
+  // Páginas con varias ediciones: solo los partidos de esta ("Season 1913" en la Copa Ibarguren, o la sección "1905").
+  edition?: string;
+  // Copas sin fases marcadas (Ibarguren): el último partido es la final.
+  finalIsLast?: boolean;
+  // Partidos que no son de la copa nacional (ej. la final internacional de la Cup Tie contra un equipo uruguayo).
+  excludeTeams?: string[];
+  // Copa suspendida antes de la final (sin campeón): se cargan los partidos jugados y no se busca la final.
+  abandoned?: boolean;
+  // Equipos eliminados que vuelven a jugar (cuadro rearmado en 1920, o un caso sin explicar en la fuente). Sin `teams`, vale para todos.
+  // La explicación se agrega a las notas de la temporada.
+  reentry?: { teams?: string[]; note: string };
+  // Inscriptos que no llegaron a jugar (club → explicación, que va a las notas).
+  listedWithoutMatches?: Record<string, string>;
   year: number;
   league?: string;
   file: string;
+  // URL de la página en RSSSF cuando no está en tablesa/ (la Tie Cup está en sacups/).
+  sourceUrl?: string;
   // Sección de la página (por título) o índice. Por defecto, la primera con partidos.
   section?: RegExp | number;
   // Tabla publicada a usar; con varias (zonas) se concatenan y groupNames les pone nombre.

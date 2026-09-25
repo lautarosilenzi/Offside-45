@@ -41,6 +41,10 @@ export type SeasonNote = { kind: NoteKind; text: string };
 export type Season = {
   // Identificador en la URL: el año, o año + liga cuando hubo dos campeonatos (ej. "1919-aam").
   slug: string;
+  // "cup": copa nacional (eliminación directa o grupos + eliminación). Por defecto, liga.
+  kind?: "league" | "cup";
+  // Copas: finalista (subcampeón).
+  runnerUpIds?: string[];
   year: number;
   title: string;
   // Nombre corto de la liga cuando ese año hubo más de una (ej. "AAF", "AAm").
@@ -73,7 +77,7 @@ export type Season = {
 
 export type Match = {
   id: string;
-  date: string; // ISO yyyy-mm-dd
+  date: string; // ISO yyyy-mm-dd; solo "yyyy" cuando la fuente no da el día (algunas copas viejas)
   competition: string;
   stage?: string;
   phase?: Phase;

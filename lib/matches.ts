@@ -5,12 +5,14 @@ import { LOADED_YEARS, SEASON_MATCHES } from "./seasons";
 
 const yearOf = (m: Match) => Number(m.date.slice(0, 4));
 
-// Las temporadas completas (lib/data/seasons) reemplazan a los partidos de liga sueltos de ese año.
-// Los de copa se mantienen hasta que se carguen las copas nacionales.
+// Las temporadas completas (lib/data/seasons) reemplazan a los partidos de liga sueltos de ese año, y a los de copa
+// que ya están en una copa importada (mismo día y mismos equipos). El resto de los de copa se mantiene hasta que se cargue su copa.
 // Más adelante esto pasa a una tabla en Supabase.
+const pairKey = (m: Match) => `${m.date} ${[m.homeId, m.awayId].sort().join(" ")}`;
+const LOADED_KEYS = new Set(SEASON_MATCHES.map(pairKey));
 export const MATCHES: Match[] = [
   ...SEASON_MATCHES,
-  ...AMATEUR_MATCHES.filter((m) => !(LOADED_YEARS.has(yearOf(m)) && m.competition === "Primera División")),
+  ...AMATEUR_MATCHES.filter((m) => !(LOADED_YEARS.has(yearOf(m)) && m.competition === "Primera División") && !LOADED_KEYS.has(pairKey(m))),
 ];
 
 export const TEAM_IDS_WITH_MATCHES = new Set(MATCHES.flatMap((m) => [m.homeId, m.awayId]));
