@@ -133,6 +133,8 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["lanus-united", "Lanús United", "LUN", "Lanús United"],
   ["sportivo-suizo", "Sportivo Suizo", "SSU", "Sportivo Suizo"],
   ["universitarios", "Universitarios", "UNI", "Universitarios (1914; la fuente no da el nombre completo)"],
+  // Liga amateur 1932–1934.
+  ["argentino-temperley", "Argentino de Temperley", "ATE", "Argentino de Temperley (en 1932 absorbió a Argentino de Banfield)"],
   // Copa Jockey Club 1931 (liga amateur): equipos de la Primera B y de Ferrocarriles del Estado.
   ["gimnasia-lanus", "Gimnasia y Esgrima (Lanús)", "GLA", "Gimnasia y Esgrima de Lanús"],
   ["gutenberg", "Gutenberg (La Plata)", "GUT", "Club Gutenberg (La Plata)"],

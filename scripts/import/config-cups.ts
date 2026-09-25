@@ -182,7 +182,51 @@ const estimulo = (year: number, rest: EstimuloRest): TournamentConfig => ({
   ...rest,
 });
 
+// Copas de la Liga Argentina de Football (profesional), 1932–1933.
+const LAF_CUP = "Liga Argentina de Football (profesional)";
+
 export const CUP_TOURNAMENTS: TournamentConfig[] = [
+  {
+    slug: "copa-competencia-laf-1932",
+    allSections: true,
+    kind: "cup",
+    year: 1932,
+    file: "arg-com32.html",
+    competition: "Copa de Competencia de la Liga Argentina",
+    title: "Copa de Competencia de la Liga Argentina 1932",
+    tournament: "Copa de Competencia de la Liga Argentina de Football",
+    organizer: LAF_CUP,
+    championIds: ["river"],
+    runnerUpIds: ["estudiantes"],
+    summary: "",
+    notes: [ELIMINACION, { kind: "identidad", text: "La jugaron los 18 clubes de la liga profesional." }],
+  },
+  {
+    slug: "copa-beccar-varela-1932",
+    kind: "cup",
+    year: 1932,
+    file: "arg-bec32.html",
+    competition: "Copa Beccar Varela",
+    title: "Copa Beccar Varela 1932",
+    tournament: "Copa de Honor «Sr. Adrián Beccar Varela»",
+    organizer: LAF_CUP,
+    championIds: ["racing"],
+    runnerUpIds: ["boca"],
+    noFinal: true,
+    stageMap: { "^Final round": "Ronda final" },
+    summary:
+      "Racing Club ganó la primera Copa Beccar Varela: fue primero de su grupo invicto y ganó los dos partidos de la ronda final, 5-0 a Tigre y 3-0 a Boca Juniors. Se jugó entre diciembre de 1932 y enero de 1933.",
+    notes: [
+      { kind: "formato", text: "Tres grupos de seis equipos a una rueda; los ganadores jugaron una ronda final todos contra todos." },
+      TABLAS_GRUPOS,
+    ],
+    groupTables: [
+      { table: 0, stage: "^Grupo A" },
+      { table: 1, stage: "^Grupo B" },
+      { table: 2, stage: "^Grupo C" },
+      { table: 3, stage: "^Ronda final" },
+    ],
+  },
   estimulo(1920, {
     allSections: true,
     championIds: ["huracan"],

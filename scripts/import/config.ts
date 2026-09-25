@@ -29,6 +29,8 @@ export type TournamentConfig = {
   wikiFill?: boolean;
   // Filas de la tabla publicada identificadas por su puesto (cuando dos clubes figuran con el mismo nombre).
   tableAliases?: Record<number, string>;
+  // La tabla oficial no cuenta los goles de los partidos que la liga le dio por escritorio a uno de los dos.
+  awardedGoalsVoid?: boolean;
   // Títulos de fase que no lo son (1931 amateur: "Playoff:" encabeza la tabla del desempate y no los partidos que siguen).
   ignoreRounds?: RegExp;
   // Fases con otro nombre en esta edición (expresión regular sobre la fase de RSSSF → fase a mostrar).
@@ -1041,6 +1043,68 @@ export const TOURNAMENTS: TournamentConfig[] = [
       { kind: "identidad", text: "Sportivo Buenos Aires se fusionó con Social y Deportivo Buenos Aires y pasó a llamarse Social y Sportivo Buenos Aires. Argentino de Lomas es el Club Argentino de Banfield." },
       { kind: "puntos", text: "Desempate por el título: Estudiantil Porteño 3-1 Almagro (27 de diciembre). No suma en la tabla." },
       { kind: "descalificacion", text: "Descendió San Fernando." },
+    ],
+  },
+  {
+    slug: "1932",
+    year: 1932,
+    league: "LAF",
+    file: "arg32.html",
+    section: /Liga Argentina de Football - 1932/,
+    wiki: wikiTitle(1932),
+    competition: LAF,
+    organizer: `${LAF} (profesional)`,
+    title: "Campeonato 1932 · Liga Argentina (profesional)",
+    tournament: "Campeonato 1932 de la Liga Argentina de Football",
+    championIds: ["river"],
+    aliases: { Estudiantes: "estudiantes", "Gimnasia (LP)": "gimnasia" },
+    playoffFrom: { date: "1932-11-20", stage: "Desempate por el título" },
+    overrides: {
+      "1932-06-12 huracan racing": {
+        status: undefined,
+        awardedTo: "racing",
+        goalsVoid: true,
+        note: "Se suspendió a los 72 minutos con 0-1 y la liga le dio el partido a Racing; la tabla oficial no cuenta los goles.",
+      },
+    },
+    summary:
+      "River Plate e Independiente terminaron igualados en 50 puntos y River ganó el desempate 3-0 en la cancha de San Lorenzo: su primer título profesional, el año en que llegó Bernabé Ferreyra.",
+    notes: [
+      rr2(18, " El empate en el primer puesto se resolvió con un desempate."),
+      PRO2,
+      { kind: "puntos", text: "Desempate por el título: River Plate 3-0 Independiente (20 de noviembre). No suma en la tabla." },
+    ],
+  },
+  {
+    slug: "1932-amateur",
+    year: 1932,
+    league: "Amateur",
+    file: "arg32a.html",
+    wiki: "Campeonato de Primera División 1932 de la AFAP (Argentina)",
+    competition: "Asociación Argentina de Football",
+    organizer: "Asociación Argentina de Football, entidad oficial afiliada a la FIFA (liga amateur)",
+    title: "Campeonato 1932 · Liga amateur (oficial)",
+    tournament: "Campeonato 1932 de la Asociación Argentina de Football",
+    championIds: ["sportivo-barracas"],
+    playoffFrom: { date: "1933-01-29", stage: "Desempate por el descenso" },
+    awardedGoalsVoid: true,
+    wikiErrata: {
+      "RSSSF nueva-chicago 3-0 sportivo-buenos-aires": "Wikipedia confunde el partido del campeonato con los desempates por el descenso de 1933 (2-2).",
+      "RSSSF sportivo-buenos-aires 5-2 nueva-chicago": "Wikipedia confunde el partido del campeonato con el segundo desempate por el descenso (1-1).",
+    },
+    knownTableDiffs: {
+      keys: ["sportivo-barracas:goalsFor", "estudiantil-porteno:goalsAgainst"],
+      explanation:
+        "La tabla oficial le da un gol menos a Sportivo Barracas y uno menos en contra a Estudiantil Porteño que la suma de los resultados; probablemente un partido entre ellos figura con un gol de diferencia. Se dejan los resultados de RSSSF.",
+    },
+    summary:
+      "Sportivo Barracas ganó el campeonato de la liga amateur oficial con cinco puntos de ventaja sobre Barracas Central y Colegiales.",
+    notes: [
+      rr2(17),
+      PRO2,
+      { kind: "descalificacion", text: "Sportivo Palermo perdió la afiliación: perdió por escritorio sus últimos 8 partidos y descendió." },
+      { kind: "puntos", text: "Nueva Chicago y Sportivo Buenos Aires empataron el puesto 15 y jugaron tres desempates por el descenso (2-2, 1-1 y 2-2, en 1933). El cuarto nunca se jugó porque la asociación cambió el reglamento y no descendió ninguno. No suman en la tabla." },
+      { kind: "identidad", text: "Argentino de Banfield se fusionó con Argentino de Temperley." },
     ],
   },
 ];

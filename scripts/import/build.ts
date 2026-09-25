@@ -69,7 +69,7 @@ export function translateNote(
     .replace(/\bwalk ?over,\s*/gi, "walkover; ")
     // "0:4 annulled, Sportivo Balcarce" y "Estudiantes (C) (aet)": el dato y la cancha por separado.
     .replace(/(\d+:\d+ annulled),(?!\s*replayed)\s*/gi, "$1; ")
-    .replace(/\s+\((aet|[A-Z][^()]* withdrew at [^()]*|[A-Z]{1,3} forfeited on [^()]*)\)/g, "; $1")
+    .replace(/(?:^|\s+)\((aet|[A-Z][^()]* withdrew at [^()]*|[A-Z]{1,3} forfeited on [^()]*)\)\s*/g, "; $1; ")
     // Jockey Club 1914–1918: "neutral, originally 1:0, awarded on 23 Apr, 150m, abandoned at HT, 3:0 in Annual Report, <cancha>".
     .replace(/(?<=^|[,;]\s*)(neutral|originally \d+:\d+|awarded (?:on )?(?:\d{1,2} [A-Z][a-z]{2}|[A-Z][a-z]{2} ?\d{1,2})|lasted \d+m?|\d+m|abandoned at HT|abandoned at \d+:\d+ in \d+m|\d+:\d+ in Annual Report)\s*,\s*/g, "$1; ")
     // "abandoned at 52m, score stood on Dec 26, Independiente, Avellaneda": cada dato por separado, y la cancha al final.
@@ -207,6 +207,7 @@ export function translateNote(
     else if ((m = p.match(/^in (Rosario|Montevideo|La Plata)$/i))) out.venue = m[1];
     else if (/^replayed$/i.test(p)) out.text.push("Partido jugado de nuevo (el primero se anuló).");
     else if (/^to be replayed$/i.test(p)) out.text.push("Se ordenó volver a jugarlo.");
+    else if ((m = p.match(/^(\d+) minutes remaining$/i))) out.text.push(`Faltaban ${m[1]} minutos.`);
     // "FE forfeited on 4 Sep": iniciales del club que no se presentó (el walkover ya lo dice).
     else if (/^[A-Z]{1,3} forfeited on .+$/.test(p)) continue;
     else if ((m = p.match(/^(.+?) withdrew at (\d+)'?$/i))) {
@@ -274,10 +275,11 @@ export function translateNote(
 
 // Fases de copa en español, con la región del cuadro cuando la hay ("Rosario · Primera ronda").
 function cupStageOf(raw: RawMatch): string | undefined {
-  const r = (raw.round ?? "").replace(/:$/, "").trim();
+  // "1st. round:" → "1st round".
+  const r = (raw.round ?? "").replace(/:$/, "").replace(/\./g, "").trim();
   // Copas por grupos: "Grupo A · Fecha 3".
   if (raw.group) {
-    const n = r.match(/^Round\s*(\d+)/i);
+    const n = r.match(/^Round\s*(\d+)/i) ?? r.match(/^(\d+)(?:st|nd|rd|th) round/i);
     return `${raw.group}${n ? ` · Fecha ${n[1]}` : /playoff/i.test(r) ? " · Desempate" : ""}`;
   }
   const table: [RegExp, string][] = [
@@ -361,9 +363,16 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
             : g[2]
               ? `Zona ${g[2]}`
               : `Grupo ${POINTS[g[3].toLowerCase()]}${g[4] ? ` ${g[4]}` : ""}`;
-        // En las ligas el título de la sección no es una fase.
-        const round = cfg.kind === "cup" && !group ? s.heading : undefined;
-        return s.matches.map((m) => ({ ...m, round: m.round ?? round, ...(group && !m.group && { group }) }));
+        // En las ligas el título de la sección no es una fase. En las copas puede traer la fecha: ". Round 2: 29 Jun."
+        const round = cfg.kind === "cup" && !group ? s.heading.replace(/^\.\s*/, "").replace(/:\s*\d{1,2}\s+[A-Z][a-z]{2}.*$/, "") : undefined;
+        const hd = s.heading.match(/:\s*(\d{1,2})\s+([A-Z][a-z]{2})[a-z]*\.?(?:\s+(\d{4}))?\.?$/);
+        const headDate = hd ? `${hd[2]} ${hd[1]}${hd[3] ? `, ${hd[3]}` : ""}` : "";
+        return s.matches.map((m) => ({
+          ...m,
+          round: m.round ?? round,
+          date: m.date || headDate,
+          ...(group && !m.group && { group }),
+        }));
       }),
     };
   }
@@ -554,6 +563,8 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     }
     if (note.lostPointsBy) m.awardedTo = note.lostPointsBy === home.id ? away.id : home.id;
     if (note.wonPointsBy) m.awardedTo = note.wonPointsBy;
+    // Algunas tablas oficiales no cuentan los goles de los partidos que la liga le dio a uno de los dos.
+    if (cfg.awardedGoalsVoid && (note.wonPointsBy || note.lostPointsBy)) m.goalsVoid = true;
     if (cfg.annulTeams?.some((t) => t.id === home.id || t.id === away.id)) {
       const t = cfg.annulTeams.find((x) => x.id === home.id || x.id === away.id)!;
       note.annulled = true;
@@ -807,7 +818,8 @@ function verifyCup(season: Season, cfg: TournamentConfig): { problems: string[];
     if (idx) {
       const sc = final.walkover ? "wp:lp" : `${final.homeGoals}:${final.awayGoals}`;
       const scRev = final.walkover ? "wp:lp" : `${final.awayGoals}:${final.homeGoals}`;
-      if (!idx.scores.some((s) => s === sc || s === scRev)) problems.push(`Copa: el índice de RSSSF da la final ${idx.raw}, y la página ${sc}`);
+      if (!idx.scores.length) warnings.push(`Copa: el índice de RSSSF da el campeón sin resultado (${idx.raw})`);
+      else if (!idx.scores.some((s) => s === sc || s === scRev)) problems.push(`Copa: el índice de RSSSF da la final ${idx.raw}, y la página ${sc}`);
       else warnings.push(`Copa: final confirmada por el índice de RSSSF (${idx.raw})`);
     } else warnings.push("Copa: esta edición no figura en el índice de RSSSF");
   }
@@ -821,7 +833,7 @@ function verifyCup(season: Season, cfg: TournamentConfig): { problems: string[];
         if (out && !allowed && !/desempate/i.test(m.stage ?? "")) problems.push(`Copa: ${id} quedó eliminado en ${out} y vuelve a jugar (${m.date}, ${m.stage ?? "sin fase"})`);
       }
       const w = m.awardedTo ?? (m.homeGoals > m.awayGoals ? m.homeId : m.awayGoals > m.homeGoals ? m.awayId : null);
-      if (w && !m.bothLost && !/Grupo|Zona/.test(m.stage ?? "")) eliminated.set(w === m.homeId ? m.awayId : m.homeId, `${m.date} ${m.homeId}-${m.awayId}`);
+      if (w && !m.bothLost && !/Grupo|Zona|Ronda final/.test(m.stage ?? "")) eliminated.set(w === m.homeId ? m.awayId : m.homeId, `${m.date} ${m.homeId}-${m.awayId}`);
     }
   }
   return { problems, warnings };

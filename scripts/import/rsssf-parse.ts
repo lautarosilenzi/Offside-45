@@ -65,7 +65,7 @@ const decode = (s: string) =>
 
 const MONTH = "(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|June|July|August|September|October|November|December)";
 const DATE_RE = new RegExp(String.raw`^\s*\[\s*(${MONTH}[a-z]*\.?\s*\d{1,2}[^\]]*)\]\s*(.*)$`, "i");
-const DATE_PLAIN_RE = new RegExp(String.raw`^\s*(${MONTH}\s+\d{1,2}(?:,\s*\d{4})?)\s*:?\s*$`, "i");
+const DATE_PLAIN_RE = new RegExp(String.raw`^\s*(${MONTH}\s+\d{1,2}(?:,\s*\d{4})?)\s*[:.]?\s*$`, "i");
 const ROUND_RE = /^\s*((?:Round|Fecha|Matchday)\s*\d+[^\[]*?)\s*:?\s*(?:\[(.+)\])?\s*:?\s*$/i;
 const SCORE = String.raw`(\d+\s*[:\-]\s*\d+|wp\s*[:\-]\s*lp|lp\s*[:\-]\s*wp|lp\s*[:\-]\s*lp|w\s*[:\-]\s*l|l\s*[:\-]\s*w|d\s*[:\-]\s*d|wo|ann|anu|void|abandoned|abd|n/p|awd|:|-)`;
 const MATCH_RE = new RegExp(
@@ -204,7 +204,7 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
       return;
     }
     if (!/^[-\s=]+$/.test(trimmed) && !/^(No\.?\s*Team|#\.|Table:?)/i.test(trimmed)) table = null;
-    const r = trimmed.match(ROUND_RE);
+    const r = trimmed.replace(/^\.\s*/, "").match(ROUND_RE);
     if (r) {
       round = r[1].trim();
       // "Round 1: 31 May." / "Round 7: 3 Jan 1932." (Copa Jockey Club 1931).
@@ -224,7 +224,7 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     // Y las zonas de la Copa Estímulo 1920 ("Zona Norte").
     // Y los grupos con nombre de la Copa Jockey Club 1931 ("Group North 1", "Group West").
     const grp = opts.cup
-      ? trimmed.replace(/^\.\s*/, "").match(/^(Playoff\s+)?(?:Group\s+"?([A-Z])"?|Zona\s+(Norte|Sur)|Group\s+(North|South|East|West)(?:\s+(\d))?):?$/i)
+      ? trimmed.replace(/^\.\s*/, "").match(/^(Playoff\s+)?(?:Group\s+"?([A-Z])"?|Zona\s+(Norte|Sur)|Group\s+(North|South|East|West)(?:\s+(\d))?)[:.]?$/i)
       : null;
     if (grp) {
       const POINTS: Record<string, string> = { north: "Norte", south: "Sur", east: "Este", west: "Oeste" };
@@ -281,12 +281,13 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
       return;
     }
     const stage = head.match(
-      /^([0-9/A-Za-zÀ-ÿ' -]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place|round|semi-?finals?|quarter-?finals?)[A-Za-zÀ-ÿ' -]*):?\s*(?:\[(.+)\]|(\d{1,2}\s+[A-Z][a-z]{2}(?:\s+\d{4})?)|([A-Z][a-z]{2}\s+\d{1,2}(?:,\s*\d{4})?))?\s*:?$/i,
+      /^([0-9/A-Za-zÀ-ÿ'. -]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place|round|semi-?finals?|quarter-?finals?)[A-Za-zÀ-ÿ' -]*):?\s*(?:\[(.+)\]|(\d{1,2}\s+[A-Z][a-z]{2}(?:\s+\d{4})?)|([A-Z][a-z]{2}\s+\d{1,2}(?:,\s*\d{4})?))?\s*:?$/i,
     );
     if (stage && head.length < 60 && !/table|standings|positions\b/i.test(head)) {
       round = stage[1].trim();
       // Un desempate dentro de un grupo sigue siendo del grupo ("Group North 2" … "Playoff:").
-      if (!(group && /^playoff/i.test(round))) group = undefined;
+      // Las fechas del grupo ("1st. round:") tampoco lo cierran.
+      if (!(group && /^(playoff|\d+(?:st|nd|rd|th)\.? round|round \d+)/i.test(round))) group = undefined;
       const sd = stage[2] ?? (stage[3] && dayFirst(stage[3])) ?? stage[4];
       // Una fecha puesta en el título de una fase vale solo para esa fase.
       if (sd) date = sd.trim();
@@ -313,7 +314,10 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     }
     // Marcas pegadas al resultado (Copa Jockey Club 1931): "0-4+" anulado; "2-1*", "3-0&" remiten a una nota al pie.
     const marked = trimmed.match(/^(.*?\S)(\s+)(\d+-\d+|w-l|l-w)([+*&])(\s+.*)$/);
-    const normalized = marked ? `${marked[1]}${marked[2]}${marked[4] === "+" ? "ann" : marked[3]}${marked[5]}` : trimmed;
+    let normalized = marked ? `${marked[1]}${marked[2]}${marked[4] === "+" ? "ann" : marked[3]}${marked[5]}` : trimmed;
+    // "Buenos Aires (Monumental):  Racing Club 5-0 Tigre" (Beccar Varela 1932): el lugar va antes del partido.
+    const place = normalized.match(/^([A-ZÁÉÍÓÚ][^:\d]{2,40}):\s+(\S.*\s\d+-\d+\s.*)$/);
+    if (place) normalized = `${place[2]}  [at ${place[1]}]`;
     const annulledScore = marked?.[4] === "+" ? marked[3].replace("-", ":") : undefined;
     const m = normalized.match(MATCH_RE);
     if (m && !/^(No\.|Table|Note|Round)/i.test(m[1])) {

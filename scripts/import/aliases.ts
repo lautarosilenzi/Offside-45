@@ -185,6 +185,13 @@ const ALIASES: Alias[] = [
   // 1931 en adelante.
   { id: "argentino-banfield", names: ["Argentino de Lomas"], as: "Argentino de Lomas", from: 1931 },
   { id: "sportivo-buenos-aires", names: ["Social y Sportivo Buenos Aires", "S. y S. Bs. As.", "S. y S. Bs. As"], as: "Social y Sportivo Buenos Aires", from: 1931 },
+  { id: "argentino-temperley", names: ["Argentino de Temperley"] },
+  { id: "independiente", names: ["Independiente (Avellaneda)", "Independiente (Av)"] },
+  { id: "talleres-re", names: ["Talleres (RE)"] },
+  { id: "huracan", names: ["Huracán (Buenos Aires)"] },
+  { id: "gimnasia", names: ["Gimnasia y Esgrima La Plata"] },
+  { id: "ferro", names: ["Ferro Carril Oeste (Buenos Aires)"] },
+  { id: "talleres-re", names: ["Talleres (Remedios de Escalada)"] },
   { id: "gimnasia-lanus", names: ["Gimnasia y Esgrima L", "Gimnasia y Esgrima de Lanús"] },
   { id: "gutenberg", names: ["Gutenberg", "Gutenberg (LP)", "Gutenberg de La Plata"] },
   { id: "nacional-adrogue", names: ["Nacional de Adrogué"] },
