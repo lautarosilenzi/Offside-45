@@ -94,7 +94,7 @@ export function translateNote(
     // "HT, score stood" va junto (lo traduce una sola regla); "see Jul 17", "remaining 49 on…" e "in extra time…" van aparte.
     // La cancha al final ("…, Racing, Avellaneda, B") también va aparte del texto que la precede.
     .split(
-      /\]\s*\[|\s+(?=\[)|;\s*|,\s*(?=(?:aet|asdet|lasted|at|annulled|abandoned|suspended|played|awarded|n\/p|see|remaining|remained|in extra time|continue on|to be replayed)\b)|(?<!HT),\s*(?=score stood\b)|,\s*(?=[^,]+,\s*[^,]+,\s*[BCS]$)/i,
+      /\]\s*\[|\s+(?=\[)|;\s*|,\s*(?=(?:aet|asdet|lasted|at|annulled|abandoned|suspended|played|awarded|n\/p|see|remaining|remained|in extra time|continue on|to be replayed)\b)|(?<!HT),\s*(?=(?:the )?score stood\b)|,\s*(?=[^,]+,\s*[^,]+,\s*[BCS]$)/i,
     )
     // Sin corchetes ni el punto final ("San Isidro was suspended."); "W.O." conserva sus puntos.
     .map((p) => p.replace(/[\[\]]/g, "").trim().replace(/(?<!\b[A-Z])\.$/, ""))
@@ -262,6 +262,13 @@ export function translateNote(
     else if ((m = p.match(/^Suspended (?:at (\d+)' (\d+)-(\d+)|(\d+)-(\d+) at (\d+)') and continued (next day|on (.+))$/i))) {
       const [min, hg, ag] = m[1] ? [m[1], m[2], m[3]] : [m[6], m[4], m[5]];
       out.text.push(`Suspendido a los ${min} minutos con ${hg}-${ag}; ${m[8] ? `se completó el ${esDate(m[8])}` : "se completó al día siguiente"} (el resultado es el final).`);
+    } else if ((m = p.match(/^(\d{1,2} [A-Z][a-z]{2}): awarded .+ by doping$/i))) out.text.push(`La liga lo resolvió el ${esDate(m[1])} por un caso de doping.`);
+    else if ((m = p.match(/^Suspended \S+ (\d+)-(\d+) \S+ at (\d+)'$/i))) out.text.push(`Suspendido a los ${m[3]} minutos con ${m[1]}-${m[2]}.`);
+    else if ((m = p.match(/^Suspended (\d+)-(\d+) a los (\d+)' due to not warranties to play$/i))) out.text.push(`Suspendido a los ${m[3]} minutos con ${m[1]}-${m[2]} por falta de garantías.`);
+    else if ((m = p.match(/^Abandoned at (\d+)'$/i))) out.text.push(`Suspendido a los ${m[1]} minutos.`);
+    else if ((m = p.match(/^(.+?): (\d+) points deducted\)?$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`A ${club ? club.as ?? club.name : m[1]} le descontaron ${m[2]} puntos (sanción).`);
     } else if ((m = p.match(/^On (.+?) was awarded .+ by doping$/i))) out.text.push(`La liga lo resolvió el ${m[1].replace(/^(\d{1,2}) (\w{3})\w* (\d{4})$/, (_x, d: string, mo: string, y: string) => `${d}/${MONTHS[mo.toLowerCase()] ?? mo}/${y}`)} por un caso de doping.`);
     else if ((m = p.match(/^not played, (.+?) (\d+) points? deducted$/i))) {
       const club = resolveName(m[1], year);
@@ -423,8 +430,9 @@ function stageOf(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
 function stageOfRound(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
   const r = raw.round ?? "";
   // "Round 2.3" (Nacional 1980): tercera fecha de la segunda rueda.
-  const dotted = r.match(/^Round\s*(\d+)\.\s*(\d+)$/i);
-  if (dotted) return { stage: `Fecha ${dotted[1]}.${dotted[2]}`, phase: "league" };
+  // Y "Round 1.2.7" (Nacional 1981): fase 1, segunda rueda, fecha 7 → "Fecha 2.7".
+  const dotted = r.match(/^Round\s*(?:(\d+)\.\s*)?(\d+)\.\s*(\d+)$/i);
+  if (dotted) return { stage: `Fecha ${dotted[2]}.${dotted[3]}`, phase: "league" };
   const n = r.match(/(?:Round|Fecha|Matchday)\s*(\d+)/i) ?? r.match(/^(\d+)(?:st|nd|rd|th)\.?\s+Round$/i);
   if (n) return { stage: `Fecha ${n[1]}`, phase: "league" };
   if (/^final round$/i.test(r)) return { stage: "Ronda final", phase: "playoff" };
@@ -573,6 +581,10 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       if (Number(d.iso.slice(0, 4)) > cfg.year) yearShift = 1;
       else if (yearShift && d.month <= 8) d.iso = `${cfg.year + 1}${d.iso.slice(4)}`;
     }
+    // Torneos que empiezan a mitad de año y terminan en el siguiente (Metropolitano 1982): los meses anteriores al
+    // del comienzo son del año siguiente.
+    if (cfg.rolloverBefore && d && !explicitYear && d.iso.length === 10 && d.month < cfg.rolloverBefore && Number(d.iso.slice(0, 4)) === cfg.year)
+      d.iso = `${cfg.year + 1}${d.iso.slice(4)}`;
     if (!d) {
       problems.push(`L${raw.line}: fecha ilegible "${raw.date}" (${raw.home} - ${raw.away})`);
       continue;

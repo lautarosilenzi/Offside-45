@@ -33,6 +33,8 @@ export type TournamentConfig = {
   knockoutGroups?: boolean;
   // Copas con tabla resumen publicada en las que igual se controla que ningún eliminado vuelva a jugar.
   checkEliminations?: boolean;
+  // Mes en que empieza el torneo si termina el año siguiente: las fechas de meses anteriores son del año siguiente.
+  rolloverBefore?: number;
   // El índice de copas de RSSSF da otro resultado de la final y hay pruebas de que el error es del índice (motivo).
   indexErrata?: string;
   // Partidos que la liga resolvió por escritorio después de jugarse: la tabla cuenta sus goles (desde los años 50).
@@ -2068,6 +2070,75 @@ afaTorneo(1979, "reclasificacion", {
     notes: [
       { kind: "formato", text: "Cuatro grupos de 7 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a dos ruedas. Los dos primeros de cada grupo jugaron cuartos de final, semifinales y final de ida y vuelta. 2 puntos por victoria." },
       { kind: "fuentes", text: "Las tablas con las que se verifican los partidos son las del documento de tablas finales de RSSSF de la década." },
+    ],
+  }),
+  // ───────── 1981 ─────────
+  // La página no trae tablas: se verifican con las del documento de tablas finales de la década.
+  afaTorneo(1981, "metropolitano", {
+    championIds: ["boca"],
+    headings: [/^Campeonato Metropolitano 1981$/, /^Campeonato Nacional "General/, /^Group [A-D]$/, /^Quarter Final$/, /^Semifinal$/, /^Final$/],
+    section: /^Campeonato Metropolitano 1981$/,
+    tableFile: "arghist-pro1980s.html",
+    tableSection: /^Primera División 1981$/,
+    summary: "Boca Juniors ganó el Metropolitano con Maradona, un punto delante de Ferro Carril Oeste.",
+    notes: [
+      { kind: "formato", text: "18 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." },
+      { kind: "fuentes", text: "La tabla con la que se verifican los partidos es la del documento de tablas finales de RSSSF de la década (la página de la temporada no la trae)." },
+    ],
+  }),
+  afaTorneo(1981, "nacional", {
+    championIds: ["river"],
+    headings: [/^Campeonato Metropolitano 1981$/, /^Campeonato Nacional "General/, /^Group [A-D]$/, /^Quarter Final$/, /^Semifinal$/, /^Final$/],
+    sectionRange: { from: /^Campeonato Nacional "General/ },
+    tableFile: "arghist-pro1980s.html",
+    tableSection: /^Campeonato Nacional 1981$/,
+    pointAdjustments: [
+      {
+        teamId: "racing-cordoba",
+        points: -4,
+        reason: "el 19 de noviembre Racing de Córdoba fue suspendido 50 días: jugó los dos partidos que le quedaban y se le descontaron 2 puntos por cada uno",
+      },
+    ],
+    tableIndex: [0, 1, 2, 3],
+    groupNames: ["Grupo A", "Grupo B", "Grupo C", "Grupo D"],
+    tournament: "Campeonato Nacional 1981 «General Don José de San Martín»",
+    summary: "River Plate ganó el Nacional: 1-0 y 1-0 a Ferro Carril Oeste en la final.",
+    notes: [
+      { kind: "formato", text: "Cuatro grupos de 7 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a dos ruedas. Los dos primeros de cada grupo jugaron cuartos de final, semifinales y final de ida y vuelta. 2 puntos por victoria." },
+      { kind: "fuentes", text: "Las tablas con las que se verifican los partidos son las del documento de tablas finales de RSSSF de la década." },
+    ],
+  }),
+  // ───────── 1982 ─────────
+  afaTorneo(1982, "nacional", {
+    championIds: ["ferro"],
+    headings: [/^Group [A-D]$/, /^Group A vs. Group C/, /^QUARTERFINALS$/, /^SEMIFINALS$/, /^FINAL$/],
+    sectionRange: { from: /^Campeonato Nacional 1982/, to: /^Campeonato Metropolitano 1982/ },
+    // En la página una fila de la tabla sale pegada ("Guaraní Antonio Franco (Misiones)16"): se usan las tablas de la década.
+    tableFile: "arghist-pro1980s.html",
+    tableSection: /^Campeonato Nacional 1982$/,
+    knownTableDiffs: {
+      keys: ["gimnasia-jujuy:won", "gimnasia-jujuy:drawn", "gimnasia-jujuy:goalsFor", "gimnasia-jujuy:points", "central-norte-salta:drawn", "central-norte-salta:lost", "central-norte-salta:goalsAgainst", "central-norte-salta:points"],
+      explanation: "La tabla del documento de la década implica que Gimnasia de Jujuy le ganó 3-2 a Central Norte el 25 de abril; la página de la temporada (el resultado y su propia tabla) y Wikipedia dan 2-2. Se usa el 2-2.",
+    },
+    tableIndex: [0, 1, 2, 3],
+    groupNames: ["Grupo A", "Grupo B", "Grupo C", "Grupo D"],
+    summary: "Ferro Carril Oeste ganó su primer título de Primera: 0-0 y 2-0 a Quilmes en la final, invicto en todo el torneo.",
+    notes: [
+      { kind: "formato", text: "Cuatro grupos de 8 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a dos ruedas más dos fechas interzonales. Los dos primeros de cada grupo jugaron cuartos de final, semifinales y final de ida y vuelta. 2 puntos por victoria." },
+      { kind: "puntos", text: "Las tablas de los grupos incluyen los interzonales; la eliminación final no suma." },
+    ],
+  }),
+  afaTorneo(1982, "metropolitano", {
+    championIds: ["estudiantes"],
+    headings: [/^Group [A-D]$/, /^Group A vs. Group C/, /^QUARTERFINALS$/, /^SEMIFINALS$/, /^FINAL$/],
+    section: /^Campeonato Metropolitano 1982/,
+    tournament: "Campeonato Metropolitano 1982 «Soberanía Nacional»",
+    rolloverBefore: 6,
+    overrides: { "1983-02-20 union-santa-fe quilmes": { stage: "Desempate por el descenso", note: "En la cancha de Sarmiento de Junín. Descendió Quilmes. No suma en la tabla." } },
+    summary: "Estudiantes de La Plata ganó el Metropolitano, dos puntos delante de Independiente.",
+    notes: [
+      { kind: "formato", text: "19 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." },
+      { kind: "puntos", text: "Unión y Quilmes empataron el puesto de descenso y jugaron un desempate (1-0 para Unión, en febrero de 1983): descendió Quilmes, junto con Sarmiento de Junín." },
     ],
   }),
 ];

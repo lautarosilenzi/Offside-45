@@ -379,7 +379,7 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
     // Errata "wp-1p" (1971) y penales pegados al resultado: "Independiente [6]2-2[7] San Lorenzo" → nota "pen 6:7".
     normalized = normalized.replace(/\b(wp|lp)-1p\b/i, "$1-lp").replace(/\b1p-(wp)\b/i, "lp-$1");
     // "San Lorenzo (MdP)  1-2 awd 1-0  Boca Juniors" (1980): el de la cancha y el que dio la liga.
-    const awdPair = normalized.match(/\s(\d+)\s*-\s*(\d+)\s+awd\s+(\d+)\s*-\s*(\d+)(?=\s)/i);
+    const awdPair = normalized.match(/\s(\d+)\s*-\s*(\d+),?\s+awd\s+(\d+)\s*-\s*(\d+)(?=\s)/i);
     if (awdPair) normalized = `${normalized.replace(awdPair[0], ` ${awdPair[1]}-${awdPair[2]} `)}  [later awarded ${awdPair[3]}-${awdPair[4]}]`;
     const pens = normalized.match(/\s[[(](\d+)[\])]\s*(\d+\s*[-:]\s*\d+)\s*[[(](\d+)[\])](?=\s)/);
     if (pens) normalized = `${normalized.replace(pens[0], ` ${pens[2]} `)}  [pen ${pens[1]}:${pens[3]}]`;
