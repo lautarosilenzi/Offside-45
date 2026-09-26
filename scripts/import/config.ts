@@ -8,6 +8,13 @@ export type TournamentConfig = {
   kind?: "cup";
   // Copas cuyas zonas vienen en secciones separadas de la página: se juntan todas.
   allSections?: boolean;
+  // Líneas de la página que abren una sección nueva (títulos sin <h2>, 1971–1985).
+  headings?: RegExp[];
+  // Ligas con líneas "Group A" / "Inter Group" dentro de cada fecha (Nacional 1973).
+  groupLines?: boolean;
+  // Torneo repartido en varias secciones seguidas: desde la primera cuyo título coincide con `from` hasta la
+  // anterior a la que coincide con `to`. Los títulos "Group A", "Quarterfinals", etc. dan el grupo o la fase.
+  sectionRange?: { from: RegExp; to?: RegExp };
   runnerUpIds?: string[];
   // Páginas con varias ediciones: solo los partidos de esta ("Season 1913" en la Copa Ibarguren, o la sección "1905").
   edition?: string;
@@ -36,7 +43,8 @@ export type TournamentConfig = {
   // Completar con Wikipedia días y goles que RSSSF no registra (ver fillFromWikipedia).
   wikiFill?: boolean;
   // Filas de la tabla publicada identificadas por su puesto (cuando dos clubes figuran con el mismo nombre).
-  tableAliases?: Record<number, string>;
+  // Clave "puesto" o "grupo:puesto" (índice de la tabla dentro de tableIndex), para tablas por grupo.
+  tableAliases?: Record<number | string, string>;
   // La tabla oficial no cuenta los goles de los partidos que la liga le dio por escritorio a uno de los dos.
   awardedGoalsVoid?: boolean;
   // Tabla publicada en otro documento de RSSSF (las tablas finales por década) cuando la página de la temporada no la trae.
@@ -198,7 +206,7 @@ const afa = (year: number, file: string, rest: Omit<TournamentConfig, "slug" | "
 
 // 1967–1985: cada año, dos campeonatos de Primera (Metropolitano y Nacional) y torneos de reclasificación y promoción.
 // Todos están en la misma página de RSSSF, cada uno en su sección.
-type TorneoKey = "metropolitano" | "nacional" | "promocional" | "reclasificacion" | "reclasificacion-primera" | "petit";
+type TorneoKey = "metropolitano" | "nacional" | "promocional" | "reclasificacion" | "reclasificacion-primera" | "petit" | "pre-libertadores" | "reducido";
 const TORNEO: Record<TorneoKey, { name: string; section: string; wiki?: (y: number) => string }> = {
   metropolitano: { name: "Metropolitano", section: "^Metropolitano Championship", wiki: (y) => `Campeonato Metropolitano ${y} (Argentina)` },
   nacional: { name: "Nacional", section: "^Nacional Championship", wiki: (y) => `Campeonato Nacional ${y} (Argentina)` },
@@ -206,6 +214,8 @@ const TORNEO: Record<TorneoKey, { name: string; section: string; wiki?: (y: numb
   reclasificacion: { name: "Reclasificación", section: "^Reclasifica" },
   "reclasificacion-primera": { name: "Reclasificatorio de Primera", section: "^Torneo Reclasificatorio de Primera" },
   petit: { name: "Petit Torneo", section: "^Petit Tournament" },
+  "pre-libertadores": { name: "Clasificación a la Libertadores", section: "^Pre Libertadores" },
+  reducido: { name: "Torneo Reducido", section: "^Torneo Reducido" },
 };
 const afaTorneo = (
   year: number,
@@ -1714,5 +1724,254 @@ export const TOURNAMENTS: TournamentConfig[] = [
     groupNames: ["Grupo A", "Grupo B"],
     summary: "Boca Juniors bicampeón del Nacional: 2-1 a Rosario Central en la final.",
     notes: [{ kind: "formato", text: "Dos grupos de 10 equipos, todos contra todos a dos ruedas, más fechas interzonales. Los dos primeros de cada grupo jugaron semifinales y final. 2 puntos por victoria." }, { kind: "puntos", text: "Las tablas de los grupos incluyen los partidos interzonales; las semifinales y la final no suman." }],
+  }),
+  // ───────── 1971 ─────────
+  afaTorneo(1971, "metropolitano", {
+    championIds: ["independiente"],
+    section: /^Campeonato Metropolitano 1971/,
+    summary: "Independiente ganó el Metropolitano, un punto delante de Vélez Sarsfield.",
+    notes: [{ kind: "formato", text: "19 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." }],
+  }),
+  afaTorneo(1971, "nacional", {
+    championIds: ["central"],
+    headings: [/^Group A vs. Group B$/, /^Semifinals:$/, /^Final:$/, /^Pre Libertadores Tournament - 1971$/],
+    sectionRange: { from: /^Campeonato Nacional 1971/, to: /^Pre Libertadores/ },
+    tableIndex: [0, 2],
+    groupNames: ["Grupo A", "Grupo B"],
+    pointAdjustments: [{ teamId: "huracan-iw", points: -2, reason: "se retiró antes de jugar con Boca (partido dado 1-0 a Boca)" }],
+    aliases: { "Guaraní A.Franco (Misiones)": "guarani-antonio-franco", "Central Córdoba (Sgo.Estero)": "central-cordoba-sde" },
+    overrides: {
+      // La tabla de RSSSF cuenta el 1-0 que la liga le dio a Boca.
+      "1971-11-14 boca huracan-iw": {
+        homeGoals: 1,
+        awayGoals: 0,
+        walkover: undefined,
+        note: "No se jugó: Huracán de Ingeniero White se retiró y la liga le dio el partido 1-0 a Boca Juniors (así cuenta en la tabla).",
+      },
+    },
+    summary: "Rosario Central ganó su primer título de Primera: 2-1 a San Lorenzo en la final, en la cancha de Newell's.",
+    notes: [
+      { kind: "formato", text: "Dos grupos de 14 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a una rueda más una fecha interzonal. Los dos primeros de cada grupo jugaron semifinales y final a un partido. 2 puntos por victoria." },
+      { kind: "puntos", text: "Las tablas de los grupos incluyen la fecha interzonal; las semifinales y la final no suman. Huracán de Ingeniero White se retiró antes de jugar con Boca y se le descontaron 2 puntos." },
+    ],
+  }),
+  afaTorneo(1971, "pre-libertadores", {
+    championIds: ["independiente"],
+    headings: [/^Pre Libertadores Tournament - 1971$/],
+    section: /^Pre Libertadores Tournament - 1971$/,
+    tableIndex: [],
+    // Partido de definición: no hay tabla.
+    playoffFrom: { date: "1971-01-01", stage: "Definición" },
+    summary: "Independiente, campeón del Metropolitano, le ganó 1-0 a San Lorenzo, finalista del Nacional, el lugar en la Copa Libertadores 1972.",
+    notes: [{ kind: "formato", text: "Partido único por el segundo lugar argentino en la Copa Libertadores 1972." }],
+  }),
+  // ───────── 1972 ─────────
+  afaTorneo(1972, "metropolitano", {
+    championIds: ["sanlorenzo"],
+    section: /^Campeonato Metropolitano/,
+    pointAdjustments: [{ teamId: "banfield", points: -21, reason: "suspensión de cuatro meses desde el 16 de marzo: le correspondía perder 36 puntos, pero solo había sumado 21 y se le perdonaron los otros 15" }],
+    summary: "San Lorenzo ganó el Metropolitano, el primero de sus dos títulos del año.",
+    notes: [
+      { kind: "formato", text: "18 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." },
+      { kind: "puntos", text: "Banfield fue suspendido cuatro meses desde el 16 de marzo y perdió todos los puntos que sumó (21)." },
+    ],
+  }),
+  afaTorneo(1972, "nacional", {
+    championIds: ["sanlorenzo"],
+    headings: [/^Group [AB]:$/, /^Intergroups:$/, /^Torneo Reclasificatorio \[/],
+    sectionRange: { from: /^Campeonato Nacional "A/, to: /^Torneo Reclasificatorio/ },
+    tableIndex: [0, 1],
+    groupNames: ["Grupo A", "Grupo B"],
+    summary: "San Lorenzo ganó el Nacional invicto (1-0 a River en la final) y fue el primer campeón de los dos torneos del año.",
+    notes: [
+      { kind: "formato", text: "Dos grupos de 13 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a dos ruedas más fechas interzonales. Los ganadores de cada grupo jugaron semifinales cruzadas con los segundos y la final. 2 puntos por victoria." },
+      { kind: "puntos", text: "Las tablas de los grupos incluyen los partidos interzonales; las semifinales y la final no suman." },
+    ],
+  }),
+  afaTorneo(1972, "reclasificacion", {
+    championIds: [],
+    headings: [/^Torneo Reclasificatorio \[/],
+    section: /^Torneo Reclasificatorio/,
+    summary: "Seis equipos del Metropolitano jugaron por la permanencia: descendieron Banfield y Lanús.",
+    notes: [{ kind: "formato", text: "6 equipos, todos contra todos a una rueda, 2 puntos por victoria." }],
+  }),
+  // ───────── 1973 ─────────
+  // La página de 1973 no trae tablas: se verifican con las del documento de tablas finales de la década.
+  afaTorneo(1973, "metropolitano", {
+    championIds: ["huracan"],
+    headings: [/^Metropolitano Championship$/, /^Nacional Championship$/],
+    section: /^Metropolitano Championship$/,
+    tableFile: "arghist-pro1970s.html",
+    tableSection: /Campeonato Metropolitano - 1973/,
+    summary: "Huracán ganó el Metropolitano con el equipo de César Luis Menotti.",
+    wikiErrata: { "RSSSF boca 3-1 estudiantes": "Wikipedia da 2-1 en el partido, pero su propia tabla (69 goles de Boca) coincide con el 3-1 de RSSSF y con la tabla de la década." },
+    notes: [
+      { kind: "formato", text: "17 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." },
+      { kind: "fuentes", text: "La tabla con la que se verifican los partidos es la del documento de tablas finales de RSSSF de la década (la página de la temporada no la trae)." },
+    ],
+  }),
+  afaTorneo(1973, "nacional", {
+    championIds: ["central"],
+    headings: [/^Metropolitano Championship$/, /^Nacional Championship$/],
+    section: /^Nacional Championship$/,
+    groupLines: true,
+    tableFile: "arghist-pro1970s.html",
+    tableSection: /Campeonato Nacional - 1973/,
+    tableIndex: [0, 1],
+    groupNames: ["Grupo A", "Grupo B"],
+    groupTables: [{ table: 2, stage: "^Ronda final$" }],
+    // La tabla de la década nombra "San Lorenzo", "San Martín" y "Gimnasia y Esgrima" sin la ciudad.
+    tableAliases: { "0:6": "san-lorenzo-mdp", "0:13": "san-martin-tucuman", "1:14": "gimnasia-jujuy" },
+    overrides: {
+      // En la página figura contra San Martín, pero está en la lista del Grupo B (San Martín era del A) y las tablas
+      // de la década y de Wikipedia (partidos y goles en contra de los dos) solo cierran si fue contra Gimnasia de Jujuy.
+      "1973-10-21 atletico-tucuman san-martin-tucuman": {
+        awayId: "gimnasia-jujuy",
+        note: "RSSSF y Wikipedia lo anotan contra San Martín de Tucumán, pero es un partido del Grupo B y las tablas finales (de RSSSF y de Wikipedia) solo cierran si el rival fue Gimnasia y Esgrima de Jujuy.",
+      },
+    },
+    wikiErrata: { "RSSSF atletico-tucuman 4-3 san-martin-tucuman": "Wikipedia anota el 4-0 del 21 de octubre contra San Martín; fue contra Gimnasia de Jujuy (ver la nota del partido)." },
+    // La fila de RSSSF dice "awd" y pone la nota en el renglón de abajo: se carga con esos datos.
+    extraMatches: [
+      {
+        id: "1973-nacional-extra-1",
+        date: "1973-11-25",
+        stage: "Grupo B · Fecha 12",
+        phase: "league",
+        homeId: "kimberley-mdp",
+        awayId: "atlanta",
+        homeGoals: 0,
+        awayGoals: 2,
+        awardedTo: "atlanta",
+        note: "Se suspendió con 1-2 y la liga se lo dio a Atlanta 0-2 (así cuenta en la tabla).",
+      },
+    ],
+    summary: "Rosario Central ganó el Nacional en la ronda final con River, Atlanta y San Lorenzo.",
+    notes: [
+      { kind: "formato", text: "Dos grupos de 15 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a una rueda más fechas interzonales. Los dos primeros de cada grupo jugaron una ronda final a una rueda. 2 puntos por victoria." },
+      { kind: "puntos", text: "Las tablas de los grupos incluyen los partidos interzonales; la ronda final tiene su propia tabla." },
+      { kind: "fuentes", text: "Las tablas con las que se verifican los partidos son las del documento de tablas finales de RSSSF de la década." },
+    ],
+  }),
+  // ───────── 1974 ─────────
+  afaTorneo(1974, "metropolitano", {
+    championIds: ["newells"],
+    headings: [/^Group [A-D]$/, /^Intergroups$/, /^Playoff$/, /^Final Tournament$/],
+    sectionRange: { from: /^Campeonato Metropolitano/, to: /^Campeonato Nacional/ },
+    tableIndex: [0, 1],
+    groupNames: ["Grupo A", "Grupo B"],
+    groupTables: [
+      { table: 2, stage: "^Desempate$" },
+      { table: 3, stage: "^Ronda final$" },
+    ],
+    summary: "Newell's Old Boys ganó su primer título de Primera: empató 2-2 con Rosario Central en la última fecha de la ronda final.",
+    notes: [
+      { kind: "formato", text: "Dos grupos de 9 equipos, todos contra todos a dos ruedas, más partidos interzonales. Los dos primeros de cada grupo jugaron una ronda final a una rueda. 2 puntos por victoria." },
+      { kind: "puntos", text: "Boca y Ferro empataron el segundo puesto del grupo B y jugaron un desempate. Las tablas de los grupos incluyen los interzonales; el desempate y la ronda final tienen su propia tabla." },
+    ],
+  }),
+  afaTorneo(1974, "nacional", {
+    championIds: ["sanlorenzo"],
+    headings: [/^Group [A-D]$/, /^Intergroups$/, /^Playoff$/, /^Final Tournament$/],
+    sectionRange: { from: /^Campeonato Nacional/, to: /^Torneo Reducido/ },
+    tableIndex: [0, 1, 2, 3],
+    groupNames: ["Grupo A", "Grupo B", "Grupo C", "Grupo D"],
+    groupTables: [{ table: 4, stage: "^Ronda final$" }],
+    summary: "San Lorenzo ganó el Nacional en la ronda final, delante de Rosario Central.",
+    notes: [
+      { kind: "formato", text: "Cuatro grupos de 9 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a una rueda más fechas interzonales. Los ganadores de cada grupo jugaron una ronda final a una rueda. 2 puntos por victoria." },
+      { kind: "puntos", text: "Las tablas de los grupos incluyen los interzonales; la ronda final tiene su propia tabla." },
+    ],
+  }),
+  afaTorneo(1974, "reducido", {
+    championIds: [],
+    headings: [/^Group [A-D]$/, /^Intergroups$/, /^Playoff$/, /^Final Tournament$/],
+    section: /^Torneo Reducido/,
+    summary: "Rosario Central y Newell's ganaron los lugares argentinos en la Copa Libertadores 1975.",
+    notes: [{ kind: "formato", text: "3 equipos, todos contra todos a una rueda, por dos lugares en la Copa Libertadores 1975. 2 puntos por victoria." }],
+  }),
+  // ───────── 1975 ─────────
+  afaTorneo(1975, "metropolitano", {
+    championIds: ["river"],
+    section: /^Metropolitan Championship$/,
+    summary: "River Plate ganó el Metropolitano y cortó una racha de 18 años sin títulos.",
+    notes: [{ kind: "formato", text: "20 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." }],
+  }),
+  afaTorneo(1975, "nacional", {
+    championIds: ["river"],
+    headings: [/^Group [A-D]:?$/, /^Intergroups:?$/, /^Final Tournament:?$/],
+    sectionRange: { from: /^Nacional Championship$/, to: /^Pre Libertadores$/ },
+    tableIndex: [0, 1, 2, 3],
+    groupNames: ["Grupo A", "Grupo B", "Grupo C", "Grupo D"],
+    groupTables: [{ table: 4, stage: "^Ronda final$" }],
+    pointAdjustments: [{ teamId: "banfield", points: -2, reason: "descuento de 2 puntos (RSSSF no da el motivo)" }],
+    summary: "River Plate ganó también el Nacional, en la ronda final, y fue bicampeón del año.",
+    notes: [
+      { kind: "formato", text: "Cuatro grupos de 8 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a dos ruedas más fechas interzonales. Los dos primeros de cada grupo jugaron una ronda final a una rueda. 2 puntos por victoria." },
+      { kind: "puntos", text: "Las tablas de los grupos incluyen los interzonales; la ronda final tiene su propia tabla." },
+    ],
+  }),
+  afaTorneo(1975, "pre-libertadores", {
+    championIds: ["estudiantes"],
+    section: /^Pre Libertadores$/,
+    tableIndex: [],
+    playoffFrom: { date: "1975-01-01", stage: "Definición" },
+    summary: "Estudiantes de La Plata le ganó 3-2 a Huracán el segundo lugar argentino en la Copa Libertadores 1976.",
+    notes: [{ kind: "formato", text: "Partido único entre el segundo del Metropolitano (Huracán) y el del Nacional (Estudiantes). Se jugó en enero de 1976." }],
+  }),
+  // ───────── 1976 ─────────
+  afaTorneo(1976, "metropolitano", {
+    championIds: ["boca"],
+    sectionRange: { from: /^Campeonato Metropolitano 1976/, to: /^Campeonato Nacional 1976/ },
+    tableIndex: [0, 2],
+    groupNames: ["Grupo A", "Grupo B"],
+    groupTables: [
+      { table: 4, stage: "^Grupo campeonato$" },
+      { table: 6, stage: "^Grupo descenso$" },
+    ],
+    summary: "Boca Juniors ganó el Metropolitano en el grupo por el campeonato, delante de Huracán.",
+    wikiErrata: { "RSSSF quilmes 3-1 river": "Wikipedia da 4-1 en el partido, pero su propia tabla (goles de Quilmes y de River) coincide con el 3-1 de RSSSF y con la tabla de la década." },
+    notes: [
+      { kind: "formato", text: "Primera fase: dos grupos de 11 equipos, todos contra todos a dos ruedas, más fechas interzonales. Segunda fase: los seis primeros de cada grupo jugaron un grupo por el campeonato y los otros diez, un grupo por el descenso, todos contra todos a una rueda. 2 puntos por victoria." },
+      { kind: "puntos", text: "Las tablas de los grupos incluyen los interzonales. El grupo campeonato y el grupo descenso tienen su propia tabla." },
+    ],
+  }),
+  afaTorneo(1976, "nacional", {
+    championIds: ["boca"],
+    sectionRange: { from: /^Campeonato Nacional 1976/, to: /^Pre Libertadores/ },
+    tableIndex: [0, 2, 4, 6],
+    groupNames: ["Grupo A", "Grupo B", "Grupo C", "Grupo D"],
+    summary: "Boca Juniors ganó también el Nacional: 1-0 a River en la final, con el gol de Suñé. Fue bicampeón del año.",
+    notes: [
+      { kind: "formato", text: "Cuatro grupos (dos de 8 y dos de 9 equipos, con clubes del Metropolitano y de los torneos regionales), todos contra todos a dos ruedas más fechas interzonales. Los dos primeros de cada grupo jugaron cuartos de final, semifinales y final. 2 puntos por victoria." },
+      { kind: "puntos", text: "Las tablas de los grupos incluyen los interzonales; los desempates y la eliminación final no suman." },
+    ],
+  }),
+  afaTorneo(1976, "pre-libertadores", {
+    championIds: [],
+    section: /^Pre Libertadores Tournament$/,
+    tableIndex: [],
+    playoffFrom: { date: "1976-01-01", stage: "Definición" },
+    summary: "Partido por el segundo lugar argentino en la Copa Libertadores 1977.",
+    notes: [{ kind: "formato", text: "Partido único por el segundo lugar argentino en la Copa Libertadores 1977." }],
+  }),
+  // ───────── 1977 ─────────
+  afaTorneo(1977, "metropolitano", {
+    championIds: ["river"],
+    section: /^Campeonato Metropolitano 1977/,
+    summary: "River Plate ganó el Metropolitano de 23 equipos, un punto delante de Independiente.",
+    overrides: { "1977-11-13 platense lanus": { stage: "Desempate por el descenso", note: "Desempate entre los dos que quedaron igualados en el puesto de descenso. Platense ganó por penales (8-7) y descendió Lanús. No suma en la tabla." } },
+    notes: [{ kind: "formato", text: "23 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." }],
+  }),
+  afaTorneo(1977, "nacional", {
+    championIds: ["independiente"],
+    aliases: { "Círculo Deportivo(Mar del Plata)": "circulo-deportivo" },
+    sectionRange: { from: /^Campeonato Nacional 1977/, to: /^1977 - PRIMERA B/ },
+    tableIndex: [0, 2, 4, 6],
+    groupNames: ["Grupo A", "Grupo B", "Grupo C", "Grupo D"],
+    summary: "Independiente ganó el Nacional ante Talleres en Córdoba, con tres jugadores menos y el gol de Bochini en la vuelta.",
+    notes: [
+      { kind: "formato", text: "Cuatro grupos de 8 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a dos ruedas. Los ganadores de cada grupo jugaron semifinales y final de ida y vuelta. 2 puntos por victoria." },
+    ],
   }),
 ];

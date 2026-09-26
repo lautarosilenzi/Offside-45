@@ -1,0 +1,3556 @@
+{
+ "slug": "1971-nacional",
+ "year": 1971,
+ "league": "Nacional",
+ "title": "Nacional 1971",
+ "tournament": "Campeonato Nacional 1971",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "central"
+ ],
+ "summary": "Rosario Central ganó su primer título de Primera: 2-1 a San Lorenzo en la final, en la cancha de Newell's.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1971",
+   "url": "https://www.rsssf.org/tablesa/arg71.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato Nacional 1971 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_Nacional_1971_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Dos grupos de 14 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a una rueda más una fecha interzonal. Los dos primeros de cada grupo jugaron semifinales y final a un partido. 2 puntos por victoria."
+  },
+  {
+   "kind": "puntos",
+   "text": "Las tablas de los grupos incluyen la fecha interzonal; las semifinales y la final no suman. Huracán de Ingeniero White se retiró antes de jugar con Boca y se le descontaron 2 puntos."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "huracan-iw",
+   "points": -2,
+   "reason": "se retiró antes de jugar con Boca (partido dado 1-0 a Boca)"
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "independiente",
+   "played": 14,
+   "won": 10,
+   "drawn": 4,
+   "lost": 0,
+   "goalsFor": 31,
+   "goalsAgainst": 13,
+   "points": 24
+  },
+  {
+   "teamId": "newells",
+   "played": 14,
+   "won": 9,
+   "drawn": 5,
+   "lost": 0,
+   "goalsFor": 37,
+   "goalsAgainst": 10,
+   "points": 23
+  },
+  {
+   "teamId": "belgrano",
+   "played": 14,
+   "won": 9,
+   "drawn": 3,
+   "lost": 2,
+   "goalsFor": 28,
+   "goalsAgainst": 13,
+   "points": 21
+  },
+  {
+   "teamId": "river",
+   "played": 14,
+   "won": 8,
+   "drawn": 5,
+   "lost": 1,
+   "goalsFor": 26,
+   "goalsAgainst": 13,
+   "points": 21
+  },
+  {
+   "teamId": "argentinos",
+   "played": 14,
+   "won": 7,
+   "drawn": 1,
+   "lost": 6,
+   "goalsFor": 22,
+   "goalsAgainst": 22,
+   "points": 15
+  },
+  {
+   "teamId": "ferro",
+   "played": 14,
+   "won": 4,
+   "drawn": 6,
+   "lost": 4,
+   "goalsFor": 22,
+   "goalsAgainst": 20,
+   "points": 14
+  },
+  {
+   "teamId": "banfield",
+   "played": 14,
+   "won": 4,
+   "drawn": 5,
+   "lost": 5,
+   "goalsFor": 23,
+   "goalsAgainst": 22,
+   "points": 13
+  },
+  {
+   "teamId": "kimberley-mdp",
+   "played": 14,
+   "won": 4,
+   "drawn": 5,
+   "lost": 5,
+   "goalsFor": 22,
+   "goalsAgainst": 21,
+   "points": 13
+  },
+  {
+   "teamId": "san-martin-mendoza",
+   "played": 14,
+   "won": 3,
+   "drawn": 6,
+   "lost": 5,
+   "goalsFor": 20,
+   "goalsAgainst": 20,
+   "points": 12
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 14,
+   "won": 3,
+   "drawn": 3,
+   "lost": 8,
+   "goalsFor": 22,
+   "goalsAgainst": 30,
+   "points": 9
+  },
+  {
+   "teamId": "huracan",
+   "played": 14,
+   "won": 3,
+   "drawn": 3,
+   "lost": 8,
+   "goalsFor": 19,
+   "goalsAgainst": 27,
+   "points": 9
+  },
+  {
+   "teamId": "juventud-antoniana",
+   "played": 14,
+   "won": 3,
+   "drawn": 2,
+   "lost": 9,
+   "goalsFor": 23,
+   "goalsAgainst": 30,
+   "points": 8
+  },
+  {
+   "teamId": "don-orione-resistencia",
+   "played": 14,
+   "won": 4,
+   "drawn": 0,
+   "lost": 10,
+   "goalsFor": 16,
+   "goalsAgainst": 34,
+   "points": 8
+  },
+  {
+   "teamId": "huracan-comodoro",
+   "played": 14,
+   "won": 1,
+   "drawn": 1,
+   "lost": 12,
+   "goalsFor": 11,
+   "goalsAgainst": 55,
+   "points": 3
+  },
+  {
+   "teamId": "central",
+   "played": 14,
+   "won": 9,
+   "drawn": 3,
+   "lost": 2,
+   "goalsFor": 27,
+   "goalsAgainst": 13,
+   "points": 21
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 14,
+   "won": 8,
+   "drawn": 4,
+   "lost": 2,
+   "goalsFor": 37,
+   "goalsAgainst": 19,
+   "points": 20
+  },
+  {
+   "teamId": "boca",
+   "played": 14,
+   "won": 8,
+   "drawn": 4,
+   "lost": 2,
+   "goalsFor": 34,
+   "goalsAgainst": 17,
+   "points": 20
+  },
+  {
+   "teamId": "gimnasia-mendoza",
+   "played": 14,
+   "won": 7,
+   "drawn": 5,
+   "lost": 2,
+   "goalsFor": 28,
+   "goalsAgainst": 21,
+   "points": 19
+  },
+  {
+   "teamId": "atlanta",
+   "played": 14,
+   "won": 6,
+   "drawn": 4,
+   "lost": 4,
+   "goalsFor": 25,
+   "goalsAgainst": 17,
+   "points": 16
+  },
+  {
+   "teamId": "velez",
+   "played": 14,
+   "won": 5,
+   "drawn": 6,
+   "lost": 3,
+   "goalsFor": 21,
+   "goalsAgainst": 20,
+   "points": 16
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 14,
+   "won": 4,
+   "drawn": 4,
+   "lost": 6,
+   "goalsFor": 22,
+   "goalsAgainst": 19,
+   "points": 12
+  },
+  {
+   "teamId": "racing",
+   "played": 14,
+   "won": 4,
+   "drawn": 4,
+   "lost": 6,
+   "goalsFor": 20,
+   "goalsAgainst": 21,
+   "points": 12
+  },
+  {
+   "teamId": "chacarita",
+   "played": 14,
+   "won": 5,
+   "drawn": 2,
+   "lost": 7,
+   "goalsFor": 16,
+   "goalsAgainst": 20,
+   "points": 12
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 14,
+   "won": 3,
+   "drawn": 6,
+   "lost": 5,
+   "goalsFor": 21,
+   "goalsAgainst": 26,
+   "points": 12
+  },
+  {
+   "teamId": "san-martin-tucuman",
+   "played": 14,
+   "won": 4,
+   "drawn": 4,
+   "lost": 6,
+   "goalsFor": 22,
+   "goalsAgainst": 30,
+   "points": 12
+  },
+  {
+   "teamId": "guarani-antonio-franco",
+   "played": 14,
+   "won": 3,
+   "drawn": 4,
+   "lost": 7,
+   "goalsFor": 18,
+   "goalsAgainst": 26,
+   "points": 10
+  },
+  {
+   "teamId": "central-cordoba-sde",
+   "played": 14,
+   "won": 3,
+   "drawn": 3,
+   "lost": 8,
+   "goalsFor": 17,
+   "goalsAgainst": 33,
+   "points": 9
+  },
+  {
+   "teamId": "huracan-iw",
+   "played": 14,
+   "won": 2,
+   "drawn": 4,
+   "lost": 8,
+   "goalsFor": 7,
+   "goalsAgainst": 25,
+   "points": 6
+  }
+ ],
+ "groups": [
+  {
+   "name": "Grupo A",
+   "teamIds": [
+    "independiente",
+    "newells",
+    "belgrano",
+    "river",
+    "argentinos",
+    "ferro",
+    "banfield",
+    "kimberley-mdp",
+    "san-martin-mendoza",
+    "gimnasia",
+    "huracan",
+    "juventud-antoniana",
+    "don-orione-resistencia",
+    "huracan-comodoro"
+   ]
+  },
+  {
+   "name": "Grupo B",
+   "teamIds": [
+    "central",
+    "sanlorenzo",
+    "boca",
+    "gimnasia-mendoza",
+    "atlanta",
+    "velez",
+    "estudiantes",
+    "racing",
+    "chacarita",
+    "colon-santa-fe",
+    "san-martin-tucuman",
+    "guarani-antonio-franco",
+    "central-cordoba-sde",
+    "huracan-iw"
+   ]
+  }
+ ],
+ "matches": [
+  {
+   "id": "1971-nacional-001",
+   "date": "1971-10-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: J.Martínez."
+  },
+  {
+   "id": "1971-nacional-002",
+   "date": "1971-10-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 1",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "huracan-comodoro",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Toledo."
+  },
+  {
+   "id": "1971-nacional-003",
+   "date": "1971-10-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 1",
+   "phase": "league",
+   "homeId": "juventud-antoniana",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Obberti(2)."
+  },
+  {
+   "id": "1971-nacional-004",
+   "date": "1971-10-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 1",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Buglione o/g, Amado / Doval."
+  },
+  {
+   "id": "1971-nacional-005",
+   "date": "1971-10-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 1",
+   "phase": "league",
+   "homeId": "kimberley-mdp",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Giachello."
+  },
+  {
+   "id": "1971-nacional-006",
+   "date": "1971-10-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 1",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: R.Moreno, O.Sosa / Micó."
+  },
+  {
+   "id": "1971-nacional-007",
+   "date": "1971-10-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "don-orione-resistencia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mas(2), J.J.López."
+  },
+  {
+   "id": "1971-nacional-008",
+   "date": "1971-10-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 2",
+   "phase": "league",
+   "homeId": "don-orione-resistencia",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Molina / Moreno(2)."
+  },
+  {
+   "id": "1971-nacional-009",
+   "date": "1971-10-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "kimberley-mdp",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Moreno, R.Pérez, Vidal / P.Gómez, Sangorrín."
+  },
+  {
+   "id": "1971-nacional-010",
+   "date": "1971-10-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pavoni, R.González / Pellegrini, Mateos."
+  },
+  {
+   "id": "1971-nacional-011",
+   "date": "1971-10-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "juventud-antoniana",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Brindisi, Buglione / Ochoaizpur."
+  },
+  {
+   "id": "1971-nacional-012",
+   "date": "1971-10-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 2",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Obberti, H.Martínez / Reinaldi, Quiroga."
+  },
+  {
+   "id": "1971-nacional-013",
+   "date": "1971-10-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 2",
+   "phase": "league",
+   "homeId": "huracan-comodoro",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Barroso, Ambroggi, R.Domínguez, Tébez."
+  },
+  {
+   "id": "1971-nacional-014",
+   "date": "1971-10-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: O.Pérez, Mas."
+  },
+  {
+   "id": "1971-nacional-015",
+   "date": "1971-10-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "huracan-comodoro",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Toledo."
+  },
+  {
+   "id": "1971-nacional-016",
+   "date": "1971-10-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 3",
+   "phase": "league",
+   "homeId": "san-martin-mendoza",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zuvialde / Silva, Obberti."
+  },
+  {
+   "id": "1971-nacional-017",
+   "date": "1971-10-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 3",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Quiroga."
+  },
+  {
+   "id": "1971-nacional-018",
+   "date": "1971-10-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 3",
+   "phase": "league",
+   "homeId": "juventud-antoniana",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Giachello, Moreyra."
+  },
+  {
+   "id": "1971-nacional-019",
+   "date": "1971-10-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 3",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Amado, Ibáñez / Arregui, Tartaglia."
+  },
+  {
+   "id": "1971-nacional-020",
+   "date": "1971-10-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 3",
+   "phase": "league",
+   "homeId": "kimberley-mdp",
+   "awayId": "don-orione-resistencia",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Durso(3), P.Gómez, Malleo / Vargas."
+  },
+  {
+   "id": "1971-nacional-021",
+   "date": "1971-10-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 3",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: J.J.López."
+  },
+  {
+   "id": "1971-nacional-022",
+   "date": "1971-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 4",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ribaudo."
+  },
+  {
+   "id": "1971-nacional-023",
+   "date": "1971-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 4",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "kimberley-mdp",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Diez o/g / Chaldú."
+  },
+  {
+   "id": "1971-nacional-024",
+   "date": "1971-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 4",
+   "phase": "league",
+   "homeId": "don-orione-resistencia",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cendra."
+  },
+  {
+   "id": "1971-nacional-025",
+   "date": "1971-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 4",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "juventud-antoniana",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vidal(2), Moreno(2) / Luñiz, Coronel."
+  },
+  {
+   "id": "1971-nacional-026",
+   "date": "1971-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 4",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pastoriza."
+  },
+  {
+   "id": "1971-nacional-027",
+   "date": "1971-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 4",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Doval, Basile, Dopacio / Grudzien, J.Pérez, Zuvialde, Márquez."
+  },
+  {
+   "id": "1971-nacional-028",
+   "date": "1971-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 4",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "huracan-comodoro",
+   "homeGoals": 9,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: De Rienzo, Solórzano, Mendoza(2), Montes, Obberti(3), Silva."
+  },
+  {
+   "id": "1971-nacional-029",
+   "date": "1971-10-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: V.Sánchez, Montagnoli / Solórzano, Mendoza, Santamaría."
+  },
+  {
+   "id": "1971-nacional-030",
+   "date": "1971-10-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 5",
+   "phase": "league",
+   "homeId": "huracan-comodoro",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Toledo / Brindisi(2), Babington, Doval."
+  },
+  {
+   "id": "1971-nacional-031",
+   "date": "1971-10-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 5",
+   "phase": "league",
+   "homeId": "san-martin-mendoza",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: R.Domínguez / Pavoni."
+  },
+  {
+   "id": "1971-nacional-032",
+   "date": "1971-10-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 5",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rivadero / R.Pérez."
+  },
+  {
+   "id": "1971-nacional-033",
+   "date": "1971-10-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 5",
+   "phase": "league",
+   "homeId": "juventud-antoniana",
+   "awayId": "don-orione-resistencia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Luñiz, N.Giménez, N.Gómez / Molina, Ebel."
+  },
+  {
+   "id": "1971-nacional-034",
+   "date": "1971-10-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 5",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cantero, Cáceres / Mas, Morete."
+  },
+  {
+   "id": "1971-nacional-035",
+   "date": "1971-10-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 5",
+   "phase": "league",
+   "homeId": "kimberley-mdp",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fortunato / Eugui(2), O.Sosa, Moreno."
+  },
+  {
+   "id": "1971-nacional-036",
+   "date": "1971-10-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 6",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Brindisi / H.Mendoza, Laginestra o/g, Obberti."
+  },
+  {
+   "id": "1971-nacional-037",
+   "date": "1971-10-31",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 6",
+   "phase": "league",
+   "homeId": "kimberley-mdp",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Durso / Leonardi."
+  },
+  {
+   "id": "1971-nacional-038",
+   "date": "1971-10-31",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 6",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Tagliani."
+  },
+  {
+   "id": "1971-nacional-039",
+   "date": "1971-10-31",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 6",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "juventud-antoniana",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Onega(2) / Luñiz."
+  },
+  {
+   "id": "1971-nacional-040",
+   "date": "1971-10-31",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 6",
+   "phase": "league",
+   "homeId": "don-orione-resistencia",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Frattura."
+  },
+  {
+   "id": "1971-nacional-041",
+   "date": "1971-10-31",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 6",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: R.Pérez / Grudzien."
+  },
+  {
+   "id": "1971-nacional-042",
+   "date": "1971-10-31",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 6",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "huracan-comodoro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pavoni(2), Adorno, Giachello / Cárdenas."
+  },
+  {
+   "id": "1971-nacional-043",
+   "date": "1971-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Buglione o/g, Leonardi / Babington, Brindisi."
+  },
+  {
+   "id": "1971-nacional-044",
+   "date": "1971-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 7",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Silva / Maglioni."
+  },
+  {
+   "id": "1971-nacional-045",
+   "date": "1971-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 7",
+   "phase": "league",
+   "homeId": "huracan-comodoro",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Micó, Peláez."
+  },
+  {
+   "id": "1971-nacional-046",
+   "date": "1971-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 7",
+   "phase": "league",
+   "homeId": "san-martin-mendoza",
+   "awayId": "don-orione-resistencia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Grudzien, Salguero."
+  },
+  {
+   "id": "1971-nacional-047",
+   "date": "1971-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 7",
+   "phase": "league",
+   "homeId": "juventud-antoniana",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rico / Moreno(2), Ribaudo."
+  },
+  {
+   "id": "1971-nacional-048",
+   "date": "1971-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 7",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "kimberley-mdp",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cáceres / Sangorrín."
+  },
+  {
+   "id": "1971-nacional-049",
+   "date": "1971-11-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 7",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Morete, Alonso."
+  },
+  {
+   "id": "1971-nacional-050",
+   "date": "1971-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 8",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: M.Alvarez, Lanza / Aguayo."
+  },
+  {
+   "id": "1971-nacional-051",
+   "date": "1971-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 8",
+   "phase": "league",
+   "homeId": "kimberley-mdp",
+   "awayId": "juventud-antoniana",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sangorrín / Lezcano."
+  },
+  {
+   "id": "1971-nacional-052",
+   "date": "1971-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 8",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cordero / Quiroga(2), Heredia."
+  },
+  {
+   "id": "1971-nacional-053",
+   "date": "1971-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 8",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Morete(3) / Ambroggi."
+  },
+  {
+   "id": "1971-nacional-054",
+   "date": "1971-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 8",
+   "phase": "league",
+   "homeId": "don-orione-resistencia",
+   "awayId": "huracan-comodoro",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ramírez, Olivera, Vargas(3) / Britapaja(2)."
+  },
+  {
+   "id": "1971-nacional-055",
+   "date": "1971-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 8",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Arregui / Papalardo."
+  },
+  {
+   "id": "1971-nacional-056",
+   "date": "1971-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mazzei, Bravo, Saggioratto."
+  },
+  {
+   "id": "1971-nacional-057",
+   "date": "1971-11-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Argarañaz, Berrios / Bravo, Palomba."
+  },
+  {
+   "id": "1971-nacional-058",
+   "date": "1971-11-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 9",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Dosetti / Lorea."
+  },
+  {
+   "id": "1971-nacional-059",
+   "date": "1971-11-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 9",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "don-orione-resistencia",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marangoni, Berta, Papalardo(2)."
+  },
+  {
+   "id": "1971-nacional-060",
+   "date": "1971-11-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 9",
+   "phase": "league",
+   "homeId": "huracan-comodoro",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Morete."
+  },
+  {
+   "id": "1971-nacional-061",
+   "date": "1971-11-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 9",
+   "phase": "league",
+   "homeId": "san-martin-mendoza",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ambroggi, Márquez / Braga, Rivolta, Cicarello."
+  },
+  {
+   "id": "1971-nacional-062",
+   "date": "1971-11-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 9",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "kimberley-mdp",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Laciar, Reinaldi, Quiroga / P.Gómez."
+  },
+  {
+   "id": "1971-nacional-063",
+   "date": "1971-11-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 9",
+   "phase": "league",
+   "homeId": "juventud-antoniana",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rico, Luñiz(2) / Villaroel."
+  },
+  {
+   "id": "1971-nacional-064",
+   "date": "1971-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 10",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alonso, J.J.López / Papalardo, Giusti."
+  },
+  {
+   "id": "1971-nacional-065",
+   "date": "1971-11-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 10",
+   "phase": "league",
+   "homeId": "juventud-antoniana",
+   "awayId": "gimnasia",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lezcano, Laguna, Luñiz(4) / Cárdenas o/g."
+  },
+  {
+   "id": "1971-nacional-066",
+   "date": "1971-11-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 10",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cos, Quiroga(2) / Amado."
+  },
+  {
+   "id": "1971-nacional-067",
+   "date": "1971-11-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 10",
+   "phase": "league",
+   "homeId": "kimberley-mdp",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Durso, Chaldú."
+  },
+  {
+   "id": "1971-nacional-068",
+   "date": "1971-11-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 10",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "huracan-comodoro",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Braga, Cordero, Rivolta."
+  },
+  {
+   "id": "1971-nacional-069",
+   "date": "1971-11-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 10",
+   "phase": "league",
+   "homeId": "don-orione-resistencia",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Molina(2), Duarte / Valenzuela o/g, Lastra."
+  },
+  {
+   "id": "1971-nacional-070",
+   "date": "1971-11-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 10",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Arregui(2) / Magán(2), Palomba, Bravo."
+  },
+  {
+   "id": "1971-nacional-071",
+   "date": "1971-12-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 12",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "don-orione-resistencia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sá, A.González."
+  },
+  {
+   "id": "1971-nacional-072",
+   "date": "1971-12-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 12",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Aguayo / Peláez, R.Pérez, Vidal."
+  },
+  {
+   "id": "1971-nacional-073",
+   "date": "1971-12-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 12",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Tedesco / Morete."
+  },
+  {
+   "id": "1971-nacional-074",
+   "date": "1971-12-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 12",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "argentinos",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Obberti, Solórzano(2), Mendoza."
+  },
+  {
+   "id": "1971-nacional-075",
+   "date": "1971-12-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 12",
+   "phase": "league",
+   "homeId": "huracan-comodoro",
+   "awayId": "kimberley-mdp",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Toledo / Malleo(2), Fortunato, Marasco."
+  },
+  {
+   "id": "1971-nacional-076",
+   "date": "1971-12-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 12",
+   "phase": "league",
+   "homeId": "san-martin-mendoza",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Velázquez / Villaroel."
+  },
+  {
+   "id": "1971-nacional-077",
+   "date": "1971-12-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 12",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "juventud-antoniana",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Llorens, Cos(2) / Laguna, Luñiz."
+  },
+  {
+   "id": "1971-nacional-078",
+   "date": "1971-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 13",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Reinaldi."
+  },
+  {
+   "id": "1971-nacional-079",
+   "date": "1971-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 13",
+   "phase": "league",
+   "homeId": "juventud-antoniana",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cárdenas, Rico / Márquez, Barroso."
+  },
+  {
+   "id": "1971-nacional-080",
+   "date": "1971-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 13",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "huracan-comodoro",
+   "homeGoals": 8,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Toledo."
+  },
+  {
+   "id": "1971-nacional-081",
+   "date": "1971-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 13",
+   "phase": "league",
+   "homeId": "kimberley-mdp",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zanabria, Santamaría, Obberti."
+  },
+  {
+   "id": "1971-nacional-082",
+   "date": "1971-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 13",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Babington(2)."
+  },
+  {
+   "id": "1971-nacional-083",
+   "date": "1971-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 13",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: J.Martínez, Granato / Pavoni, Pastoriza, Magán."
+  },
+  {
+   "id": "1971-nacional-084",
+   "date": "1971-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 13",
+   "phase": "league",
+   "homeId": "don-orione-resistencia",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Duarte."
+  },
+  {
+   "id": "1971-nacional-085",
+   "date": "1971-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "don-orione-resistencia",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Olivera."
+  },
+  {
+   "id": "1971-nacional-086",
+   "date": "1971-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 14",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Arregui / Morete."
+  },
+  {
+   "id": "1971-nacional-087",
+   "date": "1971-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 14",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maglioni, Pavoni, Raimondo / Cicarello."
+  },
+  {
+   "id": "1971-nacional-088",
+   "date": "1971-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 14",
+   "phase": "league",
+   "homeId": "kimberley-mdp",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fortunato, Malleo."
+  },
+  {
+   "id": "1971-nacional-089",
+   "date": "1971-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 14",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mendoza."
+  },
+  {
+   "id": "1971-nacional-090",
+   "date": "1971-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 14",
+   "phase": "league",
+   "homeId": "huracan-comodoro",
+   "awayId": "juventud-antoniana",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ojeda, Pichintiniz."
+  },
+  {
+   "id": "1971-nacional-091",
+   "date": "1971-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 14",
+   "phase": "league",
+   "homeId": "san-martin-mendoza",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1971-nacional-092",
+   "date": "1971-10-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Wolff."
+  },
+  {
+   "id": "1971-nacional-093",
+   "date": "1971-10-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 1",
+   "phase": "league",
+   "homeId": "guarani-antonio-franco",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rogel."
+  },
+  {
+   "id": "1971-nacional-094",
+   "date": "1971-10-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lamberti / Pecoraro."
+  },
+  {
+   "id": "1971-nacional-095",
+   "date": "1971-10-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ayala."
+  },
+  {
+   "id": "1971-nacional-096",
+   "date": "1971-10-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 1",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Calderón."
+  },
+  {
+   "id": "1971-nacional-097",
+   "date": "1971-10-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 1",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: J.Martínez, Carro."
+  },
+  {
+   "id": "1971-nacional-098",
+   "date": "1971-10-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Luna(2) / Flores."
+  },
+  {
+   "id": "1971-nacional-099",
+   "date": "1971-10-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "guarani-antonio-franco",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fornari, Benítez(3) / Noguera."
+  },
+  {
+   "id": "1971-nacional-100",
+   "date": "1971-10-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "huracan-iw",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1971-nacional-101",
+   "date": "1971-10-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 2",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Landucci."
+  },
+  {
+   "id": "1971-nacional-102",
+   "date": "1971-10-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 2",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sánchez / Telch."
+  },
+  {
+   "id": "1971-nacional-103",
+   "date": "1971-10-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Neumann(2) / Lamelza."
+  },
+  {
+   "id": "1971-nacional-104",
+   "date": "1971-10-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 2",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ripke, Di Meola."
+  },
+  {
+   "id": "1971-nacional-105",
+   "date": "1971-10-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 2",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pecoraro / Suñé."
+  },
+  {
+   "id": "1971-nacional-106",
+   "date": "1971-10-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 7,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ripke."
+  },
+  {
+   "id": "1971-nacional-107",
+   "date": "1971-10-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 3",
+   "phase": "league",
+   "homeId": "guarani-antonio-franco",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Caballero / Cano."
+  },
+  {
+   "id": "1971-nacional-108",
+   "date": "1971-10-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 3",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bianchi / Fucceneco."
+  },
+  {
+   "id": "1971-nacional-109",
+   "date": "1971-10-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 3",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Chabay, Lamelza, J.Benítez / Sánchez."
+  },
+  {
+   "id": "1971-nacional-110",
+   "date": "1971-10-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 7,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bucci."
+  },
+  {
+   "id": "1971-nacional-111",
+   "date": "1971-10-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 3",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Landucci, Gramajo."
+  },
+  {
+   "id": "1971-nacional-112",
+   "date": "1971-10-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 3",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1971-nacional-113",
+   "date": "1971-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 4",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "guarani-antonio-franco",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rosales, J.Martínez, Magagna / Noguera, Lezcano."
+  },
+  {
+   "id": "1971-nacional-114",
+   "date": "1971-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1971-nacional-115",
+   "date": "1971-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Verde / García Ameijenda."
+  },
+  {
+   "id": "1971-nacional-116",
+   "date": "1971-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 4",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Villalón / Oruezábal."
+  },
+  {
+   "id": "1971-nacional-117",
+   "date": "1971-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 4",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: García Cambón / Ovide, Pianetti(2)."
+  },
+  {
+   "id": "1971-nacional-118",
+   "date": "1971-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 4",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mottura, Zucarelli / Pecoraro."
+  },
+  {
+   "id": "1971-nacional-119",
+   "date": "1971-10-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 4",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Wolff."
+  },
+  {
+   "id": "1971-nacional-120",
+   "date": "1971-10-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 5",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lamelza / Etchecopar."
+  },
+  {
+   "id": "1971-nacional-121",
+   "date": "1971-10-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 5",
+   "phase": "league",
+   "homeId": "guarani-antonio-franco",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Olivera, Caballero / Zucarelli, Sacconi."
+  },
+  {
+   "id": "1971-nacional-122",
+   "date": "1971-10-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 5",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vicente, Cano."
+  },
+  {
+   "id": "1971-nacional-123",
+   "date": "1971-10-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 5",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pianetti, Ferrero, Suñé, Corvalán o/g."
+  },
+  {
+   "id": "1971-nacional-124",
+   "date": "1971-10-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 5",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fischer, García Ameijenda / Ibáñez, Benítez, Becerra(2), Guzmán."
+  },
+  {
+   "id": "1971-nacional-125",
+   "date": "1971-10-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 5",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "huracan-iw",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gramajo(2)."
+  },
+  {
+   "id": "1971-nacional-126",
+   "date": "1971-11-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 5",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Tignanelli(3), Marzona."
+  },
+  {
+   "id": "1971-nacional-127",
+   "date": "1971-10-31",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 6",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "guarani-antonio-franco",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Landucci."
+  },
+  {
+   "id": "1971-nacional-128",
+   "date": "1971-10-31",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 6",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fischer, Chazarreta."
+  },
+  {
+   "id": "1971-nacional-129",
+   "date": "1971-10-31",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Guzmán, Ibañez / Amarilla."
+  },
+  {
+   "id": "1971-nacional-130",
+   "date": "1971-10-31",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Verde(2) / Bentrón, Bianchi(2)."
+  },
+  {
+   "id": "1971-nacional-131",
+   "date": "1971-10-31",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 6",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: M.Rojas / Ponce."
+  },
+  {
+   "id": "1971-nacional-132",
+   "date": "1971-10-31",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 6",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Candau, Cerqueiro."
+  },
+  {
+   "id": "1971-nacional-133",
+   "date": "1971-10-31",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 6",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1971-nacional-134",
+   "date": "1971-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 7",
+   "phase": "league",
+   "homeId": "guarani-antonio-franco",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Britez."
+  },
+  {
+   "id": "1971-nacional-135",
+   "date": "1971-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 7",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Di Meola, Sacconi / Villalón, Toledo."
+  },
+  {
+   "id": "1971-nacional-136",
+   "date": "1971-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 7",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: O.Gutiérrez, Cano(2), Candau."
+  },
+  {
+   "id": "1971-nacional-137",
+   "date": "1971-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 7",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Potente(2)."
+  },
+  {
+   "id": "1971-nacional-138",
+   "date": "1971-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 7",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bianchi / Guzmán."
+  },
+  {
+   "id": "1971-nacional-139",
+   "date": "1971-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 7",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan-iw",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Amarilla / Barú."
+  },
+  {
+   "id": "1971-nacional-140",
+   "date": "1971-11-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Villagra."
+  },
+  {
+   "id": "1971-nacional-141",
+   "date": "1971-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 8",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "guarani-antonio-franco",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Olguín, O.Rodriguez / Olivera, C.Britez, Caballero."
+  },
+  {
+   "id": "1971-nacional-142",
+   "date": "1971-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 8",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "racing",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Arias, Zavagno(2), Astegiano / Jorge, E.Domínguez."
+  },
+  {
+   "id": "1971-nacional-143",
+   "date": "1971-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 8",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Olivera."
+  },
+  {
+   "id": "1971-nacional-144",
+   "date": "1971-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 8",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Legrotaglie, Guzmán / Romero, Galletti."
+  },
+  {
+   "id": "1971-nacional-145",
+   "date": "1971-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Candau."
+  },
+  {
+   "id": "1971-nacional-146",
+   "date": "1971-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 8",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Caseres / Olmos."
+  },
+  {
+   "id": "1971-nacional-147",
+   "date": "1971-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 8",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Teijón, Manrique o/g, Acosta."
+  },
+  {
+   "id": "1971-nacional-148",
+   "date": "1971-11-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 9",
+   "phase": "league",
+   "homeId": "guarani-antonio-franco",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lezcano, C.Britez / Toledo, Villalón."
+  },
+  {
+   "id": "1971-nacional-149",
+   "date": "1971-11-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 9",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pollero, Falistoco / P.Díaz(3)."
+  },
+  {
+   "id": "1971-nacional-150",
+   "date": "1971-11-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 9",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ross(2), Marini / Bogliotti(2), Yacconi, Cepeda, Dominé."
+  },
+  {
+   "id": "1971-nacional-151",
+   "date": "1971-11-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 9",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Onnis(2), Ferreyra / C.Gómez."
+  },
+  {
+   "id": "1971-nacional-152",
+   "date": "1971-11-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 9",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan-iw",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "awardedTo": "boca",
+   "note": "No se jugó: Huracán de Ingeniero White se retiró y la liga le dio el partido 1-0 a Boca Juniors (así cuenta en la tabla)."
+  },
+  {
+   "id": "1971-nacional-153",
+   "date": "1971-11-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 9",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Asad / R.Rodríguez, Olivera o/g."
+  },
+  {
+   "id": "1971-nacional-154",
+   "date": "1971-11-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 9",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Robledo(2) / Olguín, Premici, Sotomayor."
+  },
+  {
+   "id": "1971-nacional-155",
+   "date": "1971-11-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 10",
+   "phase": "league",
+   "homeId": "guarani-antonio-franco",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Caballero / Marilao."
+  },
+  {
+   "id": "1971-nacional-156",
+   "date": "1971-11-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 10",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Promanzio / Montenegro."
+  },
+  {
+   "id": "1971-nacional-157",
+   "date": "1971-11-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 10",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bongiovanni, Galletti."
+  },
+  {
+   "id": "1971-nacional-158",
+   "date": "1971-11-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 10",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Onnis(3), Fuentes, Cerqueiro."
+  },
+  {
+   "id": "1971-nacional-159",
+   "date": "1971-11-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 10",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Guzmán, Luna / Olmos."
+  },
+  {
+   "id": "1971-nacional-160",
+   "date": "1971-11-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "chacarita",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: H.Rodríguez, Bogliotti, Yacconi, Suárez."
+  },
+  {
+   "id": "1971-nacional-161",
+   "date": "1971-11-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 10",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bucci(2), P.Díaz, Caseres / J.Ferreyra."
+  },
+  {
+   "id": "1971-nacional-162",
+   "date": "1971-12-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 12",
+   "phase": "league",
+   "homeId": "guarani-antonio-franco",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lezcano / Giménez Díaz o/g, Díaz, Sánchez."
+  },
+  {
+   "id": "1971-nacional-163",
+   "date": "1971-12-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 12",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: V.Pereyra."
+  },
+  {
+   "id": "1971-nacional-164",
+   "date": "1971-12-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 12",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Neumann, Buzzo, Bargas / Legrotaglie."
+  },
+  {
+   "id": "1971-nacional-165",
+   "date": "1971-12-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 12",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "huracan-iw",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zucarelli, Olmos(2), Zibecchi(2)."
+  },
+  {
+   "id": "1971-nacional-166",
+   "date": "1971-12-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 12",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vicente / Landucci, Gramajo, Zavagno."
+  },
+  {
+   "id": "1971-nacional-167",
+   "date": "1971-12-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 12",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Curioni, Ferrero / Scotta(2)."
+  },
+  {
+   "id": "1971-nacional-168",
+   "date": "1971-12-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Olivera, Patire / Robledo, Cárdenas."
+  },
+  {
+   "id": "1971-nacional-169",
+   "date": "1971-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 13",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "guarani-antonio-franco",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bianchi, Patire(2), Avanzi."
+  },
+  {
+   "id": "1971-nacional-170",
+   "date": "1971-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 13",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ferrero, Ponce."
+  },
+  {
+   "id": "1971-nacional-171",
+   "date": "1971-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Telch, Fischer, Scotta / Cerqueiro."
+  },
+  {
+   "id": "1971-nacional-172",
+   "date": "1971-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 13",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1971-nacional-173",
+   "date": "1971-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 13",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Poncio(2), Frassoldati."
+  },
+  {
+   "id": "1971-nacional-174",
+   "date": "1971-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 5,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Villalón(3), E.Sosa."
+  },
+  {
+   "id": "1971-nacional-175",
+   "date": "1971-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 13",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Díaz, Caseres / Verón, Romeo."
+  },
+  {
+   "id": "1971-nacional-176",
+   "date": "1971-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 14",
+   "phase": "league",
+   "homeId": "guarani-antonio-franco",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Verón."
+  },
+  {
+   "id": "1971-nacional-177",
+   "date": "1971-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 14",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bucci / Legrotaglie, Luna."
+  },
+  {
+   "id": "1971-nacional-178",
+   "date": "1971-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 14",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "huracan-iw",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cáceres, Ferreyra."
+  },
+  {
+   "id": "1971-nacional-179",
+   "date": "1971-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 14",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Frassoldati."
+  },
+  {
+   "id": "1971-nacional-180",
+   "date": "1971-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 14",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zibecchi / Fischer(2), Scotta(2)."
+  },
+  {
+   "id": "1971-nacional-181",
+   "date": "1971-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 14",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: R.Domínguez, Lamelza, A.Gómez."
+  },
+  {
+   "id": "1971-nacional-182",
+   "date": "1971-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 14",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Potente(3), Ferrero, Curioni."
+  },
+  {
+   "id": "1971-nacional-183",
+   "date": "1971-11-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Interzonal · Fecha 11",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Reguera."
+  },
+  {
+   "id": "1971-nacional-184",
+   "date": "1971-11-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Interzonal · Fecha 11",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: J.Martínez, J.J.López, Morete / Ponce."
+  },
+  {
+   "id": "1971-nacional-185",
+   "date": "1971-11-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Interzonal · Fecha 11",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Quiroga, Llorens(2), Reinaldi / P.Díaz."
+  },
+  {
+   "id": "1971-nacional-186",
+   "date": "1971-11-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Interzonal · Fecha 11",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "juventud-antoniana",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Blasco, Sánchez, Argarañaz / Pachao."
+  },
+  {
+   "id": "1971-nacional-187",
+   "date": "1971-11-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Interzonal · Fecha 11",
+   "phase": "league",
+   "homeId": "guarani-antonio-franco",
+   "awayId": "don-orione-resistencia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Recalde, Caballero / Molina."
+  },
+  {
+   "id": "1971-nacional-188",
+   "date": "1971-11-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Interzonal · Fecha 11",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1971-nacional-189",
+   "date": "1971-11-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Interzonal · Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Aguilar(3), Verde, Bedogni / V.Sánchez."
+  },
+  {
+   "id": "1971-nacional-190",
+   "date": "1971-11-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Interzonal · Fecha 11",
+   "phase": "league",
+   "homeId": "huracan-comodoro",
+   "awayId": "huracan-iw",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Toledo / V.Sánchez."
+  },
+  {
+   "id": "1971-nacional-191",
+   "date": "1971-11-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Interzonal · Fecha 11",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pena, Cicarello / Gómez Voglino, Candau."
+  },
+  {
+   "id": "1971-nacional-192",
+   "date": "1971-11-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Interzonal · Fecha 11",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "kimberley-mdp",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Olmos / Fortunato."
+  },
+  {
+   "id": "1971-nacional-193",
+   "date": "1971-11-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Interzonal · Fecha 11",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maglioni, Magán / J.Benítez."
+  },
+  {
+   "id": "1971-nacional-194",
+   "date": "1971-11-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Interzonal · Fecha 11",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Buglione o/g, García Ameijenda, Scotta."
+  },
+  {
+   "id": "1971-nacional-195",
+   "date": "1971-11-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Interzonal · Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fornari / Zuvialde."
+  },
+  {
+   "id": "1971-nacional-196",
+   "date": "1971-11-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Interzonal · Fecha 11",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ayala, Neumann, Buzzo."
+  },
+  {
+   "id": "1971-nacional-197",
+   "date": "1971-12-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Semifinal",
+   "phase": "playoff",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue. Goles: Semenewicz, Maglioni / Ayala, Fischer. San Lorenzo ganó por penales (6-7).",
+   "advancedId": "sanlorenzo"
+  },
+  {
+   "id": "1971-nacional-198",
+   "date": "1971-12-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Semifinal",
+   "phase": "playoff",
+   "homeId": "central",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Poy."
+  },
+  {
+   "id": "1971-nacional-199",
+   "date": "1971-12-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Final",
+   "phase": "playoff",
+   "homeId": "central",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gramajo, Colman / Scotta."
+  }
+ ]
+}

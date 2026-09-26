@@ -27,6 +27,8 @@ export type RawMatch = {
   edition?: string;
   // Copas por grupos (Asociación Amateurs 1924): "Group A" con sus fechas ("Round 1"...).
   group?: string;
+  // Ligas en varias secciones (Nacionales 1971–1985): el título de la sección ("Quarterfinals", "Final").
+  stageHint?: string;
   home: string;
   away: string;
   score: string; // "3:1", "wp:lp", "ann", "d:d", ...
@@ -104,7 +106,7 @@ function splitAway(rest: string): { away: string; note: string; awarded?: string
 const dayFirst = (s: string) => s.replace(/^(\d{1,2})\s+([A-Z][a-z]{2})[a-z]*(?:\s+(\d{4}))?$/, (_, d, m, y) => `${m} ${d}${y ? `, ${y}` : ""}`);
 
 // `cup`: en las copas una fase o región sin fecha propia no hereda la de la anterior (queda sin fecha).
-export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSection[] {
+export function parseSeason(source: string, opts: { cup?: boolean; headings?: RegExp[]; groups?: boolean } = {}): RawSection[] {
   // Los títulos de sección a veces ocupan varias líneas: se aplanan a una sola.
   const html = source.replace(
     /<h([2-4])([^>]*)>([\s\S]*?)<\/h\1>/gi,
@@ -126,7 +128,15 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     .replace(/<\/?[a-zA-Z!][^>]*>/g, "")
     // Títulos cortados en dos renglones (Asociación Amateurs 1926): "Group\nA", "First\nRound:".
     .replace(/^(\s*)(Group|Zona|First|Second|Third|Final)[ \t]*\r?\n[ \t]*([A-Z]|Norte|Sur|Round:?|Phase:?)[ \t]*$/gm, "$1$2 $3")
-    .split(/\r?\n/);
+    .split(/\r?\n/)
+    // Notas entre corchetes cortadas en dos renglones (1972: "[at Quilmes,\n   abandoned at 2-1 in 62']"): se unen.
+    .reduce<string[]>((acc, l) => {
+      const prev = acc[acc.length - 1];
+      const open = prev !== undefined && /\S\s+\[[^\]]*$/.test(prev) && (prev.match(/\[/g) ?? []).length > (prev.match(/\]/g) ?? []).length;
+      if (open && /^\s+[^\s[]/.test(l) && /\]\s*$/.test(l)) acc[acc.length - 1] = `${prev.trimEnd()} ${l.trim()}`;
+      else acc.push(l);
+      return acc;
+    }, []);
 
   const sections: RawSection[] = [];
   let cur: RawSection = { heading: "", tables: [], matches: [], text: [] };
@@ -150,7 +160,9 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     const leagueLine =
       /^(Asociaci[oó]n (Argentina|Amateurs?)( Argentina)? de Football|Federaci[oó]n Argentina de Football)$/i.test(trimmed) ||
       // 1970: cada torneo del año empieza con "Campeonato Metropolitano [Metropolitan Championship]", sin <h2>.
-      /^(Campeonato|Torneo|Petit)[^[\]]{3,70}\[[A-Z][^\]]+\]\s*(\d{4})?$/.test(trimmed);
+      /^(Campeonato|Torneo|Petit)[^[\]]{3,70}\[[A-Z][^\]]+\]\s*(\d{4})?$/.test(trimmed) ||
+      // Títulos que da la configuración de la temporada (1971–: "Campeonato Metropolitano 1983.", "Group A.").
+      !!opts.headings?.some((h) => h.test(trimmed));
     if ((headings.has(trimmed.replace(/\s+/g, " ")) || leagueLine) && !/^About this document$/i.test(trimmed)) {
       cur = { heading: trimmed.replace(/\s+/g, " "), tables: [], matches: [], text: [] };
       sections.push(cur);
@@ -232,7 +244,7 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     // También "Group "B":" (1925) y "Playoff Group "B":" (desempate dentro del grupo).
     // Y las zonas de la Copa Estímulo 1920 ("Zona Norte").
     // Y los grupos con nombre de la Copa Jockey Club 1931 ("Group North 1", "Group West").
-    const grp = opts.cup
+    const grp = opts.cup || opts.groups
       ? trimmed.replace(/^\.\s*/, "").match(/^(Playoff\s+)?(?:Group\s+"?([A-Z])"?|Zona\s+(Norte|Sur)|Group\s+(North|South|East|West)(?:\s+(\d))?)[:.]?$/i)
       : null;
     // Grupos con el nombre de una liga (Beccar Varela 1933): Group "Liga Rosarina de Football" - Torneo Selección...:
@@ -244,6 +256,13 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
       cur.text.push(trimmed);
       return;
     }
+    // Nacional 1973: "Inter Group" agrupa los partidos interzonales de cada fecha.
+    if (opts.groups && /^Inter\s*Groups?:?$/i.test(trimmed)) {
+      group = "Interzonal";
+      date = "";
+      cur.text.push(trimmed);
+      return;
+    }
     if (grp) {
       const POINTS: Record<string, string> = { north: "Norte", south: "Sur", east: "Este", west: "Oeste" };
       group = grp[2]
@@ -251,7 +270,8 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
         : grp[3]
           ? `Zona ${grp[3]}`
           : `Grupo ${POINTS[grp[4].toLowerCase()]}${grp[5] ? ` ${grp[5]}` : ""}`;
-      round = grp[1] ? "Playoff" : undefined;
+      // En las ligas con grupos por fecha (Nacional 1973: "13th Round" y después "Group A") la fecha sigue valiendo.
+      round = grp[1] ? "Playoff" : opts.cup ? undefined : round;
       date = "";
       cur.text.push(trimmed);
       return;
@@ -346,6 +366,10 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     // "Independiente  wp 1:1 lp Racing Club [abandoned at 1:1…]" (1936): resuelto por escritorio con el parcial en la nota.
     // Desde los años 50 el parcial no siempre está en la nota ("lp 1:1 wp … [abandoned at 66m, awarded on Nov 26]"):
     // se guarda como "played X:Y" al final.
+    // Errata "wp-1p" (1971) y penales pegados al resultado: "Independiente [6]2-2[7] San Lorenzo" → nota "pen 6:7".
+    normalized = normalized.replace(/\b(wp|lp)-1p\b/i, "$1-lp").replace(/\b1p-(wp)\b/i, "lp-$1");
+    const pens = normalized.match(/\s[[(](\d+)[\])]\s*(\d+\s*[-:]\s*\d+)\s*[[(](\d+)[\])](?=\s)/);
+    if (pens) normalized = `${normalized.replace(pens[0], ` ${pens[2]} `)}  [pen ${pens[1]}:${pens[3]}]`;
     const wpScore = normalized.match(/\s(wp|lp)\s+(\d+)\s*:\s*(\d+)\s+(wp|lp)\s/);
     if (wpScore) normalized = `${normalized.replace(wpScore[0], ` ${wpScore[1]}:${wpScore[4]} `)}  [played ${wpScore[2]}:${wpScore[3]}]`;
     const place = normalized.match(/^([A-ZÁÉÍÓÚ][^:\d]{2,40}):\s+(\S.*\s\d+-\d+\s.*)$/);

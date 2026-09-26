@@ -1,0 +1,4310 @@
+{
+ "slug": "1973-metropolitano",
+ "year": 1973,
+ "league": "Metropolitano",
+ "title": "Metropolitano 1973",
+ "tournament": "Campeonato Metropolitano 1973",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "huracan"
+ ],
+ "summary": "Huracán ganó el Metropolitano con el equipo de César Luis Menotti.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1973",
+   "url": "https://www.rsssf.org/tablesa/arg73.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato Metropolitano 1973 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_Metropolitano_1973_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "17 equipos, todos contra todos a dos ruedas, 2 puntos por victoria."
+  },
+  {
+   "kind": "fuentes",
+   "text": "La tabla con la que se verifican los partidos es la del documento de tablas finales de RSSSF de la década (la página de la temporada no la trae)."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "huracan",
+   "played": 32,
+   "won": 19,
+   "drawn": 8,
+   "lost": 5,
+   "goalsFor": 62,
+   "goalsAgainst": 30,
+   "points": 46
+  },
+  {
+   "teamId": "boca",
+   "played": 32,
+   "won": 18,
+   "drawn": 6,
+   "lost": 8,
+   "goalsFor": 69,
+   "goalsAgainst": 37,
+   "points": 42
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 32,
+   "won": 15,
+   "drawn": 10,
+   "lost": 7,
+   "goalsFor": 52,
+   "goalsAgainst": 37,
+   "points": 40
+  },
+  {
+   "teamId": "independiente",
+   "played": 32,
+   "won": 15,
+   "drawn": 8,
+   "lost": 9,
+   "goalsFor": 44,
+   "goalsAgainst": 32,
+   "points": 38
+  },
+  {
+   "teamId": "river",
+   "played": 32,
+   "won": 15,
+   "drawn": 7,
+   "lost": 10,
+   "goalsFor": 59,
+   "goalsAgainst": 56,
+   "points": 37
+  },
+  {
+   "teamId": "velez",
+   "played": 32,
+   "won": 13,
+   "drawn": 8,
+   "lost": 11,
+   "goalsFor": 49,
+   "goalsAgainst": 46,
+   "points": 34
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 32,
+   "won": 12,
+   "drawn": 9,
+   "lost": 11,
+   "goalsFor": 51,
+   "goalsAgainst": 47,
+   "points": 33
+  },
+  {
+   "teamId": "central",
+   "played": 32,
+   "won": 12,
+   "drawn": 9,
+   "lost": 11,
+   "goalsFor": 44,
+   "goalsAgainst": 46,
+   "points": 33
+  },
+  {
+   "teamId": "atlanta",
+   "played": 32,
+   "won": 12,
+   "drawn": 8,
+   "lost": 12,
+   "goalsFor": 33,
+   "goalsAgainst": 39,
+   "points": 32
+  },
+  {
+   "teamId": "argentinos",
+   "played": 32,
+   "won": 12,
+   "drawn": 7,
+   "lost": 13,
+   "goalsFor": 41,
+   "goalsAgainst": 50,
+   "points": 31
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 32,
+   "won": 9,
+   "drawn": 12,
+   "lost": 11,
+   "goalsFor": 54,
+   "goalsAgainst": 55,
+   "points": 30
+  },
+  {
+   "teamId": "racing",
+   "played": 32,
+   "won": 8,
+   "drawn": 14,
+   "lost": 10,
+   "goalsFor": 44,
+   "goalsAgainst": 47,
+   "points": 30
+  },
+  {
+   "teamId": "chacarita",
+   "played": 32,
+   "won": 8,
+   "drawn": 11,
+   "lost": 13,
+   "goalsFor": 34,
+   "goalsAgainst": 46,
+   "points": 27
+  },
+  {
+   "teamId": "newells",
+   "played": 32,
+   "won": 10,
+   "drawn": 6,
+   "lost": 16,
+   "goalsFor": 45,
+   "goalsAgainst": 54,
+   "points": 26
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 32,
+   "won": 5,
+   "drawn": 14,
+   "lost": 13,
+   "goalsFor": 32,
+   "goalsAgainst": 45,
+   "points": 24
+  },
+  {
+   "teamId": "all-boys",
+   "played": 32,
+   "won": 8,
+   "drawn": 5,
+   "lost": 19,
+   "goalsFor": 34,
+   "goalsAgainst": 60,
+   "points": 21
+  },
+  {
+   "teamId": "ferro",
+   "played": 32,
+   "won": 7,
+   "drawn": 6,
+   "lost": 19,
+   "goalsFor": 36,
+   "goalsAgainst": 56,
+   "points": 20
+  }
+ ],
+ "matches": [
+  {
+   "id": "1973-metropolitano-001",
+   "date": "1973-03-02",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-002",
+   "date": "1973-03-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-003",
+   "date": "1973-03-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-004",
+   "date": "1973-03-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-005",
+   "date": "1973-03-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-006",
+   "date": "1973-03-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "argentinos",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-007",
+   "date": "1973-03-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-008",
+   "date": "1973-03-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-009",
+   "date": "1973-03-09",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-010",
+   "date": "1973-03-09",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-011",
+   "date": "1973-03-09",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-012",
+   "date": "1973-03-09",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-013",
+   "date": "1973-03-09",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-014",
+   "date": "1973-03-09",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Rosario Central",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-015",
+   "date": "1973-03-09",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-016",
+   "date": "1973-03-09",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-017",
+   "date": "1973-03-16",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-018",
+   "date": "1973-03-18",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-019",
+   "date": "1973-03-18",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-020",
+   "date": "1973-03-18",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-021",
+   "date": "1973-03-18",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-022",
+   "date": "1973-03-18",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-023",
+   "date": "1973-03-18",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atlanta",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-024",
+   "date": "1973-03-18",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-025",
+   "date": "1973-03-25",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-026",
+   "date": "1973-03-25",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "chacarita",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-027",
+   "date": "1973-03-25",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-028",
+   "date": "1973-03-25",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-029",
+   "date": "1973-03-25",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-030",
+   "date": "1973-03-25",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-031",
+   "date": "1973-03-25",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-032",
+   "date": "1973-03-25",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-033",
+   "date": "1973-03-30",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-034",
+   "date": "1973-04-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-035",
+   "date": "1973-04-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "racing",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-036",
+   "date": "1973-04-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-037",
+   "date": "1973-04-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-038",
+   "date": "1973-04-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "argentinos",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-039",
+   "date": "1973-04-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-040",
+   "date": "1973-04-16",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-041",
+   "date": "1973-04-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-042",
+   "date": "1973-04-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-043",
+   "date": "1973-04-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-044",
+   "date": "1973-04-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-045",
+   "date": "1973-04-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-046",
+   "date": "1973-04-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-047",
+   "date": "1973-04-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-048",
+   "date": "1973-04-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-049",
+   "date": "1973-04-12",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-050",
+   "date": "1973-04-13",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-051",
+   "date": "1973-04-13",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-052",
+   "date": "1973-04-13",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "newells",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-053",
+   "date": "1973-04-13",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-054",
+   "date": "1973-04-13",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-055",
+   "date": "1973-04-13",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-056",
+   "date": "1973-04-13",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-057",
+   "date": "1973-04-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-058",
+   "date": "1973-04-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-059",
+   "date": "1973-04-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-060",
+   "date": "1973-04-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-061",
+   "date": "1973-04-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-062",
+   "date": "1973-04-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-063",
+   "date": "1973-04-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-064",
+   "date": "1973-04-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-065",
+   "date": "1973-04-21",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-066",
+   "date": "1973-04-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-067",
+   "date": "1973-04-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-068",
+   "date": "1973-04-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-069",
+   "date": "1973-04-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-070",
+   "date": "1973-04-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-071",
+   "date": "1973-04-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-072",
+   "date": "1973-04-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-073",
+   "date": "1973-04-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-074",
+   "date": "1973-04-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-075",
+   "date": "1973-04-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-076",
+   "date": "1973-04-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-077",
+   "date": "1973-04-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-078",
+   "date": "1973-04-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-079",
+   "date": "1973-04-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-080",
+   "date": "1973-04-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-081",
+   "date": "1973-05-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-082",
+   "date": "1973-05-06",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-083",
+   "date": "1973-05-06",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-084",
+   "date": "1973-05-06",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-085",
+   "date": "1973-05-06",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-086",
+   "date": "1973-05-06",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "atlanta",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-087",
+   "date": "1973-05-06",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-088",
+   "date": "1973-05-06",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-089",
+   "date": "1973-05-11",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-090",
+   "date": "1973-05-13",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-091",
+   "date": "1973-05-13",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-092",
+   "date": "1973-05-13",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-093",
+   "date": "1973-05-13",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-094",
+   "date": "1973-05-13",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-095",
+   "date": "1973-05-13",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-096",
+   "date": "1973-05-13",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-097",
+   "date": "1973-05-18",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-098",
+   "date": "1973-05-20",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-099",
+   "date": "1973-05-20",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-100",
+   "date": "1973-05-20",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-101",
+   "date": "1973-05-20",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "velez",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-102",
+   "date": "1973-05-20",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-103",
+   "date": "1973-05-20",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-104",
+   "date": "1973-05-20",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-105",
+   "date": "1973-05-26",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-106",
+   "date": "1973-05-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "ferro",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-107",
+   "date": "1973-05-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-108",
+   "date": "1973-05-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-109",
+   "date": "1973-05-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sanlorenzo",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-110",
+   "date": "1973-05-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-111",
+   "date": "1973-05-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-112",
+   "date": "1973-05-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-113",
+   "date": "1973-06-01",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-114",
+   "date": "1973-06-03",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-115",
+   "date": "1973-06-03",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-116",
+   "date": "1973-06-03",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-117",
+   "date": "1973-06-03",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-118",
+   "date": "1973-06-03",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-119",
+   "date": "1973-06-03",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-120",
+   "date": "1973-06-03",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-121",
+   "date": "1973-06-09",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-122",
+   "date": "1973-06-10",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-123",
+   "date": "1973-06-10",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-124",
+   "date": "1973-06-10",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-125",
+   "date": "1973-06-10",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-126",
+   "date": "1973-06-10",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-127",
+   "date": "1973-06-10",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-128",
+   "date": "1973-06-10",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-129",
+   "date": "1973-06-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-130",
+   "date": "1973-06-24",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-131",
+   "date": "1973-06-24",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-132",
+   "date": "1973-06-24",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-133",
+   "date": "1973-06-24",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-134",
+   "date": "1973-06-24",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-135",
+   "date": "1973-06-24",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-136",
+   "date": "1973-06-24",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-137",
+   "date": "1973-06-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-138",
+   "date": "1973-06-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-139",
+   "date": "1973-06-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-140",
+   "date": "1973-06-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-141",
+   "date": "1973-06-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-142",
+   "date": "1973-06-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-143",
+   "date": "1973-06-27",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-144",
+   "date": "1973-06-28",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-145",
+   "date": "1973-06-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-146",
+   "date": "1973-07-01",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-147",
+   "date": "1973-07-01",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-148",
+   "date": "1973-07-01",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-149",
+   "date": "1973-07-01",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 7,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-150",
+   "date": "1973-07-01",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-151",
+   "date": "1973-07-01",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-152",
+   "date": "1973-07-01",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-153",
+   "date": "1973-07-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-154",
+   "date": "1973-07-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-155",
+   "date": "1973-07-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-156",
+   "date": "1973-07-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-157",
+   "date": "1973-07-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-158",
+   "date": "1973-07-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-159",
+   "date": "1973-07-04",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-160",
+   "date": "1973-07-05",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-161",
+   "date": "1973-07-08",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-162",
+   "date": "1973-07-08",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-163",
+   "date": "1973-07-08",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-164",
+   "date": "1973-07-08",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-165",
+   "date": "1973-07-08",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-166",
+   "date": "1973-07-08",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-167",
+   "date": "1973-07-08",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-168",
+   "date": "1973-07-08",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-169",
+   "date": "1973-07-14",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-170",
+   "date": "1973-07-15",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-171",
+   "date": "1973-07-15",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-172",
+   "date": "1973-07-15",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-173",
+   "date": "1973-07-15",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-174",
+   "date": "1973-07-15",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "chacarita",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-175",
+   "date": "1973-07-15",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-176",
+   "date": "1973-07-15",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-177",
+   "date": "1973-07-20",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-178",
+   "date": "1973-07-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-179",
+   "date": "1973-07-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-180",
+   "date": "1973-07-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-181",
+   "date": "1973-07-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-182",
+   "date": "1973-07-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-183",
+   "date": "1973-07-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-184",
+   "date": "1973-07-24",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-185",
+   "date": "1973-07-28",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "all-boys",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-186",
+   "date": "1973-07-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-187",
+   "date": "1973-07-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-188",
+   "date": "1973-07-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-189",
+   "date": "1973-07-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-190",
+   "date": "1973-07-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-191",
+   "date": "1973-07-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-192",
+   "date": "1973-07-29",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-193",
+   "date": "1973-08-03",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-194",
+   "date": "1973-08-05",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-195",
+   "date": "1973-08-05",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-196",
+   "date": "1973-08-05",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-197",
+   "date": "1973-08-05",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-198",
+   "date": "1973-08-05",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-199",
+   "date": "1973-08-05",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-200",
+   "date": "1973-08-05",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-201",
+   "date": "1973-08-10",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-202",
+   "date": "1973-08-12",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-203",
+   "date": "1973-08-12",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-204",
+   "date": "1973-08-12",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-205",
+   "date": "1973-08-12",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-206",
+   "date": "1973-08-12",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-207",
+   "date": "1973-08-12",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-208",
+   "date": "1973-08-12",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-209",
+   "date": "1973-08-15",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-210",
+   "date": "1973-08-15",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-211",
+   "date": "1973-08-15",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-212",
+   "date": "1973-08-15",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-213",
+   "date": "1973-08-15",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-214",
+   "date": "1973-08-15",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-215",
+   "date": "1973-08-15",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-216",
+   "date": "1973-08-16",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-217",
+   "date": "1973-08-17",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-218",
+   "date": "1973-08-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-219",
+   "date": "1973-08-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-220",
+   "date": "1973-08-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-221",
+   "date": "1973-08-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-222",
+   "date": "1973-08-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-223",
+   "date": "1973-08-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-224",
+   "date": "1973-08-19",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-225",
+   "date": "1973-08-24",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-226",
+   "date": "1973-08-26",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "river",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-227",
+   "date": "1973-08-26",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-228",
+   "date": "1973-08-26",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-229",
+   "date": "1973-08-26",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-230",
+   "date": "1973-08-26",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-231",
+   "date": "1973-08-26",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-232",
+   "date": "1973-08-26",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-233",
+   "date": "1973-09-01",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-234",
+   "date": "1973-09-02",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-235",
+   "date": "1973-09-02",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-236",
+   "date": "1973-09-02",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-237",
+   "date": "1973-09-02",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-238",
+   "date": "1973-09-02",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-239",
+   "date": "1973-09-02",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-240",
+   "date": "1973-09-02",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-241",
+   "date": "1973-09-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-242",
+   "date": "1973-09-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-243",
+   "date": "1973-09-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-244",
+   "date": "1973-09-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-245",
+   "date": "1973-09-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-246",
+   "date": "1973-09-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-247",
+   "date": "1973-09-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-248",
+   "date": "1973-09-07",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-249",
+   "date": "1973-09-14",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-250",
+   "date": "1973-09-16",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-251",
+   "date": "1973-09-16",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-252",
+   "date": "1973-09-16",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-253",
+   "date": "1973-09-16",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-254",
+   "date": "1973-09-16",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-255",
+   "date": "1973-09-16",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-256",
+   "date": "1973-09-16",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-257",
+   "date": "1973-09-21",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-258",
+   "date": "1973-09-21",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-259",
+   "date": "1973-09-21",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-260",
+   "date": "1973-09-21",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-261",
+   "date": "1973-09-21",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-262",
+   "date": "1973-09-21",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-263",
+   "date": "1973-09-21",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-264",
+   "date": "1973-09-22",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-265",
+   "date": "1973-09-28",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-266",
+   "date": "1973-09-30",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-267",
+   "date": "1973-09-30",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-268",
+   "date": "1973-09-30",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "argentinos",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-269",
+   "date": "1973-09-30",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-270",
+   "date": "1973-09-30",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-271",
+   "date": "1973-09-30",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1973-metropolitano-272",
+   "date": "1973-09-30",
+   "competition": "Asociación del Fútbol Argentino · Metropolitano",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}

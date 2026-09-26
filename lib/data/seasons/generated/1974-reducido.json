@@ -1,0 +1,101 @@
+{
+ "slug": "1974-reducido",
+ "year": 1974,
+ "league": "Torneo Reducido",
+ "title": "Torneo Reducido 1974",
+ "tournament": "Torneo Torneo Reducido 1974",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Rosario Central y Newell's ganaron los lugares argentinos en la Copa Libertadores 1975.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1974",
+   "url": "https://www.rsssf.org/tablesa/arg74.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "3 equipos, todos contra todos a una rueda, por dos lugares en la Copa Libertadores 1975. 2 puntos por victoria."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "central",
+   "played": 2,
+   "won": 2,
+   "drawn": 0,
+   "lost": 0,
+   "goalsFor": 3,
+   "goalsAgainst": 0,
+   "points": 4
+  },
+  {
+   "teamId": "newells",
+   "played": 2,
+   "won": 1,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 2,
+   "goalsAgainst": 2,
+   "points": 2
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 2,
+   "won": 0,
+   "drawn": 0,
+   "lost": 2,
+   "goalsFor": 0,
+   "goalsAgainst": 3,
+   "points": 0
+  }
+ ],
+ "matches": [
+  {
+   "id": "1974-reducido-001",
+   "date": "1974-12-26",
+   "competition": "Asociación del Fútbol Argentino · Torneo Reducido",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1974-reducido-002",
+   "date": "1974-12-28",
+   "competition": "Asociación del Fútbol Argentino · Torneo Reducido",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Rosario Central",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1974-reducido-003",
+   "date": "1974-12-30",
+   "competition": "Asociación del Fútbol Argentino · Torneo Reducido",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

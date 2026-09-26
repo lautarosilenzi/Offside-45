@@ -1,0 +1,4070 @@
+{
+ "slug": "1977-nacional",
+ "year": 1977,
+ "league": "Nacional",
+ "title": "Nacional 1977",
+ "tournament": "Campeonato Nacional 1977",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "independiente"
+ ],
+ "summary": "Independiente ganó el Nacional ante Talleres en Córdoba, con tres jugadores menos y el gol de Bochini en la vuelta.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1977",
+   "url": "https://www.rsssf.org/tablesa/arg77.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato Nacional 1977 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_Nacional_1977_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Cuatro grupos de 8 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a dos ruedas. Los ganadores de cada grupo jugaron semifinales y final de ida y vuelta. 2 puntos por victoria."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "newells",
+   "played": 14,
+   "won": 8,
+   "drawn": 5,
+   "lost": 1,
+   "goalsFor": 33,
+   "goalsAgainst": 11,
+   "points": 21
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 14,
+   "won": 5,
+   "drawn": 7,
+   "lost": 2,
+   "goalsFor": 20,
+   "goalsAgainst": 14,
+   "points": 17
+  },
+  {
+   "teamId": "independiente-rivadavia",
+   "played": 14,
+   "won": 6,
+   "drawn": 5,
+   "lost": 3,
+   "goalsFor": 24,
+   "goalsAgainst": 20,
+   "points": 17
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 14,
+   "won": 4,
+   "drawn": 7,
+   "lost": 3,
+   "goalsFor": 21,
+   "goalsAgainst": 21,
+   "points": 15
+  },
+  {
+   "teamId": "san-martin-tucuman",
+   "played": 14,
+   "won": 2,
+   "drawn": 10,
+   "lost": 2,
+   "goalsFor": 18,
+   "goalsAgainst": 18,
+   "points": 14
+  },
+  {
+   "teamId": "estudiantes-ba",
+   "played": 14,
+   "won": 3,
+   "drawn": 6,
+   "lost": 5,
+   "goalsFor": 15,
+   "goalsAgainst": 22,
+   "points": 12
+  },
+  {
+   "teamId": "banfield",
+   "played": 14,
+   "won": 3,
+   "drawn": 4,
+   "lost": 7,
+   "goalsFor": 17,
+   "goalsAgainst": 28,
+   "points": 10
+  },
+  {
+   "teamId": "circulo-deportivo",
+   "played": 14,
+   "won": 1,
+   "drawn": 4,
+   "lost": 9,
+   "goalsFor": 7,
+   "goalsAgainst": 21,
+   "points": 6
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 14,
+   "won": 10,
+   "drawn": 2,
+   "lost": 2,
+   "goalsFor": 32,
+   "goalsAgainst": 13,
+   "points": 22
+  },
+  {
+   "teamId": "boca",
+   "played": 14,
+   "won": 7,
+   "drawn": 3,
+   "lost": 4,
+   "goalsFor": 22,
+   "goalsAgainst": 16,
+   "points": 17
+  },
+  {
+   "teamId": "central",
+   "played": 14,
+   "won": 7,
+   "drawn": 2,
+   "lost": 5,
+   "goalsFor": 20,
+   "goalsAgainst": 13,
+   "points": 16
+  },
+  {
+   "teamId": "los-andes-sj",
+   "played": 14,
+   "won": 6,
+   "drawn": 4,
+   "lost": 4,
+   "goalsFor": 22,
+   "goalsAgainst": 19,
+   "points": 16
+  },
+  {
+   "teamId": "quilmes",
+   "played": 14,
+   "won": 5,
+   "drawn": 4,
+   "lost": 5,
+   "goalsFor": 10,
+   "goalsAgainst": 15,
+   "points": 14
+  },
+  {
+   "teamId": "cipolletti",
+   "played": 14,
+   "won": 6,
+   "drawn": 1,
+   "lost": 7,
+   "goalsFor": 20,
+   "goalsAgainst": 26,
+   "points": 13
+  },
+  {
+   "teamId": "chacarita",
+   "played": 14,
+   "won": 4,
+   "drawn": 1,
+   "lost": 9,
+   "goalsFor": 20,
+   "goalsAgainst": 26,
+   "points": 9
+  },
+  {
+   "teamId": "central-norte-salta",
+   "played": 14,
+   "won": 2,
+   "drawn": 1,
+   "lost": 11,
+   "goalsFor": 14,
+   "goalsAgainst": 32,
+   "points": 5
+  },
+  {
+   "teamId": "talleres",
+   "played": 14,
+   "won": 9,
+   "drawn": 2,
+   "lost": 3,
+   "goalsFor": 27,
+   "goalsAgainst": 20,
+   "points": 20
+  },
+  {
+   "teamId": "racing",
+   "played": 14,
+   "won": 6,
+   "drawn": 5,
+   "lost": 3,
+   "goalsFor": 22,
+   "goalsAgainst": 12,
+   "points": 17
+  },
+  {
+   "teamId": "river",
+   "played": 14,
+   "won": 7,
+   "drawn": 1,
+   "lost": 6,
+   "goalsFor": 32,
+   "goalsAgainst": 15,
+   "points": 15
+  },
+  {
+   "teamId": "velez",
+   "played": 14,
+   "won": 6,
+   "drawn": 3,
+   "lost": 5,
+   "goalsFor": 27,
+   "goalsAgainst": 24,
+   "points": 15
+  },
+  {
+   "teamId": "platense",
+   "played": 14,
+   "won": 5,
+   "drawn": 4,
+   "lost": 5,
+   "goalsFor": 25,
+   "goalsAgainst": 25,
+   "points": 14
+  },
+  {
+   "teamId": "sarmiento-resistencia",
+   "played": 14,
+   "won": 4,
+   "drawn": 4,
+   "lost": 6,
+   "goalsFor": 18,
+   "goalsAgainst": 29,
+   "points": 12
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 14,
+   "won": 4,
+   "drawn": 3,
+   "lost": 7,
+   "goalsFor": 22,
+   "goalsAgainst": 29,
+   "points": 11
+  },
+  {
+   "teamId": "gimnasia-jujuy",
+   "played": 14,
+   "won": 3,
+   "drawn": 2,
+   "lost": 9,
+   "goalsFor": 7,
+   "goalsAgainst": 26,
+   "points": 8
+  },
+  {
+   "teamId": "independiente",
+   "played": 14,
+   "won": 10,
+   "drawn": 1,
+   "lost": 3,
+   "goalsFor": 30,
+   "goalsAgainst": 13,
+   "points": 21
+  },
+  {
+   "teamId": "belgrano",
+   "played": 14,
+   "won": 8,
+   "drawn": 3,
+   "lost": 3,
+   "goalsFor": 25,
+   "goalsAgainst": 18,
+   "points": 19
+  },
+  {
+   "teamId": "huracan",
+   "played": 14,
+   "won": 6,
+   "drawn": 3,
+   "lost": 5,
+   "goalsFor": 25,
+   "goalsAgainst": 23,
+   "points": 15
+  },
+  {
+   "teamId": "atlanta",
+   "played": 14,
+   "won": 5,
+   "drawn": 3,
+   "lost": 6,
+   "goalsFor": 14,
+   "goalsAgainst": 15,
+   "points": 13
+  },
+  {
+   "teamId": "argentinos",
+   "played": 14,
+   "won": 5,
+   "drawn": 3,
+   "lost": 6,
+   "goalsFor": 18,
+   "goalsAgainst": 21,
+   "points": 13
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 14,
+   "won": 4,
+   "drawn": 4,
+   "lost": 6,
+   "goalsFor": 20,
+   "goalsAgainst": 23,
+   "points": 12
+  },
+  {
+   "teamId": "atletico-ledesma",
+   "played": 14,
+   "won": 3,
+   "drawn": 4,
+   "lost": 7,
+   "goalsFor": 13,
+   "goalsAgainst": 21,
+   "points": 10
+  },
+  {
+   "teamId": "all-boys",
+   "played": 14,
+   "won": 3,
+   "drawn": 3,
+   "lost": 8,
+   "goalsFor": 19,
+   "goalsAgainst": 30,
+   "points": 9
+  }
+ ],
+ "groups": [
+  {
+   "name": "Grupo A",
+   "teamIds": [
+    "newells",
+    "sanlorenzo",
+    "independiente-rivadavia",
+    "gimnasia",
+    "san-martin-tucuman",
+    "estudiantes-ba",
+    "banfield",
+    "circulo-deportivo"
+   ]
+  },
+  {
+   "name": "Grupo B",
+   "teamIds": [
+    "estudiantes",
+    "boca",
+    "central",
+    "los-andes-sj",
+    "quilmes",
+    "cipolletti",
+    "chacarita",
+    "central-norte-salta"
+   ]
+  },
+  {
+   "name": "Grupo C",
+   "teamIds": [
+    "talleres",
+    "racing",
+    "river",
+    "velez",
+    "platense",
+    "sarmiento-resistencia",
+    "colon-santa-fe",
+    "gimnasia-jujuy"
+   ]
+  },
+  {
+   "name": "Grupo D",
+   "teamIds": [
+    "independiente",
+    "belgrano",
+    "huracan",
+    "atlanta",
+    "argentinos",
+    "union-santa-fe",
+    "atletico-ledesma",
+    "all-boys"
+   ]
+  }
+ ],
+ "matches": [
+  {
+   "id": "1977-nacional-001",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 1",
+   "phase": "league",
+   "homeId": "circulo-deportivo",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: J.Fernández o/g, Aman o/g."
+  },
+  {
+   "id": "1977-nacional-002",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 1",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1977-nacional-003",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fornari, Beltrán / Marangoni, Rizzi."
+  },
+  {
+   "id": "1977-nacional-004",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 1",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Avanzi / Funes."
+  },
+  {
+   "id": "1977-nacional-005",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 2",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "circulo-deportivo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Salomone, J.Sánchez."
+  },
+  {
+   "id": "1977-nacional-006",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 2",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cuper / Fornari."
+  },
+  {
+   "id": "1977-nacional-007",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rizzi, Torres, Villar / Cerqueiro, Sacconi."
+  },
+  {
+   "id": "1977-nacional-008",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alfaro, Rocha."
+  },
+  {
+   "id": "1977-nacional-009",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 3",
+   "phase": "league",
+   "homeId": "circulo-deportivo",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mascareño, Vera / Toloza, Ugarte."
+  },
+  {
+   "id": "1977-nacional-010",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 3",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1977-nacional-011",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 3",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cerqueiro / Monárdez, Zolorza."
+  },
+  {
+   "id": "1977-nacional-012",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: J.Sánchez(2), Marangoni."
+  },
+  {
+   "id": "1977-nacional-013",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "circulo-deportivo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1977-nacional-014",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 4",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Salomone, Marangoni, Laguna."
+  },
+  {
+   "id": "1977-nacional-015",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 4",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Machuca, A.Molina / Alfaro."
+  },
+  {
+   "id": "1977-nacional-016",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 4",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Villar, Rizzi."
+  },
+  {
+   "id": "1977-nacional-017",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 5",
+   "phase": "league",
+   "homeId": "circulo-deportivo",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1977-nacional-018",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gerez / Machuca(2), A.Molina."
+  },
+  {
+   "id": "1977-nacional-019",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 5",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Yazalde(3), Gallego."
+  },
+  {
+   "id": "1977-nacional-020",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 5",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Forgués(2)."
+  },
+  {
+   "id": "1977-nacional-021",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 6",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "circulo-deportivo",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cerqueiro, Ferlich, M.González / Zugasti."
+  },
+  {
+   "id": "1977-nacional-022",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Beltrán, Montagnoli / Alfaro, Yazalde."
+  },
+  {
+   "id": "1977-nacional-023",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 6",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: J.Sánchez / Toloza."
+  },
+  {
+   "id": "1977-nacional-024",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 6",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Monárdez / Rizzi(2)."
+  },
+  {
+   "id": "1977-nacional-025",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 7",
+   "phase": "league",
+   "homeId": "circulo-deportivo",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vera(2)."
+  },
+  {
+   "id": "1977-nacional-026",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rizzi, Marangoni / Salomone(2)."
+  },
+  {
+   "id": "1977-nacional-027",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: De Cicco, J.Domínguez / Echauri."
+  },
+  {
+   "id": "1977-nacional-028",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 7",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "banfield",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lo Gatto, Orte."
+  },
+  {
+   "id": "1977-nacional-029",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 8",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "circulo-deportivo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alfaro."
+  },
+  {
+   "id": "1977-nacional-030",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bravo / Ferlich."
+  },
+  {
+   "id": "1977-nacional-031",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 8",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Giuliano."
+  },
+  {
+   "id": "1977-nacional-032",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 8",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: A.Molina / Salomone."
+  },
+  {
+   "id": "1977-nacional-033",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 9",
+   "phase": "league",
+   "homeId": "circulo-deportivo",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zugasti / J.Sánchez."
+  },
+  {
+   "id": "1977-nacional-034",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Montagnoli / Funes."
+  },
+  {
+   "id": "1977-nacional-035",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 9",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Orte(2) / Simaldone."
+  },
+  {
+   "id": "1977-nacional-036",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 9",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pafundi, J.Guillermo."
+  },
+  {
+   "id": "1977-nacional-037",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "circulo-deportivo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: J.Guillermo."
+  },
+  {
+   "id": "1977-nacional-038",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 10",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Torres / Capurro."
+  },
+  {
+   "id": "1977-nacional-039",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 10",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Machuca, C.Molina, Monárdez / Brandli, P.Gómez."
+  },
+  {
+   "id": "1977-nacional-040",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 10",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Espeche / Coronel."
+  },
+  {
+   "id": "1977-nacional-041",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 11",
+   "phase": "league",
+   "homeId": "circulo-deportivo",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Di Bastiano."
+  },
+  {
+   "id": "1977-nacional-042",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 11",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cerqueiro / Avanzi."
+  },
+  {
+   "id": "1977-nacional-043",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 11",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alfaro(2), Yazalde / Cuper."
+  },
+  {
+   "id": "1977-nacional-044",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ugarte(2) / Sánz."
+  },
+  {
+   "id": "1977-nacional-045",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 12",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "circulo-deportivo",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rizzi(2), Giuliano."
+  },
+  {
+   "id": "1977-nacional-046",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 12",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Monárdez, Villegas / Di Cicco."
+  },
+  {
+   "id": "1977-nacional-047",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 12",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Roldán / Gallego."
+  },
+  {
+   "id": "1977-nacional-048",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 12",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "banfield",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Corvo, D'Angelo."
+  },
+  {
+   "id": "1977-nacional-049",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 13",
+   "phase": "league",
+   "homeId": "circulo-deportivo",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lo Gatto."
+  },
+  {
+   "id": "1977-nacional-050",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 13",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "gimnasia",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alfaro(2), Berta, Gallego, Capurro."
+  },
+  {
+   "id": "1977-nacional-051",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 13",
+   "phase": "league",
+   "homeId": "estudiantes-ba",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Chacarita Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Aguerópolis o/g / Marangoni."
+  },
+  {
+   "id": "1977-nacional-052",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Giuliano, Rizzi / A.Molina, Velázquez."
+  },
+  {
+   "id": "1977-nacional-053",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 14",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "circulo-deportivo",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Velázquez, Machuca, Jaime(2) / Galay."
+  },
+  {
+   "id": "1977-nacional-054",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 14",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1977-nacional-055",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Genin / J.Pérez."
+  },
+  {
+   "id": "1977-nacional-056",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 14",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1977-nacional-057",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 1",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "cipolletti",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Palavecino, Agüero / Murillo."
+  },
+  {
+   "id": "1977-nacional-058",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 1",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Salinas(2)."
+  },
+  {
+   "id": "1977-nacional-059",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Salguero / Letanú(2), Onnis."
+  },
+  {
+   "id": "1977-nacional-060",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 1",
+   "phase": "league",
+   "homeId": "los-andes-sj",
+   "awayId": "central-norte-salta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Riggio o/g, F.Sánchez."
+  },
+  {
+   "id": "1977-nacional-061",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 2",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "central-norte-salta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bucarey, Dorado."
+  },
+  {
+   "id": "1977-nacional-062",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "los-andes-sj",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Gottardi(2), Onnis / Maryllack."
+  },
+  {
+   "id": "1977-nacional-063",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 2",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fortunato / Mouzo."
+  },
+  {
+   "id": "1977-nacional-064",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 2",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Andreuchi."
+  },
+  {
+   "id": "1977-nacional-065",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 3",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "cipolletti",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Astudillo / Flores, Juárez."
+  },
+  {
+   "id": "1977-nacional-066",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: C.Alvarez."
+  },
+  {
+   "id": "1977-nacional-067",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 3",
+   "phase": "league",
+   "homeId": "los-andes-sj",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Malvinas Argentinas(Mza)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Maryllack, Méndez."
+  },
+  {
+   "id": "1977-nacional-068",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 3",
+   "phase": "league",
+   "homeId": "central-norte-salta",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Papalardo / Letanú(2), Landaburo."
+  },
+  {
+   "id": "1977-nacional-069",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 4",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gottardi, Letanú."
+  },
+  {
+   "id": "1977-nacional-070",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 4",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "central-norte-salta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Fortunato, Paruzzo."
+  },
+  {
+   "id": "1977-nacional-071",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 4",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "los-andes-sj",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Garro."
+  },
+  {
+   "id": "1977-nacional-072",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 4",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ortiz."
+  },
+  {
+   "id": "1977-nacional-073",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 5",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "cipolletti",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zanabria, Mouzo, Ortiz, Pernía / Flores."
+  },
+  {
+   "id": "1977-nacional-074",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 5",
+   "phase": "league",
+   "homeId": "los-andes-sj",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: C.Rodríguez, Salinas."
+  },
+  {
+   "id": "1977-nacional-075",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 5",
+   "phase": "league",
+   "homeId": "central-norte-salta",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Medina / Jair(2), Mancinelli."
+  },
+  {
+   "id": "1977-nacional-076",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Letanú."
+  },
+  {
+   "id": "1977-nacional-077",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 6",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Flores, Juárez."
+  },
+  {
+   "id": "1977-nacional-078",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 6",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Palavecino, J.González / Letanú."
+  },
+  {
+   "id": "1977-nacional-079",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 6",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "central-norte-salta",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Medina, Papalardo."
+  },
+  {
+   "id": "1977-nacional-080",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 6",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "los-andes-sj",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: C.Alvarez(2)\t\t\t  [J.Soto, Vega."
+  },
+  {
+   "id": "1977-nacional-081",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 7",
+   "phase": "league",
+   "homeId": "los-andes-sj",
+   "awayId": "cipolletti",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Garro, J.Soto(2)."
+  },
+  {
+   "id": "1977-nacional-082",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 7",
+   "phase": "league",
+   "homeId": "central-norte-salta",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Medina / Mastrángelo, Salas."
+  },
+  {
+   "id": "1977-nacional-083",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "chacarita",
+   "homeGoals": 6,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Candau, Salinas, Pena."
+  },
+  {
+   "id": "1977-nacional-084",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 7",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1977-nacional-085",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 8",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Murillo, Eresuma / Agüero."
+  },
+  {
+   "id": "1977-nacional-086",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 8",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Raschia."
+  },
+  {
+   "id": "1977-nacional-087",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Salas."
+  },
+  {
+   "id": "1977-nacional-088",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 8",
+   "phase": "league",
+   "homeId": "central-norte-salta",
+   "awayId": "los-andes-sj",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Quiroga."
+  },
+  {
+   "id": "1977-nacional-089",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 9",
+   "phase": "league",
+   "homeId": "central-norte-salta",
+   "awayId": "cipolletti",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1977-nacional-090",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 9",
+   "phase": "league",
+   "homeId": "los-andes-sj",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Quiroga / Letanú."
+  },
+  {
+   "id": "1977-nacional-091",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 9",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1977-nacional-092",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 9",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Astudillo(2), Abate(2) / Pena o/g, Mancinelli."
+  },
+  {
+   "id": "1977-nacional-093",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 10",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Veira."
+  },
+  {
+   "id": "1977-nacional-094",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 10",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Palavecino."
+  },
+  {
+   "id": "1977-nacional-095",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 10",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "los-andes-sj",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pellerano."
+  },
+  {
+   "id": "1977-nacional-096",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central-norte-salta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Cejas."
+  },
+  {
+   "id": "1977-nacional-097",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "cipolletti",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Letanú(2), Landaburo / Flores."
+  },
+  {
+   "id": "1977-nacional-098",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 11",
+   "phase": "league",
+   "homeId": "central-norte-salta",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Salinas."
+  },
+  {
+   "id": "1977-nacional-099",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 11",
+   "phase": "league",
+   "homeId": "los-andes-sj",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1977-nacional-100",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 11",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: C.Alvarez, Mastrángelo, J.López."
+  },
+  {
+   "id": "1977-nacional-101",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 12",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "boca",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: A.Alves, Zanabria."
+  },
+  {
+   "id": "1977-nacional-102",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 12",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "los-andes-sj",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ferrero / Cortés."
+  },
+  {
+   "id": "1977-nacional-103",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 12",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "central-norte-salta",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Palavecino(3), Potente / Vidal."
+  },
+  {
+   "id": "1977-nacional-104",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 12",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fortunato / Gottardi."
+  },
+  {
+   "id": "1977-nacional-105",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 13",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "cipolletti",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Márquez, Salinas, Fortunato / Eresuma, Juárez."
+  },
+  {
+   "id": "1977-nacional-106",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 13",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Letanú."
+  },
+  {
+   "id": "1977-nacional-107",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 13",
+   "phase": "league",
+   "homeId": "central-norte-salta",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Armani, Cardozo / Trezeguet."
+  },
+  {
+   "id": "1977-nacional-108",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 13",
+   "phase": "league",
+   "homeId": "los-andes-sj",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: J.Soto, Quiroga(2) / A.Alves(2)."
+  },
+  {
+   "id": "1977-nacional-109",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 14",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "los-andes-sj",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Flores, Juárez / Giardini, Quiroga(2), J.Soto, Oros."
+  },
+  {
+   "id": "1977-nacional-110",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 14",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central-norte-salta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Sala, Alonso."
+  },
+  {
+   "id": "1977-nacional-111",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 14",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gurrieri, Onnis, Russo, Solari."
+  },
+  {
+   "id": "1977-nacional-112",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 14",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jair, Andreuchi(3)."
+  },
+  {
+   "id": "1977-nacional-113",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Raffaelli o/g, Avallay(2)."
+  },
+  {
+   "id": "1977-nacional-114",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "sarmiento-resistencia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1977-nacional-115",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 1",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "talleres",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Luñiz(2), Di Meola(2), J.López / Valencia."
+  },
+  {
+   "id": "1977-nacional-116",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: M.Juárez / Roldán, Castro, Larraquy."
+  },
+  {
+   "id": "1977-nacional-117",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Orlando / Avallay."
+  },
+  {
+   "id": "1977-nacional-118",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Roldán / Luñiz."
+  },
+  {
+   "id": "1977-nacional-119",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 2",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bravo, Ludueña."
+  },
+  {
+   "id": "1977-nacional-120",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 2",
+   "phase": "league",
+   "homeId": "sarmiento-resistencia",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Monzón / Alonso."
+  },
+  {
+   "id": "1977-nacional-121",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 3",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sarmiento-resistencia",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: R.Díaz, Avallay, Trama(3)."
+  },
+  {
+   "id": "1977-nacional-122",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 3",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: J.J.López, Passarella, Alonso."
+  },
+  {
+   "id": "1977-nacional-123",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Altamiranda."
+  },
+  {
+   "id": "1977-nacional-124",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 3",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Di Meola, Aricó, Roldán / Orlando."
+  },
+  {
+   "id": "1977-nacional-125",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 4",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zimmerman, Roldán / Avallay, R.Díaz."
+  },
+  {
+   "id": "1977-nacional-126",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 4",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Otaola o/g, Gonzalo o/g, Petti / Ferraro."
+  },
+  {
+   "id": "1977-nacional-127",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 4",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Corbalán, Roldán."
+  },
+  {
+   "id": "1977-nacional-128",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 4",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "sarmiento-resistencia",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bocanelli(2), Bravo(2) / Ansiporovich, Monzón."
+  },
+  {
+   "id": "1977-nacional-129",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 5",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Trama / Bocanelli, Ludueña."
+  },
+  {
+   "id": "1977-nacional-130",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 5",
+   "phase": "league",
+   "homeId": "sarmiento-resistencia",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Caballero / Roldán(2), Vera, Corbalán, Castro."
+  },
+  {
+   "id": "1977-nacional-131",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 5",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "platense",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marchetti(3), J.J.López, Sabella."
+  },
+  {
+   "id": "1977-nacional-132",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Giles, J.Sánchez."
+  },
+  {
+   "id": "1977-nacional-133",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Avallay."
+  },
+  {
+   "id": "1977-nacional-134",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 6",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Roldán, Luñiz, Vega / Coscia."
+  },
+  {
+   "id": "1977-nacional-135",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 6",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sarmiento-resistencia",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pinasco, Petti, Belloni, Niro / Monzón."
+  },
+  {
+   "id": "1977-nacional-136",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 6",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bravo, Cherini."
+  },
+  {
+   "id": "1977-nacional-137",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 7",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1977-nacional-138",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 7",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ludueña, Cherini / Juárez."
+  },
+  {
+   "id": "1977-nacional-139",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 7",
+   "phase": "league",
+   "homeId": "sarmiento-resistencia",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Villasanti(2) / Luna."
+  },
+  {
+   "id": "1977-nacional-140",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 7",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Coscia(2), Passarella(2), Luque, Ferraro o/g."
+  },
+  {
+   "id": "1977-nacional-141",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 8",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Passarella / Avallay(2)."
+  },
+  {
+   "id": "1977-nacional-142",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 8",
+   "phase": "league",
+   "homeId": "sarmiento-resistencia",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Caballero."
+  },
+  {
+   "id": "1977-nacional-143",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 8",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Aricó."
+  },
+  {
+   "id": "1977-nacional-144",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 8",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mehemed, Baldi, Geoffroy / C.Martínez, Pinasco, Juárez, Peremateu."
+  },
+  {
+   "id": "1977-nacional-145",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 9",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Avallay(2) / Belloni, Orlando."
+  },
+  {
+   "id": "1977-nacional-146",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 9",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "velez",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vega(2), Roldán, Mariano / Mehemed."
+  },
+  {
+   "id": "1977-nacional-147",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bravo(3)."
+  },
+  {
+   "id": "1977-nacional-148",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 9",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sarmiento-resistencia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Passarella, J.J.López, Alonso."
+  },
+  {
+   "id": "1977-nacional-149",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 10",
+   "phase": "league",
+   "homeId": "sarmiento-resistencia",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: J.Sánchez, Villasanti."
+  },
+  {
+   "id": "1977-nacional-150",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 10",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Valencia."
+  },
+  {
+   "id": "1977-nacional-151",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 10",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rotondi, Mehemed, Aloi."
+  },
+  {
+   "id": "1977-nacional-152",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 10",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mastromauro, Pinasco."
+  },
+  {
+   "id": "1977-nacional-153",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 11",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1977-nacional-154",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ferraro / Belloni."
+  },
+  {
+   "id": "1977-nacional-155",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 11",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alonso(2) / E.Vázquez(2), Geoffroy."
+  },
+  {
+   "id": "1977-nacional-156",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 11",
+   "phase": "league",
+   "homeId": "sarmiento-resistencia",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Villasanti / Bocanelli."
+  },
+  {
+   "id": "1977-nacional-157",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 12",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bocanelli."
+  },
+  {
+   "id": "1977-nacional-158",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sarmiento-resistencia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Aloi, Baldi, Virgallito / Villasanti, Monzón."
+  },
+  {
+   "id": "1977-nacional-159",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 12",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pitarch."
+  },
+  {
+   "id": "1977-nacional-160",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 12",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Baez / J.Sánchez, Bareiro."
+  },
+  {
+   "id": "1977-nacional-161",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 13",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cordero."
+  },
+  {
+   "id": "1977-nacional-162",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 13",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sepaquercia(2), Alonso, Perfumo, Coudannes."
+  },
+  {
+   "id": "1977-nacional-163",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 13",
+   "phase": "league",
+   "homeId": "sarmiento-resistencia",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Monzón / Amarillo."
+  },
+  {
+   "id": "1977-nacional-164",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 13",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bocanelli, Astudillo / Geoffroy, E.Vázquez."
+  },
+  {
+   "id": "1977-nacional-165",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 14",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Aloi / Avallay(2), O.Gutiérrez, Herrera."
+  },
+  {
+   "id": "1977-nacional-166",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 14",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "talleres",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zenarola."
+  },
+  {
+   "id": "1977-nacional-167",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 14",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "sarmiento-resistencia",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Mántaras / Barrientos, Monzón, Leroyer o/g, Villasanti."
+  },
+  {
+   "id": "1977-nacional-168",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Comisso(2), Sepaquercia, Coscia."
+  },
+  {
+   "id": "1977-nacional-169",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Houseman(2) / Trossero(2), Outes(2)."
+  },
+  {
+   "id": "1977-nacional-170",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 1",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "atletico-ledesma",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Coch, Morandini."
+  },
+  {
+   "id": "1977-nacional-171",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 1",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sosa, Comisso, Carranza."
+  },
+  {
+   "id": "1977-nacional-172",
+   "date": "1977-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 1",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1977-nacional-173",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Outes, Trossero."
+  },
+  {
+   "id": "1977-nacional-174",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 2",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Telch, Carrizo o/g, Marasco / Maradona."
+  },
+  {
+   "id": "1977-nacional-175",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 2",
+   "phase": "league",
+   "homeId": "atletico-ledesma",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1977-nacional-176",
+   "date": "1977-11-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Saldaña, Ardiles / Britapaja."
+  },
+  {
+   "id": "1977-nacional-177",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 3",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Nieto, Britapaja / O.Pérez, Magallanes, Bochini."
+  },
+  {
+   "id": "1977-nacional-178",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 3",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sosa, R.Rodríguez / Gallardo."
+  },
+  {
+   "id": "1977-nacional-179",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 3",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "atletico-ledesma",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Premici, Maradona / Britez."
+  },
+  {
+   "id": "1977-nacional-180",
+   "date": "1977-11-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 3",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Franceschini."
+  },
+  {
+   "id": "1977-nacional-181",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 4",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Larrosa, Magallanes / Saggioratto, Arroyo."
+  },
+  {
+   "id": "1977-nacional-182",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 4",
+   "phase": "league",
+   "homeId": "atletico-ledesma",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1977-nacional-183",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 4",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Houseman(2) / J.López, Fren."
+  },
+  {
+   "id": "1977-nacional-184",
+   "date": "1977-11-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 4",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Britapaja / R.Rodríguez."
+  },
+  {
+   "id": "1977-nacional-185",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 5",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sanseverino, Bonet / Outes."
+  },
+  {
+   "id": "1977-nacional-186",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 5",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maradona / Britapaja."
+  },
+  {
+   "id": "1977-nacional-187",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 5",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lobos, Franceschini / Sanabria."
+  },
+  {
+   "id": "1977-nacional-188",
+   "date": "1977-12-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 5",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "atletico-ledesma",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bottaniz(2)."
+  },
+  {
+   "id": "1977-nacional-189",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 6",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "atletico-ledesma",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Larrosa(2)."
+  },
+  {
+   "id": "1977-nacional-190",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 6",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Houseman(2) / Bottaniz."
+  },
+  {
+   "id": "1977-nacional-191",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 6",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Coch, Pintos."
+  },
+  {
+   "id": "1977-nacional-192",
+   "date": "1977-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 6",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bonet, Sosa."
+  },
+  {
+   "id": "1977-nacional-193",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 7",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Outes, Larrosa."
+  },
+  {
+   "id": "1977-nacional-194",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 7",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Curini / Sosa(2), Bonet."
+  },
+  {
+   "id": "1977-nacional-195",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 7",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Casaccio."
+  },
+  {
+   "id": "1977-nacional-196",
+   "date": "1977-12-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 7",
+   "phase": "league",
+   "homeId": "atletico-ledesma",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gallardo."
+  },
+  {
+   "id": "1977-nacional-197",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Outes, Bochini."
+  },
+  {
+   "id": "1977-nacional-198",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 8",
+   "phase": "league",
+   "homeId": "atletico-ledesma",
+   "awayId": "all-boys",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Augier(2), Iman, Chazarreta / Medina."
+  },
+  {
+   "id": "1977-nacional-199",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 8",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bottaniz, Arroyo / Sanseverino, Sosa."
+  },
+  {
+   "id": "1977-nacional-200",
+   "date": "1977-12-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 8",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Franceschini."
+  },
+  {
+   "id": "1977-nacional-201",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 9",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Outes, Larrosa."
+  },
+  {
+   "id": "1977-nacional-202",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 9",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "union-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Arroyo."
+  },
+  {
+   "id": "1977-nacional-203",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 9",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "atletico-ledesma",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bonet(2)."
+  },
+  {
+   "id": "1977-nacional-204",
+   "date": "1977-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 9",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Brandoni, Peracca, Coch(2) / Houseman, Peracca, Candedo, M.Rodríguez."
+  },
+  {
+   "id": "1977-nacional-205",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 10",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Outes(2), Magallanes."
+  },
+  {
+   "id": "1977-nacional-206",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 10",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "belgrano",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Houseman(2), Saladaño, B.Rodríguez."
+  },
+  {
+   "id": "1977-nacional-207",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 10",
+   "phase": "league",
+   "homeId": "atletico-ledesma",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Farías, Ledesma, Ferreyra / Fren, J.López."
+  },
+  {
+   "id": "1977-nacional-208",
+   "date": "1977-12-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 10",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alí / Torres."
+  },
+  {
+   "id": "1977-nacional-209",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 11",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bottaniz, Regenhardt / Galván, Magallanes(2)."
+  },
+  {
+   "id": "1977-nacional-210",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 11",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "atletico-ledesma",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Farías, Chazarreta."
+  },
+  {
+   "id": "1977-nacional-211",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 11",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sanabria(2)."
+  },
+  {
+   "id": "1977-nacional-212",
+   "date": "1977-12-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 11",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "all-boys",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zywica, Brandoni."
+  },
+  {
+   "id": "1977-nacional-213",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 12",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Outes(2), Magallanes."
+  },
+  {
+   "id": "1977-nacional-214",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 12",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Premici."
+  },
+  {
+   "id": "1977-nacional-215",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 12",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cabrera."
+  },
+  {
+   "id": "1977-nacional-216",
+   "date": "1978-01-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 12",
+   "phase": "league",
+   "homeId": "atletico-ledesma",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1977-nacional-217",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 13",
+   "phase": "league",
+   "homeId": "atletico-ledesma",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bacas."
+  },
+  {
+   "id": "1977-nacional-218",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 13",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Regenhardt, Sthelik(2) / Pereyra."
+  },
+  {
+   "id": "1977-nacional-219",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 13",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Filipetto, Palka o/g, J.Vázquez."
+  },
+  {
+   "id": "1977-nacional-220",
+   "date": "1978-01-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 13",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maradona(2), Premici / Monserrat, Sosa."
+  },
+  {
+   "id": "1977-nacional-221",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 14",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rigolino / Ovelar, J.López."
+  },
+  {
+   "id": "1977-nacional-222",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 14",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bernio."
+  },
+  {
+   "id": "1977-nacional-223",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 14",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bentrón, J.Gómez, Picabea / Ortega, Sthelik."
+  },
+  {
+   "id": "1977-nacional-224",
+   "date": "1978-01-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 14",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atletico-ledesma",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cabrera(2) / Farías, Bacas."
+  },
+  {
+   "id": "1977-nacional-225",
+   "date": "1978-01-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Semifinal (ida)",
+   "phase": "playoff",
+   "homeId": "talleres",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cherini / Roux Larrosa."
+  },
+  {
+   "id": "1977-nacional-226",
+   "date": "1978-01-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Semifinal (ida)",
+   "phase": "playoff",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: C.López / Outes."
+  },
+  {
+   "id": "1977-nacional-227",
+   "date": "1978-01-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Semifinal (vuelta)",
+   "phase": "playoff",
+   "homeId": "newells",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bravo."
+  },
+  {
+   "id": "1977-nacional-228",
+   "date": "1978-01-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Semifinal (vuelta)",
+   "phase": "playoff",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bochini, Trossero, O.Pérez / Onnis."
+  },
+  {
+   "id": "1977-nacional-229",
+   "date": "1978-01-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Final (ida)",
+   "phase": "playoff",
+   "homeId": "independiente",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Trossero / Cherini."
+  },
+  {
+   "id": "1977-nacional-230",
+   "date": "1978-01-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Final (vuelta)",
+   "phase": "playoff",
+   "homeId": "talleres",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "independiente",
+   "note": "Ganó la serie Independiente por los goles de visitante. Goles: Cherini, Bocanelli / Outes, Bochini."
+  }
+ ]
+}
