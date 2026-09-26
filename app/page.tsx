@@ -1,8 +1,9 @@
+import EraDiff from "@/components/EraDiff";
 import MatchList from "@/components/MatchList";
 import PageHero from "@/components/PageHero";
 import StatsCard from "@/components/StatsCard";
 import TeamPicker from "@/components/TeamPicker";
-import { TEAM_IDS_WITH_MATCHES, computeStats, getHeadToHead, isCounted } from "@/lib/matches";
+import { TEAM_IDS_WITH_MATCHES, computeStats, eraOf, getHeadToHead, isCounted } from "@/lib/matches";
 import { SEASONS } from "@/lib/seasons";
 import { HISTORIC_TEAMS, TEAMS, getTeam } from "@/lib/teams";
 
@@ -19,6 +20,11 @@ export default function Home({ searchParams }: { searchParams: { a?: string; b?:
 
   const matches = getHeadToHead(a.id, b.id);
   const stats = computeStats(matches, a.id);
+  const eraRows = [
+    { label: "Total", detail: "Todos los partidos oficiales", stats },
+    { label: "Era profesional", detail: "Desde 1931", stats: computeStats(matches.filter((m) => eraOf(m) === "profesional"), a.id) },
+    { label: "Era amateur", detail: "Hasta 1930 y ligas amateurs 1931–1934", stats: computeStats(matches.filter((m) => eraOf(m) === "amateur"), a.id) },
+  ];
   const annulledCount = matches.length - matches.filter(isCounted).length;
   const first = SEASONS[0].year;
   const last = SEASONS[SEASONS.length - 1].year;
@@ -41,9 +47,10 @@ export default function Home({ searchParams }: { searchParams: { a?: string; b?:
         ) : (
           <>
             <StatsCard a={a} b={b} stats={stats} />
+            <EraDiff a={a} b={b} rows={eraRows} />
             <p className="border-l-2 border-brand-500 bg-white px-4 py-3 text-sm leading-relaxed text-navy-600">
-              Todos los partidos oficiales de Primera entre {first} y {last}, verificados contra RSSSF y Wikipedia. Los de
-              copas nacionales se están cargando (por ahora solo están los de los clásicos hasta 1930).
+              Todos los partidos oficiales de Primera entre {first} y {last}, verificados contra RSSSF y Wikipedia. Incluye las
+              copas nacionales oficiales.
               {annulledCount > 0 &&
                 ` ${annulledCount === 1 ? "Hay 1 partido" : `Hay ${annulledCount} partidos`} anulado${annulledCount === 1 ? "" : "s"} o sin jugar que se muestra${annulledCount === 1 ? "" : "n"} pero no suma${annulledCount === 1 ? "" : "n"}.`}
             </p>

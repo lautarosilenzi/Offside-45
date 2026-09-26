@@ -1,7 +1,7 @@
 import type { HeadToHeadStats, Match } from "./types";
 import { AMATEUR_MATCHES } from "./data/amateur";
 import { winnerOf } from "./result";
-import { LOADED_YEARS, SEASON_MATCHES } from "./seasons";
+import { LOADED_YEARS, SEASON_MATCHES, SEASON_OF_MATCH } from "./seasons";
 
 const yearOf = (m: Match) => Number(m.date.slice(0, 4));
 
@@ -27,6 +27,17 @@ export function getHeadToHead(a: string, b: string): Match[] {
 }
 
 export { winnerOf };
+
+// Era de un partido. Amateur: hasta 1930, y las ligas y copas amateurs oficiales que siguieron en paralelo a la
+// liga profesional entre 1931 y 1934. Profesional: desde 1931 (Liga Argentina de Football y después la AFA).
+export type Era = "amateur" | "profesional";
+export function eraOf(m: Match): Era {
+  const season = SEASON_OF_MATCH.get(m.id);
+  const year = season?.year ?? yearOf(m);
+  if (year < 1931) return "amateur";
+  if (season && (season.slug.endsWith("-amateur") || /liga amateur/i.test(season.organizer))) return "amateur";
+  return "profesional";
+}
 
 export function computeStats(matches: Match[], a: string): HeadToHeadStats {
   const counted = matches.filter(isCounted);
