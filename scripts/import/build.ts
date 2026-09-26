@@ -280,6 +280,13 @@ export function translateNote(
     else if ((m = p.match(/^Suspended \S+ (\d+)-(\d+) \S+ at (\d+)'$/i))) out.text.push(`Suspendido a los ${m[3]} minutos con ${m[1]}-${m[2]}.`);
     else if ((m = p.match(/^Suspended (\d+)-(\d+) a los (\d+)' due to not warranties to play$/i))) out.text.push(`Suspendido a los ${m[3]} minutos con ${m[1]}-${m[2]} por falta de garantías.`);
     else if ((m = p.match(/^Abandoned at (\d+)'$/i))) out.text.push(`Suspendido a los ${m[1]} minutos.`);
+    // 1986/87: "Abandoned at 77'. Continued on Apr 29." y "Centurión (RP) Doping Awd 0-1".
+    else if ((m = p.match(/^Abandoned at (\d+)'\. Continued on (.+?)\.?$/i)))
+      out.text.push(`Suspendido a los ${m[1]} minutos; se completó el ${esDate(m[2])} (el resultado es el final).`);
+    else if ((m = p.match(/^(.+?) Doping Awd (\d+)-(\d+)$/i))) {
+      out.awardedScore = [+m[2], +m[3]];
+      out.text.push(`Por el doping de ${m[1]}.`);
+    }
     else if ((m = p.match(/^Suspended at (\d+)' .*?(\d+)-(\d+).*?, continued later$/i)))
       out.text.push(`Suspendido a los ${m[1]} minutos con ${m[2]}-${m[3]}; se completó después (el resultado es el final).`);
     else if ((m = p.match(/^(.+?): (\d+) points deducted\)?$/i))) {
@@ -844,12 +851,14 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   // 1977: "[Suspended in 45' because the rain]" con el parcial, y días después la misma fecha con el resultado final
   // (se terminó de jugar): queda un solo partido, el de la segunda fila.
   for (const part of cfg.kind === "cup" ? [] : [...matches]) {
-    const g = part.status !== "annulled" ? part.note?.match(/^Suspendido a los (\d+) minutos(?: por lluvia)?\.\s*(.*)$/) : null;
+    const g = part.status !== "annulled" ? part.note?.match(/^Suspendido a los (\d+) minutos(?: por lluvia)?[.;]\s*(.*)$/) : null;
     if (!g) continue;
     const rest = matches.find(
       (x) =>
         x !== part && x.homeId === part.homeId && x.awayId === part.awayId && x.stage === part.stage && x.status !== "annulled" &&
-        x.date > part.date && (Date.parse(x.date) - Date.parse(part.date)) / 86400000 <= 60,
+        x.date > part.date &&
+        // Si una de las dos filas dice que se completó ("Remaining 51'", "Continued on…"), puede ser meses después.
+        (Date.parse(x.date) - Date.parse(part.date)) / 86400000 <= (/minutos que faltaban|se completó/.test((x.note ?? "") + (part.note ?? "")) ? 160 : 60),
     );
     if (!rest) continue;
     const day = part.date.split("-").reverse().slice(0, 2).map(Number).join("/");
@@ -960,6 +969,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     ...(cfg.kind && { kind: cfg.kind }),
     ...(cfg.runnerUpIds && { runnerUpIds: cfg.runnerUpIds }),
     year: cfg.year,
+    ...(cfg.yearLabel && { yearLabel: cfg.yearLabel }),
     ...(cfg.league && { league: cfg.league }),
     title: cfg.title,
     tournament: cfg.tournament,

@@ -46,6 +46,8 @@ export type Season = {
   // Copas: finalista (subcampeón).
   runnerUpIds?: string[];
   year: number;
+  // Temporadas que abarcan dos años (desde 1985/86): cómo se muestra el año.
+  yearLabel?: string;
   title: string;
   // Nombre corto de la liga cuando ese año hubo más de una (ej. "AAF", "AAm").
   league?: string;

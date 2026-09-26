@@ -54,7 +54,7 @@ export function wikiRows(text: string): WikiRow[] {
       const sc = cells[i].match(/^(\d+|PG|PP|PE|\?)\s*[-–:]\s*(\d+|PG|PP|PE|\?)$/);
       if (!sc) continue;
       const num = (x: string) => (/^\d+$/.test(x) ? Number(x) : null);
-      const date = cells.find((c) => /^\d{1,2} de [a-záéíóú]+/i.test(c));
+      const date = cells.find((c) => /^\d{1,2} de [a-záéíóú]+/i.test(c) || /^\d{1,2}\/\d{1,2}\/\d{4}$/.test(c));
       rows.push({ home: cells[i - 1], away: cells[i + 1], hg: num(sc[1]), ag: num(sc[2]), raw: cells.join(" | "), date });
     }
   }
@@ -258,7 +258,22 @@ export async function compareWithWikipedia(cfg: TournamentConfig, season: Season
     const candidates = season.matches.filter((m) => m.homeId === ids[0] && m.awayId === ids[1]);
     const c = candidates[0];
     const msg = `RSSSF ${ids[0]} ${c.homeGoals}-${c.awayGoals} ${ids[1]} (${c.date}) / Wikipedia ${r.hg}-${r.ag} [${r.raw}]`;
-    if (candidates.every((m) => confirmed.has(m.id))) warnings.push(`Fila ambigua de Wikipedia (el partido ya está confirmado): ${msg}`);
+    // Si Wikipedia da el día y ningún partido de ese cruce cae cerca de esa fecha, la fila es de otro torneo
+    // listado en la misma página (la Liguilla Pre-Libertadores de 1986), no un resultado distinto.
+    const wm = (r.date ?? "").match(/(\d{1,2}) de ([a-záéíóú]+)/i);
+    // También "10/05/1987".
+    const wn = (r.date ?? "").match(/^(\d{1,2})\/(\d{1,2})\/\d{4}$/);
+    const wDay = wm && MESES.indexOf(wm[2].toLowerCase()) >= 0 ? MESES.indexOf(wm[2].toLowerCase()) * 30.5 + Number(wm[1]) : wn ? (Number(wn[2]) - 1) * 30.5 + Number(wn[1]) : null;
+    const far =
+      wDay !== null &&
+      candidates.every((m) => {
+        if (m.date.length < 10) return false;
+        const d = (Number(m.date.slice(5, 7)) - 1) * 30.5 + Number(m.date.slice(8, 10));
+        const diff = Math.abs(d - wDay);
+        return Math.min(diff, 366 - diff) > 20;
+      });
+    if (far) warnings.push(`Fila de Wikipedia con una fecha que no es la de ningún partido de ese cruce (otro torneo): ${msg}`);
+    else if (candidates.every((m) => confirmed.has(m.id))) warnings.push(`Fila ambigua de Wikipedia (el partido ya está confirmado): ${msg}`);
     else if (c.scoreUnknown || c.walkover) warnings.push(`Wikipedia da resultado donde RSSSF no lo tiene: ${msg}`);
     else problems.push(`Resultado distinto: ${msg}`);
   }

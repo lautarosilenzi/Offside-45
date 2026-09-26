@@ -209,6 +209,12 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["mitre-sde", "Mitre (Santiago del Estero)", "MSE", "Club Atlético Mitre (Santiago del Estero)"],
   ["palmira-mendoza", "Palmira (Mendoza)", "PLM", "Club Atlético Palmira (Mendoza)"],
   // Nacionales 1971–1985: clubes del interior.
+  // Primera División 1985/86–: ascensos, Octogonal y Liguilla Pre-Libertadores.
+  ["defensa-y-justicia", "Defensa y Justicia", "DYJ", "Club Social y Deportivo Defensa y Justicia (Florencio Varela)"],
+  ["deportivo-armenio", "Deportivo Armenio", "ARM", "Club Deportivo Armenio"],
+  ["deportivo-italiano", "Deportivo Italiano", "DIT", "Club Deportivo Italiano (Buenos Aires)"],
+  ["alianza-cutral-co", "Alianza (Cutral Có)", "ACC", "Club Atlético Alianza (Cutral Có, Neuquén)"],
+  ["concepcion-fc", "Concepción FC (Tucumán)", "CFC", "Concepción Fútbol Club (Banda del Río Salí, Tucumán)"],
   ["juventud-antoniana", "Juventud Antoniana (Salta)", "JAN", "Centro Juventud Antoniana (Salta)"],
   ["huracan-comodoro", "Huracán (Comodoro Rivadavia)", "HCR", "Club Atlético Huracán (Comodoro Rivadavia)"],
   ["huracan-san-rafael", "Huracán (San Rafael)", "HSR", "Club Huracán (San Rafael)"],

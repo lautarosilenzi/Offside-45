@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { winnerOf } from "@/lib/matches";
-import { SEASON_OF_MATCH } from "@/lib/seasons";
+import { SEASON_OF_MATCH, seasonLabel } from "@/lib/seasons";
 import { getTeam } from "@/lib/teams";
 import type { Match, Source } from "@/lib/types";
 import Crest from "./Crest";
@@ -69,7 +69,7 @@ function MatchRow({ match, linkSeason, showStage }: { match: Match; linkSeason: 
   const head = season
     ? season.kind === "cup"
       ? season.title
-      : `Campeonato ${season.year}${season.league ? ` · ${season.league}` : ""}`
+      : `Campeonato ${seasonLabel(season)}`
     : linkSeason
       ? match.competition
       : null;

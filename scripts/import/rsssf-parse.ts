@@ -94,7 +94,11 @@ function splitAway(rest: string): { away: string; note: string; awarded?: string
       : { ...inner, note: [pre[1], inner.note].filter(Boolean).join(", ") };
   }
   const bracket = rest.match(/^(.*?)\s*(\[.*)$/);
-  if (bracket) return { away: bracket[1].trim(), note: bracket[2].trim() };
+  if (bracket) {
+    // "Los Andes<tab>(aet)<tab>[at Atlanta]" (1986): lo que va después del nombre, separado por tabuladores, es nota.
+    const [name, ...extra] = bracket[1].split(/\t+|\s{2,}/);
+    return { away: name.trim(), note: [...extra.map((x) => x.trim()).filter(Boolean), bracket[2].trim()].join(" ") };
+  }
   const parts = rest.split(/\t+|\s{2,}/);
   // Copas viejas: "Argentino de Quilmes at Sportiva (19 Aug)" con un solo espacio antes de la nota.
   const inline = parts[0].match(/^(.*?)\s+(at\s.+|in\s(?:Rosario|Montevideo|La Plata)|\(\d{1,2}\s+[A-Z][a-z]{2}\))$/);
@@ -153,11 +157,13 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
   let lastMatchLine = -1;
 
   lines.forEach((raw, i) => {
-    const line = raw.replace(/\s+$/, "");
+    const line = raw.replace(/\s+$/, "").replace(/^(\s*\[[^\]]+\])\s+PK\s+PK$/, "$1");
     const trimmed = line.trim();
     // Los renglones vacíos no cortan la tabla (algunas páginas dejan uno entre cada fila);
     // la corta cualquier otra línea que no sea fila, separador o encabezado.
     if (!trimmed || trimmed === "&nbsp;") return;
+    // "PK   PK" (1986): rótulos de la columna de penales, sobre el partido.
+    if (/^PK\s+PK$/.test(trimmed)) return;
     // Algunas páginas (1920, 1923) marcan cada liga con una línea en negrita en lugar de un título.
     const leagueLine =
       /^(Asociaci[oó]n (Argentina|Amateurs?)( Argentina)? de Football|Federaci[oó]n Argentina de Football)$/i.test(trimmed) ||
@@ -387,8 +393,8 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
     // "Racing (C)   0-0 aet PK 5-3  Talleres (C)" (1983): alargue y penales entre el resultado y el visitante.
     const aetPk = normalized.match(/\s(\d+-\d+)\s+aet\s+PK\s+(\d+)-(\d+)\s/i);
     if (aetPk) normalized = `${normalized.replace(aetPk[0], ` ${aetPk[1]}   `)}  [aet] [pen ${aetPk[2]}:${aetPk[3]}]`;
-    const pens = normalized.match(/\s[[(](\d+)[\])]\s*(\d+\s*[-:]\s*\d+)\s*[[(](\d+)[\])](?=\s)/);
-    if (pens) normalized = `${normalized.replace(pens[0], ` ${pens[2]} `)}  [pen ${pens[1]}:${pens[3]}]`;
+    const pens = normalized.match(/\s[[(](\d+)[\])]\s*(\d+\s*[-:]\s*\d+)\s*[[(](\d+)[\])](?=\s|\p{L})/u);
+    if (pens) normalized = `${normalized.replace(pens[0], ` ${pens[2]}   `)}  [pen ${pens[1]}:${pens[3]}]`;
     const wpScore = normalized.match(/\s(wp|lp)\s+(\d+)\s*:\s*(\d+)\s+(wp|lp)\s/);
     if (wpScore) normalized = `${normalized.replace(wpScore[0], ` ${wpScore[1]}:${wpScore[4]} `)}  [played ${wpScore[2]}:${wpScore[3]}]`;
     const place = normalized.match(/^([A-ZÁÉÍÓÚ][^:\d]{2,40}):\s+(\S.*\s\d+-\d+\s.*)$/);

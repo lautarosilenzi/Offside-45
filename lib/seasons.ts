@@ -11,7 +11,7 @@ export const LEAGUE_SEASONS = SEASONS.filter((s) => s.kind !== "cup");
 export const CUP_SEASONS = SEASONS.filter((s) => s.kind === "cup");
 
 // Nombre para mostrar: "1919" o "1919 · AAm" cuando ese año hubo dos ligas.
-export const seasonLabel = (s: Season) => (s.league ? `${s.year} · ${s.league}` : String(s.year));
+export const seasonLabel = (s: Season) => (s.league ? `${s.yearLabel ?? s.year} · ${s.league}` : (s.yearLabel ?? String(s.year)));
 
 // Título de la página: "Temporada 1919 · AAm" para las ligas, "Copa de Honor 1917" para las copas.
 export const seasonTitle = (s: Season) => (s.kind === "cup" ? s.title : `Temporada ${seasonLabel(s)}`);

@@ -35,6 +35,8 @@ export type TournamentConfig = {
   checkEliminations?: boolean;
   // Mes en que empieza el torneo si termina el año siguiente: las fechas de meses anteriores son del año siguiente.
   rolloverBefore?: number;
+  // Temporadas de dos años ("1985/86").
+  yearLabel?: string;
   // El índice de copas de RSSSF da otro resultado de la final y hay pruebas de que el error es del índice (motivo).
   indexErrata?: string;
   // Partidos que la liga resolvió por escritorio después de jugarse: la tabla cuenta sus goles (desde los años 50).
@@ -237,6 +239,45 @@ const afaTorneo = (
   awardedGoalsCount: true,
   // Desde 1967 el único Talleres de Primera es el de Córdoba.
   aliases: { Gimnasia: "gimnasia", Vélez: "velez", Ferro: "ferro", Chacarita: "chacarita", Estudiantes: "estudiantes", Talleres: "talleres" },
+  ...rest,
+});
+
+
+// 1985/86–: temporadas de agosto a junio. "y" es el año en que empieza.
+const yy = (y: number) => `${y}/${String(y + 1).slice(2)}`;
+const afaLarga = (
+  y: number,
+  rest: Omit<TournamentConfig, "slug" | "year" | "file" | "competition" | "organizer" | "title" | "tournament"> & { tournament?: string },
+): TournamentConfig => ({
+  slug: `${y}-${String(y + 1).slice(2)}`,
+  year: y,
+  yearLabel: yy(y),
+  file: `arg${String(y + 1).slice(2)}.html`,
+  wiki: `Campeonato de Primera División ${y}-${String(y + 1).slice(2)} (Argentina)`,
+  competition: AFA,
+  organizer: AFA,
+  title: `Campeonato ${yy(y)}`,
+  tournament: `Campeonato de Primera División ${yy(y)}`,
+  awardedGoalsCount: true,
+  rolloverBefore: 7,
+  aliases: { Gimnasia: "gimnasia", Vélez: "velez", Ferro: "ferro", Chacarita: "chacarita", Estudiantes: "estudiantes", Talleres: "talleres" },
+  ...rest,
+});
+// Torneos de la misma temporada (Liguilla Pre-Libertadores, Octogonal): sin tabla, todo es eliminación.
+const afaLargaExtra = (
+  y: number,
+  key: string,
+  name: string,
+  rest: Omit<TournamentConfig, "slug" | "year" | "file" | "competition" | "organizer" | "title" | "tournament" | "league"> & { tournament?: string },
+): TournamentConfig => ({
+  ...afaLarga(y, { championIds: [], summary: "", notes: [] }),
+  slug: `${y}-${String(y + 1).slice(2)}-${key}`,
+  league: name,
+  wiki: undefined,
+  competition: `${AFA} · ${name}`,
+  title: `${name} ${yy(y)}`,
+  tournament: `${name} ${yy(y)}`,
+  tableIndex: [],
   ...rest,
 });
 
@@ -2233,5 +2274,114 @@ afaTorneo(1979, "reclasificacion", {
       { kind: "puntos", text: "La tabla del torneo es la de los grupos; la doble eliminación no suma." },
       { kind: "fuentes", text: "Las tablas con las que se verifican los partidos son las del documento de tablas finales de RSSSF de la década." },
     ],
+  }),
+  // ───────── 1985/86 ─────────
+  afaLarga(1985, {
+    championIds: ["river"],
+    headings: [/^Quarter-?finals:?$/i, /^Semi-?finals:?$/i, /^Final:?$/i, /1\/8 FINALS:?$/i],
+    section: /^Primera División 1985\/1986/,
+    summary: "River Plate ganó el primer campeonato largo, de agosto a abril, diez puntos delante de Newell's.",
+    notes: [
+      { kind: "formato", text: "19 equipos, todos contra todos a dos ruedas, 2 puntos por victoria. Desde esta temporada el campeonato se juega de agosto a junio, como en Europa." },
+      { kind: "descalificacion", text: "El descenso se definió por promedio de las últimas temporadas: descendió Chacarita, y Huracán jugó el Octogonal con equipos de la B y también descendió." },
+    ],
+  }),
+  afaLargaExtra(1985, "octogonal", "Octogonal", {
+    championIds: [],
+    headings: [/^Quarter-?finals:?$/i, /^Semi-?finals:?$/i, /^Final:?$/i, /1\/8 FINALS:?$/i],
+    sectionRange: { from: /^Octogonal tournament/, to: /^Liguilla Pre-Libertadores/ },
+    overrides: { "1986-06-24 deportivo-italiano huracan": { stage: "Final (desempate)", note: "Tercer partido de la final, en la cancha de Vélez. Deportivo Italiano ganó por penales (4-2), ascendió a Primera y Huracán descendió." } },
+    summary: "Huracán y siete equipos de la B jugaron por un lugar en Primera: ganó Deportivo Italiano, en un tercer partido de la final, y Huracán descendió.",
+    notes: [{ kind: "formato", text: "Huracán (el de peor promedio que no descendía directo) y los siete primeros del Apertura de la B, en eliminación de ida y vuelta. El ganador jugaba en Primera." }],
+  }),
+  afaLargaExtra(1985, "liguilla", "Liguilla Pre-Libertadores", {
+    championIds: [],
+    headings: [/^Quarter-?finals:?$/i, /^Semi-?finals:?$/i, /^Final:?$/i, /1\/8 FINALS:?$/i],
+    sectionRange: { from: /^Liguilla Pre-Libertadores/ },
+    summary: "Boca Juniors ganó la Liguilla (0-2 y 4-1 con Newell's en la final) y el segundo lugar argentino en la Copa Libertadores 1987.",
+    notes: [{ kind: "formato", text: "Eliminación de ida y vuelta entre equipos de Primera (del 2.º al 12.º) y del Torneo del Interior." }],
+  }),
+  // ───────── 1986/87 ─────────
+  afaLarga(1986, {
+    championIds: ["central"],
+    headings: [/^Liguilla Pre-Libertadores tournament/],
+    section: /^Argentina 1986\/87$/,
+    overrides: {
+      "1987-05-06 platense temperley": { phase: "playoff", stage: "Desempate por el descenso", note: "Platense y Temperley empataron el promedio: jugaron un desempate en la cancha de Huracán y descendió Temperley, junto con Deportivo Italiano. No suma en la tabla." },
+    },
+    summary: "Rosario Central ganó el campeonato un punto delante de Newell's, con el empate 1-1 en la última fecha.",
+    knownTableDiffs: {
+      keys: ["ferro:drawn", "ferro:lost", "ferro:goalsFor", "ferro:points", "estudiantes:won", "estudiantes:drawn", "estudiantes:goalsAgainst", "estudiantes:points"],
+      explanation: "RSSSF da Estudiantes 1-0 Ferro (9 de noviembre) y Ferro 1-0 Estudiantes, pero su tabla y la de Wikipedia solo cierran si uno de los dos fue 1-1. No encontramos otra fuente del partido: quedan los resultados de la lista.",
+    },
+    notes: [
+      { kind: "formato", text: "20 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." },
+      { kind: "descalificacion", text: "El descenso se definió por promedio de las últimas tres temporadas: descendieron Deportivo Italiano y Temperley (después de un desempate con Platense)." },
+    ],
+  }),
+  afaLargaExtra(1986, "liguilla", "Liguilla Pre-Libertadores", {
+    championIds: [],
+    headings: [/^Liguilla Pre-Libertadores tournament/, ...[/^Quarter-?finals:?$/i, /^Semi-?finals:?$/i, /^Final:?$/i, /1\/8 FINALS:?$/i]],
+    sectionRange: { from: /^Liguilla Pre-Libertadores tournament/ },
+    aliases: { "Newell's Old Boys 0": "newells" },
+    summary: "Independiente ganó la Liguilla (2-2 y 2-1 con Boca en la final) y el segundo lugar argentino en la Copa Libertadores 1988.",
+    notes: [{ kind: "formato", text: "Eliminación de ida y vuelta entre equipos de Primera y de la B por el segundo lugar argentino en la Copa Libertadores." }],
+  }),
+  // ───────── 1987/88 ─────────
+  afaLarga(1987, {
+    championIds: ["newells"],
+    headings: [/^Liguilla Pre-Libertadores tournament/, /^Liguilla Clasificación tournament/],
+    section: /^Argentina 1987\/88$/,
+    pointAdjustments: [{ teamId: "instituto", points: -2, reason: "por los incidentes que impidieron jugar con San Lorenzo (además perdió ese partido)" }],
+    extraMatches: [
+      {
+        id: "1987-88-extra-1",
+        date: "1988-05-08",
+        stage: "Fecha 36",
+        phase: "league",
+        homeId: "instituto",
+        awayId: "sanlorenzo",
+        homeGoals: 0,
+        awayGoals: 1,
+        walkover: true,
+        awardedTo: "sanlorenzo",
+        note: "No se jugó: se suspendió antes de empezar por incidentes. La liga le dio el partido 0-1 a San Lorenzo y le descontó 2 puntos a Instituto.",
+      },
+    ],
+    overrides: {
+      "1988-06-08 union-santa-fe racing-cordoba": {
+        phase: "playoff",
+        stage: "Desempate por el descenso",
+        advancedId: "racing-cordoba",
+        note: "En la cancha de Boca. Con alargue; Racing de Córdoba ganó por penales (5-4) y descendió Unión, junto con Banfield. No suma en la tabla.",
+      },
+    },
+    summary: "Newell's Old Boys ganó el campeonato con un equipo de jugadores formados en el club.",
+    wikiErrata: {
+      "RSSSF velez 2-0 gimnasia": "la fila de Wikipedia es un partido de la Liguilla que Wikipedia lista en la misma página (está cargado en la Liguilla con ese resultado).",
+      "RSSSF gimnasia 2-1 velez": "la fila de Wikipedia es un partido de la Liguilla que Wikipedia lista en la misma página (está cargado en la Liguilla con ese resultado).",
+      "RSSSF independiente 0-0 estudiantes": "la fila de Wikipedia es un partido de la Liguilla que Wikipedia lista en la misma página (está cargado en la Liguilla con ese resultado).",
+      "RSSSF racing-cordoba 1-0 platense": "la fila de Wikipedia es un partido de la Liguilla que Wikipedia lista en la misma página (está cargado en la Liguilla con ese resultado).",
+      "RSSSF platense 1-0 racing-cordoba": "la fila de Wikipedia es un partido de la Liguilla que Wikipedia lista en la misma página (está cargado en la Liguilla con ese resultado).",
+      "RSSSF deportivo-espanol 5-1 talleres": "la fila de Wikipedia es un partido de la Liguilla que Wikipedia lista en la misma página (está cargado en la Liguilla con ese resultado).",
+    },
+    notes: [
+      { kind: "formato", text: "20 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." },
+      { kind: "descalificacion", text: "El descenso se definió por promedio de las últimas tres temporadas: descendió Banfield, y Unión después de un desempate con Racing de Córdoba." },
+    ],
+  }),
+  afaLargaExtra(1987, "liguilla", "Liguilla Pre-Libertadores", {
+    championIds: [],
+    headings: [/^Liguilla Pre-Libertadores tournament/, /^Liguilla Clasificación tournament/, ...[/^Quarter-?finals:?$/i, /^Semi-?finals:?$/i, /^Final:?$/i, /1\/8 FINALS:?$/i]],
+    sectionRange: { from: /^Liguilla Pre-Libertadores tournament/, to: /^Liguilla Clasificación tournament/ },
+    summary: "San Lorenzo ganó la Liguilla (2-0 y 0-1 con Racing en la final) y el segundo lugar argentino en la Copa Libertadores 1988.",
+    notes: [{ kind: "formato", text: "Eliminación de ida y vuelta entre los equipos del 2.º al 8.º puesto y el campeón de la B Nacional. Los empates en el global se definían por diferencia de gol y después por la posición en la tabla." }],
+  }),
+  afaLargaExtra(1987, "clasificacion", "Liguilla Clasificación", {
+    championIds: [],
+    headings: [/^Liguilla Pre-Libertadores tournament/, /^Liguilla Clasificación tournament/, ...[/^Quarter-?finals:?$/i, /^Semi-?finals:?$/i, /^Final:?$/i, /1\/8 FINALS:?$/i]],
+    sectionRange: { from: /^Liguilla Clasificación tournament/ },
+    summary: "Platense le ganó el desempate a Boca en la final y el lugar en la Liguilla Pre-Libertadores siguiente.",
+    notes: [{ kind: "formato", text: "Eliminación de ida y vuelta entre los equipos que no jugaron la Liguilla Pre-Libertadores, por un lugar en la siguiente. Los empates en el global se definían por diferencia de gol y después por la posición en la tabla." }],
   }),
 ];
