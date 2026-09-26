@@ -262,8 +262,8 @@ const afaLarga = (
   tournament: `Campeonato de Primera División ${yy(y)}`,
   awardedGoalsCount: true,
   rolloverBefore: 7,
-  aliases: { Gimnasia: "gimnasia", Vélez: "velez", Ferro: "ferro", Chacarita: "chacarita", Estudiantes: "estudiantes", Talleres: "talleres" },
   ...rest,
+  aliases: { Gimnasia: "gimnasia", Vélez: "velez", Ferro: "ferro", Chacarita: "chacarita", Estudiantes: "estudiantes", Talleres: "talleres", ...rest.aliases },
 });
 // Torneos de la misma temporada (Liguilla Pre-Libertadores, Octogonal): sin tabla, todo es eliminación.
 const afaLargaExtra = (
@@ -281,6 +281,7 @@ const afaLargaExtra = (
   tournament: `${name} ${yy(y)}`,
   tableIndex: [],
   ...rest,
+  aliases: { Gimnasia: "gimnasia", Vélez: "velez", Ferro: "ferro", Chacarita: "chacarita", Estudiantes: "estudiantes", Talleres: "talleres", ...rest.aliases },
 });
 
 export const TOURNAMENTS: TournamentConfig[] = [
@@ -2493,9 +2494,9 @@ afaTorneo(1979, "reclasificacion", {
     tableIndex: [0],
     tournament: "Torneo Apertura 1990",
     knownTableDiffs: {
-      keys: ["sanlorenzo:goalsFor", "sanlorenzo:goalsAgainst", "talleres:lost", "union-santa-fe:drawn", "union-santa-fe:points"],
+      keys: ["sanlorenzo:goalsFor", "sanlorenzo:goalsAgainst", "talleres:lost", "union-santa-fe:drawn", "union-santa-fe:points", "independiente:local"],
       explanation:
-        "Boca 0-1 San Lorenzo se suspendió en el entretiempo y la liga se lo dio por perdido 0-1 a los dos: la tabla oficial (RSSSF y Wikipedia) le cuenta a San Lorenzo un 0-1, y acá figura el 0-1 de la cancha. Además, la tabla de RSSSF tiene dos filas que no suman 19 partidos (Talleres 7-4-9 y Unión 4-5-9 con 13 puntos); la de Wikipedia coincide con los resultados (Talleres 7-4-8; Unión 4-6-9 y 14 puntos, con el 4-4 entre ellos en la fecha 18).",
+        "Boca 0-1 San Lorenzo se suspendió en el entretiempo y la liga se lo dio por perdido 0-1 a los dos: la tabla oficial (RSSSF y Wikipedia) le cuenta a San Lorenzo un 0-1, y acá figura el 0-1 de la cancha. Además, la tabla de RSSSF tiene dos filas que no suman 19 partidos (Talleres 7-4-9 y Unión 4-5-9 con 13 puntos); la de Wikipedia coincide con los resultados (Talleres 7-4-8; Unión 4-6-9 y 14 puntos, con el 4-4 entre ellos en la fecha 18). Y la campaña de visitante de Independiente (4-2-5) suma un partido de más: según los resultados fue 4-1-5.",
     },
     summary: "Newell's ganó el Apertura dos puntos delante de River y se ganó el lugar en la final por el campeonato 1990/91.",
     notes: [
@@ -2544,5 +2545,197 @@ afaTorneo(1979, "reclasificacion", {
     rolloverBefore: 13,
     summary: "San Lorenzo ganó la Liguilla (1-0 y 1-0 a Boca en la final) y el segundo lugar argentino en la Copa Libertadores 1992.",
     notes: [{ kind: "formato", text: "Eliminación de ida y vuelta entre los que siguieron a los ganadores en el Apertura y en el Clausura. Los empates en la serie se definían por penales." }],
+  }),
+  // ───────── 1991/92: desde acá el Apertura y el Clausura son títulos por separado ─────────
+  afaLargaExtra(1991, "apertura", "Apertura", {
+    championIds: ["river"],
+    wiki: "Anexo:Torneo Apertura 1991 (Argentina)",
+    headings: [/^Apertura 1991$/, /^Clausura 1992$/, /^Liguilla Pre Libertadores tournament/, /^Champions:$/, /^Octogonal tournament:$/, /^Quarterfinals:?$/, /^Semifinals:?$/, /^Final:?$/, /^Final between loser champion/],
+    sectionRange: { from: /^Apertura 1991$/, to: /^Clausura 1992$/ },
+    tableIndex: [0],
+    summary: "River ganó el Apertura con siete puntos de ventaja sobre Boca: 14 victorias en 19 partidos.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 2 puntos por victoria. Desde esta temporada el Apertura y el Clausura dan cada uno un título de campeón." }],
+  }),
+  afaLargaExtra(1991, "clausura", "Clausura", {
+    championIds: ["newells"],
+    wiki: "Anexo:Torneo Clausura 1992 (Argentina)",
+    headings: [/^Apertura 1991$/, /^Clausura 1992$/, /^Liguilla Pre Libertadores tournament/, /^Champions:$/, /^Octogonal tournament:$/, /^Quarterfinals:?$/, /^Semifinals:?$/, /^Final:?$/, /^Final between loser champion/],
+    sectionRange: { from: /^Clausura 1992$/, to: /^Liguilla Pre Libertadores tournament/ },
+    tableIndex: [0],
+    rolloverBefore: 13,
+    pointAdjustments: [{ teamId: "quilmes", points: -2, reason: "descuento de 2 puntos (RSSSF no da el motivo)" }],
+    summary: "Newell's ganó el Clausura dos puntos delante de Vélez y Deportivo Español.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 2 puntos por victoria. Descendían los dos peores promedios de las últimas tres temporadas: Quilmes y Unión." }],
+  }),
+  afaLargaExtra(1991, "liguilla", "Liguilla Pre-Libertadores", {
+    championIds: [],
+    headings: [/^Apertura 1991$/, /^Clausura 1992$/, /^Liguilla Pre Libertadores tournament/, /^Champions:$/, /^Octogonal tournament:$/, /^Quarterfinals:?$/, /^Semifinals:?$/, /^Final:?$/, /^Final between loser champion/],
+    sectionRange: { from: /^Liguilla Pre Libertadores tournament/, exclude: /^(Octogonal tournament|Quarterfinals|Semifinals|Final:?$)/ },
+    rolloverBefore: 13,
+    overrides: {
+      "1992-07-12 newells river": { stage: "Serie de campeones (ida)" },
+      "1992-07-19 river newells": { stage: "Serie de campeones (vuelta)" },
+      "1992-07-26 river newells": { stage: "Serie de campeones (desempate)" },
+    },
+    summary: "River le ganó la serie de campeones a Newell's y Newell's, después, le ganó a Vélez (ganador del Octogonal) el otro lugar en la Copa Libertadores 1993.",
+    notes: [
+      { kind: "formato", text: "Los campeones del Apertura (River) y del Clausura (Newell's) jugaron una serie a ida y vuelta, con un tercer partido en Córdoba. El perdedor jugó un partido con el ganador del Octogonal por el segundo lugar en la Copa Libertadores 1993." },
+    ],
+  }),
+  afaLargaExtra(1991, "octogonal", "Octogonal", {
+    championIds: [],
+    headings: [/^Apertura 1991$/, /^Clausura 1992$/, /^Liguilla Pre Libertadores tournament/, /^Champions:$/, /^Octogonal tournament:$/, /^Quarterfinals:?$/, /^Semifinals:?$/, /^Final:?$/, /^Final between loser champion/],
+    sectionRange: { from: /^Octogonal tournament:$/, to: /^Final between loser champion/ },
+    rolloverBefore: 13,
+    summary: "Vélez ganó el Octogonal (3-0 a Gimnasia en la final) y jugó con Newell's por un lugar en la Copa Libertadores 1993.",
+    notes: [{ kind: "formato", text: "Eliminación a partido único en cancha neutral entre ocho equipos de las dos tablas, por lugares en la Copa Conmebol 1992 y por el partido con Newell's por la Copa Libertadores." }],
+  }),
+  // ───────── 1992/93 ─────────
+  afaLargaExtra(1992, "apertura", "Apertura", {
+    championIds: ["boca"],
+    wiki: "Anexo:Torneo Apertura 1992 (Argentina)",
+    aliases: { "San Martín": "san-martin-tucuman", "Gimnasia y Esgrima": "gimnasia", Talleres: "talleres" },
+    headings: [/^Apertura 1992$/, /^Clausura 1993$/],
+    sectionRange: { from: /^Apertura 1992$/, to: /^Clausura 1993$/ },
+    tableIndex: [0],
+    pointAdjustments: [
+      { teamId: "river", points: -2, reason: "descuento de 2 puntos (RSSSF no da el motivo)" },
+      { teamId: "san-martin-tucuman", points: -2, reason: "descuento de 2 puntos (RSSSF no da el motivo)" },
+    ],
+    knownTableDiffs: {
+      keys: ["newells:local"],
+      explanation: "En la tabla de RSSSF la campaña de local de Newell's (2-5-3) no cierra con su total (3-4-12): están invertidos los empates y las derrotas. Según los resultados fue 2-3-5.",
+    },
+    summary: "Boca ganó el Apertura cuatro puntos delante de River y San Lorenzo: su primer título de liga desde 1981.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 2 puntos por victoria." }],
+  }),
+  afaLargaExtra(1992, "clausura", "Clausura", {
+    championIds: ["velez"],
+    wiki: "Anexo:Torneo Clausura 1993 (Argentina)",
+    headings: [/^Apertura 1992$/, /^Clausura 1993$/],
+    sectionRange: { from: /^Clausura 1993$/ },
+    tableIndex: [0],
+    rolloverBefore: 13,
+    pointAdjustments: [{ teamId: "central", points: -2, reason: "descuento de 2 puntos (RSSSF no da el motivo)" }],
+    wikiErrata: {
+      "RSSSF talleres 0-2 river": "Wikipedia da el 2-2 de la cancha; la liga le dio el partido 0-2 a River (así lo cuentan las dos tablas).",
+      "RSSSF newells 1-0 talleres": "Wikipedia da el 0-1 de la cancha; la liga le quitó los puntos a Talleres y lo dio 1-0 (así lo cuentan las dos tablas).",
+      "RSSSF talleres 0-1 gimnasia": "Wikipedia da el 1-0 de la cancha; la liga le quitó los puntos a Talleres y lo dio 0-1 (así lo cuentan las dos tablas).",
+    },
+    summary: "Vélez ganó el Clausura tres puntos delante de Independiente: su primer título desde 1968.",
+    notes: [
+      { kind: "formato", text: "20 equipos a una rueda, 2 puntos por victoria. Descendían los dos peores promedios de las últimas tres temporadas: Talleres y San Martín de Tucumán." },
+      { kind: "puntos", text: "La liga cambió cuatro resultados: Vélez 1-1 Boca pasó a 1-0 para Vélez; Talleres 2-2 River (suspendido a los 72 minutos), a 0-2; Newell's 0-1 Talleres, a 1-0; y Talleres 1-0 Gimnasia, a 0-1." },
+    ],
+  }),
+  // ───────── 1993/94 ─────────
+  afaLargaExtra(1993, "apertura", "Apertura", {
+    championIds: ["river"],
+    wiki: "Anexo:Torneo Apertura 1993 (Argentina)",
+    headings: [/^Apertura 1993$/, /^Clausura 1994$/],
+    sectionRange: { from: /^Apertura 1993$/, to: /^Clausura 1994$/ },
+    tableIndex: [0],
+    aliases: { "Gimnasia y Tiro (S)": "gimnasia-tiro-salta" },
+    overrides: {
+      "1994-03-18 boca gimnasia": {
+        homeId: "gimnasia",
+        awayId: "boca",
+        note: "RSSSF pone a Boca de local, pero su propia tabla (columnas de local y visitante) y Wikipedia lo dan con Gimnasia de local.",
+      },
+    },
+    summary: "River ganó el Apertura un punto delante de Vélez y Racing.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 2 puntos por victoria." }, { kind: "dato", text: "Argentinos Juniors jugó de local en Mendoza durante toda la temporada." }],
+  }),
+  afaLargaExtra(1993, "clausura", "Clausura", {
+    championIds: ["independiente"],
+    wiki: "Anexo:Torneo Clausura 1994 (Argentina)",
+    headings: [/^Apertura 1993$/, /^Clausura 1994$/],
+    sectionRange: { from: /^Clausura 1994$/ },
+    tableIndex: [0],
+    rolloverBefore: 13,
+    aliases: { "Gimnasia y Tiro (S)": "gimnasia-tiro-salta", "Deportivo Maniyú": "deportivo-mandiyu" },
+    summary: "Independiente ganó el Clausura con una sola derrota, un punto delante de Huracán.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 2 puntos por victoria. Descendían los dos peores promedios de las últimas tres temporadas: Estudiantes y Gimnasia y Tiro de Salta." }],
+  }),
+  // ───────── 1994/95 ─────────
+  afaLargaExtra(1994, "apertura", "Apertura", {
+    championIds: ["river"],
+    wiki: "Anexo:Torneo Apertura 1994 (Argentina)",
+    headings: [/^Apertura 1994$/, /^Clausura 1995$/],
+    sectionRange: { from: /^Apertura 1994$/, to: /^Clausura 1995$/ },
+    tableIndex: [0],
+    pointAdjustments: [{ teamId: "talleres", points: -2, reason: "descuento de 2 puntos (RSSSF no da el motivo)" }],
+    summary: "River ganó el Apertura invicto (12 ganados y 7 empatados), cinco puntos delante de San Lorenzo.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 2 puntos por victoria." }],
+  }),
+  afaLargaExtra(1994, "clausura", "Clausura", {
+    championIds: ["sanlorenzo"],
+    wiki: "Anexo:Torneo Clausura 1995 (Argentina)",
+    headings: [/^Apertura 1994$/, /^Clausura 1995$/],
+    sectionRange: { from: /^Clausura 1995$/ },
+    tableIndex: [0],
+    rolloverBefore: 13,
+    summary: "San Lorenzo ganó el Clausura un punto delante de Gimnasia: su primer título desde el Nacional 1974.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 2 puntos por victoria (el último torneo con ese sistema). Descendían los dos peores promedios de las últimas tres temporadas: Deportivo Mandiyú y Talleres." }],
+  }),
+  // ───────── 1995/96: desde acá, 3 puntos por victoria ─────────
+  afaLargaExtra(1995, "apertura", "Apertura", {
+    championIds: ["velez"],
+    wiki: "Anexo:Torneo Apertura 1995 (Argentina)",
+    headings: [/^APERTURA TOURNAMENT$/, /^CLAUSURA TOURNAMENT$/, /^Cumulative table/],
+    sectionRange: { from: /^APERTURA TOURNAMENT$/, to: /^CLAUSURA TOURNAMENT$/ },
+    tableIndex: [0],
+    pointsPerWin: 3,
+    summary: "Vélez ganó el Apertura seis puntos delante de Racing, Lanús y Boca, en el primer torneo con 3 puntos por victoria.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria (el primer torneo con ese sistema)." }],
+  }),
+  afaLargaExtra(1995, "clausura", "Clausura", {
+    championIds: ["velez"],
+    wiki: "Anexo:Torneo Clausura 1996 (Argentina)",
+    headings: [/^APERTURA TOURNAMENT$/, /^CLAUSURA TOURNAMENT$/, /^Cumulative table/],
+    sectionRange: { from: /^CLAUSURA TOURNAMENT$/, to: /^Cumulative table/ },
+    tableIndex: [0],
+    rolloverBefore: 13,
+    pointsPerWin: 3,
+    summary: "Vélez ganó también el Clausura, un punto delante de Gimnasia y Esgrima La Plata.",
+    notes: [
+      { kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria. Descendían los dos peores promedios de las últimas tres temporadas: Belgrano y Argentinos Juniors. Para los promedios, las victorias de esta temporada se contaron con 2 puntos, como en las anteriores." },
+    ],
+  }),
+  // ───────── 1996/97 ─────────
+  afaLargaExtra(1996, "apertura", "Apertura", {
+    championIds: ["river"],
+    wiki: "Anexo:Torneo Apertura 1996 (Argentina)",
+    aliases: { "Newell's OB": "newells", "Rosario C": "central", "Huracán Ctes": "huracan-corrientes", "Gimnasia J": "gimnasia-jujuy", "Dep Español": "deportivo-espanol", "Gimnasia LP": "gimnasia", "Huracán BA": "huracan" },
+    headings: [/^Torneo Apertura 1996$/, /^Torneo Clausura 1997$/, /^Copa Libertadores 1998 Playoff/],
+    sectionRange: { from: /^Torneo Apertura 1996$/, to: /^Torneo Clausura 1997$/ },
+    tableIndex: [0],
+    pointsPerWin: 3,
+    summary: "River ganó el Apertura nueve puntos delante de Independiente y Lanús: 15 victorias en 19 partidos.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria." }],
+  }),
+  afaLargaExtra(1996, "clausura", "Clausura", {
+    championIds: ["river"],
+    wiki: "Anexo:Torneo Clausura 1997 (Argentina)",
+    aliases: { "Newell's OB": "newells", "Rosario C": "central", "Huracán Ctes": "huracan-corrientes", "Gimnasia J": "gimnasia-jujuy", "Dep Español": "deportivo-espanol", "Gimnasia LP": "gimnasia", "Huracán BA": "huracan" },
+    headings: [/^Torneo Apertura 1996$/, /^Torneo Clausura 1997$/, /^Copa Libertadores 1998 Playoff/],
+    sectionRange: { from: /^Torneo Clausura 1997$/, to: /^Copa Libertadores 1998 Playoff/ },
+    tableIndex: [1],
+    rolloverBefore: 13,
+    pointsPerWin: 3,
+    summary: "River ganó también el Clausura, seis puntos delante de Colón y Newell's.",
+    notes: [
+      { kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria. Descendían los dos peores promedios de las últimas tres temporadas: Banfield y Huracán de Corrientes." },
+      { kind: "dato", text: "RSSSF publica dos tablas finales: la del principio tiene mal los goles de River, Vélez y Ferro; la del final coincide con los resultados y con Wikipedia, y es la que se usa acá." },
+    ],
+  }),
+  afaLargaExtra(1996, "libertadores", "Desempate Libertadores", {
+    championIds: [],
+    headings: [/^Torneo Apertura 1996$/, /^Torneo Clausura 1997$/, /^Copa Libertadores 1998 Playoff/],
+    sectionRange: { from: /^Copa Libertadores 1998 Playoff/ },
+    rolloverBefore: 13,
+    overrides: { "1997-12-03 colon-santa-fe independiente": { phase: "playoff", stage: "Desempate por la Copa Libertadores" } },
+    summary: "Colón le ganó 1-0 a Independiente en cancha de Lanús y fue a la Copa Libertadores 1998 con River.",
+    notes: [{ kind: "formato", text: "Partido único en cancha neutral por el segundo lugar argentino en la Copa Libertadores 1998." }],
   }),
 ];

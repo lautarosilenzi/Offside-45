@@ -1,0 +1,3133 @@
+{
+ "slug": "1991-92-clausura",
+ "year": 1991,
+ "yearLabel": "1991/92",
+ "league": "Clausura",
+ "title": "Clausura 1991/92",
+ "tournament": "Clausura 1991/92",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "newells"
+ ],
+ "summary": "Newell's ganó el Clausura dos puntos delante de Vélez y Deportivo Español.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1991",
+   "url": "https://www.rsssf.org/tablesa/arg92.html"
+  },
+  {
+   "label": "Wikipedia – Anexo:Torneo Clausura 1992 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Anexo%3ATorneo_Clausura_1992_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "20 equipos a una rueda, 2 puntos por victoria. Descendían los dos peores promedios de las últimas tres temporadas: Quilmes y Unión."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "quilmes",
+   "points": -2,
+   "reason": "descuento de 2 puntos (RSSSF no da el motivo)"
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "newells",
+   "played": 19,
+   "won": 11,
+   "drawn": 7,
+   "lost": 1,
+   "goalsFor": 27,
+   "goalsAgainst": 8,
+   "points": 29
+  },
+  {
+   "teamId": "velez",
+   "played": 19,
+   "won": 10,
+   "drawn": 7,
+   "lost": 2,
+   "goalsFor": 29,
+   "goalsAgainst": 16,
+   "points": 27
+  },
+  {
+   "teamId": "deportivo-espanol",
+   "played": 19,
+   "won": 9,
+   "drawn": 9,
+   "lost": 1,
+   "goalsFor": 24,
+   "goalsAgainst": 11,
+   "points": 27
+  },
+  {
+   "teamId": "boca",
+   "played": 19,
+   "won": 10,
+   "drawn": 6,
+   "lost": 3,
+   "goalsFor": 20,
+   "goalsAgainst": 11,
+   "points": 26
+  },
+  {
+   "teamId": "river",
+   "played": 19,
+   "won": 8,
+   "drawn": 8,
+   "lost": 3,
+   "goalsFor": 31,
+   "goalsAgainst": 22,
+   "points": 24
+  },
+  {
+   "teamId": "platense",
+   "played": 19,
+   "won": 8,
+   "drawn": 6,
+   "lost": 5,
+   "goalsFor": 23,
+   "goalsAgainst": 16,
+   "points": 22
+  },
+  {
+   "teamId": "racing",
+   "played": 19,
+   "won": 5,
+   "drawn": 11,
+   "lost": 3,
+   "goalsFor": 12,
+   "goalsAgainst": 9,
+   "points": 21
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 19,
+   "won": 6,
+   "drawn": 8,
+   "lost": 5,
+   "goalsFor": 25,
+   "goalsAgainst": 20,
+   "points": 20
+  },
+  {
+   "teamId": "huracan",
+   "played": 19,
+   "won": 5,
+   "drawn": 9,
+   "lost": 5,
+   "goalsFor": 18,
+   "goalsAgainst": 19,
+   "points": 19
+  },
+  {
+   "teamId": "belgrano",
+   "played": 19,
+   "won": 6,
+   "drawn": 6,
+   "lost": 7,
+   "goalsFor": 18,
+   "goalsAgainst": 18,
+   "points": 18
+  },
+  {
+   "teamId": "ferro",
+   "played": 19,
+   "won": 5,
+   "drawn": 8,
+   "lost": 6,
+   "goalsFor": 13,
+   "goalsAgainst": 14,
+   "points": 18
+  },
+  {
+   "teamId": "independiente",
+   "played": 19,
+   "won": 4,
+   "drawn": 9,
+   "lost": 6,
+   "goalsFor": 16,
+   "goalsAgainst": 16,
+   "points": 17
+  },
+  {
+   "teamId": "talleres",
+   "played": 19,
+   "won": 4,
+   "drawn": 9,
+   "lost": 6,
+   "goalsFor": 14,
+   "goalsAgainst": 17,
+   "points": 17
+  },
+  {
+   "teamId": "central",
+   "played": 19,
+   "won": 8,
+   "drawn": 1,
+   "lost": 10,
+   "goalsFor": 19,
+   "goalsAgainst": 24,
+   "points": 17
+  },
+  {
+   "teamId": "argentinos",
+   "played": 19,
+   "won": 5,
+   "drawn": 6,
+   "lost": 8,
+   "goalsFor": 16,
+   "goalsAgainst": 19,
+   "points": 16
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 19,
+   "won": 2,
+   "drawn": 9,
+   "lost": 8,
+   "goalsFor": 11,
+   "goalsAgainst": 18,
+   "points": 13
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 19,
+   "won": 2,
+   "drawn": 9,
+   "lost": 8,
+   "goalsFor": 14,
+   "goalsAgainst": 26,
+   "points": 13
+  },
+  {
+   "teamId": "deportivo-mandiyu",
+   "played": 19,
+   "won": 3,
+   "drawn": 7,
+   "lost": 9,
+   "goalsFor": 16,
+   "goalsAgainst": 30,
+   "points": 13
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 19,
+   "won": 3,
+   "drawn": 6,
+   "lost": 10,
+   "goalsFor": 11,
+   "goalsAgainst": 25,
+   "points": 12
+  },
+  {
+   "teamId": "quilmes",
+   "played": 19,
+   "won": 4,
+   "drawn": 3,
+   "lost": 12,
+   "goalsFor": 14,
+   "goalsAgainst": 32,
+   "points": 9
+  }
+ ],
+ "matches": [
+  {
+   "id": "1991-92-clausura-001",
+   "date": "1992-02-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-002",
+   "date": "1992-02-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-003",
+   "date": "1992-02-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-004",
+   "date": "1992-02-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-005",
+   "date": "1992-02-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-006",
+   "date": "1992-02-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-007",
+   "date": "1992-02-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-008",
+   "date": "1992-02-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-009",
+   "date": "1992-02-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-010",
+   "date": "1992-02-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-011",
+   "date": "1992-02-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-012",
+   "date": "1992-02-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-013",
+   "date": "1992-03-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-014",
+   "date": "1992-03-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-015",
+   "date": "1992-03-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantes",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-016",
+   "date": "1992-03-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-017",
+   "date": "1992-03-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-018",
+   "date": "1992-03-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-019",
+   "date": "1992-03-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-020",
+   "date": "1992-03-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-021",
+   "date": "1992-03-06",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-022",
+   "date": "1992-03-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-023",
+   "date": "1992-03-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-024",
+   "date": "1992-03-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-025",
+   "date": "1992-03-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-026",
+   "date": "1992-03-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-027",
+   "date": "1992-03-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Suspendido a los 88 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1991-92-clausura-028",
+   "date": "1992-03-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "quilmes",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-029",
+   "date": "1992-03-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-030",
+   "date": "1992-03-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-031",
+   "date": "1992-03-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-032",
+   "date": "1992-03-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-033",
+   "date": "1992-03-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-034",
+   "date": "1992-03-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-035",
+   "date": "1992-03-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-036",
+   "date": "1992-03-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-037",
+   "date": "1992-03-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-038",
+   "date": "1992-03-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-039",
+   "date": "1992-03-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-040",
+   "date": "1992-03-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-041",
+   "date": "1992-03-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-042",
+   "date": "1992-03-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-043",
+   "date": "1992-03-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-044",
+   "date": "1992-03-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-045",
+   "date": "1992-03-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-046",
+   "date": "1992-03-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-047",
+   "date": "1992-03-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-048",
+   "date": "1992-03-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-049",
+   "date": "1992-03-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-050",
+   "date": "1992-03-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-051",
+   "date": "1992-03-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-052",
+   "date": "1992-03-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-053",
+   "date": "1992-03-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-054",
+   "date": "1992-03-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-055",
+   "date": "1992-03-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-056",
+   "date": "1992-03-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-057",
+   "date": "1992-03-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-058",
+   "date": "1992-03-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-059",
+   "date": "1992-03-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-060",
+   "date": "1992-03-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-061",
+   "date": "1992-04-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-062",
+   "date": "1992-04-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-063",
+   "date": "1992-04-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-064",
+   "date": "1992-04-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-065",
+   "date": "1992-04-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-066",
+   "date": "1992-04-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-067",
+   "date": "1992-04-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-068",
+   "date": "1992-04-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-069",
+   "date": "1992-04-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Deportivo Español",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-070",
+   "date": "1992-04-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-071",
+   "date": "1992-04-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-072",
+   "date": "1992-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-073",
+   "date": "1992-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-074",
+   "date": "1992-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-075",
+   "date": "1992-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-076",
+   "date": "1992-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-077",
+   "date": "1992-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-078",
+   "date": "1992-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-079",
+   "date": "1992-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-080",
+   "date": "1992-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-081",
+   "date": "1992-04-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-082",
+   "date": "1992-04-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-083",
+   "date": "1992-04-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-084",
+   "date": "1992-04-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-085",
+   "date": "1992-04-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-086",
+   "date": "1992-04-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-087",
+   "date": "1992-04-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-088",
+   "date": "1992-04-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-089",
+   "date": "1992-04-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "central",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-090",
+   "date": "1992-04-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-091",
+   "date": "1992-04-24",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-092",
+   "date": "1992-04-26",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-093",
+   "date": "1992-04-26",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-094",
+   "date": "1992-04-26",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-095",
+   "date": "1992-04-26",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-096",
+   "date": "1992-04-26",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-097",
+   "date": "1992-04-26",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-098",
+   "date": "1992-04-26",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-099",
+   "date": "1992-04-26",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-100",
+   "date": "1992-04-26",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-101",
+   "date": "1992-05-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-102",
+   "date": "1992-05-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-103",
+   "date": "1992-05-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-104",
+   "date": "1992-05-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-105",
+   "date": "1992-05-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-106",
+   "date": "1992-05-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-107",
+   "date": "1992-05-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-108",
+   "date": "1992-05-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-109",
+   "date": "1992-05-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-110",
+   "date": "1992-05-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-111",
+   "date": "1992-05-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-112",
+   "date": "1992-05-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-113",
+   "date": "1992-05-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-114",
+   "date": "1992-05-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-115",
+   "date": "1992-05-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-116",
+   "date": "1992-05-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-117",
+   "date": "1992-05-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-118",
+   "date": "1992-05-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-119",
+   "date": "1992-05-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-120",
+   "date": "1992-05-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-121",
+   "date": "1992-05-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-122",
+   "date": "1992-05-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-123",
+   "date": "1992-05-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-124",
+   "date": "1992-05-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-125",
+   "date": "1992-05-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-126",
+   "date": "1992-05-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-127",
+   "date": "1992-05-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-128",
+   "date": "1992-05-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-129",
+   "date": "1992-05-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-130",
+   "date": "1992-05-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-131",
+   "date": "1992-05-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-132",
+   "date": "1992-05-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-133",
+   "date": "1992-05-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-134",
+   "date": "1992-05-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-135",
+   "date": "1992-05-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-136",
+   "date": "1992-05-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-137",
+   "date": "1992-05-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-138",
+   "date": "1992-05-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-139",
+   "date": "1992-05-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-140",
+   "date": "1992-06-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-141",
+   "date": "1992-06-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-142",
+   "date": "1992-06-06",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-143",
+   "date": "1992-06-06",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-144",
+   "date": "1992-06-06",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-145",
+   "date": "1992-06-06",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-146",
+   "date": "1992-06-06",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-148",
+   "date": "1992-06-06",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-149",
+   "date": "1992-06-06",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-150",
+   "date": "1992-06-06",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-151",
+   "date": "1992-06-24",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Empezó el 6/6 y se suspendió con 0-0; se completó en esta fecha."
+  },
+  {
+   "id": "1991-92-clausura-152",
+   "date": "1992-06-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-153",
+   "date": "1992-06-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-154",
+   "date": "1992-06-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-155",
+   "date": "1992-06-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-156",
+   "date": "1992-06-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-157",
+   "date": "1992-06-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-158",
+   "date": "1992-06-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-159",
+   "date": "1992-06-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-160",
+   "date": "1992-06-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-161",
+   "date": "1992-06-24",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-162",
+   "date": "1992-06-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-163",
+   "date": "1992-06-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-164",
+   "date": "1992-06-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-165",
+   "date": "1992-06-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-166",
+   "date": "1992-06-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-167",
+   "date": "1992-06-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-168",
+   "date": "1992-06-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-169",
+   "date": "1992-06-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-170",
+   "date": "1992-06-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-171",
+   "date": "1992-06-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-172",
+   "date": "1992-06-26",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-173",
+   "date": "1992-06-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-174",
+   "date": "1992-06-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-175",
+   "date": "1992-06-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-176",
+   "date": "1992-06-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-177",
+   "date": "1992-06-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-178",
+   "date": "1992-06-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-179",
+   "date": "1992-06-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-180",
+   "date": "1992-06-30",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-181",
+   "date": "1992-06-30",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-182",
+   "date": "1992-07-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-183",
+   "date": "1992-07-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-184",
+   "date": "1992-07-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-185",
+   "date": "1992-07-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-186",
+   "date": "1992-07-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-187",
+   "date": "1992-07-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-188",
+   "date": "1992-07-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-189",
+   "date": "1992-07-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-190",
+   "date": "1992-07-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1991-92-clausura-191",
+   "date": "1992-07-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}

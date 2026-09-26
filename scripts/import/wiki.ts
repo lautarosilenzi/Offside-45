@@ -11,6 +11,18 @@ const CACHE = join(process.cwd(), ".cache", "wiki");
 // Algunas páginas escriben las tablas con sangría ("  |- ", "    ||1.º||"): se normaliza.
 const unindent = (t: string) => t.replace(/^[ \t]+(?=[|!{])/gm, "");
 
+// Las descargas a veces se cortan: hasta tres intentos antes de dar error.
+export async function fetchRetry(url: string, init: RequestInit): Promise<Response> {
+  for (let i = 0; ; i++) {
+    try {
+      return await fetch(url, init);
+    } catch (e) {
+      if (i >= 2) throw e;
+      await new Promise((r) => setTimeout(r, 2000 * (i + 1)));
+    }
+  }
+}
+
 export async function fetchWiki(title: string): Promise<string | null> {
   const raw = await fetchWikiRaw(title);
   return raw === null ? null : unindent(raw);
@@ -21,18 +33,22 @@ async function fetchWikiRaw(title: string): Promise<string | null> {
   const path = join(CACHE, `${title.replace(/[^\w()-]+/g, "_")}.txt`);
   if (!existsSync(path)) {
     const url = `https://es.wikipedia.org/w/index.php?title=${encodeURIComponent(title)}&action=raw`;
-    const res = await fetch(url, { headers: { "User-Agent": "Offside45-research/1.0 (datos historicos)" } });
+    const res = await fetchRetry(url, { headers: { "User-Agent": "Offside45-research/1.0 (datos historicos)" } });
+    // Las páginas que no existen quedan guardadas vacías, para no volver a pedirlas en cada importación.
+    if (res.status === 404) writeFileSync(path, "");
     if (!res.ok) return null;
     writeFileSync(path, await res.text());
     await new Promise((r) => setTimeout(r, 300));
   }
-  return readFileSync(path, "utf8");
+  return readFileSync(path, "utf8") || null;
 }
 
 const clean = (s: string) =>
   s
     .replace(/<ref[^>]*\/>|<ref[\s\S]*?<\/ref>/g, "")
     .replace(/\{\{[^{}]*\}\}/g, "")
+    // La estrellita de "campeón matemático" (1997): [[Archivo:Star_Ouro.svg|15x15px|Campeón matemático]].
+    .replace(/\[\[(?:Archivo|File|Imagen):[^\]]*\]\]/gi, "")
     .replace(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/g, "$1")
     .replace(/'''|''/g, "")
     .replace(/^[^|]*\|(?=[^|]*$)/, "")
@@ -128,7 +144,8 @@ export function wikiStandings(text: string): { team: string; values: Record<stri
         lost: n("p"),
         goalsFor: n("gf"),
         goalsAgainst: n("gc"),
-        points: n("g") * Number(f.pv ?? 2) + n("e") - n("desc"),
+        // Sin pv, la plantilla usa 3 por victoria (las páginas de antes de 1995/96 ponen pv=2).
+        points: n("g") * Number(f.pv ?? 3) + n("e") - n("desc"),
       },
     };
   });

@@ -2,6 +2,7 @@
 // Devuelve secciones (torneos) con su tabla publicada y la lista de partidos tal como figura.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { fetchRetry } from "./wiki";
 
 export type RawTableRow = {
   pos: number;
@@ -15,6 +16,8 @@ export type RawTableRow = {
   points: number;
   approx: boolean;
   tail: string;
+  // Columnas de local y visitante (1967–): ganados, empatados y perdidos de local, y lo mismo de visitante.
+  split?: number[];
 };
 
 export type RawMatch = {
@@ -44,7 +47,7 @@ export async function fetchPage(file: string): Promise<string> {
   mkdirSync(CACHE, { recursive: true });
   const path = join(CACHE, file);
   if (!existsSync(path)) {
-    const res = await fetch(`https://www.rsssf.org/tablesa/${file}`, { headers: { "User-Agent": "Mozilla/5.0" } });
+    const res = await fetchRetry(`https://www.rsssf.org/tablesa/${file}`, { headers: { "User-Agent": "Mozilla/5.0" } });
     if (!res.ok) throw new Error(`${file}: HTTP ${res.status}`);
     writeFileSync(path, Buffer.from(await res.arrayBuffer()));
     await new Promise((r) => setTimeout(r, 500));
@@ -81,7 +84,7 @@ const MATCH_RE = new RegExp(
   "i",
 );
 const TABLE_RE =
-  /^\s*(\d+)\s*(?:\.\s*|\s{2,})(.+?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(?:(?:\d+\s+){6})?(~?\s*\d+)\s*(?:[:\-]\s*|\s+)(~?\s*\d+)\s+(\d+)(.*)$/;
+  /^\s*(\d+)\s*(?:\.\s*|\s{2,})(.+?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+((?:\d+\s+){6})?(~?\s*\d+)\s*(?:[:\-]\s*|\s+)(~?\s*\d+)\s+(\d+)(.*)$/;
 
 // Separa "Equipo  [nota]" o "Equipo      nota libre" en nombre y nota.
 function splitAway(rest: string): { away: string; note: string; awarded?: string } {
@@ -204,11 +207,12 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
         won: +t[4],
         drawn: +t[5],
         lost: +t[6],
-        goalsFor: Number(t[7].replace(/[~\s]/g, "")),
-        goalsAgainst: Number(t[8].replace(/[~\s]/g, "")),
-        points: +t[9],
-        approx: /~/.test(t[7] + t[8]),
-        tail: t[10].trim(),
+        goalsFor: Number(t[8].replace(/[~\s]/g, "")),
+        goalsAgainst: Number(t[9].replace(/[~\s]/g, "")),
+        points: +t[10],
+        approx: /~/.test(t[8] + t[9]),
+        tail: t[11].trim(),
+        ...(t[7] && { split: t[7].trim().split(/\s+/).map(Number) }),
       });
       return;
     }
@@ -384,10 +388,12 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
       line = line.replace(/\s+\(aet\)$/i, "");
       trimmed = line.trim();
     }
-    if (/^\s*\[.*\]\s*$/.test(line) && cur.matches.length && /^\s/.test(line)) {
+    // 1995/96: a veces el renglón de goleadores va sin sangría ("[21' Biaggio - 42' Falaschi]"); el minuto lo delata.
+    if (/^\s*\[.*\]\s*$/.test(line) && cur.matches.length && (/^\s/.test(line) || /^\[\d+'/.test(line))) {
       const last = cur.matches[cur.matches.length - 1];
       // 1989/90: "[Later, both teams lost the points (0-1)]" en el renglón de abajo es parte de la nota del partido.
-      if (/^\[(later\b|suspended in \d)/i.test(trimmed)) {
+      // 1991/92: "[River won the points (0-1)]".
+      if (/^\[(later\b|suspended in \d|[^\]]+ won the points\b)/i.test(trimmed)) {
         last.note = [last.note, trimmed].filter(Boolean).join(" ");
         return;
       }

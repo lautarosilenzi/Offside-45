@@ -1,0 +1,3160 @@
+{
+ "slug": "1992-93-apertura",
+ "year": 1992,
+ "yearLabel": "1992/93",
+ "league": "Apertura",
+ "title": "Apertura 1992/93",
+ "tournament": "Apertura 1992/93",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca ganó el Apertura cuatro puntos delante de River y San Lorenzo: su primer título de liga desde 1981.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1992",
+   "url": "https://www.rsssf.org/tablesa/arg93.html"
+  },
+  {
+   "label": "Wikipedia – Anexo:Torneo Apertura 1992 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Anexo%3ATorneo_Apertura_1992_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "20 equipos a una rueda, 2 puntos por victoria."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "river",
+   "points": -2,
+   "reason": "descuento de 2 puntos (RSSSF no da el motivo)"
+  },
+  {
+   "teamId": "san-martin-tucuman",
+   "points": -2,
+   "reason": "descuento de 2 puntos (RSSSF no da el motivo)"
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "boca",
+   "played": 19,
+   "won": 10,
+   "drawn": 7,
+   "lost": 2,
+   "goalsFor": 24,
+   "goalsAgainst": 11,
+   "points": 27
+  },
+  {
+   "teamId": "river",
+   "played": 19,
+   "won": 10,
+   "drawn": 5,
+   "lost": 4,
+   "goalsFor": 28,
+   "goalsAgainst": 13,
+   "points": 23
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 19,
+   "won": 9,
+   "drawn": 5,
+   "lost": 5,
+   "goalsFor": 28,
+   "goalsAgainst": 19,
+   "points": 23
+  },
+  {
+   "teamId": "ferro",
+   "played": 19,
+   "won": 6,
+   "drawn": 10,
+   "lost": 3,
+   "goalsFor": 16,
+   "goalsAgainst": 9,
+   "points": 22
+  },
+  {
+   "teamId": "huracan",
+   "played": 19,
+   "won": 9,
+   "drawn": 4,
+   "lost": 6,
+   "goalsFor": 26,
+   "goalsAgainst": 22,
+   "points": 22
+  },
+  {
+   "teamId": "velez",
+   "played": 19,
+   "won": 8,
+   "drawn": 5,
+   "lost": 6,
+   "goalsFor": 23,
+   "goalsAgainst": 15,
+   "points": 21
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 19,
+   "won": 7,
+   "drawn": 6,
+   "lost": 6,
+   "goalsFor": 21,
+   "goalsAgainst": 14,
+   "points": 20
+  },
+  {
+   "teamId": "belgrano",
+   "played": 19,
+   "won": 7,
+   "drawn": 6,
+   "lost": 6,
+   "goalsFor": 22,
+   "goalsAgainst": 22,
+   "points": 20
+  },
+  {
+   "teamId": "lanus",
+   "played": 19,
+   "won": 8,
+   "drawn": 4,
+   "lost": 7,
+   "goalsFor": 22,
+   "goalsAgainst": 22,
+   "points": 20
+  },
+  {
+   "teamId": "talleres",
+   "played": 19,
+   "won": 6,
+   "drawn": 8,
+   "lost": 5,
+   "goalsFor": 18,
+   "goalsAgainst": 20,
+   "points": 20
+  },
+  {
+   "teamId": "deportivo-espanol",
+   "played": 19,
+   "won": 7,
+   "drawn": 5,
+   "lost": 7,
+   "goalsFor": 19,
+   "goalsAgainst": 18,
+   "points": 19
+  },
+  {
+   "teamId": "san-martin-tucuman",
+   "played": 19,
+   "won": 6,
+   "drawn": 8,
+   "lost": 5,
+   "goalsFor": 18,
+   "goalsAgainst": 14,
+   "points": 18
+  },
+  {
+   "teamId": "deportivo-mandiyu",
+   "played": 19,
+   "won": 5,
+   "drawn": 8,
+   "lost": 6,
+   "goalsFor": 21,
+   "goalsAgainst": 24,
+   "points": 18
+  },
+  {
+   "teamId": "central",
+   "played": 19,
+   "won": 7,
+   "drawn": 4,
+   "lost": 8,
+   "goalsFor": 19,
+   "goalsAgainst": 29,
+   "points": 18
+  },
+  {
+   "teamId": "independiente",
+   "played": 19,
+   "won": 5,
+   "drawn": 7,
+   "lost": 7,
+   "goalsFor": 15,
+   "goalsAgainst": 22,
+   "points": 17
+  },
+  {
+   "teamId": "racing",
+   "played": 19,
+   "won": 4,
+   "drawn": 7,
+   "lost": 8,
+   "goalsFor": 14,
+   "goalsAgainst": 20,
+   "points": 15
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 19,
+   "won": 4,
+   "drawn": 7,
+   "lost": 8,
+   "goalsFor": 19,
+   "goalsAgainst": 27,
+   "points": 15
+  },
+  {
+   "teamId": "platense",
+   "played": 19,
+   "won": 3,
+   "drawn": 8,
+   "lost": 8,
+   "goalsFor": 16,
+   "goalsAgainst": 21,
+   "points": 14
+  },
+  {
+   "teamId": "argentinos",
+   "played": 19,
+   "won": 3,
+   "drawn": 8,
+   "lost": 8,
+   "goalsFor": 17,
+   "goalsAgainst": 25,
+   "points": 14
+  },
+  {
+   "teamId": "newells",
+   "played": 19,
+   "won": 3,
+   "drawn": 4,
+   "lost": 12,
+   "goalsFor": 12,
+   "goalsAgainst": 31,
+   "points": 10
+  }
+ ],
+ "knownTableDiffs": {
+  "keys": [
+   "newells:local"
+  ],
+  "explanation": "En la tabla de RSSSF la campaña de local de Newell's (2-5-3) no cierra con su total (3-4-12): están invertidos los empates y las derrotas. Según los resultados fue 2-3-5."
+ },
+ "matches": [
+  {
+   "id": "1992-93-apertura-001",
+   "date": "1992-08-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-002",
+   "date": "1992-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-003",
+   "date": "1992-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-004",
+   "date": "1992-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-005",
+   "date": "1992-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-006",
+   "date": "1992-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-007",
+   "date": "1992-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-008",
+   "date": "1992-09-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-009",
+   "date": "1992-09-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-010",
+   "date": "1992-10-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-011",
+   "date": "1992-08-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-012",
+   "date": "1992-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-013",
+   "date": "1992-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-014",
+   "date": "1992-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-015",
+   "date": "1992-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-016",
+   "date": "1992-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-017",
+   "date": "1992-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-018",
+   "date": "1992-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-019",
+   "date": "1992-10-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-020",
+   "date": "1992-10-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-021",
+   "date": "1992-08-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-022",
+   "date": "1992-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-023",
+   "date": "1992-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-024",
+   "date": "1992-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-025",
+   "date": "1992-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-026",
+   "date": "1992-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-027",
+   "date": "1992-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-028",
+   "date": "1992-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-029",
+   "date": "1992-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-030",
+   "date": "1992-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-031",
+   "date": "1992-08-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-032",
+   "date": "1992-08-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-033",
+   "date": "1992-09-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-034",
+   "date": "1992-09-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-035",
+   "date": "1992-09-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-036",
+   "date": "1992-09-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-037",
+   "date": "1992-09-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-038",
+   "date": "1992-09-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-039",
+   "date": "1992-09-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-040",
+   "date": "1992-10-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-041",
+   "date": "1992-09-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-042",
+   "date": "1992-09-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-043",
+   "date": "1992-09-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-044",
+   "date": "1992-09-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-045",
+   "date": "1992-09-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-046",
+   "date": "1992-09-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-047",
+   "date": "1992-09-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-048",
+   "date": "1992-09-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-049",
+   "date": "1992-09-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-050",
+   "date": "1992-09-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-051",
+   "date": "1992-09-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Suspendido a los 79 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1992-93-apertura-052",
+   "date": "1992-09-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-053",
+   "date": "1992-09-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-054",
+   "date": "1992-09-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-055",
+   "date": "1992-09-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-056",
+   "date": "1992-09-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-057",
+   "date": "1992-09-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-058",
+   "date": "1992-09-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-059",
+   "date": "1992-09-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-060",
+   "date": "1992-09-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-061",
+   "date": "1992-09-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-062",
+   "date": "1992-09-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-063",
+   "date": "1992-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-064",
+   "date": "1992-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-065",
+   "date": "1992-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-066",
+   "date": "1992-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-067",
+   "date": "1992-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-068",
+   "date": "1992-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-069",
+   "date": "1992-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-070",
+   "date": "1992-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-071",
+   "date": "1992-09-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-072",
+   "date": "1992-09-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-073",
+   "date": "1992-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-074",
+   "date": "1992-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-075",
+   "date": "1992-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-076",
+   "date": "1992-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-077",
+   "date": "1992-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-078",
+   "date": "1992-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-079",
+   "date": "1992-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-080",
+   "date": "1992-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-081",
+   "date": "1992-10-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-082",
+   "date": "1992-10-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-083",
+   "date": "1992-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-084",
+   "date": "1992-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-085",
+   "date": "1992-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-086",
+   "date": "1992-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-087",
+   "date": "1992-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-088",
+   "date": "1992-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-089",
+   "date": "1992-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-090",
+   "date": "1992-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-091",
+   "date": "1992-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-092",
+   "date": "1992-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-093",
+   "date": "1992-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-094",
+   "date": "1992-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-095",
+   "date": "1992-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-096",
+   "date": "1992-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-097",
+   "date": "1992-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "talleres",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-098",
+   "date": "1992-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-099",
+   "date": "1992-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-100",
+   "date": "1992-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-101",
+   "date": "1992-10-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-102",
+   "date": "1992-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-103",
+   "date": "1992-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-104",
+   "date": "1992-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-105",
+   "date": "1992-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-106",
+   "date": "1992-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-107",
+   "date": "1992-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-108",
+   "date": "1992-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-109",
+   "date": "1992-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-110",
+   "date": "1992-10-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-111",
+   "date": "1992-10-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-112",
+   "date": "1992-10-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-113",
+   "date": "1992-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-114",
+   "date": "1992-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-115",
+   "date": "1992-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-116",
+   "date": "1992-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-117",
+   "date": "1992-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-118",
+   "date": "1992-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-119",
+   "date": "1992-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-120",
+   "date": "1992-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-121",
+   "date": "1992-11-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-122",
+   "date": "1992-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-123",
+   "date": "1992-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-124",
+   "date": "1992-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-125",
+   "date": "1992-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-126",
+   "date": "1992-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-127",
+   "date": "1992-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-128",
+   "date": "1992-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-129",
+   "date": "1992-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-130",
+   "date": "1992-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-131",
+   "date": "1992-11-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-132",
+   "date": "1992-11-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-133",
+   "date": "1992-11-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-134",
+   "date": "1992-11-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-135",
+   "date": "1992-11-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-136",
+   "date": "1992-11-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-137",
+   "date": "1992-11-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-138",
+   "date": "1992-11-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-139",
+   "date": "1992-11-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-140",
+   "date": "1992-11-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-141",
+   "date": "1992-11-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-142",
+   "date": "1992-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-143",
+   "date": "1992-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-144",
+   "date": "1992-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-145",
+   "date": "1992-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-146",
+   "date": "1992-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-147",
+   "date": "1992-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-148",
+   "date": "1992-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-149",
+   "date": "1992-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-150",
+   "date": "1992-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-151",
+   "date": "1992-11-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-152",
+   "date": "1992-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-153",
+   "date": "1992-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-154",
+   "date": "1992-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-155",
+   "date": "1992-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-156",
+   "date": "1992-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-157",
+   "date": "1992-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-158",
+   "date": "1992-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-159",
+   "date": "1992-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-160",
+   "date": "1992-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-161",
+   "date": "1992-12-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-162",
+   "date": "1992-12-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-163",
+   "date": "1992-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-164",
+   "date": "1992-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-165",
+   "date": "1992-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-166",
+   "date": "1992-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-167",
+   "date": "1992-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-168",
+   "date": "1992-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-169",
+   "date": "1992-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-170",
+   "date": "1992-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-171",
+   "date": "1992-12-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Independiente",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-173",
+   "date": "1992-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-174",
+   "date": "1992-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-175",
+   "date": "1992-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Empezó el 12/12 y se suspendió con 2-1; se completó en esta fecha."
+  },
+  {
+   "id": "1992-93-apertura-176",
+   "date": "1992-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-177",
+   "date": "1992-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-178",
+   "date": "1992-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-179",
+   "date": "1992-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-180",
+   "date": "1992-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-181",
+   "date": "1992-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-182",
+   "date": "1992-12-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-183",
+   "date": "1992-12-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-184",
+   "date": "1992-12-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-185",
+   "date": "1992-12-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-186",
+   "date": "1992-12-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-187",
+   "date": "1992-12-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-188",
+   "date": "1992-12-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-190",
+   "date": "1992-12-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-191",
+   "date": "1992-12-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1992-93-apertura-192",
+   "date": "1993-04-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Empezó el 20/12 y se suspendió con 0-1; se completó en esta fecha."
+  }
+ ]
+}

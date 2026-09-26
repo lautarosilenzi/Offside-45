@@ -6,6 +6,7 @@ import { join } from "node:path";
 import type { Match, Season, TableRow } from "../../lib/types";
 import { computeTable, rawTableDiffs, verifySeason } from "../../lib/seasons";
 import { getTeam } from "../../lib/teams";
+import { winnerOf } from "../../lib/result";
 import { resolveName, setLocalAliases } from "./aliases";
 import { TOURNAMENTS, type TournamentConfig } from "./config";
 import { CUP_TOURNAMENTS } from "./config-cups";
@@ -106,6 +107,8 @@ export function translateNote(
     .map((p) => p.replace(/[\[\]]/g, "").trim().replace(/(?<!\b[A-Z])\.$/, ""))
     // "(aet)", "(Almagro withdrew at 72')": observaciones entre paréntesis.
     .map((p) => p.replace(/^\((.*)\)$/, "$1"))
+    // "played at Atlanta" (1995/96): la cancha, igual que "at Atlanta".
+    .map((p) => p.replace(/^played at /i, "at "))
     .filter(Boolean);
   for (const p of parts) {
     let m: RegExpMatchArray | null;
@@ -150,6 +153,7 @@ export function translateNote(
       const club = resolveName(m[1].replace(/\s*\(.*\)$/, ""), year);
       // "at Rosario", "at Campana" (y "at Palermo" antes de que existiera el club): la ciudad o el barrio.
       if (club) out.venue = `Cancha de ${club.as ?? club.name}`;
+      else if (/^Estadio /.test(m[1])) out.venue = m[1];
       else out.venue = /^(Rosario|Campana|Palermo|Mar del Plata|Córdoba|Mendoza|Salta|Tucumán|Santa Fe|Jujuy|Resistencia|Bahía Blanca|Posadas|Neuquén|San Juan|La Plata|Santiago del Estero|Paraná|Corrientes)$/.test(m[1]) ? m[1] : `Cancha de ${m[1]}`;
     } else if (/^aet$/i.test(p)) out.text.push("Con alargue.");
     else if (/^asdet$/i.test(p)) out.text.push("Con alargue y gol de oro.");
@@ -203,10 +207,15 @@ export function translateNote(
     } else if ((m = p.match(/^(.+?) (?:withdrew champions?hip|withdrew from the championship)$/i))) {
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} se había retirado del torneo.`);
-    } else if ((m = p.match(/^(?:later )?(.+?) won (?:the )?points$/i))) {
+    } else if ((m = p.match(/^(?:later,? )?(.+?) won (?:the )?points(?: \((\d+)-(\d+)\))?$/i))) {
       const club = resolveName(m[1], year);
       out.wonPointsBy = club?.id;
+      if (m[2]) out.lostScore = [+m[2], +m[3]];
       out.text.push(`La liga le dio los puntos a ${club ? club.as ?? club.name : m[1]}.`);
+    } else if ((m = p.match(/^(.+?) (\d+) players left$/i))) {
+      // "Banfield 6 players left" (1996): se quedó sin el mínimo de jugadores.
+      const club = resolveName(m[1], year);
+      out.text.push(`${club ? club.as ?? club.name : m[1]} se quedó con ${m[2]} jugadores.`);
     } else if (/^not continued$/i.test(p)) out.text.push("No se completó; quedó el resultado del momento de la suspensión.");
     else if ((m = p.match(/^(.+?) deducted (\d+) points?$/i))) {
       const club = resolveName(m[1], year);
@@ -294,6 +303,11 @@ export function translateNote(
     else if ((m = p.match(/^Suspended \S+ (\d+)-(\d+) \S+ at (\d+)'$/i))) out.text.push(`Suspendido a los ${m[3]} minutos con ${m[1]}-${m[2]}.`);
     else if ((m = p.match(/^Suspended (\d+)-(\d+) a los (\d+)' due to not warranties to play$/i))) out.text.push(`Suspendido a los ${m[3]} minutos con ${m[1]}-${m[2]} por falta de garantías.`);
     else if ((m = p.match(/^Abandoned at (\d+)'$/i))) out.text.push(`Suspendido a los ${m[1]} minutos.`);
+    // 1991/92: "Suspended at 73' for the agression to River's goalkeeper".
+    else if ((m = p.match(/^Suspended at (\d+)' for the agg?ression to (.+?)'s goalkeeper$/i))) {
+      const club = resolveName(m[2], year);
+      out.text.push(`Suspendido a los ${m[1]} minutos por una agresión al arquero de ${club ? club.as ?? club.name : m[2]}.`);
+    }
     // 1986/87: "Abandoned at 77'. Continued on Apr 29." y "Centurión (RP) Doping Awd 0-1".
     else if ((m = p.match(/^Abandoned at (\d+)'\. Continued on (.+?)\.?$/i)))
       out.text.push(`Suspendido a los ${m[1]} minutos; se completó el ${esDate(m[2])} (el resultado es el final).`);
@@ -462,8 +476,8 @@ function stageOf(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
     if (/relegation group/i.test(hint)) return { stage: "Grupo descenso", phase: "playoff" };
     if (/quarter/i.test(hint)) return { stage: `Cuartos de final${leg}`, phase: "playoff" };
     if (/semi/i.test(hint)) return { stage: `Semifinal${leg}`, phase: "playoff" };
-    // 1988/89: la final entre los ganadores de la Liguilla Pre-Libertadores y de la Clasificación.
-    if (/^final liguilla/i.test(hint)) return { stage: `Final por el cupo${leg}`, phase: "playoff" };
+    // 1988/89: la final entre los ganadores de la Liguilla y de la Clasificación; 1991/92: entre el campeón que perdió la serie y el ganador del Octogonal.
+    if (/^final (liguilla|between)/i.test(hint)) return { stage: `Final por el cupo${leg}`, phase: "playoff" };
     // 1988/89: "1st. ROUND:" en la Liguilla Clasificación.
     const ord = hint.match(/^(\d)(?:st|nd|rd|th)\.?\s+round:?$/i);
     if (ord) return { stage: `${["Primera", "Segunda", "Tercera", "Cuarta", "Quinta", "Sexta"][+ord[1] - 1]} ronda${leg}`, phase: "playoff" };
@@ -792,9 +806,12 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       m.stage = cfg.playoffFrom.stage;
     }
     if (note.bothLost) m.bothLost = true;
-    if (note.lostScore && note.lostPointsBy) {
-      const [l, w] = note.lostScore;
-      [m.homeGoals, m.awayGoals] = note.lostPointsBy === home.id ? [l, w] : [w, l];
+    // El resultado que fijó la liga ("(0-1)"): el que se quedó con los puntos lleva el número mayor.
+    if (note.lostScore && (note.lostPointsBy || note.wonPointsBy)) {
+      const [lo, hi] = [Math.min(...note.lostScore), Math.max(...note.lostScore)];
+      const homeWon = note.wonPointsBy ? note.wonPointsBy === home.id : note.lostPointsBy !== home.id;
+      if (m.homeGoals !== (homeWon ? hi : lo) || m.awayGoals !== (homeWon ? lo : hi)) note.text.unshift(`En la cancha terminó ${m.homeGoals}-${m.awayGoals}.`);
+      [m.homeGoals, m.awayGoals] = homeWon ? [hi, lo] : [lo, hi];
     }
     if (note.lostPointsBy) m.awardedTo = note.lostPointsBy === home.id ? away.id : home.id;
     if (note.wonPointsBy) m.awardedTo = note.wonPointsBy;
@@ -833,7 +850,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       if (txt.length) m.note = [m.note, ...txt].filter(Boolean).join(" ");
     } else if (raw.scorers)
       // "[Acevedo(2)]   [Rulli, …]" (1965): un corchete por equipo.
-      m.note = [m.note, `Goles: ${raw.scorers.replace(/^;\s*/, "—; ").replace(/;\s*/, " / ").replace(/\]\s*\[/g, " / ")}.`].filter(Boolean).join(" ");
+      m.note = [m.note, `Goles: ${raw.scorers.replace(/^;\s*/, "—; ").replace(/(\d+'[^;]*?) - (\d+')/, "$1; $2").replace(/;\s*/, " / ").replace(/\]\s*\[/g, " / ")}.`].filter(Boolean).join(" ");
     // Empate definido por penales ("[6]2-2[7]" → "pen 6:7"): quién pasó; para la estadística sigue siendo empate.
     const pen = raw.note.match(/\bpen (\d+)[:-](\d+)\b/);
     // En una vuelta de ida y vuelta (1979) los penales definen la serie aunque el partido no haya terminado empatado.
@@ -972,6 +989,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       : [cfg.tableIndex ?? 0];
   const publishedTable: TableRow[] = [];
   const groups: { name: string; teamIds: string[] }[] = [];
+  const splits = new Map<string, number[]>();
   tableIdx.forEach((ti, gi) => {
     const ids: string[] = [];
     for (const r of tables[ti] ?? []) {
@@ -983,6 +1001,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
         continue;
       }
       ids.push(t.id);
+      if (r.split) splits.set(t.id, r.split);
       publishedTable.push({ teamId: t.id, played: r.played, won: r.won, drawn: r.drawn, lost: r.lost, goalsFor: r.goalsFor, goalsAgainst: r.goalsAgainst, points: r.points });
     }
     if (cfg.groupNames?.[gi]) groups.push({ name: cfg.groupNames[gi], teamIds: ids });
@@ -1017,6 +1036,27 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     ...(cfg.knownTableDiffs && { knownTableDiffs: cfg.knownTableDiffs }),
     matches,
   };
+
+  // Tablas con columnas de local y visitante: controlan que cada partido figure con la localía correcta.
+  if (splits.size) {
+    const calc = new Map<string, number[]>();
+    const add = (id: string, i: number) => {
+      if (!calc.has(id)) calc.set(id, [0, 0, 0, 0, 0, 0]);
+      calc.get(id)![i]++;
+    };
+    for (const m of matches) {
+      if (m.status === "annulled" || m.phase !== "league") continue;
+      const w = m.bothLost ? undefined : winnerOf(m);
+      add(m.homeId, m.bothLost ? 2 : w === null ? 1 : w === m.homeId ? 0 : 2);
+      add(m.awayId, m.bothLost ? 5 : w === null ? 4 : w === m.awayId ? 3 : 5);
+    }
+    const known = new Set(cfg.knownTableDiffs?.keys ?? []);
+    for (const [id, pub] of splits) {
+      const c = calc.get(id) ?? [0, 0, 0, 0, 0, 0];
+      if (pub.join() !== c.join() && !known.has(`${id}:local`))
+        warnings.push(`Local/visitante distinto para ${id}: publicado ${pub.slice(0, 3).join("-")} / ${pub.slice(3).join("-")}, calculado ${c.slice(0, 3).join("-")} / ${c.slice(3).join("-")}`);
+    }
+  }
 
   // Segunda fuente: Wikipedia. Los partidos que coinciden suman la fuente.
   if (cfg.wiki) {
@@ -1079,7 +1119,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     }
   }
   const raw = rawTableDiffs(season).map((p) => p.split(" ")[0].replace(/:$/, "") + ":" + p.split(" ")[1]);
-  const stale = (cfg.knownTableDiffs?.keys ?? []).filter((k) => !raw.includes(k));
+  const stale = (cfg.knownTableDiffs?.keys ?? []).filter((k) => !k.endsWith(":local") && !raw.includes(k));
   if (stale.length) problems.push(`Diferencias explicadas que ya no aparecen (revisar config): ${stale.join(", ")}`);
   return { season, problems, warnings };
 }

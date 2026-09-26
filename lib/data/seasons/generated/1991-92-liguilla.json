@@ -1,0 +1,89 @@
+{
+ "slug": "1991-92-liguilla",
+ "year": 1991,
+ "yearLabel": "1991/92",
+ "league": "Liguilla Pre-Libertadores",
+ "title": "Liguilla Pre-Libertadores 1991/92",
+ "tournament": "Liguilla Pre-Libertadores 1991/92",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "River le ganó la serie de campeones a Newell's y Newell's, después, le ganó a Vélez (ganador del Octogonal) el otro lugar en la Copa Libertadores 1993.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1991",
+   "url": "https://www.rsssf.org/tablesa/arg92.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Los campeones del Apertura (River) y del Clausura (Newell's) jugaron una serie a ida y vuelta, con un tercer partido en Córdoba. El perdedor jugó un partido con el ganador del Octogonal por el segundo lugar en la Copa Libertadores 1993."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "1991-92-liguilla-001",
+   "date": "1992-07-12",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Libertadores",
+   "stage": "Serie de campeones (ida)",
+   "phase": "playoff",
+   "homeId": "newells",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Rosario Central",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1991-92-liguilla-002",
+   "date": "1992-07-19",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Libertadores",
+   "stage": "Serie de campeones (vuelta)",
+   "phase": "playoff",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Medina Bello."
+  },
+  {
+   "id": "1991-92-liguilla-003",
+   "date": "1992-07-26",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Libertadores",
+   "stage": "Serie de campeones (desempate)",
+   "phase": "playoff",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Medina Bello(2), R.Díaz / Martino, Lunari."
+  },
+  {
+   "id": "1991-92-liguilla-004",
+   "date": "1992-08-02",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Libertadores",
+   "stage": "Final por el cupo",
+   "phase": "playoff",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Rosario Central",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Saldaña."
+  }
+ ]
+}
