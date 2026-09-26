@@ -282,7 +282,18 @@ export async function compareWithWikipedia(cfg: TournamentConfig, season: Season
   // Tabla de posiciones de Wikipedia contra la calculada con los partidos (control independiente del de RSSSF).
   const computed = new Map(computeTable(season).map((r) => [r.teamId, r]));
   // Las copas no tienen tabla en Wikipedia (lo que aparece suele ser la tabla de la liga de ese año).
-  const standings = cfg.kind === "cup" ? undefined : wikiStandings(text).find((t) => t.length >= Math.min(3, computed.size));
+  // Con varios torneos en la misma página (Apertura y Clausura, 1990/91–) se toma la tabla que más se parece a la calculada.
+  const fits = (t: { team: string; values: Record<string, number> }[]) =>
+    t.filter((row) => {
+      const c = computed.get(resolveName(row.team, cfg.year)?.id ?? "");
+      return c && c.points === row.values.points && c.goalsFor === row.values.goalsFor;
+    }).length;
+  const standings =
+    cfg.kind === "cup"
+      ? undefined
+      : wikiStandings(text)
+          .filter((t) => t.length >= Math.min(3, computed.size))
+          .reduce<ReturnType<typeof wikiStandings>[number] | undefined>((best, t) => (!best || fits(t) > fits(best) ? t : best), undefined);
   if (standings) {
     let ok = 0;
     for (const row of standings) {

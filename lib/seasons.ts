@@ -84,8 +84,14 @@ export function computeTable(season: Season): TableRow[] {
     if (winner === null) {
       home.drawn++;
       away.drawn++;
-      home.points++;
-      away.points++;
+      if (season.drawShootout && m.advancedId && m.phase === "league") {
+        const [sw, sl] = m.advancedId === m.homeId ? [home, away] : [away, home];
+        sw.points += season.drawShootout.winner;
+        sl.points += season.drawShootout.loser;
+      } else {
+        home.points++;
+        away.points++;
+      }
     } else {
       const [w, l] = winner === m.homeId ? [home, away] : [away, home];
       w.won++;

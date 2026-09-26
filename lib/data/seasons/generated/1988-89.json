@@ -1,0 +1,5967 @@
+{
+ "slug": "1988-89",
+ "year": 1988,
+ "yearLabel": "1988/89",
+ "title": "Campeonato 1988/89",
+ "tournament": "Campeonato de Primera División 1988/89",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "independiente"
+ ],
+ "summary": "Independiente ganó el campeonato ocho puntos delante de Boca, en la única temporada con penales en cada empate.",
+ "pointsPerWin": 3,
+ "drawShootout": {
+  "winner": 2,
+  "loser": 1
+ },
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1988",
+   "url": "https://www.rsssf.org/tablesa/arg89.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1988-89 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1988-89_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "20 equipos, todos contra todos a dos ruedas. 3 puntos por victoria; los empates se definían por penales: 2 puntos para el que ganaba la tanda y 1 para el que perdía."
+  },
+  {
+   "kind": "identidad",
+   "text": "La primera rueda se jugó como «Apertura», pero sus puntos siguieron sumando en la tabla del campeonato, que es la que da el título."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "racing",
+   "points": -2,
+   "reason": "descuento de 2 puntos (RSSSF no da el motivo)"
+  },
+  {
+   "teamId": "newells",
+   "points": -2,
+   "reason": "descuento de 2 puntos (RSSSF no da el motivo)"
+  },
+  {
+   "teamId": "central",
+   "points": -2,
+   "reason": "descuento de 2 puntos (RSSSF no da el motivo)"
+  },
+  {
+   "teamId": "san-martin-tucuman",
+   "points": -2,
+   "reason": "descuento de 2 puntos (RSSSF no da el motivo)"
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "independiente",
+   "played": 38,
+   "won": 22,
+   "drawn": 11,
+   "lost": 5,
+   "goalsFor": 58,
+   "goalsAgainst": 32,
+   "points": 84
+  },
+  {
+   "teamId": "boca",
+   "played": 38,
+   "won": 20,
+   "drawn": 9,
+   "lost": 9,
+   "goalsFor": 56,
+   "goalsAgainst": 38,
+   "points": 76
+  },
+  {
+   "teamId": "deportivo-espanol",
+   "played": 38,
+   "won": 16,
+   "drawn": 14,
+   "lost": 8,
+   "goalsFor": 45,
+   "goalsAgainst": 31,
+   "points": 68
+  },
+  {
+   "teamId": "river",
+   "played": 38,
+   "won": 16,
+   "drawn": 13,
+   "lost": 9,
+   "goalsFor": 61,
+   "goalsAgainst": 36,
+   "points": 67
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 38,
+   "won": 16,
+   "drawn": 10,
+   "lost": 12,
+   "goalsFor": 58,
+   "goalsAgainst": 44,
+   "points": 66
+  },
+  {
+   "teamId": "talleres",
+   "played": 38,
+   "won": 16,
+   "drawn": 12,
+   "lost": 10,
+   "goalsFor": 48,
+   "goalsAgainst": 43,
+   "points": 65
+  },
+  {
+   "teamId": "argentinos",
+   "played": 38,
+   "won": 13,
+   "drawn": 16,
+   "lost": 9,
+   "goalsFor": 55,
+   "goalsAgainst": 39,
+   "points": 61
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 38,
+   "won": 15,
+   "drawn": 12,
+   "lost": 11,
+   "goalsFor": 53,
+   "goalsAgainst": 41,
+   "points": 61
+  },
+  {
+   "teamId": "racing",
+   "played": 38,
+   "won": 13,
+   "drawn": 16,
+   "lost": 9,
+   "goalsFor": 47,
+   "goalsAgainst": 41,
+   "points": 59
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 38,
+   "won": 10,
+   "drawn": 16,
+   "lost": 12,
+   "goalsFor": 31,
+   "goalsAgainst": 30,
+   "points": 57
+  },
+  {
+   "teamId": "velez",
+   "played": 38,
+   "won": 8,
+   "drawn": 17,
+   "lost": 13,
+   "goalsFor": 37,
+   "goalsAgainst": 54,
+   "points": 53
+  },
+  {
+   "teamId": "newells",
+   "played": 38,
+   "won": 11,
+   "drawn": 13,
+   "lost": 14,
+   "goalsFor": 42,
+   "goalsAgainst": 44,
+   "points": 51
+  },
+  {
+   "teamId": "central",
+   "played": 38,
+   "won": 10,
+   "drawn": 16,
+   "lost": 12,
+   "goalsFor": 49,
+   "goalsAgainst": 55,
+   "points": 51
+  },
+  {
+   "teamId": "deportivo-mandiyu",
+   "played": 38,
+   "won": 7,
+   "drawn": 19,
+   "lost": 12,
+   "goalsFor": 35,
+   "goalsAgainst": 44,
+   "points": 51
+  },
+  {
+   "teamId": "platense",
+   "played": 38,
+   "won": 11,
+   "drawn": 11,
+   "lost": 16,
+   "goalsFor": 36,
+   "goalsAgainst": 51,
+   "points": 50
+  },
+  {
+   "teamId": "racing-cordoba",
+   "played": 38,
+   "won": 11,
+   "drawn": 11,
+   "lost": 16,
+   "goalsFor": 38,
+   "goalsAgainst": 54,
+   "points": 50
+  },
+  {
+   "teamId": "san-martin-tucuman",
+   "played": 38,
+   "won": 12,
+   "drawn": 10,
+   "lost": 16,
+   "goalsFor": 38,
+   "goalsAgainst": 49,
+   "points": 46
+  },
+  {
+   "teamId": "ferro",
+   "played": 38,
+   "won": 8,
+   "drawn": 14,
+   "lost": 16,
+   "goalsFor": 35,
+   "goalsAgainst": 43,
+   "points": 45
+  },
+  {
+   "teamId": "deportivo-armenio",
+   "played": 38,
+   "won": 5,
+   "drawn": 15,
+   "lost": 18,
+   "goalsFor": 29,
+   "goalsAgainst": 57,
+   "points": 37
+  },
+  {
+   "teamId": "instituto",
+   "played": 38,
+   "won": 7,
+   "drawn": 9,
+   "lost": 22,
+   "goalsFor": 38,
+   "goalsAgainst": 65,
+   "points": 31
+  }
+ ],
+ "knownTableDiffs": {
+  "keys": [
+   "newells:goalsAgainst",
+   "central:goalsAgainst"
+  ],
+  "explanation": "El clásico rosarino de la fecha 13 se suspendió 0-0 y la liga se lo dio por perdido 0-1 a los dos. La tabla oficial le cuenta ese gol en contra a cada uno; acá el partido figura 0-0, porque no hay un marcador que pueda darle un gol en contra a ambos."
+ },
+ "matches": [
+  {
+   "id": "1988-89-001",
+   "date": "1988-09-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-002",
+   "date": "1988-09-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "ferro",
+   "note": "Ferro Carril Oeste ganó por penales (3-1)."
+  },
+  {
+   "id": "1988-89-003",
+   "date": "1988-09-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-004",
+   "date": "1988-09-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-005",
+   "date": "1988-09-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-006",
+   "date": "1988-09-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-007",
+   "date": "1988-09-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-008",
+   "date": "1988-09-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-009",
+   "date": "1988-09-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-010",
+   "date": "1988-09-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "talleres",
+   "note": "Talleres (C) ganó por penales (4-2)."
+  },
+  {
+   "id": "1988-89-011",
+   "date": "1988-09-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "racing-cordoba",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-012",
+   "date": "1988-09-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-013",
+   "date": "1988-09-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-mandiyu",
+   "note": "Deportivo Mandiyú ganó por penales (3-1)."
+  },
+  {
+   "id": "1988-89-014",
+   "date": "1988-09-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-015",
+   "date": "1988-09-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "independiente",
+   "note": "Independiente ganó por penales (11-12)."
+  },
+  {
+   "id": "1988-89-016",
+   "date": "1988-09-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-017",
+   "date": "1988-09-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-018",
+   "date": "1988-09-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-019",
+   "date": "1988-09-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-020",
+   "date": "1988-09-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "newells",
+   "note": "Newell's Old Boys ganó por penales (6-5)."
+  },
+  {
+   "id": "1988-89-021",
+   "date": "1988-09-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-022",
+   "date": "1988-09-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "gimnasia",
+   "note": "Gimnasia (LP) ganó por penales (4-5)."
+  },
+  {
+   "id": "1988-89-023",
+   "date": "1988-09-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "racing",
+   "note": "Racing Club ganó por penales (2-4)."
+  },
+  {
+   "id": "1988-89-024",
+   "date": "1988-09-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-armenio",
+   "note": "Deportivo Armenio ganó por penales (2-3)."
+  },
+  {
+   "id": "1988-89-025",
+   "date": "1988-09-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-026",
+   "date": "1988-09-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "velez",
+   "note": "Vélez Sarsfield ganó por penales (2-3)."
+  },
+  {
+   "id": "1988-89-027",
+   "date": "1988-09-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-espanol",
+   "note": "Deportivo Español ganó por penales (3-4)."
+  },
+  {
+   "id": "1988-89-028",
+   "date": "1988-09-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "argentinos",
+   "note": "Argentinos Juniors ganó por penales (5-6)."
+  },
+  {
+   "id": "1988-89-029",
+   "date": "1988-09-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-mandiyu",
+   "note": "Deportivo Mandiyú ganó por penales (4-5)."
+  },
+  {
+   "id": "1988-89-030",
+   "date": "1988-09-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "central",
+   "note": "Rosario Central ganó por penales (2-1)."
+  },
+  {
+   "id": "1988-89-031",
+   "date": "1988-10-01",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-032",
+   "date": "1988-10-01",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing-cordoba",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-033",
+   "date": "1988-10-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-034",
+   "date": "1988-10-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "talleres",
+   "note": "Talleres (C) ganó por penales (5-4)."
+  },
+  {
+   "id": "1988-89-035",
+   "date": "1988-10-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-036",
+   "date": "1988-10-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-037",
+   "date": "1988-10-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-038",
+   "date": "1988-10-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "ferro",
+   "note": "Ferro Carril Oeste ganó por penales (1-2)."
+  },
+  {
+   "id": "1988-89-039",
+   "date": "1988-10-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-040",
+   "date": "1988-10-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-041",
+   "date": "1988-10-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "gimnasia",
+   "note": "Gimnasia (LP) ganó por penales (3-4)."
+  },
+  {
+   "id": "1988-89-042",
+   "date": "1988-10-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "racing",
+   "note": "Racing Club ganó por penales (3-4)."
+  },
+  {
+   "id": "1988-89-043",
+   "date": "1988-10-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-044",
+   "date": "1988-10-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "ferro",
+   "note": "Ferro Carril Oeste ganó por penales (4-1)."
+  },
+  {
+   "id": "1988-89-045",
+   "date": "1988-10-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-046",
+   "date": "1988-10-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-047",
+   "date": "1988-10-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-048",
+   "date": "1988-10-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-049",
+   "date": "1988-10-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-050",
+   "date": "1988-10-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "estudiantes",
+   "note": "Estudiantes (LP) ganó por penales (5-4)."
+  },
+  {
+   "id": "1988-89-051",
+   "date": "1988-10-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-052",
+   "date": "1988-10-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-053",
+   "date": "1988-10-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-054",
+   "date": "1988-10-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-055",
+   "date": "1988-10-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "sanlorenzo",
+   "note": "San Lorenzo ganó por penales (1-3)."
+  },
+  {
+   "id": "1988-89-056",
+   "date": "1988-10-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-057",
+   "date": "1988-10-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-058",
+   "date": "1988-10-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "instituto",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-059",
+   "date": "1988-10-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-060",
+   "date": "1988-10-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-061",
+   "date": "1988-10-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "racing-cordoba",
+   "note": "Racing (Córdoba) ganó por penales (5-3)."
+  },
+  {
+   "id": "1988-89-062",
+   "date": "1988-10-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-063",
+   "date": "1988-10-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "velez",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-064",
+   "date": "1988-10-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-065",
+   "date": "1988-10-31",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "newells",
+   "note": "Newell's Old Boys ganó por penales (4-2)."
+  },
+  {
+   "id": "1988-89-066",
+   "date": "1988-10-31",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-armenio",
+   "note": "Deportivo Armenio ganó por penales (3-4)."
+  },
+  {
+   "id": "1988-89-067",
+   "date": "1988-10-31",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-068",
+   "date": "1988-10-31",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "sanlorenzo",
+   "note": "San Lorenzo ganó por penales (3-1)."
+  },
+  {
+   "id": "1988-89-069",
+   "date": "1988-10-31",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-070",
+   "date": "1988-10-31",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-071",
+   "date": "1988-11-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "independiente",
+   "note": "Independiente ganó por penales (3-2)."
+  },
+  {
+   "id": "1988-89-072",
+   "date": "1988-11-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "estudiantes",
+   "note": "Estudiantes (LP) ganó por penales (5-3)."
+  },
+  {
+   "id": "1988-89-073",
+   "date": "1988-11-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-074",
+   "date": "1988-11-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "sanlorenzo",
+   "note": "San Lorenzo ganó por penales (3-5)."
+  },
+  {
+   "id": "1988-89-075",
+   "date": "1988-11-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-076",
+   "date": "1988-11-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-077",
+   "date": "1988-11-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-078",
+   "date": "1988-11-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-079",
+   "date": "1988-11-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "gimnasia",
+   "note": "Gimnasia (LP) ganó por penales (5-6)."
+  },
+  {
+   "id": "1988-89-080",
+   "date": "1988-11-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-081",
+   "date": "1988-11-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-armenio",
+   "note": "Deportivo Armenio ganó por penales (5-6)."
+  },
+  {
+   "id": "1988-89-082",
+   "date": "1988-11-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-083",
+   "date": "1988-11-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-084",
+   "date": "1988-11-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "newells",
+   "note": "Newell's Old Boys ganó por penales (3-1)."
+  },
+  {
+   "id": "1988-89-085",
+   "date": "1988-11-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-086",
+   "date": "1988-11-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "ferro",
+   "note": "Ferro Carril Oeste ganó por penales (4-2)."
+  },
+  {
+   "id": "1988-89-087",
+   "date": "1988-11-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "racing-cordoba",
+   "note": "Racing (Córdoba) ganó por penales (4-2)."
+  },
+  {
+   "id": "1988-89-088",
+   "date": "1988-11-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-089",
+   "date": "1988-11-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-090",
+   "date": "1988-11-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "platense",
+   "note": "Platense ganó por penales (4-2)."
+  },
+  {
+   "id": "1988-89-091",
+   "date": "1988-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "racing-cordoba",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "racing-cordoba",
+   "note": "Racing (Córdoba) ganó por penales (2-4)."
+  },
+  {
+   "id": "1988-89-092",
+   "date": "1988-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-093",
+   "date": "1988-11-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-094",
+   "date": "1988-11-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-095",
+   "date": "1988-11-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "sanlorenzo",
+   "note": "San Lorenzo ganó por penales (2-3)."
+  },
+  {
+   "id": "1988-89-096",
+   "date": "1988-11-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-097",
+   "date": "1988-11-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "argentinos",
+   "note": "Argentinos Juniors ganó por penales (4-3)."
+  },
+  {
+   "id": "1988-89-098",
+   "date": "1988-11-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-espanol",
+   "note": "Deportivo Español ganó por penales (4-2)."
+  },
+  {
+   "id": "1988-89-099",
+   "date": "1988-11-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-100",
+   "date": "1988-11-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-101",
+   "date": "1988-11-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-102",
+   "date": "1988-11-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-103",
+   "date": "1988-11-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "talleres",
+   "note": "Talleres (C) ganó por penales (3-4)."
+  },
+  {
+   "id": "1988-89-104",
+   "date": "1988-11-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-105",
+   "date": "1988-11-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-106",
+   "date": "1988-11-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "velez",
+   "note": "Vélez Sarsfield ganó por penales (2-3)."
+  },
+  {
+   "id": "1988-89-107",
+   "date": "1988-11-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-108",
+   "date": "1988-11-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "gimnasia",
+   "note": "Gimnasia (LP) ganó por penales (4-3)."
+  },
+  {
+   "id": "1988-89-109",
+   "date": "1988-11-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "sanlorenzo",
+   "note": "San Lorenzo ganó por penales (6-5)."
+  },
+  {
+   "id": "1988-89-110",
+   "date": "1988-11-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-111",
+   "date": "1988-11-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-112",
+   "date": "1988-11-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-113",
+   "date": "1988-11-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing-cordoba",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-114",
+   "date": "1988-11-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-115",
+   "date": "1988-11-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "central",
+   "note": "RSSSF no anota la tanda de penales de este empate. La tabla de posiciones y la de penales de la misma fuente se la dan a Rosario Central (2 puntos contra 1 de Instituto)."
+  },
+  {
+   "id": "1988-89-116",
+   "date": "1988-11-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-117",
+   "date": "1988-11-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "gimnasia",
+   "note": "Gimnasia (LP) ganó por penales (2-4)."
+  },
+  {
+   "id": "1988-89-118",
+   "date": "1988-11-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "argentinos",
+   "note": "Argentinos Juniors ganó por penales (20-19)."
+  },
+  {
+   "id": "1988-89-119",
+   "date": "1988-11-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-120",
+   "date": "1988-11-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-121",
+   "date": "1988-11-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "velez",
+   "note": "Vélez Sarsfield ganó por penales (1-3)."
+  },
+  {
+   "id": "1988-89-122",
+   "date": "1988-11-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1988-89-123",
+   "date": "1988-11-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-124",
+   "date": "1988-11-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-125",
+   "date": "1988-11-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "gimnasia",
+   "note": "Gimnasia (LP) ganó por penales (4-3)."
+  },
+  {
+   "id": "1988-89-126",
+   "date": "1988-11-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "bothLost": true,
+   "note": "Suspendido a los 22 minutos. La liga le dio el partido por perdido a los dos equipos."
+  },
+  {
+   "id": "1988-89-127",
+   "date": "1988-11-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-128",
+   "date": "1988-11-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-129",
+   "date": "1988-11-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-130",
+   "date": "1988-11-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "boca",
+   "note": "Boca Juniors ganó por penales (5-6)."
+  },
+  {
+   "id": "1988-89-131",
+   "date": "1988-11-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-132",
+   "date": "1988-11-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing-cordoba",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-133",
+   "date": "1988-11-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "platense",
+   "note": "Platense ganó por penales (7-6)."
+  },
+  {
+   "id": "1988-89-134",
+   "date": "1988-11-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "independiente",
+   "note": "Independiente ganó por penales (4-3)."
+  },
+  {
+   "id": "1988-89-135",
+   "date": "1988-11-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-136",
+   "date": "1988-11-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-137",
+   "date": "1988-11-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-138",
+   "date": "1988-11-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-armenio",
+   "note": "Deportivo Armenio ganó por penales (2-4)."
+  },
+  {
+   "id": "1988-89-139",
+   "date": "1988-11-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-140",
+   "date": "1988-11-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "velez",
+   "note": "Vélez Sarsfield ganó por penales (5-6)."
+  },
+  {
+   "id": "1988-89-141",
+   "date": "1988-12-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-142",
+   "date": "1988-12-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-143",
+   "date": "1988-12-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-144",
+   "date": "1988-12-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-espanol",
+   "note": "Deportivo Español ganó por penales (2-4)."
+  },
+  {
+   "id": "1988-89-145",
+   "date": "1988-12-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "velez",
+   "note": "Vélez Sarsfield ganó por penales (4-3)."
+  },
+  {
+   "id": "1988-89-146",
+   "date": "1988-12-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "river",
+   "note": "River Plate ganó por penales (4-2)."
+  },
+  {
+   "id": "1988-89-147",
+   "date": "1988-12-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "central",
+   "note": "Rosario Central ganó por penales (3-4)."
+  },
+  {
+   "id": "1988-89-148",
+   "date": "1988-12-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-149",
+   "date": "1988-12-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "newells",
+   "note": "Newell's Old Boys ganó por penales (5-3)."
+  },
+  {
+   "id": "1988-89-150",
+   "date": "1988-12-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "boca",
+   "note": "Boca Juniors ganó por penales (5-6)."
+  },
+  {
+   "id": "1988-89-151",
+   "date": "1988-12-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-152",
+   "date": "1988-12-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-153",
+   "date": "1988-12-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "boca",
+   "note": "Boca Juniors ganó por penales (3-2)."
+  },
+  {
+   "id": "1988-89-154",
+   "date": "1988-12-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "platense",
+   "note": "Platense ganó por penales (5-4)."
+  },
+  {
+   "id": "1988-89-155",
+   "date": "1988-12-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-156",
+   "date": "1988-12-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "racing",
+   "note": "Racing Club ganó por penales (2-3)."
+  },
+  {
+   "id": "1988-89-157",
+   "date": "1988-12-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "central",
+   "note": "Rosario Central ganó por penales (5-3)."
+  },
+  {
+   "id": "1988-89-158",
+   "date": "1988-12-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-159",
+   "date": "1988-12-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "deportivo-mandiyu",
+   "note": "Deportivo Mandiyú ganó por penales (5-3)."
+  },
+  {
+   "id": "1988-89-160",
+   "date": "1988-12-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "argentinos",
+   "note": "Argentinos Juniors ganó por penales (4-2)."
+  },
+  {
+   "id": "1988-89-161",
+   "date": "1988-12-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "argentinos",
+   "note": "Argentinos Juniors ganó por penales (2-4)."
+  },
+  {
+   "id": "1988-89-162",
+   "date": "1988-12-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-mandiyu",
+   "note": "Deportivo Mandiyú ganó por penales (3-5)."
+  },
+  {
+   "id": "1988-89-163",
+   "date": "1988-12-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-164",
+   "date": "1988-12-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-165",
+   "date": "1988-12-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-166",
+   "date": "1988-12-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-167",
+   "date": "1988-12-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "platense",
+   "note": "Platense ganó por penales (5-6)."
+  },
+  {
+   "id": "1988-89-168",
+   "date": "1988-12-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "boca",
+   "note": "Boca Juniors ganó por penales (4-5)."
+  },
+  {
+   "id": "1988-89-169",
+   "date": "1988-12-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-170",
+   "date": "1988-12-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "racing-cordoba",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-171",
+   "date": "1988-12-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "san-martin-tucuman",
+   "note": "San Martín (Tucumán) ganó por penales (4-5)."
+  },
+  {
+   "id": "1988-89-172",
+   "date": "1988-12-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-173",
+   "date": "1988-12-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-174",
+   "date": "1988-12-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-175",
+   "date": "1988-12-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de River Plate",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "platense",
+   "note": "Platense ganó por penales (6-5)."
+  },
+  {
+   "id": "1988-89-176",
+   "date": "1988-12-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-177",
+   "date": "1988-12-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "estudiantes",
+   "note": "Estudiantes (LP) ganó por penales (6-5)."
+  },
+  {
+   "id": "1988-89-178",
+   "date": "1988-12-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-179",
+   "date": "1988-12-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-180",
+   "date": "1988-12-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-181",
+   "date": "1988-12-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-182",
+   "date": "1988-12-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-183",
+   "date": "1988-12-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-espanol",
+   "note": "Deportivo Español ganó por penales (4-3)."
+  },
+  {
+   "id": "1988-89-184",
+   "date": "1988-12-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "velez",
+   "note": "Vélez Sarsfield ganó por penales (5-4)."
+  },
+  {
+   "id": "1988-89-185",
+   "date": "1988-12-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-186",
+   "date": "1988-12-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-187",
+   "date": "1988-12-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "boca",
+   "note": "Suspendido a los 45 minutos. La liga le quitó los puntos a Racing Club y lo dio 0-1."
+  },
+  {
+   "id": "1988-89-188",
+   "date": "1988-12-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-189",
+   "date": "1988-12-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "racing-cordoba",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-190",
+   "date": "1988-12-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-191",
+   "date": "1989-01-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-192",
+   "date": "1989-01-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-193",
+   "date": "1989-01-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing-cordoba",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-194",
+   "date": "1989-01-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-195",
+   "date": "1989-01-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-196",
+   "date": "1989-01-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-197",
+   "date": "1989-01-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "independiente",
+   "note": "Independiente ganó por penales (3-4)."
+  },
+  {
+   "id": "1988-89-198",
+   "date": "1989-01-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-199",
+   "date": "1989-01-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-200",
+   "date": "1989-01-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-201",
+   "date": "1989-02-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "racing-cordoba",
+   "note": "Racing (Córdoba) ganó por penales (4-1)."
+  },
+  {
+   "id": "1988-89-202",
+   "date": "1989-02-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-203",
+   "date": "1989-02-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-204",
+   "date": "1989-02-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-205",
+   "date": "1989-02-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-206",
+   "date": "1989-02-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-207",
+   "date": "1989-02-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "river",
+   "note": "River Plate ganó por penales (3-4)."
+  },
+  {
+   "id": "1988-89-208",
+   "date": "1989-02-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "sanlorenzo",
+   "note": "San Lorenzo ganó por penales (3-2)."
+  },
+  {
+   "id": "1988-89-209",
+   "date": "1989-02-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-210",
+   "date": "1989-02-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "newells",
+   "note": "Newell's Old Boys ganó por penales (3-4)."
+  },
+  {
+   "id": "1988-89-211",
+   "date": "1989-02-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "central",
+   "homeGoals": 5,
+   "awayGoals": 5,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "talleres",
+   "note": "Talleres (C) ganó por penales (3-1)."
+  },
+  {
+   "id": "1988-89-212",
+   "date": "1989-02-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-213",
+   "date": "1989-02-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "instituto",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-214",
+   "date": "1989-02-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "racing",
+   "note": "Racing Club ganó por penales (4-2)."
+  },
+  {
+   "id": "1988-89-215",
+   "date": "1989-02-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-216",
+   "date": "1989-02-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-217",
+   "date": "1989-02-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-218",
+   "date": "1989-02-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-219",
+   "date": "1989-02-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-220",
+   "date": "1989-02-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-mandiyu",
+   "note": "Deportivo Mandiyú ganó por penales (3-1)."
+  },
+  {
+   "id": "1988-89-221",
+   "date": "1989-02-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "central",
+   "note": "Rosario Central ganó por penales (1-3)."
+  },
+  {
+   "id": "1988-89-222",
+   "date": "1989-02-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "estudiantes",
+   "note": "Estudiantes (LP) ganó por penales (3-2)."
+  },
+  {
+   "id": "1988-89-223",
+   "date": "1989-02-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-224",
+   "date": "1989-02-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-225",
+   "date": "1989-02-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-226",
+   "date": "1989-02-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-227",
+   "date": "1989-02-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-228",
+   "date": "1989-02-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "ferro",
+   "note": "Ferro Carril Oeste ganó por penales (5-4)."
+  },
+  {
+   "id": "1988-89-229",
+   "date": "1989-02-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-230",
+   "date": "1989-02-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-231",
+   "date": "1989-02-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-232",
+   "date": "1989-02-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-233",
+   "date": "1989-02-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-234",
+   "date": "1989-02-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-235",
+   "date": "1989-02-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "velez",
+   "note": "Vélez Sarsfield ganó por penales (3-2)."
+  },
+  {
+   "id": "1988-89-236",
+   "date": "1989-02-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-237",
+   "date": "1989-02-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "boca",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-238",
+   "date": "1989-02-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-239",
+   "date": "1989-02-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "independiente",
+   "note": "Independiente ganó por penales (2-4)."
+  },
+  {
+   "id": "1988-89-240",
+   "date": "1989-02-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-241",
+   "date": "1989-03-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-242",
+   "date": "1989-03-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-243",
+   "date": "1989-03-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-244",
+   "date": "1989-03-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-245",
+   "date": "1989-03-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-246",
+   "date": "1989-03-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "racing-cordoba",
+   "note": "Racing (Córdoba) ganó por penales (4-3)."
+  },
+  {
+   "id": "1988-89-247",
+   "date": "1989-03-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "ferro",
+   "note": "Ferro Carril Oeste ganó por penales (4-3)."
+  },
+  {
+   "id": "1988-89-248",
+   "date": "1989-03-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "river",
+   "note": "River Plate ganó por penales (4-5)."
+  },
+  {
+   "id": "1988-89-249",
+   "date": "1989-03-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-250",
+   "date": "1989-03-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "gimnasia",
+   "note": "Gimnasia (LP) ganó por penales (4-2)."
+  },
+  {
+   "id": "1988-89-251",
+   "date": "1989-03-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-252",
+   "date": "1989-03-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "racing",
+   "note": "Racing Club ganó por penales (4-3)."
+  },
+  {
+   "id": "1988-89-253",
+   "date": "1989-03-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "gimnasia",
+   "note": "Gimnasia (LP) ganó por penales (2-3)."
+  },
+  {
+   "id": "1988-89-254",
+   "date": "1989-03-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-255",
+   "date": "1989-03-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-256",
+   "date": "1989-03-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-257",
+   "date": "1989-03-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "argentinos",
+   "note": "Argentinos Juniors ganó por penales (5-3)."
+  },
+  {
+   "id": "1988-89-258",
+   "date": "1989-03-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-259",
+   "date": "1989-03-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-260",
+   "date": "1989-03-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "independiente",
+   "note": "Independiente ganó por penales (2-4)."
+  },
+  {
+   "id": "1988-89-261",
+   "date": "1989-03-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-262",
+   "date": "1989-03-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-263",
+   "date": "1989-03-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-264",
+   "date": "1989-03-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-265",
+   "date": "1989-03-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-mandiyu",
+   "note": "Deportivo Mandiyú ganó por penales (1-3)."
+  },
+  {
+   "id": "1988-89-266",
+   "date": "1989-03-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "ferro",
+   "note": "Ferro Carril Oeste ganó por penales (4-3)."
+  },
+  {
+   "id": "1988-89-267",
+   "date": "1989-03-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-268",
+   "date": "1989-03-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "velez",
+   "note": "Vélez Sarsfield ganó por penales (3-4)."
+  },
+  {
+   "id": "1988-89-269",
+   "date": "1989-03-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "gimnasia",
+   "note": "Gimnasia (LP) ganó por penales (5-4)."
+  },
+  {
+   "id": "1988-89-270",
+   "date": "1989-03-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-armenio",
+   "note": "Deportivo Armenio ganó por penales (3-5)."
+  },
+  {
+   "id": "1988-89-271",
+   "date": "1989-03-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "central",
+   "note": "Rosario Central ganó por penales (3-1)."
+  },
+  {
+   "id": "1988-89-272",
+   "date": "1989-03-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-273",
+   "date": "1989-03-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-274",
+   "date": "1989-03-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-275",
+   "date": "1989-03-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "newells",
+   "note": "Newell's Old Boys ganó por penales (4-5)."
+  },
+  {
+   "id": "1988-89-276",
+   "date": "1989-03-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-277",
+   "date": "1989-03-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-mandiyu",
+   "note": "Deportivo Mandiyú ganó por penales (3-1)."
+  },
+  {
+   "id": "1988-89-278",
+   "date": "1989-03-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "racing-cordoba",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-279",
+   "date": "1989-03-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-280",
+   "date": "1989-03-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-281",
+   "date": "1989-04-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-282",
+   "date": "1989-04-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-283",
+   "date": "1989-04-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-284",
+   "date": "1989-04-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-285",
+   "date": "1989-04-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-286",
+   "date": "1989-04-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-287",
+   "date": "1989-04-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "newells",
+   "note": "Newell's Old Boys ganó por penales (3-2)."
+  },
+  {
+   "id": "1988-89-288",
+   "date": "1989-04-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-289",
+   "date": "1989-04-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "velez",
+   "note": "Vélez Sarsfield ganó por penales (3-4)."
+  },
+  {
+   "id": "1988-89-290",
+   "date": "1989-04-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-armenio",
+   "note": "Deportivo Armenio ganó por penales (4-2)."
+  },
+  {
+   "id": "1988-89-291",
+   "date": "1989-04-09",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1988-89-292",
+   "date": "1989-04-09",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-293",
+   "date": "1989-04-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-294",
+   "date": "1989-04-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "velez",
+   "note": "Vélez Sarsfield ganó por penales (3-2)."
+  },
+  {
+   "id": "1988-89-295",
+   "date": "1989-04-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-296",
+   "date": "1989-04-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-297",
+   "date": "1989-04-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-298",
+   "date": "1989-04-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing-cordoba",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-299",
+   "date": "1989-04-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-300",
+   "date": "1989-04-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "boca",
+   "note": "Boca Juniors ganó por penales (5-6)."
+  },
+  {
+   "id": "1988-89-301",
+   "date": "1989-04-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "gimnasia",
+   "note": "Gimnasia (LP) ganó por penales (3-1)."
+  },
+  {
+   "id": "1988-89-302",
+   "date": "1989-04-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "instituto",
+   "note": "Instituto (Córdoba) ganó por penales (5-4)."
+  },
+  {
+   "id": "1988-89-303",
+   "date": "1989-04-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-304",
+   "date": "1989-04-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 81 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1988-89-305",
+   "date": "1989-04-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-306",
+   "date": "1989-04-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "sanlorenzo",
+   "note": "San Lorenzo ganó por penales (3-1)."
+  },
+  {
+   "id": "1988-89-307",
+   "date": "1989-04-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-308",
+   "date": "1989-04-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-309",
+   "date": "1989-04-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-310",
+   "date": "1989-04-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-311",
+   "date": "1989-04-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-312",
+   "date": "1989-04-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "river",
+   "note": "River Plate ganó por penales (3-4)."
+  },
+  {
+   "id": "1988-89-313",
+   "date": "1989-04-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "Cancha de Deportivo Español",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-314",
+   "date": "1989-04-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-mandiyu",
+   "note": "Deportivo Mandiyú ganó por penales (5-4)."
+  },
+  {
+   "id": "1988-89-315",
+   "date": "1989-04-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-316",
+   "date": "1989-04-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-317",
+   "date": "1989-04-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-318",
+   "date": "1989-04-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-319",
+   "date": "1989-04-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "racing-cordoba",
+   "note": "Racing (Córdoba) ganó por penales (2-4)."
+  },
+  {
+   "id": "1988-89-320",
+   "date": "1989-04-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-321",
+   "date": "1989-04-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-322",
+   "date": "1989-04-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-323",
+   "date": "1989-04-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-324",
+   "date": "1989-04-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-325",
+   "date": "1989-04-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-326",
+   "date": "1989-04-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "central",
+   "note": "Rosario Central ganó por penales (3-4)."
+  },
+  {
+   "id": "1988-89-327",
+   "date": "1989-04-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-328",
+   "date": "1989-04-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-armenio",
+   "note": "Deportivo Armenio ganó por penales (8-7)."
+  },
+  {
+   "id": "1988-89-329",
+   "date": "1989-04-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "river",
+   "note": "River Plate ganó por penales (4-2)."
+  },
+  {
+   "id": "1988-89-330",
+   "date": "1989-04-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-espanol",
+   "note": "Deportivo Español ganó por penales (3-5)."
+  },
+  {
+   "id": "1988-89-331",
+   "date": "1989-05-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "racing",
+   "note": "Racing Club ganó por penales (3-4)."
+  },
+  {
+   "id": "1988-89-332",
+   "date": "1989-05-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-333",
+   "date": "1989-05-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "velez",
+   "note": "Vélez Sarsfield ganó por penales (2-4)."
+  },
+  {
+   "id": "1988-89-334",
+   "date": "1989-05-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-mandiyu",
+   "note": "Deportivo Mandiyú ganó por penales (4-2)."
+  },
+  {
+   "id": "1988-89-335",
+   "date": "1989-05-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-336",
+   "date": "1989-05-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "gimnasia",
+   "note": "Gimnasia (LP) ganó por penales (0-2)."
+  },
+  {
+   "id": "1988-89-337",
+   "date": "1989-05-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-338",
+   "date": "1989-05-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-339",
+   "date": "1989-05-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-340",
+   "date": "1989-05-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing-cordoba",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-341",
+   "date": "1989-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "racing-cordoba",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "san-martin-tucuman",
+   "note": "San Martín (Tucumán) ganó por penales (5-4)."
+  },
+  {
+   "id": "1988-89-342",
+   "date": "1989-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "sanlorenzo",
+   "note": "San Lorenzo ganó por penales (7-8)."
+  },
+  {
+   "id": "1988-89-343",
+   "date": "1989-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-344",
+   "date": "1989-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-345",
+   "date": "1989-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-346",
+   "date": "1989-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-347",
+   "date": "1989-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-348",
+   "date": "1989-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-349",
+   "date": "1989-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-mandiyu",
+   "note": "RSSSF anota la tanda 3-2 para Vélez, pero su propia tabla de penales (Vélez 12 ganadas y 5 perdidas, Mandiyú 11 y 8) y la tabla de posiciones de RSSSF y de Wikipedia solo cierran si la ganó Mandiyú."
+  },
+  {
+   "id": "1988-89-350",
+   "date": "1989-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-351",
+   "date": "1989-05-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-352",
+   "date": "1989-05-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-353",
+   "date": "1989-05-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "velez",
+   "note": "Vélez Sarsfield ganó por penales (4-5)."
+  },
+  {
+   "id": "1988-89-354",
+   "date": "1989-05-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "river",
+   "note": "River Plate ganó por penales (2-4)."
+  },
+  {
+   "id": "1988-89-355",
+   "date": "1989-05-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-356",
+   "date": "1989-05-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "independiente",
+   "note": "Independiente ganó por penales (4-1)."
+  },
+  {
+   "id": "1988-89-357",
+   "date": "1989-05-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-358",
+   "date": "1989-05-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 6,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-359",
+   "date": "1989-05-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-360",
+   "date": "1989-05-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-361",
+   "date": "1989-05-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-362",
+   "date": "1989-05-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "racing-cordoba",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-363",
+   "date": "1989-05-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-364",
+   "date": "1989-05-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "boca",
+   "note": "Boca Juniors ganó por penales (2-4)."
+  },
+  {
+   "id": "1988-89-365",
+   "date": "1989-05-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-366",
+   "date": "1989-05-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-367",
+   "date": "1989-05-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-368",
+   "date": "1989-05-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-369",
+   "date": "1989-05-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-370",
+   "date": "1989-05-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-mandiyu",
+   "note": "Deportivo Mandiyú ganó por penales (12-13)."
+  },
+  {
+   "id": "1988-89-371",
+   "date": "1989-05-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-372",
+   "date": "1989-05-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "talleres",
+   "note": "Talleres (C) ganó por penales (10-9)."
+  },
+  {
+   "id": "1988-89-373",
+   "date": "1989-05-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "deportivo-espanol",
+   "note": "Deportivo Español ganó por penales (1-4)."
+  },
+  {
+   "id": "1988-89-374",
+   "date": "1989-05-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "velez",
+   "homeGoals": 7,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-375",
+   "date": "1989-05-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-376",
+   "date": "1989-05-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "platense",
+   "note": "Platense ganó por penales (3-2)."
+  },
+  {
+   "id": "1988-89-377",
+   "date": "1989-05-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "boca",
+   "note": "Boca Juniors ganó por penales (4-3)."
+  },
+  {
+   "id": "1988-89-378",
+   "date": "1989-05-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-379",
+   "date": "1989-05-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1988-89-380",
+   "date": "1989-05-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

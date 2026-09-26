@@ -1,0 +1,61 @@
+{
+ "slug": "1990-91-final",
+ "year": 1990,
+ "yearLabel": "1990/91",
+ "league": "Final",
+ "title": "Final 1990/91",
+ "tournament": "Final del campeonato 1990/91",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "newells"
+ ],
+ "summary": "Newell's, ganador del Apertura, fue campeón 1990/91: le ganó 1-0 a Boca en Rosario, perdió 1-0 la vuelta en la Bombonera y ganó por penales (3-1).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1990",
+   "url": "https://www.rsssf.org/tablesa/arg91.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a ida y vuelta entre los ganadores del Apertura (Newell's) y del Clausura (Boca). El campeón de la temporada fue el ganador de esta final."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "1990-91-final-001",
+   "date": "1991-07-06",
+   "competition": "Asociación del Fútbol Argentino · Final",
+   "stage": "Final (ida)",
+   "phase": "playoff",
+   "homeId": "newells",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Rosario Central",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Berizzo."
+  },
+  {
+   "id": "1990-91-final-002",
+   "date": "1991-07-09",
+   "competition": "Asociación del Fútbol Argentino · Final",
+   "stage": "Final (vuelta)",
+   "phase": "playoff",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Reinoso. Newell's Old Boys pasó por penales, tras el empate en el global, (1-3).",
+   "advancedId": "newells"
+  }
+ ]
+}

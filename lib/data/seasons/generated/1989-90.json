@@ -1,0 +1,5739 @@
+{
+ "slug": "1989-90",
+ "year": 1989,
+ "yearLabel": "1989/90",
+ "title": "Campeonato 1989/90",
+ "tournament": "Campeonato de Primera División 1989/90",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River fue campeón con siete puntos de ventaja sobre Independiente, que había ganado el Apertura.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1989",
+   "url": "https://www.rsssf.org/tablesa/arg90.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 1989-90 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1989-90_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "20 equipos, todos contra todos a dos ruedas, 2 puntos por victoria. La primera rueda se jugó como «Apertura» (la ganó Independiente) y sus puntos siguieron sumando en la tabla del campeonato."
+  },
+  {
+   "kind": "formato",
+   "text": "Descendían los dos peores promedios. Chaco For Ever y Racing de Córdoba empataron el anteúltimo lugar y jugaron un desempate (Chaco For Ever 5-0); descendieron Instituto y Racing de Córdoba."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "talleres",
+   "points": -2,
+   "reason": "descuento de 2 puntos (RSSSF no da el motivo)"
+  },
+  {
+   "teamId": "central",
+   "points": -2,
+   "reason": "descuento de 2 puntos (RSSSF no da el motivo)"
+  },
+  {
+   "teamId": "newells",
+   "points": -2,
+   "reason": "descuento de 2 puntos (RSSSF no da el motivo)"
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "river",
+   "played": 38,
+   "won": 20,
+   "drawn": 13,
+   "lost": 5,
+   "goalsFor": 48,
+   "goalsAgainst": 20,
+   "points": 53
+  },
+  {
+   "teamId": "independiente",
+   "played": 38,
+   "won": 16,
+   "drawn": 14,
+   "lost": 8,
+   "goalsFor": 54,
+   "goalsAgainst": 36,
+   "points": 46
+  },
+  {
+   "teamId": "boca",
+   "played": 38,
+   "won": 11,
+   "drawn": 21,
+   "lost": 6,
+   "goalsFor": 49,
+   "goalsAgainst": 35,
+   "points": 43
+  },
+  {
+   "teamId": "central",
+   "played": 38,
+   "won": 16,
+   "drawn": 13,
+   "lost": 9,
+   "goalsFor": 45,
+   "goalsAgainst": 36,
+   "points": 43
+  },
+  {
+   "teamId": "velez",
+   "played": 38,
+   "won": 14,
+   "drawn": 14,
+   "lost": 10,
+   "goalsFor": 46,
+   "goalsAgainst": 32,
+   "points": 42
+  },
+  {
+   "teamId": "ferro",
+   "played": 38,
+   "won": 11,
+   "drawn": 17,
+   "lost": 10,
+   "goalsFor": 24,
+   "goalsAgainst": 20,
+   "points": 39
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 38,
+   "won": 12,
+   "drawn": 15,
+   "lost": 11,
+   "goalsFor": 34,
+   "goalsAgainst": 31,
+   "points": 39
+  },
+  {
+   "teamId": "racing",
+   "played": 38,
+   "won": 11,
+   "drawn": 17,
+   "lost": 10,
+   "goalsFor": 34,
+   "goalsAgainst": 34,
+   "points": 39
+  },
+  {
+   "teamId": "argentinos",
+   "played": 38,
+   "won": 13,
+   "drawn": 12,
+   "lost": 13,
+   "goalsFor": 42,
+   "goalsAgainst": 40,
+   "points": 38
+  },
+  {
+   "teamId": "deportivo-mandiyu",
+   "played": 38,
+   "won": 11,
+   "drawn": 14,
+   "lost": 13,
+   "goalsFor": 40,
+   "goalsAgainst": 40,
+   "points": 36
+  },
+  {
+   "teamId": "talleres",
+   "played": 38,
+   "won": 12,
+   "drawn": 14,
+   "lost": 12,
+   "goalsFor": 45,
+   "goalsAgainst": 46,
+   "points": 36
+  },
+  {
+   "teamId": "newells",
+   "played": 38,
+   "won": 12,
+   "drawn": 14,
+   "lost": 12,
+   "goalsFor": 40,
+   "goalsAgainst": 43,
+   "points": 36
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 38,
+   "won": 10,
+   "drawn": 16,
+   "lost": 12,
+   "goalsFor": 40,
+   "goalsAgainst": 43,
+   "points": 36
+  },
+  {
+   "teamId": "platense",
+   "played": 38,
+   "won": 13,
+   "drawn": 10,
+   "lost": 15,
+   "goalsFor": 35,
+   "goalsAgainst": 40,
+   "points": 36
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 38,
+   "won": 10,
+   "drawn": 15,
+   "lost": 13,
+   "goalsFor": 44,
+   "goalsAgainst": 50,
+   "points": 35
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 38,
+   "won": 7,
+   "drawn": 20,
+   "lost": 11,
+   "goalsFor": 34,
+   "goalsAgainst": 39,
+   "points": 34
+  },
+  {
+   "teamId": "chaco-for-ever",
+   "played": 38,
+   "won": 10,
+   "drawn": 12,
+   "lost": 16,
+   "goalsFor": 40,
+   "goalsAgainst": 56,
+   "points": 32
+  },
+  {
+   "teamId": "racing-cordoba",
+   "played": 38,
+   "won": 11,
+   "drawn": 10,
+   "lost": 17,
+   "goalsFor": 32,
+   "goalsAgainst": 48,
+   "points": 32
+  },
+  {
+   "teamId": "deportivo-espanol",
+   "played": 38,
+   "won": 12,
+   "drawn": 7,
+   "lost": 19,
+   "goalsFor": 39,
+   "goalsAgainst": 53,
+   "points": 31
+  },
+  {
+   "teamId": "instituto",
+   "played": 38,
+   "won": 8,
+   "drawn": 10,
+   "lost": 20,
+   "goalsFor": 31,
+   "goalsAgainst": 56,
+   "points": 26
+  }
+ ],
+ "knownTableDiffs": {
+  "keys": [
+   "central:goalsFor",
+   "central:goalsAgainst",
+   "newells:goalsFor",
+   "boca:goalsAgainst"
+  ],
+  "explanation": "El clásico rosarino de la última fecha se suspendió con 1-0 para Central y la liga se lo dio por perdido 0-1 a los dos: la tabla oficial (RSSSF y Wikipedia) le cuenta a Central ese 0-1, y acá figura el 1-0 de la cancha. Aparte, la tabla de RSSSF le da a Newell's un gol a favor menos y a Boca uno en contra menos que los resultados; la de Wikipedia coincide con los resultados (Newell's 1-2 Boca, suspendido a los 89 minutos), así que se deja el partido como está."
+ },
+ "matches": [
+  {
+   "id": "1989-90-001",
+   "date": "1989-08-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-002",
+   "date": "1989-08-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-003",
+   "date": "1989-08-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-004",
+   "date": "1989-08-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-005",
+   "date": "1989-08-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-006",
+   "date": "1989-08-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-007",
+   "date": "1989-08-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-008",
+   "date": "1989-08-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-009",
+   "date": "1989-08-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-010",
+   "date": "1989-10-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-011",
+   "date": "1989-08-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-012",
+   "date": "1989-08-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-013",
+   "date": "1989-08-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-014",
+   "date": "1989-08-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-015",
+   "date": "1989-08-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-016",
+   "date": "1989-08-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "racing-cordoba",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-017",
+   "date": "1989-08-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-018",
+   "date": "1989-08-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-019",
+   "date": "1989-09-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-020",
+   "date": "1989-09-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-021",
+   "date": "1989-08-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-022",
+   "date": "1989-08-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-023",
+   "date": "1989-08-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-024",
+   "date": "1989-08-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-025",
+   "date": "1989-08-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-026",
+   "date": "1989-08-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-027",
+   "date": "1989-08-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-028",
+   "date": "1989-08-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-029",
+   "date": "1989-08-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-030",
+   "date": "1989-08-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-031",
+   "date": "1989-09-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-032",
+   "date": "1989-09-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-033",
+   "date": "1989-09-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Instituto (Córdoba)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-034",
+   "date": "1989-09-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-035",
+   "date": "1989-09-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-036",
+   "date": "1989-09-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-037",
+   "date": "1989-09-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-038",
+   "date": "1989-09-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-039",
+   "date": "1989-09-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-040",
+   "date": "1989-09-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-042",
+   "date": "1989-09-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "union-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-043",
+   "date": "1989-09-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-044",
+   "date": "1989-09-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-045",
+   "date": "1989-09-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-046",
+   "date": "1989-09-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-047",
+   "date": "1989-09-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-048",
+   "date": "1989-09-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-049",
+   "date": "1989-09-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-050",
+   "date": "1989-09-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-051",
+   "date": "1989-10-24",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Empezó el 10/9 y se suspendió con 1-0; se completó en esta fecha."
+  },
+  {
+   "id": "1989-90-052",
+   "date": "1989-09-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-053",
+   "date": "1989-09-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing-cordoba",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-054",
+   "date": "1989-09-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-055",
+   "date": "1989-09-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Instituto (Córdoba)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-056",
+   "date": "1989-09-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-057",
+   "date": "1989-09-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-058",
+   "date": "1989-09-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-059",
+   "date": "1989-09-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-060",
+   "date": "1989-09-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-061",
+   "date": "1989-09-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-062",
+   "date": "1989-09-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-063",
+   "date": "1989-09-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-064",
+   "date": "1989-09-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-065",
+   "date": "1989-09-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentinos",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-066",
+   "date": "1989-09-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-067",
+   "date": "1989-09-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-068",
+   "date": "1989-09-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-069",
+   "date": "1989-09-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-070",
+   "date": "1989-09-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-071",
+   "date": "1989-09-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-072",
+   "date": "1989-09-24",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-073",
+   "date": "1989-09-24",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-074",
+   "date": "1989-09-24",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-075",
+   "date": "1989-09-24",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-076",
+   "date": "1989-09-24",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Instituto (Córdoba)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-077",
+   "date": "1989-09-24",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-078",
+   "date": "1989-09-24",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-079",
+   "date": "1989-09-24",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-080",
+   "date": "1989-09-24",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-081",
+   "date": "1989-09-24",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1989-90-082",
+   "date": "1989-10-01",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-083",
+   "date": "1989-10-01",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-084",
+   "date": "1989-10-01",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-085",
+   "date": "1989-10-01",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-086",
+   "date": "1989-10-01",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-087",
+   "date": "1989-10-01",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-088",
+   "date": "1989-10-01",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-089",
+   "date": "1989-10-01",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-090",
+   "date": "1989-10-01",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-091",
+   "date": "1989-10-01",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "racing-cordoba",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-092",
+   "date": "1989-10-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "instituto",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-093",
+   "date": "1989-10-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-094",
+   "date": "1989-10-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-095",
+   "date": "1989-10-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-096",
+   "date": "1989-10-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-097",
+   "date": "1989-10-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-098",
+   "date": "1989-10-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-099",
+   "date": "1989-10-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-100",
+   "date": "1989-10-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-101",
+   "date": "1989-10-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-102",
+   "date": "1989-10-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-103",
+   "date": "1989-10-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-104",
+   "date": "1989-10-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-105",
+   "date": "1989-10-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-106",
+   "date": "1989-10-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-107",
+   "date": "1989-10-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-108",
+   "date": "1989-10-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-109",
+   "date": "1989-10-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-110",
+   "date": "1989-10-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "racing-cordoba",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-111",
+   "date": "1989-10-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-112",
+   "date": "1989-10-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-113",
+   "date": "1989-10-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-114",
+   "date": "1989-10-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-115",
+   "date": "1989-10-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-116",
+   "date": "1989-10-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-117",
+   "date": "1989-10-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-118",
+   "date": "1989-10-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-119",
+   "date": "1989-10-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-120",
+   "date": "1989-10-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-122",
+   "date": "1990-03-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Empezó el 22/10 y se suspendió con 0-0; se completó en esta fecha."
+  },
+  {
+   "id": "1989-90-123",
+   "date": "1989-10-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-124",
+   "date": "1989-10-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-125",
+   "date": "1989-10-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-126",
+   "date": "1989-10-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-127",
+   "date": "1989-10-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "racing",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-128",
+   "date": "1989-10-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-129",
+   "date": "1989-10-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 7,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-130",
+   "date": "1989-10-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-131",
+   "date": "1989-10-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-132",
+   "date": "1989-10-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-133",
+   "date": "1989-11-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-134",
+   "date": "1989-11-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-135",
+   "date": "1989-11-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-136",
+   "date": "1989-11-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-137",
+   "date": "1989-11-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-138",
+   "date": "1989-11-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-139",
+   "date": "1989-11-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-140",
+   "date": "1989-11-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-141",
+   "date": "1989-11-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-142",
+   "date": "1989-11-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-143",
+   "date": "1989-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-144",
+   "date": "1989-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sanlorenzo",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "venue": "Cancha de Deportivo Español",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-145",
+   "date": "1989-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-146",
+   "date": "1989-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-147",
+   "date": "1989-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-148",
+   "date": "1989-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing-cordoba",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-149",
+   "date": "1989-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-150",
+   "date": "1989-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-151",
+   "date": "1989-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-152",
+   "date": "1989-11-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-153",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-154",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-155",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-156",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-157",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-158",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-159",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-160",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-161",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-162",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-163",
+   "date": "1989-11-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "racing-cordoba",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-164",
+   "date": "1989-11-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-165",
+   "date": "1989-11-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-166",
+   "date": "1989-11-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-167",
+   "date": "1989-11-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-168",
+   "date": "1989-11-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-169",
+   "date": "1989-11-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-170",
+   "date": "1989-11-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-171",
+   "date": "1989-11-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-172",
+   "date": "1989-11-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-173",
+   "date": "1989-12-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-174",
+   "date": "1989-12-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-175",
+   "date": "1989-12-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-176",
+   "date": "1989-12-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-177",
+   "date": "1989-12-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-178",
+   "date": "1989-12-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-179",
+   "date": "1989-12-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-180",
+   "date": "1989-12-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-181",
+   "date": "1989-12-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-182",
+   "date": "1989-12-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-183",
+   "date": "1989-12-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "talleres",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 86 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1989-90-184",
+   "date": "1989-12-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-185",
+   "date": "1989-12-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-186",
+   "date": "1989-12-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Deportivo Español",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-187",
+   "date": "1989-12-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-188",
+   "date": "1989-12-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-189",
+   "date": "1989-12-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-190",
+   "date": "1989-12-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-191",
+   "date": "1989-12-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-192",
+   "date": "1989-12-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-193",
+   "date": "1990-01-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-194",
+   "date": "1990-01-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-195",
+   "date": "1990-01-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-196",
+   "date": "1990-01-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-197",
+   "date": "1990-01-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-198",
+   "date": "1990-01-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-199",
+   "date": "1990-01-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "racing-cordoba",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-200",
+   "date": "1990-01-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-201",
+   "date": "1990-01-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-202",
+   "date": "1990-01-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-203",
+   "date": "1990-02-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-204",
+   "date": "1990-02-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-205",
+   "date": "1990-02-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-206",
+   "date": "1990-02-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-207",
+   "date": "1990-02-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-208",
+   "date": "1990-02-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-209",
+   "date": "1990-02-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-210",
+   "date": "1990-02-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-211",
+   "date": "1990-02-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-212",
+   "date": "1990-02-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-213",
+   "date": "1990-02-09",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-214",
+   "date": "1990-02-09",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-215",
+   "date": "1990-02-09",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-216",
+   "date": "1990-02-09",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-217",
+   "date": "1990-02-09",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-218",
+   "date": "1990-02-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-219",
+   "date": "1990-02-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-220",
+   "date": "1990-02-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-221",
+   "date": "1990-02-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-222",
+   "date": "1990-02-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-223",
+   "date": "1990-02-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-224",
+   "date": "1990-02-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-225",
+   "date": "1990-02-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-226",
+   "date": "1990-02-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "sanlorenzo",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-227",
+   "date": "1990-02-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-228",
+   "date": "1990-02-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-229",
+   "date": "1990-02-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-230",
+   "date": "1990-02-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-231",
+   "date": "1990-02-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-232",
+   "date": "1990-02-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-233",
+   "date": "1990-02-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "instituto",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-234",
+   "date": "1990-02-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-235",
+   "date": "1990-02-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-236",
+   "date": "1990-02-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-237",
+   "date": "1990-02-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-238",
+   "date": "1990-02-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-239",
+   "date": "1990-02-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-240",
+   "date": "1990-02-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-241",
+   "date": "1990-02-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-242",
+   "date": "1990-02-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-243",
+   "date": "1990-03-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-244",
+   "date": "1990-03-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-245",
+   "date": "1990-03-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-246",
+   "date": "1990-03-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-247",
+   "date": "1990-03-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-248",
+   "date": "1990-03-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-249",
+   "date": "1990-03-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-250",
+   "date": "1990-03-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-251",
+   "date": "1990-03-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-252",
+   "date": "1990-03-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-253",
+   "date": "1990-03-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-254",
+   "date": "1990-03-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-255",
+   "date": "1990-03-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-256",
+   "date": "1990-03-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-257",
+   "date": "1990-03-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-258",
+   "date": "1990-03-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-259",
+   "date": "1990-03-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-260",
+   "date": "1990-03-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-261",
+   "date": "1990-03-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-262",
+   "date": "1990-03-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-263",
+   "date": "1990-03-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-264",
+   "date": "1990-03-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-265",
+   "date": "1990-03-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-266",
+   "date": "1990-03-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-267",
+   "date": "1990-03-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-268",
+   "date": "1990-03-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-269",
+   "date": "1990-03-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-270",
+   "date": "1990-03-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-271",
+   "date": "1990-03-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-272",
+   "date": "1990-03-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-273",
+   "date": "1990-03-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-274",
+   "date": "1990-03-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-275",
+   "date": "1990-03-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-276",
+   "date": "1990-03-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-277",
+   "date": "1990-03-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Instituto (Córdoba)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-278",
+   "date": "1990-03-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-279",
+   "date": "1990-03-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-280",
+   "date": "1990-03-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-281",
+   "date": "1990-03-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-282",
+   "date": "1990-03-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "instituto",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-283",
+   "date": "1990-04-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-284",
+   "date": "1990-04-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-285",
+   "date": "1990-04-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-286",
+   "date": "1990-04-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-287",
+   "date": "1990-04-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-288",
+   "date": "1990-04-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-289",
+   "date": "1990-04-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-290",
+   "date": "1990-04-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-291",
+   "date": "1990-04-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-292",
+   "date": "1990-04-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 89 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1989-90-293",
+   "date": "1990-04-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "instituto",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-294",
+   "date": "1990-04-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-295",
+   "date": "1990-04-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-296",
+   "date": "1990-04-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-297",
+   "date": "1990-04-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-298",
+   "date": "1990-04-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-299",
+   "date": "1990-04-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-300",
+   "date": "1990-04-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-301",
+   "date": "1990-04-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-302",
+   "date": "1990-04-15",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-303",
+   "date": "1990-04-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-304",
+   "date": "1990-04-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-305",
+   "date": "1990-04-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing-cordoba",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-306",
+   "date": "1990-04-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-307",
+   "date": "1990-04-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-308",
+   "date": "1990-04-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-309",
+   "date": "1990-04-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "talleres",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-310",
+   "date": "1990-04-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-311",
+   "date": "1990-04-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-312",
+   "date": "1990-04-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-313",
+   "date": "1990-04-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-314",
+   "date": "1990-04-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-315",
+   "date": "1990-04-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-316",
+   "date": "1990-04-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-317",
+   "date": "1990-04-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-318",
+   "date": "1990-04-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-319",
+   "date": "1990-04-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-320",
+   "date": "1990-04-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-321",
+   "date": "1990-04-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-322",
+   "date": "1990-04-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-323",
+   "date": "1990-04-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-324",
+   "date": "1990-04-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-325",
+   "date": "1990-04-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-326",
+   "date": "1990-04-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing-cordoba",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-327",
+   "date": "1990-04-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-328",
+   "date": "1990-04-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-329",
+   "date": "1990-04-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-330",
+   "date": "1990-04-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-331",
+   "date": "1990-04-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-332",
+   "date": "1990-04-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-333",
+   "date": "1990-05-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-334",
+   "date": "1990-05-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-335",
+   "date": "1990-05-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-336",
+   "date": "1990-05-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-337",
+   "date": "1990-05-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-338",
+   "date": "1990-05-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-339",
+   "date": "1990-05-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-340",
+   "date": "1990-05-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-341",
+   "date": "1990-05-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-342",
+   "date": "1990-05-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-343",
+   "date": "1990-05-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-344",
+   "date": "1990-05-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-345",
+   "date": "1990-05-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-346",
+   "date": "1990-05-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-347",
+   "date": "1990-05-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "racing-cordoba",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-348",
+   "date": "1990-05-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-349",
+   "date": "1990-05-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-350",
+   "date": "1990-05-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-351",
+   "date": "1990-05-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-352",
+   "date": "1990-05-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-353",
+   "date": "1990-05-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-354",
+   "date": "1990-05-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-355",
+   "date": "1990-05-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-356",
+   "date": "1990-05-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-357",
+   "date": "1990-05-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-358",
+   "date": "1990-05-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-359",
+   "date": "1990-05-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-360",
+   "date": "1990-05-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-361",
+   "date": "1990-05-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-362",
+   "date": "1990-05-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-363",
+   "date": "1990-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-364",
+   "date": "1990-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-365",
+   "date": "1990-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-366",
+   "date": "1990-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "deportivo-mandiyu",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-367",
+   "date": "1990-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-368",
+   "date": "1990-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "racing-cordoba",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-369",
+   "date": "1990-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-370",
+   "date": "1990-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-371",
+   "date": "1990-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-372",
+   "date": "1990-05-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "talleres",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-373",
+   "date": "1990-05-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-374",
+   "date": "1990-05-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-375",
+   "date": "1990-05-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-376",
+   "date": "1990-05-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-377",
+   "date": "1990-05-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-378",
+   "date": "1990-05-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Later",
+   "sources": [
+    "rsssf"
+   ],
+   "bothLost": true,
+   "note": "Suspendido a los 31 minutos. No se completó; quedó el resultado del momento de la suspensión. La liga le dio el partido por perdido a los dos equipos."
+  },
+  {
+   "id": "1989-90-379",
+   "date": "1990-05-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-380",
+   "date": "1990-05-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "deportivo-espanol",
+   "awayId": "deportivo-mandiyu",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-381",
+   "date": "1990-05-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-382",
+   "date": "1990-05-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1989-90-383",
+   "date": "1990-05-25",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Desempate por el descenso",
+   "phase": "playoff",
+   "homeId": "chaco-for-ever",
+   "awayId": "racing-cordoba",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Desempate entre los dos que quedaron igualados en el anteúltimo promedio. Descendió Racing de Córdoba. No suma en la tabla. Goles: Ortolá, Scatolaro(2), Salaberry."
+  }
+ ]
+}

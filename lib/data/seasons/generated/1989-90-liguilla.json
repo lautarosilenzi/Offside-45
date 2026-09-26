@@ -1,0 +1,118 @@
+{
+ "slug": "1989-90-liguilla",
+ "year": 1989,
+ "yearLabel": "1989/90",
+ "league": "Liguilla Pre-Libertadores",
+ "title": "Liguilla Pre-Libertadores 1989/90",
+ "tournament": "Liguilla Pre-Libertadores 1989/90",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Boca ganó la Liguilla y el segundo lugar argentino en la Copa Libertadores 1991.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1989",
+   "url": "https://www.rsssf.org/tablesa/arg90.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Eliminación de ida y vuelta entre Independiente, Boca y Rosario Central (2.º a 4.º del campeonato) y Deportivo Español (3.º del Apertura)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "1989-90-liguilla-001",
+   "date": "1990-05-27",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Libertadores",
+   "stage": "Semifinal (ida)",
+   "phase": "playoff",
+   "homeId": "boca",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Abramovich."
+  },
+  {
+   "id": "1989-90-liguilla-002",
+   "date": "1990-05-27",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Libertadores",
+   "stage": "Semifinal (ida)",
+   "phase": "playoff",
+   "homeId": "independiente",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Alfaro Moreno / Pizzi."
+  },
+  {
+   "id": "1989-90-liguilla-003",
+   "date": "1990-05-30",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Libertadores",
+   "stage": "Semifinal (vuelta)",
+   "phase": "playoff",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue. Goles: Pizzi / Alfaro Moreno(2), Villarreal."
+  },
+  {
+   "id": "1989-90-liguilla-004",
+   "date": "1990-05-31",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Libertadores",
+   "stage": "Semifinal (vuelta)",
+   "phase": "playoff",
+   "homeId": "deportivo-espanol",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Parodi / Graciani."
+  },
+  {
+   "id": "1989-90-liguilla-005",
+   "date": "1990-06-03",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Libertadores",
+   "stage": "Final (ida)",
+   "phase": "playoff",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Pico."
+  },
+  {
+   "id": "1989-90-liguilla-006",
+   "date": "1990-06-06",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Libertadores",
+   "stage": "Final (vuelta)",
+   "phase": "playoff",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: — / Latorre."
+  }
+ ]
+}

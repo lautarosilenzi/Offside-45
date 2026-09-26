@@ -56,6 +56,8 @@ export function translateNote(
   awardedByLeague?: boolean;
   advancedBy?: string;
   awardedScore?: [number, number];
+  bothLost?: boolean;
+  lostScore?: [number, number];
 } {
   const out = {
     venue: undefined as string | undefined,
@@ -73,6 +75,10 @@ export function translateNote(
     advancedBy: undefined as string | undefined,
     // "Later, awarded 0-1" (1978): el resultado que fijó la liga, distinto del de la cancha.
     awardedScore: undefined as [number, number] | undefined,
+    // "later both teams lost the points (0-1)" (1988/89): partido perdido para los dos.
+    bothLost: false,
+    // "later Racing Club lost the points (0-1)": el resultado que fijó la liga, visto desde el que perdió.
+    lostScore: undefined as [number, number] | undefined,
   };
   const parts = note
     .replace(/^\[|\]$/g, "")
@@ -226,7 +232,15 @@ export function translateNote(
     } else if (/^incidents, see notes$/i.test(p)) out.text.push("Hubo incidentes (ver notas de la temporada).");
     else if ((m = p.match(/^(?:[A-Z][a-z]{2} \d{1,2} )?abandoned at (\d+)-(\d+) in (\d+)'?$/i)))
       out.text.push(`Suspendido a los ${m[3]} minutos con ${m[1]}-${m[2]}.`);
-    else if ((m = p.match(/^(.+?) lost (?:the )?points$/i))) {
+    else if (/^(?:later,? )?both teams lost the (?:points|match)(?: \(\d+-\d+\))?$/i.test(p)) {
+      out.bothLost = true;
+      out.text.push("La liga le dio el partido por perdido a los dos equipos.");
+    } else if ((m = p.match(/^later,? (.+?) lost the points \((\d+)-(\d+)\)$/i))) {
+      const club = resolveName(m[1], year);
+      out.lostPointsBy = club?.id;
+      out.lostScore = [+m[2], +m[3]];
+      out.text.push(`La liga le quitó los puntos a ${club ? club.as ?? club.name : m[1]} y lo dio ${m[2]}-${m[3]}.`);
+    } else if ((m = p.match(/^(.+?) lost (?:the )?points$/i))) {
       const club = resolveName(m[1], year);
       out.lostPointsBy = club?.id;
       out.text.push(`La liga le quitó los puntos a ${club ? club.as ?? club.name : m[1]} y se los dio al rival.`);
@@ -448,6 +462,11 @@ function stageOf(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
     if (/relegation group/i.test(hint)) return { stage: "Grupo descenso", phase: "playoff" };
     if (/quarter/i.test(hint)) return { stage: `Cuartos de final${leg}`, phase: "playoff" };
     if (/semi/i.test(hint)) return { stage: `Semifinal${leg}`, phase: "playoff" };
+    // 1988/89: la final entre los ganadores de la Liguilla Pre-Libertadores y de la Clasificación.
+    if (/^final liguilla/i.test(hint)) return { stage: `Final por el cupo${leg}`, phase: "playoff" };
+    // 1988/89: "1st. ROUND:" en la Liguilla Clasificación.
+    const ord = hint.match(/^(\d)(?:st|nd|rd|th)\.?\s+round:?$/i);
+    if (ord) return { stage: `${["Primera", "Segunda", "Tercera", "Cuarta", "Quinta", "Sexta"][+ord[1] - 1]} ronda${leg}`, phase: "playoff" };
     if (/^(grand )?final/i.test(hint)) return { stage: `${/^grand/i.test(hint) ? "Gran final" : "Final"}${leg}`, phase: "playoff" };
     if (/playoff|desempate/i.test(hint)) return { stage: `Desempate${leg}`, phase: "playoff" };
     if (/\svs\.?\s/i.test(hint)) {
@@ -772,6 +791,11 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       m.phase = "playoff";
       m.stage = cfg.playoffFrom.stage;
     }
+    if (note.bothLost) m.bothLost = true;
+    if (note.lostScore && note.lostPointsBy) {
+      const [l, w] = note.lostScore;
+      [m.homeGoals, m.awayGoals] = note.lostPointsBy === home.id ? [l, w] : [w, l];
+    }
     if (note.lostPointsBy) m.awardedTo = note.lostPointsBy === home.id ? away.id : home.id;
     if (note.wonPointsBy) m.awardedTo = note.wonPointsBy;
     if (note.advancedBy) m.advancedId = note.advancedBy;
@@ -809,7 +833,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       if (txt.length) m.note = [m.note, ...txt].filter(Boolean).join(" ");
     } else if (raw.scorers)
       // "[Acevedo(2)]   [Rulli, …]" (1965): un corchete por equipo.
-      m.note = [m.note, `Goles: ${raw.scorers.replace(/;\s*/, " / ").replace(/\]\s*\[/g, " / ")}.`].filter(Boolean).join(" ");
+      m.note = [m.note, `Goles: ${raw.scorers.replace(/^;\s*/, "—; ").replace(/;\s*/, " / ").replace(/\]\s*\[/g, " / ")}.`].filter(Boolean).join(" ");
     // Empate definido por penales ("[6]2-2[7]" → "pen 6:7"): quién pasó; para la estadística sigue siendo empate.
     const pen = raw.note.match(/\bpen (\d+)[:-](\d+)\b/);
     // En una vuelta de ida y vuelta (1979) los penales definen la serie aunque el partido no haya terminado empatado.
@@ -977,6 +1001,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     championIds: cfg.championIds,
     summary: cfg.summary || cupSummary(cfg, matches),
     pointsPerWin: cfg.pointsPerWin ?? 2,
+    ...(cfg.drawShootout && { drawShootout: cfg.drawShootout }),
     sources: [{ label: cfg.kind === "cup" ? `RSSSF – ${cfg.title}` : `RSSSF – Argentina ${cfg.year}`, url: cfg.sourceUrl ?? `https://www.rsssf.org/tablesa/${cfg.file}` }, ...(cfg.wiki ? [{ label: `Wikipedia – ${cfg.wiki}`, url: `https://es.wikipedia.org/wiki/${encodeURIComponent(cfg.wiki.replace(/ /g, "_"))}` }] : [])],
     notes: [
       ...cfg.notes,
@@ -1210,6 +1235,7 @@ async function main() {
     if (problems.length) {
       failed++;
       for (const p of problems) console.log(`  ✗ ${p}`);
+      if (process.env.DUMP) writeFileSync(join(process.env.DUMP, `${cfg.slug}.json`), JSON.stringify(season, null, 1));
       continue;
     }
     writeFileSync(join(OUT, `${cfg.slug}.json`), JSON.stringify(season, null, 1) + "\n");

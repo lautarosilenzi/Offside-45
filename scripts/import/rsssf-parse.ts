@@ -155,10 +155,11 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
   let group: string | undefined;
   // Renglón del último partido leído (para pegarle la nota entre paréntesis del renglón de abajo).
   let lastMatchLine = -1;
+  let lastScorerLine = -1;
 
   lines.forEach((raw, i) => {
-    const line = raw.replace(/\s+$/, "").replace(/^(\s*\[[^\]]+\])\s+PK\s+PK$/, "$1");
-    const trimmed = line.trim();
+    let line = raw.replace(/\s+$/, "").replace(/^(\s*\[[^\]]+\])\s+PK\s+PK$/, "$1");
+    let trimmed = line.trim();
     // Los renglones vacíos no cortan la tabla (algunas páginas dejan uno entre cada fila);
     // la corta cualquier otra línea que no sea fila, separador o encabezado.
     if (!trimmed || trimmed === "&nbsp;") return;
@@ -374,8 +375,32 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
       return;
     }
     // Línea de goleadores: "  [Pérez, Gómez; López]"
+    // Con los goles en columnas (1988/89–), la del visitante va muy corrida a la derecha y puede ir sola o en un
+    // segundo renglón debajo de la del local: se guarda como "local; visitante".
+    // "  [Acuña]      (aet)" (1990/91): el alargue al final del renglón de goleadores.
+    if (/^\s+\[.*\]\s+\(aet\)$/i.test(line) && cur.matches.length) {
+      const last = cur.matches[cur.matches.length - 1];
+      last.note = [last.note, "[aet]"].filter(Boolean).join(" ");
+      line = line.replace(/\s+\(aet\)$/i, "");
+      trimmed = line.trim();
+    }
     if (/^\s*\[.*\]\s*$/.test(line) && cur.matches.length && /^\s/.test(line)) {
-      cur.matches[cur.matches.length - 1].scorers = trimmed.slice(1, -1);
+      const last = cur.matches[cur.matches.length - 1];
+      // 1989/90: "[Later, both teams lost the points (0-1)]" en el renglón de abajo es parte de la nota del partido.
+      if (/^\[(later\b|suspended in \d)/i.test(trimmed)) {
+        last.note = [last.note, trimmed].filter(Boolean).join(" ");
+        return;
+      }
+      const indent = line.match(/^\s*/)![0].replace(/\t/g, "        ").length;
+      let txt = trimmed.slice(1, -1);
+      // "[Pizzi]   (aet)   [Alfaro Moreno(2), Villarreal]" (1989/90): el alargue va entre los goleadores.
+      if (/\]\s*\(aet\)\s*\[/i.test(txt)) {
+        txt = txt.replace(/\]\s*\(aet\)\s*\[/i, "] [");
+        last.note = [last.note, "[aet]"].filter(Boolean).join(" ");
+      }
+      if (lastScorerLine >= 0 && lines.slice(lastScorerLine + 1, i).every((l) => !l.trim()) && !/^(played at|at |suspended|abandoned|finished)/i.test(txt) && last.scorers !== undefined && !last.scorers.includes(";") && !/\]\s*\[/.test(last.scorers)) last.scorers += `; ${txt}`;
+      else last.scorers = indent >= 20 && !/^(played at|at |suspended|abandoned|finished)/i.test(txt) ? `; ${txt}` : txt;
+      lastScorerLine = i;
       return;
     }
     // Marcas pegadas al resultado (Copa Jockey Club 1931): "0-4+" anulado; "2-1*", "3-0&" remiten a una nota al pie.

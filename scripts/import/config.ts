@@ -37,6 +37,8 @@ export type TournamentConfig = {
   rolloverBefore?: number;
   // Temporadas de dos años ("1985/86").
   yearLabel?: string;
+  // 1988/89: puntos por ganar y por perder la tanda de penales de un empate.
+  drawShootout?: { winner: number; loser: number };
   // El índice de copas de RSSSF da otro resultado de la final y hay pruebas de que el error es del índice (motivo).
   indexErrata?: string;
   // Partidos que la liga resolvió por escritorio después de jugarse: la tabla cuenta sus goles (desde los años 50).
@@ -2006,7 +2008,7 @@ export const TOURNAMENTS: TournamentConfig[] = [
     championIds: ["river"],
     section: /^Campeonato Metropolitano 1977/,
     summary: "River Plate ganó el Metropolitano de 23 equipos, un punto delante de Independiente.",
-    overrides: { "1977-11-13 platense lanus": { stage: "Desempate por el descenso", note: "Desempate entre los dos que quedaron igualados en el puesto de descenso. Platense ganó por penales (8-7) y descendió Lanús. No suma en la tabla." } },
+    overrides: { "1977-11-16 platense lanus": { stage: "Desempate por el descenso", note: "Desempate entre los dos que quedaron igualados en el puesto de descenso. Platense ganó por penales (8-7) y descendió Lanús. No suma en la tabla." } },
     notes: [{ kind: "formato", text: "23 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." }],
   }),
   afaTorneo(1977, "nacional", {
@@ -2383,5 +2385,164 @@ afaTorneo(1979, "reclasificacion", {
     sectionRange: { from: /^Liguilla Clasificación tournament/ },
     summary: "Platense le ganó el desempate a Boca en la final y el lugar en la Liguilla Pre-Libertadores siguiente.",
     notes: [{ kind: "formato", text: "Eliminación de ida y vuelta entre los equipos que no jugaron la Liguilla Pre-Libertadores, por un lugar en la siguiente. Los empates en el global se definían por diferencia de gol y después por la posición en la tabla." }],
+  }),
+  // ───────── 1988/89 ─────────
+  afaLarga(1988, {
+    championIds: ["independiente"],
+    aliases: { "Gimnasia y Esgrima": "gimnasia" },
+    sectionRange: { from: /^Primera División 1988\/1989/, to: /^Liguilla Pre[- ]Libertadores tournament/ },
+    tableIndex: [0],
+    pointsPerWin: 3,
+    drawShootout: { winner: 2, loser: 1 },
+    overrides: {
+      "1988-11-20 central instituto": {
+        advancedId: "central",
+        note: "RSSSF no anota la tanda de penales de este empate. La tabla de posiciones y la de penales de la misma fuente se la dan a Rosario Central (2 puntos contra 1 de Instituto).",
+      },
+      "1989-05-16 velez deportivo-mandiyu": {
+        advancedId: "deportivo-mandiyu",
+        note: "RSSSF anota la tanda 3-2 para Vélez, pero su propia tabla de penales (Vélez 12 ganadas y 5 perdidas, Mandiyú 11 y 8) y la tabla de posiciones de RSSSF y de Wikipedia solo cierran si la ganó Mandiyú.",
+      },
+    },
+    knownTableDiffs: {
+      keys: ["newells:goalsAgainst", "central:goalsAgainst"],
+      explanation:
+        "El clásico rosarino de la fecha 13 se suspendió 0-0 y la liga se lo dio por perdido 0-1 a los dos. La tabla oficial le cuenta ese gol en contra a cada uno; acá el partido figura 0-0, porque no hay un marcador que pueda darle un gol en contra a ambos.",
+    },
+    wikiErrata: {
+      "RSSSF sanlorenzo 1-2 river": "la fila de Wikipedia es la ida de la final por el cupo (27/9/1989, San Lorenzo 0-1 River), que está cargada en la Liguilla Clasificación.",
+    },
+    pointAdjustments: [
+      { teamId: "racing", points: -2, reason: "descuento de 2 puntos (RSSSF no da el motivo)" },
+      { teamId: "newells", points: -2, reason: "descuento de 2 puntos (RSSSF no da el motivo)" },
+      { teamId: "central", points: -2, reason: "descuento de 2 puntos (RSSSF no da el motivo)" },
+      { teamId: "san-martin-tucuman", points: -2, reason: "descuento de 2 puntos (RSSSF no da el motivo)" },
+    ],
+    summary: "Independiente ganó el campeonato ocho puntos delante de Boca, en la única temporada con penales en cada empate.",
+    notes: [
+      { kind: "formato", text: "20 equipos, todos contra todos a dos ruedas. 3 puntos por victoria; los empates se definían por penales: 2 puntos para el que ganaba la tanda y 1 para el que perdía." },
+      { kind: "identidad", text: "La primera rueda se jugó como «Apertura», pero sus puntos siguieron sumando en la tabla del campeonato, que es la que da el título." },
+    ],
+  }),
+  afaLargaExtra(1988, "liguilla", "Liguilla Pre-Libertadores", {
+    championIds: [],
+    overrides: {
+      "1989-06-14 platense boca": { advancedId: "boca", note: "La serie terminó igualada (1-1 y 1-1): pasó Boca por haber terminado más arriba en el campeonato (2.º contra 15.º)." },
+    },
+    headings: [/^Liguilla Pre[- ]Libertadores tournament/, /^Classification Tournament/, /^QUARTERFINALS:?$/, /^SEMIFINALS:?$/, /^FINAL:?$/, /^Playoff:?$/, /^\d(st|nd|rd|th)\.? ROUND:?$/, /^FINAL LIGUILLA/],
+    sectionRange: { from: /^Liguilla Pre[- ]Libertadores tournament/, to: /^Classification Tournament/ },
+    rolloverBefore: 13,
+    summary: "San Lorenzo ganó la Liguilla, pero River, que venía de la llave de perdedores, le ganó la final por el cupo y fue a la Copa Libertadores 1990.",
+    notes: [
+      { kind: "formato", text: "Doble eliminación, todo a ida y vuelta: los seis que siguieron al campeón, Platense (ganador de la Clasificación 1987/88) y Chaco For Ever (campeón del Nacional B 1988/89) jugaron la llave de ganadores; los que perdían pasaban a la Liguilla Clasificación. Los empates en la serie se definían por diferencia de gol y después por la posición en la tabla." },
+      { kind: "identidad", text: "La final por el cupo entre San Lorenzo (ganador de esta llave) y River (ganador de la Clasificación) está cargada en la Liguilla Clasificación." },
+    ],
+  }),
+  afaLargaExtra(1988, "clasificacion", "Liguilla Clasificación", {
+    championIds: [],
+    headings: [/^Liguilla Pre[- ]Libertadores tournament/, /^Classification Tournament/, /^QUARTERFINALS:?$/, /^SEMIFINALS:?$/, /^FINAL:?$/, /^Playoff:?$/, /^\d(st|nd|rd|th)\.? ROUND:?$/, /^FINAL LIGUILLA/],
+    sectionRange: { from: /^Classification Tournament/ },
+    rolloverBefore: 13,
+    summary: "River, eliminado en los cuartos de la Pre-Libertadores, ganó la llave de perdedores (le ganó a Boca en un desempate) y después la final por el cupo ante San Lorenzo.",
+    notes: [
+      { kind: "formato", text: "Llave de perdedores: los equipos del 8.º puesto para abajo que no descendieron (salvo Platense, que jugó la Pre-Libertadores), más los que iban perdiendo en la Liguilla Pre-Libertadores. Ida y vuelta; el empate en la serie se definía por diferencia de gol y después por la posición en la tabla." },
+      { kind: "puntos", text: "Final por el cupo en la Copa Libertadores 1990: San Lorenzo 0-1 River (27/9) y River 0-0 San Lorenzo (31/10)." },
+    ],
+  }),
+  // ───────── 1989/90 ─────────
+  afaLarga(1989, {
+    championIds: ["river"],
+    aliases: { "Gimnasia y Esgrima": "gimnasia" },
+    sectionRange: { from: /^Primera División 1989\/1990/, to: /^Liguilla Pre[- ]Libertadores tournament/ },
+    headings: [/^Relegation Playoff:$/],
+    overrides: {
+      "1990-05-25 chaco-for-ever racing-cordoba": { stage: "Desempate por el descenso", note: "Desempate entre los dos que quedaron igualados en el anteúltimo promedio. Descendió Racing de Córdoba. No suma en la tabla. Goles: Ortolá, Scatolaro(2), Salaberry." },
+    },
+    tableIndex: [0],
+    pointAdjustments: [
+      { teamId: "talleres", points: -2, reason: "descuento de 2 puntos (RSSSF no da el motivo)" },
+      { teamId: "central", points: -2, reason: "descuento de 2 puntos (RSSSF no da el motivo)" },
+      { teamId: "newells", points: -2, reason: "descuento de 2 puntos (RSSSF no da el motivo)" },
+    ],
+    knownTableDiffs: {
+      keys: ["central:goalsFor", "central:goalsAgainst", "newells:goalsFor", "boca:goalsAgainst"],
+      explanation:
+        "El clásico rosarino de la última fecha se suspendió con 1-0 para Central y la liga se lo dio por perdido 0-1 a los dos: la tabla oficial (RSSSF y Wikipedia) le cuenta a Central ese 0-1, y acá figura el 1-0 de la cancha. Aparte, la tabla de RSSSF le da a Newell's un gol a favor menos y a Boca uno en contra menos que los resultados; la de Wikipedia coincide con los resultados (Newell's 1-2 Boca, suspendido a los 89 minutos), así que se deja el partido como está.",
+    },
+    summary: "River fue campeón con siete puntos de ventaja sobre Independiente, que había ganado el Apertura.",
+    notes: [
+      { kind: "formato", text: "20 equipos, todos contra todos a dos ruedas, 2 puntos por victoria. La primera rueda se jugó como «Apertura» (la ganó Independiente) y sus puntos siguieron sumando en la tabla del campeonato." },
+      { kind: "formato", text: "Descendían los dos peores promedios. Chaco For Ever y Racing de Córdoba empataron el anteúltimo lugar y jugaron un desempate (Chaco For Ever 5-0); descendieron Instituto y Racing de Córdoba." },
+    ],
+  }),
+  afaLargaExtra(1989, "liguilla", "Liguilla Pre-Libertadores", {
+    championIds: [],
+    headings: [/^Liguilla Pre[- ]Libertadores tournament/, /^SEMIFINALS:?$/, /^FINAL:?$/],
+    sectionRange: { from: /^Liguilla Pre[- ]Libertadores tournament/ },
+    rolloverBefore: 13,
+    summary: "Boca ganó la Liguilla y el segundo lugar argentino en la Copa Libertadores 1991.",
+    notes: [{ kind: "formato", text: "Eliminación de ida y vuelta entre Independiente, Boca y Rosario Central (2.º a 4.º del campeonato) y Deportivo Español (3.º del Apertura)." }],
+  }),
+  // ───────── 1990/91: Apertura y Clausura; el campeón sale de la final entre los dos ganadores ─────────
+  afaLargaExtra(1990, "apertura", "Apertura", {
+    championIds: [],
+    aliases: { "Rácing Club": "racing", "San LorenzoO": "sanlorenzo" },
+    wiki: "Campeonato de Primera División 1990-91 (Argentina)",
+    headings: [/^Torneo Apertura 1990$/, /^Torneo Clausura 1991$/, /^Championship Playoff$/, /^Liguilla Pre Libertadores tournament/, /^QUARTERFINALS:?$/, /^SEMIFINALS:?$/, /^FINAL:?$/],
+    sectionRange: { from: /^Torneo Apertura 1990$/, to: /^Torneo Clausura 1991$/ },
+    tableIndex: [0],
+    tournament: "Torneo Apertura 1990",
+    knownTableDiffs: {
+      keys: ["sanlorenzo:goalsFor", "sanlorenzo:goalsAgainst", "talleres:lost", "union-santa-fe:drawn", "union-santa-fe:points"],
+      explanation:
+        "Boca 0-1 San Lorenzo se suspendió en el entretiempo y la liga se lo dio por perdido 0-1 a los dos: la tabla oficial (RSSSF y Wikipedia) le cuenta a San Lorenzo un 0-1, y acá figura el 0-1 de la cancha. Además, la tabla de RSSSF tiene dos filas que no suman 19 partidos (Talleres 7-4-9 y Unión 4-5-9 con 13 puntos); la de Wikipedia coincide con los resultados (Talleres 7-4-8; Unión 4-6-9 y 14 puntos, con el 4-4 entre ellos en la fecha 18).",
+    },
+    summary: "Newell's ganó el Apertura dos puntos delante de River y se ganó el lugar en la final por el campeonato 1990/91.",
+    notes: [
+      { kind: "formato", text: "Primer torneo corto: 20 equipos a una rueda, 2 puntos por victoria. El ganador jugaba la final del campeonato 1990/91 con el ganador del Clausura." },
+      { kind: "puntos", text: "Boca 0-1 San Lorenzo (fecha 18) se suspendió en el entretiempo por incidentes que terminaron con un muerto; la liga se lo dio por perdido 0-1 a los dos." },
+    ],
+  }),
+  afaLargaExtra(1990, "clausura", "Clausura", {
+    championIds: [],
+    aliases: { "Rácing Club": "racing", "San LorenzoO": "sanlorenzo" },
+    wiki: "Campeonato de Primera División 1990-91 (Argentina)",
+    headings: [/^Torneo Apertura 1990$/, /^Torneo Clausura 1991$/, /^Championship Playoff$/, /^Liguilla Pre Libertadores tournament/, /^QUARTERFINALS:?$/, /^SEMIFINALS:?$/, /^FINAL:?$/],
+    sectionRange: { from: /^Torneo Clausura 1991$/, to: /^Championship Playoff$/ },
+    tableIndex: [0],
+    rolloverBefore: 13,
+    tournament: "Torneo Clausura 1991",
+    overrides: {
+      "1991-06-12 lanus platense": {
+        homeGoals: 0,
+        awayGoals: 1,
+        awardedTo: "platense",
+        note: "Suspendido a los 46 minutos con 0-0 y no se completó. RSSSF no anota la resolución, pero su tabla y la de Wikipedia cuentan el partido como victoria 1-0 de Platense: la liga se lo dio por escritorio.",
+      },
+    },
+    summary: "Boca ganó el Clausura invicto (13 ganados y 6 empatados), pero perdió la final del campeonato con Newell's.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 2 puntos por victoria. El ganador jugaba la final del campeonato 1990/91 con el ganador del Apertura." }],
+  }),
+  afaLargaExtra(1990, "final", "Final", {
+    championIds: ["newells"],
+    headings: [/^Torneo Apertura 1990$/, /^Torneo Clausura 1991$/, /^Championship Playoff$/, /^Liguilla Pre Libertadores tournament/, /^QUARTERFINALS:?$/, /^SEMIFINALS:?$/, /^FINAL:?$/],
+    sectionRange: { from: /^Championship Playoff$/, to: /^Liguilla Pre Libertadores tournament/ },
+    rolloverBefore: 13,
+    tournament: "Final del campeonato 1990/91",
+    overrides: {
+      "1991-07-06 newells boca": { stage: "Final (ida)", venue: "Rosario Central", note: "Goles: Berizzo." },
+      "1991-07-09 boca newells": { stage: "Final (vuelta)" },
+    },
+    summary: "Newell's, ganador del Apertura, fue campeón 1990/91: le ganó 1-0 a Boca en Rosario, perdió 1-0 la vuelta en la Bombonera y ganó por penales (3-1).",
+    notes: [{ kind: "formato", text: "Final a ida y vuelta entre los ganadores del Apertura (Newell's) y del Clausura (Boca). El campeón de la temporada fue el ganador de esta final." }],
+  }),
+  afaLargaExtra(1990, "liguilla", "Liguilla Pre-Libertadores", {
+    championIds: [],
+    aliases: { "San LorenzoO": "sanlorenzo" },
+    headings: [/^Torneo Apertura 1990$/, /^Torneo Clausura 1991$/, /^Championship Playoff$/, /^Liguilla Pre Libertadores tournament/, /^QUARTERFINALS:?$/, /^SEMIFINALS:?$/, /^FINAL:?$/],
+    sectionRange: { from: /^Liguilla Pre Libertadores tournament/, to: /NACIONAL B$/ },
+    rolloverBefore: 13,
+    summary: "San Lorenzo ganó la Liguilla (1-0 y 1-0 a Boca en la final) y el segundo lugar argentino en la Copa Libertadores 1992.",
+    notes: [{ kind: "formato", text: "Eliminación de ida y vuelta entre los que siguieron a los ganadores en el Apertura y en el Clausura. Los empates en la serie se definían por penales." }],
   }),
 ];

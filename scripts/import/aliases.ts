@@ -243,7 +243,7 @@ const ALIASES: Alias[] = [
   { id: "deportivo-espanol", names: ["Dep. Español"], from: 1980 },
   { id: "estudiantes", names: ["Estudiantes(LP)"], from: 1980 },
   { id: "gimnasia", names: ["Gimnasia (La Plata)"], from: 1980 },
-  { id: "deportivo-mandiyu", names: ["Mandiyú (Ctes.)", "Mandiyú(Ctes.)", "Deportivo Mandiyú (Corrientes)"], from: 1980 },
+  { id: "deportivo-mandiyu", names: ["Mandiyú (Ctes.)", "Mandiyú(Ctes.)", "Deportivo Mandiyú (Corrientes)", "Dep. Mandiyú (Corrientes)"], from: 1980 },
   { id: "racing", names: ["Racing Avellaneda"], from: 1980 },
   { id: "velez", names: ["Vélez"], from: 1980 },
   { id: "juventud-antoniana", names: ["Juventud Antoniana", "Juventud Antoniana (Salta)", "Juventud Antoniana (S)", "Juv. Antoniana (S)"], from: 1970 },

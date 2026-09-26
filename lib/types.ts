@@ -57,6 +57,8 @@ export type Season = {
   championIds: string[];
   summary: string;
   pointsPerWin: number;
+  // 1988/89: los empates se definían por penales; puntos para el que ganaba y el que perdía la tanda.
+  drawShootout?: { winner: number; loser: number };
   sources: { label: string; url: string }[];
   notes: SeasonNote[];
   // Equipos inscriptos que se retiraron o fueron excluidos y no figuran en la tabla.
