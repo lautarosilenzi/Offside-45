@@ -1,0 +1,157 @@
+{
+ "slug": "1970-reclasificacion-primera",
+ "year": 1970,
+ "league": "Reclasificatorio de Primera",
+ "title": "Reclasificatorio de Primera 1970",
+ "tournament": "Torneo Reclasificatorio de Primera 1970",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Ferro Carril Oeste ascendió y Quilmes descendió en el cuadrangular final con Colón y Almirante Brown.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1970",
+   "url": "https://www.rsssf.org/tablesa/arg70.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "4 equipos (dos de Primera y dos de la Primera B), todos contra todos a una rueda, 2 puntos por victoria."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "ferro",
+   "played": 3,
+   "won": 3,
+   "drawn": 0,
+   "lost": 0,
+   "goalsFor": 10,
+   "goalsAgainst": 1,
+   "points": 6
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 3,
+   "won": 1,
+   "drawn": 1,
+   "lost": 1,
+   "goalsFor": 6,
+   "goalsAgainst": 6,
+   "points": 3
+  },
+  {
+   "teamId": "quilmes",
+   "played": 3,
+   "won": 1,
+   "drawn": 1,
+   "lost": 1,
+   "goalsFor": 3,
+   "goalsAgainst": 6,
+   "points": 3
+  },
+  {
+   "teamId": "almirante-brown",
+   "played": 3,
+   "won": 0,
+   "drawn": 0,
+   "lost": 3,
+   "goalsFor": 4,
+   "goalsAgainst": 10,
+   "points": 0
+  }
+ ],
+ "matches": [
+  {
+   "id": "1970-reclasificacion-primera-001",
+   "date": "1970-12-12",
+   "competition": "Asociación del Fútbol Argentino · Reclasificatorio de Primera",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1970-reclasificacion-primera-002",
+   "date": "1970-12-12",
+   "competition": "Asociación del Fútbol Argentino · Reclasificatorio de Primera",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Unión (Santa Fe)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1970-reclasificacion-primera-003",
+   "date": "1970-12-15",
+   "competition": "Asociación del Fútbol Argentino · Reclasificatorio de Primera",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "almirante-brown",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1970-reclasificacion-primera-004",
+   "date": "1970-12-15",
+   "competition": "Asociación del Fútbol Argentino · Reclasificatorio de Primera",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1970-reclasificacion-primera-005",
+   "date": "1970-12-19",
+   "competition": "Asociación del Fútbol Argentino · Reclasificatorio de Primera",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "almirante-brown",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1970-reclasificacion-primera-006",
+   "date": "1970-12-19",
+   "competition": "Asociación del Fútbol Argentino · Reclasificatorio de Primera",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

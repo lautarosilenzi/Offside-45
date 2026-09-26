@@ -234,21 +234,6 @@
    ]
   },
   {
-   "id": "1905-011",
-   "date": "1905-05-28",
-   "competition": "Argentine Football Association",
-   "phase": "league",
-   "homeId": "belgrano-athletic",
-   "awayId": "quilmes",
-   "homeGoals": 3,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ],
-   "status": "annulled",
-   "note": "Suspendido a los 85 minutos con 3-0 y no se completó: no suma."
-  },
-  {
    "id": "1905-012",
    "date": "1905-05-28",
    "competition": "Argentine Football Association",
@@ -381,19 +366,19 @@
   },
   {
    "id": "1905-022",
-   "date": "1905-06-28",
+   "date": "1905-05-28",
    "competition": "Argentine Football Association",
    "phase": "league",
    "homeId": "belgrano-athletic",
    "awayId": "quilmes",
-   "homeGoals": 0,
+   "homeGoals": 3,
    "awayGoals": 0,
    "sources": [
     "rsssf"
    ],
    "awardedTo": "quilmes",
-   "walkover": true,
-   "note": "No se jugó: los puntos fueron para Quilmes. Resuelto por la liga. Fecha dudosa en la fuente."
+   "note": "Suspendido a los 85 minutos con 3-0; la liga le dio los puntos a Quilmes. La liga lo resolvió el 28/6 (fecha dudosa en la fuente).",
+   "goalsVoid": true
   },
   {
    "id": "1905-023",

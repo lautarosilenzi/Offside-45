@@ -1,22 +1,22 @@
 {
- "slug": "1948",
- "year": 1948,
- "title": "Campeonato 1948",
- "tournament": "Copa Campeonato 1948",
+ "slug": "1958",
+ "year": 1958,
+ "title": "Campeonato 1958",
+ "tournament": "Copa Campeonato 1958",
  "organizer": "Asociación del Fútbol Argentino",
  "championIds": [
-  "independiente"
+  "racing"
  ],
- "summary": "Independiente campeón, en un año marcado por la huelga de futbolistas del final de la temporada.",
+ "summary": "Racing Club campeón.",
  "pointsPerWin": 2,
  "sources": [
   {
-   "label": "RSSSF – Argentina 1948",
-   "url": "https://www.rsssf.org/tablesa/arg48.html"
+   "label": "RSSSF – Argentina 1958",
+   "url": "https://www.rsssf.org/tablesa/arg58.html"
   },
   {
-   "label": "Wikipedia – Campeonato de Primera División 1948 (Argentina)",
-   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1948_(Argentina)"
+   "label": "Wikipedia – Campeonato de Primera División 1958 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1958_(Argentina)"
   }
  ],
  "notes": [
@@ -30,187 +30,582 @@
   },
   {
    "kind": "puntos",
-   "text": "Durante la huelga de futbolistas de fin de año Racing no se presentó a dos partidos: los perdió y además se le descontaron 2 puntos por cada uno."
+   "text": "Boca Juniors y San Lorenzo empataron el segundo puesto y jugaron dos partidos en abril de 1959; ganó uno cada uno y Boca fue segundo por promedio de gol."
   }
  ],
  "pointAdjustments": [
   {
-   "teamId": "racing",
-   "points": -4,
-   "reason": "no se presentó ante Banfield (16/12) ni ante San Lorenzo (22/12): perdió ambos partidos y se le descontaron 2 puntos más en cada uno"
+   "teamId": "river",
+   "points": -2,
+   "reason": "no se presentó ante Huracán: perdió el partido y se le descontaron 2 puntos más"
   }
  ],
  "publishedTable": [
   {
-   "teamId": "independiente",
-   "played": 30,
-   "won": 17,
-   "drawn": 7,
-   "lost": 6,
-   "goalsFor": 65,
-   "goalsAgainst": 42,
-   "points": 41
-  },
-  {
-   "teamId": "river",
-   "played": 30,
-   "won": 12,
-   "drawn": 13,
-   "lost": 5,
-   "goalsFor": 59,
-   "goalsAgainst": 48,
-   "points": 37
-  },
-  {
-   "teamId": "estudiantes",
-   "played": 30,
-   "won": 16,
-   "drawn": 4,
-   "lost": 10,
-   "goalsFor": 63,
-   "goalsAgainst": 45,
-   "points": 36
-  },
-  {
    "teamId": "racing",
    "played": 30,
-   "won": 15,
-   "drawn": 6,
-   "lost": 9,
-   "goalsFor": 68,
-   "goalsAgainst": 43,
-   "points": 32
-  },
-  {
-   "teamId": "newells",
-   "played": 30,
-   "won": 12,
-   "drawn": 8,
-   "lost": 10,
-   "goalsFor": 54,
-   "goalsAgainst": 37,
-   "points": 32
-  },
-  {
-   "teamId": "sanlorenzo",
-   "played": 30,
-   "won": 12,
-   "drawn": 8,
-   "lost": 10,
-   "goalsFor": 54,
-   "goalsAgainst": 54,
-   "points": 32
-  },
-  {
-   "teamId": "velez",
-   "played": 30,
-   "won": 11,
-   "drawn": 10,
-   "lost": 9,
-   "goalsFor": 44,
-   "goalsAgainst": 44,
-   "points": 32
+   "won": 16,
+   "drawn": 9,
+   "lost": 5,
+   "goalsFor": 69,
+   "goalsAgainst": 38,
+   "points": 41
   },
   {
    "teamId": "boca",
    "played": 30,
-   "won": 10,
+   "won": 14,
    "drawn": 10,
-   "lost": 10,
-   "goalsFor": 52,
-   "goalsAgainst": 47,
-   "points": 30
-  },
-  {
-   "teamId": "platense",
-   "played": 30,
-   "won": 11,
-   "drawn": 8,
-   "lost": 11,
-   "goalsFor": 57,
-   "goalsAgainst": 65,
-   "points": 30
-  },
-  {
-   "teamId": "huracan",
-   "played": 30,
-   "won": 11,
-   "drawn": 7,
-   "lost": 12,
-   "goalsFor": 45,
-   "goalsAgainst": 49,
-   "points": 29
-  },
-  {
-   "teamId": "chacarita",
-   "played": 30,
-   "won": 9,
-   "drawn": 10,
-   "lost": 11,
-   "goalsFor": 45,
+   "lost": 6,
+   "goalsFor": 70,
    "goalsAgainst": 48,
-   "points": 28
+   "points": 38
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 30,
+   "won": 16,
+   "drawn": 6,
+   "lost": 8,
+   "goalsFor": 66,
+   "goalsAgainst": 47,
+   "points": 38
+  },
+  {
+   "teamId": "atlanta",
+   "played": 30,
+   "won": 14,
+   "drawn": 8,
+   "lost": 8,
+   "goalsFor": 47,
+   "goalsAgainst": 33,
+   "points": 36
+  },
+  {
+   "teamId": "river",
+   "played": 30,
+   "won": 14,
+   "drawn": 9,
+   "lost": 7,
+   "goalsFor": 62,
+   "goalsAgainst": 45,
+   "points": 35
   },
   {
    "teamId": "central",
    "played": 30,
+   "won": 13,
+   "drawn": 9,
+   "lost": 8,
+   "goalsFor": 50,
+   "goalsAgainst": 43,
+   "points": 35
+  },
+  {
+   "teamId": "velez",
+   "played": 30,
+   "won": 13,
+   "drawn": 8,
+   "lost": 9,
+   "goalsFor": 50,
+   "goalsAgainst": 47,
+   "points": 34
+  },
+  {
+   "teamId": "independiente",
+   "played": 30,
+   "won": 11,
+   "drawn": 11,
+   "lost": 8,
+   "goalsFor": 58,
+   "goalsAgainst": 47,
+   "points": 33
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 30,
+   "won": 13,
+   "drawn": 5,
+   "lost": 12,
+   "goalsFor": 60,
+   "goalsAgainst": 56,
+   "points": 31
+  },
+  {
+   "teamId": "huracan",
+   "played": 30,
    "won": 12,
    "drawn": 3,
    "lost": 15,
-   "goalsFor": 74,
-   "goalsAgainst": 73,
+   "goalsFor": 46,
+   "goalsAgainst": 51,
    "points": 27
   },
   {
-   "teamId": "banfield",
+   "teamId": "central-cordoba-rosario",
    "played": 30,
-   "won": 9,
-   "drawn": 6,
+   "won": 12,
+   "drawn": 3,
    "lost": 15,
-   "goalsFor": 53,
-   "goalsAgainst": 67,
-   "points": 24
+   "goalsFor": 57,
+   "goalsAgainst": 65,
+   "points": 27
   },
   {
-   "teamId": "tigre",
+   "teamId": "argentinos",
    "played": 30,
    "won": 8,
-   "drawn": 7,
-   "lost": 15,
-   "goalsFor": 56,
-   "goalsAgainst": 81,
-   "points": 23
+   "drawn": 9,
+   "lost": 13,
+   "goalsFor": 58,
+   "goalsAgainst": 68,
+   "points": 25
   },
   {
    "teamId": "lanus",
    "played": 30,
-   "won": 5,
-   "drawn": 13,
-   "lost": 12,
-   "goalsFor": 38,
-   "goalsAgainst": 57,
-   "points": 23
+   "won": 8,
+   "drawn": 9,
+   "lost": 13,
+   "goalsFor": 58,
+   "goalsAgainst": 70,
+   "points": 25
   },
   {
    "teamId": "gimnasia",
    "played": 30,
-   "won": 6,
-   "drawn": 8,
-   "lost": 16,
-   "goalsFor": 51,
-   "goalsAgainst": 78,
-   "points": 20
+   "won": 7,
+   "drawn": 10,
+   "lost": 13,
+   "goalsFor": 55,
+   "goalsAgainst": 68,
+   "points": 24
+  },
+  {
+   "teamId": "newells",
+   "played": 30,
+   "won": 4,
+   "drawn": 9,
+   "lost": 17,
+   "goalsFor": 29,
+   "goalsAgainst": 56,
+   "points": 17
+  },
+  {
+   "teamId": "tigre",
+   "played": 30,
+   "won": 4,
+   "drawn": 4,
+   "lost": 22,
+   "goalsFor": 29,
+   "goalsAgainst": 82,
+   "points": 12
   }
  ],
  "matches": [
   {
-   "id": "1948-001",
-   "date": "1948-04-18",
+   "id": "1958-001",
+   "date": "1958-03-23",
    "competition": "Asociación del Fútbol Argentino",
    "stage": "Fecha 1",
    "phase": "league",
-   "homeId": "banfield",
+   "homeId": "atlanta",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-002",
+   "date": "1958-03-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-003",
+   "date": "1958-03-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-004",
+   "date": "1958-03-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-005",
+   "date": "1958-03-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-006",
+   "date": "1958-03-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
    "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-007",
+   "date": "1958-03-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-008",
+   "date": "1958-03-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-009",
+   "date": "1958-03-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-010",
+   "date": "1958-03-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-011",
+   "date": "1958-03-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "newells",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-012",
+   "date": "1958-03-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-013",
+   "date": "1958-03-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-014",
+   "date": "1958-03-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-015",
+   "date": "1958-03-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-016",
+   "date": "1958-03-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-017",
+   "date": "1958-04-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-018",
+   "date": "1958-04-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-019",
+   "date": "1958-04-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-020",
+   "date": "1958-04-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-021",
+   "date": "1958-04-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-022",
+   "date": "1958-04-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-023",
+   "date": "1958-04-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-024",
+   "date": "1958-04-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-025",
+   "date": "1958-07-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "tigre",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-026",
+   "date": "1958-07-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-027",
+   "date": "1958-07-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-028",
+   "date": "1958-07-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-029",
+   "date": "1958-07-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "atlanta",
    "homeGoals": 4,
    "awayGoals": 2,
    "sources": [
@@ -218,68 +613,166 @@
    ]
   },
   {
-   "id": "1948-002",
-   "date": "1948-04-18",
+   "id": "1958-030",
+   "date": "1958-07-06",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 1",
+   "stage": "Fecha 4",
    "phase": "league",
-   "homeId": "boca",
-   "awayId": "racing",
-   "homeGoals": 1,
-   "awayGoals": 4,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-003",
-   "date": "1948-04-18",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 1",
-   "phase": "league",
-   "homeId": "independiente",
-   "awayId": "central",
-   "homeGoals": 10,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-004",
-   "date": "1948-04-18",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 1",
-   "phase": "league",
-   "homeId": "newells",
-   "awayId": "velez",
-   "homeGoals": 3,
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
    "awayGoals": 1,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-005",
-   "date": "1948-04-18",
+   "id": "1958-031",
+   "date": "1958-07-06",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 1",
+   "stage": "Fecha 4",
    "phase": "league",
-   "homeId": "platense",
-   "awayId": "chacarita",
-   "homeGoals": 3,
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-032",
+   "date": "1958-07-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-033",
+   "date": "1958-07-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-034",
+   "date": "1958-07-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-035",
+   "date": "1958-07-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-036",
+   "date": "1958-07-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
    "awayGoals": 2,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-006",
-   "date": "1948-04-18",
+   "id": "1958-037",
+   "date": "1958-07-13",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 1",
+   "stage": "Fecha 5",
    "phase": "league",
-   "homeId": "sanlorenzo",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-038",
+   "date": "1958-07-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-039",
+   "date": "1958-07-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-040",
+   "date": "1958-07-13",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-041",
+   "date": "1958-07-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "central",
    "awayId": "huracan",
    "homeGoals": 0,
    "awayGoals": 1,
@@ -288,41 +781,70 @@
    ]
   },
   {
-   "id": "1948-007",
-   "date": "1948-04-18",
+   "id": "1958-042",
+   "date": "1958-07-19",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 1",
+   "stage": "Fecha 6",
    "phase": "league",
-   "homeId": "tigre",
-   "awayId": "river",
-   "homeGoals": 1,
-   "awayGoals": 4,
+   "homeId": "central-cordoba-rosario",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Newell's Old Boys",
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-008",
-   "date": "1948-04-18",
+   "id": "1958-043",
+   "date": "1958-07-20",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 1",
+   "stage": "Fecha 6",
    "phase": "league",
-   "homeId": "estudiantes",
-   "awayId": "lanus",
+   "homeId": "gimnasia",
+   "awayId": "boca",
    "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-044",
+   "date": "1958-07-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-045",
+   "date": "1958-07-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "tigre",
+   "homeGoals": 3,
    "awayGoals": 1,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-009",
-   "date": "1948-04-25",
+   "id": "1958-046",
+   "date": "1958-07-20",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 2",
+   "stage": "Fecha 6",
    "phase": "league",
-   "homeId": "chacarita",
-   "awayId": "banfield",
+   "homeId": "river",
+   "awayId": "newells",
    "homeGoals": 1,
    "awayGoals": 0,
    "sources": [
@@ -330,12 +852,252 @@
    ]
   },
   {
-   "id": "1948-010",
-   "date": "1948-04-25",
+   "id": "1958-047",
+   "date": "1958-07-20",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 2",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-048",
+   "date": "1958-07-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-049",
+   "date": "1958-07-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-050",
+   "date": "1958-07-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-051",
+   "date": "1958-07-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-052",
+   "date": "1958-07-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
    "phase": "league",
    "homeId": "huracan",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-053",
+   "date": "1958-07-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-054",
+   "date": "1958-07-27",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-055",
+   "date": "1958-07-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-056",
+   "date": "1958-07-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-057",
+   "date": "1958-08-09",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-058",
+   "date": "1958-08-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "argentinos",
+   "homeGoals": 6,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-059",
+   "date": "1958-08-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-060",
+   "date": "1958-08-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-061",
+   "date": "1958-08-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-062",
+   "date": "1958-08-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-063",
+   "date": "1958-08-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-064",
+   "date": "1958-08-10",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "velez",
    "awayId": "boca",
    "homeGoals": 1,
    "awayGoals": 1,
@@ -344,140 +1106,71 @@
    ]
   },
   {
-   "id": "1948-011",
-   "date": "1948-04-25",
+   "id": "1958-065",
+   "date": "1958-08-15",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 2",
-   "phase": "league",
-   "homeId": "independiente",
-   "awayId": "newells",
-   "homeGoals": 2,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-012",
-   "date": "1948-04-25",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 2",
-   "phase": "league",
-   "homeId": "lanus",
-   "awayId": "tigre",
-   "homeGoals": 3,
-   "awayGoals": 5,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-013",
-   "date": "1948-04-25",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 2",
-   "phase": "league",
-   "homeId": "river",
-   "awayId": "velez",
-   "homeGoals": 4,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-014",
-   "date": "1948-04-25",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 2",
-   "phase": "league",
-   "homeId": "gimnasia",
-   "awayId": "sanlorenzo",
-   "homeGoals": 2,
-   "awayGoals": 5,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-015",
-   "date": "1948-04-25",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 2",
-   "phase": "league",
-   "homeId": "racing",
-   "awayId": "estudiantes",
-   "homeGoals": 2,
-   "awayGoals": 3,
-   "venue": "Cancha de San Lorenzo",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-016",
-   "date": "1948-04-28",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 2",
+   "stage": "Fecha 9",
    "phase": "league",
    "homeId": "central",
-   "awayId": "platense",
-   "homeGoals": 6,
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-066",
+   "date": "1958-08-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "lanus",
+   "homeGoals": 2,
    "awayGoals": 2,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-017",
-   "date": "1948-05-02",
+   "id": "1958-067",
+   "date": "1958-08-17",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 3",
-   "phase": "league",
-   "homeId": "banfield",
-   "awayId": "central",
-   "homeGoals": 4,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-018",
-   "date": "1948-05-02",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 3",
+   "stage": "Fecha 9",
    "phase": "league",
    "homeId": "boca",
-   "awayId": "gimnasia",
-   "homeGoals": 7,
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
    "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-019",
-   "date": "1948-05-02",
+   "id": "1958-068",
+   "date": "1958-08-17",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 3",
+   "stage": "Fecha 9",
    "phase": "league",
-   "homeId": "newells",
+   "homeId": "central-cordoba-rosario",
    "awayId": "river",
-   "homeGoals": 1,
-   "awayGoals": 2,
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "venue": "Cancha de Newell's Old Boys",
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-020",
-   "date": "1948-05-02",
+   "id": "1958-069",
+   "date": "1958-08-17",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 3",
+   "stage": "Fecha 9",
    "phase": "league",
-   "homeId": "platense",
-   "awayId": "independiente",
+   "homeId": "estudiantes",
+   "awayId": "newells",
    "homeGoals": 3,
    "awayGoals": 0,
    "sources": [
@@ -485,13 +1178,13 @@
    ]
   },
   {
-   "id": "1948-021",
-   "date": "1948-05-02",
+   "id": "1958-070",
+   "date": "1958-08-17",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 3",
+   "stage": "Fecha 9",
    "phase": "league",
-   "homeId": "sanlorenzo",
-   "awayId": "chacarita",
+   "homeId": "huracan",
+   "awayId": "gimnasia",
    "homeGoals": 2,
    "awayGoals": 1,
    "sources": [
@@ -499,13 +1192,183 @@
    ]
   },
   {
-   "id": "1948-022",
-   "date": "1948-05-02",
+   "id": "1958-071",
+   "date": "1958-08-17",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 3",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-072",
+   "date": "1958-08-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 9",
    "phase": "league",
    "homeId": "tigre",
-   "awayId": "racing",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-073",
+   "date": "1958-08-24",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-074",
+   "date": "1958-08-31",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-075",
+   "date": "1958-08-31",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-076",
+   "date": "1958-08-31",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-077",
+   "date": "1958-08-31",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-078",
+   "date": "1958-08-31",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-079",
+   "date": "1958-08-31",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "tigre",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-080",
+   "date": "1958-08-31",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-081",
+   "date": "1958-09-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-082",
+   "date": "1958-09-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-083",
+   "date": "1958-09-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "atlanta",
    "homeGoals": 2,
    "awayGoals": 1,
    "sources": [
@@ -513,70 +1376,310 @@
    ]
   },
   {
-   "id": "1948-023",
-   "date": "1948-05-02",
+   "id": "1958-084",
+   "date": "1958-09-07",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 3",
+   "stage": "Fecha 11",
    "phase": "league",
-   "homeId": "velez",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-085",
+   "date": "1958-09-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "velez",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-086",
+   "date": "1958-09-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-087",
+   "date": "1958-09-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central",
    "awayId": "lanus",
    "homeGoals": 2,
    "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-088",
+   "date": "1958-09-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 75 minutos. La liga dio por bueno el resultado (18/9)."
+  },
+  {
+   "id": "1958-089",
+   "date": "1958-09-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-090",
+   "date": "1958-09-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-091",
+   "date": "1958-09-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-092",
+   "date": "1958-09-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-093",
+   "date": "1958-09-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-094",
+   "date": "1958-09-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-095",
+   "date": "1958-09-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-096",
+   "date": "1958-09-17",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-097",
+   "date": "1958-09-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-098",
+   "date": "1958-09-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-099",
+   "date": "1958-09-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "velez",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-100",
+   "date": "1958-09-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-101",
+   "date": "1958-09-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-102",
+   "date": "1958-09-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-103",
+   "date": "1958-09-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-104",
+   "date": "1958-09-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
    "venue": "Cancha de Ferro Carril Oeste",
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-024",
-   "date": "1948-05-02",
+   "id": "1958-105",
+   "date": "1958-09-28",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 3",
+   "stage": "Fecha 14",
    "phase": "league",
-   "homeId": "estudiantes",
+   "homeId": "atlanta",
    "awayId": "huracan",
-   "homeGoals": 0,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-025",
-   "date": "1948-05-09",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 4",
-   "phase": "league",
-   "homeId": "chacarita",
-   "awayId": "boca",
-   "homeGoals": 5,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-026",
-   "date": "1948-05-09",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 4",
-   "phase": "league",
-   "homeId": "huracan",
-   "awayId": "tigre",
-   "homeGoals": 4,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-027",
-   "date": "1948-05-09",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 4",
-   "phase": "league",
-   "homeId": "independiente",
-   "awayId": "banfield",
    "homeGoals": 3,
    "awayGoals": 1,
    "sources": [
@@ -584,13 +1687,55 @@
    ]
   },
   {
-   "id": "1948-028",
-   "date": "1948-05-09",
+   "id": "1958-106",
+   "date": "1958-09-28",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 4",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "tigre",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-107",
+   "date": "1958-09-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-108",
+   "date": "1958-09-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
    "phase": "league",
    "homeId": "lanus",
-   "awayId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-109",
+   "date": "1958-09-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
    "homeGoals": 1,
    "awayGoals": 1,
    "sources": [
@@ -598,41 +1743,13 @@
    ]
   },
   {
-   "id": "1948-029",
-   "date": "1948-05-09",
+   "id": "1958-110",
+   "date": "1958-09-28",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 4",
+   "stage": "Fecha 14",
    "phase": "league",
-   "homeId": "platense",
-   "awayId": "newells",
-   "homeGoals": 0,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-030",
-   "date": "1948-05-09",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 4",
-   "phase": "league",
-   "homeId": "central",
-   "awayId": "sanlorenzo",
-   "homeGoals": 2,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-031",
-   "date": "1948-05-09",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 4",
-   "phase": "league",
-   "homeId": "gimnasia",
-   "awayId": "estudiantes",
+   "homeId": "river",
+   "awayId": "boca",
    "homeGoals": 2,
    "awayGoals": 2,
    "sources": [
@@ -640,198 +1757,113 @@
    ]
   },
   {
-   "id": "1948-032",
-   "date": "1948-05-09",
+   "id": "1958-111",
+   "date": "1958-09-28",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 4",
+   "stage": "Fecha 14",
    "phase": "league",
-   "homeId": "racing",
+   "homeId": "sanlorenzo",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-112",
+   "date": "1958-09-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-113",
+   "date": "1958-10-04",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Rosario Central",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-114",
+   "date": "1958-10-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-115",
+   "date": "1958-10-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia",
    "awayId": "velez",
    "homeGoals": 0,
-   "awayGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-116",
+   "date": "1958-10-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 1,
    "venue": "Cancha de San Lorenzo",
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-033",
-   "date": "1948-05-16",
+   "id": "1958-117",
+   "date": "1958-10-05",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 5",
+   "stage": "Fecha 15",
    "phase": "league",
-   "homeId": "banfield",
-   "awayId": "platense",
-   "homeGoals": 1,
-   "awayGoals": 3,
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 1,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-034",
-   "date": "1948-05-16",
+   "id": "1958-118",
+   "date": "1958-10-05",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 5",
-   "phase": "league",
-   "homeId": "boca",
-   "awayId": "central",
-   "homeGoals": 1,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-035",
-   "date": "1948-05-16",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 5",
-   "phase": "league",
-   "homeId": "newells",
-   "awayId": "lanus",
-   "homeGoals": 4,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-036",
-   "date": "1948-05-16",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 5",
+   "stage": "Fecha 15",
    "phase": "league",
    "homeId": "river",
-   "awayId": "racing",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-037",
-   "date": "1948-05-16",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 5",
-   "phase": "league",
-   "homeId": "sanlorenzo",
-   "awayId": "independiente",
-   "homeGoals": 0,
-   "awayGoals": 3,
-   "venue": "Cancha de Huracán",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-038",
-   "date": "1948-05-16",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 5",
-   "phase": "league",
-   "homeId": "tigre",
-   "awayId": "gimnasia",
-   "homeGoals": 5,
-   "awayGoals": 4,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-039",
-   "date": "1948-05-16",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 5",
-   "phase": "league",
-   "homeId": "velez",
-   "awayId": "huracan",
-   "homeGoals": 2,
-   "awayGoals": 0,
-   "venue": "Cancha de Chacarita Juniors",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-040",
-   "date": "1948-05-16",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 5",
-   "phase": "league",
-   "homeId": "estudiantes",
-   "awayId": "chacarita",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-041",
-   "date": "1948-05-23",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 6",
-   "phase": "league",
-   "homeId": "banfield",
-   "awayId": "newells",
-   "homeGoals": 1,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-042",
-   "date": "1948-05-23",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 6",
-   "phase": "league",
-   "homeId": "chacarita",
-   "awayId": "tigre",
-   "homeGoals": 0,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-043",
-   "date": "1948-05-23",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 6",
-   "phase": "league",
-   "homeId": "huracan",
-   "awayId": "river",
-   "homeGoals": 2,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-044",
-   "date": "1948-05-23",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 6",
-   "phase": "league",
-   "homeId": "independiente",
-   "awayId": "boca",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-045",
-   "date": "1948-05-23",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 6",
-   "phase": "league",
-   "homeId": "platense",
-   "awayId": "sanlorenzo",
+   "awayId": "lanus",
    "homeGoals": 3,
    "awayGoals": 2,
    "sources": [
@@ -839,27 +1871,13 @@
    ]
   },
   {
-   "id": "1948-046",
-   "date": "1948-05-23",
+   "id": "1958-119",
+   "date": "1958-10-05",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 6",
+   "stage": "Fecha 15",
    "phase": "league",
    "homeId": "central",
-   "awayId": "estudiantes",
-   "homeGoals": 1,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-047",
-   "date": "1948-05-23",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 6",
-   "phase": "league",
-   "homeId": "gimnasia",
-   "awayId": "velez",
+   "awayId": "atlanta",
    "homeGoals": 0,
    "awayGoals": 0,
    "sources": [
@@ -867,509 +1885,415 @@
    ]
   },
   {
-   "id": "1948-048",
-   "date": "1948-05-23",
+   "id": "1958-120",
+   "date": "1958-10-05",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 6",
-   "phase": "league",
-   "homeId": "racing",
-   "awayId": "lanus",
-   "homeGoals": 4,
-   "awayGoals": 0,
-   "venue": "Cancha de Boca Juniors",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-049",
-   "date": "1948-05-30",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 7",
-   "phase": "league",
-   "homeId": "boca",
-   "awayId": "platense",
-   "homeGoals": 1,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-050",
-   "date": "1948-05-30",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 7",
-   "phase": "league",
-   "homeId": "lanus",
-   "awayId": "huracan",
-   "homeGoals": 1,
-   "awayGoals": 0,
-   "venue": "Cancha de Independiente",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-051",
-   "date": "1948-05-30",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 7",
-   "phase": "league",
-   "homeId": "newells",
-   "awayId": "racing",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-052",
-   "date": "1948-05-30",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 7",
-   "phase": "league",
-   "homeId": "river",
-   "awayId": "gimnasia",
-   "homeGoals": 5,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-053",
-   "date": "1948-05-30",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 7",
-   "phase": "league",
-   "homeId": "sanlorenzo",
-   "awayId": "banfield",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "venue": "Cancha de Huracán",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-054",
-   "date": "1948-05-30",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 7",
+   "stage": "Fecha 15",
    "phase": "league",
    "homeId": "tigre",
-   "awayId": "central",
-   "homeGoals": 4,
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-121",
+   "date": "1958-10-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-122",
+   "date": "1958-10-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-123",
+   "date": "1958-10-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-124",
+   "date": "1958-10-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-125",
+   "date": "1958-10-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "velez",
+   "homeGoals": 0,
    "awayGoals": 2,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-055",
-   "date": "1948-05-30",
+   "id": "1958-126",
+   "date": "1958-10-12",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 7",
+   "stage": "Fecha 16",
    "phase": "league",
-   "homeId": "velez",
-   "awayId": "chacarita",
-   "homeGoals": 0,
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-127",
+   "date": "1958-10-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "tigre",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-128",
+   "date": "1958-10-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-129",
+   "date": "1958-10-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-130",
+   "date": "1958-10-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-131",
+   "date": "1958-10-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-132",
+   "date": "1958-10-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 3,
    "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-133",
+   "date": "1958-10-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-134",
+   "date": "1958-10-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-135",
+   "date": "1958-10-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 5,
    "venue": "Cancha de Platense",
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-056",
-   "date": "1948-05-30",
+   "id": "1958-136",
+   "date": "1958-10-19",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 7",
-   "phase": "league",
-   "homeId": "estudiantes",
-   "awayId": "independiente",
-   "homeGoals": 2,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-057",
-   "date": "1948-06-06",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 8",
-   "phase": "league",
-   "homeId": "banfield",
-   "awayId": "boca",
-   "homeGoals": 0,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-058",
-   "date": "1948-06-06",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 8",
-   "phase": "league",
-   "homeId": "chacarita",
-   "awayId": "river",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-059",
-   "date": "1948-06-06",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 8",
-   "phase": "league",
-   "homeId": "huracan",
-   "awayId": "racing",
-   "homeGoals": 3,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-060",
-   "date": "1948-06-06",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 8",
-   "phase": "league",
-   "homeId": "independiente",
-   "awayId": "tigre",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-061",
-   "date": "1948-06-06",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 8",
-   "phase": "league",
-   "homeId": "platense",
-   "awayId": "estudiantes",
-   "homeGoals": 4,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-062",
-   "date": "1948-06-06",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 8",
-   "phase": "league",
-   "homeId": "central",
-   "awayId": "velez",
-   "homeGoals": 5,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-063",
-   "date": "1948-06-06",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 8",
-   "phase": "league",
-   "homeId": "sanlorenzo",
-   "awayId": "newells",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-064",
-   "date": "1948-06-06",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 8",
-   "phase": "league",
-   "homeId": "gimnasia",
-   "awayId": "lanus",
-   "homeGoals": 4,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-065",
-   "date": "1948-06-13",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 9",
-   "phase": "league",
-   "homeId": "boca",
-   "awayId": "sanlorenzo",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-066",
-   "date": "1948-06-13",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 9",
-   "phase": "league",
-   "homeId": "lanus",
-   "awayId": "chacarita",
-   "homeGoals": 2,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-067",
-   "date": "1948-06-13",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 9",
-   "phase": "league",
-   "homeId": "newells",
-   "awayId": "huracan",
-   "homeGoals": 0,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-068",
-   "date": "1948-06-13",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 9",
-   "phase": "league",
-   "homeId": "river",
-   "awayId": "central",
-   "homeGoals": 0,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-069",
-   "date": "1948-06-13",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 9",
-   "phase": "league",
-   "homeId": "tigre",
-   "awayId": "platense",
-   "homeGoals": 0,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-070",
-   "date": "1948-06-13",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 9",
+   "stage": "Fecha 17",
    "phase": "league",
    "homeId": "velez",
-   "awayId": "independiente",
-   "homeGoals": 0,
-   "awayGoals": 2,
-   "venue": "Cancha de Ferro Carril Oeste",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-071",
-   "date": "1948-06-13",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 9",
-   "phase": "league",
-   "homeId": "estudiantes",
-   "awayId": "banfield",
-   "homeGoals": 3,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-072",
-   "date": "1948-06-13",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 9",
-   "phase": "league",
-   "homeId": "racing",
-   "awayId": "gimnasia",
-   "homeGoals": 3,
-   "awayGoals": 0,
-   "venue": "Cancha de San Lorenzo",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-073",
-   "date": "1948-06-20",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 10",
-   "phase": "league",
-   "homeId": "banfield",
-   "awayId": "tigre",
-   "homeGoals": 4,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-074",
-   "date": "1948-06-20",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 10",
-   "phase": "league",
-   "homeId": "boca",
-   "awayId": "newells",
-   "homeGoals": 0,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-075",
-   "date": "1948-06-20",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 10",
-   "phase": "league",
-   "homeId": "chacarita",
-   "awayId": "racing",
-   "homeGoals": 2,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-076",
-   "date": "1948-06-20",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 10",
-   "phase": "league",
-   "homeId": "independiente",
    "awayId": "river",
-   "homeGoals": 2,
-   "awayGoals": 1,
+   "homeGoals": 1,
+   "awayGoals": 0,
    "sources": [
     "rsssf"
-   ]
+   ],
+   "note": "Suspendido a los 87 minutos. La liga dio por bueno el resultado (30/10)."
   },
   {
-   "id": "1948-077",
-   "date": "1948-06-20",
+   "id": "1958-137",
+   "date": "1958-10-22",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 10",
+   "stage": "Fecha 18",
    "phase": "league",
-   "homeId": "platense",
-   "awayId": "velez",
-   "homeGoals": 0,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-078",
-   "date": "1948-06-20",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 10",
-   "phase": "league",
-   "homeId": "central",
-   "awayId": "lanus",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "estudiantes",
    "homeGoals": 6,
    "awayGoals": 1,
+   "venue": "Cancha de Newell's Old Boys",
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-079",
-   "date": "1948-06-20",
+   "id": "1958-138",
+   "date": "1958-10-22",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 10",
-   "phase": "league",
-   "homeId": "sanlorenzo",
-   "awayId": "estudiantes",
-   "homeGoals": 0,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-080",
-   "date": "1948-06-20",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 10",
+   "stage": "Fecha 18",
    "phase": "league",
    "homeId": "gimnasia",
-   "awayId": "huracan",
-   "homeGoals": 3,
+   "awayId": "atlanta",
+   "homeGoals": 1,
    "awayGoals": 1,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-081",
-   "date": "1948-06-27",
+   "id": "1958-139",
+   "date": "1958-10-22",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 11",
+   "stage": "Fecha 18",
    "phase": "league",
    "homeId": "huracan",
-   "awayId": "chacarita",
-   "homeGoals": 3,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-082",
-   "date": "1948-06-27",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 11",
-   "phase": "league",
-   "homeId": "lanus",
-   "awayId": "independiente",
-   "homeGoals": 0,
+   "awayId": "tigre",
+   "homeGoals": 1,
    "awayGoals": 0,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-083",
-   "date": "1948-06-27",
+   "id": "1958-140",
+   "date": "1958-10-22",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 11",
+   "stage": "Fecha 18",
    "phase": "league",
-   "homeId": "newells",
-   "awayId": "gimnasia",
+   "homeId": "lanus",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-141",
+   "date": "1958-10-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-142",
+   "date": "1958-10-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-143",
+   "date": "1958-10-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-144",
+   "date": "1958-10-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-145",
+   "date": "1958-10-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-146",
+   "date": "1958-10-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-147",
+   "date": "1958-10-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-148",
+   "date": "1958-10-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing",
    "homeGoals": 1,
    "awayGoals": 2,
    "sources": [
@@ -1377,56 +2301,272 @@
    ]
   },
   {
-   "id": "1948-084",
-   "date": "1948-06-27",
+   "id": "1958-149",
+   "date": "1958-10-26",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 11",
+   "stage": "Fecha 19",
    "phase": "league",
-   "homeId": "river",
-   "awayId": "platense",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
    "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-150",
+   "date": "1958-10-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 1,
    "awayGoals": 1,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-085",
-   "date": "1948-06-27",
+   "id": "1958-151",
+   "date": "1958-10-26",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 11",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-152",
+   "date": "1958-10-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 19",
    "phase": "league",
    "homeId": "tigre",
-   "awayId": "sanlorenzo",
+   "awayId": "central",
    "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-153",
+   "date": "1958-11-01",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-154",
+   "date": "1958-11-01",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-155",
+   "date": "1958-11-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-156",
+   "date": "1958-11-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-157",
+   "date": "1958-11-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-158",
+   "date": "1958-11-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ],
+   "awardedTo": "huracan",
+   "walkover": true,
+   "note": "No se jugó: los puntos fueron para Huracán. Además, a River Plate le descontaron 2 puntos (sanción)."
+  },
+  {
+   "id": "1958-159",
+   "date": "1958-11-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-160",
+   "date": "1958-11-02",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-161",
+   "date": "1958-11-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-162",
+   "date": "1958-11-08",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-163",
+   "date": "1958-11-09",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-164",
+   "date": "1958-11-09",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
    "awayGoals": 0,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-086",
-   "date": "1948-06-27",
+   "id": "1958-165",
+   "date": "1958-11-09",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 11",
+   "stage": "Fecha 21",
    "phase": "league",
-   "homeId": "velez",
-   "awayId": "banfield",
-   "homeGoals": 2,
-   "awayGoals": 1,
-   "venue": "Cancha de Ferro Carril Oeste",
+   "homeId": "boca",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 2,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-087",
-   "date": "1948-06-27",
+   "id": "1958-166",
+   "date": "1958-11-09",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 11",
+   "stage": "Fecha 21",
    "phase": "league",
    "homeId": "estudiantes",
-   "awayId": "boca",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-167",
+   "date": "1958-11-09",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
    "homeGoals": 1,
    "awayGoals": 4,
    "sources": [
@@ -1434,42 +2574,126 @@
    ]
   },
   {
-   "id": "1948-088",
-   "date": "1948-06-27",
+   "id": "1958-168",
+   "date": "1958-11-09",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 11",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-169",
+   "date": "1958-11-11",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-170",
+   "date": "1958-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-171",
+   "date": "1958-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-172",
+   "date": "1958-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-173",
+   "date": "1958-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
    "phase": "league",
    "homeId": "racing",
-   "awayId": "central",
+   "awayId": "argentinos",
    "homeGoals": 5,
    "awayGoals": 2,
-   "venue": "Cancha de San Lorenzo",
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-089",
-   "date": "1948-07-18",
+   "id": "1958-174",
+   "date": "1958-11-12",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 12",
+   "stage": "Fecha 22",
    "phase": "league",
-   "homeId": "banfield",
-   "awayId": "river",
-   "homeGoals": 2,
-   "awayGoals": 3,
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 5,
+   "awayGoals": 1,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-090",
-   "date": "1948-07-18",
+   "id": "1958-175",
+   "date": "1958-11-12",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 12",
+   "stage": "Fecha 22",
    "phase": "league",
-   "homeId": "boca",
-   "awayId": "tigre",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-176",
+   "date": "1958-11-12",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
    "homeGoals": 4,
    "awayGoals": 1,
    "sources": [
@@ -1477,41 +2701,155 @@
    ]
   },
   {
-   "id": "1948-091",
-   "date": "1948-07-18",
+   "id": "1958-177",
+   "date": "1958-11-15",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 12",
+   "stage": "Fecha 23",
    "phase": "league",
-   "homeId": "chacarita",
-   "awayId": "gimnasia",
-   "homeGoals": 3,
-   "awayGoals": 1,
+   "homeId": "independiente",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 2,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-092",
-   "date": "1948-07-18",
+   "id": "1958-178",
+   "date": "1958-11-16",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 12",
+   "stage": "Fecha 23",
    "phase": "league",
-   "homeId": "independiente",
-   "awayId": "racing",
-   "homeGoals": 2,
+   "homeId": "argentinos",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
    "awayGoals": 3,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-093",
-   "date": "1948-07-18",
+   "id": "1958-179",
+   "date": "1958-11-16",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 12",
+   "stage": "Fecha 23",
    "phase": "league",
-   "homeId": "platense",
+   "homeId": "atlanta",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-180",
+   "date": "1958-11-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-181",
+   "date": "1958-11-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-182",
+   "date": "1958-11-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 89 minutos. La liga dio por bueno el resultado (27/11)."
+  },
+  {
+   "id": "1958-183",
+   "date": "1958-11-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-184",
+   "date": "1958-11-16",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "tigre",
    "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-185",
+   "date": "1958-11-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-186",
+   "date": "1958-11-18",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-187",
+   "date": "1958-11-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "argentinos",
    "homeGoals": 2,
    "awayGoals": 2,
    "sources": [
@@ -1519,876 +2857,510 @@
    ]
   },
   {
-   "id": "1948-094",
-   "date": "1948-07-18",
+   "id": "1958-188",
+   "date": "1958-11-19",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 12",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-189",
+   "date": "1958-11-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-190",
+   "date": "1958-11-19",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-191",
+   "date": "1958-11-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-192",
+   "date": "1958-11-20",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-193",
+   "date": "1958-11-22",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
    "phase": "league",
    "homeId": "central",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-194",
+   "date": "1958-11-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "velez",
+   "homeGoals": 4,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-195",
+   "date": "1958-11-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-196",
+   "date": "1958-11-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-197",
+   "date": "1958-11-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atlanta",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-198",
+   "date": "1958-11-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-199",
+   "date": "1958-11-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-200",
+   "date": "1958-11-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "sanlorenzo",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-201",
+   "date": "1958-11-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-202",
+   "date": "1958-11-29",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-203",
+   "date": "1958-11-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-204",
+   "date": "1958-11-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-205",
+   "date": "1958-11-30",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "argentinos",
+   "homeGoals": 6,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-206",
+   "date": "1958-12-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-207",
+   "date": "1958-12-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-208",
+   "date": "1958-12-03",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "velez",
    "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-209",
+   "date": "1958-12-05",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "lanus",
    "homeGoals": 7,
-   "awayGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Newell's Old Boys",
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-095",
-   "date": "1948-07-18",
+   "id": "1958-210",
+   "date": "1958-12-06",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 12",
-   "phase": "league",
-   "homeId": "sanlorenzo",
-   "awayId": "velez",
-   "homeGoals": 1,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-096",
-   "date": "1948-07-18",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 12",
+   "stage": "Fecha 27",
    "phase": "league",
    "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-211",
+   "date": "1958-12-06",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-212",
+   "date": "1958-12-07",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "argentinos",
    "awayId": "newells",
-   "homeGoals": 3,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-097",
-   "date": "1948-07-25",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 13",
-   "phase": "league",
-   "homeId": "huracan",
-   "awayId": "independiente",
-   "homeGoals": 0,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-098",
-   "date": "1948-07-25",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 13",
-   "phase": "league",
-   "homeId": "lanus",
-   "awayId": "banfield",
-   "homeGoals": 1,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-099",
-   "date": "1948-07-25",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 13",
-   "phase": "league",
-   "homeId": "newells",
-   "awayId": "chacarita",
-   "homeGoals": 1,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-100",
-   "date": "1948-07-25",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 13",
-   "phase": "league",
-   "homeId": "river",
-   "awayId": "sanlorenzo",
-   "homeGoals": 0,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-101",
-   "date": "1948-07-25",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 13",
-   "phase": "league",
-   "homeId": "tigre",
-   "awayId": "estudiantes",
-   "homeGoals": 1,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-102",
-   "date": "1948-07-25",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 13",
-   "phase": "league",
-   "homeId": "velez",
-   "awayId": "boca",
-   "homeGoals": 0,
-   "awayGoals": 1,
-   "venue": "Cancha de Ferro Carril Oeste",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-103",
-   "date": "1948-07-25",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 13",
-   "phase": "league",
-   "homeId": "gimnasia",
-   "awayId": "central",
-   "homeGoals": 3,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-104",
-   "date": "1948-07-25",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 13",
-   "phase": "league",
-   "homeId": "racing",
-   "awayId": "platense",
-   "homeGoals": 4,
-   "awayGoals": 0,
-   "venue": "Cancha de San Lorenzo",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-105",
-   "date": "1948-08-01",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 14",
-   "phase": "league",
-   "homeId": "banfield",
-   "awayId": "racing",
    "homeGoals": 2,
-   "awayGoals": 6,
+   "awayGoals": 1,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-106",
-   "date": "1948-08-01",
+   "id": "1958-213",
+   "date": "1958-12-07",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 14",
+   "stage": "Fecha 27",
    "phase": "league",
    "homeId": "boca",
-   "awayId": "river",
-   "homeGoals": 1,
-   "awayGoals": 2,
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 3,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-107",
-   "date": "1948-08-01",
+   "id": "1958-214",
+   "date": "1958-12-07",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 14",
+   "stage": "Fecha 27",
    "phase": "league",
-   "homeId": "independiente",
-   "awayId": "gimnasia",
+   "homeId": "huracan",
+   "awayId": "sanlorenzo",
    "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-108",
-   "date": "1948-08-01",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 14",
-   "phase": "league",
-   "homeId": "platense",
-   "awayId": "huracan",
-   "homeGoals": 1,
    "awayGoals": 4,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-109",
-   "date": "1948-08-01",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 14",
-   "phase": "league",
-   "homeId": "central",
-   "awayId": "chacarita",
-   "homeGoals": 1,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-110",
-   "date": "1948-08-01",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 14",
-   "phase": "league",
-   "homeId": "sanlorenzo",
-   "awayId": "lanus",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-111",
-   "date": "1948-08-01",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 14",
-   "phase": "league",
-   "homeId": "tigre",
-   "awayId": "newells",
-   "homeGoals": 3,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-112",
-   "date": "1948-08-01",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 14",
-   "phase": "league",
-   "homeId": "estudiantes",
-   "awayId": "velez",
-   "homeGoals": 3,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-113",
-   "date": "1948-08-08",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 15",
-   "phase": "league",
-   "homeId": "chacarita",
-   "awayId": "independiente",
-   "homeGoals": 1,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-114",
-   "date": "1948-08-08",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 15",
-   "phase": "league",
-   "homeId": "huracan",
-   "awayId": "banfield",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-115",
-   "date": "1948-08-08",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 15",
-   "phase": "league",
-   "homeId": "lanus",
-   "awayId": "boca",
-   "homeGoals": 1,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-116",
-   "date": "1948-08-08",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 15",
-   "phase": "league",
-   "homeId": "newells",
-   "awayId": "central",
-   "homeGoals": 2,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-117",
-   "date": "1948-08-08",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 15",
-   "phase": "league",
-   "homeId": "river",
-   "awayId": "estudiantes",
-   "homeGoals": 2,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-118",
-   "date": "1948-08-08",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 15",
-   "phase": "league",
-   "homeId": "velez",
-   "awayId": "tigre",
-   "homeGoals": 3,
-   "awayGoals": 2,
    "venue": "Cancha de Ferro Carril Oeste",
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-119",
-   "date": "1948-08-08",
+   "id": "1958-215",
+   "date": "1958-12-07",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 15",
-   "phase": "league",
-   "homeId": "gimnasia",
-   "awayId": "platense",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-120",
-   "date": "1948-08-08",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 15",
+   "stage": "Fecha 27",
    "phase": "league",
    "homeId": "racing",
-   "awayId": "sanlorenzo",
-   "homeGoals": 3,
-   "awayGoals": 1,
-   "venue": "Cancha de Boca Juniors",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-121",
-   "date": "1948-08-15",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 16",
-   "phase": "league",
-   "homeId": "chacarita",
-   "awayId": "platense",
-   "homeGoals": 2,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-122",
-   "date": "1948-08-15",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 16",
-   "phase": "league",
-   "homeId": "huracan",
-   "awayId": "sanlorenzo",
-   "homeGoals": 1,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-123",
-   "date": "1948-08-15",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 16",
-   "phase": "league",
-   "homeId": "lanus",
-   "awayId": "estudiantes",
-   "homeGoals": 2,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-124",
-   "date": "1948-08-15",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 16",
-   "phase": "league",
-   "homeId": "river",
-   "awayId": "tigre",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-125",
-   "date": "1948-08-15",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 16",
-   "phase": "league",
-   "homeId": "central",
-   "awayId": "independiente",
-   "homeGoals": 5,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-126",
-   "date": "1948-08-15",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 16",
-   "phase": "league",
-   "homeId": "velez",
-   "awayId": "newells",
-   "homeGoals": 2,
-   "awayGoals": 0,
-   "venue": "Cancha de Ferro Carril Oeste",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-127",
-   "date": "1948-08-15",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 16",
-   "phase": "league",
-   "homeId": "gimnasia",
-   "awayId": "banfield",
-   "homeGoals": 0,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-128",
-   "date": "1948-08-15",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 16",
-   "phase": "league",
-   "homeId": "racing",
-   "awayId": "boca",
-   "homeGoals": 0,
-   "awayGoals": 1,
-   "venue": "Cancha de San Lorenzo",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-129",
-   "date": "1948-08-22",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 17",
-   "phase": "league",
-   "homeId": "banfield",
-   "awayId": "chacarita",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-130",
-   "date": "1948-08-22",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 17",
-   "phase": "league",
-   "homeId": "boca",
-   "awayId": "huracan",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-131",
-   "date": "1948-08-22",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 17",
-   "phase": "league",
-   "homeId": "newells",
-   "awayId": "independiente",
-   "homeGoals": 1,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-132",
-   "date": "1948-08-22",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 17",
-   "phase": "league",
-   "homeId": "platense",
-   "awayId": "central",
+   "awayId": "gimnasia",
    "homeGoals": 4,
-   "awayGoals": 0,
+   "awayGoals": 1,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-133",
-   "date": "1948-08-22",
+   "id": "1958-216",
+   "date": "1958-12-07",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 17",
-   "phase": "league",
-   "homeId": "sanlorenzo",
-   "awayId": "gimnasia",
-   "homeGoals": 6,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-134",
-   "date": "1948-08-22",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 17",
+   "stage": "Fecha 27",
    "phase": "league",
    "homeId": "tigre",
-   "awayId": "lanus",
+   "awayId": "atlanta",
    "homeGoals": 1,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-135",
-   "date": "1948-08-22",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 17",
-   "phase": "league",
-   "homeId": "velez",
-   "awayId": "river",
-   "homeGoals": 3,
-   "awayGoals": 3,
-   "venue": "Cancha de Ferro Carril Oeste",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-136",
-   "date": "1948-08-22",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 17",
-   "phase": "league",
-   "homeId": "estudiantes",
-   "awayId": "racing",
-   "homeGoals": 0,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-137",
-   "date": "1948-08-29",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 18",
-   "phase": "league",
-   "homeId": "chacarita",
-   "awayId": "sanlorenzo",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-138",
-   "date": "1948-08-29",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 18",
-   "phase": "league",
-   "homeId": "huracan",
-   "awayId": "estudiantes",
-   "homeGoals": 0,
    "awayGoals": 3,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-139",
-   "date": "1948-08-29",
+   "id": "1958-217",
+   "date": "1958-12-12",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 18",
+   "stage": "Fecha 28",
    "phase": "league",
    "homeId": "independiente",
-   "awayId": "platense",
-   "homeGoals": 5,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-140",
-   "date": "1948-08-29",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 18",
-   "phase": "league",
-   "homeId": "lanus",
-   "awayId": "velez",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-141",
-   "date": "1948-08-29",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 18",
-   "phase": "league",
-   "homeId": "river",
-   "awayId": "newells",
-   "homeGoals": 1,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-142",
-   "date": "1948-08-29",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 18",
-   "phase": "league",
-   "homeId": "central",
-   "awayId": "banfield",
-   "homeGoals": 5,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-143",
-   "date": "1948-08-29",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 18",
-   "phase": "league",
-   "homeId": "gimnasia",
-   "awayId": "boca",
-   "homeGoals": 0,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-144",
-   "date": "1948-08-29",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 18",
-   "phase": "league",
-   "homeId": "racing",
    "awayId": "tigre",
    "homeGoals": 6,
-   "awayGoals": 3,
-   "venue": "Cancha de San Lorenzo",
+   "awayGoals": 0,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-145",
-   "date": "1948-09-05",
+   "id": "1958-218",
+   "date": "1958-12-13",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 19",
+   "stage": "Fecha 28",
    "phase": "league",
-   "homeId": "banfield",
-   "awayId": "independiente",
-   "homeGoals": 0,
+   "homeId": "newells",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-219",
+   "date": "1958-12-14",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "argentinos",
+   "homeGoals": 1,
    "awayGoals": 1,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-146",
-   "date": "1948-09-05",
+   "id": "1958-220",
+   "date": "1958-12-14",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 19",
+   "stage": "Fecha 28",
    "phase": "league",
-   "homeId": "boca",
-   "awayId": "chacarita",
-   "homeGoals": 3,
-   "awayGoals": 3,
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 5,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-147",
-   "date": "1948-09-05",
+   "id": "1958-221",
+   "date": "1958-12-14",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 19",
-   "phase": "league",
-   "homeId": "newells",
-   "awayId": "platense",
-   "homeGoals": 5,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-148",
-   "date": "1948-09-05",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 19",
+   "stage": "Fecha 28",
    "phase": "league",
    "homeId": "river",
-   "awayId": "lanus",
-   "homeGoals": 2,
+   "awayId": "gimnasia",
+   "homeGoals": 1,
    "awayGoals": 0,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-149",
-   "date": "1948-09-05",
+   "id": "1958-222",
+   "date": "1958-12-14",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 19",
+   "stage": "Fecha 28",
    "phase": "league",
    "homeId": "sanlorenzo",
    "awayId": "central",
-   "homeGoals": 5,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-150",
-   "date": "1948-09-05",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 19",
-   "phase": "league",
-   "homeId": "tigre",
-   "awayId": "huracan",
    "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-151",
-   "date": "1948-09-05",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 19",
-   "phase": "league",
-   "homeId": "velez",
-   "awayId": "racing",
-   "homeGoals": 2,
-   "awayGoals": 2,
+   "awayGoals": 3,
    "venue": "Cancha de Ferro Carril Oeste",
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-152",
-   "date": "1948-09-05",
+   "id": "1958-223",
+   "date": "1958-12-14",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 19",
+   "stage": "Fecha 28",
    "phase": "league",
-   "homeId": "estudiantes",
-   "awayId": "gimnasia",
-   "homeGoals": 6,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-153",
-   "date": "1948-09-12",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 20",
-   "phase": "league",
-   "homeId": "chacarita",
-   "awayId": "estudiantes",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-154",
-   "date": "1948-09-12",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 20",
-   "phase": "league",
-   "homeId": "huracan",
-   "awayId": "velez",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-155",
-   "date": "1948-09-12",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 20",
-   "phase": "league",
-   "homeId": "independiente",
-   "awayId": "sanlorenzo",
+   "homeId": "velez",
+   "awayId": "central-cordoba-rosario",
    "homeGoals": 3,
    "awayGoals": 1,
    "sources": [
@@ -2396,1139 +3368,170 @@
    ]
   },
   {
-   "id": "1948-156",
-   "date": "1948-09-12",
+   "id": "1958-224",
+   "date": "1958-12-14",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 20",
-   "phase": "league",
-   "homeId": "lanus",
-   "awayId": "newells",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-157",
-   "date": "1948-09-12",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 20",
-   "phase": "league",
-   "homeId": "platense",
-   "awayId": "banfield",
-   "homeGoals": 3,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-158",
-   "date": "1948-09-12",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 20",
-   "phase": "league",
-   "homeId": "central",
-   "awayId": "boca",
-   "homeGoals": 0,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-159",
-   "date": "1948-09-12",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 20",
-   "phase": "league",
-   "homeId": "gimnasia",
-   "awayId": "tigre",
-   "homeGoals": 5,
-   "awayGoals": 1,
-   "venue": "Cancha de Estudiantes (LP)",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-160",
-   "date": "1948-09-12",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 20",
-   "phase": "league",
-   "homeId": "racing",
-   "awayId": "river",
-   "homeGoals": 2,
-   "awayGoals": 1,
-   "venue": "Cancha de San Lorenzo",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-161",
-   "date": "1948-09-19",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 21",
-   "phase": "league",
-   "homeId": "boca",
-   "awayId": "independiente",
-   "homeGoals": 1,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-162",
-   "date": "1948-09-19",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 21",
+   "stage": "Fecha 28",
    "phase": "league",
    "homeId": "lanus",
    "awayId": "racing",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-163",
-   "date": "1948-09-19",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 21",
-   "phase": "league",
-   "homeId": "newells",
-   "awayId": "banfield",
-   "homeGoals": 2,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-164",
-   "date": "1948-09-19",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 21",
-   "phase": "league",
-   "homeId": "river",
-   "awayId": "huracan",
-   "homeGoals": 4,
+   "homeGoals": 3,
    "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-165",
-   "date": "1948-09-19",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 21",
-   "phase": "league",
-   "homeId": "sanlorenzo",
-   "awayId": "platense",
-   "homeGoals": 6,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-166",
-   "date": "1948-09-19",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 21",
-   "phase": "league",
-   "homeId": "tigre",
-   "awayId": "chacarita",
-   "homeGoals": 1,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-167",
-   "date": "1948-09-19",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 21",
-   "phase": "league",
-   "homeId": "velez",
-   "awayId": "gimnasia",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "venue": "Cancha de Ferro Carril Oeste",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-168",
-   "date": "1948-09-19",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 21",
-   "phase": "league",
-   "homeId": "estudiantes",
-   "awayId": "central",
-   "homeGoals": 3,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-169",
-   "date": "1948-09-26",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 22",
-   "phase": "league",
-   "homeId": "central",
-   "awayId": "tigre",
-   "homeGoals": 4,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-170",
-   "date": "1948-10-10",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 22",
-   "phase": "league",
-   "homeId": "banfield",
-   "awayId": "sanlorenzo",
-   "homeGoals": 2,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-171",
-   "date": "1948-10-10",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 22",
-   "phase": "league",
-   "homeId": "chacarita",
-   "awayId": "velez",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-172",
-   "date": "1948-10-10",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 22",
-   "phase": "league",
-   "homeId": "huracan",
-   "awayId": "lanus",
-   "homeGoals": 3,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-173",
-   "date": "1948-10-10",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 22",
-   "phase": "league",
-   "homeId": "independiente",
-   "awayId": "estudiantes",
-   "homeGoals": 3,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-174",
-   "date": "1948-10-10",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 22",
-   "phase": "league",
-   "homeId": "platense",
-   "awayId": "boca",
-   "homeGoals": 3,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-175",
-   "date": "1948-10-10",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 22",
-   "phase": "league",
-   "homeId": "gimnasia",
-   "awayId": "river",
-   "homeGoals": 1,
-   "awayGoals": 2,
-   "venue": "Cancha de Estudiantes (LP)",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-176",
-   "date": "1948-10-10",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 22",
-   "phase": "league",
-   "homeId": "racing",
-   "awayId": "newells",
-   "homeGoals": 3,
-   "awayGoals": 2,
-   "venue": "Cancha de San Lorenzo",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-177",
-   "date": "1948-10-18",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 23",
-   "phase": "league",
-   "homeId": "boca",
-   "awayId": "banfield",
-   "homeGoals": 3,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-178",
-   "date": "1948-10-18",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 23",
-   "phase": "league",
-   "homeId": "lanus",
-   "awayId": "gimnasia",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-179",
-   "date": "1948-10-18",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 23",
-   "phase": "league",
-   "homeId": "newells",
-   "awayId": "sanlorenzo",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-180",
-   "date": "1948-10-18",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 23",
-   "phase": "league",
-   "homeId": "river",
-   "awayId": "chacarita",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-181",
-   "date": "1948-10-18",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 23",
-   "phase": "league",
-   "homeId": "tigre",
-   "awayId": "independiente",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-182",
-   "date": "1948-10-18",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 23",
-   "phase": "league",
-   "homeId": "velez",
-   "awayId": "central",
-   "homeGoals": 3,
-   "awayGoals": 0,
-   "venue": "Cancha de Ferro Carril Oeste",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-183",
-   "date": "1948-10-18",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 23",
-   "phase": "league",
-   "homeId": "racing",
-   "awayId": "huracan",
-   "homeGoals": 4,
-   "awayGoals": 1,
-   "venue": "Cancha de San Lorenzo",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-184",
-   "date": "1948-10-21",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 23",
-   "phase": "league",
-   "homeId": "estudiantes",
-   "awayId": "platense",
-   "homeGoals": 5,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-185",
-   "date": "1948-10-24",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 24",
-   "phase": "league",
-   "homeId": "banfield",
-   "awayId": "estudiantes",
-   "homeGoals": 5,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-186",
-   "date": "1948-10-24",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 24",
-   "phase": "league",
-   "homeId": "chacarita",
-   "awayId": "lanus",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-187",
-   "date": "1948-10-24",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 24",
-   "phase": "league",
-   "homeId": "huracan",
-   "awayId": "newells",
-   "homeGoals": 0,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-188",
-   "date": "1948-10-24",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 24",
-   "phase": "league",
-   "homeId": "independiente",
-   "awayId": "velez",
-   "homeGoals": 0,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-189",
-   "date": "1948-10-24",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 24",
-   "phase": "league",
-   "homeId": "platense",
-   "awayId": "tigre",
-   "homeGoals": 5,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-190",
-   "date": "1948-10-24",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 24",
-   "phase": "league",
-   "homeId": "central",
-   "awayId": "river",
-   "homeGoals": 4,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-191",
-   "date": "1948-10-24",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 24",
-   "phase": "league",
-   "homeId": "sanlorenzo",
-   "awayId": "boca",
-   "homeGoals": 1,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-192",
-   "date": "1948-10-24",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 24",
-   "phase": "league",
-   "homeId": "gimnasia",
-   "awayId": "racing",
-   "homeGoals": 2,
-   "awayGoals": 0,
-   "venue": "Cancha de Estudiantes (LP)",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-193",
-   "date": "1948-10-31",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 25",
-   "phase": "league",
-   "homeId": "huracan",
-   "awayId": "gimnasia",
-   "homeGoals": 2,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-194",
-   "date": "1948-10-31",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 25",
-   "phase": "league",
-   "homeId": "lanus",
-   "awayId": "central",
-   "homeGoals": 0,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-195",
-   "date": "1948-10-31",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 25",
-   "phase": "league",
-   "homeId": "newells",
-   "awayId": "boca",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-196",
-   "date": "1948-10-31",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 25",
-   "phase": "league",
-   "homeId": "river",
-   "awayId": "independiente",
-   "homeGoals": 3,
-   "awayGoals": 4,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-197",
-   "date": "1948-10-31",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 25",
-   "phase": "league",
-   "homeId": "tigre",
-   "awayId": "banfield",
-   "homeGoals": 4,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-198",
-   "date": "1948-10-31",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 25",
-   "phase": "league",
-   "homeId": "velez",
-   "awayId": "platense",
-   "homeGoals": 2,
-   "awayGoals": 1,
-   "venue": "Cancha de Ferro Carril Oeste",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-199",
-   "date": "1948-10-31",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 25",
-   "phase": "league",
-   "homeId": "estudiantes",
-   "awayId": "sanlorenzo",
-   "homeGoals": 1,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-200",
-   "date": "1948-10-31",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 25",
-   "phase": "league",
-   "homeId": "racing",
-   "awayId": "chacarita",
-   "homeGoals": 2,
-   "awayGoals": 0,
-   "venue": "Cancha de San Lorenzo",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-201",
-   "date": "1948-11-14",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 26",
-   "phase": "league",
-   "homeId": "banfield",
-   "awayId": "velez",
-   "homeGoals": 3,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-202",
-   "date": "1948-11-14",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 26",
-   "phase": "league",
-   "homeId": "boca",
-   "awayId": "estudiantes",
-   "homeGoals": 1,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-203",
-   "date": "1948-11-14",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 26",
-   "phase": "league",
-   "homeId": "chacarita",
-   "awayId": "huracan",
-   "homeGoals": 0,
-   "awayGoals": 4,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-204",
-   "date": "1948-11-14",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 26",
-   "phase": "league",
-   "homeId": "independiente",
-   "awayId": "lanus",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-205",
-   "date": "1948-11-14",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 26",
-   "phase": "league",
-   "homeId": "platense",
-   "awayId": "river",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-206",
-   "date": "1948-11-14",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 26",
-   "phase": "league",
-   "homeId": "central",
-   "awayId": "racing",
-   "homeGoals": 6,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-207",
-   "date": "1948-11-14",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 26",
-   "phase": "league",
-   "homeId": "sanlorenzo",
-   "awayId": "tigre",
-   "homeGoals": 3,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-208",
-   "date": "1948-11-14",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 26",
-   "phase": "league",
-   "homeId": "gimnasia",
-   "awayId": "newells",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "venue": "Cancha de Estudiantes (LP)",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-209",
-   "date": "1948-11-21",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 27",
-   "phase": "league",
-   "homeId": "huracan",
-   "awayId": "central",
-   "homeGoals": 2,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-210",
-   "date": "1948-11-21",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 27",
-   "phase": "league",
-   "homeId": "lanus",
-   "awayId": "platense",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-211",
-   "date": "1948-11-21",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 27",
-   "phase": "league",
-   "homeId": "newells",
-   "awayId": "estudiantes",
-   "homeGoals": 3,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-212",
-   "date": "1948-11-21",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 27",
-   "phase": "league",
-   "homeId": "river",
-   "awayId": "banfield",
-   "homeGoals": 2,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-213",
-   "date": "1948-11-21",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 27",
-   "phase": "league",
-   "homeId": "tigre",
-   "awayId": "boca",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-214",
-   "date": "1948-11-21",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 27",
-   "phase": "league",
-   "homeId": "velez",
-   "awayId": "sanlorenzo",
-   "homeGoals": 3,
-   "awayGoals": 1,
-   "venue": "Cancha de Ferro Carril Oeste",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-215",
-   "date": "1948-11-21",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 27",
-   "phase": "league",
-   "homeId": "gimnasia",
-   "awayId": "chacarita",
-   "homeGoals": 0,
-   "awayGoals": 1,
-   "venue": "Cancha de Estudiantes (LP)",
    "sources": [
     "rsssf"
    ],
-   "note": "Suspendido a los 70 minutos. La liga dio por bueno el resultado (2/12)."
+   "note": "Goles: Rojas 22, 32, 36 / Manfredini 28, Cap 63, Manfredini 78."
   },
   {
-   "id": "1948-216",
-   "date": "1948-11-21",
+   "id": "1958-225",
+   "date": "1958-12-20",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 27",
+   "stage": "Fecha 29",
    "phase": "league",
-   "homeId": "racing",
+   "homeId": "argentinos",
    "awayId": "independiente",
-   "homeGoals": 0,
-   "awayGoals": 1,
-   "venue": "Cancha de San Lorenzo",
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-217",
-   "date": "1948-11-27",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 28",
-   "phase": "league",
-   "homeId": "central",
-   "awayId": "gimnasia",
-   "homeGoals": 4,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-218",
-   "date": "1948-11-27",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 28",
-   "phase": "league",
-   "homeId": "sanlorenzo",
-   "awayId": "river",
-   "homeGoals": 3,
+   "homeGoals": 1,
    "awayGoals": 3,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-219",
-   "date": "1948-11-27",
+   "id": "1958-226",
+   "date": "1958-12-20",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 28",
-   "phase": "league",
-   "homeId": "estudiantes",
-   "awayId": "tigre",
-   "homeGoals": 3,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-220",
-   "date": "1948-11-28",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 28",
-   "phase": "league",
-   "homeId": "banfield",
-   "awayId": "lanus",
-   "homeGoals": 2,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-221",
-   "date": "1948-11-28",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 28",
+   "stage": "Fecha 29",
    "phase": "league",
    "homeId": "boca",
-   "awayId": "velez",
-   "homeGoals": 3,
+   "awayId": "river",
+   "homeGoals": 2,
    "awayGoals": 2,
+   "venue": "Cancha de Huracán",
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-222",
-   "date": "1948-11-28",
+   "id": "1958-227",
+   "date": "1958-12-20",
    "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 28",
+   "stage": "Fecha 29",
    "phase": "league",
-   "homeId": "chacarita",
+   "homeId": "central",
    "awayId": "newells",
    "homeGoals": 1,
-   "awayGoals": 4,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-223",
-   "date": "1948-11-28",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 28",
-   "phase": "league",
-   "homeId": "independiente",
-   "awayId": "huracan",
-   "homeGoals": 2,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-224",
-   "date": "1948-11-28",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 28",
-   "phase": "league",
-   "homeId": "platense",
-   "awayId": "racing",
-   "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-225",
-   "date": "1948-12-07",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 29",
-   "phase": "league",
-   "homeId": "newells",
-   "awayId": "tigre",
-   "homeGoals": 6,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-226",
-   "date": "1948-12-08",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 29",
-   "phase": "league",
-   "homeId": "chacarita",
-   "awayId": "central",
-   "homeGoals": 2,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-227",
-   "date": "1948-12-08",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 29",
-   "phase": "league",
-   "homeId": "huracan",
-   "awayId": "platense",
-   "homeGoals": 1,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-228",
-   "date": "1948-12-08",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 29",
-   "phase": "league",
-   "homeId": "lanus",
-   "awayId": "sanlorenzo",
-   "homeGoals": 4,
    "awayGoals": 0,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-229",
-   "date": "1948-12-08",
+   "id": "1958-228",
+   "date": "1958-12-21",
    "competition": "Asociación del Fútbol Argentino",
    "stage": "Fecha 29",
    "phase": "league",
-   "homeId": "river",
-   "awayId": "boca",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "sanlorenzo",
    "homeGoals": 1,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-230",
-   "date": "1948-12-08",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 29",
-   "phase": "league",
-   "homeId": "velez",
-   "awayId": "estudiantes",
-   "homeGoals": 3,
    "awayGoals": 2,
-   "venue": "Cancha de Ferro Carril Oeste",
+   "venue": "Cancha de Newell's Old Boys",
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-231",
-   "date": "1948-12-08",
+   "id": "1958-229",
+   "date": "1958-12-21",
    "competition": "Asociación del Fútbol Argentino",
    "stage": "Fecha 29",
    "phase": "league",
    "homeId": "gimnasia",
-   "awayId": "independiente",
-   "homeGoals": 1,
-   "awayGoals": 4,
-   "venue": "Cancha de Banfield",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 1,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-232",
-   "date": "1948-12-08",
+   "id": "1958-230",
+   "date": "1958-12-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-231",
+   "date": "1958-12-21",
    "competition": "Asociación del Fútbol Argentino",
    "stage": "Fecha 29",
    "phase": "league",
    "homeId": "racing",
-   "awayId": "banfield",
-   "homeGoals": 0,
-   "awayGoals": 0,
-   "venue": "Cancha de San Lorenzo",
-   "sources": [
-    "rsssf"
-   ],
-   "awardedTo": "banfield",
-   "walkover": true,
-   "note": "No se jugó: los puntos fueron para Banfield. No se jugó. Resuelto por la liga (16/12). A Racing Club le descontaron 2 puntos (sanción)."
-  },
-  {
-   "id": "1948-233",
-   "date": "1948-12-11",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 30",
-   "phase": "league",
-   "homeId": "central",
-   "awayId": "newells",
-   "homeGoals": 3,
+   "awayId": "velez",
+   "homeGoals": 2,
    "awayGoals": 2,
+   "venue": "Cancha de Independiente",
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-234",
-   "date": "1948-12-11",
+   "id": "1958-232",
+   "date": "1958-12-21",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-233",
+   "date": "1958-12-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-234",
+   "date": "1958-12-27",
    "competition": "Asociación del Fútbol Argentino",
    "stage": "Fecha 30",
    "phase": "league",
    "homeId": "estudiantes",
-   "awayId": "river",
-   "homeGoals": 0,
-   "awayGoals": 0,
+   "awayId": "argentinos",
+   "homeGoals": 5,
+   "awayGoals": 4,
    "sources": [
     "rsssf"
    ]
   },
   {
-   "id": "1948-235",
-   "date": "1948-12-12",
+   "id": "1958-235",
+   "date": "1958-12-27",
    "competition": "Asociación del Fútbol Argentino",
    "stage": "Fecha 30",
    "phase": "league",
-   "homeId": "banfield",
+   "homeId": "independiente",
    "awayId": "huracan",
    "homeGoals": 5,
    "awayGoals": 1,
@@ -3537,77 +3540,109 @@
    ]
   },
   {
-   "id": "1948-236",
-   "date": "1948-12-12",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 30",
-   "phase": "league",
-   "homeId": "boca",
-   "awayId": "lanus",
-   "homeGoals": 3,
-   "awayGoals": 3,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-237",
-   "date": "1948-12-12",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 30",
-   "phase": "league",
-   "homeId": "independiente",
-   "awayId": "chacarita",
-   "homeGoals": 1,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-238",
-   "date": "1948-12-12",
-   "competition": "Asociación del Fútbol Argentino",
-   "stage": "Fecha 30",
-   "phase": "league",
-   "homeId": "platense",
-   "awayId": "gimnasia",
-   "homeGoals": 3,
-   "awayGoals": 2,
-   "sources": [
-    "rsssf"
-   ]
-  },
-  {
-   "id": "1948-239",
-   "date": "1948-12-12",
+   "id": "1958-236",
+   "date": "1958-12-27",
    "competition": "Asociación del Fútbol Argentino",
    "stage": "Fecha 30",
    "phase": "league",
    "homeId": "sanlorenzo",
    "awayId": "racing",
-   "homeGoals": 0,
+   "homeGoals": 2,
    "awayGoals": 0,
    "sources": [
     "rsssf"
    ],
-   "awardedTo": "sanlorenzo",
-   "walkover": true,
-   "note": "No se jugó: los puntos fueron para San Lorenzo. No se jugó. Resuelto por la liga (22/12). A Racing Club le descontaron 2 puntos (sanción)."
+   "note": "Suspendido a los 67 minutos. La liga dio por bueno el resultado (12/1)."
   },
   {
-   "id": "1948-240",
-   "date": "1948-12-12",
+   "id": "1958-237",
+   "date": "1958-12-27",
    "competition": "Asociación del Fútbol Argentino",
    "stage": "Fecha 30",
    "phase": "league",
-   "homeId": "tigre",
-   "awayId": "velez",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-238",
+   "date": "1958-12-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-239",
+   "date": "1958-12-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "tigre",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1958-240",
+   "date": "1958-12-28",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "river",
    "homeGoals": 1,
    "awayGoals": 1,
    "sources": [
     "rsssf"
    ]
+  },
+  {
+   "id": "1958-241",
+   "date": "1959-04-23",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Desempate por el segundo puesto",
+   "phase": "playoff",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Ida, en la cancha de Huracán. No suma en la tabla."
+  },
+  {
+   "id": "1958-242",
+   "date": "1959-04-26",
+   "competition": "Asociación del Fútbol Argentino",
+   "stage": "Desempate por el segundo puesto",
+   "phase": "playoff",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Vuelta, en la cancha de Huracán. Ganaron un partido cada uno y Boca quedó segundo por promedio de gol en la tabla del torneo. No suma en la tabla."
   }
  ]
 }

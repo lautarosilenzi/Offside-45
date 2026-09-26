@@ -34,6 +34,14 @@ const ABOUT: Record<string, string> = {
     "Copa de Competencia Británica «Jorge VI», donada por el embajador británico. Eliminación directa entre los equipos de Primera; la de 1948 quedó sin terminar.",
   "Copa de la República":
     "Campeonato de la República: el primer torneo con clubes de todo el país. Los equipos del interior jugaban por zonas y los ganadores cruzaban con equipos de Primera.",
+  "Copa de Competencia": "Copa de Competencia «Trofeo AFA» de 1952, con equipos de Primera, de la B y campeones del interior. Se abandonó después de la ronda preliminar.",
+  "Copa Perón":
+    "Campeonato de la Provincia de Buenos Aires 1955, con doble eliminación entre siete equipos bonaerenses. La AFA lo reconoció como título de Primera en 2024.",
+  "Copa Suecia": "Copa de 1958 entre los equipos de Primera, en dos grupos, jugada mientras la selección estaba en el Mundial de Suecia.",
+  "Campeonato de Campeones":
+    "Campeonato de Campeones de la República 1959, entre los campeones de las ligas regionales. La AFA lo reconoció como título de Primera en 2024.",
+  "Copa Argentina":
+    "Copa Argentina de 1969–1970, con equipos de Primera y del interior en series de ida y vuelta. La de 1970 quedó sin terminar.",
   "Campeonato Porteño": "Partido entre los campeones de 1926 de la Asociación Argentina y de la Asociación Amateurs, antes de la unificación. Quedó sin definir.",
 };
 
@@ -70,7 +78,7 @@ export default function CupsPage() {
           </section>
         ))}
         <p className="text-sm text-navy-400">
-          Están todas las copas nacionales de Primera que reconoce la AFA hasta 1950. Las siguientes se cargan junto con sus
+          Están todas las copas nacionales de Primera que reconoce la AFA hasta 1970. Las siguientes se cargan junto con sus
           temporadas.
         </p>
       </main>
@@ -89,7 +97,10 @@ function Stat({ value, label }: { value: React.ReactNode; label: string }) {
 
 function EditionRow({ season }: { season: Season }) {
   const champion = season.championIds[0] ? getTeam(season.championIds[0]) : undefined;
-  const runnerUp = season.runnerUpIds?.[0] ? getTeam(season.runnerUpIds[0]) : undefined;
+  // Título compartido (Ibarguren 1952): el segundo campeón va en el lugar del finalista.
+  const shared = season.championIds.length > 1;
+  const runnerUpId = shared ? season.championIds[1] : season.runnerUpIds?.[0];
+  const runnerUp = runnerUpId ? getTeam(runnerUpId) : undefined;
   const final = season.matches
     .filter((m) => /^Final\b/.test(m.stage ?? "") && m.status !== "annulled")
     .sort(sourceOrder)
@@ -128,7 +139,7 @@ function EditionRow({ season }: { season: Season }) {
         )}
         {runnerUp ? (
           <span className="col-start-2 flex min-w-0 items-center gap-2 text-sm text-navy-600 sm:col-start-auto">
-            <span className="text-xs uppercase tracking-wider text-navy-400 sm:hidden">Final vs.</span>
+            <span className="text-xs uppercase tracking-wider text-navy-400 sm:hidden">{shared ? "Compartido con" : "Final vs."}</span>
             <Crest team={runnerUp} size="xs" />
             <span className="truncate">{seasonNameOf(season, runnerUp.id) ?? runnerUp.name}</span>
           </span>

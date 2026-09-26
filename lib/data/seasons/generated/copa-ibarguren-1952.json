@@ -1,0 +1,54 @@
+{
+ "slug": "copa-ibarguren-1952",
+ "kind": "cup",
+ "runnerUpIds": [],
+ "year": 1952,
+ "title": "Copa Ibarguren 1952",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "liga-cultural-sde",
+  "river"
+ ],
+ "summary": "La selección de la Liga Cultural de Santiago del Estero y River Plate empataron 1-1; el partido se suspendió en el alargue y la AFA declaró el título compartido.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1952",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1952",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1952"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "El campeón de la AFA contra la selección ganadora del Campeonato Argentino (Copa Presidente de la Nación)."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó el 9 de julio de 1954 en la cancha de Mitre (Santiago del Estero). Se suspendió a los 109 minutos, en el alargue, con 1-1. El 29 de junio de 1955 la AFA dio por terminado el partido con ese empate y declaró campeones a los dos."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1952-001",
+   "date": "1954-07-09",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "liga-cultural-sde",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Mitre (Santiago del Estero)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue. Se suspendió a los 109 minutos con 1-1; el 29/6/1955 la AFA dio por terminado el partido con ese resultado y declaró el título compartido. Goles: Loto 60' / Gómez 8'."
+  }
+ ]
+}

@@ -1,0 +1,2059 @@
+{
+ "slug": "1968-nacional",
+ "year": 1968,
+ "league": "Nacional",
+ "title": "Nacional 1968",
+ "tournament": "Campeonato Nacional 1968",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "velez"
+ ],
+ "summary": "Vélez Sarsfield ganó su primer título de Primera, después de un triangular de desempate con River y Racing.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1968",
+   "url": "https://www.rsssf.org/tablesa/arg68.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato Nacional 1968 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_Nacional_1968_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "16 equipos, todos contra todos a una rueda, 2 puntos por victoria."
+  },
+  {
+   "kind": "puntos",
+   "text": "Vélez, River y Racing terminaron igualados en el primer puesto y jugaron un triangular de desempate, que no suma en la tabla."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "velez",
+   "played": 15,
+   "won": 10,
+   "drawn": 2,
+   "lost": 3,
+   "goalsFor": 39,
+   "goalsAgainst": 14,
+   "points": 22
+  },
+  {
+   "teamId": "river",
+   "played": 15,
+   "won": 9,
+   "drawn": 4,
+   "lost": 2,
+   "goalsFor": 35,
+   "goalsAgainst": 15,
+   "points": 22
+  },
+  {
+   "teamId": "racing",
+   "played": 15,
+   "won": 8,
+   "drawn": 6,
+   "lost": 1,
+   "goalsFor": 29,
+   "goalsAgainst": 15,
+   "points": 22
+  },
+  {
+   "teamId": "central",
+   "played": 15,
+   "won": 9,
+   "drawn": 3,
+   "lost": 3,
+   "goalsFor": 28,
+   "goalsAgainst": 11,
+   "points": 21
+  },
+  {
+   "teamId": "boca",
+   "played": 15,
+   "won": 8,
+   "drawn": 5,
+   "lost": 2,
+   "goalsFor": 25,
+   "goalsAgainst": 7,
+   "points": 21
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 15,
+   "won": 8,
+   "drawn": 3,
+   "lost": 4,
+   "goalsFor": 26,
+   "goalsAgainst": 19,
+   "points": 19
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 15,
+   "won": 6,
+   "drawn": 6,
+   "lost": 3,
+   "goalsFor": 24,
+   "goalsAgainst": 20,
+   "points": 18
+  },
+  {
+   "teamId": "los-andes",
+   "played": 15,
+   "won": 6,
+   "drawn": 5,
+   "lost": 4,
+   "goalsFor": 22,
+   "goalsAgainst": 15,
+   "points": 17
+  },
+  {
+   "teamId": "huracan",
+   "played": 15,
+   "won": 5,
+   "drawn": 3,
+   "lost": 7,
+   "goalsFor": 23,
+   "goalsAgainst": 22,
+   "points": 13
+  },
+  {
+   "teamId": "belgrano",
+   "played": 15,
+   "won": 3,
+   "drawn": 7,
+   "lost": 5,
+   "goalsFor": 20,
+   "goalsAgainst": 27,
+   "points": 13
+  },
+  {
+   "teamId": "independiente",
+   "played": 15,
+   "won": 4,
+   "drawn": 4,
+   "lost": 7,
+   "goalsFor": 26,
+   "goalsAgainst": 25,
+   "points": 12
+  },
+  {
+   "teamId": "lanus",
+   "played": 15,
+   "won": 2,
+   "drawn": 7,
+   "lost": 6,
+   "goalsFor": 15,
+   "goalsAgainst": 22,
+   "points": 11
+  },
+  {
+   "teamId": "independiente-rivadavia",
+   "played": 15,
+   "won": 1,
+   "drawn": 7,
+   "lost": 7,
+   "goalsFor": 8,
+   "goalsAgainst": 25,
+   "points": 9
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 15,
+   "won": 3,
+   "drawn": 1,
+   "lost": 11,
+   "goalsFor": 12,
+   "goalsAgainst": 26,
+   "points": 7
+  },
+  {
+   "teamId": "san-martin-tucuman",
+   "played": 15,
+   "won": 2,
+   "drawn": 3,
+   "lost": 10,
+   "goalsFor": 11,
+   "goalsAgainst": 34,
+   "points": 7
+  },
+  {
+   "teamId": "huracan-iw",
+   "played": 15,
+   "won": 2,
+   "drawn": 2,
+   "lost": 11,
+   "goalsFor": 11,
+   "goalsAgainst": 57,
+   "points": 6
+  }
+ ],
+ "matches": [
+  {
+   "id": "1968-nacional-001",
+   "date": "1968-09-06",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-002",
+   "date": "1968-09-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-003",
+   "date": "1968-09-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "huracan-iw",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-004",
+   "date": "1968-09-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-005",
+   "date": "1968-09-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-006",
+   "date": "1968-09-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-007",
+   "date": "1968-09-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-008",
+   "date": "1968-09-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-009",
+   "date": "1968-09-13",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-010",
+   "date": "1968-09-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-011",
+   "date": "1968-09-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-012",
+   "date": "1968-09-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Olimpo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-013",
+   "date": "1968-09-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "los-andes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-014",
+   "date": "1968-09-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-015",
+   "date": "1968-09-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-016",
+   "date": "1968-09-16",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-017",
+   "date": "1968-09-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-018",
+   "date": "1968-09-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "huracan-iw",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-019",
+   "date": "1968-09-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-020",
+   "date": "1968-09-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-021",
+   "date": "1968-09-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-022",
+   "date": "1968-09-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-023",
+   "date": "1968-09-23",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-024",
+   "date": "1968-11-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-025",
+   "date": "1968-09-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-026",
+   "date": "1968-09-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Olimpo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-027",
+   "date": "1968-09-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "los-andes",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-028",
+   "date": "1968-09-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-029",
+   "date": "1968-09-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-030",
+   "date": "1968-09-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-031",
+   "date": "1968-09-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-032",
+   "date": "1968-09-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-033",
+   "date": "1968-10-06",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "huracan-iw",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-034",
+   "date": "1968-10-06",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-035",
+   "date": "1968-10-06",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-036",
+   "date": "1968-10-06",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-037",
+   "date": "1968-10-06",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-038",
+   "date": "1968-10-06",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-039",
+   "date": "1968-10-06",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-040",
+   "date": "1968-10-06",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-041",
+   "date": "1968-10-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-042",
+   "date": "1968-10-13",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-043",
+   "date": "1968-10-13",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 7,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-044",
+   "date": "1968-10-13",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Olimpo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-045",
+   "date": "1968-10-13",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-046",
+   "date": "1968-10-13",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-047",
+   "date": "1968-10-13",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-048",
+   "date": "1968-11-13",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-049",
+   "date": "1968-10-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-050",
+   "date": "1968-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-051",
+   "date": "1968-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Olimpo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-052",
+   "date": "1968-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-053",
+   "date": "1968-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-054",
+   "date": "1968-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-055",
+   "date": "1968-10-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Banfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-056",
+   "date": "1968-11-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-057",
+   "date": "1968-10-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "huracan-iw",
+   "homeGoals": 8,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-058",
+   "date": "1968-10-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-059",
+   "date": "1968-10-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-060",
+   "date": "1968-10-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "belgrano",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-061",
+   "date": "1968-10-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-062",
+   "date": "1968-10-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-063",
+   "date": "1968-10-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-064",
+   "date": "1968-10-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Banfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-065",
+   "date": "1968-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-066",
+   "date": "1968-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-067",
+   "date": "1968-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Olimpo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-068",
+   "date": "1968-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-069",
+   "date": "1968-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-070",
+   "date": "1968-11-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-071",
+   "date": "1968-11-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-072",
+   "date": "1968-11-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Banfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-073",
+   "date": "1968-11-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-074",
+   "date": "1968-11-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-075",
+   "date": "1968-11-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-076",
+   "date": "1968-11-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-077",
+   "date": "1968-11-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-078",
+   "date": "1968-11-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-079",
+   "date": "1968-11-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-080",
+   "date": "1968-11-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "huracan-iw",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-081",
+   "date": "1968-11-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-082",
+   "date": "1968-11-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-083",
+   "date": "1968-11-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-084",
+   "date": "1968-11-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Olimpo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-085",
+   "date": "1968-11-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-086",
+   "date": "1968-11-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-087",
+   "date": "1968-11-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-088",
+   "date": "1968-11-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-089",
+   "date": "1968-11-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-090",
+   "date": "1968-11-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Olimpo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-091",
+   "date": "1968-11-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-092",
+   "date": "1968-11-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-093",
+   "date": "1968-11-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-094",
+   "date": "1968-11-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-095",
+   "date": "1968-11-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-096",
+   "date": "1968-11-28",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-097",
+   "date": "1968-12-01",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-098",
+   "date": "1968-12-01",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-099",
+   "date": "1968-12-01",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-100",
+   "date": "1968-12-01",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-101",
+   "date": "1968-12-01",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-102",
+   "date": "1968-12-01",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "los-andes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-103",
+   "date": "1968-12-01",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "huracan-iw",
+   "homeGoals": 11,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-104",
+   "date": "1968-12-02",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Banfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-105",
+   "date": "1968-12-06",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-106",
+   "date": "1968-12-07",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "huracan-iw",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Olimpo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-107",
+   "date": "1968-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-108",
+   "date": "1968-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-109",
+   "date": "1968-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-110",
+   "date": "1968-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "belgrano",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Belgrano (COR)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-111",
+   "date": "1968-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-112",
+   "date": "1968-12-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-113",
+   "date": "1968-12-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Talleres (COR)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1968-nacional-114",
+   "date": "1968-12-13",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-115",
+   "date": "1968-12-13",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-116",
+   "date": "1968-12-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan-iw",
+   "homeGoals": 8,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-117",
+   "date": "1968-12-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-118",
+   "date": "1968-12-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-119",
+   "date": "1968-12-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-120",
+   "date": "1968-12-16",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "los-andes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1968-nacional-121",
+   "date": "1968-12-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Triangular de desempate",
+   "phase": "playoff",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "En la cancha de San Lorenzo. No suma en la tabla."
+  },
+  {
+   "id": "1968-nacional-122",
+   "date": "1968-12-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Triangular de desempate",
+   "phase": "playoff",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "En la cancha de San Lorenzo. No suma en la tabla."
+  },
+  {
+   "id": "1968-nacional-123",
+   "date": "1968-12-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Triangular de desempate",
+   "phase": "playoff",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "En la cancha de San Lorenzo: Vélez Sarsfield campeón. No suma en la tabla."
+  }
+ ]
+}

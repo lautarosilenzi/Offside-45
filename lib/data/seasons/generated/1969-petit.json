@@ -1,0 +1,112 @@
+{
+ "slug": "1969-petit",
+ "year": 1969,
+ "league": "Petit Torneo",
+ "title": "Petit Torneo 1969",
+ "tournament": "Torneo Petit Torneo 1969",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Unión ganó el Petit Torneo y el lugar en el Nacional; los otros tres fueron al Reclasificatorio.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1969",
+   "url": "https://www.rsssf.org/tablesa/arg69.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Eliminación entre cuatro equipos del Metropolitano por un lugar en el Nacional."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "union-santa-fe",
+   "played": 2,
+   "won": 2,
+   "drawn": 0,
+   "lost": 0,
+   "goalsFor": 7,
+   "goalsAgainst": 3,
+   "points": 4
+  },
+  {
+   "teamId": "newells",
+   "played": 2,
+   "won": 1,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 4,
+   "goalsAgainst": 4,
+   "points": 2
+  },
+  {
+   "teamId": "central",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 0,
+   "goalsAgainst": 1,
+   "points": 0
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 0,
+   "goalsAgainst": 3,
+   "points": 0
+  }
+ ],
+ "matches": [
+  {
+   "id": "1969-petit-001",
+   "date": "1969-07-01",
+   "competition": "Asociación del Fútbol Argentino · Petit Torneo",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1969-petit-002",
+   "date": "1969-07-02",
+   "competition": "Asociación del Fútbol Argentino · Petit Torneo",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1969-petit-003",
+   "date": "1969-07-05",
+   "competition": "Asociación del Fútbol Argentino · Petit Torneo",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue."
+  }
+ ]
+}

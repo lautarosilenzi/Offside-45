@@ -68,6 +68,8 @@ export function translateNote(
   const parts = note
     .replace(/^\[|\]$/g, "")
     .replace(/\babandonded\b/gi, "abandoned") // errata de la fuente (1950)
+    .replace(/\babandoned al\b/gi, "abandoned at") // errata de la fuente (1953)
+    .replace(/\s+\|\s+/g, "; ")
     .replace(/\baet( \d+m?)?,\s*/gi, "aet$1; ")
     .replace(/\bwalk ?over,\s*/gi, "walkover; ")
     // "0:4 annulled, Sportivo Balcarce" y "Estudiantes (C) (aet)": el dato y la cancha por separado.
@@ -83,7 +85,7 @@ export function translateNote(
     // "HT, score stood" va junto (lo traduce una sola regla); "see Jul 17", "remaining 49 on…" e "in extra time…" van aparte.
     // La cancha al final ("…, Racing, Avellaneda, B") también va aparte del texto que la precede.
     .split(
-      /\]\s*\[|;\s*|,\s*(?=(?:aet|asdet|lasted|at|annulled|abandoned|suspended|played|awarded|n\/p|see|remaining|in extra time|continue on|to be replayed)\b)|(?<!HT),\s*(?=score stood\b)|,\s*(?=[^,]+,\s*[^,]+,\s*[BCS]$)/i,
+      /\]\s*\[|;\s*|,\s*(?=(?:aet|asdet|lasted|at|annulled|abandoned|suspended|played|awarded|n\/p|see|remaining|remained|in extra time|continue on|to be replayed)\b)|(?<!HT),\s*(?=score stood\b)|,\s*(?=[^,]+,\s*[^,]+,\s*[BCS]$)/i,
     )
     // Sin corchetes ni el punto final ("San Isidro was suspended."); "W.O." conserva sus puntos.
     .map((p) => p.replace(/[\[\]]/g, "").trim().replace(/(?<!\b[A-Z])\.$/, ""))
@@ -179,6 +181,7 @@ export function translateNote(
     }
     else if (/^second half played friendly$/i.test(p)) out.text.push("El segundo tiempo se jugó como amistoso; vale el resultado del primero.");
     else if (/^played again$/i.test(p)) continue;
+    else if (/^played \d+:\d+$/i.test(p)) continue; // parcial de "lp 1:1 wp", ya usado como resultado
     else if ((m = p.match(/^(.+?) (?:forfeited|wihtdrew|withdrawn)$/i))) {
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} no se presentó.`);
@@ -211,7 +214,19 @@ export function translateNote(
     else if (/^replayed$/i.test(p)) out.text.push("Partido jugado de nuevo (el primero se anuló).");
     else if (/^to be replayed$/i.test(p)) out.text.push("Se ordenó volver a jugarlo.");
     else if ((m = p.match(/^(\d+) minutes remaining$/i))) out.text.push(`Faltaban ${m[1]} minutos.`);
-    else if ((m = p.match(/^(.+?) (\d+) points? deducted\)?$/i))) {
+    // 1955: "[at Racing Club, remained 87]": la continuación de un partido suspendido.
+    else if ((m = p.match(/^(?:remained|remaining) (\d+)(?:m|')?$/i))) out.text.push(`Se jugaron los ${m[1]} minutos que faltaban.`);
+    else if (/^the score stood$/i.test(p)) out.text.push("Resuelto por la liga.");
+    // Años 50 y 60: más variantes de partidos suspendidos.
+    else if ((m = p.match(/^suspended at (\d+)m?, not continued$/i))) out.text.push(`Suspendido a los ${m[1]} minutos; no se completó y quedó el resultado del momento.`);
+    else if ((m = p.match(/^abandoned at (\d+)\s*[-:]\s*(\d+) in (\d+)m?(?: HT)?$/i)))
+      out.text.push(`Suspendido a los ${m[3]} minutos${/HT$/i.test(p) ? " (en el entretiempo)" : ""} con ${m[1]}-${m[2]}.`);
+    else if ((m = p.match(/^remaining time (?:on|in) (.+)$/i))) out.text.push(`El resto se jugó el ${esDate(m[1])}.`);
+    else if (/^First match in new Atlanta field$/i.test(p)) out.text.push("Primer partido en la nueva cancha de Atlanta.");
+    else if ((m = p.match(/^not played, (.+?) (\d+) points? deducted$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`Además, a ${club ? club.as ?? club.name : m[1]} le descontaron ${m[2]} puntos (sanción).`);
+    } else if ((m = p.match(/^(.+?) (\d+) points? deducted\)?$/i))) {
       const club = resolveName(m[1], year);
       out.text.push(`A ${club ? club.as ?? club.name : m[1]} le descontaron ${m[2]} puntos (sanción).`);
     }
@@ -345,12 +360,15 @@ function stageOf(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
   if (/(2nd|second) half season/i.test(r)) return { stage: "Segunda rueda", phase: "league" };
   if (/group ([a-z]) winner playoff/i.test(r)) return { stage: `Desempate del Grupo ${r.match(/group ([a-z])/i)![1].toUpperCase()}`, phase: "playoff" };
   if (/championship final/i.test(r)) return { stage: "Final", phase: "playoff" };
+  // Metropolitanos 1967–1970: semifinales y final entre los primeros de cada zona.
+  if (/semi-?finals?/i.test(r)) return { stage: "Semifinal", phase: "playoff" };
   if (/third position|third place/i.test(r)) return { stage: "Tercer puesto", phase: "playoff" };
   if (/first playoff/i.test(r)) return { stage: "Primer desempate", phase: "playoff" };
   if (/third playoff/i.test(r)) return { stage: "Tercer desempate", phase: "playoff" };
   if (/second playoff/i.test(r)) return { stage: "Segundo desempate", phase: "playoff" };
   // En una liga, los partidos de ida y vuelta ("First leg [Dec 3]") son desempates (1950).
-  if (/playoff|play-off|replay|\bleg\b/i.test(r)) return { stage: "Desempate", phase: "playoff" };
+  // Y el triangular de 1968: "1st. Match [Dec 19]".
+  if (/playoff|play-off|replay|\bleg\b|\d(?:st|nd|rd|th)\.?\s+match\b/i.test(r)) return { stage: "Desempate", phase: "playoff" };
   if (/final/i.test(r)) return { stage: "Final", phase: "playoff" };
   return { stage: r || undefined, phase: "league" };
 }
@@ -527,13 +545,23 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       // "abandoned at 1:1 in 35": se suspendió y la liga lo resolvió; queda el resultado parcial, también sin sumar goles.
       const orig = raw.note.match(/originally (\d+)\s*[:\-]\s*(\d+)/i);
       const abd = raw.note.match(/abandoned at (\d+)\s*[:\-]\s*(\d+) in (\d+)/i);
-      if (orig || abd) {
-        const [hg, ag] = orig ? [orig[1], orig[2]] : [abd![1], abd![2]];
+      // "lp 1:1 wp" (años 50): el parcial va en la fila; los minutos, si los hay, en la nota ("abandoned at 66m").
+      const played = raw.note.match(/played (\d+)\s*:\s*(\d+)/i);
+      const playedMin = raw.note.match(/abandoned (?:at|in) (\d+)m?\b(?!\s*:)/i);
+      if (orig || abd || played) {
+        const [hg, ag] = orig ? [orig[1], orig[2]] : abd ? [abd[1], abd[2]] : [played![1], played![2]];
         m.homeGoals = +hg;
         m.awayGoals = +ag;
-        m.goalsVoid = true;
-        note.text = note.text.filter((t) => !/^En la cancha había terminado|^Suspendido a los/.test(t));
-        const how = orig ? `Se jugó y terminó ${hg}-${ag}` : `Se suspendió a los ${abd![3]} minutos con ${hg}-${ag}`;
+        // Hasta los años 40 las tablas no cuentan esos goles; desde los 50 sí (lo confirma el control de la tabla).
+        if (!cfg.awardedGoalsCount) m.goalsVoid = true;
+        note.text = note.text.filter((t) => !/^En la cancha había terminado|^Suspendido a los|^Suspendido\.?$/.test(t));
+        const how = orig
+          ? `Se jugó y terminó ${hg}-${ag}`
+          : abd
+            ? `Se suspendió a los ${abd[3]} minutos con ${hg}-${ag}`
+            : playedMin
+              ? `Se suspendió a los ${playedMin[1]} minutos con ${hg}-${ag}`
+              : `Se jugó (${hg}-${ag})`;
         note.text.unshift(cfg.kind === "cup" ? `${how}, pero la liga le dio el partido a ${who}.` : `${how}, pero la liga le dio los puntos a ${who}.`);
       } else {
         m.walkover = true;
@@ -544,7 +572,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       if (s[0] === "w") m.winnerId = home.id;
       if (s[0] === "l") m.winnerId = away.id;
       note.text.unshift("Resultado no registrado en los diarios de la época; solo se sabe cómo terminó.");
-    } else if (s === "abd" && (g = raw.note.match(/(?:abandoned|abd) at (\d+)\s*[:\-]\s*(\d+)(?: in (\d+))?/i))) {
+    } else if (s === "abd" && (g = raw.note.match(/(?:abandon(?:d)?ed|abd) at (\d+)\s*[:\-]\s*(\d+)(?: in (\d+))?/i))) {
       // Suspendido: si la liga dio por bueno el resultado ("score stood") cuenta; si no, se muestra pero no suma.
       m.homeGoals = +g[1];
       m.awayGoals = +g[2];
@@ -608,7 +636,9 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       if (extra.venue) m.venue = extra.venue;
       const txt = [...extra.text, ...extra.unknown.map((u) => (/forfeited$/i.test(u) ? `${u.replace(/ forfeited$/i, "")} no se presentó.` : u))];
       if (txt.length) m.note = [m.note, ...txt].filter(Boolean).join(" ");
-    } else if (raw.scorers) m.note = [m.note, `Goles: ${raw.scorers.replace(/;\s*/, " / ")}.`].filter(Boolean).join(" ");
+    } else if (raw.scorers)
+      // "[Acevedo(2)]   [Rulli, …]" (1965): un corchete por equipo.
+      m.note = [m.note, `Goles: ${raw.scorers.replace(/;\s*/, " / ").replace(/\]\s*\[/g, " / ")}.`].filter(Boolean).join(" ");
     if (ov) Object.assign(m, ov);
     // Suspendido y completado otro día: RSSSF lo lista dos veces; vale la segunda aparición.
     if (note.continuedOn) {
@@ -637,6 +667,45 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       part.note = [`Suspendido con ${partial}; la fuente indica que se completó el ${continuedOn}.`, part.note].filter(Boolean).join(" ");
       matches.push(part);
     }
+  }
+  // Desde los años 50 RSSSF lista un partido suspendido dos veces en la misma fecha: la fila "abd" y después la que
+  // quedó (dada por la liga, "awarded", o completada, "remained N"). Es un solo partido: queda la segunda con la historia.
+  for (const part of [...matches]) {
+    const g = part.status === "annulled" ? part.note?.match(/^Suspendido(?: a los (\d+) minutos)? con (\d+)-(\d+) y no se completó: no suma\.$/) : null;
+    if (!g) continue;
+    const rest = matches.find(
+      (x) => x !== part && x.homeId === part.homeId && x.awayId === part.awayId && x.stage === part.stage && x.status !== "annulled" && x.date >= part.date,
+    );
+    if (!rest || !(rest.walkover || /Resuelto por la liga|minutos que faltaban/.test(rest.note ?? ""))) continue;
+    const at = g[1] ? ` a los ${g[1]} minutos` : "";
+    const day = part.date.split("-").reverse().slice(0, 2).map(Number).join("/");
+    let what: string;
+    if (/minutos que faltaban/.test(rest.note!)) what = `Empezó el ${day} y se suspendió${at} con ${g[2]}-${g[3]}; el resto se jugó en esta fecha.`;
+    else if (rest.walkover && rest.awardedTo) {
+      // "abd" y después "awd [awarded lp-wp]" (1969, 1970): se jugó, se suspendió y la liga le dio los puntos a uno.
+      const who = getTeam(rest.awardedTo);
+      rest.walkover = undefined;
+      rest.homeGoals = +g[2];
+      rest.awayGoals = +g[3];
+      if (!cfg.awardedGoalsCount) rest.goalsVoid = true;
+      rest.note = rest.note?.replace(/No se jugó: los puntos fueron para [^.]+\.\s*/, "");
+      what = `Suspendido${at} con ${g[2]}-${g[3]}; la liga le dio los puntos a ${who?.name ?? rest.awardedTo}.`;
+      if (rest.date !== part.date) { what += ` La liga lo resolvió el ${rest.date.split("-").reverse().slice(0, 2).map(Number).join("/")}.`; rest.date = part.date; }
+    } else {
+      what =
+        rest.homeGoals === +g[2] && rest.awayGoals === +g[3]
+          ? `Suspendido${at} con ${g[2]}-${g[3]}; la liga dio por bueno ese resultado.`
+          : `Suspendido${at} con ${g[2]}-${g[3]}; la liga dio el partido ${rest.homeGoals}-${rest.awayGoals}.`;
+      const w = rest.homeGoals > rest.awayGoals ? rest.homeId : rest.awayGoals > rest.homeGoals ? rest.awayId : undefined;
+      if (w && !(rest.homeGoals === +g[2] && rest.awayGoals === +g[3])) rest.awardedTo = w;
+      if (rest.date !== part.date) { what += ` La liga lo resolvió el ${rest.date.split("-").reverse().slice(0, 2).map(Number).join("/")}.`; rest.date = part.date; }
+    }
+    // "Fecha dudosa" era la de la resolución, que ahora queda en la nota.
+    const moved = /La liga lo resolvió el/.test(what);
+    if (moved && /Fecha dudosa en la fuente\./.test(rest.note ?? "")) what = what.replace(/\.$/, " (fecha dudosa en la fuente).");
+    const drop = moved ? /(Resuelto por la liga\.|Se jugaron los \d+ minutos que faltaban\.|Fecha dudosa en la fuente\.)\s*/g : /(Resuelto por la liga\.|Se jugaron los \d+ minutos que faltaban\.)\s*/g;
+    rest.note = [what, rest.note?.replace(drop, "").trim()].filter(Boolean).join(" ");
+    matches.splice(matches.indexOf(part), 1);
   }
   for (const extra of cfg.extraMatches ?? []) matches.push({ sources: ["rsssf"], competition: cfg.competition, ...extra } as Match);
   if (cfg.finalIsLast) {
@@ -737,7 +806,10 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     const cup = verifyCup(season, cfg);
     problems.push(...cup.problems);
     warnings.push(...cup.warnings);
-    // Copas por grupos: la tabla de cada grupo, recalculada con sus partidos, contra la que publica la fuente.
+  }
+  // Copas por grupos (y fases aparte de una liga, 1969): la tabla de cada fase, recalculada con sus partidos,
+  // contra la que publica la fuente.
+  {
     for (const gt of cfg.groupTables ?? []) {
       const rows = section.tables[gt.table] ?? [];
       if (!rows.length) {
@@ -745,7 +817,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
         continue;
       }
       const re = new RegExp(gt.stage);
-      const sub: Season = { ...season, matches: season.matches.filter((m) => re.test(m.stage ?? "")), publishedTable: [] };
+      const sub: Season = { ...season, matches: season.matches.filter((m) => re.test(m.stage ?? "")), publishedTable: [], tableIncludesPlayoffs: true };
       const calc = new Map(computeTable(sub).map((r) => [r.teamId, r]));
       let ok = 0;
       for (const r of rows) {
@@ -763,6 +835,8 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       }
       warnings.push(`Grupo ${gt.stage}: la tabla coincide en ${ok} de ${rows.length} equipos`);
     }
+  }
+  if (cfg.kind === "cup") {
     // Completitud: la lista de participantes de la página contra los equipos que tienen partidos.
     const listed = participantsOf(section.text, cfg.year);
     if (listed) {
@@ -836,14 +910,18 @@ function verifyCup(season: Season, cfg: TournamentConfig): { problems: string[];
   const finals = counted.filter((m) => /^Final\b/.test(m.stage ?? "")).sort((a, b) => a.id.localeCompare(b.id));
   const final = finals[finals.length - 1];
   if (cfg.abandoned) {
-    if (final) problems.push("Copa: está marcada como suspendida pero tiene final");
+    // Una final de ida y vuelta que quedó en la ida (Copa Argentina 1970) no define campeón.
+    if (final && !/\(ida\)$/.test(final.stage ?? "")) problems.push("Copa: está marcada como suspendida pero tiene final");
   } else if (!final && cfg.noFinal) warnings.push("Copa: sin final (explicado en las notas)");
   else if (!final) problems.push("Copa: no encontré la final");
   else {
     const w = final.awardedTo ?? final.advancedId ?? (final.homeGoals > final.awayGoals ? final.homeId : final.awayGoals > final.homeGoals ? final.awayId : null);
     const loser = w === final.homeId ? final.awayId : final.homeId;
-    if (w !== season.championIds[0]) problems.push(`Copa: la final la ganó ${w ?? "nadie (empate)"}, pero el campeón configurado es ${season.championIds[0]}`);
-    if (cfg.runnerUpIds && loser !== cfg.runnerUpIds[0]) problems.push(`Copa: el finalista es ${loser}, no ${cfg.runnerUpIds[0]}`);
+    // Título compartido (Ibarguren 1952): final empatada y los dos finalistas como campeones.
+    const shared = w === null && season.championIds.length === 2 && season.championIds.includes(final.homeId) && season.championIds.includes(final.awayId);
+    if (shared) warnings.push("Copa: final empatada y título compartido (así en la configuración)");
+    else if (w !== season.championIds[0]) problems.push(`Copa: la final la ganó ${w ?? "nadie (empate)"}, pero el campeón configurado es ${season.championIds[0]}`);
+    if (!shared && cfg.runnerUpIds && loser !== cfg.runnerUpIds[0]) problems.push(`Copa: el finalista es ${loser}, no ${cfg.runnerUpIds[0]}`);
     const idx = CUP_INDEX.get(`${cfg.file}|${cfg.year}`);
     if (idx) {
       const sc = final.walkover ? "wp:lp" : `${final.homeGoals}:${final.awayGoals}`;
@@ -856,7 +934,7 @@ function verifyCup(season: Season, cfg: TournamentConfig): { problems: string[];
       else warnings.push(`Copa: final confirmada por el índice de RSSSF (${idx.raw})`);
     } else warnings.push("Copa: esta edición no figura en el índice de RSSSF");
   }
-  if (!season.groups?.length && !season.publishedTable.length) {
+  if ((!season.groups?.length && !season.publishedTable.length) || cfg.checkEliminations) {
     // En el orden de la fuente (cronológico, y el único disponible cuando falta la fecha).
     const eliminated = new Map<string, string>();
     for (const m of [...counted].sort((a, b) => a.id.localeCompare(b.id))) {
@@ -866,6 +944,8 @@ function verifyCup(season: Season, cfg: TournamentConfig): { problems: string[];
         if (out && !allowed && !/desempate/i.test(m.stage ?? "")) problems.push(`Copa: ${id} quedó eliminado en ${out} y vuelve a jugar (${m.date}, ${m.stage ?? "sin fase"})`);
       }
       const w = m.awardedTo ?? m.advancedId ?? (m.homeGoals > m.awayGoals ? m.homeId : m.awayGoals > m.homeGoals ? m.awayId : null);
+      // Series de ida y vuelta: la ida no elimina a nadie; en la vuelta, advancedId marca quién pasó en el global.
+      if (/\(ida\)$/.test(m.stage ?? "")) continue;
       if (w && !m.bothLost && (cfg.knockoutGroups || !/Grupo|Zona|Ronda final/.test(m.stage ?? ""))) eliminated.set(w === m.homeId ? m.awayId : m.homeId, `${m.date} ${m.homeId}-${m.awayId}`);
     }
   }

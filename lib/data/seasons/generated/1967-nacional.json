@@ -1,0 +1,1994 @@
+{
+ "slug": "1967-nacional",
+ "year": 1967,
+ "league": "Nacional",
+ "title": "Nacional 1967",
+ "tournament": "Campeonato Nacional 1967",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "independiente"
+ ],
+ "summary": "Independiente ganó el primer Nacional, dos puntos delante de Estudiantes.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1967",
+   "url": "https://www.rsssf.org/tablesa/arg67.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato Nacional 1967 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_Nacional_1967_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "16 equipos, todos contra todos a una rueda: los 12 mejores del Metropolitano y los 4 ganadores de los torneos regionales del interior. 2 puntos por victoria."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "independiente",
+   "played": 15,
+   "won": 12,
+   "drawn": 2,
+   "lost": 1,
+   "goalsFor": 43,
+   "goalsAgainst": 14,
+   "points": 26
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 15,
+   "won": 9,
+   "drawn": 6,
+   "lost": 0,
+   "goalsFor": 19,
+   "goalsAgainst": 8,
+   "points": 24
+  },
+  {
+   "teamId": "velez",
+   "played": 15,
+   "won": 8,
+   "drawn": 4,
+   "lost": 3,
+   "goalsFor": 28,
+   "goalsAgainst": 14,
+   "points": 20
+  },
+  {
+   "teamId": "central",
+   "played": 15,
+   "won": 8,
+   "drawn": 4,
+   "lost": 3,
+   "goalsFor": 26,
+   "goalsAgainst": 13,
+   "points": 20
+  },
+  {
+   "teamId": "river",
+   "played": 15,
+   "won": 9,
+   "drawn": 1,
+   "lost": 5,
+   "goalsFor": 33,
+   "goalsAgainst": 15,
+   "points": 19
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 15,
+   "won": 7,
+   "drawn": 4,
+   "lost": 4,
+   "goalsFor": 32,
+   "goalsAgainst": 15,
+   "points": 18
+  },
+  {
+   "teamId": "lanus",
+   "played": 15,
+   "won": 8,
+   "drawn": 0,
+   "lost": 7,
+   "goalsFor": 23,
+   "goalsAgainst": 26,
+   "points": 16
+  },
+  {
+   "teamId": "boca",
+   "played": 15,
+   "won": 6,
+   "drawn": 4,
+   "lost": 5,
+   "goalsFor": 21,
+   "goalsAgainst": 20,
+   "points": 16
+  },
+  {
+   "teamId": "ferro",
+   "played": 15,
+   "won": 5,
+   "drawn": 5,
+   "lost": 5,
+   "goalsFor": 21,
+   "goalsAgainst": 22,
+   "points": 15
+  },
+  {
+   "teamId": "platense",
+   "played": 15,
+   "won": 5,
+   "drawn": 5,
+   "lost": 5,
+   "goalsFor": 19,
+   "goalsAgainst": 20,
+   "points": 15
+  },
+  {
+   "teamId": "quilmes",
+   "played": 15,
+   "won": 5,
+   "drawn": 3,
+   "lost": 7,
+   "goalsFor": 16,
+   "goalsAgainst": 19,
+   "points": 13
+  },
+  {
+   "teamId": "san-martin-mendoza",
+   "played": 15,
+   "won": 3,
+   "drawn": 4,
+   "lost": 8,
+   "goalsFor": 17,
+   "goalsAgainst": 31,
+   "points": 10
+  },
+  {
+   "teamId": "racing",
+   "played": 15,
+   "won": 2,
+   "drawn": 6,
+   "lost": 7,
+   "goalsFor": 11,
+   "goalsAgainst": 23,
+   "points": 10
+  },
+  {
+   "teamId": "central-cordoba-sde",
+   "played": 15,
+   "won": 2,
+   "drawn": 5,
+   "lost": 8,
+   "goalsFor": 11,
+   "goalsAgainst": 25,
+   "points": 9
+  },
+  {
+   "teamId": "san-lorenzo-mdp",
+   "played": 15,
+   "won": 1,
+   "drawn": 4,
+   "lost": 10,
+   "goalsFor": 11,
+   "goalsAgainst": 33,
+   "points": 6
+  },
+  {
+   "teamId": "chaco-for-ever",
+   "played": 15,
+   "won": 1,
+   "drawn": 1,
+   "lost": 13,
+   "goalsFor": 11,
+   "goalsAgainst": 44,
+   "points": 3
+  }
+ ],
+ "matches": [
+  {
+   "id": "1967-nacional-001",
+   "date": "1967-09-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-002",
+   "date": "1967-09-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-003",
+   "date": "1967-09-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-004",
+   "date": "1967-09-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-005",
+   "date": "1967-09-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-006",
+   "date": "1967-09-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "san-lorenzo-mdp",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-007",
+   "date": "1967-09-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-008",
+   "date": "1967-09-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "san-martin-mendoza",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-009",
+   "date": "1967-09-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-010",
+   "date": "1967-09-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-011",
+   "date": "1967-09-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-012",
+   "date": "1967-09-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-013",
+   "date": "1967-09-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-014",
+   "date": "1967-09-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-015",
+   "date": "1967-09-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "san-lorenzo-mdp",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de General San Martín",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-016",
+   "date": "1967-09-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-017",
+   "date": "1967-09-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-018",
+   "date": "1967-09-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-019",
+   "date": "1967-09-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-020",
+   "date": "1967-09-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-021",
+   "date": "1967-09-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-022",
+   "date": "1967-09-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "san-lorenzo-mdp",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-023",
+   "date": "1967-09-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-024",
+   "date": "1967-09-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "san-martin-mendoza",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Godoy Cruz",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-025",
+   "date": "1967-09-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-026",
+   "date": "1967-10-01",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-027",
+   "date": "1967-10-01",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-028",
+   "date": "1967-10-01",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-029",
+   "date": "1967-10-01",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "lanus",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-030",
+   "date": "1967-10-01",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 8,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-031",
+   "date": "1967-10-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "san-lorenzo-mdp",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de General San Martín",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-032",
+   "date": "1967-10-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-033",
+   "date": "1967-10-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-034",
+   "date": "1967-10-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-035",
+   "date": "1967-10-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-036",
+   "date": "1967-10-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-037",
+   "date": "1967-10-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-038",
+   "date": "1967-10-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-039",
+   "date": "1967-10-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "san-martin-mendoza",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Godoy Cruz",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-040",
+   "date": "1967-10-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "san-lorenzo-mdp",
+   "homeGoals": 8,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-041",
+   "date": "1967-10-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-042",
+   "date": "1967-10-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-043",
+   "date": "1967-10-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-044",
+   "date": "1967-10-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-045",
+   "date": "1967-10-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "san-lorenzo-mdp",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de General San Martín",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-046",
+   "date": "1967-10-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-047",
+   "date": "1967-10-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-048",
+   "date": "1967-11-21",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-049",
+   "date": "1967-10-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-050",
+   "date": "1967-10-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-051",
+   "date": "1967-10-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-052",
+   "date": "1967-10-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-053",
+   "date": "1967-10-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "san-lorenzo-mdp",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-054",
+   "date": "1967-10-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "san-martin-mendoza",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Godoy Cruz",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-055",
+   "date": "1967-10-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-056",
+   "date": "1967-10-22",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-057",
+   "date": "1967-10-27",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-058",
+   "date": "1967-10-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-059",
+   "date": "1967-10-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-060",
+   "date": "1967-10-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-061",
+   "date": "1967-10-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-062",
+   "date": "1967-10-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "san-lorenzo-mdp",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de General San Martín",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-063",
+   "date": "1967-10-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-064",
+   "date": "1967-11-29",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-065",
+   "date": "1967-11-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-066",
+   "date": "1967-11-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-067",
+   "date": "1967-11-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "san-lorenzo-mdp",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-068",
+   "date": "1967-11-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-069",
+   "date": "1967-11-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-070",
+   "date": "1967-11-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-071",
+   "date": "1967-11-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "san-martin-mendoza",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Godoy Cruz",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-072",
+   "date": "1967-11-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-073",
+   "date": "1967-11-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-074",
+   "date": "1967-11-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-075",
+   "date": "1967-11-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-076",
+   "date": "1967-11-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-077",
+   "date": "1967-11-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-078",
+   "date": "1967-11-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-079",
+   "date": "1967-11-12",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "san-lorenzo-mdp",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de General San Martín",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-080",
+   "date": "1967-11-13",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-081",
+   "date": "1967-11-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Banfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-082",
+   "date": "1967-11-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-083",
+   "date": "1967-11-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "san-lorenzo-mdp",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-084",
+   "date": "1967-11-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-085",
+   "date": "1967-11-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-086",
+   "date": "1967-11-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-087",
+   "date": "1967-11-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-088",
+   "date": "1967-11-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "san-martin-mendoza",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-089",
+   "date": "1967-11-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-090",
+   "date": "1967-11-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-091",
+   "date": "1967-11-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-092",
+   "date": "1967-11-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-093",
+   "date": "1967-11-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-094",
+   "date": "1967-11-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "san-lorenzo-mdp",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de General San Martín",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-095",
+   "date": "1967-11-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-096",
+   "date": "1967-11-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-097",
+   "date": "1967-12-02",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "san-lorenzo-mdp",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de General San Martín",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-098",
+   "date": "1967-12-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-099",
+   "date": "1967-12-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-100",
+   "date": "1967-12-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-101",
+   "date": "1967-12-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-102",
+   "date": "1967-12-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-103",
+   "date": "1967-12-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-104",
+   "date": "1967-12-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-105",
+   "date": "1967-12-08",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-106",
+   "date": "1967-12-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-107",
+   "date": "1967-12-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-108",
+   "date": "1967-12-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "san-lorenzo-mdp",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-109",
+   "date": "1967-12-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-110",
+   "date": "1967-12-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "san-martin-mendoza",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Andes Talleres",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-111",
+   "date": "1967-12-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-112",
+   "date": "1967-12-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-113",
+   "date": "1967-12-15",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-114",
+   "date": "1967-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1967-nacional-115",
+   "date": "1967-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-116",
+   "date": "1967-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Tarabini 47pen, Artime 55, 68, Savoy 88."
+  },
+  {
+   "id": "1967-nacional-117",
+   "date": "1967-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-118",
+   "date": "1967-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-119",
+   "date": "1967-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "san-lorenzo-mdp",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de General San Martín",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1967-nacional-120",
+   "date": "1967-12-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}

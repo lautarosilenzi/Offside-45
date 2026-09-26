@@ -1,6 +1,7 @@
 // Copas nacionales de la era amateur (lista oficial de la AFA). Cada edición se importa como una temporada de tipo "cup".
 import type { TournamentConfig } from "./config";
 import { CUP_TOURNAMENTS_40S } from "./config-cups-40s";
+import { CUP_TOURNAMENTS_50S } from "./config-cups-50s";
 
 const AFA_1903 = "Argentine Football Association";
 const AAF = "Asociación Argentina de Football";
@@ -945,6 +946,34 @@ export const CUP_TOURNAMENTS: TournamentConfig[] = [
       { kind: "fuentes", text: "El índice de copas de RSSSF da 3-0; la página del partido (con los seis goleadores) y Wikipedia dan 6-0." },
     ],
   }),
+  ibarguren(1952, {
+    championIds: ["liga-cultural-sde", "river"],
+    runnerUpIds: [],
+    organizer: "Asociación del Fútbol Argentino",
+    aliases: { "Liga Cultural (SDE)": "liga-cultural-sde" },
+    overrides: {
+      "1954-07-09 liga-cultural-sde river": {
+        venue: "Cancha de Mitre (Santiago del Estero)",
+        note: "Con alargue. Se suspendió a los 109 minutos con 1-1; el 29/6/1955 la AFA dio por terminado el partido con ese resultado y declaró el título compartido. Goles: Loto 60' / Gómez 8'.",
+      },
+    },
+    summary: "La selección de la Liga Cultural de Santiago del Estero y River Plate empataron 1-1; el partido se suspendió en el alargue y la AFA declaró el título compartido.",
+    notes: [
+      { kind: "formato", text: "El campeón de la AFA contra la selección ganadora del Campeonato Argentino (Copa Presidente de la Nación)." },
+      { kind: "dato", text: "Se jugó el 9 de julio de 1954 en la cancha de Mitre (Santiago del Estero). Se suspendió a los 109 minutos, en el alargue, con 1-1. El 29 de junio de 1955 la AFA dio por terminado el partido con ese empate y declaró campeones a los dos." },
+    ],
+  }),
+  ibarguren(1958, {
+    championIds: ["liga-cordobesa"],
+    runnerUpIds: ["racing"],
+    organizer: "Asociación del Fútbol Argentino",
+    aliases: { "Liga Cordobesa (COR)": "liga-cordobesa" },
+    summary: "La selección de la Liga Cordobesa le ganó 4-3 a Racing Club en la cancha de Belgrano, en la última edición de la copa.",
+    notes: [
+      { kind: "formato", text: "El campeón de la AFA contra la selección ganadora del Campeonato Argentino." },
+      { kind: "dato", text: "Se jugó el 13 de marzo de 1960. Fue la última Copa Ibarguren." },
+    ],
+  }),
   ibarguren(1950, {
     championIds: ["liga-mendocina"],
     runnerUpIds: ["racing"],
@@ -956,4 +985,5 @@ export const CUP_TOURNAMENTS: TournamentConfig[] = [
       { kind: "dato", text: "Se jugó el 17 de diciembre de 1950, en la cancha de Gimnasia y Esgrima de Mendoza." },
     ],
   }),
+  ...CUP_TOURNAMENTS_50S,
 ];

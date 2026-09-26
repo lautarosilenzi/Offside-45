@@ -4435,23 +4435,6 @@
    ]
   },
   {
-   "id": "1939-300",
-   "date": "1939-12-02",
-   "competition": "Asociación del Football Argentino",
-   "stage": "Fecha 34",
-   "phase": "league",
-   "homeId": "boca",
-   "awayId": "ferro",
-   "homeGoals": 1,
-   "awayGoals": 0,
-   "venue": "Cancha de Chacarita Juniors",
-   "sources": [
-    "rsssf"
-   ],
-   "status": "annulled",
-   "note": "Suspendido a los 33 minutos con 1-0 y no se completó: no suma."
-  },
-  {
    "id": "1939-301",
    "date": "1939-12-02",
    "competition": "Asociación del Football Argentino",
@@ -4551,20 +4534,20 @@
   },
   {
    "id": "1939-308",
-   "date": "1939-12-22",
+   "date": "1939-12-02",
    "competition": "Asociación del Football Argentino",
    "stage": "Fecha 34",
    "phase": "league",
    "homeId": "boca",
    "awayId": "ferro",
-   "homeGoals": 0,
+   "homeGoals": 1,
    "awayGoals": 0,
    "sources": [
     "rsssf"
    ],
    "awardedTo": "boca",
-   "walkover": true,
-   "note": "No se jugó: los puntos fueron para Boca Juniors. Resuelto por la liga."
+   "note": "Suspendido a los 33 minutos con 1-0; la liga le dio los puntos a Boca Juniors. La liga lo resolvió el 22/12.",
+   "goalsVoid": true
   },
   {
    "id": "1939-309",

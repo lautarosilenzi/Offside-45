@@ -1,0 +1,55 @@
+{
+ "slug": "copa-ibarguren-1958",
+ "kind": "cup",
+ "runnerUpIds": [
+  "racing"
+ ],
+ "year": 1958,
+ "title": "Copa Ibarguren 1958",
+ "tournament": "Copa Dr. Carlos Ibarguren (Campeonato Argentino)",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "liga-cordobesa"
+ ],
+ "summary": "La selección de la Liga Cordobesa le ganó 4-3 a Racing Club en la cancha de Belgrano, en la última edición de la copa.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Ibarguren 1958",
+   "url": "https://www.rsssf.org/tablesa/argibargurencuphist.html"
+  },
+  {
+   "label": "Wikipedia – Copa Ibarguren 1958",
+   "url": "https://es.wikipedia.org/wiki/Copa_Ibarguren_1958"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "El campeón de la AFA contra la selección ganadora del Campeonato Argentino."
+  },
+  {
+   "kind": "dato",
+   "text": "Se jugó el 13 de marzo de 1960. Fue la última Copa Ibarguren."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-ibarguren-1958-001",
+   "date": "1960-03-13",
+   "competition": "Copa Ibarguren",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "liga-cordobesa",
+   "awayId": "racing",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "venue": "Cancha de Belgrano (Córdoba)",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Wetcha 45, 80, Mallo 72, Vargas 84 / Sosa 5, Mottura 8, Pizzuti 63."
+  }
+ ]
+}

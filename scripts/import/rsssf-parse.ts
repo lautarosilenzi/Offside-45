@@ -61,7 +61,12 @@ const decode = (s: string) =>
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
-    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)));
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    // Letras con tilde escritas como entidad (1969: "V&eacute;lez").
+    .replace(/&([aeiouAEIOU])acute;/g, (_, c: string) => c.normalize("NFD") + "́")
+    .replace(/&([nN])tilde;/g, (_, c: string) => (c === "n" ? "ñ" : "Ñ"))
+    .replace(/&([uU])uml;/g, (_, c: string) => (c === "u" ? "ü" : "Ü"))
+    .normalize("NFC");
 
 const MONTH = "(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec|January|February|March|April|June|July|August|September|October|November|December)";
 const DATE_RE = new RegExp(String.raw`^\s*\[\s*(${MONTH}[a-z]*\.?\s*\d{1,2}[^\]]*)\]\s*(.*)$`, "i");
@@ -142,7 +147,10 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     // la corta cualquier otra línea que no sea fila, separador o encabezado.
     if (!trimmed || trimmed === "&nbsp;") return;
     // Algunas páginas (1920, 1923) marcan cada liga con una línea en negrita en lugar de un título.
-    const leagueLine = /^(Asociaci[oó]n (Argentina|Amateurs?)( Argentina)? de Football|Federaci[oó]n Argentina de Football)$/i.test(trimmed);
+    const leagueLine =
+      /^(Asociaci[oó]n (Argentina|Amateurs?)( Argentina)? de Football|Federaci[oó]n Argentina de Football)$/i.test(trimmed) ||
+      // 1970: cada torneo del año empieza con "Campeonato Metropolitano [Metropolitan Championship]", sin <h2>.
+      /^(Campeonato|Torneo|Petit)[^[\]]{3,70}\[[A-Z][^\]]+\]\s*(\d{4})?$/.test(trimmed);
     if ((headings.has(trimmed.replace(/\s+/g, " ")) || leagueLine) && !/^About this document$/i.test(trimmed)) {
       cur = { heading: trimmed.replace(/\s+/g, " "), tables: [], matches: [], text: [] };
       sections.push(cur);
@@ -293,7 +301,7 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
       return;
     }
     const stage = head.match(
-      /^([0-9/A-Za-zÀ-ÿ'. -]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place|round|semi-?finals?|quarter-?finals?|\bleg\b)[A-Za-zÀ-ÿ' -]*):?\s*(?:\[(.+)\]|(\d{1,2}\s+[A-Z][a-z]{2}(?:\s+\d{4})?)|([A-Z][a-z]{2}\s+\d{1,2}(?:,\s*\d{4})?))?\s*:?$/i,
+      /^([0-9/A-Za-zÀ-ÿ'. -]*(?:playoff|play-off|final|replay|group [a-z]|zone|half season|position|place|round|semi-?finals?|quarter-?finals?|\bleg\b|\d(?:st|nd|rd|th)\.?\s+match\b)[A-Za-zÀ-ÿ' -]*):?\s*(?:\[(.+)\]|(\d{1,2}\s+[A-Z][a-z]{2}(?:\s+\d{4})?)|([A-Z][a-z]{2}\s+\d{1,2}(?:,\s*\d{4})?))?\s*:?$/i,
     );
     if (stage && head.length < 60 && !/table|standings|positions\b/i.test(head)) {
       round = stage[1].trim();
@@ -336,12 +344,16 @@ export function parseSeason(source: string, opts: { cup?: boolean } = {}): RawSe
     let normalized = marked ? `${marked[1]}${marked[2]}${marked[4] === "+" ? "ann" : marked[3]}${marked[5]}` : trimmed;
     // "Buenos Aires (Monumental):  Racing Club 5-0 Tigre" (Beccar Varela 1932): el lugar va antes del partido.
     // "Independiente  wp 1:1 lp Racing Club [abandoned at 1:1…]" (1936): resuelto por escritorio con el parcial en la nota.
-    normalized = normalized.replace(/\s(wp|lp)\s+\d+\s*:\s*\d+\s+(wp|lp)\s/, " $1:$2 ");
+    // Desde los años 50 el parcial no siempre está en la nota ("lp 1:1 wp … [abandoned at 66m, awarded on Nov 26]"):
+    // se guarda como "played X:Y" al final.
+    const wpScore = normalized.match(/\s(wp|lp)\s+(\d+)\s*:\s*(\d+)\s+(wp|lp)\s/);
+    if (wpScore) normalized = `${normalized.replace(wpScore[0], ` ${wpScore[1]}:${wpScore[4]} `)}  [played ${wpScore[2]}:${wpScore[3]}]`;
     const place = normalized.match(/^([A-ZÁÉÍÓÚ][^:\d]{2,40}):\s+(\S.*\s\d+-\d+\s.*)$/);
     if (place) normalized = `${place[2]}  [at ${place[1]}]`;
     const annulledScore = marked?.[4] === "+" ? marked[3].replace("-", ":") : undefined;
     const m = normalized.match(MATCH_RE);
-    if (m && !/^(No\.|Table|Note|Round)/i.test(m[1])) {
+    // "11.Chacarita Juniors   -    -   28   28.00": fila de la tabla de promedios, no un partido.
+    if (m && !/^(No\.|Table|Note|Round)/i.test(m[1]) && !/^\d+\.\s?\S/.test(m[1].trim())) {
       const { away, note, awarded } = splitAway(m[3]);
       if (away && !/^\d/.test(away)) {
         // Fecha propia del partido en la nota: "at Rosario  (27 May)".

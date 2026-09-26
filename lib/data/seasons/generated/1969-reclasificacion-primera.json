@@ -1,0 +1,157 @@
+{
+ "slug": "1969-reclasificacion-primera",
+ "year": 1969,
+ "league": "Reclasificatorio de Primera",
+ "title": "Reclasificatorio de Primera 1969",
+ "tournament": "Torneo Reclasificatorio de Primera 1969",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Banfield se quedó en Primera y Deportivo Morón descendió, en el cuadrangular con Ferro y San Telmo, de la Primera B.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1969",
+   "url": "https://www.rsssf.org/tablesa/arg69.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Los dos últimos del Reclasificatorio «A» y dos equipos de la Primera B, todos contra todos a una rueda: el primero jugaba el Metropolitano siguiente. 2 puntos por victoria."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "banfield",
+   "played": 3,
+   "won": 2,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 5,
+   "goalsAgainst": 2,
+   "points": 4
+  },
+  {
+   "teamId": "deportivo-moron",
+   "played": 3,
+   "won": 1,
+   "drawn": 1,
+   "lost": 1,
+   "goalsFor": 4,
+   "goalsAgainst": 5,
+   "points": 3
+  },
+  {
+   "teamId": "ferro",
+   "played": 3,
+   "won": 1,
+   "drawn": 1,
+   "lost": 1,
+   "goalsFor": 4,
+   "goalsAgainst": 5,
+   "points": 3
+  },
+  {
+   "teamId": "san-telmo",
+   "played": 3,
+   "won": 1,
+   "drawn": 0,
+   "lost": 2,
+   "goalsFor": 4,
+   "goalsAgainst": 5,
+   "points": 2
+  }
+ ],
+ "matches": [
+  {
+   "id": "1969-reclasificacion-primera-001",
+   "date": "1969-12-13",
+   "competition": "Asociación del Fútbol Argentino · Reclasificatorio de Primera",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1969-reclasificacion-primera-002",
+   "date": "1969-12-13",
+   "competition": "Asociación del Fútbol Argentino · Reclasificatorio de Primera",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "san-telmo",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1969-reclasificacion-primera-003",
+   "date": "1969-12-18",
+   "competition": "Asociación del Fútbol Argentino · Reclasificatorio de Primera",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "deportivo-moron",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1969-reclasificacion-primera-004",
+   "date": "1969-12-18",
+   "competition": "Asociación del Fútbol Argentino · Reclasificatorio de Primera",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "san-telmo",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1969-reclasificacion-primera-005",
+   "date": "1969-12-22",
+   "competition": "Asociación del Fútbol Argentino · Reclasificatorio de Primera",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1969-reclasificacion-primera-006",
+   "date": "1969-12-22",
+   "competition": "Asociación del Fútbol Argentino · Reclasificatorio de Primera",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "san-telmo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

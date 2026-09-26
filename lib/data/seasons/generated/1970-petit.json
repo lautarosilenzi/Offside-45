@@ -1,0 +1,157 @@
+{
+ "slug": "1970-petit",
+ "year": 1970,
+ "league": "Petit Torneo",
+ "title": "Petit Torneo 1970",
+ "tournament": "Torneo Petit Torneo 1970",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Estudiantes y Chacarita ganaron los dos lugares en el Nacional; Quilmes y Huracán fueron al Reclasificatorio.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1970",
+   "url": "https://www.rsssf.org/tablesa/arg70.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "4 equipos, todos contra todos a una rueda, 2 puntos por victoria."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "estudiantes",
+   "played": 3,
+   "won": 1,
+   "drawn": 2,
+   "lost": 0,
+   "goalsFor": 4,
+   "goalsAgainst": 3,
+   "points": 4
+  },
+  {
+   "teamId": "chacarita",
+   "played": 3,
+   "won": 1,
+   "drawn": 2,
+   "lost": 0,
+   "goalsFor": 3,
+   "goalsAgainst": 2,
+   "points": 4
+  },
+  {
+   "teamId": "quilmes",
+   "played": 3,
+   "won": 1,
+   "drawn": 2,
+   "lost": 0,
+   "goalsFor": 2,
+   "goalsAgainst": 1,
+   "points": 4
+  },
+  {
+   "teamId": "huracan",
+   "played": 3,
+   "won": 0,
+   "drawn": 0,
+   "lost": 3,
+   "goalsFor": 2,
+   "goalsAgainst": 5,
+   "points": 0
+  }
+ ],
+ "matches": [
+  {
+   "id": "1970-petit-001",
+   "date": "1970-08-02",
+   "competition": "Asociación del Fútbol Argentino · Petit Torneo",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1970-petit-002",
+   "date": "1970-08-02",
+   "competition": "Asociación del Fútbol Argentino · Petit Torneo",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1970-petit-003",
+   "date": "1970-08-09",
+   "competition": "Asociación del Fútbol Argentino · Petit Torneo",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1970-petit-004",
+   "date": "1970-08-09",
+   "competition": "Asociación del Fútbol Argentino · Petit Torneo",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1970-petit-005",
+   "date": "1970-08-16",
+   "competition": "Asociación del Fútbol Argentino · Petit Torneo",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1970-petit-006",
+   "date": "1970-08-16",
+   "competition": "Asociación del Fútbol Argentino · Petit Torneo",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

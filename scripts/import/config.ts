@@ -24,8 +24,12 @@ export type TournamentConfig = {
   reentry?: { teams?: string[]; note: string };
   // Copas con grupos que en realidad son cuadros de eliminación (Copa de la República): el control de eliminados corre igual.
   knockoutGroups?: boolean;
+  // Copas con tabla resumen publicada en las que igual se controla que ningún eliminado vuelva a jugar.
+  checkEliminations?: boolean;
   // El índice de copas de RSSSF da otro resultado de la final y hay pruebas de que el error es del índice (motivo).
   indexErrata?: string;
+  // Partidos que la liga resolvió por escritorio después de jugarse: la tabla cuenta sus goles (desde los años 50).
+  awardedGoalsCount?: boolean;
   // Copas por grupos: tabla de la página (índice) que corresponde a cada grupo (expresión regular sobre la fase).
   // knownDiffs: diferencias ya revisadas por club, con la explicación.
   groupTables?: { table: number; stage: string; knownDiffs?: Record<string, string> }[];
@@ -94,6 +98,7 @@ const AAM = "Asociación Amateurs de Football";
 const AAAF = "Asociación Amateurs Argentina de Football";
 // 1935 en adelante: la AFA (Asociación del Football Argentino) unificada y profesional.
 const AFA_PRO = "Asociación del Football Argentino";
+const AFA = "Asociación del Fútbol Argentino";
 const AFA_UNIFICADA = {
   kind: "identidad",
   text: "En noviembre de 1934 la liga profesional y la asociación oficial se unieron en la Asociación del Football Argentino (AFA). Desde 1935 hay una sola Primera División, profesional.",
@@ -107,13 +112,15 @@ const afaPro = (year: number, rest: Omit<TournamentConfig, "slug" | "year" | "fi
   year,
   file: `arg${String(year).slice(2)}.html`,
   wiki: wikiTitle(year),
-  competition: AFA_PRO,
-  organizer: AFA_PRO,
+  // Desde 1946 la asociación se llama Asociación del Fútbol Argentino.
+  competition: year >= 1946 ? AFA : AFA_PRO,
+  organizer: year >= 1946 ? AFA : AFA_PRO,
   title: `Campeonato ${year}`,
   tournament: `Copa Campeonato ${year}`,
   // Tablas finales por década: 1931–1940 las titula "Copa Campeonato AAAA", 1941–1950 "Primera División AAAA".
   // Cada documento cubre de 1 a 10 (1941–1950 está en el de los años 40).
   tableFile: `arghist-pro${Math.floor((year - 1) / 10)}0s.html`,
+  awardedGoalsCount: year >= 1950,
   tableSection: year <= 1940 ? new RegExp(`^Copa Campeonato ${year}\\.?$`) : new RegExp(`^Primera División ${year}\\.?$`),
   // En 1935–1940 el único Talleres de Primera es el de Remedios de Escalada.
   aliases: {
@@ -124,6 +131,11 @@ const afaPro = (year: number, rest: Omit<TournamentConfig, "slug" | "year" | "fi
     "Club de Gimnasia y Esgrima": "gimnasia",
     Talleres: "talleres-re",
     "CA Talleres": "talleres-re",
+    // Nombres cortos de las tablas de Wikipedia de los años 60.
+    Gimnasia: "gimnasia",
+    Vélez: "velez",
+    Ferro: "ferro",
+    Chacarita: "chacarita",
   },
   ...rest,
 });
@@ -180,6 +192,38 @@ const afa = (year: number, file: string, rest: Omit<TournamentConfig, "slug" | "
   competition: AFA_1903,
   organizer: AFA_1903,
   title: `Campeonato ${year}`,
+  ...rest,
+});
+
+
+// 1967–1985: cada año, dos campeonatos de Primera (Metropolitano y Nacional) y torneos de reclasificación y promoción.
+// Todos están en la misma página de RSSSF, cada uno en su sección.
+type TorneoKey = "metropolitano" | "nacional" | "promocional" | "reclasificacion" | "reclasificacion-primera" | "petit";
+const TORNEO: Record<TorneoKey, { name: string; section: string; wiki?: (y: number) => string }> = {
+  metropolitano: { name: "Metropolitano", section: "^Metropolitano Championship", wiki: (y) => `Campeonato Metropolitano ${y} (Argentina)` },
+  nacional: { name: "Nacional", section: "^Nacional Championship", wiki: (y) => `Campeonato Nacional ${y} (Argentina)` },
+  promocional: { name: "Promocional", section: "^Promocional Tournament", wiki: (y) => `Torneo Promocional ${y} (Argentina)` },
+  reclasificacion: { name: "Reclasificación", section: "^Reclasifica" },
+  "reclasificacion-primera": { name: "Reclasificatorio de Primera", section: "^Torneo Reclasificatorio de Primera" },
+  petit: { name: "Petit Torneo", section: "^Petit Tournament" },
+};
+const afaTorneo = (
+  year: number,
+  key: TorneoKey,
+  rest: Omit<TournamentConfig, "slug" | "year" | "file" | "competition" | "organizer" | "title" | "tournament" | "league"> & { tournament?: string },
+): TournamentConfig => ({
+  slug: `${year}-${key}`,
+  year,
+  league: TORNEO[key].name,
+  file: `arg${String(year).slice(2)}.html`,
+  section: new RegExp(TORNEO[key].section),
+  ...(TORNEO[key].wiki && { wiki: TORNEO[key].wiki!(year) }),
+  competition: `${AFA} · ${TORNEO[key].name}`,
+  organizer: AFA,
+  title: `${TORNEO[key].name} ${year}`,
+  tournament: `${key === "metropolitano" || key === "nacional" ? "Campeonato" : "Torneo"} ${TORNEO[key].name} ${year}`,
+  awardedGoalsCount: true,
+  aliases: { Gimnasia: "gimnasia", Vélez: "velez", Ferro: "ferro", Chacarita: "chacarita", Estudiantes: "estudiantes" },
   ...rest,
 });
 
@@ -1444,5 +1488,231 @@ export const TOURNAMENTS: TournamentConfig[] = [
       TABLA_DECADA,
       { kind: "puntos", text: "Boca e Independiente empataron el segundo puesto (un triunfo cada uno y un empate en los desempates): Boca fue subcampeón por promedio de gol. Huracán le ganó los dos partidos a Tigre, que descendió junto con Rosario Central." },
     ],
+  }),
+  // ───────── 1951–1966 ─────────
+  afaPro(1951, {
+    championIds: ["racing"],
+    summary: "Racing Club tricampeón, después de dos partidos de desempate con Banfield.",
+    overrides: {
+      "1951-12-01 racing banfield": { phase: "playoff", stage: "Desempate por el campeonato", note: "Ida, en la cancha de San Lorenzo. No suma en la tabla." },
+      "1951-12-05 banfield racing": { phase: "playoff", stage: "Desempate por el campeonato", note: "Vuelta, en la cancha de San Lorenzo: Racing Club campeón. No suma en la tabla." },
+    },
+    notes: [
+      rr2(17),
+      TABLA_DECADA,
+      { kind: "puntos", text: "Racing Club y Banfield terminaron igualados en el primer puesto y jugaron dos partidos de desempate (0-0 y 1-0 para Racing). No suman en la tabla." },
+    ],
+  }),
+  afaPro(1952, { championIds: ["river"], summary: "River Plate campeón.", notes: [rr2(16), TABLA_DECADA] }),
+  afaPro(1953, { championIds: ["river"], summary: "River Plate bicampeón.", notes: [rr2(16), TABLA_DECADA] }),
+  afaPro(1954, { championIds: ["boca"], summary: "Boca Juniors campeón.", notes: [rr2(16), TABLA_DECADA] }),
+  afaPro(1955, {
+    championIds: ["river"],
+    summary: "River Plate campeón.",
+    overrides: {
+      // Es el mismo partido: suspendido en el entretiempo y dado por la liga el 7/12 con el resultado de la cancha.
+      "1955-11-27 sanlorenzo river": { note: "Suspendido en el entretiempo con 0-1; el 7 de diciembre la liga dio por bueno ese resultado." },
+      "1955-12-07 sanlorenzo river": "skip",
+    },
+    notes: [rr2(16), TABLA_DECADA],
+  }),
+  afaPro(1956, { championIds: ["river"], summary: "River Plate bicampeón.", notes: [rr2(16), TABLA_DECADA] }),
+  afaPro(1957, { championIds: ["river"], summary: "River Plate tricampeón.", notes: [rr2(16), TABLA_DECADA] }),
+  afaPro(1958, {
+    championIds: ["racing"],
+    summary: "Racing Club campeón.",
+    pointAdjustments: [{ teamId: "river", points: -2, reason: "no se presentó ante Huracán: perdió el partido y se le descontaron 2 puntos más" }],
+    overrides: {
+      "1959-04-23 boca sanlorenzo": { stage: "Desempate por el segundo puesto", note: "Ida, en la cancha de Huracán. No suma en la tabla." },
+      "1959-04-26 sanlorenzo boca": { stage: "Desempate por el segundo puesto", note: "Vuelta, en la cancha de Huracán. Ganaron un partido cada uno y Boca quedó segundo por promedio de gol en la tabla del torneo. No suma en la tabla." },
+    },
+    notes: [
+      rr2(16),
+      TABLA_DECADA,
+      { kind: "puntos", text: "Boca Juniors y San Lorenzo empataron el segundo puesto y jugaron dos partidos en abril de 1959; ganó uno cada uno y Boca fue segundo por promedio de gol." },
+    ],
+  }),
+  afaPro(1959, { championIds: ["sanlorenzo"], summary: "San Lorenzo campeón.", notes: [rr2(16), TABLA_DECADA] }),
+  afaPro(1960, { championIds: ["independiente"], summary: "Independiente campeón.", notes: [rr2(16), TABLA_DECADA] }),
+  afaPro(1961, { championIds: ["racing"], summary: "Racing Club campeón.", notes: [rr2(16), TABLA_DECADA] }),
+  afaPro(1962, { championIds: ["boca"], summary: "Boca Juniors campeón.", notes: [rr2(15), TABLA_DECADA] }),
+  afaPro(1963, { championIds: ["independiente"], summary: "Independiente campeón.", notes: [rr2(14), TABLA_DECADA] }),
+  afaPro(1964, { championIds: ["boca"], summary: "Boca Juniors campeón.", notes: [rr2(16), TABLA_DECADA] }),
+  afaPro(1965, { championIds: ["boca"], summary: "Boca Juniors bicampeón.", notes: [rr2(18), TABLA_DECADA] }),
+  afaPro(1966, {
+    championIds: ["racing"],
+    summary: "Racing Club campeón.",
+    // La fila de RSSSF dice "0 6" (sin los dos puntos) y el importador no la lee como partido.
+    extraMatches: [
+      {
+        id: "1966-extra-1",
+        date: "1966-10-02",
+        stage: "Fecha 30",
+        phase: "league",
+        homeId: "ferro",
+        awayId: "racing",
+        homeGoals: 0,
+        awayGoals: 6,
+        note: "RSSSF lo escribe «0 6», sin los dos puntos; la tabla final (goles de Racing y de Ferro) confirma el 0-6.",
+      },
+    ],
+    notes: [rr2(20), TABLA_DECADA],
+  }),
+  // ───────── 1967 ─────────
+  afaTorneo(1967, "metropolitano", {
+    championIds: ["estudiantes"],
+    tableIndex: [0, 1],
+    groupNames: ["Grupo A", "Grupo B"],
+    summary: "Estudiantes de La Plata ganó el primer Metropolitano: 3-0 a Racing en la final. Fue el primer campeón de Primera fuera de los cinco grandes en la era profesional.",
+    notes: [
+      { kind: "formato", text: "Dos grupos de 11 equipos, todos contra todos a dos ruedas, más dos fechas interzonales. Los dos primeros de cada grupo jugaron semifinales y final a un partido. 2 puntos por victoria." },
+      { kind: "puntos", text: "Las tablas de los grupos incluyen los partidos interzonales; las semifinales y la final no suman." },
+    ],
+  }),
+  afaTorneo(1967, "nacional", {
+    championIds: ["independiente"],
+    summary: "Independiente ganó el primer Nacional, dos puntos delante de Estudiantes.",
+    notes: [{ kind: "formato", text: "16 equipos, todos contra todos a una rueda: los 12 mejores del Metropolitano y los 4 ganadores de los torneos regionales del interior. 2 puntos por victoria." }],
+  }),
+  afaTorneo(1967, "promocional", {
+    championIds: [],
+    summary: "Torneo entre cuatro equipos del Metropolitano y los cuatro segundos de los torneos regionales.",
+    notes: [{ kind: "formato", text: "8 equipos, todos contra todos a dos ruedas, 2 puntos por victoria. Lo jugaron 4 equipos del Metropolitano y los 4 segundos de los torneos regionales." }],
+  }),
+  afaTorneo(1967, "reclasificacion", {
+    championIds: [],
+    summary: "Los seis últimos del Metropolitano y los cuatro primeros de la Primera B jugaron por los lugares en Primera: subieron Tigre y Los Andes, y bajaron Unión y Deportivo Español.",
+    notes: [{ kind: "formato", text: "10 equipos, todos contra todos a dos ruedas, 2 puntos por victoria: los 6 últimos del Metropolitano y los 4 primeros de la Primera B." }],
+  }),
+  // ───────── 1968 ─────────
+  afaTorneo(1968, "metropolitano", {
+    championIds: ["sanlorenzo"],
+    overrides: {
+      // RSSSF lo lista el día que se jugó ("awd", originalmente 2-0) y el día de la resolución: queda uno solo.
+      "1968-07-19 newells lanus": {
+        date: "1968-06-16",
+        homeGoals: 2,
+        awayGoals: 0,
+        walkover: undefined,
+        note: "Newell's ganó 2-0 en la cancha, pero incluyó a un jugador no habilitado: el 19 de julio la liga le dio los puntos a Lanús. La tabla cuenta los goles del partido.",
+      },
+    },
+    tableIndex: [0, 1],
+    groupNames: ["Grupo A", "Grupo B"],
+    summary: "San Lorenzo ganó el Metropolitano invicto: el equipo de «Los Matadores».",
+    notes: [{ kind: "formato", text: "Dos grupos de 11 equipos, todos contra todos a dos ruedas, más fechas interzonales. Los dos primeros de cada grupo jugaron semifinales y final. 2 puntos por victoria." }, { kind: "puntos", text: "Las tablas de los grupos incluyen los partidos interzonales; las semifinales y la final no suman." }],
+  }),
+  afaTorneo(1968, "reclasificacion", {
+    championIds: [],
+    summary: "Los últimos del Metropolitano y los primeros de la Primera B jugaron por los lugares en Primera.",
+    notes: [{ kind: "formato", text: "Todos contra todos a dos ruedas entre los últimos del Metropolitano y los primeros de la Primera B, 2 puntos por victoria." }],
+  }),
+  afaTorneo(1968, "nacional", {
+    championIds: ["velez"],
+    overrides: {
+      "1968-12-19 river racing": { stage: "Triangular de desempate", note: "En la cancha de San Lorenzo. No suma en la tabla." },
+      "1968-12-22 river velez": { stage: "Triangular de desempate", note: "En la cancha de San Lorenzo. No suma en la tabla." },
+      "1968-12-29 racing velez": { stage: "Triangular de desempate", note: "En la cancha de San Lorenzo: Vélez Sarsfield campeón. No suma en la tabla." },
+    },
+    summary: "Vélez Sarsfield ganó su primer título de Primera, después de un triangular de desempate con River y Racing.",
+    notes: [
+      { kind: "formato", text: "16 equipos, todos contra todos a una rueda, 2 puntos por victoria." },
+      { kind: "puntos", text: "Vélez, River y Racing terminaron igualados en el primer puesto y jugaron un triangular de desempate, que no suma en la tabla." },
+    ],
+  }),
+  afaTorneo(1968, "promocional", {
+    championIds: [],
+    summary: "Torneo entre equipos del Metropolitano y los segundos de los torneos regionales.",
+    notes: [{ kind: "formato", text: "8 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." }],
+  }),
+
+  // ───────── 1969 ─────────
+  afaTorneo(1969, "metropolitano", {
+    championIds: ["chacarita"],
+    overrides: {
+      "1969-07-03 boca river": { advancedId: "river", note: "Con alargue, en la cancha de Racing. Pasó River por tener más goles a favor en el campeonato (35 contra 34)." },
+    },
+    wikiErrata: {
+      "RSSSF newells 3-1 platense": "Wikipedia da 3-0 en el partido, pero su propia tabla (goles de Newell's y de Platense) coincide con el 3-1 de RSSSF.",
+      "RSSSF union-santa-fe 0-0 colon-santa-fe": "se suspendió 0-0 a los 51 minutos y la liga le dio los puntos a Unión; Wikipedia lo anota como 2-0.",
+    },
+    tableIndex: [0, 1],
+    groupNames: ["Grupo A", "Grupo B"],
+    summary: "Chacarita Juniors ganó su único título de Primera: 4-1 a River en la final.",
+    notes: [{ kind: "formato", text: "Dos grupos de 11 equipos, todos contra todos a dos ruedas, más fechas interzonales. Los dos primeros de cada grupo jugaron semifinales y final. 2 puntos por victoria." }, { kind: "puntos", text: "Las tablas de los grupos incluyen los partidos interzonales; las semifinales y la final no suman." }],
+  }),
+  afaTorneo(1969, "petit", {
+    championIds: [],
+    summary: "Unión ganó el Petit Torneo y el lugar en el Nacional; los otros tres fueron al Reclasificatorio.",
+    notes: [{ kind: "formato", text: "Eliminación entre cuatro equipos del Metropolitano por un lugar en el Nacional." }],
+  }),
+  afaTorneo(1969, "reclasificacion", {
+    championIds: [],
+    section: /^Reclasificatorio "A"/,
+    // La misma sección trae después el Reclasificatorio de Primera (desde el 13 de diciembre): va aparte.
+    skip: (m) => /^Dec (1[3-9]|2\d)/.test(m.date),
+    summary: "Nueve equipos de Primera jugaron por la permanencia; Deportivo Morón y Banfield, los dos últimos, pasaron al Reclasificatorio de Primera.",
+    notes: [{ kind: "formato", text: "9 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." }],
+  }),
+  afaTorneo(1969, "reclasificacion-primera", {
+    championIds: [],
+    section: /^Reclasificatorio "A"/,
+    skip: (m) => !/^Dec (1[3-9]|2\d)/.test(m.date),
+    tableIndex: 1,
+    summary: "Banfield se quedó en Primera y Deportivo Morón descendió, en el cuadrangular con Ferro y San Telmo, de la Primera B.",
+    notes: [{ kind: "formato", text: "Los dos últimos del Reclasificatorio «A» y dos equipos de la Primera B, todos contra todos a una rueda: el primero jugaba el Metropolitano siguiente. 2 puntos por victoria." }],
+  }),
+  afaTorneo(1969, "nacional", {
+    championIds: ["boca"],
+    overrides: {
+      "1969-12-17 sanlorenzo river": { stage: "Desempate por el segundo puesto", note: "Ida. No suma en la tabla." },
+      "1969-12-21 river sanlorenzo": { stage: "Desempate por el segundo puesto", note: "Vuelta: River Plate segundo. No suma en la tabla." },
+    },
+    pointAdjustments: [{ teamId: "union-santa-fe", points: -2, reason: "descuento de 2 puntos (así en la tabla de RSSSF y en Wikipedia; ninguna da el motivo)" }],
+    summary: "Boca Juniors ganó el Nacional, con la vuelta olímpica en la cancha de River.",
+    notes: [
+      { kind: "formato", text: "18 equipos, todos contra todos a una rueda, 2 puntos por victoria." },
+    ],
+  }),
+
+  // ───────── 1970 ─────────
+  afaTorneo(1970, "metropolitano", {
+    championIds: ["independiente"],
+    section: /^Campeonato Metropolitano/,
+    summary: "Independiente ganó el Metropolitano por diferencia de gol sobre River Plate.",
+    notes: [
+      { kind: "formato", text: "21 equipos, todos contra todos a una rueda, 2 puntos por victoria. Independiente y River empataron en puntos: el campeón se definió por goles a favor." },
+    ],
+  }),
+  afaTorneo(1970, "petit", {
+    championIds: [],
+    section: /^Petit Torneo/,
+    summary: "Estudiantes y Chacarita ganaron los dos lugares en el Nacional; Quilmes y Huracán fueron al Reclasificatorio.",
+    notes: [{ kind: "formato", text: "4 equipos, todos contra todos a una rueda, 2 puntos por victoria." }],
+  }),
+  afaTorneo(1970, "reclasificacion", {
+    championIds: [],
+    section: /^Torneo Reclasificatorio \[/,
+    summary: "Siete equipos del Metropolitano jugaron por la permanencia.",
+    notes: [{ kind: "formato", text: "7 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." }],
+  }),
+  afaTorneo(1970, "reclasificacion-primera", {
+    championIds: [],
+    section: /^Torneo Reclasificatorio de Primera/,
+    summary: "Ferro Carril Oeste ascendió y Quilmes descendió en el cuadrangular final con Colón y Almirante Brown.",
+    notes: [{ kind: "formato", text: "4 equipos (dos de Primera y dos de la Primera B), todos contra todos a una rueda, 2 puntos por victoria." }],
+  }),
+  afaTorneo(1970, "nacional", {
+    championIds: ["boca"],
+    overrides: {
+      "1970-12-20 kimberley-mdp gimnasia-mendoza": { stage: "Mejor equipo del Interior", note: "Ida, en la cancha de General San Martín (Mar del Plata). Definía el lugar del interior en el Nacional 1971. No suma en la tabla." },
+      "1970-12-27 gimnasia-mendoza kimberley-mdp": { stage: "Mejor equipo del Interior", note: "Vuelta, en la cancha de Godoy Cruz: Gimnasia y Esgrima de Mendoza jugó el Nacional 1971. No suma en la tabla." },
+    },
+    pointAdjustments: [{ teamId: "platense", points: -2, reason: "descuento de 2 puntos, anotado por RSSSF en el partido con Banfield (no da el motivo)" }],
+    section: /^Campeonato Nacional/,
+    tableIndex: [0, 1],
+    groupNames: ["Grupo A", "Grupo B"],
+    summary: "Boca Juniors bicampeón del Nacional: 2-1 a Rosario Central en la final.",
+    notes: [{ kind: "formato", text: "Dos grupos de 10 equipos, todos contra todos a dos ruedas, más fechas interzonales. Los dos primeros de cada grupo jugaron semifinales y final. 2 puntos por victoria." }, { kind: "puntos", text: "Las tablas de los grupos incluyen los partidos interzonales; las semifinales y la final no suman." }],
   }),
 ];
