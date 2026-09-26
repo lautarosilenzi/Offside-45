@@ -14,7 +14,7 @@ export type TournamentConfig = {
   groupLines?: boolean;
   // Torneo repartido en varias secciones seguidas: desde la primera cuyo título coincide con `from` hasta la
   // anterior a la que coincide con `to`. Los títulos "Group A", "Quarterfinals", etc. dan el grupo o la fase.
-  sectionRange?: { from: RegExp; to?: RegExp };
+  sectionRange?: { from: RegExp; to?: RegExp; exclude?: RegExp };
   runnerUpIds?: string[];
   // Páginas con varias ediciones: solo los partidos de esta ("Season 1913" en la Copa Ibarguren, o la sección "1905").
   edition?: string;
@@ -233,7 +233,8 @@ const afaTorneo = (
   title: `${TORNEO[key].name} ${year}`,
   tournament: `${key === "metropolitano" || key === "nacional" ? "Campeonato" : "Torneo"} ${TORNEO[key].name} ${year}`,
   awardedGoalsCount: true,
-  aliases: { Gimnasia: "gimnasia", Vélez: "velez", Ferro: "ferro", Chacarita: "chacarita", Estudiantes: "estudiantes" },
+  // Desde 1967 el único Talleres de Primera es el de Córdoba.
+  aliases: { Gimnasia: "gimnasia", Vélez: "velez", Ferro: "ferro", Chacarita: "chacarita", Estudiantes: "estudiantes", Talleres: "talleres" },
   ...rest,
 });
 
@@ -1972,6 +1973,101 @@ export const TOURNAMENTS: TournamentConfig[] = [
     summary: "Independiente ganó el Nacional ante Talleres en Córdoba, con tres jugadores menos y el gol de Bochini en la vuelta.",
     notes: [
       { kind: "formato", text: "Cuatro grupos de 8 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a dos ruedas. Los ganadores de cada grupo jugaron semifinales y final de ida y vuelta. 2 puntos por victoria." },
+    ],
+  }),
+  // ───────── 1978 ─────────
+  afaTorneo(1978, "metropolitano", {
+    championIds: ["quilmes"],
+    section: /^Campeonato Metropolitano 1978/,
+    summary: "Quilmes ganó el Metropolitano, su primer título en la era profesional.",
+    knownTableDiffs: {
+      keys: ["huracan:points"],
+      explanation: "Las tablas de RSSSF (la de la temporada y la de la década) le dan a Huracán 36 puntos con 11 ganados y 13 empatados, que suman 35. Wikipedia da los mismos partidos ganados y empatados. No encontramos el motivo del punto de más.",
+    },
+    notes: [{ kind: "formato", text: "21 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." }],
+  }),
+  afaTorneo(1978, "nacional", {
+    championIds: ["independiente"],
+    aliases: { "Patronato (Entre Ríos)": "patronato-parana" },
+    wikiErrata: { "RSSSF san-martin-mendoza 1-0 san-martin-tucuman": "Wikipedia da el 0-0 de la cancha; la liga le dio los puntos a San Martín de Mendoza y el partido 1-0 (así en la tabla)." },
+    sectionRange: { from: /^Campeonato Nacional 1978/, to: /^1978 - PRIMERA B|^About/ },
+    tableIndex: [0, 1, 2, 3],
+    groupNames: ["Grupo A", "Grupo B", "Grupo C", "Grupo D"],
+    summary: "Independiente ganó el Nacional por segundo año seguido: 0-0 y 2-0 a River en la final.",
+    notes: [
+      { kind: "formato", text: "Cuatro grupos de 8 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a dos ruedas. Los dos primeros de cada grupo jugaron cuartos de final, semifinales y final de ida y vuelta. 2 puntos por victoria." },
+    ],
+  }),
+  // ───────── 1979 ─────────
+  afaTorneo(1979, "metropolitano", {
+    championIds: ["river"],
+    headings: [/^Group [A-D]$/, /^Quarter ?finals$/, /^Semifinals$/, /^Final$/, /^Torneo por el Descenso de Primera Categoría$/],
+    sectionRange: { from: /^Campeonato Metropolitano/, to: /^Campeonato Nacional/, exclude: /^Torneo por el Descenso/ },
+    tableIndex: [0, 2],
+    groupNames: ["Grupo A", "Grupo B"],
+    groupTables: [{ table: 1, stage: "^Desempate$" }],
+    aliases: { "Argentinos Junors": "argentinos" },
+    summary: "River Plate ganó el Metropolitano: 2-0 y 5-1 a Vélez en la final.",
+    notes: [
+      { kind: "formato", text: "Dos grupos de 10 equipos, todos contra todos a dos ruedas. Los dos primeros de cada grupo jugaron semifinales y final de ida y vuelta. 2 puntos por victoria." },
+      { kind: "puntos", text: "Argentinos Juniors y Vélez empataron el segundo puesto del grupo A y jugaron un desempate. Las tablas de los grupos no incluyen el desempate ni la eliminación final." },
+    ],
+  }),
+afaTorneo(1979, "reclasificacion", {
+    championIds: [],
+    headings: [/^Group [A-D]$/, /^Quarter ?finals$/, /^Semifinals$/, /^Final$/, /^Torneo por el Descenso de Primera Categoría$/],
+    section: /^Torneo por el Descenso de Primera Categoría$/,
+    summary: "Los cuatro últimos del Metropolitano jugaron por la permanencia: se salvó Platense y descendieron Gimnasia y Esgrima La Plata, Chacarita Juniors y Atlanta.",
+    notes: [{ kind: "formato", text: "4 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." }],
+  }),
+    afaTorneo(1979, "nacional", {
+    championIds: ["river"],
+    headings: [/^Group [A-D]$/, /^Intergroups$/, /^Quarter ?finals$/, /^Semifinals$/, /^Final$/, /^Torneo por el Descenso de Primera Categoría$/],
+    sectionRange: { from: /^Campeonato Nacional/, to: /^Torneo Clasificación/ },
+    tableIndex: [0, 1, 2, 3],
+    groupNames: ["Grupo A", "Grupo B", "Grupo C", "Grupo D"],
+    summary: "River Plate ganó también el Nacional: 0-0 y 2-1 a Unión en la final. Fue bicampeón del año.",
+    notes: [
+      { kind: "formato", text: "Cuatro grupos de 7 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a dos ruedas. Los dos primeros de cada grupo jugaron cuartos de final, semifinales y final de ida y vuelta. 2 puntos por victoria." },
+    ],
+  }),
+  afaTorneo(1979, "pre-libertadores", {
+    championIds: [],
+    section: /^Torneo Clasificación para el Campeonato Libertadores/,
+    tableIndex: [],
+    playoffFrom: { date: "1979-01-01", stage: "Definición" },
+    summary: "Vélez Sarsfield y Unión jugaron ida y vuelta por el segundo lugar argentino en la Copa Libertadores 1980.",
+    notes: [{ kind: "formato", text: "Serie de ida y vuelta por el segundo lugar argentino en la Copa Libertadores 1980." }],
+  }),
+  // ───────── 1980 ─────────
+  // La página no trae tablas: se verifican con las del documento de tablas finales de la década.
+  afaTorneo(1980, "metropolitano", {
+    championIds: ["river"],
+    headings: [/^Campeonato Metropolitano:$/, /^Campeonato Nacional:$/, /^Group [A-D]$/, /^Intergroups$/, /^Quarterfinal$/, /^Semifinal$/, /^Final$/],
+    section: /^Campeonato Metropolitano:$/,
+    tableFile: "arghist-pro1970s.html",
+    tableSection: /Campeonato IV Centenario de la Segunda Fundación de Buenos Aires - 1980/,
+    tournament: "Campeonato Metropolitano 1980 «IV Centenario de la Segunda Fundación de Buenos Aires»",
+    summary: "River Plate ganó el Metropolitano, delante de Argentinos Juniors con Maradona.",
+    notes: [
+      { kind: "formato", text: "19 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." },
+      { kind: "fuentes", text: "La tabla con la que se verifican los partidos es la del documento de tablas finales de RSSSF de la década (la página de la temporada no la trae)." },
+    ],
+  }),
+  afaTorneo(1980, "nacional", {
+    championIds: ["central"],
+    headings: [/^Campeonato Metropolitano:$/, /^Campeonato Nacional:$/, /^Group [A-D]$/, /^Intergroups$/, /^Quarterfinal$/, /^Semifinal$/, /^Final$/],
+    sectionRange: { from: /^Campeonato Nacional:$/ },
+    tableFile: "arghist-pro1970s.html",
+    tableSection: /Campeonato Nacional General Don José de San Martín - 1980/,
+    aliases: { "San Lorenzo": "san-lorenzo-mdp", "ATLÉTICO RACING": "racing-cordoba", "Gimnasia y Esgrima": "gimnasia-jujuy", "Atlético Club San Martín": "san-martin-mendoza", Talleres: "talleres" },
+    tableIndex: [0, 1, 2, 3],
+    groupNames: ["Grupo A", "Grupo B", "Grupo C", "Grupo D"],
+    tournament: "Campeonato Nacional 1980 «Libertador General Don José de San Martín»",
+    summary: "Rosario Central ganó el Nacional: 5-1 y 0-2 con Racing de Córdoba en la final.",
+    notes: [
+      { kind: "formato", text: "Cuatro grupos de 7 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a dos ruedas. Los dos primeros de cada grupo jugaron cuartos de final, semifinales y final de ida y vuelta. 2 puntos por victoria." },
+      { kind: "fuentes", text: "Las tablas con las que se verifican los partidos son las del documento de tablas finales de RSSSF de la década." },
     ],
   }),
 ];

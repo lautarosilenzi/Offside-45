@@ -55,6 +55,7 @@ export function translateNote(
   wonPointsBy?: string;
   awardedByLeague?: boolean;
   advancedBy?: string;
+  awardedScore?: [number, number];
 } {
   const out = {
     venue: undefined as string | undefined,
@@ -70,6 +71,8 @@ export function translateNote(
     awardedByLeague: false,
     // Serie de ida y vuelta definida por goles de visitante (1977): quién pasó.
     advancedBy: undefined as string | undefined,
+    // "Later, awarded 0-1" (1978): el resultado que fijó la liga, distinto del de la cancha.
+    awardedScore: undefined as [number, number] | undefined,
   };
   const parts = note
     .replace(/^\[|\]$/g, "")
@@ -91,7 +94,7 @@ export function translateNote(
     // "HT, score stood" va junto (lo traduce una sola regla); "see Jul 17", "remaining 49 on…" e "in extra time…" van aparte.
     // La cancha al final ("…, Racing, Avellaneda, B") también va aparte del texto que la precede.
     .split(
-      /\]\s*\[|;\s*|,\s*(?=(?:aet|asdet|lasted|at|annulled|abandoned|suspended|played|awarded|n\/p|see|remaining|remained|in extra time|continue on|to be replayed)\b)|(?<!HT),\s*(?=score stood\b)|,\s*(?=[^,]+,\s*[^,]+,\s*[BCS]$)/i,
+      /\]\s*\[|\s+(?=\[)|;\s*|,\s*(?=(?:aet|asdet|lasted|at|annulled|abandoned|suspended|played|awarded|n\/p|see|remaining|remained|in extra time|continue on|to be replayed)\b)|(?<!HT),\s*(?=score stood\b)|,\s*(?=[^,]+,\s*[^,]+,\s*[BCS]$)/i,
     )
     // Sin corchetes ni el punto final ("San Isidro was suspended."); "W.O." conserva sus puntos.
     .map((p) => p.replace(/[\[\]]/g, "").trim().replace(/(?<!\b[A-Z])\.$/, ""))
@@ -129,7 +132,7 @@ export function translateNote(
       const club = resolveName(m[1].replace(/\s*\(.*\)$/, ""), year);
       // "at Rosario", "at Campana" (y "at Palermo" antes de que existiera el club): la ciudad o el barrio.
       if (club) out.venue = `Cancha de ${club.as ?? club.name}`;
-      else out.venue = /^(Rosario|Campana|Palermo)$/.test(m[1]) ? m[1] : `Cancha de ${m[1]}`;
+      else out.venue = /^(Rosario|Campana|Palermo|Mar del Plata|Córdoba|Mendoza|Salta|Tucumán|Santa Fe|Jujuy|Resistencia|Bahía Blanca|Posadas|Neuquén|San Juan|La Plata|Santiago del Estero|Paraná|Corrientes)$/.test(m[1]) ? m[1] : `Cancha de ${m[1]}`;
     } else if (/^aet$/i.test(p)) out.text.push("Con alargue.");
     else if (/^asdet$/i.test(p)) out.text.push("Con alargue y gol de oro.");
     else if (/^abandoned$/i.test(p)) out.text.push("Suspendido.");
@@ -194,7 +197,7 @@ export function translateNote(
     else if (/^second half played friendly$/i.test(p)) out.text.push("El segundo tiempo se jugó como amistoso; vale el resultado del primero.");
     else if (/^played again$/i.test(p)) continue;
     else if (/^played \d+:\d+$/i.test(p)) continue; // parcial de "lp 1:1 wp", ya usado como resultado
-    else if (/^pen \d+:\d+$/i.test(p)) continue; // penales "[6]2-2[7]": los usa el importador (advancedId)
+    else if (/^pen \d+[:-]\d+$/i.test(p)) continue; // penales "[6]2-2[7]": los usa el importador (advancedId)
     else if ((m = p.match(/^(.+?) (?:forfeited|wihtdrew|withdrawn)$/i))) {
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} no se presentó.`);
@@ -230,6 +233,7 @@ export function translateNote(
     // 1955: "[at Racing Club, remained 87]": la continuación de un partido suspendido.
     else if ((m = p.match(/^(?:remained|remaining) (\d+)(?:m|')?$/i))) out.text.push(`Se jugaron los ${m[1]} minutos que faltaban.`);
     else if (/^the score stood$/i.test(p)) out.text.push("Resuelto por la liga.");
+    else if ((m = p.match(/^(?:later,? )?awarded (\d+)\s*-\s*(\d+)$/i))) out.awardedScore = [+m[1], +m[2]];
     else if ((m = p.match(/^(.+?) won on (?:goals? )?away(?: goals?)? rule$/i))) {
       const club = resolveName(m[1], year);
       out.advancedBy = club?.id;
@@ -251,6 +255,14 @@ export function translateNote(
       out.text.push(`Suspendido a los ${m[3]} minutos${/HT$/i.test(p) ? " (en el entretiempo)" : ""} con ${m[1]}-${m[2]}.`);
     else if ((m = p.match(/^remaining time (?:on|in) (.+)$/i))) out.text.push(`El resto se jugó el ${esDate(m[1])}.`);
     else if (/^First match in new Atlanta field$/i.test(p)) out.text.push("Primer partido en la nueva cancha de Atlanta.");
+    else if ((m = p.match(/^First official match at (.+)$/i))) out.text.push(`Primer partido oficial en el estadio ${m[1]}.`);
+    // 1980: notas entre paréntesis debajo del partido.
+    else if ((m = p.match(/^Suspended at (\d+)' due to (.+?)\. On (.+?) the score stood$/i)))
+      out.text.push(`Suspendido a los ${m[1]} minutos (${/electric/i.test(m[2]) ? "problema eléctrico" : m[2]}); el ${esDate(m[3])} la liga dio por bueno el resultado.`);
+    else if ((m = p.match(/^Suspended (?:at (\d+)' (\d+)-(\d+)|(\d+)-(\d+) at (\d+)') and continued (next day|on (.+))$/i))) {
+      const [min, hg, ag] = m[1] ? [m[1], m[2], m[3]] : [m[6], m[4], m[5]];
+      out.text.push(`Suspendido a los ${min} minutos con ${hg}-${ag}; ${m[8] ? `se completó el ${esDate(m[8])}` : "se completó al día siguiente"} (el resultado es el final).`);
+    } else if ((m = p.match(/^On (.+?) was awarded .+ by doping$/i))) out.text.push(`La liga lo resolvió el ${m[1].replace(/^(\d{1,2}) (\w{3})\w* (\d{4})$/, (_x, d: string, mo: string, y: string) => `${d}/${MONTHS[mo.toLowerCase()] ?? mo}/${y}`)} por un caso de doping.`);
     else if ((m = p.match(/^not played, (.+?) (\d+) points? deducted$/i))) {
       const club = resolveName(m[1], year);
       out.text.push(`Además, a ${club ? club.as ?? club.name : m[1]} le descontaron ${m[2]} puntos (sanción).`);
@@ -382,7 +394,8 @@ function stageOf(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
   // Nacionales 1971–1985: el título de la sección da la fase y la línea "1st leg" / "2nd leg", la ida o la vuelta.
   const hint = raw.stageHint ?? "";
   const r0 = raw.round ?? "";
-  const leg = /\b(1st|first)\b\.?\s*(leg|match)/i.test(r0) ? " (ida)" : /\b(2nd|second)\b\.?\s*(leg|match)/i.test(r0) ? " (vuelta)" : "";
+  const leg = /\b(1st|first)\b\.?\s*(leg|match)/i.test(r0) ? " (ida)" : /\b(2nd|second)\b\.?\s*(leg|match)/i.test(r0) ? " (vuelta)" : /^Round\s*\d+\.1$/i.test(r0) ? " (ida)" : /^Round\s*\d+\.2$/i.test(r0) ? " (vuelta)" : "";
+  // (Nacional 1980: en los cruces, "Round 3.1" es la ida y "Round 3.2" la vuelta.)
   // Si la línea de la fecha ya nombra la fase ("Semifinal [Dec 13]:"), manda sobre el título de la sección.
   if (hint && !/semi|final|quarter|playoff/i.test(r0)) {
     if (/intergroup|interzonal/i.test(hint)) {
@@ -409,6 +422,9 @@ function stageOf(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
 
 function stageOfRound(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
   const r = raw.round ?? "";
+  // "Round 2.3" (Nacional 1980): tercera fecha de la segunda rueda.
+  const dotted = r.match(/^Round\s*(\d+)\.\s*(\d+)$/i);
+  if (dotted) return { stage: `Fecha ${dotted[1]}.${dotted[2]}`, phase: "league" };
   const n = r.match(/(?:Round|Fecha|Matchday)\s*(\d+)/i) ?? r.match(/^(\d+)(?:st|nd|rd|th)\.?\s+Round$/i);
   if (n) return { stage: `Fecha ${n[1]}`, phase: "league" };
   if (/^final round$/i.test(r)) return { stage: "Ronda final", phase: "playoff" };
@@ -441,6 +457,8 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     const start = allParsed.findIndex((s) => cfg.sectionRange!.from.test(s.heading));
     const rel = cfg.sectionRange.to ? allParsed.slice(start + 1).findIndex((s) => cfg.sectionRange!.to!.test(s.heading)) : -1;
     sections = start < 0 ? [] : allParsed.slice(start, rel < 0 ? undefined : start + 1 + rel);
+    // Secciones de otro torneo metidas en el medio (1979: el torneo por el descenso dentro del Metropolitano).
+    if (cfg.sectionRange.exclude) sections = sections.filter((x, i) => i === 0 || !cfg.sectionRange!.exclude!.test(x.heading));
   }
   // Por título: entre las secciones que coinciden, la que tiene más partidos (a veces el título se repite).
   let section: RawSection | undefined =
@@ -596,6 +614,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       s = `${awdScore[1]}:${awdScore[2]}`;
       note.text = note.text.filter((t) => !/^Resuelto por la liga/.test(t));
       note.text.unshift("Resuelto por la liga.");
+      note.awardedScore = undefined;
     }
     // "awd  [abandoned at 1-0 in 54'; Tigre lost points]": suspendido y resuelto por escritorio; queda el resultado parcial.
     const abdAwd = raw.note.match(/abandoned at (\d+)\s*[-:]\s*(\d+) in (\d+)'?/i);
@@ -711,6 +730,15 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     if (note.lostPointsBy) m.awardedTo = note.lostPointsBy === home.id ? away.id : home.id;
     if (note.wonPointsBy) m.awardedTo = note.wonPointsBy;
     if (note.advancedBy) m.advancedId = note.advancedBy;
+    if (note.awardedScore) {
+      const [ah, aa] = note.awardedScore;
+      const onField = `${m.homeGoals}-${m.awayGoals}`;
+      m.homeGoals = ah;
+      m.awayGoals = aa;
+      if (ah !== aa) m.awardedTo = ah > aa ? home.id : away.id;
+      const who = m.awardedTo === home.id ? home : away;
+      note.text.unshift(ah === aa ? `En la cancha terminó ${onField}; la liga lo dio ${ah}-${aa}.` : `En la cancha terminó ${onField}; la liga le dio el partido ${ah}-${aa} a ${who.as ?? who.name}.`);
+    }
     if (note.awardedByLeague && m.homeGoals !== m.awayGoals) m.awardedTo = m.homeGoals > m.awayGoals ? home.id : away.id;
     // Algunas tablas oficiales no cuentan los goles de los partidos que la liga le dio a uno de los dos.
     if (cfg.awardedGoalsVoid && (note.wonPointsBy || note.lostPointsBy)) m.goalsVoid = true;
@@ -738,11 +766,13 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       // "[Acevedo(2)]   [Rulli, …]" (1965): un corchete por equipo.
       m.note = [m.note, `Goles: ${raw.scorers.replace(/;\s*/, " / ").replace(/\]\s*\[/g, " / ")}.`].filter(Boolean).join(" ");
     // Empate definido por penales ("[6]2-2[7]" → "pen 6:7"): quién pasó; para la estadística sigue siendo empate.
-    const pen = raw.note.match(/\bpen (\d+):(\d+)\b/);
-    if (pen && m.homeGoals === m.awayGoals && +pen[1] !== +pen[2]) {
+    const pen = raw.note.match(/\bpen (\d+)[:-](\d+)\b/);
+    // En una vuelta de ida y vuelta (1979) los penales definen la serie aunque el partido no haya terminado empatado.
+    if (pen && +pen[1] !== +pen[2]) {
       const winner = +pen[1] > +pen[2] ? home : away;
       m.advancedId = winner.id;
-      m.note = [m.note, `${winner.as ?? winner.name} ganó por penales (${pen[1]}-${pen[2]}).`].filter(Boolean).join(" ");
+      const how = m.homeGoals === m.awayGoals ? "ganó por penales" : "pasó por penales, tras el empate en el global,";
+      m.note = [m.note, `${winner.as ?? winner.name} ${how} (${pen[1]}-${pen[2]}).`].filter(Boolean).join(" ");
     }
     if (ov) Object.assign(m, ov);
     // Suspendido y completado otro día: RSSSF lo lista dos veces; vale la segunda aparición.

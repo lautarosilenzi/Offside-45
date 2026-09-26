@@ -149,6 +149,8 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
   let edition: string | undefined;
   let dateFromStage = false;
   let group: string | undefined;
+  // Renglón del último partido leído (para pegarle la nota entre paréntesis del renglón de abajo).
+  let lastMatchLine = -1;
 
   lines.forEach((raw, i) => {
     const line = raw.replace(/\s+$/, "");
@@ -354,6 +356,14 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
       date = d[1].trim();
       return;
     }
+    // 1980–: la nota del partido va sola en el renglón de abajo, entre paréntesis: " (Suspended at 10' 0-0 and continued next day)".
+    const paren = trimmed.match(/^\((.+)\)\.?$/);
+    if (paren && cur.matches.length && lastMatchLine >= 0 && lines.slice(lastMatchLine + 1, i).every((l) => !l.trim())) {
+      const last = cur.matches[cur.matches.length - 1];
+      last.note = [last.note, `[${paren[1].replace(/\.\s*$/, "")}]`].filter(Boolean).join(" ");
+      lastMatchLine = i;
+      return;
+    }
     // Línea de goleadores: "  [Pérez, Gómez; López]"
     if (/^\s*\[.*\]\s*$/.test(line) && cur.matches.length && /^\s/.test(line)) {
       cur.matches[cur.matches.length - 1].scorers = trimmed.slice(1, -1);
@@ -368,6 +378,9 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
     // se guarda como "played X:Y" al final.
     // Errata "wp-1p" (1971) y penales pegados al resultado: "Independiente [6]2-2[7] San Lorenzo" → nota "pen 6:7".
     normalized = normalized.replace(/\b(wp|lp)-1p\b/i, "$1-lp").replace(/\b1p-(wp)\b/i, "lp-$1");
+    // "San Lorenzo (MdP)  1-2 awd 1-0  Boca Juniors" (1980): el de la cancha y el que dio la liga.
+    const awdPair = normalized.match(/\s(\d+)\s*-\s*(\d+)\s+awd\s+(\d+)\s*-\s*(\d+)(?=\s)/i);
+    if (awdPair) normalized = `${normalized.replace(awdPair[0], ` ${awdPair[1]}-${awdPair[2]} `)}  [later awarded ${awdPair[3]}-${awdPair[4]}]`;
     const pens = normalized.match(/\s[[(](\d+)[\])]\s*(\d+\s*[-:]\s*\d+)\s*[[(](\d+)[\])](?=\s)/);
     if (pens) normalized = `${normalized.replace(pens[0], ` ${pens[2]} `)}  [pen ${pens[1]}:${pens[3]}]`;
     const wpScore = normalized.match(/\s(wp|lp)\s+(\d+)\s*:\s*(\d+)\s+(wp|lp)\s/);
@@ -382,6 +395,7 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
       if (away && !/^\d/.test(away)) {
         // Fecha propia del partido en la nota: "at Rosario  (27 May)".
         const own = note.match(/\((\d{1,2})\s+([A-Z][a-z]{2})(?:\s+(\d{4}))?\)/);
+        lastMatchLine = i;
         cur.matches.push({
           line: i,
           date: own ? `${own[2]} ${own[1]}${own[3] ? `, ${own[3]}` : ""}` : date,
