@@ -78,7 +78,7 @@ export default function CupsPage() {
           </section>
         ))}
         <p className="text-sm text-navy-400">
-          Están todas las copas nacionales de Primera que reconoce la AFA hasta 1970. Las siguientes se cargan junto con sus
+          Están todas las copas nacionales de Primera que reconoce la AFA hasta 1985 (entre 1971 y 1985 no se jugó ninguna). Las siguientes se cargan junto con sus
           temporadas.
         </p>
       </main>

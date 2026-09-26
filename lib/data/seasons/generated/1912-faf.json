@@ -984,7 +984,7 @@
    ]
   },
   {
-   "id": "1912-faf-057",
+   "id": "1912-faf-058",
    "date": "1912-12-22",
    "competition": "Federación Argentina de Football",
    "stage": "Desempate",
@@ -993,30 +993,14 @@
    "awayId": "independiente",
    "homeGoals": 1,
    "awayGoals": 1,
-   "venue": "Cancha de Gimnasia y Esgrima (BA)",
    "sources": [
     "rsssf",
     "wikipedia-es"
    ],
-   "status": "annulled",
-   "note": "Suspendido a los 87 minutos con 1-1 y no se completó: no suma. Goles: P. Rithner / Lloveras."
-  },
-  {
-   "id": "1912-faf-058",
-   "date": "1912-12-23",
-   "competition": "Federación Argentina de Football",
-   "stage": "Desempate",
-   "phase": "playoff",
-   "homeId": "porteno",
-   "awayId": "independiente",
-   "homeGoals": 0,
-   "awayGoals": 0,
-   "sources": [
-    "rsssf"
-   ],
    "awardedTo": "porteno",
-   "walkover": true,
-   "note": "No se jugó: los puntos fueron para Porteño. Resuelto por la liga."
+   "note": "Suspendido a los 87 minutos con 1-1; la liga le dio los puntos a Porteño. La liga lo resolvió el 23/12. Goles: P. Rithner / Lloveras.",
+   "goalsVoid": true,
+   "venue": "Cancha de Gimnasia y Esgrima (BA)"
   }
  ]
 }

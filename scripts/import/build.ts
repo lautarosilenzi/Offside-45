@@ -94,7 +94,7 @@ export function translateNote(
     // "HT, score stood" va junto (lo traduce una sola regla); "see Jul 17", "remaining 49 on…" e "in extra time…" van aparte.
     // La cancha al final ("…, Racing, Avellaneda, B") también va aparte del texto que la precede.
     .split(
-      /\]\s*\[|\s+(?=\[)|;\s*|,\s*(?=(?:aet|asdet|lasted|at|annulled|abandoned|suspended|played|awarded|n\/p|see|remaining|remained|in extra time|continue on|to be replayed)\b)|(?<!HT),\s*(?=(?:the )?score stood\b)|,\s*(?=[^,]+,\s*[^,]+,\s*[BCS]$)/i,
+      /\]\s*\[|\s+(?=\[)|;\s*|,\s*(?=(?:aet|asdet|lasted|at|annulled|abandoned|suspended|played|awarded|n\/p|see|remaining|remained|in extra time|continue on|to be replayed)\b)|(?<!HT),\s*(?=(?:the )?score stood\b)|,\s*(?=\d+:\d+ corners$)|,\s*(?=[^,]*\b\d+ points? deducted)|,\s*(?=[^,]+,\s*[^,]+,\s*[BCS]$)/i,
     )
     // Sin corchetes ni el punto final ("San Isidro was suspended."); "W.O." conserva sus puntos.
     .map((p) => p.replace(/[\[\]]/g, "").trim().replace(/(?<!\b[A-Z])\.$/, ""))
@@ -103,6 +103,18 @@ export function translateNote(
     .filter(Boolean);
   for (const p of parts) {
     let m: RegExpMatchArray | null;
+    // Copa de Competencia 1933: "Vélez Sarsfield did not play the extra time. On 21 Jun Boca Juniors won points".
+    if ((m = p.match(/^(.+?) did not play the extra time\. On (\d{1,2} [A-Z][a-z]{2}) (.+?) won (?:the )?points$/i))) {
+      const quit = resolveName(m[1], year);
+      const club = resolveName(m[3], year);
+      out.wonPointsBy = club?.id;
+      out.text.push(`${quit ? quit.as ?? quit.name : m[1]} no jugó el alargue; el ${esDate(m[2])} la liga le dio el partido a ${club ? club.as ?? club.name : m[3]}.`);
+      continue;
+    }
+    if ((m = p.match(/^(\d+):(\d+) corners$/i))) {
+      out.text.push(`Córners: ${m[1]}-${m[2]}.`);
+      continue;
+    }
     // Partidos suspendidos que se completaron otro día: "remaining 15 on Dec 21", "remaining 24m on Jan 6 but Vélez not showed up".
     if ((m = p.match(/^remaining (\d+)m? on ([A-Z][a-z]{2} \d{1,2})(?: but (.+?) not showed up)?(?: at (.+?))?(?:, [BC])?\.?$/))) {
       const club = m[3] ? resolveName(m[3], year) : null;
@@ -255,6 +267,8 @@ export function translateNote(
       out.text.push(`Suspendido a los ${m[3]} minutos${/HT$/i.test(p) ? " (en el entretiempo)" : ""} con ${m[1]}-${m[2]}.`);
     else if ((m = p.match(/^remaining time (?:on|in) (.+)$/i))) out.text.push(`El resto se jugó el ${esDate(m[1])}.`);
     else if (/^First match in new Atlanta field$/i.test(p)) out.text.push("Primer partido en la nueva cancha de Atlanta.");
+    // "12 de Octubre (San Nicolás)" (1985): estadio y ciudad.
+    else if ((m = p.match(/^(\d{1,2} de [A-ZÁÉÍÓÚ][a-záéíóú]+) \((.+)\)$/))) out.venue = `Estadio ${m[1]} (${m[2]})`;
     else if ((m = p.match(/^First official match at (.+)$/i))) out.text.push(`Primer partido oficial en el estadio ${m[1]}.`);
     // 1980: notas entre paréntesis debajo del partido.
     else if ((m = p.match(/^Suspended at (\d+)' due to (.+?)\. On (.+?) the score stood$/i)))
@@ -266,6 +280,8 @@ export function translateNote(
     else if ((m = p.match(/^Suspended \S+ (\d+)-(\d+) \S+ at (\d+)'$/i))) out.text.push(`Suspendido a los ${m[3]} minutos con ${m[1]}-${m[2]}.`);
     else if ((m = p.match(/^Suspended (\d+)-(\d+) a los (\d+)' due to not warranties to play$/i))) out.text.push(`Suspendido a los ${m[3]} minutos con ${m[1]}-${m[2]} por falta de garantías.`);
     else if ((m = p.match(/^Abandoned at (\d+)'$/i))) out.text.push(`Suspendido a los ${m[1]} minutos.`);
+    else if ((m = p.match(/^Suspended at (\d+)' .*?(\d+)-(\d+).*?, continued later$/i)))
+      out.text.push(`Suspendido a los ${m[1]} minutos con ${m[2]}-${m[3]}; se completó después (el resultado es el final).`);
     else if ((m = p.match(/^(.+?): (\d+) points deducted\)?$/i))) {
       const club = resolveName(m[1], year);
       out.text.push(`A ${club ? club.as ?? club.name : m[1]} le descontaron ${m[2]} puntos (sanción).`);
@@ -403,8 +419,18 @@ function stageOf(raw: RawMatch): { stage?: string; phase: Match["phase"] } {
   const r0 = raw.round ?? "";
   const leg = /\b(1st|first)\b\.?\s*(leg|match)/i.test(r0) ? " (ida)" : /\b(2nd|second)\b\.?\s*(leg|match)/i.test(r0) ? " (vuelta)" : /^Round\s*\d+\.1$/i.test(r0) ? " (ida)" : /^Round\s*\d+\.2$/i.test(r0) ? " (vuelta)" : "";
   // (Nacional 1980: en los cruces, "Round 3.1" es la ida y "Round 3.2" la vuelta.)
+  // Nacional 1983: "Round 2.1.3" es la segunda fase (grupos de 3 más interzonales); no suma en la tabla de la primera.
+  const phase2 = r0.match(/^Round\s*(\d+)\.\s*(\d+)\.\s*(\d+)$/);
+  if (phase2 && phase2[1] !== "1") {
+    const where = raw.group ?? (/\svs\.?\s/i.test(hint) ? "Interzonal" : "");
+    return { stage: `Segunda fase · ${where ? `${where} · ` : ""}Fecha ${phase2[2]}.${phase2[3]}`, phase: "playoff" };
+  }
   // Si la línea de la fecha ya nombra la fase ("Semifinal [Dec 13]:"), manda sobre el título de la sección.
   if (hint && !/semi|final|quarter|playoff/i.test(r0)) {
+    if (/^1\/8|octavos|round of 16/i.test(hint)) return { stage: `Octavos de final${leg}`, phase: "playoff" };
+    // Nacional 1985: doble eliminación después de los grupos.
+    if (/group winners/i.test(hint)) return { stage: `Llave de ganadores${leg}`, phase: "playoff" };
+    if (/group losers/i.test(hint)) return { stage: `Llave de perdedores${leg}`, phase: "playoff" };
     if (/intergroup|interzonal/i.test(hint)) {
       const n = r0.match(/(?:Round|Fecha|Matchday)\s*(\d+)/i);
       return { stage: n ? `Interzonal · Fecha ${n[1]}` : "Interzonal", phase: "league" };
@@ -817,7 +843,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   }
   // 1977: "[Suspended in 45' because the rain]" con el parcial, y días después la misma fecha con el resultado final
   // (se terminó de jugar): queda un solo partido, el de la segunda fila.
-  for (const part of [...matches]) {
+  for (const part of cfg.kind === "cup" ? [] : [...matches]) {
     const g = part.status !== "annulled" ? part.note?.match(/^Suspendido a los (\d+) minutos(?: por lluvia)?\.\s*(.*)$/) : null;
     if (!g) continue;
     const rest = matches.find(

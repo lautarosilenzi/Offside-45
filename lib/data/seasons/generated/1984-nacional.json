@@ -1,0 +1,2371 @@
+{
+ "slug": "1984-nacional",
+ "year": 1984,
+ "league": "Nacional",
+ "title": "Nacional 1984",
+ "tournament": "Campeonato Nacional 1984",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "ferro"
+ ],
+ "summary": "Ferro Carril Oeste ganó su segundo Nacional: 3-0 y 1-0 a River en la final.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1984",
+   "url": "https://www.rsssf.org/tablesa/arg84.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato Nacional 1984 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_Nacional_1984_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Ocho grupos de 4 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a dos ruedas. Los dos primeros de cada grupo jugaron octavos, cuartos, semifinales y final de ida y vuelta. 2 puntos por victoria."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "chacarita",
+   "points": -6,
+   "reason": "descuento de 6 puntos (RSSSF no da el motivo)"
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "newells",
+   "played": 6,
+   "won": 3,
+   "drawn": 2,
+   "lost": 1,
+   "goalsFor": 9,
+   "goalsAgainst": 8,
+   "points": 8
+  },
+  {
+   "teamId": "talleres",
+   "played": 6,
+   "won": 3,
+   "drawn": 1,
+   "lost": 2,
+   "goalsFor": 14,
+   "goalsAgainst": 11,
+   "points": 7
+  },
+  {
+   "teamId": "boca",
+   "played": 6,
+   "won": 2,
+   "drawn": 3,
+   "lost": 1,
+   "goalsFor": 7,
+   "goalsAgainst": 5,
+   "points": 7
+  },
+  {
+   "teamId": "ferro-general-pico",
+   "played": 6,
+   "won": 0,
+   "drawn": 2,
+   "lost": 4,
+   "goalsFor": 6,
+   "goalsAgainst": 12,
+   "points": 2
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 6,
+   "won": 3,
+   "drawn": 3,
+   "lost": 0,
+   "goalsFor": 14,
+   "goalsAgainst": 8,
+   "points": 9
+  },
+  {
+   "teamId": "gimnasia-mendoza",
+   "played": 6,
+   "won": 0,
+   "drawn": 5,
+   "lost": 1,
+   "goalsFor": 10,
+   "goalsAgainst": 11,
+   "points": 5
+  },
+  {
+   "teamId": "union-general-pinedo",
+   "played": 6,
+   "won": 0,
+   "drawn": 5,
+   "lost": 1,
+   "goalsFor": 6,
+   "goalsAgainst": 7,
+   "points": 5
+  },
+  {
+   "teamId": "temperley",
+   "played": 6,
+   "won": 0,
+   "drawn": 5,
+   "lost": 1,
+   "goalsFor": 6,
+   "goalsAgainst": 10,
+   "points": 5
+  },
+  {
+   "teamId": "belgrano",
+   "played": 6,
+   "won": 4,
+   "drawn": 1,
+   "lost": 1,
+   "goalsFor": 8,
+   "goalsAgainst": 4,
+   "points": 9
+  },
+  {
+   "teamId": "central",
+   "played": 6,
+   "won": 3,
+   "drawn": 2,
+   "lost": 1,
+   "goalsFor": 9,
+   "goalsAgainst": 6,
+   "points": 8
+  },
+  {
+   "teamId": "velez",
+   "played": 6,
+   "won": 2,
+   "drawn": 2,
+   "lost": 2,
+   "goalsFor": 9,
+   "goalsAgainst": 6,
+   "points": 6
+  },
+  {
+   "teamId": "central-norte-salta",
+   "played": 6,
+   "won": 0,
+   "drawn": 1,
+   "lost": 5,
+   "goalsFor": 2,
+   "goalsAgainst": 12,
+   "points": 1
+  },
+  {
+   "teamId": "river",
+   "played": 6,
+   "won": 5,
+   "drawn": 1,
+   "lost": 0,
+   "goalsFor": 22,
+   "goalsAgainst": 5,
+   "points": 11
+  },
+  {
+   "teamId": "huracan",
+   "played": 6,
+   "won": 4,
+   "drawn": 0,
+   "lost": 2,
+   "goalsFor": 14,
+   "goalsAgainst": 8,
+   "points": 8
+  },
+  {
+   "teamId": "estudiantes-rio-cuarto",
+   "played": 6,
+   "won": 1,
+   "drawn": 2,
+   "lost": 3,
+   "goalsFor": 9,
+   "goalsAgainst": 10,
+   "points": 4
+  },
+  {
+   "teamId": "atletico-uruguay",
+   "played": 6,
+   "won": 0,
+   "drawn": 1,
+   "lost": 5,
+   "goalsFor": 2,
+   "goalsAgainst": 24,
+   "points": 1
+  },
+  {
+   "teamId": "ferro",
+   "played": 6,
+   "won": 3,
+   "drawn": 3,
+   "lost": 0,
+   "goalsFor": 12,
+   "goalsAgainst": 6,
+   "points": 9
+  },
+  {
+   "teamId": "instituto",
+   "played": 6,
+   "won": 2,
+   "drawn": 3,
+   "lost": 1,
+   "goalsFor": 11,
+   "goalsAgainst": 6,
+   "points": 7
+  },
+  {
+   "teamId": "platense",
+   "played": 6,
+   "won": 2,
+   "drawn": 3,
+   "lost": 1,
+   "goalsFor": 7,
+   "goalsAgainst": 7,
+   "points": 7
+  },
+  {
+   "teamId": "altos-hornos-zapla",
+   "played": 6,
+   "won": 0,
+   "drawn": 1,
+   "lost": 5,
+   "goalsFor": 2,
+   "goalsAgainst": 13,
+   "points": 1
+  },
+  {
+   "teamId": "independiente",
+   "played": 6,
+   "won": 4,
+   "drawn": 1,
+   "lost": 1,
+   "goalsFor": 10,
+   "goalsAgainst": 3,
+   "points": 9
+  },
+  {
+   "teamId": "atletico-tucuman",
+   "played": 6,
+   "won": 2,
+   "drawn": 1,
+   "lost": 3,
+   "goalsFor": 7,
+   "goalsAgainst": 7,
+   "points": 5
+  },
+  {
+   "teamId": "chacarita",
+   "played": 6,
+   "won": 4,
+   "drawn": 0,
+   "lost": 2,
+   "goalsFor": 14,
+   "goalsAgainst": 6,
+   "points": 2
+  },
+  {
+   "teamId": "kimberley-mdp",
+   "played": 6,
+   "won": 0,
+   "drawn": 2,
+   "lost": 4,
+   "goalsFor": 3,
+   "goalsAgainst": 18,
+   "points": 2
+  },
+  {
+   "teamId": "argentinos",
+   "played": 6,
+   "won": 3,
+   "drawn": 3,
+   "lost": 0,
+   "goalsFor": 10,
+   "goalsAgainst": 4,
+   "points": 9
+  },
+  {
+   "teamId": "racing-cordoba",
+   "played": 6,
+   "won": 1,
+   "drawn": 4,
+   "lost": 1,
+   "goalsFor": 6,
+   "goalsAgainst": 7,
+   "points": 6
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 6,
+   "won": 2,
+   "drawn": 1,
+   "lost": 3,
+   "goalsFor": 9,
+   "goalsAgainst": 12,
+   "points": 5
+  },
+  {
+   "teamId": "atletico-ledesma",
+   "played": 6,
+   "won": 1,
+   "drawn": 2,
+   "lost": 3,
+   "goalsFor": 9,
+   "goalsAgainst": 11,
+   "points": 4
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 6,
+   "won": 5,
+   "drawn": 1,
+   "lost": 0,
+   "goalsFor": 15,
+   "goalsAgainst": 5,
+   "points": 11
+  },
+  {
+   "teamId": "olimpo",
+   "played": 6,
+   "won": 3,
+   "drawn": 1,
+   "lost": 2,
+   "goalsFor": 10,
+   "goalsAgainst": 9,
+   "points": 7
+  },
+  {
+   "teamId": "atlanta",
+   "played": 6,
+   "won": 2,
+   "drawn": 1,
+   "lost": 3,
+   "goalsFor": 9,
+   "goalsAgainst": 9,
+   "points": 5
+  },
+  {
+   "teamId": "union-san-vicente",
+   "played": 6,
+   "won": 0,
+   "drawn": 1,
+   "lost": 5,
+   "goalsFor": 6,
+   "goalsAgainst": 17,
+   "points": 1
+  }
+ ],
+ "groups": [
+  {
+   "name": "Grupo A",
+   "teamIds": [
+    "newells",
+    "talleres",
+    "boca",
+    "ferro-general-pico"
+   ]
+  },
+  {
+   "name": "Grupo B",
+   "teamIds": [
+    "sanlorenzo",
+    "gimnasia-mendoza",
+    "union-general-pinedo",
+    "temperley"
+   ]
+  },
+  {
+   "name": "Grupo C",
+   "teamIds": [
+    "belgrano",
+    "central",
+    "velez",
+    "central-norte-salta"
+   ]
+  },
+  {
+   "name": "Grupo D",
+   "teamIds": [
+    "river",
+    "huracan",
+    "estudiantes-rio-cuarto",
+    "atletico-uruguay"
+   ]
+  },
+  {
+   "name": "Grupo E",
+   "teamIds": [
+    "ferro",
+    "instituto",
+    "platense",
+    "altos-hornos-zapla"
+   ]
+  },
+  {
+   "name": "Grupo F",
+   "teamIds": [
+    "independiente",
+    "atletico-tucuman",
+    "chacarita",
+    "kimberley-mdp"
+   ]
+  },
+  {
+   "name": "Grupo G",
+   "teamIds": [
+    "argentinos",
+    "racing-cordoba",
+    "union-santa-fe",
+    "atletico-ledesma"
+   ]
+  },
+  {
+   "name": "Grupo H",
+   "teamIds": [
+    "estudiantes",
+    "olimpo",
+    "atlanta",
+    "union-san-vicente"
+   ]
+  }
+ ],
+ "matches": [
+  {
+   "id": "1984-nacional-001",
+   "date": "1984-02-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-002",
+   "date": "1984-02-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 1",
+   "phase": "league",
+   "homeId": "ferro-general-pico",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-003",
+   "date": "1984-02-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 2",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-004",
+   "date": "1984-02-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 2",
+   "phase": "league",
+   "homeId": "ferro-general-pico",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-005",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-006",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 3",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "ferro-general-pico",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-007",
+   "date": "1984-03-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 4",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-008",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 4",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "ferro-general-pico",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-009",
+   "date": "1984-03-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 5",
+   "phase": "league",
+   "homeId": "ferro-general-pico",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-010",
+   "date": "1984-03-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 5",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Cancha de Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-011",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 6",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-012",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo A · Fecha 6",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "ferro-general-pico",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-013",
+   "date": "1984-02-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 1",
+   "phase": "league",
+   "homeId": "union-general-pinedo",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1984-nacional-014",
+   "date": "1984-02-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "temperley",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-015",
+   "date": "1984-02-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "temperley",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Malvinas Argentinas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-016",
+   "date": "1984-02-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 2",
+   "phase": "league",
+   "homeId": "union-general-pinedo",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Chaco For Ever",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1984-nacional-017",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-018",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 3",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "union-general-pinedo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1984-nacional-019",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 4",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "union-general-pinedo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1984-nacional-020",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 4",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-021",
+   "date": "1984-03-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Malvinas Argentinas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-022",
+   "date": "1984-03-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 5",
+   "phase": "league",
+   "homeId": "union-general-pinedo",
+   "awayId": "temperley",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Chaco For Ever",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1984-nacional-023",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "union-general-pinedo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Malvinas Argentinas",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1984-nacional-024",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo B · Fecha 6",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Banfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-025",
+   "date": "1984-02-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 1",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "central-norte-salta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1984-nacional-026",
+   "date": "1984-02-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 1",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-027",
+   "date": "1984-02-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 2",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-028",
+   "date": "1984-02-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central-norte-salta",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1984-nacional-029",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 3",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-030",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 3",
+   "phase": "league",
+   "homeId": "central-norte-salta",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1984-nacional-031",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 4",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-032",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 4",
+   "phase": "league",
+   "homeId": "central-norte-salta",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Suspendido a los 85 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1984-nacional-033",
+   "date": "1984-03-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 5",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "central-norte-salta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Newell's Old Boys",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1984-nacional-034",
+   "date": "1984-03-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 5",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-035",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 6",
+   "phase": "league",
+   "homeId": "central-norte-salta",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Juventud Antoniana (Salta)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "1984-nacional-036",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo C · Fecha 6",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-037",
+   "date": "1984-02-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "atletico-uruguay",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-038",
+   "date": "1984-02-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-039",
+   "date": "1984-02-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes-rio-cuarto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Nueva Chicago",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-040",
+   "date": "1984-02-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "atletico-uruguay",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-041",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 3",
+   "phase": "league",
+   "homeId": "atletico-uruguay",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-042",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-043",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 4",
+   "phase": "league",
+   "homeId": "atletico-uruguay",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-044",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Suspendido a los 87 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  },
+  {
+   "id": "1984-nacional-045",
+   "date": "1984-03-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 5",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atletico-uruguay",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "venue": "Cancha de Nueva Chicago",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-046",
+   "date": "1984-03-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 5",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes-rio-cuarto",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-047",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 6",
+   "phase": "league",
+   "homeId": "atletico-uruguay",
+   "awayId": "estudiantes-rio-cuarto",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-048",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo D · Fecha 6",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-049",
+   "date": "1984-02-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo E · Fecha 1",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "altos-hornos-zapla",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-050",
+   "date": "1984-02-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo E · Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-051",
+   "date": "1984-02-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo E · Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "altos-hornos-zapla",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-052",
+   "date": "1984-02-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo E · Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-053",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo E · Fecha 3",
+   "phase": "league",
+   "homeId": "altos-hornos-zapla",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-054",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo E · Fecha 3",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-055",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo E · Fecha 4",
+   "phase": "league",
+   "homeId": "altos-hornos-zapla",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-056",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo E · Fecha 4",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-057",
+   "date": "1984-03-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo E · Fecha 5",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-058",
+   "date": "1984-03-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo E · Fecha 5",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "altos-hornos-zapla",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-059",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo E · Fecha 6",
+   "phase": "league",
+   "homeId": "altos-hornos-zapla",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-060",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo E · Fecha 6",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-061",
+   "date": "1984-02-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo F · Fecha 1",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Deportivo Español",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-062",
+   "date": "1984-02-20",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo F · Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "kimberley-mdp",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-063",
+   "date": "1984-02-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo F · Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-064",
+   "date": "1984-02-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo F · Fecha 2",
+   "phase": "league",
+   "homeId": "kimberley-mdp",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Mar del Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-065",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo F · Fecha 3",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-066",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo F · Fecha 3",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "kimberley-mdp",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "venue": "Cancha de Deportivo Español",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-067",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo F · Fecha 4",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "kimberley-mdp",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-068",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo F · Fecha 4",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Deportivo Español",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-069",
+   "date": "1984-03-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo F · Fecha 5",
+   "phase": "league",
+   "homeId": "kimberley-mdp",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Mar del Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-070",
+   "date": "1984-03-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo F · Fecha 5",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-071",
+   "date": "1984-03-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo F · Fecha 6",
+   "phase": "league",
+   "homeId": "kimberley-mdp",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Mar del Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-072",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo F · Fecha 6",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-073",
+   "date": "1984-02-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo G · Fecha 1",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "union-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-074",
+   "date": "1984-02-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo G · Fecha 1",
+   "phase": "league",
+   "homeId": "atletico-ledesma",
+   "awayId": "racing-cordoba",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-075",
+   "date": "1984-02-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo G · Fecha 2",
+   "phase": "league",
+   "homeId": "atletico-ledesma",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-076",
+   "date": "1984-02-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo G · Fecha 2",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Instituto (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-077",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo G · Fecha 3",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "racing-cordoba",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-078",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo G · Fecha 3",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "atletico-ledesma",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-079",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo G · Fecha 4",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "atletico-ledesma",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-080",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo G · Fecha 4",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "racing-cordoba",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-081",
+   "date": "1984-03-17",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo G · Fecha 5",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Instituto (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-082",
+   "date": "1984-03-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo G · Fecha 5",
+   "phase": "league",
+   "homeId": "atletico-ledesma",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-083",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo G · Fecha 6",
+   "phase": "league",
+   "homeId": "racing-cordoba",
+   "awayId": "atletico-ledesma",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Instituto (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-084",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo G · Fecha 6",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-085",
+   "date": "1984-02-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo H · Fecha 1",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-086",
+   "date": "1984-02-19",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo H · Fecha 1",
+   "phase": "league",
+   "homeId": "union-san-vicente",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-087",
+   "date": "1984-02-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo H · Fecha 2",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-088",
+   "date": "1984-02-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo H · Fecha 2",
+   "phase": "league",
+   "homeId": "union-san-vicente",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-089",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo H · Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "union-san-vicente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-090",
+   "date": "1984-03-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo H · Fecha 3",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-091",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo H · Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atlanta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-092",
+   "date": "1984-03-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo H · Fecha 4",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "union-san-vicente",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-093",
+   "date": "1984-03-16",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo H · Fecha 5",
+   "phase": "league",
+   "homeId": "union-san-vicente",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Instituto (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-094",
+   "date": "1984-03-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo H · Fecha 5",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-095",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo H · Fecha 6",
+   "phase": "league",
+   "homeId": "atlanta",
+   "awayId": "union-san-vicente",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-096",
+   "date": "1984-03-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Grupo H · Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-097",
+   "date": "1984-04-03",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (ida)",
+   "phase": "playoff",
+   "homeId": "belgrano",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-098",
+   "date": "1984-04-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (ida)",
+   "phase": "playoff",
+   "homeId": "racing-cordoba",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-099",
+   "date": "1984-04-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (ida)",
+   "phase": "playoff",
+   "homeId": "estudiantes",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-100",
+   "date": "1984-04-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (ida)",
+   "phase": "playoff",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-101",
+   "date": "1984-04-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (ida)",
+   "phase": "playoff",
+   "homeId": "instituto",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-102",
+   "date": "1984-04-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (ida)",
+   "phase": "playoff",
+   "homeId": "ferro",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-103",
+   "date": "1984-04-04",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (ida)",
+   "phase": "playoff",
+   "homeId": "olimpo",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-104",
+   "date": "1984-04-05",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (ida)",
+   "phase": "playoff",
+   "homeId": "argentinos",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-106",
+   "date": "1984-04-10",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (vuelta)",
+   "phase": "playoff",
+   "homeId": "talleres",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-107",
+   "date": "1984-04-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (vuelta)",
+   "phase": "playoff",
+   "homeId": "sanlorenzo",
+   "awayId": "racing-cordoba",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-108",
+   "date": "1984-04-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (vuelta)",
+   "phase": "playoff",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Malvinas Argentinas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-109",
+   "date": "1984-04-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (vuelta)",
+   "phase": "playoff",
+   "homeId": "independiente",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-110",
+   "date": "1984-04-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (vuelta)",
+   "phase": "playoff",
+   "homeId": "river",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-111",
+   "date": "1984-04-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (vuelta)",
+   "phase": "playoff",
+   "homeId": "huracan",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue. Ferro Carril Oeste pasó por penales, tras el empate en el global, (6-7).",
+   "advancedId": "ferro"
+  },
+  {
+   "id": "1984-nacional-112",
+   "date": "1984-04-11",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (vuelta)",
+   "phase": "playoff",
+   "homeId": "newells",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue. Newell's Old Boys ganó por penales (7-6).",
+   "advancedId": "newells"
+  },
+  {
+   "id": "1984-nacional-113",
+   "date": "1984-04-14",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Octavos de final (vuelta)",
+   "phase": "playoff",
+   "homeId": "atletico-tucuman",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Central Córdoba (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Empezó el 7/4 y se suspendió con 0-0; se completó en esta fecha."
+  },
+  {
+   "id": "1984-nacional-114",
+   "date": "1984-04-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Cuartos de final (ida)",
+   "phase": "playoff",
+   "homeId": "belgrano",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-115",
+   "date": "1984-04-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Cuartos de final (ida)",
+   "phase": "playoff",
+   "homeId": "argentinos",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-116",
+   "date": "1984-04-18",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Cuartos de final (ida)",
+   "phase": "playoff",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-117",
+   "date": "1984-04-26",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Cuartos de final (ida)",
+   "phase": "playoff",
+   "homeId": "ferro",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-118",
+   "date": "1984-04-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Cuartos de final (vuelta)",
+   "phase": "playoff",
+   "homeId": "river",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-119",
+   "date": "1984-04-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Cuartos de final (vuelta)",
+   "phase": "playoff",
+   "homeId": "talleres",
+   "awayId": "argentinos",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-120",
+   "date": "1984-04-25",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Cuartos de final (vuelta)",
+   "phase": "playoff",
+   "homeId": "sanlorenzo",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Atlanta",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-121",
+   "date": "1984-05-02",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Cuartos de final (vuelta)",
+   "phase": "playoff",
+   "homeId": "independiente",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-122",
+   "date": "1984-05-02",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Semifinal (ida)",
+   "phase": "playoff",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-123",
+   "date": "1984-05-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Semifinal (ida)",
+   "phase": "playoff",
+   "homeId": "ferro",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-124",
+   "date": "1984-05-09",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Semifinal (vuelta)",
+   "phase": "playoff",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-125",
+   "date": "1984-05-16",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Semifinal (ida)",
+   "phase": "playoff",
+   "homeId": "talleres",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-126",
+   "date": "1984-05-24",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Final (ida)",
+   "phase": "playoff",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1984-nacional-127",
+   "date": "1984-05-30",
+   "competition": "Asociación del Fútbol Argentino · Nacional",
+   "stage": "Final (vuelta)",
+   "phase": "playoff",
+   "homeId": "ferro",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Suspendido a los 70 minutos. No se completó; quedó el resultado del momento de la suspensión."
+  }
+ ]
+}

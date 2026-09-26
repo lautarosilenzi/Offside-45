@@ -360,7 +360,10 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
     const paren = trimmed.match(/^\((.+)\)\.?$/);
     if (paren && cur.matches.length && lastMatchLine >= 0 && lines.slice(lastMatchLine + 1, i).every((l) => !l.trim())) {
       const last = cur.matches[cur.matches.length - 1];
-      last.note = [last.note, `[${paren[1].replace(/\.\s*$/, "")}]`].filter(Boolean).join(" ");
+      // "(aet 2-4 on PK)" (1985): alargue y penales.
+      const pk = paren[1].match(/^(aet\s+)?(\d+)-(\d+) on PK$/i);
+      const txt = pk ? `${pk[1] ? "[aet] " : ""}[pen ${pk[2]}:${pk[3]}]` : `[${paren[1].replace(/\.\s*$/, "")}]`;
+      last.note = [last.note, txt].filter(Boolean).join(" ");
       lastMatchLine = i;
       return;
     }
@@ -381,6 +384,9 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
     // "San Lorenzo (MdP)  1-2 awd 1-0  Boca Juniors" (1980): el de la cancha y el que dio la liga.
     const awdPair = normalized.match(/\s(\d+)\s*-\s*(\d+),?\s+awd\s+(\d+)\s*-\s*(\d+)(?=\s)/i);
     if (awdPair) normalized = `${normalized.replace(awdPair[0], ` ${awdPair[1]}-${awdPair[2]} `)}  [later awarded ${awdPair[3]}-${awdPair[4]}]`;
+    // "Racing (C)   0-0 aet PK 5-3  Talleres (C)" (1983): alargue y penales entre el resultado y el visitante.
+    const aetPk = normalized.match(/\s(\d+-\d+)\s+aet\s+PK\s+(\d+)-(\d+)\s/i);
+    if (aetPk) normalized = `${normalized.replace(aetPk[0], ` ${aetPk[1]}   `)}  [aet] [pen ${aetPk[2]}:${aetPk[3]}]`;
     const pens = normalized.match(/\s[[(](\d+)[\])]\s*(\d+\s*[-:]\s*\d+)\s*[[(](\d+)[\])](?=\s)/);
     if (pens) normalized = `${normalized.replace(pens[0], ` ${pens[2]} `)}  [pen ${pens[1]}:${pens[3]}]`;
     const wpScore = normalized.match(/\s(wp|lp)\s+(\d+)\s*:\s*(\d+)\s+(wp|lp)\s/);

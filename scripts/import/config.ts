@@ -1602,6 +1602,8 @@ export const TOURNAMENTS: TournamentConfig[] = [
     championIds: ["sanlorenzo"],
     overrides: {
       // RSSSF lo lista el día que se jugó ("awd", originalmente 2-0) y el día de la resolución: queda uno solo.
+      // La fila "awd [originally 2-0]" del día del partido es el mismo partido.
+      "1968-06-16 newells lanus": "skip",
       "1968-07-19 newells lanus": {
         date: "1968-06-16",
         homeGoals: 2,
@@ -2139,6 +2141,97 @@ afaTorneo(1979, "reclasificacion", {
     notes: [
       { kind: "formato", text: "19 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." },
       { kind: "puntos", text: "Unión y Quilmes empataron el puesto de descenso y jugaron un desempate (1-0 para Unión, en febrero de 1983): descendió Quilmes, junto con Sarmiento de Junín." },
+    ],
+  }),
+  // ───────── 1983 ─────────
+  // La página no trae tablas: se verifican con las del documento de tablas finales de la década.
+  afaTorneo(1983, "nacional", {
+    championIds: ["estudiantes"],
+    headings: [/^First Stage\.$/, /^Second Stage\.$/, /^Group [A-H]\.$/, /^"Group A vs\. B/, /^1\/8 Final\.$/, /^Quarter Final\.$/, /^Semifinal\.$/, /^Final\.$/, /^Campeonato Metropolitano 1983\.$/],
+    sectionRange: { from: /^Argentina 1983 - Campeonato Nacional$/, to: /^Campeonato Metropolitano 1983\.$/ },
+    tableFile: "arghist-pro1980s.html",
+    tableSection: /^Campeonato Nacional 1983/,
+    tableIndex: [0, 1, 2, 3, 4, 5, 6, 7],
+    groupNames: ["Grupo A", "Grupo B", "Grupo C", "Grupo D", "Grupo E", "Grupo F", "Grupo G", "Grupo H"],
+    groupTables: [
+      { table: 8, stage: "^Segunda fase · (Grupo A|Interzonal) · " },
+      { table: 9, stage: "^Segunda fase · (Grupo B|Interzonal) · " },
+      { table: 10, stage: "^Segunda fase · (Grupo C|Interzonal) · " },
+      { table: 11, stage: "^Segunda fase · (Grupo D|Interzonal) · " },
+      { table: 12, stage: "^Segunda fase · (Grupo E|Interzonal) · " },
+      { table: 13, stage: "^Segunda fase · (Grupo F|Interzonal) · " },
+      { table: 14, stage: "^Segunda fase · (Grupo G|Interzonal) · " },
+      { table: 15, stage: "^Segunda fase · (Grupo H|Interzonal) · " },
+    ],
+    aliases: { Kimberley: "kimberley-mdp", "Racing (C)": "racing-cordoba" },
+    summary: "Estudiantes de La Plata ganó el Nacional: 2-0 y 1-2 con Independiente en la final.",
+    notes: [
+      { kind: "formato", text: "Primera fase: ocho grupos de 4 equipos, todos contra todos a dos ruedas. Segunda fase: los tres primeros de cada grupo, en ocho grupos de 3 más dos fechas interzonales. Después, octavos, cuartos, semifinales y final de ida y vuelta. 2 puntos por victoria." },
+      { kind: "puntos", text: "La tabla del torneo es la de la primera fase; la segunda fase tiene sus propias tablas (con los interzonales)." },
+      { kind: "fuentes", text: "Las tablas con las que se verifican los partidos son las del documento de tablas finales de RSSSF de la década." },
+    ],
+  }),
+  afaTorneo(1983, "metropolitano", {
+    championIds: ["independiente"],
+    headings: [/^First Stage\.$/, /^Second Stage\.$/, /^Group [A-H]\.$/, /^"Group A vs\. B/, /^1\/8 Final\.$/, /^Quarter Final\.$/, /^Semifinal\.$/, /^Final\.$/, /^Campeonato Metropolitano 1983\.$/],
+    section: /^Campeonato Metropolitano 1983\.$/,
+    tableFile: "arghist-pro1980s.html",
+    tableSection: /^Primera División 1983$/,
+    rolloverBefore: 6,
+    aliases: { "Racing (C)": "racing-cordoba" },
+    summary: "Independiente ganó el Metropolitano en la última fecha, 2-0 a Racing en el clásico.",
+    notes: [
+      { kind: "formato", text: "19 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." },
+      { kind: "fuentes", text: "La tabla con la que se verifican los partidos es la del documento de tablas finales de RSSSF de la década." },
+    ],
+  }),
+  // ───────── 1984 ─────────
+  afaTorneo(1984, "nacional", {
+    championIds: ["ferro"],
+    headings: [/^Group [A-H]$/, /^1\/8 FINALS$/, /^QUARTERFINALS$/, /^SEMIFINALS$/, /^FINAL$/],
+    sectionRange: { from: /^Campeonato Nacional 1984/, to: /^Campeonato Metropolitano 1984/ },
+    tableIndex: [0, 1, 2, 3, 4, 5, 6, 7],
+    groupNames: ["Grupo A", "Grupo B", "Grupo C", "Grupo D", "Grupo E", "Grupo F", "Grupo G", "Grupo H"],
+    pointAdjustments: [{ teamId: "chacarita", points: -6, reason: "descuento de 6 puntos (RSSSF no da el motivo)" }],
+    overrides: {
+      // En la página la línea dice "2nd. leg:2" y el importador no la toma como la vuelta.
+      "1984-05-09 river sanlorenzo": { stage: "Semifinal (vuelta)" },
+    },
+    summary: "Ferro Carril Oeste ganó su segundo Nacional: 3-0 y 1-0 a River en la final.",
+    notes: [
+      { kind: "formato", text: "Ocho grupos de 4 equipos (clubes del Metropolitano y de los torneos regionales), todos contra todos a dos ruedas. Los dos primeros de cada grupo jugaron octavos, cuartos, semifinales y final de ida y vuelta. 2 puntos por victoria." },
+    ],
+  }),
+  afaTorneo(1984, "metropolitano", {
+    championIds: ["argentinos"],
+    headings: [/^Group [A-H]$/, /^1\/8 FINALS$/, /^QUARTERFINALS$/, /^SEMIFINALS$/, /^FINAL$/],
+    section: /^Campeonato Metropolitano 1984/,
+    rolloverBefore: 6,
+    // La tabla de la página da un gol menos a Central (27) y a Chacarita en contra (36); la de la década coincide con los partidos.
+    tableFile: "arghist-pro1980s.html",
+    tableSection: /^Primera División 1984/,
+    summary: "Argentinos Juniors ganó su primer título de Primera, un punto delante de Ferro.",
+    notes: [{ kind: "formato", text: "19 equipos, todos contra todos a dos ruedas, 2 puntos por victoria." }],
+  }),
+  // ───────── 1985 ─────────
+  // Nacional 1985: grupos y doble eliminación. La página no trae tablas: se verifican con las de la década.
+  afaTorneo(1985, "nacional", {
+    championIds: ["argentinos"],
+    sectionRange: { from: /^Argentina 1985 - Campeonato Nacional$/ },
+    tableFile: "arghist-pro1980s.html",
+    tableSection: /^Campeonato Nacional 1985/,
+    tableIndex: [0, 1, 2, 3, 4, 5, 6, 7],
+    groupNames: ["Grupo A", "Grupo B", "Grupo C", "Grupo D", "Grupo E", "Grupo F", "Grupo G", "Grupo H"],
+    aliases: { Argentino: "argentino-firmat", "Racing (C)": "racing-cordoba" },
+    knownTableDiffs: {
+      keys: ["talleres:drawn", "talleres:lost", "talleres:goalsFor", "talleres:points", "guarani-antonio-franco:won", "guarani-antonio-franco:drawn", "guarani-antonio-franco:goalsAgainst", "guarani-antonio-franco:points"],
+      explanation: "RSSSF y Wikipedia dan 2-2 en Guaraní Antonio Franco–Talleres (10 de marzo), pero las tablas finales de las dos fuentes solo cierran si Guaraní ganó 2-0. No hay otra fuente para decidir: queda el 2-2 de los partidos.",
+    },
+    summary: "Argentinos Juniors ganó el Nacional: perdió la primera final con Vélez por penales y le ganó 2-1 la final definitiva.",
+    notes: [
+      { kind: "formato", text: "Ocho grupos de 4 equipos, todos contra todos a dos ruedas. Después, doble eliminación: los primeros de cada grupo en la llave de ganadores, los demás en la de perdedores. El ganador de cada llave jugó la final; como Argentinos venía de la llave de ganadores, al perder la primera tuvo una segunda final. 2 puntos por victoria." },
+      { kind: "puntos", text: "La tabla del torneo es la de los grupos; la doble eliminación no suma." },
+      { kind: "fuentes", text: "Las tablas con las que se verifican los partidos son las del documento de tablas finales de RSSSF de la década." },
     ],
   }),
 ];
