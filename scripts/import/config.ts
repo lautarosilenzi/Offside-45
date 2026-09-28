@@ -312,6 +312,8 @@ const A_2016 = {
   "CA Patronato dl Juventud Católica": "patronato-parana",
   "Club Atlético Talleres": "talleres",
   "AMSyD Atlético de Rafaela": "atletico-rafaela",
+  "Club Atlético Tucumán": "atletico-tucuman",
+  "Arsenal FC": "arsenal",
 };
 // Torneos de la misma temporada (Liguilla Pre-Libertadores, Octogonal): sin tabla, todo es eliminación.
 // `file` se puede cambiar: 2009/10 está en arg2010.html (arg10.html es 1910).
@@ -4099,5 +4101,31 @@ afaTorneo(1979, "reclasificacion", {
       ],
     }),
     file: "arg2017.html",
+  },
+  // ───────── 2017/18: Superliga, 28 equipos (arg2018.html) ─────────
+  {
+    ...afaLarga(2017, {
+      championIds: ["boca"],
+      headings: [/^Campeonato de Primera División \S*Superliga 2017\/2018/, /^Relegation$/],
+      sectionRange: { from: /^Campeonato de Primera División \S*Superliga 2017\/2018/, to: /^Relegation$/ },
+      tableIndex: [0],
+      pointsPerWin: 3,
+      aliases: { ...ABREV_2001, ...A_2016, "CA San Martín": "san-martin-sj" }, // en 2017/18 solo estaba el de San Juan
+      pointAdjustments: [
+        { teamId: "newells", points: -1, reason: "descuento de 1 punto (primero fueron 3; el TAS lo fijó en 1 el 28/6/2019)" },
+        { teamId: "arsenal", points: -2, reason: "descuento de 2 puntos (14/9/2018)" },
+        { teamId: "olimpo", points: -1, reason: "descuento de 1 punto (14/9/2018)" },
+      ],
+      summary: "Boca ganó la primera Superliga dos puntos delante de Godoy Cruz: su segundo título seguido.",
+      notes: [
+        {
+          kind: "formato",
+          text: "Superliga: 28 equipos a una rueda, 3 puntos por victoria. Descendieron los cuatro peores promedios: Temperley, Olimpo, Arsenal y Chacarita.",
+        },
+      ],
+    }),
+    file: "arg2018.html",
+    tournament: "Superliga 2017/18",
+    title: "Superliga 2017/18",
   },
 ];
