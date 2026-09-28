@@ -3494,7 +3494,7 @@ afaTorneo(1979, "reclasificacion", {
     wiki: "Anexo:Torneo Clausura 2008 (Argentina)",
     headings: H_2007,
     sectionRange: { from: /^Clausura 2008$/, to: /^Topscorers$/ },
-    skip: (m) => m.score === "awd",
+    skip: (m) => m.score === "awd" || (m.score === "abd" && m.home === "River Plate"), // el River-San Martín suspendido va entero en la nota del partido completado
     extraMatches: [
       {
         id: "2007-08-clausura-extra-1",
