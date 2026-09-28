@@ -328,6 +328,8 @@ const A_LPF = {
   "Club Atlético Platense Asociación Civil": "platense",
   "Instituto Atlético Central Córdoba": "instituto",
   "Instituto ACC": "instituto",
+  "Club Sportivo Independiente Rivadavia": "independiente-rivadavia",
+  "CS Independiente Rivadavia": "independiente-rivadavia",
 };
 // Torneos de la misma temporada (Liguilla Pre-Libertadores, Octogonal): sin tabla, todo es eliminación.
 // `file` se puede cambiar: 2009/10 está en arg2010.html (arg10.html es 1910).
@@ -4266,5 +4268,23 @@ afaTorneo(1979, "reclasificacion", {
     },
     summary: "Gimnasia y Esgrima La Plata le ganó 1-0 a Colón en Rosario: Colón descendió.",
     notes: [{ kind: "formato", text: "Partido único en cancha neutral por el segundo descenso de la temporada." }],
+  }),
+  // ───────── 2024: Torneo de la Liga Profesional (arg2024.html) ─────────
+  anual(2024, undefined, "Liga Profesional", {
+    file: "arg2024.html",
+    tournament: "Torneo de la Liga Profesional de Fútbol 2024",
+    championIds: ["velez"],
+    wiki: "Campeonato de Primera División 2024 (Argentina)",
+    headings: [/^Torneo de la Liga Profesional de Fútbol 2024$/, /^Tabla General de Posiciones 2024/],
+    sectionRange: { from: /^Torneo de la Liga Profesional de Fútbol 2024$/, to: /^Tabla General de Posiciones 2024/ },
+    aliases: A_LPF,
+    summary: "Vélez ganó el torneo de la Liga Profesional tres puntos delante de Talleres, en la última fecha.",
+    notes: [
+      { kind: "formato", text: "28 equipos a una rueda, 3 puntos por victoria. La AFA anuló los descensos de la temporada." },
+      {
+        kind: "puntos",
+        text: "Por los incidentes del Godoy Cruz-San Lorenzo, la liga le descontó 3 puntos a Godoy Cruz el 6/6, pero lo revocó el 8/8: no se aplicó.",
+      },
+    ],
   }),
 ];

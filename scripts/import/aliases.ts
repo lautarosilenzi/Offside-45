@@ -212,6 +212,7 @@ const ALIASES: Alias[] = [
   { id: "talleres", names: ["Talleres (C)", "Talleres (COR)"], from: 1960 },
   { id: "huracan-iw", names: ["Huracán (IWh)", "Huracán (IW)"], from: 1960 },
   { id: "arsenal", names: ["Arsenal", "Arsenal de Sarandí", "Arsenal (Sarandí)"], from: 2002 },
+  { id: "deportivo-riestra", names: ["Deportivo Riestra", "Deportivo Riestra AFBC", "Deportivo Riestra AdFBC", "Deportivo Riestra Asociación de Fomento Barrio Colón"], from: 1960 },
   { id: "crucero-del-norte", names: ["Crucero del Norte", "AMd Personal de Crucero del Norte", "Asociación Mutual del Personal de Crucero del Norte", "Crucero del Norte (Garupá)"], from: 1990 },
   { id: "atletico-rafaela", names: ["Atlético de Rafaela", "Atlético Rafaela", "Atl. de Rafaela", "Atl. Rafaela"], from: 1960 },
   { id: "huracan-corrientes", names: ["Huracán (CNQ)", "Huracán (Corrientes)", "Huracán Ctes", "Huracán Corrientes"], from: 1960 },
