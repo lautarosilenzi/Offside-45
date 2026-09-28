@@ -106,6 +106,7 @@ export function translateNote(
     .replace(/^\[|\]$/g, "")
     .replace(/^\{/, "") // "{at Vélez Sarsfield]": errata de la fuente (1998)
     .replace(/\bSocre\b/g, "Score") // errata de la fuente (2003)
+    .replace(/^(SC|AC),\s*/, "") // 2016/17: resto del nombre ("Club Atlético Banfield SC, Mario Alberto Kempes, …")
     .replace(/,\s*((?:behind )?closed doors)/gi, "; $1") // 2009: "remaining 29', closed doors"
     .replace(/\.\s*(Score allowed to stand|Awarded \d+-\d+)/gi, "; $1") // 2001/02: dos datos en una oración
     .replace(/\babandonded\b/gi, "abandoned") // errata de la fuente (1950)
@@ -267,11 +268,11 @@ export function translateNote(
       out.text.push(`Suspendido a los ${m[1]} minutos por incidentes en la tribuna, con un penal a favor de ${resolveName(m[2], year)?.name ?? m[2]}.`);
     else if ((m = p.match(/^(?:score|result) allowed to stand(?: on ([A-Z][a-z]{2} \d{1,2}))?$/i)))
       out.text.push(m[1] ? `El ${esDate(m[1])} la liga dio por bueno el resultado.` : "La liga dio por bueno el resultado.");
-    else if ((m = p.match(/^abandoned at (\d+)-(\d+) in (\d+)\+(\d+)m?$/i)))
-      // 2013: "abandoned at 3-1 in 90+1m".
+    else if ((m = p.match(/^abandoned at (\d+)-(\d+) in (\d+)m?\+(\d+)m?$/i)))
+      // 2013: "abandoned at 3-1 in 90+1m"; 2017: "in 90m+3".
       out.text.push(`Suspendido a los ${m[3]}+${m[4]} minutos, con ${m[1]}-${m[2]}.`);
     else if (/^(behind )?closed doors$/i.test(p)) out.text.push("A puertas cerradas.");
-    else if ((m = p.match(/^remaining (\d+)m? on ([A-Z][a-z]{2} \d{1,2})$/i))) out.text.push(`Los ${m[1]} minutos que faltaban se jugaron el ${esDate(m[2])}.`);
+    else if ((m = p.match(/^remaining (\d+)m? on ([A-Z][a-z]{2,8} \d{1,2})$/i))) out.text.push(`Los ${m[1]} minutos que faltaban se jugaron el ${esDate(m[2])}.`);
     else if ((m = p.match(/^score stood at ([A-Z][a-z]{2} \d{1,2})$/i)))
       // 1919: "finished at 84m, score stood at Nov 22": si ya se dijo que quedó el resultado, solo falta la fecha.
       out.text.push(out.text.some((t) => /por bueno/.test(t)) ? `La liga lo resolvió el ${esDate(m[1])}.` : `El ${esDate(m[1])} la liga dio por bueno el resultado.`);
@@ -672,6 +673,18 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     const prose = (s: string) =>
       /^NB\b|^\.|^\(|^\[|^\d+'|^Then\b|[:;]|\(\d+m\)|\bis not included\b|, and,|\blater\b|\bstanding\b|\bor$|\.$/i.test(s) &&
       !(/\.$/.test(s) && resolveName(s, cfg.year));
+    // 2016/17: columna de ancho fijo, el estadio queda a un espacio del visitante
+    // ("CA Patronato dl Juventud Católica El Teatro de Turdera…"): se separa el club más largo del principio.
+    if (raw.away.length > 45 && !resolveName(raw.away, cfg.year)) {
+      const words = raw.away.split(" ");
+      for (let k = words.length - 1; k > 0; k--) {
+        if (resolveName(words.slice(0, k).join(" "), cfg.year)) {
+          raw.note = [words.slice(k).join(" "), raw.note].filter(Boolean).join(", ");
+          raw.away = words.slice(0, k).join(" ");
+          break;
+        }
+      }
+    }
     // El visitante puede traer la cancha y una observación pegadas (se separan más abajo): admite nombres más largos.
     if (prose(raw.home) || raw.home.length > 45 || (prose(raw.away) && !/\([A-Z]{1,3} forfeited on [^)]*\)$/.test(raw.away)) || raw.away.length > 80) {
       // Que no se pierda en silencio una fila con resultado ("Newell's O. B.  1-0  Talleres", 2001: el nombre termina en punto).

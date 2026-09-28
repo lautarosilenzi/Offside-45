@@ -302,6 +302,17 @@ const A_2015 = {
   "Asociación A. Argentinos Juniors": "argentinos",
   "Asociación Mutual Social y Deportiva Atlético de Rafaela": "atletico-rafaela",
 };
+// Nombres oficiales desde 2016 (con los de 30 equipos, "San Martín" es el de San Juan y "Talleres" el de Córdoba).
+const A_2016 = {
+  ...A_2015,
+  "Club Atlético Tucumán Sociedad Civil": "atletico-tucuman",
+  "Club Atlético Tucumán Sociedad C.": "atletico-tucuman",
+  "Club Atlético Patronato de la Juventud Católica": "patronato-parana",
+  "CA Patronato de la Juv. Católica": "patronato-parana",
+  "CA Patronato dl Juventud Católica": "patronato-parana",
+  "Club Atlético Talleres": "talleres",
+  "AMSyD Atlético de Rafaela": "atletico-rafaela",
+};
 // Torneos de la misma temporada (Liguilla Pre-Libertadores, Octogonal): sin tabla, todo es eliminación.
 // `file` se puede cambiar: 2009/10 está en arg2010.html (arg10.html es 1910).
 const afaLargaExtra = (
@@ -4070,4 +4081,23 @@ afaTorneo(1979, "reclasificacion", {
       },
     ],
   }),
+  // ───────── 2016/17: 30 equipos a una rueda (arg2017.html) ─────────
+  {
+    ...afaLarga(2016, {
+      championIds: ["boca"],
+      headings: [/^Campeonato de Primera División 2016\/2017$/, /^Relegation$/],
+      sectionRange: { from: /^Campeonato de Primera División 2016\/2017$/, to: /^Relegation$/ },
+      tableIndex: [0],
+      pointsPerWin: 3,
+      aliases: { ...ABREV_2001, ...A_2016 },
+      summary: "Boca ganó el campeonato de 30 equipos siete puntos delante de River y Estudiantes.",
+      notes: [
+        {
+          kind: "formato",
+          text: "30 equipos a una rueda, 3 puntos por victoria. Descendieron los cuatro peores promedios de las últimas cuatro temporadas: Aldosivi, Quilmes, Atlético de Rafaela y Sarmiento.",
+        },
+      ],
+    }),
+    file: "arg2017.html",
+  },
 ];
