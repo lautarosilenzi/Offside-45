@@ -265,6 +265,29 @@ const afaLarga = (
   ...rest,
   aliases: { Gimnasia: "gimnasia", Vélez: "velez", Ferro: "ferro", Chacarita: "chacarita", Estudiantes: "estudiantes", Talleres: "talleres", ...rest.aliases },
 });
+// Desde 2014: campeonatos de año calendario (2014, 2015, 2016, …). `key` distingue los torneos de un mismo año.
+const anual = (
+  y: number,
+  key: string | undefined,
+  name: string,
+  rest: Omit<TournamentConfig, "slug" | "year" | "competition" | "organizer" | "title" | "tournament" | "league"> & { tournament?: string },
+): TournamentConfig => ({
+  slug: key ? `${y}-${key}` : `${y}`,
+  year: y,
+  yearLabel: `${y}`,
+  competition: `${AFA} · ${name}`,
+  organizer: AFA,
+  league: name,
+  title: `${name} ${y}`,
+  tournament: `${name} ${y}`,
+  awardedGoalsCount: true,
+  // Todo el torneo es del mismo año: ningún mes pasa al año siguiente.
+  rolloverBefore: 1,
+  tableIndex: [0],
+  pointsPerWin: 3,
+  ...rest,
+  aliases: { ...ABREV_2001, ...rest.aliases },
+});
 // Torneos de la misma temporada (Liguilla Pre-Libertadores, Octogonal): sin tabla, todo es eliminación.
 // `file` se puede cambiar: 2009/10 está en arg2010.html (arg10.html es 1910).
 const afaLargaExtra = (
@@ -375,6 +398,8 @@ const ABREV_2001 = {
   "Estudiantes de La Plata": "estudiantes",
   "Belgrano (Córdoba)": "belgrano",
   "Atlétido de Rafaela": "atletico-rafaela", // errata de la fuente (2013)
+  "Atlético Vélez Sarsfield": "velez",
+  "Gimnasia y Esgrima La Plata": "gimnasia",
 };
 
 // Apertura y Clausura desde 2002/03: 20 equipos a una rueda, 3 puntos por victoria, tabla al principio de cada torneo.
@@ -3895,5 +3920,21 @@ afaTorneo(1979, "reclasificacion", {
     },
     summary: "Atlético de Rafaela le ganó 1-0 a Colón en cancha de Rosario Central: Colón descendió.",
     notes: [{ kind: "formato", text: "Partido único en cancha neutral entre los dos igualados en el 17.º puesto de la tabla de promedios." }],
+  }),
+  // ───────── 2014: Torneo de Transición (arg2015.html) ─────────
+  anual(2014, undefined, "Campeonato", {
+    file: "arg2015.html",
+    tournament: "Campeonato de Primera División 2014 «Doctor Ramón Carrillo»",
+    championIds: ["racing"],
+    wiki: "Campeonato de Primera División 2014 (Argentina)",
+    headings: [/^Campeonato de Primera División 2014/, /^Copa Sancor Seguros Argentina 2014/],
+    sectionRange: { from: /^Campeonato de Primera División 2014/, to: /^Copa Sancor Seguros Argentina 2014/ },
+    summary: "Racing ganó el torneo de transición dos puntos delante de River: su primer título de liga desde 2001.",
+    notes: [
+      {
+        kind: "formato",
+        text: "Torneo de transición de 20 equipos a una rueda, 3 puntos por victoria, para pasar al calendario anual. No hubo descensos; en 2015 se sumaron diez equipos del Nacional B y la Primera pasó a tener 30.",
+      },
+    ],
   }),
 ];

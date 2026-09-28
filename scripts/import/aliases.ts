@@ -389,7 +389,8 @@ export function resolveName(raw: string, year: number, exact = false): { id: str
   if (direct || exact) return direct;
   // Las páginas de copas anteponen la forma jurídica ("CA Boca Juniors", "CAd San Isidro", "Cd Gimnasia...").
   const stripped = raw.replace(
-    /^(CAd|CA del|CA de|CA|C\.|Cd|CSyD|CSyA|CSD|CS|CD|AD|SC|AA|AC|Club Atlético del|Club Atlético de|Club Atlético|Club Social y Deportivo|Club Deportivo|Asociación Atlética|Club de|Club)\s+/,
+    // Desde 2014 también "C. de Gimnasia…", "CS y Deportivo Defensa…", "AMSyD Atlético de Rafaela", "A. Civil Club Atlético Colón".
+    /^(A\. Civil Club Atlético|AMSyD|CS y Deportivo|CS y D|C\. de|CAd|CA del|CA de|CA|C\.|Cd|CSyD|CSyA|CSD|CS|CD|AD|SC|AA|AC|Club Atlético del|Club Atlético de|Club Atlético|Club Social y Deportivo|Club Deportivo|Asociación Atlética|Club de|Club)\s+/,
     "",
   );
   return stripped !== raw ? resolveExact(stripped, year) : null;

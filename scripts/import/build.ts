@@ -181,7 +181,7 @@ export function translateNote(
       const club = resolveName(m[1].replace(/\s*\(.*\)$/, ""), year);
       // "at Rosario", "at Campana" (y "at Palermo" antes de que existiera el club): la ciudad o el barrio.
       if (club) out.venue = `Cancha de ${club.as ?? club.name}`;
-      else if (/^Estadio /.test(m[1])) out.venue = m[1];
+      else if (/^Estadio /.test(m[1]) || year >= 2014) out.venue = m[1]; // desde 2014 "at …" es el nombre del estadio
       else out.venue = /^(Rosario|Campana|Palermo|Mar del Plata|Córdoba|Mendoza|Salta|Tucumán|Santa Fe|Jujuy|Resistencia|Bahía Blanca|Posadas|Neuquén|San Juan|La Plata|Santiago del Estero|Paraná|Corrientes)$/.test(m[1]) ? m[1] : `Cancha de ${m[1]}`;
     } else if (/^aet$/i.test(p)) out.text.push("Con alargue.");
     else if (/^asdet$/i.test(p)) out.text.push("Con alargue y gol de oro.");
@@ -221,6 +221,13 @@ export function translateNote(
     else if (resolveName(p, year, true)) out.venue = `Cancha de ${resolveName(p, year, true)!.as ?? resolveName(p, year, true)!.name}`;
     else if (/^[A-ZÁÉÍÓÚ][\wáéíóúñ.'-]*(?: (?:de |del |la )?[A-ZÁÉÍÓÚ][\wáéíóúñ.'-]*){0,3}$/.test(p)) out.venue = p;
     else if (/^(neutral|neutral ground)$/i.test(p)) out.text.push("Cancha neutral.");
+    else if (
+      // Desde 2014 RSSSF da el estadio de cada partido: "Centenario Dr. José Luis Meiszner", "Libertador General Don José de San Martín".
+      year >= 2014 &&
+      /^[A-ZÁÉÍÓÚ][\wáéíóúñÁÉÍÓÚÑ.'°º" -]{2,70}$/.test(p) &&
+      !/\b(at|in|on|the|and|of|due|because|abandoned|awarded|played|remaining|stood|postponed|suspended|annulled|closed|doors)\b/i.test(p)
+    )
+      out.venue = p;
     else if ((m = p.match(/^([A-ZÁÉÍÓÚa-záéíóúñ .'-]+), ([BCS])$/)))
       out.venue = `${m[1]} (${m[2] === "C" ? "Capital" : m[2] === "S" ? "Santa Fe" : "Bs. As."})`;
     else if ((m = p.match(/^(.+), ([^,]+), ([BCS])$/))) {
