@@ -606,8 +606,10 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     if (cfg.skip?.(raw) || raw.round === "friendly") continue;
     if (cfg.edition && raw.edition !== cfg.edition) continue;
     // Frases de las notas que el parser confundió con partidos ("NB: The abandoned River Plate 1:3 ...").
+    // Un nombre abreviado con punto final ("Newell's O.B.", 2000) no es prosa si es un club conocido.
     const prose = (s: string) =>
-      /^NB\b|^\.|^\(|^\[|^\d+'|^Then\b|[:;]|\(\d+m\)|\bis not included\b|, and,|\blater\b|\bstanding\b|\bor$|\.$/i.test(s);
+      /^NB\b|^\.|^\(|^\[|^\d+'|^Then\b|[:;]|\(\d+m\)|\bis not included\b|, and,|\blater\b|\bstanding\b|\bor$|\.$/i.test(s) &&
+      !(/\.$/.test(s) && resolveName(s, cfg.year));
     // El visitante puede traer la cancha y una observación pegadas (se separan más abajo): admite nombres más largos.
     if (prose(raw.home) || raw.home.length > 45 || (prose(raw.away) && !/\([A-Z]{1,3} forfeited on [^)]*\)$/.test(raw.away)) || raw.away.length > 80) continue;
     const home = resolveName(raw.home, cfg.year);

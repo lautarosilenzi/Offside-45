@@ -68,6 +68,25 @@ export function computeTable(season: Season): TableRow[] {
     const away = row(m.awayId);
     home.played++;
     away.played++;
+    if (m.splitAward) {
+      // Cada equipo suma el resultado que le computó la liga.
+      for (const [r, [gf, ga]] of [
+        [home, m.splitAward.home],
+        [away, [m.splitAward.away[1], m.splitAward.away[0]]],
+      ] as const) {
+        r.goalsFor += gf;
+        r.goalsAgainst += ga;
+        if (gf > ga) {
+          r.won++;
+          r.points += season.pointsPerWin;
+        } else if (gf < ga) r.lost++;
+        else {
+          r.drawn++;
+          r.points++;
+        }
+      }
+      continue;
+    }
     if (!m.scoreUnknown && !m.goalsVoid) {
       home.goalsFor += m.homeGoals;
       home.goalsAgainst += m.awayGoals;

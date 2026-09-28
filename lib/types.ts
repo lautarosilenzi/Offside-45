@@ -97,6 +97,10 @@ export type Match = {
   walkover?: boolean;
   // No se jugó y la liga se lo dio por perdido a los dos equipos (ninguno suma puntos).
   bothLost?: boolean;
+  // La liga le computó a cada equipo un resultado distinto (1999: Colón-Unión, suspendido, 0-1 para Colón y 0-0
+  // para Unión). Cada par es [goles del local, goles del visitante] tal como cuenta en la tabla de ese equipo.
+  // No suma en el historial entre los dos: no hay un resultado único.
+  splitAward?: { home: [number, number]; away: [number, number] };
   // Se jugó pero el resultado no quedó registrado; solo se sabe quién ganó (winnerId, o empate si falta).
   // Los goles de estos partidos no suman en ninguna estadística.
   scoreUnknown?: boolean;

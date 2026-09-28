@@ -80,6 +80,7 @@ function MatchRow({ match, linkSeason, showStage }: { match: Match; linkSeason: 
   const tags: { label: string; tone: "amber" | "slate" }[] = [];
   if (annulled) tags.push({ label: "Anulado · no suma", tone: "amber" });
   if (match.bothLost) tags.push({ label: "No se jugó · perdido por ambos", tone: "amber" });
+  if (match.splitAward) tags.push({ label: "Resuelto por escritorio · distinto para cada equipo", tone: "amber" });
   if (match.walkover && awarded)
     tags.push({ label: match.phase === "cup" ? `No se jugó · pasó ${awarded.name}` : `No se jugó · puntos para ${awarded.name}`, tone: "amber" });
   else if (awarded) tags.push({ label: `Ganado por escritorio: ${awarded.name}`, tone: "slate" });

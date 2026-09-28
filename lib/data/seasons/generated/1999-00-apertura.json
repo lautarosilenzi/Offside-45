@@ -1,0 +1,3294 @@
+{
+ "slug": "1999-00-apertura",
+ "year": 1999,
+ "yearLabel": "1999/00",
+ "league": "Apertura",
+ "title": "Apertura 1999/00",
+ "tournament": "Apertura 1999/00",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River ganó el Apertura un punto delante de Rosario Central, que ganó 14 partidos, uno más que el campeón.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1999",
+   "url": "https://www.rsssf.org/tablesa/arg00.html"
+  },
+  {
+   "label": "Wikipedia – Anexo:Torneo Apertura 1999 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Anexo%3ATorneo_Apertura_1999_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "20 equipos a una rueda, 3 puntos por victoria."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "sanlorenzo",
+   "points": -3,
+   "reason": "descuento de 3 puntos por incidentes en la fecha 19"
+  },
+  {
+   "teamId": "velez",
+   "points": -3,
+   "reason": "descuento de 3 puntos por incidentes en la fecha 15"
+  },
+  {
+   "teamId": "instituto",
+   "points": -3,
+   "reason": "descuento de 3 puntos por incidentes en la fecha 11"
+  },
+  {
+   "teamId": "belgrano",
+   "points": -3,
+   "reason": "descuento de 3 puntos por incidentes en la fecha 19"
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "river",
+   "played": 19,
+   "won": 13,
+   "drawn": 5,
+   "lost": 1,
+   "goalsFor": 45,
+   "goalsAgainst": 21,
+   "points": 44
+  },
+  {
+   "teamId": "central",
+   "played": 19,
+   "won": 14,
+   "drawn": 1,
+   "lost": 4,
+   "goalsFor": 34,
+   "goalsAgainst": 18,
+   "points": 43
+  },
+  {
+   "teamId": "boca",
+   "played": 19,
+   "won": 12,
+   "drawn": 5,
+   "lost": 2,
+   "goalsFor": 36,
+   "goalsAgainst": 15,
+   "points": 41
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 19,
+   "won": 10,
+   "drawn": 6,
+   "lost": 3,
+   "goalsFor": 30,
+   "goalsAgainst": 15,
+   "points": 33
+  },
+  {
+   "teamId": "talleres",
+   "played": 19,
+   "won": 9,
+   "drawn": 4,
+   "lost": 6,
+   "goalsFor": 38,
+   "goalsAgainst": 31,
+   "points": 31
+  },
+  {
+   "teamId": "racing",
+   "played": 19,
+   "won": 7,
+   "drawn": 9,
+   "lost": 3,
+   "goalsFor": 27,
+   "goalsAgainst": 22,
+   "points": 30
+  },
+  {
+   "teamId": "velez",
+   "played": 19,
+   "won": 8,
+   "drawn": 6,
+   "lost": 5,
+   "goalsFor": 28,
+   "goalsAgainst": 17,
+   "points": 27
+  },
+  {
+   "teamId": "chacarita",
+   "played": 19,
+   "won": 6,
+   "drawn": 7,
+   "lost": 6,
+   "goalsFor": 38,
+   "goalsAgainst": 33,
+   "points": 25
+  },
+  {
+   "teamId": "independiente",
+   "played": 19,
+   "won": 6,
+   "drawn": 7,
+   "lost": 6,
+   "goalsFor": 19,
+   "goalsAgainst": 21,
+   "points": 25
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 19,
+   "won": 6,
+   "drawn": 5,
+   "lost": 8,
+   "goalsFor": 29,
+   "goalsAgainst": 33,
+   "points": 23
+  },
+  {
+   "teamId": "lanus",
+   "played": 19,
+   "won": 7,
+   "drawn": 2,
+   "lost": 10,
+   "goalsFor": 23,
+   "goalsAgainst": 30,
+   "points": 23
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 19,
+   "won": 4,
+   "drawn": 9,
+   "lost": 6,
+   "goalsFor": 28,
+   "goalsAgainst": 28,
+   "points": 21
+  },
+  {
+   "teamId": "newells",
+   "played": 19,
+   "won": 5,
+   "drawn": 6,
+   "lost": 8,
+   "goalsFor": 27,
+   "goalsAgainst": 27,
+   "points": 21
+  },
+  {
+   "teamId": "argentinos",
+   "played": 19,
+   "won": 4,
+   "drawn": 9,
+   "lost": 6,
+   "goalsFor": 20,
+   "goalsAgainst": 22,
+   "points": 21
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 19,
+   "won": 5,
+   "drawn": 6,
+   "lost": 8,
+   "goalsFor": 24,
+   "goalsAgainst": 30,
+   "points": 21
+  },
+  {
+   "teamId": "instituto",
+   "played": 19,
+   "won": 5,
+   "drawn": 7,
+   "lost": 7,
+   "goalsFor": 23,
+   "goalsAgainst": 30,
+   "points": 19
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 19,
+   "won": 5,
+   "drawn": 4,
+   "lost": 10,
+   "goalsFor": 20,
+   "goalsAgainst": 28,
+   "points": 19
+  },
+  {
+   "teamId": "belgrano",
+   "played": 19,
+   "won": 5,
+   "drawn": 5,
+   "lost": 9,
+   "goalsFor": 25,
+   "goalsAgainst": 37,
+   "points": 17
+  },
+  {
+   "teamId": "gimnasia-jujuy",
+   "played": 19,
+   "won": 2,
+   "drawn": 3,
+   "lost": 14,
+   "goalsFor": 17,
+   "goalsAgainst": 43,
+   "points": 9
+  },
+  {
+   "teamId": "ferro",
+   "played": 19,
+   "won": 1,
+   "drawn": 6,
+   "lost": 12,
+   "goalsFor": 14,
+   "goalsAgainst": 44,
+   "points": 9
+  }
+ ],
+ "matches": [
+  {
+   "id": "1999-00-apertura-001",
+   "date": "1999-08-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "instituto",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Aimar, Saviola, Ángel (2) - Jiménez."
+  },
+  {
+   "id": "1999-00-apertura-002",
+   "date": "1999-08-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fuentes - López, Estévez."
+  },
+  {
+   "id": "1999-00-apertura-003",
+   "date": "1999-08-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-004",
+   "date": "1999-08-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Palermo (2), Cagna."
+  },
+  {
+   "id": "1999-00-apertura-005",
+   "date": "1999-08-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bennett (2), Osorio."
+  },
+  {
+   "id": "1999-00-apertura-006",
+   "date": "1999-08-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Aguírrez - Pizzi (2)."
+  },
+  {
+   "id": "1999-00-apertura-007",
+   "date": "1999-08-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-008",
+   "date": "1999-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Barreto (2), Fernández."
+  },
+  {
+   "id": "1999-00-apertura-009",
+   "date": "1999-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Astudillo - Banegas."
+  },
+  {
+   "id": "1999-00-apertura-010",
+   "date": "1999-09-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-011",
+   "date": "1999-08-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Córdoba (pen), Romeo, Tuzzio - Silvera."
+  },
+  {
+   "id": "1999-00-apertura-012",
+   "date": "1999-08-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "velez",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Quatrocchi (2, 1 pen), Agoglia, Yaqué - Quatrocchi (o.g), Morigi."
+  },
+  {
+   "id": "1999-00-apertura-013",
+   "date": "1999-08-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: E. González - Saviola, Aimar."
+  },
+  {
+   "id": "1999-00-apertura-014",
+   "date": "1999-08-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cambiasso - Vilallonga, Klimowicz."
+  },
+  {
+   "id": "1999-00-apertura-015",
+   "date": "1999-08-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jiménez - Real."
+  },
+  {
+   "id": "1999-00-apertura-016",
+   "date": "1999-08-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-017",
+   "date": "1999-08-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alfaro Moreno - Gómez (o.g), Alonso, Messera."
+  },
+  {
+   "id": "1999-00-apertura-018",
+   "date": "1999-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gorostidi, Enría."
+  },
+  {
+   "id": "1999-00-apertura-019",
+   "date": "1999-08-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Palermo - Peralta."
+  },
+  {
+   "id": "1999-00-apertura-020",
+   "date": "1999-09-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carrario - Pino."
+  },
+  {
+   "id": "1999-00-apertura-021",
+   "date": "1999-08-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bardaro, D. Husaín, Alarcón (o.g)."
+  },
+  {
+   "id": "1999-00-apertura-022",
+   "date": "1999-08-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Delgado (2, 1 pen) - Schiavi, R. Capria."
+  },
+  {
+   "id": "1999-00-apertura-023",
+   "date": "1999-08-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alonso - Franco, Córdoba."
+  },
+  {
+   "id": "1999-00-apertura-024",
+   "date": "1999-08-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Osorio (2) - Marioni, Calderón."
+  },
+  {
+   "id": "1999-00-apertura-025",
+   "date": "1999-08-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Castro, Jiménez (pen)."
+  },
+  {
+   "id": "1999-00-apertura-026",
+   "date": "1999-08-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Real - E. González."
+  },
+  {
+   "id": "1999-00-apertura-027",
+   "date": "1999-08-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bisconti, Balvorín - Zapata."
+  },
+  {
+   "id": "1999-00-apertura-028",
+   "date": "1999-08-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: J. Fernández - Palermo (3), Guillermo B. Schelotto."
+  },
+  {
+   "id": "1999-00-apertura-029",
+   "date": "1999-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gigena, Marzo."
+  },
+  {
+   "id": "1999-00-apertura-030",
+   "date": "1999-08-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Saviola, Astrada - Enría, Gorostidi."
+  },
+  {
+   "id": "1999-00-apertura-031",
+   "date": "1999-08-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gorocito - Estévez."
+  },
+  {
+   "id": "1999-00-apertura-032",
+   "date": "1999-08-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pizzi (2), Maceratesi."
+  },
+  {
+   "id": "1999-00-apertura-033",
+   "date": "1999-08-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romagnoli - Saviola (2), Aimar, Ángel."
+  },
+  {
+   "id": "1999-00-apertura-034",
+   "date": "1999-08-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Guillermo Barros Schelotto (2)."
+  },
+  {
+   "id": "1999-00-apertura-035",
+   "date": "1999-08-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romeo."
+  },
+  {
+   "id": "1999-00-apertura-036",
+   "date": "1999-08-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-037",
+   "date": "1999-08-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vilallonga (2, 1 pen)."
+  },
+  {
+   "id": "1999-00-apertura-038",
+   "date": "1999-08-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: H. Díaz (2, 2 pen)."
+  },
+  {
+   "id": "1999-00-apertura-039",
+   "date": "1999-08-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Corti, Sava."
+  },
+  {
+   "id": "1999-00-apertura-040",
+   "date": "1999-08-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Montenegro."
+  },
+  {
+   "id": "1999-00-apertura-041",
+   "date": "1999-09-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Plaza - Palermo."
+  },
+  {
+   "id": "1999-00-apertura-042",
+   "date": "1999-09-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Balvorín - González (o.g), Cambiasso, Saralegui, Graf."
+  },
+  {
+   "id": "1999-00-apertura-043",
+   "date": "1999-09-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "belgrano",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Saviola (2), Ángel (2) - Montenegro (2), J.L. Villarreal."
+  },
+  {
+   "id": "1999-00-apertura-044",
+   "date": "1999-09-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Buján."
+  },
+  {
+   "id": "1999-00-apertura-045",
+   "date": "1999-09-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Schiavi (2, 2 pen), Parisi, Carrario - Rodríguez."
+  },
+  {
+   "id": "1999-00-apertura-046",
+   "date": "1999-09-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fernández - Cuberas, E. González."
+  },
+  {
+   "id": "1999-00-apertura-047",
+   "date": "1999-09-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gigena (pen), Astudillo - Maldonado (2, 1 pen)."
+  },
+  {
+   "id": "1999-00-apertura-048",
+   "date": "1999-09-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Trullet, Silvera."
+  },
+  {
+   "id": "1999-00-apertura-049",
+   "date": "1999-09-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Chatruc - Franco."
+  },
+  {
+   "id": "1999-00-apertura-050",
+   "date": "1999-09-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fuentes, Gamboa, Real, Manso - Farías."
+  },
+  {
+   "id": "1999-00-apertura-051",
+   "date": "1999-09-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romagnoli, Romeo, González - R. Capria."
+  },
+  {
+   "id": "1999-00-apertura-052",
+   "date": "1999-09-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Monserrat."
+  },
+  {
+   "id": "1999-00-apertura-053",
+   "date": "1999-09-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cagna, Palermo."
+  },
+  {
+   "id": "1999-00-apertura-054",
+   "date": "1999-09-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Chilavert, Camps."
+  },
+  {
+   "id": "1999-00-apertura-055",
+   "date": "1999-09-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Klimowicz, Vilallonga (pen)."
+  },
+  {
+   "id": "1999-00-apertura-056",
+   "date": "1999-09-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sand - Alonso."
+  },
+  {
+   "id": "1999-00-apertura-057",
+   "date": "1999-09-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-058",
+   "date": "1999-09-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Farías, Quatrocchi (pen)."
+  },
+  {
+   "id": "1999-00-apertura-059",
+   "date": "1999-09-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marioni - Aimar."
+  },
+  {
+   "id": "1999-00-apertura-060",
+   "date": "1999-09-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Astudillo."
+  },
+  {
+   "id": "1999-00-apertura-061",
+   "date": "1999-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sorín, Aimar, Yepes - Klimowicz."
+  },
+  {
+   "id": "1999-00-apertura-062",
+   "date": "1999-09-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-063",
+   "date": "1999-09-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Parisi, D. Capria - Rimoldi, Jiménez."
+  },
+  {
+   "id": "1999-00-apertura-064",
+   "date": "1999-09-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-065",
+   "date": "1999-09-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cabrol (pen) - Lujambio (2), Solana."
+  },
+  {
+   "id": "1999-00-apertura-066",
+   "date": "1999-09-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-067",
+   "date": "1999-09-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Suárez, Gigena."
+  },
+  {
+   "id": "1999-00-apertura-068",
+   "date": "1999-09-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lux, Delgado - Moreno y Fabianesi."
+  },
+  {
+   "id": "1999-00-apertura-069",
+   "date": "1999-09-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bardaro (2), Domínguez - Bermúdez."
+  },
+  {
+   "id": "1999-00-apertura-070",
+   "date": "1999-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: M. Lobo - Bennett."
+  },
+  {
+   "id": "1999-00-apertura-071",
+   "date": "1999-09-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-072",
+   "date": "1999-09-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Delgado."
+  },
+  {
+   "id": "1999-00-apertura-073",
+   "date": "1999-09-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-074",
+   "date": "1999-09-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zagharián, Osorio."
+  },
+  {
+   "id": "1999-00-apertura-075",
+   "date": "1999-09-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "talleres",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Piersimone, Farías (2), Yaqué - Silva, Astudillo."
+  },
+  {
+   "id": "1999-00-apertura-076",
+   "date": "1999-09-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Castro, Jiménez - Vales."
+  },
+  {
+   "id": "1999-00-apertura-077",
+   "date": "1999-09-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: D. Husaín, Bardaro (2)."
+  },
+  {
+   "id": "1999-00-apertura-078",
+   "date": "1999-09-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cuberas, Maceratesi, Pizzi - Schiavi, R. Capria."
+  },
+  {
+   "id": "1999-00-apertura-079",
+   "date": "1999-09-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vilallonga (2) - Fuentes."
+  },
+  {
+   "id": "1999-00-apertura-080",
+   "date": "1999-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carnero (2) - Cufré, Alonso."
+  },
+  {
+   "id": "1999-00-apertura-081",
+   "date": "1999-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Canobbio, Estévez."
+  },
+  {
+   "id": "1999-00-apertura-082",
+   "date": "1999-10-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Juárez, Guillermo B. Schelotto, Palermo (2)."
+  },
+  {
+   "id": "1999-00-apertura-083",
+   "date": "1999-10-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Franco, Pusineri."
+  },
+  {
+   "id": "1999-00-apertura-084",
+   "date": "1999-10-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-085",
+   "date": "1999-10-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: San Esteban (2, 2 pen)."
+  },
+  {
+   "id": "1999-00-apertura-086",
+   "date": "1999-10-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gamboa (o.g), Osorio."
+  },
+  {
+   "id": "1999-00-apertura-087",
+   "date": "1999-10-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maceratesi (2), Cappelletti, Pizzi."
+  },
+  {
+   "id": "1999-00-apertura-088",
+   "date": "1999-10-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: D. Capria (2), Carrario, R. Capria - Biaggio, Enría."
+  },
+  {
+   "id": "1999-00-apertura-089",
+   "date": "1999-10-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pino, Gigena, Astudillo - Montenegro."
+  },
+  {
+   "id": "1999-00-apertura-090",
+   "date": "1999-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vega - Vilallonga (2)."
+  },
+  {
+   "id": "1999-00-apertura-091",
+   "date": "1999-10-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bardaro."
+  },
+  {
+   "id": "1999-00-apertura-092",
+   "date": "1999-10-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lujambio (2)."
+  },
+  {
+   "id": "1999-00-apertura-093",
+   "date": "1999-10-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pizzi (2), Tuzzio (o.g) - Franco."
+  },
+  {
+   "id": "1999-00-apertura-094",
+   "date": "1999-10-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Palermo (2)."
+  },
+  {
+   "id": "1999-00-apertura-095",
+   "date": "1999-10-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Saviola, Ángel."
+  },
+  {
+   "id": "1999-00-apertura-096",
+   "date": "1999-10-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Clotet, Vilallonga - Alonso (2)."
+  },
+  {
+   "id": "1999-00-apertura-097",
+   "date": "1999-10-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cabrol."
+  },
+  {
+   "id": "1999-00-apertura-098",
+   "date": "1999-10-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Calderón, Garnero - Astudillo."
+  },
+  {
+   "id": "1999-00-apertura-099",
+   "date": "1999-10-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Müller."
+  },
+  {
+   "id": "1999-00-apertura-100",
+   "date": "1999-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Biaggio (3), Velázquez (o.g) - Chaparro."
+  },
+  {
+   "id": "1999-00-apertura-101",
+   "date": "1999-10-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Estévez (2), Netto, Romeo (2) - Biaggio."
+  },
+  {
+   "id": "1999-00-apertura-102",
+   "date": "1999-10-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-103",
+   "date": "1999-10-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Aimar, Ángel."
+  },
+  {
+   "id": "1999-00-apertura-104",
+   "date": "1999-10-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-105",
+   "date": "1999-10-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-106",
+   "date": "1999-10-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "belgrano",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-108",
+   "date": "1999-10-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alonso - Osorio."
+  },
+  {
+   "id": "1999-00-apertura-109",
+   "date": "1999-10-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pino, Gigena, Maidana."
+  },
+  {
+   "id": "1999-00-apertura-110",
+   "date": "1999-10-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cejas (pen), Fuentes, Manso, F. Crosa - Coronel, Guiberguis."
+  },
+  {
+   "id": "1999-00-apertura-111",
+   "date": "1999-12-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Empezó el 17/10 y se suspendió con 0-0; se completó en esta fecha. Se había suspendido a los 35 segundos, 0-0, porque un objeto le pegó a un juez de línea; el 8/12 se jugó el resto."
+  },
+  {
+   "id": "1999-00-apertura-112",
+   "date": "1999-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marioni (pen)."
+  },
+  {
+   "id": "1999-00-apertura-113",
+   "date": "1999-10-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maceratesi - Palermo, Gustavo B. Schelotto, Moreno."
+  },
+  {
+   "id": "1999-00-apertura-114",
+   "date": "1999-10-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Coudet, Aimar."
+  },
+  {
+   "id": "1999-00-apertura-115",
+   "date": "1999-10-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Brown (pen), Farías, Agoglia - Romeo, M. Romagnoli (o.g)."
+  },
+  {
+   "id": "1999-00-apertura-116",
+   "date": "1999-10-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-117",
+   "date": "1999-10-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Chilavert (pen) - Gatti."
+  },
+  {
+   "id": "1999-00-apertura-118",
+   "date": "1999-10-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bennett (2) - Marzo (2), Maidana, Oliva."
+  },
+  {
+   "id": "1999-00-apertura-119",
+   "date": "1999-10-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Biaggio - Castro."
+  },
+  {
+   "id": "1999-00-apertura-120",
+   "date": "1999-10-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sosa - Ascencio."
+  },
+  {
+   "id": "1999-00-apertura-121",
+   "date": "1999-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romano - Silvera (2), Cabrol."
+  },
+  {
+   "id": "1999-00-apertura-122",
+   "date": "1999-11-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ubeda (pen), Sixto Peralta, Estévez - Schiavi, Plaza, Bennett."
+  },
+  {
+   "id": "1999-00-apertura-123",
+   "date": "1999-11-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cabrol - Angel, Saviola."
+  },
+  {
+   "id": "1999-00-apertura-124",
+   "date": "1999-11-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gigena (pen), Astudillo, Lillo - Bassedas, Camps."
+  },
+  {
+   "id": "1999-00-apertura-125",
+   "date": "1999-11-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romeo."
+  },
+  {
+   "id": "1999-00-apertura-126",
+   "date": "1999-11-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cagna, Riquelme - Mateo."
+  },
+  {
+   "id": "1999-00-apertura-127",
+   "date": "1999-11-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Muller, Rubén Capria."
+  },
+  {
+   "id": "1999-00-apertura-128",
+   "date": "1999-11-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Moreno."
+  },
+  {
+   "id": "1999-00-apertura-129",
+   "date": "1999-11-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Dueña, Messera."
+  },
+  {
+   "id": "1999-00-apertura-130",
+   "date": "1999-11-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jiménez (pen), Mandredi - Piersimone, Farías."
+  },
+  {
+   "id": "1999-00-apertura-131",
+   "date": "1999-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Guerrero, Calderón."
+  },
+  {
+   "id": "1999-00-apertura-132",
+   "date": "1999-11-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bardaro, Morigi - Estévez."
+  },
+  {
+   "id": "1999-00-apertura-133",
+   "date": "1999-11-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Enría - Palermo, Giménez."
+  },
+  {
+   "id": "1999-00-apertura-134",
+   "date": "1999-11-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Saviola (2)."
+  },
+  {
+   "id": "1999-00-apertura-135",
+   "date": "1999-11-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: A. Rodríguez, Schiavi (pen)."
+  },
+  {
+   "id": "1999-00-apertura-136",
+   "date": "1999-11-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Garnier - Pino (2), Oliva, Astudillo."
+  },
+  {
+   "id": "1999-00-apertura-137",
+   "date": "1999-11-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vojvoda - Cabrol."
+  },
+  {
+   "id": "1999-00-apertura-138",
+   "date": "1999-11-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Farías - Cuberas, Maceratesi."
+  },
+  {
+   "id": "1999-00-apertura-139",
+   "date": "1999-11-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "instituto",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lujambio (3), Medina - Jiménez (pen)."
+  },
+  {
+   "id": "1999-00-apertura-140",
+   "date": "1999-11-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Córdoba (pen), Bevacqua, Filomeno."
+  },
+  {
+   "id": "1999-00-apertura-141",
+   "date": "1999-11-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Chaparro, Comba."
+  },
+  {
+   "id": "1999-00-apertura-143",
+   "date": "1999-11-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jiménez, Buján - Sánchez (pen)."
+  },
+  {
+   "id": "1999-00-apertura-144",
+   "date": "1999-11-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Samuel, Guillermo Barros Schelotto (pen)."
+  },
+  {
+   "id": "1999-00-apertura-145",
+   "date": "1999-11-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gigena - Aimar, Saviola, Pereyra (2)."
+  },
+  {
+   "id": "1999-00-apertura-146",
+   "date": "1999-11-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Monserrat."
+  },
+  {
+   "id": "1999-00-apertura-147",
+   "date": "1999-11-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alonso (2), San Esteban - Real."
+  },
+  {
+   "id": "1999-00-apertura-148",
+   "date": "1999-11-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pizzi (2)."
+  },
+  {
+   "id": "1999-00-apertura-149",
+   "date": "1999-11-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Enría."
+  },
+  {
+   "id": "1999-00-apertura-150",
+   "date": "1999-11-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-151",
+   "date": "1999-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Klimowicz."
+  },
+  {
+   "id": "1999-00-apertura-152",
+   "date": "2000-02-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Empezó el 19/11 y se suspendió con 1-1; se completó en esta fecha. Se había suspendido a los 22 minutos, 1-1, por incidentes; el 24/2 se jugaron los 68 minutos que faltaban."
+  },
+  {
+   "id": "1999-00-apertura-153",
+   "date": "1999-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Farías, Bermúdez (o.g.) - Barijho, Bermúdez."
+  },
+  {
+   "id": "1999-00-apertura-154",
+   "date": "1999-11-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: E. González."
+  },
+  {
+   "id": "1999-00-apertura-155",
+   "date": "1999-11-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Escudero."
+  },
+  {
+   "id": "1999-00-apertura-156",
+   "date": "1999-11-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-157",
+   "date": "1999-11-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "ferro",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Chilavert (3, 3 pen), Óbolo (2), Ramírez - Sartori."
+  },
+  {
+   "id": "1999-00-apertura-158",
+   "date": "1999-11-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "chacarita",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lobo, Garnier, Juárez (pen), Herrera - Rodríguez (2), R. Capria."
+  },
+  {
+   "id": "1999-00-apertura-159",
+   "date": "1999-11-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Real, Cejas (pen), París - Oliva."
+  },
+  {
+   "id": "1999-00-apertura-160",
+   "date": "1999-11-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vega, Domizi, Noriega - Gatti (2), Sava."
+  },
+  {
+   "id": "1999-00-apertura-161",
+   "date": "1999-11-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "instituto",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Soto (2), Kliomowicz - Jiménez."
+  },
+  {
+   "id": "1999-00-apertura-162",
+   "date": "1999-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sosa, Montenegro."
+  },
+  {
+   "id": "1999-00-apertura-163",
+   "date": "1999-12-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ervitti, Filomeno."
+  },
+  {
+   "id": "1999-00-apertura-164",
+   "date": "1999-12-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maceratesi, Pizzi - Vilallonga."
+  },
+  {
+   "id": "1999-00-apertura-165",
+   "date": "1999-12-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Morant - Graf, Galván."
+  },
+  {
+   "id": "1999-00-apertura-166",
+   "date": "1999-12-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sartori, Rodriguez - M. Lobo (2)."
+  },
+  {
+   "id": "1999-00-apertura-167",
+   "date": "1999-12-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "river",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rosada, Schiavi (pen), Trotta (o.g), Müller - Aimar, Ángel, Placente, Zapata."
+  },
+  {
+   "id": "1999-00-apertura-168",
+   "date": "1999-12-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Barijho."
+  },
+  {
+   "id": "1999-00-apertura-169",
+   "date": "1999-12-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fuentes (o.g) - Real."
+  },
+  {
+   "id": "1999-00-apertura-170",
+   "date": "1999-12-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marzo, Pronetto - Zapata, Cabrol (pen), Domizi."
+  },
+  {
+   "id": "1999-00-apertura-171",
+   "date": "1999-12-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-172",
+   "date": "1999-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "belgrano",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Agoglia (2), Brown (pen), Piersimone, Farías - Sosa, Jarast."
+  },
+  {
+   "id": "1999-00-apertura-173",
+   "date": "1999-12-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-174",
+   "date": "1999-12-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Paz, Domizi, Barreto - Peralta, Zanetti, Bastía."
+  },
+  {
+   "id": "1999-00-apertura-175",
+   "date": "1999-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Saviola (2, 1 pen), Ángel (2) - Ascencio."
+  },
+  {
+   "id": "1999-00-apertura-176",
+   "date": "1999-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lujambio - Barijho (2), Arruabarrena, Guillermo B. Schelotto (pen), Riquelme."
+  },
+  {
+   "id": "1999-00-apertura-177",
+   "date": "1999-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Osorio - Pierucci (2)."
+  },
+  {
+   "id": "1999-00-apertura-178",
+   "date": "1999-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-179",
+   "date": "1999-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jiménez."
+  },
+  {
+   "id": "1999-00-apertura-180",
+   "date": "1999-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "talleres",
+   "homeGoals": 4,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Messera (2), Sava, Alonso (pen) - Roth, Aguilar, Silva, Díaz, Astudillo (pen)."
+  },
+  {
+   "id": "1999-00-apertura-181",
+   "date": "1999-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Biaggio."
+  },
+  {
+   "id": "1999-00-apertura-182",
+   "date": "1999-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "chacarita",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Quintana (2), Cejas (pen), Vojvoda - Müller."
+  },
+  {
+   "id": "1999-00-apertura-183",
+   "date": "1999-12-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Delgado (2), Liendo - Cufré (pen)."
+  },
+  {
+   "id": "1999-00-apertura-184",
+   "date": "1999-12-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gamboa (o.g), Rodríguez - Gamboa, Real (2), Cobelli."
+  },
+  {
+   "id": "1999-00-apertura-185",
+   "date": "1999-12-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "status": "official",
+   "note": "Goles: Montenegro (2, uno de penal) - Graf, Pena, Forlán. Se suspendió a los 81 minutos por incidentes, con 2-3, y la liga dio por bueno ese resultado."
+  },
+  {
+   "id": "1999-00-apertura-186",
+   "date": "1999-12-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: R.Capria - Domizi."
+  },
+  {
+   "id": "1999-00-apertura-187",
+   "date": "1999-12-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romeo (2, 1 pen) - Pereyra, Saviola (pen)."
+  },
+  {
+   "id": "1999-00-apertura-188",
+   "date": "1999-12-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-apertura-189",
+   "date": "1999-12-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cuberas."
+  },
+  {
+   "id": "1999-00-apertura-190",
+   "date": "1999-12-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Quatrocchi, Farías, Romagnoli - M. Fernández, Klimowicz."
+  },
+  {
+   "id": "1999-00-apertura-191",
+   "date": "1999-12-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Toresani - Osorio, Cervera."
+  },
+  {
+   "id": "1999-00-apertura-192",
+   "date": "1999-12-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Corti (3) - Juárez."
+  }
+ ]
+}

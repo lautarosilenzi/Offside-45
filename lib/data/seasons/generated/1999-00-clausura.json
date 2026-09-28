@@ -1,0 +1,3305 @@
+{
+ "slug": "1999-00-clausura",
+ "year": 1999,
+ "yearLabel": "1999/00",
+ "league": "Clausura",
+ "title": "Clausura 1999/00",
+ "tournament": "Clausura 1999/00",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River ganó también el Clausura, seis puntos delante de Independiente, Colón y San Lorenzo.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1999",
+   "url": "https://www.rsssf.org/tablesa/arg00.html"
+  },
+  {
+   "label": "Wikipedia – Anexo:Torneo Clausura 2000 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Anexo%3ATorneo_Clausura_2000_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "20 equipos a una rueda, 3 puntos por victoria. Descendían directamente los dos peores promedios de las últimas tres temporadas (Gimnasia y Esgrima de Jujuy y Ferro Carril Oeste); los dos siguientes (Instituto y Belgrano) jugaban la Promoción con equipos del Nacional B."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "lanus",
+   "points": -3,
+   "reason": "descuento de 3 puntos por incidentes en la fecha 5"
+  },
+  {
+   "teamId": "boca",
+   "points": -3,
+   "reason": "descuento de 3 puntos por incidentes en la fecha 13"
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "river",
+   "played": 19,
+   "won": 12,
+   "drawn": 6,
+   "lost": 1,
+   "goalsFor": 44,
+   "goalsAgainst": 17,
+   "points": 42
+  },
+  {
+   "teamId": "independiente",
+   "played": 19,
+   "won": 11,
+   "drawn": 3,
+   "lost": 5,
+   "goalsFor": 42,
+   "goalsAgainst": 25,
+   "points": 36
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 19,
+   "won": 11,
+   "drawn": 3,
+   "lost": 5,
+   "goalsFor": 38,
+   "goalsAgainst": 26,
+   "points": 36
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 19,
+   "won": 11,
+   "drawn": 3,
+   "lost": 5,
+   "goalsFor": 27,
+   "goalsAgainst": 15,
+   "points": 36
+  },
+  {
+   "teamId": "newells",
+   "played": 19,
+   "won": 10,
+   "drawn": 4,
+   "lost": 5,
+   "goalsFor": 32,
+   "goalsAgainst": 21,
+   "points": 34
+  },
+  {
+   "teamId": "velez",
+   "played": 19,
+   "won": 9,
+   "drawn": 7,
+   "lost": 3,
+   "goalsFor": 28,
+   "goalsAgainst": 18,
+   "points": 34
+  },
+  {
+   "teamId": "boca",
+   "played": 19,
+   "won": 10,
+   "drawn": 6,
+   "lost": 3,
+   "goalsFor": 38,
+   "goalsAgainst": 17,
+   "points": 33
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 19,
+   "won": 9,
+   "drawn": 2,
+   "lost": 8,
+   "goalsFor": 28,
+   "goalsAgainst": 40,
+   "points": 29
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 19,
+   "won": 8,
+   "drawn": 4,
+   "lost": 7,
+   "goalsFor": 28,
+   "goalsAgainst": 33,
+   "points": 28
+  },
+  {
+   "teamId": "talleres",
+   "played": 19,
+   "won": 7,
+   "drawn": 6,
+   "lost": 6,
+   "goalsFor": 21,
+   "goalsAgainst": 22,
+   "points": 27
+  },
+  {
+   "teamId": "lanus",
+   "played": 19,
+   "won": 8,
+   "drawn": 4,
+   "lost": 7,
+   "goalsFor": 32,
+   "goalsAgainst": 22,
+   "points": 25
+  },
+  {
+   "teamId": "instituto",
+   "played": 19,
+   "won": 6,
+   "drawn": 7,
+   "lost": 6,
+   "goalsFor": 28,
+   "goalsAgainst": 29,
+   "points": 25
+  },
+  {
+   "teamId": "central",
+   "played": 19,
+   "won": 6,
+   "drawn": 5,
+   "lost": 8,
+   "goalsFor": 25,
+   "goalsAgainst": 26,
+   "points": 23
+  },
+  {
+   "teamId": "belgrano",
+   "played": 19,
+   "won": 6,
+   "drawn": 4,
+   "lost": 9,
+   "goalsFor": 28,
+   "goalsAgainst": 31,
+   "points": 22
+  },
+  {
+   "teamId": "chacarita",
+   "played": 19,
+   "won": 5,
+   "drawn": 5,
+   "lost": 9,
+   "goalsFor": 20,
+   "goalsAgainst": 30,
+   "points": 20
+  },
+  {
+   "teamId": "argentinos",
+   "played": 19,
+   "won": 4,
+   "drawn": 6,
+   "lost": 9,
+   "goalsFor": 21,
+   "goalsAgainst": 36,
+   "points": 18
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 19,
+   "won": 3,
+   "drawn": 7,
+   "lost": 9,
+   "goalsFor": 21,
+   "goalsAgainst": 30,
+   "points": 16
+  },
+  {
+   "teamId": "racing",
+   "played": 19,
+   "won": 3,
+   "drawn": 6,
+   "lost": 10,
+   "goalsFor": 22,
+   "goalsAgainst": 29,
+   "points": 15
+  },
+  {
+   "teamId": "gimnasia-jujuy",
+   "played": 19,
+   "won": 2,
+   "drawn": 4,
+   "lost": 13,
+   "goalsFor": 15,
+   "goalsAgainst": 34,
+   "points": 10
+  },
+  {
+   "teamId": "ferro",
+   "played": 19,
+   "won": 2,
+   "drawn": 2,
+   "lost": 15,
+   "goalsFor": 9,
+   "goalsAgainst": 46,
+   "points": 8
+  }
+ ],
+ "matches": [
+  {
+   "id": "1999-00-clausura-001",
+   "date": "2000-02-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: José Villarreal, Javier Villarreal - Álvarez, Betancourt, Klimowicz (2)."
+  },
+  {
+   "id": "1999-00-clausura-002",
+   "date": "2000-02-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Estévez (2), Cordone - Astudillo."
+  },
+  {
+   "id": "1999-00-clausura-003",
+   "date": "2000-02-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rivarola, Sandy (o.g)."
+  },
+  {
+   "id": "1999-00-clausura-004",
+   "date": "2000-02-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jiménez (pen) - D. Álvarez (2)."
+  },
+  {
+   "id": "1999-00-clausura-005",
+   "date": "2000-02-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Brown - Schiavi."
+  },
+  {
+   "id": "1999-00-clausura-006",
+   "date": "2000-02-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martínez - Bermúdez, Barijho, Arruabarrena."
+  },
+  {
+   "id": "1999-00-clausura-007",
+   "date": "2000-02-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: López."
+  },
+  {
+   "id": "1999-00-clausura-008",
+   "date": "2000-02-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fuertes."
+  },
+  {
+   "id": "1999-00-clausura-009",
+   "date": "2000-02-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Risso - Alonso, Sánchez."
+  },
+  {
+   "id": "1999-00-clausura-010",
+   "date": "2000-02-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Hernández, Rodríguez - Domizi, Prátola, Sartori (o.g)."
+  },
+  {
+   "id": "1999-00-clausura-011",
+   "date": "2000-02-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ángel - García."
+  },
+  {
+   "id": "1999-00-clausura-012",
+   "date": "2000-02-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Kmet, Graf (2)."
+  },
+  {
+   "id": "1999-00-clausura-013",
+   "date": "2000-02-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: López."
+  },
+  {
+   "id": "1999-00-clausura-014",
+   "date": "2000-02-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gigena."
+  },
+  {
+   "id": "1999-00-clausura-015",
+   "date": "2000-02-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sanguinetti, Sánchez."
+  },
+  {
+   "id": "1999-00-clausura-016",
+   "date": "2000-02-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Estévez - Gmo. Barros Schelotto (pen)."
+  },
+  {
+   "id": "1999-00-clausura-017",
+   "date": "2000-02-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Enría, Fuertes."
+  },
+  {
+   "id": "1999-00-clausura-018",
+   "date": "2000-02-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: D. Husain, Baratteri (o.g), Bardaro."
+  },
+  {
+   "id": "1999-00-clausura-019",
+   "date": "2000-02-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carnero, Medina."
+  },
+  {
+   "id": "1999-00-clausura-020",
+   "date": "2000-02-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "instituto",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Real (3), Manso."
+  },
+  {
+   "id": "1999-00-clausura-021",
+   "date": "2000-02-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentinos",
+   "homeGoals": 8,
+   "awayGoals": 1,
+   "venue": "Jrs",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Milito, D. Montenegro (3), Marioni (2), A. Montenegro, Forlán - Schiavi (pen)."
+  },
+  {
+   "id": "1999-00-clausura-022",
+   "date": "2000-02-26",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Torres, Medina (pen) - Chilavert, Camps, Morigi."
+  },
+  {
+   "id": "1999-00-clausura-023",
+   "date": "2000-02-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Moreno - Vilallonga."
+  },
+  {
+   "id": "1999-00-clausura-024",
+   "date": "2000-02-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Delgado - Cardetti (2), Ángel, Álvarez."
+  },
+  {
+   "id": "1999-00-clausura-025",
+   "date": "2000-02-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pizzi - Fuentes."
+  },
+  {
+   "id": "1999-00-clausura-026",
+   "date": "2000-02-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jiménez - Tilger."
+  },
+  {
+   "id": "1999-00-clausura-027",
+   "date": "2000-02-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: López - Messera."
+  },
+  {
+   "id": "1999-00-clausura-028",
+   "date": "2000-02-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-clausura-029",
+   "date": "2000-02-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-clausura-030",
+   "date": "2000-02-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Piersimone (3), Farías (2)- Aguírrez."
+  },
+  {
+   "id": "1999-00-clausura-031",
+   "date": "2000-03-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Hernández, Ascencio."
+  },
+  {
+   "id": "1999-00-clausura-032",
+   "date": "2000-03-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-clausura-033",
+   "date": "2000-03-04",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-clausura-034",
+   "date": "2000-03-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gigena - Romeo (2)."
+  },
+  {
+   "id": "1999-00-clausura-035",
+   "date": "2000-03-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sava."
+  },
+  {
+   "id": "1999-00-clausura-036",
+   "date": "2000-03-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Samuel, Moreno (3)."
+  },
+  {
+   "id": "1999-00-clausura-037",
+   "date": "2000-03-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Guiñazú, Real, Mateo -, Delgado, Biaggio, Castagno Suárez."
+  },
+  {
+   "id": "1999-00-clausura-038",
+   "date": "2000-03-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Saviola, Álvarez - Brown (pen), Farías."
+  },
+  {
+   "id": "1999-00-clausura-039",
+   "date": "2000-03-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romano - Medina."
+  },
+  {
+   "id": "1999-00-clausura-040",
+   "date": "2000-03-06",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Klimowicz."
+  },
+  {
+   "id": "1999-00-clausura-041",
+   "date": "2000-03-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: A. Montenegro, Marioni (2), Graf - Bisconti, González."
+  },
+  {
+   "id": "1999-00-clausura-042",
+   "date": "2000-03-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cardetti."
+  },
+  {
+   "id": "1999-00-clausura-043",
+   "date": "2000-03-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Moreno."
+  },
+  {
+   "id": "1999-00-clausura-045",
+   "date": "2000-03-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Farías - Quintana (2), Manso."
+  },
+  {
+   "id": "1999-00-clausura-046",
+   "date": "2000-03-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "union-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fuertes (pen), Enría, Delgado (2)."
+  },
+  {
+   "id": "1999-00-clausura-047",
+   "date": "2000-03-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cuberas, Pizzi, Maceratesi, E. González - Sava, San Esteban (pen)."
+  },
+  {
+   "id": "1999-00-clausura-048",
+   "date": "2000-03-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jiménez, Sarría."
+  },
+  {
+   "id": "1999-00-clausura-049",
+   "date": "2000-03-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Franco."
+  },
+  {
+   "id": "1999-00-clausura-050",
+   "date": "2000-03-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Chaparro."
+  },
+  {
+   "id": "1999-00-clausura-051",
+   "date": "2000-04-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Se había suspendido a los 13 segundos porque una bomba de estruendo aturdió a Chilavert, el arquero de Vélez; el 19/4 se jugó el resto."
+  },
+  {
+   "id": "1999-00-clausura-052",
+   "date": "2000-03-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cordone - Buján, Amato."
+  },
+  {
+   "id": "1999-00-clausura-053",
+   "date": "2000-03-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: De la Vega (o.g), Morigi, Camps - Schiavi (2), Sandoval."
+  },
+  {
+   "id": "1999-00-clausura-054",
+   "date": "2000-03-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bisconti - Da Silva."
+  },
+  {
+   "id": "1999-00-clausura-055",
+   "date": "2000-03-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-clausura-056",
+   "date": "2000-03-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Riquelme, Moreno, Marchant, Groothuis (o.g)."
+  },
+  {
+   "id": "1999-00-clausura-057",
+   "date": "2000-03-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Silva, Roth, Escobar - Pizzi (pen)."
+  },
+  {
+   "id": "1999-00-clausura-058",
+   "date": "2000-03-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 6,
+   "awayGoals": 6,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sava (4), Sánchez, San Esteban (pen) - Fuertes (3, 1 pen), Valencia, Cufré (o.g), Morant."
+  },
+  {
+   "id": "1999-00-clausura-059",
+   "date": "2000-03-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carnero."
+  },
+  {
+   "id": "1999-00-clausura-060",
+   "date": "2000-03-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Trotta (pen), Saviola."
+  },
+  {
+   "id": "1999-00-clausura-061",
+   "date": "2000-03-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sáenz, Tilger - Casartelli."
+  },
+  {
+   "id": "1999-00-clausura-062",
+   "date": "2000-03-31",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: López (2), Romeo, Pusineri."
+  },
+  {
+   "id": "1999-00-clausura-063",
+   "date": "2000-04-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maceratesi - Cordone."
+  },
+  {
+   "id": "1999-00-clausura-064",
+   "date": "2000-04-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cervera."
+  },
+  {
+   "id": "1999-00-clausura-065",
+   "date": "2000-04-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zubeldía - Ángel."
+  },
+  {
+   "id": "1999-00-clausura-066",
+   "date": "2000-04-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romagnoli (pen) - Sava, Alonso."
+  },
+  {
+   "id": "1999-00-clausura-067",
+   "date": "2000-04-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marioni (pen) - Quintana, Manso."
+  },
+  {
+   "id": "1999-00-clausura-068",
+   "date": "2000-04-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lujambio, Torres (2) - Paz."
+  },
+  {
+   "id": "1999-00-clausura-069",
+   "date": "2000-04-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marzo."
+  },
+  {
+   "id": "1999-00-clausura-070",
+   "date": "2000-04-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-clausura-071",
+   "date": "2000-04-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jiménez (pen) - Pagés, Ábalos, Boujón."
+  },
+  {
+   "id": "1999-00-clausura-072",
+   "date": "2000-04-07",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Milito - Fuertes (pen), Delgado, Biaggio."
+  },
+  {
+   "id": "1999-00-clausura-073",
+   "date": "2000-04-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lobo - D. Husain (2), Bassedas."
+  },
+  {
+   "id": "1999-00-clausura-074",
+   "date": "2000-04-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pronetto - Farías."
+  },
+  {
+   "id": "1999-00-clausura-075",
+   "date": "2000-04-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alonso - Lujambio (3)."
+  },
+  {
+   "id": "1999-00-clausura-076",
+   "date": "2000-04-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Domizi, Tilger, Basualdo - Forlán."
+  },
+  {
+   "id": "1999-00-clausura-077",
+   "date": "2000-04-09",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cejas (pen), Real, Bernardi - Klimowicz, M. Fernández."
+  },
+  {
+   "id": "1999-00-clausura-078",
+   "date": "2000-04-09",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rodríguez - Jiménez."
+  },
+  {
+   "id": "1999-00-clausura-079",
+   "date": "2000-04-09",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Riquelme."
+  },
+  {
+   "id": "1999-00-clausura-080",
+   "date": "2000-04-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Trotta (pen), Gancedo - Osorio, Schiavi."
+  },
+  {
+   "id": "1999-00-clausura-081",
+   "date": "2000-04-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Schiavi (pen)."
+  },
+  {
+   "id": "1999-00-clausura-082",
+   "date": "2000-04-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Forlán, Galván."
+  },
+  {
+   "id": "1999-00-clausura-083",
+   "date": "2000-04-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Denis - Fuentes, Crosa, París, Gigena."
+  },
+  {
+   "id": "1999-00-clausura-084",
+   "date": "2000-04-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Amato."
+  },
+  {
+   "id": "1999-00-clausura-085",
+   "date": "2000-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Trotta (o,g), Óbolo - Cardetti, Trotta (pen), Saviola."
+  },
+  {
+   "id": "1999-00-clausura-086",
+   "date": "2000-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Agoglia, Casartelli - Peralta, Lux."
+  },
+  {
+   "id": "1999-00-clausura-087",
+   "date": "2000-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-clausura-088",
+   "date": "2000-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pizzi (3, 1 pen), Groothuis (o.g) - Hernández, Rocha (pen)."
+  },
+  {
+   "id": "1999-00-clausura-089",
+   "date": "2000-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "union-santa-fe",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Klimowicz, Betancourt, Vilallonga (3, 2 pen) - Domizi, Zapata."
+  },
+  {
+   "id": "1999-00-clausura-090",
+   "date": "2000-04-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Enría."
+  },
+  {
+   "id": "1999-00-clausura-091",
+   "date": "2000-04-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romano."
+  },
+  {
+   "id": "1999-00-clausura-092",
+   "date": "2000-04-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-clausura-093",
+   "date": "2000-04-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marioni (2, 1 pen), Cambiasso, Forlán."
+  },
+  {
+   "id": "1999-00-clausura-094",
+   "date": "2000-04-16",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: San Esteban (pen), Sava - M. Fernández."
+  },
+  {
+   "id": "1999-00-clausura-095",
+   "date": "2000-04-16",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bernardi - Castromán."
+  },
+  {
+   "id": "1999-00-clausura-096",
+   "date": "2000-04-16",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marczuk, Amato - Delgado (2)."
+  },
+  {
+   "id": "1999-00-clausura-097",
+   "date": "2000-04-16",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Schiavi, Carrario, Carreño - Farías."
+  },
+  {
+   "id": "1999-00-clausura-098",
+   "date": "2000-04-16",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cabrol, Silvera - Zagharián."
+  },
+  {
+   "id": "1999-00-clausura-099",
+   "date": "2000-04-16",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Erviti."
+  },
+  {
+   "id": "1999-00-clausura-100",
+   "date": "2000-04-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Coudet, Gancedo."
+  },
+  {
+   "id": "1999-00-clausura-101",
+   "date": "2000-04-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fuertes (2)."
+  },
+  {
+   "id": "1999-00-clausura-102",
+   "date": "2000-05-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cabrol, Silvera."
+  },
+  {
+   "id": "1999-00-clausura-103",
+   "date": "2000-05-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fuertes (pen), Biaggio - Franco."
+  },
+  {
+   "id": "1999-00-clausura-104",
+   "date": "2000-05-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lujambio, Torres (2) - Rodríguez, Schiavi, Capria."
+  },
+  {
+   "id": "1999-00-clausura-105",
+   "date": "2000-05-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Farías, Casartelli (pen)."
+  },
+  {
+   "id": "1999-00-clausura-106",
+   "date": "2000-05-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "instituto",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: González, Latorre (2) - Alaniz, Jiménez (pen), Amato."
+  },
+  {
+   "id": "1999-00-clausura-107",
+   "date": "2000-05-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Garnier, Cartes, Coronel."
+  },
+  {
+   "id": "1999-00-clausura-108",
+   "date": "2000-05-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marioni, Cambiasso - Monserrat."
+  },
+  {
+   "id": "1999-00-clausura-109",
+   "date": "2000-05-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-clausura-110",
+   "date": "2000-05-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Guillermo B. Schelotto - Cuevas."
+  },
+  {
+   "id": "1999-00-clausura-111",
+   "date": "2000-05-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Osorio (2), Zagharián - Alonso (2)."
+  },
+  {
+   "id": "1999-00-clausura-112",
+   "date": "2000-05-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romeo (2), Brown (o.g)."
+  },
+  {
+   "id": "1999-00-clausura-113",
+   "date": "2000-05-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: París, Manso - Yepes, Cardetti, Aimar, Cuevas."
+  },
+  {
+   "id": "1999-00-clausura-114",
+   "date": "2000-05-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vilallonga (2), Klimowicz."
+  },
+  {
+   "id": "1999-00-clausura-115",
+   "date": "2000-05-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-clausura-116",
+   "date": "2000-05-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alonso - Óbolo."
+  },
+  {
+   "id": "1999-00-clausura-117",
+   "date": "2000-05-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Tilger, Prátola."
+  },
+  {
+   "id": "1999-00-clausura-118",
+   "date": "2000-05-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jiménez (2), Sarría - Fuertes (pen), Medero."
+  },
+  {
+   "id": "1999-00-clausura-119",
+   "date": "2000-05-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: García, Carrario - Marioni, V. López."
+  },
+  {
+   "id": "1999-00-clausura-120",
+   "date": "2000-05-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Navas, Barijho."
+  },
+  {
+   "id": "1999-00-clausura-121",
+   "date": "2000-05-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Chaparro - Lujambio (2), Torres, Medina, Solana."
+  },
+  {
+   "id": "1999-00-clausura-122",
+   "date": "2000-05-26",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cambiasso, Graf."
+  },
+  {
+   "id": "1999-00-clausura-123",
+   "date": "2000-05-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alesandria, Kmet, Klimowicz."
+  },
+  {
+   "id": "1999-00-clausura-124",
+   "date": "2000-05-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Luis Fernando - Franco, Romeo."
+  },
+  {
+   "id": "1999-00-clausura-125",
+   "date": "2000-05-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maceratesi, Moreno y Fabianesi."
+  },
+  {
+   "id": "1999-00-clausura-126",
+   "date": "2000-05-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alonso."
+  },
+  {
+   "id": "1999-00-clausura-127",
+   "date": "2000-05-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-clausura-128",
+   "date": "2000-05-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zagharián, Osorio  - Liendo."
+  },
+  {
+   "id": "1999-00-clausura-129",
+   "date": "2000-05-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zapata - Jayo, Cabrol."
+  },
+  {
+   "id": "1999-00-clausura-130",
+   "date": "2000-05-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Agoglia - Jiménez (pen)."
+  },
+  {
+   "id": "1999-00-clausura-131",
+   "date": "2000-06-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Se jugaron los 74 minutos que faltaban. Goles: Manso."
+  },
+  {
+   "id": "1999-00-clausura-132",
+   "date": "2000-06-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cabrol."
+  },
+  {
+   "id": "1999-00-clausura-133",
+   "date": "2000-06-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 7,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Klimowicz (2), Coria (2), Álvarez (pen), Coyette, S. González."
+  },
+  {
+   "id": "1999-00-clausura-134",
+   "date": "2000-06-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: S. García - Osorio."
+  },
+  {
+   "id": "1999-00-clausura-135",
+   "date": "2000-06-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cordone, Chatruc - F. Domínguez, Castromán."
+  },
+  {
+   "id": "1999-00-clausura-136",
+   "date": "2000-06-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ángel (2), Saviola, Aimar."
+  },
+  {
+   "id": "1999-00-clausura-137",
+   "date": "2000-06-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gmo. Barros Schelotto, Palermo (2) - Fuertes (pen), Ricchetti."
+  },
+  {
+   "id": "1999-00-clausura-138",
+   "date": "2000-06-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Farías."
+  },
+  {
+   "id": "1999-00-clausura-139",
+   "date": "2000-06-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Buján, Jiménez."
+  },
+  {
+   "id": "1999-00-clausura-140",
+   "date": "2000-06-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Moreno - Marioni, Forlán."
+  },
+  {
+   "id": "1999-00-clausura-141",
+   "date": "2000-06-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Oliva, Maidana - González."
+  },
+  {
+   "id": "1999-00-clausura-142",
+   "date": "2000-06-16",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "instituto",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: D. Montenegro, Graf, Cambiasso - Sarría (2)."
+  },
+  {
+   "id": "1999-00-clausura-143",
+   "date": "2000-06-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Comelles - Peralta, Chatruc."
+  },
+  {
+   "id": "1999-00-clausura-144",
+   "date": "2000-06-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Schiavi (o.g), Dudar."
+  },
+  {
+   "id": "1999-00-clausura-145",
+   "date": "2000-06-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Insúa."
+  },
+  {
+   "id": "1999-00-clausura-146",
+   "date": "2000-06-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Moreno."
+  },
+  {
+   "id": "1999-00-clausura-147",
+   "date": "2000-06-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-clausura-148",
+   "date": "2000-06-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-clausura-149",
+   "date": "2000-06-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Berizzo, Placente."
+  },
+  {
+   "id": "1999-00-clausura-150",
+   "date": "2000-06-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Medina - E. González, Canals."
+  },
+  {
+   "id": "1999-00-clausura-151",
+   "date": "2000-06-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: M. Donnet, Silvera - Gmo. Barros Schelotto (2, 1 pen), Palermo, La Paglia, Traverso."
+  },
+  {
+   "id": "1999-00-clausura-152",
+   "date": "2000-06-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Tuzzio, Franco (2) - Zagharián, Sánchez."
+  },
+  {
+   "id": "1999-00-clausura-153",
+   "date": "2000-06-24",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jiménez (pen), Alessandria (o.g)."
+  },
+  {
+   "id": "1999-00-clausura-154",
+   "date": "2000-06-24",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Chilavert (pen)."
+  },
+  {
+   "id": "1999-00-clausura-155",
+   "date": "2000-06-24",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fuertes, Castagno Suárez."
+  },
+  {
+   "id": "1999-00-clausura-156",
+   "date": "2000-06-24",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pronetto - Saldaña, Mateo, Quintana."
+  },
+  {
+   "id": "1999-00-clausura-157",
+   "date": "2000-06-24",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Messera, Fernández (o.g) - Domizi, M. Donnet, Silvera."
+  },
+  {
+   "id": "1999-00-clausura-158",
+   "date": "2000-06-24",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marioni, R. Montenegro, Graf."
+  },
+  {
+   "id": "1999-00-clausura-160",
+   "date": "2000-07-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rosada."
+  },
+  {
+   "id": "1999-00-clausura-161",
+   "date": "2000-07-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Se había suspendido a los 13 minutos, 0-0, por lluvia; el 5/7 se jugaron los 77 minutos que faltaban."
+  },
+  {
+   "id": "1999-00-clausura-162",
+   "date": "2000-07-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bermúdez, Delgado."
+  },
+  {
+   "id": "1999-00-clausura-163",
+   "date": "2000-06-30",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marioni (2) - Biaggio, Castagno Suárez, Fuertes."
+  },
+  {
+   "id": "1999-00-clausura-164",
+   "date": "2000-07-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gigena, Manso."
+  },
+  {
+   "id": "1999-00-clausura-165",
+   "date": "2000-07-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "chacarita",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Coudet (2), Aimar, Ángel, H. Díaz."
+  },
+  {
+   "id": "1999-00-clausura-166",
+   "date": "2000-07-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "1999-00-clausura-167",
+   "date": "2000-07-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sava, Messera - Palermo."
+  },
+  {
+   "id": "1999-00-clausura-168",
+   "date": "2000-07-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Klimowicz."
+  },
+  {
+   "id": "1999-00-clausura-169",
+   "date": "2000-07-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Amaya, Artime - Simone."
+  },
+  {
+   "id": "1999-00-clausura-170",
+   "date": "2000-07-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Silvera - Silva, Gigena, Roth."
+  },
+  {
+   "id": "1999-00-clausura-171",
+   "date": "2000-07-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Camps."
+  },
+  {
+   "id": "1999-00-clausura-172",
+   "date": "2000-07-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zagharián - Amato."
+  },
+  {
+   "id": "1999-00-clausura-173",
+   "date": "2000-07-07",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sarría - Camps (2)."
+  },
+  {
+   "id": "1999-00-clausura-174",
+   "date": "2000-07-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: M. González, E. González, Cámpora - Kuhl."
+  },
+  {
+   "id": "1999-00-clausura-175",
+   "date": "2000-07-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "union-santa-fe",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Estévez (3), Bastía, Principiano, García."
+  },
+  {
+   "id": "1999-00-clausura-176",
+   "date": "2000-07-09",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Castagno Suárez, Fuertes (2, 1 pen)."
+  },
+  {
+   "id": "1999-00-clausura-177",
+   "date": "2000-07-09",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romagnoli, Franco, Tuzzio (pen) - M. Lobo."
+  },
+  {
+   "id": "1999-00-clausura-178",
+   "date": "2000-07-09",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gigena (2)."
+  },
+  {
+   "id": "1999-00-clausura-179",
+   "date": "2000-07-09",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "belgrano",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Arce (2), Castillo (o.g), Barijho (2) - Amaya."
+  },
+  {
+   "id": "1999-00-clausura-180",
+   "date": "2000-07-09",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Krupoviesa - D. Montenegro."
+  },
+  {
+   "id": "1999-00-clausura-181",
+   "date": "2000-07-09",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ángel (2), Aimar."
+  },
+  {
+   "id": "1999-00-clausura-182",
+   "date": "2000-07-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cejas (pen)."
+  },
+  {
+   "id": "1999-00-clausura-183",
+   "date": "2000-07-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Messera."
+  },
+  {
+   "id": "1999-00-clausura-184",
+   "date": "2000-07-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: J. Fernández."
+  },
+  {
+   "id": "1999-00-clausura-185",
+   "date": "2000-07-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fuertes (pen)."
+  },
+  {
+   "id": "1999-00-clausura-186",
+   "date": "2000-07-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Paz - Boujón, S. García, Ábalos, Capria."
+  },
+  {
+   "id": "1999-00-clausura-187",
+   "date": "2000-07-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Estadio Córdoba",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maidana, Gigena - Matellán, Giménez."
+  },
+  {
+   "id": "1999-00-clausura-188",
+   "date": "2000-07-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: M. Lobo, Garnier - Jiménez, Alaniz."
+  },
+  {
+   "id": "1999-00-clausura-189",
+   "date": "2000-07-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Méndez, Castromán - Rivarola (pen)."
+  },
+  {
+   "id": "1999-00-clausura-190",
+   "date": "2000-07-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: D. Montenegro, Forlán - Amaya."
+  },
+  {
+   "id": "1999-00-clausura-191",
+   "date": "2000-07-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Berizzo, Zapata - Romeo, Santana."
+  },
+  {
+   "id": "1999-00-clausura-192",
+   "date": "2000-07-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cobelli, Damiani."
+  }
+ ]
+}

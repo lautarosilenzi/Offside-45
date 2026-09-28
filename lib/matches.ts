@@ -17,8 +17,9 @@ export const MATCHES: Match[] = [
 
 export const TEAM_IDS_WITH_MATCHES = new Set(MATCHES.flatMap((m) => [m.homeId, m.awayId]));
 
-// En el historial entre dos equipos no cuentan los anulados ni los que la liga dio por perdidos a ambos.
-export const isCounted = (m: Match) => m.status !== "annulled" && !m.bothLost;
+// En el historial entre dos equipos no cuentan los anulados, los que la liga dio por perdidos a ambos
+// ni los que tienen un resultado oficial distinto para cada equipo.
+export const isCounted = (m: Match) => m.status !== "annulled" && !m.bothLost && !m.splitAward;
 
 export function getHeadToHead(a: string, b: string): Match[] {
   return MATCHES.filter(
