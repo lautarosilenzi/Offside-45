@@ -42,6 +42,8 @@ const ABOUT: Record<string, string> = {
     "Campeonato de Campeones de la República 1959, entre los campeones de las ligas regionales. La AFA lo reconoció como título de Primera en 2024.",
   "Copa Argentina":
     "Copa Argentina de 1969–1970, con equipos de Primera y del interior en series de ida y vuelta. La de 1970 quedó sin terminar.",
+  "Copa Centenario":
+    "Copa por los 100 años de la AFA (1993), entre 18 equipos de Primera: series de ida y vuelta y después doble eliminación, con ronda de ganadores y de perdedores.",
   "Campeonato Porteño": "Partido entre los campeones de 1926 de la Asociación Argentina y de la Asociación Amateurs, antes de la unificación. Quedó sin definir.",
 };
 
@@ -66,7 +68,8 @@ export default function CupsPage() {
           <section key={c.name}>
             <div className="mb-3">
               <h2 className="section-title">
-                {c.name} · {c.editions[0].year}–{c.editions[c.editions.length - 1].year}
+                {c.name} · {c.editions[0].year}
+                {c.editions[c.editions.length - 1].year !== c.editions[0].year && `–${c.editions[c.editions.length - 1].year}`}
               </h2>
               {ABOUT[c.name] && <p className="mt-1 text-sm text-navy-500">{ABOUT[c.name]}</p>}
             </div>
@@ -78,8 +81,8 @@ export default function CupsPage() {
           </section>
         ))}
         <p className="text-sm text-navy-400">
-          Están todas las copas nacionales de Primera que reconoce la AFA hasta 1985 (entre 1971 y 1985 no se jugó ninguna). Las siguientes se cargan junto con sus
-          temporadas.
+          Están todas las copas nacionales de Primera que reconoce la AFA hasta el año 2000: entre 1971 y 2000 solo se jugó la Copa Centenario de 1993. Las
+          siguientes (desde la Copa Argentina 2011/12) se cargan junto con sus temporadas.
         </p>
       </main>
     </>
