@@ -38,12 +38,13 @@ function parseDate(raw: string, year: number, prevMonth: number): { iso: string;
 const scorersEs = (s: string) =>
   s
     .replace(/\s+and\s+/g, " y ")
-    .replace(/(\d+\+?)\s?pen\b/g, "$1 (de penal)") // 2005: "Pisculichi 80pen", "Galván 45+pen"
-    .replace(/(\d+\+?)\s?og\b/g, "$1 (en contra)") // 2007: "Sanguinetti 82og"
+    // Primero las formas entre paréntesis ("(2, 1 pen)"), después las pegadas al minuto ("80pen", "45+pen", "88m og").
+    .replace(/\((\d+), (\d+) pens?\)/gi, (_, n: string, p: string) => `(${n}, ${p === "1" ? "uno" : p} de penal)`)
+    .replace(/\((\d+), (\d+) o\.g\.?\)/gi, (_, n: string, p: string) => `(${n}, ${p === "1" ? "uno" : p} en contra)`)
     .replace(/\((?:p|pen)\.?\)/gi, "(de penal)")
     .replace(/\(o\.\s?g\.?\)/gi, "(en contra)")
-    .replace(/\((\d+), (\d+) pens?\)/gi, (_, n: string, p: string) => `(${n}, ${p === "1" ? "uno" : p} de penal)`)
-    .replace(/\((\d+), (\d+) o\.g\.?\)/gi, (_, n: string, p: string) => `(${n}, ${p === "1" ? "uno" : p} en contra)`);
+    .replace(/(\d+m?\+?)\s?pen\b/g, "$1 (de penal)") // 2005: "Pisculichi 80pen", "Galván 45+pen"
+    .replace(/(\d+m?\+?)\s?og\b/g, "$1 (en contra)"); // 2007: "Sanguinetti 82og", 1960s: "Rossi 88m og"
 
 // Frases de RSSSF que aparecen una sola vez (texto exacto → traducción).
 const NOTE_ES: [string, string][] = [
@@ -105,6 +106,7 @@ export function translateNote(
     .replace(/^\[|\]$/g, "")
     .replace(/^\{/, "") // "{at Vélez Sarsfield]": errata de la fuente (1998)
     .replace(/\bSocre\b/g, "Score") // errata de la fuente (2003)
+    .replace(/,\s*((?:behind )?closed doors)/gi, "; $1") // 2009: "remaining 29', closed doors"
     .replace(/\.\s*(Score allowed to stand|Awarded \d+-\d+)/gi, "; $1") // 2001/02: dos datos en una oración
     .replace(/\babandonded\b/gi, "abandoned") // errata de la fuente (1950)
     .replace(/\babandoned al\b/gi, "abandoned at") // errata de la fuente (1953)
@@ -243,14 +245,22 @@ export function translateNote(
       // 2000–2003: "Abandoned 0-4 at 61' because of incidents", "Abandoned at 90' because of incidents", "... because of light cut".
       const why = /rain/i.test(m[4]) ? "lluvia" : /light/i.test(m[4]) ? "un corte de luz" : "incidentes";
       out.text.push(`Suspendido a los ${m[3]} minutos${m[1] ? `, con ${m[1]}-${m[2]},` : ""} por ${why}.`);
+    } else if ((m = p.match(/^abandoned at (\d+)-(\d+) in (\d+\+?\d*)'? (?:due to|because of) (rain|crowd trouble|incidents|light failure|a light cut)$/i))) {
+      // 2005–2009: "abandoned at 1-0 in 16' due to rain". El marcador y el minuto los toma la fila "abd"; acá va el motivo.
+      const why = /rain/i.test(m[4]) ? "la lluvia" : /light/i.test(m[4]) ? "un corte de luz" : "incidentes";
+      out.text.push(`La suspensión fue por ${why}.`);
+      out.unknown.push(`abandoned at ${m[1]}-${m[2]} in ${m[3]}'`);
     } else if ((m = p.match(/^suspended at (\d+)' due to visibility problems with (.+?) leading (\d+)-(\d+), continued (.+)$/i))) {
       // 1996: "Suspended at 81' due to visibility problems with Platense leading 1-0, continued April 18".
       out.text.push(`Suspendido a los ${m[1]} minutos por falta de visibilidad, con ${m[3]}-${m[4]} para ${resolveName(m[2], year)?.name ?? m[2]}; se completó el ${esDate(m[5].replace(/^(\w{3})\w*\s/, "$1 "))}.`);
     } else if ((m = p.match(/^suspended at (\d+)' due to crowd trouble with a penalty awarded to (.+)$/i)))
       out.text.push(`Suspendido a los ${m[1]} minutos por incidentes en la tribuna, con un penal a favor de ${resolveName(m[2], year)?.name ?? m[2]}.`);
     else if (/^score allowed to stand$/i.test(p)) out.text.push("La liga dio por bueno el resultado.");
+    else if (/^(behind )?closed doors$/i.test(p)) out.text.push("A puertas cerradas.");
     else if ((m = p.match(/^remaining (\d+)m? on ([A-Z][a-z]{2} \d{1,2})$/i))) out.text.push(`Los ${m[1]} minutos que faltaban se jugaron el ${esDate(m[2])}.`);
-    else if ((m = p.match(/^score stood at ([A-Z][a-z]{2} \d{1,2})$/i))) out.text.push(`El ${esDate(m[1])} la liga dio por bueno el resultado.`);
+    else if ((m = p.match(/^score stood at ([A-Z][a-z]{2} \d{1,2})$/i)))
+      // 1919: "finished at 84m, score stood at Nov 22": si ya se dijo que quedó el resultado, solo falta la fecha.
+      out.text.push(out.text.some((t) => /por bueno/.test(t)) ? `La liga lo resolvió el ${esDate(m[1])}.` : `El ${esDate(m[1])} la liga dio por bueno el resultado.`);
     else if (/^agg:? \d+-\d+$/i.test(p)) continue;
     else if ((m = p.match(/^(.+?) (\d+) players left$/i))) {
       // "Banfield 6 players left" (1996): se quedó sin el mínimo de jugadores.

@@ -1,0 +1,3240 @@
+{
+ "slug": "2008-09-apertura",
+ "year": 2008,
+ "yearLabel": "2008/09",
+ "league": "Apertura",
+ "title": "Apertura 2008/09",
+ "tournament": "Apertura 2008/09",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "San Lorenzo, Boca y Tigre terminaron igualados en 39 puntos; Boca ganó el triangular de desempate y fue campeón.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2008",
+   "url": "https://www.rsssf.org/tablesa/arg09.html"
+  },
+  {
+   "label": "Wikipedia – Anexo:Torneo Apertura 2008 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Anexo%3ATorneo_Apertura_2008_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "20 equipos a una rueda, 3 puntos por victoria. El empate de tres equipos en el primer puesto se definió con un triangular en cancha neutral."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "sanlorenzo",
+   "played": 19,
+   "won": 12,
+   "drawn": 3,
+   "lost": 4,
+   "goalsFor": 34,
+   "goalsAgainst": 17,
+   "points": 39
+  },
+  {
+   "teamId": "boca",
+   "played": 19,
+   "won": 12,
+   "drawn": 3,
+   "lost": 4,
+   "goalsFor": 33,
+   "goalsAgainst": 21,
+   "points": 39
+  },
+  {
+   "teamId": "tigre",
+   "played": 19,
+   "won": 12,
+   "drawn": 3,
+   "lost": 4,
+   "goalsFor": 31,
+   "goalsAgainst": 19,
+   "points": 39
+  },
+  {
+   "teamId": "lanus",
+   "played": 19,
+   "won": 11,
+   "drawn": 4,
+   "lost": 4,
+   "goalsFor": 34,
+   "goalsAgainst": 23,
+   "points": 37
+  },
+  {
+   "teamId": "newells",
+   "played": 19,
+   "won": 8,
+   "drawn": 7,
+   "lost": 4,
+   "goalsFor": 26,
+   "goalsAgainst": 18,
+   "points": 31
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 19,
+   "won": 8,
+   "drawn": 4,
+   "lost": 7,
+   "goalsFor": 24,
+   "goalsAgainst": 25,
+   "points": 28
+  },
+  {
+   "teamId": "arsenal",
+   "played": 19,
+   "won": 8,
+   "drawn": 4,
+   "lost": 7,
+   "goalsFor": 26,
+   "goalsAgainst": 27,
+   "points": 28
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 19,
+   "won": 6,
+   "drawn": 9,
+   "lost": 4,
+   "goalsFor": 17,
+   "goalsAgainst": 15,
+   "points": 27
+  },
+  {
+   "teamId": "velez",
+   "played": 19,
+   "won": 7,
+   "drawn": 5,
+   "lost": 7,
+   "goalsFor": 22,
+   "goalsAgainst": 27,
+   "points": 26
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 19,
+   "won": 5,
+   "drawn": 8,
+   "lost": 6,
+   "goalsFor": 29,
+   "goalsAgainst": 25,
+   "points": 23
+  },
+  {
+   "teamId": "godoy-cruz",
+   "played": 19,
+   "won": 6,
+   "drawn": 5,
+   "lost": 8,
+   "goalsFor": 25,
+   "goalsAgainst": 28,
+   "points": 23
+  },
+  {
+   "teamId": "banfield",
+   "played": 19,
+   "won": 5,
+   "drawn": 8,
+   "lost": 6,
+   "goalsFor": 18,
+   "goalsAgainst": 21,
+   "points": 23
+  },
+  {
+   "teamId": "argentinos",
+   "played": 19,
+   "won": 5,
+   "drawn": 8,
+   "lost": 6,
+   "goalsFor": 25,
+   "goalsAgainst": 26,
+   "points": 23
+  },
+  {
+   "teamId": "racing",
+   "played": 19,
+   "won": 5,
+   "drawn": 7,
+   "lost": 7,
+   "goalsFor": 19,
+   "goalsAgainst": 22,
+   "points": 22
+  },
+  {
+   "teamId": "gimnasia-jujuy",
+   "played": 19,
+   "won": 6,
+   "drawn": 3,
+   "lost": 10,
+   "goalsFor": 19,
+   "goalsAgainst": 31,
+   "points": 21
+  },
+  {
+   "teamId": "san-martin-tucuman",
+   "played": 19,
+   "won": 5,
+   "drawn": 5,
+   "lost": 9,
+   "goalsFor": 15,
+   "goalsAgainst": 18,
+   "points": 20
+  },
+  {
+   "teamId": "huracan",
+   "played": 19,
+   "won": 5,
+   "drawn": 5,
+   "lost": 9,
+   "goalsFor": 18,
+   "goalsAgainst": 29,
+   "points": 20
+  },
+  {
+   "teamId": "independiente",
+   "played": 19,
+   "won": 4,
+   "drawn": 6,
+   "lost": 9,
+   "goalsFor": 15,
+   "goalsAgainst": 23,
+   "points": 18
+  },
+  {
+   "teamId": "central",
+   "played": 19,
+   "won": 4,
+   "drawn": 3,
+   "lost": 12,
+   "goalsFor": 20,
+   "goalsAgainst": 26,
+   "points": 15
+  },
+  {
+   "teamId": "river",
+   "played": 19,
+   "won": 2,
+   "drawn": 8,
+   "lost": 9,
+   "goalsFor": 20,
+   "goalsAgainst": 29,
+   "points": 14
+  }
+ ],
+ "matches": [
+  {
+   "id": "2008-09-apertura-001",
+   "date": "2008-08-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mario Turdó 13, Juan Monge 33."
+  },
+  {
+   "id": "2008-09-apertura-002",
+   "date": "2008-08-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Germán Ré 24."
+  },
+  {
+   "id": "2008-09-apertura-003",
+   "date": "2008-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-004",
+   "date": "2008-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Nicolás Bértolo 8 / Jairo Castillo 2, 19."
+  },
+  {
+   "id": "2008-09-apertura-005",
+   "date": "2008-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Facundo Sava 5, 69 (de penal), Alejandro Gómez 56."
+  },
+  {
+   "id": "2008-09-apertura-006",
+   "date": "2008-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-007",
+   "date": "2008-08-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: José Sand 63, 74."
+  },
+  {
+   "id": "2008-09-apertura-008",
+   "date": "2008-08-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-009",
+   "date": "2008-08-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alejando Capurro 39 / Roberto Flores 54."
+  },
+  {
+   "id": "2008-09-apertura-010",
+   "date": "2008-08-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jonathan Blanco 25."
+  },
+  {
+   "id": "2008-09-apertura-011",
+   "date": "2008-08-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gastón Fernández 7, 35 / Marcelo Bustamante 2, Luciano Civelli 18."
+  },
+  {
+   "id": "2008-09-apertura-012",
+   "date": "2008-08-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Darío Gandín 89."
+  },
+  {
+   "id": "2008-09-apertura-013",
+   "date": "2008-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Diego Castaño 10, 24 / Luciano Leguizamón 13."
+  },
+  {
+   "id": "2008-09-apertura-014",
+   "date": "2008-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martín Aguirre 28 / Gonzalo Bergessio 51, Juan Carlos Menseguez 72."
+  },
+  {
+   "id": "2008-09-apertura-015",
+   "date": "2008-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-016",
+   "date": "2008-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "velez",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-017",
+   "date": "2008-08-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Eduardo Tuzzio 82, Andrés Ríos 90."
+  },
+  {
+   "id": "2008-09-apertura-018",
+   "date": "2008-08-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Santiago Biglieri 8 / Diego Villar 61."
+  },
+  {
+   "id": "2008-09-apertura-019",
+   "date": "2008-08-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ariel Cólzera 52."
+  },
+  {
+   "id": "2008-09-apertura-020",
+   "date": "2008-09-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-021",
+   "date": "2008-08-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Diego Alonso 86."
+  },
+  {
+   "id": "2008-09-apertura-022",
+   "date": "2008-08-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pablo Aguilar 40."
+  },
+  {
+   "id": "2008-09-apertura-023",
+   "date": "2008-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: César Carranza 33."
+  },
+  {
+   "id": "2008-09-apertura-024",
+   "date": "2008-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Santiago Raymonda 7, Nicolás Bértolo 36 / Radamel Falcao 90+3."
+  },
+  {
+   "id": "2008-09-apertura-025",
+   "date": "2008-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alejandro Gómez 4, Mauro Matos 85 / Martín Aguirre 28."
+  },
+  {
+   "id": "2008-09-apertura-026",
+   "date": "2008-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Víctor Zapata 56 / Matías Giménez 69."
+  },
+  {
+   "id": "2008-09-apertura-027",
+   "date": "2008-08-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-028",
+   "date": "2008-08-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Franco Sosa 89 / Daniel Montenegro 40."
+  },
+  {
+   "id": "2008-09-apertura-029",
+   "date": "2008-08-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fabián Vargas 27, Cristian Chávez 68 / José Sand 6."
+  },
+  {
+   "id": "2008-09-apertura-030",
+   "date": "2008-08-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cristian Ledesma 9, Bernardo Romeo 72, Juan Carlos Menseguez 90+2."
+  },
+  {
+   "id": "2008-09-apertura-031",
+   "date": "2008-08-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martín Morel 61 / Mario Turdó 13, Ramiro Leone 66."
+  },
+  {
+   "id": "2008-09-apertura-032",
+   "date": "2008-08-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: José Sand 37, 47, 63 (de penal) / César Carranza 30, Fabio Pieters 33."
+  },
+  {
+   "id": "2008-09-apertura-033",
+   "date": "2008-08-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-034",
+   "date": "2008-08-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alejandro Capurro 10 / Juan Carlos Ferreyra 88."
+  },
+  {
+   "id": "2008-09-apertura-035",
+   "date": "2008-08-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-036",
+   "date": "2008-08-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Leandro González 14."
+  },
+  {
+   "id": "2008-09-apertura-037",
+   "date": "2008-08-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Juan Sebastián Verón 21, José Luis Calderón 81."
+  },
+  {
+   "id": "2008-09-apertura-038",
+   "date": "2008-08-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-039",
+   "date": "2008-08-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lucas Viatri 9, Nicolás Gaitán 76, 88."
+  },
+  {
+   "id": "2008-09-apertura-040",
+   "date": "2008-08-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Leonel Nuñez 23 / Franco Niell 46."
+  },
+  {
+   "id": "2008-09-apertura-041",
+   "date": "2008-09-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-042",
+   "date": "2008-09-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-043",
+   "date": "2008-09-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-044",
+   "date": "2008-09-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ignacio Piatti 4 / Nicolás Pavlovich 49."
+  },
+  {
+   "id": "2008-09-apertura-045",
+   "date": "2008-09-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ernesto Cristaldo 48, Diego Torres 77 / Sebastián Blanco 30."
+  },
+  {
+   "id": "2008-09-apertura-046",
+   "date": "2008-09-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Adrián González 39, 51 / Alexis Danelón 12."
+  },
+  {
+   "id": "2008-09-apertura-047",
+   "date": "2008-09-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Daniel Vega 71 / Leandro Caruso 88."
+  },
+  {
+   "id": "2008-09-apertura-048",
+   "date": "2008-09-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rodrigo Palacio 46 / Darío Gandín 50."
+  },
+  {
+   "id": "2008-09-apertura-049",
+   "date": "2008-09-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-050",
+   "date": "2008-09-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Leandro Velázquez 90."
+  },
+  {
+   "id": "2008-09-apertura-051",
+   "date": "2008-09-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martín Morel 66, 74, Jonathan Blanco 68 / José San Román 5 (en contra)."
+  },
+  {
+   "id": "2008-09-apertura-052",
+   "date": "2008-09-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-053",
+   "date": "2008-09-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-054",
+   "date": "2008-09-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: César González 47 / Rolando Schiavi 30."
+  },
+  {
+   "id": "2008-09-apertura-055",
+   "date": "2008-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Víctor Figueroa 89."
+  },
+  {
+   "id": "2008-09-apertura-056",
+   "date": "2008-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mauro Boselli 44 / Ramiro Leone 87."
+  },
+  {
+   "id": "2008-09-apertura-057",
+   "date": "2008-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Andrés Ríos 75 / Jonathan Cristaldo 37, Rodrigo López 81."
+  },
+  {
+   "id": "2008-09-apertura-058",
+   "date": "2008-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "arsenal",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Emilio Zelaya 10, Diego Braghieri 46, Omar Zarif 86."
+  },
+  {
+   "id": "2008-09-apertura-059",
+   "date": "2008-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Leonel Nuñez 4, 41, 56 / Claudio Fileppi 49, Ricardo Gómez 86."
+  },
+  {
+   "id": "2008-09-apertura-060",
+   "date": "2008-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-061",
+   "date": "2008-09-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-062",
+   "date": "2008-09-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gonzalo Bergessio 21, 68, Pablo Barrientos 47."
+  },
+  {
+   "id": "2008-09-apertura-063",
+   "date": "2008-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Adrián Lucero 7, Juan Sánchez Sotelo 17 / Milton Galiana 46."
+  },
+  {
+   "id": "2008-09-apertura-064",
+   "date": "2008-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Juan Arraya 49 / Juan Fernández 64."
+  },
+  {
+   "id": "2008-09-apertura-065",
+   "date": "2008-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-066",
+   "date": "2008-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mariano Uglessich 33, Leandro Somoza 81 / Leonardo Borzani 1."
+  },
+  {
+   "id": "2008-09-apertura-067",
+   "date": "2008-09-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gustavo Ibañez 34, Daniel Vega 77, Enzo Bruno 87 / Omar Merlo 11."
+  },
+  {
+   "id": "2008-09-apertura-068",
+   "date": "2008-09-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-069",
+   "date": "2008-09-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-070",
+   "date": "2008-09-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cristian Fabbiani 50."
+  },
+  {
+   "id": "2008-09-apertura-071",
+   "date": "2008-09-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martín Morel 6."
+  },
+  {
+   "id": "2008-09-apertura-072",
+   "date": "2008-09-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ezequiel González 45 / Nicolás Herrera 69."
+  },
+  {
+   "id": "2008-09-apertura-073",
+   "date": "2008-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Esteban Fuertes 48 / Hugo Barrientos 27."
+  },
+  {
+   "id": "2008-09-apertura-074",
+   "date": "2008-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Andrés Silvera 9, Pablo Barrientos 14."
+  },
+  {
+   "id": "2008-09-apertura-075",
+   "date": "2008-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Diego González 52, José Sand 77."
+  },
+  {
+   "id": "2008-09-apertura-076",
+   "date": "2008-09-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "boca",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-077",
+   "date": "2008-09-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-078",
+   "date": "2008-09-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-079",
+   "date": "2008-09-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-080",
+   "date": "2008-09-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-081",
+   "date": "2008-10-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cristian Lucchetti 62."
+  },
+  {
+   "id": "2008-09-apertura-082",
+   "date": "2008-10-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-083",
+   "date": "2008-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Diego Torres 27, Leandro Vangioni 44."
+  },
+  {
+   "id": "2008-09-apertura-084",
+   "date": "2008-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "argentinos",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Eduardo Salvio 8, 30, José Sand 28, 86 (de penal) / Nicolás Pavlovich 22, 36."
+  },
+  {
+   "id": "2008-09-apertura-085",
+   "date": "2008-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bernardo Romeo 87."
+  },
+  {
+   "id": "2008-09-apertura-086",
+   "date": "2008-10-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-087",
+   "date": "2008-10-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lucas Viatri 33 / Diego Galván 62, Leandro Benítez 66."
+  },
+  {
+   "id": "2008-09-apertura-088",
+   "date": "2008-10-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gabriel Loeschbor 10, Pablo Calandria 73 / Víctor Figueroa 55."
+  },
+  {
+   "id": "2008-09-apertura-089",
+   "date": "2008-10-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Leandro Díaz 63."
+  },
+  {
+   "id": "2008-09-apertura-090",
+   "date": "2008-10-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-091",
+   "date": "2008-10-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Juan Sebastián Verón 23, Mauro Boselli 84."
+  },
+  {
+   "id": "2008-09-apertura-092",
+   "date": "2008-10-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Néstor Ortigoza 14, Nicolás Pavlovich 81."
+  },
+  {
+   "id": "2008-09-apertura-093",
+   "date": "2008-10-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Leonel Altobelli 22, Martín Morel 30, 79."
+  },
+  {
+   "id": "2008-09-apertura-094",
+   "date": "2008-10-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Esteban Fuertes 46 / Lionel Nuñez 15, 38."
+  },
+  {
+   "id": "2008-09-apertura-095",
+   "date": "2008-10-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Andrés Silvera 35."
+  },
+  {
+   "id": "2008-09-apertura-096",
+   "date": "2008-10-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-097",
+   "date": "2008-10-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-098",
+   "date": "2008-10-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lucas Viatri 60."
+  },
+  {
+   "id": "2008-09-apertura-099",
+   "date": "2008-10-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Walter Ribonetto 36 (en contra)."
+  },
+  {
+   "id": "2008-09-apertura-100",
+   "date": "2008-10-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jerónimo Barrales 53."
+  },
+  {
+   "id": "2008-09-apertura-101",
+   "date": "2008-10-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Daniel Vega 26."
+  },
+  {
+   "id": "2008-09-apertura-102",
+   "date": "2008-10-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "godoy-cruz",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-103",
+   "date": "2008-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cristian Fabbiani 61 / Leandro Desábato 59."
+  },
+  {
+   "id": "2008-09-apertura-104",
+   "date": "2008-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martín Morel 13, Matías Giménez 51, Leandro Altobelli 52."
+  },
+  {
+   "id": "2008-09-apertura-105",
+   "date": "2008-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Daniel Montenegro 56 / Andrés Romero 90+2."
+  },
+  {
+   "id": "2008-09-apertura-106",
+   "date": "2008-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rubén Ramírez 20, 45, Lucas Acosta 90+1."
+  },
+  {
+   "id": "2008-09-apertura-107",
+   "date": "2008-10-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Adrián Lucero 1, Maximiliano Morales 19 (de penal) / Aureliano Torres 69."
+  },
+  {
+   "id": "2008-09-apertura-108",
+   "date": "2008-10-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-109",
+   "date": "2008-10-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lucas Viatri 7, Nicolás Gaitán 87 / Emilio Zelaya 58."
+  },
+  {
+   "id": "2008-09-apertura-110",
+   "date": "2008-10-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Héctor Desvaux 56."
+  },
+  {
+   "id": "2008-09-apertura-111",
+   "date": "2008-10-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carlos Luna 90+1."
+  },
+  {
+   "id": "2008-09-apertura-112",
+   "date": "2008-10-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-113",
+   "date": "2008-10-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mauro Boselli 53."
+  },
+  {
+   "id": "2008-09-apertura-114",
+   "date": "2008-10-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Emiliano Papa 52, Jonatan Cristaldo 53."
+  },
+  {
+   "id": "2008-09-apertura-115",
+   "date": "2008-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gonzalo Bou 1 / Juan Insaurralde 59."
+  },
+  {
+   "id": "2008-09-apertura-116",
+   "date": "2008-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "argentinos",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-117",
+   "date": "2008-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gervasio Nuñez 21, José Vizcarra 59, Andrés Franzoia 72."
+  },
+  {
+   "id": "2008-09-apertura-118",
+   "date": "2008-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pablo Mouche 79."
+  },
+  {
+   "id": "2008-09-apertura-119",
+   "date": "2008-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Andrés Silvera 19 / Franco Niell 63."
+  },
+  {
+   "id": "2008-09-apertura-120",
+   "date": "2008-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-121",
+   "date": "2008-10-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Daniel Montenegro 45 / Leandro Caruso 39."
+  },
+  {
+   "id": "2008-09-apertura-122",
+   "date": "2008-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Daniel Vega 60 / Esteban Fuertes 51."
+  },
+  {
+   "id": "2008-09-apertura-123",
+   "date": "2008-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Diego Lagos 5, Maximiliano Velázquez 53."
+  },
+  {
+   "id": "2008-09-apertura-124",
+   "date": "2008-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gastón Esmerado 87."
+  },
+  {
+   "id": "2008-09-apertura-125",
+   "date": "2008-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carlos Recalde 34, Ignacio Canutto 37."
+  },
+  {
+   "id": "2008-09-apertura-126",
+   "date": "2008-11-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-127",
+   "date": "2008-11-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Luciano Leguizamón 69."
+  },
+  {
+   "id": "2008-09-apertura-128",
+   "date": "2008-11-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Juan Riquelme 7."
+  },
+  {
+   "id": "2008-09-apertura-129",
+   "date": "2008-11-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ricardo Gómez 44, Juan Arraya 90+2."
+  },
+  {
+   "id": "2008-09-apertura-130",
+   "date": "2008-11-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rolando Schiavi 21 (de penal)."
+  },
+  {
+   "id": "2008-09-apertura-131",
+   "date": "2008-11-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mario Paglialunga 38 / Diego Lagos 50, José Sand 73."
+  },
+  {
+   "id": "2008-09-apertura-132",
+   "date": "2008-11-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cristian García 4, Marcelo Bustamante 38 / Cristian Fabbiani 21."
+  },
+  {
+   "id": "2008-09-apertura-133",
+   "date": "2008-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Leandro Caruso 59 / Franco Quiroga 55."
+  },
+  {
+   "id": "2008-09-apertura-134",
+   "date": "2008-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mauro Boselli 22."
+  },
+  {
+   "id": "2008-09-apertura-135",
+   "date": "2008-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-136",
+   "date": "2008-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Roberto Sosa 9, Franco Niell 17."
+  },
+  {
+   "id": "2008-09-apertura-137",
+   "date": "2008-11-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: José Luis Fernández 1, Franco Peppino 30."
+  },
+  {
+   "id": "2008-09-apertura-138",
+   "date": "2008-11-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-139",
+   "date": "2008-11-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Aureliano Torres 46, Gonzalo Bergessio 83 / Pablo Calandria 73."
+  },
+  {
+   "id": "2008-09-apertura-140",
+   "date": "2008-11-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Juan Riquelme 90."
+  },
+  {
+   "id": "2008-09-apertura-141",
+   "date": "2008-11-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mariano Messera 78."
+  },
+  {
+   "id": "2008-09-apertura-142",
+   "date": "2008-11-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Diego Lagos 33 / Nicolás Bértolo 42."
+  },
+  {
+   "id": "2008-09-apertura-143",
+   "date": "2008-11-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martín Morel 13, 45."
+  },
+  {
+   "id": "2008-09-apertura-144",
+   "date": "2008-11-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Esteban Fuertes 54, 71."
+  },
+  {
+   "id": "2008-09-apertura-145",
+   "date": "2008-11-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Luciano Leguizamón 65."
+  },
+  {
+   "id": "2008-09-apertura-146",
+   "date": "2008-11-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-147",
+   "date": "2008-11-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gervasio Nuñez 32, Martín Caraglio 66."
+  },
+  {
+   "id": "2008-09-apertura-148",
+   "date": "2008-11-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-149",
+   "date": "2008-11-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Radamel Falcao 65."
+  },
+  {
+   "id": "2008-09-apertura-150",
+   "date": "2008-11-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "estudiantes",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carlos Recalde 33, Gabriel Hauche 44, 53, Andrés Romero 66, 87."
+  },
+  {
+   "id": "2008-09-apertura-151",
+   "date": "2008-11-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-152",
+   "date": "2008-11-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sebastián Carrera 70 / Pablo Aguilar 30."
+  },
+  {
+   "id": "2008-09-apertura-153",
+   "date": "2008-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maximiliano Moralez 16 / Ariel Aguero 87."
+  },
+  {
+   "id": "2008-09-apertura-154",
+   "date": "2008-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-155",
+   "date": "2008-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Milton Caraglio 10 / Damián Ledesma 43, Leonel Ríos 90+1."
+  },
+  {
+   "id": "2008-09-apertura-156",
+   "date": "2008-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-157",
+   "date": "2008-11-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Raúl Saavedra 59 / Lucas Viatri 36, Luciano Figueroa 63."
+  },
+  {
+   "id": "2008-09-apertura-158",
+   "date": "2008-11-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-159",
+   "date": "2008-11-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Radamel Falcao 16 / Juan Sabia 78, Néstor Ortigoza 90 (de penal)."
+  },
+  {
+   "id": "2008-09-apertura-160",
+   "date": "2008-11-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ramón Ocampo 75, Nicolás Cabrera 90+2."
+  },
+  {
+   "id": "2008-09-apertura-161",
+   "date": "2008-11-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Denis Stracqualursi 80."
+  },
+  {
+   "id": "2008-09-apertura-162",
+   "date": "2008-11-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Víctor López 90+3."
+  },
+  {
+   "id": "2008-09-apertura-163",
+   "date": "2008-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gabriel Loeschbor 69."
+  },
+  {
+   "id": "2008-09-apertura-164",
+   "date": "2008-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Javier Gandolfi 50 (en contra), Sebastián Blanco 59 / Mauro Matos 41."
+  },
+  {
+   "id": "2008-09-apertura-166",
+   "date": "2008-11-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carlos Luna 26, 40, Cristian Bardaro 90+4 / Santiago Salcedo 2."
+  },
+  {
+   "id": "2008-09-apertura-167",
+   "date": "2008-11-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Juan R. Riquelme 38, 58 / Franco Sosa 45."
+  },
+  {
+   "id": "2008-09-apertura-168",
+   "date": "2008-11-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Juan M. Insaurralde 56."
+  },
+  {
+   "id": "2008-09-apertura-169",
+   "date": "2008-11-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-170",
+   "date": "2008-12-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Cancha de Boca Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Empezó el 29/11 y se suspendió a los 16 minutos con 1-0; el resto se jugó en esta fecha. La suspensión fue por la lluvia. Goles: Paolo Goltz 10."
+  },
+  {
+   "id": "2008-09-apertura-171",
+   "date": "2008-12-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Iván Borghello 55, 90+1 / Ramón Lentini 37."
+  },
+  {
+   "id": "2008-09-apertura-172",
+   "date": "2008-12-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-173",
+   "date": "2008-12-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Diego Lagos 8, José Sand 59."
+  },
+  {
+   "id": "2008-09-apertura-174",
+   "date": "2008-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pablo De Muner 35, Antonio Ibáñez 78."
+  },
+  {
+   "id": "2008-09-apertura-175",
+   "date": "2008-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-176",
+   "date": "2008-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Matías Abelairas 61 / Hernán Encina 6, Leandro Caruso 84."
+  },
+  {
+   "id": "2008-09-apertura-177",
+   "date": "2008-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mauro Matos 35."
+  },
+  {
+   "id": "2008-09-apertura-178",
+   "date": "2008-12-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-179",
+   "date": "2008-12-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Diego Galván 44."
+  },
+  {
+   "id": "2008-09-apertura-180",
+   "date": "2008-12-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-181",
+   "date": "2008-12-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-182",
+   "date": "2008-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mauro Fórmica 57, Hernán Bernardello 88, Juan M. Insaurralde 90+4."
+  },
+  {
+   "id": "2008-09-apertura-183",
+   "date": "2008-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mauro Boselli 69 / Eduardo Tuzzio 55."
+  },
+  {
+   "id": "2008-09-apertura-184",
+   "date": "2008-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ariel Montenegro 74 / Diego Villar 12."
+  },
+  {
+   "id": "2008-09-apertura-185",
+   "date": "2008-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Matías De Federico 15, César González 42, Javier Pastore 48."
+  },
+  {
+   "id": "2008-09-apertura-186",
+   "date": "2008-12-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martín Morel 39."
+  },
+  {
+   "id": "2008-09-apertura-187",
+   "date": "2008-12-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martín Aguirre 79."
+  },
+  {
+   "id": "2008-09-apertura-188",
+   "date": "2008-12-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2008-09-apertura-189",
+   "date": "2008-12-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Eduardo Ledesma 84."
+  },
+  {
+   "id": "2008-09-apertura-190",
+   "date": "2008-12-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Federico Higuaín 12 / Alejandro Gómez 43, 60."
+  },
+  {
+   "id": "2008-09-apertura-191",
+   "date": "2008-12-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gonzalo R. Bergessio 7."
+  }
+ ]
+}

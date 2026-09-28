@@ -358,6 +358,8 @@ const ABREV_2001 = {
   "Huracán (Buenos Aires)": "huracan",
   "San Martín (San Juan)": "san-martin-sj",
   "San Martín-SJ": "san-martin-sj",
+  "Godoy Cruz (Godoy Cruz)": "godoy-cruz",
+  "San Martín (Tucumán)": "san-martin-tucuman",
 };
 
 // Apertura y Clausura desde 2002/03: 20 equipos a una rueda, 3 puntos por victoria, tabla al principio de cada torneo.
@@ -375,6 +377,7 @@ const H_2003 = [...H_2002, /^Top Scorers/];
 const H_2005 = [/^Torneo Apertura/, /^Relegation Table/, /^Torneo Clausura/, /^Aggregate Table/, /^Promotion\/Relegation Playoff/];
 const H_2006 = [/^Torneo Apertura/, /^Championship Playoff/, /^Topscorers$/, /^Torneo Clausura/, /^Aggregate Table/, /^Promotion\/Relegation Playoff/];
 const H_2007 = [/^Apertura 2007$/, /^Clausura 2008$/, /^Topscorers$/, /^Promotion\/Relegation Playoffs/];
+const H_2008 = [/^Torneo Apertura/, /^Championship Playoff$/, /^Topscorers$/, /^Torneo Clausura/, /^Promotion\/Relegation Playoffs/];
 const H_2004 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Topscorers Clausura/, /^Promotion\/Relegation Playoffs/];
 // Promoción: series a ida y vuelta entre los dos equipos de Primera con peor promedio (después de los que descendían
 // directo) y equipos del Nacional B. `series`: [ida (fecha, local, visitante), vuelta, quién se quedó o subió, nota].
@@ -3074,6 +3077,7 @@ afaTorneo(1979, "reclasificacion", {
     rolloverBefore: 13,
     pointsPerWin: 3,
     pointAdjustments: [{ teamId: "los-andes", points: -3, reason: "descuento de 3 puntos (RSSSF no da el motivo)" }],
+    skip: (m) => m.score === "awd", // Huracán-Los Andes va a mano (abajo), con el resultado que dio la liga
     extraMatches: [
       {
         id: "2000-01-clausura-extra-1",
@@ -3539,5 +3543,53 @@ afaTorneo(1979, "reclasificacion", {
     ],
     series: [],
     summary: "Racing (2-1 a Belgrano) y Gimnasia y Esgrima de Jujuy (2-1 a Unión) se quedaron en Primera.",
+  }),
+  // ───────── 2008/09 ─────────
+  corto(2008, "apertura", {
+    championIds: ["boca"],
+    wiki: "Anexo:Torneo Apertura 2008 (Argentina)",
+    headings: H_2008,
+    sectionRange: { from: /^Torneo Apertura/, to: /^Championship Playoff$/ },
+    summary: "San Lorenzo, Boca y Tigre terminaron igualados en 39 puntos; Boca ganó el triangular de desempate y fue campeón.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria. El empate de tres equipos en el primer puesto se definió con un triangular en cancha neutral." }],
+  }),
+  afaLargaExtra(2008, "desempate", "Triangular del Apertura", {
+    championIds: ["boca"],
+    headings: H_2008,
+    sectionRange: { from: /^Championship Playoff$/, to: /^Topscorers$/ },
+    aliases: ABREV_2001,
+    tableIndex: [0],
+    pointsPerWin: 3,
+    summary: "Boca, Tigre y San Lorenzo ganaron un partido cada uno; Boca fue campeón por diferencia de gol.",
+    notes: [
+      { kind: "formato", text: "Triangular a una rueda, en cancha neutral, entre los tres igualados en el primer puesto del Apertura. Terminaron los tres con 3 puntos y Boca fue campeón por diferencia de gol (+1)." },
+    ],
+  }),
+  corto(2008, "clausura", {
+    championIds: ["velez"],
+    wiki: "Anexo:Torneo Clausura 2009 (Argentina)",
+    headings: H_2008,
+    sectionRange: { from: /^Torneo Clausura/, to: /^Topscorers$/ },
+    summary: "Vélez ganó el Clausura dos puntos delante de Huracán y Lanús.",
+    notes: [
+      {
+        kind: "formato",
+        text: "20 equipos a una rueda, 3 puntos por victoria. Descendían directamente los dos peores promedios de las últimas tres temporadas (San Martín de Tucumán y Gimnasia y Esgrima de Jujuy); los dos siguientes (Rosario Central y Gimnasia y Esgrima La Plata) jugaban la Promoción con equipos del Nacional B.",
+      },
+    ],
+  }),
+  promocion(2008, {
+    headings: H_2008,
+    sectionRange: { from: /^Promotion\/Relegation Playoffs/ },
+    // La fecha de las vueltas va en el título de la ronda: los cuatro partidos se cargan a mano.
+    skip: () => true,
+    extraMatches: [
+      { id: "2008-09-promocion-001", date: "2009-07-08", stage: "Promoción (ida)", phase: "playoff", homeId: "belgrano", awayId: "central", homeGoals: 0, awayGoals: 1, note: "Goles: J. Méndez 48'." },
+      { id: "2008-09-promocion-002", date: "2009-07-09", stage: "Promoción (ida)", phase: "playoff", homeId: "atletico-rafaela", awayId: "gimnasia", homeGoals: 3, awayGoals: 0, note: "Goles: Visconti 15', 63' y 68'." },
+      { id: "2008-09-promocion-003", date: "2009-07-12", stage: "Promoción (vuelta)", phase: "playoff", homeId: "central", awayId: "belgrano", homeGoals: 1, awayGoals: 1, advancedId: "central", note: "Goles: Zelaya 38' - J. C. Maldonado 37'. Rosario Central ganó 2-1 en el global y se quedó en Primera." },
+      { id: "2008-09-promocion-004", date: "2009-07-12", stage: "Promoción (vuelta)", phase: "playoff", homeId: "gimnasia", awayId: "atletico-rafaela", homeGoals: 3, awayGoals: 0, advancedId: "gimnasia", note: "Goles: Alonso 72', Niell 89' y 90+1'. 3-3 en el global: Gimnasia y Esgrima La Plata se quedó en Primera por la ventaja deportiva." },
+    ],
+    series: [],
+    summary: "Rosario Central (2-1 a Belgrano) se quedó en Primera; Gimnasia y Esgrima La Plata perdió 3-0 en Rafaela, lo dio vuelta 3-0 en la vuelta y se salvó por la ventaja deportiva.",
   }),
 ];

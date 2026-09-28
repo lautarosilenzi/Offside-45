@@ -401,6 +401,12 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
       }
       const indent = line.match(/^\s*/)![0].replace(/\t/g, "        ").length;
       let txt = trimmed.slice(1, -1);
+      // 2005–2009: "[Paolo Goltz 10]            due to rain]": la nota del partido sigue en la columna de la derecha.
+      const spill = txt.match(/^(.*?)\]\s{3,}([^\[\]]+)$/);
+      if (spill && last.note && !/\]\s*$/.test(last.note)) {
+        txt = spill[1];
+        last.note = `${last.note} ${spill[2].trim()}]`;
+      }
       // "[Delorte]  [Remaining 15']" (2003): la nota va en el mismo renglón que los goleadores.
       const trailing = txt.match(/^(.*?)\]\s*\[((?:remaining|abandoned|score allowed)[^\]]*)$/i);
       if (trailing) {

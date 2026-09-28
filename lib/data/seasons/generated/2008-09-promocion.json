@@ -1,0 +1,89 @@
+{
+ "slug": "2008-09-promocion",
+ "year": 2008,
+ "yearLabel": "2008/09",
+ "league": "Promoción",
+ "title": "Promoción 2008/09",
+ "tournament": "Promoción 2008/09",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Rosario Central (2-1 a Belgrano) se quedó en Primera; Gimnasia y Esgrima La Plata perdió 3-0 en Rafaela, lo dio vuelta 3-0 en la vuelta y se salvó por la ventaja deportiva.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2008",
+   "url": "https://www.rsssf.org/tablesa/arg09.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Series a ida y vuelta entre equipos de Primera con mal promedio y equipos del Nacional B. Con el global empatado, se quedaba el equipo de Primera."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2008-09-promocion-001",
+   "date": "2009-07-08",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "belgrano",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "note": "Goles: J. Méndez 48'."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2008-09-promocion-002",
+   "date": "2009-07-09",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "atletico-rafaela",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "note": "Goles: Visconti 15', 63' y 68'."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2008-09-promocion-003",
+   "date": "2009-07-12",
+   "stage": "Promoción (vuelta)",
+   "phase": "playoff",
+   "homeId": "central",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "advancedId": "central",
+   "note": "Goles: Zelaya 38' - J. C. Maldonado 37'. Rosario Central ganó 2-1 en el global y se quedó en Primera."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2008-09-promocion-004",
+   "date": "2009-07-12",
+   "stage": "Promoción (vuelta)",
+   "phase": "playoff",
+   "homeId": "gimnasia",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "advancedId": "gimnasia",
+   "note": "Goles: Alonso 72', Niell 89' y 90+1'. 3-3 en el global: Gimnasia y Esgrima La Plata se quedó en Primera por la ventaja deportiva."
+  }
+ ]
+}

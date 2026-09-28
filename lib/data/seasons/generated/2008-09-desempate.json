@@ -1,0 +1,104 @@
+{
+ "slug": "2008-09-desempate",
+ "year": 2008,
+ "yearLabel": "2008/09",
+ "league": "Triangular del Apertura",
+ "title": "Triangular del Apertura 2008/09",
+ "tournament": "Triangular del Apertura 2008/09",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca, Tigre y San Lorenzo ganaron un partido cada uno; Boca fue campeón por diferencia de gol.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2008",
+   "url": "https://www.rsssf.org/tablesa/arg09.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Triangular a una rueda, en cancha neutral, entre los tres igualados en el primer puesto del Apertura. Terminaron los tres con 3 puntos y Boca fue campeón por diferencia de gol (+1)."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "boca",
+   "played": 2,
+   "won": 1,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 3,
+   "goalsAgainst": 2,
+   "points": 3
+  },
+  {
+   "teamId": "tigre",
+   "played": 2,
+   "won": 1,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 2,
+   "goalsAgainst": 2,
+   "points": 3
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 2,
+   "won": 1,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 3,
+   "goalsAgainst": 4,
+   "points": 3
+  }
+ ],
+ "matches": [
+  {
+   "id": "2008-09-desempate-001",
+   "date": "2008-12-17",
+   "competition": "Asociación del Fútbol Argentino · Triangular del Apertura",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Vélez Sarsfield",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Leandro Lázzaro 76 / Pablo Barrientos 18, Gonzalo Bergessio 20."
+  },
+  {
+   "id": "2008-09-desempate-002",
+   "date": "2008-12-20",
+   "competition": "Asociación del Fútbol Argentino · Triangular del Apertura",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2008-09-desempate-003",
+   "date": "2008-12-23",
+   "competition": "Asociación del Fútbol Argentino · Triangular del Apertura",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Leandro Lázzaro 67."
+  }
+ ]
+}
