@@ -675,7 +675,8 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       !(/\.$/.test(s) && resolveName(s, cfg.year));
     // 2016/17: columna de ancho fijo, el estadio queda a un espacio del visitante
     // ("CA Patronato dl Juventud Católica El Teatro de Turdera…"): se separa el club más largo del principio.
-    if (raw.away.length > 45 && !resolveName(raw.away, cfg.year)) {
+    // Solo desde 2014: en páginas viejas un visitante largo suele ser una frase de las notas.
+    if (cfg.year >= 2014 && raw.away.length > 45 && !resolveName(raw.away, cfg.year)) {
       const words = raw.away.split(" ");
       for (let k = words.length - 1; k > 0; k--) {
         if (resolveName(words.slice(0, k).join(" "), cfg.year)) {
