@@ -1,0 +1,87 @@
+{
+ "slug": "2001-02-promocion",
+ "year": 2001,
+ "yearLabel": "2001/02",
+ "league": "Promoción",
+ "title": "Promoción 2001/02",
+ "tournament": "Promoción 2001/02",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Lanús (3-2 a Huracán de Tres Arroyos) y Unión (4-3 a Gimnasia y Esgrima de Concepción del Uruguay) se quedaron en Primera.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2001",
+   "url": "https://www.rsssf.org/tablesa/arg02.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Series a ida y vuelta entre los equipos 17.º y 18.º del promedio y dos equipos del Nacional B. Con el global empatado, se quedaba el equipo de Primera."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "2001-02-promocion-001",
+   "date": "2002-05-23",
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "huracan-tres-arroyos",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: García - Romero, López."
+  },
+  {
+   "id": "2001-02-promocion-002",
+   "date": "2002-05-23",
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "gimnasia-cdu",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Leguizamón, Fontana, Vendakis - Nto. Fernández."
+  },
+  {
+   "id": "2001-02-promocion-003",
+   "date": "2002-05-26",
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "stage": "Promoción (vuelta)",
+   "phase": "playoff",
+   "homeId": "lanus",
+   "awayId": "huracan-tres-arroyos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Lanús ganó 3-2 en el global y se quedó en Primera."
+  },
+  {
+   "id": "2001-02-promocion-004",
+   "date": "2002-05-26",
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "stage": "Promoción (vuelta)",
+   "phase": "playoff",
+   "homeId": "union-santa-fe",
+   "awayId": "gimnasia-cdu",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Unión ganó 4-3 en el global y se quedó en Primera."
+  }
+ ]
+}

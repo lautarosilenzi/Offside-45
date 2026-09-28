@@ -393,7 +393,9 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
       const last = cur.matches[cur.matches.length - 1];
       // 1989/90: "[Later, both teams lost the points (0-1)]" en el renglón de abajo es parte de la nota del partido.
       // 1991/92: "[River won the points (0-1)]".
-      if (/^\[(later\b|suspended in \d|[^\]]+ won the points\b)/i.test(trimmed)) {
+      // 2001/02: "[Abandoned 0-4 at 61' because of incidents. Score allowed to stand]" debajo de los goleadores: es nota, no los pisa.
+      const noteAfterScorers = last.scorers !== undefined && /^\[(abandoned|suspended|remaining|score allowed|awarded|agg\b)/i.test(trimmed);
+      if (noteAfterScorers || /^\[(later\b|suspended in \d|[^\]]+ won the points\b)/i.test(trimmed)) {
         last.note = [last.note, trimmed].filter(Boolean).join(" ");
         return;
       }

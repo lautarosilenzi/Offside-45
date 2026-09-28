@@ -46,7 +46,6 @@ const scorersEs = (s: string) =>
 // Frases de RSSSF que aparecen una sola vez (texto exacto → traducción).
 const NOTE_ES: [string, string][] = [
   ["abandoned at 60' due to threats to the referee made by a Barracas Central player", "Suspendido a los 60 minutos por amenazas al árbitro de un jugador de Barracas Central."],
-  ["Suspended at 64' due to crowd trouble with a penalty awarded to Newell's Old Boys", "Suspendido a los 64 minutos por incidentes en la tribuna, con un penal a favor de Newell's Old Boys."],
   ["abandoned at 0-0 in the second half as the referee was attacked by home player", "En realidad se empezó a jugar: se suspendió 0-0 en el segundo tiempo porque un jugador local agredió al árbitro."],
   ["suspended at 1-1, Atlanta was awarded the points", "En realidad se empezó a jugar: se suspendió 1-1 y la liga le dio los puntos a Atlanta."],
   ["Goles: Sportivo Almagro could not field a complete team.", "Sportivo Almagro no pudo formar un equipo completo."],
@@ -103,6 +102,7 @@ export function translateNote(
   const parts = note
     .replace(/^\[|\]$/g, "")
     .replace(/^\{/, "") // "{at Vélez Sarsfield]": errata de la fuente (1998)
+    .replace(/\.\s*(Score allowed to stand|Awarded \d+-\d+)/gi, "; $1") // 2001/02: dos datos en una oración
     .replace(/\babandonded\b/gi, "abandoned") // errata de la fuente (1950)
     .replace(/\babandoned al\b/gi, "abandoned at") // errata de la fuente (1953)
     .replace(/\s+\|\s+/g, "; ")
@@ -233,7 +233,17 @@ export function translateNote(
       out.wonPointsBy = club?.id;
       if (m[2]) out.lostScore = [+m[2], +m[3]];
       out.text.push(`La liga le dio los puntos a ${club ? club.as ?? club.name : m[1]}.`);
-    } else if ((m = p.match(/^(.+?) (\d+) players left$/i))) {
+    } else if ((m = p.match(/^abandoned (?:(\d+)-(\d+) )?at (\d+)'? (?:because of|due to) (rain|incidents)$/i))) {
+      // 2000–2002: "Abandoned 0-4 at 61' because of incidents", "Abandoned at 90' because of incidents".
+      out.text.push(`Suspendido a los ${m[3]} minutos${m[1] ? `, con ${m[1]}-${m[2]},` : ""} por ${/rain/i.test(m[4]) ? "lluvia" : "incidentes"}.`);
+    } else if ((m = p.match(/^suspended at (\d+)' due to visibility problems with (.+?) leading (\d+)-(\d+), continued (.+)$/i))) {
+      // 1996: "Suspended at 81' due to visibility problems with Platense leading 1-0, continued April 18".
+      out.text.push(`Suspendido a los ${m[1]} minutos por falta de visibilidad, con ${m[3]}-${m[4]} para ${resolveName(m[2], year)?.name ?? m[2]}; se completó el ${esDate(m[5].replace(/^(\w{3})\w*\s/, "$1 "))}.`);
+    } else if ((m = p.match(/^suspended at (\d+)' due to crowd trouble with a penalty awarded to (.+)$/i)))
+      out.text.push(`Suspendido a los ${m[1]} minutos por incidentes en la tribuna, con un penal a favor de ${resolveName(m[2], year)?.name ?? m[2]}.`);
+    else if (/^score allowed to stand$/i.test(p)) out.text.push("La liga dio por bueno el resultado.");
+    else if (/^agg:? \d+-\d+$/i.test(p)) continue;
+    else if ((m = p.match(/^(.+?) (\d+) players left$/i))) {
       // "Banfield 6 players left" (1996): se quedó sin el mínimo de jugadores.
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} se quedó con ${m[2]} jugadores.`);

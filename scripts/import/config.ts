@@ -323,6 +323,18 @@ const ABREV_1997 = {
   "Argentinos Jrs": "argentinos",
 };
 
+// Desde 2001/02 RSSSF pone la ciudad entre paréntesis ("Colón (SF)", "Talleres (Cba)").
+const ABREV_2001 = {
+  ...ABREV_1997,
+  "Talleres (Cba)": "talleres",
+  "Belgrano (Cba)": "belgrano",
+  "Gimnasia (LP)": "gimnasia",
+  "Estudiantes (LP)": "estudiantes",
+  "Colón (SF)": "colon-santa-fe",
+  "Unión (SF)": "union-santa-fe",
+  "Newell�s Old Boys": "newells",
+};
+
 export const TOURNAMENTS: TournamentConfig[] = [
   {
     slug: "1897",
@@ -3038,6 +3050,75 @@ afaTorneo(1979, "reclasificacion", {
       "2001-06-16 argentinos instituto": { phase: "playoff", stage: "Promoción (vuelta)", advancedId: "argentinos", note: "1-1 en el global: Argentinos Juniors se quedó en Primera por la ventaja deportiva." },
     },
     summary: "Belgrano (ante Quilmes) y Argentinos Juniors (ante Instituto) empataron 1-1 en el global y se quedaron en Primera por la ventaja deportiva.",
+    notes: [
+      { kind: "formato", text: "Series a ida y vuelta entre los equipos 17.º y 18.º del promedio y dos equipos del Nacional B. Con el global empatado, se quedaba el equipo de Primera." },
+    ],
+  }),
+  // ───────── 2001/02 ─────────
+  afaLargaExtra(2001, "apertura", "Apertura", {
+    championIds: ["racing"],
+    wiki: "Anexo:Torneo Apertura 2001 (Argentina)",
+    aliases: ABREV_2001,
+    headings: [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Aggregate Table/, /^Third and Fourth Promotion/],
+    sectionRange: { from: /^Torneo Apertura$/, to: /^Torneo Clausura$/ },
+    tableIndex: [0],
+    pointsPerWin: 3,
+    overrides: {
+      "2001-09-12 colon-santa-fe nueva-chicago": {
+        note: "Se había suspendido el 25/8 a los 11 minutos, 1-0 (gol de Migliónico), porque Migliónico se lesionó gravemente al hacer el gol; se jugaron los 79 minutos que faltaban. Goles: Migliónico, Graf, Capurro - O. Gómez.",
+      },
+    },
+    knownTableDiffs: {
+      keys: ["chacarita:goalsFor", "chacarita:goalsAgainst", "banfield:goalsAgainst"],
+      explanation:
+        "La tabla de RSSSF no cierra: suma 524 goles a favor y 527 en contra. Según los resultados (confirmados uno por uno con Wikipedia, cuya tabla coincide), Chacarita hizo 28 y recibió 24 (RSSSF: 24 y 22) y Banfield recibió 24 (RSSSF: 25).",
+    },
+    summary: "Racing ganó el Apertura un punto delante de River, con una sola derrota: su primer título de liga desde 1966.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria." }],
+  }),
+  afaLargaExtra(2001, "clausura", "Clausura", {
+    championIds: ["river"],
+    wiki: "Anexo:Torneo Clausura 2002 (Argentina)",
+    aliases: ABREV_2001,
+    headings: [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Aggregate Table/, /^Third and Fourth Promotion/],
+    sectionRange: { from: /^Torneo Clausura$/, to: /^Aggregate Table/ },
+    tableIndex: [0],
+    rolloverBefore: 13,
+    pointsPerWin: 3,
+    overrides: {
+      "2002-04-20 racing boca": {
+        awardedTo: "racing",
+        note: "Se suspendió a los 89 minutos por incidentes, con 2-1 (Milito 2 - González); la liga se lo dio 2-0 a Racing.",
+      },
+      "2002-04-24 sanlorenzo argentinos": {
+        note: "Se había suspendido el 16/4 a los 48 minutos, 0-1, por lluvia; el 24/4 se jugaron los 42 minutos que faltaban. Goles: Franco - Cordone (de penal).",
+      },
+    },
+    wikiErrata: {
+      "RSSSF newells 3-0 talleres":
+        "Wikipedia da 2-0 (y su tabla lo cuenta así). RSSSF da 3-0, con tres goles (Domizi y Maximiliano Rodríguez, 2), y también lo da 3-0 una tercera fuente (historiayfutbol, josecarluccio.blogspot.com).",
+    },
+    summary: "River ganó el Clausura seis puntos delante de Gimnasia y Esgrima La Plata.",
+    notes: [
+      {
+        kind: "formato",
+        text: "20 equipos a una rueda, 3 puntos por victoria. Descendían directamente los dos peores promedios de las últimas tres temporadas (Argentinos Juniors y Belgrano); los dos siguientes (Lanús y Unión) jugaban la Promoción con equipos del Nacional B.",
+      },
+    ],
+  }),
+  afaLargaExtra(2001, "promocion", "Promoción", {
+    championIds: [],
+    aliases: { ...ABREV_2001, "LANÚS": "lanus", "UNIÓN (SF)": "union-santa-fe", "Huracán (TA)": "huracan-tres-arroyos", "Gimnasia (ER)": "gimnasia-cdu" },
+    headings: [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Aggregate Table/, /^Third and Fourth Promotion/],
+    sectionRange: { from: /^Third and Fourth Promotion/ },
+    rolloverBefore: 13,
+    overrides: {
+      "2002-05-23 huracan-tres-arroyos lanus": { phase: "playoff", stage: "Promoción (ida)" },
+      "2002-05-26 lanus huracan-tres-arroyos": { phase: "playoff", stage: "Promoción (vuelta)", note: "Lanús ganó 3-2 en el global y se quedó en Primera." },
+      "2002-05-23 gimnasia-cdu union-santa-fe": { phase: "playoff", stage: "Promoción (ida)" },
+      "2002-05-26 union-santa-fe gimnasia-cdu": { phase: "playoff", stage: "Promoción (vuelta)", note: "Unión ganó 4-3 en el global y se quedó en Primera." },
+    },
+    summary: "Lanús (3-2 a Huracán de Tres Arroyos) y Unión (4-3 a Gimnasia y Esgrima de Concepción del Uruguay) se quedaron en Primera.",
     notes: [
       { kind: "formato", text: "Series a ida y vuelta entre los equipos 17.º y 18.º del promedio y dos equipos del Nacional B. Con el global empatado, se quedaba el equipo de Primera." },
     ],

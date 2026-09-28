@@ -328,6 +328,8 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["sportivo-velez-catamarca", "Sportivo Vélez Sarsfield (Catamarca)", "SVC", "Club Sportivo Vélez Sarsfield (Catamarca)"],
   ["sportivo-villa-mercedes", "Sportivo Villa Mercedes", "SVM", "Club Sportivo Villa Mercedes (San Luis)"],
   ["victoria-concordia", "Victoria (Concordia)", "VCO", "Club Victoria (Concordia)"],
+  ["huracan-tres-arroyos", "Huracán (Tres Arroyos)", "HTA", "Club Atlético Huracán (Tres Arroyos)"],
+  ["gimnasia-cdu", "Gimnasia y Esgrima (C. del Uruguay)", "GCU", "Club Gimnasia y Esgrima (Concepción del Uruguay)"],
   // Copa Ibarguren 1942–1958: el rival del campeón de la AFA era una selección de liga, ganadora del Campeonato Argentino.
   ["liga-cordobesa", "Liga Cordobesa", "LCO", "Selección de la Liga Cordobesa de Fútbol"],
   ["seleccion-tucuman", "Selección de Tucumán", "TUC", "Selección de Tucumán (Federación Tucumana de Fútbol y Asociación Cultural de Fútbol)"],
