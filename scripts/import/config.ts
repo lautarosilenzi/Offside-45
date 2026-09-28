@@ -365,6 +365,9 @@ const ABREV_2001 = {
   "Atlético Tucumán (Tucumán)": "atletico-tucuman",
   "Gimnasia y Esgrima LP": "gimnasia",
   "Estudiantes LP": "estudiantes",
+  "Vélez Sársfield": "velez",
+  "Godoy Cruz AT (Mendoza)": "godoy-cruz",
+  "Godoy Cruz AT": "godoy-cruz",
 };
 
 // Apertura y Clausura desde 2002/03: 20 equipos a una rueda, 3 puntos por victoria, tabla al principio de cada torneo.
@@ -385,6 +388,7 @@ const H_2007 = [/^Apertura 2007$/, /^Clausura 2008$/, /^Topscorers$/, /^Promotio
 const H_2008 = [/^Torneo Apertura/, /^Championship Playoff$/, /^Topscorers$/, /^Torneo Clausura/, /^Promotion\/Relegation Playoffs/];
 const H_2009 = [/Apertura 2009$/, /^Topscorer$/, /Clausura 2010$/, /^Topscorers$/, /Relegation Table$/, /^Promotion\/Relegation Playoffs/];
 const H_2010 = [/^Torneo .*Apertura 2010$/, /^Topscorers$/, /^Torneo .*Clausura 2011/, /^Relegation Table$/, /^Playoff Against 19th Place/, /^Promotion\/Relegation Playoffs/, /^Primera B Nacional/];
+const H_2011 = [/^Torneo Apertura 2011$/, /^Torneo Clausura 2012$/, /^Relegation Table/, /^Promotion\/Relegation Playoffs$/, /^Copa Argentina 2011\/12/];
 const H_2004 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Topscorers Clausura/, /^Promotion\/Relegation Playoffs/];
 // Promoción: series a ida y vuelta entre los dos equipos de Primera con peor promedio (después de los que descendían
 // directo) y equipos del Nacional B. `series`: [ida (fecha, local, visitante), vuelta, quién se quedó o subió, nota].
@@ -3716,5 +3720,49 @@ afaTorneo(1979, "reclasificacion", {
     ],
     series: [],
     summary: "Belgrano (3-1 a River) y San Martín de San Juan (2-1 a Gimnasia y Esgrima La Plata) ascendieron. River descendió por primera vez en su historia.",
+  }),
+  // ───────── 2011/12 (arg2012.html; trae también la Copa Argentina y la Supercopa) ─────────
+  corto(2011, "apertura", {
+    file: "arg2012.html",
+    championIds: ["boca"],
+    wiki: "Anexo:Torneo Apertura 2011 (Argentina)",
+    headings: H_2011,
+    sectionRange: { from: /^Torneo Apertura 2011$/, to: /^Torneo Clausura 2012$/ },
+    summary: "Boca ganó el Apertura invicto (12 ganados y 7 empatados, 6 goles en contra), doce puntos delante de Racing, Vélez, Belgrano y Colón.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria." }],
+  }),
+  corto(2011, "clausura", {
+    file: "arg2012.html",
+    championIds: ["arsenal"],
+    wiki: "Anexo:Torneo Clausura 2012 (Argentina)",
+    headings: H_2011,
+    sectionRange: { from: /^Torneo Clausura 2012$/, to: /^Relegation Table/ },
+    overrides: {
+      "2012-04-14 san-martin-sj velez": {
+        note: "Goles: Affranchino - Grabinski (en contra), L. Velázquez, Pratto. Se suspendió a los 40 minutos del segundo tiempo por incidentes en la tribuna local, y quedó ese resultado (El Esquiú).",
+      },
+    },
+    wikiErrata: {
+      "RSSSF san-martin-sj 1-3 velez":
+        "Wikipedia da 0-3 (y su tabla lo cuenta así). RSSSF da 1-3, igual que su tabla, y también una tercera fuente (El Esquiú, 15/4/2012: «Vélez ganó 3 a 1 en San Juan»).",
+    },
+    summary: "Arsenal ganó el Clausura dos puntos delante de Tigre: el primer título de liga de su historia.",
+    notes: [
+      {
+        kind: "formato",
+        text: "20 equipos a una rueda, 3 puntos por victoria. Descendían directamente los dos peores promedios de las últimas tres temporadas (Banfield y Olimpo); los dos siguientes (San Martín de San Juan y San Lorenzo) jugaban la Promoción con equipos del Nacional B.",
+      },
+    ],
+  }),
+  promocion(2011, {
+    file: "arg2012.html",
+    headings: H_2011,
+    sectionRange: { from: /^Promotion\/Relegation Playoffs$/, to: /^Copa Argentina 2011\/12/ },
+    aliases: { "Instituto (Córdoba)": "instituto" },
+    series: [
+      ["2012-06-28 central san-martin-sj", "2012-07-01 san-martin-sj central", "san-martin-sj", "0-0 en el global: San Martín de San Juan se quedó en Primera por la ventaja deportiva."],
+      ["2012-06-28 instituto sanlorenzo", "2012-07-01 sanlorenzo instituto", "sanlorenzo", "San Lorenzo ganó 3-1 en el global y se quedó en Primera."],
+    ],
+    summary: "San Martín de San Juan (0-0 y 0-0 con Rosario Central, por la ventaja deportiva) y San Lorenzo (3-1 a Instituto) se quedaron en Primera.",
   }),
 ];

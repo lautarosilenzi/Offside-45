@@ -1,0 +1,3109 @@
+{
+ "slug": "2011-12-apertura",
+ "year": 2011,
+ "yearLabel": "2011/12",
+ "league": "Apertura",
+ "title": "Apertura 2011/12",
+ "tournament": "Apertura 2011/12",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca ganó el Apertura invicto (12 ganados y 7 empatados, 6 goles en contra), doce puntos delante de Racing, Vélez, Belgrano y Colón.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2011",
+   "url": "https://www.rsssf.org/tablesa/arg2012.html"
+  },
+  {
+   "label": "Wikipedia – Anexo:Torneo Apertura 2011 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Anexo%3ATorneo_Apertura_2011_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "20 equipos a una rueda, 3 puntos por victoria."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "boca",
+   "played": 19,
+   "won": 12,
+   "drawn": 7,
+   "lost": 0,
+   "goalsFor": 25,
+   "goalsAgainst": 6,
+   "points": 43
+  },
+  {
+   "teamId": "racing",
+   "played": 19,
+   "won": 7,
+   "drawn": 10,
+   "lost": 2,
+   "goalsFor": 16,
+   "goalsAgainst": 8,
+   "points": 31
+  },
+  {
+   "teamId": "velez",
+   "played": 19,
+   "won": 9,
+   "drawn": 4,
+   "lost": 6,
+   "goalsFor": 22,
+   "goalsAgainst": 17,
+   "points": 31
+  },
+  {
+   "teamId": "belgrano",
+   "played": 19,
+   "won": 8,
+   "drawn": 7,
+   "lost": 4,
+   "goalsFor": 21,
+   "goalsAgainst": 16,
+   "points": 31
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 19,
+   "won": 8,
+   "drawn": 7,
+   "lost": 4,
+   "goalsFor": 19,
+   "goalsAgainst": 15,
+   "points": 31
+  },
+  {
+   "teamId": "lanus",
+   "played": 19,
+   "won": 7,
+   "drawn": 8,
+   "lost": 4,
+   "goalsFor": 20,
+   "goalsAgainst": 14,
+   "points": 29
+  },
+  {
+   "teamId": "tigre",
+   "played": 19,
+   "won": 7,
+   "drawn": 6,
+   "lost": 6,
+   "goalsFor": 22,
+   "goalsAgainst": 19,
+   "points": 27
+  },
+  {
+   "teamId": "independiente",
+   "played": 19,
+   "won": 7,
+   "drawn": 6,
+   "lost": 6,
+   "goalsFor": 18,
+   "goalsAgainst": 17,
+   "points": 27
+  },
+  {
+   "teamId": "san-martin-sj",
+   "played": 19,
+   "won": 6,
+   "drawn": 8,
+   "lost": 5,
+   "goalsFor": 17,
+   "goalsAgainst": 14,
+   "points": 26
+  },
+  {
+   "teamId": "atletico-rafaela",
+   "played": 19,
+   "won": 8,
+   "drawn": 2,
+   "lost": 9,
+   "goalsFor": 22,
+   "goalsAgainst": 26,
+   "points": 26
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 19,
+   "won": 6,
+   "drawn": 7,
+   "lost": 6,
+   "goalsFor": 14,
+   "goalsAgainst": 18,
+   "points": 25
+  },
+  {
+   "teamId": "godoy-cruz",
+   "played": 19,
+   "won": 6,
+   "drawn": 6,
+   "lost": 7,
+   "goalsFor": 28,
+   "goalsAgainst": 24,
+   "points": 24
+  },
+  {
+   "teamId": "arsenal",
+   "played": 19,
+   "won": 6,
+   "drawn": 6,
+   "lost": 7,
+   "goalsFor": 21,
+   "goalsAgainst": 20,
+   "points": 24
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 19,
+   "won": 6,
+   "drawn": 5,
+   "lost": 8,
+   "goalsFor": 24,
+   "goalsAgainst": 24,
+   "points": 23
+  },
+  {
+   "teamId": "argentinos",
+   "played": 19,
+   "won": 5,
+   "drawn": 7,
+   "lost": 7,
+   "goalsFor": 18,
+   "goalsAgainst": 24,
+   "points": 22
+  },
+  {
+   "teamId": "all-boys",
+   "played": 19,
+   "won": 4,
+   "drawn": 9,
+   "lost": 6,
+   "goalsFor": 15,
+   "goalsAgainst": 23,
+   "points": 21
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 19,
+   "won": 5,
+   "drawn": 4,
+   "lost": 10,
+   "goalsFor": 13,
+   "goalsAgainst": 19,
+   "points": 19
+  },
+  {
+   "teamId": "newells",
+   "played": 19,
+   "won": 1,
+   "drawn": 13,
+   "lost": 5,
+   "goalsFor": 13,
+   "goalsAgainst": 18,
+   "points": 16
+  },
+  {
+   "teamId": "olimpo",
+   "played": 19,
+   "won": 2,
+   "drawn": 10,
+   "lost": 7,
+   "goalsFor": 15,
+   "goalsAgainst": 25,
+   "points": 16
+  },
+  {
+   "teamId": "banfield",
+   "played": 19,
+   "won": 3,
+   "drawn": 2,
+   "lost": 14,
+   "goalsFor": 13,
+   "goalsAgainst": 29,
+   "points": 11
+  }
+ ],
+ "matches": [
+  {
+   "id": "2011-12-apertura-001",
+   "date": "2011-08-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-002",
+   "date": "2011-08-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-003",
+   "date": "2011-08-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Malvinas Argentinas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-004",
+   "date": "2011-08-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-005",
+   "date": "2011-08-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-006",
+   "date": "2011-08-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-007",
+   "date": "2011-08-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-008",
+   "date": "2011-08-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-009",
+   "date": "2011-08-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-010",
+   "date": "2011-09-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "san-martin-sj",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-011",
+   "date": "2011-08-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-012",
+   "date": "2011-08-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "union-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-013",
+   "date": "2011-08-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-014",
+   "date": "2011-08-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-015",
+   "date": "2011-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-016",
+   "date": "2011-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-017",
+   "date": "2011-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-018",
+   "date": "2011-08-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-019",
+   "date": "2011-08-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-020",
+   "date": "2011-08-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-021",
+   "date": "2011-08-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-022",
+   "date": "2011-08-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-023",
+   "date": "2011-08-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-024",
+   "date": "2011-08-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-025",
+   "date": "2011-08-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-026",
+   "date": "2011-08-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-027",
+   "date": "2011-08-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-028",
+   "date": "2011-08-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-029",
+   "date": "2011-08-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-030",
+   "date": "2011-08-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-031",
+   "date": "2011-08-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "san-martin-sj",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-032",
+   "date": "2011-08-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-033",
+   "date": "2011-08-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Malvinas Argentinas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-034",
+   "date": "2011-08-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-035",
+   "date": "2011-08-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "olimpo",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-036",
+   "date": "2011-08-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-037",
+   "date": "2011-08-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-038",
+   "date": "2011-08-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-039",
+   "date": "2011-08-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-040",
+   "date": "2011-08-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-041",
+   "date": "2011-09-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-042",
+   "date": "2011-09-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-043",
+   "date": "2011-09-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-044",
+   "date": "2011-09-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-045",
+   "date": "2011-09-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-046",
+   "date": "2011-09-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-047",
+   "date": "2011-09-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-048",
+   "date": "2011-09-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-049",
+   "date": "2011-09-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-050",
+   "date": "2011-09-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-051",
+   "date": "2011-09-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-052",
+   "date": "2011-09-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-053",
+   "date": "2011-09-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-054",
+   "date": "2011-09-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-055",
+   "date": "2011-09-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "all-boys",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "venue": "Cancha de Malvinas Argentinas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-056",
+   "date": "2011-09-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "san-martin-sj",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-057",
+   "date": "2011-09-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-058",
+   "date": "2011-09-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-059",
+   "date": "2011-09-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-060",
+   "date": "2011-09-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-061",
+   "date": "2011-09-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-062",
+   "date": "2011-09-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-063",
+   "date": "2011-09-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-064",
+   "date": "2011-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-065",
+   "date": "2011-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-066",
+   "date": "2011-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-067",
+   "date": "2011-09-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-068",
+   "date": "2011-09-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-069",
+   "date": "2011-09-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-070",
+   "date": "2011-09-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "argentinos",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "venue": "Cancha de Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-071",
+   "date": "2011-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "san-martin-sj",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-072",
+   "date": "2011-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-073",
+   "date": "2011-09-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-074",
+   "date": "2011-09-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-075",
+   "date": "2011-09-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-076",
+   "date": "2011-09-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-077",
+   "date": "2011-09-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-078",
+   "date": "2011-09-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-079",
+   "date": "2011-09-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-080",
+   "date": "2011-09-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Malvinas Argentinas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-081",
+   "date": "2011-09-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-082",
+   "date": "2011-09-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-083",
+   "date": "2011-09-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-084",
+   "date": "2011-09-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-085",
+   "date": "2011-09-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-086",
+   "date": "2011-09-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-087",
+   "date": "2011-09-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-088",
+   "date": "2011-09-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-089",
+   "date": "2011-09-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-090",
+   "date": "2011-09-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-091",
+   "date": "2011-09-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-092",
+   "date": "2011-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-093",
+   "date": "2011-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "san-martin-sj",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-094",
+   "date": "2011-10-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-095",
+   "date": "2011-10-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-096",
+   "date": "2011-10-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-097",
+   "date": "2011-10-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-098",
+   "date": "2011-10-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Malvinas Argentinas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-099",
+   "date": "2011-10-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-100",
+   "date": "2011-10-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-101",
+   "date": "2011-10-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-102",
+   "date": "2011-10-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-103",
+   "date": "2011-10-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-104",
+   "date": "2011-10-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-105",
+   "date": "2011-10-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-106",
+   "date": "2011-10-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-107",
+   "date": "2011-10-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-108",
+   "date": "2011-10-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Quilmes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-109",
+   "date": "2011-10-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-110",
+   "date": "2011-10-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-111",
+   "date": "2011-10-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-112",
+   "date": "2011-10-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-113",
+   "date": "2011-10-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-114",
+   "date": "2011-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-115",
+   "date": "2011-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-116",
+   "date": "2011-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-117",
+   "date": "2011-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-118",
+   "date": "2011-10-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-119",
+   "date": "2011-10-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-120",
+   "date": "2011-10-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "san-martin-sj",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Malvinas Argentinas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-121",
+   "date": "2011-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-122",
+   "date": "2011-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-123",
+   "date": "2011-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-124",
+   "date": "2011-10-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-125",
+   "date": "2011-10-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-126",
+   "date": "2011-10-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-127",
+   "date": "2011-10-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-128",
+   "date": "2011-10-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-129",
+   "date": "2011-10-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Quilmes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-130",
+   "date": "2011-11-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-131",
+   "date": "2011-11-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-132",
+   "date": "2011-11-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-133",
+   "date": "2011-11-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-134",
+   "date": "2011-11-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-135",
+   "date": "2011-11-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-136",
+   "date": "2011-11-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Malvinas Argentinas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-137",
+   "date": "2011-11-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-138",
+   "date": "2011-11-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-139",
+   "date": "2011-11-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-140",
+   "date": "2011-11-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "san-martin-sj",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-141",
+   "date": "2011-11-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-142",
+   "date": "2011-11-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-143",
+   "date": "2011-11-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "olimpo",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-144",
+   "date": "2011-11-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-145",
+   "date": "2011-11-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-146",
+   "date": "2011-11-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-147",
+   "date": "2011-11-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-148",
+   "date": "2011-11-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-149",
+   "date": "2011-11-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-150",
+   "date": "2012-02-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-151",
+   "date": "2011-11-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-152",
+   "date": "2011-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-153",
+   "date": "2011-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-154",
+   "date": "2011-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "san-martin-sj",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-155",
+   "date": "2011-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-156",
+   "date": "2011-11-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-157",
+   "date": "2011-11-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Malvinas Argentinas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-158",
+   "date": "2011-11-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-159",
+   "date": "2011-11-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-160",
+   "date": "2011-11-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-161",
+   "date": "2011-12-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-162",
+   "date": "2011-12-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-163",
+   "date": "2011-12-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-164",
+   "date": "2011-12-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "olimpo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-165",
+   "date": "2011-12-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-166",
+   "date": "2011-12-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-167",
+   "date": "2011-12-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-168",
+   "date": "2011-12-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-169",
+   "date": "2011-12-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-170",
+   "date": "2011-12-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-171",
+   "date": "2011-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-172",
+   "date": "2011-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-173",
+   "date": "2011-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-174",
+   "date": "2011-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-175",
+   "date": "2011-12-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Malvinas Argentinas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-176",
+   "date": "2011-12-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-177",
+   "date": "2011-12-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-178",
+   "date": "2011-12-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-179",
+   "date": "2011-12-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "san-martin-sj",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-180",
+   "date": "2011-12-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-181",
+   "date": "2011-12-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-182",
+   "date": "2011-12-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-183",
+   "date": "2011-12-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-184",
+   "date": "2011-12-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-185",
+   "date": "2011-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-186",
+   "date": "2011-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-187",
+   "date": "2011-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-188",
+   "date": "2011-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "banfield",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-189",
+   "date": "2011-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2011-12-apertura-190",
+   "date": "2011-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}
