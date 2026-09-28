@@ -288,6 +288,19 @@ const anual = (
   ...rest,
   aliases: { ...ABREV_2001, ...rest.aliases },
 });
+const H_2015 = [/^Campeonato de Primera División 2015/, /^Liguilla Pre Libertadores$/, /^Liguilla Pre Sudamericana$/, /^Relegation$/, /^Second Level: Primera B Nacional 2015/];
+// 2015: con 30 equipos, "Club Atlético San Martín" es el de San Juan (el de Tucumán estaba en el Federal A).
+const A_2015 = {
+  "Club Atlético San Martín": "san-martin-sj",
+  "Club Atlético Sarmiento": "sarmiento-junin",
+  Sarmiento: "sarmiento-junin", // así lo nombra Wikipedia
+  "Club Atlético Unión": "union-santa-fe",
+  "Club Atlético Colón": "colon-santa-fe",
+  "Club Atlético Belgrano": "belgrano",
+  "Club A. San Lorenzo de Almagro": "sanlorenzo",
+  "Asociación A. Argentinos Juniors": "argentinos",
+  "Asociación Mutual Social y Deportiva Atlético de Rafaela": "atletico-rafaela",
+};
 // Torneos de la misma temporada (Liguilla Pre-Libertadores, Octogonal): sin tabla, todo es eliminación.
 // `file` se puede cambiar: 2009/10 está en arg2010.html (arg10.html es 1910).
 const afaLargaExtra = (
@@ -3934,6 +3947,81 @@ afaTorneo(1979, "reclasificacion", {
       {
         kind: "formato",
         text: "Torneo de transición de 20 equipos a una rueda, 3 puntos por victoria, para pasar al calendario anual. No hubo descensos; en 2015 se sumaron diez equipos del Nacional B y la Primera pasó a tener 30.",
+      },
+    ],
+  }),
+  // ───────── 2015: 30 equipos, Liguilla Pre-Libertadores y Pre-Sudamericana (arg2015a.html) ─────────
+  anual(2015, undefined, "Campeonato", {
+    file: "arg2015a.html",
+    tournament: "Campeonato de Primera División 2015 «Julio H. Grondona»",
+    championIds: ["boca"],
+    wiki: "Campeonato de Primera División 2015 (Argentina)",
+    headings: H_2015,
+    sectionRange: { from: /^Campeonato de Primera División 2015/, to: /^Liguilla Pre Libertadores$/ },
+    aliases: A_2015,
+    overrides: {
+      "2015-04-13 arsenal newells": {
+        homeGoals: 3,
+        awayGoals: 0,
+        awardedTo: undefined,
+        goalsVoid: undefined,
+        note: "La liga se lo había dado 0-1 a Newell's el 22/5, pero el 23/7 revocó la sanción y quedó el 3-0 de la cancha.",
+      },
+    },
+    summary: "Boca ganó el campeonato de 30 equipos tres puntos delante de San Lorenzo.",
+    notes: [
+      {
+        kind: "formato",
+        text: "30 equipos a una rueda, más una fecha extra de clásicos (solo los clásicos se jugaron dos veces), 3 puntos por victoria. Descendieron Nueva Chicago y Crucero del Norte.",
+      },
+    ],
+  }),
+  anual(2015, "liguilla-libertadores", "Liguilla Pre-Libertadores", {
+    file: "arg2015a.html",
+    championIds: [],
+    headings: H_2015,
+    sectionRange: { from: /^Liguilla Pre Libertadores$/, to: /^Liguilla Pre Sudamericana$/ },
+    aliases: A_2015,
+    tableIncludesPlayoffs: true,
+    overrides: {
+      "2015-11-19 independiente belgrano": { phase: "playoff", stage: "Semifinal" },
+      "2015-11-20 racing estudiantes": { phase: "playoff", stage: "Semifinal" },
+      "2015-11-29 independiente racing": { phase: "playoff", stage: "Final (ida)" },
+      "2015-12-06 racing independiente": { phase: "playoff", stage: "Final (vuelta)", advancedId: "racing", note: "Racing ganó 3-2 en el global y fue a la Copa Libertadores 2016; Independiente, a la Sudamericana." },
+    },
+    summary: "Racing le ganó la final a Independiente (2-0 y 1-2) y fue a la Copa Libertadores 2016.",
+    notes: [
+      {
+        kind: "formato",
+        text: "Los cuatro mejores del campeonato que no estaban clasificados a la Libertadores 2016 ni descendidos: semifinales a un partido y final a ida y vuelta. El ganador iba a la Libertadores y el finalista a la Sudamericana.",
+      },
+    ],
+  }),
+  anual(2015, "liguilla-sudamericana", "Liguilla Pre-Sudamericana", {
+    file: "arg2015a.html",
+    championIds: [],
+    headings: H_2015,
+    sectionRange: { from: /^Liguilla Pre Sudamericana$/, to: /^Relegation$/ },
+    aliases: A_2015,
+    tableIncludesPlayoffs: true,
+    overrides: Object.fromEntries([
+      ...["2015-11-19 tigre colon-santa-fe", "2015-11-20 gimnasia san-martin-sj", "2015-11-20 union-santa-fe aldosivi", "2015-11-23 lanus newells", "2015-11-23 quilmes olimpo", "2015-11-24 banfield argentinos"].map(
+        (k) => [k, { phase: "playoff" as const, stage: "Primera fase" }],
+      ),
+      ...["2015-11-28 colon-santa-fe belgrano", "2015-11-28 lanus gimnasia", "2015-11-28 olimpo estudiantes", "2015-11-29 aldosivi banfield"].map((k) => [
+        k,
+        { phase: "playoff" as const, stage: "Segunda fase (ida)" },
+      ]),
+      ["2015-12-05 banfield aldosivi", { phase: "playoff" as const, stage: "Segunda fase (vuelta)", advancedId: "banfield", note: "Banfield ganó 4-3 en el global y fue a la Sudamericana 2016." }],
+      ["2015-12-05 belgrano colon-santa-fe", { phase: "playoff" as const, stage: "Segunda fase (vuelta)", advancedId: "belgrano", note: "Belgrano ganó 2-1 en el global y fue a la Sudamericana 2016." }],
+      ["2015-12-05 estudiantes olimpo", { phase: "playoff" as const, stage: "Segunda fase (vuelta)", advancedId: "estudiantes", note: "Estudiantes ganó 5-0 en el global y fue a la Sudamericana 2016." }],
+      ["2015-12-06 gimnasia lanus", { phase: "playoff" as const, stage: "Segunda fase (vuelta)", advancedId: "lanus", note: "Lanús ganó 3-1 en el global y fue a la Sudamericana 2016." }],
+    ]),
+    summary: "Lanús, Banfield, Estudiantes y Belgrano se clasificaron a la Copa Sudamericana 2016.",
+    notes: [
+      {
+        kind: "formato",
+        text: "Los mejores del campeonato sin clasificación internacional (más los perdedores de las semifinales de la Liguilla Pre-Libertadores): una ronda a un partido y otra a ida y vuelta. Los cuatro ganadores fueron a la Sudamericana.",
       },
     ],
   }),

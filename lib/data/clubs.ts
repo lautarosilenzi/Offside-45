@@ -330,6 +330,7 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["victoria-concordia", "Victoria (Concordia)", "VCO", "Club Victoria (Concordia)"],
   ["arsenal", "Arsenal de Sarandí", "ARS", "Arsenal Fútbol Club (Sarandí)"],
   ["atletico-rafaela", "Atlético de Rafaela", "ATR", "Asociación Mutual Social y Deportiva Atlético de Rafaela"],
+  ["crucero-del-norte", "Crucero del Norte", "CDN", "Asociación Mutual del Personal de Crucero del Norte (Garupá, Misiones)"],
   ["huracan-tres-arroyos", "Huracán (Tres Arroyos)", "HTA", "Club Atlético Huracán (Tres Arroyos)"],
   ["gimnasia-cdu", "Gimnasia y Esgrima (C. del Uruguay)", "GCU", "Club Gimnasia y Esgrima (Concepción del Uruguay)"],
   // Copa Ibarguren 1942–1958: el rival del campeón de la AFA era una selección de liga, ganadora del Campeonato Argentino.

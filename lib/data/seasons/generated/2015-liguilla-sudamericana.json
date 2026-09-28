@@ -1,0 +1,386 @@
+{
+ "slug": "2015-liguilla-sudamericana",
+ "year": 2015,
+ "yearLabel": "2015",
+ "league": "Liguilla Pre-Sudamericana",
+ "title": "Liguilla Pre-Sudamericana 2015",
+ "tournament": "Liguilla Pre-Sudamericana 2015",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Lanús, Banfield, Estudiantes y Belgrano se clasificaron a la Copa Sudamericana 2016.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2015",
+   "url": "https://www.rsssf.org/tablesa/arg2015a.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Los mejores del campeonato sin clasificación internacional (más los perdedores de las semifinales de la Liguilla Pre-Libertadores): una ronda a un partido y otra a ida y vuelta. Los cuatro ganadores fueron a la Sudamericana."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "lanus",
+   "played": 3,
+   "won": 3,
+   "drawn": 0,
+   "lost": 0,
+   "goalsFor": 5,
+   "goalsAgainst": 2,
+   "points": 9
+  },
+  {
+   "teamId": "banfield",
+   "played": 3,
+   "won": 2,
+   "drawn": 1,
+   "lost": 0,
+   "goalsFor": 5,
+   "goalsAgainst": 3,
+   "points": 7
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 2,
+   "won": 2,
+   "drawn": 0,
+   "lost": 0,
+   "goalsFor": 5,
+   "goalsAgainst": 0,
+   "points": 6
+  },
+  {
+   "teamId": "belgrano",
+   "played": 2,
+   "won": 1,
+   "drawn": 1,
+   "lost": 0,
+   "goalsFor": 2,
+   "goalsAgainst": 1,
+   "points": 4
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 3,
+   "won": 1,
+   "drawn": 1,
+   "lost": 1,
+   "goalsFor": 5,
+   "goalsAgainst": 3,
+   "points": 4
+  },
+  {
+   "teamId": "aldosivi",
+   "played": 3,
+   "won": 1,
+   "drawn": 1,
+   "lost": 1,
+   "goalsFor": 5,
+   "goalsAgainst": 5,
+   "points": 4
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 3,
+   "won": 1,
+   "drawn": 0,
+   "lost": 2,
+   "goalsFor": 6,
+   "goalsAgainst": 4,
+   "points": 3
+  },
+  {
+   "teamId": "olimpo",
+   "played": 3,
+   "won": 1,
+   "drawn": 0,
+   "lost": 2,
+   "goalsFor": 1,
+   "goalsAgainst": 5,
+   "points": 3
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 1,
+   "goalsAgainst": 2,
+   "points": 0
+  },
+  {
+   "teamId": "newells",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 1,
+   "goalsAgainst": 2,
+   "points": 0
+  },
+  {
+   "teamId": "quilmes",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 0,
+   "goalsAgainst": 1,
+   "points": 0
+  },
+  {
+   "teamId": "argentinos",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 0,
+   "goalsAgainst": 1,
+   "points": 0
+  },
+  {
+   "teamId": "tigre",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 1,
+   "goalsAgainst": 4,
+   "points": 0
+  },
+  {
+   "teamId": "san-martin-sj",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 1,
+   "goalsAgainst": 5,
+   "points": 0
+  }
+ ],
+ "tableIncludesPlayoffs": true,
+ "matches": [
+  {
+   "id": "2015-liguilla-sudamericana-001",
+   "date": "2015-11-19",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Sudamericana",
+   "stage": "Primera fase",
+   "phase": "playoff",
+   "homeId": "tigre",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Don José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2015-liguilla-sudamericana-002",
+   "date": "2015-11-20",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Sudamericana",
+   "stage": "Primera fase",
+   "phase": "playoff",
+   "homeId": "gimnasia",
+   "awayId": "san-martin-sj",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2015-liguilla-sudamericana-003",
+   "date": "2015-11-20",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Sudamericana",
+   "stage": "Primera fase",
+   "phase": "playoff",
+   "homeId": "union-santa-fe",
+   "awayId": "aldosivi",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2015-liguilla-sudamericana-004",
+   "date": "2015-11-23",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Sudamericana",
+   "stage": "Primera fase",
+   "phase": "playoff",
+   "homeId": "lanus",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez (Lanús)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2015-liguilla-sudamericana-005",
+   "date": "2015-11-23",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Sudamericana",
+   "stage": "Primera fase",
+   "phase": "playoff",
+   "homeId": "quilmes",
+   "awayId": "olimpo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Centenario Dr. José Luis Meiszner (Quilmes)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2015-liguilla-sudamericana-006",
+   "date": "2015-11-24",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Sudamericana",
+   "stage": "Primera fase",
+   "phase": "playoff",
+   "homeId": "banfield",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2015-liguilla-sudamericana-007",
+   "date": "2015-11-28",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Sudamericana",
+   "stage": "Segunda fase (ida)",
+   "phase": "playoff",
+   "homeId": "colon-santa-fe",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Brigadier Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2015-liguilla-sudamericana-008",
+   "date": "2015-11-28",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Sudamericana",
+   "stage": "Segunda fase (ida)",
+   "phase": "playoff",
+   "homeId": "lanus",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez (Lanús)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2015-liguilla-sudamericana-009",
+   "date": "2015-11-28",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Sudamericana",
+   "stage": "Segunda fase (ida)",
+   "phase": "playoff",
+   "homeId": "olimpo",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Roberto Carminatti (Bahía Blanca)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2015-liguilla-sudamericana-010",
+   "date": "2015-11-29",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Sudamericana",
+   "stage": "Segunda fase (ida)",
+   "phase": "playoff",
+   "homeId": "aldosivi",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2015-liguilla-sudamericana-011",
+   "date": "2015-12-05",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Sudamericana",
+   "stage": "Segunda fase (vuelta)",
+   "phase": "playoff",
+   "homeId": "banfield",
+   "awayId": "aldosivi",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "banfield",
+   "note": "Banfield ganó 4-3 en el global y fue a la Sudamericana 2016."
+  },
+  {
+   "id": "2015-liguilla-sudamericana-012",
+   "date": "2015-12-05",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Sudamericana",
+   "stage": "Segunda fase (vuelta)",
+   "phase": "playoff",
+   "homeId": "belgrano",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "belgrano",
+   "note": "Belgrano ganó 2-1 en el global y fue a la Sudamericana 2016."
+  },
+  {
+   "id": "2015-liguilla-sudamericana-013",
+   "date": "2015-12-05",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Sudamericana",
+   "stage": "Segunda fase (vuelta)",
+   "phase": "playoff",
+   "homeId": "estudiantes",
+   "awayId": "olimpo",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "estudiantes",
+   "note": "Estudiantes ganó 5-0 en el global y fue a la Sudamericana 2016."
+  },
+  {
+   "id": "2015-liguilla-sudamericana-014",
+   "date": "2015-12-06",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Sudamericana",
+   "stage": "Segunda fase (vuelta)",
+   "phase": "playoff",
+   "homeId": "gimnasia",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "lanus",
+   "note": "Lanús ganó 3-1 en el global y fue a la Sudamericana 2016."
+  }
+ ]
+}

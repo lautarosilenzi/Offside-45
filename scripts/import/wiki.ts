@@ -47,6 +47,8 @@ const clean = (s: string) =>
   s
     .replace(/<ref[^>]*\/>|<ref[\s\S]*?<\/ref>/g, "")
     .replace(/\{\{[^{}]*\}\}/g, "")
+    // Nota al pie que sigue en otra celda ("River Plate{{refn|group=…", 2015): se corta ahí.
+    .replace(/\{\{.*$/, "")
     // La estrellita de "campeón matemático" (1997): [[Archivo:Star_Ouro.svg|15x15px|Campeón matemático]].
     .replace(/\[\[(?:Archivo|File|Imagen):[^\]]*\]\]/gi, "")
     .replace(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/g, "$1")
@@ -223,7 +225,6 @@ export async function compareWithWikipedia(cfg: TournamentConfig, season: Season
     return { warnings, problems };
   }
   const rows = wikiRows(text);
-  let matched = 0;
   const unknown = new Set<string>();
   const confirmed = new Set<string>();
   const pending: { r: WikiRow; ids: [string, string] }[] = [];
@@ -258,15 +259,13 @@ export async function compareWithWikipedia(cfg: TournamentConfig, season: Season
       continue;
     }
     if (r.hg === null || r.ag === null) {
-      candidates.forEach((m) => m.sources.includes("wikipedia-es") || m.sources.push("wikipedia-es"));
-      matched++;
+      candidates.forEach((m) => { if (!m.sources.includes("wikipedia-es")) m.sources.push("wikipedia-es"); confirmed.add(m.id); });
       continue;
     }
     const same = candidates.find((m) => !m.scoreUnknown && !m.walkover && m.homeGoals === r.hg && m.awayGoals === r.ag);
     if (same) {
       if (!same.sources.includes("wikipedia-es")) same.sources.push("wikipedia-es");
       confirmed.add(same.id);
-      matched++;
     } else pending.push({ r, ids: [h.id, a.id] });
   }
   // Una fila que no coincide pero cuyo partido ya confirmó otra fila es un nombre ambiguo en Wikipedia
@@ -331,11 +330,11 @@ export async function compareWithWikipedia(cfg: TournamentConfig, season: Season
   } else warnings.push("Wikipedia: no encontré tabla de posiciones");
 
   if (unknown.size) warnings.push(`Wikipedia: nombres sin identificar: ${[...unknown].join(", ")}`);
-  warnings.push(`Wikipedia: ${matched} de ${season.matches.length} partidos confirmados (${rows.length} filas leídas)`);
+  warnings.push(`Wikipedia: ${confirmed.size} de ${season.matches.length} partidos confirmados (${rows.length} filas leídas)`);
   // Si Wikipedia tiene los partidos pero confirma menos de la mitad, casi seguro la sección de RSSSF es otra
   // (2011: el Clausura tomó el Apertura por el menú de la página, y la tabla "coincidía" consigo misma).
   // Solo en las ligas: en las copas Wikipedia suele traer una parte, o cuadros de series que no se leen.
-  if (season.kind !== "cup" && rows.length >= season.matches.length / 2 && matched < season.matches.length / 2)
-    problems.push(`Wikipedia confirma solo ${matched} de ${season.matches.length} partidos: revisar que la sección de RSSSF sea la de este torneo`);
+  if (season.kind !== "cup" && rows.length >= season.matches.length / 2 && confirmed.size < season.matches.length / 2)
+    problems.push(`Wikipedia confirma solo ${confirmed.size} de ${season.matches.length} partidos: revisar que la sección de RSSSF sea la de este torneo`);
   return { warnings, problems };
 }

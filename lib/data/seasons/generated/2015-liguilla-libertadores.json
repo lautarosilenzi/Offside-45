@@ -1,0 +1,131 @@
+{
+ "slug": "2015-liguilla-libertadores",
+ "year": 2015,
+ "yearLabel": "2015",
+ "league": "Liguilla Pre-Libertadores",
+ "title": "Liguilla Pre-Libertadores 2015",
+ "tournament": "Liguilla Pre-Libertadores 2015",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Racing le ganó la final a Independiente (2-0 y 1-2) y fue a la Copa Libertadores 2016.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2015",
+   "url": "https://www.rsssf.org/tablesa/arg2015a.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Los cuatro mejores del campeonato que no estaban clasificados a la Libertadores 2016 ni descendidos: semifinales a un partido y final a ida y vuelta. El ganador iba a la Libertadores y el finalista a la Sudamericana."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "racing",
+   "played": 3,
+   "won": 2,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 5,
+   "goalsAgainst": 3,
+   "points": 6
+  },
+  {
+   "teamId": "independiente",
+   "played": 3,
+   "won": 2,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 6,
+   "goalsAgainst": 4,
+   "points": 6
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 1,
+   "goalsAgainst": 2,
+   "points": 0
+  },
+  {
+   "teamId": "belgrano",
+   "played": 1,
+   "won": 0,
+   "drawn": 0,
+   "lost": 1,
+   "goalsFor": 1,
+   "goalsAgainst": 4,
+   "points": 0
+  }
+ ],
+ "tableIncludesPlayoffs": true,
+ "matches": [
+  {
+   "id": "2015-liguilla-libertadores-001",
+   "date": "2015-11-19",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Libertadores",
+   "stage": "Semifinal",
+   "phase": "playoff",
+   "homeId": "independiente",
+   "awayId": "belgrano",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2015-liguilla-libertadores-002",
+   "date": "2015-11-20",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Libertadores",
+   "stage": "Semifinal",
+   "phase": "playoff",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2015-liguilla-libertadores-003",
+   "date": "2015-11-29",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Libertadores",
+   "stage": "Final (ida)",
+   "phase": "playoff",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2015-liguilla-libertadores-004",
+   "date": "2015-12-06",
+   "competition": "Asociación del Fútbol Argentino · Liguilla Pre-Libertadores",
+   "stage": "Final (vuelta)",
+   "phase": "playoff",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "racing",
+   "note": "Racing ganó 3-2 en el global y fue a la Copa Libertadores 2016; Independiente, a la Sudamericana."
+  }
+ ]
+}

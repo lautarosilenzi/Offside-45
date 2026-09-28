@@ -1,0 +1,7517 @@
+{
+ "slug": "2015",
+ "year": 2015,
+ "yearLabel": "2015",
+ "league": "Campeonato",
+ "title": "Campeonato 2015",
+ "tournament": "Campeonato de Primera División 2015 «Julio H. Grondona»",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca ganó el campeonato de 30 equipos tres puntos delante de San Lorenzo.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2015",
+   "url": "https://www.rsssf.org/tablesa/arg2015a.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 2015 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_2015_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "30 equipos a una rueda, más una fecha extra de clásicos (solo los clásicos se jugaron dos veces), 3 puntos por victoria. Descendieron Nueva Chicago y Crucero del Norte."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "boca",
+   "played": 30,
+   "won": 20,
+   "drawn": 4,
+   "lost": 6,
+   "goalsFor": 49,
+   "goalsAgainst": 26,
+   "points": 64
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 30,
+   "won": 18,
+   "drawn": 7,
+   "lost": 5,
+   "goalsFor": 44,
+   "goalsAgainst": 20,
+   "points": 61
+  },
+  {
+   "teamId": "central",
+   "played": 30,
+   "won": 16,
+   "drawn": 11,
+   "lost": 3,
+   "goalsFor": 47,
+   "goalsAgainst": 26,
+   "points": 59
+  },
+  {
+   "teamId": "racing",
+   "played": 30,
+   "won": 16,
+   "drawn": 9,
+   "lost": 5,
+   "goalsFor": 40,
+   "goalsAgainst": 23,
+   "points": 57
+  },
+  {
+   "teamId": "independiente",
+   "played": 30,
+   "won": 14,
+   "drawn": 12,
+   "lost": 4,
+   "goalsFor": 44,
+   "goalsAgainst": 22,
+   "points": 54
+  },
+  {
+   "teamId": "belgrano",
+   "played": 30,
+   "won": 14,
+   "drawn": 9,
+   "lost": 7,
+   "goalsFor": 33,
+   "goalsAgainst": 23,
+   "points": 51
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 30,
+   "won": 14,
+   "drawn": 9,
+   "lost": 7,
+   "goalsFor": 34,
+   "goalsAgainst": 28,
+   "points": 51
+  },
+  {
+   "teamId": "banfield",
+   "played": 30,
+   "won": 14,
+   "drawn": 8,
+   "lost": 8,
+   "goalsFor": 38,
+   "goalsAgainst": 32,
+   "points": 50
+  },
+  {
+   "teamId": "river",
+   "played": 30,
+   "won": 13,
+   "drawn": 10,
+   "lost": 7,
+   "goalsFor": 46,
+   "goalsAgainst": 33,
+   "points": 49
+  },
+  {
+   "teamId": "tigre",
+   "played": 30,
+   "won": 12,
+   "drawn": 10,
+   "lost": 8,
+   "goalsFor": 32,
+   "goalsAgainst": 25,
+   "points": 46
+  },
+  {
+   "teamId": "quilmes",
+   "played": 30,
+   "won": 13,
+   "drawn": 6,
+   "lost": 11,
+   "goalsFor": 38,
+   "goalsAgainst": 37,
+   "points": 45
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 30,
+   "won": 12,
+   "drawn": 8,
+   "lost": 10,
+   "goalsFor": 41,
+   "goalsAgainst": 38,
+   "points": 44
+  },
+  {
+   "teamId": "lanus",
+   "played": 30,
+   "won": 10,
+   "drawn": 12,
+   "lost": 8,
+   "goalsFor": 33,
+   "goalsAgainst": 29,
+   "points": 42
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 30,
+   "won": 9,
+   "drawn": 14,
+   "lost": 7,
+   "goalsFor": 38,
+   "goalsAgainst": 37,
+   "points": 41
+  },
+  {
+   "teamId": "aldosivi",
+   "played": 30,
+   "won": 11,
+   "drawn": 7,
+   "lost": 12,
+   "goalsFor": 37,
+   "goalsAgainst": 40,
+   "points": 40
+  },
+  {
+   "teamId": "newells",
+   "played": 30,
+   "won": 10,
+   "drawn": 10,
+   "lost": 10,
+   "goalsFor": 27,
+   "goalsAgainst": 30,
+   "points": 40
+  },
+  {
+   "teamId": "san-martin-sj",
+   "played": 30,
+   "won": 8,
+   "drawn": 13,
+   "lost": 9,
+   "goalsFor": 32,
+   "goalsAgainst": 34,
+   "points": 37
+  },
+  {
+   "teamId": "olimpo",
+   "played": 30,
+   "won": 8,
+   "drawn": 12,
+   "lost": 10,
+   "goalsFor": 23,
+   "goalsAgainst": 26,
+   "points": 36
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 30,
+   "won": 7,
+   "drawn": 13,
+   "lost": 10,
+   "goalsFor": 26,
+   "goalsAgainst": 31,
+   "points": 34
+  },
+  {
+   "teamId": "argentinos",
+   "played": 30,
+   "won": 8,
+   "drawn": 9,
+   "lost": 13,
+   "goalsFor": 30,
+   "goalsAgainst": 38,
+   "points": 33
+  },
+  {
+   "teamId": "defensa-y-justicia",
+   "played": 30,
+   "won": 8,
+   "drawn": 8,
+   "lost": 14,
+   "goalsFor": 27,
+   "goalsAgainst": 31,
+   "points": 32
+  },
+  {
+   "teamId": "godoy-cruz",
+   "played": 30,
+   "won": 8,
+   "drawn": 8,
+   "lost": 14,
+   "goalsFor": 32,
+   "goalsAgainst": 40,
+   "points": 32
+  },
+  {
+   "teamId": "huracan",
+   "played": 30,
+   "won": 6,
+   "drawn": 12,
+   "lost": 12,
+   "goalsFor": 29,
+   "goalsAgainst": 37,
+   "points": 30
+  },
+  {
+   "teamId": "sarmiento-junin",
+   "played": 30,
+   "won": 7,
+   "drawn": 9,
+   "lost": 14,
+   "goalsFor": 24,
+   "goalsAgainst": 34,
+   "points": 30
+  },
+  {
+   "teamId": "temperley",
+   "played": 30,
+   "won": 6,
+   "drawn": 12,
+   "lost": 12,
+   "goalsFor": 19,
+   "goalsAgainst": 29,
+   "points": 30
+  },
+  {
+   "teamId": "nueva-chicago",
+   "played": 30,
+   "won": 7,
+   "drawn": 8,
+   "lost": 15,
+   "goalsFor": 29,
+   "goalsAgainst": 38,
+   "points": 29
+  },
+  {
+   "teamId": "velez",
+   "played": 30,
+   "won": 7,
+   "drawn": 8,
+   "lost": 15,
+   "goalsFor": 27,
+   "goalsAgainst": 37,
+   "points": 29
+  },
+  {
+   "teamId": "arsenal",
+   "played": 30,
+   "won": 7,
+   "drawn": 6,
+   "lost": 17,
+   "goalsFor": 25,
+   "goalsAgainst": 44,
+   "points": 27
+  },
+  {
+   "teamId": "atletico-rafaela",
+   "played": 30,
+   "won": 4,
+   "drawn": 11,
+   "lost": 15,
+   "goalsFor": 29,
+   "goalsAgainst": 51,
+   "points": 23
+  },
+  {
+   "teamId": "crucero-del-norte",
+   "played": 30,
+   "won": 3,
+   "drawn": 5,
+   "lost": 22,
+   "goalsFor": 21,
+   "goalsAgainst": 55,
+   "points": 14
+  }
+ ],
+ "matches": [
+  {
+   "id": "2015-001",
+   "date": "2015-02-13",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-002",
+   "date": "2015-02-13",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-003",
+   "date": "2015-02-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Comandante Andrés Guacurarí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-004",
+   "date": "2015-02-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-005",
+   "date": "2015-02-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "san-martin-sj",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-006",
+   "date": "2015-02-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-007",
+   "date": "2015-02-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "temperley",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-008",
+   "date": "2015-02-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-009",
+   "date": "2015-02-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-010",
+   "date": "2015-02-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "olimpo",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-011",
+   "date": "2015-02-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-012",
+   "date": "2015-02-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-013",
+   "date": "2015-02-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-014",
+   "date": "2015-02-16",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-015",
+   "date": "2015-02-16",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-016",
+   "date": "2015-02-20",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-017",
+   "date": "2015-02-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Tomás A. Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-018",
+   "date": "2015-02-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-019",
+   "date": "2015-02-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-020",
+   "date": "2015-02-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-021",
+   "date": "2015-02-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Único Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-022",
+   "date": "2015-02-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-023",
+   "date": "2015-02-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-024",
+   "date": "2015-02-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-025",
+   "date": "2015-02-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-026",
+   "date": "2015-02-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-027",
+   "date": "2015-02-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-028",
+   "date": "2015-02-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-029",
+   "date": "2015-02-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-030",
+   "date": "2015-02-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-031",
+   "date": "2015-02-27",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-032",
+   "date": "2015-02-27",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-033",
+   "date": "2015-02-28",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-034",
+   "date": "2015-02-28",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Comandante Andrés Guacurarí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-035",
+   "date": "2015-02-28",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-036",
+   "date": "2015-02-28",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-037",
+   "date": "2015-02-28",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "san-martin-sj",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-038",
+   "date": "2015-03-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-039",
+   "date": "2015-03-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-040",
+   "date": "2015-03-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "temperley",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-041",
+   "date": "2015-03-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-042",
+   "date": "2015-03-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-043",
+   "date": "2015-03-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-044",
+   "date": "2015-03-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-045",
+   "date": "2015-03-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-046",
+   "date": "2015-03-06",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-047",
+   "date": "2015-03-06",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Tomás A. Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-048",
+   "date": "2015-03-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-049",
+   "date": "2015-03-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-050",
+   "date": "2015-03-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-051",
+   "date": "2015-03-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-052",
+   "date": "2015-03-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-053",
+   "date": "2015-03-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-054",
+   "date": "2015-03-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-055",
+   "date": "2015-03-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-056",
+   "date": "2015-03-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-057",
+   "date": "2015-03-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-058",
+   "date": "2015-03-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-059",
+   "date": "2015-03-09",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-060",
+   "date": "2015-03-09",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Único Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-061",
+   "date": "2015-03-13",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "olimpo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Comandante Andrés Guacurarí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-062",
+   "date": "2015-03-13",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-063",
+   "date": "2015-03-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "san-martin-sj",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-064",
+   "date": "2015-03-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-065",
+   "date": "2015-03-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-066",
+   "date": "2015-03-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-067",
+   "date": "2015-03-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-068",
+   "date": "2015-03-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-069",
+   "date": "2015-03-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-070",
+   "date": "2015-03-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-071",
+   "date": "2015-03-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-072",
+   "date": "2015-03-16",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-073",
+   "date": "2015-03-16",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-074",
+   "date": "2015-03-16",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "temperley",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-075",
+   "date": "2015-03-17",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-076",
+   "date": "2015-03-20",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-077",
+   "date": "2015-03-20",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-078",
+   "date": "2015-03-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-079",
+   "date": "2015-03-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "argentinos",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Tomás A. Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-080",
+   "date": "2015-03-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "arsenal",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-081",
+   "date": "2015-03-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-082",
+   "date": "2015-03-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-083",
+   "date": "2015-03-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-084",
+   "date": "2015-03-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-085",
+   "date": "2015-03-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-086",
+   "date": "2015-03-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Único Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-087",
+   "date": "2015-03-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-088",
+   "date": "2015-03-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-089",
+   "date": "2015-03-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-090",
+   "date": "2015-03-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "olimpo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-091",
+   "date": "2015-03-27",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-092",
+   "date": "2015-03-27",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-093",
+   "date": "2015-03-28",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-094",
+   "date": "2015-03-28",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-095",
+   "date": "2015-03-28",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-096",
+   "date": "2015-03-28",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-097",
+   "date": "2015-03-28",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "temperley",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Comandante Andrés Guacurarí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-098",
+   "date": "2015-03-29",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-099",
+   "date": "2015-03-29",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "san-martin-sj",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-100",
+   "date": "2015-03-29",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-101",
+   "date": "2015-03-29",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-102",
+   "date": "2015-03-29",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-103",
+   "date": "2015-03-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-104",
+   "date": "2015-03-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-105",
+   "date": "2015-03-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-106",
+   "date": "2015-04-03",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-107",
+   "date": "2015-04-03",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Único Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-108",
+   "date": "2015-04-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "temperley",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-109",
+   "date": "2015-04-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-110",
+   "date": "2015-04-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-111",
+   "date": "2015-04-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-112",
+   "date": "2015-04-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-113",
+   "date": "2015-04-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-114",
+   "date": "2015-04-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Tomás Adolfo Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-115",
+   "date": "2015-04-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-116",
+   "date": "2015-04-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-117",
+   "date": "2015-04-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-118",
+   "date": "2015-04-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-119",
+   "date": "2015-04-06",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-120",
+   "date": "2015-04-06",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-121",
+   "date": "2015-04-10",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Comandante Andrés Guacurarí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-122",
+   "date": "2015-04-10",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-123",
+   "date": "2015-04-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "aldosivi",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-124",
+   "date": "2015-04-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-125",
+   "date": "2015-04-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-126",
+   "date": "2015-04-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "san-martin-sj",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-127",
+   "date": "2015-04-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-128",
+   "date": "2015-04-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-129",
+   "date": "2015-04-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-130",
+   "date": "2015-04-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-131",
+   "date": "2015-04-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-132",
+   "date": "2015-04-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-133",
+   "date": "2015-04-13",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "La liga se lo había dado 0-1 a Newell's el 22/5, pero el 23/7 revocó la sanción y quedó el 3-0 de la cancha."
+  },
+  {
+   "id": "2015-134",
+   "date": "2015-04-13",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-135",
+   "date": "2015-04-13",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-136",
+   "date": "2015-04-17",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Único Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-137",
+   "date": "2015-04-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-138",
+   "date": "2015-04-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Tomás Adolfo Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-139",
+   "date": "2015-04-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-140",
+   "date": "2015-04-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-141",
+   "date": "2015-04-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-142",
+   "date": "2015-04-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "temperley",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-143",
+   "date": "2015-04-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-144",
+   "date": "2015-04-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-145",
+   "date": "2015-04-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-146",
+   "date": "2015-04-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "banfield",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-147",
+   "date": "2015-04-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-148",
+   "date": "2015-04-20",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-149",
+   "date": "2015-04-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-150",
+   "date": "2015-04-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-151",
+   "date": "2015-04-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-152",
+   "date": "2015-05-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-153",
+   "date": "2015-05-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-154",
+   "date": "2015-05-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-155",
+   "date": "2015-05-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-156",
+   "date": "2015-05-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-157",
+   "date": "2015-05-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-158",
+   "date": "2015-05-03",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-159",
+   "date": "2015-05-03",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-160",
+   "date": "2015-05-03",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-161",
+   "date": "2015-05-03",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-162",
+   "date": "2015-05-03",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-163",
+   "date": "2015-05-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Comandante Andrés Guacurarí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-164",
+   "date": "2015-05-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-165",
+   "date": "2015-05-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "san-martin-sj",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-166",
+   "date": "2015-05-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-167",
+   "date": "2015-05-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-168",
+   "date": "2015-05-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "temperley",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Único Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-169",
+   "date": "2015-05-09",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Tomás Adolfo Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-170",
+   "date": "2015-05-09",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-171",
+   "date": "2015-05-09",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-172",
+   "date": "2015-05-09",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-173",
+   "date": "2015-05-09",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-174",
+   "date": "2015-05-10",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-175",
+   "date": "2015-05-10",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-176",
+   "date": "2015-05-10",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-177",
+   "date": "2015-05-10",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-178",
+   "date": "2015-05-10",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-179",
+   "date": "2015-05-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-180",
+   "date": "2015-05-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-181",
+   "date": "2015-05-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-182",
+   "date": "2015-05-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Comandante Andrés Guacurarí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-183",
+   "date": "2015-05-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-184",
+   "date": "2015-05-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-185",
+   "date": "2015-05-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-186",
+   "date": "2015-05-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "san-martin-sj",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-187",
+   "date": "2015-05-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-188",
+   "date": "2015-05-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-189",
+   "date": "2015-05-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-190",
+   "date": "2015-05-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-191",
+   "date": "2015-05-24",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-192",
+   "date": "2015-05-24",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-193",
+   "date": "2015-05-24",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-194",
+   "date": "2015-05-24",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-195",
+   "date": "2015-07-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-196",
+   "date": "2015-05-29",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-197",
+   "date": "2015-05-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "temperley",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-198",
+   "date": "2015-05-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-199",
+   "date": "2015-05-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-200",
+   "date": "2015-05-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-201",
+   "date": "2015-05-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-202",
+   "date": "2015-05-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-203",
+   "date": "2015-05-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-204",
+   "date": "2015-05-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-205",
+   "date": "2015-05-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-206",
+   "date": "2015-05-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Único Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-207",
+   "date": "2015-05-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-208",
+   "date": "2015-06-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-209",
+   "date": "2015-06-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-210",
+   "date": "2015-06-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Tomás Adolfo Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-211",
+   "date": "2015-06-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "union-santa-fe",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-212",
+   "date": "2015-06-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-213",
+   "date": "2015-06-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-214",
+   "date": "2015-06-06",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-215",
+   "date": "2015-06-06",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-216",
+   "date": "2015-06-06",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-217",
+   "date": "2015-06-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "san-martin-sj",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Comandante Andrés Guacurarí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-218",
+   "date": "2015-06-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-219",
+   "date": "2015-06-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-220",
+   "date": "2015-06-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-221",
+   "date": "2015-06-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-222",
+   "date": "2015-06-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-223",
+   "date": "2015-06-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-224",
+   "date": "2015-06-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-225",
+   "date": "2015-06-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-226",
+   "date": "2015-07-10",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-227",
+   "date": "2015-07-10",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "san-martin-sj",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Único Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-228",
+   "date": "2015-07-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-229",
+   "date": "2015-07-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Tomás Adolfo Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-230",
+   "date": "2015-07-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-231",
+   "date": "2015-07-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "temperley",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-232",
+   "date": "2015-07-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-233",
+   "date": "2015-07-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-234",
+   "date": "2015-07-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-235",
+   "date": "2015-07-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-236",
+   "date": "2015-07-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "olimpo",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-237",
+   "date": "2015-07-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-238",
+   "date": "2015-07-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-239",
+   "date": "2015-07-13",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-240",
+   "date": "2015-07-13",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-241",
+   "date": "2015-07-17",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "arsenal",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-242",
+   "date": "2015-07-17",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-243",
+   "date": "2015-07-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "aldosivi",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-244",
+   "date": "2015-07-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-245",
+   "date": "2015-07-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-246",
+   "date": "2015-07-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-247",
+   "date": "2015-07-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-248",
+   "date": "2015-07-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-249",
+   "date": "2015-07-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-250",
+   "date": "2015-07-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-251",
+   "date": "2015-07-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-252",
+   "date": "2015-07-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-253",
+   "date": "2015-07-20",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Comandante Andrés Guacurarí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-254",
+   "date": "2015-07-20",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-255",
+   "date": "2015-07-20",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-256",
+   "date": "2015-07-24",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "temperley",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-257",
+   "date": "2015-07-25",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-258",
+   "date": "2015-07-25",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-259",
+   "date": "2015-07-25",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-260",
+   "date": "2015-07-25",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-261",
+   "date": "2015-07-25",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-262",
+   "date": "2015-07-25",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "olimpo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-263",
+   "date": "2015-07-26",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-264",
+   "date": "2015-07-26",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-265",
+   "date": "2015-07-26",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-266",
+   "date": "2015-07-26",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Tomás Adolfo Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-267",
+   "date": "2015-07-26",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-268",
+   "date": "2015-07-26",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-269",
+   "date": "2015-06-27",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-270",
+   "date": "2015-06-27",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "san-martin-sj",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-271",
+   "date": "2015-07-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-272",
+   "date": "2015-07-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-273",
+   "date": "2015-08-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-274",
+   "date": "2015-08-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-275",
+   "date": "2015-08-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-276",
+   "date": "2015-08-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-277",
+   "date": "2015-08-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Único Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-278",
+   "date": "2015-08-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Comandante Andrés Guacurarí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-279",
+   "date": "2015-08-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-280",
+   "date": "2015-08-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-281",
+   "date": "2015-08-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-282",
+   "date": "2015-08-03",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "arsenal",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-283",
+   "date": "2015-08-03",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-284",
+   "date": "2015-08-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-285",
+   "date": "2015-10-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-286",
+   "date": "2015-08-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-287",
+   "date": "2015-08-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-288",
+   "date": "2015-08-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "olimpo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-289",
+   "date": "2015-08-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-290",
+   "date": "2015-08-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-291",
+   "date": "2015-08-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-292",
+   "date": "2015-08-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-293",
+   "date": "2015-08-15",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-294",
+   "date": "2015-08-16",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-295",
+   "date": "2015-08-16",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "argentinos",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-296",
+   "date": "2015-08-16",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-297",
+   "date": "2015-08-16",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "temperley",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-298",
+   "date": "2015-08-16",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-299",
+   "date": "2015-08-17",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "san-martin-sj",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-300",
+   "date": "2015-08-17",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-301",
+   "date": "2015-08-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-302",
+   "date": "2015-08-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-303",
+   "date": "2015-08-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-304",
+   "date": "2015-08-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-305",
+   "date": "2015-08-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-306",
+   "date": "2015-08-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-307",
+   "date": "2015-08-22",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-308",
+   "date": "2015-08-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Comandante Andrés Guacurarí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-309",
+   "date": "2015-08-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-310",
+   "date": "2015-08-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Tomás Adolfo Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-311",
+   "date": "2015-08-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-312",
+   "date": "2015-08-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-313",
+   "date": "2015-08-23",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Único Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-314",
+   "date": "2015-08-24",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-315",
+   "date": "2015-08-24",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "aldosivi",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-316",
+   "date": "2015-08-28",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-317",
+   "date": "2015-08-29",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "temperley",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-318",
+   "date": "2015-08-29",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-319",
+   "date": "2015-08-29",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "san-martin-sj",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-320",
+   "date": "2015-08-29",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-321",
+   "date": "2015-08-29",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-322",
+   "date": "2015-08-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-323",
+   "date": "2015-08-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-324",
+   "date": "2015-08-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-325",
+   "date": "2015-08-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-326",
+   "date": "2015-08-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-327",
+   "date": "2015-08-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-328",
+   "date": "2015-08-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-329",
+   "date": "2015-08-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "olimpo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-330",
+   "date": "2015-08-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-331",
+   "date": "2015-09-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-332",
+   "date": "2015-09-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-333",
+   "date": "2015-09-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Comandante Andrés Guacurarí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-334",
+   "date": "2015-09-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-335",
+   "date": "2015-09-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Tomás Adolfo Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-336",
+   "date": "2015-09-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-337",
+   "date": "2015-09-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-338",
+   "date": "2015-09-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-339",
+   "date": "2015-09-06",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-340",
+   "date": "2015-09-06",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-341",
+   "date": "2015-09-06",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-342",
+   "date": "2015-09-06",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-343",
+   "date": "2015-09-06",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-344",
+   "date": "2015-09-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-345",
+   "date": "2015-09-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Único Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-346",
+   "date": "2015-09-11",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-347",
+   "date": "2015-09-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-348",
+   "date": "2015-09-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Tomás Adolfo Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-349",
+   "date": "2015-09-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-350",
+   "date": "2015-09-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-351",
+   "date": "2015-09-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-352",
+   "date": "2015-09-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-353",
+   "date": "2015-09-12",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-354",
+   "date": "2015-09-13",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-355",
+   "date": "2015-09-13",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-356",
+   "date": "2015-09-13",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-357",
+   "date": "2015-09-13",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-358",
+   "date": "2015-09-13",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Único Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-359",
+   "date": "2015-09-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-360",
+   "date": "2015-09-14",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-361",
+   "date": "2015-09-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-362",
+   "date": "2015-09-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-363",
+   "date": "2015-09-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-364",
+   "date": "2015-09-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-365",
+   "date": "2015-09-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-366",
+   "date": "2015-09-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-367",
+   "date": "2015-09-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "san-martin-sj",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-368",
+   "date": "2015-09-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-369",
+   "date": "2015-09-20",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-370",
+   "date": "2015-09-20",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-371",
+   "date": "2015-09-20",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-372",
+   "date": "2015-09-20",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-373",
+   "date": "2015-09-20",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "temperley",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-374",
+   "date": "2015-09-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-375",
+   "date": "2015-09-21",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-376",
+   "date": "2015-09-25",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-377",
+   "date": "2015-09-26",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Centenario Campeones del Mundo 1978-1986",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-378",
+   "date": "2015-09-26",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-379",
+   "date": "2015-09-26",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-380",
+   "date": "2015-09-26",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "aldosivi",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-381",
+   "date": "2015-09-26",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-382",
+   "date": "2015-09-26",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-383",
+   "date": "2015-09-27",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-384",
+   "date": "2015-09-27",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Tomás Adolfo Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-385",
+   "date": "2015-09-27",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-386",
+   "date": "2015-09-27",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-387",
+   "date": "2015-09-27",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-388",
+   "date": "2015-09-27",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-389",
+   "date": "2015-09-28",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-390",
+   "date": "2015-09-28",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Único Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-391",
+   "date": "2015-10-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-392",
+   "date": "2015-10-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "san-martin-sj",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-393",
+   "date": "2015-10-03",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-394",
+   "date": "2015-10-03",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-395",
+   "date": "2015-10-03",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-396",
+   "date": "2015-10-03",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-397",
+   "date": "2015-10-03",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-398",
+   "date": "2015-10-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "temperley",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-399",
+   "date": "2015-10-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-400",
+   "date": "2015-10-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-401",
+   "date": "2015-10-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-402",
+   "date": "2015-10-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-403",
+   "date": "2015-10-04",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-404",
+   "date": "2015-10-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-405",
+   "date": "2015-10-05",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-406",
+   "date": "2015-10-16",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Comandante Andrés Guacurarí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-407",
+   "date": "2015-10-16",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Tomás Adolfo Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-408",
+   "date": "2015-10-17",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-409",
+   "date": "2015-10-17",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "arsenal",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-410",
+   "date": "2015-10-17",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-411",
+   "date": "2015-10-17",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "newells",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-412",
+   "date": "2015-10-17",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-413",
+   "date": "2015-10-17",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Único Ciudad de La Plata",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-414",
+   "date": "2015-10-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "aldosivi",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-415",
+   "date": "2015-10-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-416",
+   "date": "2015-10-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-417",
+   "date": "2015-10-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-418",
+   "date": "2015-10-18",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-419",
+   "date": "2015-10-19",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-420",
+   "date": "2015-10-20",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-421",
+   "date": "2015-10-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-422",
+   "date": "2015-10-30",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Eva Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-423",
+   "date": "2015-10-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-424",
+   "date": "2015-10-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-425",
+   "date": "2015-10-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Marcelo A. Bielsa",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-426",
+   "date": "2015-10-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "san-martin-sj",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-427",
+   "date": "2015-10-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-428",
+   "date": "2015-10-31",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Presidente Perón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-429",
+   "date": "2015-11-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "temperley",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-430",
+   "date": "2015-11-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-431",
+   "date": "2015-11-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Florencio Sola",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-432",
+   "date": "2015-11-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-433",
+   "date": "2015-11-01",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Centenario Dr. José Luis Meiszner",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-434",
+   "date": "2015-11-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-435",
+   "date": "2015-11-02",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "olimpo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-436",
+   "date": "2015-11-06",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús Néstor Díaz Pérez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-437",
+   "date": "2015-11-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Brigadier Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-438",
+   "date": "2015-11-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Ingeniero Hilario Sánchez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-439",
+   "date": "2015-11-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-440",
+   "date": "2015-11-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Roberto Carminatti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-441",
+   "date": "2015-11-07",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Tito Tomaghello",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-442",
+   "date": "2015-11-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Nuevo Monumental",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-443",
+   "date": "2015-11-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Libertadores de América",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-444",
+   "date": "2015-11-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Monumental Antonio Vespucio Liberti",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-445",
+   "date": "2015-11-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-446",
+   "date": "2015-11-08",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Don José Dellagiovanna",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-447",
+   "date": "2015-11-09",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "crucero-del-norte",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Comandante Andrés Guacurarí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-448",
+   "date": "2015-11-09",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Tomás Adolfo Ducó",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-449",
+   "date": "2015-11-09",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "República de Mataderos",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2015-450",
+   "date": "2015-11-09",
+   "competition": "Asociación del Fútbol Argentino · Campeonato",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "temperley",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Alfredo Martín Beranger",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}
