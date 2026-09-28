@@ -4214,4 +4214,21 @@ afaTorneo(1979, "reclasificacion", {
     summary: "River ganó el torneo de la Liga Profesional siete puntos delante de Defensa y Justicia.",
     notes: [{ kind: "formato", text: "26 equipos a una rueda, 3 puntos por victoria. No hubo descensos: la AFA los había suspendido por la pandemia hasta 2022." }],
   }),
+  // ───────── 2022: Torneo de la Liga Profesional (arg2022.html) ─────────
+  anual(2022, undefined, "Liga Profesional", {
+    file: "arg2022.html",
+    tournament: "Torneo de la Liga Profesional de Fútbol 2022",
+    championIds: ["boca"],
+    wiki: "Campeonato de Primera División 2022 (Argentina)",
+    headings: [/^First level: Torneo de la Liga Profesional de Fútbol de AFA 2022 - Torneo/, /^Against Relegation Table/],
+    sectionRange: { from: /^First level: Torneo de la Liga Profesional de Fútbol de AFA 2022 - Torneo/, to: /^Against Relegation Table/ },
+    aliases: A_LPF,
+    summary: "Boca ganó el torneo de la Liga Profesional dos puntos delante de Racing, en la última fecha.",
+    notes: [
+      {
+        kind: "formato",
+        text: "28 equipos a una rueda, 3 puntos por victoria. Volvieron los descensos: bajaron los dos peores promedios, Patronato y Aldosivi.",
+      },
+    ],
+  }),
 ];

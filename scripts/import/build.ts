@@ -106,6 +106,7 @@ export function translateNote(
     .replace(/^\[|\]$/g, "")
     .replace(/^\{/, "") // "{at Vélez Sarsfield]": errata de la fuente (1998)
     .replace(/\bSocre\b/g, "Score") // errata de la fuente (2003)
+    .replace(/\brema(?:ning|inig|ing)\b/gi, "remaining") // erratas de la fuente (2019–2022)
     .replace(/^(SC|AC),\s*/, "") // 2016/17: resto del nombre ("Club Atlético Banfield SC, Mario Alberto Kempes, …")
     .replace(/,\s*((?:behind )?closed doors)/gi, "; $1") // 2009: "remaining 29', closed doors"
     .replace(/\.\s*(Score allowed to stand|Awarded \d+-\d+)/gi, "; $1") // 2001/02: dos datos en una oración
@@ -273,6 +274,9 @@ export function translateNote(
       out.text.push(`Suspendido a los ${m[3]}+${m[4]} minutos, con ${m[1]}-${m[2]}.`);
     else if (/^(behind )?closed doors$/i.test(p)) out.text.push("A puertas cerradas.");
     else if ((m = p.match(/^remaining (\d+)m? on ([A-Z][a-z]{2,8} \d{1,2})$/i))) out.text.push(`Los ${m[1]} minutos que faltaban se jugaron el ${esDate(m[2])}.`);
+    else if ((m = p.match(/^rema(?:i)?nin(?:g)? time on (\d{1,2} [A-Z][a-z]{2,8}|[A-Z][a-z]{2,8} \d{1,2})$/i)))
+      // 2020–: "remaining time on 20 Oct" / "remaning time on Mar 24".
+      out.text.push(`El resto del partido se jugó el ${esDate(m[1])}.`);
     else if ((m = p.match(/^score stood at ([A-Z][a-z]{2} \d{1,2})$/i)))
       // 1919: "finished at 84m, score stood at Nov 22": si ya se dijo que quedó el resultado, solo falta la fecha.
       out.text.push(out.text.some((t) => /por bueno/.test(t)) ? `La liga lo resolvió el ${esDate(m[1])}.` : `El ${esDate(m[1])} la liga dio por bueno el resultado.`);
