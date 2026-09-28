@@ -1,0 +1,89 @@
+{
+ "slug": "2002-03-promocion",
+ "year": 2002,
+ "yearLabel": "2002/03",
+ "league": "Promoción",
+ "title": "Promoción 2002/03",
+ "tournament": "Promoción 2002/03",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Nueva Chicago (3-0 a Argentinos Juniors) y Talleres (2-0 a San Martín de Mendoza) se quedaron en Primera.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2002",
+   "url": "https://www.rsssf.org/tablesa/arg03.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Series a ida y vuelta entre equipos de Primera con mal promedio y equipos del Nacional B. Con el global empatado, se quedaba el equipo de Primera."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "2002-03-promocion-001",
+   "date": "2003-07-09",
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "argentinos",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ceballos."
+  },
+  {
+   "id": "2002-03-promocion-002",
+   "date": "2003-07-09",
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "san-martin-mendoza",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: González."
+  },
+  {
+   "id": "2002-03-promocion-003",
+   "date": "2003-07-13",
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "stage": "Promoción (vuelta)",
+   "phase": "playoff",
+   "homeId": "nueva-chicago",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Nueva Chicago ganó 3-0 en el global y se quedó en Primera.",
+   "advancedId": "nueva-chicago"
+  },
+  {
+   "id": "2002-03-promocion-004",
+   "date": "2003-07-13",
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "stage": "Promoción (vuelta)",
+   "phase": "playoff",
+   "homeId": "talleres",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Talleres ganó 2-0 en el global y se quedó en Primera.",
+   "advancedId": "talleres"
+  }
+ ]
+}

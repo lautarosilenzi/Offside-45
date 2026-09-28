@@ -1,0 +1,3258 @@
+{
+ "slug": "2003-04-apertura",
+ "year": 2003,
+ "yearLabel": "2003/04",
+ "league": "Apertura",
+ "title": "Apertura 2003/04",
+ "tournament": "Apertura 2003/04",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca ganó el Apertura tres puntos delante de San Lorenzo.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2003",
+   "url": "https://www.rsssf.org/tablesa/arg04.html"
+  },
+  {
+   "label": "Wikipedia – Anexo:Torneo Apertura 2003 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Anexo%3ATorneo_Apertura_2003_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "20 equipos a una rueda, 3 puntos por victoria."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "chacarita",
+   "points": -3,
+   "reason": "descuento de 3 puntos (RSSSF no da el motivo)"
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "boca",
+   "played": 19,
+   "won": 11,
+   "drawn": 6,
+   "lost": 2,
+   "goalsFor": 31,
+   "goalsAgainst": 11,
+   "points": 39
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 19,
+   "won": 11,
+   "drawn": 3,
+   "lost": 5,
+   "goalsFor": 26,
+   "goalsAgainst": 13,
+   "points": 36
+  },
+  {
+   "teamId": "banfield",
+   "played": 19,
+   "won": 9,
+   "drawn": 5,
+   "lost": 5,
+   "goalsFor": 27,
+   "goalsAgainst": 18,
+   "points": 32
+  },
+  {
+   "teamId": "quilmes",
+   "played": 19,
+   "won": 8,
+   "drawn": 7,
+   "lost": 4,
+   "goalsFor": 20,
+   "goalsAgainst": 13,
+   "points": 31
+  },
+  {
+   "teamId": "central",
+   "played": 19,
+   "won": 8,
+   "drawn": 7,
+   "lost": 4,
+   "goalsFor": 28,
+   "goalsAgainst": 26,
+   "points": 31
+  },
+  {
+   "teamId": "newells",
+   "played": 19,
+   "won": 7,
+   "drawn": 8,
+   "lost": 4,
+   "goalsFor": 27,
+   "goalsAgainst": 20,
+   "points": 29
+  },
+  {
+   "teamId": "arsenal",
+   "played": 19,
+   "won": 6,
+   "drawn": 8,
+   "lost": 5,
+   "goalsFor": 18,
+   "goalsAgainst": 16,
+   "points": 26
+  },
+  {
+   "teamId": "river",
+   "played": 19,
+   "won": 7,
+   "drawn": 5,
+   "lost": 7,
+   "goalsFor": 23,
+   "goalsAgainst": 24,
+   "points": 26
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 19,
+   "won": 5,
+   "drawn": 9,
+   "lost": 5,
+   "goalsFor": 23,
+   "goalsAgainst": 24,
+   "points": 24
+  },
+  {
+   "teamId": "talleres",
+   "played": 19,
+   "won": 6,
+   "drawn": 6,
+   "lost": 7,
+   "goalsFor": 27,
+   "goalsAgainst": 30,
+   "points": 24
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 19,
+   "won": 6,
+   "drawn": 5,
+   "lost": 8,
+   "goalsFor": 18,
+   "goalsAgainst": 20,
+   "points": 23
+  },
+  {
+   "teamId": "racing",
+   "played": 19,
+   "won": 4,
+   "drawn": 10,
+   "lost": 5,
+   "goalsFor": 23,
+   "goalsAgainst": 23,
+   "points": 22
+  },
+  {
+   "teamId": "lanus",
+   "played": 19,
+   "won": 4,
+   "drawn": 10,
+   "lost": 5,
+   "goalsFor": 21,
+   "goalsAgainst": 23,
+   "points": 22
+  },
+  {
+   "teamId": "independiente",
+   "played": 19,
+   "won": 5,
+   "drawn": 7,
+   "lost": 7,
+   "goalsFor": 15,
+   "goalsAgainst": 19,
+   "points": 22
+  },
+  {
+   "teamId": "velez",
+   "played": 19,
+   "won": 5,
+   "drawn": 7,
+   "lost": 7,
+   "goalsFor": 20,
+   "goalsAgainst": 28,
+   "points": 22
+  },
+  {
+   "teamId": "chacarita",
+   "played": 19,
+   "won": 5,
+   "drawn": 9,
+   "lost": 5,
+   "goalsFor": 20,
+   "goalsAgainst": 19,
+   "points": 21
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 19,
+   "won": 5,
+   "drawn": 6,
+   "lost": 8,
+   "goalsFor": 14,
+   "goalsAgainst": 22,
+   "points": 21
+  },
+  {
+   "teamId": "olimpo",
+   "played": 19,
+   "won": 5,
+   "drawn": 5,
+   "lost": 9,
+   "goalsFor": 17,
+   "goalsAgainst": 23,
+   "points": 20
+  },
+  {
+   "teamId": "atletico-rafaela",
+   "played": 19,
+   "won": 3,
+   "drawn": 8,
+   "lost": 8,
+   "goalsFor": 19,
+   "goalsAgainst": 28,
+   "points": 17
+  },
+  {
+   "teamId": "nueva-chicago",
+   "played": 19,
+   "won": 2,
+   "drawn": 5,
+   "lost": 12,
+   "goalsFor": 14,
+   "goalsAgainst": 31,
+   "points": 11
+  }
+ ],
+ "matches": [
+  {
+   "id": "2003-04-apertura-001",
+   "date": "2003-08-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Capria - Torales, Milla."
+  },
+  {
+   "id": "2003-04-apertura-002",
+   "date": "2003-08-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-003",
+   "date": "2003-08-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Denis - De Bruno (de penal)."
+  },
+  {
+   "id": "2003-04-apertura-004",
+   "date": "2003-08-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-005",
+   "date": "2003-08-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carbonari (de penal), E. González - Nanni."
+  },
+  {
+   "id": "2003-04-apertura-006",
+   "date": "2003-08-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Caggiano (2), Giménez - Gelabert."
+  },
+  {
+   "id": "2003-04-apertura-007",
+   "date": "2003-08-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ceballos, Cigogna, Benítez - Giménez (de penal)."
+  },
+  {
+   "id": "2003-04-apertura-008",
+   "date": "2003-08-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Delorte (2) - Andrizzi, Ribonetto."
+  },
+  {
+   "id": "2003-04-apertura-009",
+   "date": "2003-08-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pereyra, Cavenaghi (de penal) - Tilger."
+  },
+  {
+   "id": "2003-04-apertura-010",
+   "date": "2003-08-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Battaglia."
+  },
+  {
+   "id": "2003-04-apertura-011",
+   "date": "2003-08-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Núñez, Bustos Montoya, Cervera."
+  },
+  {
+   "id": "2003-04-apertura-012",
+   "date": "2003-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-013",
+   "date": "2003-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Testa."
+  },
+  {
+   "id": "2003-04-apertura-014",
+   "date": "2003-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-015",
+   "date": "2003-08-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Milito."
+  },
+  {
+   "id": "2003-04-apertura-016",
+   "date": "2003-08-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Müller, Furios - Enría (2)."
+  },
+  {
+   "id": "2003-04-apertura-017",
+   "date": "2003-08-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: De Bruno."
+  },
+  {
+   "id": "2003-04-apertura-018",
+   "date": "2003-08-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Garnier, Ceballos."
+  },
+  {
+   "id": "2003-04-apertura-019",
+   "date": "2003-08-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Barros Schelotto (2, uno de penal), Tévez, C. Rodríguez."
+  },
+  {
+   "id": "2003-04-apertura-020",
+   "date": "2003-08-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rojas (en contra), Farías (de penal), Maggiolo."
+  },
+  {
+   "id": "2003-04-apertura-021",
+   "date": "2003-08-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-022",
+   "date": "2003-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-023",
+   "date": "2003-08-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Dudar."
+  },
+  {
+   "id": "2003-04-apertura-024",
+   "date": "2003-08-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "talleres",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fuertes (2), Moreno y Fabianesi, Martínez, Delgado - Osorio."
+  },
+  {
+   "id": "2003-04-apertura-025",
+   "date": "2003-08-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Forestello."
+  },
+  {
+   "id": "2003-04-apertura-026",
+   "date": "2003-08-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Denis - C. Gónzález."
+  },
+  {
+   "id": "2003-04-apertura-027",
+   "date": "2003-08-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-028",
+   "date": "2003-08-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vásquez, Patiño."
+  },
+  {
+   "id": "2003-04-apertura-029",
+   "date": "2003-08-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Óbolo - Tévez, Schiavi (2)."
+  },
+  {
+   "id": "2003-04-apertura-030",
+   "date": "2003-08-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Acosta - Carrario."
+  },
+  {
+   "id": "2003-04-apertura-031",
+   "date": "2003-08-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Buján (en contra) - Hanuch."
+  },
+  {
+   "id": "2003-04-apertura-032",
+   "date": "2003-08-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mirosevic, M. González - Barros Schelotto, C. González."
+  },
+  {
+   "id": "2003-04-apertura-033",
+   "date": "2003-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-034",
+   "date": "2003-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mignini."
+  },
+  {
+   "id": "2003-04-apertura-035",
+   "date": "2003-08-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Acosta, Díaz (2)."
+  },
+  {
+   "id": "2003-04-apertura-036",
+   "date": "2003-08-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-037",
+   "date": "2003-08-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vásquez, Alayes (en contra) - Garnier."
+  },
+  {
+   "id": "2003-04-apertura-038",
+   "date": "2003-08-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Giménez, Caggiano - Salas, Ameli."
+  },
+  {
+   "id": "2003-04-apertura-039",
+   "date": "2003-08-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Juárez - Migliónico."
+  },
+  {
+   "id": "2003-04-apertura-040",
+   "date": "2003-10-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Tévez (2), Battaglia - Raponi, Ortiz, Bustos Montoya."
+  },
+  {
+   "id": "2003-04-apertura-041",
+   "date": "2003-08-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Díaz, Villa."
+  },
+  {
+   "id": "2003-04-apertura-042",
+   "date": "2003-08-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Denis (2), Gandolfi - Rosales (2)."
+  },
+  {
+   "id": "2003-04-apertura-043",
+   "date": "2003-08-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: López - Morales."
+  },
+  {
+   "id": "2003-04-apertura-044",
+   "date": "2003-08-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Choy González, Litch - Perrone, De Bruno."
+  },
+  {
+   "id": "2003-04-apertura-045",
+   "date": "2003-08-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: González, Belloso, Sánchez - Carrario."
+  },
+  {
+   "id": "2003-04-apertura-046",
+   "date": "2003-08-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fuertes (2), Píccoli - Tilger."
+  },
+  {
+   "id": "2003-04-apertura-047",
+   "date": "2003-08-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "awardedTo": "boca",
+   "note": "En la cancha terminó 2-0; la liga le dio el partido 2-0 a Boca Juniors. Suspendido a los 68 minutos, con 2-0, por incidentes. Goles: Azconzábal (en contra), Tévez."
+  },
+  {
+   "id": "2003-04-apertura-048",
+   "date": "2003-08-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-049",
+   "date": "2003-08-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zárate (2), Flotta - Milito (2), Mirosevic (de penal)."
+  },
+  {
+   "id": "2003-04-apertura-050",
+   "date": "2003-08-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-051",
+   "date": "2003-09-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-052",
+   "date": "2003-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ramos (de penal) - Zabaleta, Santana."
+  },
+  {
+   "id": "2003-04-apertura-053",
+   "date": "2003-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: M. Rosales, Vásquez."
+  },
+  {
+   "id": "2003-04-apertura-054",
+   "date": "2003-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Farías - Romagnoli."
+  },
+  {
+   "id": "2003-04-apertura-055",
+   "date": "2003-09-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Álvarez (de penal) - Óbolo (de penal)."
+  },
+  {
+   "id": "2003-04-apertura-056",
+   "date": "2003-09-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bustos Montoya (2), Cervera."
+  },
+  {
+   "id": "2003-04-apertura-057",
+   "date": "2003-09-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Villa (2, uno de penal), Del Bono, Di Lorenzo."
+  },
+  {
+   "id": "2003-04-apertura-058",
+   "date": "2003-09-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maidana, Carrizo - Messera, Belloso."
+  },
+  {
+   "id": "2003-04-apertura-059",
+   "date": "2003-09-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fernández (de penal) - Iarley, Tévez (2), Donnet."
+  },
+  {
+   "id": "2003-04-apertura-060",
+   "date": "2003-09-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cavenaghi, Domínguez - Herbella, Virviescas (en contra)."
+  },
+  {
+   "id": "2003-04-apertura-061",
+   "date": "2003-09-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Quinteros, Caggiano."
+  },
+  {
+   "id": "2003-04-apertura-062",
+   "date": "2003-09-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Moreno y Fabianesi - Patiño."
+  },
+  {
+   "id": "2003-04-apertura-063",
+   "date": "2003-09-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Capria."
+  },
+  {
+   "id": "2003-04-apertura-064",
+   "date": "2003-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-065",
+   "date": "2003-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bilos, Sánchez (de penal) - Braña."
+  },
+  {
+   "id": "2003-04-apertura-066",
+   "date": "2003-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-067",
+   "date": "2003-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: P. González."
+  },
+  {
+   "id": "2003-04-apertura-068",
+   "date": "2003-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Óbolo (de penal), Zárate - Carrizo (de penal)."
+  },
+  {
+   "id": "2003-04-apertura-069",
+   "date": "2003-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Herrera (2) - Del Bono."
+  },
+  {
+   "id": "2003-04-apertura-070",
+   "date": "2003-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martínez, Saad."
+  },
+  {
+   "id": "2003-04-apertura-071",
+   "date": "2003-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Velázquez - Schiavi (de penal)."
+  },
+  {
+   "id": "2003-04-apertura-072",
+   "date": "2003-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ríos - Carignano, Savoia."
+  },
+  {
+   "id": "2003-04-apertura-073",
+   "date": "2003-10-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Michelini."
+  },
+  {
+   "id": "2003-04-apertura-074",
+   "date": "2003-10-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sosa."
+  },
+  {
+   "id": "2003-04-apertura-075",
+   "date": "2003-10-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Villa - Zárate."
+  },
+  {
+   "id": "2003-04-apertura-076",
+   "date": "2003-10-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Herrera."
+  },
+  {
+   "id": "2003-04-apertura-077",
+   "date": "2003-10-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "olimpo",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cavenaghi (2, uno de penal), Ferreyra."
+  },
+  {
+   "id": "2003-04-apertura-078",
+   "date": "2003-10-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mannara - Graf."
+  },
+  {
+   "id": "2003-04-apertura-079",
+   "date": "2003-10-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Úbeda - Cervera (2)."
+  },
+  {
+   "id": "2003-04-apertura-080",
+   "date": "2003-10-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Herbella, Ceballos - Vilallonga."
+  },
+  {
+   "id": "2003-04-apertura-081",
+   "date": "2003-10-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: López, Milito - Carrario, Mannara."
+  },
+  {
+   "id": "2003-04-apertura-082",
+   "date": "2003-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bustos."
+  },
+  {
+   "id": "2003-04-apertura-083",
+   "date": "2003-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Milla - De Bruno, Piriz Alvez."
+  },
+  {
+   "id": "2003-04-apertura-084",
+   "date": "2003-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vásquez, Patiño."
+  },
+  {
+   "id": "2003-04-apertura-085",
+   "date": "2003-10-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Acosta (2) - Rivas."
+  },
+  {
+   "id": "2003-04-apertura-086",
+   "date": "2003-10-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Herrera, Messera."
+  },
+  {
+   "id": "2003-04-apertura-087",
+   "date": "2003-10-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Denis, Gómez - Bilos."
+  },
+  {
+   "id": "2003-04-apertura-088",
+   "date": "2003-10-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ceballos."
+  },
+  {
+   "id": "2003-04-apertura-089",
+   "date": "2003-10-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Donnet (2)."
+  },
+  {
+   "id": "2003-04-apertura-090",
+   "date": "2003-10-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Migliónico - Cavenaghi (2)."
+  },
+  {
+   "id": "2003-04-apertura-091",
+   "date": "2003-10-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rueda."
+  },
+  {
+   "id": "2003-04-apertura-092",
+   "date": "2003-10-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bardaro, Buján."
+  },
+  {
+   "id": "2003-04-apertura-093",
+   "date": "2003-10-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Avendaño, Córsico."
+  },
+  {
+   "id": "2003-04-apertura-094",
+   "date": "2003-10-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Patiño - Talamonti."
+  },
+  {
+   "id": "2003-04-apertura-095",
+   "date": "2003-10-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Garnier, López."
+  },
+  {
+   "id": "2003-04-apertura-096",
+   "date": "2003-10-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cervera, Galarza - Andrizzi."
+  },
+  {
+   "id": "2003-04-apertura-097",
+   "date": "2003-10-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vilallonga, Gómez (de penal)."
+  },
+  {
+   "id": "2003-04-apertura-098",
+   "date": "2003-10-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Testa (en contra), Cángele."
+  },
+  {
+   "id": "2003-04-apertura-099",
+   "date": "2003-10-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Juárez (de penal) - Milla."
+  },
+  {
+   "id": "2003-04-apertura-100",
+   "date": "2003-10-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Capria (en contra) - Acosta, Montillo."
+  },
+  {
+   "id": "2003-04-apertura-101",
+   "date": "2003-10-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Silvani, Bermúdez, Rosales."
+  },
+  {
+   "id": "2003-04-apertura-102",
+   "date": "2003-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "nueva-chicago",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Graf, Testa (en contra), Milla, Figueroa."
+  },
+  {
+   "id": "2003-04-apertura-103",
+   "date": "2003-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carbonari (de penal), Belloso."
+  },
+  {
+   "id": "2003-04-apertura-104",
+   "date": "2003-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Savoia."
+  },
+  {
+   "id": "2003-04-apertura-105",
+   "date": "2003-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: M. González (de penal), Milito, Orozco, Estévez (de penal) - Juárez (de penal)."
+  },
+  {
+   "id": "2003-04-apertura-106",
+   "date": "2003-10-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mena (de penal), Duré, Delorte - Cervera."
+  },
+  {
+   "id": "2003-04-apertura-107",
+   "date": "2003-10-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gerlo."
+  },
+  {
+   "id": "2003-04-apertura-108",
+   "date": "2003-10-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romero, Álvarez (de penal) - Maidana."
+  },
+  {
+   "id": "2003-04-apertura-109",
+   "date": "2003-10-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Donnet, Tévez."
+  },
+  {
+   "id": "2003-04-apertura-110",
+   "date": "2003-10-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: López, Cavenaghi."
+  },
+  {
+   "id": "2003-04-apertura-111",
+   "date": "2003-10-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Milito (2), M. González, López."
+  },
+  {
+   "id": "2003-04-apertura-112",
+   "date": "2003-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Acosta, Rodríguez."
+  },
+  {
+   "id": "2003-04-apertura-113",
+   "date": "2003-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gerlo."
+  },
+  {
+   "id": "2003-04-apertura-114",
+   "date": "2003-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cavenaghi, Domínguez - Ameli (en contra)."
+  },
+  {
+   "id": "2003-04-apertura-115",
+   "date": "2003-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Farías, Angeleri - Pena (de penal)."
+  },
+  {
+   "id": "2003-04-apertura-116",
+   "date": "2003-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Silvani."
+  },
+  {
+   "id": "2003-04-apertura-117",
+   "date": "2003-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ortiz, Cervera - Salas."
+  },
+  {
+   "id": "2003-04-apertura-118",
+   "date": "2003-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Delorte (2), Mazzoni."
+  },
+  {
+   "id": "2003-04-apertura-119",
+   "date": "2003-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Del Bono (2) - Galván, Andrizzi, Mannara."
+  },
+  {
+   "id": "2003-04-apertura-120",
+   "date": "2003-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Somoza."
+  },
+  {
+   "id": "2003-04-apertura-121",
+   "date": "2003-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-122",
+   "date": "2003-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pedernera, Silvani."
+  },
+  {
+   "id": "2003-04-apertura-123",
+   "date": "2003-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romero."
+  },
+  {
+   "id": "2003-04-apertura-124",
+   "date": "2003-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: E. González."
+  },
+  {
+   "id": "2003-04-apertura-125",
+   "date": "2003-11-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Choy González - P. González."
+  },
+  {
+   "id": "2003-04-apertura-126",
+   "date": "2003-11-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carrario  - San Esteban."
+  },
+  {
+   "id": "2003-04-apertura-127",
+   "date": "2003-11-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-128",
+   "date": "2003-11-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bustos Montoya, Cervera."
+  },
+  {
+   "id": "2003-04-apertura-129",
+   "date": "2003-11-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: De Bruno (2), Piriz Alvez, Avendaño."
+  },
+  {
+   "id": "2003-04-apertura-130",
+   "date": "2003-11-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bardaro - Ferreyra."
+  },
+  {
+   "id": "2003-04-apertura-131",
+   "date": "2003-11-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-132",
+   "date": "2003-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sanabria, Basualdo, Tilger."
+  },
+  {
+   "id": "2003-04-apertura-133",
+   "date": "2003-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cubero."
+  },
+  {
+   "id": "2003-04-apertura-134",
+   "date": "2003-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pena (de penal), Milla, Graf."
+  },
+  {
+   "id": "2003-04-apertura-135",
+   "date": "2003-11-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-136",
+   "date": "2003-11-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gordillo, Romero, Gómez, Belloso."
+  },
+  {
+   "id": "2003-04-apertura-137",
+   "date": "2003-11-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Herner."
+  },
+  {
+   "id": "2003-04-apertura-138",
+   "date": "2003-11-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Farías (2)."
+  },
+  {
+   "id": "2003-04-apertura-139",
+   "date": "2003-11-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Battaglia, Iarley."
+  },
+  {
+   "id": "2003-04-apertura-140",
+   "date": "2003-11-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carignano - Montillo."
+  },
+  {
+   "id": "2003-04-apertura-141",
+   "date": "2003-11-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Álvarez (2, uno de penal), Díaz - Aguirre, Villar."
+  },
+  {
+   "id": "2003-04-apertura-142",
+   "date": "2003-11-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bardaro - Esmerado."
+  },
+  {
+   "id": "2003-04-apertura-143",
+   "date": "2003-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rimoldi - Manso."
+  },
+  {
+   "id": "2003-04-apertura-144",
+   "date": "2003-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Guerra - Tilger."
+  },
+  {
+   "id": "2003-04-apertura-145",
+   "date": "2003-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rueda, González."
+  },
+  {
+   "id": "2003-04-apertura-146",
+   "date": "2003-11-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carrizo (de penal), Avendaño (de penal) - Farías."
+  },
+  {
+   "id": "2003-04-apertura-147",
+   "date": "2003-11-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carbonari (de penal), Cámpora - Mena (de penal), Páez."
+  },
+  {
+   "id": "2003-04-apertura-148",
+   "date": "2003-11-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Giménez (o,g)."
+  },
+  {
+   "id": "2003-04-apertura-149",
+   "date": "2003-11-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-150",
+   "date": "2003-11-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lux (en contra)."
+  },
+  {
+   "id": "2003-04-apertura-151",
+   "date": "2003-11-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-152",
+   "date": "2003-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Choy González."
+  },
+  {
+   "id": "2003-04-apertura-153",
+   "date": "2003-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Migliónico, Carignano - Cámpora (2)."
+  },
+  {
+   "id": "2003-04-apertura-154",
+   "date": "2003-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sanguinetti, Bilos."
+  },
+  {
+   "id": "2003-04-apertura-155",
+   "date": "2003-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-156",
+   "date": "2003-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "talleres",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vásquez (3), M. Rosales - Osorio (2), Lázaro."
+  },
+  {
+   "id": "2003-04-apertura-158",
+   "date": "2003-11-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gómez (de penal) - Colautti, Donnet."
+  },
+  {
+   "id": "2003-04-apertura-159",
+   "date": "2003-11-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Clementz."
+  },
+  {
+   "id": "2003-04-apertura-160",
+   "date": "2004-02-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Se jugaron los 33 minutos que faltaban."
+  },
+  {
+   "id": "2003-04-apertura-161",
+   "date": "2004-06-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ludueña (de penal), Sand, Almerares - Rimoldi."
+  },
+  {
+   "id": "2003-04-apertura-162",
+   "date": "2003-11-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Piriz Alvez, De Bruno."
+  },
+  {
+   "id": "2003-04-apertura-163",
+   "date": "2003-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ramos (de penal) - Farías (2, uno de penal)."
+  },
+  {
+   "id": "2003-04-apertura-164",
+   "date": "2003-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Choy González."
+  },
+  {
+   "id": "2003-04-apertura-165",
+   "date": "2003-11-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: González - Alayes."
+  },
+  {
+   "id": "2003-04-apertura-166",
+   "date": "2003-11-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bardaro - Fuertes."
+  },
+  {
+   "id": "2003-04-apertura-167",
+   "date": "2003-11-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-168",
+   "date": "2003-11-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Villarreal - Hanuch."
+  },
+  {
+   "id": "2003-04-apertura-169",
+   "date": "2003-11-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Acosta, Michelini."
+  },
+  {
+   "id": "2003-04-apertura-170",
+   "date": "2003-11-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Di Lorenzo - Villar."
+  },
+  {
+   "id": "2003-04-apertura-171",
+   "date": "2003-11-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Andrizzi, Coria."
+  },
+  {
+   "id": "2003-04-apertura-172",
+   "date": "2003-12-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Comizzo (en contra), Losada - Juárez."
+  },
+  {
+   "id": "2003-04-apertura-173",
+   "date": "2003-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-174",
+   "date": "2003-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carreño, Paredes, Santana, Acosta (de penal) - Zárate."
+  },
+  {
+   "id": "2003-04-apertura-175",
+   "date": "2003-12-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Choy González - E. González, Cámpora."
+  },
+  {
+   "id": "2003-04-apertura-176",
+   "date": "2003-12-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Vásquez - Carranza."
+  },
+  {
+   "id": "2003-04-apertura-177",
+   "date": "2003-12-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gerlo, A. López - Díaz."
+  },
+  {
+   "id": "2003-04-apertura-178",
+   "date": "2003-12-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Duré, Delorte."
+  },
+  {
+   "id": "2003-04-apertura-179",
+   "date": "2003-12-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fuertes, Masceratesi - Barijho."
+  },
+  {
+   "id": "2003-04-apertura-180",
+   "date": "2003-12-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sanguinetti, González - Aquino."
+  },
+  {
+   "id": "2003-04-apertura-181",
+   "date": "2003-12-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ameli - Osorio."
+  },
+  {
+   "id": "2003-04-apertura-182",
+   "date": "2003-11-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Iarley."
+  },
+  {
+   "id": "2003-04-apertura-183",
+   "date": "2003-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martínez, Zárate - Solana, Oliveira (de penal)."
+  },
+  {
+   "id": "2003-04-apertura-184",
+   "date": "2003-12-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Milito (de penal) - Mazzoni, Más."
+  },
+  {
+   "id": "2003-04-apertura-185",
+   "date": "2003-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Testa (en contra)."
+  },
+  {
+   "id": "2003-04-apertura-186",
+   "date": "2003-12-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Talamonti, Ferrari (de penal) - Sánchez, A. González."
+  },
+  {
+   "id": "2003-04-apertura-187",
+   "date": "2003-12-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Graf (2) - Fuertes, Benítez."
+  },
+  {
+   "id": "2003-04-apertura-188",
+   "date": "2003-12-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Esmerado."
+  },
+  {
+   "id": "2003-04-apertura-189",
+   "date": "2003-12-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2003-04-apertura-190",
+   "date": "2003-12-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Farías (4, 2 de penal) - Vásquez (2)."
+  },
+  {
+   "id": "2003-04-apertura-191",
+   "date": "2004-03-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gandín - López, Ludueña."
+  }
+ ]
+}

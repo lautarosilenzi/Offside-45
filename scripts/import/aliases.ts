@@ -211,6 +211,8 @@ const ALIASES: Alias[] = [
   { id: "belgrano", names: ["Belgrano (COR)", "Belgrano (C)"], from: 1960 },
   { id: "talleres", names: ["Talleres (C)", "Talleres (COR)"], from: 1960 },
   { id: "huracan-iw", names: ["Huracán (IWh)", "Huracán (IW)"], from: 1960 },
+  { id: "arsenal", names: ["Arsenal", "Arsenal de Sarandí", "Arsenal (Sarandí)"], from: 2002 },
+  { id: "atletico-rafaela", names: ["Atlético de Rafaela", "Atlético Rafaela", "Atl. de Rafaela", "Atl. Rafaela"], from: 1960 },
   { id: "huracan-corrientes", names: ["Huracán (CNQ)", "Huracán (Corrientes)", "Huracán Ctes", "Huracán Corrientes"], from: 1960 },
   { id: "huracan", names: ["Huracán (BUE)"], from: 1960 },
   { id: "desamparados", names: ["Sportivo Desamparados"], from: 1960 },

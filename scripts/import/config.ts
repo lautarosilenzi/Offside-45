@@ -333,6 +333,53 @@ const ABREV_2001 = {
   "Colón (SF)": "colon-santa-fe",
   "Unión (SF)": "union-santa-fe",
   "Newell�s Old Boys": "newells",
+  "Olimpo (BB)": "olimpo",
+  "Olimpo (Bahía Blanca)": "olimpo",
+  "San Martín (Mza)": "san-martin-mendoza",
+  "NUEVA CHICAGO": "nueva-chicago",
+  "TALLERES (CBA)": "talleres",
+  "Talleres (Córdoba)": "talleres",
+  "Tallares (Córdoba)": "talleres", // errata de la fuente (2003)
+  "Huracán (TA)": "huracan-tres-arroyos",
+  "Huracán (Tres Arroyos)": "huracan-tres-arroyos",
+};
+
+// Apertura y Clausura desde 2002/03: 20 equipos a una rueda, 3 puntos por victoria, tabla al principio de cada torneo.
+type CortoOpts = Omit<Parameters<typeof afaLargaExtra>[3], "tableIndex" | "pointsPerWin">;
+const corto = (y: number, key: "apertura" | "clausura", opts: CortoOpts) =>
+  afaLargaExtra(y, key, key === "apertura" ? "Apertura" : "Clausura", {
+    tableIndex: [0],
+    pointsPerWin: 3,
+    ...(key === "clausura" && { rolloverBefore: 13 }),
+    ...opts,
+    aliases: { ...ABREV_2001, ...opts.aliases },
+  });
+const H_2002 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^General Table/, /^Relegation Playoff$/];
+const H_2003 = [...H_2002, /^Top Scorers/];
+// Promoción: series a ida y vuelta entre los dos equipos de Primera con peor promedio (después de los que descendían
+// directo) y equipos del Nacional B. `series`: [ida (fecha, local, visitante), vuelta, quién se quedó o subió, nota].
+const PROMO_FORMATO = {
+  kind: "formato" as const,
+  text: "Series a ida y vuelta entre equipos de Primera con mal promedio y equipos del Nacional B. Con el global empatado, se quedaba el equipo de Primera.",
+};
+const promocion = (
+  y: number,
+  opts: Omit<CortoOpts, "overrides" | "championIds"> & { series: [ida: string, vuelta: string, advancedId: string, note: string][] },
+) => {
+  const { series, ...rest } = opts;
+  return afaLargaExtra(y, "promocion", "Promoción", {
+    championIds: [],
+    rolloverBefore: 13,
+    ...rest,
+    aliases: { ...ABREV_2001, ...rest.aliases },
+    overrides: Object.fromEntries(
+      series.flatMap(([ida, vuelta, advancedId, note]) => [
+        [ida, { phase: "playoff" as const, stage: "Promoción (ida)" }],
+        [vuelta, { phase: "playoff" as const, stage: "Promoción (vuelta)", advancedId, note }],
+      ]),
+    ),
+    notes: rest.notes ?? [PROMO_FORMATO],
+  });
 };
 
 export const TOURNAMENTS: TournamentConfig[] = [
@@ -3122,5 +3169,70 @@ afaTorneo(1979, "reclasificacion", {
     notes: [
       { kind: "formato", text: "Series a ida y vuelta entre los equipos 17.º y 18.º del promedio y dos equipos del Nacional B. Con el global empatado, se quedaba el equipo de Primera." },
     ],
+  }),
+  // ───────── 2002/03 ─────────
+  corto(2002, "apertura", {
+    championIds: ["independiente"],
+    wiki: "Anexo:Torneo Apertura 2002 (Argentina)",
+    headings: H_2002,
+    sectionRange: { from: /^Torneo Apertura$/, to: /^Torneo Clausura$/ },
+    summary: "Independiente ganó el Apertura tres puntos delante de Boca: su primer título de liga desde 1994.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria." }],
+  }),
+  corto(2002, "clausura", {
+    championIds: ["river"],
+    wiki: "Anexo:Torneo Clausura 2003 (Argentina)",
+    headings: H_2002,
+    sectionRange: { from: /^Torneo Clausura$/, to: /^General Table/ },
+    aliases: { "]Newell's Old Boys": "newells" }, // errata de la fuente: un corchete pegado al nombre
+    summary: "River ganó el Clausura cuatro puntos delante de Boca.",
+    notes: [
+      {
+        kind: "formato",
+        text: "20 equipos a una rueda, 3 puntos por victoria. Descendían directamente los dos peores promedios de las últimas tres temporadas (Unión y Huracán); los dos siguientes (Talleres y Nueva Chicago) jugaban la Promoción con equipos del Nacional B.",
+      },
+    ],
+  }),
+  promocion(2002, {
+    headings: H_2002,
+    sectionRange: { from: /^Relegation Playoff$/ },
+    series: [
+      ["2003-07-09 argentinos nueva-chicago", "2003-07-13 nueva-chicago argentinos", "nueva-chicago", "Nueva Chicago ganó 3-0 en el global y se quedó en Primera."],
+      ["2003-07-09 san-martin-mendoza talleres", "2003-07-13 talleres san-martin-mendoza", "talleres", "Talleres ganó 2-0 en el global y se quedó en Primera."],
+    ],
+    summary: "Nueva Chicago (3-0 a Argentinos Juniors) y Talleres (2-0 a San Martín de Mendoza) se quedaron en Primera.",
+  }),
+  // ───────── 2003/04 ─────────
+  corto(2003, "apertura", {
+    championIds: ["boca"],
+    wiki: "Anexo:Torneo Apertura 2003 (Argentina)",
+    headings: H_2003,
+    sectionRange: { from: /^Torneo Apertura$/, to: /^Torneo Clausura$/ },
+    pointAdjustments: [{ teamId: "chacarita", points: -3, reason: "descuento de 3 puntos (RSSSF no da el motivo)" }],
+    summary: "Boca ganó el Apertura tres puntos delante de San Lorenzo.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria." }],
+  }),
+  corto(2003, "clausura", {
+    championIds: ["river"],
+    wiki: "Anexo:Torneo Clausura 2004 (Argentina)",
+    headings: H_2003,
+    sectionRange: { from: /^Torneo Clausura$/, to: /^General Table/ },
+    summary: "River ganó el Clausura cuatro puntos delante de Boca.",
+    notes: [
+      {
+        kind: "formato",
+        text: "20 equipos a una rueda, 3 puntos por victoria. Descendían directamente los dos peores promedios de las últimas tres temporadas (Chacarita y Nueva Chicago); los dos siguientes (Talleres y Atlético de Rafaela) jugaban la Promoción con equipos del Nacional B.",
+      },
+    ],
+  }),
+  promocion(2003, {
+    headings: H_2003,
+    sectionRange: { from: /^Relegation Playoff$/, to: /^Top Scorers/ },
+    aliases: { "HURACÁN (TRES ARROYOS)": "huracan-tres-arroyos", "ARGENTINOS JUNIORS": "argentinos", "TAalleres (Córdoba)": "talleres", "Talleres (Córdoba)": "talleres" },
+    series: [
+      ["2004-06-30 huracan-tres-arroyos atletico-rafaela", "2004-07-04 atletico-rafaela huracan-tres-arroyos", "huracan-tres-arroyos", "Huracán de Tres Arroyos ganó 5-3 en el global: ascendió y descendió Atlético de Rafaela."],
+      ["2004-07-01 argentinos talleres", "2004-07-04 talleres argentinos", "argentinos", "Argentinos Juniors ganó 4-2 en el global: ascendió y descendió Talleres."],
+    ],
+    summary: "Argentinos Juniors (4-2 a Talleres) y Huracán de Tres Arroyos (5-3 a Atlético de Rafaela) ascendieron; Talleres y Rafaela descendieron.",
   }),
 ];

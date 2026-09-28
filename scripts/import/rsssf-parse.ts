@@ -401,6 +401,12 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
       }
       const indent = line.match(/^\s*/)![0].replace(/\t/g, "        ").length;
       let txt = trimmed.slice(1, -1);
+      // "[Delorte]  [Remaining 15']" (2003): la nota va en el mismo renglón que los goleadores.
+      const trailing = txt.match(/^(.*?)\]\s*\[((?:remaining|abandoned|score allowed)[^\]]*)$/i);
+      if (trailing) {
+        txt = trailing[1];
+        last.note = [last.note, `[${trailing[2]}]`].filter(Boolean).join(" ");
+      }
       // "[Pizzi]   (aet)   [Alfaro Moreno(2), Villarreal]" (1989/90): el alargue va entre los goleadores.
       if (/\]\s*\(aet\)\s*\[/i.test(txt)) {
         txt = txt.replace(/\]\s*\(aet\)\s*\[/i, "] [");

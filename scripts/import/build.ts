@@ -102,6 +102,7 @@ export function translateNote(
   const parts = note
     .replace(/^\[|\]$/g, "")
     .replace(/^\{/, "") // "{at Vélez Sarsfield]": errata de la fuente (1998)
+    .replace(/\bSocre\b/g, "Score") // errata de la fuente (2003)
     .replace(/\.\s*(Score allowed to stand|Awarded \d+-\d+)/gi, "; $1") // 2001/02: dos datos en una oración
     .replace(/\babandonded\b/gi, "abandoned") // errata de la fuente (1950)
     .replace(/\babandoned al\b/gi, "abandoned at") // errata de la fuente (1953)
@@ -233,9 +234,10 @@ export function translateNote(
       out.wonPointsBy = club?.id;
       if (m[2]) out.lostScore = [+m[2], +m[3]];
       out.text.push(`La liga le dio los puntos a ${club ? club.as ?? club.name : m[1]}.`);
-    } else if ((m = p.match(/^abandoned (?:(\d+)-(\d+) )?at (\d+)'? (?:because of|due to) (rain|incidents)$/i))) {
-      // 2000–2002: "Abandoned 0-4 at 61' because of incidents", "Abandoned at 90' because of incidents".
-      out.text.push(`Suspendido a los ${m[3]} minutos${m[1] ? `, con ${m[1]}-${m[2]},` : ""} por ${/rain/i.test(m[4]) ? "lluvia" : "incidentes"}.`);
+    } else if ((m = p.match(/^abandoned (?:(\d+)-(\d+) )?at (\d+)'? (?:because of|due to) (rain|incidents|light cut)$/i))) {
+      // 2000–2003: "Abandoned 0-4 at 61' because of incidents", "Abandoned at 90' because of incidents", "... because of light cut".
+      const why = /rain/i.test(m[4]) ? "lluvia" : /light/i.test(m[4]) ? "un corte de luz" : "incidentes";
+      out.text.push(`Suspendido a los ${m[3]} minutos${m[1] ? `, con ${m[1]}-${m[2]},` : ""} por ${why}.`);
     } else if ((m = p.match(/^suspended at (\d+)' due to visibility problems with (.+?) leading (\d+)-(\d+), continued (.+)$/i))) {
       // 1996: "Suspended at 81' due to visibility problems with Platense leading 1-0, continued April 18".
       out.text.push(`Suspendido a los ${m[1]} minutos por falta de visibilidad, con ${m[3]}-${m[4]} para ${resolveName(m[2], year)?.name ?? m[2]}; se completó el ${esDate(m[5].replace(/^(\w{3})\w*\s/, "$1 "))}.`);
@@ -881,7 +883,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     }
     if (note.text.length) m.note = note.text.join(" ");
     // La línea entre corchetes debajo del partido suele ser de goleadores, pero a veces es una aclaración.
-    if (raw.scorers && /^(played at|at |suspended|abandoned|finished|\d+-\d+ continued|reprogrammed|.* forfeited$)/i.test(raw.scorers)) {
+    if (raw.scorers && /^(played at|at |suspended|abandoned|finished|remaining |\d+-\d+ continued|reprogrammed|.* forfeited$)/i.test(raw.scorers)) {
       const extra = translateNote(raw.scorers.replace(/^played at/i, "at"), cfg.year);
       if (extra.venue) m.venue = extra.venue;
       const txt = [...extra.text, ...extra.unknown.map((u) => (/forfeited$/i.test(u) ? `${u.replace(/ forfeited$/i, "")} no se presentó.` : u))];
