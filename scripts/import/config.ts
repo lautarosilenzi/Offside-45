@@ -284,6 +284,21 @@ const afaLargaExtra = (
   aliases: { Gimnasia: "gimnasia", Vélez: "velez", Ferro: "ferro", Chacarita: "chacarita", Estudiantes: "estudiantes", Talleres: "talleres", ...rest.aliases },
 });
 
+// Nombres abreviados de los partidos en RSSSF desde 1997/98.
+const ABREV_1997 = {
+  "Newell's OB": "newells",
+  "Rosario C": "central",
+  "Gimnasia J": "gimnasia-jujuy",
+  "Gimnasia LP": "gimnasia",
+  "Gimnasia S": "gimnasia-tiro-salta",
+  "Gimnasia y Tiro (Salta)": "gimnasia-tiro-salta",
+  "Gimnasia y Tiro (S)": "gimnasia-tiro-salta",
+  Rosario: "central",
+  "Dep Español": "deportivo-espanol",
+  "Arg Juniors": "argentinos",
+  "Huracán BA": "huracan",
+};
+
 export const TOURNAMENTS: TournamentConfig[] = [
   {
     slug: "1897",
@@ -2737,5 +2752,34 @@ afaTorneo(1979, "reclasificacion", {
     overrides: { "1997-12-03 colon-santa-fe independiente": { phase: "playoff", stage: "Desempate por la Copa Libertadores" } },
     summary: "Colón le ganó 1-0 a Independiente en cancha de Lanús y fue a la Copa Libertadores 1998 con River.",
     notes: [{ kind: "formato", text: "Partido único en cancha neutral por el segundo lugar argentino en la Copa Libertadores 1998." }],
+  }),
+  // ───────── 1997/98 ─────────
+  afaLargaExtra(1997, "apertura", "Apertura", {
+    championIds: ["river"],
+    wiki: "Anexo:Torneo Apertura 1997 (Argentina)",
+    aliases: ABREV_1997,
+    headings: [/^Apertura$/, /^Clausura$/, /^Argentina 1997\/98 Nacional B/],
+    sectionRange: { from: /^Apertura$/, to: /^Clausura$/ },
+    tableIndex: [0],
+    pointsPerWin: 3,
+    summary: "River ganó el Apertura un punto delante de Boca, que perdió un solo partido: el tercer título seguido de River.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria." }],
+  }),
+  afaLargaExtra(1997, "clausura", "Clausura", {
+    championIds: ["velez"],
+    wiki: "Anexo:Torneo Clausura 1998 (Argentina)",
+    aliases: ABREV_1997,
+    headings: [/^Apertura$/, /^Clausura$/, /^Argentina 1997\/98 Nacional B/],
+    sectionRange: { from: /^Clausura$/, to: /^Argentina 1997\/98 Nacional B/ },
+    tableIndex: [0],
+    rolloverBefore: 13,
+    pointsPerWin: 3,
+    knownTableDiffs: {
+      keys: ["independiente:points"],
+      explanation:
+        "RSSSF le da 23 puntos a Independiente, sin decir por qué; sus resultados (7 ganados, 5 empatados, 7 perdidos) suman 26, que es lo que figura en Wikipedia. No se encontró un descuento de puntos que lo explique, así que acá quedan los 26.",
+    },
+    summary: "Vélez ganó el Clausura seis puntos delante de Lanús, con una sola derrota.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria. Descendían los dos peores promedios de las últimas tres temporadas: Deportivo Español y Gimnasia y Tiro de Salta." }],
   }),
 ];

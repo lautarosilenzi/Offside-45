@@ -83,6 +83,7 @@ export function translateNote(
   };
   const parts = note
     .replace(/^\[|\]$/g, "")
+    .replace(/^\{/, "") // "{at Vélez Sarsfield]": errata de la fuente (1998)
     .replace(/\babandonded\b/gi, "abandoned") // errata de la fuente (1950)
     .replace(/\babandoned al\b/gi, "abandoned at") // errata de la fuente (1953)
     .replace(/\s+\|\s+/g, "; ")
@@ -167,7 +168,8 @@ export function translateNote(
     else if ((m = p.match(/^(?:played again|replayed) (?:on )?(.+)$/i))) {
       out.continuedOn = m[1];
       out.replayed = true;
-    } else if ((m = p.match(/^suspended in (\d+)'?( because the rain)?$/i))) out.text.push(`Suspendido a los ${m[1]} minutos${m[2] ? " por lluvia" : ""}.`);
+    } else if ((m = p.match(/^suspended in (\d+)'?( because the rain| due to crowd trouble)?$/i)))
+      out.text.push(`Suspendido a los ${m[1]} minutos${m[2] ? (/rain/.test(m[2]) ? " por lluvia" : " por incidentes en la tribuna") : ""}.`);
     else if (/^suspended$/i.test(p)) out.suspended = true;
     else if ((m = p.match(/^(.+?) withdrew and the match was annulled$/i))) {
       const club = resolveName(m[1], year);
@@ -241,7 +243,8 @@ export function translateNote(
     } else if (/^incidents, see notes$/i.test(p)) out.text.push("Hubo incidentes (ver notas de la temporada).");
     else if ((m = p.match(/^(?:[A-Z][a-z]{2} \d{1,2} )?abandoned at (\d+)-(\d+) in (\d+)'?$/i)))
       out.text.push(`Suspendido a los ${m[3]} minutos con ${m[1]}-${m[2]}.`);
-    else if (/^(?:later,? )?both teams lost the (?:points|match)(?: \(\d+-\d+\))?$/i.test(p)) {
+    else if (/^(?:later,? )?both teams lost the (?:points|match)(?: \(\d+-\d+\))?$|^awarded \d+-\d+ loss against both$/i.test(p)) {
+      // "awarded 0-0 loss against both" (1997): lo mismo con otras palabras.
       out.bothLost = true;
       out.text.push("La liga le dio el partido por perdido a los dos equipos.");
     } else if ((m = p.match(/^later,? (.+?) lost the points \((\d+)-(\d+)\)$/i))) {
