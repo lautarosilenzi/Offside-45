@@ -1,0 +1,87 @@
+{
+ "slug": "2010-11-promocion",
+ "year": 2010,
+ "yearLabel": "2010/11",
+ "league": "Promoción",
+ "title": "Promoción 2010/11",
+ "tournament": "Promoción 2010/11",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Belgrano (3-1 a River) y San Martín de San Juan (2-1 a Gimnasia y Esgrima La Plata) ascendieron. River descendió por primera vez en su historia.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2010",
+   "url": "https://www.rsssf.org/tablesa/arg2011.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Series a ida y vuelta entre equipos de Primera con mal promedio y equipos del Nacional B. Con el global empatado, se quedaba el equipo de Primera."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2010-11-promocion-001",
+   "date": "2011-06-22",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "belgrano",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2010-11-promocion-002",
+   "date": "2011-06-26",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "san-martin-sj",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2010-11-promocion-003",
+   "date": "2011-06-26",
+   "stage": "Promoción (vuelta)",
+   "phase": "playoff",
+   "homeId": "river",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "advancedId": "belgrano",
+   "note": "Se suspendió en el minuto 89, con 1-1, por los incidentes en la tribuna. Belgrano ganó 3-1 en el global: ascendió y River descendió por primera vez en su historia. RSSSF dice que el 12/8 la AFA le dio el partido 0-1 a Belgrano; las demás fuentes (Wikipedia, Goal) lo dan 1-1, que es lo que figura acá."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2010-11-promocion-004",
+   "date": "2011-06-30",
+   "stage": "Promoción (vuelta)",
+   "phase": "playoff",
+   "homeId": "gimnasia",
+   "awayId": "san-martin-sj",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "advancedId": "san-martin-sj",
+   "note": "San Martín de San Juan ganó 2-1 en el global: ascendió y descendió Gimnasia y Esgrima La Plata."
+  }
+ ]
+}

@@ -384,6 +384,7 @@ const H_2006 = [/^Torneo Apertura/, /^Championship Playoff/, /^Topscorers$/, /^T
 const H_2007 = [/^Apertura 2007$/, /^Clausura 2008$/, /^Topscorers$/, /^Promotion\/Relegation Playoffs/];
 const H_2008 = [/^Torneo Apertura/, /^Championship Playoff$/, /^Topscorers$/, /^Torneo Clausura/, /^Promotion\/Relegation Playoffs/];
 const H_2009 = [/Apertura 2009$/, /^Topscorer$/, /Clausura 2010$/, /^Topscorers$/, /Relegation Table$/, /^Promotion\/Relegation Playoffs/];
+const H_2010 = [/^Torneo .*Apertura 2010$/, /^Topscorers$/, /^Torneo .*Clausura 2011/, /^Relegation Table$/, /^Playoff Against 19th Place/, /^Promotion\/Relegation Playoffs/, /^Primera B Nacional/];
 const H_2004 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Topscorers Clausura/, /^Promotion\/Relegation Playoffs/];
 // Promoción: series a ida y vuelta entre los dos equipos de Primera con peor promedio (después de los que descendían
 // directo) y equipos del Nacional B. `series`: [ida (fecha, local, visitante), vuelta, quién se quedó o subió, nota].
@@ -3639,5 +3640,81 @@ afaTorneo(1979, "reclasificacion", {
     ],
     series: [],
     summary: "All Boys le ganó 4-1 a Rosario Central, que descendió por primera vez desde 1984; Gimnasia y Esgrima La Plata (3-2 a Atlético de Rafaela) se quedó en Primera.",
+  }),
+  // ───────── 2010/11 (arg2011.html; la página trae también el ascenso) ─────────
+  corto(2010, "apertura", {
+    file: "arg2011.html",
+    championIds: ["estudiantes"],
+    wiki: "Anexo:Torneo Apertura 2010 (Argentina)",
+    headings: H_2010,
+    aliases: { "Gimnasia y Esgrima": "gimnasia" }, // en 2010/11 el único Gimnasia de Primera es el de La Plata
+    sectionRange: { from: /^Torneo .*Apertura 2010$/, to: /^Topscorers$/ },
+    summary: "Estudiantes ganó el Apertura dos puntos delante de Vélez, con 14 victorias y solo 8 goles en contra.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria." }],
+  }),
+  corto(2010, "clausura", {
+    file: "arg2011.html",
+    championIds: ["velez"],
+    wiki: "Anexo:Torneo Clausura 2011 (Argentina)",
+    headings: H_2010,
+    aliases: { "Gimnasia y Esgrima": "gimnasia" }, // en 2010/11 el único Gimnasia de Primera es el de La Plata
+    sectionRange: { from: /^Torneo .*Clausura 2011/, to: /^Topscorers$/ },
+    summary: "Vélez ganó el Clausura cuatro puntos delante de Lanús.",
+    notes: [
+      {
+        kind: "formato",
+        text: "20 equipos a una rueda, 3 puntos por victoria. Descendía directamente el peor promedio de las últimas tres temporadas (Quilmes). Gimnasia y Esgrima La Plata y Huracán empataron el 18.º puesto y jugaron un desempate: el perdedor descendía y el ganador iba a la Promoción con River, 17.º.",
+      },
+    ],
+  }),
+  afaLargaExtra(2010, "desempate", "Desempate por el descenso", {
+    file: "arg2011.html",
+    championIds: [],
+    headings: H_2010,
+    aliases: { "Gimnasia y Esgrima": "gimnasia" }, // en 2010/11 el único Gimnasia de Primera es el de La Plata
+    sectionRange: { from: /^Playoff Against 19th Place/, to: /^Promotion\/Relegation Playoffs/ },
+    skip: () => true,
+    extraMatches: [
+      {
+        id: "2010-11-desempate-001",
+        date: "2011-06-22",
+        stage: "Desempate por el descenso",
+        phase: "playoff",
+        venue: "Cancha de Boca Juniors",
+        homeId: "huracan",
+        awayId: "gimnasia",
+        homeGoals: 0,
+        awayGoals: 2,
+        note: "Huracán descendió; Gimnasia y Esgrima La Plata fue a la Promoción.",
+      },
+    ],
+    summary: "Gimnasia y Esgrima La Plata le ganó 2-0 a Huracán en cancha de Boca: Huracán descendió y Gimnasia fue a la Promoción.",
+    notes: [{ kind: "formato", text: "Partido único en cancha neutral entre los dos igualados en el 18.º puesto de la tabla de promedios." }],
+  }),
+  promocion(2010, {
+    file: "arg2011.html",
+    headings: H_2010,
+    aliases: { "Gimnasia y Esgrima": "gimnasia" }, // en 2010/11 el único Gimnasia de Primera es el de La Plata
+    sectionRange: { from: /^Promotion\/Relegation Playoffs/, to: /^Primera B Nacional/ },
+    skip: () => true,
+    extraMatches: [
+      { id: "2010-11-promocion-001", date: "2011-06-22", stage: "Promoción (ida)", phase: "playoff", homeId: "belgrano", awayId: "river", homeGoals: 2, awayGoals: 0 },
+      { id: "2010-11-promocion-002", date: "2011-06-26", stage: "Promoción (ida)", phase: "playoff", homeId: "san-martin-sj", awayId: "gimnasia", homeGoals: 1, awayGoals: 0 },
+      {
+        id: "2010-11-promocion-003",
+        date: "2011-06-26",
+        stage: "Promoción (vuelta)",
+        phase: "playoff",
+        homeId: "river",
+        awayId: "belgrano",
+        homeGoals: 1,
+        awayGoals: 1,
+        advancedId: "belgrano",
+        note: "Se suspendió en el minuto 89, con 1-1, por los incidentes en la tribuna. Belgrano ganó 3-1 en el global: ascendió y River descendió por primera vez en su historia. RSSSF dice que el 12/8 la AFA le dio el partido 0-1 a Belgrano; las demás fuentes (Wikipedia, Goal) lo dan 1-1, que es lo que figura acá.",
+      },
+      { id: "2010-11-promocion-004", date: "2011-06-30", stage: "Promoción (vuelta)", phase: "playoff", homeId: "gimnasia", awayId: "san-martin-sj", homeGoals: 1, awayGoals: 1, advancedId: "san-martin-sj", note: "San Martín de San Juan ganó 2-1 en el global: ascendió y descendió Gimnasia y Esgrima La Plata." },
+    ],
+    series: [],
+    summary: "Belgrano (3-1 a River) y San Martín de San Juan (2-1 a Gimnasia y Esgrima La Plata) ascendieron. River descendió por primera vez en su historia.",
   }),
 ];

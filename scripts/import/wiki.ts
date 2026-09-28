@@ -332,5 +332,10 @@ export async function compareWithWikipedia(cfg: TournamentConfig, season: Season
 
   if (unknown.size) warnings.push(`Wikipedia: nombres sin identificar: ${[...unknown].join(", ")}`);
   warnings.push(`Wikipedia: ${matched} de ${season.matches.length} partidos confirmados (${rows.length} filas leídas)`);
+  // Si Wikipedia tiene los partidos pero confirma menos de la mitad, casi seguro la sección de RSSSF es otra
+  // (2011: el Clausura tomó el Apertura por el menú de la página, y la tabla "coincidía" consigo misma).
+  // Solo en las ligas: en las copas Wikipedia suele traer una parte, o cuadros de series que no se leen.
+  if (season.kind !== "cup" && rows.length >= season.matches.length / 2 && matched < season.matches.length / 2)
+    problems.push(`Wikipedia confirma solo ${matched} de ${season.matches.length} partidos: revisar que la sección de RSSSF sea la de este torneo`);
   return { warnings, problems };
 }
