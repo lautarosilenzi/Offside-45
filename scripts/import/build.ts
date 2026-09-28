@@ -255,7 +255,11 @@ export function translateNote(
       out.text.push(`Suspendido a los ${m[1]} minutos por falta de visibilidad, con ${m[3]}-${m[4]} para ${resolveName(m[2], year)?.name ?? m[2]}; se completó el ${esDate(m[5].replace(/^(\w{3})\w*\s/, "$1 "))}.`);
     } else if ((m = p.match(/^suspended at (\d+)' due to crowd trouble with a penalty awarded to (.+)$/i)))
       out.text.push(`Suspendido a los ${m[1]} minutos por incidentes en la tribuna, con un penal a favor de ${resolveName(m[2], year)?.name ?? m[2]}.`);
-    else if (/^score allowed to stand$/i.test(p)) out.text.push("La liga dio por bueno el resultado.");
+    else if ((m = p.match(/^(?:score|result) allowed to stand(?: on ([A-Z][a-z]{2} \d{1,2}))?$/i)))
+      out.text.push(m[1] ? `El ${esDate(m[1])} la liga dio por bueno el resultado.` : "La liga dio por bueno el resultado.");
+    else if ((m = p.match(/^abandoned at (\d+)-(\d+) in (\d+)\+(\d+)m?$/i)))
+      // 2013: "abandoned at 3-1 in 90+1m".
+      out.text.push(`Suspendido a los ${m[3]}+${m[4]} minutos, con ${m[1]}-${m[2]}.`);
     else if (/^(behind )?closed doors$/i.test(p)) out.text.push("A puertas cerradas.");
     else if ((m = p.match(/^remaining (\d+)m? on ([A-Z][a-z]{2} \d{1,2})$/i))) out.text.push(`Los ${m[1]} minutos que faltaban se jugaron el ${esDate(m[2])}.`);
     else if ((m = p.match(/^score stood at ([A-Z][a-z]{2} \d{1,2})$/i)))

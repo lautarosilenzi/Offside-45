@@ -368,15 +368,24 @@ const ABREV_2001 = {
   "Vélez Sársfield": "velez",
   "Godoy Cruz AT (Mendoza)": "godoy-cruz",
   "Godoy Cruz AT": "godoy-cruz",
+  "Arsenal Fútbol Club": "arsenal",
+  "All Boys (Buenos Aires)": "all-boys",
+  "Quilmes Atlético Club": "quilmes",
+  "Independiente (Avellaneda)": "independiente",
+  "Estudiantes de La Plata": "estudiantes",
+  "Belgrano (Córdoba)": "belgrano",
+  "Atlétido de Rafaela": "atletico-rafaela", // errata de la fuente (2013)
 };
 
 // Apertura y Clausura desde 2002/03: 20 equipos a una rueda, 3 puntos por victoria, tabla al principio de cada torneo.
 type CortoOpts = Omit<Parameters<typeof afaLargaExtra>[3], "tableIndex" | "pointsPerWin">;
-const corto = (y: number, key: "apertura" | "clausura", opts: CortoOpts) =>
-  afaLargaExtra(y, key, key === "apertura" ? "Apertura" : "Clausura", {
+// Desde 2012/13 se llaman Inicial y Final.
+const CORTO_NOMBRE = { apertura: "Apertura", clausura: "Clausura", inicial: "Inicial", final: "Final" } as const;
+const corto = (y: number, key: keyof typeof CORTO_NOMBRE, opts: CortoOpts) =>
+  afaLargaExtra(y, key, CORTO_NOMBRE[key], {
     tableIndex: [0],
     pointsPerWin: 3,
-    ...(key === "clausura" && { rolloverBefore: 13 }),
+    ...((key === "clausura" || key === "final") && { rolloverBefore: 13 }),
     ...opts,
     aliases: { ...ABREV_2001, ...opts.aliases },
   });
@@ -389,6 +398,7 @@ const H_2008 = [/^Torneo Apertura/, /^Championship Playoff$/, /^Topscorers$/, /^
 const H_2009 = [/Apertura 2009$/, /^Topscorer$/, /Clausura 2010$/, /^Topscorers$/, /Relegation Table$/, /^Promotion\/Relegation Playoffs/];
 const H_2010 = [/^Torneo .*Apertura 2010$/, /^Topscorers$/, /^Torneo .*Clausura 2011/, /^Relegation Table$/, /^Playoff Against 19th Place/, /^Promotion\/Relegation Playoffs/, /^Primera B Nacional/];
 const H_2011 = [/^Torneo Apertura 2011$/, /^Torneo Clausura 2012$/, /^Relegation Table/, /^Promotion\/Relegation Playoffs$/, /^Copa Argentina 2011\/12/];
+const H_2012 = [/^Torneo Inicial 2012\/13$/, /^Torneo Final 2012\/13$/, /^Campeonato de Primera División 2012\/13$/, /^Copa Argentina$/];
 const H_2004 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Topscorers Clausura/, /^Promotion\/Relegation Playoffs/];
 // Promoción: series a ida y vuelta entre los dos equipos de Primera con peor promedio (después de los que descendían
 // directo) y equipos del Nacional B. `series`: [ida (fecha, local, visitante), vuelta, quién se quedó o subió, nota].
@@ -3764,5 +3774,42 @@ afaTorneo(1979, "reclasificacion", {
       ["2012-06-28 instituto sanlorenzo", "2012-07-01 sanlorenzo instituto", "sanlorenzo", "San Lorenzo ganó 3-1 en el global y se quedó en Primera."],
     ],
     summary: "San Martín de San Juan (0-0 y 0-0 con Rosario Central, por la ventaja deportiva) y San Lorenzo (3-1 a Instituto) se quedaron en Primera.",
+  }),
+  // ───────── 2012/13: Inicial, Final y final entre los dos campeones ─────────
+  corto(2012, "inicial", {
+    file: "arg2013.html",
+    championIds: ["velez"],
+    wiki: "Anexo:Torneo Inicial 2012 (Argentina)",
+    headings: H_2012,
+    sectionRange: { from: /^Torneo Inicial 2012\/13$/, to: /^Torneo Final 2012\/13$/ },
+    summary: "Vélez ganó el Inicial cinco puntos delante de Newell's y Belgrano.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria. El campeón jugaba una final con el ganador del Final por el título de la temporada." }],
+  }),
+  corto(2012, "final", {
+    file: "arg2013.html",
+    championIds: ["newells"],
+    wiki: "Anexo:Torneo Final 2013 (Argentina)",
+    headings: H_2012,
+    sectionRange: { from: /^Torneo Final 2012\/13$/, to: /^Campeonato de Primera División 2012\/13$/ },
+    summary: "Newell's ganó el Final tres puntos delante de River.",
+    notes: [
+      {
+        kind: "formato",
+        text: "20 equipos a una rueda, 3 puntos por victoria. Desde esta temporada no hubo Promoción: descendieron directamente los tres peores promedios de las últimas tres temporadas (Unión, Independiente y San Martín de San Juan). Independiente perdió la categoría por primera vez en su historia.",
+      },
+    ],
+  }),
+  afaLargaExtra(2012, "campeonato", "Final de campeones", {
+    file: "arg2013.html",
+    championIds: ["velez"],
+    headings: H_2012,
+    sectionRange: { from: /^Campeonato de Primera División 2012\/13$/, to: /^Copa Argentina$/ },
+    aliases: ABREV_2001,
+    rolloverBefore: 13,
+    overrides: {
+      "2013-06-29 velez newells": { phase: "playoff", stage: "Final del campeonato 2012/13", venue: "Estadio Malvinas Argentinas (Mendoza)", note: "Goles: Pratto 8'. Vélez, ganador del Inicial, fue campeón de la temporada 2012/13." },
+    },
+    summary: "Vélez le ganó 1-0 a Newell's en Mendoza y fue campeón de la temporada 2012/13.",
+    notes: [{ kind: "formato", text: "Partido único en cancha neutral entre los ganadores del Inicial (Vélez) y del Final (Newell's)." }],
   }),
 ];
