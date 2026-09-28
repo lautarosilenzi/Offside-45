@@ -350,6 +350,9 @@ const ABREV_2001 = {
   "Gimnasia y Esgrima (LP)": "gimnasia",
   "Gimnasia y Esgrima (J)": "gimnasia-jujuy",
   "Tiro Federal (Rosario)": "tiro-federal-rosario",
+  "Godoy Cruz Antonio Tomba": "godoy-cruz",
+  "Newell's Old Boys (Rosario)": "newells",
+  "Colón (Santa Fe)": "colon-santa-fe",
 };
 
 // Apertura y Clausura desde 2002/03: 20 equipos a una rueda, 3 puntos por victoria, tabla al principio de cada torneo.
@@ -365,6 +368,7 @@ const corto = (y: number, key: "apertura" | "clausura", opts: CortoOpts) =>
 const H_2002 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^General Table/, /^Relegation Playoff$/];
 const H_2003 = [...H_2002, /^Top Scorers/];
 const H_2005 = [/^Torneo Apertura/, /^Relegation Table/, /^Torneo Clausura/, /^Aggregate Table/, /^Promotion\/Relegation Playoff/];
+const H_2006 = [/^Torneo Apertura/, /^Championship Playoff/, /^Topscorers$/, /^Torneo Clausura/, /^Aggregate Table/, /^Promotion\/Relegation Playoff/];
 const H_2004 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Topscorers Clausura/, /^Promotion\/Relegation Playoffs/];
 // Promoción: series a ida y vuelta entre los dos equipos de Primera con peor promedio (después de los que descendían
 // directo) y equipos del Nacional B. `series`: [ida (fecha, local, visitante), vuelta, quién se quedó o subió, nota].
@@ -3386,5 +3390,88 @@ afaTorneo(1979, "reclasificacion", {
     ],
     series: [],
     summary: "Argentinos Juniors se salvó con la ventaja deportiva ante Huracán (3-3 en el global); Belgrano le ganó 4-2 a Olimpo y ascendió.",
+  }),
+  // ───────── 2006/07 ─────────
+  corto(2006, "apertura", {
+    championIds: ["estudiantes"],
+    wiki: "Anexo:Torneo Apertura 2006 (Argentina)",
+    headings: H_2006,
+    sectionRange: { from: /^Torneo Apertura/, to: /^Championship Playoff/ },
+    overrides: {
+      // La nota del Independiente-Racing sigue en los renglones de abajo, junto al San Lorenzo-Newell's.
+      "2006-11-12 independiente racing": { note: "Goles: Montenegro (2). Se suspendió a los 64 minutos, 2-0, por incidentes en la tribuna, y quedó ese resultado." },
+      "2006-11-12 sanlorenzo newells": { note: "Goles: R. Jiménez (2) - Ansaldi." },
+    },
+    summary: "Boca y Estudiantes terminaron igualados en 44 puntos; Estudiantes ganó el desempate 2-1 y fue campeón por primera vez desde 1983.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria. El empate en el primer puesto se definió con un partido desempate en cancha neutral." }],
+  }),
+  afaLargaExtra(2006, "desempate", "Desempate del Apertura", {
+    championIds: ["estudiantes"],
+    headings: H_2006,
+    sectionRange: { from: /^Championship Playoff/, to: /^Topscorers/ },
+    aliases: ABREV_2001,
+    // "Championship Playoff [Dec 13, at Vélez Sarsfield]": la fecha va en el título.
+    skip: () => true,
+    extraMatches: [
+      {
+        id: "2006-07-desempate-001",
+        date: "2006-12-13",
+        stage: "Desempate por el campeonato",
+        phase: "playoff",
+        venue: "Cancha de Vélez Sarsfield",
+        homeId: "boca",
+        awayId: "estudiantes",
+        homeGoals: 1,
+        awayGoals: 2,
+        note: "Goles: Palermo - J. Sosa, Pavone. Estudiantes campeón del Apertura 2006.",
+      },
+    ],
+    summary: "Estudiantes le ganó 2-1 a Boca en cancha de Vélez y fue campeón del Apertura 2006.",
+    notes: [{ kind: "formato", text: "Partido único en cancha neutral entre los dos igualados en el primer puesto del Apertura." }],
+  }),
+  corto(2006, "clausura", {
+    championIds: ["sanlorenzo"],
+    wiki: "Anexo:Torneo Clausura 2007 (Argentina)",
+    headings: H_2006,
+    sectionRange: { from: /^Torneo Clausura/, to: /^Aggregate Table/ },
+    skip: (m) => m.score === "awd",
+    extraMatches: [
+      {
+        id: "2006-07-clausura-extra-1",
+        date: "2007-02-17",
+        stage: "Fecha 2",
+        phase: "league",
+        homeId: "newells",
+        awayId: "river",
+        homeGoals: 0,
+        awayGoals: 2,
+        awardedTo: "river",
+        note: "Se suspendió a los 88 minutos con 1-2; la liga se lo dio 0-2 a River.",
+      },
+    ],
+    wikiErrata: {
+      "RSSSF newells 0-2 river": "Wikipedia da el 1-2 de la cancha; la liga lo dio 0-2 a River, y así lo cuentan las tablas de las dos fuentes.",
+    },
+    overrides: {
+      // La nota del Newell's-River sigue en el renglón del Colón-San Lorenzo.
+      "2007-02-17 colon-santa-fe sanlorenzo": { note: "" },
+    },
+    summary: "San Lorenzo ganó el Clausura seis puntos delante de Boca.",
+    notes: [
+      {
+        kind: "formato",
+        text: "20 equipos a una rueda, 3 puntos por victoria. Descendían directamente los dos peores promedios de las últimas tres temporadas (Belgrano y Quilmes); los dos siguientes (Nueva Chicago y Godoy Cruz) jugaban la Promoción con equipos del Nacional B.",
+      },
+      { kind: "puntos", text: "A Newell's le descontaron 3 puntos de su campaña 2006/07 para el promedio, no en la tabla del Clausura." },
+    ],
+  }),
+  promocion(2006, {
+    headings: H_2006,
+    sectionRange: { from: /^Promotion\/Relegation Playoff/ },
+    series: [
+      ["2007-06-20 huracan godoy-cruz", "2007-06-24 godoy-cruz huracan", "huracan", "Huracán ganó 5-2 en el global: ascendió y descendió Godoy Cruz."],
+      ["2007-06-21 tigre nueva-chicago", "2007-06-25 nueva-chicago tigre", "tigre", "Se suspendió en el minuto 94, con 1-2, y quedó ese resultado. Tigre ganó 3-1 en el global: ascendió y descendió Nueva Chicago."],
+    ],
+    summary: "Huracán (5-2 a Godoy Cruz) y Tigre (3-1 a Nueva Chicago) ascendieron.",
   }),
 ];

@@ -1,0 +1,3248 @@
+{
+ "slug": "2006-07-apertura",
+ "year": 2006,
+ "yearLabel": "2006/07",
+ "league": "Apertura",
+ "title": "Apertura 2006/07",
+ "tournament": "Apertura 2006/07",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "estudiantes"
+ ],
+ "summary": "Boca y Estudiantes terminaron igualados en 44 puntos; Estudiantes ganó el desempate 2-1 y fue campeón por primera vez desde 1983.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2006",
+   "url": "https://www.rsssf.org/tablesa/arg07.html"
+  },
+  {
+   "label": "Wikipedia – Anexo:Torneo Apertura 2006 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Anexo%3ATorneo_Apertura_2006_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "20 equipos a una rueda, 3 puntos por victoria. El empate en el primer puesto se definió con un partido desempate en cancha neutral."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "boca",
+   "played": 19,
+   "won": 14,
+   "drawn": 2,
+   "lost": 3,
+   "goalsFor": 41,
+   "goalsAgainst": 17,
+   "points": 44
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 19,
+   "won": 14,
+   "drawn": 2,
+   "lost": 3,
+   "goalsFor": 35,
+   "goalsAgainst": 12,
+   "points": 44
+  },
+  {
+   "teamId": "river",
+   "played": 19,
+   "won": 11,
+   "drawn": 5,
+   "lost": 3,
+   "goalsFor": 33,
+   "goalsAgainst": 17,
+   "points": 38
+  },
+  {
+   "teamId": "independiente",
+   "played": 19,
+   "won": 10,
+   "drawn": 2,
+   "lost": 7,
+   "goalsFor": 33,
+   "goalsAgainst": 24,
+   "points": 32
+  },
+  {
+   "teamId": "arsenal",
+   "played": 19,
+   "won": 9,
+   "drawn": 5,
+   "lost": 5,
+   "goalsFor": 26,
+   "goalsAgainst": 22,
+   "points": 32
+  },
+  {
+   "teamId": "lanus",
+   "played": 19,
+   "won": 9,
+   "drawn": 4,
+   "lost": 6,
+   "goalsFor": 26,
+   "goalsAgainst": 24,
+   "points": 31
+  },
+  {
+   "teamId": "velez",
+   "played": 19,
+   "won": 8,
+   "drawn": 6,
+   "lost": 5,
+   "goalsFor": 25,
+   "goalsAgainst": 18,
+   "points": 30
+  },
+  {
+   "teamId": "central",
+   "played": 19,
+   "won": 8,
+   "drawn": 4,
+   "lost": 7,
+   "goalsFor": 28,
+   "goalsAgainst": 22,
+   "points": 28
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 19,
+   "won": 8,
+   "drawn": 4,
+   "lost": 7,
+   "goalsFor": 30,
+   "goalsAgainst": 33,
+   "points": 28
+  },
+  {
+   "teamId": "racing",
+   "played": 19,
+   "won": 7,
+   "drawn": 5,
+   "lost": 7,
+   "goalsFor": 22,
+   "goalsAgainst": 19,
+   "points": 26
+  },
+  {
+   "teamId": "gimnasia-jujuy",
+   "played": 19,
+   "won": 8,
+   "drawn": 2,
+   "lost": 9,
+   "goalsFor": 19,
+   "goalsAgainst": 19,
+   "points": 26
+  },
+  {
+   "teamId": "belgrano",
+   "played": 19,
+   "won": 6,
+   "drawn": 5,
+   "lost": 8,
+   "goalsFor": 18,
+   "goalsAgainst": 24,
+   "points": 23
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 19,
+   "won": 7,
+   "drawn": 2,
+   "lost": 10,
+   "goalsFor": 21,
+   "goalsAgainst": 40,
+   "points": 23
+  },
+  {
+   "teamId": "nueva-chicago",
+   "played": 19,
+   "won": 6,
+   "drawn": 4,
+   "lost": 9,
+   "goalsFor": 20,
+   "goalsAgainst": 32,
+   "points": 22
+  },
+  {
+   "teamId": "banfield",
+   "played": 19,
+   "won": 4,
+   "drawn": 8,
+   "lost": 7,
+   "goalsFor": 21,
+   "goalsAgainst": 26,
+   "points": 20
+  },
+  {
+   "teamId": "argentinos",
+   "played": 19,
+   "won": 5,
+   "drawn": 5,
+   "lost": 9,
+   "goalsFor": 22,
+   "goalsAgainst": 28,
+   "points": 20
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 19,
+   "won": 5,
+   "drawn": 3,
+   "lost": 11,
+   "goalsFor": 20,
+   "goalsAgainst": 34,
+   "points": 18
+  },
+  {
+   "teamId": "godoy-cruz",
+   "played": 19,
+   "won": 3,
+   "drawn": 8,
+   "lost": 8,
+   "goalsFor": 19,
+   "goalsAgainst": 26,
+   "points": 17
+  },
+  {
+   "teamId": "newells",
+   "played": 19,
+   "won": 3,
+   "drawn": 7,
+   "lost": 9,
+   "goalsFor": 21,
+   "goalsAgainst": 28,
+   "points": 16
+  },
+  {
+   "teamId": "quilmes",
+   "played": 19,
+   "won": 2,
+   "drawn": 3,
+   "lost": 14,
+   "goalsFor": 23,
+   "goalsAgainst": 38,
+   "points": 9
+  }
+ ],
+ "matches": [
+  {
+   "id": "2006-07-apertura-001",
+   "date": "2006-08-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Facundo Sava (2)."
+  },
+  {
+   "id": "2006-07-apertura-002",
+   "date": "2006-08-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Santiago Raymonda, Juan Pablo Caffa, Lucas Valdemarín / Martín Cardetti."
+  },
+  {
+   "id": "2006-07-apertura-003",
+   "date": "2006-08-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-004",
+   "date": "2006-08-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jonathan Bottinelli."
+  },
+  {
+   "id": "2006-07-apertura-005",
+   "date": "2006-08-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Oscar Cardozo, Santiago Salcedo (2)."
+  },
+  {
+   "id": "2006-07-apertura-006",
+   "date": "2006-08-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jorge Quinteros."
+  },
+  {
+   "id": "2006-07-apertura-007",
+   "date": "2006-08-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mariano Pavone."
+  },
+  {
+   "id": "2006-07-apertura-008",
+   "date": "2006-08-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martín Palermo (2), Sebastián Battaglia."
+  },
+  {
+   "id": "2006-07-apertura-009",
+   "date": "2006-08-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gonzalo Higuaín (2)."
+  },
+  {
+   "id": "2006-07-apertura-010",
+   "date": "2006-08-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jorge Cervera."
+  },
+  {
+   "id": "2006-07-apertura-011",
+   "date": "2006-08-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-013",
+   "date": "2006-08-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Osmar Ferreyra (2), Roberto Jiménez (2), Ezequiel Lavezzi."
+  },
+  {
+   "id": "2006-07-apertura-014",
+   "date": "2006-08-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ariel Garcé / Juan Krupoviesa, Daniel Díaz."
+  },
+  {
+   "id": "2006-07-apertura-015",
+   "date": "2006-08-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rodrigo Díaz, Gastón Machín, Germán Denis / Matías Gigli."
+  },
+  {
+   "id": "2006-07-apertura-016",
+   "date": "2006-08-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-017",
+   "date": "2006-08-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Quilmes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: José Luis Calderón."
+  },
+  {
+   "id": "2006-07-apertura-018",
+   "date": "2006-08-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-019",
+   "date": "2006-08-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-020",
+   "date": "2006-08-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Josemir Lujambio (de penal), Claudio Graf."
+  },
+  {
+   "id": "2006-07-apertura-021",
+   "date": "2006-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Empezó el 12/8 y se suspendió a los 17 minutos con 0-0; el resto se jugó en esta fecha. Goles: Franco Mendoza, Mauro Poy / Santiago Raymonda."
+  },
+  {
+   "id": "2006-07-apertura-022",
+   "date": "2006-08-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martín Andrizzi / Cristian González (de penal)."
+  },
+  {
+   "id": "2006-07-apertura-023",
+   "date": "2006-08-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Matías Gigli, Ezequiel Arriola / Pablo Quatrocchi, Ezequiel Lavezzi."
+  },
+  {
+   "id": "2006-07-apertura-024",
+   "date": "2006-08-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Matías Silvestre."
+  },
+  {
+   "id": "2006-07-apertura-025",
+   "date": "2006-08-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mauro Obolo, Santiago Raymonda."
+  },
+  {
+   "id": "2006-07-apertura-026",
+   "date": "2006-08-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mauro Zárate."
+  },
+  {
+   "id": "2006-07-apertura-027",
+   "date": "2006-08-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-028",
+   "date": "2006-08-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mariano Pavone (2)."
+  },
+  {
+   "id": "2006-07-apertura-029",
+   "date": "2006-08-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marcelo Quinteros, Gabriel Ramón, Ariel Colzera / Diego Herner."
+  },
+  {
+   "id": "2006-07-apertura-030",
+   "date": "2006-08-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marcos Aguirre."
+  },
+  {
+   "id": "2006-07-apertura-031",
+   "date": "2006-08-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gonzalo Bergessio, Facundo Sava, Adrián Bastía / Ariel Ortega."
+  },
+  {
+   "id": "2006-07-apertura-032",
+   "date": "2006-08-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Claudio Graf / Marco Ruben, Leonardo Borzani."
+  },
+  {
+   "id": "2006-07-apertura-033",
+   "date": "2006-08-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-034",
+   "date": "2006-08-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-035",
+   "date": "2006-08-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Hernán Mattiuzzo, Mariano Donda / Pablo Giménez (de penal)."
+  },
+  {
+   "id": "2006-07-apertura-036",
+   "date": "2006-08-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-037",
+   "date": "2006-08-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Daniel Montenegro (2) / Héctor Silva."
+  },
+  {
+   "id": "2006-07-apertura-038",
+   "date": "2006-08-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Quilmes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Juan Sebastián Verón / Paolo Frangipane, Juan José Serrizuela."
+  },
+  {
+   "id": "2006-07-apertura-039",
+   "date": "2006-08-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 7,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-040",
+   "date": "2006-08-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Andrés Guglielminpietro, Luciano Leguizamón (2) / Claudio Enría (2)."
+  },
+  {
+   "id": "2006-07-apertura-041",
+   "date": "2006-08-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gonzalo Higuaín."
+  },
+  {
+   "id": "2006-07-apertura-042",
+   "date": "2006-09-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-043",
+   "date": "2006-09-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Paulo Wanchope (2) / Emiliano Armenteros, Daniel Montenegro."
+  },
+  {
+   "id": "2006-07-apertura-044",
+   "date": "2006-09-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marcos Galarza / Andrés Silvera (2)."
+  },
+  {
+   "id": "2006-07-apertura-045",
+   "date": "2006-09-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lucas Castromán, Mauro Zárate (2)."
+  },
+  {
+   "id": "2006-07-apertura-046",
+   "date": "2006-09-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gastón Esmerado (2)."
+  },
+  {
+   "id": "2006-07-apertura-047",
+   "date": "2006-09-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gustavo Balvorín, Darío Gandín (2)."
+  },
+  {
+   "id": "2006-07-apertura-048",
+   "date": "2006-09-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marcos Aguirre."
+  },
+  {
+   "id": "2006-07-apertura-049",
+   "date": "2006-09-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rodrigo Palacio, Martín Palermo."
+  },
+  {
+   "id": "2006-07-apertura-050",
+   "date": "2006-09-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Juan José Serrizuela."
+  },
+  {
+   "id": "2006-07-apertura-051",
+   "date": "2006-09-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fernando Belluschi, Ariel Ortega (de penal)."
+  },
+  {
+   "id": "2006-07-apertura-052",
+   "date": "2006-09-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Quilmes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-053",
+   "date": "2006-09-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Darío Bottinelli, Andrés Silvera (2) / Marco Ruben."
+  },
+  {
+   "id": "2006-07-apertura-054",
+   "date": "2006-09-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mauro Zárate, Ariel Broggi."
+  },
+  {
+   "id": "2006-07-apertura-055",
+   "date": "2006-09-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gonzalo Bergessio, Sebastián Romero / Leonel Nuñez (3)."
+  },
+  {
+   "id": "2006-07-apertura-056",
+   "date": "2006-09-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Enzo Pérez / Mariano Campodónico."
+  },
+  {
+   "id": "2006-07-apertura-057",
+   "date": "2006-09-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-058",
+   "date": "2006-09-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gonzalo Higuaín, Paulo Ferrari / José Chatruc."
+  },
+  {
+   "id": "2006-07-apertura-059",
+   "date": "2006-09-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Federico Higuaín."
+  },
+  {
+   "id": "2006-07-apertura-060",
+   "date": "2006-09-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Germán Rivera, Oscar Cardozo / Mauro Obolo, Carlos Castiglione."
+  },
+  {
+   "id": "2006-07-apertura-061",
+   "date": "2006-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Se jugaron los 45 minutos que faltaban."
+  },
+  {
+   "id": "2006-07-apertura-062",
+   "date": "2006-09-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pablo Giménez, Fernando Crosa / Oscar Cardozo (3)."
+  },
+  {
+   "id": "2006-07-apertura-063",
+   "date": "2006-09-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-064",
+   "date": "2006-09-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gabriel Hauche / Sebastián Salomón, Claudio Graf, Rodrigo Archubi."
+  },
+  {
+   "id": "2006-07-apertura-066",
+   "date": "2006-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Paulo Wanchope."
+  },
+  {
+   "id": "2006-07-apertura-067",
+   "date": "2006-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-068",
+   "date": "2006-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Andrés Silvera."
+  },
+  {
+   "id": "2006-07-apertura-069",
+   "date": "2006-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Darío Gandín / Fernando Belluschi, Nicolás Domingo."
+  },
+  {
+   "id": "2006-07-apertura-070",
+   "date": "2006-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mariano Campodónico / César Carranza."
+  },
+  {
+   "id": "2006-07-apertura-071",
+   "date": "2006-09-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-072",
+   "date": "2006-10-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Empezó el 16/9 y se suspendió a los 42 minutos con 1-0; el resto se jugó en esta fecha. Goles: Sebastián Malandra."
+  },
+  {
+   "id": "2006-07-apertura-073",
+   "date": "2006-09-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Quilmes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: José Luis Calderón, Agustín Alayes / Ismael Sosa."
+  },
+  {
+   "id": "2006-07-apertura-074",
+   "date": "2006-09-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Leonel Nuñez / Juan Pablo Caffa, Lucas Valdemarín."
+  },
+  {
+   "id": "2006-07-apertura-075",
+   "date": "2006-09-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lucas Castromán, Iván Moreno y Fabianesi."
+  },
+  {
+   "id": "2006-07-apertura-076",
+   "date": "2006-09-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maximiliano Velázquez (2)."
+  },
+  {
+   "id": "2006-07-apertura-077",
+   "date": "2006-09-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alfredo González (og)."
+  },
+  {
+   "id": "2006-07-apertura-078",
+   "date": "2006-09-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Santiago Salcedo."
+  },
+  {
+   "id": "2006-07-apertura-079",
+   "date": "2006-09-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Hernán Buján / Silvio González, Josemir Lujambio, Fabián Santana."
+  },
+  {
+   "id": "2006-07-apertura-080",
+   "date": "2006-09-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Germán Alemanno."
+  },
+  {
+   "id": "2006-07-apertura-081",
+   "date": "2006-09-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Neri Cardozo."
+  },
+  {
+   "id": "2006-07-apertura-082",
+   "date": "2006-09-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Federico Domínguez / Rubén Ramírez."
+  },
+  {
+   "id": "2006-07-apertura-083",
+   "date": "2006-09-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rubén Ramírez / Carlos Araujo."
+  },
+  {
+   "id": "2006-07-apertura-084",
+   "date": "2006-09-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Facundo Sava (2), Maximiliano Moralez."
+  },
+  {
+   "id": "2006-07-apertura-085",
+   "date": "2006-09-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pablo Álvarez."
+  },
+  {
+   "id": "2006-07-apertura-086",
+   "date": "2006-09-30",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Silvio González / Federico Higuain."
+  },
+  {
+   "id": "2006-07-apertura-087",
+   "date": "2006-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Javier Yacuzzi / Rodrigo Archubi."
+  },
+  {
+   "id": "2006-07-apertura-088",
+   "date": "2006-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ismael Sosa, Daniel Montenegro, Sergio Orteman."
+  },
+  {
+   "id": "2006-07-apertura-089",
+   "date": "2006-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: José Chatruc, Eduardo Bustos Montoya / Juan Avendaño, Leonel Núñez."
+  },
+  {
+   "id": "2006-07-apertura-090",
+   "date": "2006-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cristian González / Luis Torresi."
+  },
+  {
+   "id": "2006-07-apertura-091",
+   "date": "2006-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-092",
+   "date": "2006-10-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ezequiel Arriola / Marcelo Gallardo (de penal)."
+  },
+  {
+   "id": "2006-07-apertura-093",
+   "date": "2006-10-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marco Ruben, Gonzalo Belloso, Leonardo Borzani."
+  },
+  {
+   "id": "2006-07-apertura-094",
+   "date": "2006-10-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-095",
+   "date": "2006-10-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Leonel Núñez, Gabriel Hauche / Gustavo Balvorín."
+  },
+  {
+   "id": "2006-07-apertura-096",
+   "date": "2006-10-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Alejandro Gómez, Lucas Valdemarín / Diego Torres."
+  },
+  {
+   "id": "2006-07-apertura-097",
+   "date": "2006-10-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mauro Poy, Hernán Buján, Diego Villar / Daniel Montenegro."
+  },
+  {
+   "id": "2006-07-apertura-098",
+   "date": "2006-10-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mariano Uglessich, Mauro Zárate / Cristian Bardaro (2)."
+  },
+  {
+   "id": "2006-07-apertura-099",
+   "date": "2006-10-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mariano Pavone (2), Juan Cominges."
+  },
+  {
+   "id": "2006-07-apertura-100",
+   "date": "2006-10-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maximiliano Moralez, Gonzalo Bergessio / Germán Rivarola."
+  },
+  {
+   "id": "2006-07-apertura-101",
+   "date": "2006-10-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Franco Peppino."
+  },
+  {
+   "id": "2006-07-apertura-102",
+   "date": "2006-10-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gonzalo Higuain (2), Ernesto Farías / Rodrigo Palacio."
+  },
+  {
+   "id": "2006-07-apertura-103",
+   "date": "2006-10-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marco Ruben / Hernán Pellerano, Mauro Zárate."
+  },
+  {
+   "id": "2006-07-apertura-104",
+   "date": "2006-10-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rubén Ramírez (2) Giovanni Hernández (de penal) / Franco Niell."
+  },
+  {
+   "id": "2006-07-apertura-105",
+   "date": "2006-10-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ismael Sosa (3) / Federico Higuain (2)."
+  },
+  {
+   "id": "2006-07-apertura-106",
+   "date": "2006-10-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sebastián Rusculleda / Sebastián Hoyos, Diego Manicero."
+  },
+  {
+   "id": "2006-07-apertura-107",
+   "date": "2006-10-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-108",
+   "date": "2006-10-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-109",
+   "date": "2006-10-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maximiliano Moralez."
+  },
+  {
+   "id": "2006-07-apertura-110",
+   "date": "2006-10-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Andrés Silvera, Ezequiel Lavezzi, Cristian Tula."
+  },
+  {
+   "id": "2006-07-apertura-111",
+   "date": "2006-10-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ernesto Farías."
+  },
+  {
+   "id": "2006-07-apertura-112",
+   "date": "2006-10-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-113",
+   "date": "2006-10-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cristian Pellerano (2) / Jonathan Bottinelli."
+  },
+  {
+   "id": "2006-07-apertura-114",
+   "date": "2006-10-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jorge Ortiz, Lucas Valdemarín / Freddy Grisales."
+  },
+  {
+   "id": "2006-07-apertura-115",
+   "date": "2006-10-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mariano Uglessich, Iván Moreno y Fabianesi / Germán Denis."
+  },
+  {
+   "id": "2006-07-apertura-116",
+   "date": "2006-10-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gustavo Pinto / Agustín Alayes, José Sosa, Mariano Pavone."
+  },
+  {
+   "id": "2006-07-apertura-117",
+   "date": "2006-10-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Santiago Silva."
+  },
+  {
+   "id": "2006-07-apertura-118",
+   "date": "2006-10-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sebastián Rusculleda, Diego Torres (de penal)."
+  },
+  {
+   "id": "2006-07-apertura-119",
+   "date": "2006-10-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-120",
+   "date": "2006-10-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Leonel Núñez, Sebastián Carrera / Paolo Frangipane."
+  },
+  {
+   "id": "2006-07-apertura-121",
+   "date": "2006-10-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marcelo Gallardo (de penal), Radamel Falcao García."
+  },
+  {
+   "id": "2006-07-apertura-122",
+   "date": "2006-11-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-123",
+   "date": "2006-10-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gustavo Balvorín (2)."
+  },
+  {
+   "id": "2006-07-apertura-124",
+   "date": "2006-10-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mariano Pavone, Adrián González (og) / Federico Higuain."
+  },
+  {
+   "id": "2006-07-apertura-125",
+   "date": "2006-10-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Osmar Ferreyra, Roberto Jiménez / Mauro Zárate (2)."
+  },
+  {
+   "id": "2006-07-apertura-126",
+   "date": "2006-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-127",
+   "date": "2006-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lucas Landa (2) / Franco Mendoza."
+  },
+  {
+   "id": "2006-07-apertura-128",
+   "date": "2006-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-129",
+   "date": "2006-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mauro Obolo."
+  },
+  {
+   "id": "2006-07-apertura-130",
+   "date": "2006-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-131",
+   "date": "2006-10-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Juan Krupoviesa, Mauro Boselli / Sebastián Carrera."
+  },
+  {
+   "id": "2006-07-apertura-132",
+   "date": "2006-11-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ricardo Pagés, Martín Andrizzi (2) / Loenardo Grimi, Luis Benítez."
+  },
+  {
+   "id": "2006-07-apertura-133",
+   "date": "2006-11-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Leonel Núñez / Josemir Lujambio."
+  },
+  {
+   "id": "2006-07-apertura-134",
+   "date": "2006-11-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gonzalo Bergessio / Ricardo Moreira."
+  },
+  {
+   "id": "2006-07-apertura-135",
+   "date": "2006-11-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Agustín Alayes."
+  },
+  {
+   "id": "2006-07-apertura-136",
+   "date": "2006-11-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Germán Denis."
+  },
+  {
+   "id": "2006-07-apertura-137",
+   "date": "2006-11-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Víctor Zapata (2) Ernesto Farías (2), Ariel Ortega."
+  },
+  {
+   "id": "2006-07-apertura-138",
+   "date": "2006-11-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gustavo Balvorín, Marcelo Quinteros."
+  },
+  {
+   "id": "2006-07-apertura-139",
+   "date": "2006-11-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Omar Zarif, Federico Higuain / Santiago Silva (2)."
+  },
+  {
+   "id": "2006-07-apertura-140",
+   "date": "2006-11-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-141",
+   "date": "2006-11-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-142",
+   "date": "2006-11-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Santiago Raymonda / Mauro Boselli, Rodrigo Palacio."
+  },
+  {
+   "id": "2006-07-apertura-143",
+   "date": "2006-11-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Silvio González / Alejandro Gómez, Juan Pablo Caffa."
+  },
+  {
+   "id": "2006-07-apertura-144",
+   "date": "2006-11-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-145",
+   "date": "2006-11-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Emiliano Papa, Maximiliano Pellegrino, Mauro Zárate."
+  },
+  {
+   "id": "2006-07-apertura-146",
+   "date": "2006-11-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Darío Gandín."
+  },
+  {
+   "id": "2006-07-apertura-147",
+   "date": "2006-11-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Damián Ledesma (2) / Gonzalo Choy."
+  },
+  {
+   "id": "2006-07-apertura-148",
+   "date": "2006-11-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gastón Esmerado / Lautaro Acosta, Claudio Graf, Sebastián Leto."
+  },
+  {
+   "id": "2006-07-apertura-149",
+   "date": "2006-11-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martín Palermo (2), Rodrigo Palacio / Sebastián Rusculleda."
+  },
+  {
+   "id": "2006-07-apertura-150",
+   "date": "2006-11-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "nueva-chicago",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Diego Villar (2), Mariano Torresi (de penal), Gabriel Vallés."
+  },
+  {
+   "id": "2006-07-apertura-151",
+   "date": "2006-11-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Montenegro (2). Se suspendió a los 64 minutos, 2-0, por incidentes en la tribuna, y quedó ese resultado."
+  },
+  {
+   "id": "2006-07-apertura-152",
+   "date": "2006-11-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: R. Jiménez (2) - Ansaldi."
+  },
+  {
+   "id": "2006-07-apertura-153",
+   "date": "2006-11-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gonzalo Choy, Germán Denis (og)."
+  },
+  {
+   "id": "2006-07-apertura-154",
+   "date": "2006-11-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Andrés Pérez."
+  },
+  {
+   "id": "2006-07-apertura-155",
+   "date": "2006-11-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mauro Zárate (2)."
+  },
+  {
+   "id": "2006-07-apertura-156",
+   "date": "2006-11-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Claudio Graf."
+  },
+  {
+   "id": "2006-07-apertura-157",
+   "date": "2006-11-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Oscar Cardozo (de penal) / José Calderón, Pablo Piatti."
+  },
+  {
+   "id": "2006-07-apertura-158",
+   "date": "2006-11-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Claudio Enría, Rubén Ramírez."
+  },
+  {
+   "id": "2006-07-apertura-159",
+   "date": "2006-11-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Diego Torres (de penal) / Darío Cvitanich (2)."
+  },
+  {
+   "id": "2006-07-apertura-160",
+   "date": "2006-11-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Marcelo Gallardo, Gonzalo Higuaín."
+  },
+  {
+   "id": "2006-07-apertura-161",
+   "date": "2006-11-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gabriel Ramón / Neri Cardozo, Daniel Díaz."
+  },
+  {
+   "id": "2006-07-apertura-162",
+   "date": "2007-02-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-163",
+   "date": "2006-11-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-164",
+   "date": "2006-11-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-165",
+   "date": "2006-11-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Federico Higuaín / Juan Manuel Varea."
+  },
+  {
+   "id": "2006-07-apertura-166",
+   "date": "2006-11-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Diego Galván, Gonzalo Saucedo."
+  },
+  {
+   "id": "2006-07-apertura-167",
+   "date": "2006-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Leandro Gioda (2) / Santiago Raymonda."
+  },
+  {
+   "id": "2006-07-apertura-168",
+   "date": "2006-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fernando Belluschi."
+  },
+  {
+   "id": "2006-07-apertura-169",
+   "date": "2006-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mariano Bolatti / Marcos Aguirre."
+  },
+  {
+   "id": "2006-07-apertura-170",
+   "date": "2006-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lucas Landa, Santiago Silva / Cristian Ansaldi."
+  },
+  {
+   "id": "2006-07-apertura-171",
+   "date": "2006-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cristian Lucchetti / Darío Gandín, Ricardo Gómez."
+  },
+  {
+   "id": "2006-07-apertura-172",
+   "date": "2006-11-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Nery Cardozo, Guillermo Marino, Rodrigo Palacio (2) / Giovanni Hernández."
+  },
+  {
+   "id": "2006-07-apertura-173",
+   "date": "2006-12-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bustos Montoya / David Abraham, Sergio Orteman, German Denis."
+  },
+  {
+   "id": "2006-07-apertura-174",
+   "date": "2006-12-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Santiago Hoyos, Agustín Pelletieri."
+  },
+  {
+   "id": "2006-07-apertura-175",
+   "date": "2006-12-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lucas Valdemarín (2) / Pablo Quatrocchi, Andrés Silvera."
+  },
+  {
+   "id": "2006-07-apertura-176",
+   "date": "2006-12-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rubén Ramírez, Claudio Enría, Freddy Grisales."
+  },
+  {
+   "id": "2006-07-apertura-177",
+   "date": "2006-12-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Facundo Sava (2), Gonzalo Bergessio / Santiago Silvai."
+  },
+  {
+   "id": "2006-07-apertura-178",
+   "date": "2006-12-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Santiago Salcedo, Oscar Cardozo / Mariano Torresi, Mauro Poy."
+  },
+  {
+   "id": "2006-07-apertura-179",
+   "date": "2006-12-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ernesto Farías / Federico Higuaín, Jorge Martínez."
+  },
+  {
+   "id": "2006-07-apertura-180",
+   "date": "2006-12-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Javier García."
+  },
+  {
+   "id": "2006-07-apertura-181",
+   "date": "2006-12-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Franco Peppino."
+  },
+  {
+   "id": "2006-07-apertura-182",
+   "date": "2006-12-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jorge Quinteros, Choy González / Mariano Pavone, Juan S. Verón."
+  },
+  {
+   "id": "2006-07-apertura-183",
+   "date": "2006-12-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Federico González / Gustavo Balvorín, Darío Gandín."
+  },
+  {
+   "id": "2006-07-apertura-184",
+   "date": "2006-12-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-185",
+   "date": "2006-12-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-186",
+   "date": "2006-12-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Héctor Romero."
+  },
+  {
+   "id": "2006-07-apertura-187",
+   "date": "2006-12-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Jorge Martínez, Federico Higuaín (de penal) / Oscar Cardozo."
+  },
+  {
+   "id": "2006-07-apertura-188",
+   "date": "2006-12-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Germán Alemano, Paulo Wanchope, Emilio Zelaya."
+  },
+  {
+   "id": "2006-07-apertura-189",
+   "date": "2006-12-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lucas Castromán / Gonzalo Higuaín."
+  },
+  {
+   "id": "2006-07-apertura-190",
+   "date": "2006-12-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Agustín Alayes, Mariano Pavone."
+  },
+  {
+   "id": "2006-07-apertura-191",
+   "date": "2006-12-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2006-07-apertura-192",
+   "date": "2006-12-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Martín Palermo (de penal) / Claudio Graf, Rodrigo Archubi."
+  }
+ ]
+}

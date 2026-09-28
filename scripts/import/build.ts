@@ -120,6 +120,8 @@ export function translateNote(
     // "not continued, Banfield won points" → dos partes; "on Aug 19, Sportsman won points" → sin la fecha.
     .replace(/,\s*([^,\]]+ (?:won|lost) (?:the )?points)/gi, "; $1")
     .replace(/\bon [A-Z][a-z]{2} \d{1,2}(?:, \d{4})?,\s*(?=[^,\]]+ (?:won|lost) (?:the )?points)/g, "")
+    // 1949: "remaining 32m on Sep 14, Independiente, Avellaneda": el dato y la cancha van por separado.
+    .replace(/((?:remaining \d+m?|annulled|score stood at) (?:on )?[A-Z][a-z]{2} \d{1,2}),\s*(?=[^,]+,\s*(?:Buenos Aires|Rosario|La Plata|Avellaneda|Montevideo)$)/g, "$1; ")
     // "HT, score stood" va junto (lo traduce una sola regla); "see Jul 17", "remaining 49 on…" e "in extra time…" van aparte.
     // La cancha al final ("…, Racing, Avellaneda, B") también va aparte del texto que la precede.
     .split(
@@ -171,7 +173,8 @@ export function translateNote(
     } else if ((m = p.match(/^annulled on (.+)$/i))) {
       out.annulled = true;
       out.text.push(`Anulado el ${esDate(m[1])}; se volvió a jugar.`);
-    } else if ((m = p.match(/^at (.+)$/i))) {
+    } else if ((m = p.match(/^at (.+)$/i)) && !/^\d+\s*[-:]\s*\d+\b/.test(m[1])) {
+      // "at 1-2 in 88'" (resto de una nota que siguió en el renglón de abajo, 2007) no es una cancha.
       const club = resolveName(m[1].replace(/\s*\(.*\)$/, ""), year);
       // "at Rosario", "at Campana" (y "at Palermo" antes de que existiera el club): la ciudad o el barrio.
       if (club) out.venue = `Cancha de ${club.as ?? club.name}`;
@@ -245,6 +248,8 @@ export function translateNote(
     } else if ((m = p.match(/^suspended at (\d+)' due to crowd trouble with a penalty awarded to (.+)$/i)))
       out.text.push(`Suspendido a los ${m[1]} minutos por incidentes en la tribuna, con un penal a favor de ${resolveName(m[2], year)?.name ?? m[2]}.`);
     else if (/^score allowed to stand$/i.test(p)) out.text.push("La liga dio por bueno el resultado.");
+    else if ((m = p.match(/^remaining (\d+)m? on ([A-Z][a-z]{2} \d{1,2})$/i))) out.text.push(`Los ${m[1]} minutos que faltaban se jugaron el ${esDate(m[2])}.`);
+    else if ((m = p.match(/^score stood at ([A-Z][a-z]{2} \d{1,2})$/i))) out.text.push(`El ${esDate(m[1])} la liga dio por bueno el resultado.`);
     else if (/^agg:? \d+-\d+$/i.test(p)) continue;
     else if ((m = p.match(/^(.+?) (\d+) players left$/i))) {
       // "Banfield 6 players left" (1996): se quedó sin el mínimo de jugadores.
@@ -989,7 +994,9 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     if (moved && /Fecha dudosa en la fuente\./.test(rest.note ?? "")) what = what.replace(/\.$/, " (fecha dudosa en la fuente).");
     const drop = moved ? /(Resuelto por la liga\.|Se jugaron los \d+ minutos que faltaban\.|Fecha dudosa en la fuente\.)\s*/g : /(Resuelto por la liga\.|Se jugaron los \d+ minutos que faltaban\.)\s*/g;
     // Lo que traía la fila suspendida (goleadores, cancha) se conserva.
-    rest.note = [what, rest.note?.replace(drop, "").trim(), g[4]].filter(Boolean).join(" ");
+    // Si las dos filas traen los mismos goleadores (2006: Colón-Vélez), van una sola vez.
+    const kept = rest.note?.replace(drop, "").trim();
+    rest.note = [what, kept, g[4] && !kept?.includes(g[4].trim()) ? g[4] : undefined].filter(Boolean).join(" ");
     if (!rest.venue && part.venue) rest.venue = part.venue;
     matches.splice(matches.indexOf(part), 1);
   }

@@ -1,0 +1,87 @@
+{
+ "slug": "2006-07-promocion",
+ "year": 2006,
+ "yearLabel": "2006/07",
+ "league": "Promoción",
+ "title": "Promoción 2006/07",
+ "tournament": "Promoción 2006/07",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Huracán (5-2 a Godoy Cruz) y Tigre (3-1 a Nueva Chicago) ascendieron.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2006",
+   "url": "https://www.rsssf.org/tablesa/arg07.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Series a ida y vuelta entre equipos de Primera con mal promedio y equipos del Nacional B. Con el global empatado, se quedaba el equipo de Primera."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "2006-07-promocion-001",
+   "date": "2007-06-20",
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "huracan",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2006-07-promocion-002",
+   "date": "2007-06-21",
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "tigre",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2006-07-promocion-003",
+   "date": "2007-06-24",
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "stage": "Promoción (vuelta)",
+   "phase": "playoff",
+   "homeId": "godoy-cruz",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "huracan",
+   "note": "Huracán ganó 5-2 en el global: ascendió y descendió Godoy Cruz."
+  },
+  {
+   "id": "2006-07-promocion-004",
+   "date": "2007-06-25",
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "stage": "Promoción (vuelta)",
+   "phase": "playoff",
+   "homeId": "nueva-chicago",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "tigre",
+   "note": "Se suspendió en el minuto 94, con 1-2, y quedó ese resultado. Tigre ganó 3-1 en el global: ascendió y descendió Nueva Chicago."
+  }
+ ]
+}
