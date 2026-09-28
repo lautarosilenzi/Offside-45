@@ -266,11 +266,12 @@ const afaLarga = (
   aliases: { Gimnasia: "gimnasia", Vélez: "velez", Ferro: "ferro", Chacarita: "chacarita", Estudiantes: "estudiantes", Talleres: "talleres", ...rest.aliases },
 });
 // Torneos de la misma temporada (Liguilla Pre-Libertadores, Octogonal): sin tabla, todo es eliminación.
+// `file` se puede cambiar: 2009/10 está en arg2010.html (arg10.html es 1910).
 const afaLargaExtra = (
   y: number,
   key: string,
   name: string,
-  rest: Omit<TournamentConfig, "slug" | "year" | "file" | "competition" | "organizer" | "title" | "tournament" | "league"> & { tournament?: string },
+  rest: Omit<TournamentConfig, "slug" | "year" | "file" | "competition" | "organizer" | "title" | "tournament" | "league"> & { tournament?: string; file?: string },
 ): TournamentConfig => ({
   ...afaLarga(y, { championIds: [], summary: "", notes: [] }),
   slug: `${y}-${String(y + 1).slice(2)}-${key}`,
@@ -360,6 +361,10 @@ const ABREV_2001 = {
   "San Martín-SJ": "san-martin-sj",
   "Godoy Cruz (Godoy Cruz)": "godoy-cruz",
   "San Martín (Tucumán)": "san-martin-tucuman",
+  "Atl. Tucumán": "atletico-tucuman",
+  "Atlético Tucumán (Tucumán)": "atletico-tucuman",
+  "Gimnasia y Esgrima LP": "gimnasia",
+  "Estudiantes LP": "estudiantes",
 };
 
 // Apertura y Clausura desde 2002/03: 20 equipos a una rueda, 3 puntos por victoria, tabla al principio de cada torneo.
@@ -378,6 +383,7 @@ const H_2005 = [/^Torneo Apertura/, /^Relegation Table/, /^Torneo Clausura/, /^A
 const H_2006 = [/^Torneo Apertura/, /^Championship Playoff/, /^Topscorers$/, /^Torneo Clausura/, /^Aggregate Table/, /^Promotion\/Relegation Playoff/];
 const H_2007 = [/^Apertura 2007$/, /^Clausura 2008$/, /^Topscorers$/, /^Promotion\/Relegation Playoffs/];
 const H_2008 = [/^Torneo Apertura/, /^Championship Playoff$/, /^Topscorers$/, /^Torneo Clausura/, /^Promotion\/Relegation Playoffs/];
+const H_2009 = [/Apertura 2009$/, /^Topscorer$/, /Clausura 2010$/, /^Topscorers$/, /Relegation Table$/, /^Promotion\/Relegation Playoffs/];
 const H_2004 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Topscorers Clausura/, /^Promotion\/Relegation Playoffs/];
 // Promoción: series a ida y vuelta entre los dos equipos de Primera con peor promedio (después de los que descendían
 // directo) y equipos del Nacional B. `series`: [ida (fecha, local, visitante), vuelta, quién se quedó o subió, nota].
@@ -387,7 +393,10 @@ const PROMO_FORMATO = {
 };
 const promocion = (
   y: number,
-  opts: Omit<CortoOpts, "overrides" | "championIds"> & { series: [ida: string, vuelta: string, advancedId: string, note: string][] },
+  opts: Omit<CortoOpts, "overrides" | "championIds" | "notes"> & {
+    notes?: CortoOpts["notes"];
+    series: [ida: string, vuelta: string, advancedId: string, note: string][];
+  },
 ) => {
   const { series, ...rest } = opts;
   return afaLargaExtra(y, "promocion", "Promoción", {
@@ -3591,5 +3600,44 @@ afaTorneo(1979, "reclasificacion", {
     ],
     series: [],
     summary: "Rosario Central (2-1 a Belgrano) se quedó en Primera; Gimnasia y Esgrima La Plata perdió 3-0 en Rafaela, lo dio vuelta 3-0 en la vuelta y se salvó por la ventaja deportiva.",
+  }),
+  // ───────── 2009/10 (arg2010.html; arg10.html es 1910) ─────────
+  corto(2009, "apertura", {
+    file: "arg2010.html",
+    championIds: ["banfield"],
+    wiki: "Anexo:Torneo Apertura 2009 (Argentina)",
+    headings: H_2009,
+    sectionRange: { from: /Apertura 2009$/, to: /^Topscorer$/ },
+    summary: "Banfield ganó el Apertura dos puntos delante de Newell's: el primer título de liga de su historia.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria." }],
+  }),
+  corto(2009, "clausura", {
+    file: "arg2010.html",
+    championIds: ["argentinos"],
+    wiki: "Anexo:Torneo Clausura 2010 (Argentina)",
+    headings: H_2009,
+    sectionRange: { from: /Clausura 2010$/, to: /^Topscorers$/ },
+    summary: "Argentinos Juniors ganó el Clausura un punto delante de Estudiantes: su primer título de liga desde 1985.",
+    notes: [
+      {
+        kind: "formato",
+        text: "20 equipos a una rueda, 3 puntos por victoria. Descendían directamente los dos peores promedios de las últimas tres temporadas (Atlético Tucumán y Chacarita); los dos siguientes (Rosario Central y Gimnasia y Esgrima La Plata) jugaban la Promoción con equipos del Nacional B.",
+      },
+    ],
+  }),
+  promocion(2009, {
+    file: "arg2010.html",
+    headings: H_2009,
+    sectionRange: { from: /^Promotion\/Relegation Playoffs/ },
+    // La fecha va en el título de cada ronda: los cuatro partidos se cargan a mano.
+    skip: () => true,
+    extraMatches: [
+      { id: "2009-10-promocion-001", date: "2010-05-19", stage: "Promoción (ida)", phase: "playoff", homeId: "all-boys", awayId: "central", homeGoals: 1, awayGoals: 1 },
+      { id: "2009-10-promocion-002", date: "2010-05-19", stage: "Promoción (ida)", phase: "playoff", homeId: "atletico-rafaela", awayId: "gimnasia", homeGoals: 1, awayGoals: 0 },
+      { id: "2009-10-promocion-003", date: "2010-05-23", stage: "Promoción (vuelta)", phase: "playoff", homeId: "central", awayId: "all-boys", homeGoals: 0, awayGoals: 3, advancedId: "all-boys", note: "All Boys ganó 4-1 en el global: ascendió y descendió Rosario Central." },
+      { id: "2009-10-promocion-004", date: "2010-05-23", stage: "Promoción (vuelta)", phase: "playoff", homeId: "gimnasia", awayId: "atletico-rafaela", homeGoals: 3, awayGoals: 1, advancedId: "gimnasia", note: "Gimnasia y Esgrima La Plata ganó 3-2 en el global y se quedó en Primera." },
+    ],
+    series: [],
+    summary: "All Boys le ganó 4-1 a Rosario Central, que descendió por primera vez desde 1984; Gimnasia y Esgrima La Plata (3-2 a Atlético de Rafaela) se quedó en Primera.",
   }),
 ];

@@ -448,7 +448,16 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
     const m = normalized.match(MATCH_RE);
     // "11.Chacarita Juniors   -    -   28   28.00": fila de la tabla de promedios, no un partido.
     if (m && !/^(No\.|Table|Note|Round)/i.test(m[1]) && !/^\d+\.\s?\S/.test(m[1].trim())) {
-      const { away, note, awarded } = splitAway(m[3]);
+      const split = splitAway(m[3]);
+      const { away, awarded } = split;
+      let { note } = split;
+      // 2005–2010: "[abandoned at 0-0" en un partido y "in 7' due to rain]" en el renglón de abajo, que es otro partido:
+      // el resto de la nota vuelve al partido anterior.
+      const prev = cur.matches[cur.matches.length - 1];
+      if (prev && /\[[^\]]*$/.test(prev.note) && note && !note.includes("[") && /\]\s*$/.test(note) && !/\]\s*$/.test(note.replace(/\]\s*$/, "")) ) {
+        prev.note = `${prev.note} ${note.trim()}`;
+        note = "";
+      }
       if (away && !/^\d/.test(away)) {
         // Fecha propia del partido en la nota: "at Rosario  (27 May)".
         const own = note.match(/\((\d{1,2})\s+([A-Z][a-z]{2})(?:\s+(\d{4}))?\)/);
