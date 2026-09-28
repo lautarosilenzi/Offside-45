@@ -4161,4 +4161,33 @@ afaTorneo(1979, "reclasificacion", {
     tournament: "Superliga 2018/19",
     title: "Superliga 2018/19",
   },
+  // ───────── 2019/20: Superliga, 24 equipos (arg2020.html; las copas 2020 van aparte) ─────────
+  {
+    ...afaLarga(2019, {
+      championIds: ["boca"],
+      headings: [/^Primera División 2019\/2020$/, /^Copa de Superliga 2019\/2020$/],
+      sectionRange: { from: /^Primera División 2019\/2020$/, to: /^Copa de Superliga 2019\/2020$/ },
+      tableIndex: [0],
+      pointsPerWin: 3,
+      aliases: {
+        ...ABREV_2001,
+        ...A_2016,
+        "Club Atlético Central Córdoba Soc. Civil": "central-cordoba-sde",
+        "CA Central Córdoba (SdE)": "central-cordoba-sde",
+        "CA Central Córdoba": "central-cordoba-sde",
+        "Central Córdoba (SdE)": "central-cordoba-sde",
+        "CA Patronato Juventud Católica": "patronato-parana",
+      },
+      summary: "Boca ganó la Superliga un punto delante de River, en la última fecha.",
+      notes: [
+        {
+          kind: "formato",
+          text: "Superliga: 24 equipos a una rueda, 3 puntos por victoria. Por la pandemia de covid-19, el 27 de abril de 2020 la AFA dio por terminada la temporada y anuló los descensos.",
+        },
+      ],
+    }),
+    file: "arg2020.html",
+    tournament: "Superliga 2019/20",
+    title: "Superliga 2019/20",
+  },
 ];
