@@ -1,0 +1,89 @@
+{
+ "slug": "2007-08-promocion",
+ "year": 2007,
+ "yearLabel": "2007/08",
+ "league": "Promoción",
+ "title": "Promoción 2007/08",
+ "tournament": "Promoción 2007/08",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Racing (2-1 a Belgrano) y Gimnasia y Esgrima de Jujuy (2-1 a Unión) se quedaron en Primera.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2007",
+   "url": "https://www.rsssf.org/tablesa/arg08.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Series a ida y vuelta entre equipos de Primera con mal promedio y equipos del Nacional B. Con el global empatado, se quedaba el equipo de Primera."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2007-08-promocion-001",
+   "date": "2008-06-25",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "belgrano",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "note": "Goles: Gigli 76' - Sava 14'."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2007-08-promocion-002",
+   "date": "2008-06-25",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "union-santa-fe",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "note": "Goles: Serrizuela 44' - Carranza 34'."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2007-08-promocion-003",
+   "date": "2008-06-29",
+   "stage": "Promoción (vuelta)",
+   "phase": "playoff",
+   "homeId": "racing",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "advancedId": "racing",
+   "note": "Goles: Moralez 10'. Racing ganó 2-1 en el global y se quedó en Primera."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2007-08-promocion-004",
+   "date": "2008-06-29",
+   "stage": "Promoción (vuelta)",
+   "phase": "playoff",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "advancedId": "gimnasia-jujuy",
+   "note": "Goles: Arraya 69'. Gimnasia y Esgrima de Jujuy ganó 2-1 en el global y se quedó en Primera."
+  }
+ ]
+}

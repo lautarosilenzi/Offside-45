@@ -39,6 +39,7 @@ const scorersEs = (s: string) =>
   s
     .replace(/\s+and\s+/g, " y ")
     .replace(/(\d+\+?)\s?pen\b/g, "$1 (de penal)") // 2005: "Pisculichi 80pen", "Galván 45+pen"
+    .replace(/(\d+\+?)\s?og\b/g, "$1 (en contra)") // 2007: "Sanguinetti 82og"
     .replace(/\((?:p|pen)\.?\)/gi, "(de penal)")
     .replace(/\(o\.\s?g\.?\)/gi, "(en contra)")
     .replace(/\((\d+), (\d+) pens?\)/gi, (_, n: string, p: string) => `(${n}, ${p === "1" ? "uno" : p} de penal)`)

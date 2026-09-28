@@ -353,6 +353,11 @@ const ABREV_2001 = {
   "Godoy Cruz Antonio Tomba": "godoy-cruz",
   "Newell's Old Boys (Rosario)": "newells",
   "Colón (Santa Fe)": "colon-santa-fe",
+  "Estudiantes-LP": "estudiantes",
+  "Tigre (Victoria)": "tigre",
+  "Huracán (Buenos Aires)": "huracan",
+  "San Martín (San Juan)": "san-martin-sj",
+  "San Martín-SJ": "san-martin-sj",
 };
 
 // Apertura y Clausura desde 2002/03: 20 equipos a una rueda, 3 puntos por victoria, tabla al principio de cada torneo.
@@ -369,6 +374,7 @@ const H_2002 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^General Table/, /^Re
 const H_2003 = [...H_2002, /^Top Scorers/];
 const H_2005 = [/^Torneo Apertura/, /^Relegation Table/, /^Torneo Clausura/, /^Aggregate Table/, /^Promotion\/Relegation Playoff/];
 const H_2006 = [/^Torneo Apertura/, /^Championship Playoff/, /^Topscorers$/, /^Torneo Clausura/, /^Aggregate Table/, /^Promotion\/Relegation Playoff/];
+const H_2007 = [/^Apertura 2007$/, /^Clausura 2008$/, /^Topscorers$/, /^Promotion\/Relegation Playoffs/];
 const H_2004 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Topscorers Clausura/, /^Promotion\/Relegation Playoffs/];
 // Promoción: series a ida y vuelta entre los dos equipos de Primera con peor promedio (después de los que descendían
 // directo) y equipos del Nacional B. `series`: [ida (fecha, local, visitante), vuelta, quién se quedó o subió, nota].
@@ -3473,5 +3479,65 @@ afaTorneo(1979, "reclasificacion", {
       ["2007-06-21 tigre nueva-chicago", "2007-06-25 nueva-chicago tigre", "tigre", "Se suspendió en el minuto 94, con 1-2, y quedó ese resultado. Tigre ganó 3-1 en el global: ascendió y descendió Nueva Chicago."],
     ],
     summary: "Huracán (5-2 a Godoy Cruz) y Tigre (3-1 a Nueva Chicago) ascendieron.",
+  }),
+  // ───────── 2007/08 ─────────
+  corto(2007, "apertura", {
+    championIds: ["lanus"],
+    wiki: "Anexo:Torneo Apertura 2007 (Argentina)",
+    headings: H_2007,
+    sectionRange: { from: /^Apertura 2007$/, to: /^Clausura 2008$/ },
+    summary: "Lanús ganó el Apertura cuatro puntos delante de Tigre: el primer título de liga de su historia.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria." }],
+  }),
+  corto(2007, "clausura", {
+    championIds: ["river"],
+    wiki: "Anexo:Torneo Clausura 2008 (Argentina)",
+    headings: H_2007,
+    sectionRange: { from: /^Clausura 2008$/, to: /^Topscorers$/ },
+    skip: (m) => m.score === "awd",
+    extraMatches: [
+      {
+        id: "2007-08-clausura-extra-1",
+        date: "2008-03-22",
+        stage: "Fecha 7",
+        phase: "league",
+        homeId: "racing",
+        awayId: "estudiantes",
+        homeGoals: 0,
+        awayGoals: 2,
+        awardedTo: "estudiantes",
+        note: "Se suspendió a los 77 minutos por incidentes en la tribuna, con 1-2 (Fileppi - Galván, Lázzaro); la liga se lo dio 0-2 a Estudiantes.",
+      },
+    ],
+    overrides: {
+      // La nota del partido suspendido va en dos renglones, mezclada con los goleadores.
+      "2008-03-19 river san-martin-sj": {
+        note: "Empezó el 2/3 y se suspendió a los 82 minutos por lluvia, con 3-2; el 19/3 se jugaron los 8 minutos que faltaban. Goles: Abreu 17', Buonanotte 27', Nasuti 57' - Brusco 26', Bravo 62'.",
+      },
+    },
+    wikiErrata: {
+      "RSSSF racing 0-2 estudiantes": "Wikipedia da el 1-2 de la cancha; la liga lo dio 0-2 a Estudiantes, y así lo cuentan las tablas de las dos fuentes.",
+    },
+    summary: "River ganó el Clausura cuatro puntos delante de Boca y Estudiantes.",
+    notes: [
+      {
+        kind: "formato",
+        text: "20 equipos a una rueda, 3 puntos por victoria. Descendían directamente los dos peores promedios de las últimas tres temporadas (Olimpo y San Martín de San Juan); los dos siguientes (Racing y Gimnasia y Esgrima de Jujuy) jugaban la Promoción con equipos del Nacional B.",
+      },
+    ],
+  }),
+  promocion(2007, {
+    headings: H_2007,
+    sectionRange: { from: /^Promotion\/Relegation Playoffs/ },
+    // La fecha va en el título de cada ronda: los cuatro partidos se cargan a mano.
+    skip: () => true,
+    extraMatches: [
+      { id: "2007-08-promocion-001", date: "2008-06-25", stage: "Promoción (ida)", phase: "playoff", homeId: "belgrano", awayId: "racing", homeGoals: 1, awayGoals: 1, note: "Goles: Gigli 76' - Sava 14'." },
+      { id: "2007-08-promocion-002", date: "2008-06-25", stage: "Promoción (ida)", phase: "playoff", homeId: "union-santa-fe", awayId: "gimnasia-jujuy", homeGoals: 1, awayGoals: 1, note: "Goles: Serrizuela 44' - Carranza 34'." },
+      { id: "2007-08-promocion-003", date: "2008-06-29", stage: "Promoción (vuelta)", phase: "playoff", homeId: "racing", awayId: "belgrano", homeGoals: 1, awayGoals: 0, advancedId: "racing", note: "Goles: Moralez 10'. Racing ganó 2-1 en el global y se quedó en Primera." },
+      { id: "2007-08-promocion-004", date: "2008-06-29", stage: "Promoción (vuelta)", phase: "playoff", homeId: "gimnasia-jujuy", awayId: "union-santa-fe", homeGoals: 1, awayGoals: 0, advancedId: "gimnasia-jujuy", note: "Goles: Arraya 69'. Gimnasia y Esgrima de Jujuy ganó 2-1 en el global y se quedó en Primera." },
+    ],
+    series: [],
+    summary: "Racing (2-1 a Belgrano) y Gimnasia y Esgrima de Jujuy (2-1 a Unión) se quedaron en Primera.",
   }),
 ];
