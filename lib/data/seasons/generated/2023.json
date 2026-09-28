@@ -1,0 +1,6363 @@
+{
+ "slug": "2023",
+ "year": 2023,
+ "yearLabel": "2023",
+ "league": "Liga Profesional",
+ "title": "Liga Profesional 2023",
+ "tournament": "Torneo de la Liga Profesional de Fútbol 2023",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River ganó el torneo de la Liga Profesional once puntos delante de Talleres.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2023",
+   "url": "https://www.rsssf.org/tablesa/arg2023.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 2023 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_2023_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "28 equipos a una rueda, 3 puntos por victoria. Al final del año (con la Copa de la Liga) descendieron Arsenal, último de la tabla anual, y Colón, que perdió el desempate por el segundo descenso con Gimnasia y Esgrima La Plata."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "river",
+   "played": 27,
+   "won": 19,
+   "drawn": 4,
+   "lost": 4,
+   "goalsFor": 50,
+   "goalsAgainst": 20,
+   "points": 61
+  },
+  {
+   "teamId": "talleres",
+   "played": 27,
+   "won": 14,
+   "drawn": 8,
+   "lost": 5,
+   "goalsFor": 42,
+   "goalsAgainst": 23,
+   "points": 50
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 27,
+   "won": 12,
+   "drawn": 10,
+   "lost": 5,
+   "goalsFor": 23,
+   "goalsAgainst": 13,
+   "points": 46
+  },
+  {
+   "teamId": "lanus",
+   "played": 27,
+   "won": 12,
+   "drawn": 9,
+   "lost": 6,
+   "goalsFor": 38,
+   "goalsAgainst": 27,
+   "points": 45
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 27,
+   "won": 12,
+   "drawn": 9,
+   "lost": 6,
+   "goalsFor": 35,
+   "goalsAgainst": 24,
+   "points": 45
+  },
+  {
+   "teamId": "defensa-y-justicia",
+   "played": 27,
+   "won": 12,
+   "drawn": 8,
+   "lost": 7,
+   "goalsFor": 36,
+   "goalsAgainst": 23,
+   "points": 44
+  },
+  {
+   "teamId": "boca",
+   "played": 27,
+   "won": 13,
+   "drawn": 5,
+   "lost": 9,
+   "goalsFor": 33,
+   "goalsAgainst": 24,
+   "points": 44
+  },
+  {
+   "teamId": "central",
+   "played": 27,
+   "won": 10,
+   "drawn": 12,
+   "lost": 5,
+   "goalsFor": 36,
+   "goalsAgainst": 29,
+   "points": 42
+  },
+  {
+   "teamId": "godoy-cruz",
+   "played": 27,
+   "won": 11,
+   "drawn": 8,
+   "lost": 8,
+   "goalsFor": 37,
+   "goalsAgainst": 32,
+   "points": 41
+  },
+  {
+   "teamId": "argentinos",
+   "played": 27,
+   "won": 11,
+   "drawn": 7,
+   "lost": 9,
+   "goalsFor": 31,
+   "goalsAgainst": 22,
+   "points": 40
+  },
+  {
+   "teamId": "atletico-tucuman",
+   "played": 27,
+   "won": 9,
+   "drawn": 10,
+   "lost": 8,
+   "goalsFor": 25,
+   "goalsAgainst": 27,
+   "points": 37
+  },
+  {
+   "teamId": "racing",
+   "played": 27,
+   "won": 9,
+   "drawn": 9,
+   "lost": 9,
+   "goalsFor": 36,
+   "goalsAgainst": 35,
+   "points": 36
+  },
+  {
+   "teamId": "belgrano",
+   "played": 27,
+   "won": 10,
+   "drawn": 6,
+   "lost": 11,
+   "goalsFor": 20,
+   "goalsAgainst": 26,
+   "points": 36
+  },
+  {
+   "teamId": "newells",
+   "played": 27,
+   "won": 8,
+   "drawn": 11,
+   "lost": 8,
+   "goalsFor": 24,
+   "goalsAgainst": 24,
+   "points": 35
+  },
+  {
+   "teamId": "barracas-central",
+   "played": 27,
+   "won": 8,
+   "drawn": 11,
+   "lost": 8,
+   "goalsFor": 25,
+   "goalsAgainst": 30,
+   "points": 35
+  },
+  {
+   "teamId": "tigre",
+   "played": 27,
+   "won": 9,
+   "drawn": 7,
+   "lost": 11,
+   "goalsFor": 27,
+   "goalsAgainst": 29,
+   "points": 34
+  },
+  {
+   "teamId": "platense",
+   "played": 27,
+   "won": 9,
+   "drawn": 7,
+   "lost": 11,
+   "goalsFor": 26,
+   "goalsAgainst": 29,
+   "points": 34
+  },
+  {
+   "teamId": "instituto",
+   "played": 27,
+   "won": 8,
+   "drawn": 8,
+   "lost": 11,
+   "goalsFor": 24,
+   "goalsAgainst": 35,
+   "points": 32
+  },
+  {
+   "teamId": "sarmiento-junin",
+   "played": 27,
+   "won": 7,
+   "drawn": 9,
+   "lost": 11,
+   "goalsFor": 23,
+   "goalsAgainst": 26,
+   "points": 30
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 27,
+   "won": 6,
+   "drawn": 12,
+   "lost": 9,
+   "goalsFor": 19,
+   "goalsAgainst": 25,
+   "points": 30
+  },
+  {
+   "teamId": "banfield",
+   "played": 27,
+   "won": 7,
+   "drawn": 9,
+   "lost": 11,
+   "goalsFor": 21,
+   "goalsAgainst": 32,
+   "points": 30
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 27,
+   "won": 7,
+   "drawn": 9,
+   "lost": 11,
+   "goalsFor": 24,
+   "goalsAgainst": 38,
+   "points": 30
+  },
+  {
+   "teamId": "central-cordoba-sde",
+   "played": 27,
+   "won": 7,
+   "drawn": 8,
+   "lost": 12,
+   "goalsFor": 20,
+   "goalsAgainst": 30,
+   "points": 29
+  },
+  {
+   "teamId": "independiente",
+   "played": 27,
+   "won": 6,
+   "drawn": 10,
+   "lost": 11,
+   "goalsFor": 23,
+   "goalsAgainst": 32,
+   "points": 28
+  },
+  {
+   "teamId": "velez",
+   "played": 27,
+   "won": 5,
+   "drawn": 12,
+   "lost": 10,
+   "goalsFor": 24,
+   "goalsAgainst": 27,
+   "points": 27
+  },
+  {
+   "teamId": "huracan",
+   "played": 27,
+   "won": 6,
+   "drawn": 7,
+   "lost": 14,
+   "goalsFor": 18,
+   "goalsAgainst": 29,
+   "points": 25
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 27,
+   "won": 4,
+   "drawn": 13,
+   "lost": 10,
+   "goalsFor": 20,
+   "goalsAgainst": 33,
+   "points": 25
+  },
+  {
+   "teamId": "arsenal",
+   "played": 27,
+   "won": 6,
+   "drawn": 4,
+   "lost": 17,
+   "goalsFor": 18,
+   "goalsAgainst": 34,
+   "points": 22
+  }
+ ],
+ "matches": [
+  {
+   "id": "2023-001",
+   "date": "2023-01-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-002",
+   "date": "2023-01-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-003",
+   "date": "2023-01-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-004",
+   "date": "2023-01-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-005",
+   "date": "2023-01-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-006",
+   "date": "2023-01-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-007",
+   "date": "2023-01-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-008",
+   "date": "2023-01-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-009",
+   "date": "2023-01-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-010",
+   "date": "2023-01-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-011",
+   "date": "2023-01-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-012",
+   "date": "2023-01-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-013",
+   "date": "2023-01-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-014",
+   "date": "2023-01-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-015",
+   "date": "2023-02-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-016",
+   "date": "2023-02-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-017",
+   "date": "2023-02-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-018",
+   "date": "2023-02-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-019",
+   "date": "2023-02-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-020",
+   "date": "2023-02-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-021",
+   "date": "2023-02-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "barracas-central",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-022",
+   "date": "2023-02-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-023",
+   "date": "2023-02-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-024",
+   "date": "2023-02-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-025",
+   "date": "2023-02-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-026",
+   "date": "2023-02-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-027",
+   "date": "2023-02-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-028",
+   "date": "2023-02-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-029",
+   "date": "2023-02-10",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-030",
+   "date": "2023-02-10",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-031",
+   "date": "2023-02-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-032",
+   "date": "2023-02-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-033",
+   "date": "2023-02-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-034",
+   "date": "2023-02-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-035",
+   "date": "2023-02-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-036",
+   "date": "2023-02-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-037",
+   "date": "2023-02-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-038",
+   "date": "2023-02-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-039",
+   "date": "2023-02-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-040",
+   "date": "2023-02-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-041",
+   "date": "2023-02-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-042",
+   "date": "2023-02-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-043",
+   "date": "2023-02-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-044",
+   "date": "2023-02-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "barracas-central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-045",
+   "date": "2023-02-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-046",
+   "date": "2023-02-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-047",
+   "date": "2023-02-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-048",
+   "date": "2023-02-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-049",
+   "date": "2023-02-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-050",
+   "date": "2023-02-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-051",
+   "date": "2023-02-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-052",
+   "date": "2023-02-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-053",
+   "date": "2023-02-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-054",
+   "date": "2023-02-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-055",
+   "date": "2023-02-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-056",
+   "date": "2023-02-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-057",
+   "date": "2023-02-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-058",
+   "date": "2023-02-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-059",
+   "date": "2023-02-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-060",
+   "date": "2023-02-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-061",
+   "date": "2023-02-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-062",
+   "date": "2023-02-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-063",
+   "date": "2023-02-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-064",
+   "date": "2023-02-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-065",
+   "date": "2023-02-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-066",
+   "date": "2023-02-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-067",
+   "date": "2023-02-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-068",
+   "date": "2023-02-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-069",
+   "date": "2023-02-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-070",
+   "date": "2023-02-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-071",
+   "date": "2023-03-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-072",
+   "date": "2023-03-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-073",
+   "date": "2023-03-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-074",
+   "date": "2023-03-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-075",
+   "date": "2023-03-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-076",
+   "date": "2023-03-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-077",
+   "date": "2023-03-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-078",
+   "date": "2023-03-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-079",
+   "date": "2023-03-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-080",
+   "date": "2023-03-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-081",
+   "date": "2023-03-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-082",
+   "date": "2023-03-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-083",
+   "date": "2023-03-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-084",
+   "date": "2023-03-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-085",
+   "date": "2023-03-10",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-086",
+   "date": "2023-03-10",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-087",
+   "date": "2023-03-10",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-088",
+   "date": "2023-03-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-089",
+   "date": "2023-03-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-090",
+   "date": "2023-03-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-091",
+   "date": "2023-03-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-092",
+   "date": "2023-03-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-093",
+   "date": "2023-03-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-094",
+   "date": "2023-03-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-095",
+   "date": "2023-03-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-096",
+   "date": "2023-03-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-097",
+   "date": "2023-03-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-098",
+   "date": "2023-03-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-099",
+   "date": "2023-03-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-100",
+   "date": "2023-03-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-101",
+   "date": "2023-03-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-102",
+   "date": "2023-03-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-103",
+   "date": "2023-03-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-104",
+   "date": "2023-03-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-105",
+   "date": "2023-03-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-106",
+   "date": "2023-03-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-107",
+   "date": "2023-03-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-108",
+   "date": "2023-03-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-109",
+   "date": "2023-03-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-110",
+   "date": "2023-03-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-111",
+   "date": "2023-03-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-112",
+   "date": "2023-03-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-113",
+   "date": "2023-03-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-114",
+   "date": "2023-03-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-115",
+   "date": "2023-03-31",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-116",
+   "date": "2023-03-31",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-117",
+   "date": "2023-03-31",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-118",
+   "date": "2023-04-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-119",
+   "date": "2023-04-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-120",
+   "date": "2023-04-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-121",
+   "date": "2023-04-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-122",
+   "date": "2023-04-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-123",
+   "date": "2023-04-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-124",
+   "date": "2023-04-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-125",
+   "date": "2023-04-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-126",
+   "date": "2023-04-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-127",
+   "date": "2023-04-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "arsenal",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-128",
+   "date": "2023-04-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-129",
+   "date": "2023-04-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "barracas-central",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-130",
+   "date": "2023-04-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-131",
+   "date": "2023-04-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-132",
+   "date": "2023-04-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-133",
+   "date": "2023-04-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-134",
+   "date": "2023-04-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-135",
+   "date": "2023-04-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-136",
+   "date": "2023-04-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-137",
+   "date": "2023-04-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-138",
+   "date": "2023-04-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-139",
+   "date": "2023-04-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-140",
+   "date": "2023-04-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-141",
+   "date": "2023-04-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "union-santa-fe",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-142",
+   "date": "2023-04-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-143",
+   "date": "2023-04-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-144",
+   "date": "2023-04-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-145",
+   "date": "2023-04-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-146",
+   "date": "2023-04-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-147",
+   "date": "2023-04-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-148",
+   "date": "2023-04-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-149",
+   "date": "2023-04-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-150",
+   "date": "2023-04-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-151",
+   "date": "2023-04-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-152",
+   "date": "2023-04-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-153",
+   "date": "2023-04-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-154",
+   "date": "2023-04-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-155",
+   "date": "2023-04-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-156",
+   "date": "2023-04-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-157",
+   "date": "2023-04-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-158",
+   "date": "2023-04-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-159",
+   "date": "2023-04-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-160",
+   "date": "2023-04-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-161",
+   "date": "2023-04-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-162",
+   "date": "2023-04-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-163",
+   "date": "2023-04-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-164",
+   "date": "2023-04-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-165",
+   "date": "2023-04-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-166",
+   "date": "2023-04-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-167",
+   "date": "2023-04-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-168",
+   "date": "2023-04-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-169",
+   "date": "2023-04-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-170",
+   "date": "2023-04-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-171",
+   "date": "2023-04-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-172",
+   "date": "2023-04-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-173",
+   "date": "2023-04-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-174",
+   "date": "2023-04-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-175",
+   "date": "2023-04-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-176",
+   "date": "2023-04-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-177",
+   "date": "2023-04-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-178",
+   "date": "2023-04-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-179",
+   "date": "2023-04-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-180",
+   "date": "2023-04-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-181",
+   "date": "2023-04-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-182",
+   "date": "2023-04-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-183",
+   "date": "2023-04-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-184",
+   "date": "2023-04-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-185",
+   "date": "2023-04-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-186",
+   "date": "2023-04-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-187",
+   "date": "2023-04-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-188",
+   "date": "2023-04-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-189",
+   "date": "2023-04-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-190",
+   "date": "2023-04-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-191",
+   "date": "2023-04-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-192",
+   "date": "2023-04-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-193",
+   "date": "2023-04-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-194",
+   "date": "2023-04-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-195",
+   "date": "2023-04-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-196",
+   "date": "2023-06-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-197",
+   "date": "2023-05-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "instituto",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-198",
+   "date": "2023-05-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Víctor Antonio Legrotaglie (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-199",
+   "date": "2023-05-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-200",
+   "date": "2023-05-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-201",
+   "date": "2023-05-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-202",
+   "date": "2023-05-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-203",
+   "date": "2023-05-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-204",
+   "date": "2023-05-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-205",
+   "date": "2023-05-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-206",
+   "date": "2023-05-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-207",
+   "date": "2023-05-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-208",
+   "date": "2023-05-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Alfredo Terrera (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-209",
+   "date": "2023-05-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-210",
+   "date": "2023-05-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-211",
+   "date": "2023-05-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-212",
+   "date": "2023-05-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-213",
+   "date": "2023-05-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-214",
+   "date": "2023-05-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-215",
+   "date": "2023-05-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-216",
+   "date": "2023-05-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-217",
+   "date": "2023-05-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-218",
+   "date": "2023-05-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-219",
+   "date": "2023-05-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-220",
+   "date": "2023-05-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-221",
+   "date": "2023-05-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-222",
+   "date": "2023-05-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-223",
+   "date": "2023-05-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-224",
+   "date": "2023-05-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-225",
+   "date": "2023-05-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-226",
+   "date": "2023-05-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-227",
+   "date": "2023-05-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Alfredo Terrera (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-228",
+   "date": "2023-05-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-229",
+   "date": "2023-05-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Víctor Antonio Legrotaglie (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-230",
+   "date": "2023-05-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-231",
+   "date": "2023-05-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-232",
+   "date": "2023-05-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-233",
+   "date": "2023-05-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-234",
+   "date": "2023-05-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-235",
+   "date": "2023-05-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-236",
+   "date": "2023-05-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-237",
+   "date": "2023-05-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-238",
+   "date": "2023-06-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-239",
+   "date": "2023-05-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-240",
+   "date": "2023-05-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-241",
+   "date": "2023-05-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-242",
+   "date": "2023-05-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-243",
+   "date": "2023-05-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-244",
+   "date": "2023-05-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-245",
+   "date": "2023-05-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-246",
+   "date": "2023-05-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-247",
+   "date": "2023-05-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-248",
+   "date": "2023-05-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-249",
+   "date": "2023-05-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-250",
+   "date": "2023-05-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-251",
+   "date": "2023-05-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-252",
+   "date": "2023-05-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-253",
+   "date": "2023-06-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-254",
+   "date": "2023-06-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-255",
+   "date": "2023-06-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-256",
+   "date": "2023-06-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-257",
+   "date": "2023-06-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "barracas-central",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-258",
+   "date": "2023-06-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-259",
+   "date": "2023-06-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Alfredo Terrera (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-260",
+   "date": "2023-06-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Suspendido a los 26 minutos, con 0-0. El resto del partido se jugó el 17/6."
+  },
+  {
+   "id": "2023-261",
+   "date": "2023-06-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "instituto",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-262",
+   "date": "2023-06-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-263",
+   "date": "2023-06-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-264",
+   "date": "2023-06-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-265",
+   "date": "2023-06-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-266",
+   "date": "2023-06-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-267",
+   "date": "2023-06-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-268",
+   "date": "2023-06-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-269",
+   "date": "2023-06-10",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-270",
+   "date": "2023-06-10",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-271",
+   "date": "2023-06-10",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-272",
+   "date": "2023-06-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-273",
+   "date": "2023-06-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-274",
+   "date": "2023-06-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-275",
+   "date": "2023-06-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-276",
+   "date": "2023-06-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-277",
+   "date": "2023-06-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-278",
+   "date": "2023-06-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-279",
+   "date": "2023-06-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-280",
+   "date": "2023-06-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-281",
+   "date": "2023-06-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Alfredo Terrera (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-282",
+   "date": "2023-06-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-283",
+   "date": "2023-06-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "instituto",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-284",
+   "date": "2023-06-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-285",
+   "date": "2023-06-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "boca",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-286",
+   "date": "2023-06-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-287",
+   "date": "2023-06-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-288",
+   "date": "2023-06-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-289",
+   "date": "2023-06-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-290",
+   "date": "2023-06-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-291",
+   "date": "2023-06-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-292",
+   "date": "2023-06-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-293",
+   "date": "2023-06-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-294",
+   "date": "2023-06-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-295",
+   "date": "2023-06-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-296",
+   "date": "2023-06-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-297",
+   "date": "2023-06-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-298",
+   "date": "2023-07-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-299",
+   "date": "2023-07-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-300",
+   "date": "2023-07-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-301",
+   "date": "2023-07-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-302",
+   "date": "2023-07-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-303",
+   "date": "2023-07-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-304",
+   "date": "2023-07-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-305",
+   "date": "2023-07-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-306",
+   "date": "2023-07-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-307",
+   "date": "2023-07-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-308",
+   "date": "2023-07-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-309",
+   "date": "2023-07-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-310",
+   "date": "2023-07-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-311",
+   "date": "2023-07-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-312",
+   "date": "2023-07-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-313",
+   "date": "2023-07-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-314",
+   "date": "2023-07-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-315",
+   "date": "2023-07-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-316",
+   "date": "2023-07-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-317",
+   "date": "2023-07-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-318",
+   "date": "2023-07-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-319",
+   "date": "2023-07-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-320",
+   "date": "2023-07-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-321",
+   "date": "2023-07-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-322",
+   "date": "2023-07-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-323",
+   "date": "2023-07-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-324",
+   "date": "2023-07-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-325",
+   "date": "2023-07-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-326",
+   "date": "2023-07-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-327",
+   "date": "2023-07-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-328",
+   "date": "2023-07-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-329",
+   "date": "2023-07-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-330",
+   "date": "2023-07-10",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-331",
+   "date": "2023-07-10",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-332",
+   "date": "2023-07-10",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-333",
+   "date": "2023-07-10",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-334",
+   "date": "2023-07-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-335",
+   "date": "2023-07-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-336",
+   "date": "2023-07-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-337",
+   "date": "2023-07-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-338",
+   "date": "2023-07-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-339",
+   "date": "2023-07-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-340",
+   "date": "2023-07-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-341",
+   "date": "2023-07-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-342",
+   "date": "2023-07-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-343",
+   "date": "2023-07-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-344",
+   "date": "2023-07-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-345",
+   "date": "2023-07-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-346",
+   "date": "2023-07-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-347",
+   "date": "2023-07-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-348",
+   "date": "2023-07-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-349",
+   "date": "2023-07-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-350",
+   "date": "2023-07-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-351",
+   "date": "2023-07-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-352",
+   "date": "2023-07-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-353",
+   "date": "2023-07-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "belgrano",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-354",
+   "date": "2023-07-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-355",
+   "date": "2023-07-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-356",
+   "date": "2023-07-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-357",
+   "date": "2023-07-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-358",
+   "date": "2023-07-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-359",
+   "date": "2023-07-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-360",
+   "date": "2023-07-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-361",
+   "date": "2023-07-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-362",
+   "date": "2023-07-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-363",
+   "date": "2023-07-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-364",
+   "date": "2023-07-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-365",
+   "date": "2023-07-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-366",
+   "date": "2023-07-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-367",
+   "date": "2023-07-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-368",
+   "date": "2023-07-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-369",
+   "date": "2023-07-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-370",
+   "date": "2023-07-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-371",
+   "date": "2023-07-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-372",
+   "date": "2023-07-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-373",
+   "date": "2023-07-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-374",
+   "date": "2023-07-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-375",
+   "date": "2023-07-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-376",
+   "date": "2023-07-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "barracas-central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-377",
+   "date": "2023-07-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2023-378",
+   "date": "2023-07-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "instituto",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}

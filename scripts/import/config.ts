@@ -326,6 +326,8 @@ const A_LPF = {
   "CA Patronato Juventud Católica": "patronato-parana",
   "Club Atlético Tucumán Soc. Civil": "atletico-tucuman",
   "Club Atlético Platense Asociación Civil": "platense",
+  "Instituto Atlético Central Córdoba": "instituto",
+  "Instituto ACC": "instituto",
 };
 // Torneos de la misma temporada (Liguilla Pre-Libertadores, Octogonal): sin tabla, todo es eliminación.
 // `file` se puede cambiar: 2009/10 está en arg2010.html (arg10.html es 1910).
@@ -4230,5 +4232,39 @@ afaTorneo(1979, "reclasificacion", {
         text: "28 equipos a una rueda, 3 puntos por victoria. Volvieron los descensos: bajaron los dos peores promedios, Patronato y Aldosivi.",
       },
     ],
+  }),
+  // ───────── 2023: Torneo de la Liga Profesional (arg2023.html) y desempate por el descenso ─────────
+  anual(2023, undefined, "Liga Profesional", {
+    file: "arg2023.html",
+    tournament: "Torneo de la Liga Profesional de Fútbol 2023",
+    championIds: ["river"],
+    wiki: "Campeonato de Primera División 2023 (Argentina)",
+    headings: [/^Torneo de la Liga Profesional de Fútbol 2023$/, /^LPF League cup: Copa de la Liga Profesional/],
+    sectionRange: { from: /^Torneo de la Liga Profesional de Fútbol 2023$/, to: /^LPF League cup: Copa de la Liga Profesional/ },
+    aliases: A_LPF,
+    summary: "River ganó el torneo de la Liga Profesional once puntos delante de Talleres.",
+    notes: [
+      {
+        kind: "formato",
+        text: "28 equipos a una rueda, 3 puntos por victoria. Al final del año (con la Copa de la Liga) descendieron Arsenal, último de la tabla anual, y Colón, que perdió el desempate por el segundo descenso con Gimnasia y Esgrima La Plata.",
+      },
+    ],
+  }),
+  anual(2023, "desempate", "Desempate por el descenso", {
+    file: "arg2023.html",
+    championIds: [],
+    headings: [/^Desempate por el segundo descenso/, /^Triennal General Table/],
+    sectionRange: { from: /^Desempate por el segundo descenso/, to: /^Triennal General Table/ },
+    aliases: A_LPF,
+    tableIndex: [],
+    overrides: {
+      "2023-12-01 gimnasia colon-santa-fe": {
+        phase: "playoff",
+        stage: "Desempate por el descenso",
+        note: "Colón y Gimnasia y Esgrima La Plata igualaron en la tabla anual 2023: Gimnasia se quedó en Primera y Colón descendió.",
+      },
+    },
+    summary: "Gimnasia y Esgrima La Plata le ganó 1-0 a Colón en Rosario: Colón descendió.",
+    notes: [{ kind: "formato", text: "Partido único en cancha neutral por el segundo descenso de la temporada." }],
   }),
 ];
