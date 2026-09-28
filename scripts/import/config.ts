@@ -99,6 +99,8 @@ export type TournamentConfig = {
   annulBefore?: { date: string; note: string };
   // Partidos desde esta fecha que son desempate por el título (no suman en la tabla).
   playoffFrom?: { date: string; stage: string };
+  // Eliminación directa por rondas (2025): cada ronda desde su primera fecha, en orden.
+  playoffRounds?: { date: string; stage: string }[];
   // Equipos desafiliados durante el torneo: todos sus partidos quedan anulados.
   annulTeams?: { id: string; note: string }[];
   extraMatches?: Partial<Match>[];
@@ -315,6 +317,7 @@ const A_2016 = {
   "Club Atlético Tucumán": "atletico-tucuman",
   "Arsenal FC": "arsenal",
 };
+const H_2025 = [/^Torneo Apertura de la LPF de AFA 2025$/, /^Torneo Clausura de la LPF de AFA 2025$/, /^Triennal General Table of Averages/];
 // Liga Profesional (2021–): los nombres oficiales, más los de los recién ascendidos.
 const A_LPF = {
   ...A_2016,
@@ -330,6 +333,7 @@ const A_LPF = {
   "Instituto ACC": "instituto",
   "Club Sportivo Independiente Rivadavia": "independiente-rivadavia",
   "CS Independiente Rivadavia": "independiente-rivadavia",
+  "CA Central Córdoba (Sant. Estero)": "central-cordoba-sde",
 };
 // Torneos de la misma temporada (Liguilla Pre-Libertadores, Octogonal): sin tabla, todo es eliminación.
 // `file` se puede cambiar: 2009/10 está en arg2010.html (arg10.html es 1910).
@@ -4284,6 +4288,56 @@ afaTorneo(1979, "reclasificacion", {
       {
         kind: "puntos",
         text: "Por los incidentes del Godoy Cruz-San Lorenzo, la liga le descontó 3 puntos a Godoy Cruz el 6/6, pero lo revocó el 8/8: no se aplicó.",
+      },
+    ],
+  }),
+  // ───────── 2025: Apertura y Clausura, cada uno con dos zonas y eliminación directa (arg2025.html) ─────────
+  anual(2025, "apertura", "Apertura", {
+    file: "arg2025.html",
+    tournament: "Torneo Apertura de la Liga Profesional 2025",
+    championIds: ["platense"],
+    wiki: "Anexo:Torneo Apertura 2025 (Argentina)",
+    headings: H_2025,
+    sectionRange: { from: /^Torneo Apertura de la LPF de AFA 2025$/, to: /^Torneo Clausura de la LPF de AFA 2025$/ },
+    tableIndex: [1, 2],
+    groupNames: ["Zona A", "Zona B"],
+    aliases: A_LPF,
+    playoffRounds: [
+      { date: "2025-05-10", stage: "Octavos de final" },
+      { date: "2025-05-18", stage: "Cuartos de final" },
+      { date: "2025-05-25", stage: "Semifinal" },
+      { date: "2025-06-01", stage: "Final" },
+    ],
+    summary: "Platense ganó el Apertura, su primer título de Primera: entró octavo en su zona y le ganó la final 1-0 a Huracán en Santiago del Estero.",
+    notes: [
+      {
+        kind: "formato",
+        text: "30 equipos en dos zonas de 15 (14 partidos dentro de la zona y 2 interzonales), 3 puntos por victoria; los ocho primeros de cada zona jugaron octavos, cuartos, semifinales y final a un partido.",
+      },
+      { kind: "puntos", text: "A Godoy Cruz le descontaron 3 puntos el 20/2, pero se los devolvieron el 8/4." },
+    ],
+  }),
+  anual(2025, "clausura", "Clausura", {
+    file: "arg2025.html",
+    tournament: "Torneo Clausura de la Liga Profesional 2025",
+    championIds: ["estudiantes"],
+    wiki: "Anexo:Torneo Clausura 2025 (Argentina)",
+    headings: H_2025,
+    sectionRange: { from: /^Torneo Clausura de la LPF de AFA 2025$/, to: /^Triennal General Table of Averages/ },
+    tableIndex: [1, 2],
+    groupNames: ["Zona A", "Zona B"],
+    aliases: A_LPF,
+    playoffRounds: [
+      { date: "2025-11-22", stage: "Octavos de final" },
+      { date: "2025-11-29", stage: "Cuartos de final" },
+      { date: "2025-12-07", stage: "Semifinal" },
+      { date: "2025-12-14", stage: "Final" },
+    ],
+    summary: "Estudiantes ganó el Clausura: entró octavo en su zona y le ganó la final a Racing por penales (1-1, 5-4) en Santiago del Estero.",
+    notes: [
+      {
+        kind: "formato",
+        text: "30 equipos en dos zonas de 15, 3 puntos por victoria; los ocho primeros de cada zona jugaron la eliminación directa a un partido. Al final del año descendieron San Martín de San Juan (por promedio) y Godoy Cruz (último de la tabla anual).",
       },
     ],
   }),

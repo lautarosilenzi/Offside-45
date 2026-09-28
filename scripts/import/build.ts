@@ -107,6 +107,8 @@ export function translateNote(
     .replace(/^\{/, "") // "{at Vélez Sarsfield]": errata de la fuente (1998)
     .replace(/\bSocre\b/g, "Score") // errata de la fuente (2003)
     .replace(/\brema(?:ning|inig|ing)\b/gi, "remaining") // erratas de la fuente (2019–2022)
+    .replace(/\b(HT),(?=\S)/g, "$1, ") // 2025: "in 45m HT,Víctor Antonio Legrotaglie"
+    .replace(/\b(aet|pso),\s*/gi, "$1; ") // 2025: "aet, pso, Único Madre de Ciudades, …": cada dato aparte
     .replace(/^(SC|AC),\s*/, "") // 2016/17: resto del nombre ("Club Atlético Banfield SC, Mario Alberto Kempes, …")
     .replace(/,\s*((?:behind )?closed doors)/gi, "; $1") // 2009: "remaining 29', closed doors"
     .replace(/\.\s*(Score allowed to stand|Awarded \d+-\d+)/gi, "; $1") // 2001/02: dos datos en una oración
@@ -130,7 +132,7 @@ export function translateNote(
     // "HT, score stood" va junto (lo traduce una sola regla); "see Jul 17", "remaining 49 on…" e "in extra time…" van aparte.
     // La cancha al final ("…, Racing, Avellaneda, B") también va aparte del texto que la precede.
     .split(
-      /\]\s*\[|\s+(?=\[)|;\s*|,\s*(?=(?:aet|asdet|lasted|at|annulled|abandoned|suspended|played|awarded|n\/p|see|remaining|remained|in extra time|continue on|to be replayed)\b)|(?<!HT),\s*(?=(?:the )?score stood\b)|,\s*(?=\d+:\d+ corners$)|,\s*(?=[^,]*\b\d+ points? deducted)|,\s*(?=[^,]+,\s*[^,]+,\s*[BCS]$)/i,
+      /\]\s*\[|\s+(?=\[)|;\s*|,\s*(?=(?:aet|asdet|lasted|at|annulled|abandoned|suspended|played|awarded|n\/p|see|remaining|remained|in extra time|continue on|to be replayed)\b)|(?<!HT),\s*(?=(?:the )?score stood\b)|,\s*(?=\d+:\d+ corners$)|,\s*(?=[^,]*\b\d+ points? deducted)|,\s*(?=[^,]+,\s*[^,]+,\s*[A-Z]$)/i, // provincia: B, C, S… (desde 2016, cualquier letra)
     )
     // Sin corchetes ni el punto final ("San Isidro was suspended."); "W.O." conserva sus puntos.
     .map((p) => p.replace(/[\[\]]/g, "").trim().replace(/(?<!\b[A-Z])\.$/, ""))
@@ -274,6 +276,7 @@ export function translateNote(
       out.text.push(`Suspendido a los ${m[3]}+${m[4]} minutos, con ${m[1]}-${m[2]}.`);
     else if (/^(behind )?closed doors$/i.test(p)) out.text.push("A puertas cerradas.");
     else if ((m = p.match(/^remaining (\d+)m? on ([A-Z][a-z]{2,8} \d{1,2})$/i))) out.text.push(`Los ${m[1]} minutos que faltaban se jugaron el ${esDate(m[2])}.`);
+    else if ((m = p.match(/^abandoned at (\d+)-(\d+) in 45m? HT$/i))) out.text.push(`Suspendido en el entretiempo, con ${m[1]}-${m[2]}.`); // 2025
     else if ((m = p.match(/^rema(?:i)?nin(?:g)? time on (\d{1,2} [A-Z][a-z]{2,8}|[A-Z][a-z]{2,8} \d{1,2})$/i)))
       // 2020–: "remaining time on 20 Oct" / "remaning time on Mar 24".
       out.text.push(`El resto del partido se jugó el ${esDate(m[1])}.`);
@@ -294,6 +297,7 @@ export function translateNote(
     else if (/^played again$/i.test(p)) continue;
     else if (/^played \d+:\d+$/i.test(p)) continue; // parcial de "lp 1:1 wp", ya usado como resultado
     else if (/^pen \d+[:-]\d+$/i.test(p)) continue; // penales "[6]2-2[7]": los usa el importador (advancedId)
+    else if (/^pso$/i.test(p)) continue; // "penalty shoot-out": los penales ya van en "[4] 0-0 [2]"
     else if ((m = p.match(/^(.+?) (?:forfeited|wihtdrew|withdrawn)$/i))) {
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} no se presentó.`);
@@ -893,6 +897,12 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     if (cfg.playoffFrom && m.date >= cfg.playoffFrom.date) {
       m.phase = "playoff";
       m.stage = cfg.playoffFrom.stage;
+    }
+    // 2025: eliminación directa después de las zonas (octavos, cuartos, semifinales, final), cada ronda desde su fecha.
+    const pr = cfg.playoffRounds && [...cfg.playoffRounds].reverse().find((x) => m.date >= x.date);
+    if (pr) {
+      m.phase = "playoff";
+      m.stage = pr.stage;
     }
     if (note.bothLost) m.bothLost = true;
     // El resultado que fijó la liga ("(0-1)"): el que se quedó con los puntos lleva el número mayor.
