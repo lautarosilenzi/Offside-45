@@ -342,6 +342,10 @@ const ABREV_2001 = {
   "Tallares (Córdoba)": "talleres", // errata de la fuente (2003)
   "Huracán (TA)": "huracan-tres-arroyos",
   "Huracán (Tres Arroyos)": "huracan-tres-arroyos",
+  "San Lorenzo de Almagro": "sanlorenzo",
+  "Gimnasia y Esgrima (La Plata)": "gimnasia",
+  "Instituto (Córdoba)": "instituto",
+  "Huracán (BA)": "huracan",
 };
 
 // Apertura y Clausura desde 2002/03: 20 equipos a una rueda, 3 puntos por victoria, tabla al principio de cada torneo.
@@ -356,6 +360,7 @@ const corto = (y: number, key: "apertura" | "clausura", opts: CortoOpts) =>
   });
 const H_2002 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^General Table/, /^Relegation Playoff$/];
 const H_2003 = [...H_2002, /^Top Scorers/];
+const H_2004 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Topscorers Clausura/, /^Promotion\/Relegation Playoffs/];
 // Promoción: series a ida y vuelta entre los dos equipos de Primera con peor promedio (después de los que descendían
 // directo) y equipos del Nacional B. `series`: [ida (fecha, local, visitante), vuelta, quién se quedó o subió, nota].
 const PROMO_FORMATO = {
@@ -3234,5 +3239,56 @@ afaTorneo(1979, "reclasificacion", {
       ["2004-07-01 argentinos talleres", "2004-07-04 talleres argentinos", "argentinos", "Argentinos Juniors ganó 4-2 en el global: ascendió y descendió Talleres."],
     ],
     summary: "Argentinos Juniors (4-2 a Talleres) y Huracán de Tres Arroyos (5-3 a Atlético de Rafaela) ascendieron; Talleres y Rafaela descendieron.",
+  }),
+  // ───────── 2004/05 ─────────
+  corto(2004, "apertura", {
+    championIds: ["newells"],
+    wiki: "Anexo:Torneo Apertura 2004 (Argentina)",
+    headings: H_2004,
+    sectionRange: { from: /^Torneo Apertura$/, to: /^Torneo Clausura$/ },
+    summary: "Newell's ganó el Apertura dos puntos delante de Vélez: su primer título de liga desde 1992.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria." }],
+  }),
+  corto(2004, "clausura", {
+    championIds: ["velez"],
+    wiki: "Anexo:Torneo Clausura 2005 (Argentina)",
+    headings: H_2004,
+    sectionRange: { from: /^Torneo Clausura$/, to: /^Topscorers Clausura/ },
+    skip: (m) => m.home === "Almagro" && m.score === "awd",
+    extraMatches: [
+      {
+        id: "2004-05-clausura-extra-1",
+        date: "2005-07-03",
+        stage: "Fecha 19",
+        phase: "league",
+        homeId: "almagro",
+        awayId: "boca",
+        homeGoals: 3,
+        awayGoals: 2,
+        splitAward: { home: [0, 2], away: [3, 2] },
+        note: "Goles: Sparapani 2', Nieto 58' y 60' - Trejo 12', Cahais 28'. Se suspendió con 3-2 por una invasión de cancha, y la liga se lo dio perdido a los dos: 0-2 a Almagro y 2-3 a Boca (así lo cuenta la tabla de RSSSF).",
+      },
+    ],
+    summary: "Vélez ganó el Clausura seis puntos delante de Banfield.",
+    notes: [
+      {
+        kind: "formato",
+        text: "20 equipos a una rueda, 3 puntos por victoria. Descendían directamente los dos peores promedios de las últimas tres temporadas (Almagro y Huracán de Tres Arroyos); los dos siguientes (Argentinos Juniors e Instituto) jugaban la Promoción con equipos del Nacional B.",
+      },
+    ],
+  }),
+  promocion(2004, {
+    headings: H_2004,
+    sectionRange: { from: /^Promotion\/Relegation Playoffs/ },
+    // La fecha va en el título de cada ronda ("First Legs [Jul 6]"): los cuatro partidos se cargan a mano.
+    skip: () => true,
+    extraMatches: [
+      { id: "2004-05-promocion-001", date: "2005-07-06", stage: "Promoción (ida)", phase: "playoff", homeId: "atletico-rafaela", awayId: "argentinos", homeGoals: 2, awayGoals: 1, note: "Goles: Marclay 57', F. García 76' - Pisculichi 80' (de penal)." },
+      { id: "2004-05-promocion-002", date: "2005-07-06", stage: "Promoción (ida)", phase: "playoff", homeId: "huracan", awayId: "instituto", homeGoals: 1, awayGoals: 2, note: "Goles: Fioretto 3' - Lujambio 22', Raymonda 68'." },
+      { id: "2004-05-promocion-003", date: "2005-07-10", stage: "Promoción (vuelta)", phase: "playoff", homeId: "argentinos", awayId: "atletico-rafaela", homeGoals: 3, awayGoals: 0, advancedId: "argentinos", note: "Goles: M. Córdoba 65' y 85', Marini 89'. Argentinos Juniors ganó 4-2 en el global y se quedó en Primera." },
+      { id: "2004-05-promocion-004", date: "2005-07-10", stage: "Promoción (vuelta)", phase: "playoff", homeId: "instituto", awayId: "huracan", homeGoals: 1, awayGoals: 0, advancedId: "instituto", note: "Goles: Raymonda 30'. Instituto ganó 3-1 en el global y se quedó en Primera." },
+    ],
+    series: [],
+    summary: "Argentinos Juniors (4-2 a Atlético de Rafaela) e Instituto (3-1 a Huracán) se quedaron en Primera.",
   }),
 ];
