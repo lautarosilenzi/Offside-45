@@ -1,0 +1,3264 @@
+{
+ "slug": "2000-01-clausura",
+ "year": 2000,
+ "yearLabel": "2000/01",
+ "league": "Clausura",
+ "title": "Clausura 2000/01",
+ "tournament": "Clausura 2000/01",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "sanlorenzo"
+ ],
+ "summary": "San Lorenzo ganó el Clausura con 15 victorias en 19 partidos, seis puntos delante de River.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2000",
+   "url": "https://www.rsssf.org/tablesa/arg01.html"
+  },
+  {
+   "label": "Wikipedia – Anexo:Torneo Clausura 2001 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Anexo%3ATorneo_Clausura_2001_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "20 equipos a una rueda, 3 puntos por victoria. Descendían directamente los dos peores promedios de las últimas tres temporadas (Almagro y Los Andes); los dos siguientes (Argentinos Juniors y Belgrano) jugaban la Promoción con equipos del Nacional B."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "los-andes",
+   "points": -3,
+   "reason": "descuento de 3 puntos (RSSSF no da el motivo)"
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "sanlorenzo",
+   "played": 19,
+   "won": 15,
+   "drawn": 2,
+   "lost": 2,
+   "goalsFor": 43,
+   "goalsAgainst": 17,
+   "points": 47
+  },
+  {
+   "teamId": "river",
+   "played": 19,
+   "won": 13,
+   "drawn": 2,
+   "lost": 4,
+   "goalsFor": 48,
+   "goalsAgainst": 27,
+   "points": 41
+  },
+  {
+   "teamId": "boca",
+   "played": 19,
+   "won": 8,
+   "drawn": 6,
+   "lost": 5,
+   "goalsFor": 29,
+   "goalsAgainst": 26,
+   "points": 30
+  },
+  {
+   "teamId": "argentinos",
+   "played": 19,
+   "won": 8,
+   "drawn": 5,
+   "lost": 6,
+   "goalsFor": 27,
+   "goalsAgainst": 22,
+   "points": 29
+  },
+  {
+   "teamId": "racing",
+   "played": 19,
+   "won": 7,
+   "drawn": 8,
+   "lost": 4,
+   "goalsFor": 21,
+   "goalsAgainst": 20,
+   "points": 29
+  },
+  {
+   "teamId": "chacarita",
+   "played": 19,
+   "won": 8,
+   "drawn": 5,
+   "lost": 6,
+   "goalsFor": 21,
+   "goalsAgainst": 25,
+   "points": 29
+  },
+  {
+   "teamId": "huracan",
+   "played": 19,
+   "won": 8,
+   "drawn": 4,
+   "lost": 7,
+   "goalsFor": 28,
+   "goalsAgainst": 28,
+   "points": 28
+  },
+  {
+   "teamId": "velez",
+   "played": 19,
+   "won": 7,
+   "drawn": 6,
+   "lost": 6,
+   "goalsFor": 25,
+   "goalsAgainst": 24,
+   "points": 27
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 19,
+   "won": 7,
+   "drawn": 6,
+   "lost": 6,
+   "goalsFor": 23,
+   "goalsAgainst": 24,
+   "points": 27
+  },
+  {
+   "teamId": "almagro",
+   "played": 19,
+   "won": 7,
+   "drawn": 5,
+   "lost": 7,
+   "goalsFor": 27,
+   "goalsAgainst": 27,
+   "points": 26
+  },
+  {
+   "teamId": "talleres",
+   "played": 19,
+   "won": 7,
+   "drawn": 4,
+   "lost": 8,
+   "goalsFor": 23,
+   "goalsAgainst": 23,
+   "points": 25
+  },
+  {
+   "teamId": "newells",
+   "played": 19,
+   "won": 7,
+   "drawn": 3,
+   "lost": 9,
+   "goalsFor": 27,
+   "goalsAgainst": 28,
+   "points": 24
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 19,
+   "won": 6,
+   "drawn": 5,
+   "lost": 8,
+   "goalsFor": 21,
+   "goalsAgainst": 27,
+   "points": 23
+  },
+  {
+   "teamId": "lanus",
+   "played": 19,
+   "won": 6,
+   "drawn": 4,
+   "lost": 9,
+   "goalsFor": 28,
+   "goalsAgainst": 30,
+   "points": 22
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 19,
+   "won": 5,
+   "drawn": 5,
+   "lost": 9,
+   "goalsFor": 32,
+   "goalsAgainst": 36,
+   "points": 20
+  },
+  {
+   "teamId": "belgrano",
+   "played": 19,
+   "won": 5,
+   "drawn": 5,
+   "lost": 9,
+   "goalsFor": 18,
+   "goalsAgainst": 26,
+   "points": 20
+  },
+  {
+   "teamId": "independiente",
+   "played": 19,
+   "won": 5,
+   "drawn": 4,
+   "lost": 10,
+   "goalsFor": 18,
+   "goalsAgainst": 21,
+   "points": 19
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 19,
+   "won": 4,
+   "drawn": 6,
+   "lost": 9,
+   "goalsFor": 22,
+   "goalsAgainst": 28,
+   "points": 18
+  },
+  {
+   "teamId": "los-andes",
+   "played": 19,
+   "won": 5,
+   "drawn": 6,
+   "lost": 8,
+   "goalsFor": 24,
+   "goalsAgainst": 32,
+   "points": 18
+  },
+  {
+   "teamId": "central",
+   "played": 19,
+   "won": 4,
+   "drawn": 5,
+   "lost": 10,
+   "goalsFor": 24,
+   "goalsAgainst": 38,
+   "points": 17
+  }
+ ],
+ "matches": [
+  {
+   "id": "2000-01-clausura-001",
+   "date": "2001-02-09",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Albornos."
+  },
+  {
+   "id": "2000-01-clausura-002",
+   "date": "2001-02-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gabrich - Delgado, Graf, Gigena."
+  },
+  {
+   "id": "2000-01-clausura-003",
+   "date": "2001-02-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Mazzoni, M. Donnet (2)."
+  },
+  {
+   "id": "2000-01-clausura-004",
+   "date": "2001-02-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-005",
+   "date": "2001-02-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-006",
+   "date": "2001-02-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ayala, Cardetti (3), Coudet, Saviola - Quatrocchi, Osorio."
+  },
+  {
+   "id": "2000-01-clausura-007",
+   "date": "2001-02-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Medina, Hurtado - Barijho, O. Pérez."
+  },
+  {
+   "id": "2000-01-clausura-008",
+   "date": "2001-02-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rodríguez, Saldaña - Marzo."
+  },
+  {
+   "id": "2000-01-clausura-009",
+   "date": "2001-02-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rivero - E. González, Vespa, Pierucci."
+  },
+  {
+   "id": "2000-01-clausura-010",
+   "date": "2001-02-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pereyra, Sanguinetti - Romagnoli, Romeo."
+  },
+  {
+   "id": "2000-01-clausura-011",
+   "date": "2001-02-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cambiasso, Páez - Rivero."
+  },
+  {
+   "id": "2000-01-clausura-012",
+   "date": "2001-02-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Valencia, Gigena (de penal) - Klimowicz (de penal)."
+  },
+  {
+   "id": "2000-01-clausura-013",
+   "date": "2001-02-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Riquelme - Silvera (2), M. Donnet."
+  },
+  {
+   "id": "2000-01-clausura-014",
+   "date": "2001-02-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: J. López."
+  },
+  {
+   "id": "2000-01-clausura-015",
+   "date": "2001-02-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Piersimone - Hurtado, Bennett."
+  },
+  {
+   "id": "2000-01-clausura-016",
+   "date": "2001-02-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Moreno y Fabianesi (2), Pizzi, E. González - Loeschbor (en contra), Juárez."
+  },
+  {
+   "id": "2000-01-clausura-017",
+   "date": "2001-02-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pereyra."
+  },
+  {
+   "id": "2000-01-clausura-018",
+   "date": "2001-02-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Desagastizábal, Pieters - Rueda, Estévez."
+  },
+  {
+   "id": "2000-01-clausura-019",
+   "date": "2001-02-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romeo, Pusineri - Cobelli."
+  },
+  {
+   "id": "2000-01-clausura-020",
+   "date": "2001-02-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cardetti, Coudet."
+  },
+  {
+   "id": "2000-01-clausura-021",
+   "date": "2001-02-16",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Castillo - Farías."
+  },
+  {
+   "id": "2000-01-clausura-022",
+   "date": "2001-02-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cardetti, Ortega (2, uno de penal)."
+  },
+  {
+   "id": "2000-01-clausura-023",
+   "date": "2001-02-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Barijho."
+  },
+  {
+   "id": "2000-01-clausura-024",
+   "date": "2001-02-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Castillo,  Tilger, Silvera."
+  },
+  {
+   "id": "2000-01-clausura-025",
+   "date": "2001-02-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "los-andes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-026",
+   "date": "2001-02-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Klimowicz (de penal), A. López, Kmet, C. Álvarez - E. González."
+  },
+  {
+   "id": "2000-01-clausura-027",
+   "date": "2001-02-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Crosa - Brizuela (2)."
+  },
+  {
+   "id": "2000-01-clausura-028",
+   "date": "2001-02-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Berti, Ortiz - Forlán."
+  },
+  {
+   "id": "2000-01-clausura-029",
+   "date": "2001-02-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Estévez (2)."
+  },
+  {
+   "id": "2000-01-clausura-030",
+   "date": "2001-02-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bevacqua, Villalba - Garay, Buján."
+  },
+  {
+   "id": "2000-01-clausura-031",
+   "date": "2001-02-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romeo, Rodríguez."
+  },
+  {
+   "id": "2000-01-clausura-032",
+   "date": "2001-02-24",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zelaya, Ríos (en contra), Alaniz, Sarmiento - Berti, D. Graieb."
+  },
+  {
+   "id": "2000-01-clausura-033",
+   "date": "2001-02-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pizzi - Ortega."
+  },
+  {
+   "id": "2000-01-clausura-034",
+   "date": "2001-02-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Hurtado, Bustos - Sava."
+  },
+  {
+   "id": "2000-01-clausura-035",
+   "date": "2001-02-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Brizuela (2) - Bastía, Milito."
+  },
+  {
+   "id": "2000-01-clausura-036",
+   "date": "2001-02-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ríos, Vuoso - Klimowicz."
+  },
+  {
+   "id": "2000-01-clausura-037",
+   "date": "2001-02-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Denis - Maciel."
+  },
+  {
+   "id": "2000-01-clausura-038",
+   "date": "2001-02-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Biaggio (2)."
+  },
+  {
+   "id": "2000-01-clausura-039",
+   "date": "2001-02-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Burdisso, Gaitán - M. Rodríguez, Cejas (de penal)."
+  },
+  {
+   "id": "2000-01-clausura-040",
+   "date": "2001-02-26",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Piersimone (2) - A. Donnet."
+  },
+  {
+   "id": "2000-01-clausura-041",
+   "date": "2001-03-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: F. Domínguez - Lequi."
+  },
+  {
+   "id": "2000-01-clausura-042",
+   "date": "2001-03-03",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "union-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sava (2), Cavallo, Enría - Tilger (2)."
+  },
+  {
+   "id": "2000-01-clausura-043",
+   "date": "2001-03-04",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Chatruc (de penal), Rueda - Burdisso."
+  },
+  {
+   "id": "2000-01-clausura-044",
+   "date": "2001-03-04",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gigena - Quatrocchi."
+  },
+  {
+   "id": "2000-01-clausura-045",
+   "date": "2001-03-04",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maldonado - Moreno, Brizuela."
+  },
+  {
+   "id": "2000-01-clausura-046",
+   "date": "2001-03-04",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sarría, López - Astudillo."
+  },
+  {
+   "id": "2000-01-clausura-048",
+   "date": "2001-03-04",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romeo."
+  },
+  {
+   "id": "2000-01-clausura-049",
+   "date": "2001-03-04",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Saviola (2), Cardetti - Forlán."
+  },
+  {
+   "id": "2000-01-clausura-050",
+   "date": "2001-03-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Almirón, Quintana - Bustos."
+  },
+  {
+   "id": "2000-01-clausura-051",
+   "date": "2001-03-09",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Insúa (2)."
+  },
+  {
+   "id": "2000-01-clausura-052",
+   "date": "2001-03-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cuba (2), Astudillo - Coudet."
+  },
+  {
+   "id": "2000-01-clausura-053",
+   "date": "2001-03-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: M. Donnet, Castillo (de penal), Tilger - Crosa, Rodríguez."
+  },
+  {
+   "id": "2000-01-clausura-054",
+   "date": "2001-03-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Estévez - Berti."
+  },
+  {
+   "id": "2000-01-clausura-055",
+   "date": "2001-03-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maldonado - O. Pérez."
+  },
+  {
+   "id": "2000-01-clausura-056",
+   "date": "2001-03-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Galletti, Farías - Pereyra (de penal)."
+  },
+  {
+   "id": "2000-01-clausura-057",
+   "date": "2001-03-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Desagastizábal, Rochi - López."
+  },
+  {
+   "id": "2000-01-clausura-058",
+   "date": "2001-03-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Stalteri (2)."
+  },
+  {
+   "id": "2000-01-clausura-059",
+   "date": "2001-03-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: F. Domínguez (de penal)."
+  },
+  {
+   "id": "2000-01-clausura-060",
+   "date": "2001-03-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-061",
+   "date": "2001-03-16",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "sanlorenzo",
+   "homeGoals": 4,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Caniza, Hoyos, González (2) - Romagnoli, Romeo (2), Estévez, Ameli."
+  },
+  {
+   "id": "2000-01-clausura-062",
+   "date": "2001-03-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bevacqua."
+  },
+  {
+   "id": "2000-01-clausura-063",
+   "date": "2001-03-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Farías, Galletti, Zapata."
+  },
+  {
+   "id": "2000-01-clausura-064",
+   "date": "2001-03-17",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-065",
+   "date": "2001-03-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-066",
+   "date": "2001-03-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-067",
+   "date": "2001-03-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Camps, F. Domínguez (de penal)."
+  },
+  {
+   "id": "2000-01-clausura-068",
+   "date": "2001-03-18",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cardetti (de penal), Pereyra."
+  },
+  {
+   "id": "2000-01-clausura-069",
+   "date": "2001-03-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Graf."
+  },
+  {
+   "id": "2000-01-clausura-070",
+   "date": "2001-03-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Hurtado, Insúa."
+  },
+  {
+   "id": "2000-01-clausura-071",
+   "date": "2001-03-23",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Canobbio."
+  },
+  {
+   "id": "2000-01-clausura-072",
+   "date": "2001-03-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Schiavi (de penal) - Maciel."
+  },
+  {
+   "id": "2000-01-clausura-073",
+   "date": "2001-03-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-074",
+   "date": "2001-03-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rosales."
+  },
+  {
+   "id": "2000-01-clausura-075",
+   "date": "2001-03-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Riquelme (de penal)."
+  },
+  {
+   "id": "2000-01-clausura-076",
+   "date": "2001-03-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "velez",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: V. López, Maggiolo (2), Netto - Bardaro, Camps."
+  },
+  {
+   "id": "2000-01-clausura-077",
+   "date": "2001-03-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Moreno (de penal)."
+  },
+  {
+   "id": "2000-01-clausura-078",
+   "date": "2001-03-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Castillo - Mugnaini, Giaccone."
+  },
+  {
+   "id": "2000-01-clausura-079",
+   "date": "2001-03-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romeo - Cardetti (2, uno de penal), Saviola."
+  },
+  {
+   "id": "2000-01-clausura-080",
+   "date": "2001-03-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cuba, Astudillo, Monrroy."
+  },
+  {
+   "id": "2000-01-clausura-081",
+   "date": "2001-03-30",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Loscri, Canobbio."
+  },
+  {
+   "id": "2000-01-clausura-082",
+   "date": "2001-03-31",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Forlán (2)."
+  },
+  {
+   "id": "2000-01-clausura-083",
+   "date": "2001-03-31",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Astudillo."
+  },
+  {
+   "id": "2000-01-clausura-084",
+   "date": "2001-04-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Klimowicz - Barijho, Bermúdez."
+  },
+  {
+   "id": "2000-01-clausura-085",
+   "date": "2001-04-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Saviola."
+  },
+  {
+   "id": "2000-01-clausura-086",
+   "date": "2001-04-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gabrich, Padra - Zermattén."
+  },
+  {
+   "id": "2000-01-clausura-087",
+   "date": "2001-04-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-088",
+   "date": "2001-04-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-089",
+   "date": "2001-04-01",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romeo, Rivarola (de penal)."
+  },
+  {
+   "id": "2000-01-clausura-090",
+   "date": "2001-04-02",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Graf - V. López."
+  },
+  {
+   "id": "2000-01-clausura-091",
+   "date": "2001-04-06",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zelaya."
+  },
+  {
+   "id": "2000-01-clausura-092",
+   "date": "2001-04-07",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: González, Morales, Padra."
+  },
+  {
+   "id": "2000-01-clausura-093",
+   "date": "2001-04-07",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Coloccini, Rodríguez (de penal), Quinteros - Graf."
+  },
+  {
+   "id": "2000-01-clausura-094",
+   "date": "2001-04-07",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bennett - Klimowicz."
+  },
+  {
+   "id": "2000-01-clausura-095",
+   "date": "2001-04-07",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "belgrano",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pavlovich, Rodríguez, Crosa, Real - Mugnaini."
+  },
+  {
+   "id": "2000-01-clausura-096",
+   "date": "2001-04-07",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Scotti - Bevaqcua."
+  },
+  {
+   "id": "2000-01-clausura-097",
+   "date": "2001-04-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Arce, Mignini - Müller."
+  },
+  {
+   "id": "2000-01-clausura-098",
+   "date": "2001-04-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Levato - E. González, Pizzi (2), Moreno y Fabianesi."
+  },
+  {
+   "id": "2000-01-clausura-099",
+   "date": "2001-04-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-100",
+   "date": "2001-04-08",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ibarra, Riquelme, Gmo. Barros Schelotto (de penal)."
+  },
+  {
+   "id": "2000-01-clausura-101",
+   "date": "2001-04-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bevaqcua, Zaccardo."
+  },
+  {
+   "id": "2000-01-clausura-102",
+   "date": "2001-04-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Padra (2), González - Dueña."
+  },
+  {
+   "id": "2000-01-clausura-103",
+   "date": "2001-04-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ameli, Rodríguez (de penal), Romeo."
+  },
+  {
+   "id": "2000-01-clausura-104",
+   "date": "2001-04-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cavenaghi, Coudet, Saviola - Bustos, Zagharián."
+  },
+  {
+   "id": "2000-01-clausura-105",
+   "date": "2001-04-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Moreno."
+  },
+  {
+   "id": "2000-01-clausura-106",
+   "date": "2001-04-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "boca",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-107",
+   "date": "2001-04-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Hoyos (de penal), González, Coria - Valli, Mazzoni."
+  },
+  {
+   "id": "2000-01-clausura-108",
+   "date": "2001-04-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bastía."
+  },
+  {
+   "id": "2000-01-clausura-109",
+   "date": "2001-04-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Testa."
+  },
+  {
+   "id": "2000-01-clausura-110",
+   "date": "2001-04-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "los-andes",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cambiasso, Vuoso, Forlán (2)."
+  },
+  {
+   "id": "2000-01-clausura-111",
+   "date": "2001-04-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-112",
+   "date": "2001-04-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bevaqcua, Contreras (en contra), Castillo (en contra), Vidal."
+  },
+  {
+   "id": "2000-01-clausura-113",
+   "date": "2001-04-14",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Silvera, San Martín - Zapata, Ayala, Coudet."
+  },
+  {
+   "id": "2000-01-clausura-114",
+   "date": "2001-04-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-115",
+   "date": "2001-04-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Fernández (en contra) - Azconzábal."
+  },
+  {
+   "id": "2000-01-clausura-116",
+   "date": "2001-04-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sava - Klimowicz (2, uno de penal), Sarría."
+  },
+  {
+   "id": "2000-01-clausura-117",
+   "date": "2001-04-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romero, Brizuela, Moreno (de penal) - Quinteros, Pierucci."
+  },
+  {
+   "id": "2000-01-clausura-118",
+   "date": "2001-04-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bermúdez, Herrera, Riquelme - Gigena (de penal)."
+  },
+  {
+   "id": "2000-01-clausura-119",
+   "date": "2001-04-15",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romagnoli, Zurita, Romeo - Forlán, Prieto."
+  },
+  {
+   "id": "2000-01-clausura-120",
+   "date": "2001-04-16",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "talleres",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maggiolo (2), Pajuelo, Domínguez - Cuba."
+  },
+  {
+   "id": "2000-01-clausura-121",
+   "date": "2001-04-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-122",
+   "date": "2001-04-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "los-andes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-123",
+   "date": "2001-04-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Husain, J. Castillo, Camps - G. Castillo."
+  },
+  {
+   "id": "2000-01-clausura-124",
+   "date": "2001-04-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bustos."
+  },
+  {
+   "id": "2000-01-clausura-125",
+   "date": "2001-04-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Soto - Canobbio."
+  },
+  {
+   "id": "2000-01-clausura-126",
+   "date": "2001-04-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "belgrano",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maciel, Couceiro, Bevaqcua (2)."
+  },
+  {
+   "id": "2000-01-clausura-127",
+   "date": "2001-04-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Crosa (en contra) - Filippini, Manso, Rosales."
+  },
+  {
+   "id": "2000-01-clausura-128",
+   "date": "2001-04-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pérez - Riquelme, Delgado."
+  },
+  {
+   "id": "2000-01-clausura-129",
+   "date": "2001-04-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romeo (2), Serrizuela."
+  },
+  {
+   "id": "2000-01-clausura-130",
+   "date": "2001-04-22",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Coudet, Saviola, H. Díaz - Pereyra (de penal), San Esteban (2)."
+  },
+  {
+   "id": "2000-01-clausura-131",
+   "date": "2001-04-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Canobbio - Sarría."
+  },
+  {
+   "id": "2000-01-clausura-132",
+   "date": "2001-04-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Silvera (de penal) - Graf."
+  },
+  {
+   "id": "2000-01-clausura-133",
+   "date": "2001-04-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Messera, Cufré - F. Domínguez (2, uno de penal)."
+  },
+  {
+   "id": "2000-01-clausura-134",
+   "date": "2001-04-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Galletti, Farías (3, uno de penal)."
+  },
+  {
+   "id": "2000-01-clausura-135",
+   "date": "2001-04-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bustos, Yaqué, Hurtado (2)."
+  },
+  {
+   "id": "2000-01-clausura-136",
+   "date": "2001-04-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: E. González - Morquio, Berti."
+  },
+  {
+   "id": "2000-01-clausura-137",
+   "date": "2001-04-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Coloccini."
+  },
+  {
+   "id": "2000-01-clausura-138",
+   "date": "2001-04-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pavlovich (de penal), Damiani - Saviola, Yepes, Cardetti."
+  },
+  {
+   "id": "2000-01-clausura-139",
+   "date": "2001-04-29",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gmo. Barros Schelotto (2, uno de penal) - Forlán."
+  },
+  {
+   "id": "2000-01-clausura-140",
+   "date": "2001-04-30",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Carrario - F. Astudillo."
+  },
+  {
+   "id": "2000-01-clausura-141",
+   "date": "2001-05-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Hurtado, Insúa."
+  },
+  {
+   "id": "2000-01-clausura-142",
+   "date": "2001-05-12",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Soto, Padra."
+  },
+  {
+   "id": "2000-01-clausura-143",
+   "date": "2001-05-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-144",
+   "date": "2001-05-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Tuzzio, Coloccini, Estévez, Romagnoli, Santana."
+  },
+  {
+   "id": "2000-01-clausura-145",
+   "date": "2001-05-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Zubeldía."
+  },
+  {
+   "id": "2000-01-clausura-146",
+   "date": "2001-05-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Castagno Suárez."
+  },
+  {
+   "id": "2000-01-clausura-147",
+   "date": "2001-05-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maggiolo."
+  },
+  {
+   "id": "2000-01-clausura-148",
+   "date": "2001-05-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Camps, Husain."
+  },
+  {
+   "id": "2000-01-clausura-149",
+   "date": "2001-05-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Sánchez, Moreno y Fabianesi, Arias - Valli, M. Donnet, Silvera."
+  },
+  {
+   "id": "2000-01-clausura-150",
+   "date": "2001-05-13",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cardetti, Coudet, Ortega."
+  },
+  {
+   "id": "2000-01-clausura-151",
+   "date": "2001-05-19",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Silvera (2), Forlán, Vuoso."
+  },
+  {
+   "id": "2000-01-clausura-152",
+   "date": "2001-05-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Demus (2) - Álvarez."
+  },
+  {
+   "id": "2000-01-clausura-153",
+   "date": "2001-05-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Yaqué."
+  },
+  {
+   "id": "2000-01-clausura-154",
+   "date": "2001-05-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Abreu (2, 2 de penal), Estévez, Romagnoli."
+  },
+  {
+   "id": "2000-01-clausura-155",
+   "date": "2001-05-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-156",
+   "date": "2001-05-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: M. Rodríguez - Castagno Suárez, Cabrol (2)."
+  },
+  {
+   "id": "2000-01-clausura-157",
+   "date": "2001-05-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Canobbio - Müller."
+  },
+  {
+   "id": "2000-01-clausura-158",
+   "date": "2001-05-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pierucci."
+  },
+  {
+   "id": "2000-01-clausura-159",
+   "date": "2001-05-20",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Gaitán."
+  },
+  {
+   "id": "2000-01-clausura-160",
+   "date": "2001-05-21",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Lobos - Galletti, Quatrocchi."
+  },
+  {
+   "id": "2000-01-clausura-161",
+   "date": "2001-05-25",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Rocha (en contra)."
+  },
+  {
+   "id": "2000-01-clausura-162",
+   "date": "2001-05-26",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Graf - Milito."
+  },
+  {
+   "id": "2000-01-clausura-163",
+   "date": "2001-05-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: R. Astudillo, Pino, Cuba."
+  },
+  {
+   "id": "2000-01-clausura-164",
+   "date": "2001-05-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Brizuela."
+  },
+  {
+   "id": "2000-01-clausura-165",
+   "date": "2001-05-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bidal (en contra), Levato - Pena, Bustos."
+  },
+  {
+   "id": "2000-01-clausura-166",
+   "date": "2001-05-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pierucci - Pavlovich, Saldaña."
+  },
+  {
+   "id": "2000-01-clausura-167",
+   "date": "2001-05-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "almagro",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Saviola, Ortega (2), Cardetti (2) - Demus."
+  },
+  {
+   "id": "2000-01-clausura-168",
+   "date": "2001-05-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Artime, Liendo (2)."
+  },
+  {
+   "id": "2000-01-clausura-169",
+   "date": "2001-05-27",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Abreu."
+  },
+  {
+   "id": "2000-01-clausura-170",
+   "date": "2001-05-28",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Galván - Lobos."
+  },
+  {
+   "id": "2000-01-clausura-171",
+   "date": "2001-06-04",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "chacarita",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: La Paglia, Rodríguez, W. Gaitán (2) - Brizuela (2), Moreno, G. Gaitán."
+  },
+  {
+   "id": "2000-01-clausura-172",
+   "date": "2001-06-04",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ramírez."
+  },
+  {
+   "id": "2000-01-clausura-173",
+   "date": "2001-06-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pereyra (de penal), Enría - Franco."
+  },
+  {
+   "id": "2000-01-clausura-174",
+   "date": "2001-06-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Bevaqcua - F. Domínguez, Camps."
+  },
+  {
+   "id": "2000-01-clausura-175",
+   "date": "2001-06-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Estévez (2), Chatruc, Canobbio - Cámpora."
+  },
+  {
+   "id": "2000-01-clausura-176",
+   "date": "2001-06-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Colotto (Pompei)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2000-01-clausura-177",
+   "date": "2001-06-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "los-andes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Valli, M. Donnet, Israelevich (2) - Maggiolo, Silvera (en contra)."
+  },
+  {
+   "id": "2000-01-clausura-178",
+   "date": "2001-06-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romeo (2)."
+  },
+  {
+   "id": "2000-01-clausura-179",
+   "date": "2001-06-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Morales (2), Soto - Álvarez, Ortega."
+  },
+  {
+   "id": "2000-01-clausura-180",
+   "date": "2001-06-05",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Artime (2), E. González - Graf (de penal)."
+  },
+  {
+   "id": "2000-01-clausura-181",
+   "date": "2001-06-09",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Buján, Husain."
+  },
+  {
+   "id": "2000-01-clausura-182",
+   "date": "2001-06-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Romeo (de penal), Erviti - Castillo. Se suspendió a los 86 minutos porque los hinchas de San Lorenzo invadieron la cancha, y quedó el resultado."
+  },
+  {
+   "id": "2000-01-clausura-183",
+   "date": "2001-06-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Estévez (de penal)."
+  },
+  {
+   "id": "2000-01-clausura-184",
+   "date": "2001-06-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Quinteros - Liendo (2), Artime."
+  },
+  {
+   "id": "2000-01-clausura-185",
+   "date": "2001-06-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Brizuela, Rivero - Zermattén."
+  },
+  {
+   "id": "2000-01-clausura-186",
+   "date": "2001-06-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Ortega - Klimowicz (de penal), Sarría."
+  },
+  {
+   "id": "2000-01-clausura-187",
+   "date": "2001-06-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Galletti - O. Pérez."
+  },
+  {
+   "id": "2000-01-clausura-188",
+   "date": "2001-06-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Albornos - Real."
+  },
+  {
+   "id": "2000-01-clausura-189",
+   "date": "2001-06-10",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cabrol, Graf - Bevaqcua, Sparapani, Chaile."
+  },
+  {
+   "id": "2000-01-clausura-190",
+   "date": "2001-06-11",
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Maggiolo, Netto (de penal), Pieters - Cufré, Fernández. Se suspendió a los 90 minutos porque los hinchas de Los Andes invadieron la cancha, y quedó el resultado."
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Clausura",
+   "id": "2000-01-clausura-extra-1",
+   "date": "2001-03-04",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "awardedTo": "huracan",
+   "note": "Se suspendió a los 76 minutos por incidentes, con 2-1 (Moner, Gabrich - Pieters); la liga se lo dio 2-0 a Huracán. Así lo cuentan las tablas de RSSSF y de Wikipedia."
+  }
+ ]
+}

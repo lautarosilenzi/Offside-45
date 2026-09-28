@@ -1,18 +1,18 @@
 {
- "slug": "1999-00-promocion",
- "year": 1999,
- "yearLabel": "1999/00",
+ "slug": "2000-01-promocion",
+ "year": 2000,
+ "yearLabel": "2000/01",
  "league": "Promoción",
- "title": "Promoción 1999/00",
- "tournament": "Promoción 1999/00",
+ "title": "Promoción 2000/01",
+ "tournament": "Promoción 2000/01",
  "organizer": "Asociación del Fútbol Argentino",
  "championIds": [],
- "summary": "Belgrano se salvó con la ventaja deportiva ante Quilmes (4-4 en el global); Instituto perdió con Almagro (1-2) y descendió.",
+ "summary": "Belgrano (ante Quilmes) y Argentinos Juniors (ante Instituto) empataron 1-1 en el global y se quedaron en Primera por la ventaja deportiva.",
  "pointsPerWin": 2,
  "sources": [
   {
-   "label": "RSSSF – Argentina 1999",
-   "url": "https://www.rsssf.org/tablesa/arg00.html"
+   "label": "RSSSF – Argentina 2000",
+   "url": "https://www.rsssf.org/tablesa/arg01.html"
   }
  ],
  "notes": [
@@ -24,66 +24,65 @@
  "publishedTable": [],
  "matches": [
   {
-   "id": "1999-00-promocion-001",
-   "date": "2000-07-20",
+   "id": "2000-01-promocion-001",
+   "date": "2001-06-13",
    "competition": "Asociación del Fútbol Argentino · Promoción",
    "stage": "Promoción (ida)",
    "phase": "playoff",
    "homeId": "quilmes",
    "awayId": "belgrano",
-   "homeGoals": 3,
-   "awayGoals": 1,
-   "sources": [
-    "rsssf"
-   ],
-   "note": "Goles: Giampietri, Luis Fernando (en contra), Domínguez - Medina."
-  },
-  {
-   "id": "1999-00-promocion-002",
-   "date": "2000-07-20",
-   "competition": "Asociación del Fútbol Argentino · Promoción",
-   "stage": "Promoción (ida)",
-   "phase": "playoff",
-   "homeId": "almagro",
-   "awayId": "instituto",
    "homeGoals": 1,
    "awayGoals": 0,
    "sources": [
     "rsssf"
    ],
-   "note": "Goles: Maciel."
+   "note": "Goles: Alayes."
   },
   {
-   "id": "1999-00-promocion-003",
-   "date": "2000-07-23",
+   "id": "2000-01-promocion-002",
+   "date": "2001-06-13",
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "instituto",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2000-01-promocion-003",
+   "date": "2001-06-16",
    "competition": "Asociación del Fútbol Argentino · Promoción",
    "stage": "Promoción (vuelta)",
    "phase": "playoff",
    "homeId": "belgrano",
    "awayId": "quilmes",
-   "homeGoals": 3,
-   "awayGoals": 1,
+   "homeGoals": 1,
+   "awayGoals": 0,
    "sources": [
     "rsssf"
    ],
-   "note": "4-4 en el global: Belgrano se quedó en Primera por la ventaja deportiva del equipo de Primera.",
+   "note": "1-1 en el global: Belgrano se quedó en Primera por la ventaja deportiva.",
    "advancedId": "belgrano"
   },
   {
-   "id": "1999-00-promocion-004",
-   "date": "2000-07-23",
+   "id": "2000-01-promocion-004",
+   "date": "2001-06-16",
    "competition": "Asociación del Fútbol Argentino · Promoción",
    "stage": "Promoción (vuelta)",
    "phase": "playoff",
-   "homeId": "instituto",
-   "awayId": "almagro",
+   "homeId": "argentinos",
+   "awayId": "instituto",
    "homeGoals": 1,
    "awayGoals": 1,
    "sources": [
     "rsssf"
    ],
-   "note": "Almagro ganó 2-1 en el global: ascendió y descendió Instituto.",
-   "advancedId": "almagro"
+   "note": "1-1 en el global: Argentinos Juniors se quedó en Primera por la ventaja deportiva.",
+   "advancedId": "argentinos"
   }
  ]
 }

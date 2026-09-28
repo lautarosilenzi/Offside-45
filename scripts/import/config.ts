@@ -319,6 +319,8 @@ const ABREV_1997 = {
   "Talleres Cba.": "talleres",
   "Instituto Cba.": "instituto",
   "Newell�s O.B.": "newells",
+  "Newell's O. B.": "newells",
+  "Argentinos Jrs": "argentinos",
 };
 
 export const TOURNAMENTS: TournamentConfig[] = [
@@ -2938,6 +2940,104 @@ afaTorneo(1979, "reclasificacion", {
       "2000-07-23 instituto almagro": { phase: "playoff", stage: "Promoción (vuelta)", advancedId: "almagro", note: "Almagro ganó 2-1 en el global: ascendió y descendió Instituto." },
     },
     summary: "Belgrano se salvó con la ventaja deportiva ante Quilmes (4-4 en el global); Instituto perdió con Almagro (1-2) y descendió.",
+    notes: [
+      { kind: "formato", text: "Series a ida y vuelta entre los equipos 17.º y 18.º del promedio y dos equipos del Nacional B. Con el global empatado, se quedaba el equipo de Primera." },
+    ],
+  }),
+  // ───────── 2000/01 ─────────
+  afaLargaExtra(2000, "apertura", "Apertura", {
+    championIds: ["boca"],
+    wiki: "Anexo:Torneo Apertura 2000 (Argentina)",
+    aliases: ABREV_1997,
+    headings: [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Third and Fourth Promotion/, /^General Table/],
+    sectionRange: { from: /^Torneo Apertura$/, to: /^Torneo Clausura$/ },
+    tableIndex: [0],
+    pointsPerWin: 3,
+    extraMatches: [
+      {
+        id: "2000-01-apertura-extra-1",
+        date: "2000-12-16",
+        stage: "Fecha 19",
+        phase: "league",
+        homeId: "racing",
+        awayId: "independiente",
+        homeGoals: 0,
+        awayGoals: 2,
+        note: "Goles: Cambiasso, Vuoso. Se suspendió a los 81 minutos por incidentes, con 0-2, y la liga dio por bueno ese resultado.",
+      },
+    ],
+    overrides: {
+      "2000-10-06 racing argentinos": { note: "Se había suspendido el 8/9 a los 47 minutos, 0-0, por lluvia; el 6/10 se jugaron los 43 minutos que faltaban." },
+      "2000-11-14 estudiantes newells": {
+        note: "El 10/9 se había suspendido a los 41 minutos, 0-0, porque tiraron una bomba de estruendo a la cancha; se volvió a jugar el 14/11.",
+      },
+      "2000-12-06 lanus racing": {
+        note: "Se había suspendido el 11/11 al final del primer tiempo, 2-0, por lluvia; el 6/12 se jugó el segundo tiempo. Goles: A. López (2), Zanetti (en contra), Klimowicz (de penal) - Cannobio, Zanetti.",
+      },
+      "2000-12-06 river newells": { note: "Se había suspendido el 11/11 a los 31 minutos, 1-0, por lluvia; el 6/12 se jugaron los 59 minutos que faltaban. Goles: Ortega, Coudet." },
+      "2000-12-06 huracan belgrano": {
+        note: "Se había suspendido el 11/11 al final del primer tiempo, 1-0, por lluvia; el 6/12 se jugó el segundo tiempo. Goles: Lobos, Soto - Mugnaini.",
+      },
+      "2000-10-22 chacarita colon-santa-fe": {
+        note: "Goles: Carrario (2), Moreno (de penal) - Biaggio. RSSSF anota la duda «¿2-1?», pero sus goleadores, su tabla y Wikipedia dan 3-1.",
+      },
+    },
+    summary: "Boca ganó el Apertura cuatro puntos delante de River y Gimnasia y Esgrima La Plata.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria." }],
+  }),
+  afaLargaExtra(2000, "clausura", "Clausura", {
+    championIds: ["sanlorenzo"],
+    wiki: "Anexo:Torneo Clausura 2001 (Argentina)",
+    aliases: ABREV_1997,
+    headings: [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Third and Fourth Promotion/, /^General Table/],
+    sectionRange: { from: /^Torneo Clausura$/, to: /^Third and Fourth Promotion/ },
+    tableIndex: [0],
+    rolloverBefore: 13,
+    pointsPerWin: 3,
+    pointAdjustments: [{ teamId: "los-andes", points: -3, reason: "descuento de 3 puntos (RSSSF no da el motivo)" }],
+    extraMatches: [
+      {
+        id: "2000-01-clausura-extra-1",
+        date: "2001-03-04",
+        stage: "Fecha 5",
+        phase: "league",
+        homeId: "huracan",
+        awayId: "los-andes",
+        homeGoals: 2,
+        awayGoals: 0,
+        awardedTo: "huracan",
+        note: "Se suspendió a los 76 minutos por incidentes, con 2-1 (Moner, Gabrich - Pieters); la liga se lo dio 2-0 a Huracán. Así lo cuentan las tablas de RSSSF y de Wikipedia.",
+      },
+    ],
+    overrides: {
+      "2001-06-10 sanlorenzo union-santa-fe": {
+        note: "Goles: Romeo (de penal), Erviti - Castillo. Se suspendió a los 86 minutos porque los hinchas de San Lorenzo invadieron la cancha, y quedó el resultado.",
+      },
+      "2001-06-11 los-andes gimnasia": {
+        note: "Goles: Maggiolo, Netto (de penal), Pieters - Cufré, Fernández. Se suspendió a los 90 minutos porque los hinchas de Los Andes invadieron la cancha, y quedó el resultado.",
+      },
+    },
+    summary: "San Lorenzo ganó el Clausura con 15 victorias en 19 partidos, seis puntos delante de River.",
+    notes: [
+      {
+        kind: "formato",
+        text: "20 equipos a una rueda, 3 puntos por victoria. Descendían directamente los dos peores promedios de las últimas tres temporadas (Almagro y Los Andes); los dos siguientes (Argentinos Juniors y Belgrano) jugaban la Promoción con equipos del Nacional B.",
+      },
+    ],
+  }),
+  afaLargaExtra(2000, "promocion", "Promoción", {
+    championIds: [],
+    aliases: { ...ABREV_1997, "BELGRANO CBA": "belgrano", "ARGENTINOS JRS": "argentinos" },
+    headings: [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Third and Fourth Promotion/, /^General Table/],
+    sectionRange: { from: /^Third and Fourth Promotion/, to: /^General Table/ },
+    rolloverBefore: 13,
+    overrides: {
+      "2001-06-13 quilmes belgrano": { phase: "playoff", stage: "Promoción (ida)" },
+      "2001-06-16 belgrano quilmes": { phase: "playoff", stage: "Promoción (vuelta)", advancedId: "belgrano", note: "1-1 en el global: Belgrano se quedó en Primera por la ventaja deportiva." },
+      "2001-06-13 instituto argentinos": { phase: "playoff", stage: "Promoción (ida)" },
+      "2001-06-16 argentinos instituto": { phase: "playoff", stage: "Promoción (vuelta)", advancedId: "argentinos", note: "1-1 en el global: Argentinos Juniors se quedó en Primera por la ventaja deportiva." },
+    },
+    summary: "Belgrano (ante Quilmes) y Argentinos Juniors (ante Instituto) empataron 1-1 en el global y se quedaron en Primera por la ventaja deportiva.",
     notes: [
       { kind: "formato", text: "Series a ida y vuelta entre los equipos 17.º y 18.º del promedio y dos equipos del Nacional B. Con el global empatado, se quedaba el equipo de Primera." },
     ],

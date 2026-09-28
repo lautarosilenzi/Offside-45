@@ -34,6 +34,25 @@ function parseDate(raw: string, year: number, prevMonth: number): { iso: string;
   return { iso: `${y}-${String(month).padStart(2, "0")}-${String(Number(m[2])).padStart(2, "0")}`, month };
 }
 
+// Goleadores: "5' and 27' González", "Trotta (p)", "Zanetti (o.g)", "Chilavert (3, 3 pen)" → en castellano.
+const scorersEs = (s: string) =>
+  s
+    .replace(/\s+and\s+/g, " y ")
+    .replace(/\((?:p|pen)\.?\)/gi, "(de penal)")
+    .replace(/\(o\.\s?g\.?\)/gi, "(en contra)")
+    .replace(/\((\d+), (\d+) pens?\)/gi, (_, n: string, p: string) => `(${n}, ${p === "1" ? "uno" : p} de penal)`)
+    .replace(/\((\d+), (\d+) o\.g\.?\)/gi, (_, n: string, p: string) => `(${n}, ${p === "1" ? "uno" : p} en contra)`);
+
+// Frases de RSSSF que aparecen una sola vez (texto exacto → traducción).
+const NOTE_ES: [string, string][] = [
+  ["abandoned at 60' due to threats to the referee made by a Barracas Central player", "Suspendido a los 60 minutos por amenazas al árbitro de un jugador de Barracas Central."],
+  ["Suspended at 64' due to crowd trouble with a penalty awarded to Newell's Old Boys", "Suspendido a los 64 minutos por incidentes en la tribuna, con un penal a favor de Newell's Old Boys."],
+  ["abandoned at 0-0 in the second half as the referee was attacked by home player", "En realidad se empezó a jugar: se suspendió 0-0 en el segundo tiempo porque un jugador local agredió al árbitro."],
+  ["suspended at 1-1, Atlanta was awarded the points", "En realidad se empezó a jugar: se suspendió 1-1 y la liga le dio los puntos a Atlanta."],
+  ["Goles: Sportivo Almagro could not field a complete team.", "Sportivo Almagro no pudo formar un equipo completo."],
+  ["Del Plata abandoned at 75' in protest of the penalty kick that determined the 3-2.", "Del Plata abandonó la cancha a los 75 minutos en protesta por el penal del 3-2."],
+];
+
 // "Dec 26" o "26 Dec" → "26/12".
 const esDate = (s: string) =>
   s
@@ -611,7 +630,11 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       /^NB\b|^\.|^\(|^\[|^\d+'|^Then\b|[:;]|\(\d+m\)|\bis not included\b|, and,|\blater\b|\bstanding\b|\bor$|\.$/i.test(s) &&
       !(/\.$/.test(s) && resolveName(s, cfg.year));
     // El visitante puede traer la cancha y una observación pegadas (se separan más abajo): admite nombres más largos.
-    if (prose(raw.home) || raw.home.length > 45 || (prose(raw.away) && !/\([A-Z]{1,3} forfeited on [^)]*\)$/.test(raw.away)) || raw.away.length > 80) continue;
+    if (prose(raw.home) || raw.home.length > 45 || (prose(raw.away) && !/\([A-Z]{1,3} forfeited on [^)]*\)$/.test(raw.away)) || raw.away.length > 80) {
+      // Que no se pierda en silencio una fila con resultado ("Newell's O. B.  1-0  Talleres", 2001: el nombre termina en punto).
+      if (/^\d+\s*[:\-]\s*\d+$/.test(raw.score) && !prose(raw.home.replace(/\.$/, ""))) warnings.push(`L${raw.line} ${raw.home}-${raw.away}: fila descartada como texto (¿nombre sin alias?)`);
+      continue;
+    }
     const home = resolveName(raw.home, cfg.year);
     let away = resolveName(raw.away, cfg.year);
     // "Ferrocarriles del Estado Colegiales": la cancha va a un solo espacio del visitante. Se prueba el nombre más
@@ -855,7 +878,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       if (txt.length) m.note = [m.note, ...txt].filter(Boolean).join(" ");
     } else if (raw.scorers)
       // "[Acevedo(2)]   [Rulli, …]" (1965): un corchete por equipo.
-      m.note = [m.note, `Goles: ${raw.scorers.replace(/^;\s*/, "—; ").replace(/(\d+'[^;]*?) - (\d+')/, "$1; $2").replace(/;\s*/, " / ").replace(/\]\s*\[/g, " / ")}.`].filter(Boolean).join(" ");
+      m.note = [m.note, `Goles: ${scorersEs(raw.scorers.replace(/^;\s*/, "—; ").replace(/(\d+'[^;]*?) - (\d+')/, "$1; $2").replace(/;\s*/, " / ").replace(/\]\s*\[/g, " / "))}.`].filter(Boolean).join(" ");
     // Empate definido por penales ("[6]2-2[7]" → "pen 6:7"): quién pasó; para la estadística sigue siendo empate.
     const pen = raw.note.match(/\bpen (\d+)[:-](\d+)\b/);
     // En una vuelta de ida y vuelta (1979) los penales definen la serie aunque el partido no haya terminado empatado.
@@ -958,6 +981,8 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     matches.splice(matches.indexOf(part), 1);
   }
   for (const extra of cfg.extraMatches ?? []) matches.push({ sources: ["rsssf"], competition: cfg.competition, ...extra } as Match);
+  // Notas sueltas de RSSSF que no siguen ninguna fórmula: se traducen tal cual.
+  for (const m of matches) if (m.note) for (const [en, es] of NOTE_ES) m.note = m.note.replace(en, es);
   if (cfg.finalIsLast) {
     const last = [...matches].filter((m) => m.status !== "annulled").sort((a, b) => a.date.localeCompare(b.date)).pop();
     if (last) last.stage = "Final";
