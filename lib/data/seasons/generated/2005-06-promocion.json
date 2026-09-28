@@ -1,0 +1,89 @@
+{
+ "slug": "2005-06-promocion",
+ "year": 2005,
+ "yearLabel": "2005/06",
+ "league": "Promoción",
+ "title": "Promoción 2005/06",
+ "tournament": "Promoción 2005/06",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Argentinos Juniors se salvó con la ventaja deportiva ante Huracán (3-3 en el global); Belgrano le ganó 4-2 a Olimpo y ascendió.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2005",
+   "url": "https://www.rsssf.org/tablesa/arg06.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Series a ida y vuelta entre equipos de Primera con mal promedio y equipos del Nacional B. Con el global empatado, se quedaba el equipo de Primera."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2005-06-promocion-001",
+   "date": "2006-05-31",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "huracan",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "note": "Goles: Coyette - Ledesma."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2005-06-promocion-002",
+   "date": "2006-05-31",
+   "stage": "Promoción (ida)",
+   "phase": "playoff",
+   "homeId": "belgrano",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "note": "Goles: Frangipane, Gigli - Delorte."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2005-06-promocion-003",
+   "date": "2006-06-04",
+   "stage": "Promoción (vuelta)",
+   "phase": "playoff",
+   "homeId": "argentinos",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "advancedId": "argentinos",
+   "note": "Goles: L. Núñez, C. Ledesma - H. Álvarez, C. Alfaro. 3-3 en el global: Argentinos Juniors se quedó en Primera por la ventaja deportiva."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Asociación del Fútbol Argentino · Promoción",
+   "id": "2005-06-promocion-004",
+   "date": "2006-06-04",
+   "stage": "Promoción (vuelta)",
+   "phase": "playoff",
+   "homeId": "olimpo",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "advancedId": "belgrano",
+   "note": "Goles: Delorte - Frangipane, Gigli. Belgrano ganó 4-2 en el global: ascendió y descendió Olimpo."
+  }
+ ]
+}

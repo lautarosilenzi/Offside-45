@@ -346,6 +346,10 @@ const ABREV_2001 = {
   "Gimnasia y Esgrima (La Plata)": "gimnasia",
   "Instituto (Córdoba)": "instituto",
   "Huracán (BA)": "huracan",
+  "Gimnasia y Esgrima (Jujuy)": "gimnasia-jujuy",
+  "Gimnasia y Esgrima (LP)": "gimnasia",
+  "Gimnasia y Esgrima (J)": "gimnasia-jujuy",
+  "Tiro Federal (Rosario)": "tiro-federal-rosario",
 };
 
 // Apertura y Clausura desde 2002/03: 20 equipos a una rueda, 3 puntos por victoria, tabla al principio de cada torneo.
@@ -360,6 +364,7 @@ const corto = (y: number, key: "apertura" | "clausura", opts: CortoOpts) =>
   });
 const H_2002 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^General Table/, /^Relegation Playoff$/];
 const H_2003 = [...H_2002, /^Top Scorers/];
+const H_2005 = [/^Torneo Apertura/, /^Relegation Table/, /^Torneo Clausura/, /^Aggregate Table/, /^Promotion\/Relegation Playoff/];
 const H_2004 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Topscorers Clausura/, /^Promotion\/Relegation Playoffs/];
 // Promoción: series a ida y vuelta entre los dos equipos de Primera con peor promedio (después de los que descendían
 // directo) y equipos del Nacional B. `series`: [ida (fecha, local, visitante), vuelta, quién se quedó o subió, nota].
@@ -3290,5 +3295,96 @@ afaTorneo(1979, "reclasificacion", {
     ],
     series: [],
     summary: "Argentinos Juniors (4-2 a Atlético de Rafaela) e Instituto (3-1 a Huracán) se quedaron en Primera.",
+  }),
+  // ───────── 2005/06 ─────────
+  corto(2005, "apertura", {
+    championIds: ["boca"],
+    wiki: "Anexo:Torneo Apertura 2005 (Argentina)",
+    headings: H_2005,
+    sectionRange: { from: /^Torneo Apertura/, to: /^Relegation Table/ },
+    aliases: { "Instituto ´": "instituto" }, // errata de la fuente: un acento suelto después del nombre
+    summary: "Boca ganó el Apertura tres puntos delante de Gimnasia y Esgrima La Plata.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria." }],
+  }),
+  corto(2005, "clausura", {
+    championIds: ["boca"],
+    wiki: "Anexo:Torneo Clausura 2006 (Argentina)",
+    headings: H_2005,
+    sectionRange: { from: /^Torneo Clausura/, to: /^Aggregate Table/ },
+    // Las notas de estos partidos van en dos renglones, en una columna aparte: se cargan a mano.
+    skip: (m) => m.score === "awd" || (m.home === "Independiente" && m.away === "Banfield"),
+    extraMatches: [
+      {
+        id: "2005-06-clausura-extra-1",
+        date: "2006-03-18",
+        stage: "Fecha 10",
+        phase: "league",
+        homeId: "colon-santa-fe",
+        awayId: "velez",
+        homeGoals: 0,
+        awayGoals: 3,
+        awardedTo: "velez",
+        note: "Se suspendió a los 90 minutos con 1-3 (Denis - Castromán 2, Zárate); la liga se lo dio 0-3 a Vélez.",
+      },
+      {
+        id: "2005-06-clausura-extra-2",
+        date: "2006-05-10",
+        stage: "Fecha 11",
+        phase: "league",
+        homeId: "independiente",
+        awayId: "banfield",
+        homeGoals: 1,
+        awayGoals: 2,
+        note: "Goles: Agüero (de penal) - Sand, Galarza. Se había suspendido el 26/3 a los 80 minutos, con 1-2; el 10/5 se jugaron, a puertas cerradas, los 10 minutos que faltaban y 3 de descuento.",
+      },
+      {
+        id: "2005-06-clausura-extra-3",
+        date: "2006-04-23",
+        stage: "Fecha 16",
+        phase: "league",
+        homeId: "velez",
+        awayId: "boca",
+        homeGoals: 0,
+        awayGoals: 3,
+        awardedTo: "boca",
+        note: "Se suspendió a los 87 minutos con 2-3 (Ereros, M. Zárate - Palermo, Silvestre, Bilos); la liga se lo dio 0-3 a Boca.",
+      },
+      {
+        id: "2005-06-clausura-extra-4",
+        date: "2006-05-14",
+        stage: "Fecha 19",
+        phase: "league",
+        homeId: "quilmes",
+        awayId: "river",
+        homeGoals: 0,
+        awayGoals: 3,
+        awardedTo: "river",
+        note: "Se suspendió a los 67 minutos con 1-3 (Carrario - Gallardo 2, Ge); la liga se lo dio 0-3 a River.",
+      },
+    ],
+    overrides: {
+      "2006-02-25 racing independiente": { note: "Goles: Agüero (2). Se suspendió en el descuento (90+1) con 0-2, y quedó ese resultado." },
+    },
+    summary: "Boca ganó también el Clausura, ocho puntos delante de Lanús: su segundo bicampeonato seguido.",
+    notes: [
+      {
+        kind: "formato",
+        text: "20 equipos a una rueda, 3 puntos por victoria. Descendían directamente los dos peores promedios de las últimas tres temporadas (Instituto y Tiro Federal); los dos siguientes (Argentinos Juniors y Olimpo) jugaban la Promoción con equipos del Nacional B.",
+      },
+    ],
+  }),
+  promocion(2005, {
+    headings: H_2005,
+    sectionRange: { from: /^Promotion\/Relegation Playoff/ },
+    // La fecha va en el título de cada ronda: los cuatro partidos se cargan a mano.
+    skip: () => true,
+    extraMatches: [
+      { id: "2005-06-promocion-001", date: "2006-05-31", stage: "Promoción (ida)", phase: "playoff", homeId: "huracan", awayId: "argentinos", homeGoals: 1, awayGoals: 1, note: "Goles: Coyette - Ledesma." },
+      { id: "2005-06-promocion-002", date: "2006-05-31", stage: "Promoción (ida)", phase: "playoff", homeId: "belgrano", awayId: "olimpo", homeGoals: 2, awayGoals: 1, note: "Goles: Frangipane, Gigli - Delorte." },
+      { id: "2005-06-promocion-003", date: "2006-06-04", stage: "Promoción (vuelta)", phase: "playoff", homeId: "argentinos", awayId: "huracan", homeGoals: 2, awayGoals: 2, advancedId: "argentinos", note: "Goles: L. Núñez, C. Ledesma - H. Álvarez, C. Alfaro. 3-3 en el global: Argentinos Juniors se quedó en Primera por la ventaja deportiva." },
+      { id: "2005-06-promocion-004", date: "2006-06-04", stage: "Promoción (vuelta)", phase: "playoff", homeId: "olimpo", awayId: "belgrano", homeGoals: 1, awayGoals: 2, advancedId: "belgrano", note: "Goles: Delorte - Frangipane, Gigli. Belgrano ganó 4-2 en el global: ascendió y descendió Olimpo." },
+    ],
+    series: [],
+    summary: "Argentinos Juniors se salvó con la ventaja deportiva ante Huracán (3-3 en el global); Belgrano le ganó 4-2 a Olimpo y ascendió.",
   }),
 ];
