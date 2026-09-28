@@ -4128,4 +4128,37 @@ afaTorneo(1979, "reclasificacion", {
     tournament: "Superliga 2017/18",
     title: "Superliga 2017/18",
   },
+  // ───────── 2018/19: Superliga, 26 equipos (arg2019.html) ─────────
+  {
+    ...afaLarga(2018, {
+      championIds: ["racing"],
+      headings: [/^Campeonato de Primera División \S*Superliga 2018\/2019/, /^Copa de Superliga was approved/, /^Relegation$/],
+      sectionRange: { from: /^Campeonato de Primera División \S*Superliga 2018\/2019/, to: /^Copa de Superliga was approved/ },
+      tableIndex: [0],
+      pointsPerWin: 3,
+      aliases: {
+        ...ABREV_2001,
+        ...A_2016,
+        // En 2018/19 jugaron los dos San Martín.
+        "Club Atlético San Martín": "san-martin-sj",
+        "Club Atlético San Martín Sociedad Civil": "san-martin-tucuman",
+        "CA San Martín (San Juan)": "san-martin-sj",
+        "CA San Martín (SM de Tucumán)": "san-martin-tucuman",
+      },
+      summary: "Racing ganó la Superliga cuatro puntos delante de Defensa y Justicia.",
+      notes: [
+        {
+          kind: "formato",
+          text: "Superliga: 26 equipos a una rueda, 3 puntos por victoria. Descendieron los cuatro peores promedios: Tigre, San Martín de San Juan, Belgrano y San Martín de Tucumán.",
+        },
+        {
+          kind: "puntos",
+          text: "La Superliga resolvió descontarles 6 puntos a San Lorenzo (22/3) y a Huracán (8/4), pero el 10/6 suspendió las dos sanciones: no se aplicaron.",
+        },
+      ],
+    }),
+    file: "arg2019.html",
+    tournament: "Superliga 2018/19",
+    title: "Superliga 2018/19",
+  },
 ];
