@@ -286,7 +286,8 @@ const anual = (
   tableIndex: [0],
   pointsPerWin: 3,
   ...rest,
-  aliases: { ...ABREV_2001, ...rest.aliases },
+  // Los mismos alias cortos que las temporadas anteriores ("Estudiantes" es el de La Plata, etc.).
+  aliases: { Gimnasia: "gimnasia", Vélez: "velez", Ferro: "ferro", Chacarita: "chacarita", Estudiantes: "estudiantes", Talleres: "talleres", ...ABREV_2001, ...rest.aliases },
 });
 const H_2015 = [/^Campeonato de Primera División 2015/, /^Liguilla Pre Libertadores$/, /^Liguilla Pre Sudamericana$/, /^Relegation$/, /^Second Level: Primera B Nacional 2015/];
 // 2015: con 30 equipos, "Club Atlético San Martín" es el de San Juan (el de Tucumán estaba en el Federal A).
@@ -4022,6 +4023,50 @@ afaTorneo(1979, "reclasificacion", {
       {
         kind: "formato",
         text: "Los mejores del campeonato sin clasificación internacional (más los perdedores de las semifinales de la Liguilla Pre-Libertadores): una ronda a un partido y otra a ida y vuelta. Los cuatro ganadores fueron a la Sudamericana.",
+      },
+    ],
+  }),
+  // ───────── 2016: dos zonas de 15, final y partido por el tercer puesto ─────────
+  anual(2016, undefined, "Campeonato", {
+    file: "arg2016.html",
+    tournament: "Campeonato de Primera División 2016",
+    championIds: ["lanus"],
+    wiki: "Campeonato de Primera División 2016 (Argentina)",
+    headings: [/^Campeonato de Primera División 2016$/, /^Relegation$/],
+    sectionRange: { from: /^Campeonato de Primera División 2016$/, to: /^Relegation$/ },
+    tableIndex: [0, 1],
+    groupNames: ["Zona 1", "Zona 2"],
+    aliases: {
+      "Club Atlético San Martín": "san-martin-sj",
+      "Club Atlético Sarmiento": "sarmiento-junin",
+      Sarmiento: "sarmiento-junin", // así lo nombra Wikipedia
+      "Club Atlético Unión": "union-santa-fe",
+      "Club Atlético Belgrano": "belgrano",
+      "Club Atlético Tucumán Sociedad Civil": "atletico-tucuman",
+      "Club Atlético Tucumán Sociedad C.": "atletico-tucuman",
+      "Club Atlético Patronato de la Juventud Católica": "patronato-parana",
+      "CA Patronato de la Juv. Católica": "patronato-parana",
+      "Asociación A. Argentinos Juniors": "argentinos",
+      "Asociación Mutual Social y Deportiva Atlético de Rafaela": "atletico-rafaela",
+    },
+    overrides: {
+      "2016-05-28 godoy-cruz estudiantes": {
+        phase: "playoff",
+        stage: "Partido entre los segundos",
+        venue: "Mario Alberto Kempes (Córdoba)",
+        note: "Entre los segundos de cada zona, por un lugar en la Copa Libertadores 2017: lo ganó Estudiantes.",
+      },
+      "2016-05-29 sanlorenzo lanus": {
+        phase: "playoff",
+        stage: "Final",
+        note: "Final entre los ganadores de las dos zonas, en cancha de River: Lanús campeón.",
+      },
+    },
+    summary: "Lanús ganó su zona y le ganó la final 4-0 a San Lorenzo en el Monumental.",
+    notes: [
+      {
+        kind: "formato",
+        text: "30 equipos en dos zonas de 15, a una rueda, más una fecha de clásicos entre zonas; 3 puntos por victoria. Los ganadores de las zonas jugaron la final y los segundos, un partido por un lugar en la Libertadores. Descendió Argentinos Juniors.",
       },
     ],
   }),

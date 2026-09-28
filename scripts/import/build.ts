@@ -221,6 +221,9 @@ export function translateNote(
     else if (resolveName(p, year, true)) out.venue = `Cancha de ${resolveName(p, year, true)!.as ?? resolveName(p, year, true)!.name}`;
     else if (/^[A-ZÁÉÍÓÚ][\wáéíóúñ.'-]*(?: (?:de |del |la )?[A-ZÁÉÍÓÚ][\wáéíóúñ.'-]*){0,3}$/.test(p)) out.venue = p;
     else if (/^(neutral|neutral ground)$/i.test(p)) out.text.push("Cancha neutral.");
+    else if (year >= 2016 && (m = p.match(/^([^,]+), ([^,]+), [A-Z]$/)))
+      // 2016–: "[Florencio Sola, Banfield, B]": estadio, ciudad y provincia (la letra no hace falta).
+      out.venue = `${m[1]} (${m[2]})`;
     else if (
       // Desde 2014 RSSSF da el estadio de cada partido: "Centenario Dr. José Luis Meiszner", "Libertador General Don José de San Martín".
       year >= 2014 &&

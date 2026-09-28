@@ -394,7 +394,16 @@ export function resolveName(raw: string, year: number, exact = false): { id: str
     /^(A\. Civil Club Atlético|AMSyD|CS y Deportivo|CS y D|C\. de|CAd|CA del|CA de|CA|C\.|Cd|CSyD|CSyA|CSD|CS|CD|AD|SC|AA|AC|Club Atlético del|Club Atlético de|Club Atlético|Club Social y Deportivo|Club Deportivo|Asociación Atlética|Club de|Club)\s+/,
     "",
   );
-  return stripped !== raw ? resolveExact(stripped, year) : null;
+  if (stripped !== raw) {
+    const hit = resolveExact(stripped, year);
+    if (hit) return hit;
+  }
+  // 2016–: también sufijos ("Club Atlético River Plate AC", "Racing Club Asociación Civil", "Banfield Soc. Civ.")
+  // y abreviaturas de la forma jurídica ("Club Atl.", "C. Dep.", "AMSy Dep.", "Asoc. Civil Club Atlético").
+  const bare = raw
+    .replace(/\s+(AC|Asociación Civil|Asoc\. Civil|Soc\. Civ\.|Soc\. Civil|Sociedad Civil|Sociedad C\.)$/, "")
+    .replace(/^(Asoc\. Civil Club Atlético|Asociación Civil Club Atlético|AMSy Dep\.|C\. Dep\.|Club Atl\.|Club Atlético|CA|Club)\s+/, "");
+  return bare !== raw ? resolveExact(bare, year) ?? resolveExact(raw.replace(/\s+(AC|Asociación Civil|Soc\. Civ\.|Soc\. Civil|Sociedad Civil|Sociedad C\.)$/, ""), year) : null;
 }
 
 function resolveExact(raw: string, year: number): { id: string; name: string; as?: string } | null {
