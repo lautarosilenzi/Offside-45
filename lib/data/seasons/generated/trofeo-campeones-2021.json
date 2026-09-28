@@ -1,0 +1,46 @@
+{
+ "slug": "trofeo-campeones-2021",
+ "kind": "cup",
+ "runnerUpIds": [
+  "colon-santa-fe"
+ ],
+ "year": 2021,
+ "title": "Trofeo de Campeones 2021",
+ "tournament": "Trofeo de Campeones 2021",
+ "organizer": "Liga Profesional de Fútbol (AFA)",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River, campeón de la Liga Profesional 2021, le ganó 4-0 a Colón, campeón de la Copa de la Liga 2021, en Santiago del Estero.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Trofeo de Campeones 2021",
+   "url": "https://www.rsssf.org/tablesa/arg2021.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido único en cancha neutral entre los campeones de los dos torneos de Primera del año."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Trofeo de Campeones",
+   "id": "trofeo-campeones-2021-001",
+   "date": "2021-12-18",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)"
+  }
+ ]
+}

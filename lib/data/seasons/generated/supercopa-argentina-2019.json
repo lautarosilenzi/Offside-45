@@ -1,0 +1,46 @@
+{
+ "slug": "supercopa-argentina-2019",
+ "kind": "cup",
+ "runnerUpIds": [
+  "racing"
+ ],
+ "year": 2019,
+ "title": "Supercopa Argentina 2019",
+ "tournament": "Supercopa Argentina 2019",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River, campeón de la Copa Argentina, le ganó 5-0 a Racing, campeón de Primera 2018/19, en Santiago del Estero (marzo de 2021, postergada por la pandemia).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Supercopa Argentina 2019",
+   "url": "https://www.rsssf.org/tablesa/arg2019.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido único en cancha neutral entre el campeón de Primera y el campeón de la Copa Argentina."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Supercopa Argentina",
+   "id": "supercopa-argentina-2019-001",
+   "date": "2021-03-04",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)"
+  }
+ ]
+}

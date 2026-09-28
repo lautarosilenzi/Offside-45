@@ -114,7 +114,7 @@ function MatchRow({ match, linkSeason, showStage }: { match: Match; linkSeason: 
         <TeamSide name={homeName} today={match.homeAs ? home.name : undefined} team={home} won={winner === home.id} align="right" />
 
         <div
-          className={`min-w-[3.5rem] rounded-sm px-2 py-1 text-center font-display text-lg font-bold sm:min-w-[4.25rem] sm:px-2.5 sm:text-xl tabular-nums leading-tight ${
+          className={`min-w-[3.5rem] rounded-full px-3 py-1 text-center font-display text-lg font-bold sm:min-w-[4.25rem] sm:px-2.5 sm:text-xl tabular-nums leading-tight ${
             annulled ? "bg-navy-200 text-navy-600 line-through decoration-1" : "bg-navy-900 text-white"
           }`}
         >
@@ -131,7 +131,7 @@ function MatchRow({ match, linkSeason, showStage }: { match: Match; linkSeason: 
               {tags.map((t) => (
                 <span
                   key={t.label}
-                  className={`rounded-sm px-1.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide ${
+                  className={`rounded-full px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide ${
                     t.tone === "amber" ? "bg-amber-100 text-amber-800" : "bg-navy-100 text-navy-700"
                   }`}
                 >

@@ -1,0 +1,46 @@
+{
+ "slug": "trofeo-campeones-2023",
+ "kind": "cup",
+ "runnerUpIds": [
+  "central"
+ ],
+ "year": 2023,
+ "title": "Trofeo de Campeones 2023",
+ "tournament": "Trofeo de Campeones 2023",
+ "organizer": "Liga Profesional de Fútbol (AFA)",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River, campeón de la Liga Profesional 2023, le ganó 2-0 a Rosario Central, campeón de la Copa de la Liga 2023, en Santiago del Estero.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Trofeo de Campeones 2023",
+   "url": "https://www.rsssf.org/tablesa/arg2023.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido único en cancha neutral entre los campeones de los dos torneos de Primera del año."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Trofeo de Campeones",
+   "id": "trofeo-campeones-2023-001",
+   "date": "2023-12-22",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)"
+  }
+ ]
+}

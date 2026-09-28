@@ -16,7 +16,7 @@ export function NoteTag({ kind }: { kind: NoteKind }) {
   const k = NOTE_KINDS[kind];
   return (
     <span
-      className={`inline-block whitespace-nowrap rounded-sm px-1.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide ${k.className}`}
+      className={`inline-block whitespace-nowrap rounded-full px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide ${k.className}`}
     >
       {k.label}
     </span>

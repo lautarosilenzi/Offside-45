@@ -39,7 +39,7 @@ function DiffRow({ a, b, row }: { a: Team; b: Team; row: Row }) {
       <div className="flex items-center gap-3">
         {stats.played > 0 && (
           <span
-            className={`min-w-[3.5rem] rounded-sm px-2 py-0.5 text-center font-display text-xl font-bold tabular-nums ${
+            className={`min-w-[3.5rem] rounded-full px-3 py-0.5 text-center font-display text-xl font-bold tabular-nums ${
               leader ? "bg-navy-900 text-white" : "bg-navy-100 text-navy-700"
             }`}
           >

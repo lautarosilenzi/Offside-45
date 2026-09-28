@@ -1,0 +1,48 @@
+{
+ "slug": "supercopa-argentina-2018",
+ "kind": "cup",
+ "runnerUpIds": [
+  "central"
+ ],
+ "year": 2018,
+ "title": "Supercopa Argentina 2018",
+ "tournament": "Supercopa Argentina 2018",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca, campeón de Primera 2017/18, le ganó por penales (0-0, 6-5) a Rosario Central, campeón de la Copa Argentina, en Mendoza (mayo de 2019).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Supercopa Argentina 2018",
+   "url": "https://www.rsssf.org/tablesa/arg2018.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido único en cancha neutral entre el campeón de Primera y el campeón de la Copa Argentina."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Supercopa Argentina",
+   "id": "supercopa-argentina-2018-001",
+   "date": "2019-05-02",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "advancedId": "boca",
+   "note": "Boca ganó 6-5 por penales."
+  }
+ ]
+}

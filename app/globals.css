@@ -2,21 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Fondo celeste con dos manchas de luz difusas: da profundidad sin distraer. */
 body {
-  @apply bg-[#eef1f5] text-navy-900 antialiased;
+  @apply text-navy-900 antialiased;
+  background-color: #dcebfb;
+  background-image:
+    radial-gradient(60rem 40rem at 10% -10%, rgba(122, 164, 226, 0.45), transparent 60%),
+    radial-gradient(50rem 36rem at 100% 20%, rgba(173, 200, 239, 0.55), transparent 60%),
+    linear-gradient(180deg, #e6f0fc 0%, #d6e6fa 100%);
+  background-attachment: fixed;
 }
 
 @layer components {
-  /* Panel blanco con borde fino: la unidad básica de la interfaz. */
+  /* Panel: tarjeta redondeada, blanca semitransparente y con sombra suave. La unidad básica de la interfaz. */
   .panel {
-    @apply rounded-md border border-navy-100 bg-white;
+    @apply rounded-3xl border border-white/70 bg-white/80 shadow-[0_8px_30px_-12px_rgba(12,24,48,0.18)] backdrop-blur-sm;
   }
-  /* Título de sección: condensado, en mayúsculas, con barra de acento. */
+  /* Título de sección: condensado, en mayúsculas, con un punto de acento redondo. */
   .section-title {
     @apply flex items-center gap-2.5 font-display text-lg font-bold uppercase tracking-wide text-navy-900;
   }
   .section-title::before {
     content: "";
-    @apply block h-4 w-1 bg-brand-500;
+    @apply block h-2.5 w-2.5 rounded-full bg-brand-500 ring-4 ring-brand-500/20;
+  }
+  /* Etiqueta en forma de píldora. */
+  .pill {
+    @apply rounded-full px-2.5 py-0.5;
   }
 }

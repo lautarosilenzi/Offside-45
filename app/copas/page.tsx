@@ -44,6 +44,11 @@ const ABOUT: Record<string, string> = {
     "Copa Argentina de 1969–1970, con equipos de Primera y del interior en series de ida y vuelta. La de 1970 quedó sin terminar.",
   "Copa Centenario":
     "Copa por los 100 años de la AFA (1993), entre 18 equipos de Primera: series de ida y vuelta y después doble eliminación, con ronda de ganadores y de perdedores.",
+  "Supercopa Argentina": "Partido único entre el campeón de Primera y el campeón de la Copa Argentina (desde 2012).",
+  "Copa Campeonato": "Final de 2014 entre los ganadores del Inicial 2013 (San Lorenzo) y del Final 2014 (River).",
+  "Copa del Bicentenario": "Partido de 2016 por los 200 años de la Independencia, entre los campeones de 2014 (Racing) y 2016 (Lanús).",
+  "Trofeo de Campeones": "Partido entre los campeones de los dos torneos de Primera del año (Superliga y Liga Profesional, desde 2019). La edición 2020 quedó sin terminar.",
+  "Supercopa Internacional": "Partido entre el ganador del Trofeo de Campeones y el mejor de la tabla anual, a veces jugado en el exterior (desde 2022).",
   "Campeonato Porteño": "Partido entre los campeones de 1926 de la Asociación Argentina y de la Asociación Amateurs, antes de la unificación. Quedó sin definir.",
 };
 
@@ -81,8 +86,9 @@ export default function CupsPage() {
           </section>
         ))}
         <p className="text-sm text-navy-400">
-          Están todas las copas nacionales de Primera que reconoce la AFA hasta el año 2000: entre 1971 y 2000 solo se jugó la Copa Centenario de 1993. Las
-          siguientes (desde la Copa Argentina 2011/12) se cargan junto con sus temporadas.
+          Están todas las copas nacionales de Primera que reconoce la AFA hasta el año 2000 (entre 1971 y 2000 solo se jugó la Copa Centenario de 1993),
+          y desde 2012 las Supercopas, la Copa Campeonato, la del Bicentenario y los Trofeos de Campeones. Faltan todavía la Copa Argentina
+          (desde 2011/12) y la Copa de la Superliga y de la Liga Profesional (2019–2024), que se están cargando.
         </p>
       </main>
     </>
@@ -134,7 +140,7 @@ function EditionRow({ season }: { season: Season }) {
           <span className="text-sm text-navy-500">Sin campeón · suspendida</span>
         )}
         {score ? (
-          <span className="rounded-sm bg-navy-900 px-2 py-0.5 text-center font-display text-base font-bold tabular-nums text-white">
+          <span className="rounded-full bg-navy-900 px-3 py-0.5 text-center font-display text-base font-bold tabular-nums text-white">
             {score}
           </span>
         ) : (

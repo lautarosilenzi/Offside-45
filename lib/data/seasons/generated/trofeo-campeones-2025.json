@@ -1,0 +1,46 @@
+{
+ "slug": "trofeo-campeones-2025",
+ "kind": "cup",
+ "runnerUpIds": [
+  "platense"
+ ],
+ "year": 2025,
+ "title": "Trofeo de Campeones 2025",
+ "tournament": "Trofeo de Campeones 2025",
+ "organizer": "Liga Profesional de Fútbol (AFA)",
+ "championIds": [
+  "estudiantes"
+ ],
+ "summary": "Estudiantes, campeón del Clausura 2025, le ganó 2-1 a Platense, campeón del Apertura, en San Nicolás.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Trofeo de Campeones 2025",
+   "url": "https://www.rsssf.org/tablesa/arg2025.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido único en cancha neutral entre los campeones de los dos torneos de Primera del año."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Trofeo de Campeones",
+   "id": "trofeo-campeones-2025-001",
+   "date": "2025-12-20",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Estadio Único (San Nicolás)"
+  }
+ ]
+}

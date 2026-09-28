@@ -1,0 +1,63 @@
+{
+ "slug": "trofeo-campeones-2022",
+ "kind": "cup",
+ "runnerUpIds": [
+  "boca"
+ ],
+ "year": 2022,
+ "title": "Trofeo de Campeones 2022",
+ "tournament": "Trofeo de Campeones 2022",
+ "organizer": "Liga Profesional de Fútbol (AFA)",
+ "championIds": [
+  "racing"
+ ],
+ "summary": "Racing le ganó la final a Boca (2-1 con alargue) en San Luis. Boca había ganado los dos torneos del año; Racing llegó ganándole la semifinal a Tigre.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Trofeo de Campeones 2022",
+   "url": "https://www.rsssf.org/tablesa/arg2022.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Boca ganó los dos torneos de 2022 (Copa de la Liga y Liga Profesional): los subcampeones (Racing y Tigre) jugaron una semifinal por el lugar en la final con Boca."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Trofeo de Campeones",
+   "id": "trofeo-campeones-2022-001",
+   "date": "2022-11-02",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "tigre",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "note": "Con alargue."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Trofeo de Campeones",
+   "id": "trofeo-campeones-2022-002",
+   "date": "2022-11-06",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Único del Parque La Pedrera (Villa Mercedes)",
+   "note": "Con alargue."
+  }
+ ]
+}

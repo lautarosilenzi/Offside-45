@@ -1,0 +1,41 @@
+{
+ "slug": "trofeo-campeones-2020",
+ "kind": "cup",
+ "year": 2020,
+ "title": "Trofeo de Campeones 2020",
+ "tournament": "Trofeo de Campeones 2020",
+ "organizer": "Liga Profesional de Fútbol (AFA)",
+ "championIds": [],
+ "summary": "Se jugó recién en 2023 y quedó sin terminar: River le ganó 3-2 a Banfield en la semifinal, pero la final con Boca nunca se jugó.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Trofeo de Campeones 2020",
+   "url": "https://www.rsssf.org/tablesa/arg2020.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Boca ganó los dos torneos de la temporada 2020 (Superliga 2019/20 y Copa Diego Maradona), así que los subcampeones (River y Banfield) jugaron una semifinal por el lugar en la final con Boca."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Trofeo de Campeones",
+   "id": "trofeo-campeones-2020-001",
+   "date": "2023-02-22",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Mario Alberto Kempes (Córdoba)"
+  }
+ ]
+}

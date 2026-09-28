@@ -5,7 +5,7 @@ export default function StatsCard({ a, b, stats }: { a: Team; b: Team; stats: He
   const pct = (n: number) => (stats.played ? (n / stats.played) * 100 : 0);
 
   return (
-    <section className="overflow-hidden rounded-md bg-navy-900 text-white">
+    <section className="overflow-hidden rounded-3xl bg-gradient-to-br from-navy-900 to-navy-800 text-white shadow-[0_20px_40px_-20px_rgba(7,15,32,0.55)]">
       <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-4 px-4 py-6 sm:px-8">
         <TeamHead team={a} />
         <div className="text-center">

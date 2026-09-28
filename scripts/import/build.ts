@@ -52,6 +52,10 @@ const NOTE_ES: [string, string][] = [
   ["abandoned at 0-0 in the second half as the referee was attacked by home player", "En realidad se empezó a jugar: se suspendió 0-0 en el segundo tiempo porque un jugador local agredió al árbitro."],
   ["suspended at 1-1, Atlanta was awarded the points", "En realidad se empezó a jugar: se suspendió 1-1 y la liga le dio los puntos a Atlanta."],
   ["Goles: Sportivo Almagro could not field a complete team.", "Sportivo Almagro no pudo formar un equipo completo."],
+  ["suspended at 1-0 in 60' due to crowd trouble, continued on June 29", "Se suspendió a los 60 minutos, 1-0, por incidentes en la tribuna; se completó el 29 de junio."],
+  ["Goles: replay of the match of October 14.", "Se volvió a jugar el partido del 14 de octubre."],
+  ["suspended at 2-1 in 70' due to crowd trouble, joined by local players", "Se había suspendido a los 70 minutos, 2-1, por incidentes en los que se metieron jugadores locales."],
+  [" / The match was suspended at 89' due to crowd trouble", ". Se suspendió a los 89 minutos por incidentes en la tribuna"],
   ["Del Plata abandoned at 75' in protest of the penalty kick that determined the 3-2.", "Del Plata abandonó la cancha a los 75 minutos en protesta por el penal del 3-2."],
 ];
 
@@ -106,6 +110,9 @@ export function translateNote(
     .replace(/^\[|\]$/g, "")
     .replace(/^\{/, "") // "{at Vélez Sarsfield]": errata de la fuente (1998)
     .replace(/\bSocre\b/g, "Score") // errata de la fuente (2003)
+    .replace(/\u0085/g, " ") // carácter de control suelto en la fuente (1914)
+    .replace(/\bawarded on\s+(?=[A-Z][a-z]+,)/i, "awarded; ") // 1914: "awarded on Comercio, Núñez, C" (sin la fecha)
+    .replace(/\bwithdrew championship,\s*/i, "withdrew championship; ") // 1924: "Racing withdrew championship, Banfield"
     .replace(/\brema(?:ning|inig|ing)\b/gi, "remaining") // erratas de la fuente (2019–2022)
     .replace(/\b(HT),(?=\S)/g, "$1, ") // 2025: "in 45m HT,Víctor Antonio Legrotaglie"
     .replace(/\b(aet|pso),\s*/gi, "$1; ") // 2025: "aet, pso, Único Madre de Ciudades, …": cada dato aparte
@@ -206,6 +213,9 @@ export function translateNote(
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} se retiró del torneo.`);
       out.annulled = true;
+    } else if ((m = p.match(/^(.+?) withdrew championship$/i))) {
+      const club = resolveName(m[1], year);
+      out.text.push(`${club ? club.as ?? club.name : m[1]} se retiró del torneo.`);
     } else if ((m = p.match(/^(.+?) withdrew(?:, see [^,]+)?$/i))) {
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} no se presentó.`);
@@ -1224,6 +1234,9 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   const raw = rawTableDiffs(season).map((p) => p.split(" ")[0].replace(/:$/, "") + ":" + p.split(" ")[1]);
   const stale = (cfg.knownTableDiffs?.keys ?? []).filter((k) => !k.endsWith(":local") && !raw.includes(k));
   if (stale.length) problems.push(`Diferencias explicadas que ya no aparecen (revisar config): ${stale.join(", ")}`);
+  // Las frases sueltas se traducen también al final: algunas notas se completan después (walkover, copas).
+  for (const m of season.matches)
+    if (m.note) for (const [en, es] of NOTE_ES) m.note = m.note.replace(/\u0085/g, " ").replace(en, es);
   return { season, problems, warnings };
 }
 

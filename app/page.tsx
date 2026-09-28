@@ -48,7 +48,7 @@ export default function Home({ searchParams }: { searchParams: { a?: string; b?:
           <>
             <StatsCard a={a} b={b} stats={stats} />
             <EraDiff a={a} b={b} rows={eraRows} />
-            <p className="border-l-2 border-brand-500 bg-white px-4 py-3 text-sm leading-relaxed text-navy-600">
+            <p className="rounded-2xl border-l-4 border-brand-500 bg-white/80 px-4 py-3 text-sm leading-relaxed text-navy-600">
               Todos los partidos oficiales de Primera entre {first} y {last}, verificados contra RSSSF y Wikipedia. Incluye las
               copas nacionales oficiales.
               {annulledCount > 0 &&

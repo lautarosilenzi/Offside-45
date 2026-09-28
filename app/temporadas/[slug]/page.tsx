@@ -51,8 +51,8 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
         <p>{season.summary}</p>
       </PageHero>
 
-      <div className="border-b border-navy-100 bg-white">
-        <dl className="mx-auto grid max-w-5xl divide-y divide-navy-100 px-4 sm:grid-cols-3 sm:divide-x sm:divide-y-0 sm:px-6">
+      <div className="px-3 pt-4 sm:px-6">
+        <dl className="panel mx-auto grid max-w-5xl divide-y divide-navy-100 px-4 sm:grid-cols-3 sm:divide-x sm:divide-y-0 sm:px-6">
           <Fact label="Torneo">{season.tournament}</Fact>
           <Fact label="Organizó">{season.organizer}</Fact>
           <Fact label={champions.length > 1 ? "Campeones" : "Campeón"}>

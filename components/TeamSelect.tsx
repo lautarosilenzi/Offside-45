@@ -23,7 +23,7 @@ export default function TeamSelect({ label, team, exclude, current, others, onCh
         <select
           value={team.id}
           onChange={(e) => onChange(e.target.value)}
-          className="w-full appearance-none rounded-sm border border-navy-200 bg-white py-2.5 pl-11 pr-10 text-base font-semibold text-navy-900 outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
+          className="w-full appearance-none rounded-full border border-navy-200 bg-white py-2.5 pl-11 pr-10 text-base font-semibold text-navy-900 outline-none transition focus:border-brand-500 focus:ring-2 focus:ring-brand-100"
         >
           <optgroup label="Primera División actual">
             {current.map((t) => (

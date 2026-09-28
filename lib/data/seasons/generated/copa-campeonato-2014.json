@@ -1,0 +1,47 @@
+{
+ "slug": "copa-campeonato-2014",
+ "kind": "cup",
+ "runnerUpIds": [
+  "sanlorenzo"
+ ],
+ "year": 2014,
+ "title": "Copa Campeonato 2014",
+ "tournament": "Copa Campeonato 2014",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River, ganador del Final 2014, le ganó 1-0 a San Lorenzo, ganador del Inicial 2013, en San Luis.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Campeonato 2014",
+   "url": "https://www.rsssf.org/tablesa/arg2014.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Copa de Campeonato de Primera División 2013/14: partido único en cancha neutral entre los ganadores del Inicial (San Lorenzo) y del Final (River)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Campeonato",
+   "id": "copa-campeonato-2014-001",
+   "date": "2014-05-24",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Estadio Juan Gilberto Funes (San Luis)",
+   "note": "Goles: Pezzella 72'."
+  }
+ ]
+}

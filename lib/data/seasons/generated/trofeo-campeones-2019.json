@@ -1,0 +1,46 @@
+{
+ "slug": "trofeo-campeones-2019",
+ "kind": "cup",
+ "runnerUpIds": [
+  "tigre"
+ ],
+ "year": 2019,
+ "title": "Trofeo de Campeones 2019",
+ "tournament": "Trofeo de Campeones 2019",
+ "organizer": "Superliga Argentina de Fútbol",
+ "championIds": [
+  "racing"
+ ],
+ "summary": "Racing, campeón de la Superliga 2018/19, le ganó 2-0 a Tigre, campeón de la Copa de la Superliga 2019, en Mar del Plata.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Trofeo de Campeones 2019",
+   "url": "https://www.rsssf.org/tablesa/arg2019.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Trofeo de Campeones de la Superliga: partido único en cancha neutral entre el campeón de la Superliga y el de la Copa de la Superliga."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Trofeo de Campeones",
+   "id": "trofeo-campeones-2019-001",
+   "date": "2019-12-14",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "José María Minella (Mar del Plata)"
+  }
+ ]
+}

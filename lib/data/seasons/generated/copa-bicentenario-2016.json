@@ -1,0 +1,47 @@
+{
+ "slug": "copa-bicentenario-2016",
+ "kind": "cup",
+ "runnerUpIds": [
+  "racing"
+ ],
+ "year": 2016,
+ "title": "Copa del Bicentenario 2016",
+ "tournament": "Copa del Bicentenario 2016",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "lanus"
+ ],
+ "summary": "Lanús, campeón 2016, le ganó 1-0 a Racing, campeón 2014, en el Cilindro, con un gol en el descuento.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa del Bicentenario 2016",
+   "url": "https://www.rsssf.org/tablesa/arg2017.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Copa por los 200 años de la Independencia: partido único entre los campeones de 2014 (Racing) y 2016 (Lanús)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa del Bicentenario",
+   "id": "copa-bicentenario-2016-001",
+   "date": "2016-08-14",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "note": "Goles: Brian Montenegro 90+1'. La cancha se sorteó entre los dos clubes."
+  }
+ ]
+}

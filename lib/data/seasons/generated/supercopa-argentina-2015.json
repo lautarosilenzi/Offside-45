@@ -1,0 +1,46 @@
+{
+ "slug": "supercopa-argentina-2015",
+ "kind": "cup",
+ "runnerUpIds": [
+  "boca"
+ ],
+ "year": 2015,
+ "title": "Supercopa Argentina 2015",
+ "tournament": "Supercopa Argentina 2015",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "sanlorenzo"
+ ],
+ "summary": "San Lorenzo le ganó 4-0 a Boca en Córdoba (febrero de 2016). Boca había ganado el campeonato y la Copa Argentina, y jugó San Lorenzo como subcampeón.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Supercopa Argentina 2015",
+   "url": "https://www.rsssf.org/tablesa/arg2015a.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido único en cancha neutral entre el campeón de Primera 2015 y el de la Copa Argentina 2014/15; como Boca ganó los dos, jugó el subcampeón de la liga."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Supercopa Argentina",
+   "id": "supercopa-argentina-2015-001",
+   "date": "2016-02-10",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Mario Alberto Kempes (Córdoba)"
+  }
+ ]
+}

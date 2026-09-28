@@ -23,37 +23,68 @@ export default function SeasonsPage() {
   ].sort((a, b) => a.year - b.year);
 
   const matchCount = SEASONS.reduce((n, s) => n + s.matches.length, 0);
+  // Agrupadas por década, con una barra para saltar de una a otra.
+  const decades = new Map<number, Entry[]>();
+  for (const e of entries) {
+    const d = Math.floor(e.year / 10) * 10;
+    decades.set(d, [...(decades.get(d) ?? []), e]);
+  }
 
   return (
     <>
       <PageHero eyebrow="Primera División" title="Temporadas">
         Todos los partidos oficiales, año por año, desde el primer campeonato de 1891.
         <div className="mt-5 flex flex-wrap gap-x-8 gap-y-2 font-display uppercase tracking-wide">
-          <Stat value={SEASONS.length} label="Temporadas cargadas" />
-          <Stat value={matchCount} label="Partidos" />
+          <Stat value={SEASONS.length} label="Torneos" />
+          <Stat value={matchCount.toLocaleString("es-AR")} label="Partidos" />
           <Stat value={`${SEASONS[0].year}–${SEASONS[SEASONS.length - 1].year}`} label="Período" />
         </div>
       </PageHero>
 
-      <main className="mx-auto max-w-5xl px-4 py-8 sm:px-6">
-        <div className="grid gap-4 md:grid-cols-2">
-          {entries.map((e) =>
-            e.type === "none" ? (
-              <div key={e.year} className="rounded-md border border-dashed border-navy-200 bg-white/50">
-                <div className="flex items-center justify-between border-b border-dashed border-navy-200 px-4 py-2.5">
-                  <span className="font-display text-2xl font-bold text-navy-300">{e.year}</span>
-                  <span className="font-display text-xs font-semibold uppercase tracking-widest text-navy-400">
-                    Sin torneo
-                  </span>
-                </div>
-                <p className="px-4 py-3 text-sm leading-relaxed text-navy-500">{e.reason}</p>
-              </div>
-            ) : (
-              <SeasonCard key={e.season.slug} season={e.season} />
-            ),
-          )}
+      <nav
+        aria-label="Décadas"
+        className="sticky top-[4.25rem] z-20 mx-auto mt-4 max-w-5xl px-3 sm:top-[4.75rem] sm:px-6"
+      >
+        <div className="flex gap-1.5 overflow-x-auto rounded-full border border-white/70 bg-white/80 p-1.5 shadow-[0_8px_24px_-14px_rgba(12,24,48,0.3)] backdrop-blur-md [scrollbar-width:none]">
+          {[...decades.keys()].map((d) => (
+            <a
+              key={d}
+              href={`#d${d}`}
+              className="shrink-0 rounded-full px-3 py-1 font-display text-sm font-semibold tabular-nums text-navy-600 transition hover:bg-navy-900 hover:text-white"
+            >
+              {d}s
+            </a>
+          ))}
         </div>
-        <p className="mt-6 text-sm text-navy-400">Las próximas temporadas se cargan de a una, verificadas.</p>
+      </nav>
+
+      <main className="mx-auto max-w-5xl space-y-10 px-4 py-8 sm:px-6">
+        {[...decades.entries()].map(([d, list]) => (
+          <section key={d} id={`d${d}`} className="scroll-mt-36">
+            <h2 className="section-title mb-4">Década de {d}</h2>
+            <div className="grid gap-4 md:grid-cols-2">
+              {list.map((e) =>
+                e.type === "none" ? (
+                  <div key={e.year} className="rounded-3xl border border-dashed border-navy-300/70 bg-white/40">
+                    <div className="flex items-center justify-between border-b border-dashed border-navy-200 px-4 py-2.5">
+                      <span className="font-display text-2xl font-bold text-navy-300">{e.year}</span>
+                      <span className="font-display text-xs font-semibold uppercase tracking-widest text-navy-400">
+                        Sin torneo
+                      </span>
+                    </div>
+                    <p className="px-4 py-3 text-sm leading-relaxed text-navy-500">{e.reason}</p>
+                  </div>
+                ) : (
+                  <SeasonCard key={e.season.slug} season={e.season} />
+                ),
+              )}
+            </div>
+          </section>
+        ))}
+        <p className="text-sm text-navy-400">
+          Cada torneo está verificado: la tabla que sale de los partidos coincide con la publicada por la fuente, y las diferencias
+          que no se pueden resolver están explicadas en su página.
+        </p>
       </main>
     </>
   );
@@ -76,7 +107,7 @@ function SeasonCard({ season }: { season: Season }) {
   return (
     <Link
       href={`/temporadas/${season.slug}`}
-      className="group flex flex-col overflow-hidden rounded-md border border-navy-100 bg-white transition hover:border-navy-300 hover:shadow-[0_2px_12px_rgba(12,24,48,0.08)]"
+      className="group flex flex-col overflow-hidden rounded-3xl border border-white/70 bg-white/80 shadow-[0_8px_24px_-14px_rgba(12,24,48,0.25)] backdrop-blur-sm transition hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-[0_14px_30px_-12px_rgba(0,71,171,0.30)]"
     >
       <div className="flex items-center justify-between bg-navy-900 px-4 py-2.5 text-white">
         <span className="font-display text-2xl font-bold">{seasonLabel(season)}</span>
@@ -112,7 +143,7 @@ function SeasonCard({ season }: { season: Season }) {
                       {seasonNameOf(season, r.teamId) ?? team?.name ?? r.teamId}
                     </span>
                     {champion && (
-                      <span className="rounded-sm bg-gold-500 px-1 text-[10px] font-bold uppercase text-white">
+                      <span className="rounded-full bg-gold-500 px-1.5 text-[10px] font-bold uppercase text-white">
                         Campeón
                       </span>
                     )}
