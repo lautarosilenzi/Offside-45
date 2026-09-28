@@ -1,0 +1,5494 @@
+{
+ "slug": "2021",
+ "year": 2021,
+ "yearLabel": "2021",
+ "league": "Liga Profesional",
+ "title": "Liga Profesional 2021",
+ "tournament": "Torneo de la Liga Profesional de Fútbol 2021",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River ganó el torneo de la Liga Profesional siete puntos delante de Defensa y Justicia.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2021",
+   "url": "https://www.rsssf.org/tablesa/arg2021.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera División 2021 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_2021_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "26 equipos a una rueda, 3 puntos por victoria. No hubo descensos: la AFA los había suspendido por la pandemia hasta 2022."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "river",
+   "played": 25,
+   "won": 16,
+   "drawn": 6,
+   "lost": 3,
+   "goalsFor": 53,
+   "goalsAgainst": 19,
+   "points": 54
+  },
+  {
+   "teamId": "defensa-y-justicia",
+   "played": 25,
+   "won": 13,
+   "drawn": 8,
+   "lost": 4,
+   "goalsFor": 43,
+   "goalsAgainst": 24,
+   "points": 47
+  },
+  {
+   "teamId": "talleres",
+   "played": 25,
+   "won": 14,
+   "drawn": 4,
+   "lost": 7,
+   "goalsFor": 38,
+   "goalsAgainst": 28,
+   "points": 46
+  },
+  {
+   "teamId": "boca",
+   "played": 25,
+   "won": 11,
+   "drawn": 8,
+   "lost": 6,
+   "goalsFor": 35,
+   "goalsAgainst": 19,
+   "points": 41
+  },
+  {
+   "teamId": "velez",
+   "played": 25,
+   "won": 10,
+   "drawn": 9,
+   "lost": 6,
+   "goalsFor": 34,
+   "goalsAgainst": 21,
+   "points": 39
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 25,
+   "won": 10,
+   "drawn": 9,
+   "lost": 6,
+   "goalsFor": 43,
+   "goalsAgainst": 31,
+   "points": 39
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 25,
+   "won": 11,
+   "drawn": 6,
+   "lost": 8,
+   "goalsFor": 26,
+   "goalsAgainst": 31,
+   "points": 39
+  },
+  {
+   "teamId": "huracan",
+   "played": 25,
+   "won": 10,
+   "drawn": 8,
+   "lost": 7,
+   "goalsFor": 28,
+   "goalsAgainst": 25,
+   "points": 38
+  },
+  {
+   "teamId": "independiente",
+   "played": 25,
+   "won": 10,
+   "drawn": 8,
+   "lost": 7,
+   "goalsFor": 27,
+   "goalsAgainst": 24,
+   "points": 38
+  },
+  {
+   "teamId": "lanus",
+   "played": 25,
+   "won": 10,
+   "drawn": 7,
+   "lost": 8,
+   "goalsFor": 44,
+   "goalsAgainst": 43,
+   "points": 37
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 25,
+   "won": 9,
+   "drawn": 9,
+   "lost": 7,
+   "goalsFor": 27,
+   "goalsAgainst": 28,
+   "points": 36
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 25,
+   "won": 10,
+   "drawn": 4,
+   "lost": 11,
+   "goalsFor": 32,
+   "goalsAgainst": 32,
+   "points": 34
+  },
+  {
+   "teamId": "aldosivi",
+   "played": 25,
+   "won": 10,
+   "drawn": 3,
+   "lost": 12,
+   "goalsFor": 29,
+   "goalsAgainst": 39,
+   "points": 33
+  },
+  {
+   "teamId": "argentinos",
+   "played": 25,
+   "won": 8,
+   "drawn": 8,
+   "lost": 9,
+   "goalsFor": 26,
+   "goalsAgainst": 25,
+   "points": 32
+  },
+  {
+   "teamId": "racing",
+   "played": 25,
+   "won": 8,
+   "drawn": 8,
+   "lost": 9,
+   "goalsFor": 24,
+   "goalsAgainst": 23,
+   "points": 32
+  },
+  {
+   "teamId": "central",
+   "played": 25,
+   "won": 9,
+   "drawn": 5,
+   "lost": 11,
+   "goalsFor": 39,
+   "goalsAgainst": 41,
+   "points": 32
+  },
+  {
+   "teamId": "godoy-cruz",
+   "played": 25,
+   "won": 8,
+   "drawn": 7,
+   "lost": 10,
+   "goalsFor": 35,
+   "goalsAgainst": 33,
+   "points": 31
+  },
+  {
+   "teamId": "platense",
+   "played": 25,
+   "won": 7,
+   "drawn": 10,
+   "lost": 8,
+   "goalsFor": 36,
+   "goalsAgainst": 36,
+   "points": 31
+  },
+  {
+   "teamId": "newells",
+   "played": 25,
+   "won": 7,
+   "drawn": 7,
+   "lost": 11,
+   "goalsFor": 24,
+   "goalsAgainst": 32,
+   "points": 28
+  },
+  {
+   "teamId": "banfield",
+   "played": 25,
+   "won": 5,
+   "drawn": 12,
+   "lost": 8,
+   "goalsFor": 20,
+   "goalsAgainst": 25,
+   "points": 27
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 25,
+   "won": 7,
+   "drawn": 6,
+   "lost": 12,
+   "goalsFor": 23,
+   "goalsAgainst": 33,
+   "points": 27
+  },
+  {
+   "teamId": "central-cordoba-sde",
+   "played": 25,
+   "won": 6,
+   "drawn": 8,
+   "lost": 11,
+   "goalsFor": 30,
+   "goalsAgainst": 36,
+   "points": 26
+  },
+  {
+   "teamId": "patronato-parana",
+   "played": 25,
+   "won": 5,
+   "drawn": 10,
+   "lost": 10,
+   "goalsFor": 23,
+   "goalsAgainst": 35,
+   "points": 25
+  },
+  {
+   "teamId": "sarmiento-junin",
+   "played": 25,
+   "won": 6,
+   "drawn": 6,
+   "lost": 13,
+   "goalsFor": 23,
+   "goalsAgainst": 33,
+   "points": 24
+  },
+  {
+   "teamId": "atletico-tucuman",
+   "played": 25,
+   "won": 5,
+   "drawn": 7,
+   "lost": 13,
+   "goalsFor": 22,
+   "goalsAgainst": 46,
+   "points": 22
+  },
+  {
+   "teamId": "arsenal",
+   "played": 25,
+   "won": 4,
+   "drawn": 9,
+   "lost": 12,
+   "goalsFor": 12,
+   "goalsAgainst": 34,
+   "points": 21
+  }
+ ],
+ "matches": [
+  {
+   "id": "2021-001",
+   "date": "2021-07-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-002",
+   "date": "2021-07-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-003",
+   "date": "2021-07-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "patronato-parana",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-004",
+   "date": "2021-07-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-005",
+   "date": "2021-07-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-006",
+   "date": "2021-07-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-007",
+   "date": "2021-07-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-008",
+   "date": "2021-07-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-009",
+   "date": "2021-07-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-010",
+   "date": "2021-07-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Monumental Antonio Vespucio Liberti (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-011",
+   "date": "2021-07-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-012",
+   "date": "2021-07-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-013",
+   "date": "2021-07-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Feliciano Gambarte (Godoy Cruz)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-014",
+   "date": "2021-07-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-015",
+   "date": "2021-07-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-016",
+   "date": "2021-07-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-017",
+   "date": "2021-07-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-018",
+   "date": "2021-07-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-019",
+   "date": "2021-07-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-020",
+   "date": "2021-07-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "patronato-parana",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-021",
+   "date": "2021-07-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "union-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Monumental Antonio Vespucio Liberti (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-022",
+   "date": "2021-07-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-023",
+   "date": "2021-07-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-024",
+   "date": "2021-07-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-025",
+   "date": "2021-07-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-026",
+   "date": "2021-07-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-027",
+   "date": "2021-07-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-028",
+   "date": "2021-07-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-029",
+   "date": "2021-07-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-030",
+   "date": "2021-07-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "patronato-parana",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-031",
+   "date": "2021-07-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-032",
+   "date": "2021-07-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-033",
+   "date": "2021-07-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-034",
+   "date": "2021-07-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-035",
+   "date": "2021-07-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Feliciano Gambarte (Godoy Cruz)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-036",
+   "date": "2021-07-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-037",
+   "date": "2021-07-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-038",
+   "date": "2021-07-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-039",
+   "date": "2021-07-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-040",
+   "date": "2021-07-31",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-041",
+   "date": "2021-07-31",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-042",
+   "date": "2021-07-31",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-043",
+   "date": "2021-07-31",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-044",
+   "date": "2021-08-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-045",
+   "date": "2021-08-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-046",
+   "date": "2021-08-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Monumental Antonio Vespucio Liberti (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-047",
+   "date": "2021-08-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-048",
+   "date": "2021-08-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "patronato-parana",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-049",
+   "date": "2021-08-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-050",
+   "date": "2021-08-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "arsenal",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-051",
+   "date": "2021-08-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "aldosivi",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Gigante de Arroyito",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-052",
+   "date": "2021-08-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Monumental José Fierro",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-053",
+   "date": "2021-08-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-054",
+   "date": "2021-08-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-055",
+   "date": "2021-08-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-056",
+   "date": "2021-08-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-057",
+   "date": "2021-08-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "sanlorenzo",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-058",
+   "date": "2021-08-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Feliciano Gambarte (Godoy Cruz)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-059",
+   "date": "2021-08-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-060",
+   "date": "2021-08-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-061",
+   "date": "2021-08-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-062",
+   "date": "2021-08-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-063",
+   "date": "2021-08-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "patronato-parana",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-064",
+   "date": "2021-08-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-065",
+   "date": "2021-08-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-066",
+   "date": "2021-08-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-067",
+   "date": "2021-08-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-068",
+   "date": "2021-08-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-069",
+   "date": "2021-08-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Monumental Antonio Vespucio Liberti (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-070",
+   "date": "2021-08-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-071",
+   "date": "2021-08-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-072",
+   "date": "2021-08-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "patronato-parana",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-073",
+   "date": "2021-08-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-074",
+   "date": "2021-08-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-075",
+   "date": "2021-08-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-076",
+   "date": "2021-08-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-077",
+   "date": "2021-08-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-078",
+   "date": "2021-08-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-079",
+   "date": "2021-08-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-080",
+   "date": "2021-08-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-081",
+   "date": "2021-08-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-082",
+   "date": "2021-08-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-083",
+   "date": "2021-08-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-084",
+   "date": "2021-08-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "patronato-parana",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-085",
+   "date": "2021-08-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-086",
+   "date": "2021-08-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "lanus",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-087",
+   "date": "2021-08-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Feliciano Gambarte (Godoy Cruz)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-088",
+   "date": "2021-08-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-089",
+   "date": "2021-08-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-090",
+   "date": "2021-08-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-091",
+   "date": "2021-08-22",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-092",
+   "date": "2021-08-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-093",
+   "date": "2021-08-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "patronato-parana",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-094",
+   "date": "2021-08-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-095",
+   "date": "2021-08-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-096",
+   "date": "2021-08-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-097",
+   "date": "2021-08-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-098",
+   "date": "2021-08-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-099",
+   "date": "2021-08-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "arsenal",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-100",
+   "date": "2021-08-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-101",
+   "date": "2021-08-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-102",
+   "date": "2021-08-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Monumental Antonio Vespucio Liberti (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-103",
+   "date": "2021-08-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Feliciano Gambarte (Godoy Cruz)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-104",
+   "date": "2021-08-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-105",
+   "date": "2021-08-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-106",
+   "date": "2021-08-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-107",
+   "date": "2021-08-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-108",
+   "date": "2021-08-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-109",
+   "date": "2021-08-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-110",
+   "date": "2021-08-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-111",
+   "date": "2021-08-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-112",
+   "date": "2021-08-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-113",
+   "date": "2021-08-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-114",
+   "date": "2021-08-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "patronato-parana",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-115",
+   "date": "2021-08-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-116",
+   "date": "2021-08-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-117",
+   "date": "2021-08-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-118",
+   "date": "2021-09-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-119",
+   "date": "2021-09-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-120",
+   "date": "2021-09-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-121",
+   "date": "2021-09-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-122",
+   "date": "2021-09-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-123",
+   "date": "2021-09-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-124",
+   "date": "2021-09-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-125",
+   "date": "2021-09-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "patronato-parana",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-126",
+   "date": "2021-09-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Monumental Antonio Vespucio Liberti (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-127",
+   "date": "2021-09-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "gimnasia",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Feliciano Gambarte (Godoy Cruz)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-128",
+   "date": "2021-09-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-129",
+   "date": "2021-09-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "union-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-130",
+   "date": "2021-09-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-131",
+   "date": "2021-09-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-132",
+   "date": "2021-09-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-133",
+   "date": "2021-09-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-134",
+   "date": "2021-09-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-135",
+   "date": "2021-09-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-136",
+   "date": "2021-09-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-137",
+   "date": "2021-09-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-138",
+   "date": "2021-09-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-139",
+   "date": "2021-09-14",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-140",
+   "date": "2021-09-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "patronato-parana",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-141",
+   "date": "2021-09-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-142",
+   "date": "2021-09-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-143",
+   "date": "2021-09-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-144",
+   "date": "2021-09-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Feliciano Gambarte (Godoy Cruz)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-145",
+   "date": "2021-09-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "aldosivi",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-146",
+   "date": "2021-09-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-147",
+   "date": "2021-09-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-148",
+   "date": "2021-09-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "patronato-parana",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-149",
+   "date": "2021-09-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-150",
+   "date": "2021-09-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-151",
+   "date": "2021-09-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-152",
+   "date": "2021-09-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Monumental Antonio Vespucio Liberti (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-153",
+   "date": "2021-09-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-154",
+   "date": "2021-09-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-155",
+   "date": "2021-09-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-156",
+   "date": "2021-09-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-157",
+   "date": "2021-09-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-158",
+   "date": "2021-09-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-159",
+   "date": "2021-09-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-160",
+   "date": "2021-09-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-161",
+   "date": "2021-09-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-162",
+   "date": "2021-09-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-163",
+   "date": "2021-09-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "central",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-164",
+   "date": "2021-09-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-165",
+   "date": "2021-09-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-166",
+   "date": "2021-09-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-167",
+   "date": "2021-09-26",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "patronato-parana",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-168",
+   "date": "2021-09-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-169",
+   "date": "2021-09-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-170",
+   "date": "2021-10-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-171",
+   "date": "2021-10-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-172",
+   "date": "2021-10-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "patronato-parana",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-173",
+   "date": "2021-10-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-174",
+   "date": "2021-10-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-175",
+   "date": "2021-10-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-176",
+   "date": "2021-10-02",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-177",
+   "date": "2021-10-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Único Ciudad de La Plata Diego Armando Maradona (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-178",
+   "date": "2021-10-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-179",
+   "date": "2021-10-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Monumental Antonio Vespucio Liberti (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-180",
+   "date": "2021-10-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-181",
+   "date": "2021-10-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-182",
+   "date": "2021-10-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-183",
+   "date": "2021-10-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-184",
+   "date": "2021-10-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-185",
+   "date": "2021-10-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-186",
+   "date": "2021-10-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-187",
+   "date": "2021-10-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-188",
+   "date": "2021-10-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-189",
+   "date": "2021-10-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-190",
+   "date": "2021-10-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "patronato-parana",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-191",
+   "date": "2021-10-09",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "aldosivi",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-192",
+   "date": "2021-10-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-193",
+   "date": "2021-10-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-194",
+   "date": "2021-10-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-195",
+   "date": "2021-10-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-196",
+   "date": "2021-10-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "patronato-parana",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-197",
+   "date": "2021-10-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-198",
+   "date": "2021-10-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-199",
+   "date": "2021-10-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-200",
+   "date": "2021-10-15",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-201",
+   "date": "2021-10-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-202",
+   "date": "2021-10-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-203",
+   "date": "2021-10-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-204",
+   "date": "2021-10-16",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Único Ciudad de La Plata Diego Armando Maradona (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-205",
+   "date": "2021-10-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-206",
+   "date": "2021-10-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-207",
+   "date": "2021-10-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Monumental Antonio Vespucio Liberti (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-208",
+   "date": "2021-10-17",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "argentinos",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-209",
+   "date": "2021-10-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-210",
+   "date": "2021-10-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "patronato-parana",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-211",
+   "date": "2021-10-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-212",
+   "date": "2021-10-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-213",
+   "date": "2021-10-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-214",
+   "date": "2021-10-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-215",
+   "date": "2021-10-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-216",
+   "date": "2021-10-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-217",
+   "date": "2021-10-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-218",
+   "date": "2021-10-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-219",
+   "date": "2021-10-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-220",
+   "date": "2021-10-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-221",
+   "date": "2021-10-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-222",
+   "date": "2021-10-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-223",
+   "date": "2021-10-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Único Ciudad de La Plata Diego Armando Maradona (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-224",
+   "date": "2021-10-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-225",
+   "date": "2021-10-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-226",
+   "date": "2021-10-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-227",
+   "date": "2021-10-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-228",
+   "date": "2021-10-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-229",
+   "date": "2021-10-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-230",
+   "date": "2021-10-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-231",
+   "date": "2021-10-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-232",
+   "date": "2021-10-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Monumental Antonio Vespucio Liberti (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-233",
+   "date": "2021-10-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-234",
+   "date": "2021-10-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "patronato-parana",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-235",
+   "date": "2021-10-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-236",
+   "date": "2021-10-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-237",
+   "date": "2021-10-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-238",
+   "date": "2021-10-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-239",
+   "date": "2021-10-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-240",
+   "date": "2021-10-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-241",
+   "date": "2021-10-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-242",
+   "date": "2021-10-31",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-243",
+   "date": "2021-10-31",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-244",
+   "date": "2021-10-31",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-245",
+   "date": "2021-10-31",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-246",
+   "date": "2021-11-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-247",
+   "date": "2021-11-01",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "patronato-parana",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-248",
+   "date": "2021-11-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-249",
+   "date": "2021-11-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-250",
+   "date": "2021-11-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-251",
+   "date": "2021-11-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-252",
+   "date": "2021-11-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "arsenal",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-253",
+   "date": "2021-11-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-254",
+   "date": "2021-11-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-255",
+   "date": "2021-11-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Único Ciudad de La Plata Diego Armando Maradona (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-256",
+   "date": "2021-11-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-257",
+   "date": "2021-11-07",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "patronato-parana",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "Monumental Antonio Vespucio Liberti (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-258",
+   "date": "2021-11-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-259",
+   "date": "2021-11-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-260",
+   "date": "2021-11-08",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-261",
+   "date": "2021-11-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-262",
+   "date": "2021-11-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "patronato-parana",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-263",
+   "date": "2021-11-18",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-264",
+   "date": "2021-11-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-265",
+   "date": "2021-11-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-266",
+   "date": "2021-11-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-267",
+   "date": "2021-11-19",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-268",
+   "date": "2021-11-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-269",
+   "date": "2021-11-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-270",
+   "date": "2021-11-20",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-271",
+   "date": "2021-11-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-272",
+   "date": "2021-11-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-273",
+   "date": "2021-11-21",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-274",
+   "date": "2021-11-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-275",
+   "date": "2021-11-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "patronato-parana",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-276",
+   "date": "2021-11-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "José Amalfitani",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-277",
+   "date": "2021-11-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "talleres",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-278",
+   "date": "2021-11-23",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-279",
+   "date": "2021-11-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-280",
+   "date": "2021-11-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-281",
+   "date": "2021-11-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-282",
+   "date": "2021-11-24",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-283",
+   "date": "2021-11-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-284",
+   "date": "2021-11-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Brigadier General Estanislao López",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-285",
+   "date": "2021-11-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-286",
+   "date": "2021-11-25",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Monumental Antonio Vespucio Liberti (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-287",
+   "date": "2021-11-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "patronato-parana",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-288",
+   "date": "2021-11-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-289",
+   "date": "2021-11-27",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-290",
+   "date": "2021-11-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-291",
+   "date": "2021-11-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-292",
+   "date": "2021-11-28",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-293",
+   "date": "2021-11-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "arsenal",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-294",
+   "date": "2021-11-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-295",
+   "date": "2021-11-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-296",
+   "date": "2021-11-29",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-297",
+   "date": "2021-11-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "independiente",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-298",
+   "date": "2021-11-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-299",
+   "date": "2021-11-30",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-300",
+   "date": "2021-12-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-301",
+   "date": "2021-12-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-302",
+   "date": "2021-12-03",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "patronato-parana",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-303",
+   "date": "2021-12-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-304",
+   "date": "2021-12-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-305",
+   "date": "2021-12-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-306",
+   "date": "2021-12-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-307",
+   "date": "2021-12-04",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-308",
+   "date": "2021-12-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-309",
+   "date": "2021-12-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-310",
+   "date": "2021-12-05",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Monumental Antonio Vespucio Liberti (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-311",
+   "date": "2021-12-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-312",
+   "date": "2021-12-06",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-313",
+   "date": "2021-12-10",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-314",
+   "date": "2021-12-10",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-315",
+   "date": "2021-12-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-316",
+   "date": "2021-12-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 8,
+   "awayGoals": 1,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-317",
+   "date": "2021-12-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "patronato-parana",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-318",
+   "date": "2021-12-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-319",
+   "date": "2021-12-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-320",
+   "date": "2021-12-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-321",
+   "date": "2021-12-11",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-322",
+   "date": "2021-12-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-323",
+   "date": "2021-12-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-324",
+   "date": "2021-12-12",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2021-325",
+   "date": "2021-12-13",
+   "competition": "Asociación del Fútbol Argentino · Liga Profesional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}

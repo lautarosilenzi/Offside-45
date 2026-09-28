@@ -315,6 +315,18 @@ const A_2016 = {
   "Club Atlético Tucumán": "atletico-tucuman",
   "Arsenal FC": "arsenal",
 };
+// Liga Profesional (2021–): los nombres oficiales, más los de los recién ascendidos.
+const A_LPF = {
+  ...A_2016,
+  "Club Atlético Central Córdoba Soc. Civil": "central-cordoba-sde",
+  "Club Atlético Central Córdoba Sociedad Civil": "central-cordoba-sde",
+  "CA Central Córdoba (SdE)": "central-cordoba-sde",
+  "CA Central Córdoba": "central-cordoba-sde",
+  "Central Córdoba (SdE)": "central-cordoba-sde",
+  "CA Patronato Juventud Católica": "patronato-parana",
+  "Club Atlético Tucumán Soc. Civil": "atletico-tucuman",
+  "Club Atlético Platense Asociación Civil": "platense",
+};
 // Torneos de la misma temporada (Liguilla Pre-Libertadores, Octogonal): sin tabla, todo es eliminación.
 // `file` se puede cambiar: 2009/10 está en arg2010.html (arg10.html es 1910).
 const afaLargaExtra = (
@@ -4190,4 +4202,16 @@ afaTorneo(1979, "reclasificacion", {
     tournament: "Superliga 2019/20",
     title: "Superliga 2019/20",
   },
+  // ───────── 2021: Torneo de la Liga Profesional (arg2021.html; la Copa de la Liga va con las copas) ─────────
+  anual(2021, undefined, "Liga Profesional", {
+    file: "arg2021.html",
+    tournament: "Torneo de la Liga Profesional de Fútbol 2021",
+    championIds: ["river"],
+    wiki: "Campeonato de Primera División 2021 (Argentina)",
+    headings: [/^First level: Torneo de la Liga Profesional de Fútbol de AFA 2021 - Torneo/, /^General Table/],
+    sectionRange: { from: /^First level: Torneo de la Liga Profesional de Fútbol de AFA 2021 - Torneo/, to: /^General Table/ },
+    aliases: A_LPF,
+    summary: "River ganó el torneo de la Liga Profesional siete puntos delante de Defensa y Justicia.",
+    notes: [{ kind: "formato", text: "26 equipos a una rueda, 3 puntos por victoria. No hubo descensos: la AFA los había suspendido por la pandemia hasta 2022." }],
+  }),
 ];
