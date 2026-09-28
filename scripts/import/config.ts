@@ -399,6 +399,16 @@ const H_2009 = [/Apertura 2009$/, /^Topscorer$/, /Clausura 2010$/, /^Topscorers$
 const H_2010 = [/^Torneo .*Apertura 2010$/, /^Topscorers$/, /^Torneo .*Clausura 2011/, /^Relegation Table$/, /^Playoff Against 19th Place/, /^Promotion\/Relegation Playoffs/, /^Primera B Nacional/];
 const H_2011 = [/^Torneo Apertura 2011$/, /^Torneo Clausura 2012$/, /^Relegation Table/, /^Promotion\/Relegation Playoffs$/, /^Copa Argentina 2011\/12/];
 const H_2012 = [/^Torneo Inicial 2012\/13$/, /^Torneo Final 2012\/13$/, /^Campeonato de Primera División 2012\/13$/, /^Copa Argentina$/];
+const H_2013 = [
+  /^Torneo Inicial 2013\/14 \S*Nietos/,
+  /^Torneo Final 2013\/14 \S*Nietos/,
+  /^Copa Campeonato de Primera/,
+  /^Pre Libertadores$/,
+  /^Pre Libertadores Playoff$/,
+  /^Relegation$/,
+  /^Against relegation playoff/,
+  /^Copa Sancor Seguros Argentina 2014/,
+];
 const H_2004 = [/^Torneo Apertura$/, /^Torneo Clausura$/, /^Topscorers Clausura/, /^Promotion\/Relegation Playoffs/];
 // Promoción: series a ida y vuelta entre los dos equipos de Primera con peor promedio (después de los que descendían
 // directo) y equipos del Nacional B. `series`: [ida (fecha, local, visitante), vuelta, quién se quedó o subió, nota].
@@ -3811,5 +3821,79 @@ afaTorneo(1979, "reclasificacion", {
     },
     summary: "Vélez le ganó 1-0 a Newell's en Mendoza y fue campeón de la temporada 2012/13.",
     notes: [{ kind: "formato", text: "Partido único en cancha neutral entre los ganadores del Inicial (Vélez) y del Final (Newell's)." }],
+  }),
+  // ───────── 2013/14 (la Copa Campeonato San Lorenzo-River va con las copas) ─────────
+  corto(2013, "inicial", {
+    file: "arg2014.html",
+    championIds: ["sanlorenzo"],
+    wiki: "Anexo:Torneo Inicial 2013 (Argentina)",
+    headings: H_2013,
+    sectionRange: { from: /^Torneo Inicial 2013\/14 \S*Nietos/, to: /^Torneo Final 2013\/14 \S*Nietos/ },
+    pointAdjustments: [{ teamId: "colon-santa-fe", points: -6, reason: "descuento de 6 puntos por una deuda con el Atlante de México, reclamada ante la FIFA" }],
+    overrides: {
+      "2013-11-18 colon-santa-fe atletico-rafaela": {
+        walkover: true,
+        awardedTo: "atletico-rafaela",
+        note: "No se jugó: Colón no se presentó y el 11/12 la liga le dio el partido 0-1 a Atlético de Rafaela.",
+      },
+    },
+    summary: "San Lorenzo ganó el Inicial dos puntos delante de Lanús, Vélez y Newell's.",
+    notes: [{ kind: "formato", text: "20 equipos a una rueda, 3 puntos por victoria. El campeón jugaba la Copa Campeonato con el ganador del Final." }],
+  }),
+  corto(2013, "final", {
+    file: "arg2014.html",
+    championIds: ["river"],
+    wiki: "Anexo:Torneo Final 2014 (Argentina)",
+    headings: H_2013,
+    sectionRange: { from: /^Torneo Final 2013\/14 \S*Nietos/, to: /^Copa Campeonato de Primera/ },
+    summary: "River ganó el Final cinco puntos delante de Boca, Estudiantes y Godoy Cruz.",
+    notes: [
+      {
+        kind: "formato",
+        text: "20 equipos a una rueda, 3 puntos por victoria. Descendían los tres peores promedios de las últimas tres temporadas: All Boys, Argentinos Juniors y el perdedor del desempate entre Colón y Atlético de Rafaela, igualados en el 17.º puesto (Colón).",
+      },
+    ],
+  }),
+  afaLargaExtra(2013, "prelibertadores", "Desempate Pre-Libertadores", {
+    file: "arg2014.html",
+    championIds: [],
+    headings: H_2013,
+    sectionRange: { from: /^Pre Libertadores Playoff$/, to: /^Relegation$/ },
+    // "[Feb 28, 2015]": se carga a mano (la fecha trae el año y se jugó en la temporada siguiente).
+    skip: () => true,
+    extraMatches: [
+      {
+        id: "2013-14-prelibertadores-001",
+        date: "2015-02-28",
+        homeId: "boca",
+        awayId: "velez",
+        homeGoals: 1,
+        awayGoals: 0,
+        phase: "playoff",
+        stage: "Desempate por el primer puesto de la tabla anual",
+        venue: "Estadio José María Minella (Mar del Plata)",
+        note: "Boca y Vélez igualaron el primer puesto de la tabla anual 2013/14 (Inicial más Final). Boca ganó y pasó directo a la fase de grupos de la Copa Libertadores 2015.",
+      },
+    ],
+    summary: "Boca le ganó 1-0 a Vélez en Mar del Plata (febrero de 2015) por el primer puesto de la tabla anual 2013/14 y un lugar directo en la Copa Libertadores 2015.",
+    notes: [{ kind: "formato", text: "Partido único en cancha neutral entre los dos igualados en el primer puesto de la tabla anual de la temporada." }],
+  }),
+  afaLargaExtra(2013, "desempate", "Desempate por el descenso", {
+    file: "arg2014.html",
+    championIds: [],
+    headings: H_2013,
+    sectionRange: { from: /^Against relegation playoff/, to: /^Copa Sancor Seguros Argentina 2014/ },
+    aliases: ABREV_2001,
+    rolloverBefore: 13,
+    overrides: {
+      "2014-05-24 colon-santa-fe atletico-rafaela": {
+        phase: "playoff",
+        stage: "Desempate por el descenso",
+        venue: "Cancha de Rosario Central",
+        note: "Colón y Atlético de Rafaela igualaron el 17.º puesto de la tabla de promedios: Rafaela se quedó en Primera y Colón descendió.",
+      },
+    },
+    summary: "Atlético de Rafaela le ganó 1-0 a Colón en cancha de Rosario Central: Colón descendió.",
+    notes: [{ kind: "formato", text: "Partido único en cancha neutral entre los dos igualados en el 17.º puesto de la tabla de promedios." }],
   }),
 ];
