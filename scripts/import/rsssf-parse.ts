@@ -196,7 +196,12 @@ export function parseSeason(
     // Copa Argentina: cada título corto de fase se acumula en `ctx`. Uno nuevo reemplaza al último del mismo tipo
     // (y a lo que venía después); "Regional Preliminary Phases" o "Final phase" empiezan de cero.
     if (opts.contextPath) {
-      const h = trimmed.replace(/\s*:\s*$/, "").replace(/\s+/g, " ").trim();
+      // "3.1. Round of 64" (2016/17): se saca la numeración.
+      const h = trimmed
+        .replace(/\s*:\s*$/, "")
+        .replace(/^\d+(?:\.\d+)*\.\s+(?=[A-Za-z])/, "")
+        .replace(/\s+/g, " ")
+        .trim();
       if (
         h.length < 50 &&
         !/[.;]$/.test(h) &&

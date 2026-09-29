@@ -34,6 +34,8 @@ export type TournamentConfig = {
   inProgress?: boolean;
   // Fechas sin año de una copa que duró varios años: el año sale del día de la semana ("[Sep 22, Wed]").
   weekdayYears?: boolean;
+  // Nombre final de una fase ("Ronda 3" → "Treintaidosavos de final").
+  stageRename?: Record<string, string>;
   // Copa con campeón pero sin final jugada (Copa Estímulo 1920): no se busca la final.
   noFinal?: boolean;
   // Equipos eliminados que vuelven a jugar (cuadro rearmado en 1920, o un caso sin explicar en la fuente). Sin `teams`, vale para todos.

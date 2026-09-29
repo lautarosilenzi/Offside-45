@@ -502,7 +502,7 @@ function contextStageOf(ctx: NonNullable<RawMatch["context"]>): string | null {
     else if (/round of 16|\b8th|1\/8|eighth/i.test(t)) parts.push("Octavos de final");
     else if (/quarter/i.test(t)) parts.push("Cuartos de final");
     else if (/semi/i.test(t)) parts.push("Semifinal");
-    else if (/^final$/i.test(t)) parts.push("Final");
+    else if (/^final$|^round \d+\W+final$/i.test(t)) parts.push("Final");
     else if ((m = t.match(/^(first|second|third|fourth|fifth|1st|2nd|3rd|4th) (elimination )?(phase|stage|round)$/i)))
       parts.push(`${ORDINAL[m[1].toLowerCase()]} ${m[2] ? "eliminatoria" : m[3].toLowerCase() === "round" ? "ronda" : "fase"}`);
     else if ((m = t.match(/^preliminary round\s*(\d*)$/i))) parts.push(`Ronda preliminar${m[1] ? ` ${m[1]}` : ""}`);
@@ -820,10 +820,12 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     const zoneRound = cfg.zoneTables && !raw.group && !mapped ? (raw.round ?? "").match(/^Round\s*(\d+):?$/i) : null;
     const fromContext = cfg.contextStages && !mapped ? (raw.context ? contextStageOf(raw.context) : null) : undefined;
     if (fromContext === null) problems.push(`L${raw.line} ${raw.home}-${raw.away}: fase desconocida (${(raw.context ?? []).map((c) => c.text).join(" › ") || "sin título"})`);
-    const { stage, phase } =
+    const { stage: rawStage, phase } =
       cfg.kind === "cup"
         ? { stage: zoneRound ? `Fecha ${zoneRound[1]}` : (fromContext ?? mapped ?? cupStageOf(raw)), phase: "cup" as const }
         : stageOf(raw);
+    // Copa Argentina 2015/16: RSSSF numera las rondas ("Round 3"); acá se les pone el nombre de la fase.
+    const stage = (rawStage && cfg.stageRename?.[rawStage]) ?? rawStage;
     const m: Match = {
       id: `${cfg.slug}-${String(++n).padStart(3, "0")}`,
       date: d.iso,

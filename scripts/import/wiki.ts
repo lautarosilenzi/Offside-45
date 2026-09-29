@@ -46,7 +46,7 @@ async function fetchWikiRaw(title: string): Promise<string | null> {
 const clean = (s: string) =>
   s
     .replace(/<ref[^>]*\/>|<ref[\s\S]*?<\/ref>/g, "")
-    .replace(/<\/?small>/gi, "")
+    .replace(/<\/?(small|sub|sup)>/gi, "")
     // {{nowrap|[[Club …|Equipo]]}}: se deja el contenido (si no, la celda queda vacía y se corren las columnas).
     .replace(/\{\{nowrap\|((?:[^{}]|\{\{[^{}]*\}\})*)\}\}/gi, "$1")
     .replace(/\{\{[^{}]*\}\}/g, "")
@@ -107,8 +107,8 @@ export function wikiRows(text: string): WikiRow[] {
   }
   // Marcas del que pasó de ronda en las copas: "Deportivo Roca (v)", "Sportivo Belgrano (p)".
   for (const r of rows) {
-    r.home = r.home.replace(/\s*\((?:v|p|g|pr)\)$/, "").replace(/^\((?:v|p|g|pr)\)\s*/, "");
-    r.away = r.away.replace(/\s*\((?:v|p|g|pr)\)$/, "").replace(/^\((?:v|p|g|pr)\)\s*/, "");
+    r.home = r.home.replace(/\s*\((?:v|p|g|pr)\.?\)$/, "").replace(/^\((?:v|p|g|pr)\.?\)\s*/, "");
+    r.away = r.away.replace(/\s*\((?:v|p|g|pr)\.?\)$/, "").replace(/^\((?:v|p|g|pr)\.?\)\s*/, "");
   }
   return rows;
 }
