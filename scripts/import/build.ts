@@ -502,6 +502,10 @@ function contextStageOf(ctx: NonNullable<RawMatch["context"]>): string | null {
     else if (/^8°\s*final$/i.test(t)) parts.push("Octavos de final");
     else if (/^4°\s*final$/i.test(t)) parts.push("Cuartos de final");
     else if (/^preliminary stage$/i.test(t)) parts.push("Ronda preliminar");
+    else if (/^initial phase$/i.test(t)) parts.push("Fase inicial");
+    else if (/^1\/24 final/i.test(t)) parts.push("Veinticuatroavos de final");
+    else if ((m = t.match(/^(1st|2nd|3rd|4th|5th) round(?: - (inland|metropolitan) zone)?$/i)))
+      parts.push(`${{ "1st": "Primera", "2nd": "Segunda", "3rd": "Tercera", "4th": "Cuarta", "5th": "Quinta" }[m[1].toLowerCase()]} ronda${m[2] ? ` · Zona ${/inland/i.test(m[2]) ? "Interior" : "Metropolitana"}` : ""}`);
     else if (/^final phase$/i.test(t)) continue;
     else if (/^(regional )?preliminary phases?$/i.test(t) || /^fase preliminar regional$/i.test(t)) parts.push("Fase preliminar regional");
     else if (/round of 64|\b32nd|1\/32|64th/i.test(t)) parts.push("Treintaidosavos de final");
@@ -720,6 +724,8 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
 
   const matches: Match[] = [];
   let prevMonth = 0;
+  let rollYear = cfg.year;
+  let rollMonth = 0;
   let yearShift = 0;
   let lastBracket = "";
   let n = 0;
@@ -802,6 +808,16 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     if (!d) {
       problems.push(`L${raw.line}: fecha ilegible "${raw.date}" (${raw.home} - ${raw.away})`);
       continue;
+    }
+    // Copa Argentina 2012/13–2014/15 (duraban más de un año, sin año ni día de la semana): la página va en orden
+    // cronológico, así que cuando el mes retrocede seis o más (diciembre → enero) empieza el año siguiente; un partido
+    // listado fuera de orden hacia atrás (enero → diciembre) es del año anterior.
+    if (cfg.rollingYear && !explicitYear && d.iso.length === 10) {
+      const mo = Number(d.iso.slice(5, 7));
+      const back = rollMonth > 0 && mo - rollMonth >= 6;
+      if (rollMonth && rollMonth - mo >= 6) (rollYear++, (rollMonth = mo));
+      else if (!back) rollMonth = Math.max(rollMonth, mo);
+      d.iso = `${back ? rollYear - 1 : rollYear}${d.iso.slice(4)}`;
     }
     // Copa Argentina 2019/20 (frenada por la pandemia, terminó en 2021): RSSSF da "[Sep 22, Wed]" sin año.
     // El día de la semana define el año (entre el anterior y dos después del de la temporada, no se repite).

@@ -202,6 +202,8 @@ export function parseSeason(
       const h = trimmed
         .replace(/\s*:\s*$/, "")
         .replace(/^\d+(?:\.\d+)*\.\s+(?=[A-Za-z])/, "")
+        // 2012/13: "1st round - Inland zone. (Round ruled by the Consejo Federal [Federal Council])".
+        .replace(/\.?\s*\(Round ruled by[^)]*\)$/i, "")
         .replace(/\s+/g, " ")
         .trim();
       if (
@@ -216,7 +218,7 @@ export function parseSeason(
           ? "leg"
           : /^group\s+[a-z0-9]+$|^zona\s+\S+$/i.test(h)
             ? "group"
-            : /phases$|^final phase$|^regional\b/i.test(h)
+            : /phases$|^(final|initial) phase$|^regional\b/i.test(h)
               ? "region"
               : "round";
         if (kind === "region") ctx = [];

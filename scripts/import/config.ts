@@ -34,6 +34,8 @@ export type TournamentConfig = {
   inProgress?: boolean;
   // Fechas sin año de una copa que duró varios años: el año sale del día de la semana ("[Sep 22, Wed]").
   weekdayYears?: boolean;
+  // Fechas sin año de una copa de más de un año, en orden cronológico: el año sube cuando el mes retrocede.
+  rollingYear?: boolean;
   // Nombre final de una fase ("Ronda 3" → "Treintaidosavos de final").
   stageRename?: Record<string, string>;
   // Copa con campeón pero sin final jugada (Copa Estímulo 1920): no se busca la final.
