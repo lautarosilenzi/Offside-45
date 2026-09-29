@@ -41,7 +41,7 @@ const ABOUT: Record<string, string> = {
   "Campeonato de Campeones":
     "Campeonato de Campeones de la República 1959, entre los campeones de las ligas regionales. La AFA lo reconoció como título de Primera en 2024.",
   "Copa Argentina":
-    "Copa Argentina de 1969–1970, con equipos de Primera y del interior en series de ida y vuelta. La de 1970 quedó sin terminar.",
+    "La copa de todas las categorías del fútbol argentino. Se jugó en 1969 y 1970 (la de 1970 quedó sin terminar) y volvió en 2011/12, con clubes de Primera, del Ascenso y del Torneo Federal.",
   "Copa Centenario":
     "Copa por los 100 años de la AFA (1993), entre 18 equipos de Primera: series de ida y vuelta y después doble eliminación, con ronda de ganadores y de perdedores.",
   "Supercopa Argentina": "Partido único entre el campeón de Primera y el campeón de la Copa Argentina (desde 2012).",
@@ -92,7 +92,8 @@ export default function CupsPage() {
         <p className="text-sm text-navy-400">
           Están todas las copas nacionales de Primera que reconoce la AFA hasta el año 2000 (entre 1971 y 2000 solo se jugó la Copa Centenario de 1993),
           y desde 2012 las Supercopas, la Copa Campeonato, la del Bicentenario, los Trofeos de Campeones, la Copa de la Superliga (2019–2020)
-          y la Copa de la Liga Profesional (2020–2024). Falta todavía la Copa Argentina moderna (desde 2011/12), que se está cargando.
+          y la Copa de la Liga Profesional (2020–2024), y la Copa Argentina desde 2015/16 (la de 2026 está en juego). Faltan todavía las
+          Copas Argentina 2011/12 a 2014/15, con sus fases preliminares de cientos de clubes del interior, que se están cargando.
         </p>
       </main>
     </>
@@ -132,9 +133,11 @@ function EditionRow({ season }: { season: Season }) {
     <li>
       <Link
         href={`/temporadas/${season.slug}`}
-        className="grid grid-cols-[3.5rem_1fr_auto] items-center gap-x-3 gap-y-1 px-4 py-3 transition hover:bg-navy-50 sm:grid-cols-[4rem_1fr_auto_1fr_7rem]"
+        className="grid grid-cols-[4.5rem_1fr_auto] items-center gap-x-3 gap-y-1 px-4 py-3 transition hover:bg-navy-50 sm:grid-cols-[5rem_1fr_auto_1fr_7rem]"
       >
-        <span className="row-span-2 font-display text-2xl font-bold text-navy-900 sm:row-span-1">{season.year}</span>
+        <span className="row-span-2 font-display text-2xl font-bold text-navy-900 sm:row-span-1">
+          {season.yearLabel?.includes("/") ? <span className="text-lg">{season.yearLabel}</span> : season.year}
+        </span>
         {champion ? (
           <span className="flex min-w-0 items-center gap-2">
             <Crest team={champion} size="sm" />

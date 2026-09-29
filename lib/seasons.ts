@@ -17,7 +17,8 @@ export const seasonLabel = (s: Season) => (s.league ? `${s.yearLabel ?? s.year} 
 export const seasonTitle = (s: Season) => (s.kind === "cup" ? s.title : `Temporada ${seasonLabel(s)}`);
 
 // Nombre de la copa sin el año: "Copa de Honor 1917" → "Copa de Honor".
-export const cupName = (s: Season) => s.title.replace(/\s+\d{4}$/, "");
+// "Copa Argentina 2018/19" también es de la serie "Copa Argentina".
+export const cupName = (s: Season) => s.title.replace(/\s+\d{4}(\/\d{2})?$/, "");
 
 // Copas agrupadas por competición, en el orden en que aparecen, con sus ediciones de la más vieja a la más nueva.
 export const CUP_COMPETITIONS: { name: string; editions: Season[] }[] = [...new Set(CUP_SEASONS.map(cupName))].map(
