@@ -51,7 +51,7 @@ const ABOUT: Record<string, string> = {
   "Supercopa Internacional": "Partido entre el ganador del Trofeo de Campeones y el mejor de la tabla anual, a veces jugado en el exterior (desde 2022).",
   "Copa de la Superliga":
     "Copa de los equipos de la Superliga, jugada después del campeonato: en 2019 con series de ida y vuelta; la de 2020 se suspendió por la pandemia después de la primera fecha.",
-  "Copa de la Liga Profesional":
+  "Copa de la Liga":
     "Copa de los equipos de Primera de la Liga Profesional (2020–2024), por zonas y con eliminación directa. La de 2020 se llamó Copa Diego Maradona. La AFA la cuenta como título de Primera.",
   "Campeonato Porteño": "Partido entre los campeones de 1926 de la Asociación Argentina y de la Asociación Amateurs, antes de la unificación. Quedó sin definir.",
 };
