@@ -8,6 +8,10 @@ export type TournamentConfig = {
   kind?: "cup";
   // Copas cuyas zonas vienen en secciones separadas de la página: se juntan todas.
   allSections?: boolean;
+  // Con allSections: títulos de sección que abren una fase; sus grupos quedan "Fase Campeón · Grupo A" ("" la cierra).
+  sectionPhases?: [RegExp, string][];
+  // Copas con zonas cuyas fechas vienen mezcladas: qué tabla de la sección es cada zona.
+  zoneTables?: { table: number; name: string }[];
   // Líneas de la página que abren una sección nueva (títulos sin <h2>, 1971–1985).
   headings?: RegExp[];
   // Ligas con líneas "Group A" / "Inter Group" dentro de cada fecha (Nacional 1973).
@@ -318,6 +322,7 @@ const A_2016 = {
   "Arsenal FC": "arsenal",
 };
 const H_2025 = [/^Torneo Apertura de la LPF de AFA 2025$/, /^Torneo Clausura de la LPF de AFA 2025$/, /^Triennal General Table of Averages/];
+const H_2026 = [/^Torneo Apertura de la LPF de AFA 2026$/, /^Torneo Clausura de la LPF de AFA 2026$/, /^Primer Descenso/, /^Tabla Anual de Posiciones 2026/];
 // Liga Profesional (2021–): los nombres oficiales, más los de los recién ascendidos.
 const A_LPF = {
   ...A_2016,
@@ -334,6 +339,17 @@ const A_LPF = {
   "Club Sportivo Independiente Rivadavia": "independiente-rivadavia",
   "CS Independiente Rivadavia": "independiente-rivadavia",
   "CA Central Córdoba (Sant. Estero)": "central-cordoba-sde",
+};
+// 2026: ascendieron Gimnasia y Esgrima de Mendoza ("CA Gimnasia y Esgrima") y Estudiantes de Río Cuarto ("AA Estudiantes").
+const A_2026 = {
+  ...A_LPF,
+  "CA Gimnasia y Esgrima": "gimnasia-mendoza",
+  "Club Atlético Gimnasia y Esgrima": "gimnasia-mendoza",
+  "AA Estudiantes": "estudiantes-rio-cuarto",
+  "Asociación Atlética Estudiantes": "estudiantes-rio-cuarto",
+  "Gimnasia y Esgrima (M)": "gimnasia-mendoza",
+  "Gimnasia (M)": "gimnasia-mendoza",
+  "Estudiantes (RC)": "estudiantes-rio-cuarto",
 };
 // Torneos de la misma temporada (Liguilla Pre-Libertadores, Octogonal): sin tabla, todo es eliminación.
 // `file` se puede cambiar: 2009/10 está en arg2010.html (arg10.html es 1910).
@@ -4340,5 +4356,263 @@ afaTorneo(1979, "reclasificacion", {
         text: "30 equipos en dos zonas de 15, 3 puntos por victoria; los ocho primeros de cada zona jugaron la eliminación directa a un partido. Al final del año descendieron San Martín de San Juan (por promedio) y Godoy Cruz (último de la tabla anual).",
       },
     ],
+  }),
+  // ───────── 2026: Apertura y Clausura (arg2026.html; el Clausura está en juego) ─────────
+  anual(2026, "apertura", "Apertura", {
+    file: "arg2026.html",
+    tournament: "Torneo Apertura de la Liga Profesional 2026",
+    championIds: ["belgrano"],
+    wiki: "Anexo:Torneo Apertura 2026 (Argentina)",
+    headings: H_2026,
+    sectionRange: { from: /^Torneo Apertura de la LPF de AFA 2026$/, to: /^Torneo Clausura de la LPF de AFA 2026$/ },
+    tableIndex: [1, 2],
+    groupNames: ["Zona A", "Zona B"],
+    aliases: A_2026,
+    playoffRounds: [
+      { date: "2026-05-09", stage: "Octavos de final" },
+      { date: "2026-05-12", stage: "Cuartos de final" },
+      { date: "2026-05-16", stage: "Semifinal" },
+      { date: "2026-05-24", stage: "Final" },
+    ],
+    overrides: {
+      "2026-05-24 river belgrano": {
+        venue: "Mario Alberto Kempes (Córdoba)",
+        note: "Se jugó en Córdoba, pero River figuró como local por su mejor ubicación en la fase de zonas.",
+      },
+    },
+    summary: "Belgrano ganó el Apertura: entró quinto en su zona y le ganó la final 3-2 a River en Córdoba. Su primer título de Primera.",
+    notes: [
+      {
+        kind: "formato",
+        text: "30 equipos en dos zonas de 15, 3 puntos por victoria; los ocho primeros de cada zona jugaron octavos, cuartos, semifinales y final a un partido. Debutaron Gimnasia y Esgrima de Mendoza y Estudiantes de Río Cuarto.",
+      },
+    ],
+  }),
+  anual(2026, "clausura", "Clausura", {
+    file: "arg2026.html",
+    tournament: "Torneo Clausura de la Liga Profesional 2026",
+    championIds: [],
+    wiki: "Anexo:Torneo Clausura 2026 (Argentina)",
+    headings: H_2026,
+    sectionRange: { from: /^Torneo Clausura de la LPF de AFA 2026$/, to: /^Primer Descenso/ },
+    skip: (m) => /\bTBD\b/.test(`${m.home} ${m.away}`), // cruces de la eliminación todavía sin definir
+    tableIndex: [1, 2],
+    groupNames: ["Zona A", "Zona B"],
+    aliases: A_2026,
+    summary: "En juego. Cargado hasta la fecha 10 (actualización de RSSSF del 24 de septiembre de 2026): lidera Instituto, en la Zona A.",
+    notes: [
+      {
+        kind: "formato",
+        text: "30 equipos en dos zonas de 15, 3 puntos por victoria; los ocho primeros de cada zona juegan la eliminación directa a un partido.",
+      },
+      { kind: "dato", text: "Torneo en curso: se actualiza a medida que se juegan las fechas." },
+    ],
+  }),
+];
+
+// ───────── Copas de la Superliga y de la Liga Profesional (2019–2024) ─────────
+// Van en la página de RSSSF de cada año, junto con la liga; se importan como copas ("cup").
+const SAF = "Superliga Argentina de Fútbol";
+const LPF_ORG = "Liga Profesional de Fútbol (AFA)";
+// Nombres de los equipos de 2019/20 a 2024 en las páginas de RSSSF (los mismos alias cortos que usa `anual`).
+const A_COPA_2020 = {
+  Gimnasia: "gimnasia",
+  Vélez: "velez",
+  Estudiantes: "estudiantes",
+  Talleres: "talleres",
+  ...ABREV_2001,
+  ...A_LPF,
+  "CA Unión": "union-santa-fe",
+  "CA Colón": "colon-santa-fe",
+};
+// Copa de la Liga 2021–2024: dos zonas (cada fecha trae las dos juntas, con una fecha interzonal de clásicos),
+// cuartos, semifinales y final a un partido. RSSSF publica la tabla de todos los partidos y la de cada zona.
+const copaLiga = (
+  year: number,
+  rest: Pick<TournamentConfig, "championIds" | "runnerUpIds" | "summary" | "notes" | "headings"> & Partial<TournamentConfig>,
+): TournamentConfig => ({
+  slug: `copa-liga-${year}`,
+  kind: "cup",
+  year,
+  file: `arg${year}.html`,
+  wiki: `Copa de la Liga Profesional ${year}`,
+  competition: "Copa de la Liga Profesional",
+  title: `Copa de la Liga ${year}`,
+  tournament: `Copa de la Liga Profesional ${year}`,
+  organizer: LPF_ORG,
+  section: rest.headings![0],
+  tableIndex: [0],
+  zoneTables: [
+    { table: 1, name: "Zona A" },
+    { table: 2, name: "Zona B" },
+  ],
+  pointsPerWin: 3,
+  aliases: A_COPA_2020,
+  ...rest,
+});
+const FORMATO_COPA_LIGA = (equipos: number) =>
+  `Los ${equipos} equipos de Primera en dos zonas de ${equipos / 2}, a una rueda, más una fecha interzonal de clásicos; los cuatro primeros de cada zona jugaron cuartos de final, semifinales y final, a un partido (empate: penales).`;
+export const CUP_TOURNAMENTS_LIGA: TournamentConfig[] = [
+  {
+    slug: "copa-superliga-2019",
+    kind: "cup",
+    year: 2019,
+    file: "arg2019.html",
+    wiki: "Copa de la Superliga 2019",
+    competition: "Copa de la Superliga",
+    title: "Copa de la Superliga 2019",
+    tournament: "Copa de la Superliga Argentina 2019",
+    organizer: SAF,
+    championIds: ["tigre"],
+    runnerUpIds: ["boca"],
+    headings: [/^Copa de la Superliga 2019$/, /^Supercopa Argentina 2019$/],
+    section: /^Copa de la Superliga 2019$/,
+    // La tabla de todos los partidos que publica RSSSF (no oficial) controla cada resultado.
+    tableIndex: [0],
+    pointsPerWin: 3,
+    aliases: {
+      ...ABREV_2001,
+      ...A_2016,
+      "Club Atlético San Martín": "san-martin-sj",
+      "Club Atlético San Martín Sociedad Civil": "san-martin-tucuman",
+      "CA San Martín (San Juan)": "san-martin-sj",
+      "CA San Martín (SM de Tucumán)": "san-martin-tucuman",
+      "CA Talleres": "talleres",
+      "CA Patronato dlJC": "patronato-parana",
+    },
+    playoffRounds: [
+      { date: "2019-04-12", stage: "Primera fase (ida)" },
+      { date: "2019-04-19", stage: "Primera fase (vuelta)" },
+      { date: "2019-04-26", stage: "Octavos de final (ida)" },
+      { date: "2019-05-03", stage: "Octavos de final (vuelta)" },
+      { date: "2019-05-11", stage: "Cuartos de final (ida)" },
+      { date: "2019-05-14", stage: "Cuartos de final (vuelta)" },
+      { date: "2019-05-18", stage: "Semifinal (ida)" },
+      { date: "2019-05-25", stage: "Semifinal (vuelta)" },
+      { date: "2019-06-02", stage: "Final" },
+    ],
+    summary:
+      "Tigre, que acababa de descender, ganó la primera Copa de la Superliga: le ganó 2-0 la final a Boca en Córdoba y se clasificó a la Libertadores 2020.",
+    notes: [
+      {
+        kind: "formato",
+        text: "Copa de los 26 equipos de la Superliga 2018/19, jugada después del campeonato. Series de ida y vuelta (sin gol de visitante; si el global quedaba igualado, penales); los seis primeros de la Superliga (Racing, Defensa y Justicia, Boca, River, Vélez y Atlético Tucumán) entraron directo en octavos. Final a un partido en cancha neutral.",
+      },
+    ],
+  },
+  {
+    slug: "copa-superliga-2020",
+    kind: "cup",
+    year: 2020,
+    file: "arg2020.html",
+    wiki: "Copa de la Superliga 2020",
+    competition: "Copa de la Superliga",
+    title: "Copa de la Superliga 2020",
+    tournament: "Copa de la Superliga Argentina 2020",
+    organizer: SAF,
+    championIds: [],
+    abandoned: true,
+    headings: [/^Copa de Superliga 2019\/2020$/, /^Copa de la Liga Profesional 2020 - Diego/],
+    section: /^Copa de Superliga 2019\/2020$/,
+    tableIndex: [0],
+    pointsPerWin: 3,
+    aliases: A_COPA_2020,
+    overrides: {
+      "2020-03-14 river atletico-tucuman": {
+        walkover: true,
+        awardedTo: "atletico-tucuman",
+        note: "No se jugó: River no se presentó (no quiso jugar por la pandemia). El 6 de octubre de 2021 la Liga le dio el partido 1-0 a Atlético Tucumán.",
+      },
+    },
+    summary:
+      "Se jugó una sola fecha: el 16 de marzo de 2020 se suspendió por la pandemia de covid-19 y el 27 de abril la AFA la dio por terminada, sin campeón.",
+    notes: [
+      {
+        kind: "formato",
+        text: "Copa de los 24 equipos de la Superliga 2019/20, en dos zonas de 12. Los dos primeros de cada zona iban a jugar semifinales y final. Se jugó solo la primera fecha.",
+      },
+      {
+        kind: "dato",
+        text: "River no se presentó el 14 de marzo contra Atlético Tucumán (no quiso jugar por el coronavirus): el 6 de octubre de 2021 le dieron el partido a Tucumán. Defensa y Justicia–Estudiantes, postergado, se jugó el 23 de diciembre de 2020 para completar la fecha, que definía un lugar en las copas de la Conmebol.",
+      },
+    ],
+  },
+  {
+    slug: "copa-liga-2020",
+    kind: "cup",
+    year: 2020,
+    file: "arg2020.html",
+    wiki: "Copa de la Liga Profesional 2020",
+    competition: "Copa de la Liga Profesional",
+    title: "Copa Diego Maradona 2020",
+    tournament: "Copa de la Liga Profesional 2020 «Diego Armando Maradona»",
+    organizer: LPF_ORG,
+    championIds: ["boca"],
+    runnerUpIds: ["banfield"],
+    headings: [
+      /^Copa de la Liga Profesional 2020 - Diego/,
+      /^Fase Clasificación \//,
+      /^Zona \d - Group \d:$/,
+      /^Fase Campeón de Copa 2020/,
+      /^Grupo [AB] - Group [AB]:$/,
+      /^Final Campeón \//,
+      /^Fase Complementación \//,
+      /^Final Complementación \//,
+      /^Clasificación a la Conmebol Sudamericana/,
+      /^LPF League supercup/,
+    ],
+    sectionRange: { from: /^Copa de la Liga Profesional 2020 - Diego/, to: /^LPF League supercup/ },
+    allSections: true,
+    sectionPhases: [
+      [/^Fase Clasificación/, ""],
+      [/^Fase Campeón/, "Fase Campeón"],
+      [/^Fase Complementación/, "Fase Complementación"],
+    ],
+    stageMap: {
+      "^Final Campeón": "Final",
+      "^Final Complementación": "Fase Complementación · Final",
+      "^Clasificación a la Conmebol": "Desempate por la Copa Sudamericana",
+    },
+    // La tabla de todos los partidos que publica RSSSF (no oficial) controla cada resultado.
+    tableIndex: [0],
+    pointsPerWin: 3,
+    aliases: A_COPA_2020,
+    summary:
+      "Boca ganó la Copa Diego Maradona: primero de su grupo en la Fase Campeón, empató 1-1 la final con Banfield en San Juan y la ganó 5-3 por penales.",
+    notes: [
+      {
+        kind: "formato",
+        text: "Torneo de la vuelta del fútbol después de la pandemia, sin descensos. Los 24 equipos de Primera en seis zonas de cuatro, a dos ruedas; los dos primeros de cada zona pasaron a la Fase Campeón (dos grupos de seis, a una rueda, y final entre los ganadores) y los demás a la Fase Complementación, con el mismo formato. El ganador de la Complementación (Vélez) jugó con el finalista (Banfield) por un lugar en la Copa Sudamericana.",
+      },
+      { kind: "identidad", text: "La copa lleva el nombre de Diego Armando Maradona, que murió el 25 de noviembre de 2020, en la mitad de la primera fase." },
+    ],
+  },
+  copaLiga(2021, {
+    championIds: ["colon-santa-fe"],
+    runnerUpIds: ["racing"],
+    headings: [/^Copa de la Liga Profesional de Fútbol AFA - Copa LPF 2021$/, /^First level: Torneo de la Liga Profesional de Fútbol de AFA 2021 - Torneo/],
+    summary: "Colón ganó su primer título de Primera: le ganó 3-0 la final a Racing en San Juan.",
+    notes: [{ kind: "formato", text: FORMATO_COPA_LIGA(26) }],
+  }),
+  copaLiga(2022, {
+    championIds: ["boca"],
+    runnerUpIds: ["tigre"],
+    headings: [/^Copa Binance de la Liga Profesional de Fútbol AFA - Copa LPF 2022$/, /^First level: Torneo de la Liga Profesional de Fútbol de AFA 2022 - Torneo/],
+    summary: "Boca ganó la Copa de la Liga: le ganó 3-0 la final a Tigre, recién ascendido, en Córdoba.",
+    notes: [{ kind: "formato", text: FORMATO_COPA_LIGA(28) }],
+  }),
+  copaLiga(2023, {
+    championIds: ["central"],
+    runnerUpIds: ["platense"],
+    headings: [/^LPF League cup: Copa de la Liga Profesional de Fútbol de AFA 2023$/, /^Tabla General de Posiciones 2023/],
+    summary: "Rosario Central ganó la Copa de la Liga: le ganó 1-0 la final a Platense en Santiago del Estero.",
+    notes: [{ kind: "formato", text: FORMATO_COPA_LIGA(28) }],
+  }),
+  copaLiga(2024, {
+    championIds: ["estudiantes"],
+    runnerUpIds: ["velez"],
+    headings: [/^LPF League cup: Copa de la Liga Profesional de Fútbol de AFA 2024/, /^Torneo de la Liga Profesional de Fútbol 2024$/],
+    summary: "Estudiantes ganó la Copa de la Liga: empató 1-1 con Vélez la final en Santiago del Estero (con alargue) y la ganó por penales.",
+    notes: [{ kind: "formato", text: FORMATO_COPA_LIGA(28) }],
   }),
 ];

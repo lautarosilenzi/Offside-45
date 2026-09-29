@@ -1,0 +1,2442 @@
+{
+ "slug": "copa-liga-2020",
+ "kind": "cup",
+ "runnerUpIds": [
+  "banfield"
+ ],
+ "year": 2020,
+ "title": "Copa Diego Maradona 2020",
+ "tournament": "Copa de la Liga Profesional 2020 «Diego Armando Maradona»",
+ "organizer": "Liga Profesional de Fútbol (AFA)",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca ganó la Copa Diego Maradona: primero de su grupo en la Fase Campeón, empató 1-1 la final con Banfield en San Juan y la ganó 5-3 por penales.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Diego Maradona 2020",
+   "url": "https://www.rsssf.org/tablesa/arg2020.html"
+  },
+  {
+   "label": "Wikipedia – Copa de la Liga Profesional 2020",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_la_Liga_Profesional_2020"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Torneo de la vuelta del fútbol después de la pandemia, sin descensos. Los 24 equipos de Primera en seis zonas de cuatro, a dos ruedas; los dos primeros de cada zona pasaron a la Fase Campeón (dos grupos de seis, a una rueda, y final entre los ganadores) y los demás a la Fase Complementación, con el mismo formato. El ganador de la Complementación (Vélez) jugó con el finalista (Banfield) por un lugar en la Copa Sudamericana."
+  },
+  {
+   "kind": "identidad",
+   "text": "La copa lleva el nombre de Diego Armando Maradona, que murió el 25 de noviembre de 2020, en la mitad de la primera fase."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "banfield",
+   "played": 13,
+   "won": 8,
+   "drawn": 3,
+   "lost": 2,
+   "goalsFor": 25,
+   "goalsAgainst": 15,
+   "points": 27
+  },
+  {
+   "teamId": "velez",
+   "played": 13,
+   "won": 7,
+   "drawn": 3,
+   "lost": 3,
+   "goalsFor": 21,
+   "goalsAgainst": 15,
+   "points": 24
+  },
+  {
+   "teamId": "river",
+   "played": 11,
+   "won": 7,
+   "drawn": 2,
+   "lost": 2,
+   "goalsFor": 19,
+   "goalsAgainst": 12,
+   "points": 23
+  },
+  {
+   "teamId": "atletico-tucuman",
+   "played": 11,
+   "won": 7,
+   "drawn": 1,
+   "lost": 3,
+   "goalsFor": 22,
+   "goalsAgainst": 16,
+   "points": 22
+  },
+  {
+   "teamId": "boca",
+   "played": 12,
+   "won": 5,
+   "drawn": 5,
+   "lost": 2,
+   "goalsFor": 18,
+   "goalsAgainst": 11,
+   "points": 20
+  },
+  {
+   "teamId": "talleres",
+   "played": 11,
+   "won": 5,
+   "drawn": 5,
+   "lost": 1,
+   "goalsFor": 16,
+   "goalsAgainst": 10,
+   "points": 20
+  },
+  {
+   "teamId": "independiente",
+   "played": 11,
+   "won": 5,
+   "drawn": 3,
+   "lost": 3,
+   "goalsFor": 15,
+   "goalsAgainst": 11,
+   "points": 18
+  },
+  {
+   "teamId": "argentinos",
+   "played": 11,
+   "won": 5,
+   "drawn": 3,
+   "lost": 3,
+   "goalsFor": 11,
+   "goalsAgainst": 9,
+   "points": 18
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 11,
+   "won": 5,
+   "drawn": 2,
+   "lost": 4,
+   "goalsFor": 17,
+   "goalsAgainst": 11,
+   "points": 17
+  },
+  {
+   "teamId": "central",
+   "played": 12,
+   "won": 5,
+   "drawn": 2,
+   "lost": 5,
+   "goalsFor": 18,
+   "goalsAgainst": 17,
+   "points": 17
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 11,
+   "won": 4,
+   "drawn": 4,
+   "lost": 3,
+   "goalsFor": 15,
+   "goalsAgainst": 11,
+   "points": 16
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 11,
+   "won": 4,
+   "drawn": 4,
+   "lost": 3,
+   "goalsFor": 15,
+   "goalsAgainst": 12,
+   "points": 16
+  },
+  {
+   "teamId": "newells",
+   "played": 11,
+   "won": 5,
+   "drawn": 1,
+   "lost": 5,
+   "goalsFor": 17,
+   "goalsAgainst": 16,
+   "points": 16
+  },
+  {
+   "teamId": "lanus",
+   "played": 11,
+   "won": 4,
+   "drawn": 3,
+   "lost": 4,
+   "goalsFor": 14,
+   "goalsAgainst": 16,
+   "points": 15
+  },
+  {
+   "teamId": "arsenal",
+   "played": 11,
+   "won": 4,
+   "drawn": 2,
+   "lost": 5,
+   "goalsFor": 15,
+   "goalsAgainst": 15,
+   "points": 14
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 11,
+   "won": 4,
+   "drawn": 2,
+   "lost": 5,
+   "goalsFor": 18,
+   "goalsAgainst": 19,
+   "points": 14
+  },
+  {
+   "teamId": "huracan",
+   "played": 11,
+   "won": 4,
+   "drawn": 2,
+   "lost": 5,
+   "goalsFor": 12,
+   "goalsAgainst": 16,
+   "points": 14
+  },
+  {
+   "teamId": "aldosivi",
+   "played": 11,
+   "won": 3,
+   "drawn": 3,
+   "lost": 5,
+   "goalsFor": 11,
+   "goalsAgainst": 18,
+   "points": 12
+  },
+  {
+   "teamId": "racing",
+   "played": 11,
+   "won": 3,
+   "drawn": 2,
+   "lost": 6,
+   "goalsFor": 15,
+   "goalsAgainst": 18,
+   "points": 11
+  },
+  {
+   "teamId": "defensa-y-justicia",
+   "played": 11,
+   "won": 2,
+   "drawn": 4,
+   "lost": 5,
+   "goalsFor": 14,
+   "goalsAgainst": 21,
+   "points": 10
+  },
+  {
+   "teamId": "central-cordoba-sde",
+   "played": 11,
+   "won": 2,
+   "drawn": 4,
+   "lost": 5,
+   "goalsFor": 11,
+   "goalsAgainst": 18,
+   "points": 10
+  },
+  {
+   "teamId": "estudiantes",
+   "played": 11,
+   "won": 1,
+   "drawn": 3,
+   "lost": 7,
+   "goalsFor": 5,
+   "goalsAgainst": 12,
+   "points": 6
+  },
+  {
+   "teamId": "patronato-parana",
+   "played": 11,
+   "won": 1,
+   "drawn": 3,
+   "lost": 7,
+   "goalsFor": 5,
+   "goalsAgainst": 16,
+   "points": 6
+  },
+  {
+   "teamId": "godoy-cruz",
+   "played": 11,
+   "won": 1,
+   "drawn": 2,
+   "lost": 8,
+   "goalsFor": 7,
+   "goalsAgainst": 21,
+   "points": 5
+  }
+ ],
+ "matches": [
+  {
+   "id": "copa-liga-2020-001",
+   "date": "2020-11-01",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 1 · Fecha 1",
+   "phase": "cup",
+   "homeId": "union-santa-fe",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-002",
+   "date": "2020-11-01",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 1 · Fecha 1",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-003",
+   "date": "2020-11-08",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 1 · Fecha 2",
+   "phase": "cup",
+   "homeId": "arsenal",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-004",
+   "date": "2020-11-08",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 1 · Fecha 2",
+   "phase": "cup",
+   "homeId": "union-santa-fe",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-005",
+   "date": "2020-11-13",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 1 · Fecha 3",
+   "phase": "cup",
+   "homeId": "atletico-tucuman",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-006",
+   "date": "2020-11-14",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 1 · Fecha 3",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-007",
+   "date": "2020-11-19",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 1 · Fecha 4",
+   "phase": "cup",
+   "homeId": "atletico-tucuman",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-008",
+   "date": "2020-11-20",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 1 · Fecha 4",
+   "phase": "cup",
+   "homeId": "arsenal",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-009",
+   "date": "2020-11-28",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 1 · Fecha 5",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-010",
+   "date": "2020-11-30",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 1 · Fecha 5",
+   "phase": "cup",
+   "homeId": "atletico-tucuman",
+   "awayId": "arsenal",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-011",
+   "date": "2020-12-05",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 1 · Fecha 6",
+   "phase": "cup",
+   "homeId": "arsenal",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-012",
+   "date": "2020-12-05",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 1 · Fecha 6",
+   "phase": "cup",
+   "homeId": "union-santa-fe",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 5,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-013",
+   "date": "2020-11-01",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 2 · Fecha 1",
+   "phase": "cup",
+   "homeId": "defensa-y-justicia",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-014",
+   "date": "2020-11-01",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 2 · Fecha 1",
+   "phase": "cup",
+   "homeId": "central-cordoba-sde",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Alfredo Terrera (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-015",
+   "date": "2020-11-09",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 2 · Fecha 2",
+   "phase": "cup",
+   "homeId": "central-cordoba-sde",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Alfredo Terrera (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-016",
+   "date": "2020-11-09",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 2 · Fecha 2",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-017",
+   "date": "2020-11-15",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 2 · Fecha 3",
+   "phase": "cup",
+   "homeId": "defensa-y-justicia",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-018",
+   "date": "2020-11-16",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 2 · Fecha 3",
+   "phase": "cup",
+   "homeId": "colon-santa-fe",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-019",
+   "date": "2020-11-21",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 2 · Fecha 4",
+   "phase": "cup",
+   "homeId": "colon-santa-fe",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-020",
+   "date": "2020-11-21",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 2 · Fecha 4",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-021",
+   "date": "2020-11-28",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 2 · Fecha 5",
+   "phase": "cup",
+   "homeId": "colon-santa-fe",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-022",
+   "date": "2020-11-29",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 2 · Fecha 5",
+   "phase": "cup",
+   "homeId": "defensa-y-justicia",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-023",
+   "date": "2020-12-04",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 2 · Fecha 6",
+   "phase": "cup",
+   "homeId": "central-cordoba-sde",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Alfredo Terrera (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-024",
+   "date": "2020-12-06",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 2 · Fecha 6",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-025",
+   "date": "2020-11-02",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 3 · Fecha 1",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-026",
+   "date": "2020-11-03",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 3 · Fecha 1",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-027",
+   "date": "2020-11-07",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 3 · Fecha 2",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-028",
+   "date": "2020-11-07",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 3 · Fecha 2",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-029",
+   "date": "2020-11-13",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 3 · Fecha 3",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-030",
+   "date": "2020-11-14",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 3 · Fecha 3",
+   "phase": "cup",
+   "homeId": "godoy-cruz",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-031",
+   "date": "2020-11-20",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 3 · Fecha 4",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-032",
+   "date": "2020-11-23",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 3 · Fecha 4",
+   "phase": "cup",
+   "homeId": "godoy-cruz",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-033",
+   "date": "2020-11-28",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 3 · Fecha 5",
+   "phase": "cup",
+   "homeId": "godoy-cruz",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-034",
+   "date": "2020-11-28",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 3 · Fecha 5",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-035",
+   "date": "2020-12-04",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 3 · Fecha 6",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-036",
+   "date": "2020-12-05",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 3 · Fecha 6",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-037",
+   "date": "2020-10-30",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 4 · Fecha 1",
+   "phase": "cup",
+   "homeId": "talleres",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-038",
+   "date": "2020-10-31",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 4 · Fecha 1",
+   "phase": "cup",
+   "homeId": "lanus",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-039",
+   "date": "2020-11-08",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 4 · Fecha 2",
+   "phase": "cup",
+   "homeId": "newells",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-040",
+   "date": "2020-11-09",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 4 · Fecha 2",
+   "phase": "cup",
+   "homeId": "talleres",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-041",
+   "date": "2020-11-14",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 4 · Fecha 3",
+   "phase": "cup",
+   "homeId": "lanus",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-042",
+   "date": "2020-11-15",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 4 · Fecha 3",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-043",
+   "date": "2020-11-20",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 4 · Fecha 4",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-044",
+   "date": "2020-11-23",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 4 · Fecha 4",
+   "phase": "cup",
+   "homeId": "newells",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-045",
+   "date": "2020-11-29",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 4 · Fecha 5",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-046",
+   "date": "2020-11-29",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 4 · Fecha 5",
+   "phase": "cup",
+   "homeId": "lanus",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-047",
+   "date": "2020-12-06",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 4 · Fecha 6",
+   "phase": "cup",
+   "homeId": "talleres",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-048",
+   "date": "2020-12-06",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 4 · Fecha 6",
+   "phase": "cup",
+   "homeId": "newells",
+   "awayId": "lanus",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-049",
+   "date": "2020-10-31",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 5 · Fecha 1",
+   "phase": "cup",
+   "homeId": "aldosivi",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-050",
+   "date": "2020-10-31",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 5 · Fecha 1",
+   "phase": "cup",
+   "homeId": "argentinos",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-051",
+   "date": "2020-11-06",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 5 · Fecha 2",
+   "phase": "cup",
+   "homeId": "argentinos",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-052",
+   "date": "2020-11-07",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 5 · Fecha 2",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-053",
+   "date": "2020-11-14",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 5 · Fecha 3",
+   "phase": "cup",
+   "homeId": "aldosivi",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-054",
+   "date": "2020-11-15",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 5 · Fecha 3",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-055",
+   "date": "2020-11-22",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 5 · Fecha 4",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-056",
+   "date": "2020-11-22",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 5 · Fecha 4",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-057",
+   "date": "2020-11-30",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 5 · Fecha 5",
+   "phase": "cup",
+   "homeId": "aldosivi",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-058",
+   "date": "2020-11-30",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 5 · Fecha 5",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-059",
+   "date": "2020-12-07",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 5 · Fecha 6",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-060",
+   "date": "2020-12-07",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 5 · Fecha 6",
+   "phase": "cup",
+   "homeId": "argentinos",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-061",
+   "date": "2020-10-30",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 6 · Fecha 1",
+   "phase": "cup",
+   "homeId": "gimnasia",
+   "awayId": "patronato-parana",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-062",
+   "date": "2020-10-31",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 6 · Fecha 1",
+   "phase": "cup",
+   "homeId": "velez",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-063",
+   "date": "2020-11-06",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 6 · Fecha 2",
+   "phase": "cup",
+   "homeId": "patronato-parana",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-064",
+   "date": "2020-11-08",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 6 · Fecha 2",
+   "phase": "cup",
+   "homeId": "gimnasia",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-065",
+   "date": "2020-11-15",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 6 · Fecha 3",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "gimnasia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-066",
+   "date": "2020-11-16",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 6 · Fecha 3",
+   "phase": "cup",
+   "homeId": "velez",
+   "awayId": "patronato-parana",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-067",
+   "date": "2020-11-21",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 6 · Fecha 4",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-068",
+   "date": "2020-11-22",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 6 · Fecha 4",
+   "phase": "cup",
+   "homeId": "patronato-parana",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-069",
+   "date": "2020-11-28",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 6 · Fecha 5",
+   "phase": "cup",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-070",
+   "date": "2020-11-29",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 6 · Fecha 5",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "patronato-parana",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-071",
+   "date": "2020-12-05",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 6 · Fecha 6",
+   "phase": "cup",
+   "homeId": "gimnasia",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-072",
+   "date": "2020-12-05",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Zona 6 · Fecha 6",
+   "phase": "cup",
+   "homeId": "patronato-parana",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-073",
+   "date": "2020-12-12",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 1",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-074",
+   "date": "2020-12-13",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 1",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-075",
+   "date": "2020-12-13",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 1",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-076",
+   "date": "2020-12-18",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 2",
+   "phase": "cup",
+   "homeId": "arsenal",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-077",
+   "date": "2020-12-20",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 2",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-078",
+   "date": "2020-12-20",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 2",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-079",
+   "date": "2020-12-27",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 3",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-080",
+   "date": "2020-12-27",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 3",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-081",
+   "date": "2020-12-28",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 3",
+   "phase": "cup",
+   "homeId": "argentinos",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-082",
+   "date": "2021-01-02",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 4",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "La Bombonera Alberto José Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-083",
+   "date": "2021-01-03",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 4",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "arsenal",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "venue": "Libertadores de América (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-084",
+   "date": "2021-01-05",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 4",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "El Palacio Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-085",
+   "date": "2021-01-09",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 5",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-086",
+   "date": "2021-01-09",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 5",
+   "phase": "cup",
+   "homeId": "argentinos",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-087",
+   "date": "2021-01-10",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo A · Fecha 5",
+   "phase": "cup",
+   "homeId": "arsenal",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Julio Humberto Grondona (Sarandí)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-088",
+   "date": "2020-12-12",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 1",
+   "phase": "cup",
+   "homeId": "colon-santa-fe",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-089",
+   "date": "2020-12-12",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 1",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-090",
+   "date": "2020-12-14",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 1",
+   "phase": "cup",
+   "homeId": "atletico-tucuman",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-091",
+   "date": "2020-12-19",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 2",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-092",
+   "date": "2020-12-19",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 2",
+   "phase": "cup",
+   "homeId": "talleres",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-093",
+   "date": "2020-12-21",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 2",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-094",
+   "date": "2020-12-28",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 3",
+   "phase": "cup",
+   "homeId": "colon-santa-fe",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-095",
+   "date": "2020-12-28",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 3",
+   "phase": "cup",
+   "homeId": "gimnasia",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-096",
+   "date": "2020-12-29",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 3",
+   "phase": "cup",
+   "homeId": "atletico-tucuman",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-097",
+   "date": "2021-01-04",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 4",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "El Nuevo Gasómetro Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-098",
+   "date": "2021-01-04",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 4",
+   "phase": "cup",
+   "homeId": "talleres",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-099",
+   "date": "2021-01-05",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 4",
+   "phase": "cup",
+   "homeId": "atletico-tucuman",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Monumental José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-100",
+   "date": "2021-01-10",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 5",
+   "phase": "cup",
+   "homeId": "colon-santa-fe",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Brigadier General Estanislao López (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-101",
+   "date": "2021-01-10",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 5",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "sanlorenzo",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-102",
+   "date": "2021-01-10",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Campeón · Grupo B · Fecha 5",
+   "phase": "cup",
+   "homeId": "gimnasia",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-103",
+   "date": "2020-01-17",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "San Juan del Bicentenario (Sánchez de Loria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "boca",
+   "note": "Boca Juniors ganó por penales (3-5)."
+  },
+  {
+   "id": "copa-liga-2020-104",
+   "date": "2020-12-13",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 1",
+   "phase": "cup",
+   "homeId": "union-santa-fe",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-105",
+   "date": "2020-12-13",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 1",
+   "phase": "cup",
+   "homeId": "aldosivi",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-106",
+   "date": "2020-12-14",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 1",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "patronato-parana",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-107",
+   "date": "2020-12-19",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 2",
+   "phase": "cup",
+   "homeId": "patronato-parana",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-108",
+   "date": "2020-12-20",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 2",
+   "phase": "cup",
+   "homeId": "lanus",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-109",
+   "date": "2020-12-21",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 2",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-110",
+   "date": "2020-12-27",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 3",
+   "phase": "cup",
+   "homeId": "defensa-y-justicia",
+   "awayId": "patronato-parana",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-111",
+   "date": "2020-12-29",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 3",
+   "phase": "cup",
+   "homeId": "aldosivi",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-112",
+   "date": "2020-12-29",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 3",
+   "phase": "cup",
+   "homeId": "union-santa-fe",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-113",
+   "date": "2021-01-02",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 4",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-114",
+   "date": "2021-01-03",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 4",
+   "phase": "cup",
+   "homeId": "patronato-parana",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Presbítero Bartolomé Grella (Paraná)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-115",
+   "date": "2021-01-04",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 4",
+   "phase": "cup",
+   "homeId": "aldosivi",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-116",
+   "date": "2021-01-09",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 5",
+   "phase": "cup",
+   "homeId": "union-santa-fe",
+   "awayId": "patronato-parana",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-117",
+   "date": "2021-01-09",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 5",
+   "phase": "cup",
+   "homeId": "lanus",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-118",
+   "date": "2021-01-14",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo A · Fecha 5",
+   "phase": "cup",
+   "homeId": "defensa-y-justicia",
+   "awayId": "aldosivi",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "venue": "Norberto Tito Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-119",
+   "date": "2020-12-11",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 1",
+   "phase": "cup",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-120",
+   "date": "2020-12-12",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 1",
+   "phase": "cup",
+   "homeId": "newells",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-121",
+   "date": "2020-12-14",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 1",
+   "phase": "cup",
+   "homeId": "central-cordoba-sde",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Alfredo Terrera (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-122",
+   "date": "2020-12-19",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 2",
+   "phase": "cup",
+   "homeId": "godoy-cruz",
+   "awayId": "newells",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-123",
+   "date": "2020-12-20",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 2",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-124",
+   "date": "2020-12-21",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 2",
+   "phase": "cup",
+   "homeId": "central-cordoba-sde",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Alfredo Terrera (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-125",
+   "date": "2020-12-27",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 3",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "godoy-cruz",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-126",
+   "date": "2020-12-28",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 3",
+   "phase": "cup",
+   "homeId": "newells",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-127",
+   "date": "2020-12-28",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 3",
+   "phase": "cup",
+   "homeId": "velez",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-128",
+   "date": "2021-01-03",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 4",
+   "phase": "cup",
+   "homeId": "newells",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-129",
+   "date": "2021-01-03",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 4",
+   "phase": "cup",
+   "homeId": "central-cordoba-sde",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Alfredo Terrera (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-130",
+   "date": "2021-01-05",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 4",
+   "phase": "cup",
+   "homeId": "godoy-cruz",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-131",
+   "date": "2021-01-09",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 5",
+   "phase": "cup",
+   "homeId": "velez",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-132",
+   "date": "2021-01-09",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 5",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-133",
+   "date": "2021-01-11",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Grupo B · Fecha 5",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-134",
+   "date": "2020-01-16",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Fase Complementación · Final",
+   "phase": "cup",
+   "homeId": "velez",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "San Juan del Bicentenario (Sánchez de Loria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-liga-2020-135",
+   "date": "2020-03-31",
+   "competition": "Copa de la Liga Profesional",
+   "stage": "Desempate por la Copa Sudamericana",
+   "phase": "cup",
+   "homeId": "banfield",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "San Juan del Bicentenario (Sánchez de Loria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}

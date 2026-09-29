@@ -429,8 +429,8 @@ export const CUP_TOURNAMENTS_50S: TournamentConfig[] = [
     runnerUpIds: ["racing"],
     aliases: { "Central Córdoba (R)": "central-cordoba-rosario", "Central Córdoba": "central-cordoba-rosario" },
     groupTables: [
-      { table: 3, stage: "^Grupo A · " },
-      { table: 4, stage: "^Grupo B · " },
+      { table: 4, stage: "^Grupo A · " },
+      { table: 5, stage: "^Grupo B · " },
     ],
     summary: "Atlanta ganó la Copa Suecia, jugada durante el Mundial de Suecia: 3-1 a Racing Club en la final.",
     notes: [

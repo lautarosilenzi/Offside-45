@@ -49,6 +49,10 @@ const ABOUT: Record<string, string> = {
   "Copa del Bicentenario": "Partido de 2016 por los 200 años de la Independencia, entre los campeones de 2014 (Racing) y 2016 (Lanús).",
   "Trofeo de Campeones": "Partido entre los campeones de los dos torneos de Primera del año (Superliga y Liga Profesional, desde 2019). La edición 2020 quedó sin terminar.",
   "Supercopa Internacional": "Partido entre el ganador del Trofeo de Campeones y el mejor de la tabla anual, a veces jugado en el exterior (desde 2022).",
+  "Copa de la Superliga":
+    "Copa de los equipos de la Superliga, jugada después del campeonato: en 2019 con series de ida y vuelta; la de 2020 se suspendió por la pandemia después de la primera fecha.",
+  "Copa de la Liga Profesional":
+    "Copa de los equipos de Primera de la Liga Profesional (2020–2024), por zonas y con eliminación directa. La de 2020 se llamó Copa Diego Maradona. La AFA la cuenta como título de Primera.",
   "Campeonato Porteño": "Partido entre los campeones de 1926 de la Asociación Argentina y de la Asociación Amateurs, antes de la unificación. Quedó sin definir.",
 };
 
@@ -87,8 +91,8 @@ export default function CupsPage() {
         ))}
         <p className="text-sm text-navy-400">
           Están todas las copas nacionales de Primera que reconoce la AFA hasta el año 2000 (entre 1971 y 2000 solo se jugó la Copa Centenario de 1993),
-          y desde 2012 las Supercopas, la Copa Campeonato, la del Bicentenario y los Trofeos de Campeones. Faltan todavía la Copa Argentina
-          (desde 2011/12) y la Copa de la Superliga y de la Liga Profesional (2019–2024), que se están cargando.
+          y desde 2012 las Supercopas, la Copa Campeonato, la del Bicentenario, los Trofeos de Campeones, la Copa de la Superliga (2019–2020)
+          y la Copa de la Liga Profesional (2020–2024). Falta todavía la Copa Argentina moderna (desde 2011/12), que se está cargando.
         </p>
       </main>
     </>

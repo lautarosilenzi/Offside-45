@@ -1,0 +1,4463 @@
+{
+ "slug": "2026-apertura",
+ "year": 2026,
+ "yearLabel": "2026",
+ "league": "Apertura",
+ "title": "Apertura 2026",
+ "tournament": "Torneo Apertura de la Liga Profesional 2026",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "belgrano"
+ ],
+ "summary": "Belgrano ganó el Apertura: entró quinto en su zona y le ganó la final 3-2 a River en Córdoba. Su primer título de Primera.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2026",
+   "url": "https://www.rsssf.org/tablesa/arg2026.html"
+  },
+  {
+   "label": "Wikipedia – Anexo:Torneo Apertura 2026 (Argentina)",
+   "url": "https://es.wikipedia.org/wiki/Anexo%3ATorneo_Apertura_2026_(Argentina)"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "30 equipos en dos zonas de 15, 3 puntos por victoria; los ocho primeros de cada zona jugaron octavos, cuartos, semifinales y final a un partido. Debutaron Gimnasia y Esgrima de Mendoza y Estudiantes de Río Cuarto."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "estudiantes",
+   "played": 16,
+   "won": 9,
+   "drawn": 4,
+   "lost": 3,
+   "goalsFor": 19,
+   "goalsAgainst": 7,
+   "points": 31
+  },
+  {
+   "teamId": "boca",
+   "played": 16,
+   "won": 8,
+   "drawn": 6,
+   "lost": 2,
+   "goalsFor": 22,
+   "goalsAgainst": 9,
+   "points": 30
+  },
+  {
+   "teamId": "velez",
+   "played": 16,
+   "won": 7,
+   "drawn": 7,
+   "lost": 2,
+   "goalsFor": 18,
+   "goalsAgainst": 12,
+   "points": 28
+  },
+  {
+   "teamId": "talleres",
+   "played": 16,
+   "won": 7,
+   "drawn": 5,
+   "lost": 4,
+   "goalsFor": 17,
+   "goalsAgainst": 13,
+   "points": 26
+  },
+  {
+   "teamId": "independiente",
+   "played": 16,
+   "won": 6,
+   "drawn": 6,
+   "lost": 4,
+   "goalsFor": 24,
+   "goalsAgainst": 20,
+   "points": 24
+  },
+  {
+   "teamId": "lanus",
+   "played": 16,
+   "won": 6,
+   "drawn": 6,
+   "lost": 4,
+   "goalsFor": 18,
+   "goalsAgainst": 15,
+   "points": 24
+  },
+  {
+   "teamId": "sanlorenzo",
+   "played": 16,
+   "won": 5,
+   "drawn": 7,
+   "lost": 4,
+   "goalsFor": 14,
+   "goalsAgainst": 14,
+   "points": 22
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 16,
+   "won": 5,
+   "drawn": 6,
+   "lost": 5,
+   "goalsFor": 24,
+   "goalsAgainst": 20,
+   "points": 21
+  },
+  {
+   "teamId": "instituto",
+   "played": 16,
+   "won": 6,
+   "drawn": 3,
+   "lost": 7,
+   "goalsFor": 17,
+   "goalsAgainst": 17,
+   "points": 21
+  },
+  {
+   "teamId": "defensa-y-justicia",
+   "played": 16,
+   "won": 4,
+   "drawn": 7,
+   "lost": 5,
+   "goalsFor": 18,
+   "goalsAgainst": 21,
+   "points": 19
+  },
+  {
+   "teamId": "gimnasia-mendoza",
+   "played": 16,
+   "won": 5,
+   "drawn": 4,
+   "lost": 7,
+   "goalsFor": 14,
+   "goalsAgainst": 22,
+   "points": 19
+  },
+  {
+   "teamId": "platense",
+   "played": 16,
+   "won": 3,
+   "drawn": 7,
+   "lost": 6,
+   "goalsFor": 10,
+   "goalsAgainst": 15,
+   "points": 16
+  },
+  {
+   "teamId": "central-cordoba-sde",
+   "played": 16,
+   "won": 4,
+   "drawn": 4,
+   "lost": 8,
+   "goalsFor": 11,
+   "goalsAgainst": 21,
+   "points": 16
+  },
+  {
+   "teamId": "newells",
+   "played": 16,
+   "won": 3,
+   "drawn": 6,
+   "lost": 7,
+   "goalsFor": 15,
+   "goalsAgainst": 27,
+   "points": 15
+  },
+  {
+   "teamId": "deportivo-riestra",
+   "played": 16,
+   "won": 1,
+   "drawn": 8,
+   "lost": 7,
+   "goalsFor": 5,
+   "goalsAgainst": 12,
+   "points": 11
+  },
+  {
+   "teamId": "independiente-rivadavia",
+   "played": 16,
+   "won": 10,
+   "drawn": 4,
+   "lost": 2,
+   "goalsFor": 29,
+   "goalsAgainst": 15,
+   "points": 34
+  },
+  {
+   "teamId": "river",
+   "played": 16,
+   "won": 9,
+   "drawn": 2,
+   "lost": 5,
+   "goalsFor": 22,
+   "goalsAgainst": 12,
+   "points": 29
+  },
+  {
+   "teamId": "argentinos",
+   "played": 16,
+   "won": 8,
+   "drawn": 5,
+   "lost": 3,
+   "goalsFor": 17,
+   "goalsAgainst": 13,
+   "points": 29
+  },
+  {
+   "teamId": "central",
+   "played": 16,
+   "won": 8,
+   "drawn": 4,
+   "lost": 4,
+   "goalsFor": 20,
+   "goalsAgainst": 16,
+   "points": 28
+  },
+  {
+   "teamId": "belgrano",
+   "played": 16,
+   "won": 7,
+   "drawn": 5,
+   "lost": 4,
+   "goalsFor": 17,
+   "goalsAgainst": 13,
+   "points": 26
+  },
+  {
+   "teamId": "gimnasia",
+   "played": 16,
+   "won": 8,
+   "drawn": 2,
+   "lost": 6,
+   "goalsFor": 19,
+   "goalsAgainst": 19,
+   "points": 26
+  },
+  {
+   "teamId": "huracan",
+   "played": 16,
+   "won": 5,
+   "drawn": 7,
+   "lost": 4,
+   "goalsFor": 17,
+   "goalsAgainst": 13,
+   "points": 22
+  },
+  {
+   "teamId": "racing",
+   "played": 16,
+   "won": 5,
+   "drawn": 6,
+   "lost": 5,
+   "goalsFor": 17,
+   "goalsAgainst": 15,
+   "points": 21
+  },
+  {
+   "teamId": "barracas-central",
+   "played": 16,
+   "won": 5,
+   "drawn": 6,
+   "lost": 5,
+   "goalsFor": 15,
+   "goalsAgainst": 15,
+   "points": 21
+  },
+  {
+   "teamId": "tigre",
+   "played": 16,
+   "won": 4,
+   "drawn": 8,
+   "lost": 4,
+   "goalsFor": 18,
+   "goalsAgainst": 15,
+   "points": 20
+  },
+  {
+   "teamId": "sarmiento-junin",
+   "played": 16,
+   "won": 6,
+   "drawn": 1,
+   "lost": 9,
+   "goalsFor": 13,
+   "goalsAgainst": 20,
+   "points": 19
+  },
+  {
+   "teamId": "banfield",
+   "played": 16,
+   "won": 5,
+   "drawn": 3,
+   "lost": 8,
+   "goalsFor": 17,
+   "goalsAgainst": 19,
+   "points": 18
+  },
+  {
+   "teamId": "atletico-tucuman",
+   "played": 16,
+   "won": 3,
+   "drawn": 5,
+   "lost": 8,
+   "goalsFor": 15,
+   "goalsAgainst": 20,
+   "points": 14
+  },
+  {
+   "teamId": "aldosivi",
+   "played": 16,
+   "won": 0,
+   "drawn": 8,
+   "lost": 8,
+   "goalsFor": 6,
+   "goalsAgainst": 19,
+   "points": 8
+  },
+  {
+   "teamId": "estudiantes-rio-cuarto",
+   "played": 16,
+   "won": 1,
+   "drawn": 2,
+   "lost": 13,
+   "goalsFor": 5,
+   "goalsAgainst": 24,
+   "points": 5
+  }
+ ],
+ "groups": [
+  {
+   "name": "Zona A",
+   "teamIds": [
+    "estudiantes",
+    "boca",
+    "velez",
+    "talleres",
+    "independiente",
+    "lanus",
+    "sanlorenzo",
+    "union-santa-fe",
+    "instituto",
+    "defensa-y-justicia",
+    "gimnasia-mendoza",
+    "platense",
+    "central-cordoba-sde",
+    "newells",
+    "deportivo-riestra"
+   ]
+  },
+  {
+   "name": "Zona B",
+   "teamIds": [
+    "independiente-rivadavia",
+    "river",
+    "argentinos",
+    "central",
+    "belgrano",
+    "gimnasia",
+    "huracan",
+    "racing",
+    "barracas-central",
+    "tigre",
+    "sarmiento-junin",
+    "banfield",
+    "atletico-tucuman",
+    "aldosivi",
+    "estudiantes-rio-cuarto"
+   ]
+  }
+ ],
+ "matches": [
+  {
+   "id": "2026-apertura-001",
+   "date": "2026-01-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-002",
+   "date": "2026-01-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-003",
+   "date": "2026-01-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-004",
+   "date": "2026-01-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-005",
+   "date": "2026-01-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-006",
+   "date": "2026-01-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-007",
+   "date": "2026-01-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-008",
+   "date": "2026-01-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Francisco Cabasés (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-009",
+   "date": "2026-01-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Bautista Gargantini (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-010",
+   "date": "2026-01-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-011",
+   "date": "2026-01-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-012",
+   "date": "2026-01-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-013",
+   "date": "2026-01-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-014",
+   "date": "2026-01-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "deportivo-riestra",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-015",
+   "date": "2026-01-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "estudiantes-rio-cuarto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-016",
+   "date": "2026-01-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-017",
+   "date": "2026-01-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Víctor Antonio Legrotaglie (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-018",
+   "date": "2026-01-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-019",
+   "date": "2026-01-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-020",
+   "date": "2026-01-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-021",
+   "date": "2026-01-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-022",
+   "date": "2026-01-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-023",
+   "date": "2026-01-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-024",
+   "date": "2026-01-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "UNO Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-025",
+   "date": "2026-01-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-026",
+   "date": "2026-01-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ciudad de Río Cuarto - Antonio Candini (Río Cuarto)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-027",
+   "date": "2026-01-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-028",
+   "date": "2026-01-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-029",
+   "date": "2026-01-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-030",
+   "date": "2026-01-29",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "deportivo-riestra",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Guillermo Laza (Villa Soldati)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-031",
+   "date": "2026-01-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-032",
+   "date": "2026-01-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-033",
+   "date": "2026-01-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-034",
+   "date": "2026-01-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-035",
+   "date": "2026-02-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "deportivo-riestra",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-036",
+   "date": "2026-02-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-037",
+   "date": "2026-02-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-038",
+   "date": "2026-02-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-039",
+   "date": "2026-02-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-040",
+   "date": "2026-02-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-041",
+   "date": "2026-02-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "aldosivi",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-042",
+   "date": "2026-02-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-043",
+   "date": "2026-02-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "estudiantes-rio-cuarto",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-044",
+   "date": "2026-02-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Bautista Gargantini (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-045",
+   "date": "2026-02-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-046",
+   "date": "2026-02-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-047",
+   "date": "2026-02-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-048",
+   "date": "2026-02-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-049",
+   "date": "2026-02-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-050",
+   "date": "2026-02-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-051",
+   "date": "2026-02-07",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-052",
+   "date": "2026-02-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Víctor Antonio Legrotaglie (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-053",
+   "date": "2026-02-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-054",
+   "date": "2026-02-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-055",
+   "date": "2026-02-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-056",
+   "date": "2026-02-08",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-057",
+   "date": "2026-02-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ciudad de Río Cuarto - Antonio Candini (Río Cuarto)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-058",
+   "date": "2026-02-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-059",
+   "date": "2026-02-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-060",
+   "date": "2026-02-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "deportivo-riestra",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "UNO Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-061",
+   "date": "2026-02-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-062",
+   "date": "2026-02-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "aldosivi",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-063",
+   "date": "2026-02-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-064",
+   "date": "2026-02-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-065",
+   "date": "2026-02-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-066",
+   "date": "2026-02-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-067",
+   "date": "2026-02-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-068",
+   "date": "2026-02-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-069",
+   "date": "2026-02-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "estudiantes-rio-cuarto",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-070",
+   "date": "2026-02-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Bautista Gargantini (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-071",
+   "date": "2026-02-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-072",
+   "date": "2026-02-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "barracas-central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-073",
+   "date": "2026-02-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-074",
+   "date": "2026-02-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-075",
+   "date": "2026-02-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "deportivo-riestra",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Guillermo Laza (Villa Soldati)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-076",
+   "date": "2026-02-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-077",
+   "date": "2026-02-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Víctor Antonio Legrotaglie (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-078",
+   "date": "2026-02-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-079",
+   "date": "2026-02-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "UNO Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-080",
+   "date": "2026-02-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-081",
+   "date": "2026-02-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-082",
+   "date": "2026-02-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "newells",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-083",
+   "date": "2026-02-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-084",
+   "date": "2026-02-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-085",
+   "date": "2026-02-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Bautista Gargantini (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-086",
+   "date": "2026-02-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "deportivo-riestra",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Guillermo Laza (Villa Soldati)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-087",
+   "date": "2026-02-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes-rio-cuarto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-088",
+   "date": "2026-02-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "aldosivi",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-089",
+   "date": "2026-02-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-090",
+   "date": "2026-03-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-091",
+   "date": "2026-02-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-092",
+   "date": "2026-02-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-093",
+   "date": "2026-02-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Víctor Antonio Legrotaglie (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-094",
+   "date": "2026-02-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-095",
+   "date": "2026-02-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-096",
+   "date": "2026-02-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-097",
+   "date": "2026-02-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-098",
+   "date": "2026-02-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "deportivo-riestra",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-099",
+   "date": "2026-02-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-100",
+   "date": "2026-02-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Ciudad de Río Cuarto - Antonio Candini (Río Cuarto)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-101",
+   "date": "2026-02-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-102",
+   "date": "2026-02-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-103",
+   "date": "2026-02-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-104",
+   "date": "2026-03-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-105",
+   "date": "2026-03-31",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-106",
+   "date": "2026-02-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-107",
+   "date": "2026-02-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-108",
+   "date": "2026-02-28",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-109",
+   "date": "2026-03-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-110",
+   "date": "2026-03-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-111",
+   "date": "2026-03-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-112",
+   "date": "2026-03-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-113",
+   "date": "2026-03-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-114",
+   "date": "2026-03-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-115",
+   "date": "2026-03-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "UNO Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-116",
+   "date": "2026-03-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Malvinas Argentinas (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-117",
+   "date": "2026-03-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "deportivo-riestra",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Guillermo Laza (Villa Soldati)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-118",
+   "date": "2026-03-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-119",
+   "date": "2026-03-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "estudiantes-rio-cuarto",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-120",
+   "date": "2026-03-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-121",
+   "date": "2026-05-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-122",
+   "date": "2026-05-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-123",
+   "date": "2026-05-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "deportivo-riestra",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-124",
+   "date": "2026-05-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-125",
+   "date": "2026-05-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-126",
+   "date": "2026-05-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-127",
+   "date": "2026-05-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-128",
+   "date": "2026-05-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-129",
+   "date": "2026-05-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-130",
+   "date": "2026-05-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-131",
+   "date": "2026-05-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-132",
+   "date": "2026-05-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-133",
+   "date": "2026-05-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Ciudad de Río Cuarto - Antonio Candini (Río Cuarto)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-134",
+   "date": "2026-05-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Víctor Antonio Legrotaglie (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-135",
+   "date": "2026-05-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-136",
+   "date": "2026-03-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "union-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-137",
+   "date": "2026-03-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-138",
+   "date": "2026-03-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-139",
+   "date": "2026-03-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-140",
+   "date": "2026-03-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-141",
+   "date": "2026-03-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-142",
+   "date": "2026-03-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-143",
+   "date": "2026-03-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "aldosivi",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-144",
+   "date": "2026-03-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Bautista Gargantini (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-145",
+   "date": "2026-03-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ciudad de Río Cuarto - Antonio Candini (Río Cuarto)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-146",
+   "date": "2026-03-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-147",
+   "date": "2026-03-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-148",
+   "date": "2026-03-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-149",
+   "date": "2026-03-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "deportivo-riestra",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Guillermo Laza (Villa Soldati)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-150",
+   "date": "2026-03-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "UNO Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-151",
+   "date": "2026-03-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-152",
+   "date": "2026-03-14",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-153",
+   "date": "2026-03-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-154",
+   "date": "2026-03-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-155",
+   "date": "2026-03-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-156",
+   "date": "2026-03-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-157",
+   "date": "2026-03-15",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-158",
+   "date": "2026-03-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-159",
+   "date": "2026-03-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-160",
+   "date": "2026-03-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-161",
+   "date": "2026-03-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-162",
+   "date": "2026-03-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "estudiantes-rio-cuarto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-163",
+   "date": "2026-03-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "deportivo-riestra",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-164",
+   "date": "2026-03-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Víctor Antonio Legrotaglie (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-165",
+   "date": "2026-03-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "newells",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-166",
+   "date": "2026-03-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-167",
+   "date": "2026-03-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-168",
+   "date": "2026-03-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-169",
+   "date": "2026-03-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-170",
+   "date": "2026-03-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-171",
+   "date": "2026-03-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-172",
+   "date": "2026-03-21",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-173",
+   "date": "2026-03-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-174",
+   "date": "2026-03-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Ciudad de Río Cuarto - Antonio Candini (Río Cuarto)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-175",
+   "date": "2026-03-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-176",
+   "date": "2026-03-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-177",
+   "date": "2026-03-22",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Bautista Gargantini (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-178",
+   "date": "2026-03-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-179",
+   "date": "2026-03-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "UNO Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-180",
+   "date": "2026-03-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "deportivo-riestra",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Guillermo Laza (Villa Soldati)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-181",
+   "date": "2026-04-01",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-182",
+   "date": "2026-04-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-183",
+   "date": "2026-04-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-184",
+   "date": "2026-04-02",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-185",
+   "date": "2026-04-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Víctor Antonio Legrotaglie (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-186",
+   "date": "2026-04-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-187",
+   "date": "2026-04-03",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "deportivo-riestra",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-188",
+   "date": "2026-04-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "estudiantes-rio-cuarto",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-189",
+   "date": "2026-04-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-190",
+   "date": "2026-04-04",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-191",
+   "date": "2026-04-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-192",
+   "date": "2026-04-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-193",
+   "date": "2026-04-05",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-194",
+   "date": "2026-04-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-195",
+   "date": "2026-04-06",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-196",
+   "date": "2026-04-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "aldosivi",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-197",
+   "date": "2026-04-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Ciudad de Río Cuarto - Antonio Candini (Río Cuarto)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-198",
+   "date": "2026-04-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "boca",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-199",
+   "date": "2026-04-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "UNO Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-200",
+   "date": "2026-04-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Bautista Gargantini (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-201",
+   "date": "2026-04-11",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "deportivo-riestra",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Guillermo Laza (Villa Soldati)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-202",
+   "date": "2026-04-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-203",
+   "date": "2026-04-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-204",
+   "date": "2026-04-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-205",
+   "date": "2026-04-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-206",
+   "date": "2026-04-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-207",
+   "date": "2026-04-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-208",
+   "date": "2026-04-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-209",
+   "date": "2026-04-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-210",
+   "date": "2026-04-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-211",
+   "date": "2026-04-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "newells",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "15 de Abril (Santa Fe)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-212",
+   "date": "2026-04-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-213",
+   "date": "2026-04-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "independiente",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-214",
+   "date": "2026-04-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes-rio-cuarto",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Juan Carmelo Zerillo (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-215",
+   "date": "2026-04-18",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-216",
+   "date": "2026-04-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-217",
+   "date": "2026-04-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-218",
+   "date": "2026-04-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-219",
+   "date": "2026-04-19",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "deportivo-riestra",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-220",
+   "date": "2026-04-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-221",
+   "date": "2026-04-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-222",
+   "date": "2026-04-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "venue": "Único Madre de Ciudades (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-223",
+   "date": "2026-04-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Víctor Antonio Legrotaglie (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-224",
+   "date": "2026-04-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sanlorenzo",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Pedro Bidegain (Flores)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-225",
+   "date": "2026-04-20",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-226",
+   "date": "2026-04-23",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Norberto \"Tito\" Tomaghello (Gobernador Costa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-227",
+   "date": "2026-04-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Ciudad de Río Cuarto - Antonio Candini (Río Cuarto)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-228",
+   "date": "2026-04-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ciudad de Lanús - Néstor Díaz Pérez (Remedios de Escalada)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-229",
+   "date": "2026-04-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-230",
+   "date": "2026-04-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "deportivo-riestra",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Guillermo Laza (Villa Soldati)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-231",
+   "date": "2026-04-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "racing",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Presidente Perón (Avellaneda)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-232",
+   "date": "2026-04-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "river",
+   "awayId": "aldosivi",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-233",
+   "date": "2026-04-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Eva Perón (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-234",
+   "date": "2026-04-25",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "estudiantes",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "UNO Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-235",
+   "date": "2026-04-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-236",
+   "date": "2026-04-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "newells",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Marcelo A. Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-237",
+   "date": "2026-04-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "José Fierro (San Miguel de Tucumán)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-238",
+   "date": "2026-04-26",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "venue": "Bautista Gargantini (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-239",
+   "date": "2026-04-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Tomás Adolfo Ducó (Parque Patricios)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-240",
+   "date": "2026-04-27",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "velez",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-241",
+   "date": "2026-05-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Octavos de final",
+   "phase": "playoff",
+   "homeId": "argentinos",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-242",
+   "date": "2026-05-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Octavos de final",
+   "phase": "playoff",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Alberto J. Armando (La Boca)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "2026-apertura-243",
+   "date": "2026-05-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Octavos de final",
+   "phase": "playoff",
+   "homeId": "talleres",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-244",
+   "date": "2026-05-09",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Octavos de final",
+   "phase": "playoff",
+   "homeId": "independiente-rivadavia",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Bautista Gargantini (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-245",
+   "date": "2026-05-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Octavos de final",
+   "phase": "playoff",
+   "homeId": "river",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue. River Plate ganó por penales (4-3).",
+   "advancedId": "river"
+  },
+  {
+   "id": "2026-apertura-246",
+   "date": "2026-05-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Octavos de final",
+   "phase": "playoff",
+   "homeId": "central",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-247",
+   "date": "2026-05-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Octavos de final",
+   "phase": "playoff",
+   "homeId": "velez",
+   "awayId": "gimnasia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José Amalfitani (Liniers)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-248",
+   "date": "2026-05-10",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Octavos de final",
+   "phase": "playoff",
+   "homeId": "estudiantes",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "UNO Dr. Jorge Luis Hirschi (La Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-249",
+   "date": "2026-05-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Cuartos de final",
+   "phase": "playoff",
+   "homeId": "argentinos",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "2026-apertura-250",
+   "date": "2026-05-12",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Cuartos de final",
+   "phase": "playoff",
+   "homeId": "belgrano",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-251",
+   "date": "2026-05-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Cuartos de final",
+   "phase": "playoff",
+   "homeId": "river",
+   "awayId": "gimnasia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "2026-apertura-252",
+   "date": "2026-05-13",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Cuartos de final",
+   "phase": "playoff",
+   "homeId": "central",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue."
+  },
+  {
+   "id": "2026-apertura-253",
+   "date": "2026-05-16",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Semifinal",
+   "phase": "playoff",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Mâs Monumental (Belgrano)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "2026-apertura-254",
+   "date": "2026-05-17",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Semifinal",
+   "phase": "playoff",
+   "homeId": "argentinos",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue. Belgrano ganó por penales (3-4).",
+   "advancedId": "belgrano"
+  },
+  {
+   "id": "2026-apertura-255",
+   "date": "2026-05-24",
+   "competition": "Asociación del Fútbol Argentino · Apertura",
+   "stage": "Final",
+   "phase": "playoff",
+   "homeId": "river",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "note": "Se jugó en Córdoba, pero River figuró como local por su mejor ubicación en la fase de zonas."
+  }
+ ]
+}

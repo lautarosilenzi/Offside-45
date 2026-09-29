@@ -4,6 +4,7 @@ import { CUP_TOURNAMENTS_40S } from "./config-cups-40s";
 import { CUP_TOURNAMENTS_50S } from "./config-cups-50s";
 import { CUP_TOURNAMENTS_90S } from "./config-cups-90s";
 import { CUP_TOURNAMENTS_MODERN } from "./config-cups-modern";
+import { CUP_TOURNAMENTS_LIGA } from "./config";
 
 const AFA_1903 = "Argentine Football Association";
 const AAF = "Asociación Argentina de Football";
@@ -990,4 +991,5 @@ export const CUP_TOURNAMENTS: TournamentConfig[] = [
   ...CUP_TOURNAMENTS_50S,
   ...CUP_TOURNAMENTS_90S,
   ...CUP_TOURNAMENTS_MODERN,
+  ...CUP_TOURNAMENTS_LIGA,
 ];

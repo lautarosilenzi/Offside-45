@@ -237,7 +237,8 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
       });
       return;
     }
-    if (!/^[-\s=]+$/.test(trimmed) && !/^(No\.?\s*Team|#\.|Table:?)/i.test(trimmed)) table = null;
+    // "Table" o "Table:" solos no cortan; "Table Group B" (2025–) empieza otra tabla.
+    if (!/^[-\s=]+$/.test(trimmed) && !/^(No\.?\s*Team|#\.|Table:?\s*$)/i.test(trimmed)) table = null;
     const r = trimmed.replace(/^\.\s*/, "").match(ROUND_RE);
     if (r) {
       round = r[1].trim();

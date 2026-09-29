@@ -213,9 +213,6 @@ export function translateNote(
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} se retiró del torneo.`);
       out.annulled = true;
-    } else if ((m = p.match(/^(.+?) withdrew championship$/i))) {
-      const club = resolveName(m[1], year);
-      out.text.push(`${club ? club.as ?? club.name : m[1]} se retiró del torneo.`);
     } else if ((m = p.match(/^(.+?) withdrew(?:, see [^,]+)?$/i))) {
       const club = resolveName(m[1], year);
       out.text.push(`${club ? club.as ?? club.name : m[1]} no se presentó.`);
@@ -643,21 +640,28 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       }),
     };
   } else if (cfg.allSections) {
+    let phasePrefix = "";
     section = {
       heading: sections.map((s) => s.heading).join(" / "),
       tables: sections.flatMap((s) => s.tables),
       text: sections.flatMap((s) => s.text),
       // Si la sección es un grupo o una zona ("Group A", "Zona Norte"), sus partidos llevan ese grupo.
       matches: sections.flatMap((s) => {
-        const g = s.heading.match(/^Group\s+"?([A-Z])"?$|^Zona\s+(Norte|Sur)$|^Group\s+(North|South|East|West)(?:\s+(\d))?$/i);
+        // Copas de la Liga (2020–): "Fase Campeón" y "Fase Complementación" tienen cada una su "Grupo A".
+        const ph = cfg.sectionPhases?.find(([re]) => re.test(s.heading));
+        if (ph) phasePrefix = ph[1];
+        const g = s.heading.match(
+          /^Group\s+"?([A-Z])"?$|^Zona\s+(Norte|Sur)$|^Group\s+(North|South|East|West)(?:\s+(\d))?$|^Zona\s+(\d+)\s+-\s+Group\s+\d+:?$|^Grupo\s+([A-Z])\s+-\s+Group\s+[A-Z]:?$/i,
+        );
         const POINTS: Record<string, string> = { north: "Norte", south: "Sur", east: "Este", west: "Oeste" };
-        const group = !g
+        const base = !g
           ? undefined
-          : g[1]
-            ? `Grupo ${g[1].toUpperCase()}`
-            : g[2]
-              ? `Zona ${g[2]}`
+          : g[1] || g[6]
+            ? `Grupo ${(g[1] || g[6]).toUpperCase()}`
+            : g[2] || g[5]
+              ? `Zona ${g[2] || g[5]}`
               : `Grupo ${POINTS[g[3].toLowerCase()]}${g[4] ? ` ${g[4]}` : ""}`;
+        const group = base && phasePrefix ? `${phasePrefix} · ${base}` : base;
         // En las ligas el título de la sección no es una fase. En las copas puede traer la fecha: ". Round 2: 29 Jun."
         const round = cfg.kind === "cup" && !group ? s.heading.replace(/^\.\s*/, "").replace(/:\s*\d{1,2}\s+[A-Z][a-z]{2}.*$/, "") : undefined;
         const hd = s.heading.match(/:\s*(\d{1,2})\s+([A-Z][a-z]{2})[a-z]*\.?(?:\s+(\d{4}))?\.?$/);
@@ -666,7 +670,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
           ...m,
           round: m.round ?? round,
           date: m.date || headDate,
-          ...(group && !m.group && { group }),
+          ...(group && (!m.group || cfg.sectionPhases) && { group }),
         }));
       }),
     };
@@ -769,7 +773,10 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
 
     if (cfg.ignoreRounds?.test(raw.round ?? "")) raw.round = undefined;
     const mapped = Object.entries(cfg.stageMap ?? {}).find(([re]) => new RegExp(re, "i").test(raw.round ?? ""))?.[1];
-    const { stage, phase } = cfg.kind === "cup" ? { stage: mapped ?? cupStageOf(raw), phase: "cup" as const } : stageOf(raw);
+    // Copas de la Liga: "Round 7" es una fecha de la fase de zonas; la zona sale después de las tablas (zoneTables).
+    const zoneRound = cfg.zoneTables && !raw.group && !mapped ? (raw.round ?? "").match(/^Round\s*(\d+):?$/i) : null;
+    const { stage, phase } =
+      cfg.kind === "cup" ? { stage: zoneRound ? `Fecha ${zoneRound[1]}` : (mapped ?? cupStageOf(raw)), phase: "cup" as const } : stageOf(raw);
     const m: Match = {
       id: `${cfg.slug}-${String(++n).padStart(3, "0")}`,
       date: d.iso,
@@ -910,8 +917,9 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     }
     // 2025: eliminación directa después de las zonas (octavos, cuartos, semifinales, final), cada ronda desde su fecha.
     const pr = cfg.playoffRounds && [...cfg.playoffRounds].reverse().find((x) => m.date >= x.date);
+    // En las copas (Copa de la Superliga 2019) RSSSF solo dice "First leg"/"Second leg": la fase sale de la fecha.
     if (pr) {
-      m.phase = "playoff";
+      m.phase = cfg.kind === "cup" ? "cup" : "playoff";
       m.stage = pr.stage;
     }
     if (note.bothLost) m.bothLost = true;
@@ -966,7 +974,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     if (pen && +pen[1] !== +pen[2]) {
       const winner = +pen[1] > +pen[2] ? home : away;
       m.advancedId = winner.id;
-      const how = m.homeGoals === m.awayGoals ? "ganó por penales" : "pasó por penales, tras el empate en el global,";
+      const how = m.homeGoals === m.awayGoals && !/\(vuelta\)/.test(m.stage ?? "") ? "ganó por penales" : "pasó por penales, tras el empate en el global,";
       m.note = [m.note, `${winner.as ?? winner.name} ${how} (${pen[1]}-${pen[2]}).`].filter(Boolean).join(" ");
     }
     if (ov) Object.assign(m, ov);
@@ -1119,6 +1127,45 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     }
     if (cfg.groupNames?.[gi]) groups.push({ name: cfg.groupNames[gi], teamIds: ids });
   });
+  // Copas de la Liga (2021–): RSSSF lista cada fecha con las dos zonas juntas. La zona de cada partido sale de las
+  // tablas de zona; el partido entre equipos de zonas distintas es interzonal (la fecha de clásicos).
+  if (cfg.zoneTables) {
+    const zoneOf = new Map<string, string>();
+    const published: { zone: string; row: (typeof tables)[number][number]; id: string }[] = [];
+    for (const z of cfg.zoneTables) {
+      for (const r of tables[z.table] ?? []) {
+        const t = resolveName(r.name, cfg.year);
+        if (!t) problems.push(`${z.name}: nombre sin identificar "${r.name}"`);
+        else {
+          zoneOf.set(t.id, z.name);
+          published.push({ zone: z.name, row: r, id: t.id });
+        }
+      }
+      if (!tables[z.table]?.length) problems.push(`${z.name}: no encontré la tabla ${z.table}`);
+    }
+    const zoneMatches = matches.filter((m) => /^Fecha \d+$/.test(m.stage ?? ""));
+    for (const m of zoneMatches) {
+      const a = zoneOf.get(m.homeId);
+      m.stage = `${a && a === zoneOf.get(m.awayId) ? a : "Interzonal"} · ${m.stage}`;
+    }
+    // Cada tabla de zona (con el interzonal incluido) contra los partidos cargados.
+    const ppw = cfg.pointsPerWin ?? 3;
+    for (const { zone, row, id } of published) {
+      const c = { played: 0, won: 0, drawn: 0, lost: 0, goalsFor: 0, goalsAgainst: 0, points: 0 };
+      for (const m of zoneMatches) {
+        if (m.homeId !== id && m.awayId !== id) continue;
+        const [gf, ga] = m.homeId === id ? [m.homeGoals, m.awayGoals] : [m.awayGoals, m.homeGoals];
+        c.played++;
+        c.goalsFor += gf;
+        c.goalsAgainst += ga;
+        if (gf > ga) (c.won++, (c.points += ppw));
+        else if (gf === ga) (c.drawn++, c.points++);
+        else c.lost++;
+      }
+      const diff = (["played", "won", "drawn", "lost", "goalsFor", "goalsAgainst", "points"] as const).filter((k) => c[k] !== row[k]);
+      if (diff.length) problems.push(`${zone}: ${id} ${diff.map((k) => `${k} calculado ${c[k]}, publicado ${row[k]}`).join(", ")}`);
+    }
+  }
 
   const season: Season = {
     slug: cfg.slug,
