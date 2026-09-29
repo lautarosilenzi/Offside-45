@@ -168,7 +168,9 @@ export function parseSeason(
   let ctx: NonNullable<RawMatch["context"]> = [];
 
   lines.forEach((raw, i) => {
-    let line = raw.replace(/\s+$/, "").replace(/^(\s*\[[^\]]+\])\s+PK\s+PK$/, "$1");
+    // Copa Argentina 2011/12: columnas separadas con tabulaciones.
+    // Y "Independiente Rivadavia (Mza)[3]1-1[5]": el nombre pegado a los penales.
+    let line = (opts.contextPath ? raw.replace(/\t+/g, "    ").replace(/\)\[(\d+)\]/, ") [$1]") : raw).replace(/\s+$/, "").replace(/^(\s*\[[^\]]+\])\s+PK\s+PK$/, "$1");
     let trimmed = line.trim();
     // Los renglones vacíos no cortan la tabla (algunas páginas dejan uno entre cada fila);
     // la corta cualquier otra línea que no sea fila, separador o encabezado.
@@ -206,11 +208,13 @@ export function parseSeason(
         h.length < 50 &&
         !/[.;]$/.test(h) &&
         !/\d\s*-\s*\d|^\d+\.|^\[/.test(h) &&
-        /\b(legs?|phases?|round|rounds|finals?|group [a-z0-9]|semi-?finals?|quarter\s*-?\s*finals?|preliminar[a-z]*)\b/i.test(h)
+        (/\b(legs?|phases?|stages?|round|rounds|finals?|group [a-z0-9]|semi-?finals?|quarter\s*-?\s*finals?|preliminar[a-z]*)\b/i.test(h) ||
+          /^zona (metropolitana|interior|[a-z]+)$/i.test(h) ||
+          /^\d+°\s*final$/i.test(h))
       ) {
         const kind = /^(first|second|1st|2nd)\s+leg$/i.test(h)
           ? "leg"
-          : /^group\s+[a-z0-9]+$/i.test(h)
+          : /^group\s+[a-z0-9]+$|^zona\s+\S+$/i.test(h)
             ? "group"
             : /phases$|^final phase$|^regional\b/i.test(h)
               ? "region"

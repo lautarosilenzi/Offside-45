@@ -88,6 +88,15 @@ export function wikiRows(text: string): WikiRow[] {
         break;
       }
       pendingTie = null;
+      // Copa Argentina 2011/12: "17 de julio - 24 de julio | Local | 3 - 3 | Visitante | 1 - 0 | (2) 0 - 2 (4)": el global
+      // y después la ida y la vuelta, con los goles de cada lado en el mismo orden.
+      const legs = cells.slice(i + 2).map((c) => c.replace(/^\(\d+\)\s*|\s*\(\d+\)$/g, "").match(/^(\d+)\s*[-–]\s*(\d+)$/));
+      const days = date?.split(/\s+[-–]\s+/);
+      if (legs.length >= 2 && legs[0] && legs[1] && days?.length === 2) {
+        for (const [k, l] of [legs[0], legs[1]].entries())
+          rows.push({ home: cells[i - 1], away: cells[i + 1], hg: Number(l[1]), ag: Number(l[2]), raw: cells.join(" | "), date: days[k] });
+        break;
+      }
       rows.push({ home: cells[i - 1], away: cells[i + 1], hg: num(sc[1]), ag: num(sc[2]), raw: cells.join(" | "), date });
     }
     if (!found && pendingTie) {

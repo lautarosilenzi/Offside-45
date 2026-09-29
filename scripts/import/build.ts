@@ -494,7 +494,14 @@ function contextStageOf(ctx: NonNullable<RawMatch["context"]>): string | null {
     const t = text.replace(/[–—]/g, "-").trim();
     let m: RegExpMatchArray | null;
     if (kind === "leg") leg = /^(first|1st)/i.test(t) ? " (ida)" : " (vuelta)";
+    else if (kind === "group" && /^zona\s/i.test(t)) parts.push(`Zona ${t.replace(/^zona\s+/i, "").replace(/^./, (c) => c.toUpperCase())}`);
     else if (kind === "group") parts.push(`Grupo ${t.replace(/^group\s+/i, "").toUpperCase()}`);
+    else if (/^64°\s*final$/i.test(t)) parts.push("Sesentaicuatroavos de final");
+    else if (/^32°\s*final$/i.test(t)) parts.push("Treintaidosavos de final");
+    else if (/^16°\s*final$/i.test(t)) parts.push("Dieciseisavos de final");
+    else if (/^8°\s*final$/i.test(t)) parts.push("Octavos de final");
+    else if (/^4°\s*final$/i.test(t)) parts.push("Cuartos de final");
+    else if (/^preliminary stage$/i.test(t)) parts.push("Ronda preliminar");
     else if (/^final phase$/i.test(t)) continue;
     else if (/^(regional )?preliminary phases?$/i.test(t) || /^fase preliminar regional$/i.test(t)) parts.push("Fase preliminar regional");
     else if (/round of 64|\b32nd|1\/32|64th/i.test(t)) parts.push("Treintaidosavos de final");

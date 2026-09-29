@@ -11,8 +11,8 @@ const year = Number(yearArg);
 const cfg = slug ? [...TOURNAMENTS, ...CUP_TOURNAMENTS].find((t) => t.slug === slug) : undefined;
 setLocalAliases(cfg?.aliases ?? A_COPA_2020);
 async function main() {
-const sections = parseSeason(await fetchPage(file), { cup: true, headings: [new RegExp(from), new RegExp(to)] });
-const sec = sections.find((s) => new RegExp(from).test(s.heading));
+const sections = parseSeason(await fetchPage(file), { cup: true, contextPath: true, headings: [new RegExp(from), new RegExp(to)] });
+const sec = sections.filter((s) => new RegExp(from).test(s.heading)).sort((a, b) => b.matches.length - a.matches.length)[0];
 if (!sec) throw new Error("no encontré la sección");
 const counts = new Map<string, number>();
 for (const m of sec.matches) for (const n of [m.home, m.away]) counts.set(n, (counts.get(n) ?? 0) + 1);
