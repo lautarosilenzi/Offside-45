@@ -141,7 +141,7 @@ function EditionRow({ season }: { season: Season }) {
             <span className="truncate font-bold text-navy-950">{seasonNameOf(season, champion.id) ?? champion.name}</span>
           </span>
         ) : (
-          <span className="text-sm text-navy-500">Sin campeón · suspendida</span>
+          <span className="text-sm text-navy-500">{season.inProgress ? "En juego" : "Sin campeón · suspendida"}</span>
         )}
         {score ? (
           <span className="rounded-full bg-navy-900 px-3 py-0.5 text-center font-display text-base font-bold tabular-nums text-white">

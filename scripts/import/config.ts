@@ -12,6 +12,8 @@ export type TournamentConfig = {
   sectionPhases?: [RegExp, string][];
   // Copas con zonas cuyas fechas vienen mezcladas: qué tabla de la sección es cada zona.
   zoneTables?: { table: number; name: string }[];
+  // Copa Argentina (2011/12–): la fase sale de la jerarquía de títulos de RSSSF (contextStageOf en build.ts).
+  contextStages?: boolean;
   // Líneas de la página que abren una sección nueva (títulos sin <h2>, 1971–1985).
   headings?: RegExp[];
   // Ligas con líneas "Group A" / "Inter Group" dentro de cada fecha (Nacional 1973).
@@ -28,6 +30,10 @@ export type TournamentConfig = {
   excludeTeams?: string[];
   // Copa suspendida antes de la final (sin campeón): se cargan los partidos jugados y no se busca la final.
   abandoned?: boolean;
+  // Torneo en juego: sin campeón todavía; la final puede no estar.
+  inProgress?: boolean;
+  // Fechas sin año de una copa que duró varios años: el año sale del día de la semana ("[Sep 22, Wed]").
+  weekdayYears?: boolean;
   // Copa con campeón pero sin final jugada (Copa Estímulo 1920): no se busca la final.
   noFinal?: boolean;
   // Equipos eliminados que vuelven a jugar (cuadro rearmado en 1920, o un caso sin explicar en la fuente). Sin `teams`, vale para todos.
@@ -4389,6 +4395,7 @@ afaTorneo(1979, "reclasificacion", {
     ],
   }),
   anual(2026, "clausura", "Clausura", {
+    inProgress: true,
     file: "arg2026.html",
     tournament: "Torneo Clausura de la Liga Profesional 2026",
     championIds: [],
@@ -4415,7 +4422,7 @@ afaTorneo(1979, "reclasificacion", {
 const SAF = "Superliga Argentina de Fútbol";
 const LPF_ORG = "Liga Profesional de Fútbol (AFA)";
 // Nombres de los equipos de 2019/20 a 2024 en las páginas de RSSSF (los mismos alias cortos que usa `anual`).
-const A_COPA_2020 = {
+export const A_COPA_2020 = {
   Gimnasia: "gimnasia",
   Vélez: "velez",
   Estudiantes: "estudiantes",

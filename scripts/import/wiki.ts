@@ -46,6 +46,9 @@ async function fetchWikiRaw(title: string): Promise<string | null> {
 const clean = (s: string) =>
   s
     .replace(/<ref[^>]*\/>|<ref[\s\S]*?<\/ref>/g, "")
+    .replace(/<\/?small>/gi, "")
+    // {{nowrap|[[Club …|Equipo]]}}: se deja el contenido (si no, la celda queda vacía y se corren las columnas).
+    .replace(/\{\{nowrap\|((?:[^{}]|\{\{[^{}]*\}\})*)\}\}/gi, "$1")
     .replace(/\{\{[^{}]*\}\}/g, "")
     // Nota al pie que sigue en otra celda ("River Plate{{refn|group=…", 2015): se corta ahí.
     .replace(/\{\{.*$/, "")
@@ -61,6 +64,10 @@ export type WikiRow = { home: string; away: string; hg: number | null; ag: numbe
 // Filas de tablas de partidos: "Local | 3 - 1 | Visitante".
 export function wikiRows(text: string): WikiRow[] {
   const rows: WikiRow[] = [];
+  const num = (x: string) => (/^\d+$/.test(x) ? Number(x) : null);
+  // Series de ida y vuelta (Copa Argentina): "Local (rowspan=2) | 3 | 5 - 1 | 1 | Visitante (rowspan=2)" con el global
+  // en el medio y los goles de la ida a los costados; la fila siguiente trae solo fecha, cancha y los goles de la vuelta.
+  let pendingTie: { home: string; away: string } | null = null;
   for (const block of text.split(/\n\|-/)) {
     const cells = block
       .split("\n")
@@ -68,12 +75,25 @@ export function wikiRows(text: string): WikiRow[] {
       .flatMap((l) => l.replace(/^[|!]/, "").split(/\|\||!!/))
       .map(clean)
       .filter(Boolean);
+    const date = cells.find((c) => /^\d{1,2} de [a-záéíóú]+/i.test(c) || /^\d{1,2}\/\d{1,2}\/\d{4}$/.test(c));
+    let found = false;
     for (let i = 1; i < cells.length - 1; i++) {
-      const sc = cells[i].match(/^(\d+|PG|PP|PE|\?)\s*[-–:]\s*(\d+|PG|PP|PE|\?)$/);
+      // Penales al lado del resultado: "(3) 1 - 1 (4)".
+      const sc = cells[i].replace(/^\(\d+\)\s*|\s*\(\d+\)$/g, "").match(/^(\d+|PG|PP|PE|\?)\s*[-–:]\s*(\d+|PG|PP|PE|\?)$/);
       if (!sc) continue;
-      const num = (x: string) => (/^\d+$/.test(x) ? Number(x) : null);
-      const date = cells.find((c) => /^\d{1,2} de [a-záéíóú]+/i.test(c) || /^\d{1,2}\/\d{1,2}\/\d{4}$/.test(c));
+      found = true;
+      if (/rowspan/i.test(block) && i >= 2 && i + 2 < cells.length && num(cells[i - 1]) !== null && num(cells[i + 1]) !== null && num(cells[i - 2]) === null) {
+        rows.push({ home: cells[i - 2], away: cells[i + 2], hg: num(cells[i - 1]), ag: num(cells[i + 1]), raw: cells.join(" | "), date });
+        pendingTie = { home: cells[i - 2], away: cells[i + 2] };
+        break;
+      }
+      pendingTie = null;
       rows.push({ home: cells[i - 1], away: cells[i + 1], hg: num(sc[1]), ag: num(sc[2]), raw: cells.join(" | "), date });
+    }
+    if (!found && pendingTie) {
+      const goals = cells.filter((c) => /^\d+$/.test(c));
+      if (goals.length === 2 && date) rows.push({ ...pendingTie, hg: Number(goals[0]), ag: Number(goals[1]), raw: `${pendingTie.home} ${goals[0]}-${goals[1]} ${pendingTie.away} (vuelta, ${date})`, date });
+      pendingTie = null;
     }
   }
   // Copas: plantillas {{Partido |local = … |resultado = 2:0 |visita = … |fecha = …}}.
@@ -84,6 +104,11 @@ export function wikiRows(text: string): WikiRow[] {
     const away = field("visita").replace(/^\|/, "").trim();
     if (!home || !away) continue;
     rows.push({ home, away, hg: sc ? Number(sc[1]) : null, ag: sc ? Number(sc[2]) : null, date: field("fecha") || undefined, raw: `${home} ${field("resultado")} ${away} (${field("fecha")})` });
+  }
+  // Marcas del que pasó de ronda en las copas: "Deportivo Roca (v)", "Sportivo Belgrano (p)".
+  for (const r of rows) {
+    r.home = r.home.replace(/\s*\((?:v|p|g|pr)\)$/, "").replace(/^\((?:v|p|g|pr)\)\s*/, "");
+    r.away = r.away.replace(/\s*\((?:v|p|g|pr)\)$/, "").replace(/^\((?:v|p|g|pr)\)\s*/, "");
   }
   return rows;
 }

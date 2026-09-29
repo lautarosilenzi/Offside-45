@@ -32,6 +32,9 @@ export type RawMatch = {
   group?: string;
   // Ligas en varias secciones (Nacionales 1971–1985): el título de la sección ("Quarterfinals", "Final").
   stageHint?: string;
+  // Copa Argentina (2011/12–), con `contextPath`: los títulos que encabezan el partido, del más general al más
+  // particular ("Regional Preliminary Phases" › "Group A" › "First elimination phase" › "Second leg").
+  context?: { kind: "region" | "group" | "round" | "leg"; text: string }[];
   home: string;
   away: string;
   score: string; // "3:1", "wp:lp", "ann", "d:d", ...
@@ -113,7 +116,10 @@ function splitAway(rest: string): { away: string; note: string; awarded?: string
 const dayFirst = (s: string) => s.replace(/^(\d{1,2})\s+([A-Z][a-z]{2})[a-z]*(?:\s+(\d{4}))?$/, (_, d, m, y) => `${m} ${d}${y ? `, ${y}` : ""}`);
 
 // `cup`: en las copas una fase o región sin fecha propia no hereda la de la anterior (queda sin fecha).
-export function parseSeason(source: string, opts: { cup?: boolean; headings?: RegExp[]; groups?: boolean } = {}): RawSection[] {
+export function parseSeason(
+  source: string,
+  opts: { cup?: boolean; headings?: RegExp[]; groups?: boolean; contextPath?: boolean } = {},
+): RawSection[] {
   // Los títulos de sección a veces ocupan varias líneas: se aplanan a una sola.
   const html = source.replace(
     /<h([2-4])([^>]*)>([\s\S]*?)<\/h\1>/gi,
@@ -159,6 +165,7 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
   // Renglón del último partido leído (para pegarle la nota entre paréntesis del renglón de abajo).
   let lastMatchLine = -1;
   let lastScorerLine = -1;
+  let ctx: NonNullable<RawMatch["context"]> = [];
 
   lines.forEach((raw, i) => {
     let line = raw.replace(/\s+$/, "").replace(/^(\s*\[[^\]]+\])\s+PK\s+PK$/, "$1");
@@ -183,7 +190,39 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
       date = "";
       ignoring = false;
       region = undefined;
+      ctx = [];
       return;
+    }
+    // Copa Argentina: cada título corto de fase se acumula en `ctx`. Uno nuevo reemplaza al último del mismo tipo
+    // (y a lo que venía después); "Regional Preliminary Phases" o "Final phase" empiezan de cero.
+    if (opts.contextPath) {
+      const h = trimmed.replace(/\s*:\s*$/, "").replace(/\s+/g, " ").trim();
+      if (
+        h.length < 50 &&
+        !/[.;]$/.test(h) &&
+        !/\d\s*-\s*\d|^\d+\.|^\[/.test(h) &&
+        /\b(legs?|phases?|round|rounds|finals?|group [a-z0-9]|semi-?finals?|quarter\s*-?\s*finals?|preliminar[a-z]*)\b/i.test(h)
+      ) {
+        const kind = /^(first|second|1st|2nd)\s+leg$/i.test(h)
+          ? "leg"
+          : /^group\s+[a-z0-9]+$/i.test(h)
+            ? "group"
+            : /phases$|^final phase$|^regional\b/i.test(h)
+              ? "region"
+              : "round";
+        if (kind === "region") ctx = [];
+        else {
+          const last = ctx.map((c) => c.kind).lastIndexOf(kind);
+          if (last >= 0) ctx = ctx.slice(0, last);
+        }
+        ctx.push({ kind, text: h });
+        round = h;
+        group = undefined;
+        date = "";
+        table = null;
+        cur.text.push(trimmed);
+        return;
+      }
     }
     const t = line.match(TABLE_RE);
     const looksLikeMatch = line.replace(/^\s*\d+\s*\.\s*/, "").match(MATCH_RE);
@@ -468,6 +507,7 @@ export function parseSeason(source: string, opts: { cup?: boolean; headings?: Re
           date: own ? `${own[2]} ${own[1]}${own[3] ? `, ${own[3]}` : ""}` : date,
           round: ignoring ? "friendly" : round,
           ...(group && { group }),
+          ...(opts.contextPath && ctx.length > 0 && { context: ctx.map((c) => ({ ...c })) }),
           region,
           edition,
           home: m[1].trim(),

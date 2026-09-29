@@ -56,7 +56,7 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
           <Fact label="Torneo">{season.tournament}</Fact>
           <Fact label="Organizó">{season.organizer}</Fact>
           <Fact label={champions.length > 1 ? "Campeones" : "Campeón"}>
-            {champions.length === 0 && <span className="text-navy-500">Sin campeón</span>}
+            {champions.length === 0 && <span className="text-navy-500">{season.inProgress ? "En juego" : "Sin campeón"}</span>}
             <span className="flex flex-wrap items-center gap-x-4 gap-y-2">
               {champions.map((t) => (
                 <span key={t.id} className="flex items-center gap-2">

@@ -483,6 +483,35 @@ export function translateNote(
 }
 
 // Fases de copa en español, con la región del cuadro cuando la hay ("Rosario · Primera ronda").
+// Copa Argentina (2011/12–): la fase a partir de los títulos que encabezan el partido.
+// ["Regional Preliminary Phases", "Group A", "First elimination phase", "Second leg"] →
+// "Fase preliminar regional · Grupo A · Primera eliminatoria (vuelta)". Devuelve null si algún título no se conoce.
+const ORDINAL: Record<string, string> = { first: "Primera", second: "Segunda", third: "Tercera", fourth: "Cuarta", fifth: "Quinta", "1st": "Primera", "2nd": "Segunda", "3rd": "Tercera", "4th": "Cuarta" };
+function contextStageOf(ctx: NonNullable<RawMatch["context"]>): string | null {
+  const parts: string[] = [];
+  let leg = "";
+  for (const { kind, text } of ctx) {
+    const t = text.replace(/[–—]/g, "-").trim();
+    let m: RegExpMatchArray | null;
+    if (kind === "leg") leg = /^(first|1st)/i.test(t) ? " (ida)" : " (vuelta)";
+    else if (kind === "group") parts.push(`Grupo ${t.replace(/^group\s+/i, "").toUpperCase()}`);
+    else if (/^final phase$/i.test(t)) continue;
+    else if (/^(regional )?preliminary phases?$/i.test(t) || /^fase preliminar regional$/i.test(t)) parts.push("Fase preliminar regional");
+    else if (/round of 64|\b32nd|1\/32|64th/i.test(t)) parts.push("Treintaidosavos de final");
+    else if (/round of 32|\b16th|1\/16/i.test(t)) parts.push("Dieciseisavos de final");
+    else if (/round of 16|\b8th|1\/8|eighth/i.test(t)) parts.push("Octavos de final");
+    else if (/quarter/i.test(t)) parts.push("Cuartos de final");
+    else if (/semi/i.test(t)) parts.push("Semifinal");
+    else if (/^final$/i.test(t)) parts.push("Final");
+    else if ((m = t.match(/^(first|second|third|fourth|fifth|1st|2nd|3rd|4th) (elimination )?(phase|stage|round)$/i)))
+      parts.push(`${ORDINAL[m[1].toLowerCase()]} ${m[2] ? "eliminatoria" : m[3].toLowerCase() === "round" ? "ronda" : "fase"}`);
+    else if ((m = t.match(/^preliminary round\s*(\d*)$/i))) parts.push(`Ronda preliminar${m[1] ? ` ${m[1]}` : ""}`);
+    else if ((m = t.match(/^round (\d+)$/i))) parts.push(`Ronda ${m[1]}`);
+    else return null;
+  }
+  return parts.length ? `${parts.join(" · ")}${leg}` : null;
+}
+
 function cupStageOf(raw: RawMatch): string | undefined {
   // "1st. round:" → "1st round".
   const r = (raw.round ?? "").replace(/:$/, "").replace(/\./g, "").trim();
@@ -605,7 +634,12 @@ function stageOfRound(raw: RawMatch): { stage?: string; phase: Match["phase"] } 
 export async function buildTournament(cfg: TournamentConfig): Promise<{ season: Season; problems: string[]; warnings: string[] }> {
   const problems: string[] = [];
   const warnings: string[] = [];
-  const allParsed = parseSeason(await fetchPage(cfg.file), { cup: cfg.kind === "cup", headings: cfg.headings, groups: cfg.groupLines });
+  const allParsed = parseSeason(await fetchPage(cfg.file), {
+    cup: cfg.kind === "cup",
+    headings: cfg.headings,
+    groups: cfg.groupLines,
+    contextPath: cfg.contextStages,
+  });
   // Un torneo repartido en varias secciones seguidas (Nacionales 1971–1985): se toman solo esas y se juntan.
   let sections = allParsed;
   if (cfg.sectionRange) {
@@ -762,6 +796,15 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       problems.push(`L${raw.line}: fecha ilegible "${raw.date}" (${raw.home} - ${raw.away})`);
       continue;
     }
+    // Copa Argentina 2019/20 (frenada por la pandemia, terminó en 2021): RSSSF da "[Sep 22, Wed]" sin año.
+    // El día de la semana define el año (entre el anterior y dos después del de la temporada, no se repite).
+    const wd = cfg.weekdayYears && !explicitYear && d.iso.length === 10 ? raw.date.match(/\b(Sun|Mon|Tue|Wed|Thu|Fri|Sat)\b/) : null;
+    if (wd) {
+      const want = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(wd[1]);
+      const y = [cfg.year - 1, cfg.year, cfg.year + 1, cfg.year + 2].find((yy) => new Date(`${yy}${d.iso.slice(4)}T12:00:00Z`).getUTCDay() === want);
+      if (y === undefined) problems.push(`L${raw.line}: el día de la semana de "${raw.date}" no cae en ningún año cercano`);
+      else d.iso = `${y}${d.iso.slice(4)}`;
+    }
     prevMonth = d.month;
     if (cfg.excludeTeams?.some((t) => t === home.id || t === away.id)) continue;
     const ovKey = `${d.iso} ${home.id} ${away.id}`;
@@ -775,8 +818,12 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     const mapped = Object.entries(cfg.stageMap ?? {}).find(([re]) => new RegExp(re, "i").test(raw.round ?? ""))?.[1];
     // Copas de la Liga: "Round 7" es una fecha de la fase de zonas; la zona sale después de las tablas (zoneTables).
     const zoneRound = cfg.zoneTables && !raw.group && !mapped ? (raw.round ?? "").match(/^Round\s*(\d+):?$/i) : null;
+    const fromContext = cfg.contextStages && !mapped ? (raw.context ? contextStageOf(raw.context) : null) : undefined;
+    if (fromContext === null) problems.push(`L${raw.line} ${raw.home}-${raw.away}: fase desconocida (${(raw.context ?? []).map((c) => c.text).join(" › ") || "sin título"})`);
     const { stage, phase } =
-      cfg.kind === "cup" ? { stage: zoneRound ? `Fecha ${zoneRound[1]}` : (mapped ?? cupStageOf(raw)), phase: "cup" as const } : stageOf(raw);
+      cfg.kind === "cup"
+        ? { stage: zoneRound ? `Fecha ${zoneRound[1]}` : (fromContext ?? mapped ?? cupStageOf(raw)), phase: "cup" as const }
+        : stageOf(raw);
     const m: Match = {
       id: `${cfg.slug}-${String(++n).padStart(3, "0")}`,
       date: d.iso,
@@ -1194,6 +1241,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     ...(groups.length && { groups }),
     ...(cfg.tableNote && { tableNote: cfg.tableNote }),
     ...(cfg.knownTableDiffs && { knownTableDiffs: cfg.knownTableDiffs }),
+    ...(cfg.inProgress && { inProgress: true }),
     matches,
   };
 
@@ -1345,7 +1393,8 @@ function verifyCup(season: Season, cfg: TournamentConfig): { problems: string[];
   if (cfg.abandoned) {
     // Una final de ida y vuelta que quedó en la ida (Copa Argentina 1970) no define campeón.
     if (final && !/\(ida\)$/.test(final.stage ?? "")) problems.push("Copa: está marcada como suspendida pero tiene final");
-  } else if (!final && cfg.noFinal) warnings.push("Copa: sin final (explicado en las notas)");
+  } else if (!final && cfg.inProgress) warnings.push("Copa: en juego, todavía sin final");
+  else if (!final && cfg.noFinal) warnings.push("Copa: sin final (explicado en las notas)");
   else if (!final) problems.push("Copa: no encontré la final");
   else {
     const w = final.awardedTo ?? final.advancedId ?? (final.homeGoals > final.awayGoals ? final.homeId : final.awayGoals > final.homeGoals ? final.awayId : null);

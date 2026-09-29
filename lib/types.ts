@@ -76,6 +76,8 @@ export type Season = {
   // Diferencias revisadas entre la tabla calculada y la publicada que no se pueden resolver con las fuentes
   // (ej. un gol de diferencia en la suma de la tabla). Claves "equipo:campo".
   knownTableDiffs?: { keys: string[]; explanation: string };
+  // Torneo que se está jugando: todavía sin campeón (se actualiza con cada importación).
+  inProgress?: boolean;
   matches: Match[];
 };
 
