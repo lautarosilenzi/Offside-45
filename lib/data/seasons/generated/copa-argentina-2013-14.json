@@ -1,0 +1,4241 @@
+{
+ "slug": "copa-argentina-2013-14",
+ "kind": "cup",
+ "runnerUpIds": [
+  "central"
+ ],
+ "year": 2013,
+ "yearLabel": "2013/14",
+ "title": "Copa Argentina 2013/14",
+ "tournament": "Copa Argentina 2013/14",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "huracan"
+ ],
+ "summary": "Huracán, que jugaba en la B Nacional, ganó la Copa Argentina 2013/14: empató 0-0 la final con Rosario Central en San Juan y la ganó 5-4 por penales.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Argentina 2013/14",
+   "url": "https://www.rsssf.org/tablesa/arg2014.html"
+  },
+  {
+   "label": "Wikipedia – Copa Argentina 2013-14",
+   "url": "https://es.wikipedia.org/wiki/Copa_Argentina_2013-14"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Fase preliminar y fase inicial por rondas regionales (del interior, a cargo del Consejo Federal, y metropolitanas, con clubes de la B, la C y la D) y fase final a un partido en cancha neutral, con los equipos de Primera y de la B Nacional."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Cinco resultados de RSSSF se corrigieron con Wikipedia y las crónicas de la época (ver cada partido)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "copa-argentina-2013-14-001",
+   "date": "2013-10-29",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "deportivo-patagones",
+   "awayId": "villa-congreso-viedma",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Se suspendió a los 47 minutos del segundo tiempo por agresiones al árbitro, con 1-2, y quedó ese resultado. Wikipedia da 0-2."
+  },
+  {
+   "id": "copa-argentina-2013-14-002",
+   "date": "2013-10-29",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "deportivo-independiente-rio-colorado",
+   "awayId": "defensores-buena-parada",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-003",
+   "date": "2013-10-29",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "sportivo-las-parejas",
+   "awayId": "sportivo-barracas-colon",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "sportivo-las-parejas",
+   "note": "Sportivo Las Parejas ganó por penales (4-3)."
+  },
+  {
+   "id": "copa-argentina-2013-14-004",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "deportivo-25-mayo-lp",
+   "awayId": "regina",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Punto Unido",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "deportivo-25-mayo-lp",
+   "note": "Deportivo 25 de Mayo (La Pampa) ganó por penales (4-3)."
+  },
+  {
+   "id": "copa-argentina-2013-14-005",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "alianza-cutral-co",
+   "awayId": "petrolero-argentino",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-006",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "aprendices-casildenses",
+   "awayId": "coronel-aguirre",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-007",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "atletico-amalia",
+   "awayId": "lastenia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Central Norte (Salta)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "lastenia",
+   "note": "Deportivo Lastenia (Tucumán) ganó por penales (2-3)."
+  },
+  {
+   "id": "copa-argentina-2013-14-008",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "chicoana",
+   "awayId": "progreso-salta",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-009",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "laguna-blanca",
+   "awayId": "independiente-formosa",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "laguna-blanca",
+   "note": "Laguna Blanca ganó por penales (5-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-010",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "las-palmas-cordoba",
+   "awayId": "argentino-penarol",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-011",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "atletico-parana",
+   "awayId": "atletico-adelante",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-012",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "boca-rio-gallegos",
+   "awayId": "petrolero-austral",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Defensores del Carmen",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-013",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "camioneros-norte",
+   "awayId": "libertad-campo-santo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Liga Salteña de Fútbol",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-014",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "central-goya",
+   "awayId": "ex-alumnos-185",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "ex-alumnos-185",
+   "note": "Ex Alumnos Escuela 185 (Oberá) ganó por penales (3-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-015",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "empleados-comercio-mendoza",
+   "awayId": "argentino-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Leonardo Murialdo (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "argentino-mendoza",
+   "note": "Argentino (Mendoza) ganó por penales (4-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-016",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "colegiales-concordia",
+   "awayId": "achirense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Libertad (Concordia)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "colegiales-concordia",
+   "note": "Colegiales (Concordia) ganó por penales (4-3)."
+  },
+  {
+   "id": "copa-argentina-2013-14-017",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "defensores-salto",
+   "awayId": "sports-salto",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-018",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "camioneros",
+   "awayId": "jorge-newbery-junin",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Flandria",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-019",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "deportivo-curupay",
+   "awayId": "ferroviarios-corrientes",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-020",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "deportivo-roca",
+   "awayId": "circulo-italiano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-021",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "rio-dorado",
+   "awayId": "deportivo-tabacal",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Municipal de Apolinario Saravia",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "deportivo-tabacal",
+   "note": "Deportivo Tabacal (Salta) ganó por penales (3-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-022",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "tres-algarrobos",
+   "awayId": "argentinos-25-mayo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-024",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "everton-la-plata",
+   "awayId": "nautico-hacoaj",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "everton-la-plata",
+   "note": "Everton (La Plata) ganó por penales (5-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-025",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "gutierrez-sport-club",
+   "awayId": "leonardo-murialdo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-026",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "independiente-chivilcoy",
+   "awayId": "general-rojo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "independiente-chivilcoy",
+   "note": "Independiente (Chivilcoy) ganó por penales (6-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-027",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "independiente-la-rioja",
+   "awayId": "defensores-la-boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Carlos Augusto Mercado Luna de la Liga Riojana",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "defensores-la-boca",
+   "note": "Defensores de La Boca (La Rioja) ganó por penales (4-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-028",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "instituto-santiago",
+   "awayId": "sportivo-fernandez",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Mitre (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "sportivo-fernandez",
+   "note": "Sportivo Fernández ganó por penales (3-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-029",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "jorge-ross",
+   "awayId": "argentino-quilmes-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-030",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "juventud-pergamino",
+   "awayId": "belgrano-zarate",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-031",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "mitre-salta",
+   "awayId": "union-guemes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-032",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "resistencia-central",
+   "awayId": "deportivo-fontana",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-033",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "san-martin-monte-coman",
+   "awayId": "andes-general-alvear",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "andes-general-alvear",
+   "note": "Andes (General Alvear) ganó por penales (4-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-034",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "sarmiento-ayacucho",
+   "awayId": "america-general-piran",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Municipal Dr. José Antonio Barbieri",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-035",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "deportivo-montecaseros",
+   "awayId": "palmira-mendoza",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "palmira-mendoza",
+   "note": "Palmira (Mendoza) ganó por penales (13-14)."
+  },
+  {
+   "id": "copa-argentina-2013-14-036",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "tiro-gimnasia-san-pedro",
+   "awayId": "herminio-arrieta",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "herminio-arrieta",
+   "note": "Herminio Arrieta (Jujuy) ganó por penales (1-3)."
+  },
+  {
+   "id": "copa-argentina-2013-14-037",
+   "date": "2013-10-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "viale",
+   "awayId": "belgrano-parana",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "viale",
+   "note": "Viale FBC ganó por penales (4-1)."
+  },
+  {
+   "id": "copa-argentina-2013-14-038",
+   "date": "2013-11-01",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "jorge-newbery-villa-mercedes",
+   "awayId": "alianza-coronel-moldes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-039",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "independiente-villa-obrera",
+   "awayId": "atenas-pocito",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Provincial San Juan del Bicentenario",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-040",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "atletico-juventud-sj",
+   "awayId": "del-bono",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-041",
+   "date": "2013-11-12",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "kimberley-mdp",
+   "awayId": "sarmiento-ayacucho",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Municipal José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "sarmiento-ayacucho",
+   "note": "Sarmiento (Ayacucho) ganó por penales (2-3)."
+  },
+  {
+   "id": "copa-argentina-2013-14-042",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "nueve-de-julio-morteros",
+   "awayId": "tiro-federal-morteros",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-043",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "atenas-pocito",
+   "awayId": "union-villa-krause",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "union-villa-krause",
+   "note": "Unión (Villa Krause) ganó por penales (3-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-044",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "atletico-adelante",
+   "awayId": "aprendices-casildenses",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "atletico-adelante",
+   "note": "Atlético Adelante (Reconquista) ganó por penales (4-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-045",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "mitre-sde",
+   "awayId": "union-santiago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-046",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "policial-catamarca",
+   "awayId": "villa-cubas",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Bicentenario Ciudad de Catamarca",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-047",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "ben-hur",
+   "awayId": "nueve-de-julio-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-048",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "herminio-arrieta",
+   "awayId": "monterrico-san-vicente",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "herminio-arrieta",
+   "note": "Herminio Arrieta (Jujuy) ganó por penales (3-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-049",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "concepcion-fc",
+   "awayId": "atletico-concepcion",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-050",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "deportivo-roca",
+   "awayId": "deportivo-25-mayo-lp",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-052",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "deportivo-tabacal",
+   "awayId": "progreso-salta",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-053",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "tres-algarrobos",
+   "awayId": "agropecuario",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-054",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "jorge-newbery-villa-mercedes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "estudiantes-rio-cuarto",
+   "note": "Estudiantes (Río Cuarto) ganó por penales (4-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-055",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "ferro-general-pico",
+   "awayId": "deportivo-independiente-rio-colorado",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-056",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "ferro-sud-olavarria",
+   "awayId": "independiente-chivilcoy",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "ferro-sud-olavarria",
+   "note": "Ferro Carril Sud ganó 3-0 por penales. RSSSF da 3-0 como resultado del partido; fue 0-0 y penales (La Arena, Wikipedia)."
+  },
+  {
+   "id": "copa-argentina-2013-14-057",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "general-paz-juniors",
+   "awayId": "alumni-villa-maria",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "alumni-villa-maria",
+   "note": "Alumni (Villa María) ganó por penales (5-6)."
+  },
+  {
+   "id": "copa-argentina-2013-14-058",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "huracan-comodoro",
+   "awayId": "boca-rio-gallegos",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-059",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "huracan-goya",
+   "awayId": "ex-alumnos-185",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "huracan-goya",
+   "note": "Huracán (Goya) ganó por penales (4-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-060",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "huracan-san-rafael",
+   "awayId": "palmira-mendoza",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-061",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "independiente-neuquen",
+   "awayId": "alianza-cutral-co",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-062",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "jorge-newbery-vt",
+   "awayId": "bernardino-rivadavia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-063",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "atletico-juventud-sj",
+   "awayId": "deportivo-guaymallen",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "deportivo-guaymallen",
+   "note": "Guaymallén (Mendoza) ganó por penales (2-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-064",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "libertad-campo-santo",
+   "awayId": "mitre-salta",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-065",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "liniers-bahia-blanca",
+   "awayId": "tiro-federal-bahia-blanca",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-066",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "once-tigres",
+   "awayId": "camioneros",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-067",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "pacifico-general-alvear",
+   "awayId": "andes-general-alvear",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "pacifico-general-alvear",
+   "note": "Pacífico (General Alvear) ganó por penales (4-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-068",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "racing-trelew",
+   "awayId": "germinal-rawson",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-069",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "san-martin-mendoza",
+   "awayId": "gutierrez-sport-club",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-070",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "sanjustino",
+   "awayId": "san-jorge-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-071",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "sarmiento-leones",
+   "awayId": "sarmiento-la-banda",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-072",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "sarmiento-resistencia",
+   "awayId": "resistencia-central",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-073",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "lastenia",
+   "awayId": "deportivo-aguilares",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "deportivo-aguilares",
+   "note": "Deportivo Aguilares ganó por penales (4-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-074",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "sol-de-mayo-viedma",
+   "awayId": "villa-congreso-viedma",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-075",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "sportivo-las-parejas",
+   "awayId": "juventud-pergamino",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "juventud-pergamino",
+   "note": "Juventud (Pergamino) ganó por penales (5-6)."
+  },
+  {
+   "id": "copa-argentina-2013-14-076",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "sportivo-fernandez",
+   "awayId": "san-lorenzo-alem",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "san-lorenzo-alem",
+   "note": "San Lorenzo de Alem (Catamarca) ganó por penales (5-6)."
+  },
+  {
+   "id": "copa-argentina-2013-14-077",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "sportivo-patria",
+   "awayId": "laguna-blanca",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-078",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "sports-salto",
+   "awayId": "everton-la-plata",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "sports-salto",
+   "note": "Sports (Salto) ganó por penales (4-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-079",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "talleres-perico",
+   "awayId": "altos-hornos-zapla",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-080",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "union-sunchales",
+   "awayId": "argentino-quilmes-rafaela",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-081",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "union-aconquija",
+   "awayId": "defensores-la-boca",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-082",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "viale",
+   "awayId": "colegiales-concordia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "viale",
+   "note": "Viale FBC ganó por penales (4-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-083",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "villa-mitre",
+   "awayId": "bella-vista-bahia-blanca",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-084",
+   "date": "2013-11-14",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "argentino-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-085",
+   "date": "2013-11-20",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "las-palmas-cordoba",
+   "awayId": "racing-cordoba",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-086",
+   "date": "2013-11-20",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "trinidad-sj",
+   "awayId": "desamparados",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-087",
+   "date": "2013-11-20",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "general-san-martin-formosa",
+   "awayId": "sol-de-america-formosa",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Patria (Formosa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "sol-de-america-formosa",
+   "note": "Sol de América (Formosa) ganó por penales (2-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-088",
+   "date": "2013-11-20",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "textil-mandiyu",
+   "awayId": "deportivo-curupay",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-089",
+   "date": "2013-11-26",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "camioneros",
+   "awayId": "ferro-sud-olavarria",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Flandria",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-090",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "nueve-de-julio-morteros",
+   "awayId": "union-sunchales",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "union-sunchales",
+   "note": "Unión (Sunchales) ganó por penales (6-7)."
+  },
+  {
+   "id": "copa-argentina-2013-14-091",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "las-palmas-cordoba",
+   "awayId": "alumni-villa-maria",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "alumni-villa-maria",
+   "note": "Alumni (Villa María) ganó por penales (2-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-092",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "mitre-sde",
+   "awayId": "san-lorenzo-alem",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "mitre-sde",
+   "note": "Mitre (Santiago del Estero) ganó por penales (3-1)."
+  },
+  {
+   "id": "copa-argentina-2013-14-093",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "concepcion-fc",
+   "awayId": "deportivo-aguilares",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "deportivo-aguilares",
+   "note": "Deportivo Aguilares ganó por penales (3-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-094",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "deportivo-roca",
+   "awayId": "deportivo-madryn",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "deportivo-roca",
+   "note": "Deportivo Roca ganó por penales (3-1)."
+  },
+  {
+   "id": "copa-argentina-2013-14-095",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "deportivo-tabacal",
+   "awayId": "union-aconquija",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "union-aconquija",
+   "note": "Unión Aconquija ganó por penales (2-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-096",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "desamparados",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-097",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "ferro-general-pico",
+   "awayId": "tres-algarrobos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-098",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "huracan-goya",
+   "awayId": "textil-mandiyu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "textil-mandiyu",
+   "note": "Textil Mandiyú ganó por penales (2-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-099",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "huracan-san-rafael",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-100",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "independiente-neuquen",
+   "awayId": "villa-congreso-viedma",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-101",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "racing-trelew",
+   "awayId": "boca-rio-gallegos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-102",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "sarmiento-ayacucho",
+   "awayId": "sports-salto",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Municipal Dr. José Antonio Barbieri",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-103",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "sarmiento-leones",
+   "awayId": "ben-hur",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-104",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "sarmiento-resistencia",
+   "awayId": "atletico-adelante",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-105",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "sol-de-america-formosa",
+   "awayId": "laguna-blanca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Patria (Formosa)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "laguna-blanca",
+   "note": "Laguna Blanca ganó por penales (3-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-106",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "talleres-perico",
+   "awayId": "herminio-arrieta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-107",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "union-villa-krause",
+   "awayId": "deportivo-guaymallen",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-108",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "villa-cubas",
+   "awayId": "mitre-salta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Bicentenario Ciudad de Catamarca",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-109",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "villa-mitre",
+   "awayId": "liniers-bahia-blanca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "villa-mitre",
+   "note": "Villa Mitre (Bahía Blanca) ganó por penales (5-3)."
+  },
+  {
+   "id": "copa-argentina-2013-14-110",
+   "date": "2013-11-28",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "pacifico-general-alvear",
+   "awayId": "gimnasia-mendoza",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "pacifico-general-alvear",
+   "note": "Pacífico (General Alvear) ganó por penales (4-3)."
+  },
+  {
+   "id": "copa-argentina-2013-14-111",
+   "date": "2013-11-28",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "sanjustino",
+   "awayId": "viale",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-112",
+   "date": "2013-11-28",
+   "competition": "Copa Argentina",
+   "stage": "Fase preliminar · Regional 3",
+   "phase": "cup",
+   "homeId": "bernardino-rivadavia",
+   "awayId": "juventud-pergamino",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-113",
+   "date": "2013-11-05",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "san-martin-tucuman",
+   "awayId": "san-jorge-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-114",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "central-norte-salta",
+   "awayId": "juventud-antoniana",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Provincial Padre Ernesto Martearena",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-115",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "defensores-villa-ramallo",
+   "awayId": "rivadavia-lincoln",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "rivadavia-lincoln",
+   "note": "Rivadavia (Lincoln) ganó por penales (4-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-116",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "ramon-santamarina",
+   "awayId": "racing-olavarria",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Municipal General San Martín",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "ramon-santamarina",
+   "note": "Ramón Santamarina (Tandil) ganó por penales (3-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-117",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "gimnasia-cdu",
+   "awayId": "juventud-unida-gualeguaychu",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-118",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "guarani-antonio-franco",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "chaco-for-ever",
+   "note": "Chaco For Ever ganó por penales (3-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-119",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "guillermo-brown",
+   "awayId": "cai",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-120",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "juventud-unida-sl",
+   "awayId": "sportivo-estudiantes-sl",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Provincial Juan Gilberto Funes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "juventud-unida-sl",
+   "note": "Juventud Unida (San Luis) ganó por penales (5-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-121",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "libertad-sunchales",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-122",
+   "date": "2013-11-20",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "central-cordoba-sde",
+   "awayId": "gimnasia-tiro-salta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-123",
+   "date": "2013-11-20",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "deportivo-maipu",
+   "awayId": "cipolletti",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-124",
+   "date": "2013-11-20",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "union-mar-del-plata",
+   "awayId": "alvarado",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Municipal José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-125",
+   "date": "2013-12-10",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "sarmiento-ayacucho",
+   "awayId": "ferro-general-pico",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Muncipal Dr. José Antonio Barbieri",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "ferro-general-pico",
+   "note": "Ferro Carril Oeste (General Pico) ganó por penales (2-3)."
+  },
+  {
+   "id": "copa-argentina-2013-14-126",
+   "date": "2013-12-10",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "union-aconquija",
+   "awayId": "deportivo-aguilares",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "union-aconquija",
+   "note": "Unión Aconquija ganó por penales (4-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-127",
+   "date": "2013-12-10",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "villa-mitre",
+   "awayId": "villa-congreso-viedma",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-128",
+   "date": "2013-12-11",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "mitre-sde",
+   "awayId": "sarmiento-leones",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "mitre-sde",
+   "note": "Mitre (Santiago del Estero) ganó por penales (4-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-129",
+   "date": "2013-12-11",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "camioneros",
+   "awayId": "bernardino-rivadavia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Flandria",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "camioneros",
+   "note": "Camioneros ganó por penales (2-1)."
+  },
+  {
+   "id": "copa-argentina-2013-14-130",
+   "date": "2013-12-11",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "huracan-san-rafael",
+   "awayId": "pacifico-general-alvear",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "huracan-san-rafael",
+   "note": "Huracán (San Rafael) ganó por penales (5-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-131",
+   "date": "2013-12-11",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "talleres-perico",
+   "awayId": "villa-cubas",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "villa-cubas",
+   "note": "Villa Cubas (Catamarca) ganó por penales (5-6)."
+  },
+  {
+   "id": "copa-argentina-2013-14-132",
+   "date": "2013-12-11",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "textil-mandiyu",
+   "awayId": "laguna-blanca",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Cancha de Huracán Corrientes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-133",
+   "date": "2013-12-11",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "union-villa-krause",
+   "awayId": "estudiantes-rio-cuarto",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "union-villa-krause",
+   "note": "Unión (Villa Krause) ganó por penales (4-1)."
+  },
+  {
+   "id": "copa-argentina-2013-14-134",
+   "date": "2014-01-26",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "boca-rio-gallegos",
+   "awayId": "deportivo-roca",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Defensores del Carmen",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-135",
+   "date": "2014-01-26",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "union-sunchales",
+   "awayId": "alumni-villa-maria",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-136",
+   "date": "2014-01-28",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 1",
+   "phase": "cup",
+   "homeId": "sarmiento-resistencia",
+   "awayId": "sanjustino",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-137",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 2",
+   "phase": "cup",
+   "homeId": "chaco-for-ever",
+   "awayId": "san-jorge-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-138",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 2",
+   "phase": "cup",
+   "homeId": "gimnasia-cdu",
+   "awayId": "libertad-sunchales",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-139",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 2",
+   "phase": "cup",
+   "homeId": "juventud-unida-sl",
+   "awayId": "rivadavia-lincoln",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-140",
+   "date": "2013-12-04",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 2",
+   "phase": "cup",
+   "homeId": "juventud-antoniana",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Provincial Padre Ernesto Martearena",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-141",
+   "date": "2013-12-04",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 2",
+   "phase": "cup",
+   "homeId": "union-mar-del-plata",
+   "awayId": "ramon-santamarina",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Municipal José María Minella",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-142",
+   "date": "2014-01-29",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 2",
+   "phase": "cup",
+   "homeId": "camioneros",
+   "awayId": "ferro-general-pico",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "venue": "Cancha de Flandria",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-143",
+   "date": "2014-01-30",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 2",
+   "phase": "cup",
+   "homeId": "villa-cubas",
+   "awayId": "union-aconquija",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Bicentenario Ciudad de Catamarca",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-144",
+   "date": "2014-02-02",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 2",
+   "phase": "cup",
+   "homeId": "cipolletti",
+   "awayId": "cai",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-145",
+   "date": "2014-02-05",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 2",
+   "phase": "cup",
+   "homeId": "mitre-sde",
+   "awayId": "union-sunchales",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-146",
+   "date": "2014-02-05",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 2",
+   "phase": "cup",
+   "homeId": "huracan-san-rafael",
+   "awayId": "union-villa-krause",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-147",
+   "date": "2014-02-05",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 2",
+   "phase": "cup",
+   "homeId": "sanjustino",
+   "awayId": "laguna-blanca",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-148",
+   "date": "2014-02-05",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 2",
+   "phase": "cup",
+   "homeId": "villa-mitre",
+   "awayId": "boca-rio-gallegos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-149",
+   "date": "2014-02-12",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 3",
+   "phase": "cup",
+   "homeId": "central-cordoba-sde",
+   "awayId": "villa-cubas",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "villa-cubas",
+   "note": "Villa Cubas (Catamarca) ganó por penales (2-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-150",
+   "date": "2014-02-12",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 3",
+   "phase": "cup",
+   "homeId": "chaco-for-ever",
+   "awayId": "sanjustino",
+   "homeGoals": 7,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-151",
+   "date": "2014-02-12",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 3",
+   "phase": "cup",
+   "homeId": "ramon-santamarina",
+   "awayId": "camioneros",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Municipal General San Martín",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "ramon-santamarina",
+   "note": "Ramón Santamarina (Tandil) ganó por penales (5-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-152",
+   "date": "2014-02-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 3",
+   "phase": "cup",
+   "homeId": "gimnasia-cdu",
+   "awayId": "union-sunchales",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "gimnasia-cdu",
+   "note": "Gimnasia y Esgrima (C. del Uruguay) ganó por penales (4-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-153",
+   "date": "2014-02-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 3",
+   "phase": "cup",
+   "homeId": "juventud-unida-sl",
+   "awayId": "huracan-san-rafael",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-154",
+   "date": "2014-02-19",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Regional 3",
+   "phase": "cup",
+   "homeId": "cipolletti",
+   "awayId": "boca-rio-gallegos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "cipolletti",
+   "note": "Cipolletti ganó por penales (5-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-155",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 1",
+   "phase": "cup",
+   "homeId": "atlas",
+   "awayId": "ituzaingo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "atlas",
+   "note": "Atlas ganó por penales (7-6)."
+  },
+  {
+   "id": "copa-argentina-2013-14-156",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 1",
+   "phase": "cup",
+   "homeId": "canuelas",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-157",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 1",
+   "phase": "cup",
+   "homeId": "justo-jose-urquiza",
+   "awayId": "central-ballester",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-158",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 1",
+   "phase": "cup",
+   "homeId": "lugano",
+   "awayId": "excursionistas",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-159",
+   "date": "2013-11-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 1",
+   "phase": "cup",
+   "homeId": "lujan",
+   "awayId": "liniers-san-justo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": " Municipal de Luján",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "lujan",
+   "note": "Luján ganó por penales (3-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-160",
+   "date": "2013-11-07",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 1",
+   "phase": "cup",
+   "homeId": "el-porvenir",
+   "awayId": "juventud-unida-san-miguel",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-161",
+   "date": "2013-11-07",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 1",
+   "phase": "cup",
+   "homeId": "general-lamadrid",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "sportivo-dock-sud",
+   "note": "Dock Sud ganó por penales (4-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-162",
+   "date": "2013-11-07",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 1",
+   "phase": "cup",
+   "homeId": "victoriano-arenas",
+   "awayId": "deportivo-paraguayo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "deportivo-paraguayo",
+   "note": "Deportivo Paraguayo ganó por penales (7-8)."
+  },
+  {
+   "id": "copa-argentina-2013-14-163",
+   "date": "2013-11-12",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 1",
+   "phase": "cup",
+   "homeId": "argentino-quilmes",
+   "awayId": "claypole",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "argentino-quilmes",
+   "note": "Argentino de Quilmes ganó por penales (3-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-164",
+   "date": "2013-11-12",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 1",
+   "phase": "cup",
+   "homeId": "leandro-n-alem",
+   "awayId": "deportivo-riestra",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-165",
+   "date": "2013-11-12",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 1",
+   "phase": "cup",
+   "homeId": "san-miguel",
+   "awayId": "san-martin-burzaco",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Unión de Muñiz",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "san-miguel",
+   "note": "San Miguel ganó por penales (4-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-166",
+   "date": "2013-11-12",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 1",
+   "phase": "cup",
+   "homeId": "sportivo-barracas",
+   "awayId": "deportivo-muniz",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Deportivo Italiano",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "deportivo-muniz",
+   "note": "Deportivo Muñiz ganó por penales (3-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-167",
+   "date": "2013-11-13",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 1",
+   "phase": "cup",
+   "homeId": "argentino-rosario",
+   "awayId": "yupanqui",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Pons (2), Cabral, Schiavo / Fuentes (2). RSSSF da 4-0; ESPN y Wikipedia dan 4-2."
+  },
+  {
+   "id": "copa-argentina-2013-14-168",
+   "date": "2013-11-14",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 1",
+   "phase": "cup",
+   "homeId": "defensores-cambaceres",
+   "awayId": "centro-espanol",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-169",
+   "date": "2013-11-20",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "acassuso",
+   "awayId": "tristan-suarez",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-170",
+   "date": "2013-11-20",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "chacarita",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-171",
+   "date": "2013-11-20",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "defensores-belgrano",
+   "awayId": "flandria",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-172",
+   "date": "2013-11-20",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "deportivo-armenio",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "deportivo-armenio",
+   "note": "Deportivo Armenio ganó por penales (4-3)."
+  },
+  {
+   "id": "copa-argentina-2013-14-173",
+   "date": "2013-11-20",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "deportivo-merlo",
+   "awayId": "los-andes",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-174",
+   "date": "2013-11-20",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "fenix",
+   "awayId": "colegiales",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "fenix",
+   "note": "Fénix ganó por penales (4-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-175",
+   "date": "2013-11-20",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "temperley",
+   "awayId": "villa-dalmine",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-176",
+   "date": "2013-11-26",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "deportivo-espanol",
+   "awayId": "berazategui",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-177",
+   "date": "2013-11-26",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "deportivo-italiano",
+   "awayId": "el-porvenir",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-178",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "barracas-central",
+   "awayId": "uai-urquiza",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "uai-urquiza",
+   "note": "UAI Urquiza ganó por penales (1-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-179",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "central-ballester",
+   "awayId": "deportivo-muniz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Juventud Unida (San Miguel)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "central-ballester",
+   "note": "Central Ballester ganó por penales (5-3)."
+  },
+  {
+   "id": "copa-argentina-2013-14-180",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "laferrere",
+   "awayId": "sportivo-dock-sud",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-181",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "deportivo-moron",
+   "awayId": "comunicaciones",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "deportivo-moron",
+   "note": "Deportivo Morón ganó por penales (5-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-182",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "lujan",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Municipal de Luján",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-183",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "sacachispas",
+   "awayId": "argentino-rosario",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "venue": "Cancha de Sacachispas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-184",
+   "date": "2013-11-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "san-telmo",
+   "awayId": "deportivo-paraguayo",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-185",
+   "date": "2013-12-04",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "atlas",
+   "awayId": "defensores-unidos-zarate",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-186",
+   "date": "2013-12-04",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "defensores-cambaceres",
+   "awayId": "argentino-merlo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "defensores-cambaceres",
+   "note": "Defensores de Cambaceres ganó por penales (5-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-187",
+   "date": "2013-12-04",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "deportivo-riestra",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "argentino-quilmes",
+   "note": "Argentino de Quilmes ganó por penales (2-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-188",
+   "date": "2013-12-04",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "excursionistas",
+   "awayId": "talleres-re",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-189",
+   "date": "2013-12-04",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 2",
+   "phase": "cup",
+   "homeId": "san-miguel",
+   "awayId": "midland",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Unión de Muñiz",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-190",
+   "date": "2013-12-04",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 3",
+   "phase": "cup",
+   "homeId": "deportivo-armenio",
+   "awayId": "deportivo-moron",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-191",
+   "date": "2013-12-04",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 3",
+   "phase": "cup",
+   "homeId": "uai-urquiza",
+   "awayId": "defensores-belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "uai-urquiza",
+   "note": "UAI Urquiza ganó por penales (4-3)."
+  },
+  {
+   "id": "copa-argentina-2013-14-192",
+   "date": "2013-12-04",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 3",
+   "phase": "cup",
+   "homeId": "estudiantes-ba",
+   "awayId": "platense",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-193",
+   "date": "2013-12-11",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 3",
+   "phase": "cup",
+   "homeId": "defensores-cambaceres",
+   "awayId": "central-ballester",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-194",
+   "date": "2014-02-03",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 3",
+   "phase": "cup",
+   "homeId": "defensores-unidos-zarate",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "deportivo-espanol",
+   "note": "Deportivo Español ganó por penales (3-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-195",
+   "date": "2014-02-03",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 3",
+   "phase": "cup",
+   "homeId": "fenix",
+   "awayId": "acassuso",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-196",
+   "date": "2014-02-03",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 3",
+   "phase": "cup",
+   "homeId": "lujan",
+   "awayId": "laferrere",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Municipal de Luján",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-197",
+   "date": "2014-02-03",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 3",
+   "phase": "cup",
+   "homeId": "sacachispas",
+   "awayId": "argentino-quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Sacachispas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-198",
+   "date": "2014-02-03",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 3",
+   "phase": "cup",
+   "homeId": "san-miguel",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Unión de Muñiz",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "deportivo-italiano",
+   "note": "Deportivo Italiano ganó por penales (4-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-199",
+   "date": "2014-02-03",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 3",
+   "phase": "cup",
+   "homeId": "temperley",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-200",
+   "date": "2014-02-04",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 3",
+   "phase": "cup",
+   "homeId": "talleres-re",
+   "awayId": "san-telmo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-201",
+   "date": "2014-02-19",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 3",
+   "phase": "cup",
+   "homeId": "los-andes",
+   "awayId": "atlanta",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Deportivo Morón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-202",
+   "date": "2014-02-25",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 4",
+   "phase": "cup",
+   "homeId": "estudiantes-ba",
+   "awayId": "uai-urquiza",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Deportivo Armenio",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-203",
+   "date": "2014-02-27",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 4",
+   "phase": "cup",
+   "homeId": "chacarita",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-204",
+   "date": "2014-03-04",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 4",
+   "phase": "cup",
+   "homeId": "los-andes",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "deportivo-italiano",
+   "note": "Deportivo Italiano ganó por penales (2-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-205",
+   "date": "2014-03-05",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 4",
+   "phase": "cup",
+   "homeId": "acassuso",
+   "awayId": "deportivo-espanol",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Platense",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-206",
+   "date": "2014-03-06",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 4",
+   "phase": "cup",
+   "homeId": "defensores-cambaceres",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "defensores-cambaceres",
+   "note": "Defensores de Cambaceres ganó por penales (4-1)."
+  },
+  {
+   "id": "copa-argentina-2013-14-207",
+   "date": "2014-03-07",
+   "competition": "Copa Argentina",
+   "stage": "Fase inicial · Metropolitana 4",
+   "phase": "cup",
+   "homeId": "sacachispas",
+   "awayId": "lujan",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Sacachispas",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-208",
+   "date": "2014-03-12",
+   "competition": "Copa Argentina",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "talleres",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-209",
+   "date": "2014-03-20",
+   "competition": "Copa Argentina",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "ramon-santamarina",
+   "awayId": "sacachispas",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Municipal General San Martín",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "ramon-santamarina",
+   "note": "Ramón Santamarina (Tandil) ganó por penales (3-1)."
+  },
+  {
+   "id": "copa-argentina-2013-14-210",
+   "date": "2014-03-20",
+   "competition": "Copa Argentina",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "juventud-unida-sl",
+   "awayId": "defensores-cambaceres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Provincial Juan Gilberto Funes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "juventud-unida-sl",
+   "note": "Juventud Unida (San Luis) ganó por penales (4-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-211",
+   "date": "2014-03-26",
+   "competition": "Copa Argentina",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "aldosivi",
+   "awayId": "acassuso",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Tristán Suárez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-212",
+   "date": "2014-03-27",
+   "competition": "Copa Argentina",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "ferro",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Tristán Suárez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-213",
+   "date": "2014-03-27",
+   "competition": "Copa Argentina",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "sportivo-belgrano-sf",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Instituto (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-214",
+   "date": "2014-04-02",
+   "competition": "Copa Argentina",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "crucero-del-norte",
+   "awayId": "gimnasia-cdu",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Arsenal de Sarandí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Víctor Aquino (2). RSSSF da 2-1; la crónica del partido y Wikipedia dan 2-0."
+  },
+  {
+   "id": "copa-argentina-2013-14-215",
+   "date": "2014-04-02",
+   "competition": "Copa Argentina",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "instituto",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-216",
+   "date": "2014-04-02",
+   "competition": "Copa Argentina",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "villa-cubas",
+   "awayId": "brown-adrogue",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Bicentenario Ciudad de Catamarca",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-217",
+   "date": "2014-04-02",
+   "competition": "Copa Argentina",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "homeId": "villa-san-carlos",
+   "awayId": "cipolletti",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Tristán Suárez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "cipolletti",
+   "note": "Cipolletti ganó por penales (2-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-218",
+   "date": "2014-04-09",
+   "competition": "Copa Argentina",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "atletico-tucuman",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Padre Ernesto Martearena",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-219",
+   "date": "2014-04-09",
+   "competition": "Copa Argentina",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "independiente",
+   "awayId": "ramon-santamarina",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Juan Gilberto Funes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-220",
+   "date": "2014-04-16",
+   "competition": "Copa Argentina",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "defensa-y-justicia",
+   "awayId": "brown-adrogue",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Deportivo Morón",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "defensa-y-justicia",
+   "note": "Defensa y Justicia ganó por penales (4-1)."
+  },
+  {
+   "id": "copa-argentina-2013-14-221",
+   "date": "2014-04-16",
+   "competition": "Copa Argentina",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "talleres",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-222",
+   "date": "2014-04-23",
+   "competition": "Copa Argentina",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Provincial Padre Ernesto Martearena",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "estudiantes-ba",
+   "note": "Estudiantes (BA) ganó por penales (2-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-223",
+   "date": "2014-04-23",
+   "competition": "Copa Argentina",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "independiente-rivadavia",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "San Juan del Bicentenario",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-224",
+   "date": "2014-04-30",
+   "competition": "Copa Argentina",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "juventud-unida-sl",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Provincial Juan Gilberto Funes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "juventud-unida-sl",
+   "note": "Juventud Unida (San Luis) ganó por penales (4-1)."
+  },
+  {
+   "id": "copa-argentina-2013-14-225",
+   "date": "2014-04-30",
+   "competition": "Copa Argentina",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "patronato-parana",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Mario Alberto Kempes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "instituto",
+   "note": "Instituto (Córdoba) ganó por penales (4-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-226",
+   "date": "2014-04-30",
+   "competition": "Copa Argentina",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "san-martin-sj",
+   "awayId": "cipolletti",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "San Juan del Bicentenario",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-227",
+   "date": "2014-05-07",
+   "competition": "Copa Argentina",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "aldosivi",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "venue": "Provincial Juan Gilberto Funes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-228",
+   "date": "2014-05-07",
+   "competition": "Copa Argentina",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "boca-unidos",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Deportivo Italiano",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "douglas-haig",
+   "note": "Douglas Haig ganó por penales (0-3)."
+  },
+  {
+   "id": "copa-argentina-2013-14-229",
+   "date": "2014-05-07",
+   "competition": "Copa Argentina",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "crucero-del-norte",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Arsenal de Sarandí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "huracan",
+   "note": "Huracán ganó por penales (5-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-230",
+   "date": "2014-07-17",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Provincial Juan Gilberto Funes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-231",
+   "date": "2014-07-19",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "douglas-haig",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Banfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-232",
+   "date": "2014-07-22",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "olimpo",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Sarmiento (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "atletico-rafaela",
+   "note": "Atlético de Rafaela ganó por penales (2-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-233",
+   "date": "2014-07-23",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "arsenal",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Provincial Juan Gilberto Funes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-234",
+   "date": "2014-07-23",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "godoy-cruz",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "venue": "San Juan del Bicentenario",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "defensa-y-justicia",
+   "note": "Defensa y Justicia ganó por penales (2-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-235",
+   "date": "2014-07-24",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "velez",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-236",
+   "date": "2014-07-25",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "gimnasia",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Lanús",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "argentinos",
+   "note": "Argentinos Juniors ganó por penales (2-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-237",
+   "date": "2014-07-25",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "newells",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Atlético de Rafaela",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-238",
+   "date": "2014-07-26",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "boca",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "San Juan del Bicentenario",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-239",
+   "date": "2014-07-26",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "juventud-unida-sl",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Instituto (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-240",
+   "date": "2014-07-27",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "lanus",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Arsenal de Sarandí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-241",
+   "date": "2014-07-27",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "san-martin-sj",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Provincial Juan Gilberto Funes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-242",
+   "date": "2014-07-27",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Provincial Padre Ernesto Martearena",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "river",
+   "note": "River Plate ganó por penales (6-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-243",
+   "date": "2014-07-28",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "belgrano",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Banfield",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-244",
+   "date": "2014-07-28",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "tigre",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "tigre",
+   "note": "Tigre ganó por penales (5-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-245",
+   "date": "2014-08-12",
+   "competition": "Copa Argentina",
+   "stage": "Dieciseisavos de final",
+   "phase": "cup",
+   "homeId": "quilmes",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-246",
+   "date": "2014-08-19",
+   "competition": "Copa Argentina",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "instituto",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Arsenal de Sarandí",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-247",
+   "date": "2014-08-20",
+   "competition": "Copa Argentina",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Provincial Juan Gilberto Funes",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "river",
+   "note": "River Plate ganó por penales (4-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-248",
+   "date": "2014-09-09",
+   "competition": "Copa Argentina",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "atletico-rafaela",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Sportivo Belgrano (San Francisco)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-249",
+   "date": "2014-09-17",
+   "competition": "Copa Argentina",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "sanlorenzo",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Racing Club",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Cauteruccio / Rius, Prósperi (en contra). RSSSF da 1-0 para San Lorenzo, pero Defensa y Justicia ganó 2-1 y pasó (La Nueva, ESPN, Wikipedia)."
+  },
+  {
+   "id": "copa-argentina-2013-14-250",
+   "date": "2014-09-18",
+   "competition": "Copa Argentina",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "racing",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-251",
+   "date": "2014-09-24",
+   "competition": "Copa Argentina",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Instituto (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-252",
+   "date": "2014-09-25",
+   "competition": "Copa Argentina",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "huracan",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "huracan",
+   "note": "Huracán ganó por penales (3-2)."
+  },
+  {
+   "id": "copa-argentina-2013-14-253",
+   "date": "2014-10-01",
+   "competition": "Copa Argentina",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "San Juan del Bicentenario",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-254",
+   "date": "2014-10-08",
+   "competition": "Copa Argentina",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "estudiantes",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Liga Formoseña de Fútbol",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "huracan",
+   "note": "Huracán ganó por penales (2-3)."
+  },
+  {
+   "id": "copa-argentina-2013-14-255",
+   "date": "2014-10-09",
+   "competition": "Copa Argentina",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "river",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "San Juan del Bicentenario",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "central",
+   "note": "Rosario Central ganó por penales (4-5)."
+  },
+  {
+   "id": "copa-argentina-2013-14-256",
+   "date": "2014-10-16",
+   "competition": "Copa Argentina",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "argentinos",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "argentinos",
+   "note": "Argentinos Juniors ganó por penales (5-4)."
+  },
+  {
+   "id": "copa-argentina-2013-14-257",
+   "date": "2014-10-22",
+   "competition": "Copa Argentina",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "homeId": "defensa-y-justicia",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Sarmiento (Junín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-258",
+   "date": "2014-11-19",
+   "competition": "Copa Argentina",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "atletico-rafaela",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Liga Formoseña de Fútbol",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-259",
+   "date": "2014-11-19",
+   "competition": "Copa Argentina",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "argentinos",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "venue": "San Juan del Bicentenario",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "copa-argentina-2013-14-260",
+   "date": "2014-11-26",
+   "competition": "Copa Argentina",
+   "stage": "Final",
+   "phase": "cup",
+   "homeId": "central",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "San Juan del Bicentenario",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "huracan",
+   "note": "Huracán ganó por penales (4-5)."
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Argentina",
+   "id": "copa-argentina-2013-14-wo1",
+   "date": "2013-10-30",
+   "stage": "Fase preliminar · Regional 1",
+   "phase": "cup",
+   "homeId": "estudiantes-unidos",
+   "awayId": "belgrano-esquel",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "walkover": true,
+   "awardedTo": "belgrano-esquel",
+   "note": "No se jugó: Estudiantes Unidos no se presentó y pasó Belgrano (Esquel)."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Argentina",
+   "id": "copa-argentina-2013-14-wo2",
+   "date": "2013-11-13",
+   "stage": "Fase preliminar · Regional 2",
+   "phase": "cup",
+   "homeId": "deportivo-madryn",
+   "awayId": "belgrano-esquel",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "walkover": true,
+   "awardedTo": "deportivo-madryn",
+   "note": "No se jugó: Belgrano (Esquel) no se presentó y pasó Deportivo Madryn."
+  }
+ ]
+}

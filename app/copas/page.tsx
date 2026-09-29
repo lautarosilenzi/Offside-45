@@ -92,8 +92,8 @@ export default function CupsPage() {
         <p className="text-sm text-navy-400">
           Están todas las copas nacionales de Primera que reconoce la AFA hasta el año 2000 (entre 1971 y 2000 solo se jugó la Copa Centenario de 1993),
           y desde 2012 las Supercopas, la Copa Campeonato, la del Bicentenario, los Trofeos de Campeones, la Copa de la Superliga (2019–2020)
-          y la Copa de la Liga Profesional (2020–2024), y la Copa Argentina desde 2015/16 (la de 2026 está en juego). Faltan todavía las
-          Copas Argentina 2011/12 a 2014/15, con sus fases preliminares de cientos de clubes del interior, que se están cargando.
+          y la Copa de la Liga Profesional (2020–2024), y todas las ediciones de la Copa Argentina desde su vuelta en 2011/12, con
+          sus fases preliminares y cientos de clubes del Ascenso y del interior (la de 2026 está en juego).
         </p>
       </main>
     </>

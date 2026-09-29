@@ -35,6 +35,9 @@ export type RawMatch = {
   // Copa Argentina (2011/12–), con `contextPath`: los títulos que encabezan el partido, del más general al más
   // particular ("Regional Preliminary Phases" › "Group A" › "First elimination phase" › "Second leg").
   context?: { kind: "region" | "group" | "round" | "leg"; text: string }[];
+  // Copa Argentina 2014/15: la ciudad de cada equipo, en el renglón de abajo (" (Fernández, G)   (Santiago del Estero, G)").
+  homeCity?: string;
+  awayCity?: string;
   home: string;
   away: string;
   score: string; // "3:1", "wp:lp", "ann", "d:d", ...
@@ -195,30 +198,48 @@ export function parseSeason(
       ctx = [];
       return;
     }
+    // Copa Argentina 2014/15: " (Río Cuarto, X)            (Río Cuarto, X)" debajo del partido: las ciudades.
+    const cities = opts.contextPath && lastMatchLine === i - 1 ? line.match(/^\s+\(([^()]+)\)\s{2,}\(([^()]+)\)/) : null;
+    if (cities) {
+      const last = cur.matches[cur.matches.length - 1];
+      if (last) {
+        last.homeCity = cities[1].trim();
+        last.awayCity = cities[2].trim();
+      }
+      return;
+    }
     // Copa Argentina: cada título corto de fase se acumula en `ctx`. Uno nuevo reemplaza al último del mismo tipo
     // (y a lo que venía después); "Regional Preliminary Phases" o "Final phase" empiezan de cero.
     if (opts.contextPath) {
       // "3.1. Round of 64" (2016/17): se saca la numeración.
       const h = trimmed
         .replace(/\s*:\s*$/, "")
+        // "Group A – 1st step" (2014/15): el guion largo llega como \u0096.
+        .replace(/[\u0096–—]/g, "-")
         .replace(/^\d+(?:\.\d+)*\.\s+(?=[A-Za-z])/, "")
         // 2012/13: "1st round - Inland zone. (Round ruled by the Consejo Federal [Federal Council])".
-        .replace(/\.?\s*\(Round ruled by[^)]*\)$/i, "")
+        .replace(/\.?\s*\((?:Round )?ruled by[^)]*\)\.?$/i, "")
+        // 2014/15: "Group B - 2nd step.", "Semi-finals." (un punto final en un título corto).
+        .replace(/^(.{3,32})\.$/, "$1")
         .replace(/\s+/g, " ")
         .trim();
       if (
         h.length < 50 &&
         !/[.;]$/.test(h) &&
-        !/\d\s*-\s*\d|^\d+\.|^\[/.test(h) &&
+        !/\bruled by\b/i.test(h) &&
+        // Un resultado ("2-1") no es un título, salvo "Group 1 - 1st step" (2014/15).
+        (!/\d\s*-\s*\d|^\d+\.|^\[/.test(h) || /^group \d+ - \d(st|nd|rd|th) step$/i.test(h)) &&
         (/\b(legs?|phases?|stages?|round|rounds|finals?|group [a-z0-9]|semi-?finals?|quarter\s*-?\s*finals?|preliminar[a-z]*)\b/i.test(h) ||
           /^zona (metropolitana|interior|[a-z]+)$/i.test(h) ||
+          /^(regional|metropolitana) [ivx]+$/i.test(h) ||
+          /^(?:group|grupo) [a-z0-9]+\s*-?\s*\d(st|nd|rd|th) step$|^final groups [a-z0-9] & [a-z0-9]$/i.test(h) ||
           /^\d+°\s*final$/i.test(h))
       ) {
         const kind = /^(first|second|1st|2nd)\s+leg$/i.test(h)
           ? "leg"
-          : /^group\s+[a-z0-9]+$|^zona\s+\S+$/i.test(h)
+          : /^group\s+[a-z0-9]+$|^zona\s+\S+$|\bstep$|^final groups/i.test(h)
             ? "group"
-            : /phases$|^(final|initial) phase$|^regional\b/i.test(h)
+            : /phases$|^(final|initial) phase$|^regional preliminary/i.test(h)
               ? "region"
               : "round";
         if (kind === "region") ctx = [];
@@ -226,10 +247,12 @@ export function parseSeason(
           const last = ctx.map((c) => c.kind).lastIndexOf(kind);
           if (last >= 0) ctx = ctx.slice(0, last);
         }
-        ctx.push({ kind, text: h });
+        // "Final [Nov 26]" (2013/14): la fecha viene en el título.
+        const hDate = h.match(/\s*\[([A-Z][a-z]{2}\s+\d{1,2}(?:,\s*\d{4})?)\]$/);
+        ctx.push({ kind, text: hDate ? h.replace(hDate[0], "") : h });
         round = h;
         group = undefined;
-        date = "";
+        date = hDate ? hDate[1] : "";
         table = null;
         cur.text.push(trimmed);
         return;
@@ -509,7 +532,8 @@ export function parseSeason(
         prev.note = `${prev.note} ${note.trim()}`;
         note = "";
       }
-      if (away && !/^\d/.test(away)) {
+      // Un visitante que empieza con número es una fila de tabla, salvo los clubes "9 de Julio", "25 de Mayo".
+      if (away && (!/^\d/.test(away) || /^\d{1,2} de [A-ZÁÉÍÓÚ]/.test(away))) {
         // Fecha propia del partido en la nota: "at Rosario  (27 May)".
         const own = note.match(/\((\d{1,2})\s+([A-Z][a-z]{2})(?:\s+(\d{4}))?\)/);
         lastMatchLine = i;

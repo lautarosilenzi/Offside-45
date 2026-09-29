@@ -192,7 +192,10 @@ export function translateNote(
       const club = resolveName(m[1].replace(/\s*\(.*\)$/, ""), year);
       // "at Rosario", "at Campana" (y "at Palermo" antes de que existiera el club): la ciudad o el barrio.
       if (club) out.venue = `Cancha de ${club.as ?? club.name}`;
-      else if (/^Estadio /.test(m[1]) || year >= 2014) out.venue = m[1]; // desde 2014 "at …" es el nombre del estadio
+      // Desde 2014 "at …" es el nombre del estadio; antes también si lo parece ("at San Juan del Bicentenario",
+      // "at Municipal José María Minella", "at Liga Formoseña de Fútbol", Copa Argentina 2011/12–2013/14).
+      else if (/^Estadio /.test(m[1]) || year >= 2014 || /\b(Bicentenario|Municipal|Provincial|Monumental|Polideportivo|Coliseo|Complejo|Liga)\b/.test(m[1]))
+        out.venue = m[1];
       else out.venue = /^(Rosario|Campana|Palermo|Mar del Plata|Córdoba|Mendoza|Salta|Tucumán|Santa Fe|Jujuy|Resistencia|Bahía Blanca|Posadas|Neuquén|San Juan|La Plata|Santiago del Estero|Paraná|Corrientes)$/.test(m[1]) ? m[1] : `Cancha de ${m[1]}`;
     } else if (/^aet$/i.test(p)) out.text.push("Con alargue.");
     else if (/^asdet$/i.test(p)) out.text.push("Con alargue y gol de oro.");
@@ -494,6 +497,10 @@ function contextStageOf(ctx: NonNullable<RawMatch["context"]>): string | null {
     const t = text.replace(/[–—]/g, "-").trim();
     let m: RegExpMatchArray | null;
     if (kind === "leg") leg = /^(first|1st)/i.test(t) ? " (ida)" : " (vuelta)";
+    else if (kind === "group" && (m = t.match(/^(?:group|grupo) ([a-z0-9]+)\s*-?\s*(\d)(?:st|nd|rd|th) step$/i)))
+      parts.push(`Grupo ${m[1].toUpperCase()} · Etapa ${m[2]}`);
+    else if (kind === "group" && (m = t.match(/^final groups ([a-z0-9]) & ([a-z0-9])$/i)))
+      parts.push(`Grupos finales ${m[1].toUpperCase()} y ${m[2].toUpperCase()}`);
     else if (kind === "group" && /^zona\s/i.test(t)) parts.push(`Zona ${t.replace(/^zona\s+/i, "").replace(/^./, (c) => c.toUpperCase())}`);
     else if (kind === "group") parts.push(`Grupo ${t.replace(/^group\s+/i, "").toUpperCase()}`);
     else if (/^64°\s*final$/i.test(t)) parts.push("Sesentaicuatroavos de final");
@@ -503,6 +510,11 @@ function contextStageOf(ctx: NonNullable<RawMatch["context"]>): string | null {
     else if (/^4°\s*final$/i.test(t)) parts.push("Cuartos de final");
     else if (/^preliminary stage$/i.test(t)) parts.push("Ronda preliminar");
     else if (/^initial phase$/i.test(t)) parts.push("Fase inicial");
+    else if (/^preliminar(y)? phase$/i.test(t)) parts.push("Fase preliminar");
+    else if ((m = t.match(/^(I|II|III|IV) round$/i)))
+      parts.push(`${["Primera", "Segunda", "Tercera", "Cuarta"][["I", "II", "III", "IV"].indexOf(m[1])]} ronda`);
+    else if ((m = t.match(/^(regional|metropolitana) ([ivx]+)$/i)))
+      parts.push(`${/^regional/i.test(m[1]) ? "Regional" : "Metropolitana"} ${["i", "ii", "iii", "iv", "v"].indexOf(m[2].toLowerCase()) + 1}`);
     else if (/^1\/24 final/i.test(t)) parts.push("Veinticuatroavos de final");
     else if ((m = t.match(/^(1st|2nd|3rd|4th|5th) round(?: - (inland|metropolitan) zone)?$/i)))
       parts.push(`${{ "1st": "Primera", "2nd": "Segunda", "3rd": "Tercera", "4th": "Cuarta", "5th": "Quinta" }[m[1].toLowerCase()]} ronda${m[2] ? ` · Zona ${/inland/i.test(m[2]) ? "Interior" : "Metropolitana"}` : ""}`);
@@ -711,11 +723,14 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
         const round = cfg.kind === "cup" && !group ? s.heading.replace(/^\.\s*/, "").replace(/:\s*\d{1,2}\s+[A-Z][a-z]{2}.*$/, "") : undefined;
         const hd = s.heading.match(/:\s*(\d{1,2})\s+([A-Z][a-z]{2})[a-z]*\.?(?:\s+(\d{4}))?\.?$/);
         const headDate = hd ? `${hd[2]} ${hd[1]}${hd[3] ? `, ${hd[3]}` : ""}` : "";
+        // Copa Argentina 2013/14: la fase es la sección ("Preliminar phase", "Initial phase") y encabeza la jerarquía.
+        const sectionPhase = cfg.contextStages && /^(preliminar(y)?|initial|final) phase$/i.test(s.heading) ? s.heading : undefined;
         return s.matches.map((m) => ({
           ...m,
           round: m.round ?? round,
           date: m.date || headDate,
           ...(group && (!m.group || cfg.sectionPhases) && { group }),
+          ...(sectionPhase && { context: [{ kind: "region" as const, text: sectionPhase }, ...(m.context ?? [])] }),
         }));
       }),
     };
@@ -761,8 +776,14 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       if (/^\d+\s*[:\-]\s*\d+$/.test(raw.score) && !prose(raw.home.replace(/\.$/, ""))) warnings.push(`L${raw.line} ${raw.home}-${raw.away}: fila descartada como texto (¿nombre sin alias?)`);
       continue;
     }
-    const home = resolveName(raw.home, cfg.year);
-    let away = resolveName(raw.away, cfg.year);
+    // Copa Argentina 2014/15: nombres genéricos ("Club Atlético Talleres") que se resuelven por la ciudad de la página.
+    const byCity = (name: string, city?: string): { id: string; name: string; as?: string } | null => {
+      const team = city && cfg.cityAliases?.[`${name}|${city}`] ? getTeam(cfg.cityAliases[`${name}|${city}`]) : undefined;
+      if (city && cfg.cityAliases?.[`${name}|${city}`] && !team) throw new Error(`cityAliases apunta a un club que no existe: ${cfg.cityAliases[`${name}|${city}`]}`);
+      return team ? { id: team.id, name: team.name } : null;
+    };
+    const home = byCity(raw.home, raw.homeCity) ?? resolveName(raw.home, cfg.year);
+    let away = byCity(raw.away, raw.awayCity) ?? resolveName(raw.away, cfg.year);
     // "Ferrocarriles del Estado Colegiales": la cancha va a un solo espacio del visitante. Se prueba el nombre más
     // largo que sea un club y el resto pasa a la nota.
     if (!away) {
@@ -1444,7 +1465,10 @@ function verifyCup(season: Season, cfg: TournamentConfig): { problems: string[];
   if ((!season.groups?.length && !season.publishedTable.length) || cfg.checkEliminations) {
     // En el orden de la fuente (cronológico, y el único disponible cuando falta la fecha).
     const eliminated = new Map<string, string>();
-    for (const m of [...counted].sort((a, b) => a.id.localeCompare(b.id))) {
+    // Con fecha completa en los dos, manda la fecha (los partidos agregados en la configuración van al final de los ids).
+    const byOrder = (a: Match, b: Match) =>
+      a.date.length === 10 && b.date.length === 10 && a.date !== b.date ? a.date.localeCompare(b.date) : a.id.localeCompare(b.id);
+    for (const m of [...counted].sort(byOrder)) {
       for (const id of [m.homeId, m.awayId]) {
         const out = eliminated.get(id);
         const allowed = cfg.reentry && (!cfg.reentry.teams || cfg.reentry.teams.includes(id));
