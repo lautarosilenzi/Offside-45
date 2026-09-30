@@ -95,15 +95,21 @@ export async function wikiChampions(title: string, section = "Historial"): Promi
   const rest = text.slice(start + 3);
   const body = rest.slice(0, rest.search(/^==[^=]/m) >= 0 ? rest.search(/^==[^=]/m) : undefined);
   const firstLink = (s: string) => s.match(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/)?.[1]?.trim() ?? "";
-  // El país sale de la bandera de la celda: {{bandera2|Uruguay}}.
-  const team = (s: string): WikiFinalist => ({ name: firstLink(s), country: s.match(/\{\{bandera2?\|([^|}]+)/i)?.[1]?.trim() ?? "" });
+  // El país sale de la bandera de la celda: {{bandera2|Uruguay}}, {{bandera|URU}} o {{URU}}.
+  const CODES: Record<string, string> = { ARG: "Argentina", URU: "Uruguay", PAR: "Paraguay", BRA: "Brasil", CHI: "Chile", COL: "Colombia", ECU: "Ecuador", PER: "Perú", BOL: "Bolivia", VEN: "Venezuela", MEX: "México" };
+  const country = (s: string) => {
+    const f = s.match(/\{\{bandera2?\|([^|}]+)/i)?.[1]?.trim() ?? s.match(/\{\{([A-Z]{3})\}\}/)?.[1] ?? "";
+    return CODES[f.toUpperCase()] ?? f;
+  };
+  const team = (s: string): WikiFinalist => ({ name: firstLink(s), country: country(s) });
   const out: { year: number; champion: WikiFinalist; runnerUp: WikiFinalist }[] = [];
   for (const row of body.split(/\n\|-/)) {
+    // Celdas comunes ("|") y de encabezado ("!", el campeón en algunas tablas); no las de la tabla anidada.
     const cells = row
       .split("\n")
-      .filter((l) => /^\|(?![-}+])/.test(l))
+      .filter((l) => /^[|!](?![-}+])/.test(l) && !/^!\s*(width|colspan)/i.test(l))
       .map((l) => l.slice(1));
-    const y = cells[0]?.match(/\|(\d{4})\]\]/);
+    const y = cells[0]?.match(/\|(\d{4})\]\]/) ?? cells[0]?.match(/^\s*'*(\d{4})'*/);
     if (!y || cells.length < 4) continue;
     out.push({ year: +y[1], champion: team(cells[1]), runnerUp: team(cells[3]) });
   }

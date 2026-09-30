@@ -13,18 +13,21 @@ import { wikiChampions, wikiMatches, type WikiFinalist, type WikiMatch } from ".
 // Nombres con que aparecen en RSSSF (encabezado del bloque, línea de partido y páginas de cada edición) y ciudades
 // donde fueron locales (para los partidos que la página de la edición no confirma).
 const ARG: { id: string; names: string[]; cities: string[] }[] = [
-  { id: "argentinos", names: ["Argentinos Juniors", "Argentinos"], cities: ["Buenos Aires"] },
+  { id: "argentinos", names: ["Argentinos Juniors", "Argentinos Jrs.", "Argentinos Jrs", "Argentinos"], cities: ["Buenos Aires"] },
   { id: "arsenal", names: ["Arsenal", "Arsenal de Sarandí"], cities: ["Sarandí", "Avellaneda"] },
   { id: "atletico-tucuman", names: ["Atlético Tucumán"], cities: ["S.M.de Tucumán", "San Miguel de Tucumán", "Tucumán"] },
   { id: "banfield", names: ["Banfield"], cities: ["Banfield"] },
+  { id: "belgrano", names: ["Belgrano (Córdoba)", "Belgrano (Cba.)", "Belgrano"], cities: ["Córdoba"] },
   { id: "boca", names: ["Boca Juniors", "Boca"], cities: ["Buenos Aires"] },
-  { id: "central-cordoba-sde", names: ["Central Córdoba (Santiago del Estero)", "Central Córdoba"], cities: ["Santiago del Estero"] },
+  { id: "central-cordoba-sde", names: ["Central Córdoba (Santiago del Estero)", "Central Córdoba", "Córdoba (Santiago del Estero)"], cities: ["Santiago del Estero"] },
   { id: "colon-santa-fe", names: ["Colón (Santa Fe)", "Colón"], cities: ["Santa Fe"] },
+  { id: "deportivo-espanol", names: ["Deportivo Español"], cities: ["Buenos Aires"] },
   { id: "defensa-y-justicia", names: ["Defensa y Justicia"], cities: ["Florencio Varela"] },
   { id: "estudiantes", names: ["Estudiantes (La Plata)", "Estudiantes LP", "Estudiantes"], cities: ["La Plata", "Quilmes"] },
+  { id: "union-santa-fe", names: ["Unión (Santa Fe)", "Unión"], cities: ["Santa Fe"] },
   { id: "ferro", names: ["Ferro Carril Oeste", "Ferro Carril O."], cities: ["Buenos Aires"] },
-  { id: "gimnasia", names: ["Gimnasia y Esgrima (La Plata)", "Gimnasia y Esgr.LP", "Gimnasia y Esgrima"], cities: ["La Plata"] },
-  { id: "godoy-cruz", names: ["Godoy Cruz Antonio Tomba (Mendoza)", "Godoy Cruz A.T.", "Godoy Cruz"], cities: ["Mendoza"] },
+  { id: "gimnasia", names: ["Gimnasia y Esgrima (La Plata)", "Gimnasia y Esgr.LP", "Gimnasia y Esgrima LP", "Gimnasia y Esgrima", "Gimnasia (LP)"], cities: ["La Plata"] },
+  { id: "godoy-cruz", names: ["Godoy Cruz Antonio Tomba (Mendoza)", "Godoy Cruz A.T.", "Godoy Cruz AT", "Godoy Cruz"], cities: ["Mendoza"] },
   { id: "huracan", names: ["Huracán"], cities: ["Buenos Aires"] },
   { id: "independiente", names: ["Independiente"], cities: ["Avellaneda"] },
   { id: "lanus", names: ["Lanús"], cities: ["Lanús"] },
@@ -54,6 +57,9 @@ const CC: Record<string, { code: string; name: string }> = {
   Bol: { code: "bo", name: "Bolivia" },
   Ven: { code: "ve", name: "Venezuela" },
   Mex: { code: "mx", name: "México" },
+  Hon: { code: "hn", name: "Honduras" },
+  Crc: { code: "cr", name: "Costa Rica" },
+  Usa: { code: "us", name: "Estados Unidos" },
 };
 // Ciudades que deciden el país de los nombres repetidos (Nacional, América, Guaraní, River Plate).
 const CITY_COUNTRY: Record<string, string> = {
@@ -65,6 +71,7 @@ const CITY_COUNTRY: Record<string, string> = {
   "Ciudad de México": "Mex",
   Campinas: "Bra",
   Quito: "Ecu",
+  Santiago: "Chi",
 };
 // Nombres de la línea de partido que no coinciden con los de la tabla de rivales.
 const OPP_ALIASES: Record<string, string> = {
@@ -75,6 +82,14 @@ const OPP_ALIASES: Record<string, string> = {
   "Cortuluá": "Corporación Tuluá",
   "Athletico Paranaense": "Atlético Paranaense",
   "Indep. José Terán": "Independiente del Valle",
+  "América FC-MG": "América Mineiro",
+  "CI Santa Fe": "Independiente Santa Fe",
+  "DIM": "Independiente Medellín",
+  "CA Belgrano": "Belgrano",
+  "Delfín SC": "Delfín",
+  "CS Luqueño": "Sportivo Luqueño",
+  "Fortaleza EC": "Fortaleza",
+  "Dep. Antofagasta": "Deportes Antofagasta",
   "LDU Quito": "Liga Deportiva Universitaria",
   "Independ. del Valle": "Independiente del Valle",
   "Tigre UANL": "Tigres UANL",
@@ -109,6 +124,16 @@ const DISPLAY: Record<string, string> = {
   "Guaraní|Bra": "Guarani",
 };
 
+// País aclarado en el nombre del rival: "Nacional (Par.)", "River Plate (Uruguay)", "LDU Quito [Ecu]" (el lector de
+// la página ya pasa los corchetes a paréntesis). Devuelve el nombre solo y el código de tres letras.
+const COUNTRY_TAG = /\s*\((Uru|Par|Bra|Mex|Méx|Col|Ecu|Chi|Per|Bol|Ven|Hon|Crc|Usa)[a-zé]*\.?\)\s*$/i;
+function splitCountry(raw: string): { name: string; country?: string } {
+  const m = raw.match(COUNTRY_TAG);
+  if (!m) return { name: raw };
+  const c = m[1].normalize("NFD").replace(/[̀-ͯ]/g, "");
+  return { name: raw.replace(COUNTRY_TAG, "").trim(), country: c[0].toUpperCase() + c.slice(1).toLowerCase() };
+}
+
 const slug = (s: string) =>
   s
     .normalize("NFD")
@@ -126,6 +151,8 @@ const STAGES: [RegExp, string][] = [
   [/^Qualif\.?\s*Round 3/i, "Fase previa (tercera ronda)"],
   [/^Qualif/i, "Fase previa"],
   [/^First Round/i, "Primera ronda"],
+  [/^Second Round/i, "Segunda ronda"],
+  [/^Pre-Round of 16/i, "Playoffs de octavos"],
   [/^(Round of 16|8º Final)/i, "Octavos de final"],
   [/^Quar/i, "Cuartos de final"],
   [/^Semi-?F\.? Playoff/i, "Semifinal (desempate)"],
@@ -169,7 +196,7 @@ type Cup = {
   // Arreglos de la página por club ("club|fecha" de la página): fecha, resultado (del lado del club argentino),
   // rival o fase mal escritos, resueltos con las otras dos fuentes. La nota explica el arreglo.
   // suspended: no se completó y no cuenta (se muestra); advanced: quién pasó de ronda.
-  fixes?: Record<string, { date?: string; goals?: [number, number]; opp?: string; stage?: string; confirmed?: boolean; suspended?: boolean; advanced?: string; note: string }>;
+  fixes?: Record<string, { date?: string; goals?: [number, number]; opp?: string; stage?: string; confirmed?: boolean; suspended?: boolean; advanced?: string; awarded?: "club" | "opp"; note: string }>;
   // Partidos que faltan en la página por club y están en la página de la edición y en Wikipedia.
   extra?: (Omit<IntlMatch, "id" | "check"> & { year: number })[];
   ignoreMissing?: RegExp[];
@@ -231,6 +258,69 @@ const CUPS: Record<string, Cup> = {
     wikiTitles: (y) => [`Copa Libertadores ${y}`, `Anexo:Final de la Copa Libertadores ${y}`, `Anexo:Fase preliminar de la Copa Libertadores ${y}`],
     championsTitle: "Copa Libertadores de América",
   },
+  sudamericana: {
+    key: "sudamericana",
+    clubPage: "sudamcup-arg.html",
+    editionFile: (y) => (y < 2010 ? `sudamcup${String(y).slice(2)}.html` : `sudamcup${y}.html`),
+    wikiTitles: (y) => [`Copa Sudamericana ${y}`, `Anexo:Final de la Copa Sudamericana ${y}`],
+    championsTitle: "Copa Sudamericana",
+    fixes: {
+      "sanlorenzo|2018-07-26": { goals: [1, 2], awarded: "club", confirmed: true, note: "Terminó 1-2; la Conmebol se lo dio ganado 3-0 a San Lorenzo porque Temuco puso un jugador mal incluido (Jonathan Requena), según la página de la edición de RSSSF." },
+      "sanlorenzo|2023-04-20": { confirmed: true, note: "La página de la edición de RSSSF da 3-2; fue 0-2, según la página por club, FIFA y La Nación." },
+      "defensa-y-justicia|2023-04-19": { opp: "América Mineiro (Bra.)", note: "La página por club de RSSSF da como rival a Atlético Mineiro; fue América Mineiro, según la página de la edición y Wikipedia." },
+      "defensa-y-justicia|2023-05-23": { opp: "América Mineiro (Bra.)", note: "La página por club de RSSSF da como rival a Atlético Mineiro; fue América Mineiro, según la página de la edición y Wikipedia." },
+      "belgrano|2024-05-09": { goals: [1, 1], note: "La página por club de RSSSF da 1-0; la página de la edición y Wikipedia, 1-1." },
+      "independiente|2025-08-20": {
+        goals: [1, 1],
+        suspended: true,
+        advanced: "universidad-de-chile-cl",
+        confirmed: true,
+        note: "Suspendido a los 48 minutos (1-1) por los incidentes entre las hinchadas. La Conmebol descalificó a Independiente y pasó Universidad de Chile (Soccerway, beIN Sports). Se muestra pero no suma.",
+      },
+    },
+    ignoreMissing: [
+      // River Plate de Montevideo (2009) y Racing de Montevideo (2024): homónimos uruguayos.
+      /^2009 Wikipedia: .*River Plate.*(Vitória|Liga de Quito)|^2009 Wikipedia: .*(Vitória|Liga de Quito).*River Plate/,
+      /^2024 Wikipedia: .*Racing.*(Huachipato|Corinthians|Nacional)|^2024 Wikipedia: .*(Huachipato|Corinthians|Nacional).*Racing/,
+      // La página de la edición da 3-2; fue 0-2 (ver la nota del partido).
+      /^2023 edición: Apr 20: San Lorenzo - Fortaleza EC\s+3-2/,
+      // Otra fecha en una tabla secundaria del artículo de Wikipedia; las dos páginas de RSSSF coinciden.
+      /^2002 Wikipedia: 29\/10 .*Racing Club 2-0 San Lorenzo/,
+      /^2003 Wikipedia: 29\/10 .*Libertad 1-0 River Plate/,
+      // Wikipedia pone a Liga de Loja; fue Deportivo Quito (página de la edición y página por club de RSSSF).
+      /^2012 Wikipedia: 25\/10 .*Tigre 4-0 Liga de Loja/,
+    ],
+  },
+  supercopa: {
+    key: "supercopa",
+    clubPage: "supcopa-arg.html",
+    editionFile: (y) => `supcopa${String(y).slice(2)}.html`,
+    wikiTitles: (y) => [`Supercopa Sudamericana ${y}`],
+    championsTitle: "Supercopa Sudamericana",
+    fixes: {
+      "river|1997-12-04": { confirmed: true, note: "Confirmado por la página de la edición de RSSSF (final del 4 y el 17 de diciembre, sin la fecha en cada partido)." },
+      "river|1997-12-17": { confirmed: true, note: "Confirmado por la página de la edición de RSSSF (final del 4 y el 17 de diciembre, sin la fecha en cada partido)." },
+    },
+    ignoreMissing: [
+      // Cuartos 1992: Nacional se retiró antes de la ida por una huelga de jugadores y Racing pasó sin jugar (páginas de
+      // RSSSF y Wikipedia en inglés); Wikipedia en español da dos partidos 1-0 que no se jugaron.
+      /^1992 Wikipedia: .*Racing Club.*Nacional|^1992 Wikipedia: .*Nacional.*Racing Club/,
+    ],
+  },
+  conmebol: {
+    key: "conmebol",
+    clubPage: "conmebol-arg.html",
+    editionFile: (y) => `conmebol${String(y).slice(2)}.html`,
+    wikiTitles: (y) => [`Copa Conmebol ${y}`],
+    championsTitle: "Copa Conmebol",
+  },
+  mercosur: {
+    key: "mercosur",
+    clubPage: "mercosur-arg.html",
+    editionFile: (y) => `mercosur${String(y).slice(2)}.html`,
+    wikiTitles: (y) => [`Copa Mercosur ${y}`],
+    championsTitle: "Copa Mercosur",
+  },
 };
 
 async function main() {
@@ -247,6 +337,7 @@ async function main() {
     if (fix.date) m.date = fix.date;
     if (fix.goals) [m.goals, m.oppGoals] = fix.goals;
     if (fix.opp) m.opp = fix.opp;
+    if (fix.awarded) m.awarded = fix.awarded;
   }
   const unusedFixes = Object.keys(cup.fixes ?? {}).filter((k) => ![...fixOf.values()].includes(cup.fixes![k]));
   const problems = [...page.problems];
@@ -279,15 +370,16 @@ async function main() {
 
   // Rival de cada partido: club argentino o del exterior (con país).
   const foreign = new Map<string, Foreign>();
+  const getForeign = (id: string) => foreign.get(id);
   const oppId = (m: ClubPageMatch): string | null => {
-    const arg = argClub(m.opp);
-    const name = OPP_ALIASES[m.opp] ?? m.opp;
+    const { name: bareOpp, country: explicit } = splitCountry(m.opp);
+    const arg = argClub(bareOpp);
+    const name = OPP_ALIASES[bareOpp] ?? bareOpp;
     const k = nameKey(name);
     const cands = [...(countries.get(k) ?? [])];
     // Nombre de un club argentino sin país aclarado: es el argentino. El River Plate de Montevideo figura como
-    // "River Plate [Uru]" (queda "River Plate (Uru.)").
-    if (arg && !/\((Uru|Par|Bra|Mex|Col|Ecu|Chi|Per|Bol|Ven)\.?\)/i.test(m.opp)) return arg.id;
-    const explicit = m.opp.match(/\((Uru|Par|Bra|Mex|Col|Ecu|Chi|Per|Bol|Ven)\.?\)/i)?.[1];
+    // "River Plate [Uru]" o "River Plate (Uruguay)".
+    if (arg && !explicit) return arg.id;
     let country = explicit ? explicit[0].toUpperCase() + explicit.slice(1, 3).toLowerCase() : cands.length === 1 ? cands[0] : undefined;
     if (!country) {
       // Nombre repetido en varios países: la ciudad del partido de visitante en la misma serie lo define.
@@ -329,9 +421,12 @@ async function main() {
   // Todos los nombres de un club: los de la lista de argentinos, o el de la línea más sus alias.
   const namesOf = (id: string, raw: string) => {
     const arg = ARG.find((c) => c.id === id);
-    const canonical = OPP_ALIASES[raw] ?? raw;
+    const bare = splitCountry(raw).name;
+    const canonical = OPP_ALIASES[bare] ?? bare;
     const aliases = Object.keys(OPP_ALIASES).filter((k) => OPP_ALIASES[k] === canonical);
-    return new Set([...(arg ? arg.names : []), raw, canonical, ...aliases].map(nameKey));
+    // También el nombre con que quedó en el sitio (sin el país): "Liga de Quito" para "LDU Quito".
+    const shown = getForeign(id)?.name.replace(/\s*\([^)]*\)$/, "");
+    return new Set([...(arg ? arg.names : []), bare, canonical, ...aliases, ...(shown ? [shown] : [])].map(nameKey));
   };
   // Dos nombres son el mismo club si coinciden o si las palabras del más corto están todas en el más largo
   // ("Lara" y "Deportivo Lara", "Medellín" e "Independiente Medellín"). El resultado y la fecha evitan confusiones.
@@ -385,6 +480,7 @@ async function main() {
     if (!opp) continue;
     const year = editionOf.get(m)!;
     const fix = fixOf.get(m);
+    if (m.fieldUnknown && !fix?.goals) problems.push(`${m.club} ${m.date}: por escritorio sin el resultado de la cancha y sin arreglo`);
     const lines = editionLines(year);
     const clubKeys = namesOf(club.id, m.team);
     const oppKeys = namesOf(opp, m.opp);
@@ -432,6 +528,8 @@ async function main() {
         .filter((x) => x.club === m.club && editionOf.get(x) === year && x.opp === m.opp && stageEs(x.stage) === stageEs(m.stage))
         .sort((a, b) => a.date.localeCompare(b.date));
       const k = meetings.indexOf(m);
+      if (process.env.DEBUG && `${m.club} ${m.opp} ${m.date}`.includes(process.env.DEBUG))
+        console.log("DEBUG serie", k, meetings.map((x) => x.date), lines.filter((t) => t.kind === "tie" && (t.a.includes(m.opp) || t.b.includes(m.opp))).map((t) => t.raw));
       for (const t of lines) {
         if (t.kind !== "tie" || k < 0) continue;
         // Tercer partido: el desempate entre corchetes, en cancha neutral (la localía queda por la ciudad).
@@ -499,7 +597,7 @@ async function main() {
       else if (oppArg?.cities.includes(m.place) && !club.cities.includes(m.place)) home = opp;
       else if (!oppArg && !club.cities.includes(m.place)) home = opp;
       else home = club.id;
-      if (check === "ciudad") warnings.push(`${what} (${clubPageDate}, ${m.place}): sin segunda fuente`);
+
     }
     const pairKey = `${date}|${[club.id, opp].sort().join("|")}`;
 
@@ -522,7 +620,7 @@ async function main() {
       const [a, b] = clubHome ? m.pens : [m.pens[1], m.pens[0]];
       match.note = `Penales: ${a}-${b}.`;
     }
-    if (m.awarded) {
+    if (m.awarded && !fix?.suspended) {
       match.awardedTo = m.awarded === "club" ? club.id : opp;
       match.goalsVoid = true;
     }
@@ -627,6 +725,7 @@ async function main() {
   writeFileSync(genFile, JSON.stringify([...merged.values()].sort((a, b) => a.id.localeCompare(b.id)), null, 1) + "\n");
 
   const total = result.reduce((n, e) => n + e.matches.length, 0);
+  for (const e of result) for (const m of e.matches) if (m.check === "ciudad") warnings.push(`${e.year} ${m.date} ${m.homeId} ${m.homeGoals}-${m.awayGoals} ${m.awayId} (${m.venue}): sin segunda fuente`);
   const by = (c: IntlMatch["check"]) => result.reduce((n, e) => n + e.matches.filter((m) => m.check === c).length, 0);
   console.log(`${cup.key}: ${result.length} ediciones, ${total} partidos (${by("edicion")} confirmados por la página de la edición de RSSSF, ${by("wikipedia")} por Wikipedia, ${by("ciudad")} sin segunda fuente), ${foreign.size} rivales del exterior`);
   for (const w of warnings) console.log(`  · ${w}`);

@@ -19,6 +19,10 @@ const ABOUT: Record<string, string> = {
   "Copa Escobar-Gerona": "Copa de Confraternidad entre los subcampeones de Argentina y Uruguay (1941–1946).",
   "Copa Libertadores":
     "La copa de clubes de la Conmebol, desde 1960 (hasta 1964, Copa de Campeones de América). De cada edición están todos los partidos de los clubes argentinos, confirmados con una segunda fuente; del resto, el campeón y el finalista.",
+  "Supercopa Sudamericana": "La Supercopa Libertadores (1988–1997), entre los campeones de la Copa Libertadores.",
+  "Copa Conmebol": "La segunda copa de la Conmebol (1992–1999), para los clubes que no jugaban la Libertadores. La antecesora de la Sudamericana.",
+  "Copa Mercosur": "Copa de la Conmebol con clubes de Argentina, Brasil, Chile, Paraguay y Uruguay (1998–2001).",
+  "Copa Sudamericana": "La segunda copa de clubes de la Conmebol, desde 2002. De cada edición están todos los partidos de los clubes argentinos.",
   "Campeonato Sudamericano de Campeones":
     "Siete campeones sudamericanos en Santiago de Chile, en 1948: el antecedente de la Copa Libertadores. River fue segundo.",
 };
@@ -84,9 +88,9 @@ export default function InternationalPage() {
         ))}
 
         <p className="text-sm text-navy-400">
-          Por ahora están las copas rioplatenses, el Sudamericano de Campeones de 1948 y la Copa Libertadores (1960–2025). Se
-          van a sumar la Intercontinental, la Interamericana, la Supercopa, la Recopa, la Copa Conmebol, la Mercosur, la
-          Sudamericana y el Mundial de Clubes. De las copas con clubes de otros países solo se cargan los partidos de los
+          Por ahora están las copas rioplatenses, el Sudamericano de Campeones de 1948, la Copa Libertadores (1960–2025), la
+          Sudamericana (2002–2025), la Supercopa, la Copa Conmebol y la Mercosur. Se van a sumar la Recopa, la
+          Intercontinental, la Interamericana, las Copas Máster y de Oro y el Mundial de Clubes. De las copas con clubes de otros países solo se cargan los partidos de los
           clubes argentinos. Las ediciones 1900–1906 de la Copa Chevallier Boutell también figuran en{" "}
           <Link href="/copas" className="text-brand-500 hover:underline">
             copas nacionales

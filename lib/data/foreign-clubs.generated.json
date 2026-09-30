@@ -1,10 +1,24 @@
 [
  {
+  "id": "12-de-octubre-py",
+  "name": "12 de Octubre (Paraguay)",
+  "shortName": "12D",
+  "fullName": "12 de Octubre (Paraguay)",
+  "country": "Paraguay"
+ },
+ {
   "id": "31-de-octubre-bo",
   "name": "31 de Octubre (Bolivia)",
   "shortName": "31D",
   "fullName": "31 de Octubre (Bolivia)",
   "country": "Bolivia"
+ },
+ {
+  "id": "academia-puerto-cabello-ve",
+  "name": "Academia Puerto Cabello (Venezuela)",
+  "shortName": "ACA",
+  "fullName": "Academia Puerto Cabello (Venezuela)",
+  "country": "Venezuela"
  },
  {
   "id": "alianza-lima-pe",
@@ -28,11 +42,32 @@
   "country": "Colombia"
  },
  {
+  "id": "america-de-cali-co",
+  "name": "América de Cali (Colombia)",
+  "shortName": "AME",
+  "fullName": "América de Cali (Colombia)",
+  "country": "Colombia"
+ },
+ {
+  "id": "america-mineiro-br",
+  "name": "América Mineiro (Brasil)",
+  "shortName": "AME",
+  "fullName": "América Mineiro (Brasil)",
+  "country": "Brasil"
+ },
+ {
   "id": "america-mx",
   "name": "América (México)",
   "shortName": "AME",
   "fullName": "América (México)",
   "country": "México"
+ },
+ {
+  "id": "aragua-ve",
+  "name": "Aragua (Venezuela)",
+  "shortName": "ARA",
+  "fullName": "Aragua (Venezuela)",
+  "country": "Venezuela"
  },
  {
   "id": "athletico-paranaense-br",
@@ -68,6 +103,20 @@
   "shortName": "ATL",
   "fullName": "Atlético Colegiales (Paraguay)",
   "country": "Paraguay"
+ },
+ {
+  "id": "atletico-goianiense-br",
+  "name": "Atlético Goianiense (Brasil)",
+  "shortName": "ATL",
+  "fullName": "Atlético Goianiense (Brasil)",
+  "country": "Brasil"
+ },
+ {
+  "id": "atletico-grau-pe",
+  "name": "Atlético Grau (Perú)",
+  "shortName": "ATL",
+  "fullName": "Atlético Grau (Perú)",
+  "country": "Perú"
  },
  {
   "id": "atletico-junior-co",
@@ -175,6 +224,27 @@
   "country": "Venezuela"
  },
  {
+  "id": "ceara-br",
+  "name": "Ceará (Brasil)",
+  "shortName": "CEA",
+  "fullName": "Ceará (Brasil)",
+  "country": "Brasil"
+ },
+ {
+  "id": "cerro-cora-py",
+  "name": "Cerro Corá (Paraguay)",
+  "shortName": "CER",
+  "fullName": "Cerro Corá (Paraguay)",
+  "country": "Paraguay"
+ },
+ {
+  "id": "cerro-largo-uy",
+  "name": "Cerro Largo (Uruguay)",
+  "shortName": "CER",
+  "fullName": "Cerro Largo (Uruguay)",
+  "country": "Uruguay"
+ },
+ {
   "id": "cerro-porteno-py",
   "name": "Cerro Porteño (Paraguay)",
   "shortName": "CER",
@@ -231,6 +301,13 @@
   "country": "Brasil"
  },
  {
+  "id": "coritiba-br",
+  "name": "Coritiba (Brasil)",
+  "shortName": "COR",
+  "fullName": "Coritiba (Brasil)",
+  "country": "Brasil"
+ },
+ {
   "id": "coritiba-fc-br",
   "name": "Coritiba FC (Brasil)",
   "shortName": "COR",
@@ -266,6 +343,13 @@
   "country": "Colombia"
  },
  {
+  "id": "cuiaba-br",
+  "name": "Cuiabá (Brasil)",
+  "shortName": "CUI",
+  "fullName": "Cuiabá (Brasil)",
+  "country": "Brasil"
+ },
+ {
   "id": "danubio-uy",
   "name": "Danubio (Uruguay)",
   "shortName": "DAN",
@@ -280,6 +364,13 @@
   "country": "Ecuador"
  },
  {
+  "id": "deportes-antofagasta-cl",
+  "name": "Deportes Antofagasta (Chile)",
+  "shortName": "DEP",
+  "fullName": "Deportes Antofagasta (Chile)",
+  "country": "Chile"
+ },
+ {
   "id": "deportes-concepcion-cl",
   "name": "Deportes Concepción (Chile)",
   "shortName": "DEP",
@@ -291,6 +382,13 @@
   "name": "Deportes Iquique (Chile)",
   "shortName": "DEP",
   "fullName": "Deportes Iquique (Chile)",
+  "country": "Chile"
+ },
+ {
+  "id": "deportes-temuco-cl",
+  "name": "Deportes Temuco (Chile)",
+  "shortName": "DEP",
+  "fullName": "Deportes Temuco (Chile)",
   "country": "Chile"
  },
  {
@@ -315,6 +413,13 @@
   "country": "Colombia"
  },
  {
+  "id": "deportivo-capiata-py",
+  "name": "Deportivo Capiatá (Paraguay)",
+  "shortName": "DEP",
+  "fullName": "Deportivo Capiatá (Paraguay)",
+  "country": "Paraguay"
+ },
+ {
   "id": "deportivo-cuenca-ec",
   "name": "Deportivo Cuenca (Ecuador)",
   "shortName": "DEP",
@@ -329,10 +434,31 @@
   "country": "Venezuela"
  },
  {
+  "id": "deportivo-garcilaso-pe",
+  "name": "Deportivo Garcilaso (Perú)",
+  "shortName": "DEP",
+  "fullName": "Deportivo Garcilaso (Perú)",
+  "country": "Perú"
+ },
+ {
+  "id": "deportivo-italchacao-ve",
+  "name": "Deportivo Italchacao (Venezuela)",
+  "shortName": "DEP",
+  "fullName": "Deportivo Italchacao (Venezuela)",
+  "country": "Venezuela"
+ },
+ {
   "id": "deportivo-italia-ve",
   "name": "Deportivo Italia (Venezuela)",
   "shortName": "DEP",
   "fullName": "Deportivo Italia (Venezuela)",
+  "country": "Venezuela"
+ },
+ {
+  "id": "deportivo-la-guaira-ve",
+  "name": "Deportivo La Guaira (Venezuela)",
+  "shortName": "DEP",
+  "fullName": "Deportivo La Guaira (Venezuela)",
   "country": "Venezuela"
  },
  {
@@ -341,6 +467,13 @@
   "shortName": "DEP",
   "fullName": "Deportivo Lara (Venezuela)",
   "country": "Venezuela"
+ },
+ {
+  "id": "deportivo-municipal-pe",
+  "name": "Deportivo Municipal (Perú)",
+  "shortName": "DEP",
+  "fullName": "Deportivo Municipal (Perú)",
+  "country": "Perú"
  },
  {
   "id": "deportivo-pasto-co",
@@ -427,10 +560,24 @@
   "country": "Brasil"
  },
  {
+  "id": "general-caballero-py",
+  "name": "General Caballero (Paraguay)",
+  "shortName": "GEN",
+  "fullName": "General Caballero (Paraguay)",
+  "country": "Paraguay"
+ },
+ {
   "id": "goias-br",
   "name": "Goiás (Brasil)",
   "shortName": "GOI",
   "fullName": "Goias (Brasil)",
+  "country": "Brasil"
+ },
+ {
+  "id": "goias-ec-br",
+  "name": "Goiás EC (Brasil)",
+  "shortName": "GOI",
+  "fullName": "Goiás EC (Brasil)",
   "country": "Brasil"
  },
  {
@@ -439,6 +586,13 @@
   "shortName": "GRE",
   "fullName": "Grêmio (Brasil)",
   "country": "Brasil"
+ },
+ {
+  "id": "guabira-bo",
+  "name": "Guabirá (Bolivia)",
+  "shortName": "GUA",
+  "fullName": "Guabirá (Bolivia)",
+  "country": "Bolivia"
  },
  {
   "id": "guadalajara-mx",
@@ -469,6 +623,20 @@
   "country": "Chile"
  },
  {
+  "id": "huracan-buceo-uy",
+  "name": "Huracán Buceo (Uruguay)",
+  "shortName": "HUR",
+  "fullName": "Huracán Buceo (Uruguay)",
+  "country": "Uruguay"
+ },
+ {
+  "id": "ia-sud-america-uy",
+  "name": "IA Sud América (Uruguay)",
+  "shortName": "IAS",
+  "fullName": "IA Sud América (Uruguay)",
+  "country": "Uruguay"
+ },
+ {
   "id": "independiente-del-valle-ec",
   "name": "Independiente del Valle (Ecuador)",
   "shortName": "IND",
@@ -481,6 +649,13 @@
   "shortName": "IND",
   "fullName": "Independiente Medellín (Colombia)",
   "country": "Colombia"
+ },
+ {
+  "id": "independiente-petrolero-bo",
+  "name": "Independiente Petrolero (Bolivia)",
+  "shortName": "IND",
+  "fullName": "Independiente Petrolero (Bolivia)",
+  "country": "Bolivia"
  },
  {
   "id": "independiente-santa-fe-co",
@@ -511,11 +686,39 @@
   "country": "Perú"
  },
  {
+  "id": "junior-co",
+  "name": "Junior (Colombia)",
+  "shortName": "JUN",
+  "fullName": "Junior (Colombia)",
+  "country": "Colombia"
+ },
+ {
+  "id": "la-equidad-co",
+  "name": "La Equidad (Colombia)",
+  "shortName": "LAE",
+  "fullName": "La Equidad (Colombia)",
+  "country": "Colombia"
+ },
+ {
+  "id": "ldu-de-quito-ec",
+  "name": "LDU de Quito (Ecuador)",
+  "shortName": "LDU",
+  "fullName": "LDU de Quito (Ecuador)",
+  "country": "Ecuador"
+ },
+ {
   "id": "libertad-py",
   "name": "Libertad (Paraguay)",
   "shortName": "LIB",
   "fullName": "Libertad (Paraguay)",
   "country": "Paraguay"
+ },
+ {
+  "id": "liga-de-loja-ec",
+  "name": "Liga de Loja (Ecuador)",
+  "shortName": "LIG",
+  "fullName": "Liga de Loja (Ecuador)",
+  "country": "Ecuador"
  },
  {
   "id": "liga-de-quito-ec",
@@ -539,6 +742,13 @@
   "country": "Perú"
  },
  {
+  "id": "metropolitanos-ve",
+  "name": "Metropolitanos (Venezuela)",
+  "shortName": "MET",
+  "fullName": "Metropolitanos (Venezuela)",
+  "country": "Venezuela"
+ },
+ {
   "id": "millonarios-co",
   "name": "Millonarios (Colombia)",
   "shortName": "MIL",
@@ -560,6 +770,13 @@
   "country": "Venezuela"
  },
  {
+  "id": "monagas-sc-ve",
+  "name": "Monagas SC (Venezuela)",
+  "shortName": "MON",
+  "fullName": "Monagas SC (Venezuela)",
+  "country": "Venezuela"
+ },
+ {
   "id": "monagas-ve",
   "name": "Monagas (Venezuela)",
   "shortName": "MON",
@@ -567,11 +784,39 @@
   "country": "Venezuela"
  },
  {
+  "id": "montevideo-city-torque-uy",
+  "name": "Montevideo City Torque (Uruguay)",
+  "shortName": "MON",
+  "fullName": "Montevideo City Torque (Uruguay)",
+  "country": "Uruguay"
+ },
+ {
   "id": "morelia-mx",
   "name": "Morelia (México)",
   "shortName": "MOR",
   "fullName": "Morelia (México)",
   "country": "México"
+ },
+ {
+  "id": "motagua-hn",
+  "name": "Motagua (Honduras)",
+  "shortName": "MOT",
+  "fullName": "Motagua (Honduras)",
+  "country": "Honduras"
+ },
+ {
+  "id": "mushuc-runa-ec",
+  "name": "Mushuc Runa (Ecuador)",
+  "shortName": "MUS",
+  "fullName": "Mushuc Runa (Ecuador)",
+  "country": "Ecuador"
+ },
+ {
+  "id": "nacional-potosi-bo",
+  "name": "Nacional Potosí (Bolivia)",
+  "shortName": "NAC",
+  "fullName": "Nacional Potosí (Bolivia)",
+  "country": "Bolivia"
  },
  {
   "id": "nacional-py",
@@ -630,6 +875,13 @@
   "country": "México"
  },
  {
+  "id": "pachuca-mx",
+  "name": "Pachuca (México)",
+  "shortName": "PAC",
+  "fullName": "Pachuca (México)",
+  "country": "México"
+ },
+ {
   "id": "palestino-cl",
   "name": "Palestino (Chile)",
   "shortName": "PAL",
@@ -641,6 +893,13 @@
   "name": "Palmeiras (Brasil)",
   "shortName": "PAL",
   "fullName": "Palmeiras (Brasil)",
+  "country": "Brasil"
+ },
+ {
+  "id": "parana-clube-br",
+  "name": "Paraná Clube (Brasil)",
+  "shortName": "PAR",
+  "fullName": "Paraná Clube (Brasil)",
   "country": "Brasil"
  },
  {
@@ -665,6 +924,13 @@
   "country": "Venezuela"
  },
  {
+  "id": "ponte-preta-br",
+  "name": "Ponte Preta (Brasil)",
+  "shortName": "PON",
+  "fullName": "Ponte Preta (Brasil)",
+  "country": "Brasil"
+ },
+ {
   "id": "portuguesa-ve",
   "name": "Portuguesa (Venezuela)",
   "shortName": "POR",
@@ -677,6 +943,27 @@
   "shortName": "PUE",
   "fullName": "Puebla FC (México)",
   "country": "México"
+ },
+ {
+  "id": "puerto-cabello-ve",
+  "name": "Puerto Cabello (Venezuela)",
+  "shortName": "PUE",
+  "fullName": "Puerto Cabello (Venezuela)",
+  "country": "Venezuela"
+ },
+ {
+  "id": "pumas-unam-mx",
+  "name": "Pumas UNAM (México)",
+  "shortName": "PUM",
+  "fullName": "Pumas UNAM (México)",
+  "country": "México"
+ },
+ {
+  "id": "racing-uy",
+  "name": "Racing (Uruguay)",
+  "shortName": "RAC",
+  "fullName": "Racing (Uruguay)",
+  "country": "Uruguay"
  },
  {
   "id": "real-garcilaso-pe",
@@ -693,11 +980,32 @@
   "country": "Bolivia"
  },
  {
+  "id": "real-santa-cruz-bo",
+  "name": "Real Santa Cruz (Bolivia)",
+  "shortName": "REA",
+  "fullName": "Real Santa Cruz (Bolivia)",
+  "country": "Bolivia"
+ },
+ {
+  "id": "real-tomayapo-bo",
+  "name": "Real Tomayapo (Bolivia)",
+  "shortName": "REA",
+  "fullName": "Real Tomayapo (Bolivia)",
+  "country": "Bolivia"
+ },
+ {
   "id": "rentistas-uy",
   "name": "Rentistas (Uruguay)",
   "shortName": "REN",
   "fullName": "Rentistas (Uruguay)",
   "country": "Uruguay"
+ },
+ {
+  "id": "rionegro-aguilas-co",
+  "name": "Ríonegro Águilas (Colombia)",
+  "shortName": "RIO",
+  "fullName": "Ríonegro Águilas (Colombia)",
+  "country": "Colombia"
  },
  {
   "id": "river-plate-uy",
@@ -784,6 +1092,13 @@
   "country": "Perú"
  },
  {
+  "id": "sport-recife-br",
+  "name": "Sport Recife (Brasil)",
+  "shortName": "SPO",
+  "fullName": "Sport Recife (Brasil)",
+  "country": "Brasil"
+ },
+ {
   "id": "sporting-cristal-pe",
   "name": "Sporting Cristal (Perú)",
   "shortName": "SPO",
@@ -791,10 +1106,31 @@
   "country": "Perú"
  },
  {
+  "id": "sportivo-alagoano-br",
+  "name": "Sportivo Alagoano (Brasil)",
+  "shortName": "SPO",
+  "fullName": "Sportivo Alagoano (Brasil)",
+  "country": "Brasil"
+ },
+ {
   "id": "sportivo-luqueno-py",
   "name": "Sportivo Luqueño (Paraguay)",
   "shortName": "SPO",
   "fullName": "Sportivo Luqueño (Paraguay)",
+  "country": "Paraguay"
+ },
+ {
+  "id": "sportivo-trinidense-py",
+  "name": "Sportivo Trinidense (Paraguay)",
+  "shortName": "SPO",
+  "fullName": "Sportivo Trinidense (Paraguay)",
+  "country": "Paraguay"
+ },
+ {
+  "id": "tacuary-py",
+  "name": "Tacuary (Paraguay)",
+  "shortName": "TAC",
+  "fullName": "Tacuary (Paraguay)",
   "country": "Paraguay"
  },
  {
@@ -854,6 +1190,20 @@
   "country": "Chile"
  },
  {
+  "id": "universidad-catolica-ec",
+  "name": "Universidad Católica (Ecuador)",
+  "shortName": "UNI",
+  "fullName": "Universidad Católica (Ecuador)",
+  "country": "Ecuador"
+ },
+ {
+  "id": "universidad-cesar-vallejo-pe",
+  "name": "Universidad César Vallejo (Perú)",
+  "shortName": "UNI",
+  "fullName": "Universidad César Vallejo (Perú)",
+  "country": "Perú"
+ },
+ {
   "id": "universidad-de-chile-cl",
   "name": "Universidad de Chile (Chile)",
   "shortName": "UNI",
@@ -901,6 +1251,20 @@
   "shortName": "VAL",
   "fullName": "Valdez (Ecuador)",
   "country": "Ecuador"
+ },
+ {
+  "id": "vitoria-br",
+  "name": "Vitória (Brasil)",
+  "shortName": "VIT",
+  "fullName": "Vitória (Brasil)",
+  "country": "Brasil"
+ },
+ {
+  "id": "zamora-fc-ve",
+  "name": "Zamora FC (Venezuela)",
+  "shortName": "ZAM",
+  "fullName": "Zamora FC (Venezuela)",
+  "country": "Venezuela"
  },
  {
   "id": "zamora-ve",

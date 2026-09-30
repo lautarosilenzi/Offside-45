@@ -1,0 +1,378 @@
+{
+ "slug": "sudamericana-2014",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "atletico-nacional-co"
+ ],
+ "year": 2014,
+ "title": "Copa Sudamericana 2014",
+ "tournament": "Copa Sudamericana 2014",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "river"
+ ],
+ "summary": "Campeón argentino: River Plate; finalista: Atlético Nacional (Colombia). Clubes argentinos: River Plate (campeón), Boca Juniors (semifinal), Estudiantes (LP) (cuartos), Lanús (octavos), Gimnasia (LP) (segunda ronda), Godoy Cruz Antonio Tomba (segunda ronda), Rosario Central (segunda ronda).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Sudamericana 2014",
+   "url": "https://www.rsssf.org/sacups/sudamcup2014.html"
+  },
+  {
+   "label": "RSSSF – Clubes argentinos en la Copa Sudamericana",
+   "url": "https://www.rsssf.org/sacups/sudamcup-arg.html"
+  },
+  {
+   "label": "Wikipedia – Copa Sudamericana 2014",
+   "url": "https://es.wikipedia.org/wiki/Copa_Sudamericana_2014"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Eliminación directa a dos partidos desde la primera ronda, con penales si la serie terminaba igualada."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-001",
+   "date": "2014-09-03",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "gimnasia",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-002",
+   "date": "2014-09-03",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "venue": "Mendoza",
+   "homeId": "godoy-cruz",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-003",
+   "date": "2014-09-04",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "venue": "Rosario",
+   "homeId": "central",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-004",
+   "date": "2014-09-16",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "gimnasia",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-005",
+   "date": "2014-09-17",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-006",
+   "date": "2014-09-18",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-007",
+   "date": "2014-10-14",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "penarol-uy",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-008",
+   "date": "2014-10-14",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "cerro-porteno-py",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-009",
+   "date": "2014-10-15",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "deportivo-capiata-py",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-010",
+   "date": "2014-10-16",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "libertad-py",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 3
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-011",
+   "date": "2014-10-21",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Lanús",
+   "homeId": "lanus",
+   "awayId": "cerro-porteno-py",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-012",
+   "date": "2014-10-22",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "penarol-uy",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "advancedId": "estudiantes",
+   "note": "Penales: 1-3."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-013",
+   "date": "2014-10-22",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "libertad-py",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-014",
+   "date": "2014-10-23",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Luque",
+   "homeId": "deportivo-capiata-py",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "advancedId": "boca",
+   "note": "Penales: 3-4."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-015",
+   "date": "2014-10-29",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-016",
+   "date": "2014-10-30",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "cerro-porteno-py",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-017",
+   "date": "2014-11-06",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "cerro-porteno-py",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 4
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-018",
+   "date": "2014-11-06",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-019",
+   "date": "2014-11-20",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-020",
+   "date": "2014-11-27",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-021",
+   "date": "2014-12-03",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Medellín",
+   "homeId": "atletico-nacional-co",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2014-022",
+   "date": "2014-12-10",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "atletico-nacional-co",
+   "homeGoals": 2,
+   "awayGoals": 0
+  }
+ ]
+}

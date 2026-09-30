@@ -25,9 +25,11 @@ const ROUNDS = [
   "Fase previa (segunda ronda)",
   "Fase previa (tercera ronda)",
   "Primera ronda",
+  "Segunda ronda",
   "Fase de grupos",
   "Desempate por el segundo puesto del grupo",
   "Desempate por el primer puesto del grupo",
+  "Playoffs de octavos",
   "Octavos de final",
   "Cuartos de final",
   "Semifinal",
@@ -39,6 +41,8 @@ const REACHED: Record<string, string> = {
   "Fase previa (segunda ronda)": "fase previa",
   "Fase previa (tercera ronda)": "fase previa",
   "Primera ronda": "primera ronda",
+  "Segunda ronda": "segunda ronda",
+  "Playoffs de octavos": "playoffs de octavos",
   "Fase de grupos": "fase de grupos",
   "Desempate por el segundo puesto del grupo": "fase de grupos",
   "Desempate por el primer puesto del grupo": "fase de grupos",
@@ -157,4 +161,55 @@ const LIBERTADORES: Series = {
             : "Fases previas, fase de grupos y eliminación directa a dos partidos; desde 2019, final a partido único en cancha neutral.",
 };
 
-export const CUP_TOURNAMENTS_CONMEBOL: TournamentConfig[] = [...editions(LIBERTADORES)];
+const SUDAMERICANA: Series = {
+  key: "sudamericana",
+  name: "Copa Sudamericana",
+  officialName: () => "Copa Sudamericana",
+  clubPage: "sudamcup-arg.html",
+  editionPage: (y) => (y > 2024 ? null : y < 2010 ? `sudamcup${String(y).slice(2)}.html` : `sudamcup${y}.html`),
+  wiki: (y) => `Copa Sudamericana ${y}`,
+  formato: (y) =>
+    y <= 2016
+      ? "Eliminación directa a dos partidos desde la primera ronda, con penales si la serie terminaba igualada."
+      : y <= 2020
+        ? "Eliminación directa a dos partidos desde la primera fase, con penales si la serie terminaba igualada."
+        : "Primera fase, fase de grupos, playoffs de octavos (con los terceros de la Libertadores) y eliminación directa; final a partido único en cancha neutral.",
+};
+
+const SUPERCOPA: Series = {
+  key: "supercopa",
+  name: "Supercopa Sudamericana",
+  officialName: () => "Supercopa Libertadores (Supercopa Sudamericana)",
+  clubPage: "supcopa-arg.html",
+  editionPage: (y) => `supcopa${String(y).slice(2)}.html`,
+  wiki: (y) => `Supercopa Sudamericana ${y}`,
+  formato: () => "Entre los campeones de la Copa Libertadores, a eliminación directa en partidos de ida y vuelta (1988–1997).",
+};
+
+const CONMEBOL_CUP: Series = {
+  key: "conmebol",
+  name: "Copa Conmebol",
+  officialName: () => "Copa Conmebol",
+  clubPage: "conmebol-arg.html",
+  editionPage: (y) => `conmebol${String(y).slice(2)}.html`,
+  wiki: (y) => `Copa Conmebol ${y}`,
+  formato: () => "Eliminación directa a dos partidos entre clubes que no jugaban la Libertadores (1992–1999), con penales si la serie terminaba igualada.",
+};
+
+const MERCOSUR: Series = {
+  key: "mercosur",
+  name: "Copa Mercosur",
+  officialName: () => "Copa Mercosur",
+  clubPage: "mercosur-arg.html",
+  editionPage: (y) => `mercosur${String(y).slice(2)}.html`,
+  wiki: (y) => `Copa Mercosur ${y}`,
+  formato: () => "Fase de grupos y eliminación directa entre clubes de Argentina, Brasil, Chile, Paraguay y Uruguay (1998–2001).",
+};
+
+export const CUP_TOURNAMENTS_CONMEBOL: TournamentConfig[] = [
+  ...editions(LIBERTADORES),
+  ...editions(SUDAMERICANA),
+  ...editions(SUPERCOPA),
+  ...editions(CONMEBOL_CUP),
+  ...editions(MERCOSUR),
+];

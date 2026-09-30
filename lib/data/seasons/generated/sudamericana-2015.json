@@ -1,0 +1,408 @@
+{
+ "slug": "sudamericana-2015",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "huracan"
+ ],
+ "year": 2015,
+ "title": "Copa Sudamericana 2015",
+ "tournament": "Copa Sudamericana 2015",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "independiente-santa-fe-co"
+ ],
+ "summary": "Campeón: Independiente Santa Fe (Colombia); finalista: Huracán. Clubes argentinos: Huracán (finalista), River Plate (semifinal), Independiente (cuartos), Lanús (octavos), Arsenal de Sarandí (segunda ronda), Belgrano (segunda ronda), Tigre (segunda ronda).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Sudamericana 2015",
+   "url": "https://www.rsssf.org/sacups/sudamcup2015.html"
+  },
+  {
+   "label": "RSSSF – Clubes argentinos en la Copa Sudamericana",
+   "url": "https://www.rsssf.org/sacups/sudamcup-arg.html"
+  },
+  {
+   "label": "Wikipedia – Copa Sudamericana 2015",
+   "url": "https://es.wikipedia.org/wiki/Copa_Sudamericana_2015"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Eliminación directa a dos partidos desde la primera ronda, con penales si la serie terminaba igualada."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-001",
+   "date": "2015-08-26",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "venue": "Sarandí",
+   "homeId": "arsenal",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-002",
+   "date": "2015-08-26",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "venue": "Victoria",
+   "homeId": "tigre",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 5
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-003",
+   "date": "2015-08-27",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "venue": "Córdoba",
+   "homeId": "belgrano",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-004",
+   "date": "2015-09-16",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "independiente",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-005",
+   "date": "2015-09-16",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "huracan",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-006",
+   "date": "2015-09-17",
+   "stage": "Segunda ronda",
+   "phase": "cup",
+   "venue": "Lanús",
+   "homeId": "lanus",
+   "awayId": "belgrano",
+   "homeGoals": 5,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-007",
+   "date": "2015-09-23",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Recife",
+   "homeId": "sport-recife-br",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-008",
+   "date": "2015-09-23",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "independiente",
+   "awayId": "olimpia-py",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-009",
+   "date": "2015-09-23",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "liga-de-quito-ec",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-010",
+   "date": "2015-09-24",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Lanús",
+   "homeId": "lanus",
+   "awayId": "defensor-uy",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-011",
+   "date": "2015-09-30",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "huracan",
+   "awayId": "sport-recife-br",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-012",
+   "date": "2015-09-30",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "olimpia-py",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-013",
+   "date": "2015-09-30",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Quito",
+   "homeId": "liga-de-quito-ec",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-014",
+   "date": "2015-10-01",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "defensor-uy",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "advancedId": "defensor-uy",
+   "note": "Penales: 5-3."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-015",
+   "date": "2015-10-20",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "huracan",
+   "awayId": "defensor-uy",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-016",
+   "date": "2015-10-21",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "chapecoense-br",
+   "homeGoals": 3,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-017",
+   "date": "2015-10-22",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "independiente",
+   "awayId": "independiente-santa-fe-co",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-018",
+   "date": "2015-10-27",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "defensor-uy",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-019",
+   "date": "2015-10-28",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Chapecó",
+   "homeId": "chapecoense-br",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-020",
+   "date": "2015-10-29",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Bogotá",
+   "homeId": "independiente-santa-fe-co",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-021",
+   "date": "2015-11-05",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-022",
+   "date": "2015-11-26",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "huracan",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-023",
+   "date": "2015-12-02",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "huracan",
+   "awayId": "independiente-santa-fe-co",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Sudamericana",
+   "id": "sudamericana-2015-024",
+   "date": "2015-12-09",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Bogotá",
+   "homeId": "independiente-santa-fe-co",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "advancedId": "independiente-santa-fe-co",
+   "note": "Penales: 3-1."
+  }
+ ]
+}

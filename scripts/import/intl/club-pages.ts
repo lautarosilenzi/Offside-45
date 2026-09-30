@@ -21,6 +21,8 @@ export type ClubPageMatch = {
   awarded?: "club" | "opp";
   // Resultado que dio la liga ("3-0*"), del lado del club argentino.
   awardedScore?: [number, number];
+  // Por escritorio sin el resultado de la cancha en la página.
+  fieldUnknown?: boolean;
   opp: string;
   scorers?: string;
   line: string;
@@ -100,10 +102,12 @@ export function readClubPage(file: string): ClubPage {
     const name = rest2.replace(/\[.*$/, "").split(/\t+|\s{2,}/).map((s) => s.trim()).filter(Boolean)[0] ?? "";
     const opp = tag && name ? `${name} (${tag[1]}.)` : name;
     let awarded: "club" | "opp" | undefined;
+    let fieldUnknown = false;
     if (wp || starred) {
       awarded = wp ? (wp[1] === "wp" ? "club" : "opp") : +starred![1] > +starred![2] ? "club" : "opp";
       const field = after.match(/\[(\d+)-(\d+)\]\s*$/);
-      if (!field) problems.push(`${club} ${no}: por escritorio sin el resultado de la cancha: ${l.trim()}`);
+      // Sin el resultado de la cancha (ej. suspendido): queda 0-0 y el importador exige un arreglo con el resultado.
+      if (!field) fieldUnknown = true;
       else [sc[2], sc[3]] = [field[1], field[2]];
     }
     if (!place || !team || !opp) problems.push(`${club} ${no}: línea rara: ${l.trim()}`);
@@ -119,6 +123,7 @@ export function readClubPage(file: string): ClubPage {
       oppGoals: +sc[3]!,
       ...(sc[1] !== undefined && sc[4] !== undefined && { pens: [+sc[1], +sc[4]] as [number, number] }),
       ...(awarded && { awarded }),
+      ...(fieldUnknown && { fieldUnknown }),
       ...(starred && { awardedScore: [+starred[1], +starred[2]] as [number, number] }),
       opp,
       ...(scorers && { scorers }),

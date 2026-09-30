@@ -34,11 +34,19 @@ export function readEditionPage(file: string): EditionLine[] {
       out.push({ kind: "match", month, day: +d[1], home: d[3].trim(), away: d[4].trim(), hg: +d[5], ag: +d[6], raw: line.trim() });
       continue;
     }
+    // Serie con el país entre paréntesis (Supercopa 1988): "Independiente (ARG) - Cruzeiro (BRA)   1-2  0-1".
+    const p = line.match(/^\s*(.+?)\s*\(([A-Z]{3})\)\s+-\s+(.+?)\s*\(([A-Z]{3})\)\s+(\d.*)$/);
+    if (p) {
+      const legs = [...p[5].replace(/\[[^\]]*\]/g, " ").matchAll(/(\d+)\s*-\s*(\d+)/g)].map((x) => [+x[1], +x[2]] as [number, number]);
+      if (legs.length) out.push({ kind: "tie", a: p[1].trim(), b: p[3].trim(), legs, raw: line.trim() });
+      continue;
+    }
     // Serie: dos equipos con su país (código de tres letras) y los resultados de cada partido.
     const t = line.match(/^\s*(.+?)(?:\s{2,}|(?<=\))\s?)([A-Z][a-z]{2})\s+(.+?)(?:\s{2,}|(?<=\))\s?)([A-Z][a-z]{2})\s+(.*)$/);
     if (t) {
       const po = t[5].match(/\[(\d+)\s*-\s*(\d+)\]/);
-      const legs = [...t[5].replace(/\[[^\]]*\]/g, " ").matchAll(/(\d+)\s*-\s*(\d+)/g)].map((x) => [+x[1], +x[2]] as [number, number]);
+      // "awd" (partido dado por escritorio) ocupa el lugar de un resultado: queda como [-1, -1].
+      const legs = [...t[5].replace(/\[[^\]]*\]/g, " ").matchAll(/(\d+)\s*-\s*(\d+)|\bawd\b/g)].map((x) => (x[1] ? [+x[1], +x[2]] : [-1, -1]) as [number, number]);
       if (legs.length) out.push({ kind: "tie", a: t[1].trim(), b: t[3].trim(), legs, ...(po && { playoff: [+po[1], +po[2]] as [number, number] }), raw: line.trim() });
     }
   }

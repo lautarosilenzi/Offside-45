@@ -1,0 +1,136 @@
+{
+ "slug": "conmebol-1994",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "penarol-uy"
+ ],
+ "year": 1994,
+ "title": "Copa Conmebol 1994",
+ "tournament": "Copa Conmebol 1994",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "sao-paulo-br"
+ ],
+ "summary": "Campeón: São Paulo (Brasil); finalista: Peñarol (Uruguay). Clubes argentinos: San Lorenzo (cuartos), Huracán (primera ronda), Lanús (primera ronda).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Conmebol 1994",
+   "url": "https://www.rsssf.org/sacups/conmebol94.html"
+  },
+  {
+   "label": "RSSSF – Clubes argentinos en la Copa Conmebol",
+   "url": "https://www.rsssf.org/sacups/conmebol-arg.html"
+  },
+  {
+   "label": "Wikipedia – Copa Conmebol 1994",
+   "url": "https://es.wikipedia.org/wiki/Copa_Conmebol_1994"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Eliminación directa a dos partidos entre clubes que no jugaban la Libertadores (1992–1999), con penales si la serie terminaba igualada."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Conmebol",
+   "id": "conmebol-1994-001",
+   "date": "1994-11-02",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "huracan",
+   "awayId": "cerro-cora-py",
+   "homeGoals": 1,
+   "awayGoals": 4
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Conmebol",
+   "id": "conmebol-1994-002",
+   "date": "1994-11-02",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "venue": "Lanús",
+   "homeId": "lanus",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Conmebol",
+   "id": "conmebol-1994-003",
+   "date": "1994-11-09",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "cerro-cora-py",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Conmebol",
+   "id": "conmebol-1994-004",
+   "date": "1994-11-10",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "sanlorenzo",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "advancedId": "sanlorenzo",
+   "note": "Penales: 4-2."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Conmebol",
+   "id": "conmebol-1994-005",
+   "date": "1994-11-15",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "sanlorenzo",
+   "awayId": "universidad-de-chile-cl",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Conmebol",
+   "id": "conmebol-1994-006",
+   "date": "1994-11-22",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Santiago",
+   "homeId": "universidad-de-chile-cl",
+   "awayId": "sanlorenzo",
+   "homeGoals": 3,
+   "awayGoals": 1
+  }
+ ]
+}
