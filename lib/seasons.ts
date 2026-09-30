@@ -25,6 +25,41 @@ export const CUP_COMPETITIONS: { name: string; editions: Season[] }[] = [...new 
   (name) => ({ name, editions: CUP_SEASONS.filter((s) => cupName(s) === name).sort((a, b) => a.year - b.year) }),
 );
 
+// Torneos de liga que dan título: se dejan afuera las liguillas, promociones, reclasificaciones y desempates
+// (el campeón del Apertura 2006/07 o 2008/09 ya figura en su torneo).
+const NOT_A_TITLE = /(pre-libertadores|prelibertadores|liguilla|desempate|promocion|reclasificacion|octogonal|petit|reducido|promocional|clasificacion)/;
+export const LEAGUE_TITLES = LEAGUE_SEASONS.filter((s) => !NOT_A_TITLE.test(s.slug) && (s.championIds.length || s.inProgress));
+
+// Títulos de Primera sin partidos propios: se definen con los partidos de otros torneos.
+export const EXTRA_TITLES: { year: number; label: string; championId: string; note: string; href: string }[] = [
+  {
+    year: 2025,
+    label: "Campeón de Liga",
+    championId: "central",
+    note: "Primero de la tabla anual (Apertura + Clausura). Título creado por la AFA en noviembre de 2025.",
+    href: "/temporadas/2025-clausura",
+  },
+];
+
+// Nombre del torneo en la lista de campeones: "Metropolitano", "Apertura", "Asociación Amateurs"…
+export function titleLabel(s: Season): string {
+  if (s.kind === "cup") return cupName(s);
+  if (s.slug === "1990-91-final") return "Primera División";
+  if (/-final$/.test(s.slug)) return "Torneo Final";
+  const byLeague: Record<string, string> = {
+    AAm: "Asociación Amateurs",
+    FAF: "Federación Argentina",
+    Amateur: "Liga amateur (AAF)",
+    "Final de campeones": "Primera División (final de campeones)",
+  };
+  if (s.league) return byLeague[s.league] ?? s.league;
+  if (s.year >= 1931 && s.year <= 1934) return "Liga Argentina (profesional)";
+  if ((s.year >= 1912 && s.year <= 1914) || (s.year >= 1919 && s.year <= 1926)) return "Asociación Argentina";
+  if (s.year === 1936) return "Copa Campeonato";
+  const named = s.title.match(/^(Superliga|Liga Profesional)/);
+  return named ? named[1] : "Primera División";
+}
+
 // Anterior y siguiente dentro de la misma serie: las ligas entre sí y cada copa con sus propias ediciones.
 export function siblingsOf(season: Season): { prev?: Season; next?: Season } {
   const list = season.kind === "cup" ? CUP_COMPETITIONS.find((c) => c.name === cupName(season))!.editions : LEAGUE_SEASONS;

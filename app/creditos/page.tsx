@@ -2,12 +2,15 @@ import type { Metadata } from "next";
 import Crest from "@/components/Crest";
 import PageHero from "@/components/PageHero";
 import { CRESTS } from "@/lib/crests";
+import { BALLON_DOR } from "@/lib/data/ballon-dor";
 import { getTeam } from "@/lib/teams";
 
 export const metadata: Metadata = { title: "Fuentes y créditos · Offside 45" };
 
 export default function CreditsPage() {
   const crests = Object.entries(CRESTS).filter(([id]) => id !== "lomas-academy");
+  // Una foto por jugador (la misma se repite en cada año que ganó).
+  const photos = BALLON_DOR.filter((b, i) => BALLON_DOR.findIndex((x) => x.photo.file === b.photo.file) === i);
 
   return (
     <>
@@ -48,6 +51,32 @@ export default function CreditsPage() {
                 </li>
               );
             })}
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="section-title mb-3">Fotos del Balón de Oro</h2>
+          <p className="mb-3 text-sm text-navy-600">
+            La lista de ganadores sale de Wikipedia. Las fotos son de Wikimedia Commons, con licencia libre; se muestran desde
+            Commons y cada una lleva a su página con el autor y la licencia.
+          </p>
+          <ul className="panel divide-y divide-navy-100 text-sm">
+            {photos.map((b) => (
+              <li key={b.photo.file} className="flex flex-wrap items-center gap-x-3 gap-y-0.5 px-4 py-2">
+                <span className="flex-1 font-medium text-navy-800">{b.name}</span>
+                <span className="text-xs text-navy-500">
+                  {b.photo.author} · {b.photo.license}
+                </span>
+                <a
+                  href={`https://commons.wikimedia.org/wiki/File:${encodeURIComponent(b.photo.file)}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-xs text-brand-500 hover:underline"
+                >
+                  Wikimedia Commons
+                </a>
+              </li>
+            ))}
           </ul>
         </section>
       </main>

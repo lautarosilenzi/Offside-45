@@ -84,6 +84,8 @@ export type TournamentConfig = {
   file: string;
   // URL de la página en RSSSF cuando no está en tablesa/ (la Tie Cup está en sacups/).
   sourceUrl?: string;
+  // Fuentes cuando RSSSF todavía no publicó el torneo (reemplazan el enlace a RSSSF).
+  sourceLinks?: { label: string; url: string }[];
   // Sección de la página (por título) o índice. Por defecto, la primera con partidos.
   section?: RegExp | number;
   // Tabla publicada a usar; con varias (zonas) se concatenan y groupNames les pone nombre.

@@ -1274,7 +1274,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     summary: cfg.summary || cupSummary(cfg, matches),
     pointsPerWin: cfg.pointsPerWin ?? 2,
     ...(cfg.drawShootout && { drawShootout: cfg.drawShootout }),
-    sources: [{ label: cfg.kind === "cup" ? `RSSSF – ${cfg.title}` : `RSSSF – Argentina ${cfg.year}`, url: cfg.sourceUrl ?? `https://www.rsssf.org/tablesa/${cfg.file}` }, ...(cfg.wiki ? [{ label: `Wikipedia – ${cfg.wiki}`, url: `https://es.wikipedia.org/wiki/${encodeURIComponent(cfg.wiki.replace(/ /g, "_"))}` }] : [])],
+    sources: cfg.sourceLinks ?? [{ label: cfg.kind === "cup" ? `RSSSF – ${cfg.title}` : `RSSSF – Argentina ${cfg.year}`, url: cfg.sourceUrl ?? `https://www.rsssf.org/tablesa/${cfg.file}` }, ...(cfg.wiki ? [{ label: `Wikipedia – ${cfg.wiki}`, url: `https://es.wikipedia.org/wiki/${encodeURIComponent(cfg.wiki.replace(/ /g, "_"))}` }] : [])],
     notes: [
       ...cfg.notes,
       ...(cfg.reentry ? [{ kind: "dato" as const, text: cfg.reentry.note }] : []),

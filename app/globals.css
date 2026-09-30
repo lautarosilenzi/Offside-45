@@ -13,6 +13,14 @@ body {
   background-attachment: fixed;
 }
 
+/* Filtro de la página de campeones: oculta los títulos (y los años) del otro tipo. */
+[data-filter="league"] [data-kind="cup"],
+[data-filter="league"] [data-kinds="cup"],
+[data-filter="cup"] [data-kind="league"],
+[data-filter="cup"] [data-kinds="league"] {
+  display: none;
+}
+
 @layer components {
   /* Panel: tarjeta redondeada, blanca semitransparente y con sombra suave. La unidad básica de la interfaz. */
   .panel {

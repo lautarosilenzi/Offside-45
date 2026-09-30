@@ -186,4 +186,16 @@ export const CUP_TOURNAMENTS_MODERN: TournamentConfig[] = [
     ["velez"], ["estudiantes"],
     "Vélez, primero de la tabla anual 2024, le ganó 2-0 a Estudiantes, ganador del Trofeo de Campeones, en Avellaneda (julio de 2025).",
     INTERNACIONAL),
+  // Todavía no está en RSSSF: resultado de la Liga Profesional, confirmado por la lista de copas de Wikipedia y la prensa.
+  copa("supercopa-internacional", 2025, "Supercopa Internacional", "arg2025.html", LPF,
+    [["2026-09-26", "Final", "estudiantes", 1, 3, "central", en("Estadio Único Madre de Ciudades (Santiago del Estero)", { note: "Goles: A. Castro 1' (E); Di María 23' y 56' (penal), J. Fernández (RC).", sources: ["wikipedia-es"] })]],
+    ["central"], ["estudiantes"],
+    "Rosario Central, primero de la tabla anual 2025, le ganó 3-1 a Estudiantes, ganador del Trofeo de Campeones, en Santiago del Estero (septiembre de 2026).",
+    INTERNACIONAL,
+    {
+      sourceLinks: [
+        { label: "Liga Profesional – Final de la Supercopa Internacional", url: "https://www.ligaprofesional.ar/notas/supercopa-internacional/2026/09/26/hoy-se-juega-la-final-de-la-supercopa-internacional/" },
+        { label: "Wikipedia – Copas nacionales del fútbol argentino", url: "https://es.wikipedia.org/wiki/Copas_nacionales_del_f%C3%BAtbol_argentino" },
+      ],
+    }),
 ];
