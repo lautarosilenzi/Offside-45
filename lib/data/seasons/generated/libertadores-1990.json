@@ -1,0 +1,196 @@
+{
+ "slug": "libertadores-1990",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "barcelona-ec"
+ ],
+ "year": 1990,
+ "title": "Copa Libertadores 1990",
+ "tournament": "Copa Libertadores de América 1990",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "olimpia-py"
+ ],
+ "summary": "Campeón: Olimpia (Paraguay); finalista: Barcelona (Ecuador). Clubes argentinos: River Plate (semifinal), Independiente (cuartos).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Libertadores 1990",
+   "url": "https://www.rsssf.org/sacups/copa90.html"
+  },
+  {
+   "label": "RSSSF – Clubes argentinos en la Copa Libertadores",
+   "url": "https://www.rsssf.org/sacups/copalibarg.html"
+  },
+  {
+   "label": "Wikipedia – Copa Libertadores 1990",
+   "url": "https://es.wikipedia.org/wiki/Copa_Libertadores_1990"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Fase de grupos y eliminación directa a dos partidos; los empates en la serie se definían por penales."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1990-001",
+   "date": "1990-03-25",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1990-002",
+   "date": "1990-04-01",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1990-003",
+   "date": "1990-08-04",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "San Cristobal",
+   "homeId": "pepeganga-ve",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 6
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1990-004",
+   "date": "1990-08-05",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "defensor-uy",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1990-005",
+   "date": "1990-08-12",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "defensor-uy",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1990-006",
+   "date": "1990-08-15",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "independiente",
+   "awayId": "pepeganga-ve",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1990-007",
+   "date": "1990-08-22",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1990-008",
+   "date": "1990-08-29",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1990-009",
+   "date": "1990-09-05",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "barcelona-ec",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1990-010",
+   "date": "1990-09-12",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Guayaquil",
+   "homeId": "barcelona-ec",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "advancedId": "barcelona-ec",
+   "note": "Penales: 4-3."
+  }
+ ]
+}

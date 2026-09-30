@@ -657,7 +657,8 @@ function stageOfRound(raw: RawMatch): { stage?: string; phase: Match["phase"] } 
 export async function buildTournament(cfg: TournamentConfig): Promise<{ season: Season; problems: string[]; warnings: string[] }> {
   const problems: string[] = [];
   const warnings: string[] = [];
-  const allParsed = parseSeason(await fetchPage(cfg.file), {
+  // Torneos cargados enteros en la configuración (extraMatches): no se lee la página.
+  const allParsed = cfg.manualOnly ? [] : parseSeason(await fetchPage(cfg.file), {
     cup: cfg.kind === "cup",
     headings: cfg.headings,
     groups: cfg.groupLines,
@@ -735,6 +736,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
       }),
     };
   }
+  if (!section && cfg.manualOnly) section = { heading: "", tables: [], text: [], matches: [] };
   if (!section) throw new Error(`${cfg.slug}: no encontré la sección`);
 
   const matches: Match[] = [];

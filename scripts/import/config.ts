@@ -90,6 +90,8 @@ export type TournamentConfig = {
   sourceUrl?: string;
   // Fuentes cuando RSSSF todavía no publicó el torneo (reemplazan el enlace a RSSSF).
   sourceLinks?: { label: string; url: string }[];
+  // Todos los partidos vienen en extraMatches: no se lee la página de RSSSF (copas internacionales).
+  manualOnly?: boolean;
   // Sección de la página (por título) o índice. Por defecto, la primera con partidos.
   section?: RegExp | number;
   // Tabla publicada a usar; con varias (zonas) se concatenan y groupNames les pone nombre.

@@ -1,0 +1,104 @@
+{
+ "slug": "libertadores-1962",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "penarol-uy"
+ ],
+ "year": 1962,
+ "title": "Copa Libertadores 1962",
+ "tournament": "Copa de Campeones de América 1962",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "santos-br"
+ ],
+ "summary": "Campeón: Santos (Brasil); finalista: Peñarol (Uruguay). Clubes argentinos: Racing Club (fase de grupos).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Libertadores 1962",
+   "url": "https://www.rsssf.org/sacups/copa62.html"
+  },
+  {
+   "label": "RSSSF – Clubes argentinos en la Copa Libertadores",
+   "url": "https://www.rsssf.org/sacups/copalibarg.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Campeones de América 1962",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Campeones_de_Am%C3%A9rica_1962"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Grupos por países y después semifinales en grupos de tres; final a dos partidos, con desempate en cancha neutral si cada uno ganaba uno."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1962-001",
+   "date": "1962-02-14",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "sporting-cristal-pe",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1962-002",
+   "date": "1962-02-20",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Lima",
+   "homeId": "sporting-cristal-pe",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1962-003",
+   "date": "1962-02-24",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "nacional-uy",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1962-004",
+   "date": "1962-02-27",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "nacional-uy",
+   "homeGoals": 2,
+   "awayGoals": 2
+  }
+ ]
+}

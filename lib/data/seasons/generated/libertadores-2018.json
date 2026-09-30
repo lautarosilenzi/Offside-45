@@ -1,0 +1,980 @@
+{
+ "slug": "libertadores-2018",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "boca"
+ ],
+ "year": 2018,
+ "title": "Copa Libertadores 2018",
+ "tournament": "Copa Libertadores de América 2018",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "river"
+ ],
+ "summary": "Campeón argentino: River Plate; finalista: Boca Juniors. Clubes argentinos: River Plate (campeón), Boca Juniors (finalista), Atlético Tucumán (cuartos), Independiente (cuartos), Estudiantes (LP) (octavos), Racing Club (octavos), Banfield (fase previa).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Libertadores 2018",
+   "url": "https://www.rsssf.org/sacups/copa2018.html"
+  },
+  {
+   "label": "RSSSF – Clubes argentinos en la Copa Libertadores",
+   "url": "https://www.rsssf.org/sacups/copalibarg.html"
+  },
+  {
+   "label": "Wikipedia – Copa Libertadores 2018",
+   "url": "https://es.wikipedia.org/wiki/Copa_Libertadores_2018"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Fase previa, fase de grupos y eliminación directa a dos partidos, con penales si la serie terminaba igualada."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-001",
+   "date": "2018-01-30",
+   "stage": "Fase previa (segunda ronda)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "banfield",
+   "awayId": "independiente-del-valle-ec",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-002",
+   "date": "2018-02-06",
+   "stage": "Fase previa (segunda ronda)",
+   "phase": "cup",
+   "venue": "Quito",
+   "homeId": "independiente-del-valle-ec",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-003",
+   "date": "2018-02-14",
+   "stage": "Fase previa (tercera ronda)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "banfield",
+   "awayId": "nacional-uy",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-004",
+   "date": "2018-02-21",
+   "stage": "Fase previa (tercera ronda)",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "nacional-uy",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-005",
+   "date": "2018-02-27",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "cruzeiro-br",
+   "homeGoals": 4,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-006",
+   "date": "2018-02-28",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "nacional-uy",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-007",
+   "date": "2018-02-28",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Río de Janeiro",
+   "homeId": "flamengo-br",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-008",
+   "date": "2018-03-01",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Lima",
+   "homeId": "alianza-lima-pe",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-009",
+   "date": "2018-03-01",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Cabudare",
+   "homeId": "deportivo-lara-ve",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-010",
+   "date": "2018-03-13",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "S.M.de Tucumán",
+   "homeId": "atletico-tucuman",
+   "awayId": "libertad-py",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-011",
+   "date": "2018-03-14",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "real-garcilaso-pe",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-012",
+   "date": "2018-03-15",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "independiente",
+   "awayId": "millonarios-co",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-013",
+   "date": "2018-04-03",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Santiago",
+   "homeId": "universidad-de-chile-cl",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-014",
+   "date": "2018-04-04",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "penarol-uy",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-015",
+   "date": "2018-04-04",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "atletico-junior-co",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-016",
+   "date": "2018-04-05",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "santos-br",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-017",
+   "date": "2018-04-05",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "independiente-santa-fe-co",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-018",
+   "date": "2018-04-11",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "palmeiras-br",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-019",
+   "date": "2018-04-18",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "La Paz",
+   "homeId": "the-strongest-bo",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-020",
+   "date": "2018-04-18",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "independiente",
+   "awayId": "corinthians-br",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-021",
+   "date": "2018-04-19",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "vasco-br",
+   "homeGoals": 4,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-022",
+   "date": "2018-04-19",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Guayaquil",
+   "homeId": "emelec-ec",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-023",
+   "date": "2018-04-24",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Santos",
+   "homeId": "santos-br",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-024",
+   "date": "2018-04-25",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "S.M.de Tucumán",
+   "homeId": "atletico-tucuman",
+   "awayId": "the-strongest-bo",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-025",
+   "date": "2018-04-25",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "palmeiras-br",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-026",
+   "date": "2018-04-26",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Río de Janeiro",
+   "homeId": "vasco-br",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-027",
+   "date": "2018-04-26",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "emelec-ec",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-028",
+   "date": "2018-05-01",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Cuzco",
+   "homeId": "real-garcilaso-pe",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-029",
+   "date": "2018-05-02",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "S.M.de Tucumán",
+   "homeId": "atletico-tucuman",
+   "awayId": "penarol-uy",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-030",
+   "date": "2018-05-02",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Barranquilla",
+   "homeId": "atletico-junior-co",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-031",
+   "date": "2018-05-02",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "corinthians-br",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-032",
+   "date": "2018-05-03",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "universidad-de-chile-cl",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-033",
+   "date": "2018-05-03",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Bogotá",
+   "homeId": "independiente-santa-fe-co",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-034",
+   "date": "2018-05-16",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "alianza-lima-pe",
+   "homeGoals": 5,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-035",
+   "date": "2018-05-17",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "libertad-py",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-036",
+   "date": "2018-05-17",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Bogotá",
+   "homeId": "millonarios-co",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-037",
+   "date": "2018-05-22",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Belo Horizonte",
+   "homeId": "cruzeiro-br",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-038",
+   "date": "2018-05-23",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "flamengo-br",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-039",
+   "date": "2018-05-24",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "nacional-uy",
+   "homeGoals": 3,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-040",
+   "date": "2018-05-24",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "independiente",
+   "awayId": "deportivo-lara-ve",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-041",
+   "date": "2018-08-07",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "gremio-br",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-042",
+   "date": "2018-08-08",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "libertad-py",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-043",
+   "date": "2018-08-09",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "S.M.de Tucumán",
+   "homeId": "atletico-tucuman",
+   "awayId": "atletico-nacional-co",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-044",
+   "date": "2018-08-09",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-045",
+   "date": "2018-08-21",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "independiente",
+   "awayId": "santos-br",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "awardedTo": "independiente",
+   "goalsVoid": true
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-046",
+   "date": "2018-08-28",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Medellín",
+   "homeId": "atletico-nacional-co",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-047",
+   "date": "2018-08-28",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Porto Alegre",
+   "homeId": "gremio-br",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "advancedId": "gremio-br",
+   "note": "Penales: 5-3."
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-048",
+   "date": "2018-08-28",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Santos",
+   "homeId": "santos-br",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-049",
+   "date": "2018-08-29",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-050",
+   "date": "2018-08-30",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "libertad-py",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 4
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-051",
+   "date": "2018-09-18",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "S.M.de Tucumán",
+   "homeId": "atletico-tucuman",
+   "awayId": "gremio-br",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-052",
+   "date": "2018-09-19",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "cruzeiro-br",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-053",
+   "date": "2018-09-19",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "independiente",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-054",
+   "date": "2018-10-02",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Porto Alegre",
+   "homeId": "gremio-br",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 4,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-055",
+   "date": "2018-10-02",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "independiente",
+   "homeGoals": 3,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-056",
+   "date": "2018-10-04",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Belo Horizonte",
+   "homeId": "cruzeiro-br",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-057",
+   "date": "2018-10-23",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "gremio-br",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-058",
+   "date": "2018-10-24",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "palmeiras-br",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-059",
+   "date": "2018-10-30",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Porto Alegre",
+   "homeId": "gremio-br",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-060",
+   "date": "2018-10-31",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "palmeiras-br",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-061",
+   "date": "2018-11-11",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2018-062",
+   "date": "2018-12-09",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Madrid",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 1
+  }
+ ]
+}

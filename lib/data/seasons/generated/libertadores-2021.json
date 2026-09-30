@@ -1,0 +1,830 @@
+{
+ "slug": "libertadores-2021",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "flamengo-br"
+ ],
+ "year": 2021,
+ "title": "Copa Libertadores 2021",
+ "tournament": "Copa Libertadores de América 2021",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "palmeiras-br"
+ ],
+ "summary": "Campeón: Palmeiras (Brasil); finalista: Flamengo (Brasil). Clubes argentinos: River Plate (cuartos), Argentinos Juniors (octavos), Boca Juniors (octavos), Defensa y Justicia (octavos), Racing Club (octavos), Vélez Sarsfield (octavos), San Lorenzo (fase previa).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Libertadores 2021",
+   "url": "https://www.rsssf.org/sacups/copa2021.html"
+  },
+  {
+   "label": "RSSSF – Clubes argentinos en la Copa Libertadores",
+   "url": "https://www.rsssf.org/sacups/copalibarg.html"
+  },
+  {
+   "label": "Wikipedia – Copa Libertadores 2021",
+   "url": "https://es.wikipedia.org/wiki/Copa_Libertadores_2021"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Fases previas, fase de grupos y eliminación directa a dos partidos; desde 2019, final a partido único en cancha neutral."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-001",
+   "date": "2021-03-10",
+   "stage": "Fase previa (segunda ronda)",
+   "phase": "cup",
+   "venue": "Santiago",
+   "homeId": "universidad-de-chile-cl",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-002",
+   "date": "2021-03-17",
+   "stage": "Fase previa (segunda ronda)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "sanlorenzo",
+   "awayId": "universidad-de-chile-cl",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-003",
+   "date": "2021-04-06",
+   "stage": "Fase previa (tercera ronda)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "sanlorenzo",
+   "awayId": "santos-br",
+   "homeGoals": 1,
+   "awayGoals": 3
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-004",
+   "date": "2021-04-13",
+   "stage": "Fase previa (tercera ronda)",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "santos-br",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-005",
+   "date": "2021-04-20",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "argentinos",
+   "awayId": "nacional-uy",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-006",
+   "date": "2021-04-20",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "velez",
+   "awayId": "flamengo-br",
+   "homeGoals": 2,
+   "awayGoals": 3
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-007",
+   "date": "2021-04-21",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "La Paz",
+   "homeId": "the-strongest-bo",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-008",
+   "date": "2021-04-21",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Quito",
+   "homeId": "independiente-del-valle-ec",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-009",
+   "date": "2021-04-21",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "rentistas-uy",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-010",
+   "date": "2021-04-22",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Río de Janeiro",
+   "homeId": "fluminense-br",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-011",
+   "date": "2021-04-27",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "santos-br",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-012",
+   "date": "2021-04-27",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Quito",
+   "homeId": "liga-de-quito-ec",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-013",
+   "date": "2021-04-28",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Florencio Varela",
+   "homeId": "defensa-y-justicia",
+   "awayId": "universitario-pe",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-014",
+   "date": "2021-04-28",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "atletico-junior-co",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-015",
+   "date": "2021-04-29",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Santiago",
+   "homeId": "universidad-catolica-cl",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-016",
+   "date": "2021-04-29",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "sporting-cristal-pe",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-017",
+   "date": "2021-05-04",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Guayaquil",
+   "homeId": "barcelona-ec",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-018",
+   "date": "2021-05-04",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Florencio Varela",
+   "homeId": "defensa-y-justicia",
+   "awayId": "palmeiras-br",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-019",
+   "date": "2021-05-04",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "La Calera",
+   "homeId": "union-la-calera-cl",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-020",
+   "date": "2021-05-05",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "sao-paulo-br",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-021",
+   "date": "2021-05-06",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "atletico-nacional-co",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-022",
+   "date": "2021-05-06",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "independiente-santa-fe-co",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-023",
+   "date": "2021-05-11",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "santos-br",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-024",
+   "date": "2021-05-11",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Lima",
+   "homeId": "sporting-cristal-pe",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-025",
+   "date": "2021-05-12",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "argentinos",
+   "awayId": "universidad-catolica-cl",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-026",
+   "date": "2021-05-12",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Lima",
+   "homeId": "universitario-pe",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-027",
+   "date": "2021-05-12",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Barranquilla",
+   "homeId": "atletico-junior-co",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-028",
+   "date": "2021-05-13",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "velez",
+   "awayId": "liga-de-quito-ec",
+   "homeGoals": 3,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-029",
+   "date": "2021-05-18",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "palmeiras-br",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 3,
+   "awayGoals": 4
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-030",
+   "date": "2021-05-18",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "sao-paulo-br",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-031",
+   "date": "2021-05-19",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "independiente-santa-fe-co",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-032",
+   "date": "2021-05-19",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "velez",
+   "awayId": "union-la-calera-cl",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-033",
+   "date": "2021-05-20",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "argentinos",
+   "awayId": "atletico-nacional-co",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-034",
+   "date": "2021-05-20",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "barcelona-ec",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-035",
+   "date": "2021-05-25",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "rentistas-uy",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-036",
+   "date": "2021-05-25",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "fluminense-br",
+   "homeGoals": 1,
+   "awayGoals": 3
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-037",
+   "date": "2021-05-26",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "nacional-uy",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-038",
+   "date": "2021-05-26",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "the-strongest-bo",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-039",
+   "date": "2021-05-27",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Florencio Varela",
+   "homeId": "defensa-y-justicia",
+   "awayId": "independiente-del-valle-ec",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-040",
+   "date": "2021-05-27",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Río de Janeiro",
+   "homeId": "flamengo-br",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-041",
+   "date": "2021-07-13",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "atletico-mineiro-br",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-042",
+   "date": "2021-07-13",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "sao-paulo-br",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-043",
+   "date": "2021-07-14",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-044",
+   "date": "2021-07-14",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Florencio Varela",
+   "homeId": "defensa-y-justicia",
+   "awayId": "flamengo-br",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-045",
+   "date": "2021-07-14",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "velez",
+   "awayId": "barcelona-ec",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-046",
+   "date": "2021-07-20",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Belo Horizonte",
+   "homeId": "atletico-mineiro-br",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "advancedId": "atletico-mineiro-br",
+   "note": "Penales: 3-1."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-047",
+   "date": "2021-07-20",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "sao-paulo-br",
+   "homeGoals": 1,
+   "awayGoals": 3
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-048",
+   "date": "2021-07-21",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "argentinos",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-049",
+   "date": "2021-07-21",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Brasilia",
+   "homeId": "flamengo-br",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 4,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-050",
+   "date": "2021-07-21",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Guayaquil",
+   "homeId": "barcelona-ec",
+   "awayId": "velez",
+   "homeGoals": 3,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-051",
+   "date": "2021-08-11",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "atletico-mineiro-br",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2021-052",
+   "date": "2021-08-18",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Belo Horizonte",
+   "homeId": "atletico-mineiro-br",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 0
+  }
+ ]
+}

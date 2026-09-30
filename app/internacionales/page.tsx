@@ -17,6 +17,8 @@ const ABOUT: Record<string, string> = {
   "Copa Aldao":
     "Campeonato Rioplatense: el campeón argentino contra el uruguayo (1916–1957), un año en cada país. La donó Ricardo Aldao, presidente de la Federación Argentina.",
   "Copa Escobar-Gerona": "Copa de Confraternidad entre los subcampeones de Argentina y Uruguay (1941–1946).",
+  "Copa Libertadores":
+    "La copa de clubes de la Conmebol, desde 1960 (hasta 1964, Copa de Campeones de América). De cada edición están todos los partidos de los clubes argentinos, confirmados con una segunda fuente; del resto, el campeón y el finalista.",
   "Campeonato Sudamericano de Campeones":
     "Siete campeones sudamericanos en Santiago de Chile, en 1948: el antecedente de la Copa Libertadores. River fue segundo.",
 };
@@ -82,8 +84,8 @@ export default function InternationalPage() {
         ))}
 
         <p className="text-sm text-navy-400">
-          Por ahora están las copas rioplatenses y el Sudamericano de Campeones de 1948. Se van a sumar, año por año, la Copa
-          Libertadores, la Intercontinental, la Interamericana, la Supercopa, la Recopa, la Copa Conmebol, la Mercosur, la
+          Por ahora están las copas rioplatenses, el Sudamericano de Campeones de 1948 y la Copa Libertadores (1960–2025). Se
+          van a sumar la Intercontinental, la Interamericana, la Supercopa, la Recopa, la Copa Conmebol, la Mercosur, la
           Sudamericana y el Mundial de Clubes. De las copas con clubes de otros países solo se cargan los partidos de los
           clubes argentinos. Las ediciones 1900–1906 de la Copa Chevallier Boutell también figuran en{" "}
           <Link href="/copas" className="text-brand-500 hover:underline">

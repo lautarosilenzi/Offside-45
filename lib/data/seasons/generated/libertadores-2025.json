@@ -1,0 +1,909 @@
+{
+ "slug": "libertadores-2025",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "palmeiras-br"
+ ],
+ "year": 2025,
+ "title": "Copa Libertadores 2025",
+ "tournament": "Copa Libertadores de América 2025",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "flamengo-br"
+ ],
+ "summary": "Campeón: Flamengo (Brasil); finalista: Palmeiras (Brasil). Clubes argentinos: Racing Club (semifinal), Estudiantes (LP) (cuartos), River Plate (cuartos), Vélez Sarsfield (cuartos), Central Córdoba (SdE) (fase de grupos), Talleres (C) (fase de grupos), Boca Juniors (fase previa).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Clubes argentinos en la Copa Libertadores",
+   "url": "https://www.rsssf.org/sacups/copalibarg.html"
+  },
+  {
+   "label": "Wikipedia – Copa Libertadores 2025",
+   "url": "https://es.wikipedia.org/wiki/Copa_Libertadores_2025"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Fases previas, fase de grupos y eliminación directa a dos partidos; desde 2019, final a partido único en cancha neutral."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-001",
+   "date": "2025-02-18",
+   "stage": "Fase previa (segunda ronda)",
+   "phase": "cup",
+   "venue": "Lima",
+   "homeId": "alianza-lima-pe",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "note": "Sin página de la edición en RSSSF: confirmado por Infobae y ESPN."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-002",
+   "date": "2025-02-25",
+   "stage": "Fase previa (segunda ronda)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "alianza-lima-pe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "advancedId": "alianza-lima-pe",
+   "note": "Penales: 4-5. Sin página de la edición en RSSSF: confirmado por Infobae y ESPN (Alianza ganó 5-4 por penales)."
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-003",
+   "date": "2025-04-01",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Valencia",
+   "homeId": "carabobo-ve",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-004",
+   "date": "2025-04-01",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Fortaleza",
+   "homeId": "fortaleza-br",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 3
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-005",
+   "date": "2025-04-02",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Lima",
+   "homeId": "universitario-pe",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-006",
+   "date": "2025-04-02",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Córdoba",
+   "homeId": "talleres",
+   "awayId": "sao-paulo-br",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-007",
+   "date": "2025-04-02",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "velez",
+   "awayId": "penarol-uy",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-008",
+   "date": "2025-04-03",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Sgo.del Estero",
+   "homeId": "central-cordoba-sde",
+   "awayId": "liga-de-quito-ec",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-009",
+   "date": "2025-04-08",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "universidad-de-chile-cl",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-010",
+   "date": "2025-04-08",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "barcelona-ec",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-011",
+   "date": "2025-04-08",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "libertad-py",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-012",
+   "date": "2025-04-09",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Río de Janeiro",
+   "homeId": "flamengo-br",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-013",
+   "date": "2025-04-09",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "olimpia-py",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 4
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-014",
+   "date": "2025-04-10",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "atletico-bucaramanga-co",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-015",
+   "date": "2025-04-22",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Santiago",
+   "homeId": "colo-colo-cl",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-016",
+   "date": "2025-04-22",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Lima",
+   "homeId": "alianza-lima-pe",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-017",
+   "date": "2025-04-23",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "botafogo-br",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-018",
+   "date": "2025-04-23",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Quito",
+   "homeId": "independiente-del-valle-ec",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-019",
+   "date": "2025-04-23",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Cochabamba",
+   "homeId": "san-antonio-bulo-bulo-bo",
+   "awayId": "velez",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-020",
+   "date": "2025-04-24",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Sgo.del Estero",
+   "homeId": "central-cordoba-sde",
+   "awayId": "deportivo-tachira-ve",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-021",
+   "date": "2025-05-06",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Bucaramanga",
+   "homeId": "atletico-bucaramanga-co",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 4
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-022",
+   "date": "2025-05-07",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Sgo.del Estero",
+   "homeId": "central-cordoba-sde",
+   "awayId": "flamengo-br",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-023",
+   "date": "2025-05-07",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Santiago",
+   "homeId": "universidad-de-chile-cl",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 3
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-024",
+   "date": "2025-05-08",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Guayaquil",
+   "homeId": "barcelona-ec",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 3
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-025",
+   "date": "2025-05-08",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Córdoba",
+   "homeId": "talleres",
+   "awayId": "libertad-py",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-026",
+   "date": "2025-05-08",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "velez",
+   "awayId": "olimpia-py",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-027",
+   "date": "2025-05-13",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "San Cristóbal",
+   "homeId": "deportivo-tachira-ve",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-028",
+   "date": "2025-05-14",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Río de Janeiro",
+   "homeId": "botafogo-br",
+   "awayId": "estudiantes",
+   "homeGoals": 3,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-029",
+   "date": "2025-05-14",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "colo-colo-cl",
+   "homeGoals": 4,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-030",
+   "date": "2025-05-14",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "velez",
+   "awayId": "san-antonio-bulo-bulo-bo",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-031",
+   "date": "2025-05-15",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "independiente-del-valle-ec",
+   "homeGoals": 6,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-032",
+   "date": "2025-05-15",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Córdoba",
+   "homeId": "talleres",
+   "awayId": "alianza-lima-pe",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-033",
+   "date": "2025-05-27",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "carabobo-ve",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-034",
+   "date": "2025-05-27",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "universitario-pe",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-035",
+   "date": "2025-05-27",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "sao-paulo-br",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-036",
+   "date": "2025-05-28",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Quito",
+   "homeId": "liga-de-quito-ec",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-037",
+   "date": "2025-05-29",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "fortaleza-br",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-038",
+   "date": "2025-05-29",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "penarol-uy",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-039",
+   "date": "2025-08-12",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "penarol-uy",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-040",
+   "date": "2025-08-12",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Fortaleza",
+   "homeId": "fortaleza-br",
+   "awayId": "velez",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-041",
+   "date": "2025-08-13",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "cerro-porteno-py",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-042",
+   "date": "2025-08-14",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "libertad-py",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-043",
+   "date": "2025-08-19",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "penarol-uy",
+   "homeGoals": 3,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-044",
+   "date": "2025-08-19",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "velez",
+   "awayId": "fortaleza-br",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-045",
+   "date": "2025-08-20",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "cerro-porteno-py",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-046",
+   "date": "2025-08-21",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "libertad-py",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "advancedId": "river",
+   "note": "Penales: 3-1."
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-047",
+   "date": "2025-09-16",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "velez",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-048",
+   "date": "2025-09-17",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "palmeiras-br",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-049",
+   "date": "2025-09-18",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Río de Janeiro",
+   "homeId": "flamengo-br",
+   "awayId": "estudiantes",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-050",
+   "date": "2025-09-23",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "velez",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-051",
+   "date": "2025-09-24",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "palmeiras-br",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-052",
+   "date": "2025-09-25",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "flamengo-br",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "advancedId": "flamengo-br",
+   "note": "Penales: 2-4."
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-053",
+   "date": "2025-10-22",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Río de Janeiro",
+   "homeId": "flamengo-br",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2025-054",
+   "date": "2025-10-29",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "flamengo-br",
+   "homeGoals": 0,
+   "awayGoals": 0
+  }
+ ]
+}

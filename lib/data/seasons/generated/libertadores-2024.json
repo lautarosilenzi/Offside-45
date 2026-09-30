@@ -1,0 +1,644 @@
+{
+ "slug": "libertadores-2024",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "atletico-mineiro-br"
+ ],
+ "year": 2024,
+ "title": "Copa Libertadores 2024",
+ "tournament": "Copa Libertadores de América 2024",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "botafogo-br"
+ ],
+ "summary": "Campeón: Botafogo (Brasil); finalista: Atlético Mineiro (Brasil). Clubes argentinos: River Plate (semifinal), San Lorenzo (octavos), Talleres (C) (octavos), Estudiantes (LP) (fase de grupos), Rosario Central (fase de grupos), Godoy Cruz Antonio Tomba (fase previa).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Libertadores 2024",
+   "url": "https://www.rsssf.org/sacups/copa2024.html"
+  },
+  {
+   "label": "RSSSF – Clubes argentinos en la Copa Libertadores",
+   "url": "https://www.rsssf.org/sacups/copalibarg.html"
+  },
+  {
+   "label": "Wikipedia – Copa Libertadores 2024",
+   "url": "https://es.wikipedia.org/wiki/Copa_Libertadores_2024"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Fases previas, fase de grupos y eliminación directa a dos partidos; desde 2019, final a partido único en cancha neutral."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-001",
+   "date": "2024-02-22",
+   "stage": "Fase previa (segunda ronda)",
+   "phase": "cup",
+   "venue": "Mendoza",
+   "homeId": "godoy-cruz",
+   "awayId": "colo-colo-cl",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-002",
+   "date": "2024-02-29",
+   "stage": "Fase previa (segunda ronda)",
+   "phase": "cup",
+   "venue": "Santiago",
+   "homeId": "colo-colo-cl",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-003",
+   "date": "2024-04-02",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "San Cristóbal",
+   "homeId": "deportivo-tachira-ve",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-004",
+   "date": "2024-04-03",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Talcuahuano",
+   "homeId": "huachipato-cl",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-005",
+   "date": "2024-04-03",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "sanlorenzo",
+   "awayId": "palmeiras-br",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-006",
+   "date": "2024-04-04",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Rosario",
+   "homeId": "central",
+   "awayId": "penarol-uy",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-007",
+   "date": "2024-04-04",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Córdoba",
+   "homeId": "talleres",
+   "awayId": "sao-paulo-br",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-008",
+   "date": "2024-04-09",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "the-strongest-bo",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-009",
+   "date": "2024-04-10",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Belo Horizonte",
+   "homeId": "atletico-mineiro-br",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-010",
+   "date": "2024-04-10",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Quito",
+   "homeId": "independiente-del-valle-ec",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-011",
+   "date": "2024-04-10",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Guayaquil",
+   "homeId": "barcelona-ec",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-012",
+   "date": "2024-04-11",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "nacional-uy",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-013",
+   "date": "2024-04-23",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "gremio-br",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-014",
+   "date": "2024-04-23",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Caracas",
+   "homeId": "caracas-fc-ve",
+   "awayId": "central",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-015",
+   "date": "2024-04-23",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "liverpool-uy",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-016",
+   "date": "2024-04-24",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "libertad-py",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-017",
+   "date": "2024-04-25",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Calama",
+   "homeId": "cobresal-cl",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-018",
+   "date": "2024-05-07",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "nacional-uy",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-019",
+   "date": "2024-05-07",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Rosario",
+   "homeId": "central",
+   "awayId": "atletico-mineiro-br",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-020",
+   "date": "2024-05-08",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Córdoba",
+   "homeId": "talleres",
+   "awayId": "barcelona-ec",
+   "homeGoals": 3,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-021",
+   "date": "2024-05-09",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "La Paz",
+   "homeId": "the-strongest-bo",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-022",
+   "date": "2024-05-09",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "sanlorenzo",
+   "awayId": "independiente-del-valle-ec",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-023",
+   "date": "2024-05-14",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "libertad-py",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-024",
+   "date": "2024-05-14",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Córdoba",
+   "homeId": "talleres",
+   "awayId": "cobresal-cl",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-025",
+   "date": "2024-05-16",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Rosario",
+   "homeId": "central",
+   "awayId": "caracas-fc-ve",
+   "homeGoals": 4,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-026",
+   "date": "2024-05-16",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "sanlorenzo",
+   "awayId": "liverpool-uy",
+   "homeGoals": 3,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-027",
+   "date": "2024-05-28",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "penarol-uy",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-028",
+   "date": "2024-05-29",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "huachipato-cl",
+   "homeGoals": 3,
+   "awayGoals": 4
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-029",
+   "date": "2024-05-29",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "sao-paulo-br",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-030",
+   "date": "2024-05-30",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "deportivo-tachira-ve",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-031",
+   "date": "2024-05-30",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "palmeiras-br",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-032",
+   "date": "2024-06-08",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Curitiba",
+   "homeId": "gremio-br",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-033",
+   "date": "2024-08-13",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "sanlorenzo",
+   "awayId": "atletico-mineiro-br",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-034",
+   "date": "2024-08-14",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Córdoba",
+   "homeId": "talleres",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-035",
+   "date": "2024-08-20",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Belo Horizonte",
+   "homeId": "atletico-mineiro-br",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-036",
+   "date": "2024-08-21",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-037",
+   "date": "2024-09-17",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Santiago",
+   "homeId": "colo-colo-cl",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-038",
+   "date": "2024-09-24",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "colo-colo-cl",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-039",
+   "date": "2024-10-22",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Belo Horizonte",
+   "homeId": "atletico-mineiro-br",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2024-040",
+   "date": "2024-10-29",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "atletico-mineiro-br",
+   "homeGoals": 0,
+   "awayGoals": 0
+  }
+ ]
+}

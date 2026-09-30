@@ -1,0 +1,164 @@
+{
+ "slug": "libertadores-1963",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "boca"
+ ],
+ "year": 1963,
+ "title": "Copa Libertadores 1963",
+ "tournament": "Copa de Campeones de América 1963",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "santos-br"
+ ],
+ "summary": "Campeón: Santos (Brasil); finalista: Boca Juniors. Clubes argentinos: Boca Juniors (finalista).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Libertadores 1963",
+   "url": "https://www.rsssf.org/sacups/copa63.html"
+  },
+  {
+   "label": "RSSSF – Clubes argentinos en la Copa Libertadores",
+   "url": "https://www.rsssf.org/sacups/copalibarg.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Campeones de América 1963",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Campeones_de_Am%C3%A9rica_1963"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Grupos por países y después semifinales en grupos de tres; final a dos partidos, con desempate en cancha neutral si cada uno ganaba uno."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1963-001",
+   "date": "1963-04-07",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "olimpia-py",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1963-002",
+   "date": "1963-04-14",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "olimpia-py",
+   "homeGoals": 5,
+   "awayGoals": 3
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1963-003",
+   "date": "1963-06-26",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "universidad-de-chile-cl",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1963-004",
+   "date": "1963-07-31",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Santiago",
+   "homeId": "universidad-de-chile-cl",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 3
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1963-005",
+   "date": "1963-08-07",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "penarol-uy",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1963-006",
+   "date": "1963-08-15",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "penarol-uy",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1963-007",
+   "date": "1963-09-04",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Río de Janeiro",
+   "homeId": "santos-br",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1963-008",
+   "date": "1963-09-11",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "santos-br",
+   "homeGoals": 1,
+   "awayGoals": 2
+  }
+ ]
+}

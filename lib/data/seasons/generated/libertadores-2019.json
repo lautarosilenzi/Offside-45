@@ -1,0 +1,877 @@
+{
+ "slug": "libertadores-2019",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "river"
+ ],
+ "year": 2019,
+ "title": "Copa Libertadores 2019",
+ "tournament": "Copa Libertadores de América 2019",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "flamengo-br"
+ ],
+ "summary": "Campeón: Flamengo (Brasil); finalista: River Plate. Clubes argentinos: River Plate (finalista), Boca Juniors (semifinal), Godoy Cruz Antonio Tomba (octavos), San Lorenzo (octavos), Huracán (fase de grupos), Rosario Central (fase de grupos), Talleres (C) (fase previa).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Libertadores 2019",
+   "url": "https://www.rsssf.org/sacups/copa2019.html"
+  },
+  {
+   "label": "RSSSF – Clubes argentinos en la Copa Libertadores",
+   "url": "https://www.rsssf.org/sacups/copalibarg.html"
+  },
+  {
+   "label": "Wikipedia – Copa Libertadores 2019",
+   "url": "https://es.wikipedia.org/wiki/Copa_Libertadores_2019"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Fases previas, fase de grupos y eliminación directa a dos partidos; desde 2019, final a partido único en cancha neutral."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-001",
+   "date": "2019-02-06",
+   "stage": "Fase previa (segunda ronda)",
+   "phase": "cup",
+   "venue": "Córdoba",
+   "homeId": "talleres",
+   "awayId": "sao-paulo-br",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-002",
+   "date": "2019-02-13",
+   "stage": "Fase previa (segunda ronda)",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "sao-paulo-br",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-003",
+   "date": "2019-02-20",
+   "stage": "Fase previa (tercera ronda)",
+   "phase": "cup",
+   "venue": "Córdoba",
+   "homeId": "talleres",
+   "awayId": "palestino-cl",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-004",
+   "date": "2019-02-27",
+   "stage": "Fase previa (tercera ronda)",
+   "phase": "cup",
+   "venue": "Santiago",
+   "homeId": "palestino-cl",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-005",
+   "date": "2019-03-05",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Cochabamba",
+   "homeId": "jorge-wilstermann-bo",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-006",
+   "date": "2019-03-05",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Mendoza",
+   "homeId": "godoy-cruz",
+   "awayId": "olimpia-py",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-007",
+   "date": "2019-03-05",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Arequipa",
+   "homeId": "melgar-pe",
+   "awayId": "sanlorenzo",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-008",
+   "date": "2019-03-06",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Lima",
+   "homeId": "alianza-lima-pe",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-009",
+   "date": "2019-03-06",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Rosario",
+   "homeId": "central",
+   "awayId": "gremio-br",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-010",
+   "date": "2019-03-07",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "huracan",
+   "awayId": "cruzeiro-br",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-011",
+   "date": "2019-03-12",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "deportes-tolima-co",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-012",
+   "date": "2019-03-12",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Lima",
+   "homeId": "sporting-cristal-pe",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-013",
+   "date": "2019-03-13",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "palestino-cl",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-014",
+   "date": "2019-03-13",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Santiago",
+   "homeId": "universidad-catolica-cl",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "note": "La página por club de RSSSF da como rival a Universidad de Chile; fue Universidad Católica, según la página de la edición y Wikipedia."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-015",
+   "date": "2019-03-13",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "sanlorenzo",
+   "awayId": "atletico-junior-co",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-016",
+   "date": "2019-03-14",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Guayaquil",
+   "homeId": "emelec-ec",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-017",
+   "date": "2019-04-02",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Curitiba",
+   "homeId": "athletico-paranaense-br",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-018",
+   "date": "2019-04-02",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "sanlorenzo",
+   "awayId": "palmeiras-br",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-019",
+   "date": "2019-04-03",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Concepción",
+   "homeId": "universidad-de-concepcion-cl",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-020",
+   "date": "2019-04-03",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Cabudare",
+   "homeId": "deportivo-lara-ve",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-021",
+   "date": "2019-04-03",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Porto Alegre",
+   "homeId": "internacional-br",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-022",
+   "date": "2019-04-04",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "libertad-py",
+   "awayId": "central",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-023",
+   "date": "2019-04-09",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "olimpia-py",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-024",
+   "date": "2019-04-09",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "sanlorenzo",
+   "awayId": "melgar-pe",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-025",
+   "date": "2019-04-10",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "jorge-wilstermann-bo",
+   "homeGoals": 4,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-026",
+   "date": "2019-04-10",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Belo Horizonte",
+   "homeId": "cruzeiro-br",
+   "awayId": "huracan",
+   "homeGoals": 4,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-027",
+   "date": "2019-04-10",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Porto Alegre",
+   "homeId": "gremio-br",
+   "awayId": "central",
+   "homeGoals": 3,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-028",
+   "date": "2019-04-11",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "alianza-lima-pe",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-029",
+   "date": "2019-04-23",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Mendoza",
+   "homeId": "godoy-cruz",
+   "awayId": "sporting-cristal-pe",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-030",
+   "date": "2019-04-23",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "huracan",
+   "awayId": "emelec-ec",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-031",
+   "date": "2019-04-24",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Ibagué",
+   "homeId": "deportes-tolima-co",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-032",
+   "date": "2019-04-24",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Santiago",
+   "homeId": "palestino-cl",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-033",
+   "date": "2019-04-24",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Rosario",
+   "homeId": "central",
+   "awayId": "universidad-catolica-cl",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "note": "La página por club de RSSSF da como rival a Universidad de Chile; fue Universidad Católica, según la página de la edición y Wikipedia."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-034",
+   "date": "2019-04-25",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Barranquilla",
+   "homeId": "atletico-junior-co",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-035",
+   "date": "2019-05-07",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "internacional-br",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-036",
+   "date": "2019-05-08",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "huracan",
+   "awayId": "deportivo-lara-ve",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-037",
+   "date": "2019-05-08",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Rosario",
+   "homeId": "central",
+   "awayId": "libertad-py",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-038",
+   "date": "2019-05-08",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "palmeiras-br",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-039",
+   "date": "2019-05-09",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "athletico-paranaense-br",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-040",
+   "date": "2019-05-09",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Mendoza",
+   "homeId": "godoy-cruz",
+   "awayId": "universidad-de-concepcion-cl",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-041",
+   "date": "2019-07-23",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Mendoza",
+   "homeId": "godoy-cruz",
+   "awayId": "palmeiras-br",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-042",
+   "date": "2019-07-23",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "cruzeiro-br",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-043",
+   "date": "2019-07-24",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Curitiba",
+   "homeId": "athletico-paranaense-br",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-044",
+   "date": "2019-07-24",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "sanlorenzo",
+   "awayId": "cerro-porteno-py",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-045",
+   "date": "2019-07-30",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "palmeiras-br",
+   "awayId": "godoy-cruz",
+   "homeGoals": 4,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-046",
+   "date": "2019-07-30",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Belo Horizonte",
+   "homeId": "cruzeiro-br",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "advancedId": "river",
+   "note": "Penales: 2-4."
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-047",
+   "date": "2019-07-31",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "athletico-paranaense-br",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-048",
+   "date": "2019-07-31",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "cerro-porteno-py",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-049",
+   "date": "2019-08-21",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Quito",
+   "homeId": "liga-de-quito-ec",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 3
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-050",
+   "date": "2019-08-22",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "cerro-porteno-py",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-051",
+   "date": "2019-08-28",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "liga-de-quito-ec",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-052",
+   "date": "2019-08-29",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "cerro-porteno-py",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-053",
+   "date": "2019-10-01",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-054",
+   "date": "2019-10-22",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2019-055",
+   "date": "2019-11-23",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Lima",
+   "homeId": "river",
+   "awayId": "flamengo-br",
+   "homeGoals": 1,
+   "awayGoals": 2
+  }
+ ]
+}

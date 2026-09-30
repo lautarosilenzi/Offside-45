@@ -1,4 +1,5 @@
 import type { Team } from "../types";
+import GENERATED from "./foreign-clubs.generated.json";
 
 // Clubes del exterior que jugaron contra clubes argentinos en copas oficiales (nacionales abiertas a otros países
 // o internacionales). Formato: [id, nombre, abreviatura, nombre completo, país]. El nombre lleva el país para
@@ -25,13 +26,8 @@ const CLUBS: [string, string, string, string, string][] = [
   ["litoral-bo", "Litoral (Bolivia)", "LIT", "Club Litoral (La Paz)", "Bolivia"],
 ];
 
-export const FOREIGN_CLUBS: Team[] = CLUBS.map(([id, name, shortName, fullName, country]) => ({
-  id,
-  name,
-  shortName,
-  fullName,
-  country,
-  primary: "#64748B",
-  secondary: "#E2E8F0",
-  historic: true,
-}));
+// Los rivales de las copas de la Conmebol los genera scripts/import/intl/conmebol.ts (foreign-clubs.generated.json).
+export const FOREIGN_CLUBS: Team[] = [
+  ...CLUBS.map(([id, name, shortName, fullName, country]) => ({ id, name, shortName, fullName, country })),
+  ...GENERATED.filter((g) => !CLUBS.some(([id]) => id === g.id)),
+].map((c) => ({ ...c, primary: "#64748B", secondary: "#E2E8F0", historic: true }));

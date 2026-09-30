@@ -1,0 +1,74 @@
+{
+ "slug": "libertadores-1961",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "palmeiras-br"
+ ],
+ "year": 1961,
+ "title": "Copa Libertadores 1961",
+ "tournament": "Copa de Campeones de América 1961",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "penarol-uy"
+ ],
+ "summary": "Campeón: Peñarol (Uruguay); finalista: Palmeiras (Brasil). Clubes argentinos: Independiente (primera ronda).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Libertadores 1961",
+   "url": "https://www.rsssf.org/sacups/copa61.html"
+  },
+  {
+   "label": "RSSSF – Clubes argentinos en la Copa Libertadores",
+   "url": "https://www.rsssf.org/sacups/copalibarg.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Campeones de América 1961",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Campeones_de_Am%C3%A9rica_1961"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Eliminación directa a dos partidos entre los campeones de cada país, con desempate en cancha neutral."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1961-001",
+   "date": "1961-05-04",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "independiente",
+   "awayId": "palmeiras-br",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1961-002",
+   "date": "1961-05-11",
+   "stage": "Primera ronda",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "palmeiras-br",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0
+  }
+ ]
+}

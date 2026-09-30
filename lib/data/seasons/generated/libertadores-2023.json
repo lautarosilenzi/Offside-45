@@ -1,0 +1,759 @@
+{
+ "slug": "libertadores-2023",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "boca"
+ ],
+ "year": 2023,
+ "title": "Copa Libertadores 2023",
+ "tournament": "Copa Libertadores de América 2023",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "fluminense-br"
+ ],
+ "summary": "Campeón: Fluminense (Brasil); finalista: Boca Juniors. Clubes argentinos: Boca Juniors (finalista), Racing Club (cuartos), Argentinos Juniors (octavos), River Plate (octavos), Patronato (Paraná) (fase de grupos), Huracán (fase previa).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Libertadores 2023",
+   "url": "https://www.rsssf.org/sacups/copa2023.html"
+  },
+  {
+   "label": "RSSSF – Clubes argentinos en la Copa Libertadores",
+   "url": "https://www.rsssf.org/sacups/copalibarg.html"
+  },
+  {
+   "label": "Wikipedia – Copa Libertadores 2023",
+   "url": "https://es.wikipedia.org/wiki/Copa_Libertadores_2023"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Fases previas, fase de grupos y eliminación directa a dos partidos; desde 2019, final a partido único en cancha neutral."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-001",
+   "date": "2023-02-22",
+   "stage": "Fase previa (segunda ronda)",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "boston-river-uy",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-002",
+   "date": "2023-03-01",
+   "stage": "Fase previa (segunda ronda)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "huracan",
+   "awayId": "boston-river-uy",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-003",
+   "date": "2023-03-09",
+   "stage": "Fase previa (tercera ronda)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "huracan",
+   "awayId": "sporting-cristal-pe",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-004",
+   "date": "2023-03-16",
+   "stage": "Fase previa (tercera ronda)",
+   "phase": "cup",
+   "venue": "Lima",
+   "homeId": "sporting-cristal-pe",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-005",
+   "date": "2023-04-04",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "argentinos",
+   "awayId": "independiente-del-valle-ec",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-006",
+   "date": "2023-04-04",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "La Paz",
+   "homeId": "the-strongest-bo",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-007",
+   "date": "2023-04-05",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Santa Fe",
+   "homeId": "patronato-parana",
+   "awayId": "atletico-nacional-co",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-008",
+   "date": "2023-04-05",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Concepción",
+   "homeId": "nublense-cl",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-009",
+   "date": "2023-04-06",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Maturín",
+   "homeId": "monagas-ve",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-010",
+   "date": "2023-04-18",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "deportivo-pereira-co",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-011",
+   "date": "2023-04-18",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Asunción",
+   "homeId": "olimpia-py",
+   "awayId": "patronato-parana",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-012",
+   "date": "2023-04-19",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "corinthians-br",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-013",
+   "date": "2023-04-19",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "sporting-cristal-pe",
+   "homeGoals": 4,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-014",
+   "date": "2023-04-20",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "aucas-ec",
+   "homeGoals": 3,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-015",
+   "date": "2023-05-02",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "liverpool-uy",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-016",
+   "date": "2023-05-02",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Río de Janeiro",
+   "homeId": "fluminense-br",
+   "awayId": "river",
+   "homeGoals": 5,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-017",
+   "date": "2023-05-03",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Santiago",
+   "homeId": "colo-colo-cl",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-018",
+   "date": "2023-05-04",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Santa Fe",
+   "homeId": "patronato-parana",
+   "awayId": "melgar-pe",
+   "homeGoals": 4,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-019",
+   "date": "2023-05-04",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "flamengo-br",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-020",
+   "date": "2023-05-23",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Quito",
+   "homeId": "aucas-ec",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-021",
+   "date": "2023-05-24",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "argentinos",
+   "awayId": "corinthians-br",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-022",
+   "date": "2023-05-24",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Pereira",
+   "homeId": "deportivo-pereira-co",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-023",
+   "date": "2023-05-25",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Santa Fe",
+   "homeId": "patronato-parana",
+   "awayId": "olimpia-py",
+   "homeGoals": 0,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-024",
+   "date": "2023-05-25",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Lima",
+   "homeId": "sporting-cristal-pe",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-025",
+   "date": "2023-06-06",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "colo-colo-cl",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-026",
+   "date": "2023-06-06",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Arequipa",
+   "homeId": "melgar-pe",
+   "awayId": "patronato-parana",
+   "homeGoals": 5,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-027",
+   "date": "2023-06-07",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "argentinos",
+   "awayId": "liverpool-uy",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-028",
+   "date": "2023-06-07",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "fluminense-br",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-029",
+   "date": "2023-06-08",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Río de Janeiro",
+   "homeId": "flamengo-br",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-030",
+   "date": "2023-06-27",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Medellín",
+   "homeId": "atletico-nacional-co",
+   "awayId": "patronato-parana",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-031",
+   "date": "2023-06-27",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "the-strongest-bo",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-032",
+   "date": "2023-06-28",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Quito",
+   "homeId": "independiente-del-valle-ec",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-033",
+   "date": "2023-06-28",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "nublense-cl",
+   "homeGoals": 4,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-034",
+   "date": "2023-06-29",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "monagas-ve",
+   "homeGoals": 4,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-035",
+   "date": "2023-08-01",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "argentinos",
+   "awayId": "fluminense-br",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-036",
+   "date": "2023-08-01",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "river",
+   "awayId": "internacional-br",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-037",
+   "date": "2023-08-02",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "nacional-uy",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-038",
+   "date": "2023-08-03",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Medellín",
+   "homeId": "atletico-nacional-co",
+   "awayId": "racing",
+   "homeGoals": 4,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-039",
+   "date": "2023-08-08",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Río de Janeiro",
+   "homeId": "fluminense-br",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-040",
+   "date": "2023-08-08",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Porto Alegre",
+   "homeId": "internacional-br",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "advancedId": "internacional-br",
+   "note": "Penales: 9-8."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-041",
+   "date": "2023-08-09",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "nacional-uy",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "advancedId": "boca",
+   "note": "Penales: 4-2."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-042",
+   "date": "2023-08-10",
+   "stage": "Octavos de final",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "atletico-nacional-co",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-043",
+   "date": "2023-08-23",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "racing",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-044",
+   "date": "2023-08-30",
+   "stage": "Cuartos de final",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "racing",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "advancedId": "boca",
+   "note": "Penales: 1-4."
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-045",
+   "date": "2023-09-28",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "palmeiras-br",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-046",
+   "date": "2023-10-05",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "palmeiras-br",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "advancedId": "boca",
+   "note": "Penales: 2-4."
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-2023-047",
+   "date": "2023-11-04",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Río de Janeiro",
+   "homeId": "boca",
+   "awayId": "fluminense-br",
+   "homeGoals": 1,
+   "awayGoals": 2
+  }
+ ]
+}

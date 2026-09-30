@@ -1,0 +1,104 @@
+{
+ "slug": "libertadores-1969",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "nacional-uy"
+ ],
+ "year": 1969,
+ "title": "Copa Libertadores 1969",
+ "tournament": "Copa Libertadores de América 1969",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "estudiantes"
+ ],
+ "summary": "Campeón argentino: Estudiantes (LP); finalista: Nacional (Uruguay). Clubes argentinos: Estudiantes (LP) (campeón).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Libertadores 1969",
+   "url": "https://www.rsssf.org/sacups/copa69.html"
+  },
+  {
+   "label": "RSSSF – Clubes argentinos en la Copa Libertadores",
+   "url": "https://www.rsssf.org/sacups/copalibarg.html"
+  },
+  {
+   "label": "Wikipedia – Copa Libertadores 1969",
+   "url": "https://es.wikipedia.org/wiki/Copa_Libertadores_1969"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Grupos por países y después semifinales en grupos de tres; final a dos partidos, con desempate en cancha neutral si cada uno ganaba uno."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1969-001",
+   "date": "1969-05-01",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Santiago",
+   "homeId": "universidad-catolica-cl",
+   "awayId": "estudiantes",
+   "homeGoals": 1,
+   "awayGoals": 3
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1969-002",
+   "date": "1969-05-07",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "estudiantes",
+   "awayId": "universidad-catolica-cl",
+   "homeGoals": 3,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1969-003",
+   "date": "1969-05-15",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "nacional-uy",
+   "awayId": "estudiantes",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Libertadores",
+   "id": "libertadores-1969-004",
+   "date": "1969-05-21",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "La Plata",
+   "homeId": "estudiantes",
+   "awayId": "nacional-uy",
+   "homeGoals": 2,
+   "awayGoals": 0
+  }
+ ]
+}

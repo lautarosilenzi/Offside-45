@@ -53,7 +53,8 @@ for (const s of SEASONS) {
   const played = new Set(s.matches.flatMap((m) => [m.homeId, m.awayId]));
   for (const c of s.championIds) {
     if (!getTeam(c)) add(problems, `${s.slug}: campeón inexistente ${c}`);
-    else if (s.matches.length && !played.has(c)) add(problems, `${s.slug}: el campeón ${c} no jugó ningún partido`);
+    // En las copas internacionales solo están los partidos de los clubes argentinos: el campeón puede no figurar.
+    else if (s.matches.length && !played.has(c) && !s.international) add(problems, `${s.slug}: el campeón ${c} no jugó ningún partido`);
   }
   // 5. En las ligas, el campeón suele ser el primero de la tabla calculada (salvo finales, desempates y zonas).
   if (s.kind !== "cup" && s.championIds.length === 1 && s.publishedTable.length && !s.groups?.length) {
