@@ -3,7 +3,8 @@
 //   Plantillas {{Partido |local= |resultado= |visita= |fecha= |ciudad= }} en las series y la final.
 import { fetchWiki } from "../wiki";
 
-export type WikiMatch = { day: number; month: number; year?: number; city: string; home: string; away: string; hg: number; ag: number; raw: string };
+// pens: la tanda de penales (local, visitante), si la hubo.
+export type WikiMatch = { day: number; month: number; year?: number; city: string; home: string; away: string; hg: number; ag: number; pens?: [number, number]; raw: string };
 
 const MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
 
@@ -25,7 +26,7 @@ const clean = (s: string) =>
 
 const parseDate = (s: string) => {
   // {{fecha|12|8|}} o {{fecha|12|8|2025}}: día, mes y (a veces) año.
-  const t = s.match(/\{\{\s*fecha\s*\|\s*(\d{1,2})\s*\|\s*(\d{1,2})\s*\|\s*(\d{4})?/i);
+  const t = s.match(/\{\{\s*fecha\s*\|\s*(\d{1,2})\s*\|\s*(\d{1,2})\s*(?:\|\s*(\d{4})?)?/i);
   if (t) return { day: +t[1], month: +t[2], ...(t[3] && { year: +t[3] }) };
   const m = clean(s).match(/(\d{1,2})\s+de\s+([a-záé]+)(?:\s+de\s+(\d{4}))?/i);
   if (!m || !MESES.includes(m[2].toLowerCase())) return null;
@@ -52,17 +53,74 @@ export async function wikiMatches(title: string): Promise<WikiMatch[] | null> {
   if (!text) return null;
   const out: WikiMatch[] = [];
 
-  // Plantillas {{Partido …}}.
-  for (const block of text.matchAll(/\{\{\s*Partido\b([\s\S]*?)\n\}\}/gi)) {
+  // Plantillas {{Partido …}} o {{Partidos …}}: se buscan contando llaves (a veces cierran en la misma línea).
+  const blocks: string[] = [];
+  for (const start of text.matchAll(/\{\{\s*Partidos?\s*(?=[|\n])/gi)) {
+    let depth = 0;
+    let i = start.index!;
+    for (; i < text.length - 1; i++) {
+      if (text[i] === "{" && text[i + 1] === "{") (depth++, i++);
+      else if (text[i] === "}" && text[i + 1] === "}") {
+        depth--;
+        i++;
+        if (depth === 0) break;
+      }
+    }
+    blocks.push(text.slice(start.index! + start[0].length, i - 1));
+  }
+  for (const body of blocks) {
+    const block = [body, body] as const;
     const params: Record<string, string> = {};
-    for (const p of block[1].split(/\n\s*\|/)) {
-      const kv = p.match(/^\s*([a-záéíóú_ ]+?)\s*=\s*([\s\S]*)$/i);
+    // Los parámetros van separados por "|" al principio de línea (o en la misma línea, en las plantillas compactas).
+    // En las compactas se corta por "|" fuera de enlaces y plantillas ([[A|B]], {{gol|71}}).
+    const splitTop = (s: string) => {
+      const out2: string[] = [];
+      let depth = 0;
+      let cur = "";
+      for (let j = 0; j < s.length; j++) {
+        const two = s.slice(j, j + 2);
+        if (two === "[[" || two === "{{") (depth++, (cur += two), j++);
+        else if (two === "]]" || two === "}}") (depth--, (cur += two), j++);
+        else if (s[j] === "|" && depth === 0) (out2.push(cur), (cur = ""));
+        else cur += s[j];
+      }
+      out2.push(cur);
+      return out2;
+    };
+    const parts = splitTop(block[1]);
+    for (const p of parts) {
+      const kv = p.replace(/^\s*\|/, "").match(/^\s*([a-záéíóú_ ]+?)\s*=\s*([\s\S]*)$/i);
       if (kv) params[kv[1].toLowerCase()] = kv[2].trim();
     }
     const d = parseDate(params.fecha ?? "");
     const sc = parseScore(params.resultado ?? "");
     if (!d || !sc || !params.local || !params.visita) continue;
-    out.push({ ...d, city: clean(params.ciudad ?? ""), home: clean(params.local), away: clean(params.visita), hg: sc[0], ag: sc[1], raw: block[0].slice(0, 200) });
+    const pens = parseScore(params["resultado penalti"] ?? params["penales"] ?? "");
+    out.push({ ...d, city: clean(params.ciudad ?? ""), home: clean(params.local), away: clean(params.visita), hg: sc[0], ag: sc[1], ...(pens && { pens: pens as [number, number] }), raw: block[0].slice(0, 200) });
+  }
+
+  // Recuadros de final (Copa Intercontinental, Suruga): dos encabezados con el equipo y sus goles
+  //   "! {{bandera|ARG}}<br>{{tc|Club|Equipo}}<br>1" y el del rival, y abajo "14 de diciembre de 2003 … {{tc|Ciudad}}".
+  const lines = text.split("\n");
+  const boxTeam = (l: string) => {
+    // Los goles pueden llevar los penales al lado: "<big>1 <small>(3)</small>".
+    const m = l.match(/^[!|].*<br\s*\/?>\s*(?:'''|<big>)?\s*(\d+)\s*(?:<small>\s*\(\d+\)\s*<\/small>)?\s*(?:'''|<\/big>)?\s*$/i);
+    if (!m) return null;
+    const before = l.slice(0, l.lastIndexOf("<br")).replace(/<\/?big>/gi, "");
+    const name = before.match(/\{\{tc\|(?:[^|}]*\|)?([^|}]+)\}\}\s*$/)?.[1] ?? before.match(/\[\[(?:[^\]|]*\|)?([^\]]+)\]\]\s*$/)?.[1];
+    return name ? { name: name.trim(), goals: +m[1] } : null;
+  };
+  for (let i = 0; i < lines.length - 1; i++) {
+    const a = boxTeam(lines[i]);
+    const b = a && boxTeam(lines[i + 1]);
+    if (!a || !b) continue;
+    for (let j = i + 2; j < Math.min(lines.length, i + 8); j++) {
+      const d = parseDate(lines[j]);
+      if (!d) continue;
+      const cities = [...lines[j].matchAll(/\{\{tc\|(?:[^|}]*\|)?([^|}]+)\}\}/g)].map((x) => x[1]);
+      out.push({ ...d, city: cities.at(-1) ?? "", home: a.name, away: b.name, hg: a.goals, ag: b.goals, raw: lines[j].slice(0, 200) });
+      break;
+    }
   }
 
   // Filas de tablas: fecha | ciudad | local | resultado | visitante (cada celda en su línea o separadas por ||).
@@ -88,7 +146,9 @@ export async function wikiMatches(title: string): Promise<WikiMatch[] | null> {
 // Campeón y subcampeón de cada edición, de la tabla "Historial" del artículo de la copa:
 // fila con año | campeón | resultados de la final | subcampeón | …
 export type WikiFinalist = { name: string; country: string };
-export async function wikiChampions(title: string, section = "Historial"): Promise<{ year: number; champion: WikiFinalist; runnerUp: WikiFinalist }[]> {
+// results: los resultados de la final que da la tabla (sin los penales).
+export type WikiChampion = { year: number; champion: WikiFinalist; runnerUp: WikiFinalist; results: [number, number][] };
+export async function wikiChampions(title: string, section = "Historial"): Promise<WikiChampion[]> {
   const text = (await wikiText(title)) ?? "";
   const start = text.search(new RegExp(`^==\\s*${section}\\s*==`, "m"));
   if (start < 0) return [];
@@ -96,13 +156,16 @@ export async function wikiChampions(title: string, section = "Historial"): Promi
   const body = rest.slice(0, rest.search(/^==[^=]/m) >= 0 ? rest.search(/^==[^=]/m) : undefined);
   const firstLink = (s: string) => s.match(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/)?.[1]?.trim() ?? "";
   // El país sale de la bandera de la celda: {{bandera2|Uruguay}}, {{bandera|URU}} o {{URU}}.
-  const CODES: Record<string, string> = { ARG: "Argentina", URU: "Uruguay", PAR: "Paraguay", BRA: "Brasil", CHI: "Chile", COL: "Colombia", ECU: "Ecuador", PER: "Perú", BOL: "Bolivia", VEN: "Venezuela", MEX: "México" };
+  const CODES: Record<string, string> = { ARG: "Argentina", URU: "Uruguay", PAR: "Paraguay", BRA: "Brasil", CHI: "Chile", COL: "Colombia", ECU: "Ecuador", PER: "Perú", BOL: "Bolivia", VEN: "Venezuela", MEX: "México",
+    CHL: "Chile", CRI: "Costa Rica", HON: "Honduras", GTM: "Guatemala", TTO: "Trinidad y Tobago", SLV: "El Salvador", USA: "Estados Unidos",
+    ESP: "España", ITA: "Italia", ENG: "Inglaterra", SCO: "Escocia", NED: "Países Bajos", NLD: "Países Bajos", GER: "Alemania", FRG: "Alemania",
+    POR: "Portugal", ROM: "Rumania", ROU: "Rumania", FRA: "Francia", GRE: "Grecia", SWE: "Suecia", JPN: "Japón", KOR: "Corea del Sur", EAU: "Emiratos Árabes Unidos" };
   const country = (s: string) => {
     const f = s.match(/\{\{bandera2?\|([^|}]+)/i)?.[1]?.trim() ?? s.match(/\{\{([A-Z]{3})\}\}/)?.[1] ?? "";
     return CODES[f.toUpperCase()] ?? f;
   };
   const team = (s: string): WikiFinalist => ({ name: firstLink(s), country: country(s) });
-  const out: { year: number; champion: WikiFinalist; runnerUp: WikiFinalist }[] = [];
+  const out: WikiChampion[] = [];
   for (const row of body.split(/\n\|-/)) {
     // Celdas comunes ("|") y de encabezado ("!", el campeón en algunas tablas); no las de la tabla anidada.
     const cells = row
@@ -111,7 +174,8 @@ export async function wikiChampions(title: string, section = "Historial"): Promi
       .map((l) => l.slice(1));
     const y = cells[0]?.match(/\|(\d{4})\]\]/) ?? cells[0]?.match(/^\s*'*(\d{4})'*/);
     if (!y || cells.length < 4) continue;
-    out.push({ year: +y[1], champion: team(cells[1]), runnerUp: team(cells[3]) });
+    const results = [...cells[2].replace(/\([^)]*\)/g, " ").replace(/<[^>]*>/g, " ").matchAll(/(\d+)\s*[:\-–]\s*(\d+)/g)].map((x) => [+x[1], +x[2]] as [number, number]);
+    out.push({ year: +y[1], champion: team(cells[1]), runnerUp: team(cells[3]), results });
   }
   return out;
 }

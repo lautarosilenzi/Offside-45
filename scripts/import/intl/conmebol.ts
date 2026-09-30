@@ -12,7 +12,7 @@ import { wikiChampions, wikiMatches, type WikiFinalist, type WikiMatch } from ".
 // ───────── Clubes argentinos ─────────
 // Nombres con que aparecen en RSSSF (encabezado del bloque, línea de partido y páginas de cada edición) y ciudades
 // donde fueron locales (para los partidos que la página de la edición no confirma).
-const ARG: { id: string; names: string[]; cities: string[] }[] = [
+export const ARG: { id: string; names: string[]; cities: string[] }[] = [
   { id: "argentinos", names: ["Argentinos Juniors", "Argentinos Jrs.", "Argentinos Jrs", "Argentinos"], cities: ["Buenos Aires"] },
   { id: "arsenal", names: ["Arsenal", "Arsenal de Sarandí"], cities: ["Sarandí", "Avellaneda"] },
   { id: "atletico-tucuman", names: ["Atlético Tucumán"], cities: ["S.M.de Tucumán", "San Miguel de Tucumán", "Tucumán"] },
@@ -23,7 +23,7 @@ const ARG: { id: string; names: string[]; cities: string[] }[] = [
   { id: "colon-santa-fe", names: ["Colón (Santa Fe)", "Colón"], cities: ["Santa Fe"] },
   { id: "deportivo-espanol", names: ["Deportivo Español"], cities: ["Buenos Aires"] },
   { id: "defensa-y-justicia", names: ["Defensa y Justicia"], cities: ["Florencio Varela"] },
-  { id: "estudiantes", names: ["Estudiantes (La Plata)", "Estudiantes LP", "Estudiantes"], cities: ["La Plata", "Quilmes"] },
+  { id: "estudiantes", names: ["Estudiantes (La Plata)", "Estudiantes LP", "Estudiantes de La Plata", "Estudiantes"], cities: ["La Plata", "Quilmes"] },
   { id: "union-santa-fe", names: ["Unión (Santa Fe)", "Unión"], cities: ["Santa Fe"] },
   { id: "ferro", names: ["Ferro Carril Oeste", "Ferro Carril O."], cities: ["Buenos Aires"] },
   { id: "gimnasia", names: ["Gimnasia y Esgrima (La Plata)", "Gimnasia y Esgr.LP", "Gimnasia y Esgrima LP", "Gimnasia y Esgrima", "Gimnasia (LP)"], cities: ["La Plata"] },
@@ -110,6 +110,7 @@ const FIXED_IDS: Record<string, string> = {
   "vasco da gama|Bra": "vasco-br",
   "colo colo|Chi": "colo-colo-cl",
   "emelec|Ecu": "emelec-ec",
+  "deportivo municipal|Per": "municipal-pe",
   "river plate|Uru": "river-plate-uy",
 };
 const DISPLAY: Record<string, string> = {
@@ -734,4 +735,5 @@ async function main() {
   for (const p of problems) console.log(`  ✗ ${p}`);
 }
 
-main();
+// Se ejecuta solo como script (finals.ts importa la lista de clubes argentinos).
+if (process.argv[1]?.replace(/\\/g, "/").endsWith("intl/conmebol.ts")) main();

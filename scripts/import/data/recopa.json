@@ -1,0 +1,554 @@
+[
+ {
+  "year": 1989,
+  "championId": "nacional-uy",
+  "runnerUpId": "racing",
+  "matches": [
+   {
+    "id": "recopa-1989-001",
+    "date": "1989-01-31",
+    "stage": "Final",
+    "venue": "Montevideo",
+    "homeId": "nacional-uy",
+    "awayId": "racing",
+    "homeGoals": 1,
+    "awayGoals": 0,
+    "check": "edicion"
+   },
+   {
+    "id": "recopa-1989-002",
+    "date": "1989-02-06",
+    "stage": "Final",
+    "venue": "Buenos Aires",
+    "homeId": "racing",
+    "awayId": "nacional-uy",
+    "homeGoals": 0,
+    "awayGoals": 0,
+    "check": "edicion"
+   }
+  ]
+ },
+ {
+  "year": 1990,
+  "championId": "boca",
+  "runnerUpId": "atletico-nacional-co",
+  "matches": [
+   {
+    "id": "recopa-1990-001",
+    "date": "1990-03-17",
+    "stage": "Final",
+    "venue": "Miami",
+    "homeId": "boca",
+    "awayId": "atletico-nacional-co",
+    "homeGoals": 1,
+    "awayGoals": 0,
+    "check": "edicion"
+   }
+  ]
+ },
+ {
+  "year": 1995,
+  "championId": "independiente",
+  "runnerUpId": "velez",
+  "matches": [
+   {
+    "id": "recopa-1995-001",
+    "date": "1995-04-09",
+    "stage": "Final",
+    "venue": "Tokio",
+    "homeId": "velez",
+    "awayId": "independiente",
+    "homeGoals": 0,
+    "awayGoals": 1,
+    "check": "edicion"
+   }
+  ]
+ },
+ {
+  "year": 1996,
+  "championId": "gremio-br",
+  "runnerUpId": "independiente",
+  "matches": [
+   {
+    "id": "recopa-1996-001",
+    "date": "1996-04-07",
+    "stage": "Final",
+    "venue": "Kōbe",
+    "homeId": "gremio-br",
+    "awayId": "independiente",
+    "homeGoals": 4,
+    "awayGoals": 1,
+    "check": "edicion"
+   }
+  ]
+ },
+ {
+  "year": 1997,
+  "championId": "velez",
+  "runnerUpId": "river",
+  "matches": [
+   {
+    "id": "recopa-1997-001",
+    "date": "1997-04-13",
+    "stage": "Final",
+    "venue": "Kōbe",
+    "homeId": "river",
+    "awayId": "velez",
+    "homeGoals": 1,
+    "awayGoals": 1,
+    "check": "edicion",
+    "advancedId": "velez",
+    "note": "Penales: 2-4."
+   }
+  ]
+ },
+ {
+  "year": 1998,
+  "championId": "cruzeiro-br",
+  "runnerUpId": "river",
+  "matches": [
+   {
+    "id": "recopa-1998-001",
+    "date": "1999-08-03",
+    "stage": "Final",
+    "venue": "Belo Horizonte",
+    "homeId": "cruzeiro-br",
+    "awayId": "river",
+    "homeGoals": 2,
+    "awayGoals": 0,
+    "check": "edicion"
+   },
+   {
+    "id": "recopa-1998-002",
+    "date": "1999-09-23",
+    "stage": "Final",
+    "venue": "Buenos Aires",
+    "homeId": "river",
+    "awayId": "cruzeiro-br",
+    "homeGoals": 0,
+    "awayGoals": 3,
+    "check": "edicion"
+   }
+  ]
+ },
+ {
+  "year": 2003,
+  "championId": "olimpia-py",
+  "runnerUpId": "sanlorenzo",
+  "matches": [
+   {
+    "id": "recopa-2003-001",
+    "date": "2003-07-12",
+    "stage": "Final",
+    "venue": "Los Ángeles",
+    "homeId": "olimpia-py",
+    "awayId": "sanlorenzo",
+    "homeGoals": 2,
+    "awayGoals": 0,
+    "check": "edicion"
+   }
+  ]
+ },
+ {
+  "year": 2004,
+  "championId": "cienciano-pe",
+  "runnerUpId": "boca",
+  "matches": [
+   {
+    "id": "recopa-2004-001",
+    "date": "2004-09-07",
+    "stage": "Final",
+    "venue": "Fort Lauderdale",
+    "homeId": "boca",
+    "awayId": "cienciano-pe",
+    "homeGoals": 1,
+    "awayGoals": 1,
+    "check": "edicion",
+    "advancedId": "cienciano-pe",
+    "note": "Penales: 2-4."
+   }
+  ]
+ },
+ {
+  "year": 2005,
+  "championId": "boca",
+  "runnerUpId": "once-caldas-co",
+  "matches": [
+   {
+    "id": "recopa-2005-001",
+    "date": "2005-08-24",
+    "stage": "Final",
+    "venue": "Buenos Aires",
+    "homeId": "boca",
+    "awayId": "once-caldas-co",
+    "homeGoals": 3,
+    "awayGoals": 1,
+    "check": "edicion"
+   },
+   {
+    "id": "recopa-2005-002",
+    "date": "2005-08-31",
+    "stage": "Final",
+    "venue": "Manizales",
+    "homeId": "once-caldas-co",
+    "awayId": "boca",
+    "homeGoals": 2,
+    "awayGoals": 1,
+    "check": "edicion"
+   }
+  ]
+ },
+ {
+  "year": 2006,
+  "championId": "boca",
+  "runnerUpId": "sao-paulo-br",
+  "matches": [
+   {
+    "id": "recopa-2006-001",
+    "date": "2006-09-07",
+    "stage": "Final",
+    "venue": "Buenos Aires",
+    "homeId": "boca",
+    "awayId": "sao-paulo-br",
+    "homeGoals": 2,
+    "awayGoals": 1,
+    "check": "edicion"
+   },
+   {
+    "id": "recopa-2006-002",
+    "date": "2006-09-14",
+    "stage": "Final",
+    "venue": "São Paulo",
+    "homeId": "sao-paulo-br",
+    "awayId": "boca",
+    "homeGoals": 2,
+    "awayGoals": 2,
+    "check": "wikipedia"
+   }
+  ]
+ },
+ {
+  "year": 2008,
+  "championId": "boca",
+  "runnerUpId": "arsenal",
+  "matches": [
+   {
+    "id": "recopa-2008-001",
+    "date": "2008-08-13",
+    "stage": "Final",
+    "venue": "Avellaneda",
+    "homeId": "arsenal",
+    "awayId": "boca",
+    "homeGoals": 1,
+    "awayGoals": 3,
+    "check": "edicion"
+   },
+   {
+    "id": "recopa-2008-002",
+    "date": "2008-08-27",
+    "stage": "Final",
+    "venue": "Buenos Aires",
+    "homeId": "boca",
+    "awayId": "arsenal",
+    "homeGoals": 2,
+    "awayGoals": 2,
+    "check": "edicion"
+   }
+  ]
+ },
+ {
+  "year": 2010,
+  "championId": "liga-de-quito-ec",
+  "runnerUpId": "estudiantes",
+  "matches": [
+   {
+    "id": "recopa-2010-001",
+    "date": "2010-08-25",
+    "stage": "Final",
+    "venue": "Quito",
+    "homeId": "liga-de-quito-ec",
+    "awayId": "estudiantes",
+    "homeGoals": 2,
+    "awayGoals": 1,
+    "check": "wikipedia"
+   },
+   {
+    "id": "recopa-2010-002",
+    "date": "2010-09-08",
+    "stage": "Final",
+    "venue": "Quilmes",
+    "homeId": "estudiantes",
+    "awayId": "liga-de-quito-ec",
+    "homeGoals": 0,
+    "awayGoals": 0,
+    "check": "wikipedia"
+   }
+  ]
+ },
+ {
+  "year": 2011,
+  "championId": "internacional-br",
+  "runnerUpId": "independiente",
+  "matches": [
+   {
+    "id": "recopa-2011-001",
+    "date": "2011-08-10",
+    "stage": "Final",
+    "venue": "Avellaneda",
+    "homeId": "independiente",
+    "awayId": "internacional-br",
+    "homeGoals": 2,
+    "awayGoals": 1,
+    "check": "edicion"
+   },
+   {
+    "id": "recopa-2011-002",
+    "date": "2011-08-24",
+    "stage": "Final",
+    "venue": "Porto Alegre",
+    "homeId": "internacional-br",
+    "awayId": "independiente",
+    "homeGoals": 3,
+    "awayGoals": 1,
+    "check": "edicion"
+   }
+  ]
+ },
+ {
+  "year": 2014,
+  "championId": "atletico-mineiro-br",
+  "runnerUpId": "lanus",
+  "matches": [
+   {
+    "id": "recopa-2014-001",
+    "date": "2014-07-16",
+    "stage": "Final",
+    "venue": "Lanús",
+    "homeId": "lanus",
+    "awayId": "atletico-mineiro-br",
+    "homeGoals": 0,
+    "awayGoals": 1,
+    "check": "edicion"
+   },
+   {
+    "id": "recopa-2014-002",
+    "date": "2014-07-23",
+    "stage": "Final",
+    "venue": "Belo Horizonte",
+    "homeId": "atletico-mineiro-br",
+    "awayId": "lanus",
+    "homeGoals": 4,
+    "awayGoals": 3,
+    "check": "edicion"
+   }
+  ]
+ },
+ {
+  "year": 2015,
+  "championId": "river",
+  "runnerUpId": "sanlorenzo",
+  "matches": [
+   {
+    "id": "recopa-2015-001",
+    "date": "2015-02-06",
+    "stage": "Final",
+    "venue": "Buenos Aires",
+    "homeId": "river",
+    "awayId": "sanlorenzo",
+    "homeGoals": 1,
+    "awayGoals": 0,
+    "check": "edicion"
+   },
+   {
+    "id": "recopa-2015-002",
+    "date": "2015-02-11",
+    "stage": "Final",
+    "venue": "Buenos Aires",
+    "homeId": "sanlorenzo",
+    "awayId": "river",
+    "homeGoals": 0,
+    "awayGoals": 1,
+    "check": "edicion"
+   }
+  ]
+ },
+ {
+  "year": 2016,
+  "championId": "river",
+  "runnerUpId": "independiente-santa-fe-co",
+  "matches": [
+   {
+    "id": "recopa-2016-001",
+    "date": "2016-08-18",
+    "stage": "Final",
+    "venue": "Bogotá",
+    "homeId": "independiente-santa-fe-co",
+    "awayId": "river",
+    "homeGoals": 0,
+    "awayGoals": 0,
+    "check": "wikipedia"
+   },
+   {
+    "id": "recopa-2016-002",
+    "date": "2016-08-25",
+    "stage": "Final",
+    "venue": "Buenos Aires",
+    "homeId": "river",
+    "awayId": "independiente-santa-fe-co",
+    "homeGoals": 2,
+    "awayGoals": 1,
+    "check": "edicion"
+   }
+  ]
+ },
+ {
+  "year": 2018,
+  "championId": "gremio-br",
+  "runnerUpId": "independiente",
+  "matches": [
+   {
+    "id": "recopa-2018-001",
+    "date": "2018-02-14",
+    "stage": "Final",
+    "venue": "Avellaneda",
+    "homeId": "independiente",
+    "awayId": "gremio-br",
+    "homeGoals": 1,
+    "awayGoals": 1,
+    "check": "edicion"
+   },
+   {
+    "id": "recopa-2018-002",
+    "date": "2018-02-21",
+    "stage": "Final",
+    "venue": "Porto Alegre",
+    "homeId": "gremio-br",
+    "awayId": "independiente",
+    "homeGoals": 0,
+    "awayGoals": 0,
+    "check": "edicion",
+    "advancedId": "gremio-br",
+    "note": "Penales: 5-4."
+   }
+  ]
+ },
+ {
+  "year": 2019,
+  "championId": "river",
+  "runnerUpId": "athletico-paranaense-br",
+  "matches": [
+   {
+    "id": "recopa-2019-001",
+    "date": "2019-05-22",
+    "stage": "Final",
+    "venue": "Curitiba",
+    "homeId": "athletico-paranaense-br",
+    "awayId": "river",
+    "homeGoals": 1,
+    "awayGoals": 0,
+    "check": "edicion"
+   },
+   {
+    "id": "recopa-2019-002",
+    "date": "2019-05-30",
+    "stage": "Final",
+    "venue": "Buenos Aires",
+    "homeId": "river",
+    "awayId": "athletico-paranaense-br",
+    "homeGoals": 3,
+    "awayGoals": 0,
+    "check": "edicion"
+   }
+  ]
+ },
+ {
+  "year": 2021,
+  "championId": "defensa-y-justicia",
+  "runnerUpId": "palmeiras-br",
+  "matches": [
+   {
+    "id": "recopa-2021-001",
+    "date": "2021-04-07",
+    "stage": "Final",
+    "venue": "Gobernador Costa",
+    "homeId": "defensa-y-justicia",
+    "awayId": "palmeiras-br",
+    "homeGoals": 1,
+    "awayGoals": 2,
+    "check": "edicion"
+   },
+   {
+    "id": "recopa-2021-002",
+    "date": "2021-04-14",
+    "stage": "Final",
+    "venue": "Brasilia",
+    "homeId": "palmeiras-br",
+    "awayId": "defensa-y-justicia",
+    "homeGoals": 1,
+    "awayGoals": 2,
+    "check": "edicion",
+    "advancedId": "defensa-y-justicia",
+    "note": "Penales: 3-4."
+   }
+  ]
+ },
+ {
+  "year": 2025,
+  "championId": "racing",
+  "runnerUpId": "botafogo-br",
+  "matches": [
+   {
+    "id": "recopa-2025-001",
+    "date": "2025-02-20",
+    "stage": "Final",
+    "venue": "Avellaneda",
+    "homeId": "racing",
+    "awayId": "botafogo-br",
+    "homeGoals": 2,
+    "awayGoals": 0,
+    "check": "edicion"
+   },
+   {
+    "id": "recopa-2025-002",
+    "date": "2025-02-27",
+    "stage": "Final",
+    "venue": "Rio de Janeiro",
+    "homeId": "botafogo-br",
+    "awayId": "racing",
+    "homeGoals": 0,
+    "awayGoals": 2,
+    "check": "edicion"
+   }
+  ]
+ },
+ {
+  "year": 2026,
+  "championId": "lanus",
+  "runnerUpId": "flamengo-br",
+  "matches": [
+   {
+    "id": "recopa-2026-001",
+    "date": "2026-02-19",
+    "stage": "Final",
+    "venue": "Lanús",
+    "homeId": "lanus",
+    "awayId": "flamengo-br",
+    "homeGoals": 1,
+    "awayGoals": 0,
+    "check": "wikipedia"
+   },
+   {
+    "id": "recopa-2026-002",
+    "date": "2026-02-26",
+    "stage": "Final",
+    "venue": "Río de Janeiro",
+    "homeId": "flamengo-br",
+    "awayId": "lanus",
+    "homeGoals": 2,
+    "awayGoals": 3,
+    "check": "wikipedia",
+    "note": "Con alargue."
+   }
+  ]
+ }
+]
