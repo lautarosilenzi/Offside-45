@@ -1,0 +1,56 @@
+{
+ "slug": "copa-cusenier-1917",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "racing"
+ ],
+ "year": 1917,
+ "title": "Copa de Honor Cusenier 1917",
+ "tournament": "Copa de Honor Cusenier 1917",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "nacional-uy"
+ ],
+ "summary": "Nacional le ganó 3-1 a Racing en abril de 1918.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa de Honor Cusenier",
+   "url": "https://www.rsssf.org/sacups/arguruhonor.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Honor Cusenier",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Honor_Cusenier"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a un partido en Montevideo entre el ganador de la Copa de Honor argentina y el de la Copa de Honor uruguaya. Si había empate, desempate en otra fecha."
+  },
+  {
+   "kind": "fuentes",
+   "text": "RSSSF da como fecha un inexistente 31 de abril de 1918; Wikipedia y las estadísticas de Nacional (atilio.uy) dan el 21 de abril."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa de Honor Cusenier",
+   "id": "copa-cusenier-1917-001",
+   "date": "1918-04-21",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Parque Pereira (Montevideo)",
+   "homeId": "nacional-uy",
+   "awayId": "racing",
+   "homeGoals": 3,
+   "awayGoals": 1
+  }
+ ]
+}

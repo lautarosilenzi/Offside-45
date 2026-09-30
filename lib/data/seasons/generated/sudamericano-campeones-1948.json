@@ -1,0 +1,136 @@
+{
+ "slug": "sudamericano-campeones-1948",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "river"
+ ],
+ "year": 1948,
+ "title": "Campeonato Sudamericano de Campeones 1948",
+ "tournament": "Campeonato Sudamericano de Campeones 1948",
+ "organizer": "Colo-Colo, con el aval de la Confederación Sudamericana de Fútbol",
+ "championIds": [
+  "vasco-br"
+ ],
+ "summary": "River, campeón argentino de 1947, fue segundo a un punto de Vasco da Gama, con el que empató 0-0 en la última fecha. Es el antecedente de la Copa Libertadores.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Campeonato Sudamericano de Campeones",
+   "url": "https://www.rsssf.org/sacups/copa48.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato Sudamericano de Campeones",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_Sudamericano_de_Campeones"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Todos contra todos a una rueda entre siete campeones sudamericanos, en Santiago de Chile."
+  },
+  {
+   "kind": "dato",
+   "text": "Tabla final: Vasco da Gama 10 puntos, River 9, Nacional 8, Municipal y Colo-Colo 6, Litoral 2, Emelec 1. River: 4 ganados, 1 empatado y 1 perdido, 12 goles a favor y 4 en contra."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Campeonato Sudamericano de Campeones",
+   "id": "sudamericano-campeones-1948-001",
+   "date": "1948-02-18",
+   "stage": "Fecha 2",
+   "phase": "cup",
+   "venue": "Estadio Nacional (Santiago de Chile)",
+   "homeId": "river",
+   "awayId": "emelec-ec",
+   "homeGoals": 4,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Campeonato Sudamericano de Campeones",
+   "id": "sudamericano-campeones-1948-002",
+   "date": "1948-02-21",
+   "stage": "Fecha 3",
+   "phase": "cup",
+   "venue": "Estadio Nacional (Santiago de Chile)",
+   "homeId": "river",
+   "awayId": "municipal-pe",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Campeonato Sudamericano de Campeones",
+   "id": "sudamericano-campeones-1948-003",
+   "date": "1948-03-03",
+   "stage": "Fecha 5",
+   "phase": "cup",
+   "venue": "Estadio Nacional (Santiago de Chile)",
+   "homeId": "nacional-uy",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Campeonato Sudamericano de Campeones",
+   "id": "sudamericano-campeones-1948-004",
+   "date": "1948-03-09",
+   "stage": "Fecha 6",
+   "phase": "cup",
+   "venue": "Estadio Nacional (Santiago de Chile)",
+   "homeId": "river",
+   "awayId": "litoral-bo",
+   "homeGoals": 5,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Campeonato Sudamericano de Campeones",
+   "id": "sudamericano-campeones-1948-005",
+   "date": "1948-03-14",
+   "stage": "Fecha 7",
+   "phase": "cup",
+   "venue": "Estadio Nacional (Santiago de Chile)",
+   "homeId": "vasco-br",
+   "awayId": "river",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Campeonato Sudamericano de Campeones",
+   "id": "sudamericano-campeones-1948-006",
+   "date": "1948-03-17",
+   "stage": "Fecha 8",
+   "phase": "cup",
+   "venue": "Estadio Nacional (Santiago de Chile)",
+   "homeId": "river",
+   "awayId": "colo-colo-cl",
+   "homeGoals": 1,
+   "awayGoals": 0
+  }
+ ]
+}

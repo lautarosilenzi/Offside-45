@@ -1,0 +1,47 @@
+{
+ "slug": "copa-aldao-1957",
+ "kind": "cup",
+ "international": true,
+ "year": 1957,
+ "title": "Copa Aldao 1957",
+ "tournament": "Copa Aldao 1957",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [],
+ "summary": "River le ganó 2-1 a Nacional en Montevideo (abril de 1959), pero Nacional no jugó la vuelta y el título no se proclamó.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Aldao",
+   "url": "https://www.rsssf.org/sacups/aldao.html"
+  },
+  {
+   "label": "Wikipedia – Copa Aldao",
+   "url": "https://es.wikipedia.org/wiki/Copa_Aldao"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre los campeones de Argentina y Uruguay, a dos partidos. Con igualdad de puntos, el título era compartido."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1957-001",
+   "date": "1959-04-11",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Estadio Centenario (Montevideo)",
+   "homeId": "nacional-uy",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2
+  }
+ ]
+}

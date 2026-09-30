@@ -6,6 +6,7 @@ import { CUP_TOURNAMENTS_90S } from "./config-cups-90s";
 import { CUP_TOURNAMENTS_MODERN } from "./config-cups-modern";
 import { CUP_TOURNAMENTS_LIGA } from "./config";
 import { CUP_TOURNAMENTS_ARGENTINA } from "./config-cups-argentina";
+import { CUP_TOURNAMENTS_INTL_AMATEUR } from "./config-intl-amateur";
 
 const AFA_1903 = "Argentine Football Association";
 const AAF = "Asociación Argentina de Football";
@@ -629,7 +630,7 @@ export const CUP_TOURNAMENTS: TournamentConfig[] = [
       JOCKEY_TABLA,
       {
         kind: "fuentes",
-        text: "La lista de copas de la AFA (según Wikipedia) da a Newell's como finalista: River le ganó 4-0, pero RSSSF ubica ese partido en la Cup Tie Competition (la final internacional). La final de la copa, según RSSSF y su índice de copas, fue River 2-1 Racing.",
+        text: "La lista de copas de la AFA (según Wikipedia) da a Newell's como finalista: River le ganó 4-0 el 15 de noviembre, pero RSSSF ubica ese partido en la Cup Tie Competition, como final argentina (está cargado en la Copa Chevallier Boutell 1914, entre las copas internacionales). La final de la copa, según RSSSF y su índice de copas, fue River 2-1 Racing.",
       },
     ],
   }),
@@ -994,4 +995,5 @@ export const CUP_TOURNAMENTS: TournamentConfig[] = [
   ...CUP_TOURNAMENTS_MODERN,
   ...CUP_TOURNAMENTS_LIGA,
   ...CUP_TOURNAMENTS_ARGENTINA,
+  ...CUP_TOURNAMENTS_INTL_AMATEUR,
 ];

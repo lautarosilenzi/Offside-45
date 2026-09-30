@@ -1,0 +1,48 @@
+{
+ "slug": "copa-aldao-1940",
+ "kind": "cup",
+ "international": true,
+ "year": 1940,
+ "title": "Copa Aldao 1940",
+ "tournament": "Copa Aldao 1940",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [],
+ "summary": "Nacional y Boca empataron 2-2 y Boca se retiró antes del alargue. La copa se le dio primero a Nacional, pero las asociaciones nunca definieron el título.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Aldao",
+   "url": "https://www.rsssf.org/sacups/aldao.html"
+  },
+  {
+   "label": "Wikipedia – Copa Aldao",
+   "url": "https://es.wikipedia.org/wiki/Copa_Aldao"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido entre los campeones de Argentina y Uruguay, un año en cada país."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1940-001",
+   "date": "1940-12-28",
+   "stage": "Partido por la copa",
+   "phase": "cup",
+   "venue": "Estadio Centenario (Montevideo)",
+   "homeId": "nacional-uy",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "note": "Boca se retiró antes del alargue."
+  }
+ ]
+}

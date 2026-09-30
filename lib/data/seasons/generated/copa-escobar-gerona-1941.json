@@ -1,0 +1,47 @@
+{
+ "slug": "copa-escobar-gerona-1941",
+ "kind": "cup",
+ "international": true,
+ "year": 1941,
+ "title": "Copa Escobar-Gerona 1941",
+ "tournament": "Copa Escobar-Gerona 1941",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [],
+ "summary": "San Lorenzo le ganó 2-1 a Peñarol en la ida; la vuelta no se jugó y la copa quedó desierta.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Escobar-Gerona",
+   "url": "https://www.rsssf.org/sacups/escobargerona.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Confraternidad Escobar-Gerona",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Confraternidad_Escobar-Gerona"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre los subcampeones de Argentina y Uruguay, a dos partidos."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Escobar-Gerona",
+   "id": "copa-escobar-gerona-1941-001",
+   "date": "1942-03-29",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Estadio Centenario (Montevideo)",
+   "homeId": "penarol-uy",
+   "awayId": "sanlorenzo",
+   "homeGoals": 1,
+   "awayGoals": 2
+  }
+ ]
+}

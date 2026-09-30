@@ -94,16 +94,8 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["rosario-puerto-belgrano", "Rosario Puerto Belgrano", "RPB", "Club Atlético Rosario Puerto Belgrano"],
   ["union-santa-fe", "Unión (Santa Fe)", "USF", "Club Atlético Unión (Santa Fe)"],
   ["colon-santa-fe", "Colón (Santa Fe)", "COS", "Club Atlético Colón (Santa Fe)"],
-  // Clubes uruguayos que jugaron la Copa Chevallier Boutell (1900–1906), reconocida por la AFA como copa nacional.
-  ["albion-uy", "Albion (Uruguay)", "ALB", "Albion Football Club (Montevideo)"],
-  ["curcc-uy", "CURCC (Uruguay)", "CUR", "Central Uruguay Railway Cricket Club (Montevideo)"],
-  ["nacional-uy", "Nacional (Uruguay)", "NAU", "Club Nacional de Football (Montevideo)"],
-  ["deutscher-uy", "Deutscher FK (Uruguay)", "DFK", "Deutscher Fussball Klub (Montevideo)"],
-  ["wanderers-uy", "Montevideo Wanderers (Uruguay)", "MWA", "Montevideo Wanderers Football Club"],
-  // Copa Beccar Varela 1933: clubes uruguayos y de las ligas de Santa Fe.
-  ["penarol-uy", "Peñarol (Uruguay)", "PEÑ", "Club Atlético Peñarol (Montevideo)"],
-  ["defensor-uy", "Defensor (Uruguay)", "DEF", "Club Atlético Defensor (Montevideo)"],
-  ["sud-america-uy", "Sud América (Uruguay)", "SUD", "Institución Atlética Sud América (Montevideo)"],
+  // (Los clubes uruguayos de la Copa Chevallier Boutell y la Beccar Varela están en foreign-clubs.ts.)
+  // Copa Beccar Varela 1933: clubes de las ligas de Santa Fe.
   ["gimnasia-santa-fe", "Gimnasia y Esgrima (Santa Fe)", "GSF", "Club de Gimnasia y Esgrima de Santa Fe"],
   // Clubes de ascenso (Intermedia y Segunda) que jugaron la Copa de Competencia Jockey Club, abierta a varias divisiones.
   // Identidades según los enlaces de las páginas de Wikipedia de cada edición; las no confirmadas lo aclaran.

@@ -1,0 +1,52 @@
+{
+ "slug": "copa-aldao-1938",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "penarol-uy"
+ ],
+ "year": 1938,
+ "title": "Copa Aldao 1938",
+ "tournament": "Copa Aldao 1938",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "independiente"
+ ],
+ "summary": "Independiente le ganó 3-1 a Peñarol en el Centenario.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Aldao",
+   "url": "https://www.rsssf.org/sacups/aldao.html"
+  },
+  {
+   "label": "Wikipedia – Copa Aldao",
+   "url": "https://es.wikipedia.org/wiki/Copa_Aldao"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido entre los campeones de Argentina y Uruguay, un año en cada país."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1938-001",
+   "date": "1938-12-29",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Estadio Centenario (Montevideo)",
+   "homeId": "penarol-uy",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 3
+  }
+ ]
+}

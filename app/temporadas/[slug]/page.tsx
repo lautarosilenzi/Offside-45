@@ -42,8 +42,8 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
     <>
       <PageHero
         eyebrow={
-          <Link href={isCup ? "/copas" : "/temporadas"} className="hover:text-white">
-            {isCup ? "← Copas nacionales" : "← Temporadas"}
+          <Link href={season.international ? "/internacionales" : isCup ? "/copas" : "/temporadas"} className="hover:text-white">
+            {season.international ? "← Copas internacionales" : isCup ? "← Copas nacionales" : "← Temporadas"}
           </Link>
         }
         title={seasonTitle(season)}
@@ -195,7 +195,12 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
 
         <section>
           <h2 className="section-title mb-3">Partidos ({matches.length})</h2>
-          {isCup && (
+          {season.international ? (
+            <p className="mb-3 text-sm text-navy-500">
+              Los partidos de los clubes argentinos en la copa, por fase y en orden cronológico. Los cruces entre dos clubes
+              argentinos suman en el historial.
+            </p>
+          ) : isCup && (
             <p className="mb-3 text-sm text-navy-500">
               Todos los partidos de la copa, por fase y en el orden de la fuente. La final se controla contra el índice de
               copas de RSSSF, y se verifica que ningún equipo eliminado vuelva a jugar.

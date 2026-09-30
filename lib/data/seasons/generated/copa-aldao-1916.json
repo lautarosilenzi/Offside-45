@@ -1,0 +1,56 @@
+{
+ "slug": "copa-aldao-1916",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "racing"
+ ],
+ "year": 1916,
+ "title": "Copa Aldao 1916",
+ "tournament": "Copa Aldao 1916",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "nacional-uy"
+ ],
+ "summary": "Nacional le ganó 2-1 a Racing en la primera edición que se jugó.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Aldao",
+   "url": "https://www.rsssf.org/sacups/aldao.html"
+  },
+  {
+   "label": "Wikipedia – Copa Aldao",
+   "url": "https://es.wikipedia.org/wiki/Copa_Aldao"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido entre los campeones de Argentina y Uruguay, un año en cada país."
+  },
+  {
+   "kind": "dato",
+   "text": "La de 1913 (Estudiantes de La Plata, campeón de la Federación, contra River Plate FC) se suspendió por lluvia y nunca se jugó."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1916-001",
+   "date": "1916-12-03",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "GEBA (Palermo, Buenos Aires)",
+   "homeId": "racing",
+   "awayId": "nacional-uy",
+   "homeGoals": 1,
+   "awayGoals": 2
+  }
+ ]
+}

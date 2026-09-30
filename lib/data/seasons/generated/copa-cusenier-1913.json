@@ -1,0 +1,73 @@
+{
+ "slug": "copa-cusenier-1913",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "nacional-uy"
+ ],
+ "year": 1913,
+ "title": "Copa de Honor Cusenier 1913",
+ "tournament": "Copa de Honor Cusenier 1913",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "racing"
+ ],
+ "summary": "Racing le ganó 3-2 a Nacional en el desempate, después de un 1-1 con alargue.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa de Honor Cusenier",
+   "url": "https://www.rsssf.org/sacups/arguruhonor.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Honor Cusenier",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Honor_Cusenier"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a un partido en Montevideo entre el ganador de la Copa de Honor argentina y el de la Copa de Honor uruguaya. Si había empate, desempate en otra fecha."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Wikipedia en español y el sitio de Racing fechan el primer partido el 6 de noviembre; RSSSF y Wikipedia en inglés, el 16. Se toma el 16: Racing jugó la final de la Copa de Honor argentina el 9 de noviembre."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa de Honor Cusenier",
+   "id": "copa-cusenier-1913-001",
+   "date": "1913-11-16",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Gran Parque Central (Montevideo)",
+   "homeId": "nacional-uy",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "note": "Con alargue."
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa de Honor Cusenier",
+   "id": "copa-cusenier-1913-002",
+   "date": "1913-12-08",
+   "stage": "Final (desempate)",
+   "phase": "cup",
+   "venue": "Gran Parque Central (Montevideo)",
+   "homeId": "nacional-uy",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 3
+  }
+ ]
+}

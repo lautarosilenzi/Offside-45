@@ -6,6 +6,8 @@ export type Team = {
   secondary: string;
   // Clubes que ya no existen o no juegan más al fútbol en AFA.
   historic?: boolean;
+  // Clubes del exterior (rivales en copas internacionales): el país, en español.
+  country?: string;
   fullName?: string;
 };
 
@@ -43,6 +45,9 @@ export type Season = {
   slug: string;
   // "cup": copa nacional (eliminación directa o grupos + eliminación). Por defecto, liga.
   kind?: "league" | "cup";
+  // Copa internacional (con clubes de otros países): se lista en /internacionales y no entre las copas nacionales.
+  // Solo se cargan los partidos de los clubes argentinos.
+  international?: boolean;
   // Copas: finalista (subcampeón).
   runnerUpIds?: string[];
   year: number;

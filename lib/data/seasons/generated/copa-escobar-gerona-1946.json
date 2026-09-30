@@ -1,0 +1,72 @@
+{
+ "slug": "copa-escobar-gerona-1946",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "penarol-uy"
+ ],
+ "year": 1946,
+ "title": "Copa Escobar-Gerona 1946",
+ "tournament": "Copa Escobar-Gerona 1946",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Boca le ganó 3-2 a Peñarol en Montevideo y 6-3 en Buenos Aires.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Escobar-Gerona",
+   "url": "https://www.rsssf.org/sacups/escobargerona.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Confraternidad Escobar-Gerona",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Confraternidad_Escobar-Gerona"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre los subcampeones de Argentina y Uruguay, a dos partidos."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Según RSSSF las asociaciones no llegaron a proclamar al ganador; Wikipedia y el palmarés de Boca cuentan el título para Boca, como se muestra acá."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Escobar-Gerona",
+   "id": "copa-escobar-gerona-1946-001",
+   "date": "1946-12-21",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Estadio Centenario (Montevideo)",
+   "homeId": "penarol-uy",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 3
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Escobar-Gerona",
+   "id": "copa-escobar-gerona-1946-002",
+   "date": "1946-12-28",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Gasómetro (Boedo, Buenos Aires)",
+   "homeId": "boca",
+   "awayId": "penarol-uy",
+   "homeGoals": 6,
+   "awayGoals": 3
+  }
+ ]
+}

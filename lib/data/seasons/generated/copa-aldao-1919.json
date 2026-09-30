@@ -1,0 +1,52 @@
+{
+ "slug": "copa-aldao-1919",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "boca"
+ ],
+ "year": 1919,
+ "title": "Copa Aldao 1919",
+ "tournament": "Copa Aldao 1919",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "nacional-uy"
+ ],
+ "summary": "Nacional le ganó 3-0 a Boca en mayo de 1920.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Aldao",
+   "url": "https://www.rsssf.org/sacups/aldao.html"
+  },
+  {
+   "label": "Wikipedia – Copa Aldao",
+   "url": "https://es.wikipedia.org/wiki/Copa_Aldao"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido entre los campeones de Argentina y Uruguay, un año en cada país."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1919-001",
+   "date": "1920-05-16",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Gran Parque Central (Montevideo)",
+   "homeId": "nacional-uy",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 0
+  }
+ ]
+}

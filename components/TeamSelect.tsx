@@ -9,10 +9,11 @@ type Props = {
   exclude: string;
   current: Option[];
   others: Option[];
+  foreign: Option[];
   onChange: (id: string) => void;
 };
 
-export default function TeamSelect({ label, team, exclude, current, others, onChange }: Props) {
+export default function TeamSelect({ label, team, exclude, current, others, foreign, onChange }: Props) {
   return (
     <label className="flex w-full flex-col gap-1.5">
       <span className="font-display text-xs font-semibold uppercase tracking-[0.15em] text-navy-500">{label}</span>
@@ -35,6 +36,15 @@ export default function TeamSelect({ label, team, exclude, current, others, onCh
           {others.length > 0 && (
             <optgroup label="Otros clubes (históricos y de otras categorías)">
               {others.map((t) => (
+                <option key={t.id} value={t.id} disabled={t.id === exclude}>
+                  {t.name}
+                </option>
+              ))}
+            </optgroup>
+          )}
+          {foreign.length > 0 && (
+            <optgroup label="Clubes del exterior (copas internacionales)">
+              {foreign.map((t) => (
                 <option key={t.id} value={t.id} disabled={t.id === exclude}>
                   {t.name}
                 </option>

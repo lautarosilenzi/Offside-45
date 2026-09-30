@@ -1,0 +1,68 @@
+{
+ "slug": "copa-aldao-1947",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "nacional-uy"
+ ],
+ "year": 1947,
+ "title": "Copa Aldao 1947",
+ "tournament": "Copa Aldao 1947",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River le ganó 4-3 a Nacional en Montevideo y 3-1 en Buenos Aires.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Aldao",
+   "url": "https://www.rsssf.org/sacups/aldao.html"
+  },
+  {
+   "label": "Wikipedia – Copa Aldao",
+   "url": "https://es.wikipedia.org/wiki/Copa_Aldao"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre los campeones de Argentina y Uruguay, a dos partidos. Con igualdad de puntos, el título era compartido."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1947-001",
+   "date": "1947-11-19",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Estadio Centenario (Montevideo)",
+   "homeId": "nacional-uy",
+   "awayId": "river",
+   "homeGoals": 3,
+   "awayGoals": 4
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1947-002",
+   "date": "1947-11-23",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Gasómetro (Boedo, Buenos Aires)",
+   "homeId": "river",
+   "awayId": "nacional-uy",
+   "homeGoals": 3,
+   "awayGoals": 1
+  }
+ ]
+}

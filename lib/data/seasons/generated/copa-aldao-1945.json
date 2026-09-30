@@ -1,0 +1,72 @@
+{
+ "slug": "copa-aldao-1945",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "penarol-uy"
+ ],
+ "year": 1945,
+ "title": "Copa Aldao 1945",
+ "tournament": "Copa Aldao 1945",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River le ganó los dos partidos a Peñarol: 2-1 en Montevideo y 3-2 en Buenos Aires.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Aldao",
+   "url": "https://www.rsssf.org/sacups/aldao.html"
+  },
+  {
+   "label": "Wikipedia – Copa Aldao",
+   "url": "https://es.wikipedia.org/wiki/Copa_Aldao"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre los campeones de Argentina y Uruguay, a dos partidos. Con igualdad de puntos, el título era compartido."
+  },
+  {
+   "kind": "dato",
+   "text": "La de 1946 (San Lorenzo contra Nacional, en 1948) fueron dos amistosos: no cuenta como Copa Aldao."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1945-001",
+   "date": "1945-12-06",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Estadio Centenario (Montevideo)",
+   "homeId": "penarol-uy",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1945-002",
+   "date": "1945-12-12",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Gasómetro (Boedo, Buenos Aires)",
+   "homeId": "river",
+   "awayId": "penarol-uy",
+   "homeGoals": 3,
+   "awayGoals": 2
+  }
+ ]
+}

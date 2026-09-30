@@ -1,0 +1,56 @@
+{
+ "slug": "copa-aldao-1920",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "boca"
+ ],
+ "year": 1920,
+ "title": "Copa Aldao 1920",
+ "tournament": "Copa Aldao 1920",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "nacional-uy"
+ ],
+ "summary": "Nacional le ganó 2-1 a Boca en Buenos Aires, en noviembre de 1921.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Aldao",
+   "url": "https://www.rsssf.org/sacups/aldao.html"
+  },
+  {
+   "label": "Wikipedia – Copa Aldao",
+   "url": "https://es.wikipedia.org/wiki/Copa_Aldao"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido entre los campeones de Argentina y Uruguay, un año en cada país."
+  },
+  {
+   "kind": "dato",
+   "text": "Entre 1921 y 1926 no se jugó entre las asociaciones oficiales. En 1923 San Lorenzo (Asociación Amateurs) le ganó 1-0 a Atlético Wanderers (Federación Uruguaya), ambos de ligas disidentes, por otra copa: la Copa Campeonato del Río de la Plata."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1920-001",
+   "date": "1921-11-20",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Sportivo Barracas (Barracas, Buenos Aires)",
+   "homeId": "boca",
+   "awayId": "nacional-uy",
+   "homeGoals": 1,
+   "awayGoals": 2
+  }
+ ]
+}

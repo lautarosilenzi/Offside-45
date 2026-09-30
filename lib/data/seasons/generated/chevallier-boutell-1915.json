@@ -1,0 +1,52 @@
+{
+ "slug": "chevallier-boutell-1915",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "porteno"
+ ],
+ "year": 1915,
+ "title": "Copa Chevallier Boutell 1915",
+ "tournament": "Copa Chevallier Boutell 1915",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "nacional-uy"
+ ],
+ "summary": "Nacional de Montevideo le ganó 2-0 a Porteño.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Chevallier Boutell",
+   "url": "https://www.rsssf.org/sacups/argurucuptie.html"
+  },
+  {
+   "label": "Wikipedia – Cup Tie Competition",
+   "url": "https://es.wikipedia.org/wiki/Cup_Tie_Competition"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a un partido en Buenos Aires entre el ganador de la fase argentina (la Copa de Competencia Jockey Club) y el ganador de la Copa de Competencia uruguaya."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Chevallier Boutell",
+   "id": "chevallier-boutell-1915-001",
+   "date": "1915-10-31",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "GEBA (Palermo, Buenos Aires)",
+   "homeId": "porteno",
+   "awayId": "nacional-uy",
+   "homeGoals": 0,
+   "awayGoals": 2
+  }
+ ]
+}

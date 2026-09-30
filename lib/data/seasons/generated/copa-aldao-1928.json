@@ -1,0 +1,52 @@
+{
+ "slug": "copa-aldao-1928",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "huracan"
+ ],
+ "year": 1928,
+ "title": "Copa Aldao 1928",
+ "tournament": "Copa Aldao 1928",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "penarol-uy"
+ ],
+ "summary": "Peñarol le ganó 3-0 a Huracán en Buenos Aires.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Aldao",
+   "url": "https://www.rsssf.org/sacups/aldao.html"
+  },
+  {
+   "label": "Wikipedia – Copa Aldao",
+   "url": "https://es.wikipedia.org/wiki/Copa_Aldao"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido entre los campeones de Argentina y Uruguay, un año en cada país."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1928-001",
+   "date": "1929-10-26",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "River Plate (Buenos Aires)",
+   "homeId": "huracan",
+   "awayId": "penarol-uy",
+   "homeGoals": 0,
+   "awayGoals": 3
+  }
+ ]
+}

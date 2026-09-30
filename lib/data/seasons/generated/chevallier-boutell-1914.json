@@ -1,0 +1,125 @@
+{
+ "slug": "chevallier-boutell-1914",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "bristol-uy"
+ ],
+ "year": 1914,
+ "title": "Copa Chevallier Boutell 1914",
+ "tournament": "Copa Chevallier Boutell 1914",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River le ganó 1-0 a Bristol en la final: su primer título internacional. Antes le había ganado 4-0 a Newell's, ganador del cuadro rosarino, en la final argentina.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Chevallier Boutell",
+   "url": "https://www.rsssf.org/sacups/argurucuptie.html"
+  },
+  {
+   "label": "Wikipedia – Cup Tie Competition",
+   "url": "https://es.wikipedia.org/wiki/Cup_Tie_Competition"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a un partido en Buenos Aires entre el ganador de la fase argentina (la Copa de Competencia Jockey Club) y el ganador de la Copa de Competencia uruguaya."
+  },
+  {
+   "kind": "formato",
+   "text": "En 1914 la fase argentina tuvo dos cuadros: el de Buenos Aires (la Copa Jockey Club, que ganó River) y el de Rosario (que ganó Newell's). Los dos ganadores jugaron la final argentina."
+  },
+  {
+   "kind": "fuentes",
+   "text": "RSSSF ubica el River 4-0 Newell's del 15 de noviembre en esta copa (final argentina); Wikipedia en inglés lo cuenta como final de la Copa Jockey Club 1914. Los partidos del cuadro rosarino salen solo de RSSSF."
+  },
+  {
+   "kind": "identidad",
+   "text": "Bristol jugó la final invitado: Nacional, campeón de la copa uruguaya, no aceptaba el reglamento de las dos asociaciones por la ruptura de ese año entre la Liga Uruguaya y la Asociación Argentina."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Chevallier Boutell",
+   "id": "chevallier-boutell-1914-001",
+   "date": "1914-08-30",
+   "stage": "Rosario · Ronda preliminar",
+   "phase": "cup",
+   "venue": "Atlético del Rosario (Plaza Jewell, Rosario)",
+   "homeId": "rosario-athletic",
+   "awayId": "gimnasia-rosario",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Chevallier Boutell",
+   "id": "chevallier-boutell-1914-002",
+   "date": "1914-08-30",
+   "stage": "Rosario · Ronda preliminar",
+   "phase": "cup",
+   "venue": "Newell's Old Boys (Barrio Vila, Rosario)",
+   "homeId": "newells",
+   "awayId": "provincial-rosario",
+   "homeGoals": 3,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Copa Chevallier Boutell",
+   "id": "chevallier-boutell-1914-003",
+   "date": "1914-11-08",
+   "stage": "Rosario · Final",
+   "phase": "cup",
+   "venue": "Argentino (Parque de la Independencia, Rosario)",
+   "homeId": "gimnasia-rosario",
+   "awayId": "newells",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Chevallier Boutell",
+   "id": "chevallier-boutell-1914-004",
+   "date": "1914-11-15",
+   "stage": "Argentina · Final",
+   "phase": "cup",
+   "venue": "Racing Club (Avellaneda)",
+   "homeId": "river",
+   "awayId": "newells",
+   "homeGoals": 4,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Chevallier Boutell",
+   "id": "chevallier-boutell-1914-005",
+   "date": "1914-12-20",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Ferro Carril Oeste (Caballito, Buenos Aires)",
+   "homeId": "river",
+   "awayId": "bristol-uy",
+   "homeGoals": 1,
+   "awayGoals": 0
+  }
+ ]
+}

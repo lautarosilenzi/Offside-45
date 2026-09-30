@@ -1263,6 +1263,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   const season: Season = {
     slug: cfg.slug,
     ...(cfg.kind && { kind: cfg.kind }),
+    ...(cfg.international && { international: true }),
     ...(cfg.runnerUpIds && { runnerUpIds: cfg.runnerUpIds }),
     year: cfg.year,
     ...(cfg.yearLabel && { yearLabel: cfg.yearLabel }),
@@ -1462,7 +1463,7 @@ function verifyCup(season: Season, cfg: TournamentConfig): { problems: string[];
       else warnings.push(`Copa: final confirmada por el índice de RSSSF (${idx.raw})`);
     } else warnings.push("Copa: esta edición no figura en el índice de RSSSF");
   }
-  if ((!season.groups?.length && !season.publishedTable.length) || cfg.checkEliminations) {
+  if (((!season.groups?.length && !season.publishedTable.length) || cfg.checkEliminations) && !cfg.noEliminationCheck) {
     // En el orden de la fuente (cronológico, y el único disponible cuando falta la fecha).
     const eliminated = new Map<string, string>();
     // Con fecha completa en los dos, manda la fecha (los partidos agregados en la configuración van al final de los ids).

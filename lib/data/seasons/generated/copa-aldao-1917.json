@@ -1,0 +1,68 @@
+{
+ "slug": "copa-aldao-1917",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "nacional-uy"
+ ],
+ "year": 1917,
+ "title": "Copa Aldao 1917",
+ "tournament": "Copa Aldao 1917",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "racing"
+ ],
+ "summary": "Racing empató 2-2 en Montevideo y ganó 2-1 en Buenos Aires.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Aldao",
+   "url": "https://www.rsssf.org/sacups/aldao.html"
+  },
+  {
+   "label": "Wikipedia – Copa Aldao",
+   "url": "https://es.wikipedia.org/wiki/Copa_Aldao"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre los campeones de Argentina y Uruguay, a dos partidos. Con igualdad de puntos, el título era compartido."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1917-001",
+   "date": "1918-04-19",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Parque Pereira (Montevideo)",
+   "homeId": "nacional-uy",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1917-002",
+   "date": "1918-07-09",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "GEBA (Palermo, Buenos Aires)",
+   "homeId": "racing",
+   "awayId": "nacional-uy",
+   "homeGoals": 2,
+   "awayGoals": 1
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "copa-cusenier-1908",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "quilmes"
+ ],
+ "year": 1908,
+ "title": "Copa de Honor Cusenier 1908",
+ "tournament": "Copa de Honor Cusenier 1908",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "wanderers-uy"
+ ],
+ "summary": "Montevideo Wanderers le ganó 2-0 a Quilmes.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa de Honor Cusenier",
+   "url": "https://www.rsssf.org/sacups/arguruhonor.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Honor Cusenier",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Honor_Cusenier"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a un partido en Montevideo entre el ganador de la Copa de Honor argentina y el de la Copa de Honor uruguaya. Si había empate, desempate en otra fecha."
+  },
+  {
+   "kind": "fuentes",
+   "text": "RSSSF marca por error a Quilmes como uruguayo; era el ganador de la Copa de Honor argentina 1908."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa de Honor Cusenier",
+   "id": "copa-cusenier-1908-001",
+   "date": "1908-10-11",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "wanderers-uy",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0
+  }
+ ]
+}

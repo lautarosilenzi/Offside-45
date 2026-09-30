@@ -1,0 +1,52 @@
+{
+ "slug": "copa-cusenier-1909",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "san-isidro"
+ ],
+ "year": 1909,
+ "title": "Copa de Honor Cusenier 1909",
+ "tournament": "Copa de Honor Cusenier 1909",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "curcc-uy"
+ ],
+ "summary": "CURCC le ganó 4-2 a San Isidro.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa de Honor Cusenier",
+   "url": "https://www.rsssf.org/sacups/arguruhonor.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Honor Cusenier",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Honor_Cusenier"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a un partido en Montevideo entre el ganador de la Copa de Honor argentina y el de la Copa de Honor uruguaya. Si había empate, desempate en otra fecha."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa de Honor Cusenier",
+   "id": "copa-cusenier-1909-001",
+   "date": "1909-10-17",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Gran Parque Central (Montevideo)",
+   "homeId": "curcc-uy",
+   "awayId": "san-isidro",
+   "homeGoals": 4,
+   "awayGoals": 2
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "slug": "copa-cusenier-1915",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "racing"
+ ],
+ "year": 1915,
+ "title": "Copa de Honor Cusenier 1915",
+ "tournament": "Copa de Honor Cusenier 1915",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "nacional-uy"
+ ],
+ "summary": "Nacional le ganó 2-0 a Racing.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa de Honor Cusenier",
+   "url": "https://www.rsssf.org/sacups/arguruhonor.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Honor Cusenier",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Honor_Cusenier"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a un partido en Montevideo entre el ganador de la Copa de Honor argentina y el de la Copa de Honor uruguaya. Si había empate, desempate en otra fecha."
+  },
+  {
+   "kind": "dato",
+   "text": "En 1914 la copa la jugaron solo equipos uruguayos."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa de Honor Cusenier",
+   "id": "copa-cusenier-1915-001",
+   "date": "1915-11-14",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Gran Parque Central (Montevideo)",
+   "homeId": "nacional-uy",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 0
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "slug": "copa-cusenier-1907",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "curcc-uy"
+ ],
+ "year": 1907,
+ "title": "Copa de Honor Cusenier 1907",
+ "tournament": "Copa de Honor Cusenier 1907",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "belgrano-athletic"
+ ],
+ "summary": "Belgrano Athletic le ganó 2-1 a CURCC en el alargue.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa de Honor Cusenier",
+   "url": "https://www.rsssf.org/sacups/arguruhonor.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Honor Cusenier",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Honor_Cusenier"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a un partido en Montevideo entre el ganador de la Copa de Honor argentina y el de la Copa de Honor uruguaya. Si había empate, desempate en otra fecha."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa de Honor Cusenier",
+   "id": "copa-cusenier-1907-001",
+   "date": "1907-10-20",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "curcc-uy",
+   "awayId": "belgrano-athletic",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "note": "Con alargue."
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "slug": "chevallier-boutell-1910",
+ "kind": "cup",
+ "international": true,
+ "year": 1910,
+ "title": "Copa Chevallier Boutell 1910",
+ "tournament": "Copa Chevallier Boutell 1910",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [],
+ "summary": "La final entre Estudiantes (BA) y CURCC se interrumpió 2-2 a los 61 minutos y el desempate no se jugó: el 25 de abril de 1911 la copa se declaró desierta.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Chevallier Boutell",
+   "url": "https://www.rsssf.org/sacups/argurucuptie.html"
+  },
+  {
+   "label": "Wikipedia – Cup Tie Competition",
+   "url": "https://es.wikipedia.org/wiki/Cup_Tie_Competition"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a un partido en Buenos Aires entre el ganador de la fase argentina (la Copa de Competencia Jockey Club) y el ganador de la Copa de Competencia uruguaya."
+  },
+  {
+   "kind": "anulado",
+   "text": "El partido no se completó y la copa quedó sin campeón: se muestra pero no suma en las estadísticas."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Chevallier Boutell",
+   "id": "chevallier-boutell-1910-001",
+   "date": "1910-08-07",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "GEBA (Palermo, Buenos Aires)",
+   "homeId": "estudiantes-ba",
+   "awayId": "curcc-uy",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "status": "annulled",
+   "note": "Se jugaron 61 minutos. El desempate nunca se jugó."
+  }
+ ]
+}

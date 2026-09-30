@@ -1,4 +1,5 @@
 import { HISTORIC_CLUBS } from "./data/clubs";
+import { FOREIGN_CLUBS } from "./data/foreign-clubs";
 import type { Team } from "./types";
 
 // Clubes de la Primera División actual (más Quilmes, uno de los fundadores de la liga).
@@ -27,7 +28,10 @@ export const TEAMS: Team[] = [
 // Clubes que no están hoy en Primera (desaparecidos o de otras categorías).
 export const HISTORIC_TEAMS: Team[] = HISTORIC_CLUBS;
 
-const ALL_TEAMS = [...TEAMS, ...HISTORIC_TEAMS];
+// Clubes del exterior: rivales de los argentinos en las copas internacionales.
+export const FOREIGN_TEAMS: Team[] = FOREIGN_CLUBS;
+
+const ALL_TEAMS = [...TEAMS, ...HISTORIC_TEAMS, ...FOREIGN_TEAMS];
 
 export const getTeam = (id: string) => ALL_TEAMS.find((t) => t.id === id);
 

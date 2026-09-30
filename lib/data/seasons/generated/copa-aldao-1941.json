@@ -1,0 +1,69 @@
+{
+ "slug": "copa-aldao-1941",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "nacional-uy"
+ ],
+ "year": 1941,
+ "title": "Copa Aldao 1941",
+ "tournament": "Copa Aldao 1941",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River le ganó 6-1 a Nacional en Buenos Aires y empató 1-1 en Montevideo.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Aldao",
+   "url": "https://www.rsssf.org/sacups/aldao.html"
+  },
+  {
+   "label": "Wikipedia – Copa Aldao",
+   "url": "https://es.wikipedia.org/wiki/Copa_Aldao"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre los campeones de Argentina y Uruguay, a dos partidos. Con igualdad de puntos, el título era compartido."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1941-001",
+   "date": "1942-03-29",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Gasómetro (Boedo, Buenos Aires)",
+   "homeId": "river",
+   "awayId": "nacional-uy",
+   "homeGoals": 6,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1941-002",
+   "date": "1942-12-05",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Estadio Centenario (Montevideo)",
+   "homeId": "nacional-uy",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "advancedId": "river"
+  }
+ ]
+}

@@ -8,7 +8,9 @@ export const getSeason = (slug: string) => SEASONS.find((s) => s.slug === slug);
 
 export const LOADED_YEARS = new Set(SEASONS.filter((s) => s.kind !== "cup").map((s) => s.year));
 export const LEAGUE_SEASONS = SEASONS.filter((s) => s.kind !== "cup");
-export const CUP_SEASONS = SEASONS.filter((s) => s.kind === "cup");
+// Copas nacionales; las internacionales van aparte (INTL_SEASONS).
+export const CUP_SEASONS = SEASONS.filter((s) => s.kind === "cup" && !s.international);
+export const INTL_SEASONS = SEASONS.filter((s) => s.international);
 
 // Nombre para mostrar: "1919" o "1919 · AAm" cuando ese año hubo dos ligas.
 export const seasonLabel = (s: Season) => (s.league ? `${s.yearLabel ?? s.year} · ${s.league}` : (s.yearLabel ?? String(s.year)));
@@ -24,6 +26,13 @@ export const cupName = (s: Season) => s.title.replace(/\s+\d{4}(\/\d{2})?$/, "")
 export const CUP_COMPETITIONS: { name: string; editions: Season[] }[] = [...new Set(CUP_SEASONS.map(cupName))].map(
   (name) => ({ name, editions: CUP_SEASONS.filter((s) => cupName(s) === name).sort((a, b) => a.year - b.year) }),
 );
+
+// Copas internacionales agrupadas por competición. La Copa Chevallier Boutell (Tie Cup) incluye sus ediciones
+// 1900–1906, que la AFA cuenta como copa nacional y figuran también en /copas.
+export const INTL_COMPETITIONS: { name: string; editions: Season[] }[] = [...new Set(INTL_SEASONS.map(cupName))].map((name) => ({
+  name,
+  editions: SEASONS.filter((s) => s.kind === "cup" && cupName(s) === name).sort((a, b) => a.year - b.year),
+}));
 
 // Torneos de liga que dan título: se dejan afuera las liguillas, promociones, reclasificaciones y desempates
 // (el campeón del Apertura 2006/07 o 2008/09 ya figura en su torneo).
@@ -62,7 +71,10 @@ export function titleLabel(s: Season): string {
 
 // Anterior y siguiente dentro de la misma serie: las ligas entre sí y cada copa con sus propias ediciones.
 export function siblingsOf(season: Season): { prev?: Season; next?: Season } {
-  const list = season.kind === "cup" ? CUP_COMPETITIONS.find((c) => c.name === cupName(season))!.editions : LEAGUE_SEASONS;
+  const list =
+    season.kind === "cup"
+      ? SEASONS.filter((s) => s.kind === "cup" && cupName(s) === cupName(season)).sort((a, b) => a.year - b.year)
+      : LEAGUE_SEASONS;
   const i = list.indexOf(season);
   return { prev: list[i - 1], next: list[i + 1] };
 }

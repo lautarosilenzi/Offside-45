@@ -1,0 +1,52 @@
+{
+ "slug": "chevallier-boutell-1918",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "porteno"
+ ],
+ "year": 1918,
+ "title": "Copa Chevallier Boutell 1918",
+ "tournament": "Copa Chevallier Boutell 1918",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "wanderers-uy"
+ ],
+ "summary": "Montevideo Wanderers le ganó 2-1 a Porteño.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Chevallier Boutell",
+   "url": "https://www.rsssf.org/sacups/argurucuptie.html"
+  },
+  {
+   "label": "Wikipedia – Cup Tie Competition",
+   "url": "https://es.wikipedia.org/wiki/Cup_Tie_Competition"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a un partido en Buenos Aires entre el ganador de la fase argentina (la Copa de Competencia Jockey Club) y el ganador de la Copa de Competencia uruguaya."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Chevallier Boutell",
+   "id": "chevallier-boutell-1918-001",
+   "date": "1918-12-01",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "GEBA (Palermo, Buenos Aires)",
+   "homeId": "porteno",
+   "awayId": "wanderers-uy",
+   "homeGoals": 1,
+   "awayGoals": 2
+  }
+ ]
+}

@@ -6,6 +6,8 @@ export type TournamentConfig = {
   slug: string;
   // Copa nacional: fases de eliminación, sin tabla de liga (salvo la tabla resumen que publique RSSSF).
   kind?: "cup";
+  // Copa internacional: se lista aparte y solo lleva los partidos de los clubes argentinos.
+  international?: boolean;
   // Copas cuyas zonas vienen en secciones separadas de la página: se juntan todas.
   allSections?: boolean;
   // Con allSections: títulos de sección que abren una fase; sus grupos quedan "Fase Campeón · Grupo A" ("" la cierra).
@@ -42,6 +44,8 @@ export type TournamentConfig = {
   stageRename?: Record<string, string>;
   // Copa con campeón pero sin final jugada (Copa Estímulo 1920): no se busca la final.
   noFinal?: boolean;
+  // Copa por puntos (todos contra todos): no se controla que los eliminados no vuelvan a jugar.
+  noEliminationCheck?: boolean;
   // Equipos eliminados que vuelven a jugar (cuadro rearmado en 1920, o un caso sin explicar en la fuente). Sin `teams`, vale para todos.
   // La explicación se agrega a las notas de la temporada.
   reentry?: { teams?: string[]; note: string };

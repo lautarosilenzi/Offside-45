@@ -8,6 +8,7 @@ const NAV = [
   { href: "/", label: "Historial" },
   { href: "/temporadas", label: "Temporadas" },
   { href: "/copas", label: "Copas" },
+  { href: "/internacionales", label: "Internacionales" },
   { href: "/campeones", label: "Campeones" },
   { href: "/balon-de-oro", label: "Balón de Oro" },
 ];

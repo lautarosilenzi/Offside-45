@@ -1,0 +1,52 @@
+{
+ "slug": "copa-cusenier-1916",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "central"
+ ],
+ "year": 1916,
+ "title": "Copa de Honor Cusenier 1916",
+ "tournament": "Copa de Honor Cusenier 1916",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "nacional-uy"
+ ],
+ "summary": "Nacional le ganó 6-1 a Rosario Central.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa de Honor Cusenier",
+   "url": "https://www.rsssf.org/sacups/arguruhonor.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Honor Cusenier",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Honor_Cusenier"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a un partido en Montevideo entre el ganador de la Copa de Honor argentina y el de la Copa de Honor uruguaya. Si había empate, desempate en otra fecha."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa de Honor Cusenier",
+   "id": "copa-cusenier-1916-001",
+   "date": "1916-12-10",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Gran Parque Central (Montevideo)",
+   "homeId": "nacional-uy",
+   "awayId": "central",
+   "homeGoals": 6,
+   "awayGoals": 1
+  }
+ ]
+}

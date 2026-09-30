@@ -1,0 +1,52 @@
+{
+ "slug": "copa-aldao-1936",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "penarol-uy"
+ ],
+ "year": 1936,
+ "title": "Copa Aldao 1936",
+ "tournament": "Copa Aldao 1936",
+ "organizer": "Asociaciones de fútbol de Argentina y Uruguay",
+ "championIds": [
+  "river"
+ ],
+ "summary": "River le ganó 5-1 a Peñarol en el Centenario.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Aldao",
+   "url": "https://www.rsssf.org/sacups/aldao.html"
+  },
+  {
+   "label": "Wikipedia – Copa Aldao",
+   "url": "https://es.wikipedia.org/wiki/Copa_Aldao"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido entre los campeones de Argentina y Uruguay, un año en cada país."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Aldao",
+   "id": "copa-aldao-1936-001",
+   "date": "1937-03-20",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Estadio Centenario (Montevideo)",
+   "homeId": "penarol-uy",
+   "awayId": "river",
+   "homeGoals": 1,
+   "awayGoals": 5
+  }
+ ]
+}
