@@ -1,0 +1,106 @@
+{
+ "slug": "master-supercopa-1992",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "cruzeiro-br"
+ ],
+ "year": 1992,
+ "title": "Copa Máster de Supercopa 1992",
+ "tournament": "Copa Máster de Supercopa 1992",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Campeón argentino: Boca Juniors; finalista: Cruzeiro (Brasil). Clubes argentinos: Boca Juniors (campeón), Racing Club (partido por el tercer puesto).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Máster de Supercopa",
+   "url": "https://www.rsssf.org/sacups/sasupmas92.html"
+  },
+  {
+   "label": "Wikipedia – Copa Máster de Supercopa 1992",
+   "url": "https://es.wikipedia.org/wiki/Copa_M%C3%A1ster_de_Supercopa_1992"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre los campeones de la Supercopa, en una semana y en una sola sede."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Máster de Supercopa",
+   "id": "master-supercopa-1992-001",
+   "date": "1992-05-27",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires (cancha de Vélez)",
+   "homeId": "boca",
+   "awayId": "olimpia-py",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Máster de Supercopa",
+   "id": "master-supercopa-1992-002",
+   "date": "1992-05-29",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires (cancha de Vélez)",
+   "homeId": "racing",
+   "awayId": "cruzeiro-br",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "advancedId": "cruzeiro-br",
+   "note": "Penales: 1-3."
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Máster de Supercopa",
+   "id": "master-supercopa-1992-003",
+   "date": "1992-05-31",
+   "stage": "Tercer puesto",
+   "phase": "cup",
+   "venue": "Buenos Aires (cancha de Vélez)",
+   "homeId": "olimpia-py",
+   "awayId": "racing",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Máster de Supercopa",
+   "id": "master-supercopa-1992-004",
+   "date": "1992-05-31",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Buenos Aires (cancha de Vélez)",
+   "homeId": "boca",
+   "awayId": "cruzeiro-br",
+   "homeGoals": 2,
+   "awayGoals": 1
+  }
+ ]
+}

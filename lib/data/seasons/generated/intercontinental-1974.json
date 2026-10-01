@@ -1,0 +1,72 @@
+{
+ "slug": "intercontinental-1974",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "independiente"
+ ],
+ "year": 1974,
+ "title": "Copa Intercontinental 1974",
+ "tournament": "Copa Intercontinental 1974",
+ "organizer": "UEFA y Conmebol",
+ "championIds": [
+  "atletico-madrid-es"
+ ],
+ "summary": "Campeón: Atlético de Madrid (España); finalista: Independiente. Clubes argentinos: Independiente (finalista).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Intercontinental",
+   "url": "https://www.rsssf.org/tablest/toyota.html"
+  },
+  {
+   "label": "Wikipedia – Copa Intercontinental 1974",
+   "url": "https://es.wikipedia.org/wiki/Copa_Intercontinental_1974"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre los campeones de Europa y de la Copa Libertadores (1960–2004): ida y vuelta, con desempate, hasta 1979; desde 1980, partido único en Tokio o Yokohama. La FIFA reconoce a sus ganadores como campeones del mundo."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Intercontinental",
+   "id": "intercontinental-1974-001",
+   "date": "1975-03-12",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "independiente",
+   "awayId": "atletico-madrid-es",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Intercontinental",
+   "id": "intercontinental-1974-002",
+   "date": "1975-04-10",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Madrid",
+   "homeId": "atletico-madrid-es",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0
+  }
+ ]
+}

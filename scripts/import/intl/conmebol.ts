@@ -32,6 +32,8 @@ export const ARG: { id: string; names: string[]; cities: string[] }[] = [
   { id: "independiente", names: ["Independiente"], cities: ["Avellaneda"] },
   { id: "lanus", names: ["Lanús"], cities: ["Lanús"] },
   { id: "newells", names: ["Newell's Old Boys", "Newell's"], cities: ["Rosario"] },
+  { id: "platense", names: ["Platense"], cities: ["Vicente López", "Buenos Aires"] },
+  { id: "independiente-rivadavia", names: ["Independiente Rivadavia", "Ind. Rivadavia", "Independiente Rivadavia (Mendoza)"], cities: ["Mendoza"] },
   { id: "patronato-parana", names: ["Patronato (Paraná)", "Patronato"], cities: ["Paraná"] },
   { id: "quilmes", names: ["Quilmes"], cities: ["Quilmes"] },
   { id: "racing", names: ["Racing Club", "Racing"], cities: ["Avellaneda"] },
@@ -185,7 +187,8 @@ export type IntlMatch = {
   scorers?: string;
 };
 // Campeón y subcampeón (según Wikipedia; se controla contra la final cuando la jugó un club argentino).
-export type IntlEdition = { year: number; championId: string; runnerUpId: string; matches: IntlMatch[] };
+// note: aclaración de la edición (va a las notas de la temporada).
+export type IntlEdition = { year: number; championId: string; runnerUpId: string; matches: IntlMatch[]; note?: string; inProgress?: boolean };
 
 type Cup = {
   key: string;

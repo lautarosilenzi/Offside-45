@@ -1,0 +1,58 @@
+{
+ "slug": "master-conmebol-1996",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "atletico-mineiro-br"
+ ],
+ "year": 1996,
+ "title": "Copa Máster de Conmebol 1996",
+ "tournament": "Copa Máster de Conmebol 1996",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "sao-paulo-br"
+ ],
+ "summary": "Campeón: São Paulo (Brasil); finalista: Atlético Mineiro (Brasil). Clubes argentinos: Rosario Central (semifinal).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Máster de Conmebol",
+   "url": "https://www.rsssf.org/sacups/mastconmebol96.html"
+  },
+  {
+   "label": "Wikipedia – Copa Máster de Conmebol",
+   "url": "https://es.wikipedia.org/wiki/Copa_M%C3%A1ster_de_Conmebol"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre los campeones de la Copa Conmebol, jugada una sola vez (1996, en Cuiabá)."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Máster de Conmebol",
+   "id": "master-conmebol-1996-001",
+   "date": "1996-02-09",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Cuiabá",
+   "homeId": "atletico-mineiro-br",
+   "awayId": "central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "advancedId": "atletico-mineiro-br",
+   "note": "Penales: 10-9."
+  }
+ ]
+}

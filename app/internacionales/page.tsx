@@ -23,6 +23,16 @@ const ABOUT: Record<string, string> = {
   "Copa Conmebol": "La segunda copa de la Conmebol (1992–1999), para los clubes que no jugaban la Libertadores. La antecesora de la Sudamericana.",
   "Copa Mercosur": "Copa de la Conmebol con clubes de Argentina, Brasil, Chile, Paraguay y Uruguay (1998–2001).",
   "Copa Sudamericana": "La segunda copa de clubes de la Conmebol, desde 2002. De cada edición están todos los partidos de los clubes argentinos.",
+  "Recopa Sudamericana": "Entre el campeón de la Copa Libertadores y el de la Supercopa o la Sudamericana (desde 1989).",
+  "Copa Intercontinental": "Entre los campeones de Europa y de la Libertadores (1960–2004). La FIFA reconoce a sus ganadores como campeones del mundo.",
+  "Copa Interamericana": "Entre los campeones de la Libertadores y de la Concacaf (1968–1998).",
+  "Mundial de Clubes": "La copa de la FIFA entre los campeones de cada confederación (desde 2000; desde 2025, con 32 equipos).",
+  "Copa Suruga Bank": "Entre el campeón de la Sudamericana y el de la Copa de la Liga japonesa (2008–2019).",
+  "Copa Máster de Supercopa": "Entre los campeones de la Supercopa (1992, en Buenos Aires).",
+  "Copa de Oro Nicolás Leoz": "Entre los campeones de las copas de la Conmebol de la temporada anterior (1993–1996).",
+  "Copa Máster de Conmebol": "Entre los campeones de la Copa Conmebol (1996).",
+  "Copa Iberoamericana": "Entre el campeón de la Copa de Oro y el de la Copa del Rey de España (1994).",
+  "Recopa Sudamericana de Clubes": "Copa de la Conmebol de 1970 con un club por país; jugó Atlanta.",
   "Campeonato Sudamericano de Campeones":
     "Siete campeones sudamericanos en Santiago de Chile, en 1948: el antecedente de la Copa Libertadores. River fue segundo.",
 };
@@ -88,9 +98,8 @@ export default function InternationalPage() {
         ))}
 
         <p className="text-sm text-navy-400">
-          Por ahora están las copas rioplatenses, el Sudamericano de Campeones de 1948, la Copa Libertadores (1960–2025), la
-          Sudamericana (2002–2025), la Supercopa, la Copa Conmebol y la Mercosur. Se van a sumar la Recopa, la
-          Intercontinental, la Interamericana, las Copas Máster y de Oro y el Mundial de Clubes. De las copas con clubes de otros países solo se cargan los partidos de los
+          Están todas las copas internacionales oficiales que jugaron clubes argentinos, de la Tie Cup de 1907 a la Recopa 2026.
+          La Copa Libertadores 2026, que se está jugando, se va a sumar cuando termine. De las copas con clubes de otros países solo se cargan los partidos de los
           clubes argentinos. Las ediciones 1900–1906 de la Copa Chevallier Boutell también figuran en{" "}
           <Link href="/copas" className="text-brand-500 hover:underline">
             copas nacionales

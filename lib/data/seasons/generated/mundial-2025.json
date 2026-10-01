@@ -1,0 +1,130 @@
+{
+ "slug": "mundial-2025",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "psg-fr"
+ ],
+ "year": 2025,
+ "title": "Mundial de Clubes 2025",
+ "tournament": "Mundial de Clubes 2025",
+ "organizer": "FIFA",
+ "championIds": [
+  "chelsea-en"
+ ],
+ "summary": "Campeón: Chelsea (Inglaterra); finalista: Paris Saint-Germain (Francia). Clubes argentinos: Boca Juniors (fase de grupos), River Plate (fase de grupos).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Mundial de Clubes",
+   "url": "https://www.rsssf.org/tablesf/fifa-wcc2025.html"
+  },
+  {
+   "label": "Wikipedia – Copa Mundial de Clubes de la FIFA 2025",
+   "url": "https://es.wikipedia.org/wiki/Copa_Mundial_de_Clubes_de_la_FIFA_2025"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Copa Mundial de Clubes de la FIFA: los campeones de cada confederación (desde 2025, 32 equipos con fase de grupos)."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Mundial de Clubes",
+   "id": "mundial-2025-001",
+   "date": "2025-06-16",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Miami Gardens",
+   "homeId": "boca",
+   "awayId": "benfica-pt",
+   "homeGoals": 2,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Mundial de Clubes",
+   "id": "mundial-2025-002",
+   "date": "2025-06-17",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Seattle",
+   "homeId": "river",
+   "awayId": "urawa-jp",
+   "homeGoals": 3,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Mundial de Clubes",
+   "id": "mundial-2025-003",
+   "date": "2025-06-20",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Miami Gardens",
+   "homeId": "bayern-de",
+   "awayId": "boca",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Mundial de Clubes",
+   "id": "mundial-2025-004",
+   "date": "2025-06-21",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Pasadena",
+   "homeId": "river",
+   "awayId": "monterrey-mx",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Mundial de Clubes",
+   "id": "mundial-2025-005",
+   "date": "2025-06-24",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Nashville",
+   "homeId": "auckland-city-nz",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Mundial de Clubes",
+   "id": "mundial-2025-006",
+   "date": "2025-06-25",
+   "stage": "Fase de grupos",
+   "phase": "cup",
+   "venue": "Seattle",
+   "homeId": "internazionale-it",
+   "awayId": "river",
+   "homeGoals": 2,
+   "awayGoals": 0
+  }
+ ]
+}

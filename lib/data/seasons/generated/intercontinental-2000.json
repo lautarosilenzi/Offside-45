@@ -1,0 +1,56 @@
+{
+ "slug": "intercontinental-2000",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "real-madrid-es"
+ ],
+ "year": 2000,
+ "title": "Copa Intercontinental 2000",
+ "tournament": "Copa Intercontinental 2000",
+ "organizer": "UEFA y Conmebol",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Campeón argentino: Boca Juniors; finalista: Real Madrid (España). Clubes argentinos: Boca Juniors (campeón).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Intercontinental",
+   "url": "https://www.rsssf.org/tablest/toyota.html"
+  },
+  {
+   "label": "Wikipedia – Copa Intercontinental 2000",
+   "url": "https://es.wikipedia.org/wiki/Copa_Intercontinental_2000"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre los campeones de Europa y de la Copa Libertadores (1960–2004): ida y vuelta, con desempate, hasta 1979; desde 1980, partido único en Tokio o Yokohama. La FIFA reconoce a sus ganadores como campeones del mundo."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Intercontinental",
+   "id": "intercontinental-2000-001",
+   "date": "2000-11-28",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Tokyo",
+   "homeId": "boca",
+   "awayId": "real-madrid-es",
+   "homeGoals": 2,
+   "awayGoals": 1
+  }
+ ]
+}

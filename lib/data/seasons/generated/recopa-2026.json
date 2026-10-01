@@ -1,0 +1,73 @@
+{
+ "slug": "recopa-2026",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "flamengo-br"
+ ],
+ "year": 2026,
+ "title": "Recopa Sudamericana 2026",
+ "tournament": "Recopa Sudamericana 2026",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "lanus"
+ ],
+ "summary": "Campeón argentino: Lanús; finalista: Flamengo (Brasil). Clubes argentinos: Lanús (campeón).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Recopa Sudamericana",
+   "url": "https://www.rsssf.org/sacups/recopa.html"
+  },
+  {
+   "label": "Wikipedia – Recopa Sudamericana 2026",
+   "url": "https://es.wikipedia.org/wiki/Recopa_Sudamericana_2026"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre el campeón de la Copa Libertadores y el de la Supercopa (hasta 1998) o la Sudamericana (desde 2003), a uno o dos partidos."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Recopa Sudamericana",
+   "id": "recopa-2026-001",
+   "date": "2026-02-19",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Lanús",
+   "homeId": "lanus",
+   "awayId": "flamengo-br",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Recopa Sudamericana",
+   "id": "recopa-2026-002",
+   "date": "2026-02-26",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Río de Janeiro",
+   "homeId": "flamengo-br",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "note": "Con alargue."
+  }
+ ]
+}

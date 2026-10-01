@@ -1,0 +1,70 @@
+{
+ "slug": "mundial-2014",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "sanlorenzo"
+ ],
+ "year": 2014,
+ "title": "Mundial de Clubes 2014",
+ "tournament": "Mundial de Clubes 2014",
+ "organizer": "FIFA",
+ "championIds": [
+  "real-madrid-es"
+ ],
+ "summary": "Campeón: Real Madrid (España); finalista: San Lorenzo. Clubes argentinos: San Lorenzo (finalista).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Mundial de Clubes",
+   "url": "https://www.rsssf.org/tablesf/fifa-wcc2014.html"
+  },
+  {
+   "label": "Wikipedia – Copa Mundial de Clubes de la FIFA 2014",
+   "url": "https://es.wikipedia.org/wiki/Copa_Mundial_de_Clubes_de_la_FIFA_2014"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Copa Mundial de Clubes de la FIFA: los campeones de cada confederación (desde 2025, 32 equipos con fase de grupos)."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Mundial de Clubes",
+   "id": "mundial-2014-001",
+   "date": "2014-12-17",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Marrakech",
+   "homeId": "sanlorenzo",
+   "awayId": "auckland-city-nz",
+   "homeGoals": 2,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Mundial de Clubes",
+   "id": "mundial-2014-002",
+   "date": "2014-12-20",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Marrakech",
+   "homeId": "real-madrid-es",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0
+  }
+ ]
+}

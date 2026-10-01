@@ -1,0 +1,55 @@
+{
+ "slug": "recopa-1995",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "velez"
+ ],
+ "year": 1995,
+ "title": "Recopa Sudamericana 1995",
+ "tournament": "Recopa Sudamericana 1995",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "independiente"
+ ],
+ "summary": "Campeón argentino: Independiente; finalista: Vélez Sarsfield. Clubes argentinos: Independiente (campeón), Vélez Sarsfield (finalista).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Recopa Sudamericana",
+   "url": "https://www.rsssf.org/sacups/recopa.html"
+  },
+  {
+   "label": "Wikipedia – Recopa Sudamericana 1995",
+   "url": "https://es.wikipedia.org/wiki/Recopa_Sudamericana_1995"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre el campeón de la Copa Libertadores y el de la Supercopa (hasta 1998) o la Sudamericana (desde 2003), a uno o dos partidos."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Recopa Sudamericana",
+   "id": "recopa-1995-001",
+   "date": "1995-04-09",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Tokio",
+   "homeId": "velez",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1
+  }
+ ]
+}

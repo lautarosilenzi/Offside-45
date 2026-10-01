@@ -1,0 +1,55 @@
+{
+ "slug": "recopa-2003",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "sanlorenzo"
+ ],
+ "year": 2003,
+ "title": "Recopa Sudamericana 2003",
+ "tournament": "Recopa Sudamericana 2003",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "olimpia-py"
+ ],
+ "summary": "Campeón: Olimpia (Paraguay); finalista: San Lorenzo. Clubes argentinos: San Lorenzo (finalista).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Recopa Sudamericana",
+   "url": "https://www.rsssf.org/sacups/recopa.html"
+  },
+  {
+   "label": "Wikipedia – Recopa Sudamericana 2003",
+   "url": "https://es.wikipedia.org/wiki/Recopa_Sudamericana_2003"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre el campeón de la Copa Libertadores y el de la Supercopa (hasta 1998) o la Sudamericana (desde 2003), a uno o dos partidos."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Recopa Sudamericana",
+   "id": "recopa-2003-001",
+   "date": "2003-07-12",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Los Ángeles",
+   "homeId": "olimpia-py",
+   "awayId": "sanlorenzo",
+   "homeGoals": 2,
+   "awayGoals": 0
+  }
+ ]
+}

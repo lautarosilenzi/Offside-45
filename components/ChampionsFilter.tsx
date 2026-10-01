@@ -6,6 +6,7 @@ const OPTIONS = [
   { value: "all", label: "Todo" },
   { value: "league", label: "Liga" },
   { value: "cup", label: "Copas" },
+  { value: "intl", label: "Internacionales" },
 ] as const;
 
 // Filtro de la lista de campeones: muestra todo, solo ligas o solo copas (se oculta con CSS, ver globals.css).

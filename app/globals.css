@@ -14,10 +14,12 @@ body {
 }
 
 /* Filtro de la página de campeones: oculta los títulos (y los años) del otro tipo. */
-[data-filter="league"] [data-kind="cup"],
-[data-filter="league"] [data-kinds="cup"],
-[data-filter="cup"] [data-kind="league"],
-[data-filter="cup"] [data-kinds="league"] {
+[data-filter="league"] [data-kind]:not([data-kind="league"]),
+[data-filter="league"] [data-kinds]:not([data-kinds~="league"]),
+[data-filter="cup"] [data-kind]:not([data-kind="cup"]),
+[data-filter="cup"] [data-kinds]:not([data-kinds~="cup"]),
+[data-filter="intl"] [data-kind]:not([data-kind="intl"]),
+[data-filter="intl"] [data-kinds]:not([data-kinds~="intl"]) {
   display: none;
 }
 

@@ -1,0 +1,75 @@
+{
+ "slug": "iberoamericana-1994",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "boca"
+ ],
+ "year": 1994,
+ "title": "Copa Iberoamericana 1994",
+ "tournament": "Copa Iberoamericana 1994",
+ "organizer": "Conmebol y la Real Federación Española de Fútbol",
+ "championIds": [
+  "real-madrid-es"
+ ],
+ "summary": "Campeón: Real Madrid (España); finalista: Boca Juniors. Clubes argentinos: Boca Juniors (finalista).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Iberoamericana",
+   "url": "https://www.rsssf.org/tablesi/ibero.html"
+  },
+  {
+   "label": "Wikipedia – Copa Iberoamericana 1994",
+   "url": "https://es.wikipedia.org/wiki/Copa_Iberoamericana_1994"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre el campeón de la Copa de Oro y el de la Copa del Rey de España, a ida y vuelta. Se jugó una sola vez."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Iberoamericana",
+   "id": "iberoamericana-1994-001",
+   "date": "1994-05-19",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Madrid",
+   "homeId": "real-madrid-es",
+   "awayId": "boca",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "note": "Confirmado por el texto del artículo de Wikipedia."
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Iberoamericana",
+   "id": "iberoamericana-1994-002",
+   "date": "1994-05-25",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "real-madrid-es",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "note": "Confirmado por el texto del artículo de Wikipedia (Real Madrid campeón 4-3 en el global).",
+   "advancedId": "real-madrid-es"
+  }
+ ]
+}

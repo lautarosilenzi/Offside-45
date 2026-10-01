@@ -119,6 +119,10 @@ type Cup = {
   parse?: (lines: string[]) => { year: number; row: Row }[];
   // Ediciones escritas a mano (desde RSSSF).
   editions?: Edition[];
+  // Ediciones cuyos partidos son de otra copa (se cargan allá): año → nota.
+  sharedYears?: Record<number, string>;
+  // Edición en juego, solo de Wikipedia: año y fases por fecha ("mm-dd" hasta el que va cada fase).
+  current?: { year: number; stages: [string, string][]; countries?: Record<string, string> };
 };
 
 // ───────── Lectores de RSSSF ─────────
@@ -130,7 +134,8 @@ function parseToyota(lines: string[]) {
     const d = lines[i].match(/^(?:(\d{4}))?\s+(\d{1,2})\/\s*(\d{1,2})\/(\d{2})\s+(.+?)\s*$/);
     if (!d) continue;
     if (d[1]) edition = +d[1];
-    const m = lines[i + 1].match(/^\s+(.+?)\s{2,}(\d+)-(\d+)\s+(.+?)(?:\s+\[(.+)\])?\s*$/);
+    // A veces hay un solo espacio antes del resultado ("Borussia M'gladbach 0-3 Boca Juniors").
+    const m = lines[i + 1].match(/^\s+(.+?)\s+(\d+)-(\d+)\s+(.+?)(?:\s+\[(.+)\])?\s*$/);
     if (!m || !edition) continue;
     const home = argOf(m[1]) ?? foreignOf(m[1]) ?? `?${m[1]}`;
     const away = argOf(m[4]) ?? foreignOf(m[4]) ?? `?${m[4]}`;
@@ -175,11 +180,32 @@ function parseIntam(lines: string[]) {
 }
 
 const CUPS: Record<string, Cup> = {
+  // Copa Libertadores 2026, en juego (el resto de la Libertadores lo importa conmebol.ts).
+  "libertadores-actual": {
+    key: "libertadores-actual",
+    editionTitles: (y) => [`Copa Libertadores ${y}`, ...[1, 2, 3].map((n) => `Anexo:Fase ${n} de la Copa Libertadores ${y}`)],
+    rsssf: [],
+    current: {
+      year: 2026,
+      // Rivales nuevos sin bandera en las tablas de grupos.
+      countries: { Cusco: "PER", Mirassol: "BRA", "Universidad Central": "VEN" },
+      stages: [
+        ["03-20", "Fase previa"],
+        ["06-30", "Fase de grupos"],
+        ["08-31", "Octavos de final"],
+        ["09-30", "Cuartos de final"],
+        ["10-31", "Semifinal"],
+      ],
+    },
+  },
   recopa: {
     key: "recopa",
     championsTitle: "Recopa Sudamericana",
     editionTitles: (y) => [`Recopa Sudamericana ${y}`],
     rsssf: ["sacups/recopa.html", "sacups/recopa88.html", "sacups/recopa89.html"],
+    sharedYears: {
+      1998: "Se definió con los dos partidos entre Cruzeiro y River de la fase de grupos de la Copa Mercosur 1999 (Cruzeiro 2-0 en Belo Horizonte y 3-0 en Buenos Aires), que están cargados en esa copa para no contarlos dos veces.",
+    },
     editions: [
       // Todavía sin artículo en Wikipedia: de RSSSF.
       {
@@ -336,7 +362,71 @@ const CUPS: Record<string, Cup> = {
 
 const plain = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "");
 
+// País de las banderas de Wikipedia (tres letras) → [código del id, nombre].
+const WIKI_COUNTRY: Record<string, [string, string]> = {
+  BRA: ["br", "Brasil"], CHI: ["cl", "Chile"], PER: ["pe", "Perú"], ECU: ["ec", "Ecuador"], VEN: ["ve", "Venezuela"],
+  COL: ["co", "Colombia"], PAR: ["py", "Paraguay"], URU: ["uy", "Uruguay"], BOL: ["bo", "Bolivia"], MEX: ["mx", "México"],
+};
+const slugOf = (s: string) => plainLower(s).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+// Edición en juego, solo de Wikipedia: los partidos de los clubes argentinos, con la fase por la fecha.
+async function runCurrent(cup: Cup) {
+  const cur = cup.current!;
+  const problems: string[] = [];
+  const all: WikiMatch[] = [];
+  for (const t of cup.editionTitles(cur.year)) all.push(...((await wikiMatches(t)) ?? []));
+  const genFile = join("lib", "data", "foreign-clubs.generated.json");
+  const gen: { id: string; name: string; shortName: string; fullName: string; country: string }[] = JSON.parse(readFileSync(genFile, "utf8"));
+  const idFor = (name: string, code?: string) => {
+    const arg = argOf(name);
+    if (arg) return arg;
+    const cc = code ?? cur.countries?.[name];
+    const c = cc ? WIKI_COUNTRY[cc] : undefined;
+    // Sin país, primero los rivales de las copas de la Conmebol ("Barcelona" es el de Ecuador, no el de España).
+    const bare = (s: string) => nameKey(s.replace(/\s*\([^)]*\)$/, ""));
+    const conmebol = FOREIGN_TEAMS.filter((t) => !EXTRA_FOREIGN.some(([id]) => id === t.id)).find((t) => bare(t.name) === nameKey(name) || bare(t.fullName ?? "") === nameKey(name))?.id;
+    const known = c ? foreignOf(name, c[1]) : (conmebol ?? foreignOf(name));
+    if (known) return known;
+    if (!c) {
+      problems.push(`No sé de qué país es ${name}`);
+      return null;
+    }
+    // Rival nuevo: se da de alta con su país.
+    const id = `${slugOf(name)}-${c[0]}`;
+    if (!gen.some((g) => g.id === id)) gen.push({ id, name: `${name} (${c[1]})`, shortName: slugOf(name).replace(/-/g, "").slice(0, 3).toUpperCase(), fullName: `${name} (${c[1]})`, country: c[1] });
+    return id;
+  };
+  const seen = new Set<string>();
+  const matches: IntlMatch[] = [];
+  for (const w of all) {
+    if (!argOf(w.home) && !argOf(w.away)) continue;
+    const h = idFor(w.home, w.homeCountry);
+    const a = idFor(w.away, w.awayCountry);
+    if (!h || !a) continue;
+    const date = `${w.year ?? cur.year}-${String(w.month).padStart(2, "0")}-${String(w.day).padStart(2, "0")}`;
+    const key = `${date}|${[h, a].sort().join("|")}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    const stage = cur.stages.find(([until]) => date.slice(5) <= until)?.[1] ?? "Final";
+    const m: IntlMatch = { id: "", date, stage, venue: w.city, homeId: h, awayId: a, homeGoals: w.hg, awayGoals: w.ag, check: "wikipedia" };
+    if (w.pens) Object.assign(m, { advancedId: w.pens[0] > w.pens[1] ? h : a, note: `Penales: ${w.pens[0]}-${w.pens[1]}.` });
+    matches.push(m);
+  }
+  const edition: IntlEdition = {
+    year: cur.year,
+    championId: "",
+    runnerUpId: "",
+    inProgress: true,
+    matches: matches.sort((x, y) => x.date.localeCompare(y.date)).map((m, i) => ({ ...m, id: `${cup.key}-${cur.year}-${String(i + 1).padStart(3, "0")}` })),
+  };
+  writeFileSync(join("scripts", "import", "data", `${cup.key}.json`), JSON.stringify([edition], null, 1) + "\n");
+  writeFileSync(genFile, JSON.stringify(gen.sort((x, y) => x.id.localeCompare(y.id)), null, 1) + "\n");
+  console.log(`${cup.key}: ${cur.year} en juego, ${matches.length} partidos de clubes argentinos (Wikipedia)`);
+  for (const p of problems) console.log(`  ✗ ${p}`);
+}
+
 async function run(cup: Cup) {
+  if (cup.current) return runCurrent(cup);
   const problems: string[] = [];
   const warnings: string[] = [];
 
@@ -477,6 +567,7 @@ async function run(cup: Cup) {
 
   const sorted = out
     .sort((a, b) => a.year - b.year)
+    .map((e) => (cup.sharedYears?.[e.year] ? { ...e, matches: [], note: cup.sharedYears[e.year] } : e))
     .map((e) => ({ ...e, matches: e.matches.sort((x, y) => x.date.localeCompare(y.date)).map((m, i) => ({ ...m, id: `${cup.key}-${e.year}-${String(i + 1).padStart(3, "0")}` })) }));
   writeFileSync(join("scripts", "import", "data", `${cup.key}.json`), JSON.stringify(sorted, null, 1) + "\n");
 

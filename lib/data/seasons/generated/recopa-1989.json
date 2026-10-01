@@ -1,0 +1,71 @@
+{
+ "slug": "recopa-1989",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "racing"
+ ],
+ "year": 1989,
+ "title": "Recopa Sudamericana 1989",
+ "tournament": "Recopa Sudamericana 1989",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "nacional-uy"
+ ],
+ "summary": "Campeón: Nacional (Uruguay); finalista: Racing Club. Clubes argentinos: Racing Club (finalista).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Recopa Sudamericana",
+   "url": "https://www.rsssf.org/sacups/recopa.html"
+  },
+  {
+   "label": "Wikipedia – Recopa Sudamericana 1989",
+   "url": "https://es.wikipedia.org/wiki/Recopa_Sudamericana_1989"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre el campeón de la Copa Libertadores y el de la Supercopa (hasta 1998) o la Sudamericana (desde 2003), a uno o dos partidos."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Recopa Sudamericana",
+   "id": "recopa-1989-001",
+   "date": "1989-01-31",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Montevideo",
+   "homeId": "nacional-uy",
+   "awayId": "racing",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Recopa Sudamericana",
+   "id": "recopa-1989-002",
+   "date": "1989-02-06",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "racing",
+   "awayId": "nacional-uy",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "advancedId": "nacional-uy"
+  }
+ ]
+}

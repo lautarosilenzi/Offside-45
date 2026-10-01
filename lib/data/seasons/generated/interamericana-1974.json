@@ -1,0 +1,74 @@
+{
+ "slug": "interamericana-1974",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "municipal-gt"
+ ],
+ "year": 1974,
+ "title": "Copa Interamericana 1974",
+ "tournament": "Copa Interamericana 1974",
+ "organizer": "Conmebol y Concacaf",
+ "championIds": [
+  "independiente"
+ ],
+ "summary": "Campeón argentino: Independiente; finalista: Municipal (Guatemala). Clubes argentinos: Independiente (campeón).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Interamericana",
+   "url": "https://www.rsssf.org/tablesi/intam.html"
+  },
+  {
+   "label": "Wikipedia – Copa Interamericana 1974",
+   "url": "https://es.wikipedia.org/wiki/Copa_Interamericana_1974"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre los campeones de la Copa Libertadores y de la Copa de Campeones de la Concacaf (1968–1998)."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Interamericana",
+   "id": "interamericana-1974-001",
+   "date": "1974-11-24",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Cd. Guatemala",
+   "homeId": "municipal-gt",
+   "awayId": "independiente",
+   "homeGoals": 0,
+   "awayGoals": 1
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Interamericana",
+   "id": "interamericana-1974-002",
+   "date": "1974-11-26",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Cd. Guatemala",
+   "homeId": "municipal-gt",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "advancedId": "independiente",
+   "note": "Penales: 3-4."
+  }
+ ]
+}

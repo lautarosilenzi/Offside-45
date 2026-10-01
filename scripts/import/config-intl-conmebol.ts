@@ -17,6 +17,12 @@ type Series = {
   editionPage: (year: number) => string | null; // página de RSSSF de la edición (en .cache/rsssf/sacups)
   wiki: (year: number) => string;
   formato: (year: number) => string;
+  // Copas cortas (scripts/import/intl/finals.ts): otras fuentes, otro organizador y otra nota de fuentes.
+  sources?: (year: number) => { label: string; url: string }[];
+  organizer?: string;
+  fuentes?: string;
+  // Archivo de datos distinto de la clave (la edición en juego de la Libertadores: libertadores-actual.json).
+  dataKey?: string;
 };
 
 // Orden de las fases: para saber hasta dónde llegó cada club.
@@ -34,6 +40,7 @@ const ROUNDS = [
   "Cuartos de final",
   "Semifinal",
   "Semifinal (desempate)",
+  "Tercer puesto",
   "Final",
 ];
 const REACHED: Record<string, string> = {
@@ -50,6 +57,7 @@ const REACHED: Record<string, string> = {
   "Cuartos de final": "cuartos",
   "Semifinal": "semifinal",
   "Semifinal (desempate)": "semifinal",
+  "Tercer puesto": "partido por el tercer puesto",
   Final: "final",
 };
 
@@ -57,7 +65,7 @@ const nameOf = (id: string) => getTeam(id)?.name ?? id;
 const isArg = (id: string) => !!getTeam(id) && !getTeam(id)!.country;
 
 function editions(series: Series): TournamentConfig[] {
-  const data: IntlEdition[] = JSON.parse(readFileSync(join(process.cwd(), "scripts", "import", "data", `${series.key}.json`), "utf8"));
+  const data: IntlEdition[] = JSON.parse(readFileSync(join(process.cwd(), "scripts", "import", "data", `${series.dataKey ?? series.key}.json`), "utf8"));
   return data.map((e) => {
     const slug = `${series.key}-${e.year}`;
     const finals = e.matches.filter((m) => m.stage === "Final").sort((a, b) => a.date.localeCompare(b.date));
@@ -85,7 +93,7 @@ function editions(series: Series): TournamentConfig[] {
     });
     // En la última final, quién se llevó la copa (por global, desempate o penales).
     const lastFinal = matches.filter((m) => /^Final/.test(m.stage ?? "")).sort((a, b) => a.date.localeCompare(b.date)).at(-1);
-    if (lastFinal && !lastFinal.awardedTo) {
+    if (lastFinal && !lastFinal.awardedTo && e.championId) {
       const w = lastFinal.homeGoals > lastFinal.awayGoals ? lastFinal.homeId : lastFinal.awayGoals > lastFinal.homeGoals ? lastFinal.awayId : null;
       if (w !== e.championId) lastFinal.advancedId = e.championId;
     }
@@ -104,13 +112,18 @@ function editions(series: Series): TournamentConfig[] {
         return `${nameOf(id)} (${where})`;
       });
     const champ = nameOf(e.championId);
-    const summary = `${isArg(e.championId) ? "Campeón argentino: " : "Campeón: "}${champ}; finalista: ${nameOf(e.runnerUpId)}. Clubes argentinos: ${clubs.join(", ")}.`;
+    const summary = e.championId
+      ? `${isArg(e.championId) ? "Campeón argentino: " : "Campeón: "}${champ}; finalista: ${nameOf(e.runnerUpId)}. Clubes argentinos: ${clubs.join(", ")}.`
+      : `En juego. Clubes argentinos: ${clubs.join(", ")}.`;
 
     const notes: SeasonNote[] = [
       { kind: "formato", text: series.formato(e.year) },
+      ...(e.note ? [{ kind: "dato" as const, text: e.note }] : []),
       {
         kind: "fuentes",
-        text: "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia.",
+        text:
+          series.fuentes ??
+          "Solo están los partidos de los clubes argentinos. Salen de la página de RSSSF de los clubes argentinos en la copa y se controlan contra la página de RSSSF de la edición (que además dice quién fue local) y contra Wikipedia.",
       },
     ];
     const page = series.editionPage(e.year);
@@ -123,14 +136,15 @@ function editions(series: Series): TournamentConfig[] {
       competition: series.name,
       title: `${series.name} ${e.year}`,
       tournament: `${series.officialName(e.year)} ${e.year}`,
-      organizer: CONMEBOL,
-      championIds: [e.championId],
-      runnerUpIds: [e.runnerUpId],
+      organizer: series.organizer ?? CONMEBOL,
+      championIds: e.championId ? [e.championId] : [],
+      runnerUpIds: e.runnerUpId ? [e.runnerUpId] : undefined,
+      ...(e.inProgress && { inProgress: true }),
       skip: () => true,
       extraMatches: matches,
       summary,
       notes,
-      sourceLinks: [
+      sourceLinks: series.sources?.(e.year) ?? [
         ...(page ? [{ label: `RSSSF – ${series.name} ${e.year}`, url: `https://www.rsssf.org/sacups/${page}` }] : []),
         { label: `RSSSF – Clubes argentinos en la ${series.name}`, url: `https://www.rsssf.org/sacups/${series.clubPage}` },
         { label: `Wikipedia – ${series.wiki(e.year)}`, url: `https://es.wikipedia.org/wiki/${encodeURIComponent(series.wiki(e.year).replace(/ /g, "_"))}` },
@@ -206,7 +220,69 @@ const MERCOSUR: Series = {
   formato: () => "Fase de grupos y eliminación directa entre clubes de Argentina, Brasil, Chile, Paraguay y Uruguay (1998–2001).",
 };
 
+// ───────── Copas cortas (finales o torneos de pocos partidos): datos de scripts/import/intl/finals.ts ─────────
+const SHORT_FUENTES = "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales).";
+const short = (
+  key: string,
+  name: string,
+  rsssf: (y: number) => string,
+  wiki: (y: number) => string,
+  formato: string,
+  organizer = CONMEBOL,
+): Series => ({
+  key,
+  name,
+  officialName: () => name,
+  clubPage: "",
+  editionPage: () => null,
+  wiki,
+  formato: () => formato,
+  organizer,
+  fuentes: SHORT_FUENTES,
+  sources: (y) => [
+    { label: `RSSSF – ${name}`, url: `https://www.rsssf.org/${rsssf(y)}` },
+    { label: `Wikipedia – ${wiki(y)}`, url: `https://es.wikipedia.org/wiki/${encodeURIComponent(wiki(y).replace(/ /g, "_"))}` },
+  ],
+});
+
+const SHORT_CUPS: Series[] = [
+  short("recopa", "Recopa Sudamericana", () => "sacups/recopa.html", (y) => `Recopa Sudamericana ${y}`, "Entre el campeón de la Copa Libertadores y el de la Supercopa (hasta 1998) o la Sudamericana (desde 2003), a uno o dos partidos."),
+  short(
+    "intercontinental",
+    "Copa Intercontinental",
+    () => "tablest/toyota.html",
+    (y) => `Copa Intercontinental ${y}`,
+    "Entre los campeones de Europa y de la Copa Libertadores (1960–2004): ida y vuelta, con desempate, hasta 1979; desde 1980, partido único en Tokio o Yokohama. La FIFA reconoce a sus ganadores como campeones del mundo.",
+    "UEFA y Conmebol",
+  ),
+  short("interamericana", "Copa Interamericana", () => "tablesi/intam.html", (y) => `Copa Interamericana ${y}`, "Entre los campeones de la Copa Libertadores y de la Copa de Campeones de la Concacaf (1968–1998).", "Conmebol y Concacaf"),
+  short(
+    "mundial",
+    "Mundial de Clubes",
+    (y) => `tablesf/fifa-wcc${y < 2010 ? String(y).slice(2) : y}.html`,
+    (y) => `Copa Mundial de Clubes de la FIFA ${y}`,
+    "Copa Mundial de Clubes de la FIFA: los campeones de cada confederación (desde 2025, 32 equipos con fase de grupos).",
+    "FIFA",
+  ),
+  short("suruga", "Copa Suruga Bank", () => "tabless/suruga08.html", (y) => `Copa Suruga Bank ${y}`, "Partido único en Japón entre el campeón de la Copa Sudamericana y el de la Copa de la Liga japonesa (2008–2019).", "Conmebol y la J.League (Japón)"),
+  short("master-supercopa", "Copa Máster de Supercopa", () => "sacups/sasupmas92.html", (y) => `Copa Máster de Supercopa ${y}`, "Entre los campeones de la Supercopa, en una semana y en una sola sede."),
+  short("oro", "Copa de Oro Nicolás Leoz", (y) => `sacups/oro${String(y).slice(2)}.html`, (y) => `Copa de Oro Nicolás Leoz ${y}`, "Entre los campeones de las copas de la Conmebol de la temporada anterior (1993–1996)."),
+  short("master-conmebol", "Copa Máster de Conmebol", () => "sacups/mastconmebol96.html", () => "Copa Máster de Conmebol", "Entre los campeones de la Copa Conmebol, jugada una sola vez (1996, en Cuiabá)."),
+  short("iberoamericana", "Copa Iberoamericana", () => "tablesi/ibero.html", (y) => `Copa Iberoamericana ${y}`, "Entre el campeón de la Copa de Oro y el de la Copa del Rey de España, a ida y vuelta. Se jugó una sola vez.", "Conmebol y la Real Federación Española de Fútbol"),
+  short("recopa-clubes", "Recopa Sudamericana de Clubes", () => "sacups/recopa70.html", (y) => `Recopa Sudamericana de Clubes ${y}`, "Copa de la Conmebol de 1970 con un club por país; Atlanta entró como finalista de la Copa Argentina 1969. Dos grupos y final."),
+];
+
+// La edición que se está jugando (Wikipedia; RSSSF todavía no la publicó): scripts/import/intl/finals.ts libertadores-actual.
+const LIBERTADORES_ACTUAL: Series = {
+  ...LIBERTADORES,
+  dataKey: "libertadores-actual",
+  fuentes: "Edición en juego: los partidos de los clubes argentinos salen por ahora solo de Wikipedia. Se controlan con RSSSF cuando publique la edición.",
+  sources: (y) => [{ label: `Wikipedia – Copa Libertadores ${y}`, url: `https://es.wikipedia.org/wiki/Copa_Libertadores_${y}` }],
+};
+
 export const CUP_TOURNAMENTS_CONMEBOL: TournamentConfig[] = [
+  ...editions(LIBERTADORES_ACTUAL),
+  ...SHORT_CUPS.flatMap(editions),
   ...editions(LIBERTADORES),
   ...editions(SUDAMERICANA),
   ...editions(SUPERCOPA),

@@ -1,0 +1,56 @@
+{
+ "slug": "suruga-2014",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "lanus"
+ ],
+ "year": 2014,
+ "title": "Copa Suruga Bank 2014",
+ "tournament": "Copa Suruga Bank 2014",
+ "organizer": "Conmebol y la J.League (Japón)",
+ "championIds": [
+  "kashiwa-reysol-jp"
+ ],
+ "summary": "Campeón: Kashiwa Reysol (Japón); finalista: Lanús. Clubes argentinos: Lanús (finalista).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Suruga Bank",
+   "url": "https://www.rsssf.org/tabless/suruga08.html"
+  },
+  {
+   "label": "Wikipedia – Copa Suruga Bank 2014",
+   "url": "https://es.wikipedia.org/wiki/Copa_Suruga_Bank_2014"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Partido único en Japón entre el campeón de la Copa Sudamericana y el de la Copa de la Liga japonesa (2008–2019)."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Suruga Bank",
+   "id": "suruga-2014-001",
+   "date": "2014-08-06",
+   "stage": "Final",
+   "phase": "cup",
+   "venue": "Kashiwa",
+   "homeId": "kashiwa-reysol-jp",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1
+  }
+ ]
+}

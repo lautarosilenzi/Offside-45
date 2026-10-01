@@ -1,0 +1,71 @@
+{
+ "slug": "recopa-2008",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "arsenal"
+ ],
+ "year": 2008,
+ "title": "Recopa Sudamericana 2008",
+ "tournament": "Recopa Sudamericana 2008",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Campeón argentino: Boca Juniors; finalista: Arsenal de Sarandí. Clubes argentinos: Boca Juniors (campeón), Arsenal de Sarandí (finalista).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Recopa Sudamericana",
+   "url": "https://www.rsssf.org/sacups/recopa.html"
+  },
+  {
+   "label": "Wikipedia – Recopa Sudamericana 2008",
+   "url": "https://es.wikipedia.org/wiki/Recopa_Sudamericana_2008"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre el campeón de la Copa Libertadores y el de la Supercopa (hasta 1998) o la Sudamericana (desde 2003), a uno o dos partidos."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Recopa Sudamericana",
+   "id": "recopa-2008-001",
+   "date": "2008-08-13",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "arsenal",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 3
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Recopa Sudamericana",
+   "id": "recopa-2008-002",
+   "date": "2008-08-27",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "advancedId": "boca"
+  }
+ ]
+}

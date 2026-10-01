@@ -4,7 +4,8 @@
 import { fetchWiki } from "../wiki";
 
 // pens: la tanda de penales (local, visitante), si la hubo.
-export type WikiMatch = { day: number; month: number; year?: number; city: string; home: string; away: string; hg: number; ag: number; pens?: [number, number]; raw: string };
+// homeCountry/awayCountry: código de país de tres letras de la plantilla o de la bandera de la celda, si lo hay.
+export type WikiMatch = { day: number; month: number; year?: number; city: string; home: string; away: string; hg: number; ag: number; pens?: [number, number]; homeCountry?: string; awayCountry?: string; raw: string };
 
 const MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
 
@@ -23,6 +24,9 @@ const clean = (s: string) =>
     .replace(/'''|''/g, "")
     .replace(/^\s*(?:align|style|bgcolor|width)\s*=\s*"?[^|"]*"?\s*\|(?!\|)/i, "")
     .trim();
+
+// Código de país de la bandera de una celda: {{bandera|BRA}} o {{BRA}}.
+const flagCode = (s: string) => s.match(/\{\{\s*(?:bandera\|)?([A-Z]{3})\s*[|}]/i)?.[1]?.toUpperCase();
 
 const parseDate = (s: string) => {
   // {{fecha|12|8|}} o {{fecha|12|8|2025}}: día, mes y (a veces) año.
@@ -96,7 +100,8 @@ export async function wikiMatches(title: string): Promise<WikiMatch[] | null> {
     const sc = parseScore(params.resultado ?? "");
     if (!d || !sc || !params.local || !params.visita) continue;
     const pens = parseScore(params["resultado penalti"] ?? params["penales"] ?? "");
-    out.push({ ...d, city: clean(params.ciudad ?? ""), home: clean(params.local), away: clean(params.visita), hg: sc[0], ag: sc[1], ...(pens && { pens: pens as [number, number] }), raw: block[0].slice(0, 200) });
+    const code = (k: string) => params[k]?.match(/^\s*([A-Z]{3})\b/)?.[1];
+    out.push({ ...d, city: clean(params.ciudad ?? ""), home: clean(params.local), away: clean(params.visita), hg: sc[0], ag: sc[1], ...(pens && { pens: pens as [number, number] }), homeCountry: code("paíslocal") ?? flagCode(params.local), awayCountry: code("paísvisita") ?? flagCode(params.visita), raw: block[0].slice(0, 200) });
   }
 
   // Recuadros de final (Copa Intercontinental, Suruga): dos encabezados con el equipo y sus goles
@@ -131,7 +136,7 @@ export async function wikiMatches(title: string): Promise<WikiMatch[] | null> {
       const d = parseDate(cells[i])!;
       const [city, home, score, away] = cells.slice(i + 1, i + 5);
       const sc = parseScore(score);
-      if (sc && clean(home) && clean(away)) out.push({ ...d, city: clean(city), home: clean(home), away: clean(away), hg: sc[0], ag: sc[1], raw: cells.join(" | ").slice(0, 200) });
+      if (sc && clean(home) && clean(away)) out.push({ ...d, city: clean(city), home: clean(home), away: clean(away), hg: sc[0], ag: sc[1], homeCountry: flagCode(home), awayCountry: flagCode(away), raw: cells.join(" | ").slice(0, 200) });
     }
     cells = [];
   };

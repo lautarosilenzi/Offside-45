@@ -1,0 +1,105 @@
+{
+ "slug": "oro-1993",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "atletico-mineiro-br"
+ ],
+ "year": 1993,
+ "title": "Copa de Oro Nicolás Leoz 1993",
+ "tournament": "Copa de Oro Nicolás Leoz 1993",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "boca"
+ ],
+ "summary": "Campeón argentino: Boca Juniors; finalista: Atlético Mineiro (Brasil). Clubes argentinos: Boca Juniors (campeón).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa de Oro Nicolás Leoz",
+   "url": "https://www.rsssf.org/sacups/oro93.html"
+  },
+  {
+   "label": "Wikipedia – Copa de Oro Nicolás Leoz 1993",
+   "url": "https://es.wikipedia.org/wiki/Copa_de_Oro_Nicol%C3%A1s_Leoz_1993"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre los campeones de las copas de la Conmebol de la temporada anterior (1993–1996)."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa de Oro Nicolás Leoz",
+   "id": "oro-1993-001",
+   "date": "1993-07-07",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "sao-paulo-br",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa de Oro Nicolás Leoz",
+   "id": "oro-1993-002",
+   "date": "1993-07-10",
+   "stage": "Semifinal",
+   "phase": "cup",
+   "venue": "São Paulo",
+   "homeId": "sao-paulo-br",
+   "awayId": "boca",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "note": "Con alargue (gol de oro de Boca al minuto 91 para el 1-1)."
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa de Oro Nicolás Leoz",
+   "id": "oro-1993-003",
+   "date": "1993-07-14",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Belo Horizonte",
+   "homeId": "atletico-mineiro-br",
+   "awayId": "boca",
+   "homeGoals": 0,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa de Oro Nicolás Leoz",
+   "id": "oro-1993-004",
+   "date": "1993-07-22",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Buenos Aires",
+   "homeId": "boca",
+   "awayId": "atletico-mineiro-br",
+   "homeGoals": 1,
+   "awayGoals": 0
+  }
+ ]
+}

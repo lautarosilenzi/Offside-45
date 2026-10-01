@@ -1,0 +1,89 @@
+{
+ "slug": "intercontinental-1964",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "independiente"
+ ],
+ "year": 1964,
+ "title": "Copa Intercontinental 1964",
+ "tournament": "Copa Intercontinental 1964",
+ "organizer": "UEFA y Conmebol",
+ "championIds": [
+  "internazionale-it"
+ ],
+ "summary": "Campeón: Internazionale (Italia); finalista: Independiente. Clubes argentinos: Independiente (finalista).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Copa Intercontinental",
+   "url": "https://www.rsssf.org/tablest/toyota.html"
+  },
+  {
+   "label": "Wikipedia – Copa Intercontinental 1964",
+   "url": "https://es.wikipedia.org/wiki/Copa_Intercontinental_1964"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre los campeones de Europa y de la Copa Libertadores (1960–2004): ida y vuelta, con desempate, hasta 1979; desde 1980, partido único en Tokio o Yokohama. La FIFA reconoce a sus ganadores como campeones del mundo."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Intercontinental",
+   "id": "intercontinental-1964-001",
+   "date": "1964-09-09",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Avellaneda",
+   "homeId": "independiente",
+   "awayId": "internazionale-it",
+   "homeGoals": 1,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Intercontinental",
+   "id": "intercontinental-1964-002",
+   "date": "1964-09-23",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Milano",
+   "homeId": "internazionale-it",
+   "awayId": "independiente",
+   "homeGoals": 2,
+   "awayGoals": 0
+  },
+  {
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "competition": "Copa Intercontinental",
+   "id": "intercontinental-1964-003",
+   "date": "1964-09-26",
+   "stage": "Final (desempate)",
+   "phase": "cup",
+   "venue": "Madrid",
+   "homeId": "internazionale-it",
+   "awayId": "independiente",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "note": "Con alargue."
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "slug": "recopa-2021",
+ "kind": "cup",
+ "international": true,
+ "runnerUpIds": [
+  "palmeiras-br"
+ ],
+ "year": 2021,
+ "title": "Recopa Sudamericana 2021",
+ "tournament": "Recopa Sudamericana 2021",
+ "organizer": "Confederación Sudamericana de Fútbol (Conmebol)",
+ "championIds": [
+  "defensa-y-justicia"
+ ],
+ "summary": "Campeón argentino: Defensa y Justicia; finalista: Palmeiras (Brasil). Clubes argentinos: Defensa y Justicia (campeón).",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Recopa Sudamericana",
+   "url": "https://www.rsssf.org/sacups/recopa.html"
+  },
+  {
+   "label": "Wikipedia – Recopa Sudamericana 2021",
+   "url": "https://es.wikipedia.org/wiki/Recopa_Sudamericana_2021"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Entre el campeón de la Copa Libertadores y el de la Supercopa (hasta 1998) o la Sudamericana (desde 2003), a uno o dos partidos."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Solo están los partidos de los clubes argentinos, confirmados con dos fuentes: RSSSF y Wikipedia (el artículo de la edición o la tabla de finales)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Recopa Sudamericana",
+   "id": "recopa-2021-001",
+   "date": "2021-04-07",
+   "stage": "Final (ida)",
+   "phase": "cup",
+   "venue": "Gobernador Costa",
+   "homeId": "defensa-y-justicia",
+   "awayId": "palmeiras-br",
+   "homeGoals": 1,
+   "awayGoals": 2
+  },
+  {
+   "sources": [
+    "rsssf"
+   ],
+   "competition": "Recopa Sudamericana",
+   "id": "recopa-2021-002",
+   "date": "2021-04-14",
+   "stage": "Final (vuelta)",
+   "phase": "cup",
+   "venue": "Brasilia",
+   "homeId": "palmeiras-br",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "advancedId": "defensa-y-justicia",
+   "note": "Penales: 3-4."
+  }
+ ]
+}
