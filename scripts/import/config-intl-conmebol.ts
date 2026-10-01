@@ -3,7 +3,7 @@
 import { readFileSync } from "fs";
 import { join } from "path";
 import { getTeam } from "../../lib/teams";
-import type { Match, SeasonNote } from "../../lib/types";
+import type { Match, SeasonNote, Source } from "../../lib/types";
 import type { TournamentConfig } from "./config";
 import type { IntlEdition } from "./intl/conmebol";
 
@@ -23,6 +23,8 @@ type Series = {
   fuentes?: string;
   // Archivo de datos distinto de la clave (la edición en juego de la Libertadores: libertadores-actual.json).
   dataKey?: string;
+  // Fuentes de cada partido, si son siempre las mismas (copas cortas: RSSSF y Wikipedia; edición en juego: Wikipedia).
+  matchSources?: Source[];
 };
 
 // Orden de las fases: para saber hasta dónde llegó cada club.
@@ -87,7 +89,7 @@ function editions(series: Series): TournamentConfig[] {
         ...(m.awardedTo && { awardedTo: m.awardedTo, goalsVoid: true }),
         ...(m.note && { note: m.note }),
         ...(m.suspended && { status: "annulled" as const }),
-        sources: m.check === "wikipedia" ? ["rsssf", "wikipedia-es"] : ["rsssf"],
+        sources: series.matchSources ?? (m.check === "wikipedia" ? ["rsssf", "wikipedia-es"] : ["rsssf"]),
       };
       return out;
     });
@@ -239,6 +241,7 @@ const short = (
   formato: () => formato,
   organizer,
   fuentes: SHORT_FUENTES,
+  matchSources: ["rsssf", "wikipedia-es"],
   sources: (y) => [
     { label: `RSSSF – ${name}`, url: `https://www.rsssf.org/${rsssf(y)}` },
     { label: `Wikipedia – ${wiki(y)}`, url: `https://es.wikipedia.org/wiki/${encodeURIComponent(wiki(y).replace(/ /g, "_"))}` },
@@ -276,6 +279,7 @@ const SHORT_CUPS: Series[] = [
 const LIBERTADORES_ACTUAL: Series = {
   ...LIBERTADORES,
   dataKey: "libertadores-actual",
+  matchSources: ["wikipedia-es"],
   fuentes: "Edición en juego: los partidos de los clubes argentinos salen por ahora solo de Wikipedia. Se controlan con RSSSF cuando publique la edición.",
   sources: (y) => [{ label: `Wikipedia – Copa Libertadores ${y}`, url: `https://es.wikipedia.org/wiki/Copa_Libertadores_${y}` }],
 };

@@ -76,7 +76,10 @@ export default function InternationalPage() {
                 );
               })}
             </ul>
-            <p className="mt-2 text-xs text-navy-500">Solo las copas cargadas hasta ahora.</p>
+            <p className="mt-2 text-xs text-navy-500">
+              Todas las copas internacionales oficiales, incluidas las rioplatenses (Tie Cup desde 1907, Cusenier, Aldao y
+              Escobar-Gerona). Las ediciones 1900–1906 de la Copa Chevallier Boutell cuentan como copa nacional.
+            </p>
           </section>
         )}
 
