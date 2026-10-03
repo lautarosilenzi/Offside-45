@@ -12,6 +12,7 @@ export default function CupHistory({
   label,
   by,
   logo,
+  top,
   footer,
 }: {
   eyebrow: string;
@@ -25,6 +26,8 @@ export default function CupHistory({
   footer?: React.ReactNode;
   // Logo de la competencia (lib/data/comps.generated.json).
   logo?: string;
+  // Lo que va primero: la edición que se está jugando (partidos en vivo).
+  top?: React.ReactNode;
 }) {
   const played = rows.filter((r) => r.champion);
   return (
@@ -38,6 +41,7 @@ export default function CupHistory({
         </div>
       </PageHero>
       <main className="mx-auto max-w-5xl space-y-10 px-4 py-8 sm:px-6">
+        {top}
         <section>
           <h2 className="section-title mb-3">Tabla de campeones</h2>
           <RankTable rows={rows} label={label} by={by} />
@@ -61,7 +65,7 @@ export default function CupHistory({
 export function Stat({ value, label }: { value: React.ReactNode; label: string }) {
   return (
     <div>
-      <div className="text-3xl font-bold text-white">{value}</div>
+      <div className="stat-value text-3xl font-bold italic text-white">{value}</div>
       <div className="text-xs font-semibold tracking-widest text-navy-300">{label}</div>
     </div>
   );

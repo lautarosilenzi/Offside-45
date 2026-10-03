@@ -2,14 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Fondo celeste con dos manchas de luz difusas: da profundidad sin distraer. */
+/* Fondo: gris azulado muy claro, con un brillo azul eléctrico arriba y la trama apenas visible de una cancha. */
 body {
   @apply text-navy-900 antialiased;
-  background-color: #dcebfb;
+  background-color: #eef2f8;
   background-image:
-    radial-gradient(60rem 40rem at 10% -10%, rgba(122, 164, 226, 0.45), transparent 60%),
-    radial-gradient(50rem 36rem at 100% 20%, rgba(173, 200, 239, 0.55), transparent 60%),
-    linear-gradient(180deg, #e6f0fc 0%, #d6e6fa 100%);
+    radial-gradient(70rem 30rem at 50% -12rem, rgba(31, 107, 255, 0.16), transparent 70%),
+    linear-gradient(rgba(12, 24, 48, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(12, 24, 48, 0.035) 1px, transparent 1px);
+  background-size: auto, 48px 48px, 48px 48px;
   background-attachment: fixed;
 }
 
@@ -24,40 +25,175 @@ body {
 }
 
 @layer components {
-  /* Panel: tarjeta redondeada, blanca semitransparente y con sombra suave. La unidad básica de la interfaz. */
+  /* Panel: tarjeta blanca, nítida, con borde fino y sombra en capas. La unidad básica de la interfaz. */
   .panel {
-    @apply rounded-3xl border border-white/70 bg-white/80 shadow-[0_8px_30px_-12px_rgba(12,24,48,0.18)] backdrop-blur-sm;
+    @apply rounded-3xl border border-navy-100/80 bg-white/90 backdrop-blur-sm;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9) inset, 0 1px 2px rgba(12, 24, 48, 0.04), 0 12px 32px -16px rgba(12, 24, 48, 0.22);
+    transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
   }
-  /* Título de sección: condensado, en mayúsculas, con un punto de acento redondo. */
+  /* Paneles que son links: se elevan y toman un brillo azul. */
+  a.panel:hover,
+  .panel-hover:hover {
+    @apply border-volt-300/60;
+    transform: translateY(-2px);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9) inset, 0 18px 40px -18px rgba(31, 107, 255, 0.45);
+  }
+  /* Título de sección: condensado, en cursiva gruesa y mayúsculas, con la barrita inclinada del offside. */
   .section-title {
-    @apply flex items-center gap-2.5 font-display text-lg font-bold uppercase tracking-wide text-navy-900;
+    @apply flex items-center gap-2.5 font-display text-xl font-extrabold uppercase italic tracking-wide text-navy-950;
   }
   .section-title::before {
     content: "";
-    @apply block h-2.5 w-2.5 rounded-full bg-brand-500 ring-4 ring-brand-500/20;
+    @apply block h-5 w-1.5 shrink-0 rounded-full;
+    transform: skewX(-14deg);
+    background: linear-gradient(180deg, #4d8dff, #0f55e0);
+    box-shadow: 0 0 12px rgba(31, 107, 255, 0.55);
   }
   /* Etiqueta en forma de píldora. */
   .pill {
     @apply rounded-full px-2.5 py-0.5;
   }
+  /* Botones: el principal en azul eléctrico con brillo; el secundario, contorneado. Los dos se hunden al apretar. */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full px-5 py-2 font-display text-base font-bold uppercase tracking-wide text-white;
+    background: linear-gradient(135deg, #4d8dff, #0f55e0);
+    box-shadow: 0 8px 20px -8px rgba(31, 107, 255, 0.7);
+    transition: transform 0.15s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  }
+  .btn-primary:hover {
+    transform: translateY(-1px);
+    filter: brightness(1.08);
+    box-shadow: 0 12px 26px -8px rgba(31, 107, 255, 0.8);
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 font-display text-sm font-bold uppercase tracking-wide text-volt-600 ring-1 ring-volt-300/60;
+    transition: transform 0.15s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  }
+  .btn-ghost:hover {
+    @apply bg-volt-500 text-white ring-volt-500;
+    box-shadow: 0 8px 20px -10px rgba(31, 107, 255, 0.8);
+  }
+  .btn-primary:active,
+  .btn-ghost:active,
+  .btn-press:active {
+    transform: scale(0.96);
+  }
+}
+
+/* ── Portada (PageHero) ───────────────────────────────────────────────────────────────────────────────────────── */
+.hero {
+  background:
+    radial-gradient(40rem 20rem at var(--mx, 70%) var(--my, 0%), rgba(31, 107, 255, 0.35), transparent 60%),
+    linear-gradient(135deg, #050b1a 0%, #0a1834 55%, #0b2a6b 100%);
+  box-shadow: 0 0 0 1px rgba(127, 176, 255, 0.12) inset, 0 30px 60px -30px rgba(5, 11, 26, 0.75);
+}
+.hero-title {
+  text-shadow: 0 2px 24px rgba(31, 107, 255, 0.35);
+}
+.offside-line {
+  background: repeating-linear-gradient(180deg, #4d8dff 0 18px, transparent 18px 30px);
+  box-shadow: 0 0 14px 2px rgba(31, 107, 255, 0.7);
+  animation: offside-scan 4s ease-in-out infinite alternate;
+}
+@keyframes offside-scan {
+  from {
+    transform: translateX(0) rotate(8deg);
+    opacity: 0.55;
+  }
+  to {
+    transform: translateX(-28px) rotate(8deg);
+    opacity: 0.95;
+  }
+}
+.checker {
+  background-image: conic-gradient(#1f6bff 25%, transparent 0 50%, #1f6bff 0 75%, transparent 0);
+  background-size: 22px 22px;
+}
+
+/* Al entrar a una página, el contenido aparece subiendo apenas. */
+.page-enter {
+  animation: fade-up 0.45s ease both;
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+/* Filas de tablas: al pasar el mouse se marcan con la barrita azul del offside. */
+tbody tr {
+  transition: background-color 0.15s ease;
+}
+tbody tr:hover {
+  background-color: rgba(31, 107, 255, 0.05);
+  box-shadow: inset 3px 0 0 #1f6bff;
+}
+
+/* Cargando: placas con un brillo que pasa. */
+.skeleton {
+  background: linear-gradient(100deg, rgba(225, 231, 240, 0.7) 30%, rgba(255, 255, 255, 0.9) 50%, rgba(225, 231, 240, 0.7) 70%);
+  background-size: 200% 100%;
+  animation: skeleton 1.2s linear infinite;
+}
+@keyframes skeleton {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* En vivo: punto que late, marcador que brilla y franja que se desliza. */
+.live-dot-bare {
+  @apply inline-block h-2 w-2 rounded-full bg-red-500;
+  animation: live 1.4s ease-in-out infinite;
+}
+.score-live {
+  animation: score-glow 2s ease-in-out infinite;
+}
+@keyframes score-glow {
+  50% {
+    box-shadow: 0 0 0 4px rgba(220, 38, 38, 0.18);
+  }
+}
+.ticker-mask {
+  mask-image: linear-gradient(90deg, transparent, #000 24px, #000 calc(100% - 24px), transparent);
+}
+.ticker-track {
+  animation: ticker 45s linear infinite;
+}
+.ticker:hover .ticker-track {
+  animation-play-state: paused;
+}
+@keyframes ticker {
+  to {
+    transform: translateX(calc(-50% - 4px));
+  }
+}
+
+/* Números de las portadas: se cuentan hacia arriba al cargar (Effects.tsx). */
+.stat-value {
+  font-variant-numeric: tabular-nums;
 }
 
 /* ── Efectos chicos ────────────────────────────────────────────────────────────────────────────────────────────
    Todos respetan "reducir movimiento" del sistema. */
 
 /* Brillo que cruza los botones principales al pasar el mouse. */
-.shine {
+.shine,
+.btn-primary {
   position: relative;
   overflow: hidden;
 }
-.shine::after {
+.shine::after,
+.btn-primary::after {
   content: "";
   position: absolute;
   inset: 0;
   transform: translateX(-120%) skewX(-20deg);
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.55), transparent);
 }
-.shine:hover::after {
+.shine:hover::after,
+.btn-primary:hover::after {
   transition: transform 0.7s ease;
   transform: translateX(120%) skewX(-20deg);
 }
@@ -149,7 +285,13 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  main .panel {
+  main .panel,
+  .page-enter,
+  .offside-line,
+  .ticker-track,
+  .skeleton,
+  .score-live,
+  .live-dot-bare {
     animation: none;
   }
   .shine::after,
@@ -164,4 +306,23 @@ body {
   .foro-logo:hover {
     transform: none;
   }
+}
+
+/* La copa del Mundial flota apenas en la portada. */
+.trophy-float {
+  animation: trophy-float 3.2s ease-in-out infinite;
+}
+@keyframes trophy-float {
+  50% {
+    transform: translateY(-6px) rotate(-2deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .trophy-float {
+    animation: none;
+  }
+}
+/* Punto de "en vivo" blanco sobre los botones rojos. */
+.live-dot-bare.bg-white {
+  background-color: #fff;
 }

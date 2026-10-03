@@ -31,10 +31,24 @@ const config: Config = {
           900: "#0c1830",
           950: "#070f20",
         },
+        // Azul eléctrico del logo: acentos, línea del offside y botones principales.
+        volt: {
+          300: "#7fb0ff",
+          400: "#4d8dff",
+          500: "#1f6bff",
+          600: "#0f55e0",
+          700: "#0b42b0",
+        },
         gold: {
           400: "#d9b45a",
           500: "#c89b3c",
         },
+      },
+      keyframes: {
+        "fade-up": { from: { opacity: "0", transform: "translateY(10px)" }, to: { opacity: "1", transform: "none" } },
+      },
+      animation: {
+        "fade-up": "fade-up 0.5s ease both",
       },
       fontFamily: {
         sans: ["var(--font-body)", "system-ui", "sans-serif"],

@@ -9,7 +9,7 @@ import type { Season } from "@/lib/types";
 export function HeroStat({ value, label }: { value: React.ReactNode; label: string }) {
   return (
     <div>
-      <div className="text-3xl font-bold text-white">{value}</div>
+      <div className="stat-value text-3xl font-bold italic text-white">{value}</div>
       <div className="text-xs font-semibold tracking-widest text-navy-300">{label}</div>
     </div>
   );

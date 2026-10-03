@@ -39,7 +39,7 @@ export default function ForoPage() {
   return (
     <>
       <section className="mx-auto mt-6 max-w-5xl px-3 sm:px-6">
-        <div className="relative overflow-hidden rounded-[2rem] bg-[#0a1a3f] px-6 py-8 text-white shadow-[0_20px_40px_-20px_rgba(10,26,63,0.8)] sm:px-10">
+        <div className="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-[#0a2a6b] via-[#0d47b5] to-[#1d8bff] px-6 py-8 text-white shadow-[0_20px_40px_-20px_rgba(10,26,63,0.8)] sm:px-10">
           <div className="pointer-events-none absolute -right-10 -top-10 h-56 w-56 rounded-full bg-blue-500/20 blur-3xl" />
           <div className="relative flex items-center gap-4">
             <ForoLogo size={64} className="foro-logo shrink-0 rounded-2xl ring-2 ring-blue-400/40" />

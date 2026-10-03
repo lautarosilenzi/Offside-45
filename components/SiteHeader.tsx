@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { FEATURED, GROUPS, compHref } from "@/lib/competitions";
+import { FEATURED, GROUPS, LIVE_CODE, compHref } from "@/lib/competitions";
 import LOGOS from "@/lib/data/comps.generated.json";
 
 const NAV = [
@@ -58,7 +58,7 @@ export default function SiteHeader({ logo }: { logo?: string }) {
   return (
     <>
       <header className="sticky top-0 z-30 px-3 pt-3 sm:px-6 sm:pt-4">
-        <div className="mx-auto flex max-w-5xl items-center gap-2 rounded-full bg-navy-950/90 py-2 pl-2 pr-2 text-white shadow-[0_10px_30px_-10px_rgba(7,15,32,0.6)] ring-1 ring-white/10 backdrop-blur-md">
+        <div className="mx-auto flex max-w-5xl items-center gap-2 rounded-full bg-[#050b1a]/90 py-2 pl-2 pr-2 text-white shadow-[0_10px_30px_-10px_rgba(5,11,26,0.7)] ring-1 ring-volt-400/20 backdrop-blur-md">
           <button
             type="button"
             onClick={() => setOpen(true)}
@@ -79,7 +79,7 @@ export default function SiteHeader({ logo }: { logo?: string }) {
               </span>
             )}
             <span className="hidden whitespace-nowrap font-display text-2xl font-bold uppercase italic leading-none tracking-wide lg:block">
-              Offside<span className="text-brand-300"> 45</span>
+              Offside<span className="text-volt-400"> 45</span>
             </span>
           </Link>
           <nav
@@ -92,7 +92,7 @@ export default function SiteHeader({ logo }: { logo?: string }) {
                 href={item.href}
                 aria-current={isActive(item.href) ? "page" : undefined}
                 className={`shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 font-display text-sm font-semibold uppercase tracking-wide transition sm:px-4 sm:text-base ${
-                  isActive(item.href) ? "bg-white text-navy-950 shadow" : "text-navy-200 hover:bg-white/10 hover:text-white"
+                  isActive(item.href) ? "bg-gradient-to-r from-volt-400 to-volt-600 text-white shadow-[0_0_18px_rgba(31,107,255,0.55)]" : "text-navy-200 hover:bg-white/10 hover:text-white"
                 }`}
               >
                 {item.label}
@@ -116,7 +116,7 @@ export default function SiteHeader({ logo }: { logo?: string }) {
         >
           <div className="flex items-center justify-between border-b border-white/10 px-4 py-3">
             <span className="font-display text-xl font-bold uppercase italic tracking-wide">
-              Offside<span className="text-brand-300"> 45</span>
+              Offside<span className="text-volt-400"> 45</span>
             </span>
             <button
               type="button"
@@ -139,7 +139,7 @@ export default function SiteHeader({ logo }: { logo?: string }) {
               <Group key={g.id} id={g.id} title={g.name} flag={g.flag} expanded={expanded} setExpanded={setExpanded}>
                 {g.competitions.map((c) => {
                   const href = compHref(g, c);
-                  return <MenuLink key={c.id} href={href} label={c.name} logo={logoOf(c.id)} active={pathname === href || (!!c.href && c.href !== "/" && pathname.startsWith(c.href))} pending={!c.href} />;
+                  return <MenuLink key={c.id} href={href} label={c.name} logo={logoOf(c.id)} active={pathname === href || (!!c.href && c.href !== "/" && pathname.startsWith(c.href))} pending={!c.href && !LIVE_CODE[c.id]} />;
                 })}
               </Group>
             ))}

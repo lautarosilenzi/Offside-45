@@ -15,11 +15,12 @@ export type CountryGroup = { id: string; name: string; flag: string; competition
 const c = (id: string, name: string, wiki: string, href?: string): Competition => ({ id, name, wiki, href });
 
 export const FEATURED: Competition[] = [
+  c("en-vivo", "En vivo", "", "/en-vivo"),
   c("liga-profesional", "Liga Argentina", "es:Primera División de Argentina", "/temporadas"),
   c("copa-argentina", "Copa Argentina", "en:Copa Argentina", "/copa-argentina"),
   c("libertadores", "Copa Libertadores", "en:Copa Libertadores", "/libertadores"),
   c("sudamericana", "Copa Sudamericana", "en:Copa Sudamericana", "/sudamericana"),
-  c("mundial", "Mundiales", "en:FIFA World Cup Trophy", "/mundiales"),
+  c("mundial", "Mundiales", "en:FIFA World Cup Trophy" /* logo: ilustración de Commons, cargada a mano */, "/mundiales"),
 ];
 
 export const GROUPS: CountryGroup[] = [
@@ -75,7 +76,7 @@ export const GROUPS: CountryGroup[] = [
     name: "Selecciones",
     flag: "un",
     competitions: [
-      c("mundial", "Mundiales", "en:FIFA World Cup Trophy", "/mundiales"),
+      c("mundial", "Mundiales", "en:FIFA World Cup Trophy" /* logo: ilustración de Commons, cargada a mano */, "/mundiales"),
       c("balon-de-oro", "Balón de Oro", "en:Ballon d'Or", "/balon-de-oro"),
       c("copa-america", "Copa América", "es:Copa América"),
       c("eliminatorias", "Eliminatorias Conmebol", ""),
@@ -89,3 +90,58 @@ export const compHref = (group: CountryGroup, comp: Competition) => comp.href ??
 
 // Todas las competencias sin página propia, para generar sus páginas.
 export const PENDING = GROUPS.flatMap((g) => g.competitions.filter((comp) => !comp.href).map((comp) => ({ group: g, comp })));
+
+// Código de cada competencia en la API de resultados en vivo (lib/live/espn.ts).
+export const LIVE_CODE: Record<string, string> = {
+  "liga-profesional": "arg.1",
+  "copa-argentina": "arg.copa",
+  "primera-nacional": "arg.2",
+  "primera-b-metro": "arg.3",
+  "primera-c": "arg.4",
+  libertadores: "conmebol.libertadores",
+  sudamericana: "conmebol.sudamericana",
+  recopa: "conmebol.recopa",
+  champions: "uefa.champions",
+  "europa-league": "uefa.europa",
+  "conference-league": "uefa.europa.conf",
+  "concacaf-champions": "concacaf.champions",
+  "premier-league": "eng.1",
+  championship: "eng.2",
+  "fa-cup": "eng.fa",
+  laliga: "esp.1",
+  "segunda-espana": "esp.2",
+  "copa-del-rey": "esp.copa_del_rey",
+  "serie-a": "ita.1",
+  "serie-b": "ita.2",
+  "coppa-italia": "ita.coppa_italia",
+  bundesliga: "ger.1",
+  "2-bundesliga": "ger.2",
+  "dfb-pokal": "ger.dfb_pokal",
+  "primeira-liga": "por.1",
+  "taca-portugal": "por.taca.portugal",
+  "ligue-1": "fra.1",
+  "ligue-2": "fra.2",
+  "coupe-de-france": "fra.coupe_de_france",
+  brasileirao: "bra.1",
+  "brasileirao-b": "bra.2",
+  "copa-do-brasil": "bra.copa_do_brazil",
+  "primera-uruguay": "uru.1",
+  "primera-paraguay": "par.1",
+  "primera-colombia": "col.1",
+  "primera-chile": "chi.1",
+  "liga-mx": "mex.1",
+  mls: "usa.1",
+  "copa-america": "conmebol.america",
+  eliminatorias: "fifa.worldq.conmebol",
+  eurocopa: "uefa.euro",
+};
+
+// Orden de la página En vivo: primero lo argentino y lo sudamericano.
+export const LIVE_ORDER = [
+  "liga-profesional", "copa-argentina", "libertadores", "sudamericana", "primera-nacional", "primera-b-metro", "primera-c",
+  "eliminatorias", "champions", "premier-league", "laliga", "serie-a", "bundesliga", "ligue-1", "primeira-liga", "brasileirao",
+  "primera-uruguay", "primera-paraguay", "primera-colombia", "primera-chile", "liga-mx", "mls", "europa-league",
+  "conference-league", "championship", "segunda-espana", "serie-b", "2-bundesliga", "ligue-2", "brasileirao-b", "copa-do-brasil",
+  "copa-del-rey", "coppa-italia", "dfb-pokal", "coupe-de-france", "fa-cup", "taca-portugal", "recopa", "concacaf-champions",
+  "copa-america", "eurocopa",
+];

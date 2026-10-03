@@ -3,12 +3,14 @@ import Link from "next/link";
 import CompLogo from "@/components/CompLogo";
 import Crest from "@/components/Crest";
 import { Stat } from "@/components/CupHistory";
+import LiveMatches from "@/components/live/LiveMatches";
 import MatchList from "@/components/MatchList";
 import PageHero from "@/components/PageHero";
 import { RankTable, YearList } from "@/components/TitleBoards";
 import { isCounted, winnerOf } from "@/lib/matches";
 import { positions } from "@/lib/rank";
 import { CUP_COMPETITIONS, finalRows, seasonLabel, sourceOrder } from "@/lib/seasons";
+import { liveLeagues } from "@/lib/live/leagues";
 import { getTeam } from "@/lib/teams";
 import type { Match, Season } from "@/lib/types";
 
@@ -116,6 +118,9 @@ export default function CopaArgentinaPage() {
               Último resultado cargado: {lastStage}. Se actualiza a medida que avanza la copa.
             </p>
           )}
+          <div className="mb-4">
+            <LiveMatches leagues={liveLeagues(["copa-argentina"])} />
+          </div>
           <MatchList matches={current.filter((m) => (m.stage ?? "Partidos") === lastStage || stages.indexOf(m.stage ?? "Partidos") === 1)} groupBy="stage" />
         </section>
 

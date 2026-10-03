@@ -3,12 +3,13 @@ import type { Metadata } from "next";
 import { join } from "path";
 import { Barlow, Barlow_Condensed } from "next/font/google";
 import Effects from "@/components/Effects";
+import LiveTicker from "@/components/live/LiveTicker";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import "./globals.css";
 
 const body = Barlow({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-body" });
-const display = Barlow_Condensed({ subsets: ["latin"], weight: ["600", "700", "800"], variable: "--font-display" });
+const display = Barlow_Condensed({ subsets: ["latin"], weight: ["600", "700", "800"], style: ["normal", "italic"], variable: "--font-display" });
 
 export const metadata: Metadata = {
   title: "Offside 45 · Historia del fútbol argentino",
@@ -23,7 +24,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="es" className={`${body.variable} ${display.variable}`}>
       <body className="flex min-h-screen flex-col font-sans">
         <SiteHeader logo={LOGO} />
-        <div className="flex-1">{children}</div>
+        <LiveTicker />
+        <div className="page-enter flex-1">{children}</div>
         <SiteFooter />
         <Effects />
       </body>

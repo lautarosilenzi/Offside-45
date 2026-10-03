@@ -46,7 +46,7 @@ export default function WorldCupsPage() {
           1986 y 2022), jugó otras cuatro finales y estuvo en {argentina.appearances} de los {WORLD_CUPS.length} Mundiales.
         </span>
         <div className="mt-5 flex flex-wrap items-end gap-x-8 gap-y-2 font-display uppercase tracking-wide">
-          <CompLogo id="mundial" size={64} className="rounded-xl bg-white/90 p-1" />
+          <CompLogo id="mundial" size={84} className="trophy-float drop-shadow-[0_0_24px_rgba(245,179,1,0.55)]" />
           <Stat value={WORLD_CUPS.length} label="Mundiales" />
           <Stat value={titles.length} label="Campeones distintos" />
           <Stat value={APPEARANCES.length} label="Selecciones que jugaron" />

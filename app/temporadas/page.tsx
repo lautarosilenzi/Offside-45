@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Crest from "@/components/Crest";
+import CurrentTournament from "@/components/live/CurrentTournament";
 import PageHero from "@/components/PageHero";
 import { positions } from "@/lib/rank";
 import { NoteTag } from "@/components/SeasonNotes";
@@ -57,6 +58,11 @@ export default function SeasonsPage() {
         className="sticky top-[4.25rem] z-20 mx-auto mt-4 max-w-5xl px-3 sm:top-[4.75rem] sm:px-6"
       >
         <div className="flex items-center gap-1.5 overflow-x-auto rounded-full border border-white/70 bg-white/80 p-1.5 shadow-[0_8px_24px_-14px_rgba(12,24,48,0.3)] backdrop-blur-md [scrollbar-width:none]">
+          {SEASONS.some((s) => s.inProgress) && (
+            <a href="#en-juego" className="flex shrink-0 items-center gap-1.5 rounded-full bg-red-600 px-3 py-1 font-display text-xs font-bold uppercase tracking-wider text-white">
+              <span className="live-dot-bare bg-white" /> En juego
+            </a>
+          )}
           {eras.map((era, i) => (
             <span key={era.id} className="flex shrink-0 items-center gap-1.5">
               {i > 0 && <span className="mx-1 h-5 w-px bg-navy-200" aria-hidden />}
@@ -81,6 +87,9 @@ export default function SeasonsPage() {
       </nav>
 
       <main className="mx-auto max-w-5xl space-y-10 px-4 py-8 sm:px-6">
+        {SEASONS.filter((s) => s.inProgress).map((s) => (
+          <CurrentTournament key={s.slug} season={s} />
+        ))}
         {eras.map((era) => (
           <div key={era.id} id={`era-${era.id}`} className="scroll-mt-36 space-y-10">
             <div className="rounded-3xl bg-navy-900 px-5 py-4 text-white">
@@ -123,7 +132,7 @@ export default function SeasonsPage() {
 function Stat({ value, label }: { value: React.ReactNode; label: string }) {
   return (
     <div>
-      <div className="text-3xl font-bold text-white">{value}</div>
+      <div className="stat-value text-3xl font-bold italic text-white">{value}</div>
       <div className="text-xs font-semibold tracking-widest text-navy-300">{label}</div>
     </div>
   );

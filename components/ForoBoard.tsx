@@ -34,7 +34,7 @@ export default function ForoBoard({ topics }: { topics: Topic[] }) {
                 type="button"
                 onClick={() => setTopicId(t.id)}
                 className={`w-full rounded-2xl px-3 py-2.5 text-left transition ${
-                  t.id === topicId ? "bg-[#0a1a3f] text-white shadow-lg" : "bg-white/80 text-navy-900 ring-1 ring-navy-100 hover:bg-white"
+                  t.id === topicId ? "bg-[#0a2a6b] text-white shadow-lg" : "bg-white/80 text-navy-900 ring-1 ring-navy-100 hover:bg-white"
                 }`}
               >
                 <span className="flex items-center gap-1.5">
@@ -64,7 +64,7 @@ export default function ForoBoard({ topics }: { topics: Topic[] }) {
         {!ready ? null : profile ? (
           topic && <Composer topicId={topic.id} />
         ) : (
-          <div className="mb-4 flex flex-wrap items-center justify-between gap-3 rounded-3xl bg-[#0a1a3f] p-4 text-white">
+          <div className="mb-4 flex flex-wrap items-center justify-between gap-3 rounded-3xl bg-[#0a2a6b] p-4 text-white">
             <p>Creá tu cuenta y elegí tu club para opinar.</p>
             <Link href="/cuenta" className="rounded-full bg-white px-4 py-2 font-display font-bold uppercase tracking-wide text-[#0a1a3f]">
               Crear cuenta
