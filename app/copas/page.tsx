@@ -1,9 +1,20 @@
 import type { Metadata } from "next";
 import { EditionRow, HeroStat as Stat } from "@/components/CupEditions";
+import CompLogo from "@/components/CompLogo";
 import PageHero from "@/components/PageHero";
-import { CUP_COMPETITIONS, CUP_SEASONS } from "@/lib/seasons";
+import { MiniTable, RankTable, rankFinals, slugify } from "@/components/TitleBoards";
+import { CUP_COMPETITIONS, CUP_SEASONS, finalRows } from "@/lib/seasons";
 
-export const metadata: Metadata = { title: "Copas nacionales · Offside 45" };
+export const metadata: Metadata = { title: "Copas Nacionales · Offside 45" };
+
+// Logo de las copas que lo tienen (lib/data/comps.generated.json).
+const CUP_LOGO: Record<string, string> = {
+  "Copa Libertadores": "libertadores",
+  "Copa Sudamericana": "sudamericana",
+  "Recopa Sudamericana": "recopa",
+  "Mundial de Clubes": "mundial-clubes",
+  "Copa Argentina": "copa-argentina",
+};
 
 // Qué fue cada copa, en una línea.
 const ABOUT: Record<string, string> = {
@@ -56,10 +67,14 @@ const ABOUT: Record<string, string> = {
 export default function CupsPage() {
   const matchCount = CUP_SEASONS.reduce((n, s) => n + s.matches.length, 0);
   const clubs = new Set(CUP_SEASONS.flatMap((s) => s.matches.flatMap((m) => [m.homeId, m.awayId])));
+  // Campeones de cada copa, de la que más ediciones tuvo a la que menos.
+  const byCup = CUP_COMPETITIONS.map((c) => ({ name: c.name, ranking: rankFinals(finalRows(c.editions)) }))
+    .filter((c) => c.ranking.length)
+    .sort((a, b) => b.ranking.reduce((n, r) => n + r.titles, 0) - a.ranking.reduce((n, r) => n + r.titles, 0));
 
   return (
     <>
-      <PageHero eyebrow="Copas nacionales oficiales" title="Copas">
+      <PageHero eyebrow="Reconocidas por la AFA" title="Copas Nacionales">
         Todos los partidos de las copas nacionales reconocidas por la AFA, edición por edición y con todos los clubes que
         las jugaron.
         <div className="mt-5 flex flex-wrap gap-x-8 gap-y-2 font-display uppercase tracking-wide">
@@ -70,10 +85,21 @@ export default function CupsPage() {
       </PageHero>
 
       <main className="mx-auto max-w-5xl space-y-10 px-4 py-8 sm:px-6">
+        <section className="space-y-4">
+          <h2 className="section-title">Campeones · total de copas nacionales</h2>
+          <RankTable rows={finalRows(CUP_SEASONS)} />
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {byCup.map((c) => (
+              <MiniTable key={c.name} title={c.name} rows={c.ranking} href={`#${slugify(c.name)}`} />
+            ))}
+          </div>
+          <p className="text-xs text-navy-500">Un título compartido cuenta para los dos clubes. Subcamp.: finales perdidas (en las copas con final).</p>
+        </section>
         {CUP_COMPETITIONS.map((c) => (
-          <section key={c.name}>
+          <section key={c.name} id={slugify(c.name)} className="scroll-mt-24">
             <div className="mb-3">
-              <h2 className="section-title">
+              <h2 className="section-title flex items-center gap-2">
+                {CUP_LOGO[c.name] && <CompLogo id={CUP_LOGO[c.name]} size={28} />}
                 {c.name} · {c.editions[0].year}
                 {c.editions[c.editions.length - 1].year !== c.editions[0].year && `–${c.editions[c.editions.length - 1].year}`}
               </h2>

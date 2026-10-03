@@ -3,6 +3,9 @@ import Crest from "@/components/Crest";
 import PageHero from "@/components/PageHero";
 import { CRESTS } from "@/lib/crests";
 import { BALLON_DOR } from "@/lib/data/ballon-dor";
+import LOGOS from "@/lib/data/comps.generated.json";
+import { FEATURED, GROUPS } from "@/lib/competitions";
+import CompLogo from "@/components/CompLogo";
 import { getTeam } from "@/lib/teams";
 
 export const metadata: Metadata = { title: "Fuentes y créditos · Offside 45" };
@@ -33,8 +36,9 @@ export default function CreditsPage() {
         <section>
           <h2 className="section-title mb-3">Escudos</h2>
           <p className="mb-3 text-sm text-navy-600">
-            Los escudos provienen de Wikimedia Commons y son marcas de sus respectivos clubes. Se usan solo para
-            identificarlos. Los clubes sin escudo documentado se muestran con sus iniciales.
+            Los escudos provienen de Wikimedia Commons y, los que no tienen una versión libre, de la Wikipedia en inglés. Son
+            marcas de sus respectivos clubes y se usan solo para identificarlos. Cada escudo se buscó en el artículo del club y se
+            revisó a mano. Los clubes sin escudo documentado se muestran con sus iniciales.
           </p>
           <ul className="panel divide-y divide-navy-100 text-sm">
             {crests.map(([id, crest]) => {
@@ -43,10 +47,33 @@ export default function CreditsPage() {
               return (
                 <li key={id} className="flex items-center gap-3 px-4 py-2">
                   <Crest team={team} size="sm" />
-                  <span className="flex-1 font-medium text-navy-800">{team.name}</span>
-                  <span className="text-xs text-navy-500">{crest.license}</span>
+                  <span className="min-w-0 flex-1 truncate font-medium text-navy-800">{team.name}</span>
+                  <span className="hidden max-w-[16rem] truncate text-xs text-navy-500 sm:inline">{crest.license}</span>
                   <a href={crest.page} target="_blank" rel="noreferrer" className="text-xs text-brand-500 hover:underline">
-                    Wikimedia Commons
+                    {crest.page.includes("commons.") ? "Wikimedia Commons" : "Wikipedia"}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="section-title mb-3">Logos de las competencias y banderas</h2>
+          <p className="mb-3 text-sm text-navy-600">
+            Los logos salen de los artículos de Wikipedia de cada competencia (en Commons o, si no hay versión libre, en la Wikipedia en
+            inglés) y son marcas de sus organizadores; se usan solo para identificarlas. Las banderas son de flagcdn.com y, las de países
+            que ya no existen, de Wikimedia Commons (dominio público).
+          </p>
+          <ul className="panel grid gap-x-4 divide-y divide-navy-100 text-sm sm:grid-cols-2 sm:divide-y-0">
+            {Object.entries(LOGOS as Record<string, { license: string; page: string }>).map(([id, logo]) => {
+              const comp = [...FEATURED, ...GROUPS.flatMap((g) => g.competitions)].find((c) => c.id === id);
+              return (
+                <li key={id} className="flex items-center gap-3 px-4 py-2">
+                  <CompLogo id={id} size={24} />
+                  <span className="min-w-0 flex-1 truncate font-medium text-navy-800">{comp?.name ?? id}</span>
+                  <a href={logo.page} target="_blank" rel="noreferrer" className="text-xs text-brand-500 hover:underline">
+                    {logo.page.includes("commons.") ? "Commons" : "Wikipedia"}
                   </a>
                 </li>
               );

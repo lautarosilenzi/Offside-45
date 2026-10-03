@@ -43,7 +43,7 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
       <PageHero
         eyebrow={
           <Link href={season.international ? "/internacionales" : isCup ? "/copas" : "/temporadas"} className="hover:text-white">
-            {season.international ? "← Copas internacionales" : isCup ? "← Copas nacionales" : "← Temporadas"}
+            {season.international ? "← Copas internacionales" : isCup ? "← Copas Nacionales" : "← Liga Argentina"}
           </Link>
         }
         title={seasonTitle(season)}
@@ -84,19 +84,7 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
         {showTable && (
         <section>
           <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
-            <h2 className="section-title">{isCup ? "Tabla resumen de la copa" : "Tabla final de posiciones"}</h2>
-            <span
-              className={`flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider ${
-                problems.length === 0 ? "text-emerald-700" : "text-red-700"
-              }`}
-            >
-              <span className={`h-1.5 w-1.5 rounded-full ${problems.length === 0 ? "bg-emerald-500" : "bg-red-500"}`} />
-              {problems.length > 0
-                ? "No coincide con la fuente"
-                : season.knownTableDiffs
-                  ? "Verificada, con una diferencia explicada"
-                  : "Verificada contra la fuente"}
-            </span>
+            <h2 className="section-title">{isCup ? "Tabla resumen de la copa" : season.inProgress ? "Tabla de posiciones" : "Tabla final de posiciones"}</h2>
           </div>
           {blocks.map((block, bi) => (
           <div key={block.name ?? "tabla"} className={`panel overflow-x-auto ${bi > 0 ? "mt-4" : ""}`}>

@@ -24,6 +24,21 @@ const CLUBS: [string, string, string, string, string][] = [
   ["emelec-ec", "Emelec (Ecuador)", "EME", "Club Sport Emelec (Guayaquil)", "Ecuador"],
   ["municipal-pe", "Deportivo Municipal (Perú)", "MUN", "Club Centro Deportivo Municipal (Lima)", "Perú"],
   ["litoral-bo", "Litoral (Bolivia)", "LIT", "Club Litoral (La Paz)", "Bolivia"],
+  // Campeones y finalistas de la Intercontinental y del Mundial de Clubes que nunca jugaron contra un club argentino
+  // (figuran en las listas de campeones del menú).
+  ["panathinaikos-gr", "Panathinaikos (Grecia)", "PAN", "Panathinaikos (Atenas)", "Grecia"],
+  ["malmo-se", "Malmö (Suecia)", "MAL", "Malmö FF", "Suecia"],
+  ["nottingham-forest-en", "Nottingham Forest (Inglaterra)", "NFO", "Nottingham Forest Football Club", "Inglaterra"],
+  ["aston-villa-en", "Aston Villa (Inglaterra)", "AVI", "Aston Villa Football Club (Birmingham)", "Inglaterra"],
+  ["hamburgo-de", "Hamburgo (Alemania)", "HSV", "Hamburger Sport-Verein", "Alemania"],
+  ["porto-pt", "Porto (Portugal)", "POR", "Futebol Clube do Porto", "Portugal"],
+  ["psv-nl", "PSV Eindhoven (Países Bajos)", "PSV", "Philips Sport Vereniging (Eindhoven)", "Países Bajos"],
+  ["estrella-roja-rs", "Estrella Roja (Yugoslavia)", "EST", "Estrella Roja de Belgrado (hoy Serbia)", "Yugoslavia"],
+  ["borussia-dortmund-de", "Borussia Dortmund (Alemania)", "BVB", "Ballspielverein Borussia 09 Dortmund", "Alemania"],
+  ["mazembe-cd", "TP Mazembe (RD Congo)", "MAZ", "Tout Puissant Mazembe (Lubumbashi)", "RD Congo"],
+  ["raja-ma", "Raja Casablanca (Marruecos)", "RAJ", "Raja Club Athletic (Casablanca)", "Marruecos"],
+  ["al-hilal-sa", "Al-Hilal (Arabia Saudita)", "HIL", "Al-Hilal Saudi Football Club (Riad)", "Arabia Saudita"],
+  ["manchester-city-en", "Manchester City (Inglaterra)", "MCI", "Manchester City Football Club", "Inglaterra"],
 ];
 
 // Los rivales de las copas de la Conmebol los genera scripts/import/intl/conmebol.ts (foreign-clubs.generated.json).

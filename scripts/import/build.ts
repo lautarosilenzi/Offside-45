@@ -519,6 +519,8 @@ function contextStageOf(ctx: NonNullable<RawMatch["context"]>): string | null {
     else if ((m = t.match(/^(1st|2nd|3rd|4th|5th) round(?: - (inland|metropolitan) zone)?$/i)))
       parts.push(`${{ "1st": "Primera", "2nd": "Segunda", "3rd": "Tercera", "4th": "Cuarta", "5th": "Quinta" }[m[1].toLowerCase()]} ronda${m[2] ? ` · Zona ${/inland/i.test(m[2]) ? "Interior" : "Metropolitana"}` : ""}`);
     else if (/^final phase$/i.test(t)) continue;
+    // Encabezado de la tabla resumen que RSSSF pone antes de la primera ronda (2026): no es una fase.
+    else if (/^#\.\s*Name\b/i.test(t)) continue;
     else if (/^(regional )?preliminary phases?$/i.test(t) || /^fase preliminar regional$/i.test(t)) parts.push("Fase preliminar regional");
     else if (/round of 64|\b32nd|1\/32|64th/i.test(t)) parts.push("Treintaidosavos de final");
     else if (/round of 32|\b16th|1\/16/i.test(t)) parts.push("Dieciseisavos de final");
@@ -864,7 +866,9 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     const mapped = Object.entries(cfg.stageMap ?? {}).find(([re]) => new RegExp(re, "i").test(raw.round ?? ""))?.[1];
     // Copas de la Liga: "Round 7" es una fecha de la fase de zonas; la zona sale después de las tablas (zoneTables).
     const zoneRound = cfg.zoneTables && !raw.group && !mapped ? (raw.round ?? "").match(/^Round\s*(\d+):?$/i) : null;
-    const fromContext = cfg.contextStages && !mapped ? (raw.context ? contextStageOf(raw.context) : null) : undefined;
+    let fromContext = cfg.contextStages && !mapped ? (raw.context ? contextStageOf(raw.context) : null) : undefined;
+    // Sin títulos que den la fase (2026: RSSSF pone la tabla resumen antes de la ronda), la da la ronda del partido.
+    if (fromContext === null && raw.round && cupStageOf(raw)) fromContext = undefined;
     if (fromContext === null) problems.push(`L${raw.line} ${raw.home}-${raw.away}: fase desconocida (${(raw.context ?? []).map((c) => c.text).join(" › ") || "sin título"})`);
     const { stage: rawStage, phase } =
       cfg.kind === "cup"
@@ -1222,6 +1226,26 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     }
     if (cfg.groupNames?.[gi]) groups.push({ name: cfg.groupNames[gi], teamIds: ids });
   });
+  // Torneo en juego con partidos más nuevos que la tabla de la fuente: se le suman a la tabla publicada.
+  if (cfg.extraMatchesAfterTable) {
+    const ppw = cfg.pointsPerWin ?? 3;
+    for (const m of cfg.extraMatches ?? []) {
+      if (cfg.kind !== "cup" && m.phase !== "league") continue;
+      for (const [id, gf, ga] of [[m.homeId, m.homeGoals, m.awayGoals], [m.awayId, m.awayGoals, m.homeGoals]] as [string, number, number][]) {
+        const row = publishedTable.find((r) => r.teamId === id);
+        if (!row) {
+          problems.push(`Partido extra: ${id} no está en la tabla`);
+          continue;
+        }
+        row.played++;
+        row.goalsFor += gf;
+        row.goalsAgainst += ga;
+        if (gf > ga) (row.won++, (row.points += ppw));
+        else if (gf < ga) row.lost++;
+        else (row.drawn++, row.points++);
+      }
+    }
+  }
   // Copas de la Liga (2021–): RSSSF lista cada fecha con las dos zonas juntas. La zona de cada partido sale de las
   // tablas de zona; el partido entre equipos de zonas distintas es interzonal (la fecha de clásicos).
   if (cfg.zoneTables) {

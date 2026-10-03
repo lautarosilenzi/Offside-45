@@ -15,8 +15,8 @@ export const INTL_SEASONS = SEASONS.filter((s) => s.international);
 // Nombre para mostrar: "1919" o "1919 · AAm" cuando ese año hubo dos ligas.
 export const seasonLabel = (s: Season) => (s.league ? `${s.yearLabel ?? s.year} · ${s.league}` : (s.yearLabel ?? String(s.year)));
 
-// Título de la página: "Temporada 1919 · AAm" para las ligas, "Copa de Honor 1917" para las copas.
-export const seasonTitle = (s: Season) => (s.kind === "cup" ? s.title : `Temporada ${seasonLabel(s)}`);
+// Título de la página: "Liga Argentina 1919 · AAm" para las ligas, "Copa de Honor 1917" para las copas.
+export const seasonTitle = (s: Season) => (s.kind === "cup" ? s.title : `Liga Argentina ${seasonLabel(s)}`);
 
 // Nombre de la copa sin el año: "Copa de Honor 1917" → "Copa de Honor".
 // "Copa Argentina 2018/19" también es de la serie "Copa Argentina".
@@ -34,6 +34,18 @@ export const INTL_COMPETITIONS: { name: string; editions: Season[] }[] = [...new
   editions: SEASONS.filter((s) => s.kind === "cup" && cupName(s) === name).sort((a, b) => a.year - b.year),
 }));
 
+// Campeón y finalista de cada edición, para las tablas de campeones (un título compartido da una fila por club).
+export const finalRows = (editions: Season[], keep: (id: string) => boolean = () => true): { year: number; champion?: string; runnerUp?: string; href: string }[] =>
+  editions.flatMap((s): { year: number; champion?: string; runnerUp?: string; href: string }[] => {
+    const runnerUp = s.runnerUpIds?.length === 1 && keep(s.runnerUpIds[0]) ? s.runnerUpIds[0] : undefined;
+    const champions = s.championIds.filter(keep);
+    return champions.length
+      ? champions.map((champion) => ({ year: s.year, champion, runnerUp, href: `/temporadas/${s.slug}` }))
+      : runnerUp
+        ? [{ year: s.year, runnerUp, href: `/temporadas/${s.slug}` }]
+        : [];
+  });
+
 // Torneos de liga que dan título: se dejan afuera las liguillas, promociones, reclasificaciones y desempates
 // (el campeón del Apertura 2006/07 o 2008/09 ya figura en su torneo).
 const NOT_A_TITLE = /(pre-libertadores|prelibertadores|liguilla|desempate|promocion|reclasificacion|octogonal|petit|reducido|promocional|clasificacion)/;
@@ -49,6 +61,41 @@ export const EXTRA_TITLES: { year: number; label: string; championId: string; no
     href: "/temporadas/2025-clausura",
   },
 ];
+
+// Era de un torneo de liga. Amateur: hasta 1930 y las ligas amateurs que siguieron entre 1931 y 1934.
+export const isAmateurSeason = (s: Season) => s.year < 1931 || s.slug.endsWith("-amateur") || /liga amateur/i.test(s.organizer);
+
+// Día en que terminó un torneo (su último partido): ahí se suma el título.
+const endDate = (s: Season) => s.matches.reduce((d, m) => (m.date > d ? m.date : d), "");
+
+export type TitleCount = { id: string; titles: number };
+
+// Los tres clubes con más títulos de liga al terminar cada torneo: en total y, desde 1931, solo de la era
+// profesional. Un título compartido cuenta para los dos clubes. Con igual cantidad, va primero el que llegó antes.
+export const LEAGUE_TOP3 = (() => {
+  const result = new Map<string, { total: TitleCount[]; pro?: TitleCount[] }>();
+  const total = new Map<string, { titles: number; at: number }>();
+  const pro = new Map<string, { titles: number; at: number }>();
+  const top = (m: Map<string, { titles: number; at: number }>) =>
+    [...m.entries()].sort((a, b) => b[1].titles - a[1].titles || a[1].at - b[1].at).slice(0, 3).map(([id, c]) => ({ id, titles: c.titles }));
+  let step = 0;
+  const add = (m: Map<string, { titles: number; at: number }>, id: string) => m.set(id, { titles: (m.get(id)?.titles ?? 0) + 1, at: step });
+  const finished = LEAGUE_TITLES.filter((s) => s.championIds.length).sort((a, b) => endDate(a).localeCompare(endDate(b)));
+  for (const s of finished) {
+    step++;
+    const amateur = isAmateurSeason(s);
+    for (const id of s.championIds) {
+      add(total, id);
+      if (!amateur) add(pro, id);
+    }
+    for (const t of EXTRA_TITLES.filter((t) => t.href === `/temporadas/${s.slug}`)) {
+      add(total, t.championId);
+      add(pro, t.championId);
+    }
+    result.set(s.slug, { total: top(total), pro: s.year >= 1931 ? top(pro) : undefined });
+  }
+  return result;
+})();
 
 // Nombre del torneo en la lista de campeones: "Metropolitano", "Apertura", "Asociación Amateurs"…
 export function titleLabel(s: Season): string {

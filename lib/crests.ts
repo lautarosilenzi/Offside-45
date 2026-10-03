@@ -1,3 +1,5 @@
+import GENERATED from "./data/crests.generated.json";
+
 // Escudos descargados de Wikimedia Commons (public/crests). Todos revisados a mano.
 // Los clubes sin escudo documentado muestran sus iniciales.
 export type Crest = { file: string; license: string; page: string };
@@ -29,6 +31,10 @@ export const CRESTS: Record<string, Crest> = {
   "rosario-athletic": c("rosario-athletic", "Public domain", "https://commons.wikimedia.org/wiki/File:Atlet_rosario_logo.svg"),
   "belgrano-athletic": c("belgrano-athletic", "Public domain", "https://commons.wikimedia.org/wiki/File:Escudo_de_Belgrano_Athletic_Club.svg"),
 };
+
+// El resto de los clubes (también los del exterior): los baja scripts/crests (Wikipedia y Commons), revisados a mano.
+// Los que no tienen escudo libre en Commons usan el logo de la Wikipedia en inglés.
+for (const [id, crest] of Object.entries(GENERATED as Record<string, Crest>)) CRESTS[id] ??= crest;
 
 // Lomas Academy era el segundo equipo del Lomas Athletic Club: mismo escudo.
 CRESTS["lomas-academy"] = CRESTS["lomas-athletic"];

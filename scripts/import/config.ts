@@ -128,6 +128,8 @@ export type TournamentConfig = {
   // Equipos desafiliados durante el torneo: todos sus partidos quedan anulados.
   annulTeams?: { id: string; note: string }[];
   extraMatches?: Partial<Match>[];
+  // Los partidos de extraMatches son posteriores a la tabla de la fuente (torneo en juego): se suman a la tabla publicada.
+  extraMatchesAfterTable?: boolean;
 };
 
 const AAFL = "Argentine Association Football League";
@@ -4420,7 +4422,14 @@ afaTorneo(1979, "reclasificacion", {
     tableIndex: [1, 2],
     groupNames: ["Zona A", "Zona B"],
     aliases: A_2026,
-    summary: "En juego. Cargado hasta la fecha 10 (actualización de RSSSF del 24 de septiembre de 2026): lidera Instituto, en la Zona A.",
+    extraMatchesAfterTable: true,
+    // Fecha 11 (2 de octubre): todavía no está en RSSSF; de Wikipedia, confirmados con Promiedos. Sacarlos cuando RSSSF los publique.
+    extraMatches: [
+      { id: "2026-clausura-w01", date: "2026-10-02", stage: "Fecha 11", phase: "league", homeId: "independiente", awayId: "instituto", homeGoals: 1, awayGoals: 4, venue: "Libertadores de América - Ricardo Enrique Bochini (Avellaneda)", sources: ["wikipedia-es"] },
+      { id: "2026-clausura-w02", date: "2026-10-02", stage: "Fecha 11", phase: "league", homeId: "boca", awayId: "union-santa-fe", homeGoals: 3, awayGoals: 0, venue: "Alberto J. Armando (La Boca)", sources: ["wikipedia-es"] },
+      { id: "2026-clausura-w03", date: "2026-10-02", stage: "Fecha 11", phase: "league", homeId: "independiente-rivadavia", awayId: "gimnasia", homeGoals: 1, awayGoals: 1, venue: "Bautista Gargantini (Mendoza)", sources: ["wikipedia-es"] },
+    ],
+    summary: "En juego. Cargado hasta los partidos del 2 de octubre de 2026 (fecha 11): lidera Instituto, en la Zona A.",
     notes: [
       {
         kind: "formato",

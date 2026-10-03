@@ -1,12 +1,22 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Crest from "@/components/Crest";
 import { EditionRow, HeroStat } from "@/components/CupEditions";
+import CompLogo from "@/components/CompLogo";
 import PageHero from "@/components/PageHero";
-import { INTL_COMPETITIONS, INTL_SEASONS } from "@/lib/seasons";
+import { MiniTable, RankTable, rankFinals, slugify } from "@/components/TitleBoards";
+import { INTL_COMPETITIONS, INTL_SEASONS, finalRows } from "@/lib/seasons";
 import { getTeam } from "@/lib/teams";
 
 export const metadata: Metadata = { title: "Copas internacionales · Offside 45" };
+
+// Logo de las copas que lo tienen (lib/data/comps.generated.json).
+const CUP_LOGO: Record<string, string> = {
+  "Copa Libertadores": "libertadores",
+  "Copa Sudamericana": "sudamericana",
+  "Recopa Sudamericana": "recopa",
+  "Mundial de Clubes": "mundial-clubes",
+  "Copa Argentina": "copa-argentina",
+};
 
 // Qué fue cada copa, en una línea.
 const ABOUT: Record<string, string> = {
@@ -44,9 +54,11 @@ export default function InternationalPage() {
   const derbies = matches.filter((m) => argentine(m.homeId) && argentine(m.awayId)).length;
 
   // Títulos internacionales de clubes argentinos (sin las ediciones 1900–1906 de la Tie Cup, que son copa nacional).
-  const titles = new Map<string, number>();
-  for (const s of INTL_SEASONS) for (const id of s.championIds) if (argentine(id)) titles.set(id, (titles.get(id) ?? 0) + 1);
-  const ranking = [...titles.entries()].sort((a, b) => b[1] - a[1] || getTeam(a[0])!.name.localeCompare(getTeam(b[0])!.name));
+  const allRows = finalRows(INTL_SEASONS, argentine);
+  const byCup = competitions
+    .map((c) => ({ name: c.name, ranking: rankFinals(finalRows(c.editions.filter((s) => s.international), argentine)) }))
+    .filter((c) => c.ranking.length)
+    .sort((a, b) => b.ranking.reduce((n, r) => n + r.titles, 0) - a.ranking.reduce((n, r) => n + r.titles, 0));
 
   return (
     <>
@@ -61,22 +73,16 @@ export default function InternationalPage() {
       </PageHero>
 
       <main className="mx-auto max-w-5xl space-y-10 px-4 py-8 sm:px-6">
-        {ranking.length > 0 && (
-          <section>
-            <h2 className="section-title mb-3">Títulos de clubes argentinos</h2>
-            <ul className="flex flex-wrap gap-2">
-              {ranking.map(([id, n]) => {
-                const team = getTeam(id)!;
-                return (
-                  <li key={id} className="panel flex items-center gap-2 px-3 py-1.5 text-sm">
-                    <Crest team={team} size="xs" />
-                    <span className="font-semibold text-navy-900">{team.name}</span>
-                    <span className="rounded-full bg-navy-900 px-2 font-display font-bold text-white">{n}</span>
-                  </li>
-                );
-              })}
-            </ul>
-            <p className="mt-2 text-xs text-navy-500">
+        {allRows.length > 0 && (
+          <section className="space-y-4">
+            <h2 className="section-title">Campeones argentinos · total de copas internacionales</h2>
+            <RankTable rows={allRows} />
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {byCup.map((c) => (
+                <MiniTable key={c.name} title={c.name} rows={c.ranking} href={`#${slugify(c.name)}`} />
+              ))}
+            </div>
+            <p className="text-xs text-navy-500">
               Todas las copas internacionales oficiales, incluidas las rioplatenses (Tie Cup desde 1907, Cusenier, Aldao y
               Escobar-Gerona). Las ediciones 1900–1906 de la Copa Chevallier Boutell cuentan como copa nacional.
             </p>
@@ -84,9 +90,10 @@ export default function InternationalPage() {
         )}
 
         {competitions.map((c) => (
-          <section key={c.name}>
+          <section key={c.name} id={slugify(c.name)} className="scroll-mt-24">
             <div className="mb-3">
-              <h2 className="section-title">
+              <h2 className="section-title flex items-center gap-2">
+                {CUP_LOGO[c.name] && <CompLogo id={CUP_LOGO[c.name]} size={28} />}
                 {c.name} · {c.editions[0].year}
                 {c.editions[c.editions.length - 1].year !== c.editions[0].year && `–${c.editions[c.editions.length - 1].year}`}
               </h2>
@@ -113,3 +120,4 @@ export default function InternationalPage() {
     </>
   );
 }
+

@@ -3,6 +3,7 @@ import Crest from "./Crest";
 
 export default function StatsCard({ a, b, stats }: { a: Team; b: Team; stats: HeadToHeadStats }) {
   const pct = (n: number) => (stats.played ? (n / stats.played) * 100 : 0);
+  const diff = stats.winsA - stats.winsB;
 
   return (
     <section className="overflow-hidden rounded-3xl bg-gradient-to-br from-navy-900 to-navy-800 text-white shadow-[0_20px_40px_-20px_rgba(7,15,32,0.55)]">
@@ -27,10 +28,11 @@ export default function StatsCard({ a, b, stats }: { a: Team; b: Team; stats: He
         <div className="bg-white" style={{ width: `${pct(stats.winsB)}%` }} />
       </div>
 
+      {/* Diferencia de partidos ganados: el que va arriba en el historial suma, el otro resta. */}
       <dl className="grid grid-cols-3 divide-x divide-navy-700 bg-navy-950 text-center">
-        <Goals label={`Goles ${a.shortName}`} value={stats.goalsA} />
-        <Goals label="Goles totales" value={stats.goalsA + stats.goalsB} />
-        <Goals label={`Goles ${b.shortName}`} value={stats.goalsB} />
+        <Diff label={`Diferencia ${a.shortName}`} value={diff} />
+        <Cell label="Empates" value={String(stats.draws)} />
+        <Diff label={`Diferencia ${b.shortName}`} value={-diff} />
       </dl>
     </section>
   );
@@ -39,7 +41,7 @@ export default function StatsCard({ a, b, stats }: { a: Team; b: Team; stats: He
 function TeamHead({ team }: { team: Team }) {
   return (
     <div className="flex min-w-0 flex-col items-center gap-2 text-center">
-      <div className="flex h-[88px] items-center justify-center">
+      <div data-confetti className="flex h-[88px] cursor-pointer items-center justify-center transition hover:scale-105">
         <Crest team={team} size="xl" />
       </div>
       <span className="w-full truncate font-display text-lg font-bold uppercase tracking-wide sm:text-xl">
@@ -60,11 +62,17 @@ function Big({ value, label, muted }: { value: number; label: string; muted?: bo
   );
 }
 
-function Goals({ label, value }: { label: string; value: number }) {
+function Diff({ label, value }: { label: string; value: number }) {
+  return <Cell label={label} value={value > 0 ? `+${value}` : value < 0 ? `−${-value}` : "0"} tone={value > 0 ? "up" : value < 0 ? "down" : undefined} />;
+}
+
+function Cell({ label, value, tone }: { label: string; value: string; tone?: "up" | "down" }) {
   return (
     <div className="flex flex-col-reverse px-2 py-3">
       <dt className="text-[10px] font-semibold uppercase tracking-wider text-navy-400 sm:text-[11px]">{label}</dt>
-      <dd className="font-display text-2xl font-bold tabular-nums">{value}</dd>
+      <dd className={`font-display text-2xl font-bold tabular-nums sm:text-3xl ${tone === "up" ? "text-emerald-300" : tone === "down" ? "text-red-300" : ""}`}>
+        {value}
+      </dd>
     </div>
   );
 }

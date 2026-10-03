@@ -1190,13 +1190,22 @@ export const CUP_TOURNAMENTS_ARGENTINA: TournamentConfig[] = [
       skip: (m) => /\bTBD\b/.test(`${m.home} ${m.away}`),
       headings: [y === 2022 ? /^Copa Argentina Axion energy 2022$/ : new RegExp(`^AFA national cup: Copa Argentina ${y}$`)],
       tableIndex: [0],
-      ...(y === 2026 && { inProgress: true }),
+      ...(y === 2026 && {
+        inProgress: true,
+        // Cuartos de final que todavía no están en RSSSF: de Wikipedia, confirmados con la prensa (Infobae, La Nación,
+        // El Gráfico). Sacarlos cuando RSSSF los publique.
+        extraMatchesAfterTable: true,
+        extraMatches: [
+          { id: "copa-argentina-2026-w00", date: "2026-09-27", stage: "Cuartos de final", phase: "cup", homeId: "racing", awayId: "boca", homeGoals: 2, awayGoals: 3, venue: "Gigante de Arroyito (Rosario)", note: "Racing ganaba 2-0 (Lodico y Adrián Martínez); Enner Valencia lo dio vuelta con tres goles de cabeza.", sources: ["wikipedia-es"] },
+          { id: "copa-argentina-2026-w01", date: "2026-10-01", stage: "Cuartos de final", phase: "cup", homeId: "platense", awayId: "estudiantes", homeGoals: 1, awayGoals: 0, venue: "Norberto Tomaghello (Florencio Varela)", note: "Gol de Gonzalo Lencina (83').", sources: ["wikipedia-es"] },
+        ],
+      }),
       summary: ({
         2022: "Patronato, que ese año descendió, ganó su primera Copa Argentina: eliminó a River y a Boca por penales y le ganó 1-0 la final a Talleres en Mendoza.",
         2023: "Estudiantes de La Plata ganó la Copa Argentina: le ganó 3-2 la semifinal a Boca y 1-0 la final a Defensa y Justicia, en Lanús.",
         2024: "Central Córdoba de Santiago del Estero ganó su primer título nacional: le ganó 1-0 la final a Vélez en Santa Fe.",
         2025: "Independiente Rivadavia de Mendoza ganó su primer título nacional: eliminó a River por penales en semifinales y empató 2-2 la final con Argentinos Juniors en Córdoba, que ganó 5-3 por penales.",
-        2026: "En juego: cargada hasta los cuartos de final (actualización de RSSSF de septiembre de 2026).",
+        2026: "En juego, en semifinales: Boca–Banfield y Platense–Atlético Tucumán. En cuartos, Boca le dio vuelta un 0-2 a Racing (3-2) y Platense le ganó 1-0 a Estudiantes y jugará su primera semifinal.",
       } as Record<number, string>)[y],
       notes: [
         { kind: "formato", text: FORMATO_2022 },

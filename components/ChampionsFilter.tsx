@@ -5,7 +5,7 @@ import { useState } from "react";
 const OPTIONS = [
   { value: "all", label: "Todo" },
   { value: "league", label: "Liga" },
-  { value: "cup", label: "Copas" },
+  { value: "cup", label: "Copas Nacionales" },
   { value: "intl", label: "Internacionales" },
 ] as const;
 

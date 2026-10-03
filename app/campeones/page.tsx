@@ -3,6 +3,7 @@ import Link from "next/link";
 import ChampionsFilter from "@/components/ChampionsFilter";
 import Crest from "@/components/Crest";
 import PageHero from "@/components/PageHero";
+import { positions } from "@/lib/rank";
 import { CUP_SEASONS, EXTRA_TITLES, INTL_SEASONS, LEAGUE_TITLES, seasonNameOf, titleLabel } from "@/lib/seasons";
 import { getTeam } from "@/lib/teams";
 import type { Season } from "@/lib/types";
@@ -73,6 +74,7 @@ function ranking() {
 
 export default function ChampionsPage() {
   const table = ranking();
+  const pos = positions(table, (r) => r.total);
   const leagueCount = TITLES.filter((t) => t.kind === "league" && t.championIds.length).length;
   const cupCount = TITLES.filter((t) => t.kind === "cup" && t.championIds.length).length;
   const intlCount = TITLES.filter((t) => t.kind === "intl").length;
@@ -110,7 +112,7 @@ export default function ChampionsPage() {
                   const team = getTeam(r.id)!;
                   return (
                     <tr key={r.id}>
-                      <td className="py-2 pl-4 tabular-nums text-navy-400">{i + 1}</td>
+                      <td className="py-2 pl-4 tabular-nums text-navy-400">{pos[i]}</td>
                       <td className="py-2">
                         <span className="flex items-center gap-2">
                           <Crest team={team} size="xs" />
