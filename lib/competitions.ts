@@ -21,6 +21,7 @@ export const FEATURED: Competition[] = [
   c("libertadores", "Copa Libertadores", "en:Copa Libertadores", "/libertadores"),
   c("sudamericana", "Copa Sudamericana", "en:Copa Sudamericana", "/sudamericana"),
   c("mundial", "Mundiales", "en:FIFA World Cup Trophy" /* logo: ilustración de Commons, cargada a mano */, "/mundiales"),
+  c("messi-vs-cristiano", "Messi vs Cristiano", "", "/messi-vs-cristiano"),
 ];
 
 export const GROUPS: CountryGroup[] = [
@@ -71,6 +72,12 @@ export const GROUPS: CountryGroup[] = [
   { id: "chile", name: "Chile", flag: "cl", competitions: [c("primera-chile", "Primera División", "en:Chilean Primera División")] },
   { id: "mexico", name: "México", flag: "mx", competitions: [c("liga-mx", "Liga MX", "es:Primera División de México")] },
   { id: "eeuu", name: "Estados Unidos", flag: "us", competitions: [c("mls", "MLS", "es:Major League Soccer")] },
+  {
+    id: "jugadores",
+    name: "Jugadores",
+    flag: "un",
+    competitions: [c("messi-vs-cristiano", "Messi vs Cristiano", "", "/messi-vs-cristiano")],
+  },
   {
     id: "selecciones",
     name: "Selecciones",

@@ -13,6 +13,7 @@ const NAV = [
   { href: "/libertadores", label: "Libertadores" },
   { href: "/sudamericana", label: "Sudamericana" },
   { href: "/", label: "Historiales" },
+  { href: "/messi-vs-cristiano", label: "Messi vs CR7" },
 ];
 
 // Comunidad: el foro, la cuenta y las donaciones van al pie del menú.
