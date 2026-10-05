@@ -33,7 +33,7 @@ const SECTIONS: SearchItem[] = [
 async function espnTeams(): Promise<SearchItem[]> {
   // Primero las ligas de cada país y después las copas internacionales y de selecciones: así el Real Madrid queda con
   // LaLiga y no con la Champions, y el Liverpool inglés con la Premier.
-  const cups = ["internacional", "selecciones"];
+  const cups = ["internacional", "selecciones", "femenino"];
   const comps = [...GROUPS.filter((g) => !cups.includes(g.id)), ...GROUPS.filter((g) => cups.includes(g.id))].flatMap((g) =>
     g.competitions.filter((c) => LIVE_CODE[c.id]).map((c) => ({ g, c })),
   );

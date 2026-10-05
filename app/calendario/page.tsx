@@ -6,18 +6,21 @@ import { liveLeagues } from "@/lib/live/leagues";
 
 export const metadata: Metadata = { title: "Calendario · Offside 45" };
 
-const codesOf = (groupIds: string[]) =>
-  GROUPS.filter((g) => groupIds.includes(g.id)).flatMap((g) => g.competitions.map((c) => LIVE_CODE[c.id]).filter(Boolean));
+const codesOf = (groups: typeof GROUPS) => groups.flatMap((g) => g.competitions.map((c) => LIVE_CODE[c.id]).filter(Boolean));
+const byId = (ids: string[]) => codesOf(GROUPS.filter((g) => ids.includes(g.id)));
+const byRegion = (region: string) => codesOf(GROUPS.filter((g) => g.region === region));
 
-// Filtros por región, con las competencias del menú.
+// Filtros con los grupos y las regiones del menú.
 const FILTERS: CalendarFilter[] = [
   { id: "todas", label: "Todas", codes: [] },
-  { id: "argentina", label: "Argentina", codes: codesOf(["argentina"]) },
-  { id: "copas", label: "Copas", codes: codesOf(["internacional"]) },
-  { id: "europa", label: "Europa", codes: codesOf(["inglaterra", "espana", "italia", "alemania", "portugal", "francia"]) },
-  { id: "america", label: "América", codes: codesOf(["brasil", "uruguay", "paraguay", "colombia", "chile", "mexico", "eeuu"]) },
-  { id: "selecciones", label: "Selecciones", codes: codesOf(["selecciones"]) },
-];
+  { id: "argentina", label: "Argentina", codes: byId(["argentina"]) },
+  { id: "selecciones", label: "Selecciones", codes: byId(["selecciones"]) },
+  { id: "copas", label: "Copas de clubes", codes: byId(["internacional"]) },
+  { id: "sudamerica", label: "Sudamérica", codes: byRegion("Sudamérica") },
+  { id: "europa", label: "Europa", codes: byRegion("Europa") },
+  { id: "resto", label: "Resto del mundo", codes: byRegion("Resto del mundo") },
+  { id: "femenino", label: "Femenino", codes: byRegion("Femenino") },
+].filter((f) => f.id === "todas" || f.codes.length);
 
 export default function CalendarPage() {
   return (

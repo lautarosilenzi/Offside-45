@@ -7,9 +7,11 @@ function clean(s) {
     .replace(/<ref[^>]*\/>/g, "")
     .replace(/<ref[^>]*>[\s\S]*?<\/ref>/g, "")
     .replace(/<!--[\s\S]*?-->/g, "")
+    // Selecciones: {{fb|ESP}} → "@ESP" (el código se traduce después). Va antes que el resto porque a veces viene adentro
+    // de otra plantilla ({{nowrap|{{fbw|NOR}}}}). {{fb|ARG}}, {{fbw|USA}}, {{fbu|20|ARG}}, {{fbu-big|20|URS}}…; los íconos
+    // solos ({{fbicon}}) se sacan abajo.
+    .replace(/\{\{(?!fbicon|fbaicon)fb[a-z-]*\|(?:\d+\|)?([^|{}]+)[^{}]*\}\}/g, (_, x) => `@${x.trim()}`) // código ("ARG") o nombre ("Norway")
     .replace(/\{\{(?:nowrap|nobr|small|big|sortname)\|([^{}]*)\}\}/gi, (m, x) => x.split("|").slice(0, 2).join(" "))
-    // Selecciones: {{fb|ESP}} → "@ESP" (el código se traduce después).
-    .replace(/\{\{(?:fb|fbw|fb-rt|fba)\|([A-Z]{3})[^{}]*\}\}/g, "@$1")
     .replace(/\{\{(?:fbaicon|fbicon|flagicon|flag|flagcountry|flagu)\|[^{}]*\}\}/gi, "")
     .replace(/\{\{(?:sort|sortname)\|[^|{}]*\|([^{}]*)\}\}/gi, "$1")
     .replace(/\{\{[^{}]*\}\}/g, "")
@@ -140,8 +142,8 @@ function parseTable(body) {
 }
 
 const SEASON = /^(season|year|edition|years?|seasons|campaign|tournament|temporada|date)$/i;
-const CHAMP = /^(champions?|winners?|winning (club|team)|champion club|title winners?|league champions)(\s*\(.*\))?$/i;
-const RUNNER = /^(runners?-?up|runner-up|runners up|second place|second|finalist|losing (club|team))(\s*\(.*\))?$/i;
+const CHAMP = /^(champions?|winners?|winning (club|team)|champion club|title winners?|league champions|gold( medal(s|ists?)?)?)(\s*\(.*\))?$/i;
+const RUNNER = /^(runners?-?up|runner-up|runners up|second place|second|finalist|losing (club|team)|silver( medal(s|ists?)?)?)(\s*\(.*\))?$/i;
 
 function extract(w, opts = {}) {
   const res = [];
@@ -180,6 +182,12 @@ function extract(w, opts = {}) {
         const kr = [r, r + 1].find((i) => /^(team|club)$/i.test(sub[i] ?? ""));
         if (kr !== undefined) r = kr;
       }
+      start++;
+    } else if (sub && c < 0) {
+      // "Final" arriba y "Winners | Score | Runners-up" abajo (torneos de selecciones).
+      c = sub.findIndex((h) => CHAMP.test(h));
+      r = sub.findIndex((h) => RUNNER.test(h));
+      if (s < 0) s = sub.findIndex((h) => /^(season|year|seasons|years|edition)$/i.test(h));
       start++;
     }
     if (s < 0 || c < 0) continue;

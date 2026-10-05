@@ -12,10 +12,12 @@ module.exports = {
   "copa-do-brasil": { dedupe: "champion", alias: { "Sport Recife": "Sport" } },
   champions: { dedupe: "champion" },
   "ligue-1": { from: 1932 }, // era profesional
+  "juegos-olimpicos": { only: [3], dedupe: "champion" }, // la tabla del torneo masculino (la otra es la del femenino)
   "liga-mx": { only: [0, 1] }, // las demás tablas son de la segunda división
   "primeira-liga": { only: [1], seasonCol: 1, champCol: 2 },
   eurocopa: { dedupe: "champion" }, // 1968: final con desempate
   "brasileirao-b": { exclude: ["1986", "1987"] }, // ganadores de grupo, sin campeón (el artículo no los cuenta)
+  "pro-league-belgica": { alias: { "RSC Anderlechtois": "RSC Anderlecht" } },
   "primera-uruguay": { only: [3] }, // las otras tablas son torneos cortos y copas
   "primera-colombia": { alias: { "Deportes Caldas": "Once Caldas", Quindío: "Deportes Quindío", "Atlético Quindío": "Deportes Quindío" } },
   bundesliga: {

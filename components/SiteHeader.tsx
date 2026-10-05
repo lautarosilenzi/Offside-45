@@ -141,13 +141,19 @@ export default function SiteHeader({ logo }: { logo?: string }) {
                 <MenuLink key={c.id} href={c.href!} label={c.name} logo={logoOf(c.id)} active={isActive(c.href!)} />
               ))}
             </Group>
-            {GROUPS.map((g) => (
-              <Group key={g.id} id={g.id} title={g.name} flag={g.flag} expanded={expanded} setExpanded={setExpanded}>
-                {g.competitions.map((c) => {
-                  const href = compHref(g, c);
-                  return <MenuLink key={c.id} href={href} label={c.name} logo={logoOf(c.id)} active={pathname === href || (!!c.href && c.href !== "/" && pathname.startsWith(c.href))} pending={!c.href && !LIVE_CODE[c.id]} />;
-                })}
-              </Group>
+            {GROUPS.map((g, i) => (
+              <div key={g.id}>
+                {/* Separador de región (Internacional, Sudamérica, Europa…) antes del primer grupo de cada una. */}
+                {g.region && g.region !== GROUPS[i - 1]?.region && (
+                  <p className="mx-3 mb-1 mt-4 border-t border-white/10 pt-3 font-display text-[0.7rem] font-bold uppercase tracking-[0.25em] text-volt-300">{g.region}</p>
+                )}
+                <Group id={g.id} title={g.name} flag={g.flag} expanded={expanded} setExpanded={setExpanded}>
+                  {g.competitions.map((c) => {
+                    const href = compHref(g, c);
+                    return <MenuLink key={c.id} href={href} label={c.name} logo={logoOf(c.id)} active={pathname === href || (!!c.href && c.href !== "/" && pathname.startsWith(c.href))} pending={!c.href && !LIVE_CODE[c.id]} />;
+                  })}
+                </Group>
+              </div>
             ))}
             <div className="mx-2 my-3 border-t border-white/10" />
             <OddsToggle variant="menu" />

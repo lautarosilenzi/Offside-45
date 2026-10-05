@@ -4,7 +4,14 @@ const path = require("path");
 
 const dir = path.join(__dirname, "../../.cache/champions");
 fs.mkdirSync(dir, { recursive: true });
-const list = fs.readFileSync(path.join(__dirname, "list.txt"), "utf8").trim().split("\n").map((l) => l.split("|"));
+// Con ids como argumento, baja solo esos (node scripts/champions/fetch.cjs nations-league eredivisie).
+const only = process.argv.slice(2);
+const list = fs
+  .readFileSync(path.join(__dirname, "list.txt"), "utf8")
+  .trim()
+  .split(/\r?\n/)
+  .map((l) => l.split("|"))
+  .filter(([id]) => !only.length || only.includes(id));
 
 (async () => {
   for (let i = 0; i < list.length; i += 20) {
