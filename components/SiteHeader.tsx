@@ -7,11 +7,13 @@ import { useEffect, useRef, useState } from "react";
 import { FEATURED, GROUPS, LIVE_CODE, compHref } from "@/lib/competitions";
 import LOGOS from "@/lib/data/comps.generated.json";
 
+// Las cuatro competencias van a su página de torneo (fixture y tablas); la historia de cada una está en su pestaña
+// Campeones y en el menú lateral.
 const NAV = [
-  { href: "/temporadas", label: "Liga Argentina" },
-  { href: "/copa-argentina", label: "Copa Argentina" },
-  { href: "/libertadores", label: "Libertadores" },
-  { href: "/sudamericana", label: "Sudamericana" },
+  { href: "/torneos/liga-profesional", label: "Liga Argentina" },
+  { href: "/torneos/copa-argentina", label: "Copa Argentina" },
+  { href: "/torneos/libertadores", label: "Libertadores" },
+  { href: "/torneos/sudamericana", label: "Sudamericana" },
   { href: "/", label: "Historiales" },
   { href: "/messi-vs-cristiano", label: "Messi vs CR7" },
 ];

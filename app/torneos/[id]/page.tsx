@@ -67,7 +67,8 @@ export default async function TournamentPage({ params }: { params: { id: string 
   const fixtureTab = (
     <div className="space-y-6">
       {cols.length > 0 && <Bracket columns={cols} />}
-      <div className={`grid gap-6 ${tables.length ? "lg:grid-cols-[3fr_2fr]" : ""}`}>
+      {/* min-w-0: las tablas anchas se desplazan dentro de su recuadro en vez de estirar la página en el celular. */}
+      <div className={`grid gap-6 [&>*]:min-w-0 ${tables.length ? "lg:grid-cols-[3fr_2fr]" : ""}`}>
         {tables.length > 0 &&
           (comp.id === "liga-profesional" ? (
             <ArgentineTables tables={tables} form={form} all={season.all} teamHref={teamHref} />

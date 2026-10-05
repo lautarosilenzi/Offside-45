@@ -5,7 +5,7 @@ export default function ChampionsList({ rows, ranking, source }: { rows: Champio
   const hasRunner = rows.some((r) => r.runnerUp);
   return (
     <div className="space-y-3">
-      <div className="grid gap-6 lg:grid-cols-[3fr_2fr]">
+      <div className="grid gap-6 [&>*]:min-w-0 lg:grid-cols-[3fr_2fr]">
         <section className="panel overflow-hidden">
           <h2 className="bg-navy-950 px-4 py-2 font-display text-sm font-bold uppercase tracking-widest text-white">Campeones ({rows.length})</h2>
           <table className="w-full text-sm">

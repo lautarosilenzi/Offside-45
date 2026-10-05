@@ -95,7 +95,7 @@ export default async function TeamPage({ params }: { params: { id: string; team:
           />
         </section>
 
-        <div className="grid gap-6 lg:grid-cols-[3fr_2fr]">
+        <div className="grid gap-6 [&>*]:min-w-0 lg:grid-cols-[3fr_2fr]">
           <section>
             <h2 className="section-title mb-3">Plantel</h2>
             {groups.size === 0 ? (
