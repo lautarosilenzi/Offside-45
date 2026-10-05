@@ -165,8 +165,8 @@ export const PENDING = GROUPS.flatMap((g) => g.competitions.filter((comp) => !co
 
 // Orden de la página En vivo: primero lo argentino y lo sudamericano.
 export const LIVE_ORDER = [
-  "liga-profesional", "copa-argentina", "libertadores", "sudamericana", "primera-nacional", "primera-b-metro", "primera-c",
-  "eliminatorias", "champions", "premier-league", "laliga", "serie-a", "bundesliga", "ligue-1", "primeira-liga", "brasileirao",
+  "liga-profesional", "copa-argentina", "trofeo-campeones", "supercopa-argentina", "libertadores", "sudamericana",
+  "primera-nacional", "primera-b-metro", "primera-c", "eliminatorias", "copa-intercontinental", "champions", "premier-league", "laliga", "serie-a", "bundesliga", "ligue-1", "primeira-liga", "brasileirao",
   "primera-uruguay", "primera-paraguay", "primera-colombia", "primera-chile", "liga-mx", "mls", "europa-league",
   "conference-league", "championship", "segunda-espana", "serie-b", "2-bundesliga", "ligue-2", "brasileirao-b", "copa-do-brasil",
   "copa-del-rey", "coppa-italia", "dfb-pokal", "coupe-de-france", "fa-cup", "taca-portugal", "recopa", "concacaf-champions",

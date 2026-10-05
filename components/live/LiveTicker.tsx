@@ -40,7 +40,7 @@ export default function LiveTicker() {
         {e.state === "in" ? (
           <>
             <span className="live-dot-bare mr-1 bg-white" />
-            {/half/i.test(e.detail) ? "ET" : e.clock}
+            {/half|^HT$/i.test(e.detail) ? "ET" : e.clock}
           </>
         ) : e.state === "post" ? (
           "Final"

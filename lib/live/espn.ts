@@ -37,7 +37,7 @@ export type LiveTable = { name: string; rows: LiveTableRow[] };
 const BASE = "https://site.api.espn.com/apis";
 
 // Equipos argentinos de ESPN → club del sitio (para usar nuestros escudos y enlazar el historial).
-const ESPN_IDS: Record<string, string> = {
+export const ESPN_IDS: Record<string, string> = {
   "3": "argentinos", "4": "belgrano", "5": "boca", "8": "estudiantes", "9": "gimnasia", "10": "huracan", "11": "independiente",
   "12": "lanus", "14": "newells", "15": "racing", "16": "river", "17": "central", "18": "sanlorenzo", "19": "talleres",
   "20": "union-santa-fe", "21": "velez", "235": "banfield", "2975": "instituto", "7764": "platense", "7767": "tigre",
@@ -205,4 +205,10 @@ export async function standings(league: string): Promise<LiveTable[]> {
       return { name: (g.name ?? "").replace(/^Group /, "Zona "), rows };
     })
     .filter((t) => t.rows.length);
+}
+
+// Equipos de una competencia (para el buscador). Se refresca una vez por día.
+export async function leagueTeams(league: string): Promise<LiveTeam[]> {
+  const j = await getJson(`${BASE}/site/v2/sports/soccer/${league}/teams`, 86400);
+  return (j.sports?.[0]?.leagues?.[0]?.teams ?? []).map((x: any) => team(x.team));
 }

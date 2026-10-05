@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { FEATURED, GROUPS, LIVE_CODE, compHref } from "@/lib/competitions";
 import LOGOS from "@/lib/data/comps.generated.json";
+import HeaderButtons from "./HeaderButtons";
 
 // Las cuatro competencias van a su página de torneo (fixture y tablas); la historia de cada una está en su pestaña
 // Campeones y en el menú lateral.
@@ -85,6 +86,7 @@ export default function SiteHeader({ logo }: { logo?: string }) {
               Offside<span className="text-volt-400"> 45</span>
             </span>
           </Link>
+          <HeaderButtons />
           <nav
             ref={navRef}
             className="ml-auto flex min-w-0 items-center gap-1 overflow-x-auto rounded-full bg-white/5 p-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"

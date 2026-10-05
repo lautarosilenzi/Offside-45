@@ -16,36 +16,60 @@ const dayLabel = (d: Date) => new Intl.DateTimeFormat("es-AR", { timeZone: TZ, w
 function status(e: LiveEvent) {
   if (e.state === "pre") return { text: hour(e.date), live: false };
   if (e.state === "post") return { text: /pen/i.test(e.detail) ? "Final (pen.)" : /AET|ET/i.test(e.detail) ? "Final (alarg.)" : "Final", live: false };
-  if (/half/i.test(e.detail)) return { text: "Entretiempo", live: true };
+  if (/half|^HT$/i.test(e.detail)) return { text: "Entretiempo", live: true };
   return { text: e.clock || e.detail, live: true };
 }
 
 // Partidos en vivo, del día, de ayer o de mañana, agrupados por competencia. Se actualiza cada 30 segundos.
-export default function LiveMatches({ leagues, compact = false }: { leagues: LiveLeague[]; compact?: boolean }) {
+// date (yyyymmdd): un día fijo, elegido afuera (Calendario); liveOnly: solo los partidos que se están jugando (Live).
+export default function LiveMatches({
+  leagues,
+  compact = false,
+  date,
+  liveOnly = false,
+}: {
+  leagues: LiveLeague[];
+  compact?: boolean;
+  date?: string;
+  liveOnly?: boolean;
+}) {
   const days = useMemo(() => [-1, 0, 1].map((o) => new Date(Date.now() + o * 86400000)), []);
   const [day, setDay] = useState(1);
-  const [onlyLive, setOnlyLive] = useState(false);
+  const [onlyLiveToggle, setOnlyLive] = useState(false);
+  const onlyLive = liveOnly || onlyLiveToggle;
   const [data, setData] = useState<{ league: string; events: LiveEvent[] }[] | null>(null);
   const [updated, setUpdated] = useState<string>();
   const [open, setOpen] = useState<string>();
+  const fecha = date ?? ymd(days[day]);
+  // Solo se actualiza solo el día de hoy (los partidos de otros días no cambian).
+  const isToday = fecha === ymd(new Date());
 
   const load = useCallback(async () => {
     try {
-      const r = await fetch(`/api/en-vivo?ligas=${leagues.map((l) => l.code).join(",")}&fecha=${ymd(days[day])}`);
-      const j = await r.json();
-      setData(j.results);
-      setUpdated(j.updated);
+      const ligas = leagues.map((l) => l.code).join(",");
+      // En Live también el día anterior: un partido que empezó antes de la medianoche puede seguir jugándose.
+      const fechas = liveOnly ? [fecha, ymd(new Date(Date.now() - 86400000))] : [fecha];
+      const pages = await Promise.all(fechas.map((f) => fetch(`/api/en-vivo?ligas=${ligas}&fecha=${f}`).then((r) => r.json())));
+      const merged = new Map<string, LiveEvent[]>();
+      for (const p of pages)
+        for (const g of p.results ?? []) {
+          const prev = merged.get(g.league) ?? [];
+          merged.set(g.league, [...prev, ...g.events.filter((e: LiveEvent) => !prev.some((x) => x.id === e.id))]);
+        }
+      setData([...merged].map(([league, events]) => ({ league, events })));
+      setUpdated(pages[0].updated);
     } catch {
       setData((d) => d ?? []);
     }
-  }, [leagues, days, day]);
+  }, [leagues, fecha, liveOnly]);
 
   useEffect(() => {
     setData(null);
     load();
+    if (!isToday) return;
     const t = setInterval(load, 30000);
     return () => clearInterval(t);
-  }, [load]);
+  }, [load, isToday]);
 
   const groups = (data ?? [])
     .map((g) => ({ league: leagues.find((l) => l.code === g.league)!, events: g.events.filter((e) => !onlyLive || e.state === "in") }))
@@ -54,7 +78,10 @@ export default function LiveMatches({ leagues, compact = false }: { leagues: Liv
 
   return (
     <div>
-      {!compact && (
+      {!compact && (date || liveOnly) && updated && isToday && (
+        <p className="mb-3 text-right text-xs text-navy-400">Actualizado {hour(updated)} · se actualiza solo cada 30 segundos</p>
+      )}
+      {!compact && !date && !liveOnly && (
         <div className="mb-4 flex flex-wrap items-center gap-2">
           <div className="inline-flex rounded-full bg-navy-950/90 p-1 shadow">
             {days.map((d, i) => (
@@ -91,7 +118,14 @@ export default function LiveMatches({ leagues, compact = false }: { leagues: Liv
           ))}
         </div>
       ) : groups.length === 0 ? (
-        <p className="panel px-6 py-10 text-center text-navy-500">{onlyLive ? "No hay partidos en juego en este momento." : "No hay partidos para este día."}</p>
+        <div className="panel px-6 py-10 text-center text-navy-500">
+          <p>{onlyLive ? "No hay partidos en juego en este momento." : "No hay partidos para este día."}</p>
+          {liveOnly && (
+            <a href="/calendario" className="btn-ghost mt-4">
+              Ver el calendario
+            </a>
+          )}
+        </div>
       ) : (
         <div className="space-y-4">
           {groups.map(({ league, events }) => (

@@ -14,7 +14,7 @@ const hour = (iso: string) => new Intl.DateTimeFormat("es-AR", { timeZone: TZ, h
 function status(e: LiveEvent) {
   if (e.state === "pre") return { text: /postp|tbd|delay|susp/i.test(e.detail) ? "Post." : hour(e.date), live: false };
   if (e.state === "post") return { text: /pen/i.test(e.detail) ? "Fin (pen.)" : /AET|ET/i.test(e.detail) ? "Fin (alarg.)" : "Final", live: false };
-  if (/half/i.test(e.detail)) return { text: "ET", live: true };
+  if (/half|^HT$/i.test(e.detail)) return { text: "ET", live: true };
   return { text: e.clock || e.detail, live: true };
 }
 
