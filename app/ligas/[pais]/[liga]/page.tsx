@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import CompLogo from "@/components/CompLogo";
 import PageHero from "@/components/PageHero";
 import LiveMatches from "@/components/live/LiveMatches";
@@ -8,7 +8,8 @@ import LiveTable from "@/components/live/LiveTable";
 import { GROUPS, LIVE_CODE, PENDING, compHref } from "@/lib/competitions";
 import { liveLeagues } from "@/lib/live/leagues";
 
-export const dynamicParams = false;
+// Las que ahora tienen datos en vivo pasaron a /torneos/<id>: las direcciones viejas redirigen.
+export const dynamicParams = true;
 export const generateStaticParams = () => PENDING.map(({ group, comp }) => ({ pais: group.id, liga: comp.id }));
 
 const find = (pais: string, liga: string) => PENDING.find((p) => p.group.id === pais && p.comp.id === liga);
@@ -20,6 +21,7 @@ export function generateMetadata({ params }: { params: { pais: string; liga: str
 
 // Competencias sin historia cargada: partidos y tabla en vivo (lib/live); las que no tienen fuente en vivo esperan una.
 export default function PendingLeaguePage({ params }: { params: { pais: string; liga: string } }) {
+  if (LIVE_CODE[params.liga]) redirect(`/torneos/${params.liga}`);
   const p = find(params.pais, params.liga);
   if (!p) notFound();
   const { group, comp } = p;

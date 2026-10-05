@@ -14,12 +14,17 @@ export type CountryGroup = { id: string; name: string; flag: string; competition
 
 const c = (id: string, name: string, wiki: string, href?: string): Competition => ({ id, name, wiki, href });
 
+// Destacado: lo mismo que destacan los sitios de resultados. Las que tienen datos en vivo van a su página de torneo
+// (/torneos/<id>: fixture, tablas, equipos y estadísticas); la historia de cada una sigue en su sección.
 export const FEATURED: Competition[] = [
   c("en-vivo", "En vivo", "", "/en-vivo"),
-  c("liga-profesional", "Liga Argentina", "es:Primera División de Argentina", "/temporadas"),
-  c("copa-argentina", "Copa Argentina", "en:Copa Argentina", "/copa-argentina"),
-  c("libertadores", "Copa Libertadores", "en:Copa Libertadores", "/libertadores"),
-  c("sudamericana", "Copa Sudamericana", "en:Copa Sudamericana", "/sudamericana"),
+  c("liga-profesional", "Liga Profesional", "es:Primera División de Argentina", "/torneos/liga-profesional"),
+  c("primera-nacional", "Primera Nacional", "en:Primera Nacional", "/torneos/primera-nacional"),
+  c("libertadores", "Libertadores", "en:Copa Libertadores", "/torneos/libertadores"),
+  c("sudamericana", "Sudamericana", "en:Copa Sudamericana", "/torneos/sudamericana"),
+  c("copa-argentina", "Copa Argentina", "en:Copa Argentina", "/torneos/copa-argentina"),
+  c("champions", "Champions", "es:Liga de Campeones de la UEFA", "/torneos/champions"),
+  c("eliminatorias", "Eliminatorias Conmebol", "", "/torneos/eliminatorias"),
   c("mundial", "Mundiales", "en:FIFA World Cup Trophy" /* logo: ilustración de Commons, cargada a mano */, "/mundiales"),
   c("messi-vs-cristiano", "Messi vs Cristiano", "", "/messi-vs-cristiano"),
 ];
@@ -31,16 +36,22 @@ export const GROUPS: CountryGroup[] = [
     flag: "ar",
     competitions: [
       c("liga-profesional", "Liga Profesional", "es:Primera División de Argentina", "/temporadas"),
+      c("primera-nacional", "Primera Nacional", "en:Primera Nacional"),
       c("copa-argentina", "Copa Argentina", "en:Copa Argentina", "/copa-argentina"),
-      c("copas-nacionales", "Copas Nacionales", "", "/copas"),
+      c("trofeo-campeones", "Trofeo de Campeones", ""),
+      c("supercopa-argentina", "Supercopa Argentina", ""),
+      c("primera-b-metro", "Primera B Metro", "en:Primera B Metropolitana"),
+      c("federal-a", "Federal A", "es:Torneo Federal A"),
+      c("primera-c", "Primera C", "en:Primera C"),
+      c("promocional-amateur", "Promocional Amateur", ""),
+      c("reserva", "Liga Profesional · Reserva", ""),
+      c("liga-femenina", "Liga Femenina", ""),
+      c("futsal", "Futsal", ""),
+      c("copas-nacionales", "Copas Nacionales (historia)", "", "/copas"),
       c("descensos", "Descensos", "", "/descensos"),
       c("campeones", "Campeones", "", "/campeones"),
       c("estadisticas", "Estadísticas", "", "/estadisticas"),
-      c("primera-nacional", "Primera Nacional", "en:Primera Nacional"),
-      c("primera-b-metro", "Primera B Metropolitana", "en:Primera B Metropolitana"),
-      c("federal-a", "Torneo Federal A", "es:Torneo Federal A"),
-      c("primera-c", "Primera C", "en:Primera C"),
-      c("liga-femenina", "Liga Femenina", ""),
+      c("historia-liga", "Historia de la liga desde 1891", "", "/temporadas"),
     ],
   },
   {
@@ -50,13 +61,14 @@ export const GROUPS: CountryGroup[] = [
     competitions: [
       c("libertadores", "Copa Libertadores", "en:Copa Libertadores", "/libertadores"),
       c("sudamericana", "Copa Sudamericana", "en:Copa Sudamericana", "/sudamericana"),
-      c("recopa", "Recopa Sudamericana", "es:Recopa Sudamericana", "/recopa"),
-      c("mundial-clubes", "Intercontinental y Mundial de Clubes", "es:Copa Mundial de Clubes de la FIFA", "/mundial-de-clubes"),
-      c("internacionales", "Clubes argentinos en copas internacionales", "", "/internacionales"),
       c("champions", "Champions League", "es:Liga de Campeones de la UEFA"),
+      c("copa-intercontinental", "Copa Intercontinental", ""),
       c("europa-league", "Europa League", "es:Liga Europa de la UEFA"),
       c("conference-league", "Conference League", "en:UEFA Conference League"),
+      c("mundial-clubes", "Intercontinental y Mundial de Clubes", "es:Copa Mundial de Clubes de la FIFA", "/mundial-de-clubes"),
       c("concacaf-champions", "Concacaf Champions Cup", "es:Copa de Campeones de la Concacaf"),
+      c("recopa", "Recopa Sudamericana", "es:Recopa Sudamericana", "/recopa"),
+      c("internacionales", "Clubes argentinos en copas internacionales", "", "/internacionales"),
     ],
   },
   { id: "inglaterra", name: "Inglaterra", flag: "gb-eng", competitions: [c("premier-league", "Premier League", "es:Premier League"), c("championship", "Championship", "es:EFL Championship"), c("fa-cup", "FA Cup", "en:FA Cup")] },
@@ -96,15 +108,17 @@ export const GROUPS: CountryGroup[] = [
 ];
 
 // Página de una competencia: la propia si tiene datos, o la que espera los resultados en vivo.
-export const compHref = (group: CountryGroup, comp: Competition) => comp.href ?? `/ligas/${group.id}/${comp.id}`;
+// Las competencias con datos en vivo van a su página de torneo (la historia queda en la pestaña Campeones).
+export const compHref = (group: CountryGroup, comp: Competition) => (LIVE_CODE[comp.id] ? `/torneos/${comp.id}` : comp.href ?? `/ligas/${group.id}/${comp.id}`);
 
-// Todas las competencias sin página propia, para generar sus páginas.
-export const PENDING = GROUPS.flatMap((g) => g.competitions.filter((comp) => !comp.href).map((comp) => ({ group: g, comp })));
 
 // Código de cada competencia en la API de resultados en vivo (lib/live/espn.ts).
 export const LIVE_CODE: Record<string, string> = {
   "liga-profesional": "arg.1",
   "copa-argentina": "arg.copa",
+  "trofeo-campeones": "arg.trofeo_de_la_campeones",
+  "supercopa-argentina": "arg.supercopa",
+  "copa-intercontinental": "fifa.intercontinental_cup",
   "primera-nacional": "arg.2",
   "primera-b-metro": "arg.3",
   "primera-c": "arg.4",
@@ -145,6 +159,9 @@ export const LIVE_CODE: Record<string, string> = {
   eliminatorias: "fifa.worldq.conmebol",
   eurocopa: "uefa.euro",
 };
+
+// Competencias sin página propia ni datos en vivo: esperan una fuente (/ligas/<país>/<id>).
+export const PENDING = GROUPS.flatMap((g) => g.competitions.filter((comp) => !comp.href && !LIVE_CODE[comp.id]).map((comp) => ({ group: g, comp })));
 
 // Orden de la página En vivo: primero lo argentino y lo sudamericano.
 export const LIVE_ORDER = [
