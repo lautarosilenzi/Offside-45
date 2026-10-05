@@ -2,6 +2,7 @@
 // y puede cambiar sin aviso. Sirve para arrancar; más adelante se puede pasar a API-Football con una clave propia
 // (las páginas solo usan los tipos de acá).
 import { getTeam } from "../teams";
+import { parseOdds, type Odds } from "./odds";
 
 // espnId: id del equipo en ESPN (para la ficha del equipo); teamId: club del sitio, si es argentino.
 export type LiveTeam = { name: string; short: string; logo?: string; teamId?: string; espnId?: string; score?: string; winner?: boolean; shootout?: number };
@@ -17,6 +18,7 @@ export type LiveEvent = {
   round?: string; // fase, como la publica ESPN ("group-stage", "round-of-16", "torneo-clausura"…)
   stage?: string; // torneo dentro de la temporada ("torneo-clausura", "clausura"…), como lo publica ESPN
   group?: string; // zona o grupo ("Group A")
+  odds?: Odds; // cuotas, si la fuente las publica (partidos por jugarse)
   incidents: { minute: string; type: "goal" | "own-goal" | "penalty" | "yellow" | "red"; player: string; side: "home" | "away" }[];
 };
 export type LiveTableRow = {
@@ -99,6 +101,7 @@ function toEvent(e: any): LiveEvent {
     round: e.season?.slug ? String(e.season.slug).split("---").pop() : undefined,
     stage: e.season?.slug ? String(e.season.slug).split("---")[0] : undefined,
     group: c.group?.name ? String(c.group.name).replace(/^Group /, "Zona ") : undefined,
+    odds: state === "pre" ? parseOdds(c.odds?.[0]) : undefined,
     incidents: (c.details ?? [])
         .map((d: any) => {
           const type = incidentType(d.type?.text ?? "", d);
@@ -211,4 +214,58 @@ export async function standings(league: string): Promise<LiveTable[]> {
 export async function leagueTeams(league: string): Promise<LiveTeam[]> {
   const j = await getJson(`${BASE}/site/v2/sports/soccer/${league}/teams`, 86400);
   return (j.sports?.[0]?.leagues?.[0]?.teams ?? []).map((x: any) => team(x.team));
+}
+
+// Detalle de un partido: formaciones, incidencias, estadísticas, relato y cuotas.
+export type LineupPlayer = { name: string; number?: string; position: string; place?: number; subbedIn?: boolean; subbedOut?: boolean };
+export type Lineup = { team: LiveTeam; side: "home" | "away"; formation?: string; starters: LineupPlayer[]; subs: LineupPlayer[] };
+export type KeyEvent = { minute: string; type: string; text: string; side?: "home" | "away" };
+export type MatchSummary = {
+  lineups: Lineup[];
+  keyEvents: KeyEvent[];
+  stats: { name: string; home: string; away: string }[];
+  commentary: { minute: string; text: string; type: string }[];
+  odds?: Odds;
+  status: { state: "pre" | "in" | "post"; detail: string; clock?: string };
+  score?: { home: string; away: string };
+};
+
+export async function matchSummary(league: string, eventId: string): Promise<MatchSummary> {
+  const j = await getJson(`${BASE}/site/v2/sports/soccer/${league}/summary?event=${eventId}`, 30);
+  const comp = j.header?.competitions?.[0] ?? {};
+  const homeId = String(comp.competitors?.find((c: any) => c.homeAway === "home")?.team?.id ?? "");
+  const sideOf = (teamId?: unknown) => (teamId === undefined ? undefined : String(teamId) === homeId ? "home" : "away");
+  const player = (p: any): LineupPlayer => ({
+    name: p.athlete?.displayName ?? "—",
+    number: p.jersey ?? undefined,
+    position: p.position?.abbreviation ?? "",
+    place: p.formationPlace ? Number(p.formationPlace) : undefined,
+    subbedIn: !!p.subbedIn,
+    subbedOut: !!p.subbedOut,
+  });
+  const box: any[] = j.boxscore?.teams ?? [];
+  const boxHome = box.find((t) => String(t.team?.id) === homeId) ?? box[0];
+  const boxAway = box.find((t) => t !== boxHome);
+  const stat = (t: any, name: string) => t?.statistics?.find((s: any) => s.name === name)?.displayValue ?? "";
+  const competitor = (side: string) => comp.competitors?.find((c: any) => c.homeAway === side);
+  return {
+    lineups: (j.rosters ?? []).map((r: any) => ({
+      team: team(r.team),
+      side: sideOf(r.team?.id) ?? "home",
+      formation: r.formation ?? undefined,
+      starters: (r.roster ?? []).filter((p: any) => p.starter).map(player),
+      subs: (r.roster ?? []).filter((p: any) => !p.starter).map(player),
+    })),
+    keyEvents: (j.keyEvents ?? []).map((k: any) => ({
+      minute: k.clock?.displayValue ?? "",
+      type: k.type?.text ?? "",
+      text: k.text ?? "",
+      side: sideOf(k.team?.id),
+    })),
+    stats: boxHome && boxAway ? (boxHome.statistics ?? []).map((s: any) => ({ name: s.name, home: s.displayValue, away: stat(boxAway, s.name) })) : [],
+    commentary: (j.commentary ?? []).map((c: any) => ({ minute: c.time?.displayValue ?? "", text: c.text ?? "", type: c.play?.type?.text ?? "" })),
+    odds: parseOdds((j.pickcenter ?? [])[0] ?? (j.odds ?? [])[0]),
+    status: { state: comp.status?.type?.state ?? "pre", detail: comp.status?.type?.shortDetail ?? "", clock: comp.status?.displayClock },
+    score: competitor("home") ? { home: competitor("home")?.score ?? "", away: competitor("away")?.score ?? "" } : undefined,
+  };
 }

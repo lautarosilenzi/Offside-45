@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import { FEATURED, GROUPS, LIVE_CODE, compHref } from "@/lib/competitions";
 import LOGOS from "@/lib/data/comps.generated.json";
 import HeaderButtons from "./HeaderButtons";
+import OddsToggle from "./OddsToggle";
 
 // Las cuatro competencias van a su página de torneo (fixture y tablas); la historia de cada una está en su pestaña
 // Campeones y en el menú lateral.
@@ -89,7 +90,7 @@ export default function SiteHeader({ logo }: { logo?: string }) {
           <HeaderButtons />
           <nav
             ref={navRef}
-            className="ml-auto flex min-w-0 items-center gap-1 overflow-x-auto rounded-full bg-white/5 p-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+            className="ml-auto hidden min-w-0 items-center gap-1 overflow-x-auto rounded-full bg-white/5 p-1 sm:flex [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
           >
             {NAV.map((item) => (
               <Link
@@ -148,6 +149,8 @@ export default function SiteHeader({ logo }: { logo?: string }) {
                 })}
               </Group>
             ))}
+            <div className="mx-2 my-3 border-t border-white/10" />
+            <OddsToggle variant="menu" />
             <div className="mx-2 my-3 border-t border-white/10" />
             {COMMUNITY.map((c) => (
               <Link

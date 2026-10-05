@@ -3,7 +3,10 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { LiveEvent, LiveTeam } from "@/lib/live/espn";
 import { getTeam } from "@/lib/teams";
+import { useOddsEnabled } from "@/lib/prefs";
 import Crest from "../Crest";
+import MatchPanel from "../match/MatchPanel";
+import OddsLine from "../match/OddsLine";
 
 export type LiveLeague = { id: string; name: string; code: string; logo?: string; href?: string };
 
@@ -40,6 +43,7 @@ export default function LiveMatches({
   const [data, setData] = useState<{ league: string; events: LiveEvent[] }[] | null>(null);
   const [updated, setUpdated] = useState<string>();
   const [open, setOpen] = useState<string>();
+  const oddsOn = useOddsEnabled();
   const fecha = date ?? ymd(days[day]);
   // Solo se actualiza solo el día de hoy (los partidos de otros días no cambian).
   const isToday = fecha === ymd(new Date());
@@ -169,24 +173,8 @@ export default function LiveMatches({
                         </span>
                         <Side team={e.away} align="left" />
                       </button>
-                      {isOpen && (
-                        <div className="border-t border-navy-50 bg-navy-50/50 px-4 py-3 text-sm">
-                          {e.incidents.length ? (
-                            <ul className="grid gap-1 sm:grid-cols-2">
-                              {e.incidents.map((i, k) => (
-                                <li key={k} className={`flex items-center gap-2 ${i.side === "away" ? "sm:col-start-2" : ""}`}>
-                                  <span className="w-10 shrink-0 font-display font-bold tabular-nums text-navy-500">{i.minute}</span>
-                                  <Incident type={i.type} />
-                                  <span className="text-navy-800">{i.player}</span>
-                                </li>
-                              ))}
-                            </ul>
-                          ) : (
-                            <p className="text-navy-500">{e.state === "pre" ? "Todavía no empezó." : "Sin incidencias cargadas."}</p>
-                          )}
-                          {e.venue && <p className="mt-2 text-xs text-navy-400">Estadio: {e.venue}</p>}
-                        </div>
-                      )}
+                      {oddsOn && e.state === "pre" && e.odds && <OddsLine odds={e.odds} />}
+                      {isOpen && <MatchPanel league={league.code} match={e} />}
                     </li>
                   );
                 })}
@@ -213,16 +201,6 @@ function Side({ team, align }: { team: LiveTeam; align: "left" | "right" }) {
         <span className="h-7 w-7 shrink-0" />
       )}
       <span className={`truncate text-sm sm:text-[0.95rem] ${team.winner ? "font-bold text-navy-950" : "font-medium text-navy-800"}`}>{team.name}</span>
-    </span>
-  );
-}
-
-function Incident({ type }: { type: LiveEvent["incidents"][number]["type"] }) {
-  if (type === "yellow") return <span className="inline-block h-3.5 w-2.5 rounded-sm bg-yellow-400" title="Amarilla" />;
-  if (type === "red") return <span className="inline-block h-3.5 w-2.5 rounded-sm bg-red-600" title="Roja" />;
-  return (
-    <span title={type === "own-goal" ? "Gol en contra" : type === "penalty" ? "Gol de penal" : "Gol"} className="text-base leading-none">
-      ⚽{type === "own-goal" ? <sup className="text-[0.6rem] text-red-600">ec</sup> : type === "penalty" ? <sup className="text-[0.6rem]">p</sup> : null}
     </span>
   );
 }

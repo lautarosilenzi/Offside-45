@@ -3,13 +3,17 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { useFollowed } from "@/lib/prefs";
+import OddsToggle from "./OddsToggle";
 import SearchDialog from "./SearchDialog";
 
-// Botones del encabezado: buscar, calendario y Live (con la cantidad de partidos que se están jugando, que se actualiza
-// cada minuto).
+// Botones del encabezado: buscar, calendario, Live (con la cantidad de partidos que se están jugando, que se actualiza
+// cada minuto), alertas (con la cantidad de partidos que sigue el visitante) y cuotas (en las pantallas chicas, el
+// interruptor de cuotas está en el menú lateral).
 export default function HeaderButtons() {
   const pathname = usePathname();
   const [live, setLive] = useState<number | null>(null);
+  const following = Object.keys(useFollowed()).length;
 
   useEffect(() => {
     const load = () =>
@@ -50,6 +54,23 @@ export default function HeaderButtons() {
         Live
         {live ? <span className="rounded-full bg-white px-1.5 text-xs tabular-nums text-red-600">{live}</span> : null}
       </Link>
+      <Link
+        href="/alertas"
+        aria-label={following ? `Alertas: seguís ${following} partidos` : "Alertas"}
+        title="Alertas"
+        aria-current={pathname === "/alertas" ? "page" : undefined}
+        className={`relative flex h-10 w-10 items-center justify-center rounded-full text-white transition hover:bg-white/15 ${pathname === "/alertas" ? "bg-volt-500" : "bg-white/5"}`}
+      >
+        <svg viewBox="0 0 24 24" className="h-5 w-5" fill={following ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2" aria-hidden>
+          <path d="M6 9a6 6 0 1 1 12 0c0 6 2.5 7.5 2.5 7.5h-17S6 15 6 9zM10 20a2 2 0 0 0 4 0" />
+        </svg>
+        {following > 0 && (
+          <span className="absolute -right-0.5 -top-0.5 flex h-4 min-w-4 items-center justify-center rounded-full bg-gold-400 px-1 text-[0.6rem] font-bold text-navy-950">{following}</span>
+        )}
+      </Link>
+      <span className="hidden lg:inline-flex">
+        <OddsToggle />
+      </span>
     </div>
   );
 }

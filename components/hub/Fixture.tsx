@@ -3,6 +3,9 @@
 import { useEffect, useMemo, useState } from "react";
 import type { LiveEvent } from "@/lib/live/espn";
 import type { Round } from "@/lib/live/season";
+import { useOddsEnabled } from "@/lib/prefs";
+import MatchPanel from "../match/MatchPanel";
+import OddsLine from "../match/OddsLine";
 import TeamLogo from "./TeamLogo";
 
 const TZ = "America/Argentina/Buenos_Aires";
@@ -23,6 +26,7 @@ export default function Fixture({ code, rounds, initial }: { code: string; round
   const [i, setI] = useState(initial);
   const [open, setOpen] = useState<string>();
   const [fresh, setFresh] = useState<Record<string, LiveEvent>>({});
+  const oddsOn = useOddsEnabled();
   const round = rounds[i];
 
   // Partidos de hoy de esta fecha: se piden de nuevo al resultado en vivo.
@@ -116,45 +120,14 @@ export default function Fixture({ code, rounds, initial }: { code: string; round
                       <span className={`truncate ${m.away.winner ? "font-bold text-navy-950" : "text-navy-800"}`}>{m.away.name}</span>
                     </span>
                   </button>
-                  {isOpen && <MatchDetail m={m} />}
+                  {oddsOn && m.state === "pre" && m.odds && <OddsLine odds={m.odds} />}
+                  {isOpen && <MatchPanel league={code} match={m} />}
                 </li>
               );
             })}
           </ul>
         </div>
       ))}
-    </div>
-  );
-}
-
-function MatchDetail({ m }: { m: LiveEvent }) {
-  return (
-    <div className="border-t border-navy-50 bg-navy-50/50 px-4 py-3 text-sm">
-      {m.home.shootout !== undefined && (
-        <p className="mb-2 text-center text-xs font-semibold text-navy-600">
-          Penales: {m.home.name} {m.home.shootout} - {m.away.shootout} {m.away.name}
-        </p>
-      )}
-      {m.incidents.length ? (
-        <ul className="grid gap-1 sm:grid-cols-2">
-          {m.incidents.map((x, k) => (
-            <li key={k} className={`flex items-center gap-2 ${x.side === "away" ? "sm:col-start-2" : ""}`}>
-              <span className="w-10 shrink-0 font-display font-bold tabular-nums text-navy-500">{x.minute}</span>
-              <span>{x.type === "yellow" ? "🟨" : x.type === "red" ? "🟥" : "⚽"}</span>
-              <span className="text-navy-800">
-                {x.player}
-                {x.type === "own-goal" ? " (en contra)" : x.type === "penalty" ? " (penal)" : ""}
-              </span>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p className="text-navy-500">{m.state === "pre" ? "Todavía no empezó." : "Sin incidencias cargadas."}</p>
-      )}
-      <p className="mt-2 text-xs text-navy-400">
-        {m.group ? `${m.group} · ` : ""}
-        {m.venue ? `Estadio: ${m.venue}` : ""}
-      </p>
     </div>
   );
 }

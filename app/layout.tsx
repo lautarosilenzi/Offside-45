@@ -4,6 +4,7 @@ import { join } from "path";
 import { Barlow, Barlow_Condensed } from "next/font/google";
 import Effects from "@/components/Effects";
 import LiveTicker from "@/components/live/LiveTicker";
+import AlertsWatcher from "@/components/match/AlertsWatcher";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import "./globals.css";
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="page-enter flex-1">{children}</div>
         <SiteFooter />
         <Effects />
+        <AlertsWatcher />
       </body>
     </html>
   );
