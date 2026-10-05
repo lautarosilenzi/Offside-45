@@ -9,7 +9,9 @@ import HubTabs from "@/components/hub/HubTabs";
 import StandingsTable, { type Mark } from "@/components/hub/StandingsTable";
 import PromediosTable from "@/components/hub/PromediosTable";
 import Switch from "@/components/hub/Switch";
+import ChampionsList from "@/components/hub/ChampionsList";
 import TeamsAndStats from "@/components/hub/TeamsAndStats";
+import { championsOf, titlesByClub, titlesOf } from "@/lib/champions";
 import { annualTable, promedios } from "@/lib/live/argentina";
 import { findLiveCompetition } from "@/lib/live/competitions";
 import { leaders, seasonEvents, standings, type LiveEvent, type LiveTable, type LiveTeam } from "@/lib/live/espn";
@@ -115,9 +117,25 @@ export default async function TournamentPage({ params }: { params: { id: string 
             {
               id: "equipos",
               label: "Equipos y estadísticas",
-              content: <TeamsAndStats teams={teams} teamHref={teamHref} goals={stats.goals} assists={stats.assists} />,
+              content: (
+                <TeamsAndStats
+                  teams={teams}
+                  teamHref={teamHref}
+                  goals={stats.goals}
+                  assists={stats.assists}
+                  titles={Object.fromEntries(teams.map((t) => [t.espnId ?? "", titlesOf(comp.id, t.name)]))}
+                />
+              ),
             },
-            { id: "campeones", label: "Campeones", content: <Champions compId={comp.id} name={comp.name} history={comp.history} /> },
+            {
+              id: "campeones",
+              label: "Campeones",
+              content: championsOf(comp.id) ? (
+                <ChampionsList rows={championsOf(comp.id).rows} ranking={titlesByClub(comp.id)} source={championsOf(comp.id).source} />
+              ) : (
+                <Champions compId={comp.id} name={comp.name} history={comp.history} />
+              ),
+            },
           ]}
         />
         <p className="mt-6 text-xs text-navy-400">
@@ -172,7 +190,18 @@ function Champions({ compId, name, history }: { compId: string; name: string; hi
           </Link>
         </>
       ) : (
-        <p className="max-w-lg text-navy-600">Estamos cargando y verificando la lista de campeones de {name}.</p>
+        <>
+          <p className="max-w-lg text-navy-600">
+            {compId === "eliminatorias"
+              ? "Las Eliminatorias no tienen campeón: reparten los lugares para el Mundial. La historia de los Mundiales está en su sección."
+              : `Estamos cargando y verificando la lista de campeones de ${name}.`}
+          </p>
+          {compId === "eliminatorias" && (
+            <Link href="/mundiales" className="btn-primary">
+              Ver los Mundiales
+            </Link>
+          )}
+        </>
       )}
     </div>
   );
