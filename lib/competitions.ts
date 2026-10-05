@@ -76,7 +76,10 @@ export const GROUPS: CountryGroup[] = [
     id: "jugadores",
     name: "Jugadores",
     flag: "un",
-    competitions: [c("messi-vs-cristiano", "Messi vs Cristiano", "", "/messi-vs-cristiano")],
+    competitions: [
+      c("messi-vs-cristiano", "Messi vs Cristiano", "", "/messi-vs-cristiano"),
+      c("comparador", "Comparador de leyendas", "", "/jugadores"),
+    ],
   },
   {
     id: "selecciones",

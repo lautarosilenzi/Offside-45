@@ -34,6 +34,13 @@ export default function MessiVsCristianoPage() {
           ))}
         </div>
         <MessiRonaldo />
+        <a href="/jugadores?a=messi&b=cristiano" className="panel panel-hover flex items-center justify-between gap-4 px-5 py-4">
+          <span>
+            <span className="block font-display text-lg font-bold uppercase tracking-wide text-navy-950">Comparador de leyendas</span>
+            <span className="text-sm text-navy-500">Compará a Messi y a Cristiano con Maradona, Pelé, Cruyff y otras 20 leyendas.</span>
+          </span>
+          <span className="btn-ghost shrink-0">Comparar</span>
+        </a>
         <section className="rounded-2xl border-l-4 border-brand-500 bg-white/80 px-4 py-3 text-sm leading-relaxed text-navy-600">
           <p>
             Partidos oficiales de clubes y selección mayor, al {UPDATED}. Las tablas por temporada y por año suman exactamente los totales de las otras fuentes, y
