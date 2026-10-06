@@ -6,10 +6,12 @@ import SeriesChart from "@/components/charts/SeriesChart";
 import TeamLogo from "@/components/hub/TeamLogo";
 import { playerBio, playerSeason, type MatchRow } from "@/lib/live/player";
 
-// Se arma la primera vez que alguien la pide y se renueva cada hora.
-export const revalidate = 3600;
-export const dynamicParams = true;
-export const generateStaticParams = () => [];
+// Se arma en cada visita: lee la temporada elegida (?temporada=), y eso no se puede guardar como página fija (en
+// producción daba error). Los datos de ESPN igual quedan en caché: el registro de partidos una hora y el detalle de
+// cada partido un día (lib/live/player.ts).
+export const dynamic = "force-dynamic";
+// La primera vez que se abre un jugador se pide el detalle de cada partido (puede tardar más de los 10 s por defecto).
+export const maxDuration = 60;
 
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const bio = /^\d+$/.test(params.id) ? await playerBio(params.id).catch(() => null) : null;

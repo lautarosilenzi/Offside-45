@@ -233,7 +233,7 @@ export async function playerSeason(id: string, season?: string): Promise<PlayerS
   const byId = new Map<string, MatchRow>();
   for (const r of [...clubRows, ...nationRows.filter((r) => r.date >= from)]) byId.set(`${r.team}-${r.id}`, r);
   const matches = [...byId.values()].sort((a, b) => b.date.localeCompare(a.date));
-  const details = await pool(matches, 8, (r) => matchDetail(r, id));
+  const details = await pool(matches, 16, (r) => matchDetail(r, id));
   matches.forEach((r, i) => (r.detail = details[i]));
 
   return {
