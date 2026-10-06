@@ -2,6 +2,7 @@
 // y puede cambiar sin aviso. Sirve para arrancar; más adelante se puede pasar a API-Football con una clave propia
 // (las páginas solo usan los tipos de acá).
 import { getTeam } from "../teams";
+import { countryEs } from "./countries";
 import { parseOdds, type Odds } from "./odds";
 
 // espnId: id del equipo en ESPN (para la ficha del equipo); teamId: club del sitio, si es argentino.
@@ -52,8 +53,9 @@ function team(t: any, score?: string, winner?: boolean, shootout?: number): Live
   const teamId = ESPN_IDS[t?.id];
   const ours = teamId ? getTeam(teamId) : undefined;
   return {
-    // Los cruces todavía sin definir llegan como "TBD Home" / "TBD Away".
-    name: ours?.name ?? (/^TBD/i.test(t?.displayName ?? "") ? "A confirmar" : t?.displayName ?? t?.name ?? "—"),
+    // Los cruces todavía sin definir llegan como "TBD Home" / "TBD Away"; las selecciones, en castellano ("South Korea" →
+    // "Corea del Sur").
+    name: ours?.name ?? (/^TBD/i.test(t?.displayName ?? "") ? "A confirmar" : countryEs(t?.displayName ?? t?.name) || "—"),
     short: ours?.shortName ?? t?.abbreviation ?? "",
     logo: t?.logo ?? t?.logos?.[0]?.href,
     teamId,

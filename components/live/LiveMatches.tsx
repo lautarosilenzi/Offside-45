@@ -1,11 +1,11 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import type { LiveEvent, LiveTeam } from "@/lib/live/espn";
 import { getTeam } from "@/lib/teams";
 import { useOddsEnabled } from "@/lib/prefs";
 import Crest from "../Crest";
-import MatchPanel from "../match/MatchPanel";
 import OddsLine from "../match/OddsLine";
 
 export type LiveLeague = { id: string; name: string; code: string; logo?: string; href?: string };
@@ -42,7 +42,6 @@ export default function LiveMatches({
   const onlyLive = liveOnly || onlyLiveToggle;
   const [data, setData] = useState<{ league: string; events: LiveEvent[] }[] | null>(null);
   const [updated, setUpdated] = useState<string>();
-  const [open, setOpen] = useState<string>();
   const oddsOn = useOddsEnabled();
   const fecha = date ?? ymd(days[day]);
   // Solo se actualiza solo el día de hoy (los partidos de otros días no cambian).
@@ -151,13 +150,12 @@ export default function LiveMatches({
               <ul className="divide-y divide-navy-100">
                 {events.map((e) => {
                   const st = status(e);
-                  const isOpen = open === e.id;
                   return (
                     <li key={e.id} className={st.live ? "bg-red-50/40" : undefined}>
-                      <button
-                        type="button"
-                        onClick={() => setOpen(isOpen ? undefined : e.id)}
-                        className="grid w-full grid-cols-[4.5rem_1fr_auto_1fr] items-center gap-2 px-3 py-2.5 text-left transition hover:bg-brand-50/60 sm:grid-cols-[5.5rem_1fr_auto_1fr] sm:px-4"
+                      {/* Cada partido lleva a su página (resumen, estadísticas, alineaciones y la ficha de cada jugador). */}
+                      <Link
+                        href={`/partido/${league.code}/${e.id}`}
+                        className="grid w-full grid-cols-[3.2rem_1fr_auto_1fr] items-center gap-1.5 px-2.5 py-2.5 text-left transition hover:bg-brand-50/60 sm:grid-cols-[5.5rem_1fr_auto_1fr] sm:gap-2 sm:px-4"
                       >
                         <span className={`font-display text-sm font-bold tabular-nums ${st.live ? "text-red-600" : e.state === "post" ? "text-navy-500" : "text-navy-700"}`}>
                           {st.live && <span className="live-dot-bare mr-1.5 align-middle" />}
@@ -165,16 +163,15 @@ export default function LiveMatches({
                         </span>
                         <Side team={e.home} align="right" />
                         <span
-                          className={`min-w-[3.6rem] rounded-xl px-2 py-1 text-center font-display text-lg font-bold tabular-nums ${
+                          className={`min-w-[3.2rem] rounded-xl px-1.5 py-1 text-center font-display text-base font-bold tabular-nums sm:min-w-[3.6rem] sm:px-2 sm:text-lg ${
                             st.live ? "score-live bg-red-600 text-white" : e.state === "post" ? "bg-navy-900 text-white" : "bg-navy-100 text-navy-500"
                           }`}
                         >
                           {e.state === "pre" ? "vs" : `${e.home.score ?? 0} - ${e.away.score ?? 0}`}
                         </span>
                         <Side team={e.away} align="left" />
-                      </button>
+                      </Link>
                       {oddsOn && e.state === "pre" && e.odds && <OddsLine odds={e.odds} />}
-                      {isOpen && <MatchPanel league={league.code} match={e} />}
                     </li>
                   );
                 })}
@@ -196,11 +193,12 @@ function Side({ team, align }: { team: LiveTeam; align: "left" | "right" }) {
         <Crest team={ours} size="sm" />
       ) : team.logo ? (
         // eslint-disable-next-line @next/next/no-img-element -- escudo de la fuente en vivo
-        <img src={team.logo} alt="" loading="lazy" className="logo-img h-7 w-7 shrink-0 object-contain" />
+        <img src={team.logo} alt="" loading="lazy" className="logo-img h-6 w-6 shrink-0 object-contain sm:h-7 sm:w-7" />
       ) : (
         <span className="h-7 w-7 shrink-0" />
       )}
-      <span className={`truncate text-sm sm:text-[0.95rem] ${team.winner ? "font-bold text-navy-950" : "font-medium text-navy-800"}`}>{team.name}</span>
+      {/* En el celular, el nombre en hasta dos renglones en vez de cortarlo ("Sout…"). */}
+      <span className={`line-clamp-2 break-words text-[0.8rem] leading-tight sm:truncate sm:text-[0.95rem] ${team.winner ? "font-bold text-navy-950" : "font-medium text-navy-800"}`}>{team.name}</span>
     </span>
   );
 }

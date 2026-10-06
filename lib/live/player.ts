@@ -2,7 +2,10 @@
 // (una consulta por competencia, de su club y de su selección); el detalle de cada partido (minutos, titular, pases,
 // quites…) de las estadísticas del partido, que ya no cambian una vez jugado.
 import { GROUPS, LIVE_CODE } from "../competitions";
+import { COUNTRY, countryEs } from "./countries";
 import { espnTeam, type LiveTeam } from "./espn";
+
+export { countryEs };
 
 const WEB = "https://site.web.api.espn.com/apis/common/v3/sports/soccer";
 const CORE = "https://sports.core.api.espn.com/v2/sports/soccer";
@@ -48,19 +51,6 @@ const POSITION: Record<string, string> = {
 };
 export const positionEs = (p?: string) => (p ? (POSITION[p] ?? p) : "");
 
-const COUNTRY: Record<string, string> = {
-  Argentina: "Argentina", Brazil: "Brasil", Uruguay: "Uruguay", Paraguay: "Paraguay", Chile: "Chile", Colombia: "Colombia", Peru: "Perú",
-  Ecuador: "Ecuador", Bolivia: "Bolivia", Venezuela: "Venezuela", Mexico: "México", "United States": "Estados Unidos", Spain: "España",
-  Italy: "Italia", Germany: "Alemania", France: "Francia", England: "Inglaterra", Portugal: "Portugal", Netherlands: "Países Bajos",
-  Belgium: "Bélgica", Croatia: "Croacia", Morocco: "Marruecos", Japan: "Japón", Norway: "Noruega", Poland: "Polonia", Senegal: "Senegal",
-  Nigeria: "Nigeria", Ghana: "Ghana", "Ivory Coast": "Costa de Marfil", Cameroon: "Camerún", Egypt: "Egipto", Turkey: "Turquía",
-  Switzerland: "Suiza", Austria: "Austria", Denmark: "Dinamarca", Sweden: "Suecia", Scotland: "Escocia", Wales: "Gales", Serbia: "Serbia",
-  Ukraine: "Ucrania", "South Korea": "Corea del Sur", Canada: "Canadá", "Saudi Arabia": "Arabia Saudita", Algeria: "Argelia", Greece: "Grecia",
-  "Czech Republic": "Chequia", Czechia: "Chequia", Hungary: "Hungría", Romania: "Rumania", Slovenia: "Eslovenia", Slovakia: "Eslovaquia",
-  Ireland: "Irlanda", "Republic of Ireland": "Irlanda", Australia: "Australia", "Costa Rica": "Costa Rica", Panama: "Panamá", Honduras: "Honduras",
-  Jamaica: "Jamaica", Georgia: "Georgia", Albania: "Albania", Iran: "Irán", Tunisia: "Túnez", Mali: "Malí", "DR Congo": "RD del Congo",
-};
-export const countryEs = (c?: string) => (c ? (COUNTRY[c] ?? c) : "");
 
 // Nombre de la competencia como figura en el menú del sitio; si no está, el de ESPN.
 const COMP_NAME = new Map<string, { id: string; name: string }>();

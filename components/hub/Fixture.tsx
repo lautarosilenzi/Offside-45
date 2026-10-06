@@ -1,10 +1,10 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { LiveEvent } from "@/lib/live/espn";
 import type { Round } from "@/lib/live/season";
 import { useOddsEnabled } from "@/lib/prefs";
-import MatchPanel from "../match/MatchPanel";
 import OddsLine from "../match/OddsLine";
 import TeamLogo from "./TeamLogo";
 
@@ -24,7 +24,6 @@ function status(e: LiveEvent) {
 // Fixture fecha por fecha, con flechas y un selector. Si la fecha tiene partidos de hoy, se actualiza sola cada 30 segundos.
 export default function Fixture({ code, rounds, initial }: { code: string; rounds: Round[]; initial: number }) {
   const [i, setI] = useState(initial);
-  const [open, setOpen] = useState<string>();
   const [fresh, setFresh] = useState<Record<string, LiveEvent>>({});
   const oddsOn = useOddsEnabled();
   const round = rounds[i];
@@ -100,10 +99,10 @@ export default function Fixture({ code, rounds, initial }: { code: string; round
           <ul className="divide-y divide-navy-50">
             {d.matches.map((m) => {
               const st = status(m);
-              const isOpen = open === m.id;
               return (
                 <li key={m.id} className={st.live ? "bg-red-50/50" : undefined}>
-                  <button type="button" onClick={() => setOpen(isOpen ? undefined : m.id)} className="grid w-full grid-cols-[3.6rem_1fr_auto_1fr] items-center gap-2 px-2 py-2 text-left text-sm transition hover:bg-brand-50/60">
+                  {/* Cada partido lleva a su página (resumen, estadísticas, alineaciones y la ficha de cada jugador). */}
+                  <Link href={`/partido/${code}/${m.id}`} className="grid w-full grid-cols-[3.6rem_1fr_auto_1fr] items-center gap-2 px-2 py-2 text-left text-sm transition hover:bg-brand-50/60">
                     <span className={`text-center font-display text-xs font-bold tabular-nums ${st.live ? "text-red-600" : "text-navy-500"}`}>
                       {st.live && <span className="live-dot-bare mr-1 align-middle" />}
                       {st.text}
@@ -119,9 +118,8 @@ export default function Fixture({ code, rounds, initial }: { code: string; round
                       <TeamLogo team={m.away} />
                       <span className={`truncate ${m.away.winner ? "font-bold text-navy-950" : "text-navy-800"}`}>{m.away.name}</span>
                     </span>
-                  </button>
+                  </Link>
                   {oddsOn && m.state === "pre" && m.odds && <OddsLine odds={m.odds} />}
-                  {isOpen && <MatchPanel league={code} match={m} />}
                 </li>
               );
             })}

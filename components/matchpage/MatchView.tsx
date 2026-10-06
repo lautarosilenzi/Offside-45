@@ -5,7 +5,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import TeamLogo from "@/components/hub/TeamLogo";
 import Formation from "@/components/match/Formation";
 import FollowButton from "@/components/match/FollowButton";
-import { OddsBox } from "@/components/match/MatchPanel";
+import { OddsBox } from "@/components/match/OddsBox";
 import type { LiveEvent } from "@/lib/live/espn";
 import type { MatchPage, MatchPlayer } from "@/lib/live/match";
 import { translate } from "@/lib/live/translate";

@@ -24,7 +24,7 @@ export default function TeamPicker({
 }) {
   const router = useRouter();
   const [pending, startTransition] = useTransition();
-  const go = (na: string, nb: string) => startTransition(() => router.push(`/?a=${na}&b=${nb}`, { scroll: false }));
+  const go = (na: string, nb: string) => startTransition(() => router.push(`/historiales?a=${na}&b=${nb}`, { scroll: false }));
 
   return (
     <section className={`panel p-4 transition-opacity sm:p-5 ${pending ? "opacity-60" : ""}`}>

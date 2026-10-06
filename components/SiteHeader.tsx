@@ -17,7 +17,7 @@ const NAV = [
   { href: "/torneos/copa-argentina", label: "Copa Argentina" },
   { href: "/torneos/libertadores", label: "Libertadores" },
   { href: "/torneos/sudamericana", label: "Sudamericana" },
-  { href: "/", label: "Historiales" },
+  { href: "/historiales", label: "Historiales" },
   { href: "/messi-vs-cristiano", label: "Messi vs CR7" },
 ];
 

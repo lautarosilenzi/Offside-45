@@ -1,70 +1,70 @@
-import EraDiff from "@/components/EraDiff";
-import MatchList from "@/components/MatchList";
+import Link from "next/link";
+import CompLogo from "@/components/CompLogo";
+import LiveMatches from "@/components/live/LiveMatches";
 import MyTeamCard from "@/components/myteam/MyTeamCard";
-import PageHero from "@/components/PageHero";
-import StatsCard from "@/components/StatsCard";
-import TeamPicker from "@/components/TeamPicker";
-import { TEAM_IDS_WITH_MATCHES, computeStats, eraOf, getHeadToHead, isCounted } from "@/lib/matches";
-import { SEASONS } from "@/lib/seasons";
-import { FOREIGN_TEAMS, HISTORIC_TEAMS, TEAMS, getTeam } from "@/lib/teams";
+import { FEATURED } from "@/lib/competitions";
+import { liveLeagues } from "@/lib/live/leagues";
 
-const byName = (a: { name: string }, b: { name: string }) => a.name.localeCompare(b.name, "es");
-const option = (t: { id: string; name: string }) => ({ id: t.id, name: t.name });
-const CURRENT = [...TEAMS].sort(byName).map(option);
-const OTHERS = HISTORIC_TEAMS.filter((t) => TEAM_IDS_WITH_MATCHES.has(t.id)).sort(byName).map(option);
-const FOREIGN = FOREIGN_TEAMS.filter((t) => TEAM_IDS_WITH_MATCHES.has(t.id)).sort(byName).map(option);
+const TZ = "America/Argentina/Buenos_Aires";
 
-// El historial se calcula en el servidor: el navegador recibe solo los partidos del cruce elegido.
-export default function Home({ searchParams }: { searchParams: { a?: string; b?: string } }) {
-  const a = getTeam(searchParams.a ?? "") ?? getTeam("river")!;
-  let b = getTeam(searchParams.b ?? "") ?? getTeam("boca")!;
-  if (b.id === a.id) b = getTeam(a.id === "boca" ? "river" : "boca")!;
+// Secciones especiales, abajo de los partidos.
+const SPECIALS = [
+  { href: "/historiales", title: "Historial entre equipos", text: "Todos los partidos oficiales entre dos clubes, desde 1891." },
+  { href: "/messi-vs-cristiano", title: "Messi vs Cristiano", text: "Goles, títulos, finales y los partidos que jugaron entre ellos." },
+  { href: "/jugadores", title: "Comparador de leyendas", text: "Las 25 leyendas del fútbol, cara a cara." },
+  { href: "/campeones", title: "Campeones", text: "Todos los campeones del fútbol argentino." },
+  { href: "/mundiales", title: "Mundiales", text: "Campeones, finales y estadísticas de cada Copa del Mundo." },
+  { href: "/descensos", title: "Descensos", text: "Promedios y descensos de la Primera División." },
+];
 
-  const matches = getHeadToHead(a.id, b.id);
-  const stats = computeStats(matches, a.id);
-  const eraRows = [
-    { label: "Total", detail: "Todos los partidos oficiales", stats },
-    { label: "Era profesional", detail: "Desde 1931", stats: computeStats(matches.filter((m) => eraOf(m) === "profesional"), a.id) },
-    { label: "Era amateur", detail: "Hasta 1930 y ligas amateurs 1931–1934", stats: computeStats(matches.filter((m) => eraOf(m) === "amateur"), a.id) },
-  ];
-  const annulledCount = matches.length - matches.filter(isCounted).length;
-  const first = SEASONS[0].year;
-  const last = SEASONS[SEASONS.length - 1].year;
+// Portada: mi equipo, los partidos del día (en vivo primero) y el acceso a los torneos y a las secciones especiales.
+// El logo del encabezado lleva acá.
+// Los links viejos del historial (/?a=river&b=boca) los redirige next.config.mjs a /historiales.
+export default function Home() {
+  // Hoy, en la hora de la Argentina (la página se vuelve a armar cada minuto).
+  const today = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date()).replace(/-/g, "");
+  const tournaments = FEATURED.filter((c) => c.href?.startsWith("/torneos/"));
 
   return (
     <>
-      <PageHero eyebrow="Cara a cara" title="Historial entre equipos">
-        Elegí dos equipos y mirá todos sus enfrentamientos oficiales, resultados y estadísticas.
-      </PageHero>
-      <main className="mx-auto max-w-5xl space-y-6 px-4 py-8 sm:px-6">
+      {/* Sin portada grande: lo primero es tu equipo y los partidos. */}
+      <main className="mx-auto max-w-5xl space-y-5 px-4 py-5 sm:px-6">
+        <h1 className="sr-only">Offside 45 · Fútbol en vivo</h1>
         <MyTeamCard />
-        <TeamPicker a={a} b={b} current={CURRENT} others={OTHERS} foreign={FOREIGN} />
 
-        {matches.length === 0 ? (
-          <div className="panel px-6 py-14 text-center">
-            <p className="font-display text-xl font-bold uppercase tracking-wide text-navy-800">Sin partidos registrados</p>
-            <p className="mt-1 text-sm text-navy-500">
-              No hay partidos entre {a.name} y {b.name} en las temporadas cargadas ({first}–{last}).
-            </p>
+        <nav aria-label="Torneos destacados" className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:px-0 [&::-webkit-scrollbar]:hidden">
+          {tournaments.map((c) => (
+            <Link
+              key={c.id}
+              href={c.href!}
+              className="flex shrink-0 items-center gap-2 rounded-full bg-white px-3 py-1.5 text-sm font-semibold text-navy-800 ring-1 ring-navy-100 transition hover:ring-volt-400"
+            >
+              <CompLogo id={c.id} size={20} />
+              {c.name}
+            </Link>
+          ))}
+        </nav>
+
+        <section>
+          <h2 className="section-title mb-3">Partidos</h2>
+          <LiveMatches leagues={liveLeagues()} date={today} />
+        </section>
+
+        <section>
+          <h2 className="section-title mb-3">Especiales</h2>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {SPECIALS.map((s) => (
+              <Link key={s.href} href={s.href} className="panel block px-4 py-3">
+                <span className="block font-display text-lg font-bold uppercase tracking-wide text-navy-950">{s.title}</span>
+                <span className="block text-sm text-navy-500">{s.text}</span>
+              </Link>
+            ))}
           </div>
-        ) : (
-          <>
-            <StatsCard a={a} b={b} stats={stats} />
-            <EraDiff a={a} b={b} rows={eraRows} />
-            <p className="rounded-2xl border-l-4 border-brand-500 bg-white/80 px-4 py-3 text-sm leading-relaxed text-navy-600">
-              Todos los partidos oficiales de Primera entre {first} y {last}, verificados contra RSSSF y Wikipedia. Incluye las
-              copas nacionales oficiales y los cruces en copas internacionales. Goles: {a.name} {stats.goalsA}, {b.name}{" "}
-              {stats.goalsB} ({stats.goalsA + stats.goalsB} en total).
-              {annulledCount > 0 &&
-                ` ${annulledCount === 1 ? "Hay 1 partido" : `Hay ${annulledCount} partidos`} anulado${annulledCount === 1 ? "" : "s"} o sin jugar que se muestra${annulledCount === 1 ? "" : "n"} pero no suma${annulledCount === 1 ? "" : "n"}.`}
-            </p>
-            <section>
-              <h2 className="section-title mb-3">Partidos ({matches.length})</h2>
-              <MatchList matches={matches} />
-            </section>
-          </>
-        )}
+        </section>
       </main>
     </>
   );
 }
+
+// La página se vuelve a armar cada minuto para que "hoy" no quede viejo después de la medianoche.
+export const revalidate = 60;

@@ -14,7 +14,8 @@ export type SearchItem = { kind: SearchKind; title: string; subtitle?: string; h
 const SECTIONS: SearchItem[] = [
   { kind: "Sección", title: "Live: partidos en juego", href: "/live", keywords: "en vivo ahora directo" },
   { kind: "Sección", title: "Calendario", href: "/calendario", keywords: "fixture partidos hoy mañana ayer programación" },
-  { kind: "Sección", title: "Historial entre equipos", href: "/", keywords: "cara a cara historiales clasicos" },
+  { kind: "Sección", title: "Inicio", href: "/", keywords: "portada home partidos de hoy" },
+  { kind: "Sección", title: "Historial entre equipos", href: "/historiales", keywords: "cara a cara historiales clasicos" },
   { kind: "Sección", title: "Campeones del fútbol argentino", href: "/campeones", keywords: "titulos" },
   { kind: "Sección", title: "Temporadas de la liga argentina (desde 1891)", href: "/temporadas", keywords: "historia" },
   { kind: "Sección", title: "Descensos", href: "/descensos", keywords: "promedios" },
@@ -71,7 +72,7 @@ export function searchIndex(): Promise<SearchItem[]> {
         logo: CRESTS[t.id]?.file,
         title: t.name,
         subtitle: espnOf[t.id] ? "Liga Profesional · historial y campaña" : "Historial",
-        href: espnOf[t.id] ? `/torneos/liga-profesional/equipo/${espnOf[t.id]}` : `/?a=${t.id}`,
+        href: espnOf[t.id] ? `/torneos/liga-profesional/equipo/${espnOf[t.id]}` : `/historiales?a=${t.id}`,
         keywords: [t.fullName, t.shortName].filter(Boolean).join(" "),
       }));
       const seasons: SearchItem[] = LEAGUE_SEASONS.map((s) => ({ kind: "Temporada", title: seasonTitle(s), href: `/temporadas/${s.slug}`, keywords: String(s.year) }));
