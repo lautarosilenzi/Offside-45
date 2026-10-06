@@ -55,7 +55,7 @@ function team(t: any, score?: string, winner?: boolean, shootout?: number): Live
   return {
     // Los cruces todavía sin definir llegan como "TBD Home" / "TBD Away"; las selecciones, en castellano ("South Korea" →
     // "Corea del Sur").
-    name: ours?.name ?? (/^TBD/i.test(t?.displayName ?? "") ? "A confirmar" : countryEs(t?.displayName ?? t?.name) || "—"),
+    name: ours?.name ?? (/^TBD\b/i.test(t?.displayName ?? "") ? "A confirmar" : countryEs(t?.displayName ?? t?.name) || "—"),
     short: ours?.shortName ?? t?.abbreviation ?? "",
     logo: t?.logo ?? t?.logos?.[0]?.href,
     teamId,
@@ -178,6 +178,23 @@ export async function teamInfo(espnTeamId: string): Promise<{ league?: string; c
 
 export type Leader = { id?: string; name: string; team: LiveTeam; matches: number; value: number };
 
+// Goleadores y asistidores del torneo en curso, sumando los planteles de todos los equipos. En los años con dos torneos
+// (Apertura y Clausura), la tabla de goleadores de ESPN muestra la del primero aunque ya se juegue el segundo (en octubre
+// de 2026 daba a Merentiel 5 goles en 13 partidos: los del Apertura); las estadísticas de los planteles son las del
+// torneo en curso y cierran con los goles de la tabla.
+export async function rosterLeaders(league: string): Promise<{ goals: Leader[]; assists: Leader[] }> {
+  const teams = await leagueTeams(league);
+  const rosters = await Promise.all(teams.filter((t) => t.espnId).map((t) => roster(league, t.espnId!).catch(() => null)));
+  const all = rosters.flatMap((r) => (r ? r.players.filter((p) => p.stats).map((p) => ({ p, team: r.team })) : []));
+  const top = (k: "goals" | "assists"): Leader[] =>
+    all
+      .filter(({ p }) => (p.stats?.[k] ?? 0) > 0)
+      .sort((a, b) => b.p.stats![k] - a.p.stats![k] || a.p.stats!.apps - b.p.stats!.apps)
+      .slice(0, 30)
+      .map(({ p, team: t }) => ({ id: p.id, name: p.name, team: t, matches: p.stats!.apps, value: p.stats![k] }));
+  return { goals: top("goals"), assists: top("assists") };
+}
+
 // Goleadores y asistidores de la temporada.
 export async function leaders(league: string): Promise<{ goals: Leader[]; assists: Leader[] }> {
   const j = await getJson(`${BASE}/site/v2/sports/soccer/${league}/statistics`, 3600);
@@ -192,7 +209,16 @@ export async function leaders(league: string): Promise<{ goals: Leader[]; assist
   return { goals: pick("goalsLeaders"), assists: pick("assistsLeaders") };
 }
 
-export type RosterPlayer = { id: string; name: string; number?: string; position: string; age?: number; nationality?: string; photo?: string };
+// stats: del torneo en curso (en la Argentina, el Apertura o el Clausura), como las publica ESPN en el plantel.
+export type RosterStats = { apps: number; subIns: number; goals: number; assists: number; yellow: number; red: number };
+export type RosterPlayer = { id: string; name: string; number?: string; position: string; age?: number; nationality?: string; photo?: string; stats?: RosterStats };
+
+function rosterStats(st: any): RosterStats | undefined {
+  const all: Record<string, number> = {};
+  for (const c of st?.splits?.categories ?? []) for (const x of c.stats ?? []) all[x.name] = Number(x.value ?? 0);
+  if (!Object.keys(all).length) return undefined;
+  return { apps: all.appearances ?? 0, subIns: all.subIns ?? 0, goals: all.totalGoals ?? 0, assists: all.goalAssists ?? 0, yellow: all.yellowCards ?? 0, red: all.redCards ?? 0 };
+}
 
 // Plantel de un equipo (puede venir vacío para algunas ligas).
 export async function roster(league: string, espnTeamId: string): Promise<{ team: LiveTeam; coach?: string; players: RosterPlayer[] }> {
@@ -209,6 +235,7 @@ export async function roster(league: string, espnTeamId: string): Promise<{ team
       age: a.age ?? undefined,
       nationality: a.citizenship ?? a.birthPlace?.country ?? undefined,
       photo: a.headshot?.href ?? undefined,
+      stats: rosterStats(a.statistics),
     })),
   };
 }

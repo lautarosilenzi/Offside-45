@@ -17,6 +17,8 @@ export default function Crest({ team, size = "sm" }: { team: Team; size?: keyof 
         width={px}
         height={px}
         className="logo-img shrink-0 object-contain"
+        // Los escudos grandes van en las portadas, arriba de todo: sin esperar a que se vean.
+        loading={px >= 64 ? "eager" : "lazy"}
         style={{ width: px, height: px }}
       />
     );

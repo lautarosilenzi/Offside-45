@@ -18,15 +18,14 @@ const c = (id: string, name: string, wiki: string, href?: string): Competition =
 // Destacado: lo mismo que destacan los sitios de resultados. Las que tienen datos en vivo van a su página de torneo
 // (/torneos/<id>: fixture, tablas, equipos y estadísticas); la historia de cada una sigue en su sección.
 export const FEATURED: Competition[] = [
-  c("en-vivo", "En vivo", "", "/en-vivo"),
   c("liga-profesional", "Liga Profesional", "es:Primera División de Argentina", "/torneos/liga-profesional"),
   c("primera-nacional", "Primera Nacional", "en:Primera Nacional", "/torneos/primera-nacional"),
-  c("libertadores", "Libertadores", "en:Copa Libertadores", "/torneos/libertadores"),
-  c("sudamericana", "Sudamericana", "en:Copa Sudamericana", "/torneos/sudamericana"),
+  c("libertadores", "Copa Libertadores", "en:Copa Libertadores", "/torneos/libertadores"),
+  c("sudamericana", "Copa Sudamericana", "en:Copa Sudamericana", "/torneos/sudamericana"),
   c("copa-argentina", "Copa Argentina", "en:Copa Argentina", "/torneos/copa-argentina"),
-  c("champions", "Champions", "es:Liga de Campeones de la UEFA", "/torneos/champions"),
+  c("champions", "Champions League", "es:Liga de Campeones de la UEFA", "/torneos/champions"),
   c("eliminatorias", "Eliminatorias Conmebol", "", "/torneos/eliminatorias"),
-  c("mundial", "Mundiales", "en:FIFA World Cup Trophy" /* logo: ilustración de Commons, cargada a mano */, "/mundiales"),
+  c("mundial", "Copa del Mundo", "en:FIFA World Cup Trophy" /* logo: ilustración de Commons, cargada a mano */, "/mundiales"),
   c("messi-vs-cristiano", "Messi vs Cristiano", "", "/messi-vs-cristiano"),
 ];
 

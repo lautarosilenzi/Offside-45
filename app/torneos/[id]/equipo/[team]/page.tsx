@@ -6,10 +6,13 @@ import TeamHero from "@/components/team/TeamHero";
 import { honoursOf } from "@/lib/honours";
 import { currentCoach } from "@/lib/live/coach";
 import { findLiveCompetition } from "@/lib/live/competitions";
-import { roster, seasonEvents, standings, teamInfo, type LiveEvent, type LiveTable } from "@/lib/live/espn";
-import { formByTeam, phaseLabel, isKnockout } from "@/lib/live/season";
+import { roster, seasonEvents, teamInfo, type LiveEvent, type RosterPlayer } from "@/lib/live/espn";
+import { teamPhotos, type Photo } from "@/lib/live/photos";
+import { phaseLabel, isKnockout } from "@/lib/live/season";
 
 export const revalidate = 600;
+// La primera vez busca las fotos del plantel (ESPN y Wikimedia): puede pasar los 10 s por defecto.
+export const maxDuration = 30;
 export const dynamicParams = true;
 export const generateStaticParams = () => [];
 
@@ -27,21 +30,19 @@ export default async function TeamPage({ params }: { params: { id: string; team:
   const comp = findLiveCompetition(params.id);
   if (!comp || !/^\d+$/.test(params.team)) notFound();
 
-  const [squad, season, tables, info, coach] = await Promise.all([
+  const [squad, season, info, coach, photos] = await Promise.all([
     roster(comp.code, params.team).catch(() => null),
     seasonEvents(comp.code).catch(() => ({ name: "", label: "", events: [] as LiveEvent[], all: [] as LiveEvent[] })),
-    standings(comp.code).catch((): LiveTable[] => []),
     teamInfo(params.team).catch(() => ({ league: undefined, color: undefined })),
     // El DT de ESPN está desactualizado: se usa el que coincide en Wikidata y Wikipedia (lib/live/coach.ts).
     currentCoach(params.team).catch(() => undefined),
+    // Fotos del plantel: ESPN o Wikimedia Commons (lib/live/photos.ts).
+    teamPhotos(comp.code, params.team).catch(() => ({}) as Record<string, Photo>),
   ]);
   const matches = season.events.filter((e) => e.home.espnId === params.team || e.away.espnId === params.team);
   const team = squad?.team ?? (matches[0] ? (matches[0].home.espnId === params.team ? matches[0].home : matches[0].away) : undefined);
   if (!team) notFound();
 
-  const table = tables.find((t) => t.rows.some((r) => r.team.espnId === params.team));
-  const row = table?.rows.find((r) => r.team.espnId === params.team);
-  const form = formByTeam(season.events).get(params.team) ?? [];
 
   const groups = new Map<string, NonNullable<typeof squad>["players"]>();
   for (const p of squad?.players ?? []) {
@@ -51,14 +52,9 @@ export default async function TeamPage({ params }: { params: { id: string; team:
 
   const played = matches.filter((m) => m.state === "post");
   const next = matches.filter((m) => m.state !== "post");
-  const results = { V: 0, E: 0, D: 0 };
-  for (const m of played) {
-    const mine = m.home.espnId === params.team ? m.home : m.away;
-    const theirs = m.home.espnId === params.team ? m.away : m.home;
-    const a = Number(mine.score ?? 0);
-    const b = Number(theirs.score ?? 0);
-    results[a > b ? "V" : a < b ? "D" : "E"]++;
-  }
+  // Estadísticas del plantel en el torneo en curso (las publica ESPN con el plantel).
+  const withStats = (squad?.players ?? []).filter((p) => p.stats && p.stats.apps > 0);
+  const tournament = /apertura|clausura/i.test(season.name) ? `Torneo ${/apertura/i.test(season.name) ? "Apertura" : "Clausura"}` : comp.name;
 
   return (
     <>
@@ -71,27 +67,28 @@ export default async function TeamPage({ params }: { params: { id: string; team:
         color={info.color}
       />
       <main className="mx-auto max-w-5xl space-y-6 px-4 py-6 sm:px-6">
-        <section className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-          <Stat label={table && table.name ? `Posición · ${table.name}` : "Posición"} value={row ? `${row.pos}.º` : "—"} />
-          <Stat label="Puntos" value={row ? row.points : "—"} />
-          <Stat label="Ganados · empatados · perdidos" value={`${results.V} · ${results.E} · ${results.D}`} />
-          <Stat
-            label="Últimos partidos"
-            value={
-              form.length ? (
-                <span className="flex justify-center gap-0.5">
-                  {form.map((r, i) => (
-                    <span key={i} className={`inline-flex h-6 w-6 items-center justify-center rounded text-xs font-bold ${r === "V" ? "bg-emerald-500 text-white" : r === "E" ? "bg-amber-400" : "bg-red-500 text-white"}`}>
-                      {r}
-                    </span>
-                  ))}
-                </span>
-              ) : (
-                "—"
-              )
-            }
-          />
-        </section>
+        {withStats.length > 0 && (
+          <section>
+            <div className="mb-3 flex flex-wrap items-baseline justify-between gap-x-3">
+              <h2 className="section-title">Estadísticas del plantel</h2>
+              <span className="text-sm text-navy-500">{tournament}</span>
+            </div>
+            <div className="grid gap-3 md:grid-cols-3">
+              <Leaders title="Goleadores" unit="Goles" rows={withStats.filter((p) => p.stats!.goals > 0).sort((x, y) => y.stats!.goals - x.stats!.goals).map((p) => ({ p, value: p.stats!.goals }))} photos={photos} />
+              <Leaders title="Asistencias" unit="Asist." rows={withStats.filter((p) => p.stats!.assists > 0).sort((x, y) => y.stats!.assists - x.stats!.assists).map((p) => ({ p, value: p.stats!.assists }))} photos={photos} />
+              <Leaders
+                title="Tarjetas"
+                unit="TA · TR"
+                rows={withStats
+                  .filter((p) => p.stats!.yellow + p.stats!.red > 0)
+                  .sort((x, y) => y.stats!.red * 3 + y.stats!.yellow - (x.stats!.red * 3 + x.stats!.yellow))
+                  .map((p) => ({ p, value: p.stats!.yellow, extra: p.stats!.red }))}
+                photos={photos}
+                cards
+              />
+            </div>
+          </section>
+        )}
 
         <div className="grid gap-6 [&>*]:min-w-0 lg:grid-cols-[3fr_2fr]">
           <section>
@@ -107,8 +104,9 @@ export default async function TeamPage({ params }: { params: { id: string; team:
                       {groups.get(g)!.map((p) => (
                         <li key={p.id}>
                           {/* Cada jugador lleva a su perfil, con sus partidos de la temporada. */}
-                          <Link href={`/jugador/${p.id}`} className="group flex items-center gap-3 px-4 py-1.5 transition hover:bg-volt-500/5">
-                            <span className="w-7 text-center font-display font-bold tabular-nums text-navy-400">{p.number ?? ""}</span>
+                          <Link href={`/jugador/${p.id}`} className="group flex items-center gap-2.5 px-3 py-1.5 transition hover:bg-volt-500/5 sm:gap-3 sm:px-4">
+                            <span className="w-6 text-center font-display font-bold tabular-nums text-navy-400">{p.number ?? ""}</span>
+                            <Face url={photos[p.id]?.url} />
                             <span className="min-w-0 flex-1 truncate font-medium text-navy-900 group-hover:text-volt-600 group-hover:underline">{p.name}</span>
                             <span className="hidden text-xs text-navy-400 sm:inline">{p.nationality}</span>
                             <span className="w-14 text-right text-xs tabular-nums text-navy-500">{p.age ? `${p.age} años` : ""}</span>
@@ -134,11 +132,56 @@ export default async function TeamPage({ params }: { params: { id: string; team:
   );
 }
 
-function Stat({ label, value }: { label: string; value: React.ReactNode }) {
+// Foto chica del jugador (o un círculo vacío, para que los nombres queden alineados).
+function Face({ url }: { url?: string }) {
+  return url ? (
+    // eslint-disable-next-line @next/next/no-img-element -- foto de ESPN o de Wikimedia Commons
+    <img src={url} alt="" loading="lazy" className="h-8 w-8 shrink-0 rounded-full bg-navy-50 object-cover object-top ring-1 ring-navy-100" />
+  ) : (
+    <span className="h-8 w-8 shrink-0 rounded-full bg-navy-50 ring-1 ring-navy-100" aria-hidden />
+  );
+}
+
+type LeaderRow = { p: RosterPlayer; value: number; extra?: number };
+
+// Goleadores, asistidores o tarjetas del plantel: los cinco primeros.
+function Leaders({ title, unit, rows, photos, cards }: { title: string; unit: string; rows: LeaderRow[]; photos: Record<string, Photo>; cards?: boolean }) {
   return (
-    <div className="panel px-3 py-3 text-center">
-      <div className="font-display text-2xl font-bold tabular-nums text-navy-950">{value}</div>
-      <div className="mt-0.5 text-[0.65rem] font-semibold uppercase tracking-wider text-navy-500">{label}</div>
+    <div className="panel overflow-hidden">
+      <h3 className="flex items-center justify-between bg-navy-950 px-4 py-1.5 font-display text-xs font-bold uppercase tracking-widest text-white">
+        {title} <span className="text-navy-300">{unit}</span>
+      </h3>
+      {rows.length === 0 ? (
+        <p className="px-4 py-5 text-center text-sm text-navy-500">Sin datos todavía.</p>
+      ) : (
+        <ol className="divide-y divide-navy-50 text-sm">
+          {rows.slice(0, 5).map(({ p, value, extra }) => (
+            <li key={p.id}>
+              <Link href={`/jugador/${p.id}`} className="flex items-center gap-2.5 px-3 py-1.5 transition hover:bg-volt-500/5">
+                <Face url={photos[p.id]?.url} />
+                <span className="min-w-0 flex-1">
+                  <span className="block truncate font-medium text-navy-900">{p.name}</span>
+                  <span className="block text-xs text-navy-400">{p.stats!.apps} partidos</span>
+                </span>
+                {cards ? (
+                  <span className="flex items-center gap-2 font-display font-bold tabular-nums text-navy-950">
+                    <span className="flex items-center gap-1">
+                      <span className="inline-block h-3.5 w-2.5 rounded-[2px] bg-amber-400" aria-hidden />
+                      {value}
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <span className="inline-block h-3.5 w-2.5 rounded-[2px] bg-red-600" aria-hidden />
+                      {extra ?? 0}
+                    </span>
+                  </span>
+                ) : (
+                  <span className="font-display text-xl font-bold tabular-nums text-navy-950">{value}</span>
+                )}
+              </Link>
+            </li>
+          ))}
+        </ol>
+      )}
     </div>
   );
 }

@@ -95,7 +95,7 @@ export default function Fixture({ code, rounds, initial }: { code: string; round
       </div>
       {days.map((d) => (
         <div key={d.key}>
-          <div className="bg-navy-50 px-3 py-1 text-center text-xs font-semibold capitalize text-navy-500">{d.label}</div>
+          <div className="bg-navy-50 px-3 py-1 text-center text-xs font-semibold text-navy-500 first-letter:uppercase">{d.label}</div>
           <ul className="divide-y divide-navy-50">
             {d.matches.map((m) => {
               const st = status(m);

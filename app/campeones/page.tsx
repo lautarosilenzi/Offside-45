@@ -161,7 +161,7 @@ export default function ChampionsPage() {
                     <li
                       key={r.yearLabel}
                       data-kinds={[...new Set(r.titles.map((t) => t.kind))].join(" ")}
-                      className="grid gap-x-4 gap-y-2 px-4 py-3 sm:grid-cols-[6rem_1fr]"
+                      className="grid grid-cols-[minmax(0,1fr)] gap-x-4 gap-y-2 px-4 py-3 sm:grid-cols-[6rem_minmax(0,1fr)]"
                     >
                       <span className="font-display text-2xl font-bold leading-tight text-navy-900">{r.yearLabel}</span>
                       <div className="flex flex-wrap gap-2">

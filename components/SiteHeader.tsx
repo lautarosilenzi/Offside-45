@@ -15,8 +15,8 @@ import ThemeToggle from "./ThemeToggle";
 const NAV = [
   { href: "/torneos/liga-profesional", label: "Liga Argentina" },
   { href: "/torneos/copa-argentina", label: "Copa Argentina" },
-  { href: "/torneos/libertadores", label: "Libertadores" },
-  { href: "/torneos/sudamericana", label: "Sudamericana" },
+  { href: "/torneos/libertadores", label: "Copa Libertadores" },
+  { href: "/torneos/sudamericana", label: "Copa Sudamericana" },
   { href: "/historiales", label: "Historiales" },
   { href: "/messi-vs-cristiano", label: "Messi vs CR7" },
 ];

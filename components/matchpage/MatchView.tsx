@@ -120,7 +120,7 @@ export default function MatchView({ m, standings }: { m: MatchPage; standings?: 
                   const l = m.summary.lineups.find((x) => x.side === s);
                   return l ? (
                     <div key={s} className="panel p-3">
-                      <Formation lineup={l} color={side[s].color} onPlayer={open} />
+                      <Formation lineup={l} color={side[s].color} ink={side[s].ink} photos={m.photos} onPlayer={open} />
                     </div>
                   ) : null;
                 })}
@@ -161,6 +161,7 @@ export default function MatchView({ m, standings }: { m: MatchPage; standings?: 
           league={m.league}
           eventId={m.id}
           live={m.status.state === "in"}
+          photo={m.photos[byTeam[sheet.side][sheet.index]?.id]}
           color={side[sheet.side].color}
           ink={side[sheet.side].ink}
           onClose={close}
@@ -252,7 +253,7 @@ function Info({ m }: { m: MatchPage }) {
   return (
     <section className="panel px-4 py-3 text-sm text-navy-700">
       <p>
-        <span className="text-navy-400">Fecha:</span> <span className="capitalize">{when}</span>
+        <span className="text-navy-400">Fecha:</span> <span className="inline-block first-letter:uppercase">{when}</span>
       </p>
       {m.venue && (
         <p>

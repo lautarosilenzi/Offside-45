@@ -18,6 +18,7 @@ export default function PlayerSheet({
   league,
   eventId,
   live,
+  photo,
   color,
   ink,
   onClose,
@@ -28,6 +29,7 @@ export default function PlayerSheet({
   league: string;
   eventId: string;
   live: boolean;
+  photo?: { url: string; credit?: string }; // la del plantel (ESPN o Wikimedia Commons)
   color: string; // color del equipo (y el del texto encima)
   ink: string;
   onClose: () => void;
@@ -92,7 +94,7 @@ export default function PlayerSheet({
             >
               ‹
             </button>
-            <Avatar photo={data?.photo} number={p.number} color={color} ink={ink} />
+            <Avatar photo={photo?.url ?? data?.photo} number={p.number} color={color} ink={ink} />
             <button
               type="button"
               onClick={() => onMove(index + 1)}
@@ -104,6 +106,7 @@ export default function PlayerSheet({
             </button>
           </div>
           <h2 className="mt-3 font-display text-2xl font-bold text-navy-950">{p.name}</h2>
+          {photo?.credit && <p className="mt-1 text-[0.65rem] text-navy-400">Foto: {photo.credit} (Wikimedia Commons)</p>}
           <p className="text-sm text-navy-500">
             {p.number ? `#${p.number}, ` : ""}
             {p.position || p.line}

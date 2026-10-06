@@ -14,11 +14,13 @@ import TeamsAndStats from "@/components/hub/TeamsAndStats";
 import { championsOf, titlesByClub, titlesOf } from "@/lib/champions";
 import { annualTable, promedios } from "@/lib/live/argentina";
 import { findLiveCompetition } from "@/lib/live/competitions";
-import { leaders, seasonEvents, standings, type LiveEvent, type LiveTable, type LiveTeam } from "@/lib/live/espn";
+import { leaders, rosterLeaders, seasonEvents, standings, type LiveEvent, type LiveTable, type LiveTeam } from "@/lib/live/espn";
 import { bracket, buildRounds, currentRound, formByTeam, isKnockout, tbd, teamKey, type Result } from "@/lib/live/season";
 
 // Se arma la primera vez que alguien la pide y se renueva cada 5 minutos (los partidos de hoy se actualizan solos en el navegador).
 export const revalidate = 300;
+// En la Liga Profesional los goleadores salen de los 30 planteles: la primera vez puede pasar los 10 s por defecto.
+export const maxDuration = 30;
 export const dynamicParams = true;
 export const generateStaticParams = () => [];
 
@@ -44,11 +46,13 @@ export default async function TournamentPage({ params }: { params: { id: string 
   const comp = findLiveCompetition(params.id);
   if (!comp) notFound();
 
-  const [season, tables, stats] = await Promise.all([
+  const [season, tables] = await Promise.all([
     seasonEvents(comp.code).catch(() => ({ name: "", label: "", events: [], all: [] })),
     standings(comp.code).catch((): LiveTable[] => []),
-    leaders(comp.code).catch(() => ({ goals: [], assists: [] })),
   ]);
+  // Con dos torneos por año (Apertura y Clausura), los goleadores salen de los planteles: la tabla de ESPN es la del
+  // primer torneo (lib/live/espn.ts).
+  const stats = await (/apertura|clausura/i.test(season.name) ? rosterLeaders(comp.code) : leaders(comp.code)).catch(() => ({ goals: [], assists: [] }));
   const rounds = buildRounds(season.events);
   const form = Object.fromEntries(formByTeam(season.events));
   const cols = bracket(season.events);

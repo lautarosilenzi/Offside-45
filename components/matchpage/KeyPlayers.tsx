@@ -52,11 +52,11 @@ export default function KeyPlayers({ players, home, away, onPlayer }: { players:
           </button>
         ))}
       </div>
-      <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-2 px-3 py-4 sm:px-5">
+      <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-1.5 px-2 py-4 sm:gap-2 sm:px-5">
         <Who p={pair.home} side={home} onPlayer={onPlayer} />
         <div className="space-y-2">
           {[...ROWS[line].filter((r) => pair.home?.stats[r.key] !== undefined || pair.away?.stats[r.key] !== undefined).slice(0, 2), MIN].map((r) => (
-            <div key={r.label} className="grid grid-cols-[3.5rem_minmax(5.5rem,auto)_3.5rem] items-center gap-2">
+            <div key={r.label} className="grid grid-cols-[3rem_minmax(4.5rem,auto)_3rem] items-center gap-1.5 sm:grid-cols-[3.5rem_minmax(5.5rem,auto)_3.5rem] sm:gap-2">
               <span className="rounded-lg bg-navy-950 py-1.5 text-center font-display text-base font-bold tabular-nums text-white">{pair.home && pair.home.stats[r.key] !== undefined ? r.v(pair.home.stats) : "—"}</span>
               <span className="text-center text-xs leading-tight text-navy-500">{r.label}</span>
               <span className="rounded-lg bg-navy-950 py-1.5 text-center font-display text-base font-bold tabular-nums text-white">{pair.away && pair.away.stats[r.key] !== undefined ? r.v(pair.away.stats) : "—"}</span>
@@ -74,14 +74,14 @@ function Who({ p, side, onPlayer }: { p?: KeyPlayer; side: Side; onPlayer: (id: 
   return (
     <button type="button" onClick={() => onPlayer(p.id)} className="flex min-w-0 flex-col items-center gap-1.5 text-center hover:opacity-80">
       <span className="relative">
-        <Avatar photo={p.photo} number={p.number} color={side.color} ink={side.ink} size={64} />
+        <Avatar photo={p.photo} number={p.number} color={side.color} ink={side.ink} size={52} />
         {p.goals > 0 && (
           <span className="absolute -right-1 -top-1 flex h-6 min-w-6 items-center justify-center rounded-full bg-white px-1 text-xs shadow ring-1 ring-navy-100" title={`${p.goals} gol${p.goals > 1 ? "es" : ""}`}>
             ⚽{p.goals > 1 ? p.goals : ""}
           </span>
         )}
       </span>
-      <span className="line-clamp-2 text-sm font-semibold leading-tight text-navy-900">{p.name}</span>
+      <span className="line-clamp-2 text-xs font-semibold leading-tight text-navy-900 sm:text-sm">{p.name}</span>
     </button>
   );
 }

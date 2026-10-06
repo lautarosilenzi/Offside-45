@@ -50,8 +50,21 @@ const lastName = (name: string) => {
 };
 
 // Media cancha con los titulares en su esquema (el arco propio abajo). Si el esquema no cierra, la lista.
-// Con onPlayer, tocar un jugador abre su ficha del partido; si no, lleva a su perfil.
-export default function Formation({ lineup, color, onPlayer }: { lineup: Lineup; color: string; onPlayer?: (id: string) => void }) {
+// Con onPlayer, tocar un jugador abre su ficha del partido; si no, lleva a su perfil. Con photos, cada jugador va con
+// su foto (y el número en una placa); sin foto, su número sobre el color del equipo.
+export default function Formation({
+  lineup,
+  color,
+  ink = "#ffffff",
+  photos,
+  onPlayer,
+}: {
+  lineup: Lineup;
+  color: string;
+  ink?: string;
+  photos?: Record<string, { url: string }>;
+  onPlayer?: (id: string) => void;
+}) {
   const rows = arrange(lineup);
   return (
     <div>
@@ -73,11 +86,27 @@ export default function Formation({ lineup, color, onPlayer }: { lineup: Lineup;
             {rows.map((row, r) => (
               <div key={r} className="flex justify-around">
                 {row.map((p) => (
-                  <PlayerLink key={p.name} p={p} onPlayer={onPlayer} className="flex w-16 flex-col items-center text-center hover:opacity-80 sm:w-20">
-                    <span className="flex h-7 w-7 items-center justify-center rounded-full border-2 border-white font-display text-xs font-bold text-white shadow" style={{ background: color }}>
-                      {p.number ?? ""}
-                    </span>
-                    <span className="on-dark mt-0.5 line-clamp-1 rounded bg-navy-950/60 px-1 text-[0.65rem] font-semibold leading-tight text-white">
+                  <PlayerLink key={p.name} p={p} onPlayer={onPlayer} className="flex w-[3.9rem] min-w-0 flex-col items-center text-center hover:opacity-80 sm:w-20">
+                    {p.id && photos?.[p.id] ? (
+                      <span className="relative">
+                        {/* eslint-disable-next-line @next/next/no-img-element -- foto de ESPN o de Wikimedia Commons */}
+                        <img src={photos[p.id].url} alt="" loading="lazy" className="h-9 w-9 rounded-full border-2 border-white bg-white object-cover object-top shadow sm:h-10 sm:w-10" />
+                        <span
+                          className="absolute -bottom-1 -right-1.5 flex h-4 min-w-4 items-center justify-center rounded-full px-0.5 font-display text-[0.6rem] font-bold leading-none shadow"
+                          style={{ background: color, color: ink }}
+                        >
+                          {p.number ?? ""}
+                        </span>
+                      </span>
+                    ) : (
+                      <span
+                        className="flex h-9 w-9 items-center justify-center rounded-full border-2 border-white font-display text-sm font-bold shadow sm:h-10 sm:w-10"
+                        style={{ background: color, color: ink }}
+                      >
+                        {p.number ?? ""}
+                      </span>
+                    )}
+                    <span className="on-dark mt-1 line-clamp-1 max-w-full rounded bg-navy-950/60 px-1 text-[0.65rem] font-semibold leading-tight text-white">
                       {lastName(p.name)}
                       {p.subbedOut && " ↓"}
                     </span>

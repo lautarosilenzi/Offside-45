@@ -54,7 +54,7 @@ export default function CalendarView({ leagues, filters }: { leagues: LiveLeague
                 }`}
               >
                 <span className="font-display text-xs font-bold uppercase tracking-wider">{rel(k) ?? weekday(d)}</span>
-                <span className="text-xs capitalize opacity-80">{dayMonth(d)}</span>
+                <span className="inline-block text-xs opacity-80 first-letter:uppercase">{dayMonth(d)}</span>
               </button>
             );
           })}

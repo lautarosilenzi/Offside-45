@@ -2,6 +2,7 @@
 // cada equipo y de cada jugador. Fuentes: el resumen del partido de ESPN y sus estadísticas detalladas (goles esperados,
 // grandes chances, pases en el último tercio…). ESPN no publica puntajes de los jugadores.
 import { espnTeam, matchSummary, type LiveTeam, type MatchSummary } from "./espn";
+import { teamPhotos, type Photo } from "./photos";
 import { competitionOf, countryEs, positionEs } from "./player";
 import { phaseLabel } from "./season";
 
@@ -205,6 +206,7 @@ export type MatchPage = {
   sections: StatSection[];
   players: MatchPlayer[];
   keyPlayers: KeyPlayers;
+  photos: Record<string, Photo>; // por número de jugador de ESPN
 };
 
 const KIND: [RegExp, TimelineEvent["kind"]][] = [
@@ -266,6 +268,10 @@ export async function matchPage(league: string, id: string): Promise<MatchPage> 
     }),
   );
 
+  // Fotos de los dos planteles (ESPN o Wikimedia Commons; lib/live/photos.ts).
+  const [hPhotos, aPhotos] = await Promise.all([teamPhotos(league, String(H?.team?.id)).catch(() => ({})), teamPhotos(league, String(A?.team?.id)).catch(() => ({}))]);
+  const photos: Record<string, Photo> = { ...hPhotos, ...aPhotos };
+
   // Jugadores clave: el mejor de cada equipo en cada línea (goles, asistencias, remates al arco), con sus estadísticas.
   const keyPlayers = { Delantero: {}, Mediocampista: {}, Defensor: {} } as KeyPlayers;
   if (state !== "pre") {
@@ -276,11 +282,8 @@ export async function matchPage(league: string, id: string): Promise<MatchPage> 
         const best = players.filter((p) => p.played && p.side === sideName && p.line === line).sort((a, b) => score(b) - score(a))[0];
         if (best) picks.push({ line, sideName, p: best });
       }
-    const [stats, photos] = await Promise.all([
-      Promise.all(picks.map(({ p }) => playerMatchStats(league, id, p.teamId, p.id, revalidate).catch(() => ({})))),
-      Promise.all(picks.map(({ p }) => headshot(p.id))),
-    ]);
-    picks.forEach(({ line, sideName, p }, i) => (keyPlayers[line][sideName] = { ...p, stats: stats[i], photo: photos[i] }));
+    const stats = await Promise.all(picks.map(({ p }) => playerMatchStats(league, id, p.teamId, p.id, revalidate).catch(() => ({}))));
+    picks.forEach(({ line, sideName, p }, i) => (keyPlayers[line][sideName] = { ...p, stats: stats[i], photo: photos[p.id]?.url }));
   }
 
   // Línea de tiempo: goles, tarjetas, cambios y VAR, con los jugadores.
@@ -317,6 +320,7 @@ export async function matchPage(league: string, id: string): Promise<MatchPage> 
     sections,
     players,
     keyPlayers,
+    photos,
   };
 }
 

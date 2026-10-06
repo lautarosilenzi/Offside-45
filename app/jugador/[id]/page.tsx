@@ -4,6 +4,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import SeriesChart from "@/components/charts/SeriesChart";
 import TeamLogo from "@/components/hub/TeamLogo";
+import { findLiveCompetition } from "@/lib/live/competitions";
+import { teamPhotos } from "@/lib/live/photos";
 import { playerBio, playerSeason, type MatchRow } from "@/lib/live/player";
 
 // Se arma en cada visita: lee la temporada elegida (?temporada=), y eso no se puede guardar como página fija (en
@@ -59,16 +61,23 @@ export default async function PlayerPage({ params, searchParams }: { params: { i
   const clubComp = matches.find((m) => !m.national && m.competition.id)?.competition.id;
   const seasonLabel = data?.seasons.find((s) => s.value === data.season)?.label ?? data?.season ?? "";
   const chrono = [...matches].reverse();
+  // Sin foto en ESPN: la de Wikimedia Commons, si la hay (lib/live/photos.ts).
+  const code = clubComp ? findLiveCompetition(clubComp)?.code : undefined;
+  const photo = bio.photo
+    ? { url: bio.photo, credit: undefined }
+    : code && bio.team?.espnId
+      ? (await teamPhotos(code, bio.team.espnId).catch(() => ({}) as Record<string, { url: string; credit?: string }>))[bio.id]
+      : undefined;
 
   return (
     <>
       <section className="px-3 pt-4 sm:px-6 sm:pt-5">
         <div className="hero relative mx-auto max-w-5xl overflow-hidden rounded-[2rem] text-white">
           <div aria-hidden className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-volt-500/25 blur-3xl" />
-          <div className="relative flex flex-col gap-5 px-6 py-8 sm:flex-row sm:items-end sm:px-10 sm:py-10">
+          <div className="relative flex flex-col items-center gap-5 px-6 py-8 text-center sm:flex-row sm:items-end sm:px-10 sm:py-10 sm:text-left">
             <div className="relative h-32 w-32 shrink-0 overflow-hidden rounded-3xl bg-white/10 ring-1 ring-white/15 sm:h-40 sm:w-40">
-              {bio.photo ? (
-                <img src={bio.photo} alt={bio.name} className="h-full w-full object-cover object-top" />
+              {photo ? (
+                <img src={photo.url} alt={bio.name} title={photo.credit ? `Foto: ${photo.credit} (Wikimedia Commons)` : undefined} className="h-full w-full object-cover object-top" />
               ) : bio.team ? (
                 <div className="flex h-full w-full items-center justify-center bg-white">
                   <TeamLogo team={bio.team} size={88} />
@@ -78,11 +87,11 @@ export default async function PlayerPage({ params, searchParams }: { params: { i
                 <span className="absolute bottom-2 right-2 rounded-lg bg-[#050b1a]/85 px-2 py-0.5 font-display text-lg font-extrabold text-white">{bio.jersey}</span>
               )}
             </div>
-            <div className="min-w-0">
+            <div className="min-w-0 max-w-full">
               <p className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-volt-300 sm:text-sm">{bio.position || "Jugador"}</p>
               <h1 className="hero-title font-display text-[2.4rem] font-extrabold uppercase italic leading-[0.95] tracking-wide sm:text-6xl">{bio.name}</h1>
               {bio.fullName && <p className="mt-1 text-sm text-navy-200">{bio.fullName}</p>}
-              <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-navy-100">
+              <div className="mt-3 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm text-navy-100 sm:justify-start">
                 {bio.team &&
                   (clubComp && bio.team.espnId ? (
                     <Link href={`/torneos/${clubComp}/equipo/${bio.team.espnId}`} className="flex items-center gap-1.5 font-semibold text-white hover:underline">

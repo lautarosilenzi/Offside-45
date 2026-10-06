@@ -150,6 +150,63 @@ const label = (e) => e?.labels?.es?.value ?? e?.labels?.en?.value ?? "";
   // Ficha de Wikidata de cada club (también de los que no tienen foto): de ahí sale el DT (lib/live/coach.ts).
   const qids = Object.fromEntries(Object.entries(club).map(([id, c]) => [id, c.qid]));
   fs.writeFileSync(path.join(__dirname, "../lib/data/clubs-wikidata.generated.json"), JSON.stringify(qids, null, 1));
+
+  // Estadio y su capacidad (P1083) de cada club, tenga o no foto. Con varias cifras: la marcada como preferida o la más
+  // reciente (P585, fecha); sin cifra, solo el nombre.
+  const capacityOf = (v) => {
+    const cl = (v?.claims?.P1083 ?? []).filter((c) => c.rank !== "deprecated" && c.mainsnak?.datavalue);
+    if (!cl.length) return undefined;
+    const date = (c) => c.qualifiers?.P585?.[0]?.datavalue?.value?.time ?? "";
+    const best = cl.find((c) => c.rank === "preferred") ?? [...cl].sort((a, b) => date(b).localeCompare(date(a)))[0];
+    return Math.round(Number(best.mainsnak.datavalue.value.amount));
+  };
+  // Las fuentes no siempre coinciden (el Camp Nou: 105.000 en Wikidata, 99.354 en la Wikipedia en español y 62.652 en
+  // la inglesa, por la obra). Se compara con el infobox de las dos Wikipedias y se guarda la capacidad solo si al menos
+  // dos fuentes coinciden (hasta un 5% de diferencia), redondeada al millar.
+  const venueIds = [...new Set(Object.values(club).map((c) => c.venue).filter(Boolean))];
+  const links = {};
+  for (let i = 0; i < venueIds.length; i += 50) {
+    const j = await json(`${WD}action=wbgetentities&props=sitelinks&sitefilter=eswiki|enwiki&ids=${venueIds.slice(i, i + 50).join("|")}`);
+    for (const [id, e] of Object.entries(j.entities ?? {})) links[id] = { es: e.sitelinks?.eswiki?.title, en: e.sitelinks?.enwiki?.title };
+  }
+  const infoboxCapacity = async (lang) => {
+    const titles = [...new Set(Object.values(links).map((l) => l[lang]).filter(Boolean))];
+    const out = {};
+    for (let i = 0; i < titles.length; i += 20) {
+      const chunk = titles.slice(i, i + 20);
+      const j = await json(`https://${lang}.wikipedia.org/w/api.php?format=json&formatversion=2&action=query&prop=revisions&rvprop=content&rvslots=main&titles=${encodeURIComponent(chunk.join("|"))}`);
+      const map = {};
+      for (const n of j.query?.normalized ?? []) map[n.to] = n.from;
+      for (const p of j.query?.pages ?? []) {
+        const text = p.revisions?.[0]?.slots?.main?.content ?? "";
+        const raw = text.match(/\|\s*(?:capacidad|capacity)\s*=([^\n]*)/i)?.[1] ?? "";
+        const clean = raw.replace(/<ref[\s\S]*?(<\/ref>|\/>)/g, "").replace(/\{\{(?:formatnum|nts|nowrap)\s*:?\|?([^{}|]*)[^{}]*\}\}/gi, "$1");
+        const m = clean.match(/(\d{1,3}(?:[.,\s ]\d{3})+|\d{4,6})/);
+        if (m) out[map[p.title] ?? p.title] = Number(m[1].replace(/[.,\s ]/g, ""));
+      }
+    }
+    return out;
+  };
+  const [capEs, capEn] = [await infoboxCapacity("es"), await infoboxCapacity("en")];
+  const agreed = (vals) => {
+    const v = vals.filter((x) => x > 1000);
+    // El par que más coincide (el Kempes: 60.000 en Wikidata, 57.000 en las dos Wikipedias → 57.000), y su promedio.
+    let best;
+    for (let i = 0; i < v.length; i++)
+      for (let k = i + 1; k < v.length; k++) {
+        const d = Math.abs(v[i] - v[k]) / Math.max(v[i], v[k]);
+        if (d <= 0.05 && (!best || d < best.d)) best = { d, avg: (v[i] + v[k]) / 2 };
+      }
+    return best ? Math.round(best.avg / 1000) * 1000 : undefined;
+  };
+  const venueOut = {};
+  for (const t of teams) {
+    const c = club[t.id];
+    if (!c?.venue || !venues[c.venue]) continue;
+    const l = links[c.venue] ?? {};
+    venueOut[t.id] = { name: label(venues[c.venue]), capacity: agreed([capacityOf(venues[c.venue]), capEs[l.es], capEn[l.en]]) };
+  }
+  fs.writeFileSync(path.join(__dirname, "../lib/data/venues.generated.json"), JSON.stringify(venueOut, null, 1));
   fs.writeFileSync(path.join(CACHE, "..", "stadiums-report.txt"), report.join("\n"));
   console.log(Object.keys(out).length, "con foto · revisar .cache/stadiums-report.txt");
 })();

@@ -2,6 +2,7 @@ import Link from "next/link";
 import TeamLogo from "@/components/hub/TeamLogo";
 import MyTeamButton from "@/components/myteam/MyTeamButton";
 import STADIUMS from "@/lib/data/stadiums.generated.json";
+import VENUES from "@/lib/data/venues.generated.json";
 import type { Honour } from "@/lib/honours";
 import type { LiveTeam } from "@/lib/live/espn";
 
@@ -26,6 +27,7 @@ export default function TeamHero({
   color?: string;
 }) {
   const photo = PHOTOS[team.espnId];
+  const venue = (VENUES as Record<string, { name: string; capacity?: number }>)[team.espnId];
   return (
     <section className="px-3 pt-4 sm:px-6 sm:pt-5">
       <div className="hero relative mx-auto max-w-5xl overflow-hidden rounded-[2rem] text-white">
@@ -40,27 +42,35 @@ export default function TeamHero({
         ) : (
           color && <div aria-hidden className="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full opacity-40 blur-3xl" style={{ background: color }} />
         )}
-        <div className="relative px-6 pb-6 pt-8 sm:px-10 sm:pb-8 sm:pt-11">
+        <div className="relative px-5 pb-6 pt-6 text-center sm:px-10 sm:pb-8 sm:pt-11 sm:text-left">
           <Link
             href={`/torneos/${compId}#equipos`}
             className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 font-display text-xs font-semibold uppercase tracking-[0.2em] text-volt-300 ring-1 ring-white/15 backdrop-blur-sm transition hover:text-white sm:text-sm"
           >
             ← {compName}
           </Link>
-          <div className="flex flex-wrap items-center gap-4">
+          <div className="flex flex-col items-center gap-3 sm:flex-row sm:gap-4">
             <span className="logo-plate">
               <TeamLogo team={team} size={72} />
             </span>
             <div className="min-w-0">
               <h1 className="hero-title font-display text-[2.4rem] font-extrabold uppercase italic leading-[0.95] tracking-wide sm:text-6xl">{team.name}</h1>
-              <p className="mt-1.5 text-sm text-navy-100 sm:text-base">
-                {photo ? photo.stadium : ""}
-                {photo && coach ? " · " : ""}
-                {coach ? `DT: ${coach}` : ""}
-              </p>
+              {/* El DT (verificado en tres fuentes, lib/live/coach.ts) y el estadio con su capacidad (si las fuentes
+                  coinciden, scripts/stadiums.cjs). */}
+              {coach && (
+                <p className="mt-2 text-base font-semibold text-white sm:text-lg">
+                  <span className="text-navy-300">DT:</span> {coach}
+                </p>
+              )}
+              {venue && (
+                <p className="mt-0.5 text-sm text-navy-100">
+                  {venue.name}
+                  {venue.capacity ? ` · ${venue.capacity.toLocaleString("es-AR")} espectadores` : ""}
+                </p>
+              )}
             </div>
           </div>
-          <div className="mt-4">
+          <div className="mt-4 flex justify-center sm:justify-start">
             <MyTeamButton team={{ comp: compId, id: team.espnId, name: team.name, logo: team.logo }} />
           </div>
 
