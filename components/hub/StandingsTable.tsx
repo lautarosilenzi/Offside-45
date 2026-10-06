@@ -68,7 +68,7 @@ export default function StandingsTable({
                     key={r.team.espnId ?? r.team.name}
                     className={`border-b border-navy-50 last:border-0 ${r.team.espnId && highlight?.includes(r.team.espnId) ? "bg-volt-500/10 shadow-[inset_3px_0_0_#1f6bff]" : ""}`}
                   >
-                    <td className="py-1.5 pl-2 text-center">
+                    <td className="py-2.5 pl-2 text-center">
                       <span
                         className="inline-flex h-6 w-6 items-center justify-center rounded font-display text-xs font-bold tabular-nums"
                         style={color ? { background: color, color: "#0c1830" } : { color: "#6079a0" }}
@@ -76,7 +76,7 @@ export default function StandingsTable({
                         {r.pos}
                       </span>
                     </td>
-                    <td className="py-1.5">
+                    <td className="py-2.5">
                       {teamHref && r.team.espnId ? (
                         <Link href={teamHref(r.team.espnId)} className="flex min-w-0 items-center gap-2 hover:text-volt-600">
                           <TeamLogo team={r.team} /> {name}
@@ -87,16 +87,16 @@ export default function StandingsTable({
                         </span>
                       )}
                     </td>
-                    <td className="py-1.5 text-center font-display text-base font-bold tabular-nums text-navy-950">{r.points}</td>
-                    <td className="py-1.5 text-center tabular-nums text-navy-600">{r.played}</td>
-                    <td className="py-1.5 text-center tabular-nums text-navy-600">
+                    <td className="py-2.5 text-center font-display text-base font-bold tabular-nums text-navy-950">{r.points}</td>
+                    <td className="py-2.5 text-center tabular-nums text-navy-600">{r.played}</td>
+                    <td className="py-2.5 text-center tabular-nums text-navy-600">
                       {r.gf}:{r.ga}
                     </td>
-                    <td className="py-1.5 text-center tabular-nums text-navy-600">{diff > 0 ? `+${diff}` : diff}</td>
-                    <td className="py-1.5 text-center tabular-nums text-navy-600">{r.won}</td>
-                    <td className="py-1.5 text-center tabular-nums text-navy-600">{r.drawn}</td>
-                    <td className="py-1.5 text-center tabular-nums text-navy-600">{r.lost}</td>
-                    <td className="py-1.5 pr-2">
+                    <td className="py-2.5 text-center tabular-nums text-navy-600">{diff > 0 ? `+${diff}` : diff}</td>
+                    <td className="py-2.5 text-center tabular-nums text-navy-600">{r.won}</td>
+                    <td className="py-2.5 text-center tabular-nums text-navy-600">{r.drawn}</td>
+                    <td className="py-2.5 text-center tabular-nums text-navy-600">{r.lost}</td>
+                    <td className="py-2.5 pr-2">
                       <span className="flex justify-center gap-0.5">
                         {last.map((x, i) => (
                           <span key={i} className={`inline-flex h-5 w-5 items-center justify-center rounded text-[0.65rem] font-bold ${RESULT_STYLE[x]}`} title={x === "V" ? "Victoria" : x === "E" ? "Empate" : "Derrota"}>

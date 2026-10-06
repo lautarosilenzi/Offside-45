@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { LiveEvent, LiveTeam } from "@/lib/live/espn";
 import { getTeam } from "@/lib/teams";
 import { useOddsEnabled } from "@/lib/prefs";
@@ -25,6 +25,9 @@ function status(e: LiveEvent) {
 
 // Partidos en vivo, del día, de ayer o de mañana, agrupados por competencia. Se actualiza cada 30 segundos.
 // date (yyyymmdd): un día fijo, elegido afuera (Calendario); liveOnly: solo los partidos que se están jugando (Live).
+// Columnas de cada partido (horario, local, resultado, visitante); las cuotas usan las mismas para quedar alineadas.
+const ROW_GRID = "grid grid-cols-[3.2rem_minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-1.5 px-2.5 sm:grid-cols-[5.5rem_minmax(0,1fr)_auto_minmax(0,1fr)] sm:gap-2 sm:px-4";
+
 export default function LiveMatches({
   leagues,
   compact = false,
@@ -43,6 +46,9 @@ export default function LiveMatches({
   const [data, setData] = useState<{ league: string; events: LiveEvent[] }[] | null>(null);
   const [updated, setUpdated] = useState<string>();
   const oddsOn = useOddsEnabled();
+  // ¡Gol!: el último marcador visto de cada partido en juego; si sube, la fila se ilumina unos segundos.
+  const lastScore = useRef(new Map<string, number>());
+  const [goals, setGoals] = useState<Set<string>>(new Set());
   const fecha = date ?? ymd(days[day]);
   // Solo se actualiza solo el día de hoy (los partidos de otros días no cambian).
   const isToday = fecha === ymd(new Date());
@@ -59,6 +65,19 @@ export default function LiveMatches({
           const prev = merged.get(g.league) ?? [];
           merged.set(g.league, [...prev, ...g.events.filter((e: LiveEvent) => !prev.some((x) => x.id === e.id))]);
         }
+      const fresh: string[] = [];
+      for (const events of merged.values())
+        for (const e of events) {
+          if (e.state !== "in") continue;
+          const total = Number(e.home.score ?? 0) + Number(e.away.score ?? 0);
+          const before = lastScore.current.get(e.id);
+          if (before !== undefined && total > before) fresh.push(e.id);
+          lastScore.current.set(e.id, total);
+        }
+      if (fresh.length) {
+        setGoals((g) => new Set([...g, ...fresh]));
+        setTimeout(() => setGoals((g) => new Set([...g].filter((id) => !fresh.includes(id)))), 9000);
+      }
       setData([...merged].map(([league, events]) => ({ league, events })));
       setUpdated(pages[0].updated);
     } catch {
@@ -151,15 +170,21 @@ export default function LiveMatches({
                 {events.map((e) => {
                   const st = status(e);
                   return (
-                    <li key={e.id} className={st.live ? "bg-red-50/40" : undefined}>
+                    <li key={e.id} className={`${st.live ? "bg-red-50/40" : ""} ${goals.has(e.id) ? "goal-flash" : ""}`}>
                       {/* Cada partido lleva a su página (resumen, estadísticas, alineaciones y la ficha de cada jugador). */}
                       <Link
                         href={`/partido/${league.code}/${e.id}`}
-                        className="grid w-full grid-cols-[3.2rem_1fr_auto_1fr] items-center gap-1.5 px-2.5 py-2.5 text-left transition hover:bg-brand-50/60 sm:grid-cols-[5.5rem_1fr_auto_1fr] sm:gap-2 sm:px-4"
+                        className={`${ROW_GRID} w-full py-3 text-left transition hover:bg-brand-50/60`}
                       >
                         <span className={`font-display text-sm font-bold tabular-nums ${st.live ? "text-red-600" : e.state === "post" ? "text-navy-500" : "text-navy-700"}`}>
-                          {st.live && <span className="live-dot-bare mr-1.5 align-middle" />}
-                          {st.text}
+                          {goals.has(e.id) ? (
+                            <span className="goal-badge inline-block rounded-full bg-emerald-500 px-2 py-0.5 text-xs font-black uppercase italic text-white">¡Gol!</span>
+                          ) : (
+                            <>
+                              {st.live && <span className="live-dot-bare mr-1.5 align-middle" />}
+                              {st.text}
+                            </>
+                          )}
                         </span>
                         <Side team={e.home} align="right" />
                         <span
@@ -171,7 +196,7 @@ export default function LiveMatches({
                         </span>
                         <Side team={e.away} align="left" />
                       </Link>
-                      {oddsOn && e.state === "pre" && e.odds && <OddsLine odds={e.odds} />}
+                      {oddsOn && e.state === "pre" && e.odds && <OddsLine odds={e.odds} grid={ROW_GRID} />}
                     </li>
                   );
                 })}

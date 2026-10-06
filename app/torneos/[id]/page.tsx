@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CompLogo from "@/components/CompLogo";
-import PageHero from "@/components/PageHero";
+import TournamentHero from "@/components/hub/TournamentHero";
 import Bracket from "@/components/hub/Bracket";
 import Fixture from "@/components/hub/Fixture";
 import HubTabs from "@/components/hub/HubTabs";
@@ -94,22 +94,9 @@ export default async function TournamentPage({ params }: { params: { id: string 
 
   return (
     <>
-      <PageHero
-        eyebrow={
-          <span className="flex items-center gap-2">
-            {comp.country}
-            {live && <span className="rounded-full bg-red-600 px-2 py-0.5 text-[0.65rem] text-white">En juego</span>}
-          </span>
-        }
-        title={
-          <span className="flex items-center gap-3">
-            <CompLogo id={comp.id} size={56} />
-            {comp.name}
-          </span>
-        }
-      >
+      <TournamentHero id={comp.id} name={comp.name} country={comp.country} live={live}>
         {season.name ? `${translateStage(season.name)}. ` : ""}Fixture, tablas, cuadro, equipos y estadísticas, con los resultados al instante.
-      </PageHero>
+      </TournamentHero>
       <main className="mx-auto max-w-6xl px-4 py-6 sm:px-6">
         {stale && (
           <p className="mb-4 rounded-2xl border-l-4 border-amber-400 bg-amber-50 px-4 py-3 text-sm text-navy-700">

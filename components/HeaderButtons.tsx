@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 import { useFollowed } from "@/lib/prefs";
 import OddsToggle from "./OddsToggle";
 import SearchDialog from "./SearchDialog";
-import ThemeToggle from "./ThemeToggle";
 
 // Botones del encabezado: buscar, calendario, Live (con la cantidad de partidos que se están jugando, que se actualiza
 // cada minuto), alertas (con la cantidad de partidos que sigue el visitante) y cuotas (en las pantallas chicas, el
@@ -69,9 +68,6 @@ export default function HeaderButtons() {
           <span className="absolute -right-0.5 -top-0.5 flex h-4 min-w-4 items-center justify-center rounded-full bg-gold-400 px-1 text-[0.6rem] font-bold text-navy-950">{following}</span>
         )}
       </Link>
-      <span className="hidden sm:inline-flex">
-        <ThemeToggle />
-      </span>
       <span className="hidden lg:inline-flex">
         <OddsToggle />
       </span>

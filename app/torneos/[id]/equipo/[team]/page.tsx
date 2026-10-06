@@ -99,12 +99,12 @@ export default async function TeamPage({ params }: { params: { id: string; team:
               <div className="space-y-3">
                 {ORDER.filter((g) => groups.has(g)).map((g) => (
                   <div key={g} className="panel overflow-hidden">
-                    <h3 className="bg-navy-950 px-4 py-1.5 font-display text-xs font-bold uppercase tracking-widest text-white">{g}</h3>
+                    <h3 className="bg-navy-950 px-4 py-2 font-display text-xs font-bold uppercase tracking-widest text-white">{g}</h3>
                     <ul className="divide-y divide-navy-50 text-sm">
                       {groups.get(g)!.map((p) => (
                         <li key={p.id}>
                           {/* Cada jugador lleva a su perfil, con sus partidos de la temporada. */}
-                          <Link href={`/jugador/${p.id}`} className="group flex items-center gap-2.5 px-3 py-1.5 transition hover:bg-volt-500/5 sm:gap-3 sm:px-4">
+                          <Link href={`/jugador/${p.id}`} className="group flex items-center gap-2.5 px-3 py-2.5 transition hover:bg-volt-500/5 sm:gap-3 sm:px-4">
                             <span className="w-6 text-center font-display font-bold tabular-nums text-navy-400">{p.number ?? ""}</span>
                             <Face url={photos[p.id]?.url} />
                             <span className="min-w-0 flex-1 truncate font-medium text-navy-900 group-hover:text-volt-600 group-hover:underline">{p.name}</span>
@@ -148,7 +148,7 @@ type LeaderRow = { p: RosterPlayer; value: number; extra?: number };
 function Leaders({ title, unit, rows, photos, cards }: { title: string; unit: string; rows: LeaderRow[]; photos: Record<string, Photo>; cards?: boolean }) {
   return (
     <div className="panel overflow-hidden">
-      <h3 className="flex items-center justify-between bg-navy-950 px-4 py-1.5 font-display text-xs font-bold uppercase tracking-widest text-white">
+      <h3 className="flex items-center justify-between bg-navy-950 px-4 py-2 font-display text-xs font-bold uppercase tracking-widest text-white">
         {title} <span className="text-navy-300">{unit}</span>
       </h3>
       {rows.length === 0 ? (
@@ -157,7 +157,7 @@ function Leaders({ title, unit, rows, photos, cards }: { title: string; unit: st
         <ol className="divide-y divide-navy-50 text-sm">
           {rows.slice(0, 5).map(({ p, value, extra }) => (
             <li key={p.id}>
-              <Link href={`/jugador/${p.id}`} className="flex items-center gap-2.5 px-3 py-1.5 transition hover:bg-volt-500/5">
+              <Link href={`/jugador/${p.id}`} className="flex items-center gap-2.5 px-3 py-2 transition hover:bg-volt-500/5">
                 <Face url={photos[p.id]?.url} />
                 <span className="min-w-0 flex-1">
                   <span className="block truncate font-medium text-navy-900">{p.name}</span>
@@ -189,7 +189,7 @@ function Leaders({ title, unit, rows, photos, cards }: { title: string; unit: st
 function MatchList({ title, matches, team, league }: { title: string; matches: LiveEvent[]; team: string; league: string }) {
   return (
     <div className="panel overflow-hidden">
-      <h3 className="bg-navy-950 px-4 py-1.5 font-display text-xs font-bold uppercase tracking-widest text-white">{title}</h3>
+      <h3 className="bg-navy-950 px-4 py-2 font-display text-xs font-bold uppercase tracking-widest text-white">{title}</h3>
       {matches.length === 0 ? (
         <p className="px-4 py-5 text-center text-sm text-navy-500">No hay partidos.</p>
       ) : (
@@ -202,7 +202,7 @@ function MatchList({ title, matches, team, league }: { title: string; matches: L
             const res = m.state === "post" ? (mine > theirs ? "V" : mine < theirs ? "D" : "E") : undefined;
             return (
               <li key={m.id}>
-                <Link href={`/partido/${league}/${m.id}`} className="flex items-center gap-2 px-3 py-1.5 transition hover:bg-volt-500/5">
+                <Link href={`/partido/${league}/${m.id}`} className="flex items-center gap-2 px-3 py-2.5 transition hover:bg-volt-500/5">
                 <span className="w-24 shrink-0 text-xs capitalize text-navy-400">{when(m.date)}</span>
                 <span className="text-xs text-navy-400">{home ? "L" : "V"}</span>
                 <TeamLogo team={rival} size={18} />

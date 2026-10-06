@@ -72,12 +72,12 @@ export default function LiveTable({
                 const diff = r.gf - r.ga;
                 return (
                   <tr key={r.team.name} className="table-row border-b border-navy-50 last:border-0">
-                    <td className="py-1.5 pl-3">
+                    <td className="py-2.5 pl-3">
                       <span className={`inline-flex h-6 w-6 items-center justify-center rounded-md font-display text-xs font-bold tabular-nums ${mark ? mark.className : "text-navy-400"}`}>
                         {r.pos}
                       </span>
                     </td>
-                    <td className="py-1.5">
+                    <td className="py-2.5">
                       <span className="flex min-w-0 items-center gap-2">
                         {ours ? (
                           <Crest team={ours} size="xs" />
@@ -88,12 +88,12 @@ export default function LiveTable({
                         <span className="truncate font-semibold text-navy-900">{r.team.name}</span>
                       </span>
                     </td>
-                    <td className="py-1.5 text-right font-display text-base font-bold tabular-nums text-navy-950">{r.points}</td>
-                    <td className="py-1.5 text-right tabular-nums text-navy-600">{r.played}</td>
-                    <td className="hidden py-1.5 text-right tabular-nums text-navy-600 sm:table-cell">{r.won}</td>
-                    <td className="hidden py-1.5 text-right tabular-nums text-navy-600 sm:table-cell">{r.drawn}</td>
-                    <td className="hidden py-1.5 text-right tabular-nums text-navy-600 sm:table-cell">{r.lost}</td>
-                    <td className="py-1.5 pr-3 text-right tabular-nums text-navy-500">{diff > 0 ? `+${diff}` : diff}</td>
+                    <td className="py-2.5 text-right font-display text-base font-bold tabular-nums text-navy-950">{r.points}</td>
+                    <td className="py-2.5 text-right tabular-nums text-navy-600">{r.played}</td>
+                    <td className="hidden py-2.5 text-right tabular-nums text-navy-600 sm:table-cell">{r.won}</td>
+                    <td className="hidden py-2.5 text-right tabular-nums text-navy-600 sm:table-cell">{r.drawn}</td>
+                    <td className="hidden py-2.5 text-right tabular-nums text-navy-600 sm:table-cell">{r.lost}</td>
+                    <td className="py-2.5 pr-3 text-right tabular-nums text-navy-500">{diff > 0 ? `+${diff}` : diff}</td>
                   </tr>
                 );
               })}

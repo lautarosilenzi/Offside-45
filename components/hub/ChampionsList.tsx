@@ -19,9 +19,9 @@ export default function ChampionsList({ rows, ranking, source }: { rows: Champio
             <tbody className="divide-y divide-navy-50">
               {rows.map((r, i) => (
                 <tr key={`${r.season}-${i}`}>
-                  <td className="py-1.5 pl-4 tabular-nums text-navy-500">{r.season}</td>
-                  <td className="py-1.5 font-semibold text-navy-950">🏆 {r.champion}</td>
-                  {hasRunner && <td className="hidden py-1.5 pr-4 text-navy-500 sm:table-cell">{r.runnerUp ?? ""}</td>}
+                  <td className="py-2.5 pl-4 tabular-nums text-navy-500">{r.season}</td>
+                  <td className="py-2.5 font-semibold text-navy-950">🏆 {r.champion}</td>
+                  {hasRunner && <td className="hidden py-2.5 pr-4 text-navy-500 sm:table-cell">{r.runnerUp ?? ""}</td>}
                 </tr>
               ))}
             </tbody>
@@ -41,10 +41,10 @@ export default function ChampionsList({ rows, ranking, source }: { rows: Champio
             <tbody className="divide-y divide-navy-50">
               {ranking.map((t, i) => (
                 <tr key={t.club}>
-                  <td className="py-1.5 pl-3 tabular-nums text-navy-400">{i > 0 && ranking[i - 1].titles === t.titles ? "" : i + 1}</td>
-                  <td className="py-1.5 font-semibold text-navy-900">{t.club}</td>
-                  <td className="py-1.5 text-center font-display text-base font-bold tabular-nums text-navy-950">{t.titles}</td>
-                  <td className="py-1.5 pr-3 text-right text-xs tabular-nums text-navy-500">{t.last}</td>
+                  <td className="py-2.5 pl-3 tabular-nums text-navy-400">{i > 0 && ranking[i - 1].titles === t.titles ? "" : i + 1}</td>
+                  <td className="py-2.5 font-semibold text-navy-900">{t.club}</td>
+                  <td className="py-2.5 text-center font-display text-base font-bold tabular-nums text-navy-950">{t.titles}</td>
+                  <td className="py-2.5 pr-3 text-right text-xs tabular-nums text-navy-500">{t.last}</td>
                 </tr>
               ))}
             </tbody>

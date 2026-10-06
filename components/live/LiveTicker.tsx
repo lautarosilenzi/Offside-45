@@ -11,13 +11,14 @@ const hour = (iso: string) => new Intl.DateTimeFormat("es-AR", { timeZone: TZ, h
 // Franja con los partidos de hoy del fútbol argentino y de las copas, bajo el encabezado. Se mueve sola si no entra
 // y se actualiza cada minuto. Si no hay partidos, no aparece.
 export default function LiveTicker() {
-  const [events, setEvents] = useState<LiveEvent[]>([]);
+  // Cada partido con su liga, para llevar a su página.
+  const [events, setEvents] = useState<(LiveEvent & { league: string })[]>([]);
 
   useEffect(() => {
     const load = () =>
       fetch(`/api/en-vivo?ligas=${LEAGUES}`)
         .then((r) => r.json())
-        .then((j) => setEvents(j.results.flatMap((g: { events: LiveEvent[] }) => g.events)))
+        .then((j) => setEvents(j.results.flatMap((g: { league: string; events: LiveEvent[] }) => g.events.map((e) => ({ ...e, league: g.league })))))
         .catch(() => {});
     load();
     const t = setInterval(load, 60000);
@@ -31,9 +32,9 @@ export default function LiveTicker() {
   const chips = list.map((e) => (
     <Link
       key={e.id}
-      href="/en-vivo"
+      href={`/partido/${e.league}/${e.id}`}
       className={`flex shrink-0 items-center gap-2 rounded-full px-3 py-1 text-xs ring-1 transition hover:-translate-y-px ${
-        e.state === "in" ? "bg-red-600 text-white ring-red-600" : "bg-white/90 text-navy-800 ring-navy-100 hover:ring-brand-300"
+        e.state === "in" ? "bg-red-600 text-white ring-red-600" : "bg-white/[0.07] text-navy-100 ring-white/10 hover:bg-white/[0.12] hover:ring-volt-400/60"
       }`}
     >
       <span className="font-display font-bold tabular-nums">

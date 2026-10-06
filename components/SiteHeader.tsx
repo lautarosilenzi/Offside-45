@@ -8,7 +8,6 @@ import { FEATURED, GROUPS, LIVE_CODE, compHref } from "@/lib/competitions";
 import LOGOS from "@/lib/data/comps.generated.json";
 import HeaderButtons from "./HeaderButtons";
 import OddsToggle from "./OddsToggle";
-import ThemeToggle from "./ThemeToggle";
 
 // Las cuatro competencias van a su página de torneo (fixture y tablas); la historia de cada una está en su pestaña
 // Campeones y en el menú lateral.
@@ -157,7 +156,6 @@ export default function SiteHeader({ logo }: { logo?: string }) {
               </div>
             ))}
             <div className="mx-2 my-3 border-t border-white/10" />
-            <ThemeToggle variant="menu" />
             <OddsToggle variant="menu" />
             <div className="mx-2 my-3 border-t border-white/10" />
             {COMMUNITY.map((c) => (

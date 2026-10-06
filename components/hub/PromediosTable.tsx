@@ -28,23 +28,23 @@ export default function PromediosTable({ rows, teamHref }: { rows: PromedioRow[]
               const last = i === rows.length - 1;
               return (
                 <tr key={r.team.espnId ?? r.team.name} className="border-b border-navy-50 last:border-0">
-                  <td className="py-1.5 pl-2 text-center">
+                  <td className="py-2.5 pl-2 text-center">
                     <span className="inline-flex h-6 w-6 items-center justify-center rounded font-display text-xs font-bold tabular-nums" style={last ? { background: "#FF7F84", color: "#0c1830" } : { color: "#6079a0" }}>
                       {r.pos}
                     </span>
                   </td>
-                  <td className="py-1.5">
+                  <td className="py-2.5">
                     <Link href={teamHref(r.team.espnId ?? "")} className="flex min-w-0 items-center gap-2 hover:text-volt-600">
                       <TeamLogo team={r.team} />
                       <span className="truncate font-semibold text-navy-900">{r.team.name}</span>
                     </Link>
                   </td>
-                  <td className="py-1.5 text-center tabular-nums text-navy-600">{r.p2024 ?? "—"}</td>
-                  <td className="py-1.5 text-center tabular-nums text-navy-600">{r.p2025 ?? "—"}</td>
-                  <td className="py-1.5 text-center tabular-nums text-navy-600">{r.p2026}</td>
-                  <td className="py-1.5 text-center tabular-nums text-navy-600">{r.points}</td>
-                  <td className="py-1.5 text-center tabular-nums text-navy-600">{r.played}</td>
-                  <td className="py-1.5 pr-3 text-right font-display text-base font-bold tabular-nums text-navy-950">{fmt(r.avg)}</td>
+                  <td className="py-2.5 text-center tabular-nums text-navy-600">{r.p2024 ?? "—"}</td>
+                  <td className="py-2.5 text-center tabular-nums text-navy-600">{r.p2025 ?? "—"}</td>
+                  <td className="py-2.5 text-center tabular-nums text-navy-600">{r.p2026}</td>
+                  <td className="py-2.5 text-center tabular-nums text-navy-600">{r.points}</td>
+                  <td className="py-2.5 text-center tabular-nums text-navy-600">{r.played}</td>
+                  <td className="py-2.5 pr-3 text-right font-display text-base font-bold tabular-nums text-navy-950">{fmt(r.avg)}</td>
                 </tr>
               );
             })}

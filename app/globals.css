@@ -559,3 +559,169 @@ html.dark :is(.bg-amber-400, .bg-gold-400):not([class*="text-"]) {
     opacity: 0.6;
   }
 }
+
+/* ══ Efectos ═════════════════════════════════════════════════════════════════════════════════════════════════
+   Todos se apagan con "reducir movimiento" del sistema (al final). */
+
+/* Texto: Inter con la "a" y la "l" más claras para leer datos. */
+body {
+  font-feature-settings: "cv11", "ss03";
+}
+
+/* Fondo vivo: dos luces (azul eléctrico y azul profundo) que se desplazan muy lento detrás de todo. */
+html.dark body::before {
+  content: "";
+  position: fixed;
+  inset: -20vmax;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(38vmax 30vmax at 20% 10%, rgba(31, 107, 255, 0.16), transparent 70%),
+    radial-gradient(34vmax 28vmax at 85% 30%, rgba(0, 71, 171, 0.18), transparent 70%),
+    radial-gradient(30vmax 24vmax at 50% 95%, rgba(77, 141, 255, 0.08), transparent 70%);
+  animation: aurora 28s ease-in-out infinite alternate;
+}
+@keyframes aurora {
+  to {
+    transform: translate3d(4vmax, -3vmax, 0) rotate(8deg) scale(1.08);
+  }
+}
+
+/* Portada de torneo: halo de luz que gira y late detrás del trofeo, placa con brillo y un destello que la cruza. */
+.trophy-halo {
+  background: conic-gradient(from 0deg, rgba(77, 141, 255, 0), rgba(77, 141, 255, 0.55), rgba(217, 180, 90, 0.45), rgba(77, 141, 255, 0));
+  filter: blur(28px);
+  animation: halo-spin 9s linear infinite, halo-pulse 3.2s ease-in-out infinite;
+}
+@keyframes halo-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes halo-pulse {
+  50% {
+    opacity: 0.55;
+  }
+}
+.trophy-plate {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6) inset, 0 24px 60px -18px rgba(31, 107, 255, 0.75), 0 0 60px -10px rgba(217, 180, 90, 0.35);
+  overflow: hidden;
+}
+.trophy-plate .logo-img {
+  filter: drop-shadow(0 8px 14px rgba(5, 11, 26, 0.28));
+}
+.trophy-sweep {
+  background: linear-gradient(110deg, transparent 35%, rgba(255, 255, 255, 0.85) 50%, transparent 65%);
+  transform: translateX(-130%);
+  animation: sweep 4.5s ease-in-out infinite 1s;
+}
+@keyframes sweep {
+  0%,
+  55% {
+    transform: translateX(-130%);
+  }
+  85%,
+  100% {
+    transform: translateX(130%);
+  }
+}
+
+/* Títulos de portada: un destello de luz que recorre las letras de vez en cuando. */
+.text-shine {
+  background: linear-gradient(100deg, #ffffff 0%, #ffffff 42%, #9fc2ff 50%, #ffffff 58%, #ffffff 100%);
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  /* La sombra de .hero-title se vería a través de las letras transparentes: va como filtro. */
+  text-shadow: none;
+  filter: drop-shadow(0 2px 22px rgba(31, 107, 255, 0.35));
+  animation: text-shine 6s ease-in-out infinite 0.5s;
+}
+@keyframes text-shine {
+  0%,
+  60% {
+    background-position: 120% 0;
+  }
+  100% {
+    background-position: -20% 0;
+  }
+}
+
+/* Tarjetas: con mouse, un borde de luz azul que gira alrededor al pasar por encima. */
+@media (hover: hover) and (pointer: fine) {
+  a.panel,
+  .panel-hover {
+    position: relative;
+    isolation: isolate;
+  }
+  a.panel::after,
+  .panel-hover::after {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    z-index: -1;
+    border-radius: inherit;
+    padding: 1px;
+    background: conic-gradient(from var(--glow-angle, 0deg), transparent 0 70%, rgba(77, 141, 255, 0.9) 85%, transparent 100%);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  a.panel:hover::after,
+  .panel-hover:hover::after {
+    opacity: 1;
+    animation: glow-spin 2.4s linear infinite;
+  }
+}
+@property --glow-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+@keyframes glow-spin {
+  to {
+    --glow-angle: 360deg;
+  }
+}
+
+/* ¡Gol! en las listas de partidos en vivo: la fila se ilumina y aparece el cartel (components/live/LiveMatches.tsx). */
+.goal-flash {
+  animation: goal-flash 1.2s ease-in-out 4;
+}
+@keyframes goal-flash {
+  50% {
+    background-color: rgba(16, 185, 129, 0.22);
+    box-shadow: inset 4px 0 0 #10b981;
+  }
+}
+.goal-badge {
+  animation: goal-pop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) both, goal-glow 1.2s ease-in-out infinite 0.6s;
+}
+@keyframes goal-pop {
+  from {
+    transform: scale(0.2) rotate(-12deg);
+    opacity: 0;
+  }
+}
+@keyframes goal-glow {
+  50% {
+    box-shadow: 0 0 18px 4px rgba(16, 185, 129, 0.7);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.dark body::before,
+  .trophy-halo,
+  .trophy-sweep,
+  .text-shine,
+  .goal-flash,
+  .goal-badge {
+    animation: none;
+  }
+  .trophy-sweep {
+    display: none;
+  }
+}

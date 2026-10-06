@@ -61,17 +61,17 @@ function LeaderTable({ title, unit, rows }: { title: string; unit: string; rows:
         <table className="w-full text-sm">
           <thead>
             <tr className="border-b border-navy-100 font-display text-xs uppercase tracking-wider text-navy-500">
-              <th className="w-8 py-1.5 pl-3 text-left">#</th>
-              <th className="py-1.5 text-left">Jugador</th>
-              <th className="w-10 py-1.5 text-center">PJ</th>
-              <th className="w-14 py-1.5 pr-3 text-right">{unit}</th>
+              <th className="w-8 py-2.5 pl-3 text-left">#</th>
+              <th className="py-2.5 text-left">Jugador</th>
+              <th className="w-10 py-2.5 text-center">PJ</th>
+              <th className="w-14 py-2.5 pr-3 text-right">{unit}</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-navy-50">
             {rows.slice(0, 15).map((r, i) => (
               <tr key={r.name + i}>
-                <td className="py-1.5 pl-3 tabular-nums text-navy-400">{i > 0 && rows[i - 1].value === r.value ? "" : i + 1}</td>
-                <td className="py-1.5">
+                <td className="py-2.5 pl-3 tabular-nums text-navy-400">{i > 0 && rows[i - 1].value === r.value ? "" : i + 1}</td>
+                <td className="py-2.5">
                   <span className="flex min-w-0 items-center gap-2">
                     <TeamLogo team={r.team} size={18} />
                     {r.id ? (
@@ -84,8 +84,8 @@ function LeaderTable({ title, unit, rows }: { title: string; unit: string; rows:
                     <span className="hidden truncate text-xs text-navy-400 sm:inline">{r.team.name}</span>
                   </span>
                 </td>
-                <td className="py-1.5 text-center tabular-nums text-navy-500">{r.matches || "—"}</td>
-                <td className="py-1.5 pr-3 text-right font-display text-base font-bold tabular-nums text-navy-950">{r.value}</td>
+                <td className="py-2.5 text-center tabular-nums text-navy-500">{r.matches || "—"}</td>
+                <td className="py-2.5 pr-3 text-right font-display text-base font-bold tabular-nums text-navy-950">{r.value}</td>
               </tr>
             ))}
           </tbody>
