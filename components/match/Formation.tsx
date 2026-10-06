@@ -50,7 +50,8 @@ const lastName = (name: string) => {
 };
 
 // Media cancha con los titulares en su esquema (el arco propio abajo). Si el esquema no cierra, la lista.
-export default function Formation({ lineup, color }: { lineup: Lineup; color: string }) {
+// Con onPlayer, tocar un jugador abre su ficha del partido; si no, lleva a su perfil.
+export default function Formation({ lineup, color, onPlayer }: { lineup: Lineup; color: string; onPlayer?: (id: string) => void }) {
   const rows = arrange(lineup);
   return (
     <div>
@@ -72,11 +73,11 @@ export default function Formation({ lineup, color }: { lineup: Lineup; color: st
             {rows.map((row, r) => (
               <div key={r} className="flex justify-around">
                 {row.map((p) => (
-                  <PlayerLink key={p.name} p={p} className="flex w-16 flex-col items-center text-center hover:opacity-80 sm:w-20">
+                  <PlayerLink key={p.name} p={p} onPlayer={onPlayer} className="flex w-16 flex-col items-center text-center hover:opacity-80 sm:w-20">
                     <span className="flex h-7 w-7 items-center justify-center rounded-full border-2 border-white font-display text-xs font-bold text-white shadow" style={{ background: color }}>
                       {p.number ?? ""}
                     </span>
-                    <span className="mt-0.5 line-clamp-1 rounded bg-navy-950/60 px-1 text-[0.65rem] font-semibold leading-tight text-white">
+                    <span className="on-dark mt-0.5 line-clamp-1 rounded bg-navy-950/60 px-1 text-[0.65rem] font-semibold leading-tight text-white">
                       {lastName(p.name)}
                       {p.subbedOut && " ↓"}
                     </span>
@@ -91,7 +92,7 @@ export default function Formation({ lineup, color }: { lineup: Lineup; color: st
           {lineup.starters.map((p) => (
             <li key={p.name} className="flex gap-2">
               <span className="w-6 text-right font-display font-bold text-navy-400">{p.number}</span>
-              <PlayerLink p={p} className="hover:text-volt-600 hover:underline">
+              <PlayerLink p={p} onPlayer={onPlayer} className="hover:text-volt-600 hover:underline">
                 {p.name}
               </PlayerLink>
             </li>
@@ -105,7 +106,7 @@ export default function Formation({ lineup, color }: { lineup: Lineup; color: st
             {lineup.subs.map((p) => (
               <li key={p.name} className="flex gap-2 text-navy-700">
                 <span className="w-6 text-right font-display font-bold text-navy-400">{p.number}</span>
-                <PlayerLink p={p} className="truncate hover:text-volt-600 hover:underline">
+                <PlayerLink p={p} onPlayer={onPlayer} className="truncate hover:text-volt-600 hover:underline">
                   {p.name}
                   {p.subbedIn && <span className="text-emerald-600"> ↑</span>}
                 </PlayerLink>
@@ -118,8 +119,14 @@ export default function Formation({ lineup, color }: { lineup: Lineup; color: st
   );
 }
 
-// Nombre de un jugador: lleva a su perfil si ESPN da su número.
-function PlayerLink({ p, className, children }: { p: LineupPlayer; className?: string; children: React.ReactNode }) {
+// Nombre de un jugador: abre su ficha del partido o lleva a su perfil, si ESPN da su número.
+function PlayerLink({ p, onPlayer, className, children }: { p: LineupPlayer; onPlayer?: (id: string) => void; className?: string; children: React.ReactNode }) {
+  if (p.id && onPlayer)
+    return (
+      <button type="button" onClick={() => onPlayer(p.id!)} className={className}>
+        {children}
+      </button>
+    );
   return p.id ? (
     <Link href={`/jugador/${p.id}`} className={className}>
       {children}

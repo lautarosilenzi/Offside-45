@@ -121,7 +121,7 @@ export default async function PlayerPage({ params, searchParams }: { params: { i
               key={s.value}
               href={`/jugador/${bio.id}${s.value === data.seasons[0]?.value ? "" : `?temporada=${s.value}`}`}
               className={`rounded-full px-3 py-1 font-display text-sm font-bold uppercase tracking-wide transition ${
-                s.value === data.season ? "bg-navy-950 text-white" : "bg-white text-navy-600 ring-1 ring-navy-100 hover:ring-volt-400"
+                s.value === data.season ? "bg-navy-950 text-white dark:bg-volt-600" : "bg-white text-navy-600 ring-1 ring-navy-100 hover:ring-volt-400"
               }`}
             >
               {s.label}
@@ -260,7 +260,10 @@ export default async function PlayerPage({ params, searchParams }: { params: { i
                           <span className="flex items-center gap-1.5">
                             <span className="w-3 text-xs text-navy-400">{m.home ? "L" : "V"}</span>
                             <TeamLogo team={m.opponent} size={18} />
-                            <span className="max-w-[11rem] truncate text-navy-900">{m.opponent.name}</span>
+                            {/* Lleva a la página del partido (estadísticas de los dos equipos y la ficha de cada jugador). */}
+                            <Link href={`/partido/${m.league}/${m.id}`} className="max-w-[11rem] truncate text-navy-900 hover:text-volt-600 hover:underline">
+                              {m.opponent.name}
+                            </Link>
                           </span>
                         </td>
                         <td className="px-2 py-2 text-center">

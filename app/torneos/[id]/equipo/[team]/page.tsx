@@ -124,8 +124,8 @@ export default async function TeamPage({ params }: { params: { id: string; team:
           </section>
 
           <section className="space-y-4">
-            <MatchList title="Próximos partidos" matches={next} team={params.team} />
-            <MatchList title="Resultados" matches={[...played].reverse()} team={params.team} />
+            <MatchList title="Próximos partidos" matches={next} team={params.team} league={comp.code} />
+            <MatchList title="Resultados" matches={[...played].reverse()} team={params.team} league={comp.code} />
           </section>
         </div>
         <p className="text-xs text-navy-400">Plantel, partidos y tabla: ESPN.</p>
@@ -143,7 +143,7 @@ function Stat({ label, value }: { label: string; value: React.ReactNode }) {
   );
 }
 
-function MatchList({ title, matches, team }: { title: string; matches: LiveEvent[]; team: string }) {
+function MatchList({ title, matches, team, league }: { title: string; matches: LiveEvent[]; team: string; league: string }) {
   return (
     <div className="panel overflow-hidden">
       <h3 className="bg-navy-950 px-4 py-1.5 font-display text-xs font-bold uppercase tracking-widest text-white">{title}</h3>
@@ -158,7 +158,8 @@ function MatchList({ title, matches, team }: { title: string; matches: LiveEvent
             const theirs = Number(rival.score ?? 0);
             const res = m.state === "post" ? (mine > theirs ? "V" : mine < theirs ? "D" : "E") : undefined;
             return (
-              <li key={m.id} className="flex items-center gap-2 px-3 py-1.5">
+              <li key={m.id}>
+                <Link href={`/partido/${league}/${m.id}`} className="flex items-center gap-2 px-3 py-1.5 transition hover:bg-volt-500/5">
                 <span className="w-24 shrink-0 text-xs capitalize text-navy-400">{when(m.date)}</span>
                 <span className="text-xs text-navy-400">{home ? "L" : "V"}</span>
                 <TeamLogo team={rival} size={18} />
@@ -175,6 +176,7 @@ function MatchList({ title, matches, team }: { title: string; matches: LiveEvent
                     {mine}-{theirs}
                   </span>
                 ) : null}
+                </Link>
               </li>
             );
           })}

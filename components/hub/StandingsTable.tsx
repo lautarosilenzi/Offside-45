@@ -20,12 +20,15 @@ export default function StandingsTable({
   marks,
   teamHref,
   title,
+  highlight,
 }: {
   tables: LiveTable[];
   form: Record<string, Result[]>;
   marks?: Mark[];
   teamHref?: (espnId: string) => string;
   title?: string;
+  // Equipos resaltados (los del partido, en su página).
+  highlight?: string[];
 }) {
   const legend = new Map<string, string>();
   for (const t of tables) for (const r of t.rows) if (r.note) legend.set(r.note.description, r.note.color);
@@ -61,7 +64,10 @@ export default function StandingsTable({
                 const last = r.team.espnId ? form[r.team.espnId] ?? [] : [];
                 const name = <span className="truncate font-semibold text-navy-900">{r.team.name}</span>;
                 return (
-                  <tr key={r.team.espnId ?? r.team.name} className="border-b border-navy-50 last:border-0">
+                  <tr
+                    key={r.team.espnId ?? r.team.name}
+                    className={`border-b border-navy-50 last:border-0 ${r.team.espnId && highlight?.includes(r.team.espnId) ? "bg-volt-500/10 shadow-[inset_3px_0_0_#1f6bff]" : ""}`}
+                  >
                     <td className="py-1.5 pl-2 text-center">
                       <span
                         className="inline-flex h-6 w-6 items-center justify-center rounded font-display text-xs font-bold tabular-nums"

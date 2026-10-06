@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { LiveEvent, MatchSummary } from "@/lib/live/espn";
 import { fmtOdd } from "@/lib/live/odds";
@@ -77,6 +78,13 @@ export default function MatchPanel({ league, match }: { league: string; match: L
 
   return (
     <div className="border-t border-navy-50 bg-navy-50/50 px-3 py-3 text-sm sm:px-4">
+      {/* La página completa del partido: línea de tiempo, jugadores clave, estadísticas y la ficha de cada jugador. */}
+      <Link
+        href={`/partido/${league}/${match.id}`}
+        className="mb-3 flex items-center justify-between rounded-2xl bg-navy-950 px-4 py-2.5 font-display text-sm font-bold uppercase tracking-wide text-white transition hover:bg-navy-800"
+      >
+        Ver partido completo y estadísticas <span aria-hidden>→</span>
+      </Link>
       <div className="mb-3 flex flex-wrap items-center gap-1.5">
         {tabs
           .filter((t) => t.show)
