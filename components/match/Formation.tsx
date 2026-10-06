@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Lineup, LineupPlayer } from "@/lib/live/espn";
 
 // Qué tan adelantado juega cada posición que informa ESPN (arquero 0 … delantero 4) y de qué lado (-1 izquierda,
@@ -71,7 +72,7 @@ export default function Formation({ lineup, color }: { lineup: Lineup; color: st
             {rows.map((row, r) => (
               <div key={r} className="flex justify-around">
                 {row.map((p) => (
-                  <div key={p.name} className="flex w-16 flex-col items-center text-center sm:w-20">
+                  <PlayerLink key={p.name} p={p} className="flex w-16 flex-col items-center text-center hover:opacity-80 sm:w-20">
                     <span className="flex h-7 w-7 items-center justify-center rounded-full border-2 border-white font-display text-xs font-bold text-white shadow" style={{ background: color }}>
                       {p.number ?? ""}
                     </span>
@@ -79,7 +80,7 @@ export default function Formation({ lineup, color }: { lineup: Lineup; color: st
                       {lastName(p.name)}
                       {p.subbedOut && " ↓"}
                     </span>
-                  </div>
+                  </PlayerLink>
                 ))}
               </div>
             ))}
@@ -90,7 +91,9 @@ export default function Formation({ lineup, color }: { lineup: Lineup; color: st
           {lineup.starters.map((p) => (
             <li key={p.name} className="flex gap-2">
               <span className="w-6 text-right font-display font-bold text-navy-400">{p.number}</span>
-              {p.name}
+              <PlayerLink p={p} className="hover:text-volt-600 hover:underline">
+                {p.name}
+              </PlayerLink>
             </li>
           ))}
         </ul>
@@ -102,15 +105,26 @@ export default function Formation({ lineup, color }: { lineup: Lineup; color: st
             {lineup.subs.map((p) => (
               <li key={p.name} className="flex gap-2 text-navy-700">
                 <span className="w-6 text-right font-display font-bold text-navy-400">{p.number}</span>
-                <span className="truncate">
+                <PlayerLink p={p} className="truncate hover:text-volt-600 hover:underline">
                   {p.name}
                   {p.subbedIn && <span className="text-emerald-600"> ↑</span>}
-                </span>
+                </PlayerLink>
               </li>
             ))}
           </ul>
         </details>
       )}
     </div>
+  );
+}
+
+// Nombre de un jugador: lleva a su perfil si ESPN da su número.
+function PlayerLink({ p, className, children }: { p: LineupPlayer; className?: string; children: React.ReactNode }) {
+  return p.id ? (
+    <Link href={`/jugador/${p.id}`} className={className}>
+      {children}
+    </Link>
+  ) : (
+    <span className={className}>{children}</span>
   );
 }

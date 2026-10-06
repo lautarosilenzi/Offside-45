@@ -74,7 +74,13 @@ function LeaderTable({ title, unit, rows }: { title: string; unit: string; rows:
                 <td className="py-1.5">
                   <span className="flex min-w-0 items-center gap-2">
                     <TeamLogo team={r.team} size={18} />
-                    <span className="truncate font-semibold text-navy-900">{r.name}</span>
+                    {r.id ? (
+                      <Link href={`/jugador/${r.id}`} className="truncate font-semibold text-navy-900 hover:text-volt-600 hover:underline">
+                        {r.name}
+                      </Link>
+                    ) : (
+                      <span className="truncate font-semibold text-navy-900">{r.name}</span>
+                    )}
                     <span className="hidden truncate text-xs text-navy-400 sm:inline">{r.team.name}</span>
                   </span>
                 </td>

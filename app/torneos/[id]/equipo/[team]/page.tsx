@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import TeamLogo from "@/components/hub/TeamLogo";
 import TeamHero from "@/components/team/TeamHero";
 import { honoursOf } from "@/lib/honours";
+import { currentCoach } from "@/lib/live/coach";
 import { findLiveCompetition } from "@/lib/live/competitions";
 import { roster, seasonEvents, standings, teamInfo, type LiveEvent, type LiveTable } from "@/lib/live/espn";
 import { formByTeam, phaseLabel, isKnockout } from "@/lib/live/season";
@@ -26,11 +27,13 @@ export default async function TeamPage({ params }: { params: { id: string; team:
   const comp = findLiveCompetition(params.id);
   if (!comp || !/^\d+$/.test(params.team)) notFound();
 
-  const [squad, season, tables, info] = await Promise.all([
+  const [squad, season, tables, info, coach] = await Promise.all([
     roster(comp.code, params.team).catch(() => null),
     seasonEvents(comp.code).catch(() => ({ name: "", label: "", events: [] as LiveEvent[], all: [] as LiveEvent[] })),
     standings(comp.code).catch((): LiveTable[] => []),
     teamInfo(params.team).catch(() => ({ league: undefined, color: undefined })),
+    // El DT de ESPN está desactualizado: se usa el que coincide en Wikidata y Wikipedia (lib/live/coach.ts).
+    currentCoach(params.team).catch(() => undefined),
   ]);
   const matches = season.events.filter((e) => e.home.espnId === params.team || e.away.espnId === params.team);
   const team = squad?.team ?? (matches[0] ? (matches[0].home.espnId === params.team ? matches[0].home : matches[0].away) : undefined);
@@ -63,7 +66,7 @@ export default async function TeamPage({ params }: { params: { id: string; team:
         team={{ ...team, espnId: params.team }}
         compId={comp.id}
         compName={comp.name}
-        coach={squad?.coach}
+        coach={coach}
         honours={honoursOf(params.team, team.name, info.league)}
         color={info.color}
       />
@@ -102,11 +105,15 @@ export default async function TeamPage({ params }: { params: { id: string; team:
                     <h3 className="bg-navy-950 px-4 py-1.5 font-display text-xs font-bold uppercase tracking-widest text-white">{g}</h3>
                     <ul className="divide-y divide-navy-50 text-sm">
                       {groups.get(g)!.map((p) => (
-                        <li key={p.id} className="flex items-center gap-3 px-4 py-1.5">
-                          <span className="w-7 text-center font-display font-bold tabular-nums text-navy-400">{p.number ?? ""}</span>
-                          <span className="min-w-0 flex-1 truncate font-medium text-navy-900">{p.name}</span>
-                          <span className="hidden text-xs text-navy-400 sm:inline">{p.nationality}</span>
-                          <span className="w-14 text-right text-xs tabular-nums text-navy-500">{p.age ? `${p.age} años` : ""}</span>
+                        <li key={p.id}>
+                          {/* Cada jugador lleva a su perfil, con sus partidos de la temporada. */}
+                          <Link href={`/jugador/${p.id}`} className="group flex items-center gap-3 px-4 py-1.5 transition hover:bg-volt-500/5">
+                            <span className="w-7 text-center font-display font-bold tabular-nums text-navy-400">{p.number ?? ""}</span>
+                            <span className="min-w-0 flex-1 truncate font-medium text-navy-900 group-hover:text-volt-600 group-hover:underline">{p.name}</span>
+                            <span className="hidden text-xs text-navy-400 sm:inline">{p.nationality}</span>
+                            <span className="w-14 text-right text-xs tabular-nums text-navy-500">{p.age ? `${p.age} años` : ""}</span>
+                            <span aria-hidden className="text-navy-300 group-hover:text-volt-500">›</span>
+                          </Link>
                         </li>
                       ))}
                     </ul>

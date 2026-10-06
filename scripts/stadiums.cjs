@@ -147,6 +147,9 @@ const label = (e) => e?.labels?.es?.value ?? e?.labels?.en?.value ?? "";
     if (ok) out[t.id] = { team: t.name, stadium: label(venues[c.venue]), ...ii };
   }
   fs.writeFileSync(OUT, JSON.stringify(out, null, 1));
+  // Ficha de Wikidata de cada club (también de los que no tienen foto): de ahí sale el DT (lib/live/coach.ts).
+  const qids = Object.fromEntries(Object.entries(club).map(([id, c]) => [id, c.qid]));
+  fs.writeFileSync(path.join(__dirname, "../lib/data/clubs-wikidata.generated.json"), JSON.stringify(qids, null, 1));
   fs.writeFileSync(path.join(CACHE, "..", "stadiums-report.txt"), report.join("\n"));
   console.log(Object.keys(out).length, "con foto · revisar .cache/stadiums-report.txt");
 })();

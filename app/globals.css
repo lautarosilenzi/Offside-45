@@ -526,9 +526,9 @@ html.dark .bg-navy-950\/60 {
 html.dark .logo-img {
   filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.55)) drop-shadow(0 0 5px rgba(255, 255, 255, 0.12));
 }
-/* En las portadas (fondo oscuro en los dos modos), los logos y escudos van sobre una placa blanca: los de letras oscuras
+/* En los títulos de las portadas (fondo oscuro en los dos modos), los logos y escudos grandes van sobre una placa blanca: los de letras oscuras
    (Liga Profesional, Premier, Juventus…) no se pierden. */
-.hero .logo-img {
+.hero :is(.hero-title, .logo-plate) .logo-img {
   background: #fff;
   border-radius: 0.9rem;
   padding: 0.35rem;

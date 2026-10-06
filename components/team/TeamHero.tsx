@@ -48,7 +48,9 @@ export default function TeamHero({
             ← {compName}
           </Link>
           <div className="flex flex-wrap items-center gap-4">
-            <TeamLogo team={team} size={72} />
+            <span className="logo-plate">
+              <TeamLogo team={team} size={72} />
+            </span>
             <div className="min-w-0">
               <h1 className="hero-title font-display text-[2.4rem] font-extrabold uppercase italic leading-[0.95] tracking-wide sm:text-6xl">{team.name}</h1>
               <p className="mt-1.5 text-sm text-navy-100 sm:text-base">

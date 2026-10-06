@@ -64,6 +64,9 @@ function team(t: any, score?: string, winner?: boolean, shootout?: number): Live
   };
 }
 
+// Equipo a partir de su número, nombre y escudo de ESPN (con nuestros nombres para los clubes argentinos).
+export const espnTeam = (id: string, displayName: string, logo?: string) => team({ id, displayName, logo });
+
 function incidentType(text: string, d: any): LiveEvent["incidents"][number]["type"] | null {
   if (d.ownGoal) return "own-goal";
   if (d.penaltyKick && d.scoringPlay) return "penalty";
@@ -171,13 +174,14 @@ export async function teamInfo(espnTeamId: string): Promise<{ league?: string; c
   return { league: t.defaultLeague?.slug, color: t.color ? `#${t.color}` : undefined, alternateColor: t.alternateColor ? `#${t.alternateColor}` : undefined };
 }
 
-export type Leader = { name: string; team: LiveTeam; matches: number; value: number };
+export type Leader = { id?: string; name: string; team: LiveTeam; matches: number; value: number };
 
 // Goleadores y asistidores de la temporada.
 export async function leaders(league: string): Promise<{ goals: Leader[]; assists: Leader[] }> {
   const j = await getJson(`${BASE}/site/v2/sports/soccer/${league}/statistics`, 3600);
   const pick = (name: string): Leader[] =>
     ((j.stats ?? []).find((s: any) => s.name === name)?.leaders ?? []).map((l: any) => ({
+      id: l.athlete?.id ? String(l.athlete.id) : undefined,
       name: l.athlete?.displayName ?? "—",
       team: team(l.athlete?.team ?? l.team),
       matches: Number((String(l.displayValue).match(/Matches:\s*(\d+)/) ?? [])[1] ?? 0),
@@ -241,7 +245,7 @@ export async function leagueTeams(league: string): Promise<LiveTeam[]> {
 }
 
 // Detalle de un partido: formaciones, incidencias, estadísticas, relato y cuotas.
-export type LineupPlayer = { name: string; number?: string; position: string; place?: number; subbedIn?: boolean; subbedOut?: boolean };
+export type LineupPlayer = { id?: string; name: string; number?: string; position: string; place?: number; subbedIn?: boolean; subbedOut?: boolean };
 export type Lineup = { team: LiveTeam; side: "home" | "away"; formation?: string; starters: LineupPlayer[]; subs: LineupPlayer[] };
 export type KeyEvent = { minute: string; type: string; text: string; side?: "home" | "away" };
 export type MatchSummary = {
@@ -260,6 +264,7 @@ export async function matchSummary(league: string, eventId: string): Promise<Mat
   const homeId = String(comp.competitors?.find((c: any) => c.homeAway === "home")?.team?.id ?? "");
   const sideOf = (teamId?: unknown) => (teamId === undefined ? undefined : String(teamId) === homeId ? "home" : "away");
   const player = (p: any): LineupPlayer => ({
+    id: p.athlete?.id ? String(p.athlete.id) : undefined,
     name: p.athlete?.displayName ?? "—",
     number: p.jersey ?? undefined,
     position: p.position?.abbreviation ?? "",
