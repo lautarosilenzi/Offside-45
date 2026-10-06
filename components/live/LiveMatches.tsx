@@ -222,8 +222,8 @@ function Side({ team, align }: { team: LiveTeam; align: "left" | "right" }) {
       ) : (
         <span className="h-7 w-7 shrink-0" />
       )}
-      {/* En el celular, el nombre en hasta dos renglones en vez de cortarlo ("Sout…"). */}
-      <span className={`line-clamp-2 break-words text-[0.8rem] leading-tight sm:truncate sm:text-[0.95rem] ${team.winner ? "font-bold text-navy-950" : "font-medium text-navy-800"}`}>{team.name}</span>
+      {/* En el celular, el nombre en hasta dos renglones (con guion si hace falta) en vez de cortarlo ("Sout…"). */}
+      <span className={`line-clamp-2 hyphens-auto text-[0.8rem] leading-tight sm:truncate sm:text-[0.95rem] ${team.winner ? "font-bold text-navy-950" : "font-medium text-navy-800"}`}>{team.name}</span>
     </span>
   );
 }

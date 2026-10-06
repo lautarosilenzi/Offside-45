@@ -39,7 +39,10 @@ export default function Home() {
               href={c.href!}
               className="flex shrink-0 items-center gap-2 rounded-full bg-white px-3 py-1.5 text-sm font-semibold text-navy-800 ring-1 ring-navy-100 transition hover:ring-volt-400"
             >
-              <CompLogo id={c.id} size={20} />
+              {/* Placa blanca: hay logos oscuros (Liga Profesional, Champions) que no se verían sobre el fondo. */}
+              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#fff] p-0.5">
+                <CompLogo id={c.id} size={18} />
+              </span>
               {c.name}
             </Link>
           ))}

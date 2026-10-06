@@ -30,7 +30,7 @@ export default function PageHero({
               {eyebrow}
             </div>
           )}
-          <h1 className="hero-title font-display text-[2.6rem] font-extrabold uppercase italic leading-[0.95] tracking-wide sm:text-6xl">{title}</h1>
+          <h1 className="hero-title text-shine font-display text-[2.6rem] font-black uppercase italic leading-[0.95] tracking-wide sm:text-6xl">{title}</h1>
           {children && <div className="mt-4 max-w-3xl text-[0.98rem] leading-relaxed text-navy-100 sm:text-base">{children}</div>}
         </div>
       </div>

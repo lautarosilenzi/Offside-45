@@ -54,7 +54,7 @@ export default function TeamHero({
               <TeamLogo team={team} size={72} />
             </span>
             <div className="min-w-0">
-              <h1 className="hero-title font-display text-[2.4rem] font-extrabold uppercase italic leading-[0.95] tracking-wide sm:text-6xl">{team.name}</h1>
+              <h1 className="hero-title text-shine font-display text-[2.4rem] font-black uppercase italic leading-[0.95] tracking-wide sm:text-6xl">{team.name}</h1>
               {/* El DT (verificado en tres fuentes, lib/live/coach.ts) y el estadio con su capacidad (si las fuentes
                   coinciden, scripts/stadiums.cjs). */}
               {coach && (

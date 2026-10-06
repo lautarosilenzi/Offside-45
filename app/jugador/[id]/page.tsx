@@ -89,7 +89,7 @@ export default async function PlayerPage({ params, searchParams }: { params: { i
             </div>
             <div className="min-w-0 max-w-full">
               <p className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-volt-300 sm:text-sm">{bio.position || "Jugador"}</p>
-              <h1 className="hero-title font-display text-[2.4rem] font-extrabold uppercase italic leading-[0.95] tracking-wide sm:text-6xl">{bio.name}</h1>
+              <h1 className="hero-title text-shine font-display text-[2.4rem] font-black uppercase italic leading-[0.95] tracking-wide sm:text-6xl">{bio.name}</h1>
               {bio.fullName && <p className="mt-1 text-sm text-navy-200">{bio.fullName}</p>}
               <div className="mt-3 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-sm text-navy-100 sm:justify-start">
                 {bio.team &&
