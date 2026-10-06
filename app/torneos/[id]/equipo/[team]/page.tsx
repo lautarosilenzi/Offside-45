@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import PageHero from "@/components/PageHero";
 import TeamLogo from "@/components/hub/TeamLogo";
+import TeamHero from "@/components/team/TeamHero";
+import { honoursOf } from "@/lib/honours";
 import { findLiveCompetition } from "@/lib/live/competitions";
-import { roster, seasonEvents, standings, type LiveEvent, type LiveTable } from "@/lib/live/espn";
+import { roster, seasonEvents, standings, teamInfo, type LiveEvent, type LiveTable } from "@/lib/live/espn";
 import { formByTeam, phaseLabel, isKnockout } from "@/lib/live/season";
 
 export const revalidate = 600;
@@ -25,10 +26,11 @@ export default async function TeamPage({ params }: { params: { id: string; team:
   const comp = findLiveCompetition(params.id);
   if (!comp || !/^\d+$/.test(params.team)) notFound();
 
-  const [squad, season, tables] = await Promise.all([
+  const [squad, season, tables, info] = await Promise.all([
     roster(comp.code, params.team).catch(() => null),
     seasonEvents(comp.code).catch(() => ({ name: "", label: "", events: [] as LiveEvent[], all: [] as LiveEvent[] })),
     standings(comp.code).catch((): LiveTable[] => []),
+    teamInfo(params.team).catch(() => ({ league: undefined, color: undefined })),
   ]);
   const matches = season.events.filter((e) => e.home.espnId === params.team || e.away.espnId === params.team);
   const team = squad?.team ?? (matches[0] ? (matches[0].home.espnId === params.team ? matches[0].home : matches[0].away) : undefined);
@@ -57,21 +59,14 @@ export default async function TeamPage({ params }: { params: { id: string; team:
 
   return (
     <>
-      <PageHero
-        eyebrow={
-          <Link href={`/torneos/${comp.id}#equipos`} className="hover:text-white">
-            ← {comp.name}
-          </Link>
-        }
-        title={
-          <span className="flex items-center gap-3">
-            <TeamLogo team={team} size={56} />
-            {team.name}
-          </span>
-        }
-      >
-        {squad?.coach ? `Director técnico: ${squad.coach}. ` : ""}Plantel, partidos y campaña en {comp.name}.
-      </PageHero>
+      <TeamHero
+        team={{ ...team, espnId: params.team }}
+        compId={comp.id}
+        compName={comp.name}
+        coach={squad?.coach}
+        honours={honoursOf(params.team, team.name, info.league)}
+        color={info.color}
+      />
       <main className="mx-auto max-w-5xl space-y-6 px-4 py-6 sm:px-6">
         <section className="grid grid-cols-2 gap-3 sm:grid-cols-4">
           <Stat label={table && table.name ? `Posición · ${table.name}` : "Posición"} value={row ? `${row.pos}.º` : "—"} />

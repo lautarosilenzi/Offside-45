@@ -7,6 +7,7 @@ import LiveTicker from "@/components/live/LiveTicker";
 import AlertsWatcher from "@/components/match/AlertsWatcher";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
+import { THEME_SCRIPT } from "@/lib/theme";
 import "./globals.css";
 
 const body = Barlow({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-body" });
@@ -22,7 +23,10 @@ const LOGO = existsSync(join(process.cwd(), "public", "logo-circulo.png")) ? "/l
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es" className={`${body.variable} ${display.variable}`}>
+    <html lang="es" className={`${body.variable} ${display.variable}`} suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body className="flex min-h-screen flex-col font-sans">
         <SiteHeader logo={LOGO} />
         <LiveTicker />

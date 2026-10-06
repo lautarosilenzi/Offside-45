@@ -83,7 +83,7 @@ export default function LiveTable({
                           <Crest team={ours} size="xs" />
                         ) : r.team.logo ? (
                           // eslint-disable-next-line @next/next/no-img-element -- escudo de la fuente en vivo
-                          <img src={r.team.logo} alt="" loading="lazy" className="h-5 w-5 object-contain" />
+                          <img src={r.team.logo} alt="" loading="lazy" className="logo-img h-5 w-5 object-contain" />
                         ) : null}
                         <span className="truncate font-semibold text-navy-900">{r.team.name}</span>
                       </span>

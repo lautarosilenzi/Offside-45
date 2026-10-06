@@ -11,7 +11,7 @@ export default function CompLogo({ id, size = 24, className = "" }: { id: string
       alt=""
       width={size}
       height={size}
-      className={`shrink-0 object-contain ${className}`}
+      className={`logo-img shrink-0 object-contain ${className}`}
       style={{ width: size, height: size }}
     />
   );

@@ -137,7 +137,7 @@ export default function LiveMatches({
               <header className="flex items-center gap-2.5 border-b border-navy-100 bg-gradient-to-r from-navy-950 to-navy-800 px-4 py-2 text-white">
                 {league.logo && (
                   // eslint-disable-next-line @next/next/no-img-element -- logo chico
-                  <img src={league.logo} alt="" className="h-6 w-6 rounded bg-white object-contain p-0.5" />
+                  <img src={league.logo} alt="" className="logo-img h-6 w-6 rounded bg-white object-contain p-0.5" />
                 )}
                 {league.href ? (
                   <a href={league.href} className="font-display text-base font-bold uppercase tracking-wide hover:text-brand-300">
@@ -196,7 +196,7 @@ function Side({ team, align }: { team: LiveTeam; align: "left" | "right" }) {
         <Crest team={ours} size="sm" />
       ) : team.logo ? (
         // eslint-disable-next-line @next/next/no-img-element -- escudo de la fuente en vivo
-        <img src={team.logo} alt="" loading="lazy" className="h-7 w-7 shrink-0 object-contain" />
+        <img src={team.logo} alt="" loading="lazy" className="logo-img h-7 w-7 shrink-0 object-contain" />
       ) : (
         <span className="h-7 w-7 shrink-0" />
       )}

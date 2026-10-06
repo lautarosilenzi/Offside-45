@@ -65,7 +65,7 @@ export default function SeriesChart({
       >
         {ticks.map((t) => (
           <g key={t}>
-            <line x1={pad.left} x2={W - pad.right} y1={y(t)} y2={y(t)} stroke="#e1e7f0" strokeWidth={1} />
+            <line x1={pad.left} x2={W - pad.right} y1={y(t)} y2={y(t)} className="stroke-navy-100" strokeWidth={1} />
             <text x={pad.left - 6} y={y(t) + 4} textAnchor="end" className="fill-navy-400" fontSize={11}>
               {t}
             </text>
@@ -95,7 +95,7 @@ export default function SeriesChart({
               return (
                 <g key={si}>
                   <path d={d} fill="none" stroke={s.color} strokeWidth={2} strokeLinejoin="round" strokeLinecap="round" />
-                  {hover !== null && pts[hover] && <circle cx={pts[hover]![0]} cy={pts[hover]![1]} r={5} fill={s.color} stroke="#fff" strokeWidth={2} />}
+                  {hover !== null && pts[hover] && <circle cx={pts[hover]![0]} cy={pts[hover]![1]} r={5} fill={s.color} className="stroke-white" strokeWidth={2} />}
                 </g>
               );
             })}

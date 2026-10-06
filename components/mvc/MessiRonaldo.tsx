@@ -130,7 +130,7 @@ function Ring({ value, color, label }: { value: number; color: string; label: st
   return (
     <div className="flex flex-col items-center gap-1">
       <svg viewBox="0 0 80 80" className="h-24 w-24" role="img" aria-label={`${label}: ${fmt(value, 1)}%`}>
-        <circle cx="40" cy="40" r={r} fill="none" stroke="#e1e7f0" strokeWidth="7" />
+        <circle cx="40" cy="40" r={r} fill="none" className="stroke-navy-100" strokeWidth="7" />
         <circle cx="40" cy="40" r={r} fill="none" stroke={color} strokeWidth="7" strokeLinecap="round" strokeDasharray={`${(value / 100) * c} ${c}`} transform="rotate(-90 40 40)" className="transition-[stroke-dasharray] duration-700" />
         <text x="40" y="45" textAnchor="middle" className="fill-navy-950 font-display" fontSize="17" fontWeight="800">
           {fmt(value, 1)}%

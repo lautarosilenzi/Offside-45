@@ -16,7 +16,7 @@ export default function Crest({ team, size = "sm" }: { team: Team; size?: keyof 
         alt={`Escudo de ${team.name}`}
         width={px}
         height={px}
-        className="shrink-0 object-contain"
+        className="logo-img shrink-0 object-contain"
         style={{ width: px, height: px }}
       />
     );

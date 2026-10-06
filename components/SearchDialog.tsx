@@ -134,7 +134,7 @@ export default function SearchDialog() {
                     <span className="flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-lg bg-navy-50">
                       {it.logo ? (
                         // eslint-disable-next-line @next/next/no-img-element -- escudo o foto de la fuente
-                        <img src={it.logo} alt="" className="h-full w-full object-contain" referrerPolicy="no-referrer" loading="lazy" />
+                        <img src={it.logo} alt="" className="logo-img h-full w-full object-contain" referrerPolicy="no-referrer" loading="lazy" />
                       ) : (
                         <span className="h-1.5 w-1.5 rounded-full bg-navy-300" />
                       )}

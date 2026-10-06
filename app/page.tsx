@@ -1,5 +1,6 @@
 import EraDiff from "@/components/EraDiff";
 import MatchList from "@/components/MatchList";
+import MyTeamCard from "@/components/myteam/MyTeamCard";
 import PageHero from "@/components/PageHero";
 import StatsCard from "@/components/StatsCard";
 import TeamPicker from "@/components/TeamPicker";
@@ -36,6 +37,7 @@ export default function Home({ searchParams }: { searchParams: { a?: string; b?:
         Elegí dos equipos y mirá todos sus enfrentamientos oficiales, resultados y estadísticas.
       </PageHero>
       <main className="mx-auto max-w-5xl space-y-6 px-4 py-8 sm:px-6">
+        <MyTeamCard />
         <TeamPicker a={a} b={b} current={CURRENT} others={OTHERS} foreign={FOREIGN} />
 
         {matches.length === 0 ? (

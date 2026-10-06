@@ -8,6 +8,7 @@ import { FEATURED, GROUPS, LIVE_CODE, compHref } from "@/lib/competitions";
 import LOGOS from "@/lib/data/comps.generated.json";
 import HeaderButtons from "./HeaderButtons";
 import OddsToggle from "./OddsToggle";
+import ThemeToggle from "./ThemeToggle";
 
 // Las cuatro competencias van a su página de torneo (fixture y tablas); la historia de cada una está en su pestaña
 // Campeones y en el menú lateral.
@@ -62,7 +63,7 @@ export default function SiteHeader({ logo }: { logo?: string }) {
 
   return (
     <>
-      <header className="sticky top-0 z-30 px-3 pt-3 sm:px-6 sm:pt-4">
+      <header className="on-dark sticky top-0 z-30 px-3 pt-3 sm:px-6 sm:pt-4">
         <div className="mx-auto flex max-w-5xl items-center gap-2 rounded-full bg-[#050b1a]/90 py-2 pl-2 pr-2 text-white shadow-[0_10px_30px_-10px_rgba(5,11,26,0.7)] ring-1 ring-volt-400/20 backdrop-blur-md">
           <button
             type="button"
@@ -115,7 +116,7 @@ export default function SiteHeader({ logo }: { logo?: string }) {
           onClick={() => setOpen(false)}
         />
         <aside
-          className={`absolute inset-y-0 left-0 flex w-[19rem] max-w-[85vw] flex-col bg-navy-950 text-white shadow-2xl ring-1 ring-white/10 transition-transform duration-300 ease-out ${
+          className={`on-dark absolute inset-y-0 left-0 flex w-[19rem] max-w-[85vw] flex-col bg-navy-950 text-white shadow-2xl ring-1 ring-white/10 transition-transform duration-300 ease-out ${
             open ? "translate-x-0" : "-translate-x-full"
           }`}
           aria-label="Menú"
@@ -156,6 +157,7 @@ export default function SiteHeader({ logo }: { logo?: string }) {
               </div>
             ))}
             <div className="mx-2 my-3 border-t border-white/10" />
+            <ThemeToggle variant="menu" />
             <OddsToggle variant="menu" />
             <div className="mx-2 my-3 border-t border-white/10" />
             {COMMUNITY.map((c) => (

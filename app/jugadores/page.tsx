@@ -131,13 +131,17 @@ export default function LegendsPage({ searchParams }: { searchParams: { a?: stri
   );
 }
 
+// Miniatura de Commons de 500 px en vez de 330: la tarjeta llega a medir 480 px de ancho.
+const sharper = (src: string) => src.replace("/330px-", "/500px-");
+
 function PlayerCard({ l, color }: { l: Legend; color: string }) {
   return (
     <div className="panel overflow-hidden">
-      <div className="relative h-44 bg-navy-900 sm:h-60">
+      {/* 4:3 y la foto centrada a la altura de la cara: en una tarjeta ancha y baja, las caras quedaban cortadas. */}
+      <div className="relative aspect-[4/3] bg-navy-900">
         {l.photo && (
           // eslint-disable-next-line @next/next/no-img-element -- foto de Wikimedia Commons
-          <img src={l.photo.src} alt={l.name} referrerPolicy="no-referrer" className="h-full w-full object-cover object-top" />
+          <img src={sharper(l.photo.src)} alt={l.name} referrerPolicy="no-referrer" className="h-full w-full object-cover object-[50%_25%]" />
         )}
         <div className="absolute inset-x-0 bottom-0 h-1.5" style={{ background: color }} />
         <span className="absolute left-3 top-3 rounded-full bg-navy-950/80 px-2.5 py-1 font-display text-sm font-bold text-white">#{l.rank}</span>

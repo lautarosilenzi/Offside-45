@@ -83,3 +83,10 @@ export function unfollow(id: string) {
   delete all[id];
   write(ALERTS_KEY, all);
 }
+
+// ── Mi equipo ──────────────────────────────────────────────────────────────────────────────────────────────────────
+// El club que eligió el visitante: su competencia en el sitio (para la tabla y el enlace) y su número en ESPN.
+const MY_TEAM_KEY = "o45-mi-equipo";
+export type MyTeam = { comp: string; id: string; name: string; logo?: string };
+export const useMyTeam = () => usePref<MyTeam | null>(MY_TEAM_KEY, null);
+export const setMyTeam = (t: MyTeam | null) => write(MY_TEAM_KEY, t);

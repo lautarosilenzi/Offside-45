@@ -87,7 +87,7 @@ function SeedRow({ s }: { s: Seed }) {
         <Crest team={ours} size="xs" />
       ) : s.row?.team.logo ? (
         // eslint-disable-next-line @next/next/no-img-element -- escudo de la fuente en vivo
-        <img src={s.row.team.logo} alt="" className="h-5 w-5 object-contain" />
+        <img src={s.row.team.logo} alt="" className="logo-img h-5 w-5 object-contain" />
       ) : null}
       <span className="min-w-0 flex-1 truncate font-semibold text-navy-900">{s.row?.team.name ?? "—"}</span>
       <span className="font-display text-xs font-bold tabular-nums text-navy-400">{s.row ? `${s.row.points} pts` : ""}</span>

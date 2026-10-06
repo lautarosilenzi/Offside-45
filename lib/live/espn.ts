@@ -87,15 +87,18 @@ function toEvent(e: any): LiveEvent {
   const comps: any[] = c.competitors ?? [];
   const h = comps.find((x) => x.homeAway === "home") ?? comps[0];
   const a = comps.find((x) => x.homeAway === "away") ?? comps[1];
-  const state = e.status?.type?.state ?? "pre";
+  // En el calendario de un equipo, el estado viene dentro del partido y el resultado como objeto.
+  const status = e.status ?? c.status;
+  const state = status?.type?.state ?? "pre";
+  const score = (x: any) => (state === "pre" ? undefined : typeof x?.score === "object" ? x.score?.displayValue : x?.score);
   return {
     id: String(e.id),
     date: e.date,
     state,
-    detail: e.status?.type?.shortDetail ?? "",
-    clock: e.status?.displayClock,
-    home: team(h?.team, state === "pre" ? undefined : h?.score, h?.winner, shoot(h)),
-    away: team(a?.team, state === "pre" ? undefined : a?.score, a?.winner, shoot(a)),
+    detail: status?.type?.shortDetail ?? "",
+    clock: status?.displayClock,
+    home: team(h?.team, score(h), h?.winner, shoot(h)),
+    away: team(a?.team, score(a), a?.winner, shoot(a)),
     venue: c.venue?.fullName,
     // "apertura---round-of-16" → "round-of-16": la fase sin el nombre del torneo.
     round: e.season?.slug ? String(e.season.slug).split("---").pop() : undefined,
@@ -145,6 +148,27 @@ export async function seasonEvents(league: string): Promise<{ name: string; labe
   const stage = String(lg.season?.type?.name ?? "").toLowerCase().match(/apertura|clausura/)?.[0];
   const events = stage && all.some((e) => e.stage?.includes(stage)) ? all.filter((e) => e.stage?.includes(stage)) : all;
   return { name: lg.season?.type?.name ?? lg.season?.displayName ?? "", label: lg.season?.displayName ?? "", events, all };
+}
+
+// Partidos de un equipo en una competencia: los jugados (del más reciente al más viejo) y los que vienen. Se refresca
+// cada minuto (el partido que se está jugando aparece en los próximos con su resultado parcial).
+export async function teamSchedule(league: string, espnTeamId: string): Promise<{ played: LiveEvent[]; upcoming: LiveEvent[] }> {
+  const base = `${BASE}/site/v2/sports/soccer/${league}/teams/${espnTeamId}/schedule`;
+  const [past, next] = await Promise.all([getJson(base, 60).catch(() => ({ events: [] })), getJson(`${base}?fixture=true`, 60).catch(() => ({ events: [] }))]);
+  const all = new Map<string, LiveEvent>();
+  for (const e of [...(past.events ?? []), ...(next.events ?? [])]) all.set(String(e.id), toEvent(e));
+  const played = [...all.values()].filter((e) => e.state === "post");
+  const upcoming = [...all.values()].filter((e) => e.state !== "post");
+  played.sort((a: LiveEvent, b: LiveEvent) => b.date.localeCompare(a.date));
+  upcoming.sort((a: LiveEvent, b: LiveEvent) => a.date.localeCompare(b.date));
+  return { played, upcoming };
+}
+
+// Datos fijos de un equipo: la liga de su país (para sus títulos) y sus colores. Se refresca una vez por día.
+export async function teamInfo(espnTeamId: string): Promise<{ league?: string; color?: string; alternateColor?: string }> {
+  const j = await getJson(`${BASE}/site/v2/sports/soccer/all/teams/${espnTeamId}`, 86400);
+  const t = j.team ?? {};
+  return { league: t.defaultLeague?.slug, color: t.color ? `#${t.color}` : undefined, alternateColor: t.alternateColor ? `#${t.alternateColor}` : undefined };
 }
 
 export type Leader = { name: string; team: LiveTeam; matches: number; value: number };
