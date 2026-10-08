@@ -26,7 +26,7 @@ const COLS: { key: keyof LegendRow | "ratio"; label: string; title: string }[] =
   { key: "ratio", label: "G/PJ", title: "Goles por partido" },
   { key: "intlGoals", label: "Gol sel.", title: "Goles con la selección mayor" },
   { key: "titles", label: "Títulos", title: "Títulos ganados como jugador" },
-  { key: "worldCups", label: "Mund.", title: "Mundiales ganados" },
+  { key: "worldCups", label: "C. Mundo", title: "Copas del Mundo ganadas" },
   { key: "ballons", label: "BdO", title: "Balones de Oro" },
 ];
 

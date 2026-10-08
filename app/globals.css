@@ -725,3 +725,17 @@ html.dark body::before {
     display: none;
   }
 }
+
+/* Buscador de la portada: el campo con un brillo azul suave alrededor, que se enciende al escribir. */
+.search-input {
+  box-shadow: 0 0 0 1px rgba(127, 176, 255, 0.08), 0 18px 40px -22px rgba(31, 107, 255, 0.55);
+  transition: box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.search-input:focus {
+  box-shadow: 0 0 0 4px rgba(31, 107, 255, 0.25), 0 22px 50px -20px rgba(31, 107, 255, 0.75);
+}
+/* Una sola cruz para borrar (la del buscador; no la que agrega el navegador). */
+.search-input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}

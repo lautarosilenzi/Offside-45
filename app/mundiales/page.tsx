@@ -8,7 +8,7 @@ import { APPEARANCES, TOP_SCORERS, TOP_SCORER_BY_YEAR } from "@/lib/data/world-c
 import { NATIONS, flagOf } from "@/lib/data/nations";
 import { positions } from "@/lib/rank";
 
-export const metadata: Metadata = { title: "Mundiales · Offside 45" };
+export const metadata: Metadata = { title: "Copa del Mundo · Offside 45" };
 
 const nation = (code: string) => NATIONS[code] ?? { name: code, flag: undefined };
 
@@ -40,14 +40,14 @@ export default function WorldCupsPage() {
 
   return (
     <>
-      <PageHero eyebrow="Copa Mundial de la FIFA · desde 1930" title="Mundiales">
+      <PageHero eyebrow="Copa Mundial de la FIFA · desde 1930" title="Copa del Mundo">
         <span className="text-base sm:text-lg">
-          Todos los campeones del mundo, año por año, con la final, la sede y el goleador de cada Mundial. Argentina ganó tres (1978,
-          1986 y 2022), jugó otras cuatro finales y estuvo en {argentina.appearances} de los {WORLD_CUPS.length} Mundiales.
+          Todos los campeones del mundo, año por año, con la final, la sede y el goleador de cada Copa del Mundo. Argentina ganó tres (1978,
+          1986 y 2022), jugó otras cuatro finales y estuvo en {argentina.appearances} de las {WORLD_CUPS.length} Copas del Mundo.
         </span>
         <div className="mt-5 flex flex-wrap items-end gap-x-8 gap-y-2 font-display uppercase tracking-wide">
           <CompLogo id="mundial" size={84} className="trophy-float drop-shadow-[0_0_24px_rgba(245,179,1,0.55)]" />
-          <Stat value={WORLD_CUPS.length} label="Mundiales" />
+          <Stat value={WORLD_CUPS.length} label="Ediciones" />
           <Stat value={titles.length} label="Campeones distintos" />
           <Stat value={APPEARANCES.length} label="Selecciones que jugaron" />
         </div>
@@ -158,7 +158,7 @@ export default function WorldCupsPage() {
                 </thead>
                 <tbody className="divide-y divide-navy-100">
                   {TOP_SCORERS.map((s, i) => (
-                    <tr key={s.name} title={`Mundiales con goles: ${s.tournaments.join(", ")}`}>
+                    <tr key={s.name} title={`Copas del Mundo con goles: ${s.tournaments.join(", ")}`}>
                       <td className="py-2 pl-4 tabular-nums text-navy-400">{scorerPos[i]}</td>
                       <td className="py-2">
                         <span className="flex items-center gap-2 font-semibold text-navy-900">
@@ -177,14 +177,14 @@ export default function WorldCupsPage() {
           </section>
 
           <section>
-            <h2 className="section-title mb-3">Mundiales jugados</h2>
+            <h2 className="section-title mb-3">Participaciones en la Copa del Mundo</h2>
             <div className="panel overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-navy-100 font-display text-xs uppercase tracking-wider text-navy-500">
                     <th className="w-8 py-2 pl-4 text-left">#</th>
                     <th className="py-2 text-left">Selección</th>
-                    <th className="w-16 py-2 text-right">Mundiales</th>
+                    <th className="w-16 py-2 text-right">Jugadas</th>
                     <th className="w-16 py-2 pr-4 text-right">Debut</th>
                   </tr>
                 </thead>

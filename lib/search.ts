@@ -23,7 +23,7 @@ const SECTIONS: SearchItem[] = [
   { kind: "Sección", title: "Copas nacionales", href: "/copas" },
   { kind: "Sección", title: "Clubes argentinos en copas internacionales", href: "/internacionales" },
   { kind: "Sección", title: "Balón de Oro", href: "/balon-de-oro", keywords: "ballon dor premios" },
-  { kind: "Sección", title: "Mundiales", href: "/mundiales", keywords: "copa del mundo" },
+  { kind: "Sección", title: "Copa del Mundo", href: "/mundiales", keywords: "mundiales mundial fifa" },
   { kind: "Sección", title: "Messi vs Cristiano", href: "/messi-vs-cristiano", keywords: "cr7 ronaldo comparacion" },
   { kind: "Sección", title: "Comparador de leyendas", href: "/jugadores", keywords: "jugadores comparar" },
   { kind: "Sección", title: "El foro del hincha", href: "/foro" },
@@ -61,7 +61,8 @@ export function searchIndex(): Promise<SearchItem[]> {
     builtAt = Date.now();
     index = (async () => {
       const competitions: SearchItem[] = [
-        ...FEATURED.filter((c) => c.href).map((c) => ({ kind: "Competencia" as const, title: c.name, href: c.href!, subtitle: "Destacado" })),
+        // Los destacados (Liga Profesional, Libertadores…) van primero ante nombres parecidos ("Liga Profesional Saudí").
+        ...FEATURED.filter((c) => c.href).map((c) => ({ kind: "Competencia" as const, title: c.name, href: c.href!, subtitle: "Destacado", weight: 0 })),
         ...GROUPS.flatMap((g) => g.competitions.map((c) => ({ kind: "Competencia" as const, title: c.name, subtitle: g.name, href: compHref(g, c) }))),
       ];
       const espnOf = Object.fromEntries(Object.entries(ESPN_IDS).map(([espn, ours]) => [ours, espn]));

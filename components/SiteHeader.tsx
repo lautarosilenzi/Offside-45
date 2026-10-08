@@ -12,7 +12,7 @@ import OddsToggle from "./OddsToggle";
 // Las cuatro competencias van a su página de torneo (fixture y tablas); la historia de cada una está en su pestaña
 // Campeones y en el menú lateral.
 const NAV = [
-  { href: "/torneos/liga-profesional", label: "Liga Argentina" },
+  { href: "/torneos/liga-profesional", label: "Liga Profesional" },
   { href: "/torneos/copa-argentina", label: "Copa Argentina" },
   { href: "/torneos/libertadores", label: "Copa Libertadores" },
   { href: "/torneos/sudamericana", label: "Copa Sudamericana" },

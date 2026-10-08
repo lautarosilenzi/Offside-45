@@ -185,12 +185,12 @@ function Champions({ compId, name, history }: { compId: string; name: string; hi
         <>
           <p className="max-w-lg text-navy-600">
             {compId === "eliminatorias"
-              ? "Las Eliminatorias no tienen campeón: reparten los lugares para el Mundial. La historia de los Mundiales está en su sección."
+              ? "Las Eliminatorias no tienen campeón: reparten los lugares para la Copa del Mundo, que tiene su propia sección con toda la historia."
               : `Estamos cargando y verificando la lista de campeones de ${name}.`}
           </p>
           {compId === "eliminatorias" && (
             <Link href="/mundiales" className="btn-primary">
-              Ver los Mundiales
+              Ver la Copa del Mundo
             </Link>
           )}
         </>

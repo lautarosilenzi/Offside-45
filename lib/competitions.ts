@@ -18,7 +18,7 @@ const c = (id: string, name: string, wiki: string, href?: string): Competition =
 // Destacado: lo mismo que destacan los sitios de resultados. Las que tienen datos en vivo van a su página de torneo
 // (/torneos/<id>: fixture, tablas, equipos y estadísticas); la historia de cada una sigue en su sección.
 export const FEATURED: Competition[] = [
-  c("liga-profesional", "Liga Profesional", "es:Primera División de Argentina", "/torneos/liga-profesional"),
+  c("liga-profesional", "Liga Profesional de Fútbol", "es:Primera División de Argentina", "/torneos/liga-profesional"),
   c("primera-nacional", "Primera Nacional", "en:Primera Nacional", "/torneos/primera-nacional"),
   c("libertadores", "Copa Libertadores", "en:Copa Libertadores", "/torneos/libertadores"),
   c("sudamericana", "Copa Sudamericana", "en:Copa Sudamericana", "/torneos/sudamericana"),
@@ -35,7 +35,7 @@ export const GROUPS: CountryGroup[] = [
     name: "Argentina",
     flag: "ar",
     competitions: [
-      c("liga-profesional", "Liga Profesional", "es:Primera División de Argentina", "/temporadas"),
+      c("liga-profesional", "Liga Profesional de Fútbol", "es:Primera División de Argentina", "/temporadas"),
       c("primera-nacional", "Primera Nacional", "en:Primera Nacional"),
       c("copa-argentina", "Copa Argentina", "en:Copa Argentina", "/copa-argentina"),
       c("trofeo-campeones", "Trofeo de Campeones", ""),
@@ -61,7 +61,7 @@ export const GROUPS: CountryGroup[] = [
     flag: "un",
     region: "Internacional",
     competitions: [
-      c("mundial", "Mundiales", "en:FIFA World Cup Trophy" /* logo: ilustración de Commons, cargada a mano */, "/mundiales"),
+      c("mundial", "Copa del Mundo", "en:FIFA World Cup Trophy" /* logo: ilustración de Commons, cargada a mano */, "/mundiales"),
       c("eliminatorias", "Eliminatorias Conmebol", ""),
       c("copa-america", "Copa América", "es:Copa América"),
       c("finalissima", "Finalissima", "es:Copa de Campeones Conmebol-UEFA"),

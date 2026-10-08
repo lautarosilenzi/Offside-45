@@ -1,6 +1,7 @@
 import Link from "next/link";
 import CompLogo from "@/components/CompLogo";
 import LiveMatches from "@/components/live/LiveMatches";
+import HomeSearch from "@/components/HomeSearch";
 import MyTeamCard from "@/components/myteam/MyTeamCard";
 import { FEATURED } from "@/lib/competitions";
 import { liveLeagues } from "@/lib/live/leagues";
@@ -13,11 +14,11 @@ const SPECIALS = [
   { href: "/messi-vs-cristiano", title: "Messi vs Cristiano", text: "Goles, títulos, finales y los partidos que jugaron entre ellos." },
   { href: "/jugadores", title: "Comparador de leyendas", text: "Las 25 leyendas del fútbol, cara a cara." },
   { href: "/campeones", title: "Campeones", text: "Todos los campeones del fútbol argentino." },
-  { href: "/mundiales", title: "Mundiales", text: "Campeones, finales y estadísticas de cada Copa del Mundo." },
+  { href: "/mundiales", title: "Copa del Mundo", text: "Campeones, finales y estadísticas de cada Copa del Mundo." },
   { href: "/descensos", title: "Descensos", text: "Promedios y descensos de la Primera División." },
 ];
 
-// Portada: mi equipo, los partidos del día (en vivo primero) y el acceso a los torneos y a las secciones especiales.
+// Portada: el buscador grande, mi equipo, los partidos del día (en vivo primero) y el acceso a los torneos y a las secciones especiales.
 // El logo del encabezado lleva acá.
 // Los links viejos del historial (/?a=river&b=boca) los redirige next.config.mjs a /historiales.
 export default function Home() {
@@ -27,9 +28,10 @@ export default function Home() {
 
   return (
     <>
-      {/* Sin portada grande: lo primero es tu equipo y los partidos. */}
-      <main className="mx-auto max-w-5xl space-y-5 px-4 py-5 sm:px-6">
+      {/* Sin portada grande: lo primero es el buscador, después tu equipo (si elegiste uno) y los partidos. */}
+      <main className="mx-auto max-w-5xl space-y-6 px-4 py-6 sm:px-6">
         <h1 className="sr-only">Offside 45 · Fútbol en vivo</h1>
+        <HomeSearch />
         <MyTeamCard />
 
         <nav aria-label="Torneos destacados" className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:px-0 [&::-webkit-scrollbar]:hidden">

@@ -19,5 +19,5 @@ export function findLiveCompetition(id: string): LiveCompetition | undefined {
   const group = GROUPS.find((g) => g.competitions.some((c) => c.id === id));
   const c = group?.competitions.find((x) => x.id === id) ?? FEATURED.find((x) => x.id === id);
   if (!c) return undefined;
-  return { id, name: id === "liga-profesional" ? "Liga Profesional" : c.name, code, country: group?.name ?? "", history: HISTORY[id] };
+  return { id, name: id === "liga-profesional" ? "Liga Profesional de Fútbol" : c.name, code, country: group?.name ?? "", history: HISTORY[id] };
 }

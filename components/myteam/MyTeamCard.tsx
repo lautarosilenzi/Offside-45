@@ -46,8 +46,9 @@ export default function MyTeamCard() {
     // eslint-disable-next-line react-hooks/exhaustive-deps -- solo cambia cuando cambia el equipo
   }, [team?.comp, team?.id]);
 
-  // Hasta leer la preferencia, un lugar vacío del mismo alto (así la página no salta).
-  if (!mounted) return <div className="h-[5.5rem]" aria-hidden />;
+  // Sin equipo elegido no se muestra nada (en la portada manda el buscador; el equipo se elige desde su página, con
+  // "Hacerlo mi equipo").
+  if (!mounted || (!team && !changing)) return null;
 
   if (!team || changing)
     return (

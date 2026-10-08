@@ -211,7 +211,7 @@ export async function leaders(league: string): Promise<{ goals: Leader[]; assist
 
 // stats: del torneo en curso (en la Argentina, el Apertura o el Clausura), como las publica ESPN en el plantel.
 export type RosterStats = { apps: number; subIns: number; goals: number; assists: number; yellow: number; red: number };
-export type RosterPlayer = { id: string; name: string; number?: string; position: string; age?: number; nationality?: string; photo?: string; stats?: RosterStats };
+export type RosterPlayer = { id: string; name: string; number?: string; position: string; age?: number; born?: string; nationality?: string; photo?: string; stats?: RosterStats };
 
 function rosterStats(st: any): RosterStats | undefined {
   const all: Record<string, number> = {};
@@ -233,6 +233,7 @@ export async function roster(league: string, espnTeamId: string): Promise<{ team
       number: a.jersey ?? undefined,
       position: a.position?.displayName ?? a.position?.name ?? "",
       age: a.age ?? undefined,
+      born: a.dateOfBirth ? String(a.dateOfBirth).slice(0, 10) : undefined,
       nationality: a.citizenship ?? a.birthPlace?.country ?? undefined,
       photo: a.headshot?.href ?? undefined,
       stats: rosterStats(a.statistics),

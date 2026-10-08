@@ -79,7 +79,7 @@ async function wikidataByName(names: string[]) {
 
 // Tamaño, autor y licencia de las fotos (Commons), con una miniatura de 240 px.
 async function commonsInfo(files: string[]) {
-  const out: Record<string, { url: string; w: number; h: number; credit: string }> = {};
+  const out: Record<string, { url: string; w: number; h: number; credit: string; year?: number }> = {};
   for (let i = 0; i < files.length; i += 40) {
     const chunk = files.slice(i, i + 40);
     const j = await getJson(
@@ -97,6 +97,8 @@ async function commonsInfo(files: string[]) {
         w: ii.width,
         h: ii.height,
         credit: [strip(ii.extmetadata?.Artist?.value).slice(0, 60), strip(ii.extmetadata?.LicenseShortName?.value)].filter(Boolean).join(" · "),
+        // Año en que se tomó la foto (o se subió, si no lo dice).
+        year: Number(strip(ii.extmetadata?.DateTimeOriginal?.value ?? ii.extmetadata?.DateTime?.value).match(/(19|20)\d\d/)?.[0]) || undefined,
       };
     }
   }
@@ -134,11 +136,16 @@ export async function teamPhotos(league: string, teamId: string): Promise<Record
   const info = await commonsInfo([...new Set(Object.values(picks))]).catch(() => ({}) as Awaited<ReturnType<typeof commonsInfo>>);
   for (const [id, file] of Object.entries(picks)) {
     const ii = info[file];
-    // Recortada, o vertical sin ser de cuerpo entero: en una foto apaisada o de cuerpo entero la cara queda chica en el
-    // círculo. Nunca fotos de equipo ("Team Brazil at 2026 FIFA World Cup (Endrick)").
-    if (!ii || /\bteam\b|squad|plantel|equipo|selecci/i.test(file)) continue;
+    // Solo retratos actuales (revisado a mano en octubre de 2026):
+    // - fotos (JPG), no capturas de video (PNG, como la de Santiago Mele con gorra);
+    // - nunca fotos de equipo ("Team Brazil at 2026 FIFA World Cup (Endrick)");
+    // - proporción de retrato: hasta 1,45 de alto por 1 de ancho; más alargadas suelen ser de cuerpo entero (Kranevitter,
+    //   Zaracho), salvo la serie de retratos de medio cuerpo del Mundial 2026 ("Leandro Paredes Argentina v Egypt…");
+    // - tomadas desde 2018 (no la de juvenil).
+    if (!ii || !/\.jpe?g$/i.test(file) || /\bteam\b|squad|plantel|equipo|selecci/i.test(file)) continue;
     const ratio = ii.h / ii.w;
-    if (/crop/i.test(file) ? ratio >= 0.7 : ratio >= 0.95 && ratio <= 1.6) out[id] = { url: ii.url, credit: ii.credit };
+    const portrait = (ratio >= 0.7 && ratio <= 1.45) || (ratio <= 1.55 && / v .*20\d\d/i.test(file));
+    if (portrait && (!ii.year || ii.year >= 2018)) out[id] = { url: ii.url, credit: ii.credit };
   }
   return out;
 }

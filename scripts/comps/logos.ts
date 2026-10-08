@@ -34,6 +34,8 @@ const LOGO_PAGE: Record<string, string> = {
 // Archivo exacto (Wikipedia en inglés), cuando el artículo no marca una imagen principal. Las categorías del ascenso
 // argentino y el fútbol femenino no tienen logo propio: llevan el de la AFA, que las organiza.
 const LOGO_FILE: Record<string, string> = {
+  // Logo oficial de la Liga Profesional de Fútbol (el de Commons es solo el nombre en letras).
+  "liga-profesional": "Liga Profesional de Fútbol (Argentina) logo.svg",
   "leagues-cup": "Leagues_Cup_logo_white-on-black.svg",
   "pro-league-belgica": "Belgian_Pro_League_logo_(2020,_horizontal).svg",
   "mundial-femenino": "FIFA_Women's_World_Cup_wordmark.svg",

@@ -9,6 +9,7 @@ import { findLiveCompetition } from "@/lib/live/competitions";
 import { roster, seasonEvents, teamInfo, type LiveEvent, type RosterPlayer } from "@/lib/live/espn";
 import { teamPhotos, type Photo } from "@/lib/live/photos";
 import { phaseLabel, isKnockout } from "@/lib/live/season";
+import { mergeSquad, wikiSquad, type Line, type TeamPlayer } from "@/lib/live/squad";
 
 export const revalidate = 600;
 // La primera vez busca las fotos del plantel (ESPN y Wikimedia): puede pasar los 10 s por defecto.
@@ -21,8 +22,13 @@ export function generateMetadata({ params }: { params: { id: string; team: strin
   return { title: c ? `Equipo · ${c.name} · Offside 45` : "Offside 45" };
 }
 
-const POSITION: Record<string, string> = { Goalkeeper: "Arqueros", Defender: "Defensores", Midfielder: "Mediocampistas", Forward: "Delanteros" };
-const ORDER = ["Arqueros", "Defensores", "Mediocampistas", "Delanteros", "Otros"];
+const POSITION: Record<string, Line> = { Goalkeeper: "Arquero", Defender: "Defensor", Midfielder: "Mediocampista", Forward: "Delantero" };
+const GROUPS: { line: Line; title: string }[] = [
+  { line: "Arquero", title: "Arqueros" },
+  { line: "Defensor", title: "Defensores" },
+  { line: "Mediocampista", title: "Mediocampistas" },
+  { line: "Delantero", title: "Delanteros" },
+];
 const TZ = "America/Argentina/Buenos_Aires";
 const when = (iso: string) => new Intl.DateTimeFormat("es-AR", { timeZone: TZ, weekday: "short", day: "numeric", month: "numeric", hour: "2-digit", minute: "2-digit", hour12: false }).format(new Date(iso));
 
@@ -30,7 +36,7 @@ export default async function TeamPage({ params }: { params: { id: string; team:
   const comp = findLiveCompetition(params.id);
   if (!comp || !/^\d+$/.test(params.team)) notFound();
 
-  const [squad, season, info, coach, photos] = await Promise.all([
+  const [squad, season, info, coach, photos, wiki] = await Promise.all([
     roster(comp.code, params.team).catch(() => null),
     seasonEvents(comp.code).catch(() => ({ name: "", label: "", events: [] as LiveEvent[], all: [] as LiveEvent[] })),
     teamInfo(params.team).catch(() => ({ league: undefined, color: undefined })),
@@ -38,17 +44,19 @@ export default async function TeamPage({ params }: { params: { id: string; team:
     currentCoach(params.team).catch(() => undefined),
     // Fotos del plantel: ESPN o Wikimedia Commons (lib/live/photos.ts).
     teamPhotos(comp.code, params.team).catch(() => ({}) as Record<string, Photo>),
+    // El plantel actual (números, posiciones, edades) sale de la Wikipedia: el de ESPN tiene números viejos y jugadores
+    // que ya se fueron (lib/live/squad.ts).
+    wikiSquad(params.team).catch(() => null),
   ]);
   const matches = season.events.filter((e) => e.home.espnId === params.team || e.away.espnId === params.team);
   const team = squad?.team ?? (matches[0] ? (matches[0].home.espnId === params.team ? matches[0].home : matches[0].away) : undefined);
   if (!team) notFound();
 
-
-  const groups = new Map<string, NonNullable<typeof squad>["players"]>();
-  for (const p of squad?.players ?? []) {
-    const g = POSITION[p.position] ?? "Otros";
-    groups.set(g, [...(groups.get(g) ?? []), p]);
-  }
+  // Sin plantel en la Wikipedia, el de ESPN tal cual.
+  const players: TeamPlayer[] = wiki
+    ? mergeSquad(wiki, squad?.players ?? [])
+    : (squad?.players ?? []).map((p) => ({ id: p.id, name: p.name, number: p.number, line: POSITION[p.position] ?? "Mediocampista", age: p.age, nationality: p.nationality }));
+  const byNumber = (a: TeamPlayer, b: TeamPlayer) => Number(a.number ?? 999) - Number(b.number ?? 999);
 
   const played = matches.filter((m) => m.state === "post");
   const next = matches.filter((m) => m.state !== "post");
@@ -93,27 +101,53 @@ export default async function TeamPage({ params }: { params: { id: string; team:
         <div className="grid gap-6 [&>*]:min-w-0 lg:grid-cols-[3fr_2fr]">
           <section>
             <h2 className="section-title mb-3">Plantel</h2>
-            {groups.size === 0 ? (
+            {players.length === 0 ? (
               <p className="panel px-6 py-8 text-center text-navy-500">La fuente todavía no publicó el plantel de este equipo.</p>
             ) : (
               <div className="space-y-3">
-                {ORDER.filter((g) => groups.has(g)).map((g) => (
-                  <div key={g} className="panel overflow-hidden">
-                    <h3 className="bg-navy-950 px-4 py-2 font-display text-xs font-bold uppercase tracking-widest text-white">{g}</h3>
+                {GROUPS.filter((g) => players.some((p) => p.line === g.line)).map((g) => (
+                  <div key={g.line} className="panel overflow-hidden">
+                    <h3 className="bg-navy-950 px-4 py-2 font-display text-xs font-bold uppercase tracking-widest text-white">{g.title}</h3>
                     <ul className="divide-y divide-navy-50 text-sm">
-                      {groups.get(g)!.map((p) => (
-                        <li key={p.id}>
-                          {/* Cada jugador lleva a su perfil, con sus partidos de la temporada. */}
-                          <Link href={`/jugador/${p.id}`} className="group flex items-center gap-2.5 px-3 py-2.5 transition hover:bg-volt-500/5 sm:gap-3 sm:px-4">
-                            <span className="w-6 text-center font-display font-bold tabular-nums text-navy-400">{p.number ?? ""}</span>
-                            <Face url={photos[p.id]?.url} />
-                            <span className="min-w-0 flex-1 truncate font-medium text-navy-900 group-hover:text-volt-600 group-hover:underline">{p.name}</span>
-                            <span className="hidden text-xs text-navy-400 sm:inline">{p.nationality}</span>
-                            <span className="w-14 text-right text-xs tabular-nums text-navy-500">{p.age ? `${p.age} años` : ""}</span>
-                            <span aria-hidden className="text-navy-300 group-hover:text-volt-500">›</span>
-                          </Link>
-                        </li>
-                      ))}
+                      {players
+                        .filter((p) => p.line === g.line)
+                        .sort(byNumber)
+                        .map((p) => {
+                          const row = (
+                            <>
+                              <span className="w-6 text-center font-display font-bold tabular-nums text-navy-400">{p.number ?? "–"}</span>
+                              <Face url={p.id ? photos[p.id]?.url : undefined} />
+                              <span className="min-w-0 flex-1">
+                                <span className="block truncate font-medium text-navy-900 group-hover:text-volt-600 group-hover:underline">{p.name}</span>
+                                {/* En el celular, la nacionalidad debajo del nombre. */}
+                                <span className="block truncate text-xs text-navy-400 sm:hidden">
+                                  {p.nationality}
+                                  {p.injured ? " · lesionado" : ""}
+                                </span>
+                              </span>
+                              <span className="hidden text-xs text-navy-400 sm:inline">
+                                {p.nationality}
+                                {p.injured ? " · lesionado" : ""}
+                              </span>
+                              <span className="w-14 text-right text-xs tabular-nums text-navy-500">{p.age ? `${p.age} años` : ""}</span>
+                              <span aria-hidden className={`text-navy-300 group-hover:text-volt-500 ${p.id ? "" : "invisible"}`}>
+                                ›
+                              </span>
+                            </>
+                          );
+                          return (
+                            <li key={p.id ?? p.name}>
+                              {/* Cada jugador lleva a su perfil, con sus partidos de la temporada (si ESPN lo tiene). */}
+                              {p.id ? (
+                                <Link href={`/jugador/${p.id}`} className="group flex items-center gap-2.5 px-3 py-2.5 transition hover:bg-volt-500/5 sm:gap-3 sm:px-4">
+                                  {row}
+                                </Link>
+                              ) : (
+                                <div className="flex items-center gap-2.5 px-3 py-2.5 sm:gap-3 sm:px-4">{row}</div>
+                              )}
+                            </li>
+                          );
+                        })}
                     </ul>
                   </div>
                 ))}
@@ -126,7 +160,9 @@ export default async function TeamPage({ params }: { params: { id: string; team:
             <MatchList title="Resultados" matches={[...played].reverse()} team={params.team} league={comp.code} />
           </section>
         </div>
-        <p className="text-xs text-navy-400">Plantel, partidos y tabla: ESPN.</p>
+        <p className="text-xs text-navy-400">
+          Plantel actual: Wikipedia{wiki ? "" : " (no disponible: se muestra el de ESPN)"}. Estadísticas, partidos y tabla: ESPN.
+        </p>
       </main>
     </>
   );

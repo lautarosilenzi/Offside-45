@@ -34,7 +34,7 @@ export const CATS: { id: TitleCat; label: string; group: "club" | "sel" | "other
   { id: "liga", label: "Ligas", group: "club" },
   { id: "copa", label: "Copas y supercopas nacionales", group: "club" },
   { id: "intl", label: "Internacionales de clubes", group: "club" },
-  { id: "mundial", label: "Mundiales", group: "sel" },
+  { id: "mundial", label: "Copa del Mundo", group: "sel" },
   { id: "continental", label: "Eurocopa / Copa América", group: "sel" },
   { id: "olimpico", label: "Oro olímpico", group: "sel" },
   { id: "selOtros", label: "Otros con la selección", group: "sel" },

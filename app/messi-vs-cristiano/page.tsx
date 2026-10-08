@@ -7,7 +7,7 @@ import { CAREER, H2H_MATCHES, PROFILES, SOURCES, TITLES_CONTESTED, UPDATED, type
 
 export const metadata: Metadata = {
   title: "Messi vs Cristiano Ronaldo · Offside 45",
-  description: "La comparación más completa entre Messi y Cristiano Ronaldo: goles, asistencias, títulos, finales, Mundiales, Champions y cara a cara.",
+  description: "La comparación más completa entre Messi y Cristiano Ronaldo: goles, asistencias, títulos, finales, Copa del Mundo, Champions y cara a cara.",
 };
 
 // Foto más reciente de cada uno en las fichas del Balón de Oro (Wikimedia Commons, con autor y licencia).
@@ -24,7 +24,7 @@ export default function MessiVsCristianoPage() {
   return (
     <>
       <PageHero eyebrow="El duelo del siglo" title="Messi vs Cristiano">
-        Veinte años de rivalidad en números: goles, asistencias, títulos, finales, Mundiales, Champions y los {H2H_MATCHES.length} partidos en que se enfrentaron. Datos al{" "}
+        Veinte años de rivalidad en números: goles, asistencias, títulos, finales, Copas del Mundo, Champions y los {H2H_MATCHES.length} partidos en que se enfrentaron. Datos al{" "}
         {UPDATED}, cruzados entre varias fuentes.
       </PageHero>
       <main className="mx-auto max-w-5xl space-y-10 px-4 py-8 sm:px-6">

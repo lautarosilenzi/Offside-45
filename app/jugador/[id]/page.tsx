@@ -5,7 +5,9 @@ import { notFound } from "next/navigation";
 import SeriesChart from "@/components/charts/SeriesChart";
 import TeamLogo from "@/components/hub/TeamLogo";
 import { findLiveCompetition } from "@/lib/live/competitions";
+import { roster } from "@/lib/live/espn";
 import { teamPhotos } from "@/lib/live/photos";
+import { mergeSquad, wikiSquad } from "@/lib/live/squad";
 import { playerBio, playerSeason, type MatchRow } from "@/lib/live/player";
 
 // Se arma en cada visita: lee la temporada elegida (?temporada=), y eso no se puede guardar como página fija (en
@@ -63,6 +65,14 @@ export default async function PlayerPage({ params, searchParams }: { params: { i
   const chrono = [...matches].reverse();
   // Sin foto en ESPN: la de Wikimedia Commons, si la hay (lib/live/photos.ts).
   const code = clubComp ? findLiveCompetition(clubComp)?.code : undefined;
+  // Número de camiseta del plantel actual (Wikipedia): el de ESPN suele estar viejo. Si no está en el plantel, sin número.
+  const current =
+    code && bio.team?.espnId
+      ? await Promise.all([wikiSquad(bio.team.espnId).catch(() => null), roster(code, bio.team.espnId).catch(() => null)]).then(([w, r]) =>
+          w && r ? mergeSquad(w, r.players).find((p) => p.id === bio.id) : undefined,
+        )
+      : undefined;
+  const jersey = current ? current.number : bio.jersey;
   const photo = bio.photo
     ? { url: bio.photo, credit: undefined }
     : code && bio.team?.espnId
@@ -83,8 +93,8 @@ export default async function PlayerPage({ params, searchParams }: { params: { i
                   <TeamLogo team={bio.team} size={88} />
                 </div>
               ) : null}
-              {bio.jersey && (
-                <span className="absolute bottom-2 right-2 rounded-lg bg-[#050b1a]/85 px-2 py-0.5 font-display text-lg font-extrabold text-white">{bio.jersey}</span>
+              {jersey && (
+                <span className="absolute bottom-2 right-2 rounded-lg bg-[#050b1a]/85 px-2 py-0.5 font-display text-lg font-extrabold text-white">{jersey}</span>
               )}
             </div>
             <div className="min-w-0 max-w-full">

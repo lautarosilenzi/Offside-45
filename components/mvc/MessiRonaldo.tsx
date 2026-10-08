@@ -153,7 +153,7 @@ const SCOPES: { id: Scope; label: string }[] = [
   { id: "seleccion", label: "Selección" },
   { id: "ligas", label: "Ligas" },
   { id: "champions", label: "Champions" },
-  { id: "mundial", label: "Mundiales" },
+  { id: "mundial", label: "Copa del Mundo" },
   { id: "continental", label: "Copa América / Euro" },
 ];
 
@@ -419,7 +419,7 @@ function Tournaments() {
         value={tab}
         onChange={setTab}
         options={[
-          { id: "mundial", label: "Mundiales" },
+          { id: "mundial", label: "Copa del Mundo" },
           { id: "continental", label: "Copa América y Eurocopa" },
           { id: "champions", label: "Champions" },
           { id: "ligas", label: "Ligas" },
@@ -431,12 +431,12 @@ function Tournaments() {
           <CompDuel id="mundial" />
           <div className="grid gap-3 md:grid-cols-2">
             {KEYS.map((p) => (
-              <Editions key={p} p={p} title="Mundiales" rows={WORLD_CUPS[p]} />
+              <Editions key={p} p={p} title="Copa del Mundo" rows={WORLD_CUPS[p]} />
             ))}
           </div>
           <p className="text-xs text-navy-400">
-            Messi es el jugador con más partidos en la historia de los Mundiales y ganó dos veces el Balón de Oro del torneo (2014 y 2022). Los dos jugaron seis
-            Mundiales (2006–2026); en 2026 Argentina perdió la final con España (1–0 en el alargue) y Portugal quedó afuera en octavos, también con España.
+            Messi es el jugador con más partidos en la historia de la Copa del Mundo y ganó dos veces el Balón de Oro del torneo (2014 y 2022). Los dos jugaron seis
+            Copas del Mundo (2006–2026); en 2026 Argentina perdió la final con España (1–0 en el alargue) y Portugal quedó afuera en octavos, también con España.
           </p>
         </div>
       )}
