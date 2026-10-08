@@ -12,8 +12,9 @@ import { phaseLabel, isKnockout } from "@/lib/live/season";
 import { mergeSquad, wikiSquad, type Line, type TeamPlayer } from "@/lib/live/squad";
 
 export const revalidate = 600;
-// La primera vez busca las fotos del plantel (ESPN y Wikimedia): puede pasar los 10 s por defecto.
-export const maxDuration = 30;
+// La primera vez busca el plantel (Wikipedia) y las fotos (ESPN y Wikimedia): puede tardar bastante más que los 10 s por
+// defecto (hasta 28 s probado sin nada guardado).
+export const maxDuration = 60;
 export const dynamicParams = true;
 export const generateStaticParams = () => [];
 
