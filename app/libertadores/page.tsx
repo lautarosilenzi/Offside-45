@@ -4,7 +4,7 @@ import LiveMatches from "@/components/live/LiveMatches";
 import { seasonFinals } from "@/lib/cup-history";
 import { liveLeagues } from "@/lib/live/leagues";
 
-export const metadata: Metadata = { title: "Copa Libertadores · Offside 45" };
+export const metadata: Metadata = { title: "Copa Libertadores · 126Goals" };
 
 export default function LibertadoresPage() {
   return (

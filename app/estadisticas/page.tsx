@@ -9,7 +9,7 @@ import { LEAGUE_TITLES, SEASON_OF_MATCH, isAmateurSeason, seasonLabel } from "@/
 import { getTeam } from "@/lib/teams";
 import type { Match } from "@/lib/types";
 
-export const metadata: Metadata = { title: "Estadísticas · Offside 45" };
+export const metadata: Metadata = { title: "Estadísticas · 126Goals" };
 
 // Partidos de los torneos de Primera que dan título (todas las ligas reconocidas; sin copas, promociones, liguillas
 // ni reclasificaciones con equipos de otras categorías) con resultado válido.

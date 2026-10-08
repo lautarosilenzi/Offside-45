@@ -13,9 +13,9 @@ const valid = (p: { liga: string; id: string }) => /^[a-z0-9._]+$/.test(p.liga) 
 
 export async function generateMetadata({ params }: { params: { liga: string; id: string } }): Promise<Metadata> {
   const m = valid(params) ? await matchPage(params.liga, params.id).catch(() => null) : null;
-  if (!m) return { title: "Partido · Offside 45" };
+  if (!m) return { title: "Partido · 126Goals" };
   const score = m.status.state === "pre" ? "vs" : `${m.home.score} - ${m.away.score}`;
-  return { title: `${m.home.name} ${score} ${m.away.name} · ${m.competition.name} · Offside 45` };
+  return { title: `${m.home.name} ${score} ${m.away.name} · ${m.competition.name} · 126Goals` };
 }
 
 export default async function MatchRoute({ params }: { params: { liga: string; id: string } }) {

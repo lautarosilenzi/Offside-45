@@ -5,7 +5,7 @@ import PageHero from "@/components/PageHero";
 import { MiniTable, RankTable, rankFinals, slugify } from "@/components/TitleBoards";
 import { CUP_COMPETITIONS, CUP_SEASONS, finalRows } from "@/lib/seasons";
 
-export const metadata: Metadata = { title: "Copas Nacionales · Offside 45" };
+export const metadata: Metadata = { title: "Copas Nacionales · 126Goals" };
 
 // Logo de las copas que lo tienen (lib/data/comps.generated.json).
 const CUP_LOGO: Record<string, string> = {

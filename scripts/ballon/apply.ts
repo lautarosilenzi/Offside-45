@@ -3,7 +3,7 @@
 import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 
-const UA = { "User-Agent": "Offside45-photos/1.0 (https://github.com/lautarosilenzi/Offside-45)" };
+const UA = { "User-Agent": "126Goals-photos/1.0 (https://github.com/lautarosilenzi/Offside-45)" };
 const DATA = join(__dirname, "..", "..", "lib", "data", "ballon-dor.ts");
 const cand = JSON.parse(readFileSync(join(__dirname, "candidates.json"), "utf8"));
 const extra = JSON.parse(readFileSync(join(__dirname, "extra.json"), "utf8"));

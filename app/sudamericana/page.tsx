@@ -4,7 +4,7 @@ import LiveMatches from "@/components/live/LiveMatches";
 import { seasonFinals } from "@/lib/cup-history";
 import { liveLeagues } from "@/lib/live/leagues";
 
-export const metadata: Metadata = { title: "Copa Sudamericana · Offside 45" };
+export const metadata: Metadata = { title: "Copa Sudamericana · 126Goals" };
 
 export default function SudamericanaPage() {
   return (

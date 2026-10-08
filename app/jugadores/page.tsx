@@ -20,7 +20,7 @@ import {
 } from "@/lib/legends";
 
 export const metadata: Metadata = {
-  title: "Comparador de leyendas · Offside 45",
+  title: "Comparador de leyendas · 126Goals",
   description: "Compará a los 25 mejores jugadores de la historia: carrera en clubes y selección, goles, títulos y premios individuales.",
 };
 

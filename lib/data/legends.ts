@@ -1,4 +1,4 @@
-// Comparador de leyendas: los 25 jugadores de la lista de Offside 45. Generado con datos de Wikipedia en inglés
+// Comparador de leyendas: los 25 jugadores de la lista de 126Goals. Generado con datos de Wikipedia en inglés
 // (fichas, tablas de estadísticas y secciones de títulos de cada artículo, octubre de 2026), revisados uno por uno.
 // - Clubes (por club): partidos y goles de LIGA, como los publica la ficha de cada jugador.
 // - clubTotal: todas las competencias oficiales de clubes (fila "Career total"); sin equipos B ni juveniles.

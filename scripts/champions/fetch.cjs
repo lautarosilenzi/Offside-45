@@ -19,7 +19,7 @@ const list = fs
     const url =
       "https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=revisions&rvprop=content&rvslots=main&redirects=1&titles=" +
       encodeURIComponent(chunk.map((c) => c[1]).join("|"));
-    const j = await (await fetch(url, { headers: { "User-Agent": "Offside45-data-script/1.0" } })).json();
+    const j = await (await fetch(url, { headers: { "User-Agent": "126Goals-data-script/1.0" } })).json();
     const map = {};
     for (const n of [...(j.query.normalized ?? []), ...(j.query.redirects ?? [])]) map[n.from] = n.to;
     for (const [id, title] of chunk) {

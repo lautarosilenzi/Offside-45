@@ -33,7 +33,7 @@ async function fetchWikiRaw(title: string): Promise<string | null> {
   const path = join(CACHE, `${title.replace(/[^\w()-]+/g, "_")}.txt`);
   if (!existsSync(path)) {
     const url = `https://es.wikipedia.org/w/index.php?title=${encodeURIComponent(title)}&action=raw`;
-    const res = await fetchRetry(url, { headers: { "User-Agent": "Offside45-research/1.0 (datos historicos)" } });
+    const res = await fetchRetry(url, { headers: { "User-Agent": "126Goals-research/1.0 (datos historicos)" } });
     // Las páginas que no existen quedan guardadas vacías, para no volver a pedirlas en cada importación.
     if (res.status === 404) writeFileSync(path, "");
     if (!res.ok) return null;

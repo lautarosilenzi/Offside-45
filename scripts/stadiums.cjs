@@ -20,7 +20,7 @@ const NOT_FIRST_TEAM = /women|femen|feminin|ladies|\bII\b|\bB\b|reserve|youth|ac
 const OUT = path.join(__dirname, "../lib/data/stadiums.generated.json");
 const CACHE = path.join(__dirname, "../.cache/stadiums-wd");
 fs.mkdirSync(CACHE, { recursive: true });
-const UA = { "User-Agent": "Offside45-data-script/1.0 (https://offside-45.vercel.app)" };
+const UA = { "User-Agent": "126Goals-data-script/1.0 (https://offside-45.vercel.app)" };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function json(url) {

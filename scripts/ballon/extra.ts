@@ -1,7 +1,7 @@
 // npx tsx scripts/ballon/extra.ts → scripts/ballon/extra.json (candidatos que después elige apply.ts).
 // Búsqueda extra para los ganadores sin candidatos: nombres en inglés y categorías de Commons.
 import { writeFileSync, readFileSync } from "fs";
-const UA = { "User-Agent": "Offside45-photos/1.0 (https://github.com/lautarosilenzi/Offside-45)" };
+const UA = { "User-Agent": "126Goals-photos/1.0 (https://github.com/lautarosilenzi/Offside-45)" };
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 async function c(p: Record<string, string>): Promise<any> {
   const url = "https://commons.wikimedia.org/w/api.php?" + new URLSearchParams({ format: "json", formatversion: "2", ...p });

@@ -3,7 +3,7 @@ import LiveMatches from "@/components/live/LiveMatches";
 import PageHero from "@/components/PageHero";
 import { liveLeagues } from "@/lib/live/leagues";
 
-export const metadata: Metadata = { title: "En vivo · Offside 45" };
+export const metadata: Metadata = { title: "En vivo · 126Goals" };
 
 export default function LivePage() {
   return (

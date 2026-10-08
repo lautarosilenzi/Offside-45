@@ -9,7 +9,7 @@ import { listFinals } from "@/lib/cup-history";
 import { CLUB_WORLD_CUP, FIFA_INTERCONTINENTAL, INTERCONTINENTAL } from "@/lib/data/world-titles";
 import { getTeam } from "@/lib/teams";
 
-export const metadata: Metadata = { title: "Intercontinental y Mundial de Clubes · Offside 45" };
+export const metadata: Metadata = { title: "Intercontinental y Mundial de Clubes · 126Goals" };
 
 const INTER = listFinals(INTERCONTINENTAL, "Copa Intercontinental");
 const MUNDIAL = listFinals(CLUB_WORLD_CUP, "Mundial de Clubes");

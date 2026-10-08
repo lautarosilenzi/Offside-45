@@ -20,7 +20,7 @@ export const generateStaticParams = () => [];
 
 export function generateMetadata({ params }: { params: { id: string; team: string } }): Metadata {
   const c = findLiveCompetition(params.id);
-  return { title: c ? `Equipo · ${c.name} · Offside 45` : "Offside 45" };
+  return { title: c ? `Equipo · ${c.name} · 126Goals` : "126Goals" };
 }
 
 const POSITION: Record<string, Line> = { Goalkeeper: "Arquero", Defender: "Defensor", Midfielder: "Mediocampista", Forward: "Delantero" };

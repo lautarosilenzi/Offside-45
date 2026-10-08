@@ -4,7 +4,7 @@ import { existsSync, readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import { BALLON_DOR } from "../../lib/data/ballon-dor";
 
-const UA = { "User-Agent": "Offside45-photos/1.0 (https://github.com/lautarosilenzi/Offside-45)" };
+const UA = { "User-Agent": "126Goals-photos/1.0 (https://github.com/lautarosilenzi/Offside-45)" };
 const OUT = join(__dirname, "candidates.json");
 const sleep = (ms: number) => new Promise((res) => setTimeout(res, ms));
 

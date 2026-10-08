@@ -68,7 +68,7 @@ export default function FollowButton({ league, match }: { league: string; match:
             ))}
           </ul>
           <p className="mt-2 text-[0.7rem] leading-snug text-navy-400">
-            Las alertas llegan mientras tengas Offside 45 abierto en alguna pestaña. Las editás cuando quieras en Alertas, arriba.
+            Las alertas llegan mientras tengas 126Goals abierto en alguna pestaña. Las editás cuando quieras en Alertas, arriba.
           </p>
         </div>
       )}

@@ -4,7 +4,7 @@ import CalendarView, { type CalendarFilter } from "@/components/live/CalendarVie
 import { GROUPS, LIVE_CODE } from "@/lib/competitions";
 import { liveLeagues } from "@/lib/live/leagues";
 
-export const metadata: Metadata = { title: "Calendario · Offside 45" };
+export const metadata: Metadata = { title: "Calendario · 126Goals" };
 
 const codesOf = (groups: typeof GROUPS) => groups.flatMap((g) => g.competitions.map((c) => LIVE_CODE[c.id]).filter(Boolean));
 const byId = (ids: string[]) => codesOf(GROUPS.filter((g) => ids.includes(g.id)));

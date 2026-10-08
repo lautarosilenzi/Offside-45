@@ -5,7 +5,7 @@ import { winnerOf } from "@/lib/matches";
 import { SEASONS, seasonLabel } from "@/lib/seasons";
 import { getTeam } from "@/lib/teams";
 
-export const metadata: Metadata = { title: "El foro del hincha · Offside 45" };
+export const metadata: Metadata = { title: "El foro del hincha · 126Goals" };
 
 // Temas del foro: los últimos partidos de los torneos que se están jugando ("Ganó Boca vs Unión").
 function topics(): Topic[] {

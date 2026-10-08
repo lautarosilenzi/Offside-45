@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 import { positions } from "@/lib/rank";
 import { BALLON_DOR, type BallonDor } from "@/lib/data/ballon-dor";
 
-export const metadata: Metadata = { title: "Balón de Oro · Offside 45" };
+export const metadata: Metadata = { title: "Balón de Oro · 126Goals" };
 
 // Ganadores nacidos en la Argentina, aunque hayan jugado para otra selección (Di Stéfano por España, Sívori por Italia).
 const BORN_IN_ARGENTINA: Record<string, string> = {

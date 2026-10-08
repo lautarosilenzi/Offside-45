@@ -85,7 +85,7 @@ export default function AlertsManager() {
         </ul>
       )}
       <p className="text-xs text-navy-400">
-        Las alertas se revisan cada 30 segundos mientras tengas Offside 45 abierto en alguna pestaña, y se guardan solo en este navegador. Los partidos se
+        Las alertas se revisan cada 30 segundos mientras tengas 126Goals abierto en alguna pestaña, y se guardan solo en este navegador. Los partidos se
         dejan de seguir solos cuando terminan.
       </p>
     </div>

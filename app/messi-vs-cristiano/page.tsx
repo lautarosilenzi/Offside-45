@@ -6,7 +6,7 @@ import { BALLON_DOR } from "@/lib/data/ballon-dor";
 import { CAREER, H2H_MATCHES, PROFILES, SOURCES, TITLES_CONTESTED, UPDATED, type PlayerKey } from "@/lib/data/messi-ronaldo";
 
 export const metadata: Metadata = {
-  title: "Messi vs Cristiano Ronaldo · Offside 45",
+  title: "Messi vs Cristiano Ronaldo · 126Goals",
   description: "La comparación más completa entre Messi y Cristiano Ronaldo: goles, asistencias, títulos, finales, Copa del Mundo, Champions y cara a cara.",
 };
 

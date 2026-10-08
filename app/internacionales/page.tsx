@@ -7,7 +7,7 @@ import { MiniTable, RankTable, rankFinals, slugify } from "@/components/TitleBoa
 import { INTL_COMPETITIONS, INTL_SEASONS, finalRows } from "@/lib/seasons";
 import { getTeam } from "@/lib/teams";
 
-export const metadata: Metadata = { title: "Copas internacionales · Offside 45" };
+export const metadata: Metadata = { title: "Copas internacionales · 126Goals" };
 
 // Logo de las copas que lo tienen (lib/data/comps.generated.json).
 const CUP_LOGO: Record<string, string> = {

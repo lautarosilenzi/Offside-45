@@ -9,7 +9,7 @@ import QIDS from "@/lib/data/clubs-wikidata.generated.json";
 
 export type Photo = { url: string; credit?: string };
 
-const UA = { "User-Agent": "Offside45/1.0 (https://offside-45.vercel.app)" };
+const UA = { "User-Agent": "126Goals/1.0 (https://offside-45.vercel.app)" };
 const DAY = 86400;
 
 const norm = (s: string) =>

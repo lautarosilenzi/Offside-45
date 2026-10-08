@@ -6,7 +6,7 @@ import QIDS from "@/lib/data/clubs-wikidata.generated.json";
 export type Line = "Arquero" | "Defensor" | "Mediocampista" | "Delantero";
 export type SquadPlayer = { name: string; number?: string; line: Line; born?: string; nat?: string; injured?: boolean };
 
-const UA = { "User-Agent": "Offside45/1.0 (https://offside-45.vercel.app)" };
+const UA = { "User-Agent": "126Goals/1.0 (https://offside-45.vercel.app)" };
 const REVALIDATE = 21600;
 
 async function getJson(url: string) {

@@ -16,7 +16,7 @@ const find = (pais: string, liga: string) => PENDING.find((p) => p.group.id === 
 
 export function generateMetadata({ params }: { params: { pais: string; liga: string } }): Metadata {
   const p = find(params.pais, params.liga);
-  return { title: p ? `${p.comp.name} · Offside 45` : "Offside 45" };
+  return { title: p ? `${p.comp.name} · 126Goals` : "126Goals" };
 }
 
 // Competencias sin historia cargada: partidos y tabla en vivo (lib/live); las que no tienen fuente en vivo esperan una.

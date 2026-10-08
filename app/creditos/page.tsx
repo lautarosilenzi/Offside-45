@@ -8,7 +8,7 @@ import { FEATURED, GROUPS } from "@/lib/competitions";
 import CompLogo from "@/components/CompLogo";
 import { getTeam } from "@/lib/teams";
 
-export const metadata: Metadata = { title: "Fuentes y créditos · Offside 45" };
+export const metadata: Metadata = { title: "Fuentes y créditos · 126Goals" };
 
 export default function CreditsPage() {
   const crests = Object.entries(CRESTS).filter(([id]) => id !== "lomas-academy");
@@ -17,7 +17,7 @@ export default function CreditsPage() {
 
   return (
     <>
-      <PageHero eyebrow="Offside 45" title="Fuentes y créditos" />
+      <PageHero eyebrow="126Goals" title="Fuentes y créditos" />
       <main className="mx-auto max-w-5xl space-y-8 px-4 py-8 sm:px-6">
         <section>
           <h2 className="section-title mb-3">Datos</h2>

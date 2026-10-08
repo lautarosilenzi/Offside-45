@@ -8,7 +8,7 @@ import { FOREIGN_TEAMS, HISTORIC_TEAMS, TEAMS } from "../../lib/teams";
 import { CRESTS } from "../../lib/crests";
 import { TITLES } from "./titles";
 
-const UA = { "User-Agent": "Offside45-crests/1.0 (https://github.com/lautarosilenzi/Offside-45)" };
+const UA = { "User-Agent": "126Goals-crests/1.0 (https://github.com/lautarosilenzi/Offside-45)" };
 const OUT = join(__dirname, "found.json");
 const sleep = (ms: number) => new Promise((res) => setTimeout(res, ms));
 

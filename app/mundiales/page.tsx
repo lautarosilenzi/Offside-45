@@ -8,7 +8,7 @@ import { APPEARANCES, TOP_SCORERS, TOP_SCORER_BY_YEAR } from "@/lib/data/world-c
 import { NATIONS, flagOf } from "@/lib/data/nations";
 import { positions } from "@/lib/rank";
 
-export const metadata: Metadata = { title: "Copa del Mundo · Offside 45" };
+export const metadata: Metadata = { title: "Copa del Mundo · 126Goals" };
 
 const nation = (code: string) => NATIONS[code] ?? { name: code, flag: undefined };
 

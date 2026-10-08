@@ -26,7 +26,7 @@ export const generateStaticParams = () => [];
 
 export function generateMetadata({ params }: { params: { id: string } }): Metadata {
   const c = findLiveCompetition(params.id);
-  return { title: c ? `${c.name} · Fixture, tablas y estadísticas · Offside 45` : "Offside 45" };
+  return { title: c ? `${c.name} · Fixture, tablas y estadísticas · 126Goals` : "126Goals" };
 }
 
 // Zonas que ESPN no informa, solo donde el reglamento es claro.

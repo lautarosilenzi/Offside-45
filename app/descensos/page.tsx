@@ -7,7 +7,7 @@ import { NO_RELEGATION_NOTE, RELEGATIONS } from "@/lib/data/relegations";
 import { positions } from "@/lib/rank";
 import { getTeam } from "@/lib/teams";
 
-export const metadata: Metadata = { title: "Descensos · Offside 45" };
+export const metadata: Metadata = { title: "Descensos · 126Goals" };
 
 // Descensos por club, con las temporadas. Con igual cantidad, primero el que descendió antes.
 function ranking() {

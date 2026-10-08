@@ -30,7 +30,7 @@ export default function Home() {
     <>
       {/* Sin portada grande: lo primero es el buscador, después tu equipo (si elegiste uno) y los partidos. */}
       <main className="mx-auto max-w-5xl space-y-6 px-4 py-6 sm:px-6">
-        <h1 className="sr-only">Offside 45 · Fútbol en vivo</h1>
+        <h1 className="sr-only">126Goals · Fútbol en vivo</h1>
         <HomeSearch />
         <MyTeamCard />
 

@@ -8,7 +8,7 @@ import { CUP_SEASONS, EXTRA_TITLES, INTL_SEASONS, LEAGUE_TITLES, seasonNameOf, t
 import { getTeam } from "@/lib/teams";
 import type { Season } from "@/lib/types";
 
-export const metadata: Metadata = { title: "Campeones · Offside 45" };
+export const metadata: Metadata = { title: "Campeones · 126Goals" };
 
 // Un título en la lista: liga o copa, con su campeón (o campeones, si fue compartido).
 type Title = {

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import AlertsManager from "@/components/match/AlertsManager";
 
-export const metadata: Metadata = { title: "Alertas · Offside 45" };
+export const metadata: Metadata = { title: "Alertas · 126Goals" };
 
 export default function AlertsPage() {
   return (

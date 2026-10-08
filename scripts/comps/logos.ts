@@ -4,7 +4,7 @@ import { existsSync, readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import { FEATURED, GROUPS } from "../../lib/competitions";
 
-const UA = { "User-Agent": "Offside45-logos/1.0 (https://github.com/lautarosilenzi/Offside-45)" };
+const UA = { "User-Agent": "126Goals-logos/1.0 (https://github.com/lautarosilenzi/Offside-45)" };
 const ROOT = join(__dirname, "..", "..");
 const OUT = join(ROOT, "lib", "data", "comps.generated.json");
 // Artículo de donde sale el logo cuando el de la competencia en el menú no tiene uno (o tiene un mapa, una foto…). Las

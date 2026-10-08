@@ -19,7 +19,7 @@ export const maxDuration = 60;
 
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const bio = /^\d+$/.test(params.id) ? await playerBio(params.id).catch(() => null) : null;
-  return { title: bio ? `${bio.name} · Perfil y estadísticas · Offside 45` : "Jugador · Offside 45" };
+  return { title: bio ? `${bio.name} · Perfil y estadísticas · 126Goals` : "Jugador · 126Goals" };
 }
 
 const TZ = "America/Argentina/Buenos_Aires";

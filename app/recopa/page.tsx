@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import CupHistory from "@/components/CupHistory";
 import { recopaFinals } from "@/lib/cup-history";
 
-export const metadata: Metadata = { title: "Recopa Sudamericana · Offside 45" };
+export const metadata: Metadata = { title: "Recopa Sudamericana · 126Goals" };
 
 export default function RecopaPage() {
   return (

@@ -5,7 +5,7 @@ import { TEAM_IDS_WITH_MATCHES } from "@/lib/matches";
 import { LEAGUE_SEASONS } from "@/lib/seasons";
 import { HISTORIC_TEAMS, TEAMS, getTeam } from "@/lib/teams";
 
-export const metadata: Metadata = { title: "Mi cuenta · Offside 45" };
+export const metadata: Metadata = { title: "Mi cuenta · 126Goals" };
 
 const byName = (a: { name: string }, b: { name: string }) => a.name.localeCompare(b.name, "es");
 
@@ -21,7 +21,7 @@ export default function AccountPage() {
     .map((t) => ({ id: t.id, name: t.name }));
   return (
     <>
-      <PageHero eyebrow="Sumate a Offside 45" title="Mi cuenta">
+      <PageHero eyebrow="Sumate a 126Goals" title="Mi cuenta">
         Creá tu usuario, contanos de qué club sos hincha y participá en el foro.
       </PageHero>
       <main className="mx-auto max-w-3xl px-4 py-8 sm:px-6">

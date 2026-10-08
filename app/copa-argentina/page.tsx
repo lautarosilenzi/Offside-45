@@ -14,7 +14,7 @@ import { liveLeagues } from "@/lib/live/leagues";
 import { getTeam } from "@/lib/teams";
 import type { Match, Season } from "@/lib/types";
 
-export const metadata: Metadata = { title: "Copa Argentina · Offside 45" };
+export const metadata: Metadata = { title: "Copa Argentina · 126Goals" };
 
 const EDITIONS = CUP_COMPETITIONS.find((c) => c.name === "Copa Argentina")!.editions;
 const CURRENT = EDITIONS.find((s) => s.inProgress) ?? EDITIONS[EDITIONS.length - 1];

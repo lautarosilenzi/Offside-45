@@ -16,7 +16,7 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const season = getSeason(params.slug);
-  return { title: `${season ? seasonTitle(season) : params.slug} · Offside 45` };
+  return { title: `${season ? seasonTitle(season) : params.slug} · 126Goals` };
 }
 
 export default function SeasonPage({ params }: { params: { slug: string } }) {

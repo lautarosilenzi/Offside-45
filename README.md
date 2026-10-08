@@ -1,4 +1,4 @@
-# Offside 45
+# 126Goals
 
 App web de fútbol argentino. Primera funcionalidad: **historial entre equipos** (partidos, resultados, competencia y estadísticas).
 

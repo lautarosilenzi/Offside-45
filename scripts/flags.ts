@@ -5,7 +5,7 @@ import { join } from "path";
 import { GROUPS } from "../lib/competitions";
 import { HISTORIC_FLAGS, NATIONS } from "../lib/data/nations";
 
-const UA = { "User-Agent": "Offside45-flags/1.0 (https://github.com/lautarosilenzi/Offside-45)" };
+const UA = { "User-Agent": "126Goals-flags/1.0 (https://github.com/lautarosilenzi/Offside-45)" };
 const DIR = join(__dirname, "..", "public", "flags");
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 

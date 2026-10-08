@@ -24,14 +24,14 @@ const NAV = [
 const COMMUNITY = [
   { href: "/foro", label: "El foro del hincha" },
   { href: "/cuenta", label: "Mi cuenta" },
-  { href: "/colaborar", label: "Colaborá con Offside 45" },
+  { href: "/colaborar", label: "Colaborá con 126Goals" },
 ];
 
 const logoOf = (id: string) => (LOGOS as Record<string, { file: string }>)[id]?.file;
 
 // Encabezado flotante: el menú de tres líneas a la izquierda abre un panel lateral con todas las secciones,
 // agrupadas por país como en los sitios de resultados; arriba quedan las cinco secciones principales.
-export default function SiteHeader({ logo }: { logo?: string }) {
+export default function SiteHeader() {
   const pathname = usePathname();
   const isActive = (href: string) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
   const navRef = useRef<HTMLElement>(null);
@@ -75,17 +75,10 @@ export default function SiteHeader({ logo }: { logo?: string }) {
               <path d="M4 7h16M4 12h16M4 17h16" />
             </svg>
           </button>
-          <Link href="/" className="logo-link flex shrink-0 items-center gap-2.5" aria-label="Offside 45, inicio">
-            {logo ? (
-              <Image src={logo} alt="" width={40} height={40} className="h-10 w-10 rounded-full" priority />
-            ) : (
-              <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-brand-400 to-brand-600 font-display text-lg font-extrabold leading-none shadow-inner">
-                45
-              </span>
-            )}
-            <span className="hidden whitespace-nowrap font-display text-2xl font-bold uppercase italic leading-none tracking-wide lg:block">
-              Offside<span className="text-volt-400"> 45</span>
-            </span>
+          {/* Logo de 126Goals (public/brand): la insignia redonda y, desde tablets, el nombre. */}
+          <Link href="/" className="logo-link flex shrink-0 items-center gap-2" aria-label="126Goals, inicio">
+            <Image src="/brand/insignia.svg" alt="" width={40} height={40} className="h-10 w-10" priority />
+            <Image src="/brand/solo-texto.svg" alt="" width={108} height={33} className="hidden h-[30px] w-auto sm:block" priority />
           </Link>
           <HeaderButtons />
           <nav
@@ -121,9 +114,7 @@ export default function SiteHeader({ logo }: { logo?: string }) {
           aria-label="Menú"
         >
           <div className="flex items-center justify-between border-b border-white/10 px-4 py-3">
-            <span className="font-display text-xl font-bold uppercase italic tracking-wide">
-              Offside<span className="text-volt-400"> 45</span>
-            </span>
+            <Image src="/brand/logo-horizontal.svg" alt="126Goals" width={118} height={40} className="h-10 w-auto" />
             <button
               type="button"
               onClick={() => setOpen(false)}

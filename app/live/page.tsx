@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 import LiveMatches from "@/components/live/LiveMatches";
 import { liveLeagues } from "@/lib/live/leagues";
 
-export const metadata: Metadata = { title: "Live · Partidos en juego · Offside 45" };
+export const metadata: Metadata = { title: "Live · Partidos en juego · 126Goals" };
 
 const TZ = "America/Argentina/Buenos_Aires";
 

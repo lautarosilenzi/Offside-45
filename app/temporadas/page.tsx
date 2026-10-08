@@ -10,7 +10,7 @@ import { LEAGUE_SEASONS as SEASONS, LEAGUE_TOP3, type TitleCount, computeTable, 
 import { getTeam } from "@/lib/teams";
 import type { NoteKind, Season } from "@/lib/types";
 
-export const metadata: Metadata = { title: "Liga Argentina · Offside 45" };
+export const metadata: Metadata = { title: "Liga Argentina · 126Goals" };
 
 // Categorías que conviene ver de un vistazo en la tarjeta.
 const HIGHLIGHT_KINDS: NoteKind[] = ["descalificacion", "retiro", "anulado", "walkover", "puntos"];
