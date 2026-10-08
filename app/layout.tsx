@@ -13,6 +13,8 @@ const body = Inter({ subsets: ["latin"], variable: "--font-body", display: "swap
 const display = Barlow_Condensed({ subsets: ["latin"], weight: ["600", "700", "800", "900"], style: ["normal", "italic"], variable: "--font-display", display: "swap" });
 
 export const metadata: Metadata = {
+  // Dirección del sitio: con ella, la imagen y los links al compartir salen completos.
+  metadataBase: new URL("https://126goals.vercel.app"),
   title: "126Goals · Fútbol en vivo, estadísticas e historia",
   description: "Resultados en vivo, estadísticas de partidos y jugadores, torneos de todo el mundo y la historia del fútbol argentino desde 1891.",
   applicationName: "126Goals",
