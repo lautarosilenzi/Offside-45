@@ -101,7 +101,7 @@ export default async function TournamentPage({ params }: { params: { id: string 
 
   return (
     <>
-      <TournamentHero id={comp.id} name={comp.name} country={comp.country} live={live}>
+      <TournamentHero id={comp.id} name={comp.name} country={comp.country} live={live} follow>
         {seasonTitle(season.name, season.label)}
       </TournamentHero>
       <main className="mx-auto max-w-6xl px-4 py-6 sm:px-6">

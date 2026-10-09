@@ -24,8 +24,7 @@ export default function MessiVsCristianoPage() {
   return (
     <>
       <PageHero eyebrow="El duelo del siglo" title="Messi vs Cristiano">
-        Veinte años de rivalidad en números: goles, asistencias, títulos, finales, Copas del Mundo, Champions y los {H2H_MATCHES.length} partidos en que se enfrentaron. Datos al{" "}
-        {UPDATED}, cruzados entre varias fuentes.
+        Veinte años de rivalidad en números. Datos al {UPDATED}.
       </PageHero>
       <main className="mx-auto max-w-5xl space-y-10 px-4 py-8 sm:px-6">
         <div className="grid grid-cols-2 gap-3 sm:gap-4">
@@ -41,8 +40,9 @@ export default function MessiVsCristianoPage() {
           </span>
           <span className="btn-ghost shrink-0">Comparar</span>
         </a>
-        <section className="rounded-2xl border-l-4 border-brand-500 bg-white/80 px-4 py-3 text-sm leading-relaxed text-navy-600">
-          <p>
+        <details className="text-xs leading-relaxed text-navy-400">
+          <summary className="cursor-pointer">Cómo se cuentan los datos y fuentes</summary>
+          <p className="mt-2">
             Partidos oficiales de clubes y selección mayor, al {UPDATED}. Las tablas por temporada y por año suman exactamente los totales de las otras fuentes, y
             el cara a cara coincide partido por partido. Cuando dos fuentes cuentan distinto (por ejemplo, las finales de ida y vuelta) se usa la que cuenta
             finales y se aclara.
@@ -56,7 +56,7 @@ export default function MessiVsCristianoPage() {
               </li>
             ))}
           </ul>
-        </section>
+        </details>
       </main>
     </>
   );

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import TeamLogo from "@/components/hub/TeamLogo";
+import FavoriteButton from "@/components/account/FavoriteButton";
 import MyTeamButton from "@/components/myteam/MyTeamButton";
 import STADIUMS from "@/lib/data/stadiums.generated.json";
 import VENUES from "@/lib/data/venues.generated.json";
@@ -9,20 +10,21 @@ import type { LiveTeam } from "@/lib/live/espn";
 type Stadium = { team: string; stadium: string; url: string; width: number; height: number; page: string; artist: string; license: string };
 const PHOTOS = STADIUMS as Record<string, Stadium>;
 
-// Portada de la página de un equipo: la foto de su estadio de fondo (Wikimedia Commons, con su autor y licencia), el
-// escudo, el nombre y sus títulos más importantes. Sin foto, el fondo de las portadas con los colores del club.
+// Portada de la página de un equipo, como en las apps de resultados: el escudo grande al centro, el nombre, el año de
+// fundación y el estadio, y sus títulos más importantes. De fondo, la foto de su estadio (Wikimedia Commons, con su
+// autor y licencia); sin foto, el fondo de las portadas con los colores del club.
 export default function TeamHero({
   team,
   compId,
   compName,
-  coach,
+  founded,
   honours,
   color,
 }: {
   team: LiveTeam & { espnId: string };
   compId: string;
   compName: string;
-  coach?: string;
+  founded?: number;
   honours: Honour[];
   color?: string;
 }) {
@@ -36,32 +38,27 @@ export default function TeamHero({
           <>
             {/* eslint-disable-next-line @next/next/no-img-element -- foto de Wikimedia Commons */}
             <img src={photo.url} alt={`${photo.stadium}`} className="absolute inset-0 h-full w-full object-cover object-center" />
-            <div aria-hidden className="absolute inset-0 bg-gradient-to-r from-[#050b1a]/95 via-[#050b1a]/70 to-[#050b1a]/20" />
-            <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-[#050b1a]/90 via-transparent to-transparent" />
+            <div aria-hidden className="absolute inset-0 bg-[#050b1a]/70" />
+            <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-[#050b1a] via-[#050b1a]/40 to-transparent" />
           </>
         ) : (
           color && <div aria-hidden className="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full opacity-40 blur-3xl" style={{ background: color }} />
         )}
-        <div className="relative px-5 pb-6 pt-6 text-center sm:px-10 sm:pb-8 sm:pt-11 sm:text-left">
+        <div className="relative px-5 pb-5 pt-5 text-center sm:px-10 sm:pb-7 sm:pt-7">
           <Link
             href={`/torneos/${compId}#equipos`}
             className="mb-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 font-display text-xs font-semibold uppercase tracking-[0.2em] text-volt-300 ring-1 ring-white/15 backdrop-blur-sm transition hover:text-white sm:text-sm"
           >
             ← {compName}
           </Link>
-          <div className="flex flex-col items-center gap-3 sm:flex-row sm:gap-4">
+          <div className="flex flex-col items-center gap-2">
             <span className="logo-plate">
-              <TeamLogo team={team} size={72} />
+              <TeamLogo team={team} size={104} />
             </span>
             <div className="min-w-0">
-              <h1 className="hero-title text-shine font-display text-[2.4rem] font-black uppercase italic leading-[0.95] tracking-wide sm:text-6xl">{team.name}</h1>
-              {/* El DT (verificado en tres fuentes, lib/live/coach.ts) y el estadio con su capacidad (si las fuentes
-                  coinciden, scripts/stadiums.cjs). */}
-              {coach && (
-                <p className="mt-2 text-base font-semibold text-white sm:text-lg">
-                  <span className="text-navy-300">DT:</span> {coach}
-                </p>
-              )}
+              <h1 className="hero-title text-shine font-display text-[2.2rem] font-black uppercase italic leading-[0.95] tracking-wide sm:text-5xl">{team.name}</h1>
+              {founded && <p className="mt-1 text-base text-navy-100">Fundado en {founded}</p>}
+              {/* El estadio con su capacidad (si las fuentes coinciden, scripts/stadiums.cjs). */}
               {venue && (
                 <p className="mt-0.5 text-sm text-navy-100">
                   {venue.name}
@@ -70,12 +67,13 @@ export default function TeamHero({
               )}
             </div>
           </div>
-          <div className="mt-4 flex justify-center sm:justify-start">
+          <div className="mt-4 flex flex-wrap justify-center gap-2">
             <MyTeamButton team={{ comp: compId, id: team.espnId, name: team.name, logo: team.logo }} />
+            <FavoriteButton fav={{ kind: "team", ref: `${compId}/${team.espnId}`, name: team.name, logo: team.logo }} />
           </div>
 
           {honours.length > 0 && (
-            <ul className="mt-6 grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
+            <ul className="mt-5 grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:justify-center">
               {honours.map((h) => (
                 <li
                   key={h.label}

@@ -37,6 +37,7 @@ const fmt = (v: number, decimals = 0) => v.toLocaleString("es-AR", { minimumFrac
 const pct = (a: number, b: number) => (b ? (a / b) * 100 : 0);
 
 export const SECTIONS = [
+  { id: "marcador", label: "Marcador" },
   { id: "numeros", label: "Números" },
   { id: "porcentajes", label: "Porcentajes" },
   { id: "evolucion", label: "Evolución" },
@@ -58,6 +59,7 @@ export default function MessiRonaldo() {
           </a>
         ))}
       </nav>
+      <Scoreboard />
       <Numbers />
       <Percentages />
       <Evolution />
@@ -68,6 +70,75 @@ export default function MessiRonaldo() {
       <Goals />
       <Advanced />
     </div>
+  );
+}
+
+/* ── 0. El marcador: quién gana en cada rubro ─────────────────────────────────────────────────────────────── */
+
+// Rubros de la comparación, con los datos de las otras secciones (sin datos nuevos). En "menos es mejor", gana el menor.
+function scoreRows() {
+  const ballon = AWARDS.find((a) => a.name === "Balón de Oro")!;
+  const rows: { label: string; m: number; r: number; decimals?: number; lower?: boolean }[] = [
+    { label: "Goles", m: CAREER.messi.goals, r: CAREER.ronaldo.goals },
+    { label: "Asistencias", m: CAREER.messi.assists, r: CAREER.ronaldo.assists },
+    { label: "Goles por partido", m: CAREER.messi.goals / CAREER.messi.apps, r: CAREER.ronaldo.goals / CAREER.ronaldo.apps, decimals: 2 },
+    { label: "Minutos por gol", m: CAREER.messi.minutes / CAREER.messi.goals, r: CAREER.ronaldo.minutes / CAREER.ronaldo.goals, lower: true },
+    { label: "Tripletes", m: CAREER.messi.hatTricks, r: CAREER.ronaldo.hatTricks },
+    { label: "Goles de tiro libre", m: CAREER.messi.freeKicks, r: CAREER.ronaldo.freeKicks },
+    { label: "Goles de cabeza", m: CAREER.messi.headers, r: CAREER.ronaldo.headers },
+    { label: "Goles de afuera del área", m: CAREER.messi.outsideBox, r: CAREER.ronaldo.outsideBox },
+    { label: "Goles de penal", m: CAREER.messi.penaltyGoals, r: CAREER.ronaldo.penaltyGoals },
+    { label: "Títulos", m: TITLES_CONTESTED.messi.won, r: TITLES_CONTESTED.ronaldo.won },
+    { label: "Finales ganadas", m: FINALS.messi.won, r: FINALS.ronaldo.won },
+    { label: "Goles en finales", m: FINALS.messi.goals, r: FINALS.ronaldo.goals },
+    { label: "Balones de Oro", m: ballon.messi.length, r: ballon.ronaldo.length },
+  ];
+  return rows;
+}
+
+function Scoreboard() {
+  const rows = scoreRows();
+  const wins = (k: "m" | "r") => rows.filter((x) => (x.lower ? x[k] < x[k === "m" ? "r" : "m"] : x[k] > x[k === "m" ? "r" : "m"])).length;
+  const mw = wins("m");
+  const rw = wins("r");
+  return (
+    <Section id="marcador" title="El marcador" intro="Quién gana en cada rubro de la carrera. Cada fila suma un punto para el que está adelante.">
+      <div className="panel overflow-hidden">
+        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 bg-navy-950 px-4 py-5 text-white">
+          <span className="text-center font-display text-lg font-bold uppercase tracking-wide" style={{ color: M.color }}>
+            {M.short}
+          </span>
+          <span className="font-display text-5xl font-black tabular-nums">
+            {mw} - {rw}
+          </span>
+          <span className="text-center font-display text-lg font-bold uppercase tracking-wide" style={{ color: R.color }}>
+            {R.short}
+          </span>
+        </div>
+        <ul className="divide-y divide-navy-50 text-sm">
+          {rows.map((x) => {
+            const mWin = x.lower ? x.m < x.r : x.m > x.r;
+            const rWin = x.lower ? x.r < x.m : x.r > x.m;
+            return (
+              <li key={x.label} className="grid grid-cols-[1fr_auto_1fr] items-center gap-2 px-4 py-2.5">
+                <span className={`flex items-center gap-1.5 font-display text-lg tabular-nums ${mWin ? "font-bold text-navy-950" : "text-navy-400"}`}>
+                  {mWin && <span aria-label="gana">✓</span>}
+                  {fmt(x.m, x.decimals ?? 0)}
+                </span>
+                <span className="text-center text-xs leading-tight text-navy-500">
+                  {x.label}
+                  {x.lower && <span className="block text-[0.65rem]">(menos es mejor)</span>}
+                </span>
+                <span className={`flex items-center justify-end gap-1.5 font-display text-lg tabular-nums ${rWin ? "font-bold text-navy-950" : "text-navy-400"}`}>
+                  {fmt(x.r, x.decimals ?? 0)}
+                  {rWin && <span aria-label="gana">✓</span>}
+                </span>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </Section>
   );
 }
 

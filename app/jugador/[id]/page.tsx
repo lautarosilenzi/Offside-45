@@ -156,7 +156,7 @@ export default async function PlayerPage({ params, searchParams }: { params: { i
         ) : (
           <>
             <section className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
-              <Tile label="Partidos" value={totals.played} sub={`${totals.starts} de titular${bench ? ` · ${bench} en el banco sin entrar` : ""}`} />
+              <Tile label="Partidos jugados" value={totals.played} sub={`${totals.starts} de titular · ${totals.played - totals.starts} entrando${bench ? ` · ${bench} más en el banco sin entrar` : ""}`} />
               <Tile label="Minutos" value={totals.minutes.toLocaleString("es-AR")} sub={totals.played ? `${Math.round(totals.minutes / totals.played)} por partido` : ""} />
               {keeper ? (
                 <>

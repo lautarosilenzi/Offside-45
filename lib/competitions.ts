@@ -96,7 +96,7 @@ export const GROUPS: CountryGroup[] = [
       c("conference-league", "Conference League", "en:UEFA Conference League"),
       c("supercopa-europa", "Supercopa de Europa", "es:Supercopa de la UEFA"),
       c("mundial-clubes", "Mundial de Clubes", "es:Copa Mundial de Clubes de la FIFA", "/mundial-de-clubes"),
-      c("copa-intercontinental", "Copa Intercontinental", ""),
+      c("copa-intercontinental", "Copa Intercontinental de la FIFA", ""),
       c("concacaf-champions", "Concacaf Champions Cup", "es:Copa de Campeones de la Concacaf"),
       c("champions-asia", "Champions de Asia", "es:Liga de Campeones de la AFC"),
       c("champions-africa", "Champions de África", "es:Liga de Campeones de la CAF"),

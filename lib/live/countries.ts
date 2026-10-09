@@ -107,5 +107,9 @@ export const COUNTRY: Record<string, string> = {
   Gambia: "Gambia",
   "Guinea-Bissau": "Guinea-Bisáu",
   Comoros: "Comoras",
+  // Selecciones que ya no existen (Copas del Mundo viejas).
+  "Germany FR": "Alemania Federal", "West Germany": "Alemania Federal", "Germany DR": "Alemania Democrática", "East Germany": "Alemania Democrática",
+  "Soviet Union": "Unión Soviética", USSR: "Unión Soviética", Czechoslovakia: "Checoslovaquia", Yugoslavia: "Yugoslavia", "Serbia and Montenegro": "Serbia y Montenegro", "Serbia & Montenegro": "Serbia y Montenegro",
+  Zaire: "Zaire", "Dutch East Indies": "Indias Orientales Neerlandesas", CIS: "CEI",
 };
 export const countryEs = (c?: string) => (c ? (COUNTRY[c] ?? c) : "");

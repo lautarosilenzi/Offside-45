@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Stat } from "@/components/CupHistory";
 import CompLogo from "@/components/CompLogo";
 import Flag from "@/components/Flag";
@@ -133,13 +134,16 @@ export default function WorldCupsPage() {
                       ({scorer.goals} goles{scorer.players.length > 1 ? " cada uno" : ""})
                     </p>
                   )}
+                  <Link href={`/mundiales/${w.year}`} className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-volt-600 hover:underline">
+                    Ver la Copa del Mundo {w.year}: cuadro, goleadores y partidos →
+                  </Link>
                 </li>
               );
             })}
           </ul>
           <p className="mt-3 text-sm text-navy-500">
             En 1950 no hubo final: el título se definió en un cuadrangular, y el partido decisivo fue Uruguay 2, Brasil 1 en el Maracaná.
-            No se jugó en 1942 ni en 1946 por la Segunda Guerra Mundial. Ademir (1950): 9 goles según Wikipedia; la FIFA le cuenta 8.
+            No se jugó en 1942 ni en 1946 por la Segunda Guerra Mundial. Ademir (1950): 9 goles según algunos registros; la FIFA le cuenta 8.
           </p>
         </section>
 

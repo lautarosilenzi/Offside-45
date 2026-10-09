@@ -87,6 +87,19 @@ async function getJson(url: string, revalidate: number) {
 
 const shoot = (x: any) => (x?.shootoutScore === undefined || x?.shootoutScore === null ? undefined : Number(x.shootoutScore));
 
+// Fases con nombres distintos según el año (en las temporadas viejas ESPN usa "finals", "3rd-place-match",
+// "quarter-finals"…): se llevan al nombre de siempre para que el cuadro y los títulos las reconozcan.
+const PHASE_ALIAS: Record<string, string> = {
+  finals: "final",
+  "3rd-place-match": "third-place",
+  "third-place-match": "third-place",
+  "3rd-place": "third-place",
+  "quarter-finals": "quarterfinals",
+  "semi-finals": "semifinals",
+  "eighth-finals": "round-of-16",
+};
+const normPhase = (p: string) => PHASE_ALIAS[p] ?? p;
+
 // Estados de ESPN de un partido que no se jugó (o no terminó): el texto que se muestra en lugar del resultado.
 export function offStatus(name?: string): string | undefined {
   if (!name) return undefined;
@@ -118,7 +131,7 @@ function toEvent(e: any): LiveEvent {
     away: team(a?.team, score(a), a?.winner, shoot(a)),
     venue: c.venue?.fullName,
     // "apertura---round-of-16" → "round-of-16": la fase sin el nombre del torneo.
-    round: e.season?.slug ? String(e.season.slug).split("---").pop() : undefined,
+    round: e.season?.slug ? normPhase(String(e.season.slug).split("---").pop()!) : undefined,
     stage: e.season?.slug ? String(e.season.slug).split("---")[0] : undefined,
     group: c.group?.name ? String(c.group.name).replace(/^Group /, "Zona ") : undefined,
     odds: state === "pre" ? parseOdds(c.odds?.[0]) : undefined,
@@ -356,4 +369,19 @@ export async function editionEvents(league: string, season: string): Promise<Liv
   return all
     .filter((e) => e.date >= from && e.date <= to && !seen.has(e.id) && seen.add(e.id))
     .sort((a, b) => a.date.localeCompare(b.date));
+}
+
+// Todos los partidos de la temporada de un equipo, de todas las competencias (liga, copas, internacionales,
+// amistosos), cada uno con el código de su competencia. Los terminados, del más nuevo al más viejo; los que vienen, en
+// orden.
+export async function teamAllSchedule(espnTeamId: string): Promise<{ played: (LiveEvent & { league: string })[]; upcoming: (LiveEvent & { league: string })[] }> {
+  const base = `${BASE}/site/v2/sports/soccer/all/teams/${espnTeamId}/schedule`;
+  const [past, next] = await Promise.all([getJson(base, 300).catch(() => ({ events: [] })), getJson(`${base}?fixture=true`, 300).catch(() => ({ events: [] }))]);
+  const all = new Map<string, LiveEvent & { league: string }>();
+  for (const e of [...(past.events ?? []), ...(next.events ?? [])]) all.set(String(e.id), { ...toEvent(e), league: String(e.league?.slug ?? "") });
+  const list = [...all.values()];
+  return {
+    played: list.filter((e) => e.state === "post").sort((a, b) => b.date.localeCompare(a.date)),
+    upcoming: list.filter((e) => e.state !== "post").sort((a, b) => a.date.localeCompare(b.date)),
+  };
 }

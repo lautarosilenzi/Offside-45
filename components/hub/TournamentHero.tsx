@@ -1,4 +1,6 @@
+import FavoriteButton from "@/components/account/FavoriteButton";
 import CompLogo from "@/components/CompLogo";
+import LOGOS from "@/lib/data/comps.generated.json";
 import HeroBackdrop from "@/components/HeroBackdrop";
 
 // Portada de un torneo, compacta para que lo importante (fixture, tablas) se vea rápido: el logo o el trofeo, sin
@@ -8,12 +10,15 @@ export default function TournamentHero({
   name,
   country,
   live,
+  follow,
   children,
 }: {
   id: string;
   name: string;
   country: string;
   live?: boolean;
+  // Botón "Seguir" (en la portada del torneo; no en la de una edición vieja).
+  follow?: boolean;
   children?: React.ReactNode;
 }) {
   return (
@@ -35,6 +40,11 @@ export default function TournamentHero({
             </div>
             <h1 className="hero-title text-shine font-display text-[1.9rem] font-black uppercase italic leading-[0.95] tracking-wide [overflow-wrap:anywhere] sm:text-5xl">{name}</h1>
             {children && <div className="mt-1.5 max-w-2xl text-sm leading-snug text-navy-100 sm:text-[0.95rem]">{children}</div>}
+            {follow && (
+              <div className="mt-2.5">
+                <FavoriteButton fav={{ kind: "league", ref: id, name, logo: (LOGOS as Record<string, { file: string }>)[id]?.file }} />
+              </div>
+            )}
           </div>
         </div>
       </div>

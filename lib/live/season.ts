@@ -20,6 +20,10 @@ export const PHASE_LABEL: Record<string, string> = {
   semifinals: "Semifinales",
   "third-place": "Tercer puesto",
   final: "Final",
+  "first-round": "Primera ronda",
+  "second-round": "Segunda ronda",
+  "final-round": "Ronda final",
+  "group-a": "Grupo A",
 };
 
 // Fases del cuadro, en orden.
