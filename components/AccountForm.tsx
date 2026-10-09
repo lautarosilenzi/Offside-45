@@ -42,7 +42,8 @@ export default function AccountForm() {
           ))}
         </div>
       )}
-      {mode === "entrar" ? <SignIn /> : <SignUpForm account={account} editing={mode === "editar"} onDone={() => setMode("perfil")} />}
+      {/* key: al pasar de "Crear cuenta" a "Completá tu perfil" el formulario empieza de cero. */}
+      {mode === "entrar" ? <SignIn /> : <SignUpForm key={mode} account={account} editing={mode === "editar"} onDone={() => setMode("perfil")} />}
     </div>
   );
 }
@@ -116,7 +117,7 @@ function SignUpForm({ account, editing, onDone }: { account: Account | null; edi
     const year = Number(form.birthYear);
     if (form.birthYear && (!Number.isInteger(year) || year < 1900 || year > new Date().getFullYear())) errs.birthYear = "Año no válido.";
     if (!club) errs.club = "Elegí tu club para el Censo del Hincha.";
-    if (!accept) errs.accept = "Tenés que aceptar la política de privacidad.";
+    if (!editing && !accept) errs.accept = "Tenés que aceptar la política de privacidad.";
     setErrors(errs);
     if (Object.keys(errs).length || !club) return;
     const a: Account = {
@@ -177,6 +178,7 @@ function SignUpForm({ account, editing, onDone }: { account: Account | null; edi
           </span>
         </label>
       )}
+      {Object.keys(errors).length > 0 && <p className="text-sm font-semibold text-red-500">Revisá los datos marcados en rojo.</p>}
       {msg.error && <p className="text-sm text-red-500">{msg.error}</p>}
       {msg.ok && <p className="rounded-xl bg-emerald-500/10 px-3 py-2 text-sm text-emerald-400">{msg.ok}</p>}
       <button type="submit" disabled={busy} className="btn-primary justify-center px-6 py-2.5 text-lg">
