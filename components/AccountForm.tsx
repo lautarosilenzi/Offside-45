@@ -138,7 +138,8 @@ function SignUpForm({ account, editing, onDone }: { account: Account | null; edi
 
   return (
     <form onSubmit={submit} className="panel space-y-4 p-6" noValidate>
-      <h2 className="font-display text-2xl font-bold uppercase tracking-wide text-navy-950">{editing ? "Mis datos" : "Crear cuenta"}</h2>
+      <h2 className="font-display text-2xl font-bold uppercase tracking-wide text-navy-950">{editing ? (account ? "Mis datos" : "Completá tu perfil") : "Crear cuenta"}</h2>
+      {editing && !account && <p className="text-sm text-navy-600">Tu cuenta ya está confirmada. Completá estos datos una sola vez y elegí tu club para el Censo del Hincha.</p>}
       <div className="grid gap-4 sm:grid-cols-2">
         <Field label="Nombre y apellido" error={errors.name}>
           <input value={form.name} onChange={set("name")} autoComplete="name" className={input} />

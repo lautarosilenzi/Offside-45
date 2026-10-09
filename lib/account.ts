@@ -74,7 +74,10 @@ export function useAccount() {
   const load = useCallback(async () => {
     if (supabase) {
       const { data } = await supabase.auth.getUser();
-      setState({ ready: true, account: await serverAccount(), loggedIn: !!data.user });
+      let account = await serverAccount();
+      // Primera vez después de confirmar el correo: el perfil se crea con los datos del alta.
+      if (data.user && !account && (await createPendingProfile(data.user.user_metadata))) account = await serverAccount();
+      setState({ ready: true, account, loggedIn: !!data.user });
     } else setState({ ready: true, account: localAccount(), loggedIn: !!localAccount() });
   }, []);
   useEffect(() => {
@@ -98,7 +101,12 @@ export async function signUp(a: Account, password: string): Promise<{ error?: st
     notify();
     return {};
   }
-  const { data, error } = await supabase.auth.signUp({ email: a.email, password });
+  // Los datos del perfil viajan con la cuenta: al confirmar el correo (en cualquier dispositivo) el perfil se crea solo.
+  const { data, error } = await supabase.auth.signUp({
+    email: a.email,
+    password,
+    options: { data: { profile: a }, emailRedirectTo: `${window.location.origin}/cuenta` },
+  });
   if (error) return { error: translateAuthError(error.message) };
   if (!data.session) {
     // Hay que confirmar el correo: el perfil se crea al primer ingreso (los datos quedan guardados mientras tanto).
@@ -115,15 +123,32 @@ export async function signIn(email: string, password: string): Promise<{ error?:
   const { error } = await supabase.auth.signInWithPassword({ email, password });
   if (error) return { error: translateAuthError(error.message) };
   // Primer ingreso después de confirmar el correo: se crea el perfil con los datos del alta.
-  try {
-    const pending = localStorage.getItem("o45-cuenta-pendiente");
-    if (pending && !(await serverAccount())) {
-      await saveAccount(JSON.parse(pending));
-      localStorage.removeItem("o45-cuenta-pendiente");
-    }
-  } catch {}
+  const { data } = await supabase.auth.getUser();
+  if (data.user && !(await serverAccount())) await createPendingProfile(data.user.user_metadata);
   notify();
   return {};
+}
+
+// Crea el perfil con los datos guardados en el alta (en la cuenta o, si no, en este navegador). true si lo creó.
+let triedPending = false;
+async function createPendingProfile(meta: Record<string, unknown> | undefined): Promise<boolean> {
+  // Una sola vez por visita: si falla (por ejemplo, el usuario ya existe), se completa a mano en el formulario.
+  if (triedPending) return false;
+  triedPending = true;
+  let pending = meta?.profile as Account | undefined;
+  try {
+    if (!pending) {
+      const raw = localStorage.getItem("o45-cuenta-pendiente");
+      if (raw) pending = JSON.parse(raw) as Account;
+    }
+  } catch {}
+  if (!pending?.club || !pending.username) return false;
+  const r = await saveAccount(pending);
+  if (r.error) return false;
+  try {
+    localStorage.removeItem("o45-cuenta-pendiente");
+  } catch {}
+  return true;
 }
 
 export async function signOut() {
