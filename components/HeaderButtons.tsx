@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { useAccount } from "@/lib/account";
 import { useFollowed } from "@/lib/prefs";
 import SearchDialog from "./SearchDialog";
 
@@ -13,6 +14,7 @@ export default function HeaderButtons() {
   const pathname = usePathname();
   const [live, setLive] = useState<number | null>(null);
   const following = Object.keys(useFollowed()).length;
+  const { account } = useAccount();
 
   useEffect(() => {
     const load = () =>
@@ -78,12 +80,31 @@ export default function HeaderButtons() {
         <span aria-hidden className="font-display text-[0.95rem] font-black italic leading-none tracking-tight">VS</span>
         <span className="hidden font-display text-sm font-bold uppercase tracking-wide lg:inline">Historiales</span>
       </Link>
-      <Link href="/cuenta" aria-label="Tu cuenta" title="Tu cuenta" aria-current={pathname === "/cuenta" ? "page" : undefined} className={icon(pathname === "/cuenta")}>
-        <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
-          <circle cx="12" cy="8" r="4" />
-          <path d="M4 20c1.5-4 4.5-6 8-6s6.5 2 8 6" />
-        </svg>
-      </Link>
+      {/* Con la sesión abierta, el usuario (y el escudo de su club) en lugar del ícono: así se ve que ya entró. */}
+      {account ? (
+        <Link
+          href="/cuenta"
+          aria-label={`Tu cuenta: @${account.username}`}
+          title={`@${account.username}`}
+          aria-current={pathname === "/cuenta" ? "page" : undefined}
+          className={`flex h-[2.15rem] max-w-[6.5rem] shrink-0 items-center gap-1 rounded-full pl-1 pr-2 text-white transition hover:bg-white/15 sm:h-10 sm:max-w-[10rem] sm:gap-1.5 sm:pr-3 ${pathname === "/cuenta" ? "bg-volt-500" : "bg-white/10 ring-1 ring-volt-400/50"}`}
+        >
+          {account.club.logo ? (
+            // eslint-disable-next-line @next/next/no-img-element -- escudo del club del censo
+            <img src={account.club.logo} alt="" className="logo-img h-6 w-6 shrink-0 object-contain sm:h-7 sm:w-7" />
+          ) : (
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-volt-500 font-display text-xs font-bold uppercase">{account.username.charAt(0)}</span>
+          )}
+          <span className="min-w-0 break-all font-display text-[0.8rem] font-bold leading-none sm:text-sm">{account.username}</span>
+        </Link>
+      ) : (
+        <Link href="/cuenta" aria-label="Tu cuenta" title="Tu cuenta" aria-current={pathname === "/cuenta" ? "page" : undefined} className={icon(pathname === "/cuenta")}>
+          <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
+            <circle cx="12" cy="8" r="4" />
+            <path d="M4 20c1.5-4 4.5-6 8-6s6.5 2 8 6" />
+          </svg>
+        </Link>
+      )}
     </div>
   );
 }
