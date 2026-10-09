@@ -66,13 +66,18 @@ Errores encontrados en la revisión general:
 - (se completa en la etapa 4)
 
 ## Etapa 5 — Cuentas y servicios externos (necesitan algo del dueño)
-- [ ] 42. Botón "Crear cuenta" (Supabase) + página de privacidad.
-- [ ] 43. Al crear la cuenta, "Censo del Hincha": elegir cualquier club del mundo; se guarda.
-- [ ] 44. Con cuenta: favoritos (equipos y ligas), sus resultados y perfil personalizado.
-- [ ] 45. Notificaciones reales: propuesta de avisos y qué hace falta.
-- [ ] 46. Mercado Pago: por ahora, para donaciones.
-- [ ] 47. Otros países: por ahora apunta a Argentina. Dejar la base armada (país y Destacados por país) sin traducir todo.
-- [ ] 48. Dominio propio sin "vercel": pasos y costo.
+- [~] 42. Botón "Crear cuenta" (Supabase) + página de privacidad. Hecho: ícono "Tu cuenta" en la barra, alta/entrar/olvidé la contraseña, página /privacidad. Falta (dueño): crear el proyecto de Supabase, correr supabase/schema.sql y supabase/cuentas.sql, y cargar las 2 claves en Vercel. Sin eso, la cuenta se guarda en el navegador.
+- [~] 43. Censo del Hincha: buscador de cualquier club del mundo, uno solo; se guarda en la cuenta. Página pública /censo con los totales por club (nunca quién es quién). Se activa con Supabase.
+- [~] 44. Favoritos: botón "☆ Seguir" en cada club y torneo; en Mi cuenta, cada favorito con su partido en juego o próximo y su último resultado. Funciona ya en el navegador; con Supabase, en la cuenta.
+- [~] 45. Notificaciones: hoy avisa con la página abierta (Alertas). Propuesta para avisos reales en el celular, abajo. Necesita decisión y un servicio que revise los partidos cada minuto.
+- [~] 46. Mercado Pago para donaciones: la página /colaborar muestra botones de $1.000, $3.000 y $5.000 (y "Otro monto"). Falta (dueño): crear los "Link de pago" en Mercado Pago y pegarlos en lib/site.ts.
+- [x] 47. Otros países: base armada. En el menú se elige el país (Argentina, Uruguay, Chile, Colombia, México, España, Estados Unidos) y cambian los Destacados del menú y de la portada. Idioma: todo en castellano por ahora (queda preparado el campo de idioma).
+- [~] 48. Dominio propio: 126goals.com, 126goals.net y 126goals.app figuran libres (octubre de 2026). Pasos y costo en el resumen final.
+
+### Propuesta de notificaciones (punto 45)
+- Avisos: gol de tu equipo (o de un partido que seguís), empieza el partido (15 minutos antes), alineaciones confirmadas, entretiempo y resultado final, tarjeta roja y penal.
+- Qué hace falta: (1) cuentas activas (Supabase); (2) un "service worker" y claves de notificación (las genero yo, son gratis); (3) un servicio que mire los partidos cada minuto y mande los avisos. En el plan gratis de Vercel las tareas programadas corren una vez por día: alcanzaría con Supabase (gratis, con tareas cada minuto) o con Vercel Pro (US$20/mes).
+- En iPhone los avisos llegan solo si la página se agrega a la pantalla de inicio (iOS 16.4 o más nuevo).
 
 ## Datos verificados en esta tanda
 - Supercopa Internacional, 4 ediciones (Wikipedia en inglés + prensa): 2022 Racing 2-1 Boca (Al Ain, ene-2023) · 2023 Talleres 0-0 River, 3-2 pen. (Asunción, 5-3-2025) · 2024 Vélez 2-0 Estudiantes (Avellaneda, jul-2025) · 2025 Rosario Central 3-1 Estudiantes (Santiago del Estero, 26-9-2026).

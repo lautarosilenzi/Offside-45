@@ -262,3 +262,16 @@ export const LIVE_ORDER = [
   "leagues-cup", "champions-asia", "champions-africa", "copa-oro", "nations-league-concacaf", "copa-africana",
   "copa-asiatica", "mundial-femenino", "copa-america-femenina", "champions-femenina",
 ];
+
+// Destacados de un país (lib/region.ts): cada id con su nombre y su página, como en el menú.
+export function featuredList(ids: string[]): Competition[] {
+  return ids
+    .map((id) => {
+      const f = FEATURED.find((c) => c.id === id);
+      if (f) return f;
+      const g = GROUPS.find((x) => x.competitions.some((c) => c.id === id));
+      const c = g?.competitions.find((x) => x.id === id);
+      return g && c ? { ...c, href: compHref(g, c) } : undefined;
+    })
+    .filter((c): c is Competition => !!c);
+}

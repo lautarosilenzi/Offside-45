@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { CONTACT_EMAIL, DONATION_URL } from "@/lib/site";
+import { CONTACT_EMAIL } from "@/lib/site";
 
 export default function SiteFooter() {
   return (
@@ -14,8 +14,7 @@ export default function SiteFooter() {
           </p>
         </div>
         <a
-          href={DONATION_URL || "/colaborar"}
-          {...(DONATION_URL ? { target: "_blank", rel: "noreferrer" } : {})}
+          href="/colaborar"
           className="shine shrink-0 rounded-full bg-white px-6 py-2.5 font-display text-lg font-bold uppercase tracking-wide text-navy-950 shadow-lg transition hover:-translate-y-0.5 hover:shadow-xl"
         >
           Colaborar

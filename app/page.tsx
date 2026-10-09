@@ -1,10 +1,9 @@
 import Link from "next/link";
-import CompLogo from "@/components/CompLogo";
 import LiveMatches from "@/components/live/LiveMatches";
+import HomeFeatured from "@/components/HomeFeatured";
 import HomeSearch from "@/components/HomeSearch";
 import OddsToggle from "@/components/OddsToggle";
 import MyTeamCard from "@/components/myteam/MyTeamCard";
-import { FEATURED } from "@/lib/competitions";
 import { liveLeagues } from "@/lib/live/leagues";
 
 const TZ = "America/Argentina/Buenos_Aires";
@@ -25,7 +24,6 @@ const SPECIALS = [
 export default function Home() {
   // Hoy, en la hora de la Argentina (la página se vuelve a armar cada minuto).
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date()).replace(/-/g, "");
-  const tournaments = FEATURED.filter((c) => c.href?.startsWith("/torneos/"));
 
   return (
     <>
@@ -35,20 +33,7 @@ export default function Home() {
         <HomeSearch />
         <MyTeamCard />
 
-        <nav aria-label="Torneos destacados" className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
-          {tournaments.map((c) => (
-            <Link
-              key={c.id}
-              href={c.href!}
-              className="flex min-h-[2.75rem] items-center gap-2 rounded-2xl bg-white px-3 py-1.5 text-sm font-semibold leading-tight text-navy-800 ring-1 ring-navy-100 transition hover:ring-volt-400 sm:rounded-full"
-            >
-              <span className="flex h-6 w-6 shrink-0 items-center justify-center">
-                <CompLogo id={c.id} size={18} />
-              </span>
-              {c.name}
-            </Link>
-          ))}
-        </nav>
+        <HomeFeatured />
 
         <section>
           <div className="mb-3 flex items-center justify-between gap-3">

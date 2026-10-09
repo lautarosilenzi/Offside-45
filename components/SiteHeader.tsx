@@ -4,7 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { FEATURED, GROUPS, LIVE_CODE, compHref } from "@/lib/competitions";
+import { GROUPS, LIVE_CODE, compHref, featuredList } from "@/lib/competitions";
+import { COUNTRIES, setCountry, useCountry } from "@/lib/region";
 import LOGOS from "@/lib/data/comps.generated.json";
 import HeaderButtons from "./HeaderButtons";
 import OddsToggle from "./OddsToggle";
@@ -28,6 +29,8 @@ export default function SiteHeader() {
   const [open, setOpen] = useState(false);
   // Grupo desplegado en el menú lateral: el de la sección actual, o "destacado".
   const [expanded, setExpanded] = useState<string>("destacado");
+  // Destacados según el país elegido (Argentina por defecto).
+  const country = useCountry();
 
   useEffect(() => setOpen(false), [pathname]);
   useEffect(() => {
@@ -95,7 +98,7 @@ export default function SiteHeader() {
           </div>
           <nav className="flex-1 overflow-y-auto px-2 py-3 [scrollbar-width:thin]">
             <Group id="destacado" title="Destacado" expanded={expanded} setExpanded={setExpanded}>
-              {FEATURED.map((c) => (
+              {featuredList(country.featured).map((c) => (
                 <MenuLink key={c.id} href={c.href!} label={c.name} logo={logoOf(c.id)} active={isActive(c.href!)} />
               ))}
             </Group>
@@ -124,6 +127,21 @@ export default function SiteHeader() {
             ))}
             <div className="mx-2 my-3 border-t border-white/10" />
             <OddsToggle variant="menu" />
+            {/* País: cambia los torneos destacados. */}
+            <label className="flex items-center justify-between gap-3 rounded-xl px-3 py-2 font-display text-base font-semibold uppercase tracking-wide text-white">
+              País
+              <select
+                value={country.id}
+                onChange={(e) => setCountry(e.target.value)}
+                className="rounded-lg bg-white/10 px-2 py-1 font-sans text-sm normal-case tracking-normal text-white ring-1 ring-white/15"
+              >
+                {COUNTRIES.map((c) => (
+                  <option key={c.id} value={c.id} className="text-navy-950">
+                    {c.name}
+                  </option>
+                ))}
+              </select>
+            </label>
             <div className="mx-2 my-3 border-t border-white/10" />
             {COMMUNITY.map((c) => (
               <Link
