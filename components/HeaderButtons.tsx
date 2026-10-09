@@ -87,13 +87,13 @@ export default function HeaderButtons() {
           aria-label={`Tu cuenta: @${account.username}`}
           title={`@${account.username}`}
           aria-current={pathname === "/cuenta" ? "page" : undefined}
-          className={`flex h-[2.15rem] max-w-[6.5rem] shrink-0 items-center gap-1 rounded-full pl-1 pr-2 text-white transition hover:bg-white/15 sm:h-10 sm:max-w-[10rem] sm:gap-1.5 sm:pr-3 ${pathname === "/cuenta" ? "bg-volt-500" : "bg-white/10 ring-1 ring-volt-400/50"}`}
+          className={`flex h-[2.15rem] max-w-[6.5rem] shrink-0 items-center gap-1 rounded-full pl-2 pr-2 min-[400px]:pl-1 text-white transition hover:bg-white/15 sm:h-10 sm:max-w-[10rem] sm:gap-1.5 sm:pr-3 ${pathname === "/cuenta" ? "bg-volt-500" : "bg-white/10 ring-1 ring-volt-400/50"}`}
         >
           {account.club.logo ? (
             // eslint-disable-next-line @next/next/no-img-element -- escudo del club del censo
-            <img src={account.club.logo} alt="" className="logo-img h-6 w-6 shrink-0 object-contain sm:h-7 sm:w-7" />
+            <img src={account.club.logo} alt="" className="logo-img hidden h-6 w-6 shrink-0 object-contain min-[400px]:block sm:h-7 sm:w-7" />
           ) : (
-            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-volt-500 font-display text-xs font-bold uppercase">{account.username.charAt(0)}</span>
+            <span className="hidden h-6 w-6 shrink-0 items-center justify-center rounded-full bg-volt-500 font-display text-xs font-bold uppercase min-[400px]:flex">{account.username.charAt(0)}</span>
           )}
           <span className="min-w-0 break-all font-display text-[0.8rem] font-bold leading-none sm:text-sm">{account.username}</span>
         </Link>
