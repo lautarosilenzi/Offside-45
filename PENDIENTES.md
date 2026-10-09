@@ -38,7 +38,7 @@ Reglas: nada se publica en la web real sin OK · no se inventan datos · no se r
 - [x] 26. Leagues Cup: sacarla de Copas de clubes; solo en Estados Unidos y México.
 - [x] 27. Copa Intercontinental de la FIFA: anexo con la Copa Intercontinental vieja (1960–2004), separadas.
 - [x] 28. Especiales: sacar "Jugadores"; quedan Messi vs Ronaldo y Comparador de leyendas.
-- [~] 29. Vista previa linda al compartir (imagen, título y descripción). Hecho: título y descripción por página e imagen propia para partidos, torneos, jugadores y clubes. Falta probar la imagen: la herramienta que la dibuja no corre en Windows; se prueba al publicar.
+- [x] 29. Vista previa linda al compartir: título, descripción e imagen propia (partidos con escudos y resultado, torneos, jugadores y clubes). Probada en la página publicada.
 - [x] 30. Botón "Contacto", listo para poner el mail después.
 
 ## Etapa 3 — Más contenido y desgloses
