@@ -5,6 +5,8 @@ Si la sesión se corta, se sigue desde el primer punto sin marcar.
 
 Estados: [ ] por hacer · [x] hecho y probado · [~] a medias (ver nota) · [?] esperando respuesta · ❗ a verificar
 
+**Dónde quedamos (9-10-2026):** todo publicado en 126goals.vercel.app. Cuentas activas (Supabase, proyecto oscvaoqlpjgjbdvejpxz, São Paulo; URL Configuration hecha). El dueño ya creó su cuenta (primer hincha del censo). Próximo paso: el dueño crea 3 "Link de pago" de Mercado Pago ($1.000, $3.000, $5.000) y los pasa para ponerlos en lib/site.ts. Después: Etapa 4 (revisión general), notificaciones (el plan de Vercel es Pro: alcanza para revisar partidos cada minuto) y dominio propio.
+
 Reglas: nada se publica en la web real sin OK · no se inventan datos · no se rompe lo que funciona · nada de cuentas, claves ni pagos sin pasos previos.
 
 ## Etapa 1 — Arreglos rápidos de diseño y datos
@@ -70,7 +72,7 @@ Errores encontrados en la revisión general:
 - [x] 43. Censo del Hincha: buscador de cualquier club del mundo, uno solo; se guarda en la cuenta. Página pública /censo con los totales por club (nunca quién es quién). Activo.
 - [x] 44. Favoritos: botón "☆ Seguir" en cada club y torneo; en Mi cuenta, cada favorito con su partido en juego o próximo y su último resultado. Funciona ya en el navegador; con Supabase, en la cuenta.
 - [~] 45. Notificaciones: hoy avisa con la página abierta (Alertas). Propuesta para avisos reales en el celular, abajo. Necesita decisión y un servicio que revise los partidos cada minuto.
-- [~] 46. Mercado Pago para donaciones: la página /colaborar muestra botones de $1.000, $3.000 y $5.000 (y "Otro monto"). Falta (dueño): crear los "Link de pago" en Mercado Pago y pegarlos en lib/site.ts.
+- [~] 46. Mercado Pago para donaciones: la página /colaborar muestra botones de $1.000, $3.000 y $5.000 (y "Otro monto"). Falta (dueño): crear los "Link de pago" en Mercado Pago y pegarlos en lib/site.ts. (Siguiente paso.)
 - [x] 47. Otros países: base armada. En el menú se elige el país (Argentina, Uruguay, Chile, Colombia, México, España, Estados Unidos) y cambian los Destacados del menú y de la portada. Idioma: todo en castellano por ahora (queda preparado el campo de idioma).
 - [~] 48. Dominio propio: 126goals.com, 126goals.net y 126goals.app figuran libres (octubre de 2026). Pasos y costo en el resumen final.
 
