@@ -7,8 +7,12 @@ import LOGOS from "@/lib/data/comps.generated.json";
 import { FEATURED, GROUPS } from "@/lib/competitions";
 import CompLogo from "@/components/CompLogo";
 import { getTeam } from "@/lib/teams";
+import { CONTACT_EMAIL } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Fuentes y créditos · 126Goals" };
+export const metadata: Metadata = {
+  title: "Acerca de 126Goals",
+  description: "Qué es 126Goals, cómo contactarnos y de dónde salen los datos, escudos, logos y fotos.",
+};
 
 export default function CreditsPage() {
   const crests = Object.entries(CRESTS).filter(([id]) => id !== "lomas-academy");
@@ -17,8 +21,35 @@ export default function CreditsPage() {
 
   return (
     <>
-      <PageHero eyebrow="126Goals" title="Fuentes y créditos" />
+      <PageHero eyebrow="126Goals" title="Acerca de" />
       <main className="mx-auto max-w-5xl space-y-8 px-4 py-8 sm:px-6">
+        <section>
+          <h2 className="section-title mb-3">Qué es 126Goals</h2>
+          <div className="panel space-y-3 p-4 text-sm leading-relaxed text-navy-700">
+            <p>
+              126Goals es un proyecto independiente de fútbol: resultados en vivo, estadísticas de partidos y jugadores, torneos de todo
+              el mundo y la historia completa del fútbol argentino desde 1891, partido por partido.
+            </p>
+          </div>
+        </section>
+
+        <section id="contacto" className="scroll-mt-24">
+          <h2 className="section-title mb-3">Contacto</h2>
+          <div className="panel p-4 text-sm leading-relaxed text-navy-700">
+            {CONTACT_EMAIL ? (
+              <p>
+                ¿Encontraste un error, querés sugerir algo o hablar con nosotros? Escribinos a{" "}
+                <a href={`mailto:${CONTACT_EMAIL}`} className="font-semibold text-brand-500 hover:underline">
+                  {CONTACT_EMAIL}
+                </a>
+                .
+              </p>
+            ) : (
+              <p>Muy pronto vas a poder escribirnos desde acá.</p>
+            )}
+          </div>
+        </section>
+
         <section>
           <h2 className="section-title mb-3">Datos</h2>
           <div className="panel space-y-3 p-4 text-sm leading-relaxed text-navy-700">
@@ -28,7 +59,8 @@ export default function CreditsPage() {
                 Rec.Sport.Soccer Statistics Foundation (RSSSF)
               </a>
               , que publica cada temporada partido por partido a partir de los diarios de la época, y se cruzan con
-              Wikipedia. Cada partido indica de qué fuente sale y las diferencias entre fuentes quedan anotadas.
+              Wikipedia; las diferencias entre fuentes quedan anotadas en cada temporada. Los resultados en vivo, las tablas y las
+              estadísticas de los jugadores se actualizan automáticamente.
             </p>
           </div>
         </section>
@@ -47,8 +79,8 @@ export default function CreditsPage() {
               return (
                 <li key={id} className="flex items-center gap-3 px-4 py-2">
                   <Crest team={team} size="sm" />
-                  <span className="min-w-0 flex-1 truncate font-medium text-navy-800">{team.name}</span>
-                  <span className="hidden max-w-[16rem] truncate text-xs text-navy-500 sm:inline">{crest.license}</span>
+                  <span className="min-w-0 flex-1 break-words leading-snug font-medium text-navy-800">{team.name}</span>
+                  <span className="hidden max-w-[16rem] break-words leading-snug text-xs text-navy-500 sm:inline">{crest.license}</span>
                   <a href={crest.page} target="_blank" rel="noreferrer" className="text-xs text-brand-500 hover:underline">
                     {crest.page.includes("commons.") ? "Wikimedia Commons" : "Wikipedia"}
                   </a>
@@ -71,7 +103,7 @@ export default function CreditsPage() {
               return (
                 <li key={id} className="flex items-center gap-3 px-4 py-2">
                   <CompLogo id={id} size={24} />
-                  <span className="min-w-0 flex-1 truncate font-medium text-navy-800">{comp?.name ?? id}</span>
+                  <span className="min-w-0 flex-1 break-words leading-snug font-medium text-navy-800">{comp?.name ?? id}</span>
                   <a href={logo.page} target="_blank" rel="noreferrer" className="text-xs text-brand-500 hover:underline">
                     {logo.page.includes("commons.") ? "Commons" : "Wikipedia"}
                   </a>

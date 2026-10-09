@@ -18,7 +18,8 @@ export default function HubTabs({ tabs }: { tabs: { id: string; label: string; c
 
   return (
     <div>
-      <div role="tablist" className="mb-5 grid grid-cols-3 border-b border-navy-200">
+      {/* Con una sola pestaña (los amistosos), no hace falta elegir. */}
+      <div role="tablist" className={`mb-5 grid border-b border-navy-200 ${tabs.length < 2 ? "hidden" : ""}`} style={{ gridTemplateColumns: `repeat(${tabs.length}, minmax(0, 1fr))` }}>
         {tabs.map((t) => (
           <button
             key={t.id}
@@ -29,7 +30,7 @@ export default function HubTabs({ tabs }: { tabs: { id: string; label: string; c
               setActive(t.id);
               history.replaceState(null, "", `#${t.id}`);
             }}
-            className={`-mb-px border-b-2 px-2 py-3 text-center font-display text-sm font-bold uppercase tracking-wide transition sm:text-lg ${
+            className={`-mb-px border-b-2 px-1.5 py-3 text-center font-display text-[0.95rem] font-bold uppercase leading-tight tracking-wide transition sm:text-lg ${
               active === t.id ? "border-volt-500 text-volt-600" : "border-transparent text-navy-700 hover:text-navy-950"
             }`}
           >

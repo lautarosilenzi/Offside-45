@@ -146,7 +146,6 @@ function MatchRow({ match, linkSeason, showStage }: { match: Match; linkSeason: 
 
       <div className="mt-1.5 flex flex-wrap gap-x-4 text-[11px] text-navy-400 sm:pl-[8.25rem]">
         {match.venue && <span>{match.venue}</span>}
-        <span>Fuente: {match.sources.map((s) => SOURCE_LABELS[s]).join(", ")}</span>
       </div>
     </li>
   );
@@ -170,11 +169,11 @@ function TeamSide({
       <Crest team={team} size="sm" />
       <div className="min-w-0">
         <div
-          className={`line-clamp-2 text-sm leading-tight sm:truncate sm:text-[15px] ${won ? "font-bold text-navy-950" : "font-medium text-navy-600"}`}
+          className={`line-clamp-2 text-sm leading-tight sm:text-[15px] ${won ? "font-bold text-navy-950" : "font-medium text-navy-600"}`}
         >
           {name}
         </div>
-        {today && <div className="truncate text-[11px] text-navy-400">hoy {today}</div>}
+        {today && <div className="break-words leading-snug text-[11px] text-navy-400">hoy {today}</div>}
       </div>
     </div>
   );

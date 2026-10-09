@@ -18,6 +18,7 @@ const c = (id: string, name: string, wiki: string, href?: string): Competition =
 // Destacado: lo mismo que destacan los sitios de resultados. Las que tienen datos en vivo van a su página de torneo
 // (/torneos/<id>: fixture, tablas, equipos y estadísticas); la historia de cada una sigue en su sección.
 export const FEATURED: Competition[] = [
+  c("historiales", "Historial entre equipos", "", "/historiales"),
   c("liga-profesional", "Liga Profesional de Fútbol", "es:Primera División de Argentina", "/torneos/liga-profesional"),
   c("primera-nacional", "Primera Nacional", "en:Primera Nacional", "/torneos/primera-nacional"),
   c("libertadores", "Copa Libertadores", "en:Copa Libertadores", "/torneos/libertadores"),
@@ -26,6 +27,7 @@ export const FEATURED: Competition[] = [
   c("champions", "Champions League", "es:Liga de Campeones de la UEFA", "/torneos/champions"),
   c("eliminatorias", "Eliminatorias Conmebol", "", "/torneos/eliminatorias"),
   c("mundial", "Copa del Mundo", "en:FIFA World Cup Trophy" /* logo: ilustración de Commons, cargada a mano */, "/mundiales"),
+  c("balon-de-oro", "Balón de Oro", "en:Ballon d'Or", "/balon-de-oro"),
   c("messi-vs-cristiano", "Messi vs Cristiano", "", "/messi-vs-cristiano"),
 ];
 
@@ -35,6 +37,7 @@ export const GROUPS: CountryGroup[] = [
     name: "Argentina",
     flag: "ar",
     competitions: [
+      c("historiales", "Historial entre equipos", "", "/historiales"),
       c("liga-profesional", "Liga Profesional de Fútbol", "es:Primera División de Argentina", "/temporadas"),
       c("primera-nacional", "Primera Nacional", "en:Primera Nacional"),
       c("copa-argentina", "Copa Argentina", "en:Copa Argentina", "/copa-argentina"),
@@ -48,6 +51,7 @@ export const GROUPS: CountryGroup[] = [
       c("reserva", "Liga Profesional · Reserva", ""),
       c("liga-femenina", "Liga Femenina", ""),
       c("futsal", "Futsal", ""),
+      c("internacionales", "Clubes argentinos en copas internacionales", "", "/internacionales"),
       c("copas-nacionales", "Copas Nacionales (historia)", "", "/copas"),
       c("descensos", "Descensos", "", "/descensos"),
       c("campeones", "Campeones", "", "/campeones"),
@@ -72,11 +76,10 @@ export const GROUPS: CountryGroup[] = [
       c("mundial-sub20", "Mundial Sub-20", "es:Copa Mundial de Fútbol Sub-20"),
       c("mundial-sub17", "Mundial Sub-17", "es:Copa Mundial de Fútbol Sub-17"),
       c("juegos-olimpicos", "Juegos Olímpicos", "es:Fútbol en los Juegos Olímpicos"),
-      c("copa-oro", "Copa Oro", "es:Copa de Oro de la Concacaf"),
+      c("copa-oro", "Copa Oro Concacaf", "es:Copa de Oro de la Concacaf"),
       c("nations-league-concacaf", "Liga de Naciones Concacaf", "es:Liga de Naciones de la Concacaf"),
       c("copa-africana", "Copa Africana de Naciones", "es:Copa Africana de Naciones"),
       c("copa-asiatica", "Copa Asiática", "es:Copa Asiática"),
-      c("balon-de-oro", "Balón de Oro", "en:Ballon d'Or", "/balon-de-oro"),
     ],
   },
   {
@@ -95,10 +98,8 @@ export const GROUPS: CountryGroup[] = [
       c("mundial-clubes", "Mundial de Clubes", "es:Copa Mundial de Clubes de la FIFA", "/mundial-de-clubes"),
       c("copa-intercontinental", "Copa Intercontinental", ""),
       c("concacaf-champions", "Concacaf Champions Cup", "es:Copa de Campeones de la Concacaf"),
-      c("leagues-cup", "Leagues Cup", "es:Leagues Cup"),
       c("champions-asia", "Champions de Asia", "es:Liga de Campeones de la AFC"),
       c("champions-africa", "Champions de África", "es:Liga de Campeones de la CAF"),
-      c("internacionales", "Clubes argentinos en copas internacionales", "", "/internacionales"),
     ],
   },
   // Sudamérica
@@ -123,8 +124,8 @@ export const GROUPS: CountryGroup[] = [
   { id: "belgica", name: "Bélgica", flag: "be", region: "Europa", competitions: [c("pro-league-belgica", "Pro League", "es:Primera División de Bélgica")] },
   { id: "turquia", name: "Turquía", flag: "tr", region: "Europa", competitions: [c("super-lig", "Süper Lig", "es:Superliga de Turquía")] },
   // Resto del mundo
-  { id: "mexico", name: "México", flag: "mx", region: "Resto del mundo", competitions: [c("liga-mx", "Liga MX", "es:Primera División de México")] },
-  { id: "eeuu", name: "Estados Unidos", flag: "us", region: "Resto del mundo", competitions: [c("mls", "MLS", "es:Major League Soccer")] },
+  { id: "mexico", name: "México", flag: "mx", region: "Resto del mundo", competitions: [c("liga-mx", "Liga MX", "es:Primera División de México"), c("leagues-cup", "Leagues Cup", "es:Leagues Cup")] },
+  { id: "eeuu", name: "Estados Unidos", flag: "us", region: "Resto del mundo", competitions: [c("mls", "MLS", "es:Major League Soccer"), c("leagues-cup", "Leagues Cup", "es:Leagues Cup")] },
   { id: "arabia", name: "Arabia Saudita", flag: "sa", region: "Resto del mundo", competitions: [c("saudi-pro-league", "Liga Profesional Saudí", "es:Liga Profesional Saudí")] },
   // Femenino
   {
@@ -140,8 +141,8 @@ export const GROUPS: CountryGroup[] = [
   },
   // Especiales del sitio
   {
-    id: "jugadores",
-    name: "Jugadores",
+    id: "especiales",
+    name: "Especiales",
     flag: "un",
     region: "Especiales",
     competitions: [

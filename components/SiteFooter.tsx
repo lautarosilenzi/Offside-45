@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { DONATION_URL } from "@/lib/site";
+import { CONTACT_EMAIL, DONATION_URL } from "@/lib/site";
 
 export default function SiteFooter() {
   return (
@@ -31,10 +31,12 @@ export default function SiteFooter() {
           <Link href="/foro" className="text-white underline-offset-2 hover:underline">
             Foro del hincha
           </Link>
+          <a href={CONTACT_EMAIL ? `mailto:${CONTACT_EMAIL}` : "/creditos#contacto"} className="text-white underline-offset-2 hover:underline">
+            Contacto
+          </a>
           <Link href="/creditos" className="text-white underline-offset-2 hover:underline">
-            Fuentes y créditos
+            Acerca de y créditos
           </Link>
-          <span>Datos: RSSSF y Wikipedia</span>
         </p>
       </div>
     </footer>

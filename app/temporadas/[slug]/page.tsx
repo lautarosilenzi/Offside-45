@@ -165,8 +165,8 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
           <p className="mt-2 text-xs text-navy-500">
             {season.tableNote ? `${season.tableNote} ` : ""}
             {isCup
-              ? "Suma todos los partidos de la copa, ordenados según hasta dónde llegó cada equipo (no es una tabla oficial). Se calcula con los partidos de abajo y se compara con la que publica RSSSF."
-              : `${season.pointsPerWin} puntos por victoria. La tabla se calcula con los partidos de abajo y se compara con la publicada por la fuente${season.tableIncludesPlayoffs ? "." : "; los desempates no suman."}`}
+              ? "Suma todos los partidos de la copa, ordenados según hasta dónde llegó cada equipo (no es una tabla oficial). Se calcula con los partidos de abajo."
+              : `${season.pointsPerWin} puntos por victoria. La tabla se calcula con los partidos de abajo${season.tableIncludesPlayoffs ? "." : "; los desempates no suman."}`}
             {season.pointAdjustments?.map((a) => ` ${getTeam(a.teamId)?.name ?? a.teamId}: ${a.points} puntos (${a.reason})`).join("")}
           </p>
         </section>
@@ -190,39 +190,39 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
             </p>
           ) : isCup && (
             <p className="mb-3 text-sm text-navy-500">
-              Todos los partidos de la copa, por fase y en el orden de la fuente. La final se controla contra el índice de
-              copas de RSSSF, y se verifica que ningún equipo eliminado vuelva a jugar.
+              Todos los partidos de la copa, por fase.
             </p>
           )}
           <MatchList matches={matches} groupBy={isCup ? "stage" : "none"} linkSeason={false} />
         </section>
 
-        <section>
-          <h2 className="section-title mb-3">Fuentes</h2>
-          <ul className="panel divide-y divide-navy-100 text-sm">
+        {/* Fuentes del torneo: discretas, al final y cerradas. */}
+        <details className="text-xs text-navy-400">
+          <summary className="cursor-pointer">Fuentes</summary>
+          <ul className="mt-1 space-y-0.5 pl-3">
             {season.sources.map((s) => (
-              <li key={s.url} className="px-4 py-2.5">
-                <a href={s.url} target="_blank" rel="noreferrer" className="font-medium text-brand-500 hover:underline">
+              <li key={s.url}>
+                <a href={s.url} target="_blank" rel="noreferrer" className="hover:underline">
                   {s.label}
                 </a>
               </li>
             ))}
           </ul>
-        </section>
+        </details>
 
         <nav className="grid grid-cols-2 gap-4">
           {prev ? (
-            <Link href={`/temporadas/${prev.slug}`} className="panel px-4 py-3 transition hover:border-navy-300">
+            <Link href={`/temporadas/${prev.slug}`} className="panel px-4 py-3 text-center transition hover:border-navy-300">
               <div className="text-xs uppercase tracking-wider text-navy-400">Anterior</div>
-              <div className="font-display text-2xl font-bold text-navy-900">← {navLabel(prev)}</div>
+              <div className="font-display text-xl font-bold text-navy-900 sm:text-2xl">← {navLabel(prev)}</div>
             </Link>
           ) : (
             <span />
           )}
           {next && (
-            <Link href={`/temporadas/${next.slug}`} className="panel px-4 py-3 text-right transition hover:border-navy-300">
+            <Link href={`/temporadas/${next.slug}`} className="panel px-4 py-3 text-center transition hover:border-navy-300">
               <div className="text-xs uppercase tracking-wider text-navy-400">Siguiente</div>
-              <div className="font-display text-2xl font-bold text-navy-900">{navLabel(next)} →</div>
+              <div className="font-display text-xl font-bold text-navy-900 sm:text-2xl">{navLabel(next)} →</div>
             </Link>
           )}
         </nav>

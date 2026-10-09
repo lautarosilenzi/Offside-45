@@ -35,7 +35,7 @@ export default function CupHistory({
       <PageHero eyebrow={eyebrow} title={title}>
         {intro}
         <div className="mt-5 flex flex-wrap items-end gap-x-8 gap-y-2 font-display uppercase tracking-wide">
-          {logo && <CompLogo id={logo} size={72} className="rounded-2xl bg-white p-1.5 shadow-lg" />}
+          {logo && <CompLogo id={logo} size={72} className="" />}
           <Stat value={played.length} label="Ediciones" />
           <Stat value={new Set(played.map((r) => (by ? by(r.champion!) : r.champion))).size} label="Campeones distintos" />
         </div>

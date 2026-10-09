@@ -48,7 +48,7 @@ export default function ClubWorldPage() {
         (desde 2000) y la nueva Copa Intercontinental de la FIFA (desde 2024). La FIFA reconoce como campeones del mundo a los
         ganadores de la Intercontinental y del Mundial de Clubes.
         <div className="mt-5 flex flex-wrap items-end gap-x-8 gap-y-2 font-display uppercase tracking-wide">
-          <CompLogo id="mundial-clubes" size={72} className="rounded-2xl bg-white p-1.5 shadow-lg" />
+          <CompLogo id="mundial-clubes" size={72} className="" />
           <Stat value={ranking.length} label="Campeones distintos" />
           <Stat value={argentine.reduce((n, r) => n + r.total, 0)} label="Títulos argentinos" />
         </div>
@@ -81,7 +81,7 @@ export default function ClubWorldPage() {
                       <td className="max-w-[14rem] py-2">
                         <span className="flex min-w-0 items-center gap-2">
                           <Crest team={team} size="xs" />
-                          <span className="truncate font-semibold text-navy-900">{team.name.replace(/\s*\([^)]*\)$/, "")}</span>
+                          <span className="break-words leading-snug font-semibold text-navy-900">{team.name.replace(/\s*\([^)]*\)$/, "")}</span>
                         </span>
                       </td>
                       <td className="py-2 text-right tabular-nums text-navy-700">{r.inter || ""}</td>

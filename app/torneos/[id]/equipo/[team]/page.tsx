@@ -18,9 +18,18 @@ export const maxDuration = 60;
 export const dynamicParams = true;
 export const generateStaticParams = () => [];
 
-export function generateMetadata({ params }: { params: { id: string; team: string } }): Metadata {
+export async function generateMetadata({ params }: { params: { id: string; team: string } }): Promise<Metadata> {
   const c = findLiveCompetition(params.id);
-  return { title: c ? `Equipo · ${c.name} · 126Goals` : "126Goals" };
+  // Nombre del club (ESPN), para el título y la vista previa al compartir.
+  const name = /^\d+$/.test(params.team)
+    ? await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/${params.team}`, { next: { revalidate: 86400 } })
+        .then((r) => r.json())
+        .then((j) => j.team?.displayName as string | undefined)
+        .catch(() => undefined)
+    : undefined;
+  const title = name ? `${name} · Plantel, partidos y estadísticas · 126Goals` : c ? `Equipo · ${c.name} · 126Goals` : "126Goals";
+  const description = name ? `${name}: plantel con fotos, próximos partidos, resultados, goleadores y títulos${c ? ` en ${c.name}` : ""}.` : undefined;
+  return { title, description, openGraph: { title, description } };
 }
 
 const POSITION: Record<string, Line> = { Goalkeeper: "Arquero", Defender: "Defensor", Midfielder: "Mediocampista", Forward: "Delantero" };
@@ -103,7 +112,7 @@ export default async function TeamPage({ params }: { params: { id: string; team:
           <section>
             <h2 className="section-title mb-3">Plantel</h2>
             {players.length === 0 ? (
-              <p className="panel px-6 py-8 text-center text-navy-500">La fuente todavía no publicó el plantel de este equipo.</p>
+              <p className="panel px-6 py-8 text-center text-navy-500">Todavía no está publicado el plantel de este equipo.</p>
             ) : (
               <div className="space-y-3">
                 {GROUPS.filter((g) => players.some((p) => p.line === g.line)).map((g) => (
@@ -119,9 +128,9 @@ export default async function TeamPage({ params }: { params: { id: string; team:
                               <span className="w-6 text-center font-display font-bold tabular-nums text-navy-400">{p.number ?? "–"}</span>
                               <Face url={p.id ? photos[p.id]?.url : undefined} />
                               <span className="min-w-0 flex-1">
-                                <span className="block truncate font-medium text-navy-900 group-hover:text-volt-600 group-hover:underline">{p.name}</span>
+                                <span className="block break-words leading-snug font-medium text-navy-900 group-hover:text-volt-600 group-hover:underline">{p.name}</span>
                                 {/* En el celular, la nacionalidad debajo del nombre. */}
-                                <span className="block truncate text-xs text-navy-400 sm:hidden">
+                                <span className="block break-words leading-snug text-xs text-navy-400 sm:hidden">
                                   {p.nationality}
                                   {p.injured ? " · lesionado" : ""}
                                 </span>
@@ -161,9 +170,6 @@ export default async function TeamPage({ params }: { params: { id: string; team:
             <MatchList title="Resultados" matches={[...played].reverse()} team={params.team} league={comp.code} />
           </section>
         </div>
-        <p className="text-xs text-navy-400">
-          Plantel actual: Wikipedia{wiki ? "" : " (no disponible: se muestra el de ESPN)"}. Estadísticas, partidos y tabla: ESPN.
-        </p>
       </main>
     </>
   );
@@ -197,7 +203,7 @@ function Leaders({ title, unit, rows, photos, cards }: { title: string; unit: st
               <Link href={`/jugador/${p.id}`} className="flex items-center gap-2.5 px-3 py-2 transition hover:bg-volt-500/5">
                 <Face url={photos[p.id]?.url} />
                 <span className="min-w-0 flex-1">
-                  <span className="block truncate font-medium text-navy-900">{p.name}</span>
+                  <span className="block break-words leading-snug font-medium text-navy-900">{p.name}</span>
                   <span className="block text-xs text-navy-400">{p.stats!.apps} partidos</span>
                 </span>
                 {cards ? (
@@ -243,7 +249,7 @@ function MatchList({ title, matches, team, league }: { title: string; matches: L
                 <span className="w-24 shrink-0 text-xs capitalize text-navy-400">{when(m.date)}</span>
                 <span className="text-xs text-navy-400">{home ? "L" : "V"}</span>
                 <TeamLogo team={rival} size={18} />
-                <span className="min-w-0 flex-1 truncate text-navy-900">
+                <span className="min-w-0 flex-1 break-words leading-snug text-navy-900">
                   {rival.name}
                   {isKnockout(m.round) && <span className="ml-1 text-xs text-navy-400">· {phaseLabel(m.round)}</span>}
                 </span>

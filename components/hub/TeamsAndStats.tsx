@@ -2,7 +2,8 @@ import Link from "next/link";
 import type { Leader, LiveTeam } from "@/lib/live/espn";
 import TeamLogo from "./TeamLogo";
 
-// Pestaña "Equipos y estadísticas": la grilla de equipos (cada uno lleva a su ficha) y los goleadores y asistidores.
+// Pestaña "Estadísticas y equipos": primero los goleadores y asistidores, después la grilla de equipos (cada uno lleva a
+// su ficha).
 export default function TeamsAndStats({
   teams,
   teamHref,
@@ -18,6 +19,10 @@ export default function TeamsAndStats({
 }) {
   return (
     <div className="space-y-6">
+      <div className="grid gap-4 md:grid-cols-2">
+        <LeaderTable title="Goleadores" unit="Goles" rows={goals} />
+        <LeaderTable title="Asistidores" unit="Asist." rows={assists} />
+      </div>
       <section className="panel p-4">
         <h2 className="text-center font-display text-lg font-bold uppercase tracking-widest text-navy-950">Equipos</h2>
         <p className="mb-4 text-center text-sm text-navy-500">Tocá un equipo para ver su plantel, sus partidos y su campaña.</p>
@@ -42,11 +47,6 @@ export default function TeamsAndStats({
           </ul>
         )}
       </section>
-
-      <div className="grid gap-4 md:grid-cols-2">
-        <LeaderTable title="Goleadores" unit="Goles" rows={goals} />
-        <LeaderTable title="Asistidores" unit="Asist." rows={assists} />
-      </div>
     </div>
   );
 }
@@ -75,13 +75,13 @@ function LeaderTable({ title, unit, rows }: { title: string; unit: string; rows:
                   <span className="flex min-w-0 items-center gap-2">
                     <TeamLogo team={r.team} size={18} />
                     {r.id ? (
-                      <Link href={`/jugador/${r.id}`} className="truncate font-semibold text-navy-900 hover:text-volt-600 hover:underline">
+                      <Link href={`/jugador/${r.id}`} className="break-words leading-snug font-semibold text-navy-900 hover:text-volt-600 hover:underline">
                         {r.name}
                       </Link>
                     ) : (
-                      <span className="truncate font-semibold text-navy-900">{r.name}</span>
+                      <span className="break-words leading-snug font-semibold text-navy-900">{r.name}</span>
                     )}
-                    <span className="hidden truncate text-xs text-navy-400 sm:inline">{r.team.name}</span>
+                    <span className="hidden break-words leading-snug text-xs text-navy-400 sm:inline">{r.team.name}</span>
                   </span>
                 </td>
                 <td className="py-2.5 text-center tabular-nums text-navy-500">{r.matches || "—"}</td>

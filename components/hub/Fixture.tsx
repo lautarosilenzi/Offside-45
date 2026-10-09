@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { LiveEvent } from "@/lib/live/espn";
+import { OFF_LABELS } from "@/lib/live/status";
 import type { Round } from "@/lib/live/season";
 import { useOddsEnabled } from "@/lib/prefs";
 import OddsLine from "../match/OddsLine";
@@ -15,6 +16,7 @@ const dayLabel = (iso: string) =>
 const hour = (iso: string) => new Intl.DateTimeFormat("es-AR", { timeZone: TZ, hour: "2-digit", minute: "2-digit", hour12: false }).format(new Date(iso));
 
 function status(e: LiveEvent) {
+  if (OFF_LABELS.includes(e.detail)) return { text: e.detail === "Postergado" ? "Post." : e.detail === "Cancelado" ? "Canc." : "Susp.", live: false };
   if (e.state === "pre") return { text: /postp|tbd|delay|susp/i.test(e.detail) ? "Post." : hour(e.date), live: false };
   if (e.state === "post") return { text: /pen/i.test(e.detail) ? "Fin (pen.)" : /AET|ET/i.test(e.detail) ? "Fin (alarg.)" : "Final", live: false };
   if (/half|^HT$/i.test(e.detail)) return { text: "ET", live: true };
@@ -81,7 +83,7 @@ export default function Fixture({ code, rounds, initial }: { code: string; round
         <select
           value={i}
           onChange={(e) => setI(Number(e.target.value))}
-          className="min-w-0 flex-1 cursor-pointer appearance-none rounded-lg bg-transparent text-center font-display text-base font-bold uppercase tracking-wide text-navy-950 outline-none hover:bg-navy-50"
+          className="min-w-0 flex-1 cursor-pointer appearance-none rounded-lg bg-transparent text-center [text-align-last:center] font-display text-base font-bold uppercase tracking-wide text-navy-950 outline-none hover:bg-navy-50"
           aria-label="Elegir fecha"
         >
           {rounds.map((r, k) => (
@@ -111,15 +113,15 @@ export default function Fixture({ code, rounds, initial }: { code: string; round
                       {st.text}
                     </span>
                     <span className="flex min-w-0 items-center justify-end gap-1.5 text-right">
-                      <span className={`truncate ${m.home.winner ? "font-bold text-navy-950" : "text-navy-800"}`}>{m.home.name}</span>
+                      <span className={`break-words leading-snug ${m.home.winner ? "font-bold text-navy-950" : "text-navy-800"}`}>{m.home.name}</span>
                       <TeamLogo team={m.home} />
                     </span>
                     <span className={`min-w-[3.2rem] rounded-md px-1.5 py-0.5 text-center font-display font-bold tabular-nums ${st.live ? "bg-red-600 text-white" : m.state === "post" ? "bg-navy-900 text-white" : "text-navy-400"}`}>
-                      {m.state === "pre" ? "-" : `${m.home.score ?? 0} - ${m.away.score ?? 0}`}
+                      {m.state === "pre" || m.home.score === undefined ? "-" : `${m.home.score} - ${m.away.score ?? 0}`}
                     </span>
                     <span className="flex min-w-0 items-center gap-1.5">
                       <TeamLogo team={m.away} />
-                      <span className={`truncate ${m.away.winner ? "font-bold text-navy-950" : "text-navy-800"}`}>{m.away.name}</span>
+                      <span className={`break-words leading-snug ${m.away.winner ? "font-bold text-navy-950" : "text-navy-800"}`}>{m.away.name}</span>
                     </span>
                   </Link>
                   {oddsOn && m.state === "pre" && m.odds && <OddsLine odds={m.odds} grid={ROW_GRID} />}

@@ -51,8 +51,7 @@ export default function PendingLeaguePage({ params }: { params: { pais: string; 
             <CompLogo id={comp.id} size={96} />
             <p className="font-display text-2xl font-bold uppercase tracking-wide text-navy-900">Muy pronto, en vivo</p>
             <p className="max-w-lg text-navy-600">
-              Las tablas y los resultados de {comp.name} se van a actualizar solos, al momento, cuando conectemos la fuente de datos
-              en vivo. Mientras tanto, no mostramos números que no podamos garantizar.
+              Muy pronto vas a poder seguir acá los partidos, los resultados y la tabla de {comp.name}.
             </p>
           </div>
         )}

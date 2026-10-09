@@ -87,6 +87,15 @@ async function getJson(url: string, revalidate: number) {
 
 const shoot = (x: any) => (x?.shootoutScore === undefined || x?.shootoutScore === null ? undefined : Number(x.shootoutScore));
 
+// Estados de ESPN de un partido que no se jugó (o no terminó): el texto que se muestra en lugar del resultado.
+export function offStatus(name?: string): string | undefined {
+  if (!name) return undefined;
+  if (/CANCEL/i.test(name)) return "Cancelado";
+  if (/POSTPONED/i.test(name)) return "Postergado";
+  if (/SUSPENDED|ABANDONED/i.test(name)) return "Suspendido";
+  return undefined;
+}
+
 function toEvent(e: any): LiveEvent {
   const c = e.competitions?.[0] ?? {};
   const comps: any[] = c.competitors ?? [];
@@ -95,12 +104,15 @@ function toEvent(e: any): LiveEvent {
   // En el calendario de un equipo, el estado viene dentro del partido y el resultado como objeto.
   const status = e.status ?? c.status;
   const state = status?.type?.state ?? "pre";
-  const score = (x: any) => (state === "pre" ? undefined : typeof x?.score === "object" ? x.score?.displayValue : x?.score);
+  // Cancelado, postergado o suspendido: ESPN lo da como terminado y 0 a 0 (la Finalissima 2026 figuraba "España 0,
+  // Argentina 0"). Va sin resultado y con su estado.
+  const off = offStatus(status?.type?.name);
+  const score = (x: any) => (state === "pre" || off ? undefined : typeof x?.score === "object" ? x.score?.displayValue : x?.score);
   return {
     id: String(e.id),
     date: e.date,
     state,
-    detail: status?.type?.shortDetail ?? "",
+    detail: off ?? status?.type?.shortDetail ?? "",
     clock: status?.displayClock,
     home: team(h?.team, score(h), h?.winner, shoot(h)),
     away: team(a?.team, score(a), a?.winner, shoot(a)),
@@ -324,7 +336,24 @@ export async function matchSummary(league: string, eventId: string): Promise<Mat
     stats: boxHome && boxAway ? (boxHome.statistics ?? []).map((s: any) => ({ name: s.name, home: s.displayValue, away: stat(boxAway, s.name) })) : [],
     commentary: (j.commentary ?? []).map((c: any) => ({ minute: c.time?.displayValue ?? "", text: c.text ?? "", type: c.play?.type?.text ?? "" })),
     odds: parseOdds((j.pickcenter ?? [])[0] ?? (j.odds ?? [])[0]),
-    status: { state: comp.status?.type?.state ?? "pre", detail: comp.status?.type?.shortDetail ?? "", clock: comp.status?.displayClock },
+    status: { state: comp.status?.type?.state ?? "pre", detail: offStatus(comp.status?.type?.name) ?? comp.status?.type?.shortDetail ?? "", clock: comp.status?.displayClock },
     score: competitor("home") ? { home: competitor("home")?.score ?? "", away: competitor("away")?.score ?? "" } : undefined,
   };
+}
+
+// Todos los partidos de una temporada vieja (o la actual) de una competencia: los de un año ("2018") o, en las
+// temporadas europeas ("2017–18"), de julio a junio. Los datos de partidos terminados no cambian: se guardan una semana.
+export async function editionEvents(league: string, season: string): Promise<LiveEvent[]> {
+  const years = (season.match(/\d{4}|\d{2}$/g) ?? []).map(Number);
+  if (!years.length) return [];
+  const y1 = years[0];
+  const y2 = years.length > 1 ? (years[1] < 100 ? Math.floor(y1 / 100) * 100 + years[1] : years[1]) : y1;
+  const fetchYear = (y: number) => getJson(`${BASE}/site/v2/sports/soccer/${league}/scoreboard?dates=${y}&limit=1000`, 604800).then((j) => (j.events ?? []).map(toEvent) as LiveEvent[]);
+  const all = (await Promise.all([...new Set([y1, y2])].map((y) => fetchYear(y).catch(() => [] as LiveEvent[])))).flat();
+  const from = y2 > y1 ? `${y1}-07-01` : `${y1}-01-01`;
+  const to = y2 > y1 ? `${y2}-06-30T23:59` : `${y1}-12-31T23:59`;
+  const seen = new Set<string>();
+  return all
+    .filter((e) => e.date >= from && e.date <= to && !seen.has(e.id) && seen.add(e.id))
+    .sort((a, b) => a.date.localeCompare(b.date));
 }

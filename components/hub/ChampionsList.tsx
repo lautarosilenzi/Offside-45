@@ -1,8 +1,18 @@
-import type { ChampionRow, TitleCount } from "@/lib/champions";
+import Link from "next/link";
+import { normName, type ChampionRow, type TitleCount } from "@/lib/champions";
+import { editionHref } from "@/lib/editions";
 
 // Pestaña "Campeones": todos los campeones, del más reciente al más viejo, y la tabla de los más ganadores.
-export default function ChampionsList({ rows, ranking, source }: { rows: ChampionRow[]; ranking: TitleCount[]; source: string }) {
+export default function ChampionsList({ rows, ranking, label = "Club", compId }: { rows: ChampionRow[]; ranking: TitleCount[]; label?: string; compId?: string }) {
   const hasRunner = rows.some((r) => r.runnerUp);
+  // Número de título de cada campeón en ese año (las filas van de la más nueva a la más vieja).
+  const nth: number[] = [];
+  const seen = new Map<string, number>();
+  for (let i = rows.length - 1; i >= 0; i--) {
+    const k = normName(rows[i].champion);
+    seen.set(k, (seen.get(k) ?? 0) + 1);
+    nth[i] = seen.get(k)!;
+  }
   return (
     <div className="space-y-3">
       <div className="grid gap-6 [&>*]:min-w-0 lg:grid-cols-[3fr_2fr]">
@@ -19,8 +29,22 @@ export default function ChampionsList({ rows, ranking, source }: { rows: Champio
             <tbody className="divide-y divide-navy-50">
               {rows.map((r, i) => (
                 <tr key={`${r.season}-${i}`}>
-                  <td className="py-2.5 pl-4 tabular-nums text-navy-500">{r.season}</td>
-                  <td className="py-2.5 font-semibold text-navy-950">🏆 {r.champion}</td>
+                  <td className="py-2.5 pl-4 tabular-nums text-navy-500">
+                    {/* Cada temporada lleva a su edición: cuadro, goleadores y partidos. */}
+                    {compId && editionHref(compId, r.season) ? (
+                      <Link href={editionHref(compId, r.season)!} className="text-volt-600 underline-offset-2 hover:underline">
+                        {r.season}
+                      </Link>
+                    ) : (
+                      r.season
+                    )}
+                  </td>
+                  <td className="py-2.5 pr-2 font-semibold text-navy-950">
+                    🏆 {r.champion}{" "}
+                    <span className="ml-1 whitespace-nowrap rounded-full bg-gold-400/15 px-2 py-0.5 text-[0.7rem] font-semibold text-gold-500 ring-1 ring-gold-400/30" title="Títulos que llevaba hasta ese año">
+                      {nth[i]}.º
+                    </span>
+                  </td>
                   {hasRunner && <td className="hidden py-2.5 pr-4 text-navy-500 sm:table-cell">{r.runnerUp ?? ""}</td>}
                 </tr>
               ))}
@@ -33,7 +57,7 @@ export default function ChampionsList({ rows, ranking, source }: { rows: Champio
             <thead>
               <tr className="border-b border-navy-100 font-display text-xs uppercase tracking-wider text-navy-500">
                 <th className="w-8 py-2 pl-3 text-left">#</th>
-                <th className="py-2 text-left">Club</th>
+                <th className="py-2 text-left">{label}</th>
                 <th className="w-14 py-2 text-center">Títulos</th>
                 <th className="w-24 py-2 pr-3 text-right">Último</th>
               </tr>
@@ -52,11 +76,7 @@ export default function ChampionsList({ rows, ranking, source }: { rows: Champio
         </section>
       </div>
       <p className="text-xs text-navy-400">
-        Fuente:{" "}
-        <a href={source} target="_blank" rel="noreferrer" className="text-brand-500 hover:underline">
-          Wikipedia
-        </a>
-        , verificada contra la tabla de títulos por club del mismo artículo. Algunos nombres viejos se unificaron con el actual del club (por ejemplo,
+        Algunos nombres viejos se unificaron con el actual del club (por ejemplo,
         Madrid FC con Real Madrid) para contar bien sus títulos.
       </p>
     </div>

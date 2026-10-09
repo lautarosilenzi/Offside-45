@@ -2,6 +2,7 @@ import Link from "next/link";
 import CompLogo from "@/components/CompLogo";
 import LiveMatches from "@/components/live/LiveMatches";
 import HomeSearch from "@/components/HomeSearch";
+import OddsToggle from "@/components/OddsToggle";
 import MyTeamCard from "@/components/myteam/MyTeamCard";
 import { FEATURED } from "@/lib/competitions";
 import { liveLeagues } from "@/lib/live/leagues";
@@ -34,15 +35,14 @@ export default function Home() {
         <HomeSearch />
         <MyTeamCard />
 
-        <nav aria-label="Torneos destacados" className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:px-0 [&::-webkit-scrollbar]:hidden">
+        <nav aria-label="Torneos destacados" className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
           {tournaments.map((c) => (
             <Link
               key={c.id}
               href={c.href!}
-              className="flex shrink-0 items-center gap-2 rounded-full bg-white px-3 py-1.5 text-sm font-semibold text-navy-800 ring-1 ring-navy-100 transition hover:ring-volt-400"
+              className="flex min-h-[2.75rem] items-center gap-2 rounded-2xl bg-white px-3 py-1.5 text-sm font-semibold leading-tight text-navy-800 ring-1 ring-navy-100 transition hover:ring-volt-400 sm:rounded-full"
             >
-              {/* Placa blanca: hay logos oscuros (Liga Profesional, Champions) que no se verían sobre el fondo. */}
-              <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#fff] p-0.5">
+              <span className="flex h-6 w-6 shrink-0 items-center justify-center">
                 <CompLogo id={c.id} size={18} />
               </span>
               {c.name}
@@ -51,7 +51,10 @@ export default function Home() {
         </nav>
 
         <section>
-          <h2 className="section-title mb-3">Partidos</h2>
+          <div className="mb-3 flex items-center justify-between gap-3">
+            <h2 className="section-title">Partidos</h2>
+            <OddsToggle variant="inline" />
+          </div>
           <LiveMatches leagues={liveLeagues()} date={today} />
         </section>
 

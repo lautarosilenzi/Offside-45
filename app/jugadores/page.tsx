@@ -121,10 +121,9 @@ export default function LegendsPage({ searchParams }: { searchParams: { a?: stri
         </section>
 
         <p className="rounded-2xl border-l-4 border-brand-500 bg-white/80 px-4 py-3 text-sm leading-relaxed text-navy-600">
-          Datos de Wikipedia en inglés (ficha, tablas de estadísticas y títulos de cada jugador), revisados uno por uno; Messi y Cristiano, con los datos
-          verificados de <a href="/messi-vs-cristiano" className="text-brand-500 hover:underline">Messi vs Cristiano</a>. Solo partidos oficiales. Los
+          Datos revisados uno por uno; Messi y Cristiano, con los datos verificados de <a href="/messi-vs-cristiano" className="text-brand-500 hover:underline">Messi vs Cristiano</a>. Solo partidos oficiales. Los
           títulos son los ganados como jugador (sin amistosos ni los ganados como técnico). Las asistencias recién se registran de forma confiable en las
-          últimas décadas, así que solo se comparan cuando hay datos para los dos. En las épocas viejas las fuentes no siempre coinciden en partidos y goles.
+          últimas décadas, así que solo se comparan cuando hay datos para los dos. En las épocas viejas los registros no siempre coinciden en partidos y goles.
         </p>
       </main>
     </>

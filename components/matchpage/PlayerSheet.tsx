@@ -131,7 +131,7 @@ export default function PlayerSheet({
         </div>
 
         {!data && !failed && <div className="skeleton m-5 h-48 rounded-2xl" />}
-        {failed && <p className="px-5 py-8 text-center text-sm text-navy-500">ESPN no publicó las estadísticas de este jugador en el partido.</p>}
+        {failed && <p className="px-5 py-8 text-center text-sm text-navy-500">Todavía no hay estadísticas de este jugador en el partido.</p>}
         {data && !p.played && <p className="px-5 py-8 text-center text-sm text-navy-500">Estuvo en el banco y no entró.</p>}
         {data &&
           p.played &&

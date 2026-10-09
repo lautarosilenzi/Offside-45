@@ -116,7 +116,7 @@ export default function ChampionsPage() {
                       <td className="py-2">
                         <span className="flex items-center gap-2">
                           <Crest team={team} size="xs" />
-                          <span className="truncate font-semibold text-navy-900">{team.name}</span>
+                          <span className="break-words leading-snug font-semibold text-navy-900">{team.name}</span>
                         </span>
                       </td>
                       <td className="py-2 text-right tabular-nums text-navy-700">{r.league}</td>
@@ -213,10 +213,10 @@ function TitleChip({ title }: { title: Title }) {
         </span>
       ) : null}
       <span className="min-w-0 leading-tight">
-        <span className={`block truncate font-display text-[0.7rem] font-semibold uppercase tracking-wider ${league ? "text-brand-200" : "text-navy-400"}`}>
+        <span className={`block break-words leading-snug font-display text-[0.7rem] font-semibold uppercase tracking-wider ${league ? "text-brand-200" : "text-navy-400"}`}>
           {title.label}
         </span>
-        <span className="block truncate text-sm font-bold">
+        <span className="block break-words leading-snug text-sm font-bold">
           {title.championIds.length
             ? title.championIds.map((id) => (title.season && seasonNameOf(title.season, id)) ?? getTeam(id)!.name).join(" y ")
             : <span className={`font-normal ${league ? "text-navy-300" : "text-navy-500"}`}>{title.status}</span>}

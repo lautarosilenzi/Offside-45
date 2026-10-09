@@ -15,7 +15,6 @@ const GROUPS: { title: string; kinds: string[] }[] = [
   { title: "Secciones", kinds: ["Sección"] },
   { title: "Temporadas", kinds: ["Temporada"] },
 ];
-const EXAMPLES = ["Boca", "River", "Messi", "Liga Profesional", "Champions League", "Copa del Mundo"];
 
 // Buscador grande de la portada: equipos, jugadores (en actividad y leyendas), torneos y secciones. Los resultados
 // aparecen debajo, grandes y agrupados; Enter abre el primero y las flechas recorren la lista.
@@ -104,25 +103,6 @@ export default function HomeSearch() {
         )}
       </div>
 
-      {!results && (
-        <div className="mt-3 flex flex-wrap items-center gap-2">
-          <span className="text-sm text-navy-500">Por ejemplo:</span>
-          {EXAMPLES.map((x) => (
-            <button
-              key={x}
-              type="button"
-              onClick={() => {
-                setQ(x);
-                input.current?.focus();
-              }}
-              className="rounded-full bg-white px-3.5 py-1.5 text-sm font-semibold text-navy-800 ring-1 ring-navy-100 transition hover:ring-volt-400"
-            >
-              {x}
-            </button>
-          ))}
-        </div>
-      )}
-
       <div id="home-search-results" aria-live="polite">
         {results && (
           <div className="panel mt-3 overflow-hidden">
@@ -145,16 +125,16 @@ export default function HomeSearch() {
                             onMouseEnter={() => setActive(i)}
                             className={`flex items-center gap-4 px-5 py-3.5 transition ${active === i ? "bg-volt-500/10" : "hover:bg-volt-500/5"}`}
                           >
-                            <span className="flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-full bg-[#fff]">
+                            <span className={`flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-full ${r.kind === "Jugador" ? "bg-navy-100" : ""}`}>
                               {r.logo ? (
-                                <img src={r.logo} alt="" loading="lazy" referrerPolicy="no-referrer" className={r.kind === "Jugador" ? "h-full w-full object-cover object-top" : "h-8 w-8 object-contain"} />
+                                <img src={r.logo} alt="" loading="lazy" referrerPolicy="no-referrer" className={r.kind === "Jugador" ? "h-full w-full object-cover object-top" : "logo-img h-9 w-9 object-contain"} />
                               ) : (
                                 <span className="font-display text-lg font-bold text-navy-400">{r.title.charAt(0)}</span>
                               )}
                             </span>
                             <span className="min-w-0 flex-1">
-                              <span className="block truncate text-base font-semibold text-navy-950 sm:text-lg">{r.title}</span>
-                              {r.subtitle && <span className="block truncate text-sm text-navy-500">{r.subtitle}</span>}
+                              <span className="block break-words leading-snug text-base font-semibold text-navy-950 sm:text-lg">{r.title}</span>
+                              {r.subtitle && <span className="block break-words leading-snug text-sm text-navy-500">{r.subtitle}</span>}
                             </span>
                             <span aria-hidden className="text-2xl text-navy-300">
                               ›

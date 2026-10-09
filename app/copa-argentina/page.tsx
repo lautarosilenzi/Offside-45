@@ -9,28 +9,16 @@ import PageHero from "@/components/PageHero";
 import { RankTable, YearList } from "@/components/TitleBoards";
 import { isCounted, winnerOf } from "@/lib/matches";
 import { positions } from "@/lib/rank";
-import { CUP_COMPETITIONS, finalRows, seasonLabel, sourceOrder } from "@/lib/seasons";
+import { copaArgentinaFinals } from "@/lib/cup-history";
+import { CUP_COMPETITIONS, seasonLabel, sourceOrder } from "@/lib/seasons";
 import { liveLeagues } from "@/lib/live/leagues";
 import { getTeam } from "@/lib/teams";
-import type { Match, Season } from "@/lib/types";
+import type { Match } from "@/lib/types";
 
 export const metadata: Metadata = { title: "Copa Argentina · 126Goals" };
 
 const EDITIONS = CUP_COMPETITIONS.find((c) => c.name === "Copa Argentina")!.editions;
 const CURRENT = EDITIONS.find((s) => s.inProgress) ?? EDITIONS[EDITIONS.length - 1];
-
-// Resultado de la final de una edición (ida y vuelta o partido único), contado desde el campeón.
-function finalDetail(s: Season): string | undefined {
-  const finals = s.matches.filter((m) => /^final/i.test(m.stage ?? "")).sort(sourceOrder);
-  if (!finals.length || !s.championIds[0]) return undefined;
-  const champ = s.championIds[0];
-  const text = finals.map((m) => {
-    const [f, a] = m.homeId === champ ? [m.homeGoals, m.awayGoals] : [m.awayGoals, m.homeGoals];
-    const pens = m.advancedId && f === a ? " (por penales)" : "";
-    return `${f}-${a}${pens}`;
-  });
-  return `Final: ${text.join(" y ")}`;
-}
 
 type Row = { id: string; played: number; won: number; drawn: number; lost: number; gf: number; ga: number; points: number; editions: number };
 
@@ -75,12 +63,7 @@ function historicTable(): Row[] {
 }
 
 export default function CopaArgentinaPage() {
-  const rows = EDITIONS.map((s) => {
-    const base = finalRows([s]);
-    return base.length
-      ? base.map((r) => ({ ...r, yearLabel: s.yearLabel ?? String(s.year), detail: finalDetail(s) }))
-      : [{ year: s.year, yearLabel: s.yearLabel ?? String(s.year), status: s.inProgress ? "En juego" : "Sin terminar", href: `/temporadas/${s.slug}` }];
-  }).flat();
+  const rows = copaArgentinaFinals();
   const table = historicTable();
   const pos = positions(table, (r) => r.points);
   const top = table.slice(0, 40);
@@ -96,7 +79,7 @@ export default function CopaArgentinaPage() {
           2011/12. Acá está la edición que se está jugando, todos los campeones y la tabla histórica.
         </span>
         <div className="mt-5 flex flex-wrap items-end gap-x-8 gap-y-2 font-display uppercase tracking-wide">
-          <CompLogo id="copa-argentina" size={64} className="rounded-xl bg-white p-1" />
+          <CompLogo id="copa-argentina" size={64} className="" />
           <Stat value={EDITIONS.length} label="Ediciones" />
           <Stat value={table.length} label="Clubes que la jugaron" />
           <Stat value={EDITIONS.reduce((n, s) => n + s.matches.length, 0)} label="Partidos" />
@@ -159,7 +142,7 @@ export default function CopaArgentinaPage() {
                       <td className="max-w-[14rem] py-2">
                         <span className="flex min-w-0 items-center gap-2">
                           {team && <Crest team={team} size="xs" />}
-                          <span className="truncate font-semibold text-navy-900">{team?.name ?? r.id}</span>
+                          <span className="break-words leading-snug font-semibold text-navy-900">{team?.name ?? r.id}</span>
                         </span>
                       </td>
                       <td className="py-2 text-right font-display text-base font-bold tabular-nums text-navy-950">{r.points}</td>

@@ -51,7 +51,7 @@ export const SECTIONS = [
 export default function MessiRonaldo() {
   return (
     <div className="space-y-12">
-      <nav className="sticky top-[4.6rem] z-20 -mx-1 flex gap-1 overflow-x-auto rounded-full bg-white/95 p-1 shadow ring-1 ring-navy-100 [scrollbar-width:none] sm:top-20 [&::-webkit-scrollbar]:hidden">
+      <nav className="z-20 flex flex-wrap justify-center gap-1 rounded-3xl bg-white/95 p-1.5 shadow ring-1 ring-navy-100 sm:sticky sm:top-20 sm:rounded-full">
         {SECTIONS.map((s) => (
           <a key={s.id} href={`#${s.id}`} className="shrink-0 rounded-full px-3 py-1.5 font-display text-sm font-semibold uppercase tracking-wide text-navy-700 transition hover:bg-brand-50 hover:text-brand-600">
             {s.label}

@@ -89,7 +89,7 @@ export default function MyTeamCard() {
             <p className="flex items-center gap-1.5 font-display text-[0.7rem] font-bold uppercase tracking-[0.2em] text-volt-600">
               <Star filled small /> Mi equipo
             </p>
-            <h2 className="truncate font-display text-2xl font-bold uppercase leading-tight tracking-wide text-navy-950">{team.name}</h2>
+            <h2 className="break-words leading-snug font-display text-2xl font-bold uppercase leading-tight tracking-wide text-navy-950">{team.name}</h2>
             <p className="text-sm text-navy-500">
               {data?.standing
                 ? `${data.standing.pos}.º${data.standing.table ? ` en ${data.standing.table}` : ""} · ${data.standing.points} pts en ${data.standing.played} PJ`
@@ -179,7 +179,7 @@ function Side({ t, mine, right }: { t: LiveTeam; mine: boolean; right?: boolean 
   return (
     <span className={`flex min-w-0 flex-1 items-center gap-1.5 ${right ? "flex-row-reverse text-right" : ""}`}>
       {t.logo && <img src={t.logo} alt="" className="logo-img h-6 w-6 shrink-0 object-contain" />}
-      <span className={`truncate ${mine ? "font-bold text-navy-950" : "text-navy-700"}`}>{t.name}</span>
+      <span className={`break-words leading-snug ${mine ? "font-bold text-navy-950" : "text-navy-700"}`}>{t.name}</span>
     </span>
   );
 }
@@ -243,8 +243,8 @@ function TeamSearch({ onPick }: { onPick: (t: MyTeam) => void }) {
                 >
                   {r.logo ? <img src={r.logo} alt="" className="logo-img h-7 w-7 shrink-0 object-contain" /> : <span className="h-7 w-7" />}
                   <span className="min-w-0">
-                    <span className="block truncate font-semibold text-navy-900">{r.title}</span>
-                    {r.subtitle && <span className="block truncate text-xs text-navy-500">{r.subtitle}</span>}
+                    <span className="block break-words leading-snug font-semibold text-navy-900">{r.title}</span>
+                    {r.subtitle && <span className="block break-words leading-snug text-xs text-navy-500">{r.subtitle}</span>}
                   </span>
                 </button>
               </li>

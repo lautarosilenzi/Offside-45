@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { LiveEvent, LiveTeam } from "@/lib/live/espn";
+import { OFF_LABELS } from "@/lib/live/status";
 import { getTeam } from "@/lib/teams";
 import { useOddsEnabled } from "@/lib/prefs";
 import Crest from "../Crest";
@@ -17,6 +18,7 @@ const dayLabel = (d: Date) => new Intl.DateTimeFormat("es-AR", { timeZone: TZ, w
 
 // Estado del partido en castellano.
 function status(e: LiveEvent) {
+  if (OFF_LABELS.includes(e.detail)) return { text: e.detail, live: false };
   if (e.state === "pre") return { text: hour(e.date), live: false };
   if (e.state === "post") return { text: /pen/i.test(e.detail) ? "Final (pen.)" : /AET|ET/i.test(e.detail) ? "Final (alarg.)" : "Final", live: false };
   if (/half|^HT$/i.test(e.detail)) return { text: "Entretiempo", live: true };
@@ -192,7 +194,7 @@ export default function LiveMatches({
                             st.live ? "score-live bg-red-600 text-white" : e.state === "post" ? "bg-navy-900 text-white" : "bg-navy-100 text-navy-500"
                           }`}
                         >
-                          {e.state === "pre" ? "vs" : `${e.home.score ?? 0} - ${e.away.score ?? 0}`}
+                          {e.state === "pre" || e.home.score === undefined ? "vs" : `${e.home.score} - ${e.away.score ?? 0}`}
                         </span>
                         <Side team={e.away} align="left" />
                       </Link>
@@ -205,7 +207,6 @@ export default function LiveMatches({
           ))}
         </div>
       )}
-      <p className="mt-3 text-xs text-navy-400">Resultados en vivo: ESPN. Pueden tener uno o dos minutos de demora.</p>
     </div>
   );
 }
@@ -223,7 +224,7 @@ function Side({ team, align }: { team: LiveTeam; align: "left" | "right" }) {
         <span className="h-7 w-7 shrink-0" />
       )}
       {/* En el celular, el nombre en hasta dos renglones (con guion si hace falta) en vez de cortarlo ("Sout…"). */}
-      <span className={`line-clamp-2 hyphens-auto text-[0.8rem] leading-tight sm:truncate sm:text-[0.95rem] ${team.winner ? "font-bold text-navy-950" : "font-medium text-navy-800"}`}>{team.name}</span>
+      <span className={`line-clamp-2 hyphens-auto text-[0.8rem] leading-tight sm:text-[0.95rem] ${team.winner ? "font-bold text-navy-950" : "font-medium text-navy-800"}`}>{team.name}</span>
     </span>
   );
 }

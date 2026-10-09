@@ -28,7 +28,7 @@ const ABOUT: Record<string, string> = {
     "Campeonato Rioplatense: el campeón argentino contra el uruguayo (1916–1957), un año en cada país. La donó Ricardo Aldao, presidente de la Federación Argentina.",
   "Copa Escobar-Gerona": "Copa de Confraternidad entre los subcampeones de Argentina y Uruguay (1941–1946).",
   "Copa Libertadores":
-    "La copa de clubes de la Conmebol, desde 1960 (hasta 1964, Copa de Campeones de América). De cada edición están todos los partidos de los clubes argentinos, confirmados con una segunda fuente; del resto, el campeón y el finalista.",
+    "La copa de clubes de la Conmebol, desde 1960 (hasta 1964, Copa de Campeones de América). De cada edición están todos los partidos de los clubes argentinos; del resto, el campeón y el finalista.",
   "Supercopa Sudamericana": "La Supercopa Libertadores (1988–1997), entre los campeones de la Copa Libertadores.",
   "Copa Conmebol": "La segunda copa de la Conmebol (1992–1999), para los clubes que no jugaban la Libertadores. La antecesora de la Sudamericana.",
   "Copa Mercosur": "Copa de la Conmebol con clubes de Argentina, Brasil, Chile, Paraguay y Uruguay (1998–2001).",

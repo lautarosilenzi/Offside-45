@@ -58,7 +58,7 @@ export default function RelegationsPage() {
                       <td className="max-w-[14rem] py-2">
                         <span className="flex min-w-0 items-center gap-2">
                           <Crest team={team} size="xs" />
-                          <span className="truncate font-semibold text-navy-900">{team.name}</span>
+                          <span className="break-words leading-snug font-semibold text-navy-900">{team.name}</span>
                         </span>
                       </td>
                       <td className="py-2 text-right font-display text-base font-bold tabular-nums text-navy-950">{r.seasons.length}</td>
@@ -109,8 +109,7 @@ export default function RelegationsPage() {
           </ul>
           <p className="mt-3 text-sm text-navy-500">
             {NO_RELEGATION_NOTE} Antes de 1937 la Primera cambiaba de tamaño por afiliaciones, desafiliaciones y fusiones de ligas, sin un
-            sistema de descenso regular. Fuente: RSSSF, controlada con los partidos de promoción y de desempate cargados en el sitio y con
-            la cantidad de descensos de cada club que publica Wikipedia.
+            sistema de descenso regular.
           </p>
         </section>
       </main>

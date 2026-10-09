@@ -54,8 +54,7 @@ export default function BallonDorPage() {
           </ul>
           <p className="mt-4 text-xs text-navy-500">
             Hasta 1994 solo podían recibirlo jugadores europeos; desde 1995, cualquier jugador de un club europeo, y desde
-            2007, de cualquier club del mundo. Datos de Wikipedia; fotos de Wikimedia Commons, del año en que ganó o del más cercano que hay con licencia libre (el año de la foto figura debajo de cada una; autor y licencia en cada
-            foto y en <a href="/creditos" className="text-brand-500 hover:underline">Fuentes y créditos</a>). La edición 2026 se entrega el 26 de octubre.
+            2007, de cualquier club del mundo. Las fotos son del año en que ganó o del más cercano disponible (el año figura debajo de cada una). La edición 2026 se entrega el 26 de octubre.
           </p>
         </section>
       </main>
@@ -157,7 +156,7 @@ function WinnerCard({ b, count }: { b: BallonDor; count: number }) {
         {b.podium.map((p) => (
           <li key={p.name} className="flex gap-2">
             <span className="w-5 shrink-0 font-display font-bold text-navy-400">{p.rank}.º</span>
-            <span className="min-w-0 truncate">
+            <span className="min-w-0 break-words leading-snug">
               <span className="font-medium text-navy-900">{p.name}</span> <span className="text-navy-500">· {p.club}</span>
             </span>
           </li>

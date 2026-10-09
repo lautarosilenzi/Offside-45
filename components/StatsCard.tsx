@@ -44,7 +44,7 @@ function TeamHead({ team }: { team: Team }) {
       <div data-confetti className="flex h-[88px] cursor-pointer items-center justify-center transition hover:scale-105">
         <Crest team={team} size="xl" />
       </div>
-      <span className="w-full truncate font-display text-lg font-bold uppercase tracking-wide sm:text-xl">
+      <span className="w-full break-words leading-snug font-display text-lg font-bold uppercase tracking-wide sm:text-xl">
         {team.name}
       </span>
     </div>

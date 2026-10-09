@@ -12,7 +12,7 @@ export function OddsBox({ odds, home, away }: { odds: NonNullable<LiveEvent["odd
           { l: `2 · ${away}`, v: odds.away },
         ].map((o) => (
           <div key={o.l} className="rounded-xl bg-white px-2 py-2 ring-1 ring-navy-100">
-            <div className="truncate text-[0.65rem] font-semibold uppercase tracking-wider text-navy-500">{o.l}</div>
+            <div className="break-words leading-snug text-[0.65rem] font-semibold uppercase tracking-wider text-navy-500">{o.l}</div>
             <div className="font-display text-xl font-bold tabular-nums text-navy-950">{fmtOdd(o.v)}</div>
           </div>
         ))}

@@ -20,6 +20,7 @@ export const metadata: Metadata = {
   applicationName: "126Goals",
   // Al compartir un link (WhatsApp, redes): el nombre y el logo (app/opengraph-image.png).
   openGraph: { siteName: "126Goals", locale: "es_AR", type: "website" },
+  twitter: { card: "summary_large_image" },
 };
 
 // El sitio es solo oscuro: la barra del navegador del celular, del mismo color.

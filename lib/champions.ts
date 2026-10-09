@@ -5,7 +5,22 @@ import DATA from "./data/champions.generated.json";
 // Argentina, Libertadores…) no están acá: tienen su sección.
 export type ChampionRow = { season: string; champion: string; runnerUp?: string };
 type Data = Record<string, { source: string; rows: ChampionRow[] }>;
-const D = DATA as Data;
+// Limpieza de las anotaciones que vienen de las tablas originales: "(TA)" o "(PD & CA)" (por qué clasificó), "(II)"
+// (división del finalista), "Vicenza/Torino" (subcampeones empatados), "2024–25 / Finals".
+const tidyName = (s: string) =>
+  s
+    .replace(/\s*\((TA|TC|PD|CA|PD & CA)\)$/, "")
+    .replace(/\s*\(II\)$/, " (Segunda División)")
+    .replace(/\s*\(III\)$/, " (Tercera División)")
+    .replace(/\(Not finished\)/i, "(sin terminar)")
+    .replace(/\s*\/\s*/g, " y ");
+const tidySeason = (s: string) => s.replace(/^.*?(\d{4}(?:[–-]\d{2,4})?).*?\/\s*Finals$/i, "$1").replace(/\s*\/\s*\(/, " (");
+const D: Data = Object.fromEntries(
+  Object.entries(DATA as Data).map(([id, d]) => [
+    id,
+    { ...d, rows: d.rows.map((r) => ({ season: tidySeason(r.season), champion: tidyName(r.champion), runnerUp: r.runnerUp ? tidyName(r.runnerUp) : undefined })) },
+  ]),
+);
 
 export const championsOf = (id: string) => D[id];
 

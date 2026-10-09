@@ -6,7 +6,7 @@ import { setOddsEnabled, useOddsEnabled } from "@/lib/prefs";
 
 // Interruptor de cuotas: apagado por defecto. Para prenderlo hay que confirmar ser mayor de 18; queda recordado en
 // este navegador.
-export default function OddsToggle({ variant = "header" }: { variant?: "header" | "menu" }) {
+export default function OddsToggle({ variant = "header" }: { variant?: "header" | "menu" | "inline" }) {
   const on = useOddsEnabled();
   const [asking, setAsking] = useState(false);
 
@@ -14,7 +14,21 @@ export default function OddsToggle({ variant = "header" }: { variant?: "header" 
 
   return (
     <>
-      {variant === "header" ? (
+      {variant === "inline" ? (
+        // Portada: interruptor chico al lado del título "Partidos".
+        <button
+          type="button"
+          onClick={click}
+          aria-pressed={on}
+          className="flex shrink-0 items-center gap-2 rounded-full bg-white px-3 py-1.5 font-display text-sm font-bold uppercase tracking-wide text-navy-800 ring-1 ring-navy-100 transition hover:ring-volt-400"
+        >
+          Cuotas
+          <span className={`relative h-5 w-9 rounded-full transition ${on ? "bg-gold-400" : "bg-navy-200"}`}>
+            <span className={`absolute top-0.5 h-4 w-4 rounded-full bg-white shadow transition-all ${on ? "left-[1.15rem]" : "left-0.5"}`} />
+          </span>
+          <span className="sr-only">{on ? "(se muestran)" : "(ocultas)"}</span>
+        </button>
+      ) : variant === "header" ? (
         <button
           type="button"
           onClick={click}

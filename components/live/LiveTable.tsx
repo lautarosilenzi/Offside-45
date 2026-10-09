@@ -85,7 +85,7 @@ export default function LiveTable({
                           // eslint-disable-next-line @next/next/no-img-element -- escudo de la fuente en vivo
                           <img src={r.team.logo} alt="" loading="lazy" className="logo-img h-5 w-5 object-contain" />
                         ) : null}
-                        <span className="truncate font-semibold text-navy-900">{r.team.name}</span>
+                        <span className="break-words leading-snug font-semibold text-navy-900">{r.team.name}</span>
                       </span>
                     </td>
                     <td className="py-2.5 text-right font-display text-base font-bold tabular-nums text-navy-950">{r.points}</td>
@@ -108,7 +108,6 @@ export default function LiveTable({
               <span className={`inline-block h-3 w-3 rounded ${m.className}`} /> {m.label}
             </span>
           ))}
-          <span className="ml-auto">Tabla en vivo: ESPN</span>
         </p>
       )}
     </div>

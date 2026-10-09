@@ -62,7 +62,7 @@ export default function StandingsTable({
                 const color = r.note?.color ?? mark?.color;
                 const diff = r.gf - r.ga;
                 const last = r.team.espnId ? form[r.team.espnId] ?? [] : [];
-                const name = <span className="truncate font-semibold text-navy-900">{r.team.name}</span>;
+                const name = <span className="break-words leading-snug font-semibold text-navy-900">{r.team.name}</span>;
                 return (
                   <tr
                     key={r.team.espnId ?? r.team.name}

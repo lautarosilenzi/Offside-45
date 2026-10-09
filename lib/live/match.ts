@@ -1,7 +1,7 @@
 // Página de un partido (al estilo de 365Scores): encabezado, línea de tiempo, jugadores clave y estadísticas completas de
 // cada equipo y de cada jugador. Fuentes: el resumen del partido de ESPN y sus estadísticas detalladas (goles esperados,
 // grandes chances, pases en el último tercio…). ESPN no publica puntajes de los jugadores.
-import { espnTeam, matchSummary, type LiveTeam, type MatchSummary } from "./espn";
+import { espnTeam, matchSummary, type LiveTeam, type MatchSummary, offStatus } from "./espn";
 import { teamPhotos, type Photo } from "./photos";
 import { competitionOf, countryEs, positionEs } from "./player";
 import { phaseLabel } from "./season";
@@ -235,7 +235,7 @@ export async function matchPage(league: string, id: string): Promise<MatchPage> 
     ...espnTeam(String(c?.team?.id), national ? countryEs(c?.team?.displayName) : (c?.team?.displayName ?? "—"), c?.team?.logos?.[0]?.href ?? c?.team?.logo),
     color,
     ink: inkOn(color),
-    score: state === "pre" ? undefined : c?.score,
+    score: state === "pre" || offStatus(comp.status?.type?.name) ? undefined : c?.score,
     record: c?.record?.[0]?.displayValue,
   });
 

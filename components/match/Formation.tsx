@@ -86,7 +86,7 @@ export default function Formation({
             {rows.map((row, r) => (
               <div key={r} className="flex justify-around">
                 {row.map((p) => (
-                  <PlayerLink key={p.name} p={p} onPlayer={onPlayer} className="flex w-[3.9rem] min-w-0 flex-col items-center text-center hover:opacity-80 sm:w-20">
+                  <PlayerLink key={p.name} p={p} onPlayer={onPlayer} className="flex w-[4.4rem] min-w-0 flex-col items-center text-center hover:opacity-80 sm:w-[5.5rem]">
                     {p.id && photos?.[p.id] ? (
                       <span className="relative">
                         {/* eslint-disable-next-line @next/next/no-img-element -- foto de ESPN o de Wikimedia Commons */}
@@ -106,7 +106,7 @@ export default function Formation({
                         {p.number ?? ""}
                       </span>
                     )}
-                    <span className="on-dark mt-1 line-clamp-1 max-w-full rounded bg-navy-950/60 px-1 text-[0.65rem] font-semibold leading-tight text-white">
+                    <span className="on-dark mt-1 max-w-full whitespace-normal rounded bg-navy-950/70 px-1 py-px text-[0.68rem] font-semibold leading-[1.15] text-white [overflow-wrap:anywhere] sm:text-xs">
                       {lastName(p.name)}
                       {p.subbedOut && " ↓"}
                     </span>
@@ -135,7 +135,7 @@ export default function Formation({
             {lineup.subs.map((p) => (
               <li key={p.name} className="flex gap-2 text-navy-700">
                 <span className="w-6 text-right font-display font-bold text-navy-400">{p.number}</span>
-                <PlayerLink p={p} onPlayer={onPlayer} className="truncate hover:text-volt-600 hover:underline">
+                <PlayerLink p={p} onPlayer={onPlayer} className="min-w-0 hover:text-volt-600 hover:underline">
                   {p.name}
                   {p.subbedIn && <span className="text-emerald-600"> ↑</span>}
                 </PlayerLink>

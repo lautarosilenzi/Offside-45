@@ -55,9 +55,9 @@ export default function SeasonsPage() {
 
       <nav
         aria-label="Décadas"
-        className="sticky top-[4.25rem] z-20 mx-auto mt-4 max-w-5xl px-3 sm:top-[4.75rem] sm:px-6"
+        className="z-20 mx-auto mt-4 max-w-5xl px-3 sm:sticky sm:top-[4.75rem] sm:px-6"
       >
-        <div className="flex items-center gap-1.5 overflow-x-auto rounded-full border border-white/70 bg-white/80 p-1.5 shadow-[0_8px_24px_-14px_rgba(12,24,48,0.3)] backdrop-blur-md [scrollbar-width:none]">
+        <div className="flex flex-wrap items-center justify-center gap-1.5 rounded-3xl border border-white/70 bg-white/80 p-1.5 shadow-[0_8px_24px_-14px_rgba(12,24,48,0.3)] backdrop-blur-md [scrollbar-width:none]">
           {SEASONS.some((s) => s.inProgress) && (
             <a href="#en-juego" className="flex shrink-0 items-center gap-1.5 rounded-full bg-red-600 px-3 py-1 font-display text-xs font-bold uppercase tracking-wider text-white">
               <span className="live-dot-bare bg-white" /> En juego
@@ -121,8 +121,7 @@ export default function SeasonsPage() {
           </div>
         ))}
         <p className="text-sm text-navy-400">
-          Cada torneo está verificado: la tabla que sale de los partidos coincide con la publicada por la fuente, y las diferencias
-          que no se pueden resolver están explicadas en su página.
+          Cada torneo está verificado partido por partido; las diferencias entre registros están explicadas en su página.
         </p>
       </main>
     </>
@@ -176,7 +175,7 @@ function SeasonCard({ season }: { season: Season }) {
                 <td className="py-1.5">
                   <span className="flex items-center gap-2">
                     {team && <Crest team={team} size="xs" />}
-                    <span className={`truncate ${champion ? "font-bold text-navy-950" : "text-navy-700"}`}>
+                    <span className={`break-words leading-snug ${champion ? "font-bold text-navy-950" : "text-navy-700"}`}>
                       {seasonNameOf(season, r.teamId) ?? team?.name ?? r.teamId}
                     </span>
                     {champion && (

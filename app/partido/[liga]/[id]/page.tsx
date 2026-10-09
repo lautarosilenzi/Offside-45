@@ -15,7 +15,9 @@ export async function generateMetadata({ params }: { params: { liga: string; id:
   const m = valid(params) ? await matchPage(params.liga, params.id).catch(() => null) : null;
   if (!m) return { title: "Partido · 126Goals" };
   const score = m.status.state === "pre" ? "vs" : `${m.home.score} - ${m.away.score}`;
-  return { title: `${m.home.name} ${score} ${m.away.name} · ${m.competition.name} · 126Goals` };
+  const title = `${m.home.name} ${score} ${m.away.name} · ${m.competition.name} · 126Goals`;
+  const description = `${m.competition.name}: ${m.home.name} vs ${m.away.name}. Resultado, goles, alineaciones con fotos y estadísticas del partido.`;
+  return { title, description, openGraph: { title, description } };
 }
 
 export default async function MatchRoute({ params }: { params: { liga: string; id: string } }) {

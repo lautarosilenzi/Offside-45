@@ -7,6 +7,7 @@ import Formation from "@/components/match/Formation";
 import FollowButton from "@/components/match/FollowButton";
 import { OddsBox } from "@/components/match/OddsBox";
 import type { LiveEvent } from "@/lib/live/espn";
+import { OFF_LABELS } from "@/lib/live/status";
 import type { MatchPage, MatchPlayer } from "@/lib/live/match";
 import { translate } from "@/lib/live/translate";
 import { useOddsEnabled } from "@/lib/prefs";
@@ -74,7 +75,7 @@ export default function MatchView({ m, standings }: { m: MatchPage; standings?: 
     <>
       <Header m={m} />
       <div className="mx-auto max-w-3xl px-3 sm:px-6">
-        <nav className="-mx-3 mt-3 flex gap-1 overflow-x-auto px-3 py-2 [scrollbar-width:none] sm:mx-0 sm:px-0 [&::-webkit-scrollbar]:hidden">
+        <nav className="mt-3 flex flex-wrap justify-center gap-1.5 py-2 sm:justify-start">
           {tabs
             .filter((t) => t.show)
             .map((t) => (
@@ -127,7 +128,7 @@ export default function MatchView({ m, standings }: { m: MatchPage; standings?: 
               </div>
             ) : (
               <p className="panel px-6 py-8 text-center text-navy-500">
-                {m.status.state === "pre" ? "Las formaciones se confirman alrededor de una hora antes del partido." : "La fuente no publicó las formaciones de este partido."}
+                {m.status.state === "pre" ? "Las formaciones se confirman alrededor de una hora antes del partido." : "Todavía no se publicaron las formaciones de este partido."}
               </p>
             ))}
 
@@ -174,6 +175,7 @@ export default function MatchView({ m, standings }: { m: MatchPage; standings?: 
 
 function statusText(m: MatchPage) {
   const d = m.status.detail;
+  if (OFF_LABELS.includes(d)) return d;
   if (m.status.state === "pre") return new Intl.DateTimeFormat("es-AR", { timeZone: TZ, hour: "2-digit", minute: "2-digit", hour12: false }).format(new Date(m.date));
   if (m.status.state === "in") return /^HT$|half/i.test(d) ? "Entretiempo" : d;
   if (/pen/i.test(d)) return "Final (penales)";
@@ -203,8 +205,8 @@ function Header({ m }: { m: MatchPage }) {
             ‹
           </button>
           <div className="min-w-0 text-center">
-            <p className="truncate text-sm font-semibold">{m.competition.name}</p>
-            {m.stage && <p className="truncate text-xs text-navy-200">{m.stage}</p>}
+            <p className="break-words leading-snug text-sm font-semibold">{m.competition.name}</p>
+            {m.stage && <p className="break-words leading-snug text-xs text-navy-200">{m.stage}</p>}
           </div>
           <button type="button" onClick={share} aria-label="Compartir" className="flex h-9 w-9 items-center justify-center rounded-full hover:bg-white/10">
             <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -217,7 +219,7 @@ function Header({ m }: { m: MatchPage }) {
           <div className="text-center">
             <p className="text-sm capitalize text-navy-200">{day}</p>
             <p className="my-1 font-display text-5xl font-extrabold tabular-nums tracking-wide sm:text-6xl">
-              {m.status.state === "pre" ? "vs" : `${m.home.score ?? 0} - ${m.away.score ?? 0}`}
+              {m.status.state === "pre" || m.home.score === undefined ? "vs" : `${m.home.score} - ${m.away.score ?? 0}`}
             </p>
             <p className={`text-sm font-semibold ${m.status.state === "in" ? "text-red-400" : "text-navy-200"}`}>
               {m.status.state === "in" && <span className="live-dot-bare mr-1.5" />}

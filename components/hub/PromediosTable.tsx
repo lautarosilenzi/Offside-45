@@ -36,7 +36,7 @@ export default function PromediosTable({ rows, teamHref }: { rows: PromedioRow[]
                   <td className="py-2.5">
                     <Link href={teamHref(r.team.espnId ?? "")} className="flex min-w-0 items-center gap-2 hover:text-volt-600">
                       <TeamLogo team={r.team} />
-                      <span className="truncate font-semibold text-navy-900">{r.team.name}</span>
+                      <span className="break-words leading-snug font-semibold text-navy-900">{r.team.name}</span>
                     </Link>
                   </td>
                   <td className="py-2.5 text-center tabular-nums text-navy-600">{r.p2024 ?? "—"}</td>

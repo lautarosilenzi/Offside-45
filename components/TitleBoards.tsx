@@ -22,7 +22,7 @@ function Who({ id, size = "xs", bold }: { id: string; size?: "xs" | "sm"; bold?:
   return (
     <span className="flex min-w-0 items-center gap-2">
       {team && <Crest team={team} size={size} />}
-      <span className={`truncate ${bold ? "font-semibold text-navy-900" : "text-navy-700"}`}>{team ? shortName(team) : id}</span>
+      <span className={`min-w-0 leading-tight ${bold ? "font-semibold text-navy-900" : "text-navy-700"}`}>{team ? shortName(team) : id}</span>
     </span>
   );
 }
@@ -64,21 +64,21 @@ export function RankTable({ rows, label = "Club", finals = true, by }: { rows: F
           <tr className="border-b border-navy-100 font-display text-xs uppercase tracking-wider text-navy-500">
             <th className="w-10 py-2 pl-4 text-left">#</th>
             <th className="py-2 text-left">{label}</th>
-            <th className="w-16 py-2 text-right">Títulos</th>
-            {finals && <th className="hidden w-24 py-2 text-right sm:table-cell">Subcamp.</th>}
+            <th className="w-20 py-2.5 pr-4 text-right sm:pr-3">Títulos</th>
+            {finals && <th className="hidden w-24 py-2.5 pr-4 text-right sm:table-cell md:pr-3">Subcamp.</th>}
             <th className="hidden py-2 pl-6 pr-4 text-left md:table-cell">Años</th>
           </tr>
         </thead>
         <tbody className="divide-y divide-navy-100">
           {ranking.map((r, i) => (
             <tr key={r.id}>
-              <td className="py-2 pl-4 tabular-nums text-navy-400">{pos[i]}</td>
-              <td className="max-w-[14rem] py-2">
+              <td className="py-2.5 pl-4 tabular-nums text-navy-400">{pos[i]}</td>
+              <td className="max-w-[14rem] py-2.5 pr-2">
                 <Who id={r.id} bold />
               </td>
-              <td data-confetti className="cursor-default py-2 text-right font-display text-base font-bold tabular-nums text-navy-950">{r.titles}</td>
-              {finals && <td className="hidden py-2 text-right tabular-nums text-navy-500 sm:table-cell">{r.finals}</td>}
-              <td className="hidden py-2 pl-6 pr-4 text-xs tabular-nums text-navy-500 md:table-cell">{r.years.join(", ")}</td>
+              <td data-confetti className="cursor-default py-2.5 pr-4 text-right font-display text-base font-bold tabular-nums text-navy-950 sm:pr-3">{r.titles}</td>
+              {finals && <td className="hidden py-2.5 pr-4 text-right tabular-nums text-navy-500 sm:table-cell md:pr-3">{r.finals}</td>}
+              <td className="hidden py-2.5 pl-6 pr-4 text-xs tabular-nums text-navy-500 md:table-cell">{r.years.join(", ")}</td>
             </tr>
           ))}
         </tbody>
@@ -87,11 +87,22 @@ export function RankTable({ rows, label = "Club", finals = true, by }: { rows: F
   );
 }
 
-// Campeón y finalista de cada edición, de la más nueva a la más vieja.
-export function YearList({ rows }: { rows: FinalRow[] }) {
+// Campeón y finalista de cada edición, de la más nueva a la más vieja. Al lado del campeón, el número de título que
+// ganó ese año (contando los anteriores de la misma lista). Con era, la lista se separa por etapas (amateur y
+// profesional) con un título en cada una.
+export function YearList({ rows, era }: { rows: FinalRow[]; era?: (r: FinalRow) => string }) {
+  const nth = new Map<FinalRow, number>();
+  const seen = new Map<string, number>();
+  for (const r of [...rows].sort((a, b) => a.year - b.year)) {
+    if (!r.champion) continue;
+    seen.set(r.champion, (seen.get(r.champion) ?? 0) + 1);
+    nth.set(r, seen.get(r.champion)!);
+  }
+  const list = [...rows].reverse();
   return (
-    <ul className="panel divide-y divide-navy-100">
-      {[...rows].reverse().map((r) => {
+    <ul className="panel divide-y divide-navy-100 overflow-hidden">
+      {list.map((r, i) => {
+        const header = era && (i === 0 || era(list[i - 1]) !== era(r)) ? era(r) : undefined;
         const body = (
           <>
             <span className="font-display text-xl font-bold tabular-nums text-navy-900">{r.yearLabel ?? r.year}</span>
@@ -99,6 +110,11 @@ export function YearList({ rows }: { rows: FinalRow[] }) {
               {r.champion ? (
                 <span className="flex flex-wrap items-center gap-x-3 gap-y-1">
                   <Who id={r.champion} size="sm" bold />
+                  {nth.get(r) && (
+                    <span className="shrink-0 rounded-full bg-gold-400/15 px-2 py-0.5 text-[0.7rem] font-semibold text-gold-500 ring-1 ring-gold-400/30" title="Títulos que llevaba hasta ese año">
+                      {nth.get(r)}.º título
+                    </span>
+                  )}
                   {r.runnerUp && (
                     <span className="flex min-w-0 items-center gap-1.5 text-xs text-navy-500">
                       <span className="shrink-0">vs.</span>
@@ -115,7 +131,8 @@ export function YearList({ rows }: { rows: FinalRow[] }) {
         );
         const cls = "grid grid-cols-[4.5rem_1fr] items-center gap-3 px-4 py-2.5";
         return (
-          <li key={`${r.year}-${r.yearLabel ?? ""}`}>
+          <li key={`${r.year}-${r.yearLabel ?? ""}-${r.champion ?? ""}`}>
+            {header && <div className="bg-navy-950 px-4 py-1.5 font-display text-sm font-bold uppercase tracking-widest text-white">{header}</div>}
             {r.href ? (
               <Link href={r.href} className={`${cls} transition hover:bg-brand-50/60`}>
                 {body}

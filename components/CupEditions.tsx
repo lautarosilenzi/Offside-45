@@ -50,7 +50,7 @@ export function EditionRow({ season }: { season: Season }) {
         {champion ? (
           <span className="flex min-w-0 items-center gap-2">
             <Crest team={champion} size="sm" />
-            <span className="truncate font-bold text-navy-950">{seasonNameOf(season, champion.id) ?? champion.name}</span>
+            <span className="break-words leading-snug font-bold text-navy-950">{seasonNameOf(season, champion.id) ?? champion.name}</span>
           </span>
         ) : (
           <span className="text-sm text-navy-500">{season.inProgress ? "En juego" : "Sin campeón · suspendida"}</span>
@@ -66,7 +66,7 @@ export function EditionRow({ season }: { season: Season }) {
           <span className="col-start-2 flex min-w-0 items-center gap-2 text-sm text-navy-600 sm:col-start-auto">
             <span className="text-xs uppercase tracking-wider text-navy-400 sm:hidden">{shared ? "Compartido con" : "Final vs."}</span>
             <Crest team={runnerUp} size="xs" />
-            <span className="truncate">{seasonNameOf(season, runnerUp.id) ?? runnerUp.name}</span>
+            <span className="break-words leading-snug">{seasonNameOf(season, runnerUp.id) ?? runnerUp.name}</span>
           </span>
         ) : (
           <span className="hidden sm:block" />

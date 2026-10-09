@@ -17,7 +17,7 @@ export const CRESTS: Record<string, Crest> = {
   gimnasia: c("gimnasia", "Public domain", "https://commons.wikimedia.org/wiki/File:Escudo_del_Club_de_Gimnasia_y_Esgrima_La_Plata_(v2026).svg"),
   velez: c("velez", "Public domain", "https://commons.wikimedia.org/wiki/File:Escudo_del_Club_Atl%C3%A9tico_V%C3%A9lez_Sarsfield.svg"),
   newells: c("newells", "Public domain", "https://commons.wikimedia.org/wiki/File:Escudo_del_Club_Atl%C3%A9tico_Newell%27s_Old_Boys_de_Rosario.svg"),
-  central: c("central", "Public domain", "https://commons.wikimedia.org/wiki/File:Rosario_Central_shield.jpg"),
+  central: c("central", "Public domain", "https://commons.wikimedia.org/wiki/File:Escudo_del_Club_Atl%C3%A9tico_Rosario_Central.svg"),
   talleres: c("talleres", "Public domain", "https://commons.wikimedia.org/wiki/File:Escudo_Talleres_2015.svg"),
   belgrano: c("belgrano", "Public domain", "https://commons.wikimedia.org/wiki/File:Club_Atl%C3%A9tico_Belgrano_2026.svg"),
   lanus: c("lanus", "Public domain", "https://commons.wikimedia.org/wiki/File:Escudo_de_Lan%C3%BAs_(sin_estrellas).svg"),

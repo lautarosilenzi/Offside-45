@@ -19,7 +19,10 @@ export const maxDuration = 60;
 
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const bio = /^\d+$/.test(params.id) ? await playerBio(params.id).catch(() => null) : null;
-  return { title: bio ? `${bio.name} · Perfil y estadísticas · 126Goals` : "Jugador · 126Goals" };
+  if (!bio) return { title: "Jugador · 126Goals" };
+  const title = `${bio.name} · Perfil y estadísticas · 126Goals`;
+  const description = `${bio.name}${bio.team ? ` (${bio.team.name})` : ""}: perfil, estadísticas de la temporada y todos sus partidos, uno por uno.`;
+  return { title, description, openGraph: { title, description } };
 }
 
 const TZ = "America/Argentina/Buenos_Aires";
@@ -149,7 +152,7 @@ export default async function PlayerPage({ params, searchParams }: { params: { i
         </div>
 
         {all.length === 0 ? (
-          <p className="panel px-6 py-10 text-center text-navy-500">ESPN no tiene partidos de {bio.name} en esta temporada.</p>
+          <p className="panel px-6 py-10 text-center text-navy-500">Todavía no hay partidos de {bio.name} en esta temporada.</p>
         ) : (
           <>
             <section className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
@@ -273,14 +276,14 @@ export default async function PlayerPage({ params, searchParams }: { params: { i
                       <tr key={`${m.team}-${m.id}`} className={playedIn(m) ? "" : "text-navy-400 [&_td]:opacity-60"}>
                         <td className="sticky left-0 bg-white px-3 py-2">
                           <span className="block tabular-nums text-navy-900">{day(m.date)}</span>
-                          <span className="block max-w-[8rem] truncate text-[0.7rem] text-navy-400">{m.competition.name}</span>
+                          <span className="block max-w-[8rem] break-words leading-snug text-[0.7rem] text-navy-400">{m.competition.name}</span>
                         </td>
                         <td className="px-2 py-2">
                           <span className="flex items-center gap-1.5">
                             <span className="w-3 text-xs text-navy-400">{m.home ? "L" : "V"}</span>
                             <TeamLogo team={m.opponent} size={18} />
                             {/* Lleva a la página del partido (estadísticas de los dos equipos y la ficha de cada jugador). */}
-                            <Link href={`/partido/${m.league}/${m.id}`} className="max-w-[11rem] truncate text-navy-900 hover:text-volt-600 hover:underline">
+                            <Link href={`/partido/${m.league}/${m.id}`} className="max-w-[11rem] break-words leading-snug text-navy-900 hover:text-volt-600 hover:underline">
                               {m.opponent.name}
                             </Link>
                           </span>
@@ -372,7 +375,6 @@ export default async function PlayerPage({ params, searchParams }: { params: { i
           </section>
         )}
 
-        <p className="text-xs text-navy-400">Perfil y estadísticas: ESPN. La Copa Argentina no figura en el registro de partidos de ESPN.</p>
       </main>
     </>
   );

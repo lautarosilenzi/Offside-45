@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import LiveMatches, { type LiveLeague } from "./LiveMatches";
+import MonthPicker from "./MonthPicker";
 
 const TZ = "America/Argentina/Buenos_Aires";
 const DAY = 86400000;
@@ -22,6 +23,12 @@ export default function CalendarView({ leagues, filters }: { leagues: LiveLeague
   const [selected, setSelected] = useState(today);
   const [offset, setOffset] = useState(0); // semanas corridas respecto de hoy
   const [filter, setFilter] = useState(filters[0].id);
+  const [picking, setPicking] = useState(false);
+  const pick = (s: string) => {
+    setSelected(s);
+    setOffset(Math.round((fromYmd(s).getTime() - fromYmd(today).getTime()) / DAY / 7));
+    setPicking(false);
+  };
 
   const strip = useMemo(() => {
     const base = fromYmd(today).getTime() + offset * 7 * DAY;
@@ -37,6 +44,31 @@ export default function CalendarView({ leagues, filters }: { leagues: LiveLeague
 
   return (
     <div>
+      {/* Elegir cualquier fecha: un calendario del mes, grande y fácil de tocar. */}
+      <div className="mb-3 flex flex-wrap items-center gap-2">
+        <button
+          type="button"
+          onClick={() => setPicking((p) => !p)}
+          aria-expanded={picking}
+          className="btn-press flex items-center gap-2 rounded-full bg-volt-600 px-4 py-2.5 font-display text-base font-bold uppercase tracking-wide text-white shadow"
+        >
+          <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
+            <rect x="3.5" y="5" width="17" height="15" rx="2.5" />
+            <path d="M3.5 10h17M8 3v4M16 3v4" />
+          </svg>
+          Elegir fecha
+        </button>
+        {selected !== today && (
+          <button type="button" onClick={() => pick(today)} className="btn-press rounded-full bg-red-600 px-4 py-2.5 font-display text-base font-bold uppercase tracking-wide text-white">
+            Hoy
+          </button>
+        )}
+      </div>
+      {picking && (
+        <div className="mb-4">
+          <MonthPicker value={selected} today={today} onPick={pick} />
+        </div>
+      )}
       <div className="panel mb-3 flex items-stretch gap-1 p-1.5">
         <Arrow dir="prev" onClick={() => setOffset((o) => o - 1)} />
         <div className="grid flex-1 grid-cols-5 gap-1 sm:grid-cols-9">
@@ -76,20 +108,6 @@ export default function CalendarView({ leagues, filters }: { leagues: LiveLeague
             {f.label}
           </button>
         ))}
-        <label className="ml-auto flex items-center gap-2 text-sm text-navy-600">
-          Ir a
-          <input
-            type="date"
-            value={`${selected.slice(0, 4)}-${selected.slice(4, 6)}-${selected.slice(6, 8)}`}
-            onChange={(e) => {
-              if (!e.target.value) return;
-              const s = e.target.value.replace(/-/g, "");
-              setSelected(s);
-              setOffset(Math.round((fromYmd(s).getTime() - fromYmd(today).getTime()) / DAY / 7));
-            }}
-            className="rounded-lg border border-navy-200 bg-white px-2 py-1 text-navy-900"
-          />
-        </label>
       </div>
 
       <h2 className="section-title mb-3">

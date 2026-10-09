@@ -99,7 +99,7 @@ export default function StatsPage() {
                 <li key={r.id} className="panel flex items-center gap-2 px-3 py-2 text-sm">
                   <span className="w-5 font-display font-bold text-navy-400">{positions(SEASONS, (x) => x.seasons)[i]}</span>
                   <Crest team={team} size="xs" />
-                  <span className="min-w-0 flex-1 truncate font-semibold text-navy-900">{team.name}</span>
+                  <span className="min-w-0 flex-1 break-words leading-snug font-semibold text-navy-900">{team.name}</span>
                   <span className="font-display text-lg font-bold tabular-nums text-navy-950">{r.seasons}</span>
                 </li>
               );
@@ -147,7 +147,7 @@ function HistoricTable({ title, rows }: { title: string; rows: Row[] }) {
                   <td className="max-w-[14rem] py-2">
                     <span className="flex min-w-0 items-center gap-2">
                       <Crest team={team} size="xs" />
-                      <span className="truncate font-semibold text-navy-900">{team.name}</span>
+                      <span className="break-words leading-snug font-semibold text-navy-900">{team.name}</span>
                     </span>
                   </td>
                   <td className="py-2 text-right font-display text-base font-bold tabular-nums text-navy-950">{r.points.toLocaleString("es-AR")}</td>
@@ -182,7 +182,7 @@ function MatchTable({ title, matches }: { title: string; matches: Match[] }) {
             <li key={m.id}>
               <Link href={`/temporadas/${season.slug}`} className="grid grid-cols-[1fr_auto_1fr] items-center gap-2 px-3 py-2 transition hover:bg-brand-50/60">
                 <span className="flex min-w-0 items-center justify-end gap-1.5 text-right">
-                  <span className="truncate font-medium text-navy-800">{home.name}</span>
+                  <span className="break-words leading-snug font-medium text-navy-800">{home.name}</span>
                   <Crest team={home} size="xs" />
                 </span>
                 <span className="rounded-full bg-navy-900 px-2.5 py-0.5 font-display font-bold tabular-nums text-white">
@@ -190,7 +190,7 @@ function MatchTable({ title, matches }: { title: string; matches: Match[] }) {
                 </span>
                 <span className="flex min-w-0 items-center gap-1.5">
                   <Crest team={away} size="xs" />
-                  <span className="truncate font-medium text-navy-800">{away.name}</span>
+                  <span className="break-words leading-snug font-medium text-navy-800">{away.name}</span>
                 </span>
                 <span className="col-span-3 text-center text-[0.7rem] text-navy-400">
                   {m.date.length > 4 ? m.date.split("-").reverse().join("/") : m.date} · {seasonLabel(season)}

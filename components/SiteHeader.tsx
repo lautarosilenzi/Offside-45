@@ -3,28 +3,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { FEATURED, GROUPS, LIVE_CODE, compHref } from "@/lib/competitions";
 import LOGOS from "@/lib/data/comps.generated.json";
 import HeaderButtons from "./HeaderButtons";
 import OddsToggle from "./OddsToggle";
-
-// Las cuatro competencias van a su página de torneo (fixture y tablas); la historia de cada una está en su pestaña
-// Campeones y en el menú lateral.
-const NAV = [
-  { href: "/torneos/liga-profesional", label: "Liga Profesional" },
-  { href: "/torneos/copa-argentina", label: "Copa Argentina" },
-  { href: "/torneos/libertadores", label: "Copa Libertadores" },
-  { href: "/torneos/sudamericana", label: "Copa Sudamericana" },
-  { href: "/historiales", label: "Historiales" },
-  { href: "/messi-vs-cristiano", label: "Messi vs CR7" },
-];
 
 // Comunidad: el foro, la cuenta y las donaciones van al pie del menú.
 const COMMUNITY = [
   { href: "/foro", label: "El foro del hincha" },
   { href: "/cuenta", label: "Mi cuenta" },
   { href: "/colaborar", label: "Colaborá con 126Goals" },
+  { href: "/creditos#contacto", label: "Contacto" },
+  { href: "/creditos", label: "Acerca de 126Goals" },
 ];
 
 const logoOf = (id: string) => (LOGOS as Record<string, { file: string }>)[id]?.file;
@@ -34,7 +25,6 @@ const logoOf = (id: string) => (LOGOS as Record<string, { file: string }>)[id]?.
 export default function SiteHeader() {
   const pathname = usePathname();
   const isActive = (href: string) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
-  const navRef = useRef<HTMLElement>(null);
   const [open, setOpen] = useState(false);
   // Grupo desplegado en el menú lateral: el de la sección actual, o "destacado".
   const [expanded, setExpanded] = useState<string>("destacado");
@@ -53,51 +43,28 @@ export default function SiteHeader() {
     };
   }, [open, pathname]);
 
-  // En el celular la barra no entra entera: se desliza hasta la sección actual.
-  useEffect(() => {
-    const nav = navRef.current;
-    const active = nav?.querySelector<HTMLElement>("[aria-current=page]");
-    if (nav && active) nav.scrollLeft = active.offsetLeft - nav.offsetLeft - (nav.clientWidth - active.offsetWidth) / 2;
-  }, [pathname]);
 
   return (
     <>
-      <header className="on-dark sticky top-0 z-30 px-3 pt-3 sm:px-6 sm:pt-4">
-        <div className="mx-auto flex max-w-5xl items-center gap-2 rounded-full bg-[#050b1a]/90 py-2 pl-2 pr-2 text-white shadow-[0_10px_30px_-10px_rgba(5,11,26,0.7)] ring-1 ring-volt-400/20 backdrop-blur-md">
+      <header className="on-dark sticky top-0 z-30 px-2 pt-2 sm:px-6 sm:pt-4">
+        <div className="mx-auto flex max-w-5xl items-center gap-1 rounded-full bg-[#050b1a]/90 py-1.5 pl-1.5 pr-1.5 text-white sm:gap-2 sm:py-2 sm:pl-2 sm:pr-2 shadow-[0_10px_30px_-10px_rgba(5,11,26,0.7)] ring-1 ring-volt-400/20 backdrop-blur-md">
           <button
             type="button"
             onClick={() => setOpen(true)}
             aria-expanded={open}
             aria-label="Abrir el menú"
-            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/5 text-white transition hover:bg-white/15"
+            className="flex h-[2.15rem] w-[2.15rem] shrink-0 items-center justify-center rounded-full bg-white/5 text-white transition hover:bg-white/15 sm:h-10 sm:w-10"
           >
             <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" aria-hidden>
               <path d="M4 7h16M4 12h16M4 17h16" />
             </svg>
           </button>
           {/* Logo de 126Goals (public/brand): la insignia redonda y, desde tablets, el nombre. */}
-          <Link href="/" className="logo-link flex shrink-0 items-center gap-2" aria-label="126Goals, inicio">
-            <Image src="/brand/insignia.svg" alt="" width={40} height={40} className="h-10 w-10" priority />
-            <Image src="/brand/solo-texto.svg" alt="" width={108} height={33} className="hidden h-[30px] w-auto sm:block" priority />
+          <Link href="/" className="logo-link mr-auto flex shrink-0 items-center gap-2" aria-label="126Goals, inicio">
+            <Image src="/brand/insignia.svg" alt="" width={40} height={40} className="h-[2.15rem] w-[2.15rem] sm:h-10 sm:w-10" priority />
+            <Image src="/brand/solo-texto.svg" alt="" width={108} height={33} className="hidden h-[30px] w-auto md:block" priority />
           </Link>
           <HeaderButtons />
-          <nav
-            ref={navRef}
-            className="ml-auto hidden min-w-0 items-center gap-1 overflow-x-auto rounded-full bg-white/5 p-1 sm:flex [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
-          >
-            {NAV.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                aria-current={isActive(item.href) ? "page" : undefined}
-                className={`shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 font-display text-sm font-semibold uppercase tracking-wide transition sm:px-4 sm:text-base ${
-                  isActive(item.href) ? "bg-gradient-to-r from-volt-400 to-volt-600 text-white shadow-[0_0_18px_rgba(31,107,255,0.55)]" : "text-navy-200 hover:bg-white/10 hover:text-white"
-                }`}
-              >
-                {item.label}
-              </Link>
-            ))}
-          </nav>
         </div>
       </header>
 
@@ -138,12 +105,21 @@ export default function SiteHeader() {
                 {g.region && g.region !== GROUPS[i - 1]?.region && (
                   <p className="mx-3 mb-1 mt-4 border-t border-white/10 pt-3 font-display text-[0.7rem] font-bold uppercase tracking-[0.25em] text-volt-300">{g.region}</p>
                 )}
-                <Group id={g.id} title={g.name} flag={g.flag} expanded={expanded} setExpanded={setExpanded}>
-                  {g.competitions.map((c) => {
-                    const href = compHref(g, c);
-                    return <MenuLink key={c.id} href={href} label={c.name} logo={logoOf(c.id)} active={pathname === href || (!!c.href && c.href !== "/" && pathname.startsWith(c.href))} pending={!c.href && !LIVE_CODE[c.id]} />;
-                  })}
-                </Group>
+                {/* Especiales: los links van sueltos, sin un grupo que desplegar. */}
+                {g.id === "especiales" ? (
+                  <div className="pl-1">
+                    {g.competitions.map((c) => (
+                      <MenuLink key={c.id} href={compHref(g, c)} label={c.name} logo={logoOf(c.id)} active={!!c.href && pathname.startsWith(c.href)} />
+                    ))}
+                  </div>
+                ) : (
+                  <Group id={g.id} title={g.name} flag={g.flag} expanded={expanded} setExpanded={setExpanded}>
+                    {g.competitions.map((c) => {
+                      const href = compHref(g, c);
+                      return <MenuLink key={c.id} href={href} label={c.name} logo={logoOf(c.id)} active={pathname === href || (!!c.href && c.href !== "/" && pathname.startsWith(c.href))} pending={!c.href && !LIVE_CODE[c.id]} />;
+                    })}
+                  </Group>
+                )}
               </div>
             ))}
             <div className="mx-2 my-3 border-t border-white/10" />
@@ -217,10 +193,10 @@ function MenuLink({ href, label, logo, active, pending }: { href: string; label:
       href={href}
       className={`flex items-center gap-2.5 rounded-lg px-3 py-1.5 text-[0.95rem] transition hover:bg-white/10 ${active ? "text-brand-300" : "text-navy-100"}`}
     >
-      <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-white p-0.5">
+      <span className="flex h-6 w-6 shrink-0 items-center justify-center">
         {logo ? (
           // eslint-disable-next-line @next/next/no-img-element -- logo chico ya optimizado
-          <img src={logo} alt="" loading="lazy" className="h-full w-full object-contain" />
+          <img src={logo} alt="" loading="lazy" className="logo-img h-full w-full object-contain" />
         ) : (
           <span className="h-1.5 w-1.5 rounded-full bg-navy-300" />
         )}

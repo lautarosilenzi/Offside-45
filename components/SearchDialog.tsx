@@ -82,7 +82,7 @@ export default function SearchDialog() {
         onClick={() => setOpen(true)}
         aria-label="Buscar (Ctrl+K)"
         title="Buscar (Ctrl+K)"
-        className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/5 text-white transition hover:bg-white/15"
+        className="flex h-[2.15rem] w-[2.15rem] shrink-0 items-center justify-center rounded-full bg-white/5 text-white transition hover:bg-white/15 sm:h-10 sm:w-10"
       >
         <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" aria-hidden>
           <circle cx="11" cy="11" r="7" />
@@ -140,8 +140,8 @@ export default function SearchDialog() {
                       )}
                     </span>
                     <span className="min-w-0 flex-1">
-                      <span className="block truncate font-semibold text-navy-950">{it.title}</span>
-                      {it.subtitle && <span className="block truncate text-xs text-navy-500">{it.subtitle}</span>}
+                      <span className="block break-words leading-snug font-semibold text-navy-950">{it.title}</span>
+                      {it.subtitle && <span className="block break-words leading-snug text-xs text-navy-500">{it.subtitle}</span>}
                     </span>
                     <span className={`shrink-0 rounded-full px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-wide ${KIND_STYLE[it.kind]}`}>{it.kind}</span>
                   </button>

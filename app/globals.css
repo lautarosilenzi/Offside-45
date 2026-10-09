@@ -176,24 +176,20 @@ body {
 .hero-title {
   text-shadow: 0 2px 24px rgba(31, 107, 255, 0.35);
 }
-.offside-line {
-  background: repeating-linear-gradient(180deg, #4d8dff 0 18px, transparent 18px 30px);
-  box-shadow: 0 0 14px 2px rgba(31, 107, 255, 0.7);
-  animation: offside-scan 4s ease-in-out infinite alternate;
+/* Fondo de las portadas (HeroBackdrop.tsx): la curva del gol avanza como una línea punteada. */
+.hb-arc {
+  animation: hb-arc 1.6s linear infinite;
 }
-@keyframes offside-scan {
-  from {
-    transform: translateX(0) rotate(8deg);
-    opacity: 0.55;
-  }
+@keyframes hb-arc {
   to {
-    transform: translateX(-28px) rotate(8deg);
-    opacity: 0.95;
+    stroke-dashoffset: -24;
   }
 }
-.checker {
-  background-image: conic-gradient(#1f6bff 25%, transparent 0 50%, #1f6bff 0 75%, transparent 0);
-  background-size: 22px 22px;
+@media (prefers-reduced-motion: reduce) {
+  .hb-ball,
+  .hb-shine {
+    display: none;
+  }
 }
 
 /* Al entrar a una página, el contenido aparece subiendo apenas. */
@@ -373,7 +369,7 @@ tbody tr:hover {
 @media (prefers-reduced-motion: reduce) {
   main .panel,
   .page-enter,
-  .offside-line,
+  .hb-arc,
   .ticker-track,
   .skeleton,
   .score-live,
@@ -521,19 +517,13 @@ html.dark .bg-navy-950\/50,
 html.dark .bg-navy-950\/60 {
   background-color: rgba(2, 6, 15, 0.7);
 }
-/* Escudos y logos oscuros (Juventus, LaLiga, Premier…): un contorno claro apenas visible para que no se pierdan en el
-   fondo oscuro. */
+/* Escudos y logos, siempre sin recuadro (fondo transparente). Los oscuros (Juventus, LaLiga, Premier, Liga
+   Profesional…) llevan un contorno de luz apenas visible para que no se pierdan en el fondo oscuro. */
 html.dark .logo-img {
-  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.55)) drop-shadow(0 0 5px rgba(255, 255, 255, 0.12));
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.7)) drop-shadow(0 0 6px rgba(160, 200, 255, 0.18));
 }
-/* En los títulos de las portadas (fondo oscuro en los dos modos), los logos y escudos grandes van sobre una placa blanca: los de letras oscuras
-   (Liga Profesional, Premier, Juventus…) no se pierden. */
-.hero :is(.hero-title, .logo-plate) .logo-img {
-  background: #fff;
-  border-radius: 0.9rem;
-  padding: 0.35rem;
-  filter: none;
-  box-shadow: 0 6px 18px -8px rgba(0, 0, 0, 0.6);
+html.dark .hero .logo-img {
+  filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.75)) drop-shadow(0 6px 16px rgba(0, 0, 0, 0.45));
 }
 /* Placas amarillas sin color de texto propio: heredan el texto claro del modo oscuro; van con texto oscuro. */
 html.dark :is(.bg-amber-400, .bg-gold-400):not([class*="text-"]) {
@@ -602,13 +592,6 @@ html.dark body::before {
   50% {
     opacity: 0.55;
   }
-}
-.trophy-plate {
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6) inset, 0 24px 60px -18px rgba(31, 107, 255, 0.75), 0 0 60px -10px rgba(217, 180, 90, 0.35);
-  overflow: hidden;
-}
-.trophy-plate .logo-img {
-  filter: drop-shadow(0 8px 14px rgba(5, 11, 26, 0.28));
 }
 .trophy-sweep {
   background: linear-gradient(110deg, transparent 35%, rgba(255, 255, 255, 0.85) 50%, transparent 65%);

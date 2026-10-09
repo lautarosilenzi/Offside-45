@@ -152,6 +152,15 @@ export const FIFA_INTERCONTINENTAL: ClubFinal[] = [
   { year: 2025, championId: "psg-fr", runnerUpId: "flamengo-br", note: "1-1 y 2-1 en penales." },
 ];
 
+// Supercopa Internacional (AFA): el campeón de la liga contra el del Trofeo de Campeones. Verificado en octubre de 2026
+// con la Wikipedia en inglés ("Supercopa Internacional") y la prensa de cada final (El Gráfico, Perfil, La Capital).
+export const SUPERCOPA_INTERNACIONAL: ClubFinal[] = [
+  { year: 2022, championId: "racing", runnerUpId: "boca", note: "Final: 2-1. Enero de 2023, estadio Hazza bin Zayed (Al Ain, Emiratos Árabes Unidos). Racing, campeón del Trofeo de Campeones; Boca, de la Liga." },
+  { year: 2023, championId: "talleres", runnerUpId: "river", note: "Final: 0-0 y 3-2 en penales. 5 de marzo de 2025, estadio General Pablo Rojas (Asunción, Paraguay)." },
+  { year: 2024, championId: "velez", runnerUpId: "estudiantes", note: "Final: 2-0. Julio de 2025, estadio Libertadores de América (Avellaneda)." },
+  { year: 2025, championId: "central", runnerUpId: "estudiantes", note: "Final: 3-1. 26 de septiembre de 2026, estadio Madre de Ciudades (Santiago del Estero)." },
+];
+
 // Resultado de las finales de la Copa Libertadores, contado desde el campeón (ida, vuelta y desempate si lo hubo).
 // Fuente: Wikipedia en inglés ("List of Copa Libertadores finals"), controlada con la Wikipedia en español y con los
 // partidos cargados desde RSSSF. 1973: la lista en inglés omite el desempate en Montevideo (Independiente 2, Colo-Colo 1).
