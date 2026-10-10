@@ -1,0 +1,126 @@
+{
+ "slug": "b-nacional-1999-00-campeonato",
+ "runnerUpIds": [
+  "quilmes"
+ ],
+ "year": 1999,
+ "yearLabel": "1999/00",
+ "league": "Final por el campeonato",
+ "tier": 2,
+ "title": "Primera B Nacional 1999/00 · Final por el campeonato",
+ "tournament": "Final por el campeonato de la Primera B Nacional 1999/00",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "huracan"
+ ],
+ "summary": "Huracán ganó el cuadrangular final (1-0 en cancha de Quilmes y 1-1 de local): campeón de la Nacional B 1999/2000 y ascenso a Primera.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1999",
+   "url": "https://www.rsssf.org/tablesa/arg2-00.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Los dos primeros de cada zona, eliminación a ida y vuelta. Con igualdad en la serie pasaba el de mejor campaña."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Los seis partidos coinciden con el cuadro de Wikipedia (revisado a mano)."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-1999-00-campeonato-001",
+   "date": "2000-06-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Semifinal (ida)",
+   "phase": "playoff",
+   "homeId": "quilmes",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Czornomaz, Milozzi."
+  },
+  {
+   "id": "b-nacional-1999-00-campeonato-002",
+   "date": "2000-06-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Semifinal (ida)",
+   "phase": "playoff",
+   "homeId": "san-martin-mendoza",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Benítez - Casas (2)."
+  },
+  {
+   "id": "b-nacional-1999-00-campeonato-003",
+   "date": "2000-06-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Semifinal (vuelta)",
+   "phase": "playoff",
+   "homeId": "huracan",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Demaría."
+  },
+  {
+   "id": "b-nacional-1999-00-campeonato-004",
+   "date": "2000-06-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Semifinal (vuelta)",
+   "phase": "playoff",
+   "homeId": "atletico-rafaela",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1999-00-campeonato-005",
+   "date": "2000-06-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Final (ida)",
+   "phase": "playoff",
+   "homeId": "quilmes",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Casas."
+  },
+  {
+   "id": "b-nacional-1999-00-campeonato-006",
+   "date": "2000-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Final (vuelta)",
+   "phase": "playoff",
+   "homeId": "huracan",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Di Carlo - Domínguez."
+  }
+ ]
+}
