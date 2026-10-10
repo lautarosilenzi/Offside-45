@@ -663,7 +663,8 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   const problems: string[] = [];
   const warnings: string[] = [];
   // Torneos cargados enteros en la configuración (extraMatches): no se lee la página.
-  const allParsed = cfg.manualOnly ? [] : parseSeason(await fetchPage(cfg.file), {
+  const page = cfg.manualOnly ? "" : await fetchPage(cfg.file);
+  const allParsed = cfg.manualOnly ? [] : parseSeason(cfg.preprocess ? cfg.preprocess(page) : page, {
     cup: cfg.kind === "cup",
     headings: cfg.headings,
     groups: cfg.groupLines,

@@ -1085,3 +1085,171 @@ ASCENSO_TOURNAMENTS.push(
     notes: [{ kind: "formato", text: "Series a ida y vuelta." }],
   }),
 );
+
+// ───────── 2004/05 ─────────
+const MES = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+// El Apertura viene con la fecha al principio del renglón ("14/08/04: Sarmiento  0-0 Belgrano") y los demás partidos
+// de ese día sangrados abajo; dos desempates traen la fecha en el título. Se pasa al formato de siempre.
+const pre0405 = (page: string) =>
+  page
+    .split(/\r?\n/)
+    .flatMap((line) => {
+      const d = line.match(/^(\d{2})\/(\d{2})\/(\d{2}):\s+(.*)$/);
+      if (d) return [`[${MES[Number(d[2]) - 1]} ${Number(d[1])}, 20${d[3]}]`, d[4]];
+      const cont = line.match(/^\s{6,}(\S.*?\s\d+-\d+\s+\S.*)$/);
+      if (cont && !/[;\[\]]/.test(cont[1])) return [cont[1]];
+      const t = line.match(/^(Interior Relegation Playoff|Playoff Against 19th Place.*?)\s*\[(\w{3} \d+), neutral venue\]\s*$/);
+      if (t) return [t[1], `[${t[2]}]`];
+      return [line];
+    })
+    .join("\n");
+const A0405: Record<string, string> = {
+  ...ABREV_0306,
+  "Belgrano-CBA": "belgrano",
+  Belgrano: "belgrano",
+  "C.A.I.": "cai",
+  "Chacarita Juniors": "chacarita",
+  Chacarita: "chacarita",
+  Defensa: "defensa-y-justicia",
+  Defensores: "defensores-belgrano",
+  "Def. de Belgrano": "defensores-belgrano",
+  "Ferro C.O.": "ferro",
+  Ferro: "ferro",
+  "Gimnasia J": "gimnasia-jujuy",
+  "Gimnasia-JUJ": "gimnasia-jujuy",
+  Huracán: "huracan",
+  "Instituto-CBA": "instituto",
+  "Racing Cba.": "racing-cordoba",
+  "Racing-CBA": "racing-cordoba",
+  "San Martín (M)": "san-martin-mendoza",
+  "San Martín-MZA": "san-martin-mendoza",
+  "San Martín (SJ)": "san-martin-sj",
+  "San Martín-SJ": "san-martin-sj",
+  Sarmiento: "sarmiento-junin",
+  "Talleres Cba.": "talleres",
+  "Talleres-CBA": "talleres",
+  "Tiro Federal": "tiro-federal-rosario",
+  Unión: "union-santa-fe",
+  "Unión-SF": "union-santa-fe",
+  // Tablas
+  "CA Tiro Federal Argentino Rosario": "tiro-federal-rosario",
+  "CA Tiro Federal Argentino (Rosario)": "tiro-federal-rosario",
+  "CA Huracán Buenos Aires": "huracan",
+  "CA Huracán (Buenos Aires)": "huracan",
+  "CA Nueva Chicago Buenos Aires": "nueva-chicago",
+  "CA Nueva Chicago (Buenos Aires)": "nueva-chicago",
+  "CA Gimnasia y Esgrima de Jujuy": "gimnasia-jujuy",
+  "CA Gimnasia y Esgrima (Jujuy)": "gimnasia-jujuy",
+  "AMSyD Atlético de Rafaela": "atletico-rafaela",
+  "CA San Martín (Mendoza)": "san-martin-mendoza",
+  "CA San Martín-Mendoza": "san-martin-mendoza",
+  "CA San Martín (San Juan)": "san-martin-sj",
+  "CA San Martín-San Juan": "san-martin-sj",
+  "Club Ferro Carril Oeste Buenos Aires": "ferro",
+  "Club Ferro Carril Oeste (Buenos Aires)": "ferro",
+  "C.A.I. (Comodoro Rivadavia)": "cai",
+  "CA Talleres (Córdoba)": "talleres",
+  "CA Belgrano (Córdoba)": "belgrano",
+  "CA Chacarita Juniors (Buenos Aires)": "chacarita",
+  "Club Juventud Antoniana (Salta)": "juventud-antoniana",
+  "CD Godoy Cruz (Antonio Tomba)": "godoy-cruz",
+  "CD Godoy Cruz Antonio Tomba (Mendoza)": "godoy-cruz",
+  "CA Unión (Santa Fe)": "union-santa-fe",
+  "Racing Club de Córdoba": "racing-cordoba",
+  "CA Racing (Córdoba)": "racing-cordoba",
+  "Club El Porvenir (Gerli)": "el-porvenir",
+  "CA Defensores de Belgrano (Buenos Aires)": "defensores-belgrano",
+  "CSyD Defensa y Justicia (Florencio Varela)": "defensa-y-justicia",
+  "CA Sarmiento (Junín)": "sarmiento-junin",
+};
+// Las tablas de la página pierden los paréntesis al leerse: "Club El Porvenir Gerli".
+for (const [k, v] of Object.entries(A0405)) if (k.includes("(")) A0405[k.replace(/[()]/g, "").replace(/\s+/g, " ")] = v;
+const H0405 = [
+  /^Torneo Apertura/i,
+  /^Torneo Clausura/i,
+  /^Overall\s*$/i,
+  /^Championship Playoff/i,
+  /^Second Promotion Playoff/i,
+  /^Reducido/i,
+  /^Promotion\/Relegation Playoffs/i,
+  /^Descenso\s*$/i,
+  /^Interior Relegation Playoff/i,
+];
+const R0405 = [/^First Round\s*$/i, /^Final\s*$/i, /^Playoff Against 19th Place/i, /^Metropolitana Promotion\/Relegation Playoff/i, /^Interior Promotion\/Relegation Playoff/i];
+ASCENSO_TOURNAMENTS.push(
+  abTorneo(2004, "apertura", "arg2-05.html", A0405, "tiro-federal-rosario", "Tiro Federal de Rosario ganó el Apertura y después la final por el campeonato con Gimnasia de Jujuy, ganador del Clausura: campeón de la Nacional B 2004/05 y ascenso a Primera.", {
+    sectionRange: { from: /^Torneo Apertura/i, to: /^Torneo Clausura/i },
+    headings: H0405,
+    preprocess: pre0405,
+    wiki: undefined,
+  }),
+  abTorneo(2004, "clausura", "arg2-05.html", A0405, "gimnasia-jujuy", "Gimnasia y Esgrima de Jujuy ganó el Clausura. Perdió la final por el campeonato con Tiro Federal, pero ascendió igual: le ganó la serie por el segundo ascenso a Huracán.", {
+    sectionRange: { from: /^Torneo Clausura/i, to: /^Overall/i },
+    headings: H0405,
+    preprocess: pre0405,
+    wiki: undefined,
+    notes: [
+      { kind: "formato", text: "20 equipos, todos contra todos a una rueda, 3 puntos por victoria." },
+      { kind: "dato", text: "A Nueva Chicago le descontaron 9 puntos por incidentes en el partido con Huracán (fecha 8), pero después se los devolvieron (RSSSF)." },
+    ],
+  }),
+  nacionalBExtra(2004, "final", "Final por el campeonato", {
+    file: "arg2-05.html",
+    section: /^Championship Playoff/i,
+    headings: H0405,
+    preprocess: pre0405,
+    aliases: A0405,
+    wiki: "Campeonato de Primera B Nacional 2004-05",
+    championIds: ["tiro-federal-rosario"],
+    runnerUpIds: ["gimnasia-jujuy"],
+    summary: "Tiro Federal le ganó 1-0 de local a Gimnasia de Jujuy y empató 1-1 en Jujuy: campeón de la Nacional B 2004/05 y ascenso a Primera por primera vez.",
+    notes: [{ kind: "formato", text: "Final a ida y vuelta entre los ganadores del Apertura y del Clausura." }],
+  }),
+  nacionalBExtra(2004, "segundo-ascenso", "Segundo ascenso", {
+    file: "arg2-05.html",
+    section: /^Second Promotion Playoff/i,
+    headings: H0405,
+    preprocess: pre0405,
+    aliases: A0405,
+    wiki: "Campeonato de Primera B Nacional 2004-05",
+    championIds: ["gimnasia-jujuy"],
+    runnerUpIds: ["huracan"],
+    summary: "Gimnasia de Jujuy, perdedor de la final, le ganó 1-0 a Huracán en Parque Patricios y empató 0-0 en Jujuy: segundo ascenso a Primera.",
+    notes: [{ kind: "formato", text: "Serie a ida y vuelta entre el perdedor de la final y el mejor de la tabla general." }],
+  }),
+  nacionalBExtra(2004, "reducido", "Reducido", {
+    file: "arg2-05.html",
+    sectionRange: { from: /^Reducido/i, to: /^Promotion\/Relegation Playoffs/i },
+    headings: [...H0405, ...R0405],
+    preprocess: pre0405,
+    aliases: A0405,
+    playoffRounds: [
+      { date: "2005-06-22", stage: "Primera ronda" },
+      { date: "2005-06-29", stage: "Final" },
+    ],
+    championIds: ["atletico-rafaela"],
+    runnerUpIds: ["san-martin-mendoza"],
+    summary: "Atlético de Rafaela ganó el reducido y jugó la promoción con Argentinos Juniors, que la ganó.",
+    notes: [{ kind: "formato", text: "Del 4.º al 7.º de la tabla general, eliminación a ida y vuelta." }],
+  }),
+  nacionalBExtra(2004, "promocion", "Desempates y promoción con la B Metropolitana y el Argentino A", {
+    file: "arg2-05.html",
+    sectionRange: { from: /^Interior Relegation Playoff/i },
+    headings: [...H0405, ...R0405],
+    preprocess: pre0405,
+    aliases: A0405,
+    publishedTable: [],
+    tableIndex: [],
+    playoffRounds: [
+      { date: "2005-06-23", stage: "Desempate de la Zona Interior (cancha neutral)" },
+      { date: "2005-06-25", stage: "Desempate por el 19.º puesto (cancha neutral)" },
+      { date: "2005-07-02", stage: "Promoción" },
+    ],
+    overrides: {
+      "2005-06-25 defensores-belgrano chacarita": { advancedId: "chacarita", note: "Chacarita ganó 5-4 por penales: Defensores de Belgrano descendió y Chacarita fue a la promoción." },
+    },
+    championIds: [],
+    summary: "Desempates en cancha neutral por el descenso (San Martín de San Juan–Racing de Córdoba y Defensores de Belgrano–Chacarita) y las promociones: Chacarita se quedó ante Platense; Aldosivi, del Argentino A, subió y Racing de Córdoba descendió.",
+    notes: [{ kind: "formato", text: "Desempates a un partido en cancha neutral y promociones a ida y vuelta." }],
+  }),
+);

@@ -1,0 +1,119 @@
+{
+ "slug": "b-nacional-2004-05-promocion",
+ "year": 2004,
+ "yearLabel": "2004/05",
+ "league": "Desempates y promoción con la B Metropolitana y el Argentino A",
+ "tier": 2,
+ "title": "Primera B Nacional 2004/05 · Desempates y promoción con la B Metropolitana y el Argentino A",
+ "tournament": "Desempates y promoción con la B Metropolitana y el Argentino A de la Primera B Nacional 2004/05",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Desempates en cancha neutral por el descenso (San Martín de San Juan–Racing de Córdoba y Defensores de Belgrano–Chacarita) y las promociones: Chacarita se quedó ante Platense; Aldosivi, del Argentino A, subió y Racing de Córdoba descendió.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2004",
+   "url": "https://www.rsssf.org/tablesa/arg2-05.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Desempates a un partido en cancha neutral y promociones a ida y vuelta."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-2004-05-promocion-001",
+   "date": "2005-06-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Desempates y promoción con la B Metropolitana y el Argentino A",
+   "stage": "Desempate de la Zona Interior (cancha neutral)",
+   "phase": "playoff",
+   "homeId": "san-martin-sj",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Mauricio Piersimone 20."
+  },
+  {
+   "id": "b-nacional-2004-05-promocion-002",
+   "date": "2005-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Desempates y promoción con la B Metropolitana y el Argentino A",
+   "stage": "Desempate por el 19.º puesto (cancha neutral)",
+   "phase": "playoff",
+   "homeId": "defensores-belgrano",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "chacarita",
+   "note": "Chacarita ganó 5-4 por penales: Defensores de Belgrano descendió y Chacarita fue a la promoción."
+  },
+  {
+   "id": "b-nacional-2004-05-promocion-003",
+   "date": "2005-07-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Desempates y promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "platense",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Carlos Lovera 13 / Luis Cerutti 83."
+  },
+  {
+   "id": "b-nacional-2004-05-promocion-004",
+   "date": "2005-07-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Desempates y promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "chacarita",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Ignacio Piatti 85 / Gonzalo Bergessio 94+."
+  },
+  {
+   "id": "b-nacional-2004-05-promocion-005",
+   "date": "2005-07-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Desempates y promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "aldosivi",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Carlos Paratore 69."
+  },
+  {
+   "id": "b-nacional-2004-05-promocion-006",
+   "date": "2005-07-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Desempates y promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "racing-cordoba",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Mauro Poy 65, Daniel Albornós 96 (de penal) / Pablo Corti 61, Rómulo Severini 64, 88."
+  }
+ ]
+}

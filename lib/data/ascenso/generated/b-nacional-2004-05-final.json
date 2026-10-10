@@ -1,0 +1,69 @@
+{
+ "slug": "b-nacional-2004-05-final",
+ "runnerUpIds": [
+  "gimnasia-jujuy"
+ ],
+ "year": 2004,
+ "yearLabel": "2004/05",
+ "league": "Final por el campeonato",
+ "tier": 2,
+ "title": "Primera B Nacional 2004/05 · Final por el campeonato",
+ "tournament": "Final por el campeonato de la Primera B Nacional 2004/05",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "tiro-federal-rosario"
+ ],
+ "summary": "Tiro Federal le ganó 1-0 de local a Gimnasia de Jujuy y empató 1-1 en Jujuy: campeón de la Nacional B 2004/05 y ascenso a Primera por primera vez.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2004",
+   "url": "https://www.rsssf.org/tablesa/arg2-05.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera B Nacional 2004-05",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_B_Nacional_2004-05"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a ida y vuelta entre los ganadores del Apertura y del Clausura."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-2004-05-final-001",
+   "date": "2005-06-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Desempate",
+   "phase": "playoff",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Javier Yacuzzi 43."
+  },
+  {
+   "id": "b-nacional-2004-05-final-002",
+   "date": "2005-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Desempate",
+   "phase": "playoff",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Aquilino Villalba 52 / Raúl Gordillo 85."
+  }
+ ]
+}

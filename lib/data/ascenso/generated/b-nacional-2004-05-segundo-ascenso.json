@@ -1,0 +1,68 @@
+{
+ "slug": "b-nacional-2004-05-segundo-ascenso",
+ "runnerUpIds": [
+  "huracan"
+ ],
+ "year": 2004,
+ "yearLabel": "2004/05",
+ "league": "Segundo ascenso",
+ "tier": 2,
+ "title": "Primera B Nacional 2004/05 · Segundo ascenso",
+ "tournament": "Segundo ascenso de la Primera B Nacional 2004/05",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "gimnasia-jujuy"
+ ],
+ "summary": "Gimnasia de Jujuy, perdedor de la final, le ganó 1-0 a Huracán en Parque Patricios y empató 0-0 en Jujuy: segundo ascenso a Primera.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2004",
+   "url": "https://www.rsssf.org/tablesa/arg2-05.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera B Nacional 2004-05",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_B_Nacional_2004-05"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Serie a ida y vuelta entre el perdedor de la final y el mejor de la tabla general."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-2004-05-segundo-ascenso-001",
+   "date": "2005-06-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Segundo ascenso",
+   "stage": "Desempate",
+   "phase": "playoff",
+   "homeId": "huracan",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Franco Sosa 15."
+  },
+  {
+   "id": "b-nacional-2004-05-segundo-ascenso-002",
+   "date": "2005-07-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Segundo ascenso",
+   "stage": "Desempate",
+   "phase": "playoff",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}

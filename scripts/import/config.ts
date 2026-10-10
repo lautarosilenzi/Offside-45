@@ -13,6 +13,8 @@ export type TournamentConfig = {
   dedupe?: boolean;
   // Ascenso: la tabla publicada no cierra con los partidos y no hay otra fuente; texto que explica el caso (ver build.ts).
   acceptTableDiffs?: string;
+  // Arreglos de formato del texto de la página antes de leerla (Nacional B 2004/05: fechas "12/08/04:" al principio del renglón).
+  preprocess?: (page: string) => string;
   // Copa nacional: fases de eliminación, sin tabla de liga (salvo la tabla resumen que publique RSSSF).
   kind?: "cup";
   // Copa internacional: se lista aparte y solo lleva los partidos de los clubes argentinos.
