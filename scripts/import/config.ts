@@ -11,6 +11,8 @@ export type TournamentConfig = {
   wikiDiffsByTable?: boolean;
   // Partidos que la página lista dos veces (interzonales en las dos subzonas): se deja uno.
   dedupe?: boolean;
+  // Ascenso: la tabla publicada no cierra con los partidos y no hay otra fuente; texto que explica el caso (ver build.ts).
+  acceptTableDiffs?: string;
   // Copa nacional: fases de eliminación, sin tabla de liga (salvo la tabla resumen que publique RSSSF).
   kind?: "cup";
   // Copa internacional: se lista aparte y solo lleva los partidos de los clubes argentinos.

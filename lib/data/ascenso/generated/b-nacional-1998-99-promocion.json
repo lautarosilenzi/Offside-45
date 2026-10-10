@@ -1,0 +1,73 @@
+{
+ "slug": "b-nacional-1998-99-promocion",
+ "year": 1998,
+ "yearLabel": "1998/99",
+ "league": "Promoción con el Argentino A",
+ "tier": 2,
+ "title": "Primera B Nacional 1998/99 · Promoción con el Argentino A",
+ "tournament": "Promoción con el Argentino A de la Primera B Nacional 1998/99",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "villa-mitre"
+ ],
+ "summary": "Douglas Haig y Huracán de Corrientes, los dos últimos del promedio de la Zona Interior, jugaron con General Paz Juniors y Villa Mitre, del Argentino A. Villa Mitre ganó y subió; Douglas Haig y Huracán descendieron.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1998",
+   "url": "https://www.rsssf.org/tablesa/arg2-99.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Semifinales y final a un partido."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-1998-99-promocion-001",
+   "date": "1999-07-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con el Argentino A",
+   "stage": "Semifinal",
+   "phase": "playoff",
+   "homeId": "douglas-haig",
+   "awayId": "general-paz-juniors",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Aet - 5-4 on penalty kicks."
+  },
+  {
+   "id": "b-nacional-1998-99-promocion-002",
+   "date": "1999-07-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con el Argentino A",
+   "stage": "Semifinal",
+   "phase": "playoff",
+   "homeId": "huracan-corrientes",
+   "awayId": "villa-mitre",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1998-99-promocion-003",
+   "date": "1999-07-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con el Argentino A",
+   "stage": "Final",
+   "phase": "playoff",
+   "homeId": "douglas-haig",
+   "awayId": "villa-mitre",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

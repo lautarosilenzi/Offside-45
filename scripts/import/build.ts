@@ -1384,6 +1384,25 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     if (unusedErrata.length) warnings.push(`Erratas configuradas que ya no aparecen: ${unusedErrata.join(", ")}`);
   }
 
+  // Ascenso: temporadas cuya tabla publicada no cierra con la lista de partidos y no hay otra fuente para corregirla.
+  // Se cargan igual y las diferencias quedan a la vista en la página (knownTableDiffs), marcadas "a verificar".
+  if (cfg.acceptTableDiffs) {
+    const left = verifySeason(season);
+    // "chacarita: goalsAgainst calculado 27, publicado 28" → "chacarita:goalsAgainst".
+    const keys = left.flatMap((p) => {
+      const m = p.match(/^(\S+): (\w+) calculado/);
+      return m ? [`${m[1]}:${m[2]}`] : [];
+    });
+    if (left.some((p) => /no figura|no tiene/.test(p))) problems.push(...left.filter((p) => /no figura|no tiene/.test(p)).map((p) => `Tabla: ${p}`));
+    if (keys.length) {
+      const teams = [...new Set(keys.map((k) => getTeam(k.split(":")[0])?.name ?? k.split(":")[0]))];
+      season.knownTableDiffs = {
+        keys: [...(season.knownTableDiffs?.keys ?? []), ...keys],
+        explanation: `${cfg.acceptTableDiffs} La tabla publicada no cierra con los partidos en: ${teams.join(", ")}. A verificar.`,
+      };
+      warnings.push(`Diferencias de tabla aceptadas (${keys.length}) en ${teams.length} equipos`);
+    }
+  }
   problems.push(...verifySeason(season).map((p) => `Tabla: ${p}`));
   if (cfg.kind === "cup") {
     const cup = verifyCup(season, cfg);
