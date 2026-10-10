@@ -1,0 +1,85 @@
+{
+ "slug": "b-nacional-2008-09-promocion",
+ "year": 2008,
+ "yearLabel": "2008/09",
+ "league": "Promoción con la B Metropolitana y el Argentino A",
+ "tier": 2,
+ "title": "Primera B Nacional 2008/09 · Promoción con la B Metropolitana y el Argentino A",
+ "tournament": "Promoción con la B Metropolitana y el Argentino A de la Primera B Nacional 2008/09",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Deportivo Merlo le ganó las dos a Los Andes y subió; la CAI jugó con Patronato (Argentino A) por su lugar en la Nacional B.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2008",
+   "url": "https://www.rsssf.org/tablesa/arg2-09.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Series a ida y vuelta; con igualdad, se quedaba el equipo de la categoría superior."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-2008-09-promocion-001",
+   "date": "2009-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "deportivo-merlo",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-2008-09-promocion-002",
+   "date": "2009-06-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "los-andes",
+   "awayId": "deportivo-merlo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-2008-09-promocion-003",
+   "date": "2009-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "patronato",
+   "awayId": "cai",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-2008-09-promocion-004",
+   "date": "2009-06-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "cai",
+   "awayId": "patronato",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

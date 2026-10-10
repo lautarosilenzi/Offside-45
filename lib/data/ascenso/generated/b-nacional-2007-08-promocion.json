@@ -1,0 +1,85 @@
+{
+ "slug": "b-nacional-2007-08-promocion",
+ "year": 2007,
+ "yearLabel": "2007/08",
+ "league": "Promoción con la B Metropolitana y el Argentino A",
+ "tier": 2,
+ "title": "Primera B Nacional 2007/08 · Promoción con la B Metropolitana y el Argentino A",
+ "tournament": "Promoción con la B Metropolitana y el Argentino A de la Primera B Nacional 2007/08",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Nueva Chicago jugó con Los Andes (B Metropolitana) y Talleres de Córdoba con Racing de Córdoba (Argentino A) por su lugar en la Nacional B.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2007",
+   "url": "https://www.rsssf.org/tablesa/arg2-08.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Series a ida y vuelta; con igualdad, se quedaba el equipo de la categoría superior."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-2007-08-promocion-001",
+   "date": "2008-06-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "los-andes",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-promocion-002",
+   "date": "2008-06-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "racing-cordoba",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-promocion-003",
+   "date": "2008-06-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "nueva-chicago",
+   "awayId": "los-andes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-promocion-004",
+   "date": "2008-06-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "talleres",
+   "awayId": "racing-cordoba",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

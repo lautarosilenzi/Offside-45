@@ -1447,3 +1447,164 @@ ASCENSO_TOURNAMENTS.push(
     notes: [{ kind: "formato", text: "Desempate a un partido en cancha neutral y promociones a ida y vuelta." }],
   }),
 );
+
+// ───────── 2007/08 a 2009/10: una sola tabla de 20 equipos a dos ruedas; los dos primeros ascienden ─────────
+// Fechas entre paréntesis ("(Jun 21)", "Second Legs (Jun 28)") o con la cancha ("[May 22 at Dvo Armenio]").
+const pre0710 = (page: string) =>
+  pre0506(page)
+    .split("\n")
+    .flatMap((line) => {
+      const solo = line.match(/^\s*\((\w{3} \d+)\)\s*$/);
+      if (solo) return [`[${solo[1]}]`];
+      const leg = line.match(/^((?:First|Second) Legs?)\s*\((\w{3} \d+)\)\s*$/);
+      if (leg) return [leg[1].replace(/s$/, ""), `[${leg[2]}]`];
+      const at = line.match(/^((?:First|Second) Legs?)\s*\[(\w{3} \d+) at ([^\]]+)\]\s*$/);
+      if (at) return [at[1].replace(/s$/, ""), `[${at[2]}]`];
+      return [line];
+    })
+    .join("\n");
+const temporadaB = (
+  y: number,
+  file: string,
+  aliases: Record<string, string>,
+  champion: string,
+  second: string,
+  summary: string,
+  more: Partial<TournamentConfig> & { promoFrom?: RegExp; promoSummary?: string } = {},
+): TournamentConfig[] => {
+  const { promoFrom, promoSummary, ...rest } = more;
+  const headings = [/^Final Table:/i, /^Topscorers?\s*$/i, /^Promotion\/Relegation Playoffs? 1st\/2nd level/i, /^\s*Relegation Table/i, /^Promotion\/Relegation Playoff\s*$/i, /^Promotion\/Relegation Playoff 2nd\/3rd level/i];
+  return [
+    nacionalB(y, {
+      file,
+      section: 1,
+      sectionRange: { from: /^Final Table:/i, to: /^Topscorers?\s*$/i },
+      headings,
+      preprocess: pre0710,
+      tableIndex: 0,
+      aliases,
+      rolloverBefore: 8,
+      pointsPerWin: 3,
+      wiki: `Campeonato de Primera B Nacional ${y}-${String(y + 1).slice(2)}`,
+      championIds: [champion],
+      summary,
+      notes: [{ kind: "formato", text: `20 equipos, todos contra todos a dos ruedas, 3 puntos por victoria. Los dos primeros (${nameOf(champion)} y ${nameOf(second)}) ascendieron; el 3.º y el 4.º jugaron la promoción con equipos de Primera.` }],
+      ...rest,
+    }),
+    ...(promoFrom
+      ? [
+          nacionalBExtra(y, "promocion", "Promoción con la B Metropolitana y el Argentino A", {
+            file,
+            sectionRange: { from: promoFrom },
+            headings,
+            preprocess: pre0710,
+            aliases,
+            publishedTable: [],
+            tableIndex: [],
+            playoffFrom: { date: `${y + 1}-01-01`, stage: "Promoción" },
+            championIds: [],
+            summary: promoSummary ?? "",
+            notes: [{ kind: "formato", text: "Series a ida y vuelta; con igualdad, se quedaba el equipo de la categoría superior." }],
+          }),
+        ]
+      : []),
+  ];
+};
+const A0710: Record<string, string> = {
+  ...A0607,
+  "At. Rafaela": "atletico-rafaela",
+  "Atl. Rafaela": "atletico-rafaela",
+  "Ind. Rivadavia": "independiente-rivadavia",
+  "Indep. Rivadavia": "independiente-rivadavia",
+  "Independiente Rivadavia": "independiente-rivadavia",
+  "Def. y Justicia": "defensa-y-justicia",
+  "Defensa y Justicia (at Argentinos Jrs.)": "defensa-y-justicia",
+  "Defensa y Justicia (at Ferro Carril Oeste)": "defensa-y-justicia",
+  "Ferro Carril Oeste (at Argentinos Jrs.)": "ferro",
+  "Gimnasia y Esg.(J)": "gimnasia-jujuy",
+  "Gimnasia y Esgrima (J)": "gimnasia-jujuy",
+  "Racing (C)": "racing-cordoba",
+  "Talleres (C)": "talleres",
+  "Los Andes": "los-andes",
+  "Dvo. Merlo": "deportivo-merlo",
+  "Deportivo Merlo": "deportivo-merlo",
+  "Dvo Santamarina": "ramon-santamarina",
+  "Svo. Italiano": "sportivo-italiano",
+  "Sportivo Italiano": "sportivo-italiano",
+  "Boca Unidos": "boca-unidos",
+  "All Boys": "all-boys",
+  "Atlético Tucumán": "atletico-tucuman",
+  "San Martín (T)": "san-martin-tucuman",
+  Patronato: "patronato",
+  // Tablas
+  "Godoy Cruz (Godoy Cruz)": "godoy-cruz",
+  "Quilmes (Buenos Aires)": "quilmes",
+  "Independiente Rivadavia (Mendoza)": "independiente-rivadavia",
+  "Almirante Brown (Buenos Aires)": "almirante-brown",
+  "Atlético Tucumán (Tucumán)": "atletico-tucuman",
+  "Chacarita Juniors (Bs. Aires)": "chacarita",
+  "Ferro Carril Oeste (Bs. Aires)": "ferro",
+  "All Boys (Buenos Aires)": "all-boys",
+  "Indep. Rivadavia (Mendoza)": "independiente-rivadavia",
+  "Defensa y Justicia (F. Varela)": "defensa-y-justicia",
+  "Los Andes (Buenos Aires)": "los-andes",
+  "Olimpo (Bahia Blanca)": "olimpo",
+  "Gimnasia y Esgrima (Jujuy)": "gimnasia-jujuy",
+  // Wikipedia
+  "Independiente M.": "independiente-rivadavia",
+  "Independiente M": "independiente-rivadavia",
+  Aldovisi: "aldosivi",
+  "C.A.I": "cai",
+  "C.A I.": "cai",
+  "Atlético. Rafaela": "atletico-rafaela",
+  "Atlético Tucumán¹": "atletico-tucuman",
+  Santamarina: "ramon-santamarina",
+};
+for (const [k, v] of Object.entries(A0710)) if (k.includes("(")) A0710[k.replace(/[()]/g, "").replace(/\s+/g, " ")] = v;
+const DEDS = (list: [string, number, string][]) => list.map(([teamId, points, reason]) => ({ teamId, points: -points, reason }));
+ASCENSO_TOURNAMENTS.push(
+  ...temporadaB(
+    2007,
+    "arg2-08.html",
+    // En 2007/08 "Alte. Brown" es el de Burzaco (no el de Arrecifes) y "San Martín", el de Tucumán.
+    { ...A0710, "Alte. Brown": "almirante-brown", "San Martín": "san-martin-tucuman" },
+    "san-martin-tucuman",
+    "godoy-cruz",
+    "San Martín de Tucumán salió campeón y ascendió con Godoy Cruz. Unión y Belgrano jugaron la promoción y se quedaron en la B.",
+    {
+      pointAdjustments: DEDS([
+        ["nueva-chicago", 18, "por los incidentes de la promoción 2006/07 con Tigre, en los que murió un hincha (RSSSF)"],
+        ["almirante-brown", 18, "descuento que registra RSSSF (la fuente no da el motivo)"],
+        ["almagro", 3, "descuento que registra RSSSF (la fuente no da el motivo)"],
+      ]),
+      promoFrom: /^Promotion\/Relegation Playoff\s*$/i,
+      promoSummary: "Nueva Chicago jugó con Los Andes (B Metropolitana) y Talleres de Córdoba con Racing de Córdoba (Argentino A) por su lugar en la Nacional B.",
+    },
+  ),
+  ...temporadaB(
+    2008,
+    "arg2-09.html",
+    A0710,
+    "atletico-tucuman",
+    "chacarita",
+    "Atlético Tucumán salió campeón y ascendió con Chacarita. Atlético de Rafaela y Belgrano jugaron la promoción y se quedaron en la B.",
+    {
+      promoFrom: /^Promotion\/Relegation Playoff 2nd\/3rd level/i,
+      promoSummary: "Deportivo Merlo le ganó las dos a Los Andes y subió; la CAI jugó con Patronato (Argentino A) por su lugar en la Nacional B.",
+    },
+  ),
+  ...temporadaB(
+    2009,
+    "arg2-2010.html",
+    A0710,
+    "olimpo",
+    "quilmes",
+    "Olimpo salió campeón y ascendió con Quilmes. All Boys le ganó la promoción a Rosario Central y también subió; Atlético de Rafaela perdió la suya con Gimnasia de La Plata.",
+    {
+      promoFrom: /^Promotion\/Relegation Playoff 2nd\/3rd level/i,
+      acceptTableDiffs: "Platense–Aldosivi figura 0-0 en RSSSF y 1-0 en Wikipedia; ninguno de los dos hace cerrar la tabla de Platense.",
+      wikiErrata: { "RSSSF platense 0-0 aldosivi": "Wikipedia da 1-0. A verificar." },
+      promoSummary: "Deportivo Merlo y la CAI se quedaron en la Nacional B ante Sarmiento de Junín (B Metropolitana) y Santamarina de Tandil (Argentino A).",
+    },
+  ),
+);

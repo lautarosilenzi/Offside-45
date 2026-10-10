@@ -1,0 +1,6000 @@
+{
+ "slug": "b-nacional-2007-08",
+ "year": 2007,
+ "yearLabel": "2007/08",
+ "tier": 2,
+ "title": "Primera B Nacional 2007/08",
+ "tournament": "Campeonato Nacional B 2007/08",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "san-martin-tucuman"
+ ],
+ "summary": "San Martín de Tucumán salió campeón y ascendió con Godoy Cruz. Unión y Belgrano jugaron la promoción y se quedaron en la B.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2007",
+   "url": "https://www.rsssf.org/tablesa/arg2-08.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera B Nacional 2007-08",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_B_Nacional_2007-08"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "20 equipos, todos contra todos a dos ruedas, 3 puntos por victoria. Los dos primeros (San Martín (Tucumán) y Godoy Cruz Antonio Tomba) ascendieron; el 3.º y el 4.º jugaron la promoción con equipos de Primera."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Resultados en los que Wikipedia no coincide con RSSSF. Quedó el de RSSSF, porque con él cierra exacta la tabla final publicada: Independiente Rivadavia (Mendoza) 1-0 Tiro Federal (Rosario) (11/08/2007; Wikipedia: 0-1)."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "nueva-chicago",
+   "points": -18,
+   "reason": "por los incidentes de la promoción 2006/07 con Tigre, en los que murió un hincha (RSSSF)"
+  },
+  {
+   "teamId": "almirante-brown",
+   "points": -18,
+   "reason": "descuento que registra RSSSF (la fuente no da el motivo)"
+  },
+  {
+   "teamId": "almagro",
+   "points": -3,
+   "reason": "descuento que registra RSSSF (la fuente no da el motivo)"
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "san-martin-tucuman",
+   "played": 38,
+   "won": 18,
+   "drawn": 12,
+   "lost": 8,
+   "goalsFor": 47,
+   "goalsAgainst": 28,
+   "points": 66
+  },
+  {
+   "teamId": "godoy-cruz",
+   "played": 38,
+   "won": 19,
+   "drawn": 8,
+   "lost": 11,
+   "goalsFor": 54,
+   "goalsAgainst": 41,
+   "points": 65
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 38,
+   "won": 15,
+   "drawn": 11,
+   "lost": 12,
+   "goalsFor": 52,
+   "goalsAgainst": 43,
+   "points": 56
+  },
+  {
+   "teamId": "belgrano",
+   "played": 38,
+   "won": 15,
+   "drawn": 11,
+   "lost": 12,
+   "goalsFor": 45,
+   "goalsAgainst": 41,
+   "points": 56
+  },
+  {
+   "teamId": "chacarita",
+   "played": 38,
+   "won": 15,
+   "drawn": 11,
+   "lost": 12,
+   "goalsFor": 46,
+   "goalsAgainst": 45,
+   "points": 56
+  },
+  {
+   "teamId": "quilmes",
+   "played": 38,
+   "won": 14,
+   "drawn": 13,
+   "lost": 11,
+   "goalsFor": 43,
+   "goalsAgainst": 36,
+   "points": 55
+  },
+  {
+   "teamId": "tiro-federal-rosario",
+   "played": 38,
+   "won": 14,
+   "drawn": 12,
+   "lost": 12,
+   "goalsFor": 44,
+   "goalsAgainst": 36,
+   "points": 54
+  },
+  {
+   "teamId": "atletico-rafaela",
+   "played": 38,
+   "won": 14,
+   "drawn": 11,
+   "lost": 13,
+   "goalsFor": 49,
+   "goalsAgainst": 44,
+   "points": 53
+  },
+  {
+   "teamId": "cai",
+   "played": 38,
+   "won": 14,
+   "drawn": 9,
+   "lost": 15,
+   "goalsFor": 48,
+   "goalsAgainst": 52,
+   "points": 51
+  },
+  {
+   "teamId": "ferro",
+   "played": 38,
+   "won": 13,
+   "drawn": 12,
+   "lost": 13,
+   "goalsFor": 40,
+   "goalsAgainst": 44,
+   "points": 51
+  },
+  {
+   "teamId": "aldosivi",
+   "played": 38,
+   "won": 13,
+   "drawn": 9,
+   "lost": 16,
+   "goalsFor": 54,
+   "goalsAgainst": 47,
+   "points": 48
+  },
+  {
+   "teamId": "independiente-rivadavia",
+   "played": 38,
+   "won": 13,
+   "drawn": 8,
+   "lost": 17,
+   "goalsFor": 50,
+   "goalsAgainst": 51,
+   "points": 47
+  },
+  {
+   "teamId": "talleres",
+   "played": 38,
+   "won": 13,
+   "drawn": 7,
+   "lost": 18,
+   "goalsFor": 48,
+   "goalsAgainst": 64,
+   "points": 46
+  },
+  {
+   "teamId": "almagro",
+   "played": 38,
+   "won": 12,
+   "drawn": 10,
+   "lost": 16,
+   "goalsFor": 40,
+   "goalsAgainst": 49,
+   "points": 43
+  },
+  {
+   "teamId": "instituto",
+   "played": 38,
+   "won": 9,
+   "drawn": 16,
+   "lost": 13,
+   "goalsFor": 32,
+   "goalsAgainst": 46,
+   "points": 43
+  },
+  {
+   "teamId": "defensa-y-justicia",
+   "played": 38,
+   "won": 11,
+   "drawn": 10,
+   "lost": 17,
+   "goalsFor": 32,
+   "goalsAgainst": 49,
+   "points": 43
+  },
+  {
+   "teamId": "platense",
+   "played": 38,
+   "won": 9,
+   "drawn": 15,
+   "lost": 14,
+   "goalsFor": 45,
+   "goalsAgainst": 55,
+   "points": 42
+  },
+  {
+   "teamId": "almirante-brown",
+   "played": 38,
+   "won": 15,
+   "drawn": 14,
+   "lost": 9,
+   "goalsFor": 42,
+   "goalsAgainst": 26,
+   "points": 41
+  },
+  {
+   "teamId": "ben-hur",
+   "played": 38,
+   "won": 9,
+   "drawn": 11,
+   "lost": 18,
+   "goalsFor": 29,
+   "goalsAgainst": 46,
+   "points": 38
+  },
+  {
+   "teamId": "nueva-chicago",
+   "played": 38,
+   "won": 12,
+   "drawn": 16,
+   "lost": 10,
+   "goalsFor": 47,
+   "goalsAgainst": 44,
+   "points": 34
+  }
+ ],
+ "matches": [
+  {
+   "id": "b-nacional-2007-08-001",
+   "date": "2007-08-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-002",
+   "date": "2007-08-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-003",
+   "date": "2007-08-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Huracán",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-004",
+   "date": "2007-08-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "cai",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-005",
+   "date": "2007-08-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-006",
+   "date": "2007-08-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-007",
+   "date": "2007-08-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-008",
+   "date": "2007-08-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-009",
+   "date": "2007-08-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-010",
+   "date": "2007-09-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-011",
+   "date": "2007-08-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-012",
+   "date": "2007-08-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-013",
+   "date": "2007-08-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Tristán Suárez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-014",
+   "date": "2007-08-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "ben-hur",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-015",
+   "date": "2007-08-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-016",
+   "date": "2007-08-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "almirante-brown",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-017",
+   "date": "2007-08-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-018",
+   "date": "2007-08-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-019",
+   "date": "2007-08-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-020",
+   "date": "2007-08-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-021",
+   "date": "2007-08-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-022",
+   "date": "2007-08-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-023",
+   "date": "2007-08-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-024",
+   "date": "2007-08-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-025",
+   "date": "2007-08-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-026",
+   "date": "2007-08-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-027",
+   "date": "2007-08-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Almagro",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-028",
+   "date": "2007-08-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-029",
+   "date": "2007-08-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-030",
+   "date": "2007-08-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "cai",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-031",
+   "date": "2007-08-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-032",
+   "date": "2007-08-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-033",
+   "date": "2007-08-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-034",
+   "date": "2007-09-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-035",
+   "date": "2007-09-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "ben-hur",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Tristán Suárez",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-036",
+   "date": "2007-09-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-037",
+   "date": "2007-09-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-038",
+   "date": "2007-09-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-039",
+   "date": "2007-09-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-040",
+   "date": "2007-09-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-041",
+   "date": "2007-09-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-042",
+   "date": "2007-09-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-043",
+   "date": "2007-09-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-044",
+   "date": "2007-09-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "almagro",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-045",
+   "date": "2007-09-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-046",
+   "date": "2007-09-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "cai",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "Cancha de Sp. Italiano",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-047",
+   "date": "2007-09-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-048",
+   "date": "2007-09-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-049",
+   "date": "2007-09-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-050",
+   "date": "2007-09-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-051",
+   "date": "2007-09-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "ben-hur",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-052",
+   "date": "2007-09-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-053",
+   "date": "2007-09-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-054",
+   "date": "2007-09-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-055",
+   "date": "2007-09-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-056",
+   "date": "2007-09-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-057",
+   "date": "2007-09-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-058",
+   "date": "2007-09-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-059",
+   "date": "2007-09-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-060",
+   "date": "2007-09-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-061",
+   "date": "2007-09-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-062",
+   "date": "2007-09-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-063",
+   "date": "2007-09-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-064",
+   "date": "2007-09-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-065",
+   "date": "2007-09-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-066",
+   "date": "2007-09-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "cai",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-067",
+   "date": "2007-09-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Sp. Italiano",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-068",
+   "date": "2007-09-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "aldosivi",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-069",
+   "date": "2007-09-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-070",
+   "date": "2007-09-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-071",
+   "date": "2007-09-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-072",
+   "date": "2007-09-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-073",
+   "date": "2007-09-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-074",
+   "date": "2007-09-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-075",
+   "date": "2007-09-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-076",
+   "date": "2007-09-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-077",
+   "date": "2007-09-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-078",
+   "date": "2007-09-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-079",
+   "date": "2007-09-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-080",
+   "date": "2007-10-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-081",
+   "date": "2007-10-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-082",
+   "date": "2007-10-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "cai",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-083",
+   "date": "2007-10-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-084",
+   "date": "2007-10-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-085",
+   "date": "2007-10-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Svo Italiano",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-086",
+   "date": "2007-10-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-087",
+   "date": "2007-10-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-088",
+   "date": "2007-10-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-089",
+   "date": "2007-10-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-090",
+   "date": "2007-10-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "ben-hur",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-091",
+   "date": "2007-10-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-092",
+   "date": "2007-10-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-093",
+   "date": "2007-10-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-094",
+   "date": "2007-10-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-096",
+   "date": "2007-10-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-097",
+   "date": "2007-10-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-098",
+   "date": "2007-10-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-099",
+   "date": "2007-10-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-100",
+   "date": "2007-10-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-101",
+   "date": "2007-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Se jugaron los 45 minutos que faltaban."
+  },
+  {
+   "id": "b-nacional-2007-08-102",
+   "date": "2007-10-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-103",
+   "date": "2007-10-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "cai",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-104",
+   "date": "2007-10-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-105",
+   "date": "2007-10-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-106",
+   "date": "2007-10-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "talleres",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Cancha de Sp. Italiano",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-107",
+   "date": "2007-10-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-108",
+   "date": "2007-10-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "ben-hur",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de San Lorenzo",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-109",
+   "date": "2007-10-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-110",
+   "date": "2007-10-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-111",
+   "date": "2007-10-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-112",
+   "date": "2007-10-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-113",
+   "date": "2007-10-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-114",
+   "date": "2007-10-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-115",
+   "date": "2007-10-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-116",
+   "date": "2007-10-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-117",
+   "date": "2007-10-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-118",
+   "date": "2007-10-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-119",
+   "date": "2007-10-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-120",
+   "date": "2007-10-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "cai",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Social Español",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-121",
+   "date": "2007-10-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-122",
+   "date": "2007-11-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-123",
+   "date": "2007-11-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-124",
+   "date": "2007-11-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-125",
+   "date": "2007-11-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-126",
+   "date": "2007-11-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-127",
+   "date": "2007-11-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-128",
+   "date": "2007-11-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-129",
+   "date": "2007-11-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "ben-hur",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-130",
+   "date": "2007-11-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-131",
+   "date": "2007-11-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-132",
+   "date": "2007-11-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-133",
+   "date": "2007-11-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-134",
+   "date": "2007-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Social Español",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-135",
+   "date": "2007-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "belgrano",
+   "homeGoals": 7,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-136",
+   "date": "2007-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-137",
+   "date": "2007-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-138",
+   "date": "2007-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-139",
+   "date": "2007-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-140",
+   "date": "2007-11-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-141",
+   "date": "2007-11-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "cai",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-142",
+   "date": "2007-11-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-143",
+   "date": "2007-11-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-144",
+   "date": "2007-11-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-145",
+   "date": "2007-11-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "ben-hur",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-146",
+   "date": "2007-11-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-147",
+   "date": "2007-11-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-148",
+   "date": "2007-11-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-149",
+   "date": "2007-11-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-150",
+   "date": "2007-11-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-151",
+   "date": "2007-11-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-152",
+   "date": "2007-11-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "cai",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-153",
+   "date": "2007-11-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-154",
+   "date": "2007-11-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-155",
+   "date": "2007-11-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-156",
+   "date": "2007-11-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-157",
+   "date": "2007-11-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-158",
+   "date": "2007-11-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-159",
+   "date": "2007-11-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-160",
+   "date": "2007-11-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-161",
+   "date": "2007-11-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-162",
+   "date": "2007-11-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-163",
+   "date": "2007-11-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-164",
+   "date": "2007-11-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "aldosivi",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-165",
+   "date": "2007-11-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-166",
+   "date": "2007-11-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-167",
+   "date": "2007-11-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "ben-hur",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-168",
+   "date": "2007-11-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-169",
+   "date": "2007-11-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-170",
+   "date": "2007-11-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "nueva-chicago",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-171",
+   "date": "2007-11-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-172",
+   "date": "2007-12-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-173",
+   "date": "2007-12-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-174",
+   "date": "2007-12-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-175",
+   "date": "2007-12-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-176",
+   "date": "2007-12-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-177",
+   "date": "2007-12-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "instituto",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-178",
+   "date": "2007-12-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "cai",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-179",
+   "date": "2007-12-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-180",
+   "date": "2007-12-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-181",
+   "date": "2007-12-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-182",
+   "date": "2007-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-183",
+   "date": "2007-12-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-184",
+   "date": "2007-12-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "aldosivi",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-185",
+   "date": "2007-12-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-186",
+   "date": "2007-12-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "almirante-brown",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-187",
+   "date": "2007-12-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-188",
+   "date": "2007-12-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "ben-hur",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-189",
+   "date": "2007-12-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-190",
+   "date": "2007-12-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-191",
+   "date": "2008-02-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-192",
+   "date": "2008-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-193",
+   "date": "2008-02-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-194",
+   "date": "2008-02-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-195",
+   "date": "2008-02-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-196",
+   "date": "2008-02-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "ben-hur",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-197",
+   "date": "2008-02-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-198",
+   "date": "2008-02-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "aldosivi",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-199",
+   "date": "2008-02-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-200",
+   "date": "2008-02-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-201",
+   "date": "2008-02-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-202",
+   "date": "2008-02-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-203",
+   "date": "2008-02-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "aldosivi",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-204",
+   "date": "2008-02-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-205",
+   "date": "2008-02-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "almagro",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-206",
+   "date": "2008-02-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-207",
+   "date": "2008-02-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-208",
+   "date": "2008-02-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-209",
+   "date": "2008-02-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-210",
+   "date": "2008-02-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "cai",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-211",
+   "date": "2008-02-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-212",
+   "date": "2008-02-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Newell's O.B.",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-213",
+   "date": "2008-02-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-214",
+   "date": "2008-02-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-215",
+   "date": "2008-02-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-216",
+   "date": "2008-02-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-217",
+   "date": "2008-02-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "ben-hur",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-218",
+   "date": "2008-02-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-219",
+   "date": "2008-02-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "talleres",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-220",
+   "date": "2008-02-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-221",
+   "date": "2008-02-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-222",
+   "date": "2008-02-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-223",
+   "date": "2008-02-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-224",
+   "date": "2008-03-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-225",
+   "date": "2008-03-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "cai",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-226",
+   "date": "2008-03-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-227",
+   "date": "2008-03-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-228",
+   "date": "2008-03-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-229",
+   "date": "2008-03-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "aldosivi",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-230",
+   "date": "2008-03-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-231",
+   "date": "2008-03-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-232",
+   "date": "2008-03-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-233",
+   "date": "2008-03-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-234",
+   "date": "2008-03-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-235",
+   "date": "2008-03-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "ben-hur",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-236",
+   "date": "2008-03-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-237",
+   "date": "2008-03-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-238",
+   "date": "2008-03-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-239",
+   "date": "2008-03-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-240",
+   "date": "2008-03-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-241",
+   "date": "2008-03-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "instituto",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-242",
+   "date": "2008-03-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-243",
+   "date": "2008-03-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Social Español",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-244",
+   "date": "2008-03-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-245",
+   "date": "2008-03-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-246",
+   "date": "2008-03-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-247",
+   "date": "2008-03-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "cai",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-248",
+   "date": "2008-03-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-249",
+   "date": "2008-03-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-250",
+   "date": "2008-03-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-251",
+   "date": "2008-03-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-252",
+   "date": "2008-03-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-253",
+   "date": "2008-03-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "ben-hur",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-254",
+   "date": "2008-03-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-255",
+   "date": "2008-03-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-256",
+   "date": "2008-03-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-257",
+   "date": "2008-03-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-258",
+   "date": "2008-03-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-259",
+   "date": "2008-03-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "almirante-brown",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-260",
+   "date": "2008-03-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "instituto",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-261",
+   "date": "2008-03-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-262",
+   "date": "2008-03-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-263",
+   "date": "2008-03-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-264",
+   "date": "2008-03-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-265",
+   "date": "2008-03-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "almagro",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-266",
+   "date": "2008-03-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-267",
+   "date": "2008-03-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "cai",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-268",
+   "date": "2008-03-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-269",
+   "date": "2008-03-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-270",
+   "date": "2008-03-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-271",
+   "date": "2008-03-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "ben-hur",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-272",
+   "date": "2008-04-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-273",
+   "date": "2008-04-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-274",
+   "date": "2008-04-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-275",
+   "date": "2008-04-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-276",
+   "date": "2008-04-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "chacarita",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-277",
+   "date": "2008-04-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-278",
+   "date": "2008-04-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-279",
+   "date": "2008-04-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-280",
+   "date": "2008-04-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-281",
+   "date": "2008-04-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-282",
+   "date": "2008-04-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-283",
+   "date": "2008-04-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-284",
+   "date": "2008-04-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-285",
+   "date": "2008-04-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-286",
+   "date": "2008-04-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "aldosivi",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-287",
+   "date": "2008-04-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-288",
+   "date": "2008-04-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-289",
+   "date": "2008-04-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "ferro",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-290",
+   "date": "2008-04-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "cai",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-291",
+   "date": "2008-04-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "ben-hur",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-292",
+   "date": "2008-04-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-293",
+   "date": "2008-04-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-294",
+   "date": "2008-04-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-295",
+   "date": "2008-04-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-296",
+   "date": "2008-04-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-297",
+   "date": "2008-04-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-298",
+   "date": "2008-04-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-299",
+   "date": "2008-04-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-300",
+   "date": "2008-04-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-301",
+   "date": "2008-04-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-302",
+   "date": "2008-04-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-303",
+   "date": "2008-04-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-304",
+   "date": "2008-04-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-305",
+   "date": "2008-04-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "ben-hur",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-306",
+   "date": "2008-04-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-307",
+   "date": "2008-04-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "aldosivi",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-308",
+   "date": "2008-04-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-309",
+   "date": "2008-04-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-310",
+   "date": "2008-04-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-311",
+   "date": "2008-04-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-312",
+   "date": "2008-05-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-313",
+   "date": "2008-05-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-314",
+   "date": "2008-05-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-315",
+   "date": "2008-05-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-316",
+   "date": "2008-05-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-317",
+   "date": "2008-05-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-318",
+   "date": "2008-05-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-319",
+   "date": "2008-05-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "cai",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-320",
+   "date": "2008-05-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-321",
+   "date": "2008-05-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-322",
+   "date": "2008-05-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-323",
+   "date": "2008-05-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "aldosivi",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-324",
+   "date": "2008-05-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-325",
+   "date": "2008-05-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-326",
+   "date": "2008-05-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-327",
+   "date": "2008-05-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "ben-hur",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-328",
+   "date": "2008-05-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-329",
+   "date": "2008-05-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-330",
+   "date": "2008-05-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "platense",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-331",
+   "date": "2008-05-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-332",
+   "date": "2008-05-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-333",
+   "date": "2008-05-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "instituto",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-334",
+   "date": "2008-05-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "cai",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-335",
+   "date": "2008-05-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-336",
+   "date": "2008-05-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-337",
+   "date": "2008-05-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-338",
+   "date": "2008-05-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-339",
+   "date": "2008-05-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-340",
+   "date": "2008-05-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-341",
+   "date": "2008-05-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-342",
+   "date": "2008-05-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-343",
+   "date": "2008-05-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-344",
+   "date": "2008-05-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-345",
+   "date": "2008-05-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-346",
+   "date": "2008-05-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "ben-hur",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-347",
+   "date": "2008-05-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-348",
+   "date": "2008-05-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-349",
+   "date": "2008-05-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "aldosivi",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-350",
+   "date": "2008-05-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-351",
+   "date": "2008-05-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-352",
+   "date": "2008-05-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-353",
+   "date": "2008-05-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-354",
+   "date": "2008-05-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-355",
+   "date": "2008-05-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-356",
+   "date": "2008-05-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-357",
+   "date": "2008-05-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-358",
+   "date": "2008-05-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-359",
+   "date": "2008-06-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "ferro",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-360",
+   "date": "2008-06-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "cai",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-361",
+   "date": "2008-06-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-362",
+   "date": "2008-06-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-363",
+   "date": "2008-06-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-364",
+   "date": "2008-06-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-365",
+   "date": "2008-06-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-366",
+   "date": "2008-06-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "ben-hur",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-367",
+   "date": "2008-06-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "ferro",
+   "awayId": "talleres",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-368",
+   "date": "2008-06-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "tiro-federal-rosario",
+   "awayId": "aldosivi",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-369",
+   "date": "2008-06-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "platense",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-370",
+   "date": "2008-06-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "cai",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-371",
+   "date": "2008-06-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-372",
+   "date": "2008-06-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-373",
+   "date": "2008-06-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "aldosivi",
+   "awayId": "platense",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-374",
+   "date": "2008-06-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "tiro-federal-rosario",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-375",
+   "date": "2008-06-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "ferro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-376",
+   "date": "2008-06-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "ben-hur",
+   "awayId": "cai",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-377",
+   "date": "2008-06-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "union-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-378",
+   "date": "2008-06-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-379",
+   "date": "2008-06-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Argentinos Juniors",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-380",
+   "date": "2008-06-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2007-08-381",
+   "date": "2008-06-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}
