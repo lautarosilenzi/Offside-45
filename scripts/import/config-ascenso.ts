@@ -803,3 +803,93 @@ ASCENSO_TOURNAMENTS.push(
     ],
   }),
 );
+
+// ───────── 2001/02: Apertura de 25 equipos (el campeón ascendió) y Clausura en tres grupos ─────────
+const ABREV_0203: Record<string, string> = {
+  ...ABREV_0102,
+  "Almirante Brown (Arr.)": "almirante-brown-arrecifes",
+  "Alte. Brown (Arr.)": "almirante-brown-arrecifes",
+  "Atlético Rafela": "atletico-rafaela",
+  "C. Córdoba (R)": "central-cordoba-rosario",
+  "Central Cordoba": "central-cordoba-rosario",
+  "Gimnasia (ER)": "gimnasia-cdu",
+  "Gimnasia (J)": "gimnasia-jujuy",
+  "Godoy Cuz": "godoy-cruz",
+  // Wikipedia
+  "Alte. Brown (A)": "almirante-brown-arrecifes",
+  "Alte.Brown (A)": "almirante-brown-arrecifes",
+  "Def.y Justicia": "defensa-y-justicia",
+  "Def.de Belgrano": "defensores-belgrano",
+  "Indep.Rivadavia": "independiente-rivadavia",
+  "C.Córdoba (R)": "central-cordoba-rosario",
+  "Juv.Antoniana": "juventud-antoniana",
+  "Huracán (TA)": "huracan-tres-arroyos",
+  "Huracán (Tres Arroyos)": "huracan-tres-arroyos",
+  "Instituto (Cba)": "instituto",
+  "Racing (Cba)": "racing-cordoba",
+  "San Martín (M)": "san-martin-mendoza",
+  "San Martín (SJ)": "san-martin-sj",
+  "Atlético (Tucumán)": "atletico-tucuman",
+  "Unión (SF)": "union-santa-fe",
+};
+const H0203 = [/^Torneo Apertura/i, /^Torneo Clausura/i, /^General Aggregate Table/i, /^Second Promotion Playoff/i, /^Third and Fourth Promotion/i];
+ASCENSO_TOURNAMENTS.push(
+  nacionalBExtra(2001, "apertura", "Apertura", {
+    file: "arg2-02.html",
+    sectionRange: { from: /^Torneo Apertura/i, to: /^Torneo Clausura/i },
+    headings: H0203,
+    tableIndex: 0,
+    wiki: "Campeonato de Primera B Nacional 2001-02",
+    aliases: ABREV_0203,
+    rolloverBefore: 8,
+    pointsPerWin: 3,
+    // "[Dec 1]Godoy Cruz  3-1  Defensa y Justicia": con la fecha pegada al nombre, el lector no toma el renglón.
+    extraMatches: [
+      {
+        id: "b-nacional-2001-02-apertura-extra-1",
+        date: "2001-12-01",
+        stage: "Fecha 21",
+        phase: "league",
+        homeId: "godoy-cruz",
+        awayId: "defensa-y-justicia",
+        homeGoals: 3,
+        awayGoals: 1,
+        note: "Goles: Cabrera (2), Carnero - Herrera.",
+      },
+    ],
+    knownTableDiffs: {
+      keys: ["independiente-rivadavia:goalsFor", "tigre:goalsAgainst"],
+      explanation: "La tabla de RSSSF da a Independiente Rivadavia un gol a favor menos y a Tigre uno en contra menos que la suma de sus partidos, que coinciden todos con Wikipedia: el error es de la tabla (probablemente en el Tigre–Independiente Rivadavia).",
+    },
+    championIds: ["olimpo"],
+    summary: "Olimpo de Bahía Blanca ganó el Apertura y ascendió directo a Primera.",
+    notes: [{ kind: "formato", text: "25 equipos, todos contra todos a una rueda, 3 puntos por victoria. El campeón ascendía." }],
+  }),
+  nacionalBExtra(2001, "clausura", "Clausura", {
+    file: "arg2-02.html",
+    sectionRange: { from: /^Torneo Clausura/i, to: /^General Aggregate Table/i },
+    headings: [...H0203, /^Group [ABC]\s*$/i],
+    tableIndex: [0, 1, 2],
+    groupNames: ["Grupo A", "Grupo B", "Grupo C"],
+    aliases: ABREV_0203,
+    rolloverBefore: 8,
+    pointsPerWin: 3,
+    acceptTableDiffs: "Wikipedia no tiene los partidos del Clausura de esta temporada.",
+    championIds: [],
+    summary: "Sin Olimpo, ya ascendido, los 24 equipos restantes jugaron el Clausura en tres grupos de ocho. Los ganadores (Arsenal, Gimnasia de Entre Ríos y Godoy Cruz) fueron al reducido junto con los mejores de la tabla general.",
+    notes: [
+      { kind: "formato", text: "Tres grupos de 8 equipos a dos ruedas, 3 puntos por victoria." },
+      { kind: "dato", text: "A Quilmes le descontaron 3 puntos en la tabla general de la temporada (RSSSF)." },
+    ],
+  }),
+  nacionalBExtra(2001, "reducido", "Reducido", {
+    file: "arg2-02.html",
+    sectionRange: { from: /^Second Promotion Playoff/i, to: /^Third and Fourth Promotion/i },
+    headings: [...H0203, /^Quarter-Finals\s*$/i, /^Semi-Finals\s*$/i, /^Final\s*$/i],
+    aliases: ABREV_0203,
+    championIds: ["arsenal"],
+    runnerUpIds: ["gimnasia-cdu"],
+    summary: "Arsenal ganó el reducido (2-1 en Concepción del Uruguay y 1-1 de local con Gimnasia de Entre Ríos) y ascendió a Primera por primera vez.",
+    notes: [{ kind: "formato", text: "Los ganadores de los grupos del Clausura y los mejores de la tabla general, eliminación a ida y vuelta." }],
+  }),
+);

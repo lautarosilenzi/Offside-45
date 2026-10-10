@@ -89,8 +89,9 @@ const MATCH_RE = new RegExp(
   String.raw`^\s*(\S.*?)(?:\t+|\s{2,}|\s(?=\d+\s*[:\-]\s*\d)|(?<=\))(?=\d+\s*[:\-]\s*\d)|\s(?=(?:wp|lp)\s*[:\-]\s*(?:wp|lp)\s))\s*${SCORE}(?:\t+|\s+)(\S.*?)\s*$`,
   "i",
 );
+// El puesto puede venir sin punto y con un solo espacio: " 8 Instituto (Córdoba)  24 11 …" (Nacional B 2001/02).
 const TABLE_RE =
-  /^\s*(\d+)\s*(?:\.\s*|\s{2,})(.+?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+((?:\d+\s+){6})?(~?\s*\d+)\s*(?:[:\-]\s*|\s+)(~?\s*\d+)\s+(\d+)(.*)$/;
+  /^\s*(\d+)\s*(?:\.\s*|\s{2,}|\s(?=[A-ZÁÉÍÓÚ]))(.+?)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+((?:\d+\s+){6})?(~?\s*\d+)\s*(?:[:\-]\s*|\s+)(~?\s*\d+)\s+(\d+)(.*)$/;
 
 // Separa "Equipo  [nota]" o "Equipo      nota libre" en nombre y nota.
 function splitAway(rest: string): { away: string; note: string; awarded?: string } {
