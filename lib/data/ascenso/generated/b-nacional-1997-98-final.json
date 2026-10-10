@@ -1,0 +1,63 @@
+{
+ "slug": "b-nacional-1997-98-final",
+ "runnerUpIds": [
+  "belgrano"
+ ],
+ "year": 1997,
+ "yearLabel": "1997/98",
+ "league": "Final por el ascenso",
+ "tier": 2,
+ "title": "Primera B Nacional 1997/98 · Final por el ascenso",
+ "tournament": "Final por el ascenso de la Primera B Nacional 1997/98",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "talleres"
+ ],
+ "summary": "Talleres le ganó la final a Belgrano, en el clásico cordobés, y ascendió a Primera como campeón de la Nacional B 1997/98.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1997",
+   "url": "https://www.rsssf.org/tablesa/arg2-98.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a ida y vuelta entre los ganadores de los dos grupos."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-1997-98-final-001",
+   "date": "1998-07-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el ascenso",
+   "stage": "Final",
+   "phase": "playoff",
+   "homeId": "talleres",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1997-98-final-002",
+   "date": "1998-07-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el ascenso",
+   "stage": "Final",
+   "phase": "playoff",
+   "homeId": "belgrano",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "advancedId": "talleres",
+   "note": "Talleres (C) pasó por penales, tras el empate en el global, (3-4)."
+  }
+ ]
+}

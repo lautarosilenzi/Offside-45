@@ -53,6 +53,9 @@ const nacionalBExtra = (
   title: `Primera B Nacional ${yy(y)} · ${name}`,
   tournament: `${name} de la Primera B Nacional ${yy(y)}`,
   tableIndex: [],
+  // Se juegan al final de la temporada: todas las fechas sin año son del segundo año (también julio y agosto).
+  // Las fases que duran toda la temporada (Apertura, primera fase…) lo pisan con 8.
+  rolloverBefore: 13,
   ...rest,
 });
 
@@ -269,6 +272,7 @@ ASCENSO_TOURNAMENTS.push(
     summary: "Huracán de Corrientes ganó el Apertura y se clasificó a la final por el ascenso con el ganador del Clausura.",
     notes: [{ kind: "formato", text: "22 equipos, todos contra todos a una rueda, 3 puntos por victoria. El ganador jugó la final con el del Clausura." }],
     pointsPerWin: 3,
+    rolloverBefore: 8,
   }),
   nacionalBExtra(1995, "clausura", "Clausura", {
     section: /^Torneo Clausura/,
@@ -280,6 +284,7 @@ ASCENSO_TOURNAMENTS.push(
     summary: "Talleres de Córdoba ganó el Clausura y se clasificó a la final por el ascenso con Huracán de Corrientes.",
     notes: [{ kind: "formato", text: "22 equipos, todos contra todos a una rueda (la segunda de la temporada), 3 puntos por victoria." }],
     pointsPerWin: 3,
+    rolloverBefore: 8,
   }),
   nacionalBExtra(1995, "campeonato", "Final por el ascenso", {
     section: /^Championship Playoff/i,
@@ -323,9 +328,11 @@ ASCENSO_TOURNAMENTS.push(
     summary: "Primera fase en cuatro subzonas de ocho equipos (dos del Interior y dos Metropolitanas), con fechas interzonales. Los cuatro primeros de cada subzona pasaron a la zona campeonato.",
     notes: [{ kind: "formato", text: "Cuatro subzonas de 8 equipos a dos ruedas, más dos fechas interzonales; 3 puntos por victoria." }],
     pointsPerWin: 3,
+    rolloverBefore: 8,
   }),
   nacionalBExtra(1996, "desempate", "Desempate de los cuartos", {
     section: /^Fourth places playoff/i,
+    rolloverBefore: 8,
     publishedTable: [],
     playoffFrom: { date: "1996-01-01", stage: "Desempate entre los cuartos" },
     championIds: [],
@@ -345,6 +352,7 @@ ASCENSO_TOURNAMENTS.push(
     summary: "Argentinos Juniors ganó la zona campeonato y volvió a Primera.",
     notes: [{ kind: "formato", text: "14 equipos a dos ruedas, 3 puntos por victoria. El primero ascendió; los siguientes jugaron el reducido." }],
     pointsPerWin: 3,
+    rolloverBefore: 8,
   }),
   nacionalBExtra(1996, "permanencia", "Zona permanencia", {
     sectionRange: { from: /^Zona Interior$/i, to: /^Playoff/i },
@@ -360,6 +368,7 @@ ASCENSO_TOURNAMENTS.push(
     summary: "Los equipos que no pasaron a la zona campeonato jugaron por la permanencia, divididos en una zona del Interior y una Metropolitana.",
     notes: [{ kind: "formato", text: "Dos zonas de 9 equipos a dos ruedas, 3 puntos por victoria." }],
     pointsPerWin: 3,
+    rolloverBefore: 8,
   }),
   nacionalBExtra(1996, "reducido", "Reducido", {
     sectionRange: { from: /^Playoff/i },
@@ -368,5 +377,72 @@ ASCENSO_TOURNAMENTS.push(
     runnerUpIds: ["talleres"],
     summary: "Gimnasia y Tiro de Salta ganó el reducido (1-0 de local y 0-1 en Córdoba con Talleres, y 3-1 por penales) y ascendió a Primera.",
     notes: [{ kind: "formato", text: "Eliminación directa a ida y vuelta por el segundo ascenso." }],
+  }),
+);
+
+// ───────── 1997/98: Zona Interior y Zona Metropolitana; grupos campeonato y permanencia ─────────
+const NB9798 = "Campeonato de Primera B Nacional 1997-98";
+const A9798 = { Talleres: "talleres" };
+ASCENSO_TOURNAMENTS.push(
+  nacionalBExtra(1997, "primera-fase", "Primera fase", {
+    sectionRange: { from: /^Zona Interior/i, to: /^Group\s+A/i },
+    tableIndex: [0, 1],
+    groupNames: ["Zona Interior", "Zona Metropolitana"],
+    wiki: NB9798,
+    aliases: A9798,
+    championIds: [],
+    summary: "Primera fase en dos zonas de 16 equipos, Interior y Metropolitana. Los primeros de cada una pasaron al grupo campeonato y el resto, al de permanencia.",
+    notes: [{ kind: "formato", text: "Dos zonas de 16 equipos a dos ruedas, 3 puntos por victoria." }],
+    pointsPerWin: 3,
+    rolloverBefore: 8,
+  }),
+  nacionalBExtra(1997, "campeonato", "Grupo campeonato", {
+    sectionRange: { from: /^Group\s+A/i, to: /^Championship\s+Playoff/i },
+    tableIndex: [0, 1],
+    groupNames: ["Grupo A", "Grupo B"],
+    wiki: NB9798,
+    aliases: A9798,
+    championIds: [],
+    summary: "Los mejores de la primera fase, en dos grupos de ocho. Los ganadores, Talleres y Belgrano, jugaron la final por el ascenso.",
+    notes: [{ kind: "formato", text: "Dos grupos de 8 equipos a dos ruedas, 3 puntos por victoria." }],
+    pointsPerWin: 3,
+    rolloverBefore: 8,
+  }),
+  nacionalBExtra(1997, "final", "Final por el ascenso", {
+    section: /^Championship\s+Playoff/i,
+    publishedTable: [],
+    playoffFrom: { date: "1998-01-01", stage: "Final" },
+    championIds: ["talleres"],
+    runnerUpIds: ["belgrano"],
+    summary: "Talleres le ganó la final a Belgrano, en el clásico cordobés, y ascendió a Primera como campeón de la Nacional B 1997/98.",
+    notes: [{ kind: "formato", text: "Final a ida y vuelta entre los ganadores de los dos grupos." }],
+  }),
+  nacionalBExtra(1997, "permanencia", "Grupo permanencia", {
+    sectionRange: { from: /^Group\s+Interior/i, to: /^Playoff for the Second/i },
+    tableIndex: [0, 1],
+    groupNames: ["Grupo Interior", "Grupo Metropolitano"],
+    wiki: NB9798,
+    aliases: A9798,
+    championIds: [],
+    summary: "Los que no pasaron al grupo campeonato jugaron por la permanencia, en un grupo del Interior y uno Metropolitano.",
+    notes: [{ kind: "formato", text: "Dos grupos de 8 equipos a dos ruedas, 3 puntos por victoria." }],
+    pointsPerWin: 3,
+    rolloverBefore: 8,
+  }),
+  nacionalBExtra(1997, "reducido", "Reducido", {
+    sectionRange: { from: /^Playoff for the Second/i, to: /^Relegation\s+Playoff/i },
+    headings: [...ROUND_HEADINGS],
+    championIds: ["belgrano"],
+    summary: "Belgrano ganó el reducido y ascendió a Primera junto con Talleres.",
+    notes: [{ kind: "formato", text: "Eliminación directa a ida y vuelta por el segundo ascenso." }],
+  }),
+  nacionalBExtra(1997, "desempate", "Desempate por la permanencia", {
+    sectionRange: { from: /^Relegation\s+Playoff/i },
+    headings: [...ROUND_HEADINGS],
+    publishedTable: [],
+    playoffFrom: { date: "1998-01-01", stage: "Desempate por la permanencia" },
+    championIds: ["douglas-haig"],
+    summary: "Douglas Haig y Chaco For Ever (descendidos en la Zona Interior) jugaron con Villa Mitre y Huracán de San Rafael, del Argentino A, por el lugar 16 de la zona. Douglas Haig le ganó la final a Chaco For Ever y se quedó en la Nacional B.",
+    notes: [{ kind: "formato", text: "Eliminación directa a un partido en cancha neutral." }],
   }),
 );

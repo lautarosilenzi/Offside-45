@@ -543,6 +543,7 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["fernandez-oro", "Fernández Oro (Río Negro)", "FOR", "Fernández Oro (Río Negro)"],
   ["sportivo-italiano", "Sportivo Italiano", "SIT", "Club Sportivo Italiano (Ciudad Evita)"],
   ["defensores-unidos", "Defensores Unidos (Zárate)", "DUN", "Club Atlético Defensores Unidos (Zárate)"],
+  ["almirante-brown-arrecifes", "Almirante Brown (Arrecifes)", "ABA", "Club Almirante Brown (Arrecifes)"],
 ];
 
 export const HISTORIC_CLUBS: Team[] = OTHER_CLUBS.map(([id, name, shortName, fullName]) => ({
