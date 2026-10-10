@@ -26,6 +26,16 @@ import S_b_nacional_1993_94_reducido from "./b-nacional-1993-94-reducido.json";
 import S_b_nacional_1993_94 from "./b-nacional-1993-94.json";
 import S_b_nacional_1994_95_reducido from "./b-nacional-1994-95-reducido.json";
 import S_b_nacional_1994_95 from "./b-nacional-1994-95.json";
+import S_b_nacional_1995_96_apertura from "./b-nacional-1995-96-apertura.json";
+import S_b_nacional_1995_96_campeonato from "./b-nacional-1995-96-campeonato.json";
+import S_b_nacional_1995_96_clausura from "./b-nacional-1995-96-clausura.json";
+import S_b_nacional_1995_96_reclasificacion from "./b-nacional-1995-96-reclasificacion.json";
+import S_b_nacional_1995_96_reducido from "./b-nacional-1995-96-reducido.json";
+import S_b_nacional_1996_97_campeonato from "./b-nacional-1996-97-campeonato.json";
+import S_b_nacional_1996_97_desempate from "./b-nacional-1996-97-desempate.json";
+import S_b_nacional_1996_97_permanencia from "./b-nacional-1996-97-permanencia.json";
+import S_b_nacional_1996_97_primera_fase from "./b-nacional-1996-97-primera-fase.json";
+import S_b_nacional_1996_97_reducido from "./b-nacional-1996-97-reducido.json";
 import S_primera_b_1986_apertura from "./primera-b-1986-apertura.json";
 
-export const ASCENSO_SEASONS = [S_b_nacional_1986_87_desempate, S_b_nacional_1986_87_reducido, S_b_nacional_1986_87, S_b_nacional_1987_88_promocion, S_b_nacional_1987_88_reducido, S_b_nacional_1987_88, S_b_nacional_1988_89_promocion, S_b_nacional_1988_89_reducido, S_b_nacional_1988_89, S_b_nacional_1989_90_promocion, S_b_nacional_1989_90_reducido, S_b_nacional_1989_90, S_b_nacional_1990_91_desempate, S_b_nacional_1990_91_promocion, S_b_nacional_1990_91_reducido, S_b_nacional_1990_91, S_b_nacional_1991_92_promocion, S_b_nacional_1991_92_reducido, S_b_nacional_1991_92, S_b_nacional_1992_93_campeonato, S_b_nacional_1992_93_reducido, S_b_nacional_1992_93, S_b_nacional_1993_94_reducido, S_b_nacional_1993_94, S_b_nacional_1994_95_reducido, S_b_nacional_1994_95, S_primera_b_1986_apertura] as Season[];
+export const ASCENSO_SEASONS = [S_b_nacional_1986_87_desempate, S_b_nacional_1986_87_reducido, S_b_nacional_1986_87, S_b_nacional_1987_88_promocion, S_b_nacional_1987_88_reducido, S_b_nacional_1987_88, S_b_nacional_1988_89_promocion, S_b_nacional_1988_89_reducido, S_b_nacional_1988_89, S_b_nacional_1989_90_promocion, S_b_nacional_1989_90_reducido, S_b_nacional_1989_90, S_b_nacional_1990_91_desempate, S_b_nacional_1990_91_promocion, S_b_nacional_1990_91_reducido, S_b_nacional_1990_91, S_b_nacional_1991_92_promocion, S_b_nacional_1991_92_reducido, S_b_nacional_1991_92, S_b_nacional_1992_93_campeonato, S_b_nacional_1992_93_reducido, S_b_nacional_1992_93, S_b_nacional_1993_94_reducido, S_b_nacional_1993_94, S_b_nacional_1994_95_reducido, S_b_nacional_1994_95, S_b_nacional_1995_96_apertura, S_b_nacional_1995_96_campeonato, S_b_nacional_1995_96_clausura, S_b_nacional_1995_96_reclasificacion, S_b_nacional_1995_96_reducido, S_b_nacional_1996_97_campeonato, S_b_nacional_1996_97_desempate, S_b_nacional_1996_97_permanencia, S_b_nacional_1996_97_primera_fase, S_b_nacional_1996_97_reducido, S_primera_b_1986_apertura] as Season[];

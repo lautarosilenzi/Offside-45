@@ -512,7 +512,8 @@ export function parseSeason(
     // "Racing (C)   0-0 aet PK 5-3  Talleres (C)" (1983): alargue y penales entre el resultado y el visitante.
     const aetPk = normalized.match(/\s(\d+-\d+)\s+aet\s+PK\s+(\d+)-(\d+)\s/i);
     if (aetPk) normalized = `${normalized.replace(aetPk[0], ` ${aetPk[1]}   `)}  [aet] [pen ${aetPk[2]}:${aetPk[3]}]`;
-    const pens = normalized.match(/\s[[(](\d+)[\])]\s*(\d+\s*[-:]\s*\d+)\s*[[(](\d+)[\])](?=\s|\p{L})/u);
+    // También pegados al paréntesis del local: "Central Córdoba(Ros.)[4]0-0[3]  Nueva Chicago" (1996).
+    const pens = normalized.match(/(?:\s|(?<=[).]))[[(](\d+)[\])]\s*(\d+\s*[-:]\s*\d+)\s*[[(](\d+)[\])](?=\s|\p{L})/u);
     if (pens) normalized = `${normalized.replace(pens[0], ` ${pens[2]}   `)}  [pen ${pens[1]}:${pens[3]}]`;
     const wpScore = normalized.match(/\s(wp|lp)\s+(\d+)\s*:\s*(\d+)\s+(wp|lp)\s/);
     if (wpScore) normalized = `${normalized.replace(wpScore[0], ` ${wpScore[1]}:${wpScore[4]} `)}  [played ${wpScore[2]}:${wpScore[3]}]`;

@@ -13,7 +13,7 @@ const B_HEADINGS = [/^PLAYOFF FOR THE SECOND PROMOTION PLACE/i, /^RELEGATION PLA
 const AFTER_REDUCIDO = /^(RELEGATION PLAYOFF|PLAYOFF TO CONFIRM PARTICIPATION)/i;
 
 // Fases de eliminación dentro de una sección (como en la Liguilla de Primera).
-const ROUND_HEADINGS = [/^Quarter-?finals:?$/i, /^Semi-?finals:?$/i, /^Final:?$/i, /^First Round:?$/i, /^Second Round:?$/i];
+const ROUND_HEADINGS = [/^(First|Second|Third) Stage:?$/i, /^Quarter-?finals:?$/i, /^Semi-?finals:?$/i, /^Final:?$/i, /^First Round:?$/i, /^Second Round:?$/i];
 const nameOf = (id: string) => getTeam(id)?.name ?? id;
 
 // Primera B Nacional de temporada europea (agosto a junio): "1986/87".
@@ -252,5 +252,121 @@ ASCENSO_TOURNAMENTS.push(
     champion: "estudiantes",
     reducido: "colon-santa-fe",
     more: { pointAdjustments: [{ teamId: "union-santa-fe", points: -2, reason: "descuento que registra RSSSF (la fuente no da el motivo)" }] },
+  }),
+);
+
+// ───────── 1995/96: Apertura y Clausura; final entre los dos ganadores, reducido y reclasificación con la B Metro ─────────
+const NB9596 = "Campeonato Nacional B 1995-96";
+// En la Nacional B 1995/96 "Talleres" a secas es el de Córdoba (el de Remedios de Escalada figura como "Talleres (RE)").
+const A9596 = { Talleres: "talleres" };
+ASCENSO_TOURNAMENTS.push(
+  nacionalBExtra(1995, "apertura", "Apertura", {
+    section: /^Torneo Apertura/,
+    tableIndex: 0,
+    wiki: NB9596,
+    aliases: A9596,
+    championIds: ["huracan-corrientes"],
+    summary: "Huracán de Corrientes ganó el Apertura y se clasificó a la final por el ascenso con el ganador del Clausura.",
+    notes: [{ kind: "formato", text: "22 equipos, todos contra todos a una rueda, 3 puntos por victoria. El ganador jugó la final con el del Clausura." }],
+    pointsPerWin: 3,
+  }),
+  nacionalBExtra(1995, "clausura", "Clausura", {
+    section: /^Torneo Clausura/,
+    tableIndex: 0,
+    wiki: NB9596,
+    aliases: A9596,
+    championIds: ["talleres"],
+    pointAdjustments: [{ teamId: "atletico-tucuman", points: -3, reason: "descuento que registra RSSSF (la fuente no da el motivo)" }],
+    summary: "Talleres de Córdoba ganó el Clausura y se clasificó a la final por el ascenso con Huracán de Corrientes.",
+    notes: [{ kind: "formato", text: "22 equipos, todos contra todos a una rueda (la segunda de la temporada), 3 puntos por victoria." }],
+    pointsPerWin: 3,
+  }),
+  nacionalBExtra(1995, "campeonato", "Final por el ascenso", {
+    section: /^Championship Playoff/i,
+    headings: [...B_HEADINGS, ...ROUND_HEADINGS],
+    publishedTable: [],
+    playoffFrom: { date: "1996-01-01", stage: "Final" },
+    championIds: ["huracan-corrientes"],
+    runnerUpIds: ["talleres"],
+    summary: "Huracán de Corrientes empató 2-2 de local y le ganó 4-1 a Talleres en Córdoba: campeón de la Nacional B 1995/96 y ascenso a Primera.",
+    notes: [{ kind: "formato", text: "Final a ida y vuelta entre los ganadores del Apertura y del Clausura." }],
+  }),
+  nacionalBExtra(1995, "reducido", "Reducido", {
+    sectionRange: { from: /^Playoff for the Second Promotion Place/i, to: /^Reclassification tournament/i },
+    headings: [...B_HEADINGS, ...ROUND_HEADINGS],
+    championIds: ["union-santa-fe"],
+    runnerUpIds: ["instituto"],
+    summary: "Unión de Santa Fe ganó el reducido (3-1 y 0-1 en la final con Instituto) y ascendió a Primera.",
+    notes: [{ kind: "formato", text: "Eliminación directa a ida y vuelta por el segundo ascenso, entre los mejores de la tabla general que no jugaron la final." }],
+  }),
+  nacionalBExtra(1995, "reclasificacion", "Reclasificación", {
+    sectionRange: { from: /^Reclassification tournament/i },
+    headings: [...B_HEADINGS, ...ROUND_HEADINGS],
+    publishedTable: [],
+    playoffFrom: { date: "1996-01-01", stage: "Reclasificación" },
+    championIds: [],
+    summary: "Torneo entre los tres peores de la Nacional B y equipos de la Primera B Metropolitana por cinco lugares en la Nacional B 1996/97. Almirante Brown y Arsenal se quedaron en la categoría; Tigre descendió; subieron Sarmiento de Junín, Almagro y Temperley.",
+    notes: [{ kind: "formato", text: "Eliminación directa a ida y vuelta en tres etapas." }],
+  }),
+);
+
+// ───────── 1996/97: primera fase en cuatro subzonas (Interior y Metropolitana), zona campeonato y zona permanencia ─────────
+const NB9697 = "Campeonato de Primera B Nacional 1996-97";
+ASCENSO_TOURNAMENTS.push(
+  nacionalBExtra(1996, "primera-fase", "Primera fase", {
+    sectionRange: { from: /^Sub-Zona\s*A1/i, to: /^Fourth places playoff/i },
+    tableIndex: [0, 1, 2, 3],
+    groupNames: ["Subzona A1 (Interior)", "Subzona A2 (Interior)", "Subzona B1 (Metropolitana)", "Subzona B2 (Metropolitana)"],
+    dedupe: true,
+    wiki: NB9697,
+    championIds: [],
+    summary: "Primera fase en cuatro subzonas de ocho equipos (dos del Interior y dos Metropolitanas), con fechas interzonales. Los cuatro primeros de cada subzona pasaron a la zona campeonato.",
+    notes: [{ kind: "formato", text: "Cuatro subzonas de 8 equipos a dos ruedas, más dos fechas interzonales; 3 puntos por victoria." }],
+    pointsPerWin: 3,
+  }),
+  nacionalBExtra(1996, "desempate", "Desempate de los cuartos", {
+    section: /^Fourth places playoff/i,
+    publishedTable: [],
+    playoffFrom: { date: "1996-01-01", stage: "Desempate entre los cuartos" },
+    championIds: [],
+    summary: "Partidos en cancha neutral entre los cuartos de las subzonas por los últimos lugares en la zona campeonato.",
+    notes: [],
+  }),
+  nacionalBExtra(1996, "campeonato", "Zona campeonato", {
+    section: /^Zona Campeonato/i,
+    tableIndex: 0,
+    aliases: { Talleres: "talleres" },
+    pointAdjustments: [
+      { teamId: "atletico-rafaela", points: -3, reason: "descuento que registra RSSSF (la fuente no da el motivo)" },
+      { teamId: "san-martin-sj", points: -4, reason: "descuento que registra RSSSF (la fuente no da el motivo)" },
+    ],
+    wiki: NB9697,
+    championIds: ["argentinos"],
+    summary: "Argentinos Juniors ganó la zona campeonato y volvió a Primera.",
+    notes: [{ kind: "formato", text: "14 equipos a dos ruedas, 3 puntos por victoria. El primero ascendió; los siguientes jugaron el reducido." }],
+    pointsPerWin: 3,
+  }),
+  nacionalBExtra(1996, "permanencia", "Zona permanencia", {
+    sectionRange: { from: /^Zona Interior$/i, to: /^Playoff/i },
+    tableIndex: [0, 1],
+    groupNames: ["Zona Interior", "Zona Metropolitana"],
+    wiki: NB9697,
+    knownTableDiffs: {
+      keys: ["instituto:goalsFor", "san-martin-tucuman:goalsAgainst", "aldosivi:points"],
+      explanation:
+        "La tabla de RSSSF da a Instituto 35 goles a favor y a San Martín de Tucumán 26 en contra, pero los partidos que lista suman 31 y 22 (con los mismos ganados, empatados y perdidos: puede ser un resultado mal copiado entre ellos, como el 4-1 de Instituto). También da 23 puntos a Aldosivi, cuando sus 8 victorias y 2 empates suman 26, sin explicar el descuento. Wikipedia no tiene los partidos de esta temporada para comparar. A verificar.",
+    },
+    championIds: [],
+    summary: "Los equipos que no pasaron a la zona campeonato jugaron por la permanencia, divididos en una zona del Interior y una Metropolitana.",
+    notes: [{ kind: "formato", text: "Dos zonas de 9 equipos a dos ruedas, 3 puntos por victoria." }],
+    pointsPerWin: 3,
+  }),
+  nacionalBExtra(1996, "reducido", "Reducido", {
+    sectionRange: { from: /^Playoff/i },
+    headings: [...ROUND_HEADINGS],
+    championIds: ["gimnasia-tiro-salta"],
+    runnerUpIds: ["talleres"],
+    summary: "Gimnasia y Tiro de Salta ganó el reducido (1-0 de local y 0-1 en Córdoba con Talleres, y 3-1 por penales) y ascendió a Primera.",
+    notes: [{ kind: "formato", text: "Eliminación directa a ida y vuelta por el segundo ascenso." }],
   }),
 );

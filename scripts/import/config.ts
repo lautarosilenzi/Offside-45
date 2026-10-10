@@ -9,6 +9,8 @@ export type TournamentConfig = {
   // Diferencias con Wikipedia en partidos de equipos cuya fila cierra exacta con la tabla publicada: se acepta RSSSF
   // y la diferencia va a las notas (ver build.ts).
   wikiDiffsByTable?: boolean;
+  // Partidos que la página lista dos veces (interzonales en las dos subzonas): se deja uno.
+  dedupe?: boolean;
   // Copa nacional: fases de eliminación, sin tabla de liga (salvo la tabla resumen que publique RSSSF).
   kind?: "cup";
   // Copa internacional: se lista aparte y solo lleva los partidos de los clubes argentinos.

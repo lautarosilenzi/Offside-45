@@ -1289,6 +1289,19 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     }
   }
 
+  // Partidos listados dos veces en la página (los interzonales, en las dos subzonas): queda uno.
+  if (cfg.dedupe) {
+    const seen = new Set<string>();
+    for (let k = 0; k < matches.length; k++) {
+      const m = matches[k];
+      const key = `${m.date} ${m.homeId} ${m.awayId} ${m.homeGoals}-${m.awayGoals}`;
+      if (seen.has(key)) {
+        warnings.push(`Repetido en la página, se cuenta una vez: ${key}`);
+        matches.splice(k--, 1);
+      } else seen.add(key);
+    }
+  }
+
   const season: Season = {
     slug: cfg.slug,
     ...(cfg.kind && { kind: cfg.kind }),

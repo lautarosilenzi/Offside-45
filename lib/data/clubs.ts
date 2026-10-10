@@ -542,6 +542,7 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["estacion-quequen", "Estación Quequén (Necochea)", "EQU", "Club Social y Deportivo Estación Quequén (Quequén, Necochea)"],
   ["fernandez-oro", "Fernández Oro (Río Negro)", "FOR", "Fernández Oro (Río Negro)"],
   ["sportivo-italiano", "Sportivo Italiano", "SIT", "Club Sportivo Italiano (Ciudad Evita)"],
+  ["defensores-unidos", "Defensores Unidos (Zárate)", "DUN", "Club Atlético Defensores Unidos (Zárate)"],
 ];
 
 export const HISTORIC_CLUBS: Team[] = OTHER_CLUBS.map(([id, name, shortName, fullName]) => ({

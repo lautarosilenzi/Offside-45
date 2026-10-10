@@ -407,6 +407,15 @@ const ALIASES: Alias[] = [
   { id: "chaco-for-ever", names: ["Chaco F.E."], from: 1986, to: 1999 },
   { id: "gimnasia-tiro-salta", names: ["Gimn.y Tiro", "Gimn. y Tiro"], from: 1986, to: 1999 },
   { id: "villa-dalmine", names: ["Dálmine"], from: 1986, to: 1999 },
+  { id: "defensores-unidos", names: ["Defensores Unidos", "Defensores Unidos (Zárate)"] },
+  { id: "huracan-corrientes", names: ["Huracán (Ctes.)", "Huracán (Corrientes)", "Huracán (C)"], from: 1995, to: 1996 },
+  { id: "tristan-suarez", names: ["Tristán Suárez"] },
+  { id: "olimpo", names: ["Olimpo (B.Blanca)", "Olimpo (Bahía Blanca)"] },
+  { id: "central-cordoba-rosario", names: ["Central Córdoba(Ros.)"] },
+  { id: "gimnasia-cdu", names: ["Gimnasia y Esgrima (CU)", "Gimnasia y Esgrima (CdU)"] },
+  { id: "sarmiento-junin", names: ["Sarmiento de Junín"] },
+  { id: "gimnasia-tiro-salta", names: ["Gimnnasia y Tiro"], from: 1995, to: 1996 },
+  { id: "union-santa-fe", names: ["Unión (Sta.Fe)"] },
 ];
 
 const norm = (s: string) =>

@@ -1,0 +1,2737 @@
+{
+ "slug": "b-nacional-1996-97-campeonato",
+ "year": 1996,
+ "yearLabel": "1996/97",
+ "league": "Zona campeonato",
+ "tier": 2,
+ "title": "Primera B Nacional 1996/97 · Zona campeonato",
+ "tournament": "Zona campeonato de la Primera B Nacional 1996/97",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "argentinos"
+ ],
+ "summary": "Argentinos Juniors ganó la zona campeonato y volvió a Primera.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1996",
+   "url": "https://www.rsssf.org/tablesa/arg2-97.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera B Nacional 1996-97",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_B_Nacional_1996-97"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "14 equipos a dos ruedas, 3 puntos por victoria. El primero ascendió; los siguientes jugaron el reducido."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "atletico-rafaela",
+   "points": -3,
+   "reason": "descuento que registra RSSSF (la fuente no da el motivo)"
+  },
+  {
+   "teamId": "san-martin-sj",
+   "points": -4,
+   "reason": "descuento que registra RSSSF (la fuente no da el motivo)"
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "argentinos",
+   "played": 26,
+   "won": 15,
+   "drawn": 7,
+   "lost": 4,
+   "goalsFor": 52,
+   "goalsAgainst": 30,
+   "points": 52
+  },
+  {
+   "teamId": "talleres",
+   "played": 26,
+   "won": 14,
+   "drawn": 8,
+   "lost": 4,
+   "goalsFor": 47,
+   "goalsAgainst": 23,
+   "points": 50
+  },
+  {
+   "teamId": "godoy-cruz",
+   "played": 26,
+   "won": 14,
+   "drawn": 6,
+   "lost": 6,
+   "goalsFor": 49,
+   "goalsAgainst": 34,
+   "points": 48
+  },
+  {
+   "teamId": "gimnasia-tiro-salta",
+   "played": 26,
+   "won": 12,
+   "drawn": 7,
+   "lost": 7,
+   "goalsFor": 52,
+   "goalsAgainst": 39,
+   "points": 43
+  },
+  {
+   "teamId": "belgrano",
+   "played": 26,
+   "won": 10,
+   "drawn": 10,
+   "lost": 6,
+   "goalsFor": 52,
+   "goalsAgainst": 40,
+   "points": 40
+  },
+  {
+   "teamId": "quilmes",
+   "played": 26,
+   "won": 12,
+   "drawn": 4,
+   "lost": 10,
+   "goalsFor": 45,
+   "goalsAgainst": 34,
+   "points": 40
+  },
+  {
+   "teamId": "los-andes",
+   "played": 26,
+   "won": 10,
+   "drawn": 5,
+   "lost": 11,
+   "goalsFor": 37,
+   "goalsAgainst": 39,
+   "points": 35
+  },
+  {
+   "teamId": "central-cordoba-rosario",
+   "played": 26,
+   "won": 9,
+   "drawn": 4,
+   "lost": 13,
+   "goalsFor": 32,
+   "goalsAgainst": 52,
+   "points": 31
+  },
+  {
+   "teamId": "almagro",
+   "played": 26,
+   "won": 8,
+   "drawn": 6,
+   "lost": 12,
+   "goalsFor": 48,
+   "goalsAgainst": 54,
+   "points": 30
+  },
+  {
+   "teamId": "olimpo",
+   "played": 26,
+   "won": 7,
+   "drawn": 7,
+   "lost": 12,
+   "goalsFor": 41,
+   "goalsAgainst": 46,
+   "points": 28
+  },
+  {
+   "teamId": "atletico-rafaela",
+   "played": 26,
+   "won": 7,
+   "drawn": 9,
+   "lost": 10,
+   "goalsFor": 39,
+   "goalsAgainst": 47,
+   "points": 27
+  },
+  {
+   "teamId": "all-boys",
+   "played": 26,
+   "won": 6,
+   "drawn": 6,
+   "lost": 14,
+   "goalsFor": 28,
+   "goalsAgainst": 49,
+   "points": 24
+  },
+  {
+   "teamId": "san-martin-sj",
+   "played": 26,
+   "won": 6,
+   "drawn": 10,
+   "lost": 10,
+   "goalsFor": 32,
+   "goalsAgainst": 39,
+   "points": 24
+  },
+  {
+   "teamId": "deportivo-moron",
+   "played": 26,
+   "won": 4,
+   "drawn": 7,
+   "lost": 15,
+   "goalsFor": 27,
+   "goalsAgainst": 55,
+   "points": 19
+  }
+ ],
+ "matches": [
+  {
+   "id": "b-nacional-1996-97-campeonato-001",
+   "date": "1996-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "gimnasia-tiro-salta",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-002",
+   "date": "1996-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "san-martin-sj",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-003",
+   "date": "1996-12-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-004",
+   "date": "1996-12-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-005",
+   "date": "1996-12-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-006",
+   "date": "1996-12-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "almagro",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-007",
+   "date": "1997-03-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "deportivo-moron",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-008",
+   "date": "1996-12-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-009",
+   "date": "1996-12-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-010",
+   "date": "1996-12-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "belgrano",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-011",
+   "date": "1996-12-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-012",
+   "date": "1996-12-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "gimnasia-tiro-salta",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-013",
+   "date": "1996-12-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "los-andes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-014",
+   "date": "1996-12-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-015",
+   "date": "1996-12-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-016",
+   "date": "1996-12-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-017",
+   "date": "1996-12-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "deportivo-moron",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-018",
+   "date": "1996-12-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-019",
+   "date": "1996-12-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-020",
+   "date": "1996-12-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "almagro",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-021",
+   "date": "1996-12-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia-tiro-salta",
+   "awayId": "san-martin-sj",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-022",
+   "date": "1996-12-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-023",
+   "date": "1996-12-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-024",
+   "date": "1996-12-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "gimnasia-tiro-salta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-025",
+   "date": "1996-12-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-026",
+   "date": "1996-12-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-027",
+   "date": "1996-12-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-028",
+   "date": "1996-12-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-029",
+   "date": "1997-01-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "deportivo-moron",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-030",
+   "date": "1997-01-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia-tiro-salta",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-031",
+   "date": "1997-01-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-032",
+   "date": "1997-02-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "almagro",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-033",
+   "date": "1997-02-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-034",
+   "date": "1997-02-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "san-martin-sj",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-035",
+   "date": "1997-02-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-036",
+   "date": "1997-02-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "olimpo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-037",
+   "date": "1997-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-038",
+   "date": "1997-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-039",
+   "date": "1997-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "san-martin-sj",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-040",
+   "date": "1997-02-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-041",
+   "date": "1997-02-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "gimnasia-tiro-salta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-042",
+   "date": "1997-02-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-043",
+   "date": "1997-02-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "los-andes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-044",
+   "date": "1997-02-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-045",
+   "date": "1997-02-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "almagro",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-046",
+   "date": "1997-02-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia-tiro-salta",
+   "awayId": "deportivo-moron",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-047",
+   "date": "1997-02-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-048",
+   "date": "1997-02-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "godoy-cruz",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-049",
+   "date": "1997-02-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-050",
+   "date": "1997-02-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-051",
+   "date": "1997-02-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-052",
+   "date": "1997-02-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "argentinos",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-053",
+   "date": "1997-02-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "gimnasia-tiro-salta",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-054",
+   "date": "1997-02-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "san-martin-sj",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-055",
+   "date": "1997-02-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-056",
+   "date": "1997-02-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-057",
+   "date": "1997-02-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-058",
+   "date": "1997-02-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "almagro",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-059",
+   "date": "1997-02-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "deportivo-moron",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-060",
+   "date": "1997-02-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-061",
+   "date": "1997-02-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "gimnasia-tiro-salta",
+   "awayId": "los-andes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-062",
+   "date": "1997-02-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-063",
+   "date": "1997-02-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-064",
+   "date": "1997-02-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-065",
+   "date": "1997-02-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-066",
+   "date": "1997-03-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-067",
+   "date": "1997-03-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "gimnasia-tiro-salta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-068",
+   "date": "1997-03-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "san-martin-sj",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-069",
+   "date": "1997-03-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-070",
+   "date": "1997-03-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-071",
+   "date": "1997-03-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "gimnasia-tiro-salta",
+   "awayId": "all-boys",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-072",
+   "date": "1997-03-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "deportivo-moron",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-073",
+   "date": "1997-03-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-074",
+   "date": "1997-03-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-075",
+   "date": "1997-03-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-076",
+   "date": "1997-03-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-077",
+   "date": "1997-03-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-078",
+   "date": "1997-03-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "san-martin-sj",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-079",
+   "date": "1997-03-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "gimnasia-tiro-salta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-080",
+   "date": "1997-03-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-081",
+   "date": "1997-03-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-082",
+   "date": "1997-03-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-083",
+   "date": "1997-03-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-084",
+   "date": "1997-03-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-085",
+   "date": "1997-03-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "deportivo-moron",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-086",
+   "date": "1997-03-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-087",
+   "date": "1997-03-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-088",
+   "date": "1997-03-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "godoy-cruz",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-089",
+   "date": "1997-03-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-090",
+   "date": "1997-03-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-091",
+   "date": "1997-03-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "gimnasia-tiro-salta",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-092",
+   "date": "1997-03-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-093",
+   "date": "1997-03-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia-tiro-salta",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-094",
+   "date": "1997-03-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-095",
+   "date": "1997-03-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-096",
+   "date": "1997-03-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-098",
+   "date": "1997-03-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-099",
+   "date": "1997-05-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Empezó el 23/3 y se suspendió con 1-2; se completó en esta fecha."
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-100",
+   "date": "1997-03-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-101",
+   "date": "1997-03-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "deportivo-moron",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-102",
+   "date": "1997-03-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-103",
+   "date": "1997-03-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "san-martin-sj",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-104",
+   "date": "1997-03-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-105",
+   "date": "1997-03-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-106",
+   "date": "1997-03-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "gimnasia-tiro-salta",
+   "awayId": "olimpo",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-107",
+   "date": "1997-04-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "godoy-cruz",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-108",
+   "date": "1997-04-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-109",
+   "date": "1997-04-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-110",
+   "date": "1997-04-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "gimnasia-tiro-salta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-111",
+   "date": "1997-04-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "argentinos",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-112",
+   "date": "1997-04-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-113",
+   "date": "1997-04-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-114",
+   "date": "1997-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "los-andes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-115",
+   "date": "1997-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-116",
+   "date": "1997-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "deportivo-moron",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-117",
+   "date": "1997-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "almagro",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-118",
+   "date": "1997-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-119",
+   "date": "1997-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "gimnasia-tiro-salta",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-120",
+   "date": "1997-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "san-martin-sj",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-121",
+   "date": "1997-04-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "olimpo",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-122",
+   "date": "1997-04-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "gimnasia-tiro-salta",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-123",
+   "date": "1997-04-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-124",
+   "date": "1997-04-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-125",
+   "date": "1997-04-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-126",
+   "date": "1997-04-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-127",
+   "date": "1997-04-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-128",
+   "date": "1997-04-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-129",
+   "date": "1997-04-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "gimnasia-tiro-salta",
+   "awayId": "almagro",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-130",
+   "date": "1997-04-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-131",
+   "date": "1997-04-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-132",
+   "date": "1997-04-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "deportivo-moron",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-133",
+   "date": "1997-04-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-134",
+   "date": "1997-04-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-135",
+   "date": "1997-04-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-136",
+   "date": "1997-04-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "san-martin-sj",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-137",
+   "date": "1997-04-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-138",
+   "date": "1997-04-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-139",
+   "date": "1997-04-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-140",
+   "date": "1997-04-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-141",
+   "date": "1997-04-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "gimnasia-tiro-salta",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-142",
+   "date": "1997-05-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-143",
+   "date": "1997-05-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "gimnasia-tiro-salta",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-144",
+   "date": "1997-05-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-145",
+   "date": "1997-05-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-146",
+   "date": "1997-05-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-147",
+   "date": "1997-05-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "deportivo-moron",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-148",
+   "date": "1997-05-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-149",
+   "date": "1997-05-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "olimpo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-150",
+   "date": "1997-05-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "gimnasia-tiro-salta",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-151",
+   "date": "1997-05-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-152",
+   "date": "1997-05-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "san-martin-sj",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-153",
+   "date": "1997-05-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "argentinos",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-154",
+   "date": "1997-05-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-155",
+   "date": "1997-05-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-156",
+   "date": "1997-05-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "almagro",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-157",
+   "date": "1997-05-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-158",
+   "date": "1997-05-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-159",
+   "date": "1997-05-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "deportivo-moron",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-160",
+   "date": "1997-05-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "gimnasia-tiro-salta",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-161",
+   "date": "1997-05-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "los-andes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-162",
+   "date": "1997-05-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-163",
+   "date": "1997-05-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-164",
+   "date": "1997-05-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-165",
+   "date": "1997-05-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-166",
+   "date": "1997-05-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "san-martin-sj",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-167",
+   "date": "1997-05-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "gimnasia-tiro-salta",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-168",
+   "date": "1997-05-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-169",
+   "date": "1997-05-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "olimpo",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-170",
+   "date": "1997-05-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "godoy-cruz",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-171",
+   "date": "1997-05-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-172",
+   "date": "1997-05-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-173",
+   "date": "1997-05-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-174",
+   "date": "1997-05-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "deportivo-moron",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-175",
+   "date": "1997-06-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "gimnasia-tiro-salta",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-176",
+   "date": "1997-06-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "all-boys",
+   "homeGoals": 6,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-177",
+   "date": "1997-06-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "godoy-cruz",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-178",
+   "date": "1997-06-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-179",
+   "date": "1997-06-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "almagro",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-180",
+   "date": "1997-06-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-181",
+   "date": "1997-06-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "san-martin-sj",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-182",
+   "date": "1997-06-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "olimpo",
+   "homeGoals": 7,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1996-97-campeonato-183",
+   "date": "1997-06-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Zona campeonato",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "argentinos",
+   "awayId": "gimnasia-tiro-salta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Cancha de Deportivo Español",
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

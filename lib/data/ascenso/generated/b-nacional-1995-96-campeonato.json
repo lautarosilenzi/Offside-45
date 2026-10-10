@@ -1,0 +1,61 @@
+{
+ "slug": "b-nacional-1995-96-campeonato",
+ "runnerUpIds": [
+  "talleres"
+ ],
+ "year": 1995,
+ "yearLabel": "1995/96",
+ "league": "Final por el ascenso",
+ "tier": 2,
+ "title": "Primera B Nacional 1995/96 · Final por el ascenso",
+ "tournament": "Final por el ascenso de la Primera B Nacional 1995/96",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "huracan-corrientes"
+ ],
+ "summary": "Huracán de Corrientes empató 2-2 de local y le ganó 4-1 a Talleres en Córdoba: campeón de la Nacional B 1995/96 y ascenso a Primera.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1995",
+   "url": "https://www.rsssf.org/tablesa/arg2-96.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a ida y vuelta entre los ganadores del Apertura y del Clausura."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-1995-96-campeonato-001",
+   "date": "1996-05-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el ascenso",
+   "stage": "Final",
+   "phase": "playoff",
+   "homeId": "huracan-corrientes",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1995-96-campeonato-002",
+   "date": "1996-06-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el ascenso",
+   "stage": "Final",
+   "phase": "playoff",
+   "homeId": "talleres",
+   "awayId": "huracan-corrientes",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}
