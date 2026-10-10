@@ -987,3 +987,101 @@ ASCENSO_TOURNAMENTS.push(
     notes: [{ kind: "formato", text: "Series a ida y vuelta." }],
   }),
 );
+
+// Apertura o Clausura de una temporada de 20 equipos (2002/03–2005/06).
+const abTorneo = (
+  y: number,
+  key: "apertura" | "clausura",
+  file: string,
+  aliases: Record<string, string>,
+  championId: string,
+  summary: string,
+  more: Partial<TournamentConfig> = {},
+): TournamentConfig =>
+  nacionalBExtra(y, key, key === "apertura" ? "Apertura" : "Clausura", {
+    file,
+    sectionRange: key === "apertura" ? { from: /^Torneo Apertura/i, to: /^Torneo Clausura/i } : { from: /^Torneo Clausura/i, to: /^General Table/i },
+    headings: H0306,
+    tableIndex: 0,
+    wiki: `Campeonato de Primera B Nacional ${y}-${String(y + 1).slice(2)}`,
+    aliases,
+    rolloverBefore: 8,
+    pointsPerWin: 3,
+    championIds: [championId],
+    summary,
+    notes: [{ kind: "formato", text: "20 equipos, todos contra todos a una rueda, 3 puntos por victoria. El campeón de la temporada sale de la tabla general (Apertura + Clausura) o de una final entre los ganadores." }],
+    ...more,
+  });
+
+// ───────── 2003/04 ─────────
+const A0304 = {
+  ...ABREV_0306,
+  Huracán: "huracan",
+  "Huracán (Buenos Aires)": "huracan",
+  "Huracán  (Buenos Aires)": "huracan",
+  "Instituto (Córdoaba)": "instituto",
+  "TAalleres (Córdoba)": "talleres",
+  "Talleres (Córdoba)": "talleres",
+  "Atlético (Tucumán)": "atletico-tucuman",
+  "Unión (Santa Fe)": "union-santa-fe",
+  "Tiro Federal": "tiro-federal-rosario",
+  "Tiro Federal (Rosario)": "tiro-federal-rosario",
+  "C. de Act. Infantiles": "cai",
+  "Gimnasia (Entre Ríos)": "gimnasia-cdu",
+  "Tiro Federal (R)": "tiro-federal-rosario",
+};
+ASCENSO_TOURNAMENTS.push(
+  abTorneo(2003, "apertura", "arg2-04.html", A0304, "instituto", "Instituto de Córdoba ganó el Apertura y después le ganó la final por el campeonato a Almagro, ganador del Clausura: campeón de la Nacional B 2003/04 y ascenso a Primera.", {
+    wiki: undefined,
+    acceptTableDiffs: "Wikipedia no tiene los partidos de la fase regular de esta temporada. En la lista de RSSSF falta el partido entre Gimnasia de Jujuy y Tiro Federal, y algunos resultados no coinciden con su tabla.",
+  }),
+  abTorneo(2003, "clausura", "arg2-04.html", A0304, "almagro", "Almagro ganó el Clausura. Perdió la final por el campeonato con Instituto, pero ascendió igual: le ganó la serie por el segundo ascenso a Huracán de Tres Arroyos.", {
+    wiki: undefined,
+    acceptTableDiffs: "Wikipedia no tiene los partidos de la fase regular de esta temporada, y algunos resultados de la lista de RSSSF no coinciden con su tabla.",
+  }),
+  nacionalBExtra(2003, "final", "Final por el campeonato", {
+    file: "arg2-04.html",
+    section: /^First Promotion Playoff/i,
+    headings: [...H0306, /^First Promotion Playoff/i, /^Third Promotion Playoff Qualifying/i, /^Promotion Playoff/i],
+    aliases: A0304,
+    wiki: "Campeonato de Primera B Nacional 2003-04",
+    championIds: ["instituto"],
+    runnerUpIds: ["almagro"],
+    summary: "Instituto perdió 1-0 en cancha de Almagro y ganó 2-0 de local: campeón de la Nacional B 2003/04 y ascenso a Primera.",
+    notes: [{ kind: "formato", text: "Final a ida y vuelta entre los ganadores del Apertura y del Clausura." }],
+  }),
+  nacionalBExtra(2003, "reducido", "Segundo ascenso", {
+    file: "arg2-04.html",
+    section: /^Second Promotion Playoff/i,
+    headings: [...H0306, /^First Promotion Playoff/i, /^Third Promotion Playoff Qualifying/i, /^Promotion Playoff/i],
+    aliases: A0304,
+    wiki: "Campeonato de Primera B Nacional 2003-04",
+    championIds: ["almagro"],
+    runnerUpIds: ["huracan-tres-arroyos"],
+    summary: "Almagro, perdedor de la final, le ganó la serie a Huracán de Tres Arroyos (primero de la tabla general) y ascendió a Primera. Huracán fue a la promoción y también subió.",
+    notes: [{ kind: "formato", text: "Serie a ida y vuelta entre el perdedor de la final y el mejor de la tabla general." }],
+  }),
+  nacionalBExtra(2003, "clasificacion", "Clasificación a la promoción", {
+    file: "arg2-04.html",
+    section: /^Third Promotion Playoff Qualifying/i,
+    headings: [...H0306, /^First Promotion Playoff/i, /^Third Promotion Playoff Qualifying/i, /^Promotion Playoff/i],
+    aliases: A0304,
+    publishedTable: [],
+    playoffFrom: { date: "2004-01-01", stage: "Clasificación a la promoción" },
+    championIds: ["argentinos"],
+    summary: "Argentinos Juniors le ganó la serie a Godoy Cruz por el lugar en la promoción con Talleres de Córdoba, que después ganó.",
+    notes: [{ kind: "formato", text: "Serie a ida y vuelta." }],
+  }),
+  nacionalBExtra(2003, "promocion", "Promoción con la B Metropolitana y el Argentino A", {
+    file: "arg2-04.html",
+    sectionRange: { from: /^Relegation Table \(Zona Metropolitana\)/i },
+    headings: [...H0306, /^Relegation Table/i],
+    aliases: A0304,
+    publishedTable: [],
+    tableIndex: [],
+    playoffFrom: { date: "2004-01-01", stage: "Promoción" },
+    championIds: [],
+    summary: "Unión de Santa Fe jugó con Tristán Suárez (de la B Metropolitana) y la Comisión de Actividades Infantiles con Atlético Tucumán (del Argentino A) por su lugar en la Nacional B. Unión y la CAI se quedaron en la categoría.",
+    notes: [{ kind: "formato", text: "Series a ida y vuelta." }],
+  }),
+);

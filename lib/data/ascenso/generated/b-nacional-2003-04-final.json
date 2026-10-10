@@ -1,0 +1,69 @@
+{
+ "slug": "b-nacional-2003-04-final",
+ "runnerUpIds": [
+  "almagro"
+ ],
+ "year": 2003,
+ "yearLabel": "2003/04",
+ "league": "Final por el campeonato",
+ "tier": 2,
+ "title": "Primera B Nacional 2003/04 · Final por el campeonato",
+ "tournament": "Final por el campeonato de la Primera B Nacional 2003/04",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "instituto"
+ ],
+ "summary": "Instituto perdió 1-0 en cancha de Almagro y ganó 2-0 de local: campeón de la Nacional B 2003/04 y ascenso a Primera.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2003",
+   "url": "https://www.rsssf.org/tablesa/arg2-04.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera B Nacional 2003-04",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_B_Nacional_2003-04"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a ida y vuelta entre los ganadores del Apertura y del Clausura."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-2003-04-final-001",
+   "date": "2004-06-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Desempate",
+   "phase": "playoff",
+   "homeId": "almagro",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Tonelotto."
+  },
+  {
+   "id": "b-nacional-2003-04-final-002",
+   "date": "2004-06-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Desempate",
+   "phase": "playoff",
+   "homeId": "instituto",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Raymonda, Riggio / Golden Goal."
+  }
+ ]
+}
