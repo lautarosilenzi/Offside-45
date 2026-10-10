@@ -2083,7 +2083,7 @@ ASCENSO_TOURNAMENTS.push(
   nacionalBExtra(2018, "reducido", "Reducido", {
     file: "arg2019.html",
     // Hay otro título "Reducido" antes en la página: se marca el del ascenso (el que sigue con los cuartos de final).
-    preprocess: (page) => pre1819(page).replace(/^Reducido\s*\n(?=Quarter finals)/m, "Reducido Nacional B\n"),
+    preprocess: (page) => pre1819(page).replace('<a name="2reducido">Reducido</a>', "Reducido Nacional B"),
     sectionRange: { from: /^Reducido Nacional B/i, to: /^Third Level/i },
     headings: [...H1819, /^Quarter finals/i, /^Semi finals/i, /^Final\s*$/i],
     aliases: A1819,
