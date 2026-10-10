@@ -1693,3 +1693,78 @@ ASCENSO_TOURNAMENTS.push(
     notes: [{ kind: "formato", text: "22 equipos, todos contra todos a dos ruedas, 3 puntos por victoria. Ascendieron los tres primeros; Huracán e Independiente empataron el tercer puesto y jugaron un desempate." }],
   }),
 );
+
+// 2014: filas de la tabla con marcas adelante ("^ 1.Colón", "P 4.Nueva Chicago") y fechas en los títulos de los
+// desempates ("First match [Dec 11]:", "5th position playoff [Dec 14]:").
+const pre2014 = (page: string) =>
+  page
+    .split(/\r?\n/)
+    .flatMap((line) => {
+      const mark = line.match(/^[\^P] (\s*\d+\..*)$/);
+      if (mark) return [` ${mark[1]}`];
+      const dated = line.match(/^([A-Za-z0-9 ]+?)\s*\[(\w{3} \d+)\]:\s*$/);
+      if (dated) return [dated[1], `[${dated[2]}]`];
+      return [line];
+    })
+    .join("\n");
+
+// ───────── 2014: torneo de transición (dos grupos de 11; ascendieron diez a la Primera de 30 equipos) ─────────
+const A2014: Record<string, string> = {
+  ...A1114,
+  "Asociación Civil Club Atlético Colón": "colon-santa-fe",
+  "A. Civil Club Atlético Colón": "colon-santa-fe",
+  "Club Atlético San Martín": "san-martin-sj",
+  "A. Atlética Argentinos Juniors": "argentinos",
+  "Club Atlético Nueva Chicago": "nueva-chicago",
+  "Club Atlético Aldosivi": "aldosivi",
+  "Club Atlético Gimnasia y Esgrima": "gimnasia-jujuy",
+  "Club Atlético Boca Unidos": "boca-unidos",
+  "Instituto Atlético Central Córdoba": "instituto",
+  "Instituto Atlético Ctral. Córdoba": "instituto",
+  "Club Atlético Douglas Haig": "douglas-haig",
+  "CD Guaraní Antonio Franco": "guarani-antonio-franco",
+  "Club Ferro Carril Oeste": "ferro",
+  "Club Atlético Unión": "union-santa-fe",
+  "Asociación Mutual del Personal de Crucero del Norte": "crucero-del-norte",
+  "AMd Personal de Crucero del Norte": "crucero-del-norte",
+  "Club Atlético Temperley": "temperley",
+  "Club Atlético Sarmiento": "sarmiento-junin",
+  "Club Atlético Tucumán Soc. Civ.": "atletico-tucuman",
+  "Club Atlético Huracán": "huracan",
+  "Club y Biblioteca Ramón Santamarina": "ramon-santamarina",
+  "C. y Biblioteca Ramón Santamarina": "ramon-santamarina",
+  "Club Atlético Patronato de la Juventud Católica": "patronato-parana",
+  "CA Patronato dl Juventud Católica": "patronato-parana",
+  "Club Sportivo Independiente Rivadavia": "independiente-rivadavia",
+  "CS Independiente Rivadavia": "independiente-rivadavia",
+  "Club Atlético All Boys": "all-boys",
+  "Club Sportivo Belgrano": "sportivo-belgrano-sf",
+};
+ASCENSO_TOURNAMENTS.push({
+  slug: "b-nacional-2014",
+  year: 2014,
+  yearLabel: "2014",
+  file: "arg2015.html",
+  preprocess: pre2014,
+  tier: 2,
+  competition: `${AFA} · Primera B Nacional`,
+  organizer: AFA,
+  title: "Primera B Nacional 2014",
+  tournament: "Torneo de Transición de la Primera B Nacional 2014",
+  sectionRange: { from: /^Second Level: Primera B Nacional 2014/i, to: /^Third Level/i },
+  headings: [/^Second Level: Primera B Nacional 2014/i, /^Group [AB]:\s*$/i, /^Third Level/i],
+  tableIndex: [0, 2],
+  groupNames: ["Grupo A", "Grupo B"],
+  wiki: "Campeonato de Primera B Nacional 2014",
+  wikiDiffsByTable: true,
+  aliases: A2014,
+  pointsPerWin: 3,
+  awardedGoalsCount: true,
+  playoffRounds: [{ date: "2014-12-11", stage: "Desempate por los últimos ascensos" }],
+  championIds: [],
+  summary: "Torneo de transición del segundo semestre de 2014, en dos grupos de 11. Ascendieron diez equipos a la Primera de 30: Colón, San Martín de San Juan, Argentinos, Nueva Chicago y Aldosivi del Grupo A; Unión, Crucero del Norte, Temperley, Sarmiento y Huracán del Grupo B.",
+  notes: [
+    { kind: "formato", text: "Dos grupos de 11 equipos, todos contra todos a dos ruedas, 3 puntos por victoria. Los primeros de cada grupo ascendieron; los que empataron en los puestos de ascenso jugaron desempates." },
+    { kind: "dato", text: "No hubo campeón: el torneo solo definía ascensos." },
+  ],
+});
