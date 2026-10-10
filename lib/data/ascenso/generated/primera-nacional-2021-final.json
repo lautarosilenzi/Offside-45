@@ -1,0 +1,53 @@
+{
+ "slug": "primera-nacional-2021-final",
+ "runnerUpIds": [
+  "barracas-central"
+ ],
+ "year": 2021,
+ "yearLabel": "2021",
+ "league": "Final por el campeonato",
+ "tier": 2,
+ "title": "Primera Nacional 2021 · Final por el campeonato",
+ "tournament": "Final de la Primera Nacional 2021",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "tigre"
+ ],
+ "summary": "Tigre le ganó 1-0 a Barracas Central en la cancha de Banfield: campeón de la Primera Nacional 2021 y ascenso a Primera.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2021",
+   "url": "https://www.rsssf.org/tablesa/arg2021.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera Nacional 2021",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Nacional_2021"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a un partido en cancha neutral entre los ganadores de las zonas."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "primera-nacional-2021-final-001",
+   "date": "2021-11-22",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Final",
+   "stage": "Final (cancha neutral)",
+   "phase": "playoff",
+   "homeId": "tigre",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Florencio Sola (Banfield)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}

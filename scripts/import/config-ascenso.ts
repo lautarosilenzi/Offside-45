@@ -2203,3 +2203,136 @@ ASCENSO_TOURNAMENTS.push(
     notes: [{ kind: "formato", text: "Dos zonas de 8 a una rueda y después eliminación directa a un partido, en cancha neutral desde la tercera ronda." }],
   }),
 );
+
+// ───────── 2021 en adelante: Primera Nacional en dos zonas (o una sola tabla), final por el campeonato y reducido ─────────
+const A2125: Record<string, string> = {
+  ...A1920,
+  "CD Maipú": "deportivo-maipu",
+  "CA Güemes": "guemes-sde",
+  "Club Almirante Brown": "almirante-brown",
+  "Club Tristán Suárez": "tristan-suarez",
+  "CA San Telmo": "san-telmo",
+  "CA Nueva Chicago": "nueva-chicago",
+  "CA Chacarita Juniors": "chacarita",
+  Mitre: "mitre-sde",
+};
+// Una temporada de la Primera Nacional por zonas: la fase regular, la final por el campeonato y el reducido.
+const primeraNacional = (o: {
+  y: number;
+  file: string;
+  aliases?: Record<string, string>;
+  headings: RegExp[];
+  regular: { from: RegExp; to: RegExp };
+  tableIndex: number | number[];
+  groupNames?: string[];
+  final?: { section: RegExp; champion: string; runnerUp: string; summary: string };
+  reducido?: { from: RegExp; to: RegExp; champion: string; runnerUp: string; summary: string; rounds: { date: string; stage: string }[] };
+  champion: string;
+  summary: string;
+  format: string;
+  more?: Partial<TournamentConfig>;
+}): TournamentConfig[] => {
+  const base = {
+    year: o.y,
+    yearLabel: String(o.y),
+    file: o.file,
+    tier: 2 as const,
+    organizer: AFA,
+    headings: o.headings,
+    aliases: o.aliases ?? A2125,
+    pointsPerWin: 3,
+    awardedGoalsCount: true,
+    wikiDiffsByTable: true,
+  };
+  const wiki = `Campeonato de Primera Nacional ${o.y}`;
+  return [
+    {
+      ...base,
+      slug: `primera-nacional-${o.y}`,
+      competition: `${AFA} · Primera Nacional`,
+      title: `Primera Nacional ${o.y}`,
+      tournament: `Campeonato de Primera Nacional ${o.y}`,
+      sectionRange: o.regular,
+      tableIndex: o.tableIndex,
+      ...(o.groupNames && { groupNames: o.groupNames }),
+      wiki,
+      championIds: [o.champion],
+      summary: o.summary,
+      notes: [{ kind: "formato", text: o.format }],
+      ...o.more,
+    },
+    ...(o.final
+      ? [
+          {
+            ...base,
+            slug: `primera-nacional-${o.y}-final`,
+            league: "Final por el campeonato",
+            competition: `${AFA} · Primera Nacional · Final`,
+            title: `Primera Nacional ${o.y} · Final por el campeonato`,
+            tournament: `Final de la Primera Nacional ${o.y}`,
+            section: o.final.section,
+            tableIndex: [],
+            publishedTable: [],
+            playoffFrom: { date: `${o.y}-01-01`, stage: "Final (cancha neutral)" },
+            wiki,
+            championIds: [o.final.champion],
+            runnerUpIds: [o.final.runnerUp],
+            summary: o.final.summary,
+            notes: [{ kind: "formato", text: "Final a un partido en cancha neutral entre los ganadores de las zonas." }],
+          } as TournamentConfig,
+        ]
+      : []),
+    ...(o.reducido
+      ? [
+          {
+            ...base,
+            slug: `primera-nacional-${o.y}-reducido`,
+            league: "Reducido",
+            competition: `${AFA} · Primera Nacional · Reducido`,
+            title: `Primera Nacional ${o.y} · Reducido`,
+            tournament: `Reducido de la Primera Nacional ${o.y}`,
+            sectionRange: { from: o.reducido.from, to: o.reducido.to },
+            tableIndex: [],
+            publishedTable: [],
+            playoffRounds: o.reducido.rounds,
+            wiki,
+            championIds: [o.reducido.champion],
+            runnerUpIds: [o.reducido.runnerUp],
+            summary: o.reducido.summary,
+            notes: [{ kind: "formato", text: "Eliminación directa por el segundo ascenso." }],
+          } as TournamentConfig,
+        ]
+      : []),
+  ];
+};
+ASCENSO_TOURNAMENTS.push(
+  ...primeraNacional({
+    y: 2021,
+    file: "arg2021.html",
+    headings: [/^Campeonato de Primera Nacional 2021/i, /^Zona A - Group A:/i, /^Zona B - Group B:/i, /^Championship Final:/i, /^Torneo Reducido por el Segundo/i, /^Campeonato de Primera División "B" 2021/i],
+    regular: { from: /^Zona A - Group A:/i, to: /^Championship Final:/i },
+    tableIndex: [0, 1],
+    groupNames: ["Zona A", "Zona B"],
+    final: {
+      section: /^Championship Final:/i,
+      champion: "tigre",
+      runnerUp: "barracas-central",
+      summary: "Tigre le ganó 1-0 a Barracas Central en la cancha de Banfield: campeón de la Primera Nacional 2021 y ascenso a Primera.",
+    },
+    reducido: {
+      from: /^Torneo Reducido por el Segundo/i,
+      to: /^Campeonato de Primera División "B" 2021/i,
+      champion: "barracas-central",
+      runnerUp: "quilmes",
+      rounds: [
+        { date: "2021-11-21", stage: "Primera fase" },
+        { date: "2021-12-06", stage: "Semifinal" },
+        { date: "2021-12-21", stage: "Final (cancha de Racing)" },
+      ],
+      summary: "Barracas Central, perdedor de la final, ganó el reducido: 0-0 con Quilmes en la final y 5-4 por penales. Ascendió a Primera por primera vez en la era profesional.",
+    },
+    champion: "tigre",
+    summary: "Tigre ganó la Zona A y le ganó la final a Barracas Central (Zona B): campeón y ascenso a Primera. Barracas Central subió por el reducido.",
+    format: "35 equipos en dos zonas (17 y 18), todos contra todos a dos ruedas, 3 puntos por victoria. Los ganadores jugaron la final; del 2.º al 4.º de cada zona, el reducido.",
+  }),
+);
