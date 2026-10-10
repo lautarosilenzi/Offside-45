@@ -1,0 +1,62 @@
+{
+ "slug": "b-nacional-2002-03-reducido",
+ "runnerUpIds": [
+  "argentinos"
+ ],
+ "year": 2002,
+ "yearLabel": "2002/03",
+ "league": "Reducido",
+ "tier": 2,
+ "title": "Primera B Nacional 2002/03 · Reducido",
+ "tournament": "Reducido de la Primera B Nacional 2002/03",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "quilmes"
+ ],
+ "summary": "El 2.º y el 3.º de la tabla general jugaron por el segundo ascenso: Quilmes le ganó 1-0 a Argentinos y empató 0-0 en La Paternal. Argentinos fue a la promoción con Nueva Chicago y perdió.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2002",
+   "url": "https://www.rsssf.org/tablesa/arg2-03.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a ida y vuelta entre el 2.º y el 3.º de la tabla general."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-2002-03-reducido-001",
+   "date": "2003-06-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Reducido",
+   "stage": "Desempate",
+   "phase": "playoff",
+   "homeId": "quilmes",
+   "awayId": "argentinos",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Alayes."
+  },
+  {
+   "id": "b-nacional-2002-03-reducido-002",
+   "date": "2003-07-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Reducido",
+   "stage": "Desempate",
+   "phase": "playoff",
+   "homeId": "argentinos",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}
