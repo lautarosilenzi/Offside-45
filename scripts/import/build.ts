@@ -1363,7 +1363,8 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     warnings.push(...cmp.warnings);
     // Ascenso: si los dos equipos cierran exacto con la tabla final publicada, el resultado de RSSSF queda confirmado
     // por la tabla y la diferencia con Wikipedia se anota en la temporada.
-    const tableTeams = cfg.wikiDiffsByTable ? new Set(verifySeason(season).map((p) => p.split(":")[0])) : null;
+    // Solo si hay tabla publicada contra la cual comparar (el reducido o una final no tienen).
+    const tableTeams = cfg.wikiDiffsByTable && season.publishedTable.length ? new Set(verifySeason(season).map((p) => p.split(":")[0])) : null;
     const byTable: string[] = [];
     for (const p of cmp.problems) {
       const key = Object.keys(cfg.wikiErrata ?? {}).find((k) => p.includes(k));

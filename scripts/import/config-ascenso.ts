@@ -2226,7 +2226,7 @@ const primeraNacional = (o: {
   tableIndex: number | number[];
   groupNames?: string[];
   final?: { section: RegExp; champion: string; runnerUp: string; summary: string };
-  reducido?: { from: RegExp; to: RegExp; champion: string; runnerUp: string; summary: string; rounds: { date: string; stage: string }[] };
+  reducido?: { from: RegExp; to: RegExp; champion: string; runnerUp: string; summary: string; rounds: { date: string; stage: string }[]; noWiki?: boolean };
   champion: string;
   summary: string;
   format: string;
@@ -2295,7 +2295,7 @@ const primeraNacional = (o: {
             tableIndex: [],
             publishedTable: [],
             playoffRounds: o.reducido.rounds,
-            wiki,
+            wiki: o.reducido.noWiki ? undefined : wiki,
             championIds: [o.reducido.champion],
             runnerUpIds: [o.reducido.runnerUp],
             summary: o.reducido.summary,
@@ -2334,5 +2334,49 @@ ASCENSO_TOURNAMENTS.push(
     champion: "tigre",
     summary: "Tigre ganó la Zona A y le ganó la final a Barracas Central (Zona B): campeón y ascenso a Primera. Barracas Central subió por el reducido.",
     format: "35 equipos en dos zonas (17 y 18), todos contra todos a dos ruedas, 3 puntos por victoria. Los ganadores jugaron la final; del 2.º al 4.º de cada zona, el reducido.",
+  }),
+);
+
+const A2022: Record<string, string> = {
+  ...A2125,
+  "CA Chaco For Ever": "chaco-for-ever",
+  "Sacachispas FC": "sacachispas",
+  "CA Racing (Córdoba)": "racing-cordoba",
+  "CA Racing": "racing-cordoba",
+  "CA Deportivo Madryn": "deportivo-madryn",
+  "CSD Madryn": "deportivo-madryn",
+  "CA Colegiales": "colegiales",
+  "CA Gimnasia y Esgrima (SSd Jujuy)": "gimnasia-jujuy",
+  "CSyD Madryn": "deportivo-madryn",
+  "CyB Ramón Santamarina": "ramon-santamarina",
+  "Deportivo Madryn": "deportivo-madryn",
+  Sacachispas: "sacachispas",
+};
+ASCENSO_TOURNAMENTS.push(
+  ...primeraNacional({
+    y: 2022,
+    file: "arg2022.html",
+    aliases: A2022,
+    headings: [/^Second level: Campeonato de Primera Nacional/i, /^Championship:\s*$/i, /^Torneo "Reducido":/i, /^2022 Metropolian Third level/i],
+    regular: { from: /^Championship:\s*$/i, to: /^Torneo "Reducido":/i },
+    tableIndex: 0,
+    reducido: {
+      from: /^Torneo "Reducido":/i,
+      to: /^2022 Metropolian Third level/i,
+      champion: "instituto",
+      runnerUp: "estudiantes-ba",
+      noWiki: true,
+      rounds: [
+        { date: "2022-10-15", stage: "Primera fase" },
+        { date: "2022-10-22", stage: "Segunda fase" },
+        { date: "2022-10-29", stage: "Semifinal" },
+        { date: "2022-11-12", stage: "Final" },
+      ],
+      summary: "Instituto de Córdoba ganó el reducido (0-0 y 1-1 con Estudiantes de Caseros en la final; pasó por su mejor ubicación en la tabla) y volvió a Primera.",
+    },
+    champion: "belgrano",
+    summary: "Belgrano salió campeón con 79 puntos, once más que Instituto, y volvió a Primera. Instituto ascendió por el reducido.",
+    format: "37 equipos, todos contra todos a una rueda (una fecha libre por equipo), 3 puntos por victoria. El campeón asciende; del 2.º al 13.º juegan el reducido.",
+    more: { pointAdjustments: [{ teamId: "deportivo-maipu", points: -3, reason: "descuento que registra RSSSF (la fuente no da el motivo)" }] },
   }),
 );
