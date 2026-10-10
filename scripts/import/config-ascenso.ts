@@ -1470,16 +1470,17 @@ const temporadaB = (
   champion: string,
   second: string,
   summary: string,
-  more: Partial<TournamentConfig> & { promoFrom?: RegExp; promoTo?: RegExp; promoSummary?: string; start?: RegExp; extraHeadings?: RegExp[] } = {},
+  more: Partial<TournamentConfig> & { promoFrom?: RegExp; promoTo?: RegExp; promoSummary?: string; start?: RegExp; extraHeadings?: RegExp[]; mainSection?: RegExp } = {},
 ): TournamentConfig[] => {
   // start: título donde empieza la temporada (en las páginas anuales desde 2010/11, el de la sección del ascenso).
-  const { promoFrom, promoTo, promoSummary, start = /^Final Table:/i, extraHeadings = [], ...rest } = more;
+  const { promoFrom, promoTo, promoSummary, start = /^Final Table:/i, extraHeadings = [], mainSection, ...rest } = more;
+  // mainSection: la sección con ese título que tiene más partidos (el título se repite en el índice de la página).
   // Con "start" propio, "Final Table:" no abre sección: si no, se tomaría como la fase "Final".
-  const headings = [...extraHeadings, ...(more.start ? [] : [/^Final Table:/i]), /^Topscorers?\s*$/i, /^Promotion\/Relegation Playoffs? 1st\/2nd level/i, /^\s*Relegation Table/i, /^Promotion\/Relegation Playoff\s*$/i, /^Promotion\/Relegation Playoffs? 2nd\/3rd level/i];
+  const headings = [...extraHeadings, ...(more.start || mainSection ? [] : [/^Final Table:/i]), /^Topscorers?\s*$/i, /^Promotion\/Relegation Playoffs? 1st\/2nd level/i, /^\s*Relegation Table/i, /^Promotion\/Relegation Playoff\s*$/i, /^Promotion\/Relegation Playoffs? 2nd\/3rd level/i];
   return [
     nacionalB(y, {
       file,
-      sectionRange: { from: start, to: /^Topscorers?\s*$/i },
+      ...(mainSection ? { section: mainSection } : { sectionRange: { from: start, to: /^Topscorers?\s*$/i } }),
       headings,
       preprocess: pre0710,
       tableIndex: 0,
@@ -1630,5 +1631,65 @@ ASCENSO_TOURNAMENTS.push(
     promoFrom: /^Promotion\/Relegation Playoffs? 2nd\/3rd level/i,
     promoTo: /^Primera B Metropolitano "Efectivo/i,
     promoSummary: "Sportivo Desamparados (Argentino A) le ganó la serie a San Martín de Tucumán y subió; Independiente Rivadavia se quedó ante Defensores de Belgrano (B Metropolitana) por la ventaja deportiva.",
+  }),
+);
+
+// ───────── 2011/12 a 2013/14 ─────────
+const A1114: Record<string, string> = {
+  ...A1011,
+  "River Plate": "river",
+  "Rosario Central": "central",
+  "Instituto (Córdoba)": "instituto",
+  "Boca Unidos (Corrientes)": "boca-unidos",
+  "Patronato (Paraná)": "patronato-parana",
+  "Gimnasia y Esgrima LP": "gimnasia",
+  "Gimnasia y Esgrima (LP)": "gimnasia",
+  "Olimpo (Bahía Blanca)": "olimpo",
+  "Sarmiento (Junín)": "sarmiento-junin",
+  "Huracán (Buenos Aires)": "huracan",
+  "Independiente (Avellaneda)": "independiente",
+  "Aldosivi (MDP)": "aldosivi",
+  "CAI (Com.Rivadavia)": "cai",
+  "CAI (Comodoro Rivadavia)": "cai",
+  "Crucero del Norte": "crucero-del-norte",
+  "Crucero del Norte (Posadas)": "crucero-del-norte",
+  "Douglas Haig (Pergamino)": "douglas-haig",
+  "Brown (Adrogué)": "brown-adrogue",
+  "Guillermo Brown (Puerto Madryn)": "guillermo-brown",
+  "Gmo.Brown (Pto.Madryn)": "guillermo-brown",
+  "Sportivo Desamparados (SJ)": "sportivo-desamparados",
+  "Sportivo Desamparados (San Juan)": "sportivo-desamparados",
+  "Independiente Rivadavia (Mza)": "independiente-rivadavia",
+  "Crucero del Norte (Mis)": "crucero-del-norte",
+  "Crucero del Norte (Misiones)": "crucero-del-norte",
+  "Comandante Andrés Guacurarí": "crucero-del-norte",
+  "Guillermo Brown (PM)": "guillermo-brown",
+  "Brown de Adrogué": "brown-adrogue",
+  "Villa San Carlos": "villa-san-carlos",
+  "Sportivo Belgrano": "sportivo-belgrano-sf",
+  "Patronato de la Juventud Católica": "patronato-parana",
+};
+for (const [k, v] of Object.entries(A1114)) if (k.includes("(")) A1114[k.replace(/[()]/g, "").replace(/\s+/g, " ")] = v;
+ASCENSO_TOURNAMENTS.push(
+  ...temporadaB(2011, "arg2012.html", A1114, "river", "quilmes", "River Plate, en su única temporada en la segunda división, salió campeón y volvió a Primera con Quilmes. Instituto y Rosario Central perdieron la promoción con San Martín de San Juan y San Lorenzo.", {
+    mainSection: /^Primera B Nacional$/i,
+    extraHeadings: [/^Primera B Nacional$/i, /^Primera B Metropolitana?$/i],
+    promoFrom: /^Promotion\/Relegation Playoffs? 2nd\/3rd level/i,
+    promoTo: /^Primera B Metropolitana?$/i,
+    acceptTableDiffs: "Los partidos coinciden con Wikipedia (379 de 380); las diferencias de un gol o un punto son de la tabla publicada por RSSSF. Chacarita–Atlanta figura 1-1 en RSSSF y 0-1 en Wikipedia.",
+    wikiErrata: { "RSSSF chacarita 1-1 atlanta": "Wikipedia da 0-1. A verificar." },
+    promoSummary: "Nueva Chicago (B Metropolitana) le ganó la serie a Chacarita, y Crucero del Norte (Argentino A) a Guillermo Brown de Puerto Madryn: los dos subieron.",
+  }),
+  ...temporadaB(2012, "arg2013.html", A1114, "central", "gimnasia", "Rosario Central salió campeón y volvió a Primera con Gimnasia de La Plata y Olimpo, que también ascendieron (esa temporada subían tres).", {
+    mainSection: /^Primera B Nacional$/i,
+    extraHeadings: [/^Primera B Nacional$/i, /^Primera B Metropolitana?$/i],
+    acceptTableDiffs: "Los 380 partidos coinciden con Wikipedia: las diferencias de un gol son de la tabla publicada por RSSSF.",
+    notes: [{ kind: "formato", text: "20 equipos, todos contra todos a dos ruedas, 3 puntos por victoria. Ascendieron los tres primeros: Rosario Central, Gimnasia y Esgrima La Plata y Olimpo." }],
+  }),
+  ...temporadaB(2013, "arg2014.html", A1114, "banfield", "defensa-y-justicia", "Banfield salió campeón y ascendió con Defensa y Justicia, que subió a Primera por primera vez. Independiente le ganó el desempate por el tercer ascenso a Huracán.", {
+    mainSection: /^Second Level: Primera B Nacional/i,
+    extraHeadings: [/^Second Level: Primera B Nacional/i, /^Third Level/i],
+    playoffFrom: { date: "2014-06-20", stage: "Desempate por el tercer ascenso" },
+    notes: [{ kind: "formato", text: "22 equipos, todos contra todos a dos ruedas, 3 puntos por victoria. Ascendieron los tres primeros; Huracán e Independiente empataron el tercer puesto y jugaron un desempate." }],
   }),
 );
