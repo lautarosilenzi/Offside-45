@@ -1,0 +1,123 @@
+{
+ "slug": "b-nacional-2000-01-campeonato",
+ "runnerUpIds": [
+  "quilmes"
+ ],
+ "year": 2000,
+ "yearLabel": "2000/01",
+ "league": "Final por el campeonato",
+ "tier": 2,
+ "title": "Primera B Nacional 2000/01 · Final por el campeonato",
+ "tournament": "Final por el campeonato de la Primera B Nacional 2000/01",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "banfield"
+ ],
+ "summary": "Banfield ganó el cuadrangular final (2-1 y 4-2 con Quilmes en la final): campeón de la Nacional B 2000/01 y ascenso a Primera.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2000",
+   "url": "https://www.rsssf.org/tablesa/arg2-01.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Los dos primeros de cada zona, eliminación a ida y vuelta. Con igualdad en la serie pasaba el de mejor campaña."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-2000-01-campeonato-001",
+   "date": "2001-04-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Semifinal (ida)",
+   "phase": "playoff",
+   "homeId": "gimnasia-cdu",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Bordi."
+  },
+  {
+   "id": "b-nacional-2000-01-campeonato-002",
+   "date": "2001-04-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Semifinal (ida)",
+   "phase": "playoff",
+   "homeId": "banfield",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Sanguinetti, Leeb - D. Jiménez, Smigiel."
+  },
+  {
+   "id": "b-nacional-2000-01-campeonato-003",
+   "date": "2001-04-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Semifinal (vuelta)",
+   "phase": "playoff",
+   "homeId": "quilmes",
+   "awayId": "gimnasia-cdu",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Grelak (de penal) / Agg: 1-1 - Quilmes qualified on better record."
+  },
+  {
+   "id": "b-nacional-2000-01-campeonato-004",
+   "date": "2001-04-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Semifinal (vuelta)",
+   "phase": "playoff",
+   "homeId": "instituto",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: D. Jiménez - González, Sánchez (de penal)."
+  },
+  {
+   "id": "b-nacional-2000-01-campeonato-005",
+   "date": "2001-05-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Final (ida)",
+   "phase": "playoff",
+   "homeId": "banfield",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Leeb, Forestello - Clementz."
+  },
+  {
+   "id": "b-nacional-2000-01-campeonato-006",
+   "date": "2001-05-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Final (vuelta)",
+   "phase": "playoff",
+   "homeId": "quilmes",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Giampietri (2) - Sánchez (de penal), Leeb, Del Río, Forestello."
+  }
+ ]
+}

@@ -504,6 +504,8 @@ export function parseSeason(
     // "Independiente  wp 1:1 lp Racing Club [abandoned at 1:1…]" (1936): resuelto por escritorio con el parcial en la nota.
     // Desde los años 50 el parcial no siempre está en la nota ("lp 1:1 wp … [abandoned at 66m, awarded on Nov 26]"):
     // se guarda como "played X:Y" al final.
+    // Nombres con un espacio doble adentro (Nacional B 2000/01): "Atlético  Tucumán" no son dos columnas.
+    normalized = normalized.replace(/\b(Atlético|Defensa)\s{2,}(Tucumán|y Justicia)\b/g, "$1 $2");
     // Errata "wp-1p" (1971) y penales pegados al resultado: "Independiente [6]2-2[7] San Lorenzo" → nota "pen 6:7".
     normalized = normalized.replace(/\b(wp|lp)-1p\b/i, "$1-lp").replace(/\b1p-(wp)\b/i, "lp-$1");
     // "San Lorenzo (MdP)  1-2 awd 1-0  Boca Juniors" (1980): el de la cancha y el que dio la liga.
