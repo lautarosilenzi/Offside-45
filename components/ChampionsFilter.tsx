@@ -15,14 +15,14 @@ export default function ChampionsFilter({ children }: { children: React.ReactNod
 
   return (
     <div data-filter={filter}>
-      <div className="mb-3 inline-flex rounded-full bg-navy-950/90 p-1 shadow" role="group" aria-label="Filtrar títulos">
+      <div className="mb-3 grid grid-cols-4 gap-0.5 rounded-2xl bg-navy-950/90 p-1 shadow sm:inline-grid sm:rounded-full" role="group" aria-label="Filtrar títulos">
         {OPTIONS.map((o) => (
           <button
             key={o.value}
             type="button"
             onClick={() => setFilter(o.value)}
             aria-pressed={filter === o.value}
-            className={`rounded-full px-4 py-1.5 font-display text-sm font-semibold uppercase tracking-wide transition ${
+            className={`rounded-full px-1.5 py-1.5 text-center font-display text-xs font-semibold uppercase leading-tight tracking-wide transition sm:px-4 sm:text-sm ${
               filter === o.value ? "bg-white text-navy-950 shadow" : "text-navy-200 hover:bg-white/10 hover:text-white"
             }`}
           >

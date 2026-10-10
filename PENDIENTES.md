@@ -95,21 +95,21 @@ Errores encontrados en la revisión general:
 
 ## Tanda 2 (10-10-2026) — pedido del dueño, con fotos de El Nine y 365Scores
 Regla de oro: fácil de usar, opciones simples y fácil de leer.
-- [ ] T1. "¿Qué querés ver?": sumar los Historiales.
-- [ ] T2. Cartel amistoso de bienvenida: "Seguimos mejorando la página, no dejes de apoyarnos".
-- [ ] T3. Cuadro de eliminación: volver a ver los cruces lado a lado (no todo hacia abajo), en todas las competencias.
-- [ ] T4. Descensos: números pegados a la línea.
-- [ ] T5. Sección Campeones (/campeones): separar era amateur y profesional.
-- [ ] T6. Estadísticas de Argentina: sumar más contenido.
-- [ ] T7. "Historia de la liga" junto con la Liga Profesional: 4.ª pestaña "Historia" al lado de Campeones.
-- [ ] T8. Comparador de leyendas: más leyendas, sudamericanas y del fútbol argentino.
-- [ ] T9. Mi cuenta: abajo, editar qué ligas, equipos y jugadores sigue.
-- [ ] T10. Cambiar el texto "Fútbol en vivo, estadísticas e historia del fútbol argentino desde 1891" por algo mejor.
-- [ ] T11. Partido: botones (Resumen, Alineaciones, Posiciones…) alineados. Equipos: jugadores cortados por el recuadro.
-- [ ] T12. Premier League > Fixture: el partido en vivo no se puede tocar.
-- [ ] T13. Partido, Destacado: lo último arriba y las primeras acciones abajo.
-- [ ] T14. Ficha de jugador en el partido: cerrarla deslizando hacia abajo.
-- [ ] T15. Mejorar mucho la estética, guiándose por las fotos (El Nine, 365Scores).
-- [ ] T16. Censo del Hincha como El Nine: Clubes / Países, con barras y porcentajes, top 10 y "Ver más".
-- [ ] T17. Menú (Destacados, Argentina, Brasil…): logos de las ligas más nítidos.
-- [ ] T18. Partido más lindo, como 365Scores (ficha del jugador estilo Arsenal vs Leeds).
+- [x] T1. "¿Qué querés ver?": sumar los Historiales.
+- [x] T2. Cartel amistoso de bienvenida: "Seguimos mejorando la página, no dejes de apoyarnos".
+- [x] T3. Cuadro de eliminación: volver a ver los cruces lado a lado (no todo hacia abajo), en todas las competencias.
+- [x] T4. Descensos: números pegados a la línea.
+- [x] T5. Sección Campeones (/campeones): separar era amateur y profesional.
+- [x] T6. Estadísticas de Argentina: sumar más contenido.
+- [x] T7. "Historia de la liga" junto con la Liga Profesional: 4.ª pestaña "Historia" al lado de Campeones.
+- [x] T8. Comparador de leyendas: más leyendas, sudamericanas y del fútbol argentino.
+- [x] T9. Mi cuenta: abajo, editar qué ligas, equipos y jugadores sigue. (Para seguir jugadores con la cuenta, el dueño corre 2 líneas de SQL: están al final de supabase/cuentas.sql.)
+- [x] T10. Cambiar el texto "Fútbol en vivo, estadísticas e historia del fútbol argentino desde 1891" por algo mejor.
+- [x] T11. Partido: botones (Resumen, Alineaciones, Posiciones…) alineados. Equipos: jugadores cortados por el recuadro.
+- [x] T12. Premier League > Fixture: el partido en vivo no se puede tocar. Causa: la página del partido tardaba 10–30 s (fotos). Ahora carga en paralelo y las fotos esperan 4 s como máximo.
+- [x] T13. Partido, Destacado: lo último arriba y las primeras acciones abajo.
+- [x] T14. Ficha de jugador en el partido: cerrarla deslizando hacia abajo.
+- [~] T15. Mejorar mucho la estética, guiándose por las fotos (El Nine, 365Scores). Hecho: portada estilo El Nine (día, filtros, torneos con estrella y plegado, goleadores), ficha del jugador estilo 365, logos nítidos. Sigue con lo que marque el dueño al verlo.
+- [x] T16. Censo del Hincha como El Nine: Clubes / Países, con barras y porcentajes, top 10 y "Ver más".
+- [x] T17. Menú (Destacados, Argentina, Brasil…): logos de las ligas más nítidos.
+- [x] T18. Partido más lindo, como 365Scores (ficha del jugador estilo Arsenal vs Leeds).

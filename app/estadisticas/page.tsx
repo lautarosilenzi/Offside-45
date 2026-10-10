@@ -102,7 +102,10 @@ const SCORES = (() => {
 // Rachas más largas de cada club en la liga, en orden de fecha: victorias seguidas y partidos seguidos sin perder.
 const STREAKS = (() => {
   const byTeam = new Map<string, Match[]>();
-  for (const m of LEAGUE_MATCHES) for (const id of [m.homeId, m.awayId]) (byTeam.get(id) ?? byTeam.set(id, []).get(id)!).push(m);
+  // Todos los partidos de liga que cuentan, también los ganados por abandono o sin resultado conocido: si no, una
+  // derrota de esas quedaría afuera y la racha parecería más larga.
+  const all = LEAGUE_TITLES.flatMap((s) => s.matches).filter((m) => isCounted(m));
+  for (const m of all) for (const id of [m.homeId, m.awayId]) (byTeam.get(id) ?? byTeam.set(id, []).get(id)!).push(m);
   const wins: { id: string; n: number; from: string; to: string }[] = [];
   const unbeaten: { id: string; n: number; from: string; to: string }[] = [];
   for (const [id, list] of byTeam) {
@@ -232,7 +235,9 @@ export default function StatsPage() {
             </section>
           ))}
         </div>
-        <p className="-mt-6 text-xs text-navy-500">Solo partidos de liga de Primera, en orden de fecha (las rachas siguen de un torneo al siguiente).</p>
+        <p className="-mt-6 text-xs text-navy-500">
+          Solo partidos de liga de Primera, en orden de fecha (las rachas siguen de un torneo al siguiente). Se muestra la mejor racha de cada club.
+        </p>
 
         <section>
           <h2 className="section-title mb-3">Más temporadas en Primera</h2>
