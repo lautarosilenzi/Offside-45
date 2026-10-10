@@ -1470,15 +1470,16 @@ const temporadaB = (
   champion: string,
   second: string,
   summary: string,
-  more: Partial<TournamentConfig> & { promoFrom?: RegExp; promoSummary?: string } = {},
+  more: Partial<TournamentConfig> & { promoFrom?: RegExp; promoTo?: RegExp; promoSummary?: string; start?: RegExp; extraHeadings?: RegExp[] } = {},
 ): TournamentConfig[] => {
-  const { promoFrom, promoSummary, ...rest } = more;
-  const headings = [/^Final Table:/i, /^Topscorers?\s*$/i, /^Promotion\/Relegation Playoffs? 1st\/2nd level/i, /^\s*Relegation Table/i, /^Promotion\/Relegation Playoff\s*$/i, /^Promotion\/Relegation Playoff 2nd\/3rd level/i];
+  // start: título donde empieza la temporada (en las páginas anuales desde 2010/11, el de la sección del ascenso).
+  const { promoFrom, promoTo, promoSummary, start = /^Final Table:/i, extraHeadings = [], ...rest } = more;
+  // Con "start" propio, "Final Table:" no abre sección: si no, se tomaría como la fase "Final".
+  const headings = [...extraHeadings, ...(more.start ? [] : [/^Final Table:/i]), /^Topscorers?\s*$/i, /^Promotion\/Relegation Playoffs? 1st\/2nd level/i, /^\s*Relegation Table/i, /^Promotion\/Relegation Playoff\s*$/i, /^Promotion\/Relegation Playoffs? 2nd\/3rd level/i];
   return [
     nacionalB(y, {
       file,
-      section: 1,
-      sectionRange: { from: /^Final Table:/i, to: /^Topscorers?\s*$/i },
+      sectionRange: { from: start, to: /^Topscorers?\s*$/i },
       headings,
       preprocess: pre0710,
       tableIndex: 0,
@@ -1495,7 +1496,7 @@ const temporadaB = (
       ? [
           nacionalBExtra(y, "promocion", "Promoción con la B Metropolitana y el Argentino A", {
             file,
-            sectionRange: { from: promoFrom },
+            sectionRange: { from: promoFrom, ...(promoTo && { to: promoTo }) },
             headings,
             preprocess: pre0710,
             aliases,
@@ -1535,7 +1536,7 @@ const A0710: Record<string, string> = {
   "All Boys": "all-boys",
   "Atlético Tucumán": "atletico-tucuman",
   "San Martín (T)": "san-martin-tucuman",
-  Patronato: "patronato",
+  Patronato: "patronato-parana",
   // Tablas
   "Godoy Cruz (Godoy Cruz)": "godoy-cruz",
   "Quilmes (Buenos Aires)": "quilmes",
@@ -1607,4 +1608,27 @@ ASCENSO_TOURNAMENTS.push(
       promoSummary: "Deportivo Merlo y la CAI se quedaron en la Nacional B ante Sarmiento de Junín (B Metropolitana) y Santamarina de Tandil (Argentino A).",
     },
   ),
+);
+
+// ───────── 2010/11 en adelante: páginas anuales de RSSSF (argAAAA.html) con todas las categorías ─────────
+const A1011: Record<string, string> = {
+  ...A0710,
+  "Def. de Belgrano": "defensores-belgrano",
+  "Svo Desamparados": "sportivo-desamparados",
+  "Sportivo Desamparados": "sportivo-desamparados",
+  Desamparados: "sportivo-desamparados",
+  "Deportivo Merlo (Merlo)": "deportivo-merlo",
+  "Rosario Central (Rosario)": "central",
+  "Atlético de Rafaela (Rafaela)": "atletico-rafaela",
+  "Boca Unidos (Corrientes)": "boca-unidos",
+};
+for (const [k, v] of Object.entries(A1011)) if (k.includes("(")) A1011[k.replace(/[()]/g, "").replace(/\s+/g, " ")] = v;
+ASCENSO_TOURNAMENTS.push(
+  ...temporadaB(2010, "arg2011.html", { ...A1011, "Gimnasia y Esgrima": "gimnasia-jujuy" }, "atletico-rafaela", "union-santa-fe", "Atlético de Rafaela salió campeón y ascendió con Unión. San Martín de San Juan y Belgrano jugaron la promoción: Belgrano le ganó a River Plate y lo mandó a la B.", {
+    start: /^Primera B Nacional "Efectivo/i,
+    extraHeadings: [/^Primera B Nacional "Efectivo/i, /^Primera B Metropolitano "Efectivo/i],
+    promoFrom: /^Promotion\/Relegation Playoffs? 2nd\/3rd level/i,
+    promoTo: /^Primera B Metropolitano "Efectivo/i,
+    promoSummary: "Sportivo Desamparados (Argentino A) le ganó la serie a San Martín de Tucumán y subió; Independiente Rivadavia se quedó ante Defensores de Belgrano (B Metropolitana) por la ventaja deportiva.",
+  }),
 );
