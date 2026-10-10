@@ -2226,7 +2226,7 @@ const primeraNacional = (o: {
   tableIndex: number | number[];
   groupNames?: string[];
   final?: { section: RegExp; champion: string; runnerUp: string; summary: string };
-  reducido?: { from: RegExp; to: RegExp; champion: string; runnerUp: string; summary: string; rounds: { date: string; stage: string }[]; noWiki?: boolean };
+  reducido?: { from: RegExp; to: RegExp; champion: string; runnerUp: string; summary: string; rounds: { date: string; stage: string }[]; noWiki?: boolean; overrides?: TournamentConfig["overrides"] };
   champion: string;
   summary: string;
   format: string;
@@ -2295,6 +2295,7 @@ const primeraNacional = (o: {
             tableIndex: [],
             publishedTable: [],
             playoffRounds: o.reducido.rounds,
+            ...(o.reducido.overrides && { overrides: o.reducido.overrides }),
             wiki: o.reducido.noWiki ? undefined : wiki,
             championIds: [o.reducido.champion],
             runnerUpIds: [o.reducido.runnerUp],
@@ -2378,5 +2379,43 @@ ASCENSO_TOURNAMENTS.push(
     summary: "Belgrano salió campeón con 79 puntos, once más que Instituto, y volvió a Primera. Instituto ascendió por el reducido.",
     format: "37 equipos, todos contra todos a una rueda (una fecha libre por equipo), 3 puntos por victoria. El campeón asciende; del 2.º al 13.º juegan el reducido.",
     more: { pointAdjustments: [{ teamId: "deportivo-maipu", points: -3, reason: "descuento que registra RSSSF (la fuente no da el motivo)" }] },
+  }),
+);
+
+const A2023: Record<string, string> = { ...A2022, "CS Dock Sud": "sportivo-dock-sud", "CA Patronato Juventud Católica": "patronato-parana", "Atlético de Rafela": "atletico-rafaela" };
+ASCENSO_TOURNAMENTS.push(
+  ...primeraNacional({
+    y: 2023,
+    file: "arg2023.html",
+    aliases: A2023,
+    headings: [/^AFA Second level: Campeonato de Primera Nacional 2023/i, /^Zona A - Group A:/i, /^Zona B - Group B:/i, /^Final por el 1er\. Ascenso/i, /^Torneo\W+REDUCIDO\W+por el 2/i, /^AFA Third Level/i],
+    regular: { from: /^Zona A - Group A:/i, to: /^Final por el 1er\. Ascenso/i },
+    tableIndex: [0, 1],
+    groupNames: ["Zona A", "Zona B"],
+    final: {
+      section: /^Final por el 1er\. Ascenso/i,
+      champion: "independiente-rivadavia",
+      runnerUp: "almirante-brown",
+      summary: "Independiente Rivadavia le ganó 2-0 a Almirante Brown en el alargue, en Córdoba: campeón de la Primera Nacional 2023 y primer ascenso a Primera de su historia.",
+    },
+    reducido: {
+      from: /^Torneo\W+REDUCIDO\W+por el 2/i,
+      to: /^AFA Third Level/i,
+      champion: "deportivo-riestra",
+      runnerUp: "deportivo-maipu",
+      noWiki: true,
+      overrides: { "2023-12-02 deportivo-maipu deportivo-riestra": { note: "RSSSF lo da 0-2; Wikipedia, 0-1. A verificar." } },
+      rounds: [
+        { date: "2023-10-27", stage: "Primera fase" },
+        { date: "2023-11-05", stage: "Cuartos de final" },
+        { date: "2023-11-20", stage: "Semifinal" },
+        { date: "2023-12-02", stage: "Final (en Córdoba)" },
+      ],
+      summary: "Deportivo Riestra ganó el reducido (le ganó la final a Deportivo Maipú, en Córdoba) y ascendió a Primera por primera vez.",
+    },
+    champion: "independiente-rivadavia",
+    summary: "Independiente Rivadavia ganó la Zona B y la final con Almirante Brown: campeón y ascenso. Deportivo Riestra subió por el reducido.",
+    format: "37 equipos en dos zonas (19 y 18), todos contra todos a dos ruedas, 3 puntos por victoria. Los ganadores jugaron la final; del 2.º al 8.º de cada zona, el reducido.",
+    more: { pointAdjustments: [{ teamId: "guillermo-brown", points: -3, reason: "descuento que registra RSSSF (la fuente no da el motivo)" }] },
   }),
 );

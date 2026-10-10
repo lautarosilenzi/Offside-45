@@ -1,0 +1,54 @@
+{
+ "slug": "primera-nacional-2023-final",
+ "runnerUpIds": [
+  "almirante-brown"
+ ],
+ "year": 2023,
+ "yearLabel": "2023",
+ "league": "Final por el campeonato",
+ "tier": 2,
+ "title": "Primera Nacional 2023 · Final por el campeonato",
+ "tournament": "Final de la Primera Nacional 2023",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "independiente-rivadavia"
+ ],
+ "summary": "Independiente Rivadavia le ganó 2-0 a Almirante Brown en el alargue, en Córdoba: campeón de la Primera Nacional 2023 y primer ascenso a Primera de su historia.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2023",
+   "url": "https://www.rsssf.org/tablesa/arg2023.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera Nacional 2023",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_Nacional_2023"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a un partido en cancha neutral entre los ganadores de las zonas."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "primera-nacional-2023-final-001",
+   "date": "2023-10-29",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Final",
+   "stage": "Final (cancha neutral)",
+   "phase": "playoff",
+   "homeId": "almirante-brown",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Con alargue."
+  }
+ ]
+}
