@@ -59,7 +59,8 @@ const clean = (s: string) =>
     .replace(/^[^|]*\|(?=[^|]*$)/, "")
     .trim();
 
-export type WikiRow = { home: string; away: string; hg: number | null; ag: number | null; raw: string; date?: string };
+// vuelta: resultado de la vuelta en el formato "ida || A-B || vuelta", cuyo orden de goles cambia según el artículo.
+export type WikiRow = { home: string; away: string; hg: number | null; ag: number | null; raw: string; date?: string; vuelta?: boolean };
 
 // Filas de tablas de partidos: "Local | 3 - 1 | Visitante".
 export function wikiRows(text: string): WikiRow[] {
@@ -77,6 +78,19 @@ export function wikiRows(text: string): WikiRow[] {
       .filter(Boolean);
     const date = cells.find((c) => /^\d{1,2} de [a-záéíóú]+/i.test(c) || /^\d{1,2}\/\d{1,2}\/\d{4}$/.test(c));
     let found = false;
+    // Nacional B 1991–1995: "3-1 || Deportivo Maipú-Nueva Chicago || 2-1": ida a la izquierda (el primero es local) y
+    // vuelta a la derecha, con los goles del primero adelante (en la vuelta es visitante).
+    for (let i = 0; i + 2 < cells.length; i += 3) {
+      const ida = cells[i].match(/^(\d+)-(\d+)$/);
+      const vuelta = cells[i + 2].match(/^(\d+)-(\d+)$/);
+      const teams = cells[i + 1].match(/^(\D+?)-(\D+)$/);
+      if (!ida || !vuelta || !teams) break;
+      found = true;
+      const [a, b] = [teams[1].trim(), teams[2].trim()];
+      rows.push({ home: a, away: b, hg: Number(ida[1]), ag: Number(ida[2]), raw: cells.join(" | ") });
+      rows.push({ home: b, away: a, hg: Number(vuelta[2]), ag: Number(vuelta[1]), raw: cells.join(" | "), vuelta: true });
+    }
+    if (found) continue;
     for (let i = 1; i < cells.length - 1; i++) {
       // Penales al lado del resultado: "(3) 1 - 1 (4)".
       const sc = cells[i].replace(/^\(\d+\)\s*|\s*\(\d+\)$/g, "").match(/^(\d+|PG|PP|PE|\?)\s*[-–:]\s*(\d+|PG|PP|PE|\?)$/);
@@ -259,6 +273,19 @@ export async function compareWithWikipedia(cfg: TournamentConfig, season: Season
     return { warnings, problems };
   }
   const rows = wikiRows(text);
+  // Formato "ida || A-B || vuelta": unos artículos ponen primero los goles de A y otros los del local de la vuelta.
+  // Se usa el orden con el que coinciden más partidos.
+  const vueltas = rows.filter((r) => r.vuelta);
+  if (vueltas.length) {
+    const hits = (flip: boolean) =>
+      vueltas.filter((r) => {
+        const h = resolveName(r.home, cfg.year)?.id;
+        const a = resolveName(r.away, cfg.year)?.id;
+        const [hg, ag] = flip ? [r.ag, r.hg] : [r.hg, r.ag];
+        return season.matches.some((m) => m.homeId === h && m.awayId === a && m.homeGoals === hg && m.awayGoals === ag);
+      }).length;
+    if (hits(true) > hits(false)) for (const r of vueltas) [r.hg, r.ag] = [r.ag, r.hg];
+  }
   const unknown = new Set<string>();
   const confirmed = new Set<string>();
   const pending: { r: WikiRow; ids: [string, string] }[] = [];

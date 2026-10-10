@@ -1,0 +1,42 @@
+{
+ "slug": "b-nacional-1992-93-campeonato",
+ "year": 1992,
+ "yearLabel": "1992/93",
+ "league": "Desempate por el campeonato",
+ "tier": 2,
+ "title": "Primera B Nacional 1992/93 · Desempate por el campeonato",
+ "tournament": "Desempate por el campeonato de la Primera B Nacional 1992/93",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "banfield"
+ ],
+ "summary": "Los dos primeros terminaron igualados en puntos y jugaron una final por el título: la ganó Banfield, que ascendió a Primera.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1992",
+   "url": "https://www.rsssf.org/tablesa/arg2-93.html"
+  }
+ ],
+ "notes": [],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-1992-93-campeonato-001",
+   "date": "1993-06-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Desempate por el campeonato",
+   "stage": "Final por el campeonato",
+   "phase": "playoff",
+   "homeId": "banfield",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Córdoba",
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue. Banfield ganó por penales (5-4).",
+   "advancedId": "banfield"
+  }
+ ]
+}

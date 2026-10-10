@@ -133,6 +133,7 @@ Control: la tabla de la propia página y, partido por partido, la Wikipedia en c
 No suma en títulos ni estadísticas de Primera; sí en los historiales. Página: /ascenso (y pestaña Historia en Primera Nacional).
 - [x] 1986 Primera B (Torneo Apertura): 180 partidos, coincide con la tabla. (Wikipedia no tiene artículo con partidos.)
 - [x] 1986/87 Primera B Nacional: 462 partidos, los 462 confirmados por Wikipedia. + Reducido (14) + triangular por el descenso (3).
-- [ ] 1987/88 en adelante hasta hoy.
+- [x] 1987/88–1994/95 Nacional B: 22 equipos, reducido, desempates y promociones. Con Wikipedia coinciden entre el 96% y el 100% de los partidos; las diferencias quedan anotadas en cada temporada (se dejó el resultado con el que cierra la tabla publicada).
+- [ ] 1995/96 en adelante hasta hoy.
 - [ ] Primera B 1935–1985 (hacia atrás).
 - [ ] Era amateur (segunda división hasta 1934): ver qué tiene RSSSF partido por partido.

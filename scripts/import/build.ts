@@ -1347,11 +1347,26 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
   if (cfg.wiki) {
     const cmp = await compareWithWikipedia(cfg, season);
     warnings.push(...cmp.warnings);
+    // Ascenso: si los dos equipos cierran exacto con la tabla final publicada, el resultado de RSSSF queda confirmado
+    // por la tabla y la diferencia con Wikipedia se anota en la temporada.
+    const tableTeams = cfg.wikiDiffsByTable ? new Set(verifySeason(season).map((p) => p.split(":")[0])) : null;
+    const byTable: string[] = [];
     for (const p of cmp.problems) {
       const key = Object.keys(cfg.wikiErrata ?? {}).find((k) => p.includes(k));
+      const d = p.match(/^Resultado distinto: RSSSF (\S+) (\d+)-(\d+) (\S+) \(([\d-]+)\) \/ Wikipedia (\d+)-(\d+)/);
       if (key) warnings.push(`Errata de Wikipedia ya revisada: ${p.split(" [")[0]} → ${cfg.wikiErrata![key]}`);
-      else problems.push(p);
+      else if (tableTeams && d && !tableTeams.has(d[1]) && !tableTeams.has(d[4])) {
+        warnings.push(`Confirmado por la tabla: ${p.split(" [")[0]}`);
+        const name = (id: string) => getTeam(id)?.name ?? id;
+        const [, h, hg, ag, a, date, wh, wa] = d;
+        byTable.push(`${name(h)} ${hg}-${ag} ${name(a)} (${date.split("-").reverse().join("/")}; Wikipedia: ${wh}-${wa})`);
+      } else problems.push(p);
     }
+    if (byTable.length)
+      season.notes.push({
+        kind: "fuentes",
+        text: `Resultados en los que Wikipedia no coincide con RSSSF. Quedó el de RSSSF, porque con él cierra exacta la tabla final publicada: ${byTable.join("; ")}.`,
+      });
     const unusedErrata = Object.keys(cfg.wikiErrata ?? {}).filter((k) => !cmp.problems.some((p) => p.includes(k)));
     if (unusedErrata.length) warnings.push(`Erratas configuradas que ya no aparecen: ${unusedErrata.join(", ")}`);
   }

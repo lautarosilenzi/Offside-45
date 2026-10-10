@@ -6,6 +6,9 @@ export type TournamentConfig = {
   slug: string;
   // 2 = segunda división (config-ascenso.ts): se escribe en lib/data/ascenso/generated.
   tier?: 2;
+  // Diferencias con Wikipedia en partidos de equipos cuya fila cierra exacta con la tabla publicada: se acepta RSSSF
+  // y la diferencia va a las notas (ver build.ts).
+  wikiDiffsByTable?: boolean;
   // Copa nacional: fases de eliminación, sin tabla de liga (salvo la tabla resumen que publique RSSSF).
   kind?: "cup";
   // Copa internacional: se lista aparte y solo lleva los partidos de los clubes argentinos.

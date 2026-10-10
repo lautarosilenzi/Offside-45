@@ -538,6 +538,10 @@ const OTHER_CLUBS: [string, string, string, string][] = [
   ["seleccion-tucuman", "Selección de Tucumán", "TUC", "Selección de Tucumán (Federación Tucumana de Fútbol y Asociación Cultural de Fútbol)"],
   ["liga-mendocina", "Liga Mendocina", "LME", "Selección de la Liga Mendocina de Fútbol"],
   ["liga-cultural-sde", "Liga Cultural (Santiago del Estero)", "LCU", "Selección de la Liga Cultural de Fútbol (Santiago del Estero)"],
+  // Segunda división (Nacional B 1987–1990).
+  ["estacion-quequen", "Estación Quequén (Necochea)", "EQU", "Club Social y Deportivo Estación Quequén (Quequén, Necochea)"],
+  ["fernandez-oro", "Fernández Oro (Río Negro)", "FOR", "Fernández Oro (Río Negro)"],
+  ["sportivo-italiano", "Sportivo Italiano", "SIT", "Club Sportivo Italiano (Ciudad Evita)"],
 ];
 
 export const HISTORIC_CLUBS: Team[] = OTHER_CLUBS.map(([id, name, shortName, fullName]) => ({

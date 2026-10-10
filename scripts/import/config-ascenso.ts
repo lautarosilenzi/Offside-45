@@ -2,15 +2,19 @@
 // Fuente: las páginas "Argentina Second Level" de RSSSF (tablesa/arg2-*.html), verificadas contra su propia tabla
 // y partido por partido contra la Wikipedia en castellano. Se escriben en lib/data/ascenso/generated.
 // No suman en las estadísticas ni en los títulos de Primera: solo aparecen en sus páginas y en los historiales.
+import { getTeam } from "../../lib/teams";
 import type { TournamentConfig } from "./config";
 
 const AFA = "Asociación del Fútbol Argentino";
 
 // Títulos de RSSSF que abren una sección nueva después de la fase regular (reducido, desempates).
-const B_HEADINGS = [/^PLAYOFF FOR THE SECOND PROMOTION PLACE/, /^RELEGATION PLAYOFF/];
+const B_HEADINGS = [/^PLAYOFF FOR THE SECOND PROMOTION PLACE/i, /^RELEGATION PLAYOFF/i, /^PLAYOFF TO CONFIRM PARTICIPATION/i];
+// Fin del reducido: la sección que sigue.
+const AFTER_REDUCIDO = /^(RELEGATION PLAYOFF|PLAYOFF TO CONFIRM PARTICIPATION)/i;
 
 // Fases de eliminación dentro de una sección (como en la Liguilla de Primera).
-const ROUND_HEADINGS = [/^Quarter-?finals:?$/i, /^Semi-?finals:?$/i, /^Final:?$/i];
+const ROUND_HEADINGS = [/^Quarter-?finals:?$/i, /^Semi-?finals:?$/i, /^Final:?$/i, /^First Round:?$/i, /^Second Round:?$/i];
+const nameOf = (id: string) => getTeam(id)?.name ?? id;
 
 // Primera B Nacional de temporada europea (agosto a junio): "1986/87".
 const yy = (y: number) => `${y}/${String(y + 1).slice(2)}`;
@@ -29,8 +33,11 @@ const nacionalB = (
   awardedGoalsCount: true,
   rolloverBefore: 7,
   tier: 2,
+  wikiDiffsByTable: true,
   headings: B_HEADINGS,
   ...rest,
+  // Nombres cortos de Wikipedia que en la Nacional B no dejan dudas.
+  aliases: { Defensa: "defensa-y-justicia", Italiano: "deportivo-italiano", Morón: "deportivo-moron", Chicago: "nueva-chicago", Chacarita: "chacarita", ...rest.aliases },
 });
 // Torneos que siguen a la temporada (reducido, desempates): sin tabla propia, slug "b-nacional-1986-87-reducido".
 const nacionalBExtra = (
@@ -105,3 +112,145 @@ export const ASCENSO_TOURNAMENTS: TournamentConfig[] = [
     notes: [{ kind: "formato", text: "Triangular a una rueda en cancha neutral entre los tres equipos con el peor promedio." }],
   }),
 ];
+
+// ───────── Primera B Nacional 1987/88–1994/95: 22 equipos a dos ruedas, campeón asciende y el reducido da el segundo ascenso ─────────
+// Campeón y ganador del reducido: notas de RSSSF ("promoted to First Division"); `extras`, las secciones que tiene la página.
+type NacionalBYear = {
+  y: number;
+  champion: string;
+  reducido: string;
+  // "campeonato": desempate por el título entre los dos primeros (1992/93).
+  extras?: ("campeonato" | "desempate" | "promocion")[];
+  notes?: TournamentConfig["notes"];
+  // Descuentos de puntos, correcciones por partido, etc. de la temporada regular.
+  more?: Partial<TournamentConfig>;
+};
+const nacionalBYear = ({ y, champion, reducido, extras = [], notes = [], more = {} }: NacionalBYear): TournamentConfig[] => [
+  nacionalB(y, {
+    section: /^Nacional B/,
+    wiki: `Campeonato Nacional B ${y}-${String(y + 1).slice(2)}`,
+    championIds: extras.includes("campeonato") ? [] : [champion],
+    ...more,
+    summary: `${nameOf(champion)} salió campeón y ascendió a Primera. El segundo ascenso fue para ${nameOf(reducido)}, que ganó el reducido.`,
+    notes: [{ kind: "formato", text: "22 equipos, todos contra todos a dos ruedas, 2 puntos por victoria. El campeón asciende; los siguientes juegan el reducido por el segundo ascenso." }, ...notes],
+  }),
+  ...(extras.includes("campeonato")
+    ? [
+        nacionalBExtra(y, "campeonato", "Desempate por el campeonato", {
+          sectionRange: { from: /^Championship Playoff/i, to: /^PLAYOFF FOR THE SECOND PROMOTION PLACE/i },
+          publishedTable: [],
+          playoffFrom: { date: `${y + 1}-01-01`, stage: "Final por el campeonato" },
+          championIds: [champion],
+          summary: `Los dos primeros terminaron igualados en puntos y jugaron una final por el título: la ganó ${nameOf(champion)}, que ascendió a Primera.`,
+          notes: [],
+        }),
+      ]
+    : []),
+  nacionalBExtra(y, "reducido", "Reducido", {
+    sectionRange: { from: /^PLAYOFF FOR THE SECOND PROMOTION PLACE/i, to: AFTER_REDUCIDO },
+    headings: [...B_HEADINGS, ...ROUND_HEADINGS],
+    championIds: [reducido],
+    summary: `${nameOf(reducido)} ganó el reducido y ascendió a Primera.`,
+    notes: [{ kind: "formato", text: "Eliminación directa a ida y vuelta por el segundo ascenso. Con igualdad en la serie pasaba el mejor ubicado en la tabla." }],
+  }),
+  ...(extras.includes("desempate")
+    ? [
+        nacionalBExtra(y, "desempate", "Desempate por el descenso", {
+          section: /^RELEGATION PLAYOFF/i,
+          publishedTable: [],
+          playoffFrom: { date: `${y + 1}-01-01`, stage: "Desempate por el descenso" },
+          championIds: [],
+          summary: "Desempate entre los equipos que terminaron igualados en el promedio del descenso.",
+          notes: [],
+        }),
+      ]
+    : []),
+  ...(extras.includes("promocion")
+    ? [
+        nacionalBExtra(y, "promocion", "Promoción", {
+          section: /^PLAYOFF TO CONFIRM PARTICIPATION/i,
+          publishedTable: [],
+          playoffFrom: { date: `${y + 1}-01-01`, stage: "Promoción" },
+          championIds: [],
+          summary: "Serie de promoción por un lugar en la Primera B Nacional de la temporada siguiente.",
+          notes: [],
+        }),
+      ]
+    : []),
+];
+
+ASCENSO_TOURNAMENTS.push(
+  ...nacionalBYear({ y: 1987, champion: "deportivo-mandiyu", reducido: "san-martin-tucuman", extras: ["promocion"] }),
+  ...nacionalBYear({
+    y: 1988,
+    champion: "chaco-for-ever",
+    reducido: "union-santa-fe",
+    extras: ["promocion"],
+    more: {
+      pointAdjustments: [
+        { teamId: "douglas-haig", points: -2, reason: "descuento que registra RSSSF (la fuente no da el motivo)" },
+        { teamId: "chacarita", points: -3, reason: "descuento que registra RSSSF (la fuente no da el motivo)" },
+      ],
+    },
+  }),
+  ...nacionalBYear({
+    y: 1989,
+    champion: "huracan",
+    reducido: "lanus",
+    extras: ["promocion"],
+    more: { pointAdjustments: [{ teamId: "central-cordoba-sde", points: -2, reason: "descuento que registra RSSSF (la fuente no da el motivo)" }] },
+  }),
+  ...nacionalBYear({
+    y: 1990,
+    champion: "quilmes",
+    reducido: "belgrano",
+    extras: ["desempate", "promocion"],
+    more: {
+      pointAdjustments: [{ teamId: "atlanta", points: -8, reason: "descuento posterior al partido con Cipolletti que se suspendió a los 75 minutos y no se completó" }],
+      overrides: {
+        // RSSSF lista 0-0, pero su propia tabla y Wikipedia dan 0-1.
+        "1990-10-31 racing-cordoba quilmes": { homeGoals: 0, awayGoals: 1, note: "RSSSF lo lista 0-0, pero su propia tabla y Wikipedia dan la victoria de Quilmes 0-1." },
+      },
+    },
+  }),
+  ...nacionalBYear({
+    y: 1991,
+    champion: "lanus",
+    reducido: "san-martin-tucuman",
+    extras: ["promocion"],
+    more: {
+      knownTableDiffs: {
+        keys: ["almirante-brown:goalsFor", "almirante-brown:goalsAgainst", "deportivo-italiano:goalsFor", "deportivo-italiano:goalsAgainst"],
+        explanation:
+          "RSSSF y Wikipedia publican para Almirante Brown 56 goles a favor y 38 en contra, y para Deportivo Italiano 42 y 43, pero sus partidos (iguales en las dos fuentes) suman 55-37 y 43-44. Puntos, ganados, empatados y perdidos coinciden. Quedan los partidos tal como los dan las fuentes.",
+      },
+      wikiErrata: {
+        "RSSSF racing-cordoba 1-0 almirante-brown": "Wikipedia da 0-1; quedó el 1-0 de RSSSF, con el que cierran exactos los puntos de los dos equipos en la tabla publicada.",
+      },
+    },
+  }),
+  ...nacionalBYear({ y: 1992, champion: "banfield", reducido: "gimnasia-tiro-salta", extras: ["campeonato"] }),
+  ...nacionalBYear({
+    y: 1993,
+    champion: "gimnasia-jujuy",
+    reducido: "talleres",
+    more: {
+      knownTableDiffs: {
+        keys: ["san-martin-tucuman:drawn", "san-martin-tucuman:lost", "san-martin-tucuman:goalsAgainst", "san-martin-tucuman:points", "sarmiento-junin:drawn", "sarmiento-junin:lost", "sarmiento-junin:goalsAgainst", "sarmiento-junin:points"],
+        explanation:
+          "RSSSF y Wikipedia publican la misma tabla final, pero para San Martín de Tucumán y Sarmiento de Junín no cierra con los partidos: a San Martín le sobra una derrota y un gol en contra (le falta un empate) y a Sarmiento al revés. No encontramos el partido que lo explique; quedan los resultados de RSSSF (a verificar).",
+      },
+      wikiErrata: {
+        "RSSSF talleres 1-0 san-martin-tucuman": "Wikipedia da 1-1. A verificar: ninguno de los dos resultados hace cerrar la tabla publicada.",
+        "RSSSF arsenal 1-0 sarmiento-junin": "Wikipedia da 2-1. A verificar: ninguno de los dos resultados hace cerrar la tabla publicada.",
+        "RSSSF san-martin-tucuman 2-1 ituzaingo": "Wikipedia da 0-0 (la fila está pegada al cuadro del reducido). A verificar.",
+      },
+    },
+  }),
+  ...nacionalBYear({
+    y: 1994,
+    champion: "estudiantes",
+    reducido: "colon-santa-fe",
+    more: { pointAdjustments: [{ teamId: "union-santa-fe", points: -2, reason: "descuento que registra RSSSF (la fuente no da el motivo)" }] },
+  }),
+);

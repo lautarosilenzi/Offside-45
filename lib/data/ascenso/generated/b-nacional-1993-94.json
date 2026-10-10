@@ -1,0 +1,7188 @@
+{
+ "slug": "b-nacional-1993-94",
+ "year": 1993,
+ "yearLabel": "1993/94",
+ "tier": 2,
+ "title": "Primera B Nacional 1993/94",
+ "tournament": "Campeonato Nacional B 1993/94",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "gimnasia-jujuy"
+ ],
+ "summary": "Gimnasia y Esgrima (Jujuy) salió campeón y ascendió a Primera. El segundo ascenso fue para Talleres (C), que ganó el reducido.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1993",
+   "url": "https://www.rsssf.org/tablesa/arg2-94.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato Nacional B 1993-94",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_Nacional_B_1993-94"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "22 equipos, todos contra todos a dos ruedas, 2 puntos por victoria. El campeón asciende; los siguientes juegan el reducido por el segundo ascenso."
+  },
+  {
+   "kind": "fuentes",
+   "text": "Resultados en los que Wikipedia no coincide con RSSSF. Quedó el de RSSSF, porque con él cierra exacta la tabla final publicada: Atlético de Rafaela 0-1 Deportivo Italiano (05/03/1994; Wikipedia: 1-4); Deportivo Italiano 0-2 Colón (Santa Fe) (19/10/1993; Wikipedia: 2-0); Talleres (RdE) 2-3 All Boys (23/04/1994; Wikipedia: 1-3); Atlético Tucumán 2-3 Instituto (Córdoba) (28/08/1993; Wikipedia: 3-0); Douglas Haig 0-0 Atlético de Rafaela (28/08/1993; Wikipedia: 0-2); Nueva Chicago 0-0 Talleres (RdE) (28/08/1993; Wikipedia: 1-1); Quilmes 3-0 All Boys (28/08/1993; Wikipedia: 1-1); Almirante Brown 3-2 Chaco For Ever (28/08/1993; Wikipedia: 1-1); Gimnasia y Esgrima (Jujuy) 3-0 Deportivo Morón (29/08/1993; Wikipedia: 4-0); Unión (Santa Fe) 5-1 Central Córdoba (Rosario) (19/10/1993; Wikipedia: 1-1); Douglas Haig 2-2 Talleres (C) (13/04/1994; Wikipedia: 0-0)."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "gimnasia-jujuy",
+   "played": 42,
+   "won": 21,
+   "drawn": 16,
+   "lost": 5,
+   "goalsFor": 66,
+   "goalsAgainst": 36,
+   "points": 58
+  },
+  {
+   "teamId": "quilmes",
+   "played": 42,
+   "won": 20,
+   "drawn": 15,
+   "lost": 7,
+   "goalsFor": 71,
+   "goalsAgainst": 41,
+   "points": 55
+  },
+  {
+   "teamId": "san-martin-tucuman",
+   "played": 42,
+   "won": 14,
+   "drawn": 19,
+   "lost": 9,
+   "goalsFor": 51,
+   "goalsAgainst": 39,
+   "points": 47
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 42,
+   "won": 17,
+   "drawn": 13,
+   "lost": 12,
+   "goalsFor": 59,
+   "goalsAgainst": 49,
+   "points": 47
+  },
+  {
+   "teamId": "talleres",
+   "played": 42,
+   "won": 15,
+   "drawn": 17,
+   "lost": 10,
+   "goalsFor": 42,
+   "goalsAgainst": 34,
+   "points": 47
+  },
+  {
+   "teamId": "nueva-chicago",
+   "played": 42,
+   "won": 16,
+   "drawn": 14,
+   "lost": 12,
+   "goalsFor": 70,
+   "goalsAgainst": 52,
+   "points": 46
+  },
+  {
+   "teamId": "instituto",
+   "played": 42,
+   "won": 16,
+   "drawn": 14,
+   "lost": 12,
+   "goalsFor": 59,
+   "goalsAgainst": 50,
+   "points": 46
+  },
+  {
+   "teamId": "atletico-tucuman",
+   "played": 42,
+   "won": 18,
+   "drawn": 9,
+   "lost": 15,
+   "goalsFor": 64,
+   "goalsAgainst": 52,
+   "points": 45
+  },
+  {
+   "teamId": "all-boys",
+   "played": 42,
+   "won": 18,
+   "drawn": 9,
+   "lost": 15,
+   "goalsFor": 55,
+   "goalsAgainst": 59,
+   "points": 45
+  },
+  {
+   "teamId": "deportivo-moron",
+   "played": 42,
+   "won": 15,
+   "drawn": 15,
+   "lost": 12,
+   "goalsFor": 61,
+   "goalsAgainst": 72,
+   "points": 45
+  },
+  {
+   "teamId": "arsenal",
+   "played": 42,
+   "won": 13,
+   "drawn": 17,
+   "lost": 12,
+   "goalsFor": 42,
+   "goalsAgainst": 39,
+   "points": 43
+  },
+  {
+   "teamId": "union-santa-fe",
+   "played": 42,
+   "won": 15,
+   "drawn": 13,
+   "lost": 14,
+   "goalsFor": 55,
+   "goalsAgainst": 54,
+   "points": 43
+  },
+  {
+   "teamId": "atletico-rafaela",
+   "played": 42,
+   "won": 13,
+   "drawn": 16,
+   "lost": 13,
+   "goalsFor": 52,
+   "goalsAgainst": 50,
+   "points": 42
+  },
+  {
+   "teamId": "douglas-haig",
+   "played": 42,
+   "won": 12,
+   "drawn": 17,
+   "lost": 13,
+   "goalsFor": 50,
+   "goalsAgainst": 52,
+   "points": 41
+  },
+  {
+   "teamId": "laferrere",
+   "played": 42,
+   "won": 11,
+   "drawn": 17,
+   "lost": 14,
+   "goalsFor": 45,
+   "goalsAgainst": 54,
+   "points": 39
+  },
+  {
+   "teamId": "almirante-brown",
+   "played": 42,
+   "won": 12,
+   "drawn": 14,
+   "lost": 16,
+   "goalsFor": 51,
+   "goalsAgainst": 63,
+   "points": 38
+  },
+  {
+   "teamId": "deportivo-italiano",
+   "played": 42,
+   "won": 11,
+   "drawn": 14,
+   "lost": 17,
+   "goalsFor": 41,
+   "goalsAgainst": 43,
+   "points": 36
+  },
+  {
+   "teamId": "sarmiento-junin",
+   "played": 42,
+   "won": 9,
+   "drawn": 18,
+   "lost": 15,
+   "goalsFor": 43,
+   "goalsAgainst": 55,
+   "points": 36
+  },
+  {
+   "teamId": "central-cordoba-rosario",
+   "played": 42,
+   "won": 9,
+   "drawn": 16,
+   "lost": 17,
+   "goalsFor": 44,
+   "goalsAgainst": 63,
+   "points": 34
+  },
+  {
+   "teamId": "talleres-re",
+   "played": 42,
+   "won": 9,
+   "drawn": 14,
+   "lost": 19,
+   "goalsFor": 35,
+   "goalsAgainst": 58,
+   "points": 32
+  },
+  {
+   "teamId": "ituzaingo",
+   "played": 42,
+   "won": 9,
+   "drawn": 12,
+   "lost": 21,
+   "goalsFor": 36,
+   "goalsAgainst": 52,
+   "points": 30
+  },
+  {
+   "teamId": "chaco-for-ever",
+   "played": 42,
+   "won": 6,
+   "drawn": 17,
+   "lost": 19,
+   "goalsFor": 28,
+   "goalsAgainst": 53,
+   "points": 29
+  }
+ ],
+ "knownTableDiffs": {
+  "keys": [
+   "san-martin-tucuman:drawn",
+   "san-martin-tucuman:lost",
+   "san-martin-tucuman:goalsAgainst",
+   "san-martin-tucuman:points",
+   "sarmiento-junin:drawn",
+   "sarmiento-junin:lost",
+   "sarmiento-junin:goalsAgainst",
+   "sarmiento-junin:points"
+  ],
+  "explanation": "RSSSF y Wikipedia publican la misma tabla final, pero para San Martín de Tucumán y Sarmiento de Junín no cierra con los partidos: a San Martín le sobra una derrota y un gol en contra (le falta un empate) y a Sarmiento al revés. No encontramos el partido que lo explique; quedan los resultados de RSSSF (a verificar)."
+ },
+ "matches": [
+  {
+   "id": "b-nacional-1993-94-001",
+   "date": "1993-08-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "ituzaingo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-002",
+   "date": "1993-08-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-003",
+   "date": "1993-08-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-004",
+   "date": "1993-08-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-005",
+   "date": "1993-08-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-006",
+   "date": "1993-08-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-007",
+   "date": "1993-08-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-008",
+   "date": "1993-08-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-009",
+   "date": "1993-08-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-010",
+   "date": "1993-09-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-011",
+   "date": "1993-09-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-012",
+   "date": "1993-08-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "laferrere",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-013",
+   "date": "1993-08-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-014",
+   "date": "1993-08-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-015",
+   "date": "1993-08-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-016",
+   "date": "1993-08-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-017",
+   "date": "1993-08-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-018",
+   "date": "1993-08-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-019",
+   "date": "1993-08-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-020",
+   "date": "1993-08-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-021",
+   "date": "1993-08-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "deportivo-moron",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-022",
+   "date": "1993-10-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-023",
+   "date": "1993-09-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-024",
+   "date": "1993-09-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-025",
+   "date": "1993-09-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-026",
+   "date": "1993-09-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-027",
+   "date": "1993-09-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-028",
+   "date": "1993-09-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "douglas-haig",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-029",
+   "date": "1993-09-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-030",
+   "date": "1993-09-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-031",
+   "date": "1993-09-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-032",
+   "date": "1993-09-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-033",
+   "date": "1993-10-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "ituzaingo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-034",
+   "date": "1993-09-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-035",
+   "date": "1993-09-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-036",
+   "date": "1993-09-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-037",
+   "date": "1993-09-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-038",
+   "date": "1993-09-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-039",
+   "date": "1993-09-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-040",
+   "date": "1993-09-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-041",
+   "date": "1993-09-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "ituzaingo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-042",
+   "date": "1993-09-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "laferrere",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-043",
+   "date": "1993-09-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-044",
+   "date": "1993-09-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-045",
+   "date": "1993-09-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-046",
+   "date": "1993-09-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-047",
+   "date": "1993-09-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-048",
+   "date": "1993-09-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "douglas-haig",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-049",
+   "date": "1993-09-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-050",
+   "date": "1993-09-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-051",
+   "date": "1993-09-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-052",
+   "date": "1993-09-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-053",
+   "date": "1993-09-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "deportivo-moron",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-054",
+   "date": "1993-09-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-055",
+   "date": "1993-09-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-056",
+   "date": "1993-09-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-057",
+   "date": "1993-09-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-058",
+   "date": "1993-09-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-059",
+   "date": "1993-09-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-060",
+   "date": "1993-09-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-061",
+   "date": "1993-09-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-062",
+   "date": "1993-09-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "ituzaingo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-063",
+   "date": "1993-09-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-064",
+   "date": "1993-09-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-065",
+   "date": "1993-09-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "talleres-re",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-066",
+   "date": "1993-09-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-067",
+   "date": "1993-10-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "douglas-haig",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-068",
+   "date": "1993-10-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "talleres",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-069",
+   "date": "1993-10-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-070",
+   "date": "1993-10-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-071",
+   "date": "1993-10-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "deportivo-moron",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-072",
+   "date": "1993-10-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "laferrere",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-073",
+   "date": "1993-10-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-074",
+   "date": "1993-10-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-075",
+   "date": "1993-10-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-076",
+   "date": "1993-10-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-077",
+   "date": "1993-10-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-078",
+   "date": "1993-10-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-079",
+   "date": "1993-10-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-080",
+   "date": "1993-10-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-081",
+   "date": "1993-10-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-082",
+   "date": "1993-10-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-083",
+   "date": "1993-10-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "ituzaingo",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-084",
+   "date": "1993-10-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "almirante-brown",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-085",
+   "date": "1993-10-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-086",
+   "date": "1993-10-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-087",
+   "date": "1993-10-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-088",
+   "date": "1993-10-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-089",
+   "date": "1993-10-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-090",
+   "date": "1993-10-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-091",
+   "date": "1993-10-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-092",
+   "date": "1993-10-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "douglas-haig",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-093",
+   "date": "1993-10-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-094",
+   "date": "1993-10-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-095",
+   "date": "1993-10-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-096",
+   "date": "1993-10-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-097",
+   "date": "1993-10-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "deportivo-moron",
+   "homeGoals": 1,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-098",
+   "date": "1993-10-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "laferrere",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-099",
+   "date": "1993-10-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-100",
+   "date": "1993-10-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-101",
+   "date": "1993-10-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "talleres-re",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-102",
+   "date": "1993-10-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-103",
+   "date": "1993-10-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-105",
+   "date": "1993-10-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-106",
+   "date": "1993-10-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-107",
+   "date": "1993-10-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "ituzaingo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-108",
+   "date": "1993-10-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "arsenal",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-109",
+   "date": "1993-10-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-110",
+   "date": "1993-10-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Empezó el 16/10 y se suspendió con 0-1; se completó en esta fecha."
+  },
+  {
+   "id": "b-nacional-1993-94-111",
+   "date": "1993-10-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-112",
+   "date": "1993-10-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-113",
+   "date": "1993-10-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-114",
+   "date": "1993-10-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "douglas-haig",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-115",
+   "date": "1993-10-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-116",
+   "date": "1993-10-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-117",
+   "date": "1993-10-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-118",
+   "date": "1993-10-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-119",
+   "date": "1993-10-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "laferrere",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-120",
+   "date": "1993-10-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "instituto",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-121",
+   "date": "1993-10-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-122",
+   "date": "1993-10-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "deportivo-moron",
+   "homeGoals": 6,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-123",
+   "date": "1993-10-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-124",
+   "date": "1993-10-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-125",
+   "date": "1993-10-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-126",
+   "date": "1993-10-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-127",
+   "date": "1993-10-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-128",
+   "date": "1993-10-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-129",
+   "date": "1993-10-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "almirante-brown",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-130",
+   "date": "1993-10-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-131",
+   "date": "1993-10-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-132",
+   "date": "1993-10-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "ituzaingo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-133",
+   "date": "1993-10-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-134",
+   "date": "1993-11-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "deportivo-moron",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-135",
+   "date": "1993-11-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "laferrere",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-136",
+   "date": "1993-11-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-137",
+   "date": "1993-11-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "douglas-haig",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-138",
+   "date": "1993-11-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-139",
+   "date": "1993-11-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-140",
+   "date": "1993-11-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-141",
+   "date": "1993-11-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-142",
+   "date": "1993-11-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-143",
+   "date": "1993-11-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-144",
+   "date": "1993-11-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-145",
+   "date": "1993-11-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-146",
+   "date": "1993-11-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-147",
+   "date": "1993-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-148",
+   "date": "1993-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-149",
+   "date": "1993-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-150",
+   "date": "1993-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-151",
+   "date": "1993-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "ituzaingo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-152",
+   "date": "1993-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-153",
+   "date": "1993-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-154",
+   "date": "1993-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-155",
+   "date": "1993-11-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-156",
+   "date": "1993-11-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "douglas-haig",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-157",
+   "date": "1993-11-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-158",
+   "date": "1993-11-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-159",
+   "date": "1993-11-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-160",
+   "date": "1993-11-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "deportivo-moron",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-161",
+   "date": "1993-11-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "laferrere",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-162",
+   "date": "1993-11-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-163",
+   "date": "1993-11-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-164",
+   "date": "1993-11-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-165",
+   "date": "1993-11-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-166",
+   "date": "1993-11-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-167",
+   "date": "1993-11-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-168",
+   "date": "1993-11-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-169",
+   "date": "1993-11-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-170",
+   "date": "1993-11-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-171",
+   "date": "1993-11-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "ituzaingo",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-172",
+   "date": "1993-11-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-173",
+   "date": "1993-11-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-174",
+   "date": "1993-11-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-175",
+   "date": "1993-11-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-176",
+   "date": "1993-11-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-177",
+   "date": "1993-11-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "douglas-haig",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-178",
+   "date": "1993-11-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "talleres-re",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-179",
+   "date": "1993-11-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-180",
+   "date": "1993-11-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-181",
+   "date": "1993-11-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-182",
+   "date": "1993-11-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-183",
+   "date": "1993-11-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "deportivo-moron",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-184",
+   "date": "1993-11-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "laferrere",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-185",
+   "date": "1993-11-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-186",
+   "date": "1993-11-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-187",
+   "date": "1993-11-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-188",
+   "date": "1993-11-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-189",
+   "date": "1993-12-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-190",
+   "date": "1993-12-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "douglas-haig",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-191",
+   "date": "1993-12-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-192",
+   "date": "1993-12-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-193",
+   "date": "1993-12-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-194",
+   "date": "1993-12-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-195",
+   "date": "1993-12-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-196",
+   "date": "1993-12-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-197",
+   "date": "1993-12-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-198",
+   "date": "1993-12-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "ituzaingo",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-199",
+   "date": "1993-12-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-200",
+   "date": "1993-12-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-201",
+   "date": "1993-12-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-202",
+   "date": "1993-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-203",
+   "date": "1993-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-204",
+   "date": "1993-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-205",
+   "date": "1993-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "deportivo-moron",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-206",
+   "date": "1993-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "laferrere",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-207",
+   "date": "1993-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-208",
+   "date": "1993-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "talleres-re",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-209",
+   "date": "1993-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-210",
+   "date": "1993-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-211",
+   "date": "1993-12-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-212",
+   "date": "1993-12-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-213",
+   "date": "1993-12-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "ituzaingo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-214",
+   "date": "1993-12-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "almirante-brown",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-215",
+   "date": "1993-12-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-216",
+   "date": "1993-12-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-217",
+   "date": "1993-12-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-218",
+   "date": "1993-12-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-219",
+   "date": "1993-12-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-220",
+   "date": "1993-12-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-221",
+   "date": "1993-12-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-222",
+   "date": "1994-02-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "laferrere",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-223",
+   "date": "1994-02-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-224",
+   "date": "1994-02-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-225",
+   "date": "1994-02-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-226",
+   "date": "1994-02-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-227",
+   "date": "1994-02-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "deportivo-moron",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-228",
+   "date": "1994-02-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-229",
+   "date": "1994-02-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-230",
+   "date": "1994-02-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "talleres-re",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-231",
+   "date": "1994-02-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-232",
+   "date": "1994-02-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-233",
+   "date": "1994-02-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-234",
+   "date": "1994-02-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-235",
+   "date": "1994-02-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-236",
+   "date": "1994-02-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "laferrere",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-237",
+   "date": "1994-02-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-238",
+   "date": "1994-02-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-239",
+   "date": "1994-02-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-240",
+   "date": "1994-02-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "talleres-re",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-241",
+   "date": "1994-02-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-242",
+   "date": "1994-02-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "deportivo-moron",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-243",
+   "date": "1994-02-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-244",
+   "date": "1994-02-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-245",
+   "date": "1994-02-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-246",
+   "date": "1994-02-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "ituzaingo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-247",
+   "date": "1994-02-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-248",
+   "date": "1994-02-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-249",
+   "date": "1994-02-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-250",
+   "date": "1994-02-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-251",
+   "date": "1994-02-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "arsenal",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-252",
+   "date": "1994-02-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-253",
+   "date": "1994-02-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "douglas-haig",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-254",
+   "date": "1994-02-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-255",
+   "date": "1994-02-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-256",
+   "date": "1994-02-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-257",
+   "date": "1994-02-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-258",
+   "date": "1994-02-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "deportivo-moron",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-259",
+   "date": "1994-02-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-260",
+   "date": "1994-02-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-261",
+   "date": "1994-02-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-262",
+   "date": "1994-02-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-263",
+   "date": "1994-02-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-264",
+   "date": "1994-02-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-265",
+   "date": "1994-02-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "laferrere",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-266",
+   "date": "1994-03-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-267",
+   "date": "1994-03-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "deportivo-moron",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-268",
+   "date": "1994-03-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-269",
+   "date": "1994-03-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-270",
+   "date": "1994-03-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-271",
+   "date": "1994-03-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-272",
+   "date": "1994-03-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-273",
+   "date": "1994-03-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-274",
+   "date": "1994-03-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-275",
+   "date": "1994-03-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-276",
+   "date": "1994-03-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-277",
+   "date": "1994-03-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-278",
+   "date": "1994-03-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-279",
+   "date": "1994-03-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-280",
+   "date": "1994-03-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "ituzaingo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-281",
+   "date": "1994-03-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-282",
+   "date": "1994-03-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-283",
+   "date": "1994-03-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-284",
+   "date": "1994-03-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "all-boys",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-285",
+   "date": "1994-03-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-286",
+   "date": "1994-03-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-287",
+   "date": "1994-03-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "laferrere",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-288",
+   "date": "1994-03-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "laferrere",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-289",
+   "date": "1994-03-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "deportivo-moron",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-290",
+   "date": "1994-03-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-291",
+   "date": "1994-03-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 5,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-292",
+   "date": "1994-03-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-293",
+   "date": "1994-03-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-294",
+   "date": "1994-03-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-295",
+   "date": "1994-03-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-296",
+   "date": "1994-03-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-297",
+   "date": "1994-03-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-298",
+   "date": "1994-03-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-299",
+   "date": "1994-03-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "talleres-re",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-300",
+   "date": "1994-03-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 7,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-301",
+   "date": "1994-03-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-302",
+   "date": "1994-03-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-303",
+   "date": "1994-03-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "ituzaingo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-304",
+   "date": "1994-03-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-305",
+   "date": "1994-03-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-306",
+   "date": "1994-03-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-307",
+   "date": "1994-03-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-308",
+   "date": "1994-03-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-309",
+   "date": "1994-03-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-310",
+   "date": "1994-03-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-311",
+   "date": "1994-03-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-312",
+   "date": "1994-03-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "deportivo-moron",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-313",
+   "date": "1994-03-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "union-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-314",
+   "date": "1994-03-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-315",
+   "date": "1994-03-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-316",
+   "date": "1994-03-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-317",
+   "date": "1994-03-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-318",
+   "date": "1994-03-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "laferrere",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-319",
+   "date": "1994-03-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-320",
+   "date": "1994-03-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "douglas-haig",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-321",
+   "date": "1994-04-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-322",
+   "date": "1994-04-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-323",
+   "date": "1994-04-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-324",
+   "date": "1994-04-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "ituzaingo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-325",
+   "date": "1994-04-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-326",
+   "date": "1994-04-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-327",
+   "date": "1994-04-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-328",
+   "date": "1994-04-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-329",
+   "date": "1994-04-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-330",
+   "date": "1994-04-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-331",
+   "date": "1994-04-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-332",
+   "date": "1994-04-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "laferrere",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-333",
+   "date": "1994-04-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "douglas-haig",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-334",
+   "date": "1994-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-335",
+   "date": "1994-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "deportivo-moron",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-336",
+   "date": "1994-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-337",
+   "date": "1994-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-338",
+   "date": "1994-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "nueva-chicago",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-339",
+   "date": "1994-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-340",
+   "date": "1994-04-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-341",
+   "date": "1994-04-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-342",
+   "date": "1994-04-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-343",
+   "date": "1994-04-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-344",
+   "date": "1994-04-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "talleres",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-345",
+   "date": "1994-04-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-346",
+   "date": "1994-04-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-347",
+   "date": "1994-04-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-348",
+   "date": "1994-04-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-349",
+   "date": "1994-04-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-350",
+   "date": "1994-04-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "all-boys",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-351",
+   "date": "1994-04-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "talleres-re",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-352",
+   "date": "1994-04-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-353",
+   "date": "1994-04-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "ituzaingo",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-354",
+   "date": "1994-04-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "talleres-re",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-355",
+   "date": "1994-04-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-356",
+   "date": "1994-04-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-357",
+   "date": "1994-04-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "deportivo-moron",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-358",
+   "date": "1994-04-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-359",
+   "date": "1994-04-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-360",
+   "date": "1994-04-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-361",
+   "date": "1994-04-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "douglas-haig",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-362",
+   "date": "1994-04-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-363",
+   "date": "1994-04-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "union-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-364",
+   "date": "1994-04-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "laferrere",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-365",
+   "date": "1994-04-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-366",
+   "date": "1994-04-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-367",
+   "date": "1994-04-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-368",
+   "date": "1994-04-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "almirante-brown",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-369",
+   "date": "1994-04-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-370",
+   "date": "1994-04-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-371",
+   "date": "1994-04-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-372",
+   "date": "1994-04-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-373",
+   "date": "1994-04-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-374",
+   "date": "1994-04-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-375",
+   "date": "1994-04-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "ituzaingo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-376",
+   "date": "1994-04-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "douglas-haig",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-377",
+   "date": "1994-04-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-378",
+   "date": "1994-04-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-379",
+   "date": "1994-04-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-380",
+   "date": "1994-04-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-381",
+   "date": "1994-04-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "laferrere",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-382",
+   "date": "1994-04-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "deportivo-moron",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-383",
+   "date": "1994-04-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-384",
+   "date": "1994-04-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-385",
+   "date": "1994-04-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-386",
+   "date": "1994-04-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-387",
+   "date": "1994-05-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-388",
+   "date": "1994-05-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-389",
+   "date": "1994-05-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-390",
+   "date": "1994-05-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-391",
+   "date": "1994-05-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "ituzaingo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-392",
+   "date": "1994-05-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-393",
+   "date": "1994-05-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-394",
+   "date": "1994-05-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-395",
+   "date": "1994-05-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-396",
+   "date": "1994-05-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-397",
+   "date": "1994-05-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-398",
+   "date": "1994-05-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-399",
+   "date": "1994-05-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-400",
+   "date": "1994-05-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-401",
+   "date": "1994-05-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-402",
+   "date": "1994-05-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "laferrere",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-403",
+   "date": "1994-05-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "deportivo-moron",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-404",
+   "date": "1994-05-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "union-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-405",
+   "date": "1994-05-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-406",
+   "date": "1994-05-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-407",
+   "date": "1994-05-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-408",
+   "date": "1994-05-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-409",
+   "date": "1994-05-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-410",
+   "date": "1994-05-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-411",
+   "date": "1994-05-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "arsenal",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-412",
+   "date": "1994-05-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "talleres",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-413",
+   "date": "1994-05-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "almirante-brown",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-414",
+   "date": "1994-05-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "ituzaingo",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-415",
+   "date": "1994-05-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-416",
+   "date": "1994-05-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-417",
+   "date": "1994-05-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-418",
+   "date": "1994-05-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-419",
+   "date": "1994-05-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-420",
+   "date": "1994-05-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-421",
+   "date": "1994-05-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-422",
+   "date": "1994-05-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-423",
+   "date": "1994-05-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-424",
+   "date": "1994-05-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "instituto",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-425",
+   "date": "1994-05-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "laferrere",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-426",
+   "date": "1994-05-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "union-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-427",
+   "date": "1994-05-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-428",
+   "date": "1994-05-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-429",
+   "date": "1994-05-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "all-boys",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-430",
+   "date": "1994-06-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "deportivo-moron",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-431",
+   "date": "1994-06-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-432",
+   "date": "1994-06-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-433",
+   "date": "1994-06-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-434",
+   "date": "1994-06-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-435",
+   "date": "1994-06-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-436",
+   "date": "1994-06-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "arsenal",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-437",
+   "date": "1994-06-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "talleres",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-438",
+   "date": "1994-06-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-439",
+   "date": "1994-06-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "ituzaingo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-440",
+   "date": "1994-06-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-441",
+   "date": "1994-06-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-442",
+   "date": "1994-06-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "central-cordoba-rosario",
+   "awayId": "chaco-for-ever",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-443",
+   "date": "1994-06-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-444",
+   "date": "1994-06-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-445",
+   "date": "1994-06-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "talleres",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-446",
+   "date": "1994-06-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "arsenal",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-447",
+   "date": "1994-06-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-448",
+   "date": "1994-06-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "laferrere",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-449",
+   "date": "1994-06-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "deportivo-moron",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-450",
+   "date": "1994-06-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "union-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-451",
+   "date": "1994-06-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-452",
+   "date": "1994-06-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "ituzaingo",
+   "awayId": "sarmiento-junin",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-453",
+   "date": "1994-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "central-cordoba-rosario",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-454",
+   "date": "1994-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "deportivo-moron",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-455",
+   "date": "1994-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "laferrere",
+   "awayId": "douglas-haig",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-456",
+   "date": "1994-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-457",
+   "date": "1994-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-458",
+   "date": "1994-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "arsenal",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-459",
+   "date": "1994-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "talleres",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-460",
+   "date": "1994-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "sarmiento-junin",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-461",
+   "date": "1994-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "ituzaingo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-462",
+   "date": "1994-06-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "chaco-for-ever",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1993-94-463",
+   "date": "1994-06-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "union-santa-fe",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}

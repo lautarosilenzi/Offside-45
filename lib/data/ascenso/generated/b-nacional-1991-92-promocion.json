@@ -1,0 +1,51 @@
+{
+ "slug": "b-nacional-1991-92-promocion",
+ "year": 1991,
+ "yearLabel": "1991/92",
+ "league": "Promoción",
+ "tier": 2,
+ "title": "Primera B Nacional 1991/92 · Promoción",
+ "tournament": "Promoción de la Primera B Nacional 1991/92",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Serie de promoción por un lugar en la Primera B Nacional de la temporada siguiente.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1991",
+   "url": "https://www.rsssf.org/tablesa/arg2-92.html"
+  }
+ ],
+ "notes": [],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-1991-92-promocion-001",
+   "date": "1992-06-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "racing-cordoba",
+   "awayId": "general-paz-juniors",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1991-92-promocion-002",
+   "date": "1992-06-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "atletico-rafaela",
+   "awayId": "nueve-de-julio-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

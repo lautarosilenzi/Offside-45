@@ -1,0 +1,7199 @@
+{
+ "slug": "b-nacional-1989-90",
+ "year": 1989,
+ "yearLabel": "1989/90",
+ "tier": 2,
+ "title": "Primera B Nacional 1989/90",
+ "tournament": "Campeonato Nacional B 1989/90",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "huracan"
+ ],
+ "summary": "Huracán salió campeón y ascendió a Primera. El segundo ascenso fue para Lanús, que ganó el reducido.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1989",
+   "url": "https://www.rsssf.org/tablesa/arg2-90.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato Nacional B 1989-90",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_Nacional_B_1989-90"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "22 equipos, todos contra todos a dos ruedas, 2 puntos por victoria. El campeón asciende; los siguientes juegan el reducido por el segundo ascenso."
+  }
+ ],
+ "pointAdjustments": [
+  {
+   "teamId": "central-cordoba-sde",
+   "points": -2,
+   "reason": "descuento que registra RSSSF (la fuente no da el motivo)"
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "huracan",
+   "played": 42,
+   "won": 24,
+   "drawn": 12,
+   "lost": 6,
+   "goalsFor": 70,
+   "goalsAgainst": 32,
+   "points": 60
+  },
+  {
+   "teamId": "quilmes",
+   "played": 42,
+   "won": 19,
+   "drawn": 15,
+   "lost": 8,
+   "goalsFor": 65,
+   "goalsAgainst": 43,
+   "points": 53
+  },
+  {
+   "teamId": "douglas-haig",
+   "played": 42,
+   "won": 19,
+   "drawn": 13,
+   "lost": 10,
+   "goalsFor": 46,
+   "goalsAgainst": 39,
+   "points": 51
+  },
+  {
+   "teamId": "san-martin-tucuman",
+   "played": 42,
+   "won": 17,
+   "drawn": 14,
+   "lost": 11,
+   "goalsFor": 49,
+   "goalsAgainst": 37,
+   "points": 48
+  },
+  {
+   "teamId": "lanus",
+   "played": 42,
+   "won": 16,
+   "drawn": 15,
+   "lost": 11,
+   "goalsFor": 59,
+   "goalsAgainst": 50,
+   "points": 47
+  },
+  {
+   "teamId": "atletico-rafaela",
+   "played": 42,
+   "won": 15,
+   "drawn": 17,
+   "lost": 10,
+   "goalsFor": 55,
+   "goalsAgainst": 46,
+   "points": 47
+  },
+  {
+   "teamId": "belgrano",
+   "played": 42,
+   "won": 16,
+   "drawn": 15,
+   "lost": 11,
+   "goalsFor": 39,
+   "goalsAgainst": 36,
+   "points": 47
+  },
+  {
+   "teamId": "banfield",
+   "played": 42,
+   "won": 14,
+   "drawn": 18,
+   "lost": 10,
+   "goalsFor": 53,
+   "goalsAgainst": 43,
+   "points": 46
+  },
+  {
+   "teamId": "deportivo-italiano",
+   "played": 42,
+   "won": 14,
+   "drawn": 18,
+   "lost": 10,
+   "goalsFor": 32,
+   "goalsAgainst": 29,
+   "points": 46
+  },
+  {
+   "teamId": "colon-santa-fe",
+   "played": 42,
+   "won": 13,
+   "drawn": 19,
+   "lost": 10,
+   "goalsFor": 46,
+   "goalsAgainst": 35,
+   "points": 45
+  },
+  {
+   "teamId": "villa-dalmine",
+   "played": 42,
+   "won": 15,
+   "drawn": 14,
+   "lost": 13,
+   "goalsFor": 41,
+   "goalsAgainst": 41,
+   "points": 44
+  },
+  {
+   "teamId": "atletico-tucuman",
+   "played": 42,
+   "won": 15,
+   "drawn": 13,
+   "lost": 14,
+   "goalsFor": 53,
+   "goalsAgainst": 54,
+   "points": 43
+  },
+  {
+   "teamId": "tigre",
+   "played": 42,
+   "won": 14,
+   "drawn": 13,
+   "lost": 15,
+   "goalsFor": 48,
+   "goalsAgainst": 53,
+   "points": 41
+  },
+  {
+   "teamId": "almirante-brown",
+   "played": 42,
+   "won": 11,
+   "drawn": 17,
+   "lost": 14,
+   "goalsFor": 42,
+   "goalsAgainst": 54,
+   "points": 39
+  },
+  {
+   "teamId": "los-andes",
+   "played": 42,
+   "won": 10,
+   "drawn": 18,
+   "lost": 14,
+   "goalsFor": 42,
+   "goalsAgainst": 52,
+   "points": 38
+  },
+  {
+   "teamId": "central-cordoba-sde",
+   "played": 42,
+   "won": 13,
+   "drawn": 13,
+   "lost": 16,
+   "goalsFor": 42,
+   "goalsAgainst": 47,
+   "points": 37
+  },
+  {
+   "teamId": "deportivo-maipu",
+   "played": 42,
+   "won": 10,
+   "drawn": 15,
+   "lost": 17,
+   "goalsFor": 43,
+   "goalsAgainst": 46,
+   "points": 35
+  },
+  {
+   "teamId": "talleres-re",
+   "played": 42,
+   "won": 11,
+   "drawn": 13,
+   "lost": 18,
+   "goalsFor": 42,
+   "goalsAgainst": 51,
+   "points": 35
+  },
+  {
+   "teamId": "defensa-y-justicia",
+   "played": 42,
+   "won": 7,
+   "drawn": 21,
+   "lost": 14,
+   "goalsFor": 46,
+   "goalsAgainst": 57,
+   "points": 35
+  },
+  {
+   "teamId": "cipolletti",
+   "played": 42,
+   "won": 10,
+   "drawn": 13,
+   "lost": 19,
+   "goalsFor": 42,
+   "goalsAgainst": 56,
+   "points": 33
+  },
+  {
+   "teamId": "olimpo",
+   "played": 42,
+   "won": 10,
+   "drawn": 10,
+   "lost": 22,
+   "goalsFor": 54,
+   "goalsAgainst": 71,
+   "points": 30
+  },
+  {
+   "teamId": "deportivo-armenio",
+   "played": 42,
+   "won": 5,
+   "drawn": 12,
+   "lost": 25,
+   "goalsFor": 27,
+   "goalsAgainst": 64,
+   "points": 22
+  }
+ ],
+ "matches": [
+  {
+   "id": "b-nacional-1989-90-001",
+   "date": "1989-08-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "talleres-re",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-002",
+   "date": "1989-08-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-003",
+   "date": "1989-08-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-004",
+   "date": "1989-08-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-005",
+   "date": "1989-08-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "villa-dalmine",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-006",
+   "date": "1989-08-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-007",
+   "date": "1989-08-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-008",
+   "date": "1989-08-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-009",
+   "date": "1989-08-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-010",
+   "date": "1989-09-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-011",
+   "date": "1989-09-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-012",
+   "date": "1989-08-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-013",
+   "date": "1989-08-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-014",
+   "date": "1989-08-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-015",
+   "date": "1989-08-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-016",
+   "date": "1989-08-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-017",
+   "date": "1989-08-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "cipolletti",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-018",
+   "date": "1989-08-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-019",
+   "date": "1989-08-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-020",
+   "date": "1989-08-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-021",
+   "date": "1989-10-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-022",
+   "date": "1989-10-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-023",
+   "date": "1989-08-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-024",
+   "date": "1989-08-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-025",
+   "date": "1989-08-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-026",
+   "date": "1989-08-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "los-andes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-027",
+   "date": "1989-08-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "villa-dalmine",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-028",
+   "date": "1989-08-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-029",
+   "date": "1989-08-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-030",
+   "date": "1989-08-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-031",
+   "date": "1989-08-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-032",
+   "date": "1989-08-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-033",
+   "date": "1989-08-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-034",
+   "date": "1989-09-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "cipolletti",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-035",
+   "date": "1989-09-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-036",
+   "date": "1989-09-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-037",
+   "date": "1989-09-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-038",
+   "date": "1989-09-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-039",
+   "date": "1989-09-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-040",
+   "date": "1989-09-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-041",
+   "date": "1989-09-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-042",
+   "date": "1989-09-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-043",
+   "date": "1989-09-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-044",
+   "date": "1989-09-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "douglas-haig",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-045",
+   "date": "1989-09-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-046",
+   "date": "1989-09-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-047",
+   "date": "1989-09-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "los-andes",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-048",
+   "date": "1989-09-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-049",
+   "date": "1989-09-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "villa-dalmine",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-050",
+   "date": "1989-09-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-051",
+   "date": "1989-09-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "olimpo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-052",
+   "date": "1989-09-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-053",
+   "date": "1989-09-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-054",
+   "date": "1989-09-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-055",
+   "date": "1989-09-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-056",
+   "date": "1989-09-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-057",
+   "date": "1989-09-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "banfield",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-058",
+   "date": "1989-09-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-059",
+   "date": "1989-09-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-060",
+   "date": "1989-09-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-061",
+   "date": "1989-09-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-062",
+   "date": "1989-09-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-063",
+   "date": "1989-09-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-064",
+   "date": "1989-09-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-065",
+   "date": "1989-09-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "cipolletti",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-066",
+   "date": "1989-09-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-067",
+   "date": "1989-09-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "tigre",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-068",
+   "date": "1989-09-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-069",
+   "date": "1989-09-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "villa-dalmine",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-070",
+   "date": "1989-09-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-071",
+   "date": "1989-09-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-072",
+   "date": "1989-09-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-073",
+   "date": "1989-09-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-074",
+   "date": "1989-09-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "douglas-haig",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-075",
+   "date": "1989-09-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-076",
+   "date": "1989-09-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-077",
+   "date": "1989-09-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "olimpo",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-078",
+   "date": "1989-09-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "cipolletti",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-079",
+   "date": "1989-09-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-080",
+   "date": "1989-09-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-081",
+   "date": "1989-09-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-082",
+   "date": "1989-09-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-083",
+   "date": "1989-09-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-084",
+   "date": "1989-09-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "talleres-re",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-085",
+   "date": "1989-09-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-086",
+   "date": "1989-09-30",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-087",
+   "date": "1989-10-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-088",
+   "date": "1989-10-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 8",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-089",
+   "date": "1989-10-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-090",
+   "date": "1989-10-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-091",
+   "date": "1989-10-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "villa-dalmine",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-092",
+   "date": "1989-10-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-093",
+   "date": "1989-10-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-094",
+   "date": "1989-10-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-095",
+   "date": "1989-10-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-096",
+   "date": "1989-10-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "douglas-haig",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-097",
+   "date": "1989-10-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-098",
+   "date": "1989-10-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-099",
+   "date": "1989-10-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 9",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-100",
+   "date": "1989-10-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "cipolletti",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-101",
+   "date": "1989-10-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-102",
+   "date": "1989-10-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-103",
+   "date": "1989-10-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-104",
+   "date": "1989-10-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-105",
+   "date": "1989-10-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-106",
+   "date": "1989-10-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-107",
+   "date": "1989-10-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-108",
+   "date": "1989-10-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-109",
+   "date": "1989-10-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-110",
+   "date": "1989-10-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 10",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-111",
+   "date": "1989-10-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-112",
+   "date": "1989-10-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "villa-dalmine",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-113",
+   "date": "1989-10-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-114",
+   "date": "1989-10-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-115",
+   "date": "1989-10-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-116",
+   "date": "1989-10-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-117",
+   "date": "1989-10-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "douglas-haig",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-118",
+   "date": "1989-10-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-119",
+   "date": "1989-10-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-120",
+   "date": "1989-10-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-121",
+   "date": "1989-10-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 11",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-122",
+   "date": "1989-10-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "cipolletti",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-123",
+   "date": "1989-10-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-124",
+   "date": "1989-10-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-125",
+   "date": "1989-10-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-126",
+   "date": "1989-10-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-127",
+   "date": "1989-10-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-128",
+   "date": "1989-10-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-129",
+   "date": "1989-10-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-130",
+   "date": "1989-10-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-131",
+   "date": "1989-10-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "talleres-re",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-132",
+   "date": "1989-10-29",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 12",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-133",
+   "date": "1989-11-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "villa-dalmine",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-134",
+   "date": "1989-11-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-135",
+   "date": "1989-11-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-136",
+   "date": "1989-11-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-137",
+   "date": "1989-11-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-138",
+   "date": "1989-11-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-139",
+   "date": "1989-11-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "douglas-haig",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-140",
+   "date": "1989-11-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-141",
+   "date": "1989-11-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-142",
+   "date": "1989-11-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-143",
+   "date": "1989-11-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 13",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-144",
+   "date": "1989-11-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "cipolletti",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-145",
+   "date": "1989-11-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-146",
+   "date": "1989-11-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-147",
+   "date": "1989-11-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "quilmes",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-148",
+   "date": "1989-11-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-149",
+   "date": "1989-11-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-150",
+   "date": "1989-11-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-151",
+   "date": "1989-11-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-152",
+   "date": "1989-11-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-153",
+   "date": "1989-11-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-154",
+   "date": "1989-11-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 14",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-155",
+   "date": "1989-11-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "villa-dalmine",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-156",
+   "date": "1989-11-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-157",
+   "date": "1989-11-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-158",
+   "date": "1989-11-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "olimpo",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-159",
+   "date": "1989-11-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-160",
+   "date": "1989-11-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-161",
+   "date": "1989-11-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "douglas-haig",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-162",
+   "date": "1989-11-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-163",
+   "date": "1989-11-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-164",
+   "date": "1989-11-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-165",
+   "date": "1989-11-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 15",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-166",
+   "date": "1989-11-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "cipolletti",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-167",
+   "date": "1989-11-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-168",
+   "date": "1989-11-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-169",
+   "date": "1989-11-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "talleres-re",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-170",
+   "date": "1989-11-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-171",
+   "date": "1989-11-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-172",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-173",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-174",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-175",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-176",
+   "date": "1989-11-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 16",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "villa-dalmine",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-177",
+   "date": "1989-11-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-178",
+   "date": "1989-11-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "olimpo",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-179",
+   "date": "1989-11-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-180",
+   "date": "1989-11-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-181",
+   "date": "1989-11-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-182",
+   "date": "1989-11-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-183",
+   "date": "1989-11-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-184",
+   "date": "1989-11-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-185",
+   "date": "1989-11-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-186",
+   "date": "1989-11-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-187",
+   "date": "1989-11-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 17",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-188",
+   "date": "1989-12-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "cipolletti",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-189",
+   "date": "1989-12-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-190",
+   "date": "1989-12-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-191",
+   "date": "1989-12-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "talleres-re",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-192",
+   "date": "1989-12-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-193",
+   "date": "1989-12-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "almirante-brown",
+   "homeGoals": 5,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-194",
+   "date": "1989-12-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-195",
+   "date": "1989-12-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-196",
+   "date": "1989-12-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-198",
+   "date": "1989-12-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-199",
+   "date": "1990-01-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 18",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "villa-dalmine",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Empezó el 2/12 y se suspendió con 0-0; se completó en esta fecha."
+  },
+  {
+   "id": "b-nacional-1989-90-200",
+   "date": "1989-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-201",
+   "date": "1989-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "olimpo",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-202",
+   "date": "1989-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-203",
+   "date": "1989-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "douglas-haig",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-204",
+   "date": "1989-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-205",
+   "date": "1989-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-206",
+   "date": "1989-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-207",
+   "date": "1989-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-208",
+   "date": "1989-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-209",
+   "date": "1989-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-210",
+   "date": "1989-12-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 19",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-211",
+   "date": "1989-12-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "cipolletti",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-212",
+   "date": "1989-12-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-213",
+   "date": "1989-12-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-214",
+   "date": "1989-12-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-215",
+   "date": "1989-12-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-216",
+   "date": "1989-12-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-217",
+   "date": "1989-12-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "los-andes",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-218",
+   "date": "1989-12-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-219",
+   "date": "1989-12-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "villa-dalmine",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-220",
+   "date": "1989-12-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-221",
+   "date": "1989-12-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 20",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-222",
+   "date": "1989-12-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "olimpo",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-224",
+   "date": "1989-12-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-225",
+   "date": "1989-12-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-226",
+   "date": "1989-12-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-227",
+   "date": "1989-12-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "quilmes",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-228",
+   "date": "1989-12-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-229",
+   "date": "1989-12-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-230",
+   "date": "1989-12-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-231",
+   "date": "1989-12-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-232",
+   "date": "1989-12-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-233",
+   "date": "1989-12-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 21",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "lanus",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Empezó el 16/12 y se suspendió con 2-1; se completó en esta fecha."
+  },
+  {
+   "id": "b-nacional-1989-90-234",
+   "date": "1990-01-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-235",
+   "date": "1990-01-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-236",
+   "date": "1990-01-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-237",
+   "date": "1990-01-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-238",
+   "date": "1990-01-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-239",
+   "date": "1990-01-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-240",
+   "date": "1990-01-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "douglas-haig",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-241",
+   "date": "1990-01-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-242",
+   "date": "1990-01-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "cipolletti",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-243",
+   "date": "1990-01-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-244",
+   "date": "1990-01-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 22",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-245",
+   "date": "1990-01-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-246",
+   "date": "1990-01-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "olimpo",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-248",
+   "date": "1990-01-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-249",
+   "date": "1990-01-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "villa-dalmine",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-250",
+   "date": "1990-01-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-251",
+   "date": "1990-01-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-252",
+   "date": "1990-01-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-253",
+   "date": "1990-01-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-254",
+   "date": "1990-01-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-255",
+   "date": "1990-01-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "almirante-brown",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-256",
+   "date": "1990-01-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 23",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Empezó el 27/1 y se suspendió con 1-1; se completó en esta fecha."
+  },
+  {
+   "id": "b-nacional-1989-90-257",
+   "date": "1990-02-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "cipolletti",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-258",
+   "date": "1990-02-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-259",
+   "date": "1990-02-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-260",
+   "date": "1990-02-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-261",
+   "date": "1990-02-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-263",
+   "date": "1990-02-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-264",
+   "date": "1990-02-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "huracan",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-265",
+   "date": "1990-02-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-266",
+   "date": "1990-02-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-267",
+   "date": "1990-02-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-268",
+   "date": "1990-03-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 24",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Empezó el 3/2 y se suspendió con 0-0; se completó en esta fecha."
+  },
+  {
+   "id": "b-nacional-1989-90-269",
+   "date": "1990-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "lanus",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-270",
+   "date": "1990-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-271",
+   "date": "1990-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "olimpo",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-272",
+   "date": "1990-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-273",
+   "date": "1990-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-274",
+   "date": "1990-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "villa-dalmine",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-275",
+   "date": "1990-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-276",
+   "date": "1990-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-277",
+   "date": "1990-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-278",
+   "date": "1990-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-279",
+   "date": "1990-02-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 25",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-280",
+   "date": "1990-02-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-281",
+   "date": "1990-02-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-282",
+   "date": "1990-02-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-283",
+   "date": "1990-02-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "cipolletti",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-284",
+   "date": "1990-02-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "talleres-re",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-285",
+   "date": "1990-02-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "belgrano",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-286",
+   "date": "1990-02-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-287",
+   "date": "1990-02-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-288",
+   "date": "1990-02-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "huracan",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-289",
+   "date": "1990-02-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-290",
+   "date": "1990-02-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 26",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-291",
+   "date": "1990-02-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-292",
+   "date": "1990-02-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-293",
+   "date": "1990-02-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-294",
+   "date": "1990-02-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-295",
+   "date": "1990-02-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-296",
+   "date": "1990-02-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "villa-dalmine",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-297",
+   "date": "1990-02-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-298",
+   "date": "1990-02-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-299",
+   "date": "1990-02-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-300",
+   "date": "1990-02-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "almirante-brown",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-301",
+   "date": "1990-02-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 27",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-302",
+   "date": "1990-02-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-303",
+   "date": "1990-02-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-304",
+   "date": "1990-02-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "cipolletti",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-305",
+   "date": "1990-02-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-306",
+   "date": "1990-02-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 5,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-307",
+   "date": "1990-02-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-309",
+   "date": "1990-02-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-310",
+   "date": "1990-02-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-311",
+   "date": "1990-02-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 4,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-312",
+   "date": "1990-02-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-313",
+   "date": "1990-02-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 28",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Empezó el 24/2 y se suspendió con 0-0; se completó en esta fecha."
+  },
+  {
+   "id": "b-nacional-1989-90-314",
+   "date": "1990-03-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-315",
+   "date": "1990-03-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-316",
+   "date": "1990-03-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-317",
+   "date": "1990-03-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-318",
+   "date": "1990-03-02",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "villa-dalmine",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-319",
+   "date": "1990-03-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-320",
+   "date": "1990-03-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "lanus",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-321",
+   "date": "1990-03-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-322",
+   "date": "1990-03-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-323",
+   "date": "1990-03-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "los-andes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-324",
+   "date": "1990-03-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 29",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-325",
+   "date": "1990-03-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-326",
+   "date": "1990-03-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "cipolletti",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-327",
+   "date": "1990-03-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-328",
+   "date": "1990-03-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-329",
+   "date": "1990-03-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-330",
+   "date": "1990-03-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-331",
+   "date": "1990-03-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-332",
+   "date": "1990-03-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-333",
+   "date": "1990-03-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-334",
+   "date": "1990-03-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-335",
+   "date": "1990-04-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 30",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-336",
+   "date": "1990-03-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-337",
+   "date": "1990-03-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "douglas-haig",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-338",
+   "date": "1990-03-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-339",
+   "date": "1990-03-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-340",
+   "date": "1990-03-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "olimpo",
+   "homeGoals": 5,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-341",
+   "date": "1990-03-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-342",
+   "date": "1990-03-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "villa-dalmine",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-343",
+   "date": "1990-03-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-344",
+   "date": "1990-03-10",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-345",
+   "date": "1990-03-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 6,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-346",
+   "date": "1990-03-11",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 31",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-347",
+   "date": "1990-03-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-348",
+   "date": "1990-03-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "cipolletti",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-349",
+   "date": "1990-03-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-350",
+   "date": "1990-03-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "almirante-brown",
+   "homeGoals": 4,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-351",
+   "date": "1990-03-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "talleres-re",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-352",
+   "date": "1990-03-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-353",
+   "date": "1990-03-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-354",
+   "date": "1990-03-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-355",
+   "date": "1990-03-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-356",
+   "date": "1990-03-17",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-357",
+   "date": "1990-03-18",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 32",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-358",
+   "date": "1990-03-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-359",
+   "date": "1990-03-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-360",
+   "date": "1990-03-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-361",
+   "date": "1990-03-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "olimpo",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-362",
+   "date": "1990-03-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-363",
+   "date": "1990-03-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-364",
+   "date": "1990-03-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "villa-dalmine",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-365",
+   "date": "1990-03-24",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-366",
+   "date": "1990-03-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-367",
+   "date": "1990-03-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "douglas-haig",
+   "homeGoals": 2,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-368",
+   "date": "1990-03-25",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 33",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-369",
+   "date": "1990-03-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "cipolletti",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-370",
+   "date": "1990-03-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-371",
+   "date": "1990-03-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "tigre",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-372",
+   "date": "1990-03-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "almirante-brown",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-373",
+   "date": "1990-03-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-374",
+   "date": "1990-03-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-375",
+   "date": "1990-03-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-376",
+   "date": "1990-03-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-377",
+   "date": "1990-03-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-378",
+   "date": "1990-03-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-379",
+   "date": "1990-04-01",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 34",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "talleres-re",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-380",
+   "date": "1990-04-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-381",
+   "date": "1990-04-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-382",
+   "date": "1990-04-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-383",
+   "date": "1990-04-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-384",
+   "date": "1990-04-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "olimpo",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-385",
+   "date": "1990-04-07",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "villa-dalmine",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-386",
+   "date": "1990-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-387",
+   "date": "1990-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-388",
+   "date": "1990-04-08",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-389",
+   "date": "1990-04-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-390",
+   "date": "1990-04-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 35",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-391",
+   "date": "1990-04-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "cipolletti",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-392",
+   "date": "1990-04-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-393",
+   "date": "1990-04-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-394",
+   "date": "1990-04-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-395",
+   "date": "1990-04-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-396",
+   "date": "1990-04-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-397",
+   "date": "1990-04-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-398",
+   "date": "1990-04-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-399",
+   "date": "1990-04-14",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-400",
+   "date": "1990-04-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "almirante-brown",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-401",
+   "date": "1990-04-15",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 36",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-402",
+   "date": "1990-04-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-403",
+   "date": "1990-04-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "banfield",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-404",
+   "date": "1990-04-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-405",
+   "date": "1990-04-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-406",
+   "date": "1990-04-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "lanus",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-407",
+   "date": "1990-04-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-408",
+   "date": "1990-04-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "olimpo",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-409",
+   "date": "1990-04-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-410",
+   "date": "1990-04-21",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-411",
+   "date": "1990-04-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-412",
+   "date": "1990-04-22",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 37",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-413",
+   "date": "1990-04-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "cipolletti",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-414",
+   "date": "1990-04-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "villa-dalmine",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-415",
+   "date": "1990-04-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-416",
+   "date": "1990-04-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "los-andes",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-417",
+   "date": "1990-04-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-418",
+   "date": "1990-04-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-419",
+   "date": "1990-04-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-420",
+   "date": "1990-04-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "talleres-re",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-421",
+   "date": "1990-04-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-422",
+   "date": "1990-04-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-423",
+   "date": "1990-04-28",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 38",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-424",
+   "date": "1990-05-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-425",
+   "date": "1990-05-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-426",
+   "date": "1990-05-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-427",
+   "date": "1990-05-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "banfield",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-428",
+   "date": "1990-05-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-429",
+   "date": "1990-05-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "huracan",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-430",
+   "date": "1990-05-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "douglas-haig",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-431",
+   "date": "1990-05-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-432",
+   "date": "1990-05-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-433",
+   "date": "1990-05-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "olimpo",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-434",
+   "date": "1990-05-05",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 39",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-435",
+   "date": "1990-05-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "cipolletti",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-436",
+   "date": "1990-05-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 0,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-437",
+   "date": "1990-05-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "villa-dalmine",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-438",
+   "date": "1990-05-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-439",
+   "date": "1990-05-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "los-andes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-440",
+   "date": "1990-05-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "tigre",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-441",
+   "date": "1990-05-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "almirante-brown",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-442",
+   "date": "1990-05-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 5,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-443",
+   "date": "1990-05-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "talleres-re",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-444",
+   "date": "1990-05-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-445",
+   "date": "1990-05-12",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 40",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-446",
+   "date": "1990-05-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "cipolletti",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-447",
+   "date": "1990-05-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "san-martin-tucuman",
+   "awayId": "belgrano",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-448",
+   "date": "1990-05-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "talleres-re",
+   "awayId": "deportivo-italiano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-449",
+   "date": "1990-05-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "deportivo-maipu",
+   "awayId": "colon-santa-fe",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-450",
+   "date": "1990-05-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "almirante-brown",
+   "awayId": "banfield",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-451",
+   "date": "1990-05-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "tigre",
+   "awayId": "deportivo-armenio",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-452",
+   "date": "1990-05-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "los-andes",
+   "awayId": "huracan",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Suspendido a los 86 minutos."
+  },
+  {
+   "id": "b-nacional-1989-90-453",
+   "date": "1990-05-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "atletico-rafaela",
+   "awayId": "douglas-haig",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-454",
+   "date": "1990-05-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "villa-dalmine",
+   "awayId": "lanus",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-455",
+   "date": "1990-05-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "central-cordoba-sde",
+   "awayId": "atletico-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "awardedTo": "atletico-tucuman",
+   "note": "En la cancha terminó 1-0; la liga le dio el partido 0-1 a Atlético Tucumán. Suspendido a los 49 minutos."
+  },
+  {
+   "id": "b-nacional-1989-90-456",
+   "date": "1990-05-19",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 41",
+   "phase": "league",
+   "homeId": "defensa-y-justicia",
+   "awayId": "olimpo",
+   "homeGoals": 4,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-457",
+   "date": "1990-05-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "olimpo",
+   "awayId": "cipolletti",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-458",
+   "date": "1990-05-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "atletico-tucuman",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-459",
+   "date": "1990-05-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "lanus",
+   "awayId": "central-cordoba-sde",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-460",
+   "date": "1990-05-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "douglas-haig",
+   "awayId": "villa-dalmine",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-461",
+   "date": "1990-05-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "huracan",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-462",
+   "date": "1990-05-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "deportivo-armenio",
+   "awayId": "los-andes",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-463",
+   "date": "1990-05-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "banfield",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-464",
+   "date": "1990-05-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "colon-santa-fe",
+   "awayId": "almirante-brown",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-465",
+   "date": "1990-05-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "deportivo-italiano",
+   "awayId": "deportivo-maipu",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-466",
+   "date": "1990-05-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "talleres-re",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-1989-90-467",
+   "date": "1990-05-26",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional",
+   "stage": "Fecha 42",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}

@@ -380,6 +380,33 @@ const ALIASES: Alias[] = [
   { id: "gimnasia-jujuy", names: ["Gimn. y Esg. (Jujuy)", "Gimn. y Esgrima (Jujuy)", "Gimnasia y Esgrima (Jujuy)", "Gimnasia (Jujuy)", "Gimnasia y Esgrima (J)"] },
   { id: "central-cordoba-sde", names: ["Central Córdoba (SdE)", "Central Córdoba (Sgo.Estero)", "Central Córdoba (Santiago del Estero)"] },
   { id: "central-norte-salta", names: ["Central Norte (Salta)", "Central Norte (S)"] },
+  { id: "estacion-quequen", names: ["Estación Quequén", "Estación Quequén (Nec.)", "Estación Quequén (Necochea)"] },
+  { id: "fernandez-oro", names: ["Fernández Oro", "Fernández Oro (Río Negro)"] },
+  { id: "sportivo-italiano", names: ["Sportivo Italiano"] },
+  { id: "nueve-de-julio-rafaela", names: ["9 de Julio (R)", "9 de Julio (Rafaela)"] },
+  { id: "arsenal", names: ["Arsenal"], from: 1957 },
+  { id: "central-cordoba-rosario", names: ["Central Córdoba (Ros.)", "Central Córdoba (Rosario)"] },
+  { id: "central-cordoba-sde", names: ["Central Córdoba (Sgo. Estero)", "Central Córdoba (Sgo. del Estero)"] },
+  { id: "cipolletti", names: ["Cipolleti (Río Negro)", "Cipolletti", "Cipolletti (RN)"] },
+  { id: "laferrere", names: ["Deportivo Laferrere", "Laferrere"] },
+  { id: "deportivo-maipu", names: ["Deportivo Maipú (Mza.)"] },
+  { id: "ferro-general-pico", names: ["Ferro Carril Oeste (G.Pico)", "Ferro Carril Oeste (Gral. Pico)"] },
+  { id: "general-paz-juniors", names: ["General Paz Juniors", "General Paz Juniors (Córdoba)"] },
+  { id: "gimnasia-tiro-salta", names: ["Gimnasia y Tiro (S)", "Gimnasia y Tiro (Salta)"] },
+  { id: "godoy-cruz", names: ["Godoy Cruz (Mendoza)", "Godoy Cruz (Mza.)", "Godoy Cruz"] },
+  { id: "gutierrez-sport-club", names: ["Gutierrez Sport Club (Mza.)", "Gutiérrez Sport Club"] },
+  { id: "guemes-sde", names: ["Güemes (SdE)", "Güemes (Sgo. del Estero)", "Güemes (Sgo.Estero)"] },
+  { id: "ituzaingo", names: ["Ituzaingó"] },
+  { id: "san-martin-sj", names: ["San Martín (San Juan)"] },
+  // Abreviaturas de las tablas de Wikipedia de la Nacional B (1992–1995).
+  { id: "almirante-brown", names: ["Alm.Brown"], from: 1986, to: 1999 },
+  { id: "atletico-rafaela", names: ["Atl.Rafaela"], from: 1986, to: 1999 },
+  { id: "atletico-tucuman", names: ["Atl.Tucumán"], from: 1986, to: 1999 },
+  { id: "central-cordoba-rosario", names: ["Central Cba.(Ros)"], from: 1986, to: 1999 },
+  { id: "racing-cordoba", names: ["Racing (Cba)"], from: 1986, to: 1999 },
+  { id: "chaco-for-ever", names: ["Chaco F.E."], from: 1986, to: 1999 },
+  { id: "gimnasia-tiro-salta", names: ["Gimn.y Tiro", "Gimn. y Tiro"], from: 1986, to: 1999 },
+  { id: "villa-dalmine", names: ["Dálmine"], from: 1986, to: 1999 },
 ];
 
 const norm = (s: string) =>
@@ -400,7 +427,9 @@ export function setLocalAliases(aliases: Record<string, string> | undefined) {
 }
 
 // `exact`: sin sacar la forma jurídica (las canchas: "Club Atlético de Flores" no es Flores Athletic).
-export function resolveName(raw: string, year: number, exact = false): { id: string; name: string; as?: string } | null {
+export function resolveName(raw0: string, year: number, exact = false): { id: string; name: string; as?: string } | null {
+  // Llamadas a notas de RSSSF pegadas al nombre: "Douglas Haig (*)", "Chacarita Juniors (**)".
+  const raw = raw0.replace(/\s*\(\*+\)\s*$/, "");
   const direct = resolveExact(raw, year);
   if (direct || exact) return direct;
   // Las páginas de copas anteponen la forma jurídica ("CA Boca Juniors", "CAd San Isidro", "Cd Gimnasia...").
