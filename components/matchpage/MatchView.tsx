@@ -75,7 +75,11 @@ export default function MatchView({ m, standings }: { m: MatchPage; standings?: 
     <>
       <Header m={m} />
       <div className="mx-auto max-w-3xl px-3 sm:px-6">
-        <nav className="mt-3 grid grid-cols-3 gap-1.5 py-2 sm:flex sm:flex-wrap">
+        {/* Alertas del partido: arriba de las pestañas, a la derecha (fuera de la grilla, así las pestañas quedan parejas). */}
+        <div className="mt-3 flex justify-end">
+          <FollowButton league={m.league} match={asEvent} />
+        </div>
+        <nav className="grid grid-cols-3 gap-1.5 py-2 sm:flex sm:flex-wrap">
           {tabs
             .filter((t) => t.show)
             .map((t) => (
@@ -91,9 +95,6 @@ export default function MatchView({ m, standings }: { m: MatchPage; standings?: 
                 {t.label}
               </button>
             ))}
-          <span className="ml-auto shrink-0 self-center">
-            <FollowButton league={m.league} match={asEvent} />
-          </span>
         </nav>
 
         <main className="space-y-4 pb-10 pt-2">

@@ -113,3 +113,15 @@ Regla de oro: fácil de usar, opciones simples y fácil de leer.
 - [x] T16. Censo del Hincha como El Nine: Clubes / Países, con barras y porcentajes, top 10 y "Ver más".
 - [x] T17. Menú (Destacados, Argentina, Brasil…): logos de las ligas más nítidos.
 - [x] T18. Partido más lindo, como 365Scores (ficha del jugador estilo Arsenal vs Leeds).
+
+## Tanda 3 (10-10-2026)
+- [ ] U1. Cartel de bienvenida: sin botones.
+- [ ] U2. Entrar a un partido con un solo toque (hoy en el celular pide dos).
+- [ ] U3. Campeones (y la Historia de la liga): primero la era amateur y los primeros años, después la profesional.
+- [ ] U4. Más estadísticas; título "Estadísticas del Fútbol Argentino".
+- [ ] U5. Menú Argentina: sacar "Historia de la liga desde 1891" (ya está en la Liga Profesional).
+- [ ] U6. Comparador: todas las leyendas sin número; buscar escribiendo el nombre.
+- [ ] U7. Comparador: sumar cracks actuales y retirados recientes (Agüero, Higuaín, Di María, Lautaro Martínez, Julián Álvarez, Haaland, Yamal, Kane…).
+- [ ] U8. Partido: el botón de alertas alineado con los demás.
+- [ ] U9. Alineaciones: el arquero completo, sin cortarse.
+- [ ] U10. Cambiar el fondo animado del 126 por algo más futbolero.

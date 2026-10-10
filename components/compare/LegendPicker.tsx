@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useTransition } from "react";
+import { useState, useTransition } from "react";
 
 type Option = { id: string; name: string; rank: number };
 
@@ -33,21 +33,56 @@ export default function LegendPicker({ a, b, options }: { a: string; b: string; 
   );
 }
 
+// Sin tildes ni mayúsculas, para buscar "aguero" y encontrar "Agüero".
+const plain = (t: string) => t.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+
+// Elegir un jugador escribiendo su nombre: al tocar, se abre un buscador con la lista filtrada (sin tener que bajar).
 function Select({ label, value, options, onChange, color }: { label: string; value: string; options: Option[]; onChange: (id: string) => void; color: string }) {
+  const [open, setOpen] = useState(false);
+  const [q, setQ] = useState("");
+  const current = options.find((o) => o.id === value);
+  const list = options.filter((o) => plain(o.name).includes(plain(q.trim())));
   return (
-    <label className="flex flex-1 items-center gap-3 rounded-2xl border border-navy-100 bg-white px-3 py-2 focus-within:border-volt-400">
-      <span className="h-8 w-1.5 shrink-0 rounded-full" style={{ background: color }} />
-      <span className="min-w-0 flex-1">
-        <span className="block text-[0.65rem] font-semibold uppercase tracking-wider text-navy-400">{label}</span>
-        <select value={value} onChange={(e) => onChange(e.target.value)} className="w-full cursor-pointer bg-transparent font-display text-lg font-bold uppercase tracking-wide text-navy-950 outline-none">
-          {options.map((o) => (
-            <option key={o.id} value={o.id}>
-              {o.rank <= 25 ? `${o.rank}. ` : ""}
-              {o.name}
-            </option>
-          ))}
-        </select>
-      </span>
-    </label>
+    <div className="relative flex-1">
+      <button
+        type="button"
+        onClick={() => (setOpen(!open), setQ(""))}
+        aria-expanded={open}
+        className="flex w-full items-center gap-3 rounded-2xl border border-navy-100 bg-white px-3 py-2 text-left focus:border-volt-400"
+      >
+        <span className="h-8 w-1.5 shrink-0 rounded-full" style={{ background: color }} />
+        <span className="min-w-0 flex-1">
+          <span className="block text-[0.65rem] font-semibold uppercase tracking-wider text-navy-400">{label}</span>
+          <span className="block font-display text-lg font-bold uppercase tracking-wide text-navy-950">{current?.name}</span>
+        </span>
+        <span aria-hidden className="text-navy-400">▾</span>
+      </button>
+      {open && (
+        <div className="absolute inset-x-0 top-full z-30 mt-1 overflow-hidden rounded-2xl bg-white shadow-2xl ring-1 ring-navy-100">
+          <input
+            autoFocus
+            type="search"
+            value={q}
+            onChange={(e) => setQ(e.target.value)}
+            placeholder="Escribí un nombre (ej. Riquelme)"
+            className="h-12 w-full border-b border-navy-100 bg-white px-4 text-base text-navy-900 outline-none"
+          />
+          <ul className="max-h-72 overflow-y-auto">
+            {list.map((o) => (
+              <li key={o.id}>
+                <button
+                  type="button"
+                  onClick={() => (onChange(o.id), setOpen(false))}
+                  className={`w-full px-4 py-2.5 text-left font-semibold ${o.id === value ? "bg-volt-500/10 text-volt-600" : "text-navy-900 hover:bg-navy-50"}`}
+                >
+                  {o.name}
+                </button>
+              </li>
+            ))}
+            {!list.length && <li className="px-4 py-3 text-sm text-navy-500">No está en el comparador.</li>}
+          </ul>
+        </div>
+      )}
+    </div>
   );
 }

@@ -44,11 +44,10 @@ export default function LegendsTable({ rows, compareWith }: { rows: LegendRow[];
         <thead>
           <tr className="border-b border-navy-100 font-display text-xs uppercase tracking-wider text-navy-500">
             <th className="py-2 pl-4 text-left">
-              <SortButton active={sort === "rank"} onClick={() => setSort("rank")} title="Puesto en la lista">
-                #
+              <SortButton active={sort === "rank"} onClick={() => setSort("rank")} title="Orden de la lista">
+                Jugador
               </SortButton>
             </th>
-            <th className="py-2 text-left">Jugador</th>
             {COLS.slice(1).map((c) => (
               <th key={c.key} className="py-2 pr-3 text-right">
                 <SortButton active={sort === c.key} onClick={() => setSort(c.key)} title={c.title}>
@@ -61,8 +60,7 @@ export default function LegendsTable({ rows, compareWith }: { rows: LegendRow[];
         <tbody className="divide-y divide-navy-50">
           {sorted.map((r) => (
             <tr key={r.id}>
-              <td className="py-1.5 pl-4 tabular-nums text-navy-400">{r.rank <= 25 ? r.rank : "·"}</td>
-              <td className="py-1.5">
+              <td className="py-1.5 pl-4">
                 <Link href={`/jugadores?a=${compareWith === r.id ? "messi" : compareWith}&b=${r.id}`} scroll={false} className="flex items-center gap-2 font-semibold text-navy-900 hover:text-volt-600">
                   <Flag code={r.flag} size={12} title={r.country} /> {r.name}
                 </Link>

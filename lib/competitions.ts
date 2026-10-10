@@ -55,8 +55,7 @@ export const GROUPS: CountryGroup[] = [
       c("copas-nacionales", "Copas Nacionales (historia)", "", "/copas"),
       c("descensos", "Descensos", "", "/descensos"),
       c("campeones", "Campeones", "", "/campeones"),
-      c("estadisticas", "Estadísticas", "", "/estadisticas"),
-      c("historia-liga", "Historia de la liga desde 1891", "", "/torneos/liga-profesional#historia"),
+      c("estadisticas", "Estadísticas del fútbol argentino", "", "/estadisticas"),
     ],
   },
   {

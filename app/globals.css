@@ -118,12 +118,14 @@ body {
     transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
   }
   /* Paneles que son links: se elevan y toman un brillo azul. */
+@media (hover: hover) {
   a.panel:hover,
   .panel-hover:hover {
     @apply border-volt-300/60;
     transform: translateY(-2px);
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.9) inset, 0 18px 40px -18px rgba(31, 107, 255, 0.45);
   }
+}
   /* Título de sección: condensado, en cursiva gruesa y mayúsculas, con la barrita inclinada del offside. */
   .section-title {
     @apply flex items-center gap-2.5 font-display text-xl font-extrabold uppercase italic tracking-wide text-navy-950;
@@ -176,7 +178,46 @@ body {
 .hero-title {
   text-shadow: 0 2px 24px rgba(31, 107, 255, 0.35);
 }
-/* Fondo de las portadas (HeroBackdrop.tsx): la curva del gol avanza como una línea punteada. */
+/* Fondo de las portadas (HeroBackdrop.tsx): los reflectores barren, la red se infla con el gol y la estela de la
+   pelota avanza como una línea punteada. */
+.hb-beam-l,
+.hb-beam-r {
+  transform-box: view-box;
+  animation: hb-beam 9s ease-in-out infinite alternate;
+}
+.hb-beam-l {
+  transform-origin: 80px 0;
+}
+.hb-beam-r {
+  transform-origin: 720px 0;
+  animation-delay: -4.5s;
+}
+@keyframes hb-beam {
+  from {
+    transform: rotate(-7deg);
+  }
+  to {
+    transform: rotate(7deg);
+  }
+}
+.hb-net {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: hb-net 7s ease-out infinite;
+}
+@keyframes hb-net {
+  0%,
+  50% {
+    transform: scale(1);
+  }
+  56% {
+    transform: scale(1.08, 1.18);
+  }
+  70%,
+  100% {
+    transform: scale(1);
+  }
+}
 .hb-arc {
   animation: hb-arc 1.6s linear infinite;
 }
@@ -186,9 +227,13 @@ body {
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .hb-ball,
-  .hb-shine {
+  .hb-ball {
     display: none;
+  }
+  .hb-beam-l,
+  .hb-beam-r,
+  .hb-net {
+    animation: none;
   }
 }
 
@@ -274,18 +319,22 @@ tbody tr:hover {
   transform: translateX(-120%) skewX(-20deg);
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.55), transparent);
 }
+@media (hover: hover) {
 .shine:hover::after,
 .btn-primary:hover::after {
   transition: transform 0.7s ease;
   transform: translateX(120%) skewX(-20deg);
+}
 }
 
 /* El logo da un giro de pelota al pasar el mouse. */
 .logo-link > :first-child {
   transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
+@media (hover: hover) {
 .logo-link:hover > :first-child {
   transform: rotate(360deg) scale(1.08);
+}
 }
 
 /* Las tarjetas aparecen subiendo apenas cuando entran en pantalla. Solo con CSS (animación ligada al scroll): en los
@@ -420,9 +469,11 @@ html.dark body {
 html.dark .panel {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.04) inset, 0 12px 32px -16px rgba(0, 0, 0, 0.7);
 }
+@media (hover: hover) {
 html.dark a.panel:hover,
 html.dark .panel-hover:hover {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset, 0 18px 40px -18px rgba(31, 107, 255, 0.55);
+}
 }
 html.dark .btn-ghost {
   @apply text-volt-300;
@@ -653,11 +704,13 @@ html.dark body::before {
     opacity: 0;
     transition: opacity 0.3s ease;
   }
+@media (hover: hover) {
   a.panel:hover::after,
   .panel-hover:hover::after {
     opacity: 1;
     animation: glow-spin 2.4s linear infinite;
   }
+}
 }
 @property --glow-angle {
   syntax: "<angle>";

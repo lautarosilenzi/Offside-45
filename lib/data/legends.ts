@@ -4642,5 +4642,1906 @@ export const LEGENDS: Legend[] = [
    "license": "Public domain",
    "year": "1970"
   }
+ },
+ {
+  "id": "aguero",
+  "rank": 41,
+  "name": "Sergio Agüero",
+  "country": "Argentina",
+  "flag": "ar",
+  "position": "Delantero",
+  "born": "1988-06-02",
+  "clubs": [
+   {
+    "club": "Independiente",
+    "years": "2003–2006",
+    "apps": 54,
+    "goals": 23
+   },
+   {
+    "club": "Atlético Madrid",
+    "years": "2006–2011",
+    "apps": 175,
+    "goals": 74
+   },
+   {
+    "club": "Manchester City",
+    "years": "2011–2021",
+    "apps": 275,
+    "goals": 184
+   },
+   {
+    "club": "Barcelona",
+    "years": "2021",
+    "apps": 4,
+    "goals": 1
+   }
+  ],
+  "national": [
+   {
+    "team": "Argentina",
+    "years": "2006–2021",
+    "apps": 101,
+    "goals": 41
+   }
+  ],
+  "clubTotal": {
+   "apps": 685,
+   "goals": 385
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Premier League",
+    "n": 5
+   },
+   {
+    "cat": "copa",
+    "name": "FA Cup",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de la Liga de Inglaterra",
+    "n": 6
+   },
+   {
+    "cat": "copa",
+    "name": "Community Shield",
+    "n": 3
+   },
+   {
+    "cat": "intl",
+    "name": "Europa League",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Europa",
+    "n": 1
+   },
+   {
+    "cat": "continental",
+    "name": "Copa América",
+    "n": 1
+   },
+   {
+    "cat": "olimpico",
+    "name": "Juegos Olímpicos",
+    "n": 1
+   },
+   {
+    "cat": "juvenil",
+    "name": "Mundial Sub-20",
+    "n": 2
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Ag%C3%BCero_in_2018.jpg/330px-Ag%C3%BCero_in_2018.jpg",
+   "file": "Agüero in 2018.jpg",
+   "author": "Кирилл Венедиктов",
+   "license": "CC BY-SA 3.0",
+   "year": "2018"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "higuain",
+  "rank": 42,
+  "name": "Gonzalo Higuaín",
+  "country": "Argentina",
+  "flag": "ar",
+  "position": "Delantero",
+  "born": "1987-12-10",
+  "clubs": [
+   {
+    "club": "River Plate",
+    "years": "2005–2007",
+    "apps": 35,
+    "goals": 13
+   },
+   {
+    "club": "Real Madrid",
+    "years": "2007–2013",
+    "apps": 190,
+    "goals": 107
+   },
+   {
+    "club": "Napoli",
+    "years": "2013–2016",
+    "apps": 104,
+    "goals": 71
+   },
+   {
+    "club": "Juventus",
+    "years": "2016–2020",
+    "apps": 105,
+    "goals": 48
+   },
+   {
+    "club": "AC Milan",
+    "loan": true,
+    "years": "2018–2019",
+    "apps": 15,
+    "goals": 6
+   },
+   {
+    "club": "Chelsea",
+    "loan": true,
+    "years": "2019",
+    "apps": 14,
+    "goals": 5
+   },
+   {
+    "club": "Inter Miami",
+    "years": "2020–2022",
+    "apps": 67,
+    "goals": 29
+   }
+  ],
+  "national": [
+   {
+    "team": "Argentina",
+    "years": "2009–2018",
+    "apps": 75,
+    "goals": 31
+   }
+  ],
+  "clubTotal": {
+   "apps": 711,
+   "goals": 335
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "LaLiga",
+    "n": 3
+   },
+   {
+    "cat": "liga",
+    "name": "Serie A",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "Copa del Rey",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de España",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Coppa Italia",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de Italia",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Europa League",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Higua%C3%ADn_20180626.jpg/330px-Higua%C3%ADn_20180626.jpg",
+   "file": "Higuaín 20180626.jpg",
+   "author": "Кирилл Венедиктов",
+   "license": "CC BY-SA 3.0",
+   "year": "2018"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "di-maria",
+  "rank": 43,
+  "name": "Ángel Di María",
+  "country": "Argentina",
+  "flag": "ar",
+  "position": "Extremo",
+  "born": "1988-02-14",
+  "clubs": [
+   {
+    "club": "Rosario Central",
+    "years": "2005–2007",
+    "apps": 35,
+    "goals": 6
+   },
+   {
+    "club": "Benfica",
+    "years": "2007–2010",
+    "apps": 76,
+    "goals": 7
+   },
+   {
+    "club": "Real Madrid",
+    "years": "2010–2014",
+    "apps": 124,
+    "goals": 22
+   },
+   {
+    "club": "Manchester United",
+    "years": "2014–2015",
+    "apps": 27,
+    "goals": 3
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "years": "2015–2022",
+    "apps": 197,
+    "goals": 56
+   },
+   {
+    "club": "Juventus",
+    "years": "2022–2023",
+    "apps": 26,
+    "goals": 4
+   },
+   {
+    "club": "Benfica",
+    "years": "2023–2025",
+    "apps": 53,
+    "goals": 17
+   },
+   {
+    "club": "Rosario Central",
+    "years": "2025–",
+    "apps": 40,
+    "goals": 15
+   }
+  ],
+  "national": [
+   {
+    "team": "Argentina",
+    "years": "2008–2024",
+    "apps": 145,
+    "goals": 31
+   }
+  ],
+  "clubTotal": {
+   "apps": 863,
+   "goals": 216
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Primera División (Campeón de Liga 2025)",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "Liga de Portugal",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "LaLiga",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "Ligue 1",
+    "n": 5
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de la Liga de Portugal y Supercopa de Portugal",
+    "n": 4
+   },
+   {
+    "cat": "copa",
+    "name": "Copa del Rey y Supercopa de España",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de Francia",
+    "n": 5
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de la Liga de Francia",
+    "n": 4
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de Francia",
+    "n": 5
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa Internacional",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Champions League",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Europa",
+    "n": 1
+   },
+   {
+    "cat": "mundial",
+    "name": "Copa del Mundo",
+    "n": 1
+   },
+   {
+    "cat": "continental",
+    "name": "Copa América",
+    "n": 2
+   },
+   {
+    "cat": "selOtros",
+    "name": "Finalissima",
+    "n": 1
+   },
+   {
+    "cat": "olimpico",
+    "name": "Juegos Olímpicos",
+    "n": 1
+   },
+   {
+    "cat": "juvenil",
+    "name": "Mundial Sub-20",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/NIG-ARG_%285%29.jpg/330px-NIG-ARG_%285%29.jpg",
+   "file": "NIG-ARG (5).jpg",
+   "author": "Кирилл Венедиктов",
+   "license": "CC BY-SA 3.0",
+   "year": "2018"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "lautaro",
+  "rank": 44,
+  "name": "Lautaro Martínez",
+  "country": "Argentina",
+  "flag": "ar",
+  "position": "Delantero",
+  "born": "1997-08-22",
+  "clubs": [
+   {
+    "club": "Racing Club",
+    "years": "2015–2018",
+    "apps": 48,
+    "goals": 22
+   },
+   {
+    "club": "Inter Milan",
+    "years": "2018–",
+    "apps": 271,
+    "goals": 136
+   }
+  ],
+  "national": [
+   {
+    "team": "Argentina",
+    "years": "2018–",
+    "apps": 87,
+    "goals": 42
+   }
+  ],
+  "clubTotal": {
+   "apps": 443,
+   "goals": 206
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Serie A",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "Coppa Italia",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de Italia",
+    "n": 3
+   },
+   {
+    "cat": "mundial",
+    "name": "Copa del Mundo",
+    "n": 1
+   },
+   {
+    "cat": "continental",
+    "name": "Copa América",
+    "n": 2
+   },
+   {
+    "cat": "selOtros",
+    "name": "Finalissima",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg/330px-Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg",
+   "file": "Lautaro Martinez Argentina v Spain 19 July 2026-049 (cropped).jpg",
+   "author": "Bryan Berlin",
+   "license": "CC BY-SA 4.0",
+   "year": "2026"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "julian-alvarez",
+  "rank": 45,
+  "name": "Julián Álvarez",
+  "country": "Argentina",
+  "flag": "ar",
+  "position": "Delantero",
+  "born": "2000-01-31",
+  "clubs": [
+   {
+    "club": "River Plate",
+    "years": "2018–2022",
+    "apps": 57,
+    "goals": 23
+   },
+   {
+    "club": "Manchester City",
+    "years": "2022–2024",
+    "apps": 67,
+    "goals": 20
+   },
+   {
+    "club": "River Plate",
+    "loan": true,
+    "years": "2022",
+    "apps": 17,
+    "goals": 11
+   },
+   {
+    "club": "Atlético Madrid",
+    "years": "2024–",
+    "apps": 69,
+    "goals": 25
+   }
+  ],
+  "national": [
+   {
+    "team": "Argentina",
+    "years": "2021–",
+    "apps": 61,
+    "goals": 16
+   }
+  ],
+  "clubTotal": {
+   "apps": 335,
+   "goals": 139
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Primera División",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "Premier League",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Copa Argentina, Supercopa Argentina y Trofeo de Campeones",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "FA Cup",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Copa Libertadores",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Champions League",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Europa",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Mundial de Clubes",
+    "n": 1
+   },
+   {
+    "cat": "mundial",
+    "name": "Copa del Mundo",
+    "n": 1
+   },
+   {
+    "cat": "continental",
+    "name": "Copa América",
+    "n": 2
+   },
+   {
+    "cat": "selOtros",
+    "name": "Finalissima",
+    "n": 1
+   },
+   {
+    "cat": "juvenil",
+    "name": "Preolímpico Sudamericano",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Julian_Alvarez_Argentina_v_Spain_19_July_2026-052_%28cropped%29.jpg/330px-Julian_Alvarez_Argentina_v_Spain_19_July_2026-052_%28cropped%29.jpg",
+   "file": "Julian Alvarez Argentina v Spain 19 July 2026-052 (cropped).jpg",
+   "author": "Bryan Berlin",
+   "license": "CC BY-SA 4.0",
+   "year": "2026"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "haaland",
+  "rank": 46,
+  "name": "Erling Haaland",
+  "country": "Noruega",
+  "flag": "no",
+  "position": "Delantero",
+  "born": "2000-07-21",
+  "clubs": [
+   {
+    "club": "Bryne",
+    "years": "2016–2017",
+    "apps": 16,
+    "goals": 0
+   },
+   {
+    "club": "Molde",
+    "years": "2017–2019",
+    "apps": 39,
+    "goals": 14
+   },
+   {
+    "club": "Red Bull Salzburg",
+    "years": "2019–2020",
+    "apps": 16,
+    "goals": 17
+   },
+   {
+    "club": "Borussia Dortmund",
+    "years": "2020–2022",
+    "apps": 67,
+    "goals": 62
+   },
+   {
+    "club": "Manchester City",
+    "years": "2022–",
+    "apps": 137,
+    "goals": 117
+   }
+  ],
+  "national": [
+   {
+    "team": "Noruega",
+    "years": "2019–",
+    "apps": 59,
+    "goals": 65
+   }
+  ],
+  "clubTotal": {
+   "apps": 409,
+   "goals": 324
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Bundesliga de Austria",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "Premier League",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de Austria",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de Alemania",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "FA Cup",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de la Liga de Inglaterra",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Community Shield",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Champions League",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Europa",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 1
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Erling_Haaland_France_v_Norway_26_June_26-008.jpg/330px-Erling_Haaland_France_v_Norway_26_June_26-008.jpg",
+   "file": "Erling Haaland France v Norway 26 June 26-008.jpg",
+   "author": "Bryan Berlin",
+   "license": "CC BY-SA 4.0",
+   "year": "2026"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "yamal",
+  "rank": 47,
+  "name": "Lamine Yamal",
+  "country": "España",
+  "flag": "es",
+  "position": "Extremo",
+  "born": "2007-07-13",
+  "clubs": [
+   {
+    "club": "Barcelona",
+    "years": "2023–",
+    "apps": 108,
+    "goals": 37
+   }
+  ],
+  "national": [
+   {
+    "team": "España",
+    "years": "2023–",
+    "apps": 37,
+    "goals": 11
+   }
+  ],
+  "clubTotal": {
+   "apps": 162,
+   "goals": 57
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "LaLiga",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "Copa del Rey",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de España",
+    "n": 2
+   },
+   {
+    "cat": "mundial",
+    "name": "Copa del Mundo",
+    "n": 1
+   },
+   {
+    "cat": "continental",
+    "name": "Eurocopa",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Lamine_Yamal_Argentina_v_Spain_19_July_2026-214_%28cropped%29.jpg/330px-Lamine_Yamal_Argentina_v_Spain_19_July_2026-214_%28cropped%29.jpg",
+   "file": "Lamine Yamal Argentina v Spain 19 July 2026-214 (cropped).jpg",
+   "author": "Bryan Berlin",
+   "license": "CC BY-SA 4.0",
+   "year": "2026"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "kane",
+  "rank": 48,
+  "name": "Harry Kane",
+  "country": "Inglaterra",
+  "flag": "gb-eng",
+  "position": "Delantero",
+  "born": "1993-07-28",
+  "clubs": [
+   {
+    "club": "Tottenham Hotspur",
+    "years": "2009–2023",
+    "apps": 317,
+    "goals": 213
+   },
+   {
+    "club": "Leyton Orient",
+    "loan": true,
+    "years": "2011",
+    "apps": 18,
+    "goals": 5
+   },
+   {
+    "club": "Millwall",
+    "loan": true,
+    "years": "2012",
+    "apps": 22,
+    "goals": 7
+   },
+   {
+    "club": "Norwich City",
+    "loan": true,
+    "years": "2012–2013",
+    "apps": 3,
+    "goals": 0
+   },
+   {
+    "club": "Leicester City",
+    "loan": true,
+    "years": "2013",
+    "apps": 13,
+    "goals": 2
+   },
+   {
+    "club": "Bayern Munich",
+    "years": "2023–",
+    "apps": 99,
+    "goals": 101
+   }
+  ],
+  "national": [
+   {
+    "team": "Inglaterra",
+    "years": "2015–",
+    "apps": 125,
+    "goals": 91
+   }
+  ],
+  "clubTotal": {
+   "apps": 655,
+   "goals": 448
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Bundesliga",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de Alemania",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de Alemania",
+    "n": 2
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 1,
+   "shoe": 2
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg/330px-Harry_Kane_England_v_Ghana_23_June_2026-219_%28cropped%29.jpg",
+   "file": "Harry Kane England v Ghana 23 June 2026-219 (cropped).jpg",
+   "author": "Bryan Berlin",
+   "license": "CC BY-SA 4.0",
+   "year": "2026"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "mbappe",
+  "rank": 49,
+  "name": "Kylian Mbappé",
+  "country": "Francia",
+  "flag": "fr",
+  "position": "Delantero",
+  "born": "1998-12-20",
+  "clubs": [
+   {
+    "club": "Monaco",
+    "years": "2015–2018",
+    "apps": 41,
+    "goals": 16
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "loan": true,
+    "years": "2017–2018",
+    "apps": 27,
+    "goals": 13
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "years": "2018–2024",
+    "apps": 178,
+    "goals": 162
+   },
+   {
+    "club": "Real Madrid",
+    "years": "2024–",
+    "apps": 72,
+    "goals": 63
+   }
+  ],
+  "national": [
+   {
+    "team": "Francia",
+    "years": "2017–",
+    "apps": 107,
+    "goals": 67
+   }
+  ],
+  "clubTotal": {
+   "apps": 491,
+   "goals": 381
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Ligue 1",
+    "n": 7
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de Francia",
+    "n": 4
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de la Liga de Francia",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de Francia",
+    "n": 3
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Europa",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Copa Intercontinental de la FIFA",
+    "n": 1
+   },
+   {
+    "cat": "mundial",
+    "name": "Copa del Mundo",
+    "n": 1
+   },
+   {
+    "cat": "selOtros",
+    "name": "Nations League",
+    "n": 1
+   },
+   {
+    "cat": "juvenil",
+    "name": "Eurocopa Sub-19",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 2,
+   "shoe": 1
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/330px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg",
+   "file": "Kylian Mbappe France v Senegal 16 June 2026-391 (cropped).jpg",
+   "author": "Bryan Berlin",
+   "license": "CC BY-SA 4.0",
+   "year": "2026"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "vinicius",
+  "rank": 50,
+  "name": "Vinícius Júnior",
+  "country": "Brasil",
+  "flag": "br",
+  "position": "Extremo",
+  "born": "2000-07-12",
+  "clubs": [
+   {
+    "club": "Flamengo",
+    "years": "2017–2018",
+    "apps": 50,
+    "goals": 11
+   },
+   {
+    "club": "Real Madrid",
+    "years": "2018–",
+    "apps": 249,
+    "goals": 78
+   }
+  ],
+  "national": [
+   {
+    "team": "Brasil",
+    "years": "2019–",
+    "apps": 57,
+    "goals": 14
+   }
+  ],
+  "clubTotal": {
+   "apps": 458,
+   "goals": 147
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "LaLiga",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "Copa del Rey",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de España",
+    "n": 3
+   },
+   {
+    "cat": "intl",
+    "name": "Champions League",
+    "n": 2
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Europa",
+    "n": 2
+   },
+   {
+    "cat": "intl",
+    "name": "Mundial de Clubes",
+    "n": 2
+   },
+   {
+    "cat": "intl",
+    "name": "Copa Intercontinental de la FIFA",
+    "n": 1
+   },
+   {
+    "cat": "juvenil",
+    "name": "Sudamericano Sub-15 y Sub-17",
+    "n": 2
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 1,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/330px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg",
+   "file": "Vinícius Júnior Brazil V Morocco 13 June 2026-207 (cropped).jpg",
+   "author": "Bryan Berlin",
+   "license": "CC BY-SA 4.0",
+   "year": "2026"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "salah",
+  "rank": 51,
+  "name": "Mohamed Salah",
+  "country": "Egipto",
+  "flag": "eg",
+  "position": "Extremo",
+  "born": "1992-06-15",
+  "clubs": [
+   {
+    "club": "Al-Mokawloon",
+    "years": "2010–2012",
+    "apps": 40,
+    "goals": 11
+   },
+   {
+    "club": "Basel",
+    "years": "2012–2014",
+    "apps": 47,
+    "goals": 9
+   },
+   {
+    "club": "Chelsea",
+    "years": "2014–2016",
+    "apps": 13,
+    "goals": 2
+   },
+   {
+    "club": "Fiorentina",
+    "loan": true,
+    "years": "2015",
+    "apps": 16,
+    "goals": 6
+   },
+   {
+    "club": "Roma",
+    "loan": true,
+    "years": "2015–2016",
+    "apps": 34,
+    "goals": 14
+   },
+   {
+    "club": "Roma",
+    "years": "2016–2017",
+    "apps": 31,
+    "goals": 15
+   },
+   {
+    "club": "Liverpool",
+    "years": "2017–2026",
+    "apps": 315,
+    "goals": 191
+   },
+   {
+    "club": "Trabzonspor",
+    "years": "2026–",
+    "apps": 7,
+    "goals": 7
+   }
+  ],
+  "national": [
+   {
+    "team": "Egipto",
+    "years": "2011–",
+    "apps": 122,
+    "goals": 68
+   }
+  ],
+  "clubTotal": {
+   "apps": 703,
+   "goals": 341
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Superliga de Suiza",
+    "n": 2
+   },
+   {
+    "cat": "liga",
+    "name": "Premier League",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "FA Cup",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de la Liga de Inglaterra",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Community Shield",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Champions League",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Europa",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Mundial de Clubes",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg/330px-Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg",
+   "file": "Mohamed Salah Argentina v Egypt 7 July 2026-163 (cropped).jpg",
+   "author": "Bryan Berlin",
+   "license": "CC BY-SA 4.0",
+   "year": "2026"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "lewandowski",
+  "rank": 52,
+  "name": "Robert Lewandowski",
+  "country": "Polonia",
+  "flag": "pl",
+  "position": "Delantero",
+  "born": "1988-08-21",
+  "clubs": [
+   {
+    "club": "Delta Warsaw",
+    "years": "2005",
+    "apps": 17,
+    "goals": 4
+   },
+   {
+    "club": "Znicz Pruszków",
+    "years": "2006–2008",
+    "apps": 59,
+    "goals": 36
+   },
+   {
+    "club": "Lech Poznań",
+    "years": "2008–2010",
+    "apps": 58,
+    "goals": 32
+   },
+   {
+    "club": "Borussia Dortmund",
+    "years": "2010–2014",
+    "apps": 131,
+    "goals": 74
+   },
+   {
+    "club": "Bayern Munich",
+    "years": "2014–2022",
+    "apps": 253,
+    "goals": 238
+   },
+   {
+    "club": "Barcelona",
+    "years": "2022–2026",
+    "apps": 134,
+    "goals": 83
+   },
+   {
+    "club": "Chicago Fire",
+    "years": "2026–",
+    "apps": 12,
+    "goals": 6
+   }
+  ],
+  "national": [
+   {
+    "team": "Polonia",
+    "years": "2008–",
+    "apps": 170,
+    "goals": 92
+   }
+  ],
+  "clubTotal": {
+   "apps": 956,
+   "goals": 669
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Ekstraklasa (Polonia)",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "Bundesliga",
+    "n": 10
+   },
+   {
+    "cat": "liga",
+    "name": "LaLiga",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "Copa y Supercopa de Polonia",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de Alemania",
+    "n": 4
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de Alemania",
+    "n": 6
+   },
+   {
+    "cat": "copa",
+    "name": "Copa del Rey",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de España",
+    "n": 3
+   },
+   {
+    "cat": "intl",
+    "name": "Champions League",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Europa",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Mundial de Clubes",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 2,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 2
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Robert_Lewandowski_2018%2C_JAP-POL_%28cropped%29.jpg/330px-Robert_Lewandowski_2018%2C_JAP-POL_%28cropped%29.jpg",
+   "file": "Robert Lewandowski 2018, JAP-POL (cropped).jpg",
+   "author": "Светлана Бекетова",
+   "license": "CC BY-SA 3.0",
+   "year": "2018"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "modric",
+  "rank": 53,
+  "name": "Luka Modrić",
+  "country": "Croacia",
+  "flag": "hr",
+  "position": "Mediocampista",
+  "born": "1985-09-09",
+  "clubs": [
+   {
+    "club": "Dinamo Zagreb",
+    "years": "2003–2008",
+    "apps": 94,
+    "goals": 26
+   },
+   {
+    "club": "Zrinjski Mostar",
+    "loan": true,
+    "years": "2003–2004",
+    "apps": 25,
+    "goals": 8
+   },
+   {
+    "club": "Inter Zaprešić",
+    "loan": true,
+    "years": "2004–2005",
+    "apps": 18,
+    "goals": 4
+   },
+   {
+    "club": "Tottenham Hotspur",
+    "years": "2008–2012",
+    "apps": 127,
+    "goals": 13
+   },
+   {
+    "club": "Real Madrid",
+    "years": "2012–2025",
+    "apps": 394,
+    "goals": 30
+   },
+   {
+    "club": "AC Milan",
+    "years": "2025–",
+    "apps": 39,
+    "goals": 2
+   }
+  ],
+  "national": [
+   {
+    "team": "Croacia",
+    "years": "2006–",
+    "apps": 206,
+    "goals": 30
+   }
+  ],
+  "clubTotal": {
+   "apps": 972,
+   "goals": 106
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Liga de Croacia",
+    "n": 3
+   },
+   {
+    "cat": "liga",
+    "name": "LaLiga",
+    "n": 4
+   },
+   {
+    "cat": "copa",
+    "name": "Copa y Supercopa de Croacia",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "Copa del Rey",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de España",
+    "n": 5
+   },
+   {
+    "cat": "intl",
+    "name": "Champions League",
+    "n": 6
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Europa",
+    "n": 5
+   },
+   {
+    "cat": "intl",
+    "name": "Mundial de Clubes",
+    "n": 5
+   },
+   {
+    "cat": "intl",
+    "name": "Copa Intercontinental de la FIFA",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [
+    2018
+   ],
+   "fifa": 1,
+   "wcBall": 1,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg/330px-Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg",
+   "file": "Luka Modric Croatia v Portugal 2 July 2026-055.jpg",
+   "author": "Bryan Berlin",
+   "license": "CC BY-SA 4.0",
+   "year": "2026"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "de-bruyne",
+  "rank": 54,
+  "name": "Kevin De Bruyne",
+  "country": "Bélgica",
+  "flag": "be",
+  "position": "Mediocampista",
+  "born": "1991-06-28",
+  "clubs": [
+   {
+    "club": "Genk",
+    "years": "2008–2012",
+    "apps": 97,
+    "goals": 16
+   },
+   {
+    "club": "Chelsea",
+    "years": "2012–2014",
+    "apps": 3,
+    "goals": 0
+   },
+   {
+    "club": "Werder Bremen",
+    "loan": true,
+    "years": "2012–2013",
+    "apps": 33,
+    "goals": 10
+   },
+   {
+    "club": "VfL Wolfsburg",
+    "years": "2014–2015",
+    "apps": 52,
+    "goals": 13
+   },
+   {
+    "club": "Manchester City",
+    "years": "2015–2025",
+    "apps": 285,
+    "goals": 72
+   },
+   {
+    "club": "Napoli",
+    "years": "2025–",
+    "apps": 23,
+    "goals": 6
+   }
+  ],
+  "national": [
+   {
+    "team": "Bélgica",
+    "years": "2010–",
+    "apps": 127,
+    "goals": 40
+   }
+  ],
+  "clubTotal": {
+   "apps": 678,
+   "goals": 161
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Liga de Bélgica",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "Premier League",
+    "n": 6
+   },
+   {
+    "cat": "copa",
+    "name": "Copa y Supercopa de Bélgica",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Copa y Supercopa de Alemania",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "FA Cup",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de la Liga de Inglaterra",
+    "n": 5
+   },
+   {
+    "cat": "copa",
+    "name": "Community Shield",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de Italia",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Champions League",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Europa",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Mundial de Clubes",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg/330px-Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg",
+   "file": "Kevin De Bruyne USMNT v Belgium Mar 28 2026-64 (cropped).jpg",
+   "author": "Bryan Berlin",
+   "license": "CC BY-SA 4.0",
+   "year": "2026"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "neymar",
+  "rank": 55,
+  "name": "Neymar",
+  "country": "Brasil",
+  "flag": "br",
+  "position": "Delantero",
+  "born": "1992-02-05",
+  "clubs": [
+   {
+    "club": "Santos",
+    "years": "2009–2013",
+    "apps": 179,
+    "goals": 107
+   },
+   {
+    "club": "Barcelona",
+    "years": "2013–2017",
+    "apps": 123,
+    "goals": 68
+   },
+   {
+    "club": "Paris Saint-Germain",
+    "years": "2017–2023",
+    "apps": 112,
+    "goals": 82
+   },
+   {
+    "club": "Al-Hilal",
+    "years": "2023–2025",
+    "apps": 3,
+    "goals": 0
+   },
+   {
+    "club": "Santos",
+    "years": "2025–",
+    "apps": 42,
+    "goals": 19
+   }
+  ],
+  "national": [
+   {
+    "team": "Brasil",
+    "years": "2010–2026",
+    "apps": 130,
+    "goals": 80
+   }
+  ],
+  "clubTotal": {
+   "apps": 644,
+   "goals": 381
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "LaLiga",
+    "n": 2
+   },
+   {
+    "cat": "liga",
+    "name": "Ligue 1",
+    "n": 5
+   },
+   {
+    "cat": "liga",
+    "name": "Liga Profesional Saudí",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de Brasil",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa del Rey",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de España",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de Francia",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de la Liga de Francia",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de Francia",
+    "n": 3
+   },
+   {
+    "cat": "reg",
+    "name": "Campeonato Paulista",
+    "n": 3
+   },
+   {
+    "cat": "intl",
+    "name": "Copa Libertadores",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Recopa Sudamericana",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Champions League",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Mundial de Clubes",
+    "n": 1
+   },
+   {
+    "cat": "olimpico",
+    "name": "Juegos Olímpicos",
+    "n": 1
+   },
+   {
+    "cat": "selOtros",
+    "name": "Copa Confederaciones",
+    "n": 1
+   },
+   {
+    "cat": "juvenil",
+    "name": "Sudamericano Sub-20",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg/330px-Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg",
+   "file": "Neymar Junior Brazil V Morocco 13 June 2026-40.jpg",
+   "author": "Bryan Berlin",
+   "license": "CC BY-SA 4.0",
+   "year": "2026"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
+ },
+ {
+  "id": "benzema",
+  "rank": 56,
+  "name": "Karim Benzema",
+  "country": "Francia",
+  "flag": "fr",
+  "position": "Delantero",
+  "born": "1987-12-19",
+  "clubs": [
+   {
+    "club": "Lyon",
+    "years": "2004–2009",
+    "apps": 112,
+    "goals": 43
+   },
+   {
+    "club": "Real Madrid",
+    "years": "2009–2023",
+    "apps": 439,
+    "goals": 238
+   },
+   {
+    "club": "Al-Ittihad",
+    "years": "2023–2026",
+    "apps": 64,
+    "goals": 38
+   },
+   {
+    "club": "Al-Hilal",
+    "years": "2026",
+    "apps": 12,
+    "goals": 10
+   }
+  ],
+  "national": [
+   {
+    "team": "Francia",
+    "years": "2007–2022",
+    "apps": 97,
+    "goals": 37
+   }
+  ],
+  "clubTotal": {
+   "apps": 919,
+   "goals": 502
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Ligue 1",
+    "n": 4
+   },
+   {
+    "cat": "liga",
+    "name": "LaLiga",
+    "n": 4
+   },
+   {
+    "cat": "liga",
+    "name": "Liga Profesional Saudí",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de Francia",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de Francia",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Copa del Rey",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de España",
+    "n": 4
+   },
+   {
+    "cat": "copa",
+    "name": "Copa del Rey de Arabia Saudita",
+    "n": 2
+   },
+   {
+    "cat": "intl",
+    "name": "Champions League",
+    "n": 5
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Europa",
+    "n": 4
+   },
+   {
+    "cat": "intl",
+    "name": "Mundial de Clubes",
+    "n": 5
+   },
+   {
+    "cat": "selOtros",
+    "name": "Nations League",
+    "n": 1
+   },
+   {
+    "cat": "juvenil",
+    "name": "Eurocopa Sub-17",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [
+    2022
+   ],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Karim_Benzema_Pick.jpg/330px-Karim_Benzema_Pick.jpg",
+   "file": "Karim Benzema Pick.jpg",
+   "author": "Zack",
+   "license": "CC BY 4.0",
+   "year": "2024"
+  },
+  "note": "Jugador en actividad o retirado hace poco: datos al 10 de octubre de 2026."
  }
 ];

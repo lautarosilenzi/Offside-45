@@ -9,7 +9,10 @@ import { LEAGUE_TITLES, SEASON_OF_MATCH, isAmateurSeason, seasonLabel } from "@/
 import { getTeam } from "@/lib/teams";
 import type { Match } from "@/lib/types";
 
-export const metadata: Metadata = { title: "Estadísticas · 126Goals" };
+export const metadata: Metadata = {
+  title: "Estadísticas del Fútbol Argentino · 126Goals",
+  description: "Tabla histórica, clásicos, goleadas, rachas, mejores locales y visitantes y todos los números de la Primera División argentina desde 1891.",
+};
 
 // Partidos de los torneos de Primera que dan título (todas las ligas reconocidas; sin copas, promociones, liguillas
 // ni reclasificaciones con equipos de otras categorías) con resultado válido.
@@ -127,10 +130,54 @@ const STREAKS = (() => {
 })();
 const year = (d: string) => d.slice(0, 4);
 
+// Los grandes clásicos, en la liga: partidos, victorias de cada uno, empates y goles.
+const CLASICOS = [
+  ["boca", "river"],
+  ["racing", "independiente"],
+  ["central", "newells"],
+  ["estudiantes", "gimnasia"],
+  ["sanlorenzo", "huracan"],
+].map(([a, b]) => {
+  const ms = LEAGUE_MATCHES.filter((m) => (m.homeId === a && m.awayId === b) || (m.homeId === b && m.awayId === a));
+  let wa = 0, wb = 0, ga = 0, gb = 0;
+  for (const m of ms) {
+    const w = winnerOf(m);
+    if (w === a) wa++;
+    else if (w === b) wb++;
+    ga += m.homeId === a ? m.homeGoals : m.awayGoals;
+    gb += m.homeId === b ? m.homeGoals : m.awayGoals;
+  }
+  return { a, b, played: ms.length, wa, wb, draws: ms.length - wa - wb, ga, gb };
+});
+
+// Más goles a favor en la historia de la liga.
+const MOST_GOALS_FOR = [...TOTAL].sort((a, b) => b.gf - a.gf).slice(0, 10);
+
+// Mejor local y mejor visitante: porcentaje de partidos ganados (clubes con al menos 300 partidos de cada lado).
+const HOME_AWAY_BEST = (() => {
+  const map = new Map<string, { hp: number; hw: number; ap: number; aw: number }>();
+  const get = (id: string) => map.get(id) ?? (map.set(id, { hp: 0, hw: 0, ap: 0, aw: 0 }), map.get(id)!);
+  for (const m of LEAGUE_MATCHES) {
+    const w = winnerOf(m);
+    const h = get(m.homeId);
+    const a = get(m.awayId);
+    h.hp++;
+    a.ap++;
+    if (w === m.homeId) h.hw++;
+    else if (w === m.awayId) a.aw++;
+  }
+  const rows = [...map.entries()].map(([id, r]) => ({ id, ...r }));
+  return {
+    home: rows.filter((r) => r.hp >= 300).sort((x, y) => y.hw / y.hp - x.hw / x.hp).slice(0, 8),
+    away: rows.filter((r) => r.ap >= 300).sort((x, y) => y.aw / y.ap - x.aw / x.ap).slice(0, 8),
+  };
+})();
+const pct1 = (n: number) => `${(n * 100).toFixed(1).replace(".", ",")}%`;
+
 export default function StatsPage() {
   return (
     <>
-      <PageHero eyebrow="Argentina · Primera División" title="Estadísticas">
+      <PageHero eyebrow="Primera División · desde 1891" title="Estadísticas del Fútbol Argentino">
         <span className="text-base">
           Los números de toda la historia de la Primera División, calculados partido por partido con los {LEAGUE_MATCHES.length.toLocaleString("es-AR")}{" "}
           partidos de liga cargados en el sitio (sin copas).
@@ -238,6 +285,90 @@ export default function StatsPage() {
         <p className="-mt-6 text-xs text-navy-500">
           Solo partidos de liga de Primera, en orden de fecha (las rachas siguen de un torneo al siguiente). Se muestra la mejor racha de cada club.
         </p>
+
+        <section>
+          <h2 className="section-title mb-3">Los clásicos</h2>
+          <ul className="grid gap-3 md:grid-cols-2">
+            {CLASICOS.map((c) => {
+              const A = getTeam(c.a)!;
+              const B = getTeam(c.b)!;
+              return (
+                <li key={c.a + c.b} className="panel p-4">
+                  <div className="grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-2">
+                    <span className="flex min-w-0 items-center gap-2 font-semibold text-navy-950">
+                      <Crest team={A} size="sm" /> <span className="leading-tight">{A.name}</span>
+                    </span>
+                    <span className="text-center text-xs text-navy-500">{c.played} partidos</span>
+                    <span className="flex min-w-0 flex-row-reverse items-center gap-2 text-right font-semibold text-navy-950">
+                      <Crest team={B} size="sm" /> <span className="leading-tight">{B.name}</span>
+                    </span>
+                  </div>
+                  <div className="mt-3 flex h-7 overflow-hidden rounded-full text-xs font-bold text-white">
+                    <span className="flex items-center justify-center bg-volt-500" style={{ width: `${(c.wa / c.played) * 100}%` }}>{c.wa}</span>
+                    <span className="flex items-center justify-center bg-navy-400" style={{ width: `${(c.draws / c.played) * 100}%` }}>{c.draws}</span>
+                    <span className="flex items-center justify-center bg-gold-500" style={{ width: `${(c.wb / c.played) * 100}%` }}>{c.wb}</span>
+                  </div>
+                  <div className="mt-1.5 flex justify-between text-xs text-navy-500">
+                    <span>Ganó {c.wa}</span>
+                    <span>Empates {c.draws}</span>
+                    <span>Ganó {c.wb}</span>
+                  </div>
+                  <p className="mt-1 text-center text-xs text-navy-400">
+                    Goles: {c.ga} a {c.gb} ·{" "}
+                    <Link href={`/historiales?a=${c.a}&b=${c.b}`} className="text-volt-600 hover:underline">
+                      ver el historial completo
+                    </Link>
+                  </p>
+                </li>
+              );
+            })}
+          </ul>
+          <p className="mt-2 text-xs text-navy-500">Solo partidos de liga de Primera. El historial completo suma las copas y los cruces internacionales.</p>
+        </section>
+
+        <div className="grid gap-8 lg:grid-cols-3">
+          <section>
+            <h2 className="section-title mb-3">Más goles a favor</h2>
+            <ol className="panel divide-y divide-navy-100">
+              {MOST_GOALS_FOR.map((r, i) => {
+                const team = getTeam(r.id)!;
+                return (
+                  <li key={r.id} className="flex items-center gap-2.5 px-4 py-2.5 text-sm">
+                    <span className="w-5 font-display font-bold text-navy-400">{i + 1}</span>
+                    <Crest team={team} size="xs" />
+                    <span className="min-w-0 flex-1 font-semibold leading-snug text-navy-900">{team.name}</span>
+                    <span className="font-display text-lg font-bold tabular-nums text-navy-950">{r.gf.toLocaleString("es-AR")}</span>
+                  </li>
+                );
+              })}
+            </ol>
+          </section>
+          {[
+            { title: "Mejor local", list: HOME_AWAY_BEST.home.map((r) => ({ id: r.id, v: r.hw / r.hp, n: r.hp })) },
+            { title: "Mejor visitante", list: HOME_AWAY_BEST.away.map((r) => ({ id: r.id, v: r.aw / r.ap, n: r.ap })) },
+          ].map((s) => (
+            <section key={s.title}>
+              <h2 className="section-title mb-3">{s.title}</h2>
+              <ol className="panel divide-y divide-navy-100">
+                {s.list.map((r, i) => {
+                  const team = getTeam(r.id)!;
+                  return (
+                    <li key={r.id} className="flex items-center gap-2.5 px-4 py-2.5 text-sm">
+                      <span className="w-5 font-display font-bold text-navy-400">{i + 1}</span>
+                      <Crest team={team} size="xs" />
+                      <span className="min-w-0 flex-1 leading-snug">
+                        <span className="font-semibold text-navy-900">{team.name}</span>
+                        <span className="block text-xs text-navy-400">{r.n.toLocaleString("es-AR")} partidos</span>
+                      </span>
+                      <span className="font-display text-lg font-bold tabular-nums text-navy-950">{pct1(r.v)}</span>
+                    </li>
+                  );
+                })}
+              </ol>
+            </section>
+          ))}
+        </div>
+        <p className="-mt-6 text-xs text-navy-500">Mejor local y visitante: porcentaje de partidos ganados, entre los clubes con al menos 300 partidos de cada lado.</p>
 
         <section>
           <h2 className="section-title mb-3">Más temporadas en Primera</h2>

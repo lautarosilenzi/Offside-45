@@ -143,8 +143,6 @@ function PlayerCard({ l, color }: { l: Legend; color: string }) {
           <img src={sharper(l.photo.src)} alt={l.name} referrerPolicy="no-referrer" className="h-full w-full object-cover object-[50%_25%]" />
         )}
         <div className="absolute inset-x-0 bottom-0 h-1.5" style={{ background: color }} />
-        {/* El puesto es el del ranking de las 25 mejores; las leyendas sudamericanas y argentinas que se sumaron después van sin puesto. */}
-        {l.rank <= 25 && <span className="absolute left-3 top-3 rounded-full bg-navy-950/80 px-2.5 py-1 font-display text-sm font-bold text-white">#{l.rank}</span>}
       </div>
       <div className="p-3 sm:p-4">
         <h2 className="font-display text-xl font-extrabold uppercase italic leading-none tracking-wide text-navy-950 sm:text-3xl">{l.name}</h2>

@@ -3,6 +3,9 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   darkMode: "class",
   content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./lib/**/*.{ts,tsx}"],
+  // Los efectos de "pasar el mouse" solo en pantallas con mouse: en el celular, un toque entra directo (sin el primer
+  // toque que en el iPhone solo activa el efecto).
+  future: { hoverOnlyWhenSupported: true },
   theme: {
     extend: {
       colors: {

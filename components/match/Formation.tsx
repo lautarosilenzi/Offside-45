@@ -73,7 +73,8 @@ export default function Formation({
         {lineup.formation && <span className="rounded-full bg-navy-950 px-2 py-0.5 font-display text-xs font-bold text-white">{lineup.formation}</span>}
       </div>
       {rows ? (
-        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-b from-emerald-600 to-emerald-700 p-2" style={{ aspectRatio: "3 / 3.4" }}>
+        // La cancha crece con lo que necesite (apellidos en dos renglones): nunca corta al arquero ni a los de las puntas.
+        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-b from-emerald-600 to-emerald-700 px-2 pb-3 pt-2">
           {/* Líneas de la cancha */}
           <svg viewBox="0 0 100 113" preserveAspectRatio="none" className="pointer-events-none absolute inset-0 h-full w-full opacity-40" aria-hidden>
             <rect x="3" y="3" width="94" height="107" fill="none" stroke="#fff" strokeWidth="0.6" />
@@ -82,7 +83,7 @@ export default function Formation({
             <rect x="22" y="88" width="56" height="22" fill="none" stroke="#fff" strokeWidth="0.6" />
             <rect x="37" y="102" width="26" height="8" fill="none" stroke="#fff" strokeWidth="0.6" />
           </svg>
-          <div className="relative flex h-full flex-col-reverse justify-between py-1">
+          <div className="relative flex min-h-[23rem] flex-col-reverse justify-between gap-3 py-1 sm:min-h-[26rem]">
             {rows.map((row, r) => (
               <div key={r} className="flex justify-around">
                 {row.map((p) => (

@@ -58,9 +58,10 @@ const ROWS = [...new Set(TITLES.map((t) => t.yearLabel))]
 // Las dos eras del fútbol argentino: amateur (1891–1930, y las ligas amateurs que siguieron hasta 1934) y profesional
 // (desde 1931). Cada título va a la suya; un año con títulos de las dos eras aparece en las dos.
 const isAmateur = (t: Title) => (t.season ? isAmateurSeason(t.season) : t.year < 1931);
+// En orden de la historia: primero la era amateur, después la profesional.
 const ERAS = [
-  { id: "profesional", title: "Era profesional", sub: "Desde 1931", amateur: false },
   { id: "amateur", title: "Era amateur", sub: "1891–1930 (y la liga amateur hasta 1934)", amateur: true },
+  { id: "profesional", title: "Era profesional", sub: "Desde 1931", amateur: false },
 ].map((e) => {
   const rows = ROWS.map((r) => ({ ...r, titles: r.titles.filter((t) => isAmateur(t) === e.amateur) })).filter((r) => r.titles.length);
   return { ...e, rows, decades: [...new Set(rows.map((r) => Math.floor(r.year / 10) * 10))] };

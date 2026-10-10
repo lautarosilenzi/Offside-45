@@ -3,7 +3,7 @@ import Crest from "@/components/Crest";
 import { LEAGUE_SEASONS, isAmateurSeason, titleLabel } from "@/lib/seasons";
 import { getTeam } from "@/lib/teams";
 
-// Pestaña "Historia" de la Liga Profesional: todos los torneos de Primera desde 1891, por era y por década, cada uno
+// Pestaña "Historia" de la Liga Profesional: todos los torneos de Primera desde 1891, en orden, por era y por década, cada uno
 // con su campeón y su página (tabla y partidos). Abajo, las otras secciones de la historia del fútbol argentino.
 const MORE = [
   { href: "/campeones", title: "Todos los campeones", text: "Ligas, copas nacionales y títulos internacionales, año por año." },
@@ -14,10 +14,11 @@ const MORE = [
 ];
 
 export default function LeagueHistory() {
-  const seasons = [...LEAGUE_SEASONS].reverse();
+  // En orden de la historia: desde 1891, primero la era amateur y después la profesional.
+  const seasons = LEAGUE_SEASONS;
   const eras = [
-    { id: "profesional", title: "Era profesional", sub: "Desde 1931", list: seasons.filter((s) => !isAmateurSeason(s)) },
     { id: "amateur", title: "Era amateur", sub: "1891–1934", list: seasons.filter((s) => isAmateurSeason(s)) },
+    { id: "profesional", title: "Era profesional", sub: "Desde 1931", list: seasons.filter((s) => !isAmateurSeason(s)) },
   ];
   return (
     <div className="space-y-8">
