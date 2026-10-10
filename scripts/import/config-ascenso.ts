@@ -2026,3 +2026,75 @@ ASCENSO_TOURNAMENTS.push(
     notes: [{ kind: "formato", text: "Del 3.º al 9.º de la tabla y el perdedor de la final; cuartos a un partido, semifinales y final a ida y vuelta." }],
   }),
 );
+
+// ───────── 2018/19 ─────────
+// Títulos con la fecha pegada: "Championship playoff[Apr 28, Sun]".
+const pre1819 = (page: string) =>
+  page
+    .split(/\r?\n/)
+    .flatMap((line) => {
+      const t = line.match(/^([A-Za-z][A-Za-z ]+?)\s*\[(\w{3} \d+(?:, \w{3})?)\]\s*$/);
+      return t ? [t[1], `[${t[2]}]`] : [line];
+    })
+    .join("\n");
+const A1819: Record<string, string> = {
+  ...A1719,
+  "CA Gimnasia y Esgrima (Mendoza)": "gimnasia-mendoza",
+  "CA Gimnasia y Esgrima (SS Jujuy)": "gimnasia-jujuy",
+  "Arsenal FC": "arsenal",
+  "Arsenal Fútbol Club": "arsenal",
+  "CA Platense": "platense",
+  "Club Atlético Platense Asociación Civil": "platense",
+  "CA Central Córdoba": "central-cordoba-sde",
+  "Club Atlético Central Córdoba Soc. Civil": "central-cordoba-sde",
+  "CA Temperley": "temperley",
+  "CA Defensores de Belgrano": "defensores-belgrano",
+  "Club Atlético Defensores de Belgrano": "defensores-belgrano",
+  "Club Olimpo": "olimpo",
+  "CA Chacarita Juniors": "chacarita",
+};
+const H1819 = [/^Campeonato de Primera "B" Nacional 2018\/2019/i, /^Copa Argentina\s+Round of 64/i, /^Championship playoff\s*$/i, /^Relegation/i, /^Reducido\s*$/i, /^Third Level/i];
+ASCENSO_TOURNAMENTS.push(
+  singleSeason("b-nacional-2018-19", 2018, "2018/19", "arg2019.html", /^Campeonato de Primera "B" Nacional 2018\/2019/i, A1819, ["arsenal"],
+    "Sarmiento de Junín y Arsenal terminaron igualados en el primer puesto; Arsenal ganó la final 1-0 y volvió a Primera. Central Córdoba de Santiago del Estero ganó el reducido y también ascendió.",
+    "25 equipos, todos contra todos a una rueda, 3 puntos por victoria. Los dos primeros jugaron la final por el campeonato; del 3.º al 9.º, el reducido.",
+    {
+      preprocess: pre1819,
+      headings: H1819,
+      section: undefined,
+      // La tabla de clasificación a la Copa Argentina (a mitad de temporada) abre otra sección: se toma el rango.
+      sectionRange: { from: /^Campeonato de Primera "B" Nacional 2018\/2019/i, to: /^Championship playoff\s*$/i },
+      tableIndex: 1,
+    }),
+  nacionalBExtra(2018, "final", "Final por el campeonato", {
+    file: "arg2019.html",
+    preprocess: pre1819,
+    section: /^Championship playoff\s*$/i,
+    headings: H1819,
+    aliases: A1819,
+    publishedTable: [],
+    tableIndex: [],
+    playoffFrom: { date: "2019-01-01", stage: "Final (cancha de Banfield)" },
+    championIds: ["arsenal"],
+    runnerUpIds: ["sarmiento-junin"],
+    summary: "Arsenal le ganó 1-0 a Sarmiento en la cancha de Banfield: campeón de la Primera B Nacional 2018/19 y ascenso a Primera.",
+    notes: [{ kind: "formato", text: "Final a un partido en cancha neutral entre los dos primeros, igualados en puntos." }],
+  }),
+  nacionalBExtra(2018, "reducido", "Reducido", {
+    file: "arg2019.html",
+    // Hay otro título "Reducido" antes en la página: se marca el del ascenso (el que sigue con los cuartos de final).
+    preprocess: (page) => pre1819(page).replace(/^Reducido\s*\n(?=Quarter finals)/m, "Reducido Nacional B\n"),
+    sectionRange: { from: /^Reducido Nacional B/i, to: /^Third Level/i },
+    headings: [...H1819, /^Quarter finals/i, /^Semi finals/i, /^Final\s*$/i],
+    aliases: A1819,
+    playoffRounds: [
+      { date: "2019-05-04", stage: "Cuartos de final" },
+      { date: "2019-05-18", stage: "Semifinal" },
+      { date: "2019-06-01", stage: "Final" },
+    ],
+    championIds: ["central-cordoba-sde"],
+    runnerUpIds: ["sarmiento-junin"],
+    summary: "Central Córdoba de Santiago del Estero ganó el reducido (1-1 y 0-0 con Sarmiento en la final, 5-3 por penales) y ascendió a Primera.",
+    notes: [{ kind: "formato", text: "Del 3.º al 9.º de la tabla y el perdedor de la final, eliminación a ida y vuelta." }],
+  }),
+);
