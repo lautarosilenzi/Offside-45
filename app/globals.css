@@ -722,3 +722,20 @@ html.dark body::before {
   -webkit-appearance: none;
   appearance: none;
 }
+
+/* Tablas: los números alineados a la derecha nunca quedan pegados al borde ni entre sí (los que ya tienen su propio
+   margen derecho se respetan). */
+.panel table :is(td, th).text-right:not([class*="pr-"]):not([class*="px-"]) {
+  padding-right: 0.75rem;
+}
+.panel table :is(td, th).text-center:not([class*="px-"]) {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+/* Logos chicos (menú, listas): sin el resplandor de los grandes, que a ese tamaño los desenfoca; solo un contorno
+   finito para que los oscuros se vean. */
+html.dark .logo-sm {
+  filter: drop-shadow(0 0 0.6px rgba(255, 255, 255, 0.85));
+  image-rendering: -webkit-optimize-contrast;
+}

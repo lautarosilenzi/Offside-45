@@ -9,6 +9,7 @@ type Result = { kind: string; title: string; subtitle?: string; href: string; lo
 
 // Grupos, en el orden en que se muestran (con nombres que entiende cualquiera).
 const GROUPS: { title: string; kinds: string[] }[] = [
+  { title: "Historial", kinds: ["Historial"] },
   { title: "Equipos", kinds: ["Club", "Equipo"] },
   { title: "Jugadores", kinds: ["Jugador"] },
   { title: "Torneos", kinds: ["Competencia"] },
@@ -82,7 +83,7 @@ export default function HomeSearch() {
           value={q}
           onChange={(e) => setQ(e.target.value)}
           onKeyDown={onKey}
-          placeholder="Equipo, jugador o liga"
+          placeholder="Equipo, jugador, liga o «Boca River»"
           autoComplete="off"
           enterKeyHint="search"
           aria-controls="home-search-results"

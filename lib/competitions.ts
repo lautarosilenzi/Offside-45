@@ -56,7 +56,7 @@ export const GROUPS: CountryGroup[] = [
       c("descensos", "Descensos", "", "/descensos"),
       c("campeones", "Campeones", "", "/campeones"),
       c("estadisticas", "Estadísticas", "", "/estadisticas"),
-      c("historia-liga", "Historia de la liga desde 1891", "", "/temporadas"),
+      c("historia-liga", "Historia de la liga desde 1891", "", "/torneos/liga-profesional#historia"),
     ],
   },
   {

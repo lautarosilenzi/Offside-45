@@ -8,7 +8,8 @@ import { useCountry } from "@/lib/region";
 // Torneos destacados de la portada, según el país elegido en el menú (Argentina por defecto).
 export default function HomeFeatured() {
   const country = useCountry();
-  const tournaments = featuredList(country.featured).filter((c) => c.href?.startsWith("/torneos/"));
+  // Los torneos y, primero, Historiales (el cara a cara entre dos clubes).
+  const tournaments = featuredList(country.featured).filter((c) => c.href?.startsWith("/torneos/") || c.id === "historiales");
   return (
     <nav aria-label="Torneos destacados" className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
       {tournaments.map((c) => (
@@ -18,7 +19,7 @@ export default function HomeFeatured() {
           className="flex min-h-[2.75rem] items-center gap-2 rounded-2xl bg-white px-3 py-1.5 text-sm font-semibold leading-tight text-navy-800 ring-1 ring-navy-100 transition hover:ring-volt-400 sm:rounded-full"
         >
           <span className="flex h-6 w-6 shrink-0 items-center justify-center">
-            <CompLogo id={c.id} size={20} />
+            {c.id === "historiales" ? <span className="font-display text-sm font-black italic text-volt-500">VS</span> : <CompLogo id={c.id} size={20} />}
           </span>
           {c.name}
         </Link>

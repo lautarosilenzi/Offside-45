@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element -- fotos de ESPN, sin optimizar */
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { MatchPlayer } from "@/lib/live/match";
 import { playerSections } from "@/lib/live/player-match";
@@ -19,6 +19,7 @@ export default function PlayerSheet({
   eventId,
   live,
   photo,
+  photos,
   color,
   ink,
   onClose,
@@ -30,6 +31,7 @@ export default function PlayerSheet({
   eventId: string;
   live: boolean;
   photo?: { url: string; credit?: string }; // la del plantel (ESPN o Wikimedia Commons)
+  photos?: Record<string, { url: string }>; // las del resto del plantel (para el anterior y el siguiente)
   color: string; // color del equipo (y el del texto encima)
   ink: string;
   onClose: () => void;
@@ -67,6 +69,25 @@ export default function PlayerSheet({
     };
   }, [index, players.length, onClose, onMove]);
 
+  // Deslizar hacia abajo cierra la ficha (como en las apps): se arrastra desde arriba de todo.
+  const sheet = useRef<HTMLDivElement>(null);
+  const start = useRef<number | null>(null);
+  const [drag, setDrag] = useState(0);
+  const onTouchStart = (e: React.TouchEvent) => {
+    start.current = (sheet.current?.scrollTop ?? 0) <= 0 ? e.touches[0].clientY : null;
+  };
+  const onTouchMove = (e: React.TouchEvent) => {
+    if (start.current === null) return;
+    setDrag(Math.max(0, e.touches[0].clientY - start.current));
+  };
+  const onTouchEnd = () => {
+    if (drag > 90) onClose();
+    start.current = null;
+    setDrag(0);
+  };
+  const prev = players[index - 1];
+  const next = players[index + 1];
+
   const s = data?.stats ?? {};
   const keeper = p.line === "Arquero";
   const minutes = s.minutes ?? (p.played ? undefined : 0);
@@ -74,34 +95,34 @@ export default function PlayerSheet({
   return createPortal(
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-navy-950/60 sm:items-center sm:p-4" role="dialog" aria-modal="true" aria-label={p.name} onClick={onClose}>
       <div
+        ref={sheet}
         className="max-h-[92vh] w-full max-w-md overflow-y-auto rounded-t-3xl bg-white shadow-2xl sm:rounded-3xl"
+        style={{ transform: drag ? `translateY(${drag}px)` : undefined, transition: drag ? "none" : "transform 0.2s" }}
         onClick={(e) => e.stopPropagation()}
+        onTouchStart={onTouchStart}
+        onTouchMove={onTouchMove}
+        onTouchEnd={onTouchEnd}
       >
         <div className="sticky top-0 z-10 flex justify-center bg-white pb-1 pt-2 sm:hidden">
-          <span className="h-1.5 w-12 rounded-full bg-navy-200" />
+          <span className="h-1.5 w-12 rounded-full bg-navy-300" aria-label="Deslizá hacia abajo para cerrar" />
         </div>
         <div className="relative px-5 pb-4 pt-2 text-center sm:pt-5">
-          <button type="button" onClick={onClose} aria-label="Cerrar" className="absolute right-3 top-2 flex h-9 w-9 items-center justify-center rounded-full text-navy-400 hover:bg-navy-50 hover:text-navy-800">
+          <button type="button" onClick={onClose} aria-label="Cerrar" className="absolute right-3 top-2 hidden h-9 w-9 items-center justify-center rounded-full text-navy-400 hover:bg-navy-50 hover:text-navy-800 sm:flex">
             ✕
           </button>
-          <div className="flex items-center justify-center gap-4">
-            <button
-              type="button"
-              onClick={() => onMove(index - 1)}
-              disabled={index === 0}
-              aria-label="Jugador anterior"
-              className="flex h-9 w-9 items-center justify-center rounded-full text-2xl text-navy-500 hover:bg-navy-50 disabled:opacity-20"
-            >
+          {/* Como en 365: el anterior y el siguiente a los costados, chiquitos; tocarlos pasa a ese jugador. */}
+          <div className="flex items-center justify-center gap-2">
+            <button type="button" onClick={() => onMove(index - 1)} disabled={!prev} aria-label="Jugador anterior" className="flex h-9 w-7 items-center justify-center text-2xl text-navy-500 disabled:opacity-20">
               ‹
             </button>
+            <button type="button" onClick={() => prev && onMove(index - 1)} disabled={!prev} aria-hidden tabIndex={-1} className="opacity-70 disabled:invisible">
+              {prev && <Avatar photo={photos?.[prev.id]?.url} number={prev.number} color={color} ink={ink} size={44} />}
+            </button>
             <Avatar photo={photo?.url ?? data?.photo} number={p.number} color={color} ink={ink} />
-            <button
-              type="button"
-              onClick={() => onMove(index + 1)}
-              disabled={index === players.length - 1}
-              aria-label="Jugador siguiente"
-              className="flex h-9 w-9 items-center justify-center rounded-full text-2xl text-navy-500 hover:bg-navy-50 disabled:opacity-20"
-            >
+            <button type="button" onClick={() => next && onMove(index + 1)} disabled={!next} aria-hidden tabIndex={-1} className="opacity-70 disabled:invisible">
+              {next && <Avatar photo={photos?.[next.id]?.url} number={next.number} color={color} ink={ink} size={44} />}
+            </button>
+            <button type="button" onClick={() => onMove(index + 1)} disabled={!next} aria-label="Jugador siguiente" className="flex h-9 w-7 items-center justify-center text-2xl text-navy-500 disabled:opacity-20">
               ›
             </button>
           </div>
@@ -116,16 +137,16 @@ export default function PlayerSheet({
         </div>
 
         <div className="grid grid-cols-3 border-y border-navy-100 py-4 text-center">
-          <Big icon="⏱" value={minutes !== undefined ? `${minutes}'` : "—"} label="Min" />
+          <Big icon="clock" value={minutes !== undefined ? `${minutes}'` : "—"} label="Min" />
           {keeper ? (
             <>
-              <Big icon="🧤" value={data ? String(s.saves ?? 0) : "—"} label="Atajadas" />
-              <Big icon="⚽" value={data ? String(s.goalsConceded ?? 0) : "—"} label="Goles recibidos" />
+              <Big icon="glove" value={data ? String(s.saves ?? 0) : "—"} label="Atajadas" />
+              <Big icon="ball" value={data ? String(s.goalsConceded ?? 0) : "—"} label="Goles recibidos" />
             </>
           ) : (
             <>
-              <Big icon="⚽" value={String(data ? (s.totalGoals ?? p.goals) : p.goals)} label="Goles" />
-              <Big icon="👟" value={String(data ? (s.goalAssists ?? p.assists) : p.assists)} label="Asistencias" />
+              <Big icon="ball" value={String(data ? (s.totalGoals ?? p.goals) : p.goals)} label="Goles" />
+              <Big icon="boot" value={String(data ? (s.goalAssists ?? p.assists) : p.assists)} label="Asistencias" />
             </>
           )}
         </div>
@@ -178,12 +199,30 @@ export function Avatar({ photo, number, color, ink, size = 96 }: { photo?: strin
   );
 }
 
+// Íconos de las estadísticas principales (trazo, como en 365).
+const ICONS: Record<string, React.ReactNode> = {
+  clock: (
+    <>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 7v5l3 2" />
+    </>
+  ),
+  ball: (
+    <>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 7.5l4 2.9-1.5 4.7h-5L8 10.4z" />
+    </>
+  ),
+  boot: <path d="M4 7h6l1 4 6 2c2 .6 3 1.6 3 3v1H4z" />,
+  glove: <path d="M7 21v-8l-2-3V6a1.5 1.5 0 0 1 3 0v4m0-5a1.5 1.5 0 0 1 3 0v5m0-6a1.5 1.5 0 0 1 3 0v6m0-4a1.5 1.5 0 0 1 3 0v8l-2 4v3" />,
+};
+
 function Big({ icon, value, label }: { icon: string; value: string; label: string }) {
   return (
-    <div>
-      <div aria-hidden className="text-xl leading-none">
-        {icon}
-      </div>
+    <div className="flex flex-col items-center">
+      <svg viewBox="0 0 24 24" className="h-7 w-7 text-navy-900" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+        {ICONS[icon]}
+      </svg>
       <div className="mt-1 font-display text-2xl font-bold tabular-nums text-navy-950">{value}</div>
       <div className="text-xs text-navy-500">{label}</div>
     </div>

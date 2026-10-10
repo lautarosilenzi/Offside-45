@@ -242,6 +242,13 @@ export async function matchPage(league: string, id: string): Promise<MatchPage> 
   // Estadísticas detalladas de los dos equipos; si no están, las del resumen.
   const revalidate = state === "post" ? 86400 : 30;
   const teamStats = (c: any) => coreStats(`${CORE}/leagues/${league}/events/${id}/competitions/${id}/competitors/${c?.team?.id}/statistics`, revalidate).catch(() => ({}));
+  // Todo lo que no depende entre sí se pide junto. Las fotos (que la primera vez pueden tardar: Wikidata y Commons)
+  // esperan a lo sumo 4 segundos; si no llegan, la página sale igual y las tiene en la próxima visita.
+  const upTo = <T,>(p: Promise<T>, ms: number, fallback: T) => Promise.race([p, new Promise<T>((r) => setTimeout(() => r(fallback), ms))]);
+  const photosP = Promise.all([
+    upTo(teamPhotos(league, String(H?.team?.id)).catch(() => ({}) as Record<string, Photo>), 4000, {} as Record<string, Photo>),
+    upTo(teamPhotos(league, String(A?.team?.id)).catch(() => ({}) as Record<string, Photo>), 4000, {} as Record<string, Photo>),
+  ]);
   const [hs, as] = state === "pre" ? [{}, {}] : await Promise.all([teamStats(H), teamStats(A)]);
   const box = (sideName: "home" | "away") => Object.fromEntries(summary.stats.map((s) => [s.name, Number(s[sideName]) || 0]));
   const sections = state === "pre" ? [] : statSections({ ...box("home"), ...hs }, { ...box("away"), ...as });
@@ -269,7 +276,7 @@ export async function matchPage(league: string, id: string): Promise<MatchPage> 
   );
 
   // Fotos de los dos planteles (ESPN o Wikimedia Commons; lib/live/photos.ts).
-  const [hPhotos, aPhotos] = await Promise.all([teamPhotos(league, String(H?.team?.id)).catch(() => ({})), teamPhotos(league, String(A?.team?.id)).catch(() => ({}))]);
+  const [hPhotos, aPhotos] = await photosP;
   const photos: Record<string, Photo> = { ...hPhotos, ...aPhotos };
 
   // Jugadores clave: el mejor de cada equipo en cada línea (goles, asistencias, remates al arco), con sus estadísticas.

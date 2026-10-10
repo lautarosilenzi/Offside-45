@@ -30,7 +30,7 @@ const COLS: { key: keyof LegendRow | "ratio"; label: string; title: string }[] =
   { key: "ballons", label: "BdO", title: "Balones de Oro" },
 ];
 
-// Las 25 leyendas en una tabla: tocá una columna para ordenar; tocá un jugador para compararlo con el elegido.
+// Las leyendas en una tabla: tocá una columna para ordenar; tocá un jugador para compararlo con el elegido.
 export default function LegendsTable({ rows, compareWith }: { rows: LegendRow[]; compareWith: string }) {
   const [sort, setSort] = useState<(typeof COLS)[number]["key"]>("rank");
   const val = (r: LegendRow, k: (typeof COLS)[number]["key"]) => (k === "ratio" ? r.goals / r.apps : r[k]);
@@ -61,7 +61,7 @@ export default function LegendsTable({ rows, compareWith }: { rows: LegendRow[];
         <tbody className="divide-y divide-navy-50">
           {sorted.map((r) => (
             <tr key={r.id}>
-              <td className="py-1.5 pl-4 tabular-nums text-navy-400">{r.rank}</td>
+              <td className="py-1.5 pl-4 tabular-nums text-navy-400">{r.rank <= 25 ? r.rank : "·"}</td>
               <td className="py-1.5">
                 <Link href={`/jugadores?a=${compareWith === r.id ? "messi" : compareWith}&b=${r.id}`} scroll={false} className="flex items-center gap-2 font-semibold text-navy-900 hover:text-volt-600">
                   <Flag code={r.flag} size={12} title={r.country} /> {r.name}

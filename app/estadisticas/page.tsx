@@ -62,6 +62,68 @@ const BIGGEST = [...LEAGUE_MATCHES].sort((a, b) => Math.abs(b.homeGoals - b.away
 const MOST_GOALS = [...LEAGUE_MATCHES].sort((a, b) => b.homeGoals + b.awayGoals - (a.homeGoals + a.awayGoals) || a.date.localeCompare(b.date)).slice(0, 12);
 const SEASONS = [...TOTAL].sort((a, b) => b.seasons - a.seasons).slice(0, 20);
 
+// Goles por partido en cada década.
+const DECADES = (() => {
+  const map = new Map<number, { matches: number; goals: number }>();
+  for (const m of LEAGUE_MATCHES) {
+    const d = Math.floor(Number(m.date.slice(0, 4)) / 10) * 10;
+    const r = map.get(d) ?? { matches: 0, goals: 0 };
+    r.matches++;
+    r.goals += m.homeGoals + m.awayGoals;
+    map.set(d, r);
+  }
+  return [...map.entries()].sort((a, b) => a[0] - b[0]).map(([decade, r]) => ({ decade, ...r, avg: r.goals / r.matches }));
+})();
+
+// Local, empate o visitante: cómo terminan los partidos.
+const HOME_AWAY = (() => {
+  let home = 0;
+  let draw = 0;
+  let away = 0;
+  for (const m of LEAGUE_MATCHES) {
+    const w = winnerOf(m);
+    if (w === null) draw++;
+    else if (w === m.homeId) home++;
+    else away++;
+  }
+  return { home, draw, away };
+})();
+
+// Los resultados más repetidos (sin importar quién fue local).
+const SCORES = (() => {
+  const map = new Map<string, number>();
+  for (const m of LEAGUE_MATCHES) {
+    const k = [m.homeGoals, m.awayGoals].sort((a, b) => b - a).join("-");
+    map.set(k, (map.get(k) ?? 0) + 1);
+  }
+  return [...map.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8);
+})();
+
+// Rachas más largas de cada club en la liga, en orden de fecha: victorias seguidas y partidos seguidos sin perder.
+const STREAKS = (() => {
+  const byTeam = new Map<string, Match[]>();
+  for (const m of LEAGUE_MATCHES) for (const id of [m.homeId, m.awayId]) (byTeam.get(id) ?? byTeam.set(id, []).get(id)!).push(m);
+  const wins: { id: string; n: number; from: string; to: string }[] = [];
+  const unbeaten: { id: string; n: number; from: string; to: string }[] = [];
+  for (const [id, list] of byTeam) {
+    list.sort((a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
+    let w = 0, u = 0, wFrom = "", uFrom = "";
+    let bestW = { n: 0, from: "", to: "" };
+    let bestU = { n: 0, from: "", to: "" };
+    for (const m of list) {
+      const r = winnerOf(m);
+      const won = r === id;
+      const lost = r !== null && r !== id;
+      if (won) { if (!w) wFrom = m.date; w++; if (w > bestW.n) bestW = { n: w, from: wFrom, to: m.date }; } else w = 0;
+      if (!lost) { if (!u) uFrom = m.date; u++; if (u > bestU.n) bestU = { n: u, from: uFrom, to: m.date }; } else u = 0;
+    }
+    wins.push({ id, ...bestW });
+    unbeaten.push({ id, ...bestU });
+  }
+  return { wins: wins.sort((a, b) => b.n - a.n).slice(0, 10), unbeaten: unbeaten.sort((a, b) => b.n - a.n).slice(0, 10) };
+})();
+const year = (d: string) => d.slice(0, 4);
+
 export default function StatsPage() {
   return (
     <>
@@ -89,6 +151,88 @@ export default function StatsPage() {
           <MatchTable title="Mayores goleadas" matches={BIGGEST} />
           <MatchTable title="Partidos con más goles" matches={MOST_GOALS} />
         </div>
+
+        <section>
+          <h2 className="section-title mb-3">¿Cómo terminan los partidos?</h2>
+          <div className="panel p-4">
+            <div className="flex h-8 overflow-hidden rounded-full text-xs font-bold text-white">
+              {[
+                { l: "Gana el local", v: HOME_AWAY.home, c: "bg-volt-500" },
+                { l: "Empate", v: HOME_AWAY.draw, c: "bg-navy-400" },
+                { l: "Gana el visitante", v: HOME_AWAY.away, c: "bg-gold-500" },
+              ].map((x) => (
+                <span key={x.l} className={`flex items-center justify-center ${x.c}`} style={{ width: `${(x.v / LEAGUE_MATCHES.length) * 100}%` }}>
+                  {Math.round((x.v / LEAGUE_MATCHES.length) * 100)}%
+                </span>
+              ))}
+            </div>
+            <div className="mt-2 flex flex-wrap justify-between gap-2 text-sm text-navy-600">
+              <span>🏠 Gana el local: {HOME_AWAY.home.toLocaleString("es-AR")}</span>
+              <span>🤝 Empate: {HOME_AWAY.draw.toLocaleString("es-AR")}</span>
+              <span>✈️ Gana el visitante: {HOME_AWAY.away.toLocaleString("es-AR")}</span>
+            </div>
+          </div>
+        </section>
+
+        <div className="grid gap-8 lg:grid-cols-2">
+          <section>
+            <h2 className="section-title mb-3">Goles por partido, década por década</h2>
+            <ul className="panel divide-y divide-navy-100">
+              {DECADES.map((d) => (
+                <li key={d.decade} className="grid grid-cols-[4rem_minmax(0,1fr)_3rem] items-center gap-3 px-4 py-2 text-sm">
+                  <span className="font-display font-bold text-navy-900">{d.decade}s</span>
+                  <span className="h-2 overflow-hidden rounded-full bg-navy-100">
+                    <span className="block h-full rounded-full bg-volt-500" style={{ width: `${(d.avg / Math.max(...DECADES.map((x) => x.avg))) * 100}%` }} />
+                  </span>
+                  <span className="text-right font-display font-bold tabular-nums text-navy-950">{d.avg.toFixed(2).replace(".", ",")}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+          <section>
+            <h2 className="section-title mb-3">Los resultados más repetidos</h2>
+            <ul className="panel divide-y divide-navy-100">
+              {SCORES.map(([score, n]) => (
+                <li key={score} className="flex items-center justify-between gap-3 px-4 py-2.5 text-sm">
+                  <span className="rounded-full bg-navy-900 px-3 py-0.5 font-display text-base font-bold tabular-nums text-white">{score}</span>
+                  <span className="text-navy-600">
+                    <b className="font-display text-base text-navy-950">{n.toLocaleString("es-AR")}</b> partidos ({((n / LEAGUE_MATCHES.length) * 100).toFixed(1).replace(".", ",")}%)
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </div>
+
+        <div className="grid gap-8 lg:grid-cols-2">
+          {[
+            { title: "Más victorias seguidas", list: STREAKS.wins },
+            { title: "Más partidos seguidos sin perder", list: STREAKS.unbeaten },
+          ].map((s) => (
+            <section key={s.title}>
+              <h2 className="section-title mb-3">{s.title}</h2>
+              <ol className="panel divide-y divide-navy-100">
+                {s.list.map((r, i) => {
+                  const team = getTeam(r.id)!;
+                  return (
+                    <li key={r.id} className="flex items-center gap-2.5 px-4 py-2.5 text-sm">
+                      <span className="w-5 font-display font-bold text-navy-400">{i + 1}</span>
+                      <Crest team={team} size="xs" />
+                      <span className="min-w-0 flex-1 leading-snug">
+                        <span className="font-semibold text-navy-900">{team.name}</span>
+                        <span className="block text-xs text-navy-400">
+                          {year(r.from) === year(r.to) ? year(r.from) : `${year(r.from)}–${year(r.to)}`}
+                        </span>
+                      </span>
+                      <span className="font-display text-lg font-bold tabular-nums text-navy-950">{r.n}</span>
+                    </li>
+                  );
+                })}
+              </ol>
+            </section>
+          ))}
+        </div>
+        <p className="-mt-6 text-xs text-navy-500">Solo partidos de liga de Primera, en orden de fecha (las rachas siguen de un torneo al siguiente).</p>
 
         <section>
           <h2 className="section-title mb-3">Más temporadas en Primera</h2>

@@ -5,7 +5,7 @@ import type { TimelineEvent } from "@/lib/live/match";
 
 type Score = { home: string; away: string };
 
-// "Detalle del partido": línea vertical con los minutos al medio, el local a la izquierda y el visitante a la derecha,
+// "Detalle del partido": lo último arriba y las primeras jugadas abajo. Línea vertical con los minutos al medio, el local a la izquierda y el visitante a la derecha,
 // cortada por el entretiempo y el final con el resultado parcial. "Destacado" muestra goles, expulsiones y penales
 // errados; "Todo" suma amarillas, cambios y VAR. Los jugadores abren su ficha del partido.
 const MAIN = new Set<TimelineEvent["kind"]>(["goal", "own-goal", "penalty-goal", "penalty-miss", "red", "second-yellow"]);
@@ -30,7 +30,7 @@ export default function Timeline({
   const [all, setAll] = useState(false);
   const list = all ? events : events.filter((e) => MAIN.has(e.kind));
 
-  // Bloques por tiempo, del primero al último (como en 365: lo más reciente abajo).
+  // Bloques por tiempo, en orden; se muestran al revés: lo más reciente arriba y las primeras jugadas abajo.
   const periods = [1, 2, 3, 4].map((p) => list.filter((e) => e.period === p));
   const extra = events.some((e) => e.period > 2);
 
@@ -59,7 +59,7 @@ export default function Timeline({
         <div className="relative px-2 py-5 sm:px-4">
           {/* Línea central */}
           <div aria-hidden className="absolute bottom-5 left-1/2 top-5 w-px -translate-x-1/2 bg-navy-200" />
-          <div className="relative space-y-3">
+          <div className="relative flex flex-col-reverse gap-3">
             {periods[0].map((e, i) => (
               <Row key={`1-${i}`} e={e} onPlayer={onPlayer} />
             ))}

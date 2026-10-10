@@ -1,6 +1,7 @@
 import Link from "next/link";
 import LiveMatches from "@/components/live/LiveMatches";
 import HomeFeatured from "@/components/HomeFeatured";
+import WelcomeBanner from "@/components/WelcomeBanner";
 import HomeSearch from "@/components/HomeSearch";
 import OddsToggle from "@/components/OddsToggle";
 import MyTeamCard from "@/components/myteam/MyTeamCard";
@@ -12,7 +13,7 @@ const TZ = "America/Argentina/Buenos_Aires";
 const SPECIALS = [
   { href: "/historiales", title: "Historial entre equipos", text: "Todos los partidos oficiales entre dos clubes, desde 1891." },
   { href: "/messi-vs-cristiano", title: "Messi vs Cristiano", text: "Goles, títulos, finales y los partidos que jugaron entre ellos." },
-  { href: "/jugadores", title: "Comparador de leyendas", text: "Las 25 leyendas del fútbol, cara a cara." },
+  { href: "/jugadores", title: "Comparador de leyendas", text: "Las grandes leyendas del fútbol, cara a cara." },
   { href: "/campeones", title: "Campeones", text: "Todos los campeones del fútbol argentino." },
   { href: "/mundiales", title: "Copa del Mundo", text: "Campeones, finales y estadísticas de cada Copa del Mundo." },
   { href: "/descensos", title: "Descensos", text: "Promedios y descensos de la Primera División." },
@@ -30,6 +31,7 @@ export default function Home() {
       {/* Sin portada grande: lo primero es el buscador, después tu equipo (si elegiste uno) y los partidos. */}
       <main className="mx-auto max-w-5xl space-y-6 px-4 py-6 sm:px-6">
         <h1 className="sr-only">126Goals · Fútbol en vivo</h1>
+        <WelcomeBanner />
         <HomeSearch />
         <MyTeamCard />
 

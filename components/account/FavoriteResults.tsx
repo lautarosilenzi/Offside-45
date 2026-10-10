@@ -17,9 +17,19 @@ export default function FavoriteResults({ favorites }: { favorites: Favorite[] }
   return (
     <ul className="grid gap-3 sm:grid-cols-2">
       {favorites.map((f) => (
-        <li key={`${f.kind}-${f.ref}`}>{f.kind === "team" ? <TeamCard f={f} /> : <LeagueCard f={f} />}</li>
+        <li key={`${f.kind}-${f.ref}`}>{f.kind === "team" ? <TeamCard f={f} /> : f.kind === "player" ? <PlayerCard f={f} /> : <LeagueCard f={f} />}</li>
       ))}
     </ul>
+  );
+}
+
+function PlayerCard({ f }: { f: Favorite }) {
+  return (
+    <Link href={`/jugador/${f.ref}`} className="panel flex items-center gap-3 px-4 py-4 transition hover:ring-1 hover:ring-volt-400/50">
+      {f.logo && <img src={f.logo} alt="" className="h-12 w-12 rounded-full bg-navy-100 object-cover object-top" />}
+      <span className="min-w-0 flex-1 font-display text-lg font-bold uppercase text-navy-950">{f.name}</span>
+      <span className="text-sm text-volt-600">Perfil y partidos →</span>
+    </Link>
   );
 }
 

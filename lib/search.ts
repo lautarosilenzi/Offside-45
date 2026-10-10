@@ -7,9 +7,9 @@ import { ESPN_IDS, leagueTeams } from "./live/espn";
 import { LEAGUE_SEASONS, seasonTitle } from "./seasons";
 import { FOREIGN_TEAMS, HISTORIC_TEAMS, TEAMS } from "./teams";
 
-export type SearchKind = "Competencia" | "Sección" | "Club" | "Equipo" | "Temporada" | "Jugador";
+export type SearchKind = "Historial" | "Competencia" | "Sección" | "Club" | "Equipo" | "Temporada" | "Jugador";
 // weight: a igual coincidencia, primero los de menor peso (los clubes de Primera antes que los históricos).
-export type SearchItem = { kind: SearchKind; title: string; subtitle?: string; href: string; logo?: string; keywords?: string; weight?: number };
+export type SearchItem = { kind: SearchKind; title: string; subtitle?: string; href: string; logo?: string; keywords?: string; weight?: number; clubId?: string };
 
 const SECTIONS: SearchItem[] = [
   { kind: "Sección", title: "Live: partidos en juego", href: "/live", keywords: "en vivo ahora directo" },
@@ -69,6 +69,7 @@ export function searchIndex(): Promise<SearchItem[]> {
       const current = new Set(TEAMS.map((t) => t.id));
       const clubs: SearchItem[] = [...TEAMS, ...HISTORIC_TEAMS, ...FOREIGN_TEAMS].map((t) => ({
         kind: "Club",
+        clubId: t.id,
         weight: current.has(t.id) ? 0 : 3,
         logo: CRESTS[t.id]?.file,
         title: t.name,
@@ -115,7 +116,7 @@ export function search(items: SearchItem[], q: string, limit = 24): SearchItem[]
   const query = norm(q);
   if (!query) return [];
   const words = query.split(" ");
-  const KIND_ORDER: Record<SearchKind, number> = { Sección: 0, Competencia: 1, Club: 2, Equipo: 3, Jugador: 2, Temporada: 5 };
+  const KIND_ORDER: Record<SearchKind, number> = { Historial: 0, Sección: 0, Competencia: 1, Club: 2, Equipo: 3, Jugador: 2, Temporada: 5 };
   return items
     .map((it) => {
       const title = norm(it.title);

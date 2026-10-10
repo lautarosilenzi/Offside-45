@@ -14,6 +14,7 @@ import OddsToggle from "./OddsToggle";
 const COMMUNITY = [
   { href: "/foro", label: "El foro del hincha" },
   { href: "/cuenta", label: "Mi cuenta" },
+  { href: "/censo", label: "Censo del Hincha" },
   { href: "/colaborar", label: "Colaborá con 126Goals" },
   { href: "/creditos#contacto", label: "Contacto" },
   { href: "/creditos", label: "Acerca de 126Goals" },
@@ -211,10 +212,10 @@ function MenuLink({ href, label, logo, active, pending }: { href: string; label:
       href={href}
       className={`flex items-center gap-2.5 rounded-lg px-3 py-1.5 text-[0.95rem] transition hover:bg-white/10 ${active ? "text-brand-300" : "text-navy-100"}`}
     >
-      <span className="flex h-6 w-6 shrink-0 items-center justify-center">
+      <span className="flex h-7 w-7 shrink-0 items-center justify-center">
         {logo ? (
           // eslint-disable-next-line @next/next/no-img-element -- logo chico ya optimizado
-          <img src={logo} alt="" loading="lazy" className="logo-img h-full w-full object-contain" />
+          <img src={logo} alt="" loading="lazy" decoding="async" className="logo-sm h-full w-full object-contain" />
         ) : (
           <span className="h-1.5 w-1.5 rounded-full bg-navy-300" />
         )}

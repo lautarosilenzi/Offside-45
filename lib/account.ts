@@ -18,10 +18,11 @@ export type Account = {
   birthYear?: string;
   city?: string;
   club: FanClub;
+  country?: string; // código de dos letras de la bandera ("ar", "uy"…), para el censo por países
   createdAt: string;
 };
 
-export type Favorite = { kind: "team" | "league"; ref: string; name: string; logo?: string };
+export type Favorite = { kind: "team" | "league" | "player"; ref: string; name: string; logo?: string };
 
 export const hasServer = !!supabase;
 const FAV_KEY = "o45-favoritos";
@@ -64,6 +65,7 @@ async function serverAccount(): Promise<Account | null> {
     birthYear: data.birth_year ? String(data.birth_year) : undefined,
     city: data.city ?? undefined,
     club: { id: data.club_id, name: data.club_name ?? data.club_id, logo: data.club_logo ?? undefined },
+    country: data.country ? String(data.country).toLowerCase() : undefined,
     createdAt: data.created_at,
   };
 }
@@ -179,6 +181,7 @@ export async function saveAccount(a: Account): Promise<{ error?: string }> {
     club_id: a.club.id,
     club_name: a.club.name,
     club_logo: a.club.logo ?? null,
+    country: a.country ?? "ar",
     city: a.city || null,
     birth_year: a.birthYear ? Number(a.birthYear) : null,
   });

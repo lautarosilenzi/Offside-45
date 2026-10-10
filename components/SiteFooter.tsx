@@ -24,7 +24,10 @@ export default function SiteFooter() {
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
           {/* Logo de 126Goals (public/brand). */}
           <Image src="/brand/logo-horizontal.svg" alt="126Goals" width={147} height={50} className="h-12 w-auto" />
-          <p>Fútbol en vivo, estadísticas e historia del fútbol argentino desde 1891.</p>
+          <p>
+            Todo el fútbol en un solo lugar: resultados en vivo, estadísticas de cada partido y jugador, torneos de todo el mundo, la Copa del
+            Mundo y la historia completa del fútbol argentino.
+          </p>
         </div>
         <p className="flex flex-wrap gap-x-3 gap-y-1">
           <Link href="/foro" className="text-white underline-offset-2 hover:underline">

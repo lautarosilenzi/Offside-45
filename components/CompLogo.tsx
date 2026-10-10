@@ -11,7 +11,7 @@ export default function CompLogo({ id, size = 24, className = "" }: { id: string
       alt=""
       width={size}
       height={size}
-      className={`logo-img shrink-0 object-contain ${className}`}
+      className={`${size <= 28 ? "logo-sm" : "logo-img"} shrink-0 object-contain ${className}`}
       // Los logos grandes van en las portadas, arriba de todo: sin esperar a que se vean.
       loading={size >= 64 ? "eager" : "lazy"}
       style={{ width: size, height: size }}

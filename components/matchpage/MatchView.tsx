@@ -75,7 +75,7 @@ export default function MatchView({ m, standings }: { m: MatchPage; standings?: 
     <>
       <Header m={m} />
       <div className="mx-auto max-w-3xl px-3 sm:px-6">
-        <nav className="mt-3 flex flex-wrap justify-center gap-1.5 py-2 sm:justify-start">
+        <nav className="mt-3 grid grid-cols-3 gap-1.5 py-2 sm:flex sm:flex-wrap">
           {tabs
             .filter((t) => t.show)
             .map((t) => (
@@ -84,7 +84,7 @@ export default function MatchView({ m, standings }: { m: MatchPage; standings?: 
                 type="button"
                 onClick={() => setTab(t.id)}
                 aria-pressed={tab === t.id}
-                className={`shrink-0 rounded-full px-4 py-1.5 font-display text-sm font-bold uppercase tracking-wide ring-1 transition ${
+                className={`rounded-full px-2 py-2 text-center font-display text-sm font-bold uppercase tracking-wide ring-1 transition sm:px-4 sm:py-1.5 ${
                   tab === t.id ? "bg-navy-950 text-white ring-navy-950 dark:bg-volt-600 dark:ring-volt-600" : "bg-white text-navy-600 ring-navy-100 hover:ring-volt-400"
                 }`}
               >
@@ -163,6 +163,7 @@ export default function MatchView({ m, standings }: { m: MatchPage; standings?: 
           eventId={m.id}
           live={m.status.state === "in"}
           photo={m.photos[byTeam[sheet.side][sheet.index]?.id]}
+          photos={m.photos}
           color={side[sheet.side].color}
           ink={side[sheet.side].ink}
           onClose={close}

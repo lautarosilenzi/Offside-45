@@ -2854,5 +2854,1793 @@ export const LEGENDS: Legend[] = [
    "year": "2007"
   },
   "note": "La Copa União 1987 con Flamengo no se cuenta: la justicia reconoció a Sport como campeón brasileño de ese año."
+ },
+ {
+  "id": "kempes",
+  "rank": 26,
+  "name": "Mario Kempes",
+  "country": "Argentina",
+  "flag": "ar",
+  "position": "Delantero",
+  "born": "1954-07-15",
+  "clubs": [
+   {
+    "club": "Instituto",
+    "years": "1973–1974",
+    "apps": 13,
+    "goals": 11
+   },
+   {
+    "club": "Rosario Central",
+    "years": "1974–1976",
+    "apps": 107,
+    "goals": 89
+   },
+   {
+    "club": "Valencia",
+    "years": "1976–1981",
+    "apps": 142,
+    "goals": 95
+   },
+   {
+    "club": "River Plate",
+    "years": "1981–1982",
+    "apps": 29,
+    "goals": 15
+   },
+   {
+    "club": "Valencia",
+    "years": "1982–1984",
+    "apps": 42,
+    "goals": 21
+   },
+   {
+    "club": "Hércules",
+    "years": "1984–1986",
+    "apps": 38,
+    "goals": 10
+   },
+   {
+    "club": "First Vienna",
+    "years": "1986–1987",
+    "apps": 20,
+    "goals": 7
+   },
+   {
+    "club": "St. Pölten",
+    "years": "1987–1990",
+    "apps": 96,
+    "goals": 34
+   },
+   {
+    "club": "Krems",
+    "years": "1990–1992",
+    "apps": 39,
+    "goals": 7
+   },
+   {
+    "club": "Fernández Vial",
+    "years": "1995",
+    "apps": 11,
+    "goals": 5
+   },
+   {
+    "club": "Pelita Jaya",
+    "years": "1995–1996",
+    "apps": 15,
+    "goals": 10
+   },
+   {
+    "club": "Lushnja",
+    "years": "1996",
+    "apps": 0,
+    "goals": null
+   }
+  ],
+  "national": [
+   {
+    "team": "Argentina",
+    "years": "1973–1982",
+    "apps": 43,
+    "goals": 20
+   }
+  ],
+  "clubTotal": {
+   "apps": 638,
+   "goals": 347
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Primera División",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "Galatama (Indonesia)",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa del Rey",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Recopa de Europa",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Europa",
+    "n": 1
+   },
+   {
+    "cat": "mundial",
+    "name": "Copa del Mundo",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 1,
+   "wcBoot": 1,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Mario_Kempes_Argentina_v_Spain_19_July_2026-036_%28cropped%29.jpg/330px-Mario_Kempes_Argentina_v_Spain_19_July_2026-036_%28cropped%29.jpg",
+   "file": "Mario Kempes Argentina v Spain 19 July 2026-036 (cropped).jpg",
+   "author": "Bryan Berlin",
+   "license": "CC BY-SA 4.0",
+   "year": "2026"
+  }
+ },
+ {
+  "id": "batistuta",
+  "rank": 27,
+  "name": "Gabriel Batistuta",
+  "country": "Argentina",
+  "flag": "ar",
+  "position": "Delantero",
+  "born": "1969-02-01",
+  "clubs": [
+   {
+    "club": "Newell's Old Boys",
+    "years": "1988–1989",
+    "apps": 24,
+    "goals": 7
+   },
+   {
+    "club": "River Plate",
+    "years": "1989–1990",
+    "apps": 21,
+    "goals": 4
+   },
+   {
+    "club": "Boca Juniors",
+    "years": "1990–1991",
+    "apps": 34,
+    "goals": 13
+   },
+   {
+    "club": "Fiorentina",
+    "years": "1991–2000",
+    "apps": 269,
+    "goals": 168
+   },
+   {
+    "club": "Roma",
+    "years": "2000–2003",
+    "apps": 63,
+    "goals": 30
+   },
+   {
+    "club": "Inter Milan",
+    "loan": true,
+    "years": "2003",
+    "apps": 12,
+    "goals": 2
+   },
+   {
+    "club": "Al-Arabi",
+    "years": "2003–2005",
+    "apps": 21,
+    "goals": 25
+   }
+  ],
+  "national": [
+   {
+    "team": "Argentina",
+    "years": "1991–2002",
+    "apps": 78,
+    "goals": 56
+   }
+  ],
+  "clubTotal": {
+   "apps": 551,
+   "goals": 299
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Primera División",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "Serie A",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "Serie B",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Coppa Italia",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de Italia",
+    "n": 2
+   },
+   {
+    "cat": "continental",
+    "name": "Copa América",
+    "n": 2
+   },
+   {
+    "cat": "selOtros",
+    "name": "Copa Confederaciones (Copa Rey Fahd) y Copa Artemio Franchi",
+    "n": 2
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Gabriel_batistuta.jpg/330px-Gabriel_batistuta.jpg",
+   "file": "Gabriel batistuta.jpg",
+   "author": "",
+   "license": "Public domain"
+  }
+ },
+ {
+  "id": "passarella",
+  "rank": 28,
+  "name": "Daniel Passarella",
+  "country": "Argentina",
+  "flag": "ar",
+  "position": "Defensor",
+  "born": "1953-05-25",
+  "clubs": [
+   {
+    "club": "Sarmiento",
+    "years": "1971–1973",
+    "apps": 36,
+    "goals": 9
+   },
+   {
+    "club": "River Plate",
+    "years": "1973–1982",
+    "apps": 266,
+    "goals": 90
+   },
+   {
+    "club": "Fiorentina",
+    "years": "1982–1986",
+    "apps": 109,
+    "goals": 26
+   },
+   {
+    "club": "Inter Milan",
+    "years": "1986–1988",
+    "apps": 44,
+    "goals": 9
+   },
+   {
+    "club": "River Plate",
+    "years": "1988–1989",
+    "apps": 24,
+    "goals": 7
+   }
+  ],
+  "national": [
+   {
+    "team": "Argentina",
+    "years": "1976–1986",
+    "apps": 70,
+    "goals": 22
+   }
+  ],
+  "clubTotal": {
+   "apps": 479,
+   "goals": 141
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Primera División",
+    "n": 7
+   },
+   {
+    "cat": "mundial",
+    "name": "Copa del Mundo",
+    "n": 2
+   },
+   {
+    "cat": "juvenil",
+    "name": "Torneo Esperanzas de Toulon",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Daniel_passarella_en_1985.jpg",
+   "file": "Daniel passarella en 1985.jpg",
+   "author": "Unknown authorUnknown author",
+   "license": "Public domain",
+   "year": "1985"
+  },
+  "note": "Total en clubes: solo partidos de liga (no hay registro completo de copas)."
+ },
+ {
+  "id": "riquelme",
+  "rank": 29,
+  "name": "Juan Román Riquelme",
+  "country": "Argentina",
+  "flag": "ar",
+  "position": "Enganche",
+  "born": "1978-06-24",
+  "clubs": [
+   {
+    "club": "Boca Juniors",
+    "years": "1996–2002",
+    "apps": 151,
+    "goals": 38
+   },
+   {
+    "club": "Barcelona",
+    "years": "2002–2005",
+    "apps": 30,
+    "goals": 3
+   },
+   {
+    "club": "Villarreal",
+    "loan": true,
+    "years": "2003–2005",
+    "apps": 68,
+    "goals": 23
+   },
+   {
+    "club": "Villarreal",
+    "years": "2005–2007",
+    "apps": 38,
+    "goals": 13
+   },
+   {
+    "club": "Boca Juniors",
+    "loan": true,
+    "years": "2007",
+    "apps": 15,
+    "goals": 2
+   },
+   {
+    "club": "Boca Juniors",
+    "years": "2007–2014",
+    "apps": 126,
+    "goals": 24
+   },
+   {
+    "club": "Argentinos Juniors",
+    "years": "2014–2015",
+    "apps": 15,
+    "goals": 3
+   }
+  ],
+  "national": [
+   {
+    "team": "Argentina",
+    "years": "1997–2008",
+    "apps": 51,
+    "goals": 17
+   }
+  ],
+  "clubTotal": {
+   "apps": 596,
+   "goals": 150
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Primera División",
+    "n": 5
+   },
+   {
+    "cat": "copa",
+    "name": "Copa Argentina",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Copa Libertadores",
+    "n": 3
+   },
+   {
+    "cat": "intl",
+    "name": "Copa Intercontinental",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Recopa Sudamericana",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Copa Intertoto",
+    "n": 1
+   },
+   {
+    "cat": "olimpico",
+    "name": "Juegos Olímpicos",
+    "n": 1
+   },
+   {
+    "cat": "juvenil",
+    "name": "Mundial Sub-20, Sudamericano Sub-20 y Torneo de Toulon",
+    "n": 3
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Juan_Rom%C3%A1n_Riquelme_-_2019.jpg/330px-Juan_Rom%C3%A1n_Riquelme_-_2019.jpg",
+   "file": "Juan Román Riquelme - 2019.jpg",
+   "author": "Todo Noticias",
+   "license": "CC BY 3.0",
+   "year": "2019"
+  }
+ },
+ {
+  "id": "labruna",
+  "rank": 30,
+  "name": "Ángel Labruna",
+  "country": "Argentina",
+  "flag": "ar",
+  "position": "Delantero",
+  "born": "1918-09-28",
+  "died": "1983-09-19",
+  "clubs": [
+   {
+    "club": "River Plate",
+    "years": "1939–1959",
+    "apps": 515,
+    "goals": 295
+   },
+   {
+    "club": "Rangers de Talca",
+    "years": "1960",
+    "apps": 4,
+    "goals": 1
+   },
+   {
+    "club": "Rampla Juniors",
+    "years": "1960",
+    "apps": 16,
+    "goals": 4
+   },
+   {
+    "club": "Platense",
+    "years": "1961",
+    "apps": 2,
+    "goals": 0
+   }
+  ],
+  "national": [
+   {
+    "team": "Argentina",
+    "years": "1942–1958",
+    "apps": 37,
+    "goals": 17
+   }
+  ],
+  "clubTotal": {
+   "apps": 537,
+   "goals": 300
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Primera División",
+    "n": 9
+   },
+   {
+    "cat": "copa",
+    "name": "Copa Ibarguren, Copa Adrián C. Escobar y Copa Aldao",
+    "n": 7
+   },
+   {
+    "cat": "continental",
+    "name": "Copa América",
+    "n": 2
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Angel_Labruna_1940.jpg/330px-Angel_Labruna_1940.jpg",
+   "file": "Angel Labruna 1940.jpg",
+   "author": "Unknown authorUnknown author",
+   "license": "Public domain",
+   "year": "1940"
+  },
+  "note": "Total en clubes: solo partidos de liga (no hay registro completo de copas)."
+ },
+ {
+  "id": "sivori",
+  "rank": 31,
+  "name": "Omar Sívori",
+  "country": "Argentina",
+  "flag": "ar",
+  "position": "Delantero",
+  "born": "1935-10-02",
+  "died": "2005-02-17",
+  "clubs": [
+   {
+    "club": "River Plate",
+    "years": "1954–1957",
+    "apps": 63,
+    "goals": 29
+   },
+   {
+    "club": "Juventus",
+    "years": "1957–1965",
+    "apps": 215,
+    "goals": 135
+   },
+   {
+    "club": "Napoli",
+    "years": "1965–1969",
+    "apps": 63,
+    "goals": 12
+   }
+  ],
+  "national": [
+   {
+    "team": "Argentina",
+    "years": "1956–1957",
+    "apps": 19,
+    "goals": 9
+   },
+   {
+    "team": "Italia",
+    "years": "1961–1962",
+    "apps": 9,
+    "goals": 8
+   }
+  ],
+  "clubTotal": {
+   "apps": 380,
+   "goals": 208
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Primera División",
+    "n": 3
+   },
+   {
+    "cat": "liga",
+    "name": "Serie A",
+    "n": 3
+   },
+   {
+    "cat": "copa",
+    "name": "Coppa Italia",
+    "n": 3
+   },
+   {
+    "cat": "intl",
+    "name": "Copa de los Alpes",
+    "n": 2
+   },
+   {
+    "cat": "continental",
+    "name": "Copa América",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [
+    1961
+   ],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Omar_sivori_argentina.jpg/330px-Omar_sivori_argentina.jpg",
+   "file": "Omar sivori argentina.jpg",
+   "author": "Unknown authorUnknown author",
+   "license": "Public domain",
+   "year": "1956"
+  }
+ },
+ {
+  "id": "zanetti",
+  "rank": 32,
+  "name": "Javier Zanetti",
+  "country": "Argentina",
+  "flag": "ar",
+  "position": "Lateral",
+  "born": "1973-08-10",
+  "clubs": [
+   {
+    "club": "Talleres",
+    "years": "1992–1993",
+    "apps": 33,
+    "goals": 1
+   },
+   {
+    "club": "Banfield",
+    "years": "1993–1995",
+    "apps": 66,
+    "goals": 4
+   },
+   {
+    "club": "Inter Milan",
+    "years": "1995–2014",
+    "apps": 615,
+    "goals": 12
+   }
+  ],
+  "national": [
+   {
+    "team": "Argentina",
+    "years": "1994–2011",
+    "apps": 145,
+    "goals": 5
+   }
+  ],
+  "clubTotal": {
+   "apps": 957,
+   "goals": 26
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Serie A",
+    "n": 5
+   },
+   {
+    "cat": "copa",
+    "name": "Coppa Italia",
+    "n": 4
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de Italia",
+    "n": 4
+   },
+   {
+    "cat": "intl",
+    "name": "Champions League",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Copa UEFA",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Mundial de Clubes",
+    "n": 1
+   },
+   {
+    "cat": "selOtros",
+    "name": "Juegos Panamericanos",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Javier_Adelmar_Zanetti.jpg/330px-Javier_Adelmar_Zanetti.jpg",
+   "file": "Javier Adelmar Zanetti.jpg",
+   "author": "Давиденко Валерий",
+   "license": "CC BY-SA 3.0",
+   "year": "2009"
+  }
+ },
+ {
+  "id": "francescoli",
+  "rank": 33,
+  "name": "Enzo Francescoli",
+  "country": "Uruguay",
+  "flag": "uy",
+  "position": "Enganche",
+  "born": "1961-11-12",
+  "clubs": [
+   {
+    "club": "Wanderers",
+    "years": "1980–1982",
+    "apps": 74,
+    "goals": 20
+   },
+   {
+    "club": "River Plate",
+    "years": "1983–1986",
+    "apps": 113,
+    "goals": 68
+   },
+   {
+    "club": "RC Paris",
+    "years": "1986–1989",
+    "apps": 89,
+    "goals": 32
+   },
+   {
+    "club": "Marseille",
+    "years": "1989–1990",
+    "apps": 28,
+    "goals": 11
+   },
+   {
+    "club": "Cagliari",
+    "years": "1990–1993",
+    "apps": 98,
+    "goals": 17
+   },
+   {
+    "club": "Torino",
+    "years": "1993–1994",
+    "apps": 24,
+    "goals": 3
+   },
+   {
+    "club": "River Plate",
+    "years": "1994–1997",
+    "apps": 84,
+    "goals": 47
+   }
+  ],
+  "national": [
+   {
+    "team": "Uruguay",
+    "years": "1982–1997",
+    "apps": 73,
+    "goals": 17
+   }
+  ],
+  "clubTotal": {
+   "apps": 574,
+   "goals": 220
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Primera División (River Plate)",
+    "n": 5
+   },
+   {
+    "cat": "liga",
+    "name": "Ligue 1",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Copa Libertadores",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa Sudamericana",
+    "n": 1
+   },
+   {
+    "cat": "continental",
+    "name": "Copa América",
+    "n": 3
+   },
+   {
+    "cat": "juvenil",
+    "name": "Sudamericano Sub-20",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Enzo_Francescoli_2011.jpg",
+   "file": "Enzo Francescoli 2011.jpg",
+   "author": "Christophe95",
+   "license": "CC BY-SA 3.0",
+   "year": "2011"
+  }
+ },
+ {
+  "id": "suarez",
+  "rank": 34,
+  "name": "Luis Suárez",
+  "country": "Uruguay",
+  "flag": "uy",
+  "position": "Delantero",
+  "born": "1987-01-24",
+  "clubs": [
+   {
+    "club": "Nacional",
+    "years": "2005–2006",
+    "apps": 27,
+    "goals": 10
+   },
+   {
+    "club": "Groningen",
+    "years": "2006–2007",
+    "apps": 29,
+    "goals": 10
+   },
+   {
+    "club": "Ajax",
+    "years": "2007–2011",
+    "apps": 110,
+    "goals": 81
+   },
+   {
+    "club": "Liverpool",
+    "years": "2011–2014",
+    "apps": 110,
+    "goals": 69
+   },
+   {
+    "club": "Barcelona",
+    "years": "2014–2020",
+    "apps": 191,
+    "goals": 147
+   },
+   {
+    "club": "Atlético Madrid",
+    "years": "2020–2022",
+    "apps": 67,
+    "goals": 32
+   },
+   {
+    "club": "Nacional",
+    "years": "2022",
+    "apps": 14,
+    "goals": 8
+   },
+   {
+    "club": "Grêmio",
+    "years": "2023",
+    "apps": 45,
+    "goals": 24
+   },
+   {
+    "club": "Inter Miami",
+    "years": "2024–",
+    "apps": 78,
+    "goals": 43
+   }
+  ],
+  "national": [
+   {
+    "team": "Uruguay",
+    "years": "2007–2024",
+    "apps": 143,
+    "goals": 69
+   }
+  ],
+  "clubTotal": {
+   "apps": 912,
+   "goals": 544
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Primera División de Uruguay",
+    "n": 2
+   },
+   {
+    "cat": "liga",
+    "name": "Eredivisie",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "LaLiga",
+    "n": 5
+   },
+   {
+    "cat": "liga",
+    "name": "MLS (Supporters' Shield)",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "MLS Cup",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de los Países Bajos",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de la Liga de Inglaterra",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa del Rey",
+    "n": 4
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de España",
+    "n": 2
+   },
+   {
+    "cat": "reg",
+    "name": "Campeonato Gaúcho y Recopa Gaúcha",
+    "n": 2
+   },
+   {
+    "cat": "intl",
+    "name": "Champions League",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Europa",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Mundial de Clubes",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Campeones Cup",
+    "n": 1
+   },
+   {
+    "cat": "continental",
+    "name": "Copa América",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 2
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Luis_Su%C3%A1rez_NE_Revolution_Inter_Miami_7.9.25-053_%28cropped%29.jpg/330px-Luis_Su%C3%A1rez_NE_Revolution_Inter_Miami_7.9.25-053_%28cropped%29.jpg",
+   "file": "Luis Suárez NE Revolution Inter Miami 7.9.25-053 (cropped).jpg",
+   "author": "Bryan Berlin",
+   "license": "CC BY-SA 4.0",
+   "year": "2025"
+  }
+ },
+ {
+  "id": "romario",
+  "rank": 35,
+  "name": "Romário",
+  "country": "Brasil",
+  "flag": "br",
+  "position": "Delantero",
+  "born": "1966-01-29",
+  "clubs": [
+   {
+    "club": "Vasco da Gama",
+    "years": "1985–1988",
+    "apps": 141,
+    "goals": 80
+   },
+   {
+    "club": "PSV Eindhoven",
+    "years": "1988–1993",
+    "apps": 110,
+    "goals": 98
+   },
+   {
+    "club": "Barcelona",
+    "years": "1993–1995",
+    "apps": 46,
+    "goals": 34
+   },
+   {
+    "club": "Flamengo",
+    "years": "1995–1996",
+    "apps": 59,
+    "goals": 60
+   },
+   {
+    "club": "Valencia",
+    "years": "1996–1997",
+    "apps": 11,
+    "goals": 5
+   },
+   {
+    "club": "Flamengo",
+    "loan": true,
+    "years": "1997",
+    "apps": 22,
+    "goals": 21
+   },
+   {
+    "club": "Flamengo",
+    "years": "1998–1999",
+    "apps": 65,
+    "goals": 34
+   },
+   {
+    "club": "Vasco da Gama",
+    "years": "2000–2002",
+    "apps": 73,
+    "goals": 79
+   },
+   {
+    "club": "Fluminense",
+    "years": "2002–2004",
+    "apps": 73,
+    "goals": 45
+   },
+   {
+    "club": "Al Sadd",
+    "loan": true,
+    "years": "2003",
+    "apps": 3,
+    "goals": 0
+   },
+   {
+    "club": "Vasco da Gama",
+    "years": "2005–2006",
+    "apps": 50,
+    "goals": 35
+   },
+   {
+    "club": "Miami FC",
+    "years": "2006",
+    "apps": 25,
+    "goals": 19
+   },
+   {
+    "club": "Adelaide United",
+    "loan": true,
+    "years": "2006",
+    "apps": 4,
+    "goals": 1
+   },
+   {
+    "club": "Vasco da Gama",
+    "years": "2007",
+    "apps": 15,
+    "goals": 13
+   },
+   {
+    "club": "America-RJ",
+    "years": "2009",
+    "apps": 1,
+    "goals": 0
+   }
+  ],
+  "national": [
+   {
+    "team": "Brasil",
+    "years": "1987–2005",
+    "apps": 70,
+    "goals": 55
+   }
+  ],
+  "clubTotal": {
+   "apps": 893,
+   "goals": 690
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Brasileirão",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "Eredivisie",
+    "n": 3
+   },
+   {
+    "cat": "liga",
+    "name": "LaLiga",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de los Países Bajos",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de los Países Bajos",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de España",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa del Príncipe de Catar",
+    "n": 1
+   },
+   {
+    "cat": "reg",
+    "name": "Campeonato Carioca",
+    "n": 4
+   },
+   {
+    "cat": "intl",
+    "name": "Copa Mercosur",
+    "n": 2
+   },
+   {
+    "cat": "mundial",
+    "name": "Copa del Mundo",
+    "n": 1
+   },
+   {
+    "cat": "continental",
+    "name": "Copa América",
+    "n": 2
+   },
+   {
+    "cat": "selOtros",
+    "name": "Copa Confederaciones",
+    "n": 1
+   },
+   {
+    "cat": "juvenil",
+    "name": "Sudamericano Sub-20",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 1,
+   "wcBall": 1,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Senadores_da_57%C2%AA_Legislatura_%2852689451805%29.jpg/330px-Senadores_da_57%C2%AA_Legislatura_%2852689451805%29.jpg",
+   "file": "Senadores da 57ª Legislatura (52689451805).jpg",
+   "author": "Agência Senado from Brasilia, Brazil",
+   "license": "CC BY 2.0",
+   "year": "2023"
+  }
+ },
+ {
+  "id": "kaka",
+  "rank": 36,
+  "name": "Kaká",
+  "country": "Brasil",
+  "flag": "br",
+  "position": "Mediocampista ofensivo",
+  "born": "1982-04-22",
+  "clubs": [
+   {
+    "club": "São Paulo",
+    "years": "2000–2003",
+    "apps": 59,
+    "goals": 23
+   },
+   {
+    "club": "AC Milan",
+    "years": "2003–2009",
+    "apps": 193,
+    "goals": 70
+   },
+   {
+    "club": "Real Madrid",
+    "years": "2009–2013",
+    "apps": 85,
+    "goals": 23
+   },
+   {
+    "club": "AC Milan",
+    "years": "2013–2014",
+    "apps": 30,
+    "goals": 7
+   },
+   {
+    "club": "Orlando City",
+    "years": "2014–2017",
+    "apps": 75,
+    "goals": 24
+   },
+   {
+    "club": "São Paulo",
+    "loan": true,
+    "years": "2014",
+    "apps": 19,
+    "goals": 2
+   }
+  ],
+  "national": [
+   {
+    "team": "Brasil",
+    "years": "2002–2016",
+    "apps": 92,
+    "goals": 29
+   }
+  ],
+  "clubTotal": {
+   "apps": 654,
+   "goals": 208
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Serie A",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "LaLiga",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa del Rey",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Supercopa de Italia",
+    "n": 1
+   },
+   {
+    "cat": "reg",
+    "name": "Supercampeonato Paulista y Torneo Río-São Paulo",
+    "n": 2
+   },
+   {
+    "cat": "intl",
+    "name": "Champions League",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Europa",
+    "n": 1
+   },
+   {
+    "cat": "intl",
+    "name": "Mundial de Clubes",
+    "n": 1
+   },
+   {
+    "cat": "mundial",
+    "name": "Copa del Mundo",
+    "n": 1
+   },
+   {
+    "cat": "selOtros",
+    "name": "Copa Confederaciones",
+    "n": 2
+   }
+  ],
+  "awards": {
+   "ballonDor": [
+    2007
+   ],
+   "fifa": 1,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Ricardo_Izecson_dos_Santos_Leite_%28Kak%C3%A1%29_01.jpg/330px-Ricardo_Izecson_dos_Santos_Leite_%28Kak%C3%A1%29_01.jpg",
+   "file": "Ricardo Izecson dos Santos Leite (Kaká) 01.jpg",
+   "author": "José Cruz/ABr (cropped by tales.ebner)",
+   "license": "CC BY 3.0 br",
+   "year": "2007"
+  }
+ },
+ {
+  "id": "socrates",
+  "rank": 37,
+  "name": "Sócrates",
+  "country": "Brasil",
+  "flag": "br",
+  "position": "Mediocampista",
+  "born": "1954-02-19",
+  "died": "2011-12-04",
+  "clubs": [
+   {
+    "club": "Botafogo-SP",
+    "years": "1973–1978",
+    "apps": 99,
+    "goals": 35
+   },
+   {
+    "club": "Corinthians",
+    "years": "1978–1984",
+    "apps": 297,
+    "goals": 172
+   },
+   {
+    "club": "Fiorentina",
+    "years": "1984–1985",
+    "apps": 25,
+    "goals": 6
+   },
+   {
+    "club": "Flamengo",
+    "years": "1986–1987",
+    "apps": 12,
+    "goals": 3
+   },
+   {
+    "club": "Santos",
+    "years": "1988–1989",
+    "apps": 25,
+    "goals": 7
+   },
+   {
+    "club": "Botafogo-SP",
+    "years": "1989",
+    "apps": 6,
+    "goals": 0
+   },
+   {
+    "club": "Garforth Town",
+    "years": "2004",
+    "apps": 1,
+    "goals": 0
+   }
+  ],
+  "national": [
+   {
+    "team": "Brasil",
+    "years": "1979–1986",
+    "apps": 60,
+    "goals": 22
+   }
+  ],
+  "clubTotal": {
+   "apps": 513,
+   "goals": 236
+  },
+  "titles": [
+   {
+    "cat": "reg",
+    "name": "Campeonato Paulista",
+    "n": 3
+   },
+   {
+    "cat": "reg",
+    "name": "Campeonato Carioca y Taça Rio",
+    "n": 2
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Socrates87660.jpg/330px-Socrates87660.jpg",
+   "file": "Socrates87660.jpg",
+   "author": "Foto U. Dettmar/ABr.",
+   "license": "CC BY 3.0 br",
+   "year": "2005"
+  }
+ },
+ {
+  "id": "valderrama",
+  "rank": 38,
+  "name": "Carlos Valderrama",
+  "country": "Colombia",
+  "flag": "co",
+  "position": "Enganche",
+  "born": "1961-09-02",
+  "clubs": [
+   {
+    "club": "Unión Magdalena",
+    "years": "1980–1984",
+    "apps": 94,
+    "goals": 5
+   },
+   {
+    "club": "Millonarios",
+    "years": "1984–1985",
+    "apps": 33,
+    "goals": 0
+   },
+   {
+    "club": "Deportivo Cali",
+    "years": "1985–1987",
+    "apps": 131,
+    "goals": 22
+   },
+   {
+    "club": "Montpellier",
+    "years": "1987–1991",
+    "apps": 77,
+    "goals": 4
+   },
+   {
+    "club": "Real Valladolid",
+    "years": "1991–1992",
+    "apps": 17,
+    "goals": 1
+   },
+   {
+    "club": "Independiente Medellín",
+    "years": "1992–1993",
+    "apps": 10,
+    "goals": 1
+   },
+   {
+    "club": "Atlético Junior",
+    "years": "1993–1995",
+    "apps": 82,
+    "goals": 5
+   },
+   {
+    "club": "Tampa Bay Mutiny",
+    "years": "1995–1997",
+    "apps": 43,
+    "goals": 7
+   },
+   {
+    "club": "Deportivo Cali",
+    "loan": true,
+    "years": "1996–1997",
+    "apps": 18,
+    "goals": 4
+   },
+   {
+    "club": "Miami Fusion",
+    "years": "1997–1999",
+    "apps": 22,
+    "goals": 3
+   },
+   {
+    "club": "Tampa Bay Mutiny",
+    "years": "1999–2001",
+    "apps": 71,
+    "goals": 5
+   },
+   {
+    "club": "Colorado Rapids",
+    "years": "2001–2002",
+    "apps": 39,
+    "goals": 1
+   }
+  ],
+  "national": [
+   {
+    "team": "Colombia",
+    "years": "1985–1998",
+    "apps": 111,
+    "goals": 11
+   }
+  ],
+  "clubTotal": {
+   "apps": 705,
+   "goals": 63
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Liga colombiana",
+    "n": 2
+   },
+   {
+    "cat": "liga",
+    "name": "MLS (Supporters' Shield)",
+    "n": 1
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de Francia",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Pibe_Valderrama_2022.jpg/330px-Pibe_Valderrama_2022.jpg",
+   "file": "Pibe Valderrama 2022.jpg",
+   "author": "Maritza Ariza Periodista",
+   "license": "CC BY 3.0",
+   "year": "2022"
+  }
+ },
+ {
+  "id": "figueroa",
+  "rank": 39,
+  "name": "Elías Figueroa",
+  "country": "Chile",
+  "flag": "cl",
+  "position": "Defensor",
+  "born": "1946-10-25",
+  "clubs": [
+   {
+    "club": "Santiago Wanderers",
+    "years": "1964–1966",
+    "apps": 54,
+    "goals": 0
+   },
+   {
+    "club": "Unión La Calera",
+    "loan": true,
+    "years": "1964",
+    "apps": 30,
+    "goals": 0
+   },
+   {
+    "club": "Peñarol",
+    "years": "1967–1972",
+    "apps": 214,
+    "goals": 7
+   },
+   {
+    "club": "Internacional",
+    "years": "1972–1976",
+    "apps": 336,
+    "goals": 27
+   },
+   {
+    "club": "Palestino",
+    "years": "1977–1980",
+    "apps": 118,
+    "goals": 6
+   },
+   {
+    "club": "Fort Lauderdale Strikers",
+    "years": "1981",
+    "apps": 22,
+    "goals": 0
+   },
+   {
+    "club": "Colo-Colo",
+    "years": "1981–1982",
+    "apps": 17,
+    "goals": 0
+   }
+  ],
+  "national": [
+   {
+    "team": "Chile",
+    "years": "1966–1982",
+    "apps": 47,
+    "goals": 3
+   }
+  ],
+  "clubTotal": {
+   "apps": 791,
+   "goals": 40
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Primera División de Uruguay",
+    "n": 2
+   },
+   {
+    "cat": "liga",
+    "name": "Primera División de Chile",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "Brasileirão",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Copa Chile",
+    "n": 1
+   },
+   {
+    "cat": "reg",
+    "name": "Campeonato Gaúcho",
+    "n": 6
+   },
+   {
+    "cat": "intl",
+    "name": "Supercopa de Campeones Intercontinentales",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/El%C3%ADas_Figueroa.jpg/330px-El%C3%ADas_Figueroa.jpg",
+   "file": "Elías Figueroa.jpg",
+   "author": "Marco Nuñez from Santiago, Chile",
+   "license": "CC BY 2.0",
+   "year": "2009"
+  },
+  "note": "Total en clubes: solo partidos de liga (no hay registro completo de copas)."
+ },
+ {
+  "id": "cubillas",
+  "rank": 40,
+  "name": "Teófilo Cubillas",
+  "country": "Perú",
+  "flag": "pe",
+  "position": "Mediocampista ofensivo",
+  "born": "1949-03-08",
+  "clubs": [
+   {
+    "club": "Alianza Lima",
+    "years": "1966–1972",
+    "apps": 175,
+    "goals": 117
+   },
+   {
+    "club": "Basel",
+    "years": "1973",
+    "apps": 10,
+    "goals": 3
+   },
+   {
+    "club": "Porto",
+    "years": "1974–1977",
+    "apps": 85,
+    "goals": 48
+   },
+   {
+    "club": "Alianza Lima",
+    "years": "1977–1978",
+    "apps": 47,
+    "goals": 35
+   },
+   {
+    "club": "Fort Lauderdale Strikers",
+    "years": "1979–1983",
+    "apps": 139,
+    "goals": 65
+   },
+   {
+    "club": "Alianza Lima",
+    "years": "1984",
+    "apps": 4,
+    "goals": 4
+   },
+   {
+    "club": "South Florida Sun",
+    "years": "1984–1985",
+    "apps": 7,
+    "goals": 5
+   },
+   {
+    "club": "Alianza Lima",
+    "years": "1987–1988",
+    "apps": 13,
+    "goals": 3
+   },
+   {
+    "club": "Fort Lauderdale Strikers",
+    "years": "1988",
+    "apps": 12,
+    "goals": 7
+   },
+   {
+    "club": "Miami Sharks",
+    "years": "1989",
+    "apps": 8,
+    "goals": 1
+   }
+  ],
+  "national": [
+   {
+    "team": "Perú",
+    "years": "1968–1982",
+    "apps": 81,
+    "goals": 26
+   }
+  ],
+  "clubTotal": {
+   "apps": 534,
+   "goals": 314
+  },
+  "titles": [
+   {
+    "cat": "liga",
+    "name": "Primera División de Perú",
+    "n": 2
+   },
+   {
+    "cat": "liga",
+    "name": "Superliga de Suiza",
+    "n": 1
+   },
+   {
+    "cat": "liga",
+    "name": "United Soccer League (EE. UU.)",
+    "n": 2
+   },
+   {
+    "cat": "copa",
+    "name": "Copa de Portugal",
+    "n": 1
+   },
+   {
+    "cat": "continental",
+    "name": "Copa América",
+    "n": 1
+   }
+  ],
+  "awards": {
+   "ballonDor": [],
+   "fifa": 0,
+   "wcBall": 0,
+   "wcBoot": 0,
+   "shoe": 0
+  },
+  "photo": {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Teofilo_cubillas_panini_card_%28cropped%29.jpg/330px-Teofilo_cubillas_panini_card_%28cropped%29.jpg",
+   "file": "Teofilo cubillas panini card (cropped).jpg",
+   "author": "Unknown authorUnknown author",
+   "license": "Public domain",
+   "year": "1970"
+  }
  }
 ];

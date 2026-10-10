@@ -36,7 +36,7 @@ export default function MessiVsCristianoPage() {
         <a href="/jugadores?a=messi&b=cristiano" className="panel panel-hover flex items-center justify-between gap-4 px-5 py-4">
           <span>
             <span className="block font-display text-lg font-bold uppercase tracking-wide text-navy-950">Comparador de leyendas</span>
-            <span className="text-sm text-navy-500">Compará a Messi y a Cristiano con Maradona, Pelé, Cruyff y otras 20 leyendas.</span>
+            <span className="text-sm text-navy-500">Compará a Messi y a Cristiano con Maradona, Pelé, Cruyff y otras grandes leyendas.</span>
           </span>
           <span className="btn-ghost shrink-0">Comparar</span>
         </a>

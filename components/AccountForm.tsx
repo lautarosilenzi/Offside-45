@@ -4,9 +4,14 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import ClubPicker from "@/components/account/ClubPicker";
+import FavoriteEditor from "@/components/account/FavoriteEditor";
 import FavoriteResults from "@/components/account/FavoriteResults";
 import { type Account, type FanClub, hasServer, resetPassword, saveAccount, signIn, signOut, signUp, useAccount, useFavorites } from "@/lib/account";
 import { USERNAME_RE } from "@/lib/community";
+import { NATIONS } from "@/lib/data/nations";
+
+// Países para el censo: los de las selecciones (sin las que ya no existen), por nombre.
+const COUNTRIES = [...new Map(Object.values(NATIONS).filter((n) => !n.flag.startsWith("x-")).map((n) => [n.flag, n.name])).entries()].sort((a, b) => a[1].localeCompare(b[1], "es"));
 
 const EMPTY = { name: "", username: "", email: "", password: "", birthYear: "", city: "" };
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -95,6 +100,7 @@ function SignIn() {
 function SignUpForm({ account, editing, onDone }: { account: Account | null; editing: boolean; onDone: () => void }) {
   const [form, setForm] = useState(EMPTY);
   const [club, setClub] = useState<FanClub | undefined>(account?.club);
+  const [country, setCountry] = useState(account?.country ?? "ar");
   const [accept, setAccept] = useState(editing);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [msg, setMsg] = useState<{ error?: string; ok?: string }>({});
@@ -127,6 +133,7 @@ function SignUpForm({ account, editing, onDone }: { account: Account | null; edi
       birthYear: form.birthYear || undefined,
       city: form.city.trim() || undefined,
       club,
+      country,
       createdAt: account?.createdAt ?? new Date().toISOString(),
     };
     setBusy(true);
@@ -163,6 +170,15 @@ function SignUpForm({ account, editing, onDone }: { account: Account | null; edi
         </Field>
         <Field label="Ciudad (opcional)">
           <input value={form.city} onChange={set("city")} autoComplete="address-level2" className={input} />
+        </Field>
+        <Field label="País">
+          <select value={country} onChange={(e) => setCountry(e.target.value)} className={input}>
+            {COUNTRIES.map(([code, name]) => (
+              <option key={code} value={code}>
+                {name}
+              </option>
+            ))}
+          </select>
         </Field>
       </div>
       <ClubPicker value={club} onChange={setClub} error={errors.club} />
@@ -216,11 +232,13 @@ function Profile({ account, onEdit }: { account: Account; onEdit: () => void }) 
       <section>
         <h2 className="section-title mb-3">Mis favoritos</h2>
         {favs.length === 0 ? (
-          <p className="panel px-6 py-8 text-center text-navy-500">Todavía no seguís equipos ni ligas. Tocá ☆ Seguir en la página de un club o de un torneo.</p>
+          <p className="panel px-6 py-8 text-center text-navy-500">Todavía no seguís equipos, ligas ni jugadores. Elegilos abajo, en Personalizá tu página.</p>
         ) : (
           <FavoriteResults favorites={favs} />
         )}
       </section>
+
+      <FavoriteEditor favorites={favs} />
     </div>
   );
 }

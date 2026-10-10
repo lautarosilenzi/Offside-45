@@ -42,7 +42,8 @@ function Select({ label, value, options, onChange, color }: { label: string; val
         <select value={value} onChange={(e) => onChange(e.target.value)} className="w-full cursor-pointer bg-transparent font-display text-lg font-bold uppercase tracking-wide text-navy-950 outline-none">
           {options.map((o) => (
             <option key={o.id} value={o.id}>
-              {o.rank}. {o.name}
+              {o.rank <= 25 ? `${o.rank}. ` : ""}
+              {o.name}
             </option>
           ))}
         </select>

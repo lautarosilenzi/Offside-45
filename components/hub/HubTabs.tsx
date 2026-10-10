@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 // Pestañas de la página de un torneo (Fixture y tablas · Equipos y estadísticas · Campeones). El contenido de las tres
 // viene armado del servidor; acá solo se elige cuál se ve. La pestaña queda en la dirección (#equipos) para compartirla.
-export default function HubTabs({ tabs }: { tabs: { id: string; label: string; content: React.ReactNode }[] }) {
+export default function HubTabs({ tabs }: { tabs: { id: string; label: string; short?: string; content: React.ReactNode }[] }) {
   const [active, setActive] = useState(tabs[0].id);
   useEffect(() => {
     const fromHash = () => {
@@ -34,7 +34,15 @@ export default function HubTabs({ tabs }: { tabs: { id: string; label: string; c
               active === t.id ? "border-volt-500 text-volt-600" : "border-transparent text-navy-700 hover:text-navy-950"
             }`}
           >
-            {t.label}
+            {/* En el celular, el nombre corto (si tiene) para que entren todas en una línea. */}
+            {t.short ? (
+              <>
+                <span className="sm:hidden">{t.short}</span>
+                <span className="hidden sm:inline">{t.label}</span>
+              </>
+            ) : (
+              t.label
+            )}
           </button>
         ))}
       </div>

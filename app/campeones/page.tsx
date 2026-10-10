@@ -4,7 +4,7 @@ import ChampionsFilter from "@/components/ChampionsFilter";
 import Crest from "@/components/Crest";
 import PageHero from "@/components/PageHero";
 import { positions } from "@/lib/rank";
-import { CUP_SEASONS, EXTRA_TITLES, INTL_SEASONS, LEAGUE_TITLES, seasonNameOf, titleLabel } from "@/lib/seasons";
+import { CUP_SEASONS, EXTRA_TITLES, INTL_SEASONS, LEAGUE_TITLES, isAmateurSeason, seasonNameOf, titleLabel } from "@/lib/seasons";
 import { getTeam } from "@/lib/teams";
 import type { Season } from "@/lib/types";
 
@@ -55,7 +55,16 @@ const ROWS = [...new Set(TITLES.map((t) => t.yearLabel))]
   })
   .sort((a, b) => a.year - b.year || a.yearLabel.length - b.yearLabel.length);
 
-const DECADES = [...new Set(ROWS.map((r) => Math.floor(r.year / 10) * 10))];
+// Las dos eras del fútbol argentino: amateur (1891–1930, y las ligas amateurs que siguieron hasta 1934) y profesional
+// (desde 1931). Cada título va a la suya; un año con títulos de las dos eras aparece en las dos.
+const isAmateur = (t: Title) => (t.season ? isAmateurSeason(t.season) : t.year < 1931);
+const ERAS = [
+  { id: "profesional", title: "Era profesional", sub: "Desde 1931", amateur: false },
+  { id: "amateur", title: "Era amateur", sub: "1891–1930 (y la liga amateur hasta 1934)", amateur: true },
+].map((e) => {
+  const rows = ROWS.map((r) => ({ ...r, titles: r.titles.filter((t) => isAmateur(t) === e.amateur) })).filter((r) => r.titles.length);
+  return { ...e, rows, decades: [...new Set(rows.map((r) => Math.floor(r.year / 10) * 10))] };
+});
 
 // Títulos por club: ligas y copas por separado (un título compartido cuenta para los dos clubes).
 function ranking() {
@@ -137,27 +146,33 @@ export default function ChampionsPage() {
         </section>
 
         <ChampionsFilter>
-          <nav className="mb-6 flex flex-wrap gap-1.5" aria-label="Décadas">
-            {DECADES.map((d) => (
-              <a key={d} href={`#d${d}`} className="pill bg-white/70 font-display text-sm font-semibold text-navy-700 ring-1 ring-navy-100 hover:bg-white">
+          {ERAS.map((era) => (
+          <div key={era.id} id={era.id} className="mb-12 scroll-mt-24">
+          <div className="mb-4 rounded-3xl bg-navy-950 px-5 py-4 text-white on-dark">
+            <h2 className="font-display text-3xl font-black uppercase italic leading-none">{era.title}</h2>
+            <p className="mt-1 text-sm text-navy-200">{era.sub}</p>
+          </div>
+          <nav className="mb-6 flex flex-wrap gap-1.5" aria-label={`Décadas de la ${era.title.toLowerCase()}`}>
+            {era.decades.map((d) => (
+              <a key={d} href={`#${era.id}-${d}`} className="pill bg-white/70 font-display text-sm font-semibold text-navy-700 ring-1 ring-navy-100 hover:bg-white">
                 {d}s
               </a>
             ))}
           </nav>
 
           <div className="space-y-8">
-            {DECADES.map((d) => (
+            {era.decades.map((d) => (
               <section
                 key={d}
-                id={`d${d}`}
-                data-kinds={[...new Set(ROWS.filter((r) => Math.floor(r.year / 10) * 10 === d).flatMap((r) => r.titles.map((t) => t.kind)))].join(" ")}
+                id={`${era.id}-${d}`}
+                data-kinds={[...new Set(era.rows.filter((r) => Math.floor(r.year / 10) * 10 === d).flatMap((r) => r.titles.map((t) => t.kind)))].join(" ")}
                 className="scroll-mt-24"
               >
-                <h2 className="section-title mb-3">
+                <h3 className="section-title mb-3">
                   {d}–{d + 9}
-                </h2>
+                </h3>
                 <ul className="panel divide-y divide-navy-100">
-                  {ROWS.filter((r) => Math.floor(r.year / 10) * 10 === d).map((r) => (
+                  {era.rows.filter((r) => Math.floor(r.year / 10) * 10 === d).map((r) => (
                     <li
                       key={r.yearLabel}
                       data-kinds={[...new Set(r.titles.map((t) => t.kind))].join(" ")}
@@ -175,6 +190,8 @@ export default function ChampionsPage() {
               </section>
             ))}
           </div>
+          </div>
+          ))}
         </ChampionsFilter>
       </main>
     </>

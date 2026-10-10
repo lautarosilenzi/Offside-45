@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   // Dirección del sitio: con ella, la imagen y los links al compartir salen completos.
   metadataBase: new URL("https://126goals.vercel.app"),
   title: "126Goals · Fútbol en vivo, estadísticas e historia",
-  description: "Resultados en vivo, estadísticas de partidos y jugadores, torneos de todo el mundo y la historia del fútbol argentino desde 1891.",
+  description: "Todo el fútbol en un solo lugar: resultados en vivo, estadísticas de cada partido y jugador, torneos de todo el mundo, la Copa del Mundo y la historia completa del fútbol argentino.",
   applicationName: "126Goals",
   // Al compartir un link (WhatsApp, redes): el nombre y el logo (app/opengraph-image.png).
   openGraph: { siteName: "126Goals", locale: "es_AR", type: "website" },

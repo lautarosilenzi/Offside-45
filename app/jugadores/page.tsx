@@ -21,7 +21,7 @@ import {
 
 export const metadata: Metadata = {
   title: "Comparador de leyendas · 126Goals",
-  description: "Compará a los 25 mejores jugadores de la historia: carrera en clubes y selección, goles, títulos y premios individuales.",
+  description: "Compará a las mayores leyendas del fútbol mundial, sudamericano y argentino: carrera en clubes y selección, goles, títulos y premios individuales.",
 };
 
 const A = "#3b8fd9";
@@ -39,7 +39,7 @@ export default function LegendsPage({ searchParams }: { searchParams: { a?: stri
   return (
     <>
       <PageHero eyebrow="Cara a cara entre leyendas" title="Comparador de jugadores">
-        Elegí dos de los 25 mejores jugadores de la historia y comparalos: carrera en clubes y en la selección, goles, títulos y premios
+        Elegí dos de las mayores leyendas del fútbol (las 25 mejores de la historia y otras grandes figuras sudamericanas y argentinas) y comparalas: carrera en clubes y en la selección, goles, títulos y premios
         individuales.
       </PageHero>
       <main className="mx-auto max-w-5xl space-y-8 px-4 py-8 sm:px-6">
@@ -99,7 +99,7 @@ export default function LegendsPage({ searchParams }: { searchParams: { a?: stri
         </section>
 
         <section>
-          <h2 className="section-title mb-1">Las 25 leyendas</h2>
+          <h2 className="section-title mb-1">Las {LEGENDS.length} leyendas</h2>
           <p className="mb-3 text-sm text-navy-500">Ordená por cualquier columna. Tocá un jugador para compararlo con {a.name}.</p>
           <LegendsTable
             compareWith={a.id}
@@ -143,7 +143,8 @@ function PlayerCard({ l, color }: { l: Legend; color: string }) {
           <img src={sharper(l.photo.src)} alt={l.name} referrerPolicy="no-referrer" className="h-full w-full object-cover object-[50%_25%]" />
         )}
         <div className="absolute inset-x-0 bottom-0 h-1.5" style={{ background: color }} />
-        <span className="absolute left-3 top-3 rounded-full bg-navy-950/80 px-2.5 py-1 font-display text-sm font-bold text-white">#{l.rank}</span>
+        {/* El puesto es el del ranking de las 25 mejores; las leyendas sudamericanas y argentinas que se sumaron después van sin puesto. */}
+        {l.rank <= 25 && <span className="absolute left-3 top-3 rounded-full bg-navy-950/80 px-2.5 py-1 font-display text-sm font-bold text-white">#{l.rank}</span>}
       </div>
       <div className="p-3 sm:p-4">
         <h2 className="font-display text-xl font-extrabold uppercase italic leading-none tracking-wide text-navy-950 sm:text-3xl">{l.name}</h2>

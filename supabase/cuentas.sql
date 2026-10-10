@@ -50,3 +50,7 @@ drop policy if exists "agregar mis avisos" on public.push_subscriptions;
 create policy "agregar mis avisos" on public.push_subscriptions for insert with check (auth.uid() = user_id);
 drop policy if exists "borrar mis avisos" on public.push_subscriptions;
 create policy "borrar mis avisos" on public.push_subscriptions for delete using (auth.uid() = user_id);
+
+-- Favoritos: también jugadores (octubre de 2026).
+alter table public.favorites drop constraint if exists favorites_kind_check;
+alter table public.favorites add constraint favorites_kind_check check (kind in ('team', 'league', 'player'));

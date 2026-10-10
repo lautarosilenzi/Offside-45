@@ -6,6 +6,7 @@ import { createPortal } from "react-dom";
 import type { SearchItem } from "@/lib/search";
 
 const KIND_STYLE: Record<SearchItem["kind"], string> = {
+  Historial: "bg-volt-500/15 text-volt-700",
   Sección: "bg-volt-500/15 text-volt-700",
   Competencia: "bg-gold-400/25 text-navy-800",
   Club: "bg-brand-100 text-brand-700",

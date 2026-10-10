@@ -5,6 +5,7 @@ import TournamentHero from "@/components/hub/TournamentHero";
 import Bracket from "@/components/hub/Bracket";
 import Fixture from "@/components/hub/Fixture";
 import HubTabs from "@/components/hub/HubTabs";
+import LeagueHistory from "@/components/hub/LeagueHistory";
 import StandingsTable, { type Mark } from "@/components/hub/StandingsTable";
 import PromediosTable from "@/components/hub/PromediosTable";
 import Switch from "@/components/hub/Switch";
@@ -112,7 +113,7 @@ export default async function TournamentPage({ params }: { params: { id: string 
         )}
         <HubTabs
           tabs={[
-            { id: "fixture", label: "Fixture y tablas", content: fixtureTab },
+            { id: "fixture", label: "Fixture y tablas", short: "Partidos", content: fixtureTab },
             // Los amistosos no tienen tabla de equipos, estadísticas ni campeón: solo los partidos.
             ...(comp.id === "amistosos"
               ? []
@@ -120,6 +121,7 @@ export default async function TournamentPage({ params }: { params: { id: string 
                   {
               id: "equipos",
               label: "Estadísticas y equipos",
+              short: "Estadísticas",
               content: (
                 <TeamsAndStats
                   teams={teams}
@@ -132,6 +134,8 @@ export default async function TournamentPage({ params }: { params: { id: string 
                   },
                 ]),
             ...(champions ? [{ id: "campeones", label: "Campeones", content: champions }] : []),
+            // La Liga Profesional suma su historia completa desde 1891.
+            ...(comp.id === "liga-profesional" ? [{ id: "historia", label: "Historia", content: <LeagueHistory /> }] : []),
           ]}
         />
       </main>

@@ -86,7 +86,7 @@ export default function Formation({
             {rows.map((row, r) => (
               <div key={r} className="flex justify-around">
                 {row.map((p) => (
-                  <PlayerLink key={p.name} p={p} onPlayer={onPlayer} className="flex w-[4.4rem] min-w-0 flex-col items-center text-center hover:opacity-80 sm:w-[5.5rem]">
+                  <PlayerLink key={p.name} p={p} onPlayer={onPlayer} className="flex min-w-0 max-w-[5.5rem] flex-1 flex-col items-center px-0.5 text-center hover:opacity-80">
                     {p.id && photos?.[p.id] ? (
                       <span className="relative">
                         {/* eslint-disable-next-line @next/next/no-img-element -- foto de ESPN o de Wikimedia Commons */}

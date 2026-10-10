@@ -2,27 +2,30 @@ import type { LiveTeam } from "@/lib/live/espn";
 import type { Tie } from "@/lib/live/season";
 import TeamLogo from "./TeamLogo";
 
-// Cuadro de eliminación directa: una columna por fase, cada llave con el global (y los penales); el que pasa, resaltado.
-// En el celular las fases van una debajo de la otra (nada queda cortado a los costados).
+// Cuadro de eliminación directa, con los cruces lado a lado: una columna por fase, cada llave unida con una línea a la
+// fase siguiente, con el global (y los penales); el que pasa, resaltado. Si no entra en la pantalla (en el celular), se
+// desliza de costado y cada fase queda entera, sin cortes.
 export default function Bracket({ columns }: { columns: { phase: string; label: string; ties: Tie[] }[] }) {
   if (!columns.length) return null;
   return (
-    <div className="panel p-3 sm:overflow-x-auto">
-      <div className="mb-2 text-center font-display text-lg font-bold uppercase tracking-widest text-navy-950">Cuadro</div>
-      <div
-        className="flex flex-col gap-4 sm:grid sm:min-w-[calc(var(--cols)*13.5rem)] sm:gap-3 sm:[grid-template-columns:repeat(var(--cols),minmax(12.5rem,1fr))]"
-        style={{ "--cols": columns.length } as React.CSSProperties}
-      >
-        {columns.map((c) => (
-          <div key={c.phase} className="flex flex-col">
-            <div className="mb-2 rounded-lg bg-navy-950 py-1.5 text-center font-display text-xs font-bold uppercase tracking-wider text-white">{c.label}</div>
-            <div className="grid flex-1 gap-2 min-[480px]:grid-cols-2 sm:flex sm:flex-col sm:justify-around">
-              {c.ties.map((t, i) => (
-                <TieBox key={i} t={t} final={c.phase === "final"} />
-              ))}
+    <div className="panel p-3">
+      <div className="mb-1 text-center font-display text-lg font-bold uppercase tracking-widest text-navy-950">Cuadro</div>
+      {columns.length > 2 && <p className="mb-2 text-center text-xs text-navy-500 sm:hidden">Deslizá hacia el costado para ver hasta la final →</p>}
+      <div className="snap-x snap-mandatory overflow-x-auto pb-2 [scrollbar-width:thin]">
+        <div className="grid gap-5" style={{ gridTemplateColumns: `repeat(${columns.length}, minmax(10.5rem, 13rem))` }}>
+          {columns.map((c, ci) => (
+            <div key={c.phase} className="flex snap-start flex-col">
+              <div className="mb-2 rounded-lg bg-navy-950 py-1.5 text-center font-display text-xs font-bold uppercase tracking-wider text-white">{c.label}</div>
+              <div className="flex flex-1 flex-col justify-around gap-2">
+                {c.ties.map((t, i) => (
+                  <div key={i} className={`relative ${ci < columns.length - 1 ? "after:absolute after:left-full after:top-1/2 after:h-0.5 after:w-5 after:bg-volt-500/50" : ""}`}>
+                    <TieBox t={t} final={c.phase === "final"} />
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
