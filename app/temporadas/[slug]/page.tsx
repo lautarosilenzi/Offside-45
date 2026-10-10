@@ -5,13 +5,13 @@ import Crest from "@/components/Crest";
 import MatchList from "@/components/MatchList";
 import PageHero from "@/components/PageHero";
 import SeasonNotes from "@/components/SeasonNotes";
-import { SEASONS, computeTable, getSeason, seasonLabel, seasonNameOf, seasonTitle, siblingsOf, sourceOrder, verifySeason } from "@/lib/seasons";
+import { ALL_SEASONS, computeTable, getSeason, seasonLabel, seasonNameOf, seasonTitle, siblingsOf, sourceOrder, verifySeason } from "@/lib/seasons";
 import { getTeam } from "@/lib/teams";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return SEASONS.map((s) => ({ slug: s.slug }));
+  return ALL_SEASONS.map((s) => ({ slug: s.slug }));
 }
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
@@ -31,7 +31,8 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
     : [{ rows: table }];
   const isCup = season.kind === "cup";
   // Las copas no tienen tabla de liga (salvo que la fuente publique una tabla resumen).
-  const showTable = !isCup || season.publishedTable.length > 0;
+  // Tampoco los torneos solo de eliminación (el reducido del ascenso): sin partidos de liga no hay tabla.
+  const showTable = (!isCup || season.publishedTable.length > 0) && table.length > 0;
   const matches = [...season.matches].sort(isCup ? sourceOrder : (a, b) => a.date.localeCompare(b.date));
   const { prev, next } = siblingsOf(season);
   const navLabel = (s: typeof season) => (isCup ? String(s.year) : seasonLabel(s));
@@ -42,8 +43,8 @@ export default function SeasonPage({ params }: { params: { slug: string } }) {
     <>
       <PageHero
         eyebrow={
-          <Link href={season.international ? "/internacionales" : isCup ? "/copas" : "/temporadas"} className="hover:text-white">
-            {season.international ? "← Copas internacionales" : isCup ? "← Copas Nacionales" : "← Liga Argentina"}
+          <Link href={season.tier ? "/ascenso" : season.international ? "/internacionales" : isCup ? "/copas" : "/temporadas"} className="hover:text-white">
+            {season.tier ? "← Ascenso" : season.international ? "← Copas internacionales" : isCup ? "← Copas Nacionales" : "← Liga Argentina"}
           </Link>
         }
         title={seasonTitle(season)}

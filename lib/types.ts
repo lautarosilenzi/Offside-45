@@ -50,6 +50,8 @@ export type Season = {
   international?: boolean;
   // Copas: finalista (subcampeón).
   runnerUpIds?: string[];
+  // Categoría: 2 = segunda división (el ascenso). Sin el campo, Primera.
+  tier?: 2;
   year: number;
   // Temporadas que abarcan dos años (desde 1985/86): cómo se muestra el año.
   yearLabel?: string;

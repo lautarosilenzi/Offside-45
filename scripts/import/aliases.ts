@@ -366,6 +366,20 @@ const ALIASES: Alias[] = [
   { id: "defensores-belgrano", names: ["Defensores de Belgrano FBC", "Defensores de Belgrano Foot-Ball Club"] },
   { id: "rosario-athletic", names: ["Club Atlético del Rosario"] },
   { id: "san-telmo", names: ["San Telmo Football Club"] },
+  // ───── Segunda división (config-ascenso.ts): abreviaturas de RSSSF y nombres de Wikipedia ─────
+  { id: "argentino-rosario", names: ["Argentino (Rosario)", "Argentino de Rosario"] },
+  { id: "villa-dalmine", names: ["Villa Dálmine"] },
+  { id: "san-miguel", names: ["San Miguel"] },
+  { id: "atletico-concepcion", names: ["Atl. Concepción (Tuc.)", "Atlético Concepción", "Atlético Concepción (Tucumán)"] },
+  { id: "guarani-antonio-franco", names: ["Guaraní A.F. (Mis.)", "Guaraní A. Franco (Mis.)", "Guaraní Antonio Franco", "Guaraní A. Franco (Misiones)"] },
+  { id: "deportivo-maipu", names: ["Dep. Maipú (Mza.)", "Deportivo Maipú (Mendoza)", "Deportivo Maipú", "Maipú"] },
+  { id: "ferro-general-pico", names: ["F.C.Oeste (Gral.Pico)", "Ferro C. Oeste (Gral.Pico)", "Ferro (General Pico)", "Ferro Carril Oeste (General Pico)"] },
+  { id: "douglas-haig", names: ["Douglas Haig", "Douglas Haig (Pergamino)"] },
+  // Unión de Villa Krause, San Juan.
+  { id: "union-villa-krause", names: ["Unión (San Juan)", "Unión (Villa Krause)"] },
+  { id: "gimnasia-jujuy", names: ["Gimn. y Esg. (Jujuy)", "Gimn. y Esgrima (Jujuy)", "Gimnasia y Esgrima (Jujuy)", "Gimnasia (Jujuy)", "Gimnasia y Esgrima (J)"] },
+  { id: "central-cordoba-sde", names: ["Central Córdoba (SdE)", "Central Córdoba (Sgo.Estero)", "Central Córdoba (Santiago del Estero)"] },
+  { id: "central-norte-salta", names: ["Central Norte (Salta)", "Central Norte (S)"] },
 ];
 
 const norm = (s: string) =>

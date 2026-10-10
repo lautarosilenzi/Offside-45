@@ -4,7 +4,7 @@ import { FEATURED, GROUPS, LIVE_CODE, compHref } from "./competitions";
 import { CRESTS } from "./crests";
 import { LEGENDS } from "./data/legends";
 import { ESPN_IDS, leagueTeams } from "./live/espn";
-import { LEAGUE_SEASONS, seasonTitle } from "./seasons";
+import { ASCENSO_SEASONS, LEAGUE_SEASONS, seasonTitle } from "./seasons";
 import { FOREIGN_TEAMS, HISTORIC_TEAMS, TEAMS } from "./teams";
 
 export type SearchKind = "Historial" | "Competencia" | "Sección" | "Club" | "Equipo" | "Temporada" | "Jugador";
@@ -77,7 +77,12 @@ export function searchIndex(): Promise<SearchItem[]> {
         href: espnOf[t.id] ? `/torneos/liga-profesional/equipo/${espnOf[t.id]}` : `/historiales?a=${t.id}`,
         keywords: [t.fullName, t.shortName].filter(Boolean).join(" "),
       }));
-      const seasons: SearchItem[] = LEAGUE_SEASONS.map((s) => ({ kind: "Temporada", title: seasonTitle(s), href: `/temporadas/${s.slug}`, keywords: String(s.year) }));
+      const seasons: SearchItem[] = [...LEAGUE_SEASONS, ...ASCENSO_SEASONS].map((s) => ({
+        kind: "Temporada",
+        title: seasonTitle(s),
+        href: `/temporadas/${s.slug}`,
+        keywords: s.tier ? `${s.year} ascenso b nacional` : String(s.year),
+      }));
       const players: SearchItem[] = LEGENDS.map((l) => ({
         kind: "Jugador",
         title: l.name,

@@ -10,10 +10,13 @@ import { winnerOf } from "../../lib/result";
 import { resolveName, setLocalAliases } from "./aliases";
 import { TOURNAMENTS, type TournamentConfig } from "./config";
 import { CUP_TOURNAMENTS } from "./config-cups";
+import { ASCENSO_TOURNAMENTS } from "./config-ascenso";
 import { fetchPage, parseSeason, type RawMatch, type RawSection } from "./rsssf-parse";
 import { compareWithWikipedia } from "./wiki";
 
 const OUT = join(process.cwd(), "lib", "data", "seasons", "generated");
+// Segunda división (config-ascenso.ts).
+const OUT_ASCENSO = join(process.cwd(), "lib", "data", "ascenso", "generated");
 
 const MONTHS: Record<string, number> = {
   jan: 1, feb: 2, mar: 3, apr: 4, may: 5, jun: 6, jul: 7, aug: 8, sep: 9, set: 9, oct: 10, nov: 11, dec: 12,
@@ -1294,6 +1297,7 @@ export async function buildTournament(cfg: TournamentConfig): Promise<{ season: 
     year: cfg.year,
     ...(cfg.yearLabel && { yearLabel: cfg.yearLabel }),
     ...(cfg.league && { league: cfg.league }),
+    ...(cfg.tier && { tier: cfg.tier }),
     title: cfg.title,
     tournament: cfg.tournament,
     organizer: cfg.organizer,
@@ -1529,8 +1533,8 @@ const CUP_INDEX = (() => {
 })();
 
 // Índice de las temporadas generadas, importadas como JSON.
-function writeIndex() {
-  const files = readdirSync(OUT)
+function writeIndex(dir: string, name: string) {
+  const files = readdirSync(dir)
     .filter((f) => f.endsWith(".json"))
     .sort();
   const ident = (f: string) => `S_${f.replace(".json", "").replace(/-/g, "_")}`;
@@ -1539,19 +1543,23 @@ function writeIndex() {
     'import type { Season } from "../../../types";',
     ...files.map((f) => `import ${ident(f)} from "./${f}";`),
     "",
-    `export const GENERATED_SEASONS = [${files.map(ident).join(", ")}] as Season[];`,
+    `export const ${name} = [${files.map(ident).join(", ")}] as Season[];`,
     "",
   ].join("\n");
-  writeFileSync(join(OUT, "index.ts"), src);
+  writeFileSync(join(dir, "index.ts"), src);
 }
 
 async function main() {
   const wanted = process.argv.slice(2);
-  // "copas" importa todas las copas; "copa-honor" todas las ediciones de esa copa.
-  const list = [...TOURNAMENTS, ...CUP_TOURNAMENTS].filter(
-    (t) => !wanted.length || wanted.some((w) => t.slug === w || String(t.year) === w || (w === "copas" && t.kind === "cup") || t.slug.startsWith(`${w}-`)),
+  // "copas" importa todas las copas; "copa-honor" todas las ediciones de esa copa; "ascenso" toda la segunda división.
+  // Sin argumentos, solo Primera y copas: el ascenso se pide aparte.
+  const list = [...TOURNAMENTS, ...CUP_TOURNAMENTS, ...ASCENSO_TOURNAMENTS].filter((t) =>
+    !wanted.length
+      ? !t.tier
+      : wanted.some((w) => t.slug === w || (w === "ascenso" && t.tier === 2) || (String(t.year) === w && !t.tier) || (w === "copas" && t.kind === "cup") || t.slug.startsWith(`${w}-`)),
   );
   mkdirSync(OUT, { recursive: true });
+  mkdirSync(OUT_ASCENSO, { recursive: true });
   let failed = 0;
   for (const cfg of list) {
     setLocalAliases(cfg.aliases);
@@ -1566,10 +1574,11 @@ async function main() {
       if (process.env.DUMP) writeFileSync(join(process.env.DUMP, `${cfg.slug}.json`), JSON.stringify(season, null, 1));
       continue;
     }
-    writeFileSync(join(OUT, `${cfg.slug}.json`), JSON.stringify(season, null, 1) + "\n");
+    writeFileSync(join(cfg.tier ? OUT_ASCENSO : OUT, `${cfg.slug}.json`), JSON.stringify(season, null, 1) + "\n");
     console.log("  ✓ verificada y escrita");
   }
-  writeIndex();
+  writeIndex(OUT, "GENERATED_SEASONS");
+  writeIndex(OUT_ASCENSO, "ASCENSO_SEASONS");
   process.exit(failed ? 1 : 0);
 }
 

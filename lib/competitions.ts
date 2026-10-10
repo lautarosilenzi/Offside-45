@@ -39,7 +39,7 @@ export const GROUPS: CountryGroup[] = [
     competitions: [
       c("historiales", "Historial entre equipos", "", "/historiales"),
       c("liga-profesional", "Liga Profesional de Fútbol", "es:Primera División de Argentina", "/temporadas"),
-      c("primera-nacional", "Primera Nacional", "en:Primera Nacional"),
+      c("primera-nacional", "Primera Nacional", "en:Primera Nacional", "/ascenso"),
       c("copa-argentina", "Copa Argentina", "en:Copa Argentina", "/copa-argentina"),
       c("trofeo-campeones", "Trofeo de Campeones", ""),
       c("supercopa-argentina", "Supercopa Argentina", ""),

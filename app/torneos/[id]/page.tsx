@@ -6,6 +6,7 @@ import Bracket from "@/components/hub/Bracket";
 import Fixture from "@/components/hub/Fixture";
 import HubTabs from "@/components/hub/HubTabs";
 import LeagueHistory from "@/components/hub/LeagueHistory";
+import AscensoHistory from "@/components/hub/AscensoHistory";
 import StandingsTable, { type Mark } from "@/components/hub/StandingsTable";
 import PromediosTable from "@/components/hub/PromediosTable";
 import Switch from "@/components/hub/Switch";
@@ -136,6 +137,8 @@ export default async function TournamentPage({ params }: { params: { id: string 
             ...(champions ? [{ id: "campeones", label: "Campeones", content: champions }] : []),
             // La Liga Profesional suma su historia completa desde 1891.
             ...(comp.id === "liga-profesional" ? [{ id: "historia", label: "Historia", content: <LeagueHistory /> }] : []),
+            // La Primera Nacional, la historia del ascenso (segunda división).
+            ...(comp.id === "primera-nacional" ? [{ id: "historia", label: "Historia", content: <AscensoHistory /> }] : []),
           ]}
         />
       </main>

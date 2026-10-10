@@ -1,10 +1,22 @@
 import type { Match, Season, TableRow } from "./types";
 import { SEASONS } from "./data/seasons";
+import { ASCENSO_SEASONS as ASCENSO_RAW } from "./data/ascenso/generated";
 import { winnerOf } from "./result";
 
 export { SEASONS };
 
-export const getSeason = (slug: string) => SEASONS.find((s) => s.slug === slug);
+// Segunda división (el ascenso): aparte de SEASONS para que no sume en los títulos ni en las estadísticas de Primera.
+// Sus partidos sí van a los historiales.
+// En orden de su primer partido (el Apertura de la B de 1986 terminó antes de que empezara la Nacional B 1986/87).
+const firstDate = (s: Season) => s.matches.reduce((d, m) => (m.date < d ? m.date : d), "9999");
+export const ASCENSO_SEASONS: Season[] = [...ASCENSO_RAW].sort((a, b) => firstDate(a).localeCompare(firstDate(b)) || a.slug.localeCompare(b.slug));
+// Torneos principales del ascenso (sin el reducido ni los desempates, que tienen "league").
+export const ASCENSO_MAIN = ASCENSO_SEASONS.filter((s) => !s.league);
+export const isAscenso = (s: Season) => s.tier === 2;
+// Todas las temporadas con página: Primera, copas y ascenso.
+export const ALL_SEASONS: Season[] = [...SEASONS, ...ASCENSO_SEASONS];
+
+export const getSeason = (slug: string) => ALL_SEASONS.find((s) => s.slug === slug);
 
 export const LOADED_YEARS = new Set(SEASONS.filter((s) => s.kind !== "cup").map((s) => s.year));
 export const LEAGUE_SEASONS = SEASONS.filter((s) => s.kind !== "cup");
@@ -16,7 +28,7 @@ export const INTL_SEASONS = SEASONS.filter((s) => s.international);
 export const seasonLabel = (s: Season) => (s.league ? `${s.yearLabel ?? s.year} · ${s.league}` : (s.yearLabel ?? String(s.year)));
 
 // Título de la página: "Liga Argentina 1919 · AAm" para las ligas, "Copa de Honor 1917" para las copas.
-export const seasonTitle = (s: Season) => (s.kind === "cup" ? s.title : `Liga Argentina ${seasonLabel(s)}`);
+export const seasonTitle = (s: Season) => (s.kind === "cup" || s.tier ? s.title : `Liga Argentina ${seasonLabel(s)}`);
 
 // Nombre de la copa sin el año: "Copa de Honor 1917" → "Copa de Honor".
 // "Copa Argentina 2018/19" también es de la serie "Copa Argentina".
@@ -118,8 +130,9 @@ export function titleLabel(s: Season): string {
 
 // Anterior y siguiente dentro de la misma serie: las ligas entre sí y cada copa con sus propias ediciones.
 export function siblingsOf(season: Season): { prev?: Season; next?: Season } {
-  const list =
-    season.kind === "cup"
+  const list = season.tier
+    ? ASCENSO_SEASONS
+    : season.kind === "cup"
       ? SEASONS.filter((s) => s.kind === "cup" && cupName(s) === cupName(season)).sort((a, b) => a.year - b.year)
       : LEAGUE_SEASONS;
   const i = list.indexOf(season);
@@ -130,10 +143,10 @@ export function siblingsOf(season: Season): { prev?: Season; next?: Season } {
 export const sourceOrder = (a: Match, b: Match) => a.id.localeCompare(b.id);
 
 // Todos los partidos de las temporadas cargadas.
-export const SEASON_MATCHES: Match[] = SEASONS.flatMap((s) => s.matches);
+export const SEASON_MATCHES: Match[] = ALL_SEASONS.flatMap((s) => s.matches);
 
 // Temporada de cada partido, para enlazarla desde el historial.
-export const SEASON_OF_MATCH = new Map<string, Season>(SEASONS.flatMap((s) => s.matches.map((m) => [m.id, s] as const)));
+export const SEASON_OF_MATCH = new Map<string, Season>(ALL_SEASONS.flatMap((s) => s.matches.map((m) => [m.id, s] as const)));
 
 // Nombre con el que el club jugó esa temporada, si era distinto al actual.
 export function seasonNameOf(season: Season, teamId: string): string | undefined {

@@ -1,0 +1,73 @@
+{
+ "slug": "b-nacional-1986-87-desempate",
+ "year": 1986,
+ "yearLabel": "1986/87",
+ "league": "Desempate por el descenso",
+ "tier": 2,
+ "title": "Primera B Nacional 1986/87 · Desempate por el descenso",
+ "tournament": "Desempate por el descenso de la Primera B Nacional 1986/87",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Central Norte (Salta), Chacarita y Gimnasia y Esgrima (Jujuy) jugaron un triangular en cancha neutral. Los tres partidos terminaron empatados y descendió Central Norte, por los resultados entre ellos en la temporada.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 1986",
+   "url": "https://www.rsssf.org/tablesa/arg2-87.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Triangular a una rueda en cancha neutral entre los tres equipos con el peor promedio."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-1986-87-desempate-001",
+   "date": "1987-05-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Desempate por el descenso",
+   "stage": "Triangular por el descenso",
+   "phase": "playoff",
+   "homeId": "central-norte-salta",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de San Martín (Tucumán)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1986-87-desempate-002",
+   "date": "1987-05-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Desempate por el descenso",
+   "stage": "Triangular por el descenso",
+   "phase": "playoff",
+   "homeId": "chacarita",
+   "awayId": "central-norte-salta",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Cancha de Unión (Santa Fe)",
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-1986-87-desempate-003",
+   "date": "1987-05-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Desempate por el descenso",
+   "stage": "Triangular por el descenso",
+   "phase": "playoff",
+   "homeId": "chacarita",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Cancha de Chaco For Ever",
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

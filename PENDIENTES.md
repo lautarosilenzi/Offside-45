@@ -125,3 +125,14 @@ Regla de oro: fácil de usar, opciones simples y fácil de leer.
 - [x] U8. Partido: el botón de alertas alineado con los demás.
 - [x] U9. Alineaciones: el arquero completo, sin cortarse.
 - [x] U10. Cambiar el fondo animado del 126 por algo más futbolero.
+
+## Ascenso: todos los partidos de la segunda división (de a poco)
+Fuente principal: RSSSF "Argentina Second Level" (tablesa/arg2-*.html, hay páginas de 1899 a 2026, con fecha de cada partido).
+Control: la tabla de la propia página y, partido por partido, la Wikipedia en castellano. Se importa con
+`npx tsx scripts/import/build.ts ascenso` (configuración en scripts/import/config-ascenso.ts; sale a lib/data/ascenso/generated).
+No suma en títulos ni estadísticas de Primera; sí en los historiales. Página: /ascenso (y pestaña Historia en Primera Nacional).
+- [x] 1986 Primera B (Torneo Apertura): 180 partidos, coincide con la tabla. (Wikipedia no tiene artículo con partidos.)
+- [x] 1986/87 Primera B Nacional: 462 partidos, los 462 confirmados por Wikipedia. + Reducido (14) + triangular por el descenso (3).
+- [ ] 1987/88 en adelante hasta hoy.
+- [ ] Primera B 1935–1985 (hacia atrás).
+- [ ] Era amateur (segunda división hasta 1934): ver qué tiene RSSSF partido por partido.

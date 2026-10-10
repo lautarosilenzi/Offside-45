@@ -67,7 +67,7 @@ function MatchRow({ match, linkSeason, showStage }: { match: Match; linkSeason: 
   const dayKnown = match.date.length === 10;
   const season = linkSeason ? SEASON_OF_MATCH.get(match.id) : undefined;
   const head = season
-    ? season.kind === "cup"
+    ? season.kind === "cup" || season.tier
       ? season.title
       : `Campeonato ${seasonLabel(season)}`
     : linkSeason
