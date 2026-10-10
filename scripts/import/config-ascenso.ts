@@ -1360,3 +1360,90 @@ ASCENSO_TOURNAMENTS.push(
     notes: [{ kind: "formato", text: "Series a ida y vuelta; con igualdad, se quedaba el equipo de la categoría superior." }],
   }),
 );
+
+// ───────── 2006/07 ─────────
+const A0607: Record<string, string> = {
+  ...A0506,
+  Instituto: "instituto",
+  Olimpo: "olimpo",
+  Platense: "platense",
+  "Olimpo (Bahía Blanca)": "olimpo",
+  "Platense (Vicente López)": "platense",
+  "Tiro Federal (Rosario)": "tiro-federal-rosario",
+  "Villa Mitre (Bahía Blanca)": "villa-mitre",
+  "San Martín (San Juan)": "san-martin-sj",
+  "San Martín (Tucumán)": "san-martin-tucuman",
+  "Unión (Santa Fe)": "union-santa-fe",
+  "Huracán (Tres Arroyos)": "huracan-tres-arroyos",
+  "Estudiantes (BA)": "estudiantes-ba",
+  "Guillermo Brown": "guillermo-brown",
+};
+for (const [k, v] of Object.entries(A0607)) if (k.includes("(")) A0607[k.replace(/[()]/g, "").replace(/\s+/g, " ")] = v;
+const H0607 = [/^Apertura 2006/i, /^Clausura 2007/i, /^Aggregate Table/i, /^Second Promotion Playoff/i, /^Reducido/i, /^Promotion\/Relegation Playoff/i, /^\s*Relegation Table/i, /^Playoff against 18th Place/i];
+const WIKI0607 = "Campeonato de Primera B Nacional 2006-07";
+ASCENSO_TOURNAMENTS.push(
+  abTorneo(2006, "apertura", "arg2-07.html", A0607, "olimpo", "Olimpo de Bahía Blanca ganó el Apertura. También ganó el Clausura y la tabla general (78 puntos): campeón de la Nacional B 2006/07 y ascenso a Primera.", {
+    sectionRange: { from: /^Apertura 2006/i, to: /^Clausura 2007/i },
+    headings: H0607,
+    preprocess: pre0506,
+    wiki: undefined,
+  }),
+  abTorneo(2006, "clausura", "arg2-07.html", A0607, "olimpo", "Olimpo ganó también el Clausura y fue campeón de la temporada. San Martín de San Juan ascendió por la serie del segundo ascenso; Huracán y Tigre subieron por la promoción.", {
+    sectionRange: { from: /^Clausura 2007/i, to: /^Aggregate Table/i },
+    headings: H0607,
+    preprocess: pre0506,
+    wiki: undefined,
+    notes: [
+      { kind: "formato", text: "20 equipos, todos contra todos a una rueda (la segunda de la temporada), 3 puntos por victoria." },
+      { kind: "dato", text: "A Talleres le descontaron 2 puntos en la tabla general; Almagro empezó la temporada siguiente con 3 puntos menos (RSSSF)." },
+    ],
+  }),
+  nacionalBExtra(2006, "segundo-ascenso", "Segundo ascenso", {
+    file: "arg2-07.html",
+    section: /^Second Promotion Playoff/i,
+    headings: H0607,
+    preprocess: pre0506,
+    aliases: A0607,
+    wiki: WIKI0607,
+    playoffFrom: { date: "2007-01-01", stage: "Segundo ascenso" },
+    championIds: ["san-martin-sj"],
+    runnerUpIds: ["huracan"],
+    summary: "San Martín de San Juan perdió 1-0 en Parque Patricios y le ganó 3-1 a Huracán de local: ascenso a Primera. Huracán fue a la promoción y también subió.",
+    notes: [{ kind: "formato", text: "Serie a ida y vuelta entre el 2.º y el 3.º de la tabla general." }],
+  }),
+  nacionalBExtra(2006, "reducido", "Reducido", {
+    file: "arg2-07.html",
+    sectionRange: { from: /^Reducido/i, to: /^Promotion\/Relegation Playoff/i },
+    headings: H0607,
+    preprocess: pre0506,
+    aliases: A0607,
+    wiki: WIKI0607,
+    playoffRounds: [
+      { date: "2007-06-06", stage: "Primera ronda" },
+      { date: "2007-06-13", stage: "Final" },
+    ],
+    championIds: ["tigre"],
+    runnerUpIds: ["platense"],
+    summary: "Tigre ganó el reducido (0-0 y 2-0 con Platense en la final) y en la promoción le ganó la serie a Nueva Chicago: ascenso a Primera.",
+    notes: [{ kind: "formato", text: "Del 4.º al 7.º de la tabla general, eliminación a ida y vuelta." }],
+  }),
+  nacionalBExtra(2006, "promocion", "Desempate y promoción con la B Metropolitana y el Argentino A", {
+    file: "arg2-07.html",
+    sectionRange: { from: /^Playoff against 18th Place/i },
+    headings: H0607,
+    preprocess: (page) => pre0506(page).replace(/^(Playoff against 18th Place)\s*\[(\w{3} \d+) at [^\]]*\]\s*$/m, "$1\n[$2]"),
+    aliases: A0607,
+    publishedTable: [],
+    tableIndex: [],
+    playoffRounds: [
+      { date: "2007-06-05", stage: "Desempate por el 18.º puesto" },
+      { date: "2007-07-07", stage: "Promoción" },
+    ],
+    overrides: {
+      "2007-06-05 ben-hur instituto": { advancedId: "instituto", venue: "Cancha de Newell's Old Boys", note: "Instituto ganó 4-3 por penales; Ben Hur fue a la promoción." },
+    },
+    championIds: [],
+    summary: "Ben Hur perdió por penales el desempate con Instituto y fue a la promoción con Guillermo Brown de Puerto Madryn (Argentino A): ganó y se quedó. Ferro también se quedó en la Nacional B ante Estudiantes de Buenos Aires (B Metropolitana), por la ventaja deportiva.",
+    notes: [{ kind: "formato", text: "Desempate a un partido en cancha neutral y promociones a ida y vuelta." }],
+  }),
+);

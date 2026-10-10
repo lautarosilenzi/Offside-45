@@ -1,0 +1,128 @@
+{
+ "slug": "b-nacional-2006-07-reducido",
+ "runnerUpIds": [
+  "platense"
+ ],
+ "year": 2006,
+ "yearLabel": "2006/07",
+ "league": "Reducido",
+ "tier": 2,
+ "title": "Primera B Nacional 2006/07 · Reducido",
+ "tournament": "Reducido de la Primera B Nacional 2006/07",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "tigre"
+ ],
+ "summary": "Tigre ganó el reducido (0-0 y 2-0 con Platense en la final) y en la promoción le ganó la serie a Nueva Chicago: ascenso a Primera.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2006",
+   "url": "https://www.rsssf.org/tablesa/arg2-07.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera B Nacional 2006-07",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_B_Nacional_2006-07"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Del 4.º al 7.º de la tabla general, eliminación a ida y vuelta."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-2006-07-reducido-001",
+   "date": "2007-06-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Reducido",
+   "stage": "Primera ronda",
+   "phase": "playoff",
+   "homeId": "platense",
+   "awayId": "atletico-rafaela",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2006-07-reducido-002",
+   "date": "2007-06-06",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Reducido",
+   "stage": "Primera ronda",
+   "phase": "playoff",
+   "homeId": "chacarita",
+   "awayId": "tigre",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Cancha de Lanús (away fans banned)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2006-07-reducido-003",
+   "date": "2007-06-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Reducido",
+   "stage": "Primera ronda",
+   "phase": "playoff",
+   "homeId": "atletico-rafaela",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2006-07-reducido-004",
+   "date": "2007-06-09",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Reducido",
+   "stage": "Primera ronda",
+   "phase": "playoff",
+   "homeId": "tigre",
+   "awayId": "chacarita",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2006-07-reducido-005",
+   "date": "2007-06-13",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Reducido",
+   "stage": "Final",
+   "phase": "playoff",
+   "homeId": "platense",
+   "awayId": "tigre",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "b-nacional-2006-07-reducido-006",
+   "date": "2007-06-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Reducido",
+   "stage": "Final",
+   "phase": "playoff",
+   "homeId": "tigre",
+   "awayId": "platense",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  }
+ ]
+}
