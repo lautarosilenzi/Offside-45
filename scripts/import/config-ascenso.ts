@@ -2098,3 +2098,108 @@ ASCENSO_TOURNAMENTS.push(
     notes: [{ kind: "formato", text: "Del 3.º al 9.º de la tabla y el perdedor de la final, eliminación a ida y vuelta." }],
   }),
 );
+
+// ───────── 2019/20 (interrumpida por la pandemia) y Transición 2020 ─────────
+const A1920: Record<string, string> = {
+  ...A1819,
+  "AA Estudiantes": "estudiantes-rio-cuarto",
+  "Asociación Atlética Estudiantes": "estudiantes-rio-cuarto",
+  "CA Estudiantes": "estudiantes-ba",
+  "CA Atlanta": "atlanta",
+  "Club Atlético Atlanta": "atlanta",
+  "CA Barracas Central": "barracas-central",
+  "Club Atlético Barracas Central": "barracas-central",
+  "CA Alvarado": "alvarado",
+  "Club Atlético Alvarado": "alvarado",
+  "CA Belgrano": "belgrano",
+  "Club Atlético Belgrano": "belgrano",
+  "CA San Martín (San Juan)": "san-martin-sj",
+  "CA San Martín (SM de Tucumán)": "san-martin-tucuman",
+  "Club Atlético San Martín S. Civil": "san-martin-tucuman",
+  "CA Tigre": "tigre",
+  "Club Atlético Tigre Sociedad Civil": "tigre",
+  "Deportivo Riestra AFBC": "deportivo-riestra",
+  "Club Atlético Defensores de Belgrano": "defensores-belgrano",
+};
+const H1920 = [/^Campeonato de Primera Nacional - Primera "B" Nacional 2019\/2020/i, /^Zona A - Group A:/i, /^Zona B - Group B:/i, /^Campeonato Transición de Primera Nacional 2020/i];
+ASCENSO_TOURNAMENTS.push({
+  slug: "primera-nacional-2019-20",
+  year: 2019,
+  yearLabel: "2019/20",
+  file: "arg2020.html",
+  tier: 2,
+  competition: `${AFA} · Primera Nacional`,
+  organizer: AFA,
+  title: "Primera Nacional 2019/20",
+  tournament: "Campeonato de Primera Nacional 2019/20",
+  sectionRange: { from: /^Campeonato de Primera Nacional - Primera "B" Nacional 2019\/2020/i, to: /^Campeonato Transición de Primera Nacional 2020/i },
+  headings: H1920,
+  tableIndex: [2, 4],
+  groupNames: ["Zona A", "Zona B"],
+  wiki: "Campeonato de Primera Nacional 2019-20",
+  wikiDiffsByTable: true,
+  aliases: A1920,
+  pointsPerWin: 3,
+  awardedGoalsCount: true,
+  rolloverBefore: 8,
+  acceptTableDiffs: "Nueva Chicago figura en la tabla de RSSSF con un punto menos que la suma de sus partidos, sin explicación.",
+  championIds: [],
+  summary: "Primera temporada con el nombre de Primera Nacional: 32 equipos en dos zonas. Se suspendió en marzo de 2020 por la pandemia y se terminó con el Torneo Transición, a fin de año.",
+  notes: [
+    { kind: "formato", text: "Dos zonas de 16 equipos, 3 puntos por victoria. Quedó interrumpida por la pandemia de COVID-19 y no se terminó." },
+    { kind: "dato", text: "Sin campeón: los ascensos se definieron en el Torneo Transición 2020." },
+  ],
+});
+
+// Torneo Transición 2020 (noviembre de 2020 a enero de 2021): fase por el primer ascenso y fase por el segundo.
+const H2020T = [/^Campeonato Transición de Primera Nacional 2020/i, /^Fase 1er\. Ascenso a Primera División/i, /^Fase 2do\. Ascenso a Primera División/i, /^Third Level/i];
+const transicion2020 = (key: string, name: string, rest: Partial<TournamentConfig>): TournamentConfig => ({
+  slug: `primera-nacional-2020-${key}`,
+  year: 2020,
+  yearLabel: "2020",
+  file: "arg2020.html",
+  tier: 2,
+  league: name,
+  competition: `${AFA} · Primera Nacional · Transición 2020`,
+  organizer: AFA,
+  title: `Primera Nacional 2020 · ${name}`,
+  tournament: `Torneo Transición de la Primera Nacional 2020 · ${name}`,
+  headings: H2020T,
+  tableIndex: [0, 1],
+  groupNames: ["Zona A", "Zona B"],
+  wiki: "Campeonato Transición de Primera Nacional 2020",
+  wikiDiffsByTable: true,
+  aliases: A1920,
+  pointsPerWin: 3,
+  awardedGoalsCount: true,
+  // Noviembre y diciembre de 2020; enero de 2021.
+  rolloverBefore: 8,
+  championIds: [],
+  summary: "",
+  notes: [],
+  ...rest,
+});
+ASCENSO_TOURNAMENTS.push(
+  transicion2020("primer-ascenso", "Primer ascenso", {
+    sectionRange: { from: /^Fase 1er\. Ascenso a Primera División/i, to: /^Fase 2do\. Ascenso a Primera División/i },
+    playoffRounds: [{ date: "2021-01-16", stage: "Final (cancha de Unión)" }],
+    championIds: ["sarmiento-junin"],
+    runnerUpIds: ["estudiantes-rio-cuarto"],
+    summary: "Los mejores de la temporada 2019/20 jugaron en dos zonas de ocho; los ganadores, Sarmiento de Junín y Estudiantes de Río Cuarto, jugaron la final en Santa Fe: 1-1 y Sarmiento ganó 4-3 por penales. Campeón y ascenso a Primera.",
+    notes: [{ kind: "formato", text: "Dos zonas de 8 equipos a una rueda, 3 puntos por victoria; final a un partido en cancha neutral entre los ganadores." }],
+  }),
+  transicion2020("segundo-ascenso", "Segundo ascenso", {
+    sectionRange: { from: /^Fase 2do\. Ascenso a Primera División/i, to: /^Third Level/i },
+    playoffRounds: [
+      { date: "2021-01-17", stage: "Primera ronda" },
+      { date: "2021-01-21", stage: "Segunda ronda" },
+      { date: "2021-01-24", stage: "Tercera ronda" },
+      { date: "2021-01-27", stage: "Semifinal" },
+      { date: "2021-01-31", stage: "Final" },
+    ],
+    championIds: ["platense"],
+    runnerUpIds: ["estudiantes-rio-cuarto"],
+    summary: "El resto de los equipos jugó una fase de grupos y después un torneo por eliminación con los demás clasificados. Platense le ganó la final a Estudiantes de Río Cuarto por penales (1-1) y volvió a Primera después de 22 años.",
+    notes: [{ kind: "formato", text: "Dos zonas de 8 a una rueda y después eliminación directa a un partido, en cancha neutral desde la tercera ronda." }],
+  }),
+);

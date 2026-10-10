@@ -1,0 +1,1422 @@
+{
+ "slug": "primera-nacional-2020-segundo-ascenso",
+ "runnerUpIds": [
+  "estudiantes-rio-cuarto"
+ ],
+ "year": 2020,
+ "yearLabel": "2020",
+ "league": "Segundo ascenso",
+ "tier": 2,
+ "title": "Primera Nacional 2020 · Segundo ascenso",
+ "tournament": "Torneo Transición de la Primera Nacional 2020 · Segundo ascenso",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "platense"
+ ],
+ "summary": "El resto de los equipos jugó una fase de grupos y después un torneo por eliminación con los demás clasificados. Platense le ganó la final a Estudiantes de Río Cuarto por penales (1-1) y volvió a Primera después de 22 años.",
+ "pointsPerWin": 3,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2020",
+   "url": "https://www.rsssf.org/tablesa/arg2020.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato Transición de Primera Nacional 2020",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_Transici%C3%B3n_de_Primera_Nacional_2020"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Dos zonas de 8 a una rueda y después eliminación directa a un partido, en cancha neutral desde la tercera ronda."
+  }
+ ],
+ "publishedTable": [
+  {
+   "teamId": "san-martin-sj",
+   "played": 7,
+   "won": 4,
+   "drawn": 3,
+   "lost": 0,
+   "goalsFor": 5,
+   "goalsAgainst": 1,
+   "points": 15
+  },
+  {
+   "teamId": "barracas-central",
+   "played": 7,
+   "won": 4,
+   "drawn": 2,
+   "lost": 1,
+   "goalsFor": 7,
+   "goalsAgainst": 4,
+   "points": 14
+  },
+  {
+   "teamId": "belgrano",
+   "played": 7,
+   "won": 3,
+   "drawn": 3,
+   "lost": 1,
+   "goalsFor": 8,
+   "goalsAgainst": 3,
+   "points": 12
+  },
+  {
+   "teamId": "alvarado",
+   "played": 7,
+   "won": 2,
+   "drawn": 3,
+   "lost": 2,
+   "goalsFor": 12,
+   "goalsAgainst": 8,
+   "points": 9
+  },
+  {
+   "teamId": "mitre-sde",
+   "played": 7,
+   "won": 1,
+   "drawn": 5,
+   "lost": 1,
+   "goalsFor": 8,
+   "goalsAgainst": 9,
+   "points": 8
+  },
+  {
+   "teamId": "guillermo-brown",
+   "played": 7,
+   "won": 1,
+   "drawn": 3,
+   "lost": 3,
+   "goalsFor": 6,
+   "goalsAgainst": 7,
+   "points": 6
+  },
+  {
+   "teamId": "nueva-chicago",
+   "played": 7,
+   "won": 1,
+   "drawn": 2,
+   "lost": 4,
+   "goalsFor": 6,
+   "goalsAgainst": 12,
+   "points": 5
+  },
+  {
+   "teamId": "independiente-rivadavia",
+   "played": 7,
+   "won": 1,
+   "drawn": 1,
+   "lost": 5,
+   "goalsFor": 3,
+   "goalsAgainst": 11,
+   "points": 4
+  },
+  {
+   "teamId": "quilmes",
+   "played": 7,
+   "won": 4,
+   "drawn": 1,
+   "lost": 2,
+   "goalsFor": 9,
+   "goalsAgainst": 7,
+   "points": 13
+  },
+  {
+   "teamId": "instituto",
+   "played": 7,
+   "won": 3,
+   "drawn": 3,
+   "lost": 1,
+   "goalsFor": 11,
+   "goalsAgainst": 9,
+   "points": 12
+  },
+  {
+   "teamId": "almagro",
+   "played": 7,
+   "won": 4,
+   "drawn": 0,
+   "lost": 3,
+   "goalsFor": 7,
+   "goalsAgainst": 5,
+   "points": 12
+  },
+  {
+   "teamId": "ramon-santamarina",
+   "played": 7,
+   "won": 3,
+   "drawn": 1,
+   "lost": 3,
+   "goalsFor": 11,
+   "goalsAgainst": 10,
+   "points": 10
+  },
+  {
+   "teamId": "brown-adrogue",
+   "played": 7,
+   "won": 2,
+   "drawn": 3,
+   "lost": 2,
+   "goalsFor": 6,
+   "goalsAgainst": 5,
+   "points": 9
+  },
+  {
+   "teamId": "gimnasia-jujuy",
+   "played": 7,
+   "won": 2,
+   "drawn": 2,
+   "lost": 3,
+   "goalsFor": 9,
+   "goalsAgainst": 9,
+   "points": 8
+  },
+  {
+   "teamId": "all-boys",
+   "played": 7,
+   "won": 1,
+   "drawn": 4,
+   "lost": 2,
+   "goalsFor": 3,
+   "goalsAgainst": 8,
+   "points": 7
+  },
+  {
+   "teamId": "chacarita",
+   "played": 7,
+   "won": 1,
+   "drawn": 2,
+   "lost": 4,
+   "goalsFor": 6,
+   "goalsAgainst": 9,
+   "points": 5
+  }
+ ],
+ "groups": [
+  {
+   "name": "Zona A",
+   "teamIds": [
+    "san-martin-sj",
+    "barracas-central",
+    "belgrano",
+    "alvarado",
+    "mitre-sde",
+    "guillermo-brown",
+    "nueva-chicago",
+    "independiente-rivadavia"
+   ]
+  },
+  {
+   "name": "Zona B",
+   "teamIds": [
+    "quilmes",
+    "instituto",
+    "almagro",
+    "ramon-santamarina",
+    "brown-adrogue",
+    "gimnasia-jujuy",
+    "all-boys",
+    "chacarita"
+   ]
+  }
+ ],
+ "matches": [
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-001",
+   "date": "2020-11-28",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "alvarado",
+   "awayId": "guillermo-brown",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-002",
+   "date": "2020-11-28",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-003",
+   "date": "2020-11-28",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "mitre-sde",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Doctores José y Antonio Castiglione (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-004",
+   "date": "2020-11-28",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Ingeniero Hilario Sánchez (San Juan)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-005",
+   "date": "2020-12-05",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "El Gigante Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-006",
+   "date": "2020-12-05",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "alvarado",
+   "homeGoals": 2,
+   "awayGoals": 5,
+   "venue": "Nueva Chicago (Mataderos)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-007",
+   "date": "2020-12-05",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ingeniero Hilario Sánchez (San Juan)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-008",
+   "date": "2020-12-06",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "guillermo-brown",
+   "awayId": "mitre-sde",
+   "homeGoals": 4,
+   "awayGoals": 2,
+   "venue": "Raúl Conti (Puerto Madryn)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-009",
+   "date": "2020-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "alvarado",
+   "awayId": "san-martin-sj",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-010",
+   "date": "2020-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "belgrano",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-011",
+   "date": "2020-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "guillermo-brown",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Bautista Gargantini (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-012",
+   "date": "2020-12-14",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "mitre-sde",
+   "awayId": "nueva-chicago",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Doctores José y Antonio Castiglione (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-013",
+   "date": "2020-12-19",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "alvarado",
+   "awayId": "barracas-central",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-014",
+   "date": "2020-12-20",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 1,
+   "awayGoals": 2,
+   "venue": "Nueva Chicago (Mataderos)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-015",
+   "date": "2020-12-20",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "guillermo-brown",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Raúl Conti (Puerto Madryn)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-016",
+   "date": "2020-12-20",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "mitre-sde",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ingeniero Hilario Sánchez (San Juan)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-017",
+   "date": "2020-12-27",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "nueva-chicago",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "El Gigante Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-018",
+   "date": "2020-12-27",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "guillermo-brown",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-019",
+   "date": "2020-12-27",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "san-martin-sj",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Bautista Gargantini (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-020",
+   "date": "2020-12-27",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "mitre-sde",
+   "awayId": "alvarado",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Doctores José y Antonio Castiglione (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-021",
+   "date": "2021-01-02",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "mitre-sde",
+   "awayId": "barracas-central",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Doctores José y Antonio Castiglione (Santiago del Estero)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-022",
+   "date": "2021-01-03",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "san-martin-sj",
+   "awayId": "belgrano",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ingeniero Hilario Sánchez (San Juan)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-023",
+   "date": "2021-01-03",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "nueva-chicago",
+   "awayId": "guillermo-brown",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Nueva Chicago (Mataderos)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-024",
+   "date": "2021-01-03",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "alvarado",
+   "awayId": "independiente-rivadavia",
+   "homeGoals": 3,
+   "awayGoals": 0,
+   "venue": "José María Minella (Mar del Plata)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-025",
+   "date": "2021-01-10",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "belgrano",
+   "awayId": "alvarado",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "El Gigante Julio César Villagra (Córdoba X)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-026",
+   "date": "2021-01-10",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "barracas-central",
+   "awayId": "nueva-chicago",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Claudio \"Chiqui\" Tapia (Barracas)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-027",
+   "date": "2021-01-10",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "guillermo-brown",
+   "awayId": "san-martin-sj",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Raúl Conti (Puerto Madryn)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-028",
+   "date": "2021-01-10",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "independiente-rivadavia",
+   "awayId": "mitre-sde",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Bautista Gargantini (Mendoza)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-029",
+   "date": "2020-11-28",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "brown-adrogue",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Lorenzo Arandilla (Adrogué)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-030",
+   "date": "2020-11-28",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Tres de Febrero (José Ingenieros)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-031",
+   "date": "2020-11-28",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "ramon-santamarina",
+   "awayId": "quilmes",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Municipal General San Martín (Tandil)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-032",
+   "date": "2020-11-28",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 1",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "chacarita",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-033",
+   "date": "2020-12-03",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "brown-adrogue",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Chacarita Juniors (General San Martín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-034",
+   "date": "2020-12-04",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-035",
+   "date": "2020-12-05",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "ramon-santamarina",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Islas Malvinas (Monte Castro)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-036",
+   "date": "2020-12-05",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 2",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Centenario Ciudad de Quilmes (Quilmes)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-037",
+   "date": "2020-12-11",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Tres de Febrero (José Ingenieros)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-038",
+   "date": "2020-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "brown-adrogue",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Lorenzo Arandilla (Adrogué)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-039",
+   "date": "2020-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "all-boys",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "23 de Agosto (San Salvador de Jujuy)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-040",
+   "date": "2020-12-12",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 3",
+   "phase": "league",
+   "homeId": "ramon-santamarina",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Municipal General San Martín (Tandil)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-041",
+   "date": "2020-12-19",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "brown-adrogue",
+   "awayId": "almagro",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Lorenzo Arandilla (Adrogué)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-042",
+   "date": "2020-12-19",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Chacarita Juniors (General San Martín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-043",
+   "date": "2020-12-19",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Islas Malvinas (Monte Castro)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-044",
+   "date": "2020-12-21",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 4",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "ramon-santamarina",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Mario Alberto Kempes (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-045",
+   "date": "2020-12-27",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "all-boys",
+   "homeGoals": 4,
+   "awayGoals": 0,
+   "venue": "Tres de Febrero (José Ingenieros)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-046",
+   "date": "2020-12-27",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "instituto",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "23 de Agosto (San Salvador de Jujuy)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-047",
+   "date": "2020-12-28",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "ramon-santamarina",
+   "awayId": "brown-adrogue",
+   "homeGoals": 1,
+   "awayGoals": 3,
+   "venue": "Municipal General San Martín (Tandil)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-048",
+   "date": "2020-12-29",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 5",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "chacarita",
+   "homeGoals": 3,
+   "awayGoals": 2,
+   "venue": "Centenario Ciudad de Quilmes (Quilmes)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-049",
+   "date": "2021-01-03",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "ramon-santamarina",
+   "awayId": "almagro",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "Municipal General San Martín (Tandil)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-050",
+   "date": "2021-01-03",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "brown-adrogue",
+   "awayId": "gimnasia-jujuy",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Lorenzo Arandilla (Adrogué)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-051",
+   "date": "2021-01-03",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "chacarita",
+   "awayId": "all-boys",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Chacarita Juniors (General San Martín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-052",
+   "date": "2021-01-04",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 6",
+   "phase": "league",
+   "homeId": "instituto",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-053",
+   "date": "2021-01-11",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "almagro",
+   "awayId": "chacarita",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "Tres de Febrero (José Ingenieros)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-054",
+   "date": "2021-01-11",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "all-boys",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Islas Malvinas (Monte Castro)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-055",
+   "date": "2021-01-11",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "quilmes",
+   "awayId": "brown-adrogue",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Centenario Ciudad de Quilmes (Quilmes)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-056",
+   "date": "2021-01-11",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Fecha 7",
+   "phase": "league",
+   "homeId": "gimnasia-jujuy",
+   "awayId": "ramon-santamarina",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "23 de Agosto (San Salvador de Jujuy)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-057",
+   "date": "2021-01-17",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Primera ronda",
+   "phase": "playoff",
+   "homeId": "atlanta",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Ciudad de Río Cuarto - Antonio Candini (Río Cuarto)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "atlanta",
+   "note": "Atlanta ganó por penales (4-1)."
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-058",
+   "date": "2021-01-17",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Primera ronda",
+   "phase": "playoff",
+   "homeId": "defensores-belgrano",
+   "awayId": "instituto",
+   "homeGoals": 2,
+   "awayGoals": 0,
+   "venue": "El Coliseo de Mitre y Puccini (Campana)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-059",
+   "date": "2021-01-17",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Primera ronda",
+   "phase": "playoff",
+   "homeId": "estudiantes-ba",
+   "awayId": "barracas-central",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "Diego Armando Maradona (Villa General Mitre)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "estudiantes-ba",
+   "note": "Estudiantes (BA) ganó por penales (3-2)."
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-060",
+   "date": "2021-01-17",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Primera ronda",
+   "phase": "playoff",
+   "homeId": "gimnasia-mendoza",
+   "awayId": "ferro",
+   "homeGoals": 1,
+   "awayGoals": 4,
+   "venue": "Juan Domingo Perón (Córdoba)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-061",
+   "date": "2021-01-17",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Primera ronda",
+   "phase": "playoff",
+   "homeId": "tigre",
+   "awayId": "san-martin-sj",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "Ciudad de Caseros (Caseros)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "san-martin-sj",
+   "note": "San Martín (San Juan) ganó por penales (3-4)."
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-062",
+   "date": "2021-01-17",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Primera ronda",
+   "phase": "playoff",
+   "homeId": "deportivo-moron",
+   "awayId": "villa-dalmine",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-063",
+   "date": "2021-01-17",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Primera ronda",
+   "phase": "playoff",
+   "homeId": "deportivo-riestra",
+   "awayId": "temperley",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Chacarita Juniors (General San Martín)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-064",
+   "date": "2021-01-18",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Primera ronda",
+   "phase": "playoff",
+   "homeId": "agropecuario",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "León Kolbowski (Villa Crespo)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-065",
+   "date": "2021-01-21",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Segunda ronda",
+   "phase": "playoff",
+   "homeId": "atlanta",
+   "awayId": "ferro",
+   "homeGoals": 2,
+   "awayGoals": 1,
+   "venue": "Ciudad de Vicente López (Florida)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-066",
+   "date": "2021-01-21",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Segunda ronda",
+   "phase": "playoff",
+   "homeId": "defensores-belgrano",
+   "awayId": "quilmes",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Ciudad de Caseros (Caseros)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-067",
+   "date": "2021-01-21",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Segunda ronda",
+   "phase": "playoff",
+   "homeId": "estudiantes-ba",
+   "awayId": "san-martin-sj",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "León Kolbowski (Villa Crespo)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-068",
+   "date": "2021-01-21",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Segunda ronda",
+   "phase": "playoff",
+   "homeId": "deportivo-moron",
+   "awayId": "deportivo-riestra",
+   "homeGoals": 0,
+   "awayGoals": 1,
+   "venue": "Monumental de Victoria don José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-069",
+   "date": "2021-01-24",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Tercera ronda",
+   "phase": "playoff",
+   "homeId": "atletico-rafaela",
+   "awayId": "quilmes",
+   "homeGoals": 2,
+   "awayGoals": 2,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "atletico-rafaela",
+   "note": "Atlético de Rafaela ganó por penales (10-9)."
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-070",
+   "date": "2021-01-24",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Tercera ronda",
+   "phase": "playoff",
+   "homeId": "estudiantes-ba",
+   "awayId": "atlanta",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Monumental de Victoria don José Dellagiovanna (Victoria)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-071",
+   "date": "2021-01-24",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Tercera ronda",
+   "phase": "playoff",
+   "homeId": "platense",
+   "awayId": "deportivo-riestra",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "venue": "Ciudad de Caseros (Caseros)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "platense",
+   "note": "Platense ganó por penales (8-7)."
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-072",
+   "date": "2021-01-27",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Semifinal",
+   "phase": "playoff",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "estudiantes-ba",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "venue": "Gigante de Arroyito (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-073",
+   "date": "2021-01-27",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Semifinal",
+   "phase": "playoff",
+   "homeId": "atletico-rafaela",
+   "awayId": "platense",
+   "homeGoals": 0,
+   "awayGoals": 2,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ]
+  },
+  {
+   "id": "primera-nacional-2020-segundo-ascenso-074",
+   "date": "2021-01-31",
+   "competition": "Asociación del Fútbol Argentino · Primera Nacional · Transición 2020",
+   "stage": "Final",
+   "phase": "playoff",
+   "homeId": "estudiantes-rio-cuarto",
+   "awayId": "platense",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "venue": "El Coloso del Parque Marcelo Alberto Bielsa (Rosario)",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "advancedId": "platense",
+   "note": "Platense ganó por penales (2-4)."
+  }
+ ]
+}
