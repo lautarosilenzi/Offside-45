@@ -1253,3 +1253,110 @@ ASCENSO_TOURNAMENTS.push(
     notes: [{ kind: "formato", text: "Desempates a un partido en cancha neutral y promociones a ida y vuelta." }],
   }),
 );
+
+// ───────── 2005/06 ─────────
+const A0506: Record<string, string> = {
+  ...A0405,
+  "Atletico Rafaela": "atletico-rafaela",
+  "Ben Hur": "ben-hur",
+  "Dep. Morón": "deportivo-moron",
+  "Huracán (BA)": "huracan",
+  "San Martín (T)": "san-martin-tucuman",
+  Talleres: "talleres",
+  // Tablas: "Godoy Cruz Antonio Tomba (Godoy Cruz)" y lo mismo sin paréntesis.
+  "Godoy Cruz Antonio Tomba (Godoy Cruz)": "godoy-cruz",
+  "Almagro (Buenos Aires)": "almagro",
+  "Chacarita Juniors (Buenos Aires)": "chacarita",
+  "Huracán (Buenos Aires)": "huracan",
+  "Defensa y Justicia (Florencio Varela)": "defensa-y-justicia",
+  "Ferro Carril Oeste (Buenos Aires)": "ferro",
+  "Tigre (Victoria)": "tigre",
+  "Ben Hur (Rafaela)": "ben-hur",
+  "Atlético de Rafaela (Rafaela)": "atletico-rafaela",
+  "C.A.I. (Comodoro Rivadavia)": "cai",
+  "Nueva Chicago (Buenos Aires)": "nueva-chicago",
+  "Aldosivi (Mar del Plata)": "aldosivi",
+  "El Porvenir (Gerli)": "el-porvenir",
+};
+for (const [k, v] of Object.entries(A0506)) if (k.includes("(")) A0506[k.replace(/[()]/g, "").replace(/\s+/g, " ")] = v;
+const H0506 = [/^Apertura 2005/i, /^Clausura 2005\/06/i, /^Aggregate Table/i, /^Championship Playoff/i, /^Second Promotion Playoff/i, /^Reducido/i, /^Promotion\/Relegation Playoff/i, /^Descenso\s*$/i, /^Relegation Table \(/i];
+// Fechas de las llaves como "First Legs [May 16]" o "First Leg (May 23)".
+const pre0506 = (page: string) =>
+  page
+    .split(/\r?\n/)
+    .flatMap((line) => {
+      const leg = line.match(/^((?:First|Second) Legs?)\s*[[(](\w{3} \d+)[)\]]\s*$/);
+      if (leg) return [leg[1].replace(/s$/, ""), `[${leg[2]}]`];
+      return [line];
+    })
+    .join("\n");
+const WIKI0506 = "Campeonato de Primera B Nacional 2005-06";
+ASCENSO_TOURNAMENTS.push(
+  abTorneo(2005, "apertura", "arg2-06.html", A0506, "godoy-cruz", "Godoy Cruz ganó el Apertura y después la final por el campeonato con Nueva Chicago, ganador del Clausura: campeón de la Nacional B 2005/06 y primer ascenso a Primera de su historia.", {
+    sectionRange: { from: /^Apertura 2005/i, to: /^Clausura 2005\/06/i },
+    headings: H0506,
+    preprocess: pre0506,
+    wiki: undefined,
+  }),
+  abTorneo(2005, "clausura", "arg2-06.html", A0506, "nueva-chicago", "Nueva Chicago ganó el Clausura. Perdió la final por el campeonato con Godoy Cruz, pero ascendió igual: le ganó la serie por el segundo ascenso a Belgrano.", {
+    sectionRange: { from: /^Clausura 2005\/06/i, to: /^Aggregate Table/i },
+    headings: H0506,
+    preprocess: pre0506,
+    wiki: undefined,
+  }),
+  nacionalBExtra(2005, "final", "Final por el campeonato", {
+    file: "arg2-06.html",
+    preprocess: pre0506,
+    section: /^Championship Playoff/i,
+    headings: H0506,
+    aliases: A0506,
+    wiki: WIKI0506,
+    playoffFrom: { date: "2006-01-01", stage: "Final" },
+    championIds: ["godoy-cruz"],
+    runnerUpIds: ["nueva-chicago"],
+    summary: "Godoy Cruz empató 1-1 en Mataderos y le ganó 3-1 a Nueva Chicago en Mendoza: campeón de la Nacional B 2005/06 y ascenso a Primera.",
+    notes: [{ kind: "formato", text: "Final a ida y vuelta entre los ganadores del Apertura y del Clausura." }],
+  }),
+  nacionalBExtra(2005, "segundo-ascenso", "Segundo ascenso", {
+    file: "arg2-06.html",
+    preprocess: pre0506,
+    section: /^Second Promotion Playoff/i,
+    headings: H0506,
+    aliases: A0506,
+    wiki: WIKI0506,
+    playoffFrom: { date: "2006-01-01", stage: "Segundo ascenso" },
+    championIds: ["nueva-chicago"],
+    runnerUpIds: ["belgrano"],
+    summary: "Nueva Chicago, perdedor de la final, le ganó 3-1 a Belgrano en cancha de Ferro y empató 3-3 en Córdoba: segundo ascenso a Primera. Belgrano fue a la promoción y también subió.",
+    notes: [{ kind: "formato", text: "Serie a ida y vuelta entre el perdedor de la final y el mejor de la tabla general." }],
+  }),
+  nacionalBExtra(2005, "reducido", "Reducido", {
+    file: "arg2-06.html",
+    preprocess: pre0506,
+    sectionRange: { from: /^Reducido/i, to: /^Promotion\/Relegation Playoff/i },
+    headings: H0506,
+    aliases: A0506,
+    wiki: WIKI0506,
+    playoffRounds: [
+      { date: "2006-05-16", stage: "Primera ronda" },
+      { date: "2006-05-23", stage: "Final" },
+    ],
+    championIds: ["huracan"],
+    runnerUpIds: ["chacarita"],
+    summary: "Huracán ganó el reducido (3-0 y 0-2 con Chacarita en la final) y jugó la promoción con Argentinos Juniors: empató las dos y se quedó en la B por la ventaja deportiva de Argentinos.",
+    notes: [{ kind: "formato", text: "Del 3.º al 6.º de la tabla general, eliminación a ida y vuelta." }],
+  }),
+  nacionalBExtra(2005, "promocion", "Promoción con la B Metropolitana y el Argentino A", {
+    file: "arg2-06.html",
+    preprocess: pre0506,
+    sectionRange: { from: /^Relegation Table \(Metropolitana\)/i },
+    headings: H0506,
+    aliases: A0506,
+    publishedTable: [],
+    tableIndex: [],
+    playoffFrom: { date: "2006-01-01", stage: "Promoción" },
+    championIds: [],
+    summary: "Defensa y Justicia se quedó en la Nacional B ante Deportivo Morón (B Metropolitana) por la ventaja deportiva. San Martín de Tucumán (Argentino A) le ganó la serie a San Martín de Mendoza y subió.",
+    notes: [{ kind: "formato", text: "Series a ida y vuelta; con igualdad, se quedaba el equipo de la categoría superior." }],
+  }),
+);

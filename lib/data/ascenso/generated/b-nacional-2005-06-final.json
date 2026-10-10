@@ -1,0 +1,69 @@
+{
+ "slug": "b-nacional-2005-06-final",
+ "runnerUpIds": [
+  "nueva-chicago"
+ ],
+ "year": 2005,
+ "yearLabel": "2005/06",
+ "league": "Final por el campeonato",
+ "tier": 2,
+ "title": "Primera B Nacional 2005/06 · Final por el campeonato",
+ "tournament": "Final por el campeonato de la Primera B Nacional 2005/06",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "godoy-cruz"
+ ],
+ "summary": "Godoy Cruz empató 1-1 en Mataderos y le ganó 3-1 a Nueva Chicago en Mendoza: campeón de la Nacional B 2005/06 y ascenso a Primera.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2005",
+   "url": "https://www.rsssf.org/tablesa/arg2-06.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera B Nacional 2005-06",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_B_Nacional_2005-06"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Final a ida y vuelta entre los ganadores del Apertura y del Clausura."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-2005-06-final-001",
+   "date": "2006-05-16",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Final",
+   "phase": "playoff",
+   "homeId": "nueva-chicago",
+   "awayId": "godoy-cruz",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Higuaín / Torresi."
+  },
+  {
+   "id": "b-nacional-2005-06-final-002",
+   "date": "2006-05-20",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Final por el campeonato",
+   "stage": "Final",
+   "phase": "playoff",
+   "homeId": "godoy-cruz",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Villar, Giménez (2) / Carranza."
+  }
+ ]
+}

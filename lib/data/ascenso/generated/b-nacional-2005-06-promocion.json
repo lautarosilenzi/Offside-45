@@ -1,0 +1,86 @@
+{
+ "slug": "b-nacional-2005-06-promocion",
+ "year": 2005,
+ "yearLabel": "2005/06",
+ "league": "Promoción con la B Metropolitana y el Argentino A",
+ "tier": 2,
+ "title": "Primera B Nacional 2005/06 · Promoción con la B Metropolitana y el Argentino A",
+ "tournament": "Promoción con la B Metropolitana y el Argentino A de la Primera B Nacional 2005/06",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [],
+ "summary": "Defensa y Justicia se quedó en la Nacional B ante Deportivo Morón (B Metropolitana) por la ventaja deportiva. San Martín de Tucumán (Argentino A) le ganó la serie a San Martín de Mendoza y subió.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2005",
+   "url": "https://www.rsssf.org/tablesa/arg2-06.html"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Series a ida y vuelta; con igualdad, se quedaba el equipo de la categoría superior."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-2005-06-promocion-001",
+   "date": "2006-05-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "deportivo-moron",
+   "awayId": "defensa-y-justicia",
+   "homeGoals": 1,
+   "awayGoals": 1,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Akerman / Romero."
+  },
+  {
+   "id": "b-nacional-2005-06-promocion-002",
+   "date": "2006-06-03",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "defensa-y-justicia",
+   "awayId": "deportivo-moron",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ]
+  },
+  {
+   "id": "b-nacional-2005-06-promocion-003",
+   "date": "2006-05-31",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "san-martin-tucuman",
+   "awayId": "san-martin-mendoza",
+   "homeGoals": 1,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Goles: Cortés."
+  },
+  {
+   "id": "b-nacional-2005-06-promocion-004",
+   "date": "2006-06-04",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Promoción con la B Metropolitana y el Argentino A",
+   "stage": "Promoción",
+   "phase": "playoff",
+   "homeId": "san-martin-mendoza",
+   "awayId": "san-martin-tucuman",
+   "homeGoals": 0,
+   "awayGoals": 0,
+   "sources": [
+    "rsssf"
+   ]
+  }
+ ]
+}

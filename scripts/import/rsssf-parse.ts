@@ -68,6 +68,8 @@ const decode = (s: string) =>
     .replace(/&nbsp;/g, " ")
     // Apóstrofo de Windows-1252 (0x92) leído como latin1, y el tipográfico: "Buenos Aires’ rounds".
     .replace(/[\u0092’]/g, "'")
+    // Guion de Windows-1252 (0x96) leído como latin1, y los guiones tipográficos: "Almagro  1–1 Unión" (2006).
+    .replace(/(\d)\s*[\u0096–—]\s*(\d)/g, "$1-$2")
     .replace(/&amp;/g, "&")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")

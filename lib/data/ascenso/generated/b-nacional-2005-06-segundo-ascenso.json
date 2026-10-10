@@ -1,0 +1,69 @@
+{
+ "slug": "b-nacional-2005-06-segundo-ascenso",
+ "runnerUpIds": [
+  "belgrano"
+ ],
+ "year": 2005,
+ "yearLabel": "2005/06",
+ "league": "Segundo ascenso",
+ "tier": 2,
+ "title": "Primera B Nacional 2005/06 · Segundo ascenso",
+ "tournament": "Segundo ascenso de la Primera B Nacional 2005/06",
+ "organizer": "Asociación del Fútbol Argentino",
+ "championIds": [
+  "nueva-chicago"
+ ],
+ "summary": "Nueva Chicago, perdedor de la final, le ganó 3-1 a Belgrano en cancha de Ferro y empató 3-3 en Córdoba: segundo ascenso a Primera. Belgrano fue a la promoción y también subió.",
+ "pointsPerWin": 2,
+ "sources": [
+  {
+   "label": "RSSSF – Argentina 2005",
+   "url": "https://www.rsssf.org/tablesa/arg2-06.html"
+  },
+  {
+   "label": "Wikipedia – Campeonato de Primera B Nacional 2005-06",
+   "url": "https://es.wikipedia.org/wiki/Campeonato_de_Primera_B_Nacional_2005-06"
+  }
+ ],
+ "notes": [
+  {
+   "kind": "formato",
+   "text": "Serie a ida y vuelta entre el perdedor de la final y el mejor de la tabla general."
+  }
+ ],
+ "publishedTable": [],
+ "matches": [
+  {
+   "id": "b-nacional-2005-06-segundo-ascenso-001",
+   "date": "2006-05-23",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Segundo ascenso",
+   "stage": "Segundo ascenso",
+   "phase": "playoff",
+   "homeId": "nueva-chicago",
+   "awayId": "belgrano",
+   "homeGoals": 3,
+   "awayGoals": 1,
+   "venue": "Cancha de Ferro Carril Oeste",
+   "sources": [
+    "rsssf",
+    "wikipedia-es"
+   ],
+   "note": "Goles: Higuain (de penal), Carranza, Simón / Gigli."
+  },
+  {
+   "id": "b-nacional-2005-06-segundo-ascenso-002",
+   "date": "2006-05-27",
+   "competition": "Asociación del Fútbol Argentino · Primera B Nacional · Segundo ascenso",
+   "stage": "Segundo ascenso",
+   "phase": "playoff",
+   "homeId": "belgrano",
+   "awayId": "nueva-chicago",
+   "homeGoals": 3,
+   "awayGoals": 3,
+   "sources": [
+    "rsssf"
+   ],
+   "note": "Con alargue. Goles: Campodónico (2), Bustos / Wernly, Simón, Pellerano."
+  }
+ ]
+}
