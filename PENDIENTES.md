@@ -134,6 +134,7 @@ No suma en títulos ni estadísticas de Primera; sí en los historiales. Página
 - [x] 1986 Primera B (Torneo Apertura): 180 partidos, coincide con la tabla. (Wikipedia no tiene artículo con partidos.)
 - [x] 1986/87 Primera B Nacional: 462 partidos, los 462 confirmados por Wikipedia. + Reducido (14) + triangular por el descenso (3).
 - [x] 1987/88–1994/95 Nacional B: 22 equipos, reducido, desempates y promociones. Con Wikipedia coinciden entre el 96% y el 100% de los partidos; las diferencias quedan anotadas en cada temporada (se dejó el resultado con el que cierra la tabla publicada).
-- [ ] 1995/96 en adelante hasta hoy.
+- [x] 1995/96 a 2023: todas las temporadas, con reducidos, finales, desempates y promociones con la B Metro y el Argentino A (las promociones con Primera ya estaban cargadas en Primera). Desde 2007/08 casi todas coinciden 100% con Wikipedia; las diferencias quedan anotadas en cada temporada como "a verificar".
+- [ ] 2024 y 2025 (2024: falta el reducido y explicar los 3 puntos menos de Quilmes y San Telmo).
 - [ ] Primera B 1935–1985 (hacia atrás).
 - [ ] Era amateur (segunda división hasta 1934): ver qué tiene RSSSF partido por partido.

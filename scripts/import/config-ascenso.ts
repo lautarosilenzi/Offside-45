@@ -2419,3 +2419,5 @@ ASCENSO_TOURNAMENTS.push(
     more: { pointAdjustments: [{ teamId: "guillermo-brown", points: -3, reason: "descuento que registra RSSSF (la fuente no da el motivo)" }] },
   }),
 );
+
+// 2024 y 2025: pendientes (borrador en el historial de la sesión; faltaba el reducido de 2024 y explicar los 3 puntos menos de Quilmes y San Telmo).
